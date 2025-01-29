@@ -74,8 +74,8 @@ def get_articles():
                 feed_domain = get_feed_domain(feed_url)
 
                 for item in root.findall(".//item"):
-                    title = clean_title(item.findtext("title", "").strip())
-                    description = clean_description(item.findtext("description", "").strip())
+                    title = clean_text(item.findtext("title", "").strip())
+                    description = clean_text(item.findtext("description", "").strip())
                     pub_date_str = item.findtext("pubDate", "").strip()
                     source = extract_source(root)
                     category = map_category(item.findtext("category"), feed_domain)
@@ -108,17 +108,16 @@ def export_to_json(articles):
     with open("articles.json", "w", encoding="utf-8") as f:
         json.dump(categorized_data, f, ensure_ascii=False, indent=4)
 
-def clean_title(title):
-    if title.startswith("<![CDATA[") and title.endswith("]]>"):
-        title = title[9:-3]
-    return title.replace('\\"', "").replace("'", "").strip()
-
-def clean_description(description):
-    description = re.sub(r"<[^>]+>", "", description)
-    description = unescape(description).replace('\\"', "").replace("'", "")
-    return description[:200] + "..." if len(description) > 200 else description
+def clean_text(text):
+    """ Remove caracteres especiais e substitui aspas por << e >>. """
+    text = unescape(text)  # Remove entidades HTML
+    text = re.sub(r"<[^>]+>", "", text)  # Remove tags HTML
+    text = text.replace('\\"', "").replace("\n", " ")  # Remove \"
+    text = text.replace('"', " << ").replace("'", "")  # Substitui " por <<
+    return text.strip()
 
 def extract_source(root):
+    """ Extrai o nome da fonte e remove sufixos indesejados. """
     channel_title = root.find(".//channel/title")
     if channel_title is not None:
         source_name = channel_title.text.strip()
@@ -127,6 +126,7 @@ def extract_source(root):
     return "Desconhecido"
 
 def extract_image_url(item):
+    """ Procura uma imagem válida no RSS. """
     for tag in ["media:content", "enclosure", "image", "img"]:
         element = item.find(tag)
         if element is not None and "url" in element.attrib:
@@ -134,6 +134,7 @@ def extract_image_url(item):
     return None
 
 def parse_date(date_str):
+    """ Converte a data do RSS para datetime. """
     if not date_str:
         return None
     for fmt in DATE_FORMATS:
@@ -144,9 +145,11 @@ def parse_date(date_str):
     return None
 
 def get_feed_domain(feed_url):
+    """ Extrai o domínio do feed RSS. """
     return feed_url.split("//")[-1].split("/")[0]
 
 def map_category(feed_category, feed_domain):
+    """ Determina a categoria da notícia. """
     if feed_domain in FEED_CATEGORY_MAPPER:
         return FEED_CATEGORY_MAPPER[feed_domain]
     if feed_category in CATEGORY_MAPPER:
