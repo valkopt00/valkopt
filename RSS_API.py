@@ -28,29 +28,29 @@ DATE_FORMATS = [
     "%Y-%m-%d %H:%M:%S"
 ]
 
-# Mapeamento de feeds para categorias fixas
-FEED_CATEGORY_MAPPER = {
-    "https://www.record.pt/rss/": "Desporto",
-    "https://www.autosport.pt/feed/": "Desporto",
-    "https://www.jornaldenegocios.pt/rss": "Economia",
-    "https://www.jornaleconomico.sapo.pt/feed/": "Economia"
-}
+DEFAULT_CATEGORIES = ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Tecnologia", "Sociedade"]
 
-# Mapeamento de categorias encontradas nos feeds para categorias padrão
 CATEGORY_MAPPER = {
     "País": "Nacional",
     "Portugal": "Nacional",
     "Internacional": "Mundo",
-    "Economia e Finanças": "Economia",
-    "Desporto Geral": "Desporto",
     "Futebol": "Desporto",
-    "Cultura e Artes": "Cultura",
-    "Tecnologia e Ciência": "Tecnologia",
-    "Sociedade e Vida": "Sociedade"
+    "Negócios": "Economia",
+    "Finanças": "Economia",
+    "Artes": "Cultura",
+    "Ciência": "Tecnologia",
+    "Saúde": "Sociedade"
+}
+
+FEED_CATEGORY_MAPPER = {
+    "https://www.record.pt/rss/": "Desporto",
+    "https://www.jornaldenegocios.pt/rss": "Economia",
+    "https://www.jornaleconomico.sapo.pt/feed/": "Economia"
 }
 
 def get_articles():
-    articles = []
+    categorized_articles = {category: [] for category in ["Últimas"] + DEFAULT_CATEGORIES}
+    
     now = datetime.now(timezone.utc)
     last_24_hours = now - timedelta(days=1)
 
@@ -58,9 +58,7 @@ def get_articles():
         attempts = 0
         while attempts < 3:
             try:
-                headers = {
-                    "User-Agent": "Mozilla/5.0"
-                }
+                headers = {"User-Agent": "Mozilla/5.0"}
                 response = requests.get(feed_url, headers=headers)
                 response.raise_for_status()
 
@@ -69,36 +67,49 @@ def get_articles():
                     break
 
                 root = ET.fromstring(response.content)
-                default_category = FEED_CATEGORY_MAPPER.get(feed_url)
 
                 for item in root.findall(".//item"):
                     title = clean_title(item.findtext("title", "").strip())
                     description = clean_description(item.findtext("description", "").strip())
                     pub_date_str = item.findtext("pubDate", "").strip()
                     source = extract_source(root)
+                    category = map_category(feed_url, item.findtext("category"))
                     image_url = extract_image_url(item)
                     
-                    # Determinar a categoria
-                    category = item.findtext("category")
-                    category = map_category(category, default_category)
-
                     pub_date = parse_date(pub_date_str)
                     if pub_date and pub_date >= last_24_hours:
-                        articles.append({
+                        article = {
                             "title": title,
                             "description": description,
                             "image": image_url,
                             "source": source,
                             "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
                             "category": category
-                        })
+                        }
+                        categorized_articles["Últimas"].append(article)
+                        if category in DEFAULT_CATEGORIES:
+                            categorized_articles[category].append(article)
+
                 break
             except requests.exceptions.RequestException as e:
                 print(f"Erro ao processar {feed_url}: {e}")
                 break
 
-    articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
-    export_to_json(articles)
+    for category in categorized_articles:
+        categorized_articles[category].sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
+
+    export_to_json(categorized_articles)
+
+def map_category(feed_url, raw_category):
+    if feed_url in FEED_CATEGORY_MAPPER:
+        return FEED_CATEGORY_MAPPER[feed_url]
+    
+    if raw_category:
+        mapped_category = CATEGORY_MAPPER.get(raw_category.strip(), raw_category.strip())
+        if mapped_category in DEFAULT_CATEGORIES:
+            return mapped_category
+
+    return None
 
 def export_to_json(data):
     with open("articles.json", "w", encoding="utf-8") as f:
@@ -135,12 +146,6 @@ def parse_date(date_str):
         except ValueError:
             continue
     return None
-
-def map_category(feed_category, default_category):
-    """Mapeia a categoria de um artigo para a categoria padrão."""
-    if default_category:
-        return default_category  # Se o feed já tem categoria fixa, usa essa
-    return CATEGORY_MAPPER.get(feed_category, None)  # Caso contrário, tenta mapear
 
 if __name__ == "__main__":
     get_articles()
