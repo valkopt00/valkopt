@@ -128,7 +128,12 @@ def clean_description(description):
 
 def extract_source(root):
     channel_title = root.find(".//channel/title")
-    return channel_title.text.strip() if channel_title is not None else "Desconhecido"
+    if channel_title is not None:
+        source = channel_title.text.strip()
+        source = source.split(" - ")[0]  # Corta no primeiro " - "  
+        source = source.split(" / ")[0]  # Corta no primeiro " / "  
+        return source
+    return "Desconhecido"
 
 def extract_image_url(item):
     for tag in ["media:content", "enclosure", "image", "img"]:
