@@ -1,36 +1,33 @@
-name: Atualizar JSON
+name: Atualizar JSON de Notícias
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Corre a cada 5 minutos
+    - cron: "*/5 * * * *"  # Executa a cada 5 minutos
   workflow_dispatch:  # Permite execução manual
 
 jobs:
-  update_and_commit:
+  update-json:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout do repositório
-        uses: actions/checkout@v3
+      - name: Clonar repositório
+        uses: actions/checkout@v4
 
       - name: Configurar Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
         with:
-          python-version: "3.9"
+          python-version: "3.10"
 
       - name: Instalar dependências
-        run: pip install requests fastapi
+        run: pip install requests
 
-      - name: Executar script
+      - name: Executar script para atualizar JSON
         run: python RSS_API.py
 
-      - name: Configurar Git
+      - name: Fazer commit do JSON (reescrever histórico)
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-
-      - name: Fazer commit do JSON
-        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add articles.json
-          git commit -m "Atualização automática do JSON"
-          git push
-        continue-on-error: true  # Evita falhas se não houver mudanças
+          git commit -m "Atualização automática do JSON" || exit 0
+          git push --force origin main
