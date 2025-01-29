@@ -1,7 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
-import time
 import json
 import re
 from html import unescape
@@ -57,44 +56,38 @@ def get_articles():
     last_24_hours = now - timedelta(days=1)
 
     for feed_url in RSS_FEEDS:
-        attempts = 0
-        while attempts < 3:
-            try:
-                headers = {
-                    "User-Agent": "Mozilla/5.0"
-                }
-                response = requests.get(feed_url, headers=headers)
-                response.raise_for_status()
+        try:
+            headers = {"User-Agent": "Mozilla/5.0"}
+            response = requests.get(feed_url, headers=headers)
+            response.raise_for_status()
 
-                if not response.content.strip():
-                    print(f"Conteúdo vazio para o feed {feed_url}")
-                    break
+            if not response.content.strip():
+                print(f"Conteúdo vazio para o feed {feed_url}")
+                continue
 
-                root = ET.fromstring(response.content)
-                feed_domain = get_feed_domain(feed_url)
+            root = ET.fromstring(response.content)
+            feed_domain = get_feed_domain(feed_url)
 
-                for item in root.findall(".//item"):
-                    title = clean_text(item.findtext("title", "").strip())
-                    description = clean_text(item.findtext("description", "").strip())
-                    pub_date_str = item.findtext("pubDate", "").strip()
-                    source = extract_source(root)
-                    category = map_category(item.findtext("category"), feed_domain)
-                    image_url = extract_image_url(item)
-                    
-                    pub_date = parse_date(pub_date_str)
-                    if pub_date and pub_date >= last_24_hours:
-                        articles.append({
-                            "title": title,
-                            "description": description,
-                            "image": image_url,
-                            "source": source,
-                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
-                            "category": category
-                        })
-                break
-            except requests.exceptions.RequestException as e:
-                print(f"Erro ao processar {feed_url}: {e}")
-                break
+            for item in root.findall(".//item"):
+                title = clean_title(item.findtext("title", "").strip())
+                description = clean_description(item.findtext("description", "").strip())
+                pub_date_str = item.findtext("pubDate", "").strip()
+                source = extract_source(root)
+                category = map_category(item.findtext("category"), feed_domain)
+                image_url = extract_image_url(item)
+
+                pub_date = parse_date(pub_date_str)
+                if pub_date and pub_date >= last_24_hours:
+                    articles.append({
+                        "title": title,
+                        "description": description,
+                        "image": image_url,
+                        "source": source,
+                        "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
+                        "category": category
+                    })
+        except requests.exceptions.RequestException as e:
+            print(f"Erro ao processar {feed_url}: {e}")
 
     articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
     export_to_json(articles)
@@ -108,16 +101,21 @@ def export_to_json(articles):
     with open("articles.json", "w", encoding="utf-8") as f:
         json.dump(categorized_data, f, ensure_ascii=False, indent=4)
 
-def clean_text(text):
-    """ Remove caracteres especiais e substitui aspas por << e >>. """
-    text = unescape(text)  # Remove entidades HTML
-    text = re.sub(r"<[^>]+>", "", text)  # Remove tags HTML
-    text = text.replace('\\"', "").replace("\n", " ")  # Remove \"
-    text = text.replace('"', " << ").replace("'", "")  # Substitui " por <<
-    return text.strip()
+def clean_title(title):
+    """ Corrige títulos dentro de CDATA e remove caracteres desnecessários. """
+    if title.startswith("<![CDATA[") and title.endswith("]]>"):
+        title = title[9:-3]  # Remove CDATA
+    return title.strip()
+
+def clean_description(description):
+    """ Remove HTML, caracteres de escape e \n do texto. """
+    description = unescape(description)
+    description = re.sub(r"<[^>]+>", "", description)  # Remove tags HTML
+    description = description.replace('\\"', "").replace("\n", " ")  # Remove \"
+    return description.strip()
 
 def extract_source(root):
-    """ Extrai o nome da fonte e remove sufixos indesejados. """
+    """ Extrai a fonte e remove sufixos indesejados. """
     channel_title = root.find(".//channel/title")
     if channel_title is not None:
         source_name = channel_title.text.strip()
