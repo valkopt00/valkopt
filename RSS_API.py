@@ -28,6 +28,27 @@ DATE_FORMATS = [
     "%Y-%m-%d %H:%M:%S"
 ]
 
+# Mapeamento de feeds para categorias fixas
+FEED_CATEGORY_MAPPER = {
+    "https://www.record.pt/rss/": "Desporto",
+    "https://www.autosport.pt/feed/": "Desporto",
+    "https://www.jornaldenegocios.pt/rss": "Economia",
+    "https://www.jornaleconomico.sapo.pt/feed/": "Economia"
+}
+
+# Mapeamento de categorias encontradas nos feeds para categorias padrão
+CATEGORY_MAPPER = {
+    "País": "Nacional",
+    "Portugal": "Nacional",
+    "Internacional": "Mundo",
+    "Economia e Finanças": "Economia",
+    "Desporto Geral": "Desporto",
+    "Futebol": "Desporto",
+    "Cultura e Artes": "Cultura",
+    "Tecnologia e Ciência": "Tecnologia",
+    "Sociedade e Vida": "Sociedade"
+}
+
 def get_articles():
     articles = []
     now = datetime.now(timezone.utc)
@@ -48,15 +69,19 @@ def get_articles():
                     break
 
                 root = ET.fromstring(response.content)
+                default_category = FEED_CATEGORY_MAPPER.get(feed_url)
 
                 for item in root.findall(".//item"):
                     title = clean_title(item.findtext("title", "").strip())
                     description = clean_description(item.findtext("description", "").strip())
                     pub_date_str = item.findtext("pubDate", "").strip()
                     source = extract_source(root)
-                    category = item.findtext("category")
                     image_url = extract_image_url(item)
                     
+                    # Determinar a categoria
+                    category = item.findtext("category")
+                    category = map_category(category, default_category)
+
                     pub_date = parse_date(pub_date_str)
                     if pub_date and pub_date >= last_24_hours:
                         articles.append({
@@ -110,6 +135,12 @@ def parse_date(date_str):
         except ValueError:
             continue
     return None
+
+def map_category(feed_category, default_category):
+    """Mapeia a categoria de um artigo para a categoria padrão."""
+    if default_category:
+        return default_category  # Se o feed já tem categoria fixa, usa essa
+    return CATEGORY_MAPPER.get(feed_category, None)  # Caso contrário, tenta mapear
 
 if __name__ == "__main__":
     get_articles()
