@@ -156,6 +156,9 @@ def extract_image_url(item: Element):
         if match:
             return match.group(1)  # Retorna o primeiro URL encontrado
 
+    if "jornaleconomico.sapo.pt" in source:
+        return "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
+
     # Se ainda não encontrou imagem, tenta dentro da <description>
     description = item.find("description")
     if description is not None and description.text:
