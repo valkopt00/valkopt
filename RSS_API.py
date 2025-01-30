@@ -141,6 +141,14 @@ def extract_image_url(item: Element):
         element = item.find(tag, namespaces)  # Passa namespaces para garantir que encontra media:content
         if element is not None and "url" in element.attrib:
             url = element.attrib["url"]
+
+            # Se não encontrou imagem, verificar dentro da <content:encoded>
+            content_encoded = item.find("content:encoded")
+            if content_encoded is not None and content_encoded.text:
+                match = re.search(r'<img\s+[^>]*src="([^"]+)"', content_encoded.text)
+                if match:
+                    return match.group(1)  # Retorna o primeiro URL encontrado
+            return None  # Retorna None se não encontrar imagem
             
             # Corrigir URLs duplicados no caso específico do Record
             if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
