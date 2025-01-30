@@ -4,6 +4,8 @@ from datetime import datetime, timedelta, timezone
 import json
 import re
 from html import unescape
+from xml.etree.ElementTree import Element
+
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
