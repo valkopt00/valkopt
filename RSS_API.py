@@ -164,18 +164,30 @@ REMOTE_PATH = "/home/valkopt/httpdocs/Json/articles.json"  # Caminho onde o fich
 
 def upload_to_ftp():
     try:
+        # Debug: Verificar a resolução de DNS para o host
+        print(f"Verificando se o servidor {FTP_HOST} está acessível...")
+        socket.gethostbyname(FTP_HOST)  # Tenta resolver o hostname (IP)
+        print(f"Conexão com o servidor {FTP_HOST} está acessível.")
+
         # Conectando-se ao FTP com a classe FTP_TLS
+        print("Conectando ao servidor FTP...")
         ftps = FTP_TLS()
         ftps.connect(FTP_HOST, 21)
         ftps.login(FTP_USER, FTP_PASS)
         ftps.prot_p()  # Ativa modo seguro
+        print("Login realizado com sucesso!")
+
+        # Upload do arquivo
         with open("articles.json", "rb") as file:
-            # Usando a função STOR para fazer o upload do arquivo
             ftps.storbinary(f"STOR {REMOTE_PATH}", file)
+        
         ftps.quit()  # Fechando a conexão
         print("✅ Upload para o FTP concluído com sucesso!")
+    except socket.gaierror as e:
+        print(f"❌ Erro ao tentar resolver o host: {e}")
     except Exception as e:
         print(f"❌ Erro ao enviar o JSON para o FTP: {e}")
+
 
 # Chamar esta função no final do teu script:
 upload_to_ftp()
