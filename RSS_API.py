@@ -126,12 +126,19 @@ def extract_source(root):
     return "Desconhecido"
 
 def extract_image_url(item):
-    """ Procura uma imagem válida no RSS. """
+    """Procura uma imagem válida no RSS e corrige URLs duplicados."""
     for tag in ["media:content", "enclosure", "image", "img"]:
         element = item.find(tag)
         if element is not None and "url" in element.attrib:
-            return element.attrib["url"]
-    return None
+            url = element.attrib["url"]
+            
+            # Corrigir URLs duplicados no caso específico do Record
+            if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
+                return url.replace("https://cdn.record.pt/images/", "", 1)
+            
+            return url  # Retorna o URL normal se não precisar de correção
+    
+    return None  # Retorna None se não encontrar uma imagem
 
 def parse_date(date_str):
     """ Converte a data do RSS para datetime. """
