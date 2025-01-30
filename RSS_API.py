@@ -185,7 +185,7 @@ def extract_image_url(item: Element):
     """Procura uma imagem válida no RSS, corrige URLs duplicados e extrai imagens da <description>."""
     namespaces = {"media": "http://search.yahoo.com/mrss/"}  # Namespace comum para media:content
 
-    # Verifica nas tags principais (media:content, enclosure, image, img)
+    # Verifica nas tags principais (media:content, enclosure, image, img, post-thumbnail)
     for tag in ["media:content", "enclosure", "image", "img", "post-thumbnail"]:
         element = item.find(tag, namespaces)  # Passa namespaces para garantir que encontra media:content
         if element is not None:
@@ -196,6 +196,10 @@ def extract_image_url(item: Element):
             elif "url" in element.attrib:
                 # Para as outras tags, procurar diretamente no atributo 'url'
                 url = element.attrib["url"]
+
+            # Substitui a versão 100x100 pela versão maior 932x62
+            if "100x100" in url:
+                url = url.replace("100x100", "932x62")  # Ajuste o tamanho conforme necessário
 
             # Corrigir URLs duplicados no caso específico do Record
             if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
@@ -218,7 +222,6 @@ def extract_image_url(item: Element):
             return match.group(1)  # Retorna o URL da imagem dentro da <description>
 
     return None  # Retorna None se não encontrar uma imagem
-
 
 def parse_date(date_str):
     """ Converte a data do RSS para datetime. """
