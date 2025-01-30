@@ -112,11 +112,17 @@ def clean_title(title):
     return title.strip()
 
 def clean_description(description):
-    """ Remove HTML, caracteres de escape e \n do texto. """
-    description = unescape(description)
+    """ Remove HTML, caracteres de escape e limita a 230 caracteres sem cortar palavras. """
+    description = unescape(description)  # Remove caracteres HTML escapados
     description = re.sub(r"<[^>]+>", "", description)  # Remove tags HTML
     description = description.replace('\"', "").replace("\n", " ")  # Remove \"
-    return description.strip()
+    description = description.strip()
+
+    # Limita a 230 caracteres, garantindo que não corta palavras
+    if len(description) > 230:
+        description = description[:230].rsplit(' ', 1)[0] + "..."
+    
+    return description
 
 def extract_source(root):
     """ Extrai a fonte e remove sufixos indesejados. """
