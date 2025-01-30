@@ -41,20 +41,20 @@
             "category": "Desporto"
         },
         {
-            "title": "Depressão ‘Ivo’ mantém mau tempo no dia de hoje",
-            "description": "Chuva intensa, vento forte e agitação marítima deixam quase todos os distritos sob aviso do IPMA.",
-            "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-29-22-00-09-2190611.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "30-01-2025 01:30",
-            "category": "Outros"
-        },
-        {
             "title": "Classificação da obra de Zeca Afonso caducada",
             "description": "“Falta de concordância dos detentores da obra” tornou processo moroso e “particularmente complexo”.",
             "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-29-20-08-11-2190570.jpg",
             "source": "Correio da Manhã",
             "pubDate": "30-01-2025 01:30",
             "category": "Cultura"
+        },
+        {
+            "title": "Depressão ‘Ivo’ mantém mau tempo no dia de hoje",
+            "description": "Chuva intensa, vento forte e agitação marítima deixam quase todos os distritos sob aviso do IPMA.",
+            "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-29-22-00-09-2190611.jpg",
+            "source": "Correio da Manhã",
+            "pubDate": "30-01-2025 01:30",
+            "category": "Outros"
         },
         {
             "title": "Luís Marques Mendes despede-se da SIC este domingo",
@@ -145,9 +145,25 @@
             "category": "Outros"
         },
         {
+            "title": "“Competir e lutar até ao fim”: Anselmi estreia-se hoje pelo FC Porto na Liga Europa",
+            "description": "Técnico portista quer a equipa a pressionar, a “tratar bem a bola e a pensar nos três pontos” para selar passagem ao play-off.",
+            "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-29-22-17-20-2190619.jpg",
+            "source": "Correio da Manhã",
+            "pubDate": "30-01-2025 01:30",
+            "category": "Outros"
+        },
+        {
             "title": "Prostituta foi violada na própria casa por negar sexo de borla",
             "description": "Engenheiro informático de 36 anos força prostituta a prolongar prática sexual sem pagar mais. Detido pela PJ do Porto, está proibido de a contactar.",
             "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-29-19-31-15-2190556.jpg",
+            "source": "Correio da Manhã",
+            "pubDate": "30-01-2025 01:30",
+            "category": "Nacional"
+        },
+        {
+            "title": "Foragido à justiça aguarda em hotel para ser preso",
+            "description": "Condenado a pena de dois anos e dois meses de cadeia por ofensas à integridade física, decidiu entregar-se às autoridades.",
+            "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-29-19-52-34-2190567.jpg",
             "source": "Correio da Manhã",
             "pubDate": "30-01-2025 01:30",
             "category": "Nacional"
@@ -169,22 +185,6 @@
             "category": "Nacional"
         },
         {
-            "title": "Partidos escapam nas intenções de voto quase sem danos às polémicas",
-            "description": "‘Malagate’, investigação a secretário de Estado e despedimentos no Bloco não abalam intenções de voto. Imagem das chefias dos partidos desce ligeiramente e nenhum consegue nota positiva.",
-            "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-28-20-50-01-2190376.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "30-01-2025 01:30",
-            "category": "Outros"
-        },
-        {
-            "title": "Foragido à justiça aguarda em hotel para ser preso",
-            "description": "Condenado a pena de dois anos e dois meses de cadeia por ofensas à integridade física, decidiu entregar-se às autoridades.",
-            "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-29-19-52-34-2190567.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "30-01-2025 01:30",
-            "category": "Nacional"
-        },
-        {
             "title": "Homem assassinado, regado com gasolina e deixado a arder no lixo junto a praia fluvial no Seixal",
             "description": "Autópsia será fundamental para apurar a identidade da vítima, carbonizada.",
             "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-29-22-54-47-2190629.jpg",
@@ -193,9 +193,9 @@
             "category": "Nacional"
         },
         {
-            "title": "“Competir e lutar até ao fim”: Anselmi estreia-se hoje pelo FC Porto na Liga Europa",
-            "description": "Técnico portista quer a equipa a pressionar, a “tratar bem a bola e a pensar nos três pontos” para selar passagem ao play-off.",
-            "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-29-22-17-20-2190619.jpg",
+            "title": "Partidos escapam nas intenções de voto quase sem danos às polémicas",
+            "description": "‘Malagate’, investigação a secretário de Estado e despedimentos no Bloco não abalam intenções de voto. Imagem das chefias dos partidos desce ligeiramente e nenhum consegue nota positiva.",
+            "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-28-20-50-01-2190376.jpg",
             "source": "Correio da Manhã",
             "pubDate": "30-01-2025 01:30",
             "category": "Outros"
@@ -3019,6 +3019,14 @@
             "category": "Nacional"
         },
         {
+            "title": "Foragido à justiça aguarda em hotel para ser preso",
+            "description": "Condenado a pena de dois anos e dois meses de cadeia por ofensas à integridade física, decidiu entregar-se às autoridades.",
+            "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-29-19-52-34-2190567.jpg",
+            "source": "Correio da Manhã",
+            "pubDate": "30-01-2025 01:30",
+            "category": "Nacional"
+        },
+        {
             "title": "Homem ameaça polícias de folga com faca dissimulada em cenoura",
             "description": "Suspeito, já com antecedentes criminais, foi detido.",
             "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-29-20-33-31-2190579.jpg",
@@ -3030,14 +3038,6 @@
             "title": "APAV aconselhou Daniela a ir morar com o noivo. Mulher foi mortalmente atropelada pelo ex-namorado em Matosinhos",
             "description": "Companheiro da venezuelana explicou que na véspera do homicídio, o principal suspeito, João Pedro Oliveira, esteve junto a sua casa e que, quando o viu, arrancou a alta velocidade.",
             "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-29-22-44-24-2190623.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "30-01-2025 01:30",
-            "category": "Nacional"
-        },
-        {
-            "title": "Foragido à justiça aguarda em hotel para ser preso",
-            "description": "Condenado a pena de dois anos e dois meses de cadeia por ofensas à integridade física, decidiu entregar-se às autoridades.",
-            "image": "https://cdn.cmjornal.pt/images/2025-01/img_100x100uu2025-01-29-19-52-34-2190567.jpg",
             "source": "Correio da Manhã",
             "pubDate": "30-01-2025 01:30",
             "category": "Nacional"
