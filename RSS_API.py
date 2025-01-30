@@ -6,6 +6,8 @@ import re
 from html import unescape
 from ftplib import FTP_TLS
 import os
+import socket
+import time
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
