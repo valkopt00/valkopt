@@ -32,14 +32,13 @@ DATE_FORMATS = [
 ]
 
 FEED_CATEGORY_MAPPER = {
-    "www.record.pt": "Desporto",
-    "www.autosport.pt": "Desporto",
-    "www.zerozero.pt": "Desporto",
-    "www.noticiasaominuto.com/rss/desporto": "Desporto",
+    "https://www.record.pt/rss": "Desporto",
+    "https://www.autosport.pt/feed": "Desporto",
+    "https://www.zerozero.pt/rss/noticias.php": "Desporto",
+    "https://www.noticiasaominuto.com/rss/desporto": "Desporto",
     "https://rr.sapo.pt/rss/rssfeed.aspx?fid=2": "Desporto",
-
-    "www.jornaleconomico.sapo.pt": "Economia",
-    "www.jornaldenegocios.pt": "Economia"
+    "https://jornaleconomico.sapo.pt/feed": "Economia",
+    "https://www.jornaldenegocios.pt/rss": "Economia"
 }
 
 CATEGORY_MAPPER = {
