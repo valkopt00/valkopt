@@ -160,25 +160,24 @@ def map_category(feed_category, feed_domain):
 FTP_HOST = os.getenv("FTP_HOST", "65.19.154.90")  # IP do HelioHost
 FTP_USER = os.getenv("FTP_USER", "valkopt")  # Teu username
 FTP_PASS = os.getenv("FTP_PASS")  # A senha será lida do GitHub Secrets
-REMOTE_PATH = "/home/valkopt/httpdocs/Json/articles.json"  # Caminho completo onde o ficheiro será guardado
+REMOTE_PATH = "/home/valkopt/httpdocs/Json/articles.json"  # Caminho onde o ficheiro será guardado
 
 def upload_to_ftp():
     try:
-        # Usando FTP simples
-        ftp = FTP()
-        ftp.connect(FTP_HOST, 21)
-        ftp.login(FTP_USER, FTP_PASS)
-
-        # Enviar o arquivo para o servidor FTP
+        # Conectando-se ao FTP com a classe FTP_TLS
+        ftps = FTP_TLS()
+        ftps.connect(FTP_HOST, 21)
+        ftps.login(FTP_USER, FTP_PASS)
+        ftps.prot_p()  # Ativa modo seguro
         with open("articles.json", "rb") as file:
-            ftp.storbinary(f"STOR {REMOTE_PATH}", file)  # Especifica o caminho e nome do arquivo
-
-        ftp.quit()
+            # Usando a função STOR para fazer o upload do arquivo
+            ftps.storbinary(f"STOR {REMOTE_PATH}", file)
+        ftps.quit()  # Fechando a conexão
         print("✅ Upload para o FTP concluído com sucesso!")
     except Exception as e:
         print(f"❌ Erro ao enviar o JSON para o FTP: {e}")
 
-# Chamar esta função no final do teu script
+# Chamar esta função no final do teu script:
 upload_to_ftp()
 
 if __name__ == "__main__":
