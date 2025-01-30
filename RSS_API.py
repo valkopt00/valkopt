@@ -164,18 +164,16 @@ REMOTE_PATH = "/home/valkopt/httpdocs/Json/articles.json"  # Caminho completo on
 
 def upload_to_ftp():
     try:
-        # Conectar ao FTP usando FTPS (FTP seguro)
-        ftps = FTP_TLS()
-        ftps.connect(FTP_HOST, 21)
-        ftps.login(FTP_USER, FTP_PASS)
-        ftps.prot_p()  # Ativa modo seguro
+        # Usando FTP simples
+        ftp = FTP()
+        ftp.connect(FTP_HOST, 21)
+        ftp.login(FTP_USER, FTP_PASS)
 
         # Enviar o arquivo para o servidor FTP
         with open("articles.json", "rb") as file:
-            # Corrigido o erro de sintaxe com f-string
-            ftps.storbinary(f"STOR {REMOTE_PATH}", file)  # Especifica o caminho e nome do arquivo
+            ftp.storbinary(f"STOR {REMOTE_PATH}", file)  # Especifica o caminho e nome do arquivo
 
-        ftps.quit()
+        ftp.quit()
         print("✅ Upload para o FTP concluído com sucesso!")
     except Exception as e:
         print(f"❌ Erro ao enviar o JSON para o FTP: {e}")
