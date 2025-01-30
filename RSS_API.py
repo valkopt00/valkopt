@@ -156,6 +156,12 @@ def map_category(feed_category, feed_domain):
         return CATEGORY_MAPPER[feed_category]
     return "Outros"
 
+# Lê as credenciais a partir das variáveis de ambiente
+FTP_HOST = os.getenv("FTP_HOST", "65.19.154.90")  # IP do HelioHost
+FTP_USER = os.getenv("FTP_USER", "valkopt")  # Teu username
+FTP_PASS = os.getenv("FTP_PASS")  # A senha será lida do GitHub Secrets
+REMOTE_PATH = "/home/valkopt/httpdocs/Json/articles.json"  # Caminho completo onde o ficheiro será guardado
+
 def upload_to_ftp():
     try:
         # Conectar ao FTP usando FTPS (FTP seguro)
@@ -166,7 +172,8 @@ def upload_to_ftp():
 
         # Enviar o arquivo para o servidor FTP
         with open("articles.json", "rb") as file:
-            ftps.storbinary(f"STOR {/home/valkopt/httpdocs/Json/articles.json}", file)  # Especifica o caminho e nome do arquivo
+            # Corrigido o erro de sintaxe com f-string
+            ftps.storbinary(f"STOR {REMOTE_PATH}", file)  # Especifica o caminho e nome do arquivo
 
         ftps.quit()
         print("✅ Upload para o FTP concluído com sucesso!")
