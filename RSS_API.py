@@ -125,8 +125,8 @@ def extract_source(root):
         return source_name
     return "Desconhecido"
 
-def extract_image_url(item):
-    """Procura uma imagem válida no RSS e corrige URLs duplicados."""
+def extract_image_url(item: Element):
+    """Procura uma imagem válida no RSS, corrige URLs duplicados e extrai imagens da <description>."""
     for tag in ["media:content", "enclosure", "image", "img"]:
         element = item.find(tag)
         if element is not None and "url" in element.attrib:
@@ -137,7 +137,14 @@ def extract_image_url(item):
                 return url.replace("https://cdn.record.pt/images/", "", 1)
             
             return url  # Retorna o URL normal se não precisar de correção
-    
+
+    # Se não encontrar nos elementos padrão, procura dentro da <description>
+    description = item.find("description")
+    if description is not None and description.text:
+        match = re.search(r'<img\s+src="([^"]+)"', description.text)
+        if match:
+            return match.group(1)  # Retorna o URL da imagem dentro da <description>
+
     return None  # Retorna None se não encontrar uma imagem
 
 def parse_date(date_str):
