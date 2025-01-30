@@ -113,7 +113,7 @@ def clean_description(description):
     """ Remove HTML, caracteres de escape e \n do texto. """
     description = unescape(description)
     description = re.sub(r"<[^>]+>", "", description)  # Remove tags HTML
-    description = description.replace('\\"', "").replace("\n", " ")  # Remove \"
+    description = description.replace('\"', "").replace("\n", " ")  # Remove \"
     return description.strip()
 
 def extract_source(root):
