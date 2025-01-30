@@ -75,6 +75,7 @@ def get_articles():
                 source = extract_source(root)
                 category = map_category(item.findtext("category"), feed_domain)
                 image_url = extract_image_url(item)
+                link = item.findtext("link", "").strip()  # Adiciona a extração do link
 
                 pub_date = parse_date(pub_date_str)
                 if pub_date and pub_date >= last_24_hours:
@@ -84,7 +85,8 @@ def get_articles():
                         "image": image_url,
                         "source": source,
                         "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
-                        "category": category
+                        "category": category,
+                        "link": link  # Adiciona o link ao dicionário
                     })
         except requests.exceptions.RequestException as e:
             print(f"Erro ao processar {feed_url}: {e}")
