@@ -4,6 +4,8 @@ from datetime import datetime, timedelta, timezone
 import json
 import re
 from html import unescape
+from ftplib import FTP_TLS
+import os
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
@@ -153,6 +155,28 @@ def map_category(feed_category, feed_domain):
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
     return "Outros"
+
+# Lê as credenciais a partir das variáveis de ambiente
+FTP_HOST = os.getenv("FTP_HOST", "65.19.154.90")  # IP do HelioHost
+FTP_USER = os.getenv("FTP_USER", "valkopt")  # Teu username
+FTP_PASS = os.getenv("FTP_PASS")  # A senha será lida do GitHub Secrets
+REMOTE_PATH = "/public_html/articles.json"  # Caminho onde o ficheiro será guardado
+
+def upload_to_ftp():
+    try:
+        ftps = FTP_TLS()
+        ftps.connect(FTP_HOST, 21)
+        ftps.login(FTP_USER, FTP_PASS)
+        ftps.prot_p()  # Ativa modo seguro
+        with open("articles.json", "rb") as file:
+            ftps.storbinary(f"STOR {REMOTE_PATH}", file)
+        ftps.quit()
+        print("✅ Upload para o FTP concluído com sucesso!")
+    except Exception as e:
+        print(f"❌ Erro ao enviar o JSON para o FTP: {e}")
+
+# Chamar esta função no final do teu script:
+upload_to_ftp()
 
 if __name__ == "__main__":
     get_articles()
