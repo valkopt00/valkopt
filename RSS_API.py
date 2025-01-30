@@ -137,26 +137,26 @@ def extract_image_url(item: Element):
     """Procura uma imagem válida no RSS, corrige URLs duplicados e extrai imagens da <description>."""
     namespaces = {"media": "http://search.yahoo.com/mrss/"}  # Namespace comum para media:content
 
+    # Verifica nas tags principais (media:content, enclosure, image, img)
     for tag in ["media:content", "enclosure", "image", "img"]:
         element = item.find(tag, namespaces)  # Passa namespaces para garantir que encontra media:content
         if element is not None and "url" in element.attrib:
             url = element.attrib["url"]
 
-            # Se não encontrou imagem, verificar dentro da <content:encoded>
-            content_encoded = item.find("content:encoded")
-            if content_encoded is not None and content_encoded.text:
-                match = re.search(r'<img\s+[^>]*src="([^"]+)"', content_encoded.text)
-                if match:
-                    return match.group(1)  # Retorna o primeiro URL encontrado
-            return None  # Retorna None se não encontrar imagem
-            
             # Corrigir URLs duplicados no caso específico do Record
             if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
                 return url.replace("https://cdn.record.pt/images/", "", 1)
             
             return url  # Retorna o URL normal se não precisar de correção
 
-    # Se não encontrar nos elementos padrão, procura dentro da <description>
+    # Se não encontrou imagem nas tags principais, verifica dentro do <content:encoded>
+    content_encoded = item.find("content:encoded")
+    if content_encoded is not None and content_encoded.text:
+        match = re.search(r'<img\s+[^>]*src="([^"]+)"', content_encoded.text)
+        if match:
+            return match.group(1)  # Retorna o primeiro URL encontrado
+
+    # Se ainda não encontrou imagem, tenta dentro da <description>
     description = item.find("description")
     if description is not None and description.text:
         match = re.search(r'<img\s+src="([^"]+)"', description.text)
