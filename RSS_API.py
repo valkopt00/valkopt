@@ -199,7 +199,7 @@ def extract_image_url(item: Element):
 
             # Substitui a versão 100x100 pela versão maior 932x62
             if "100x100" in url:
-                url = url.replace("100x100", "932x62")  # Ajuste o tamanho conforme necessário
+                url = url.replace("100x100", "932x621")  # Ajuste o tamanho conforme necessário
 
             # Corrigir URLs duplicados no caso específico do Record
             if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
