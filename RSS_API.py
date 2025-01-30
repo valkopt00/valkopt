@@ -138,21 +138,22 @@ def extract_image_url(item: Element):
     namespaces = {"media": "http://search.yahoo.com/mrss/"}  # Namespace comum para media:content
 
     # Verifica nas tags principais (media:content, enclosure, image, img)
-    for tag in ["media:content", "enclosure", "image", "img","post-thumbnail"]:
+    for tag in ["media:content", "enclosure", "image", "img", "post-thumbnail"]:
         element = item.find(tag, namespaces)  # Passa namespaces para garantir que encontra media:content
-        if element is not None and "url" in element.attrib:
-            url = element.attrib["url"]
+        if element is not None:
+            # Verifica se a tag tem atributo 'url'
+            if tag == "post-thumbnail" and element.find("url") is not None:
+                # Para a tag post-thumbnail, procurar dentro de <url>
+                url = element.find("url").text
+            elif "url" in element.attrib:
+                # Para as outras tags, procurar diretamente no atributo 'url'
+                url = element.attrib["url"]
 
             # Corrigir URLs duplicados no caso específico do Record
             if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
                 return url.replace("https://cdn.record.pt/images/", "", 1)
             
             return url  # Retorna o URL normal se não precisar de correção
-
-    # Verifica se o link do artigo é do jornal económico e retorna imagem padrão
-    link = item.find("link")  # Pega o link para verificar a origem
-    if link is not None and "jornaleconomico.sapo.pt" in link.text:
-        return "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
 
     # Se não encontrou imagem nas tags principais, verifica dentro do <content:encoded>
     content_encoded = item.find("content:encoded")
@@ -169,6 +170,7 @@ def extract_image_url(item: Element):
             return match.group(1)  # Retorna o URL da imagem dentro da <description>
 
     return None  # Retorna None se não encontrar uma imagem
+
 
 def parse_date(date_str):
     """ Converte a data do RSS para datetime. """
