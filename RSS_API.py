@@ -8,6 +8,7 @@ from ftplib import FTP_TLS
 import os
 import socket
 import time
+import subprocess
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
@@ -164,13 +165,33 @@ FTP_USER = os.getenv("FTP_USER", "valkopt")  # Teu username
 FTP_PASS = os.getenv("FTP_PASS")  # A senha será lida do GitHub Secrets
 REMOTE_PATH = "/home/valkopt/httpdocs/Json/articles.json"  # Caminho onde o ficheiro será guardado
 
+# Lê as credenciais a partir das variáveis de ambiente
+FTP_HOST = os.getenv("FTP_HOST", "65.19.154.90")  # IP do HelioHost
+FTP_USER = os.getenv("FTP_USER", "valkopt")  # Teu username
+FTP_PASS = os.getenv("FTP_PASS")  # A senha será lida do GitHub Secrets
+REMOTE_PATH = "/home/valkopt/httpdocs/Json/articles.json"  # Caminho onde o ficheiro será guardado
+
+def check_connection():
+    # Verifica a conectividade com o servidor FTP usando ping
+    try:
+        print(f"Verificando conectividade com {FTP_HOST}...")
+        result = subprocess.run(["ping", "-c", "4", FTP_HOST], capture_output=True, text=True)
+        if result.returncode == 0:
+            print("Conexão com o servidor bem-sucedida!")
+        else:
+            print("Falha na conexão com o servidor.")
+    except Exception as e:
+        print(f"Erro ao verificar conexão: {e}")
+
 def upload_to_ftp():
     try:
-        # Usar diretamente o IP para a conexão
+        # Tenta fazer o ping no servidor antes de tentar conectar
+        check_connection()
+
+        # Conectando ao FTP
         print(f"Conectando ao servidor FTP {FTP_HOST} usando o IP direto...")
-        
         ftps = FTP_TLS()
-        ftps.connect(FTP_HOST, 21)  # Conectando usando o IP
+        ftps.connect(FTP_HOST, 21)
         ftps.login(FTP_USER, FTP_PASS)
         ftps.prot_p()  # Ativa modo seguro
         print("Login realizado com sucesso!")
