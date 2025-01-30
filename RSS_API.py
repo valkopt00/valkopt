@@ -27,7 +27,7 @@ RSS_FEEDS = [
 DATE_FORMATS = [
     "%a, %d %b %Y %H:%M:%S %z",
     "%Y-%m-%dT%H:%M:%S%z",
-    "%Y-%m-%dT%H:%M:%S.%f%z",ttps://rr.sapo.pt
+    "%Y-%m-%dT%H:%M:%S.%f%z",
     "%Y-%m-%d %H:%M:%S"
 ]
 
@@ -36,8 +36,20 @@ FEED_CATEGORY_MAPPER = {
     "https://www.autosport.pt/feed": "Desporto",
     "https://www.zerozero.pt/rss/noticias.php": "Desporto",
     "https://www.noticiasaominuto.com/rss/desporto": "Desporto",
+    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=2": "Desporto",
+    
     "https://jornaleconomico.sapo.pt/feed": "Economia",
-    "https://www.jornaldenegocios.pt/rss": "Economia"
+    "https://www.jornaldenegocios.pt/rss": "Economia",
+    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=86": "Economia",
+    "https://www.rtp.pt/noticias/rss/economia": "Economia",
+    "https://www.noticiasaominuto.com/rss/economia": "Economia",
+
+    "https://noticiasaominuto.com/rss/politica": "Politica",
+    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=85": "Politica",
+
+    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=6": "Nacional",
+    "https://www.rtp.pt/noticias/rss/pais": "Nacional",
+    "https://www.noticiasaominuto.com/rss/pais": "Nacional"
 }
 
 CATEGORY_MAPPER = {
