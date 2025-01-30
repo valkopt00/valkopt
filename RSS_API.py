@@ -138,7 +138,7 @@ def extract_image_url(item: Element):
     namespaces = {"media": "http://search.yahoo.com/mrss/"}  # Namespace comum para media:content
 
     # Verifica nas tags principais (media:content, enclosure, image, img)
-    for tag in ["media:content", "enclosure", "image", "img"]:
+    for tag in ["media:content", "enclosure", "image", "img","post-thumbnail"]:
         element = item.find(tag, namespaces)  # Passa namespaces para garantir que encontra media:content
         if element is not None and "url" in element.attrib:
             url = element.attrib["url"]
