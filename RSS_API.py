@@ -135,8 +135,10 @@ def extract_source(root):
 
 def extract_image_url(item: Element):
     """Procura uma imagem válida no RSS, corrige URLs duplicados e extrai imagens da <description>."""
+    namespaces = {"media": "http://search.yahoo.com/mrss/"}  # Namespace comum para media:content
+
     for tag in ["media:content", "enclosure", "image", "img"]:
-        element = item.find(tag)
+        element = item.find(tag, namespaces)  # Passa namespaces para garantir que encontra media:content
         if element is not None and "url" in element.attrib:
             url = element.attrib["url"]
             
