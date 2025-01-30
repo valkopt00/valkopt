@@ -36,7 +36,6 @@ FEED_CATEGORY_MAPPER = {
     "https://www.autosport.pt/feed": "Desporto",
     "https://www.zerozero.pt/rss/noticias.php": "Desporto",
     "https://www.noticiasaominuto.com/rss/desporto": "Desporto",
-    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=2": "Desporto",
     "https://jornaleconomico.sapo.pt/feed": "Economia",
     "https://www.jornaldenegocios.pt/rss": "Economia"
 }
