@@ -27,7 +27,7 @@ RSS_FEEDS = [
 DATE_FORMATS = [
     "%a, %d %b %Y %H:%M:%S %z",
     "%Y-%m-%dT%H:%M:%S%z",
-    "%Y-%m-%dT%H:%M:%S.%f%z",
+    "%Y-%m-%dT%H:%M:%S.%f%z",ttps://rr.sapo.pt
     "%Y-%m-%d %H:%M:%S"
 ]
 
@@ -36,7 +36,7 @@ FEED_CATEGORY_MAPPER = {
     "www.autosport.pt": "Desporto",
     "www.zerozero.pt": "Desporto",
     "www.noticiasaominuto.com/rss/desporto": "Desporto",
-    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=2": "Desporto"
+    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=2": "Desporto",
 
     "www.jornaleconomico.sapo.pt": "Economia",
     "www.jornaldenegocios.pt": "Economia"
