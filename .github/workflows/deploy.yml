@@ -1,9 +1,9 @@
-name: Atualizar JSON de Notícias
+name: Atualizar JSON de Notícias e Enviar para FTP
 
 on:
   schedule:
     - cron: "*/5 * * * *"  # Executa a cada 5 minutos
-  workflow_dispatch:  # Permite execução manual
+  workflow_dispatch:
 
 jobs:
   update-json:
@@ -21,13 +21,9 @@ jobs:
       - name: Instalar dependências
         run: pip install requests
 
-      - name: Executar script para atualizar JSON
+      - name: Executar script para atualizar JSON e enviar para FTP
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASS: ${{ secrets.FTP_PASS }}
         run: python RSS_API.py
-
-      - name: Fazer commit do JSON (reescrever histórico)
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add articles.json
-          git commit -m "Atualização automática do JSON" || exit 0
-          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/valkopt00/valkopt.git main
