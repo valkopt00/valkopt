@@ -149,15 +149,17 @@ def extract_image_url(item: Element):
             
             return url  # Retorna o URL normal se não precisar de correção
 
+    # Verifica se o link do artigo é do jornal económico e retorna imagem padrão
+    link = item.find("link")  # Pega o link para verificar a origem
+    if link is not None and "jornaleconomico.sapo.pt" in link.text:
+        return "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
+
     # Se não encontrou imagem nas tags principais, verifica dentro do <content:encoded>
     content_encoded = item.find("content:encoded")
     if content_encoded is not None and content_encoded.text:
         match = re.search(r'<img\s+[^>]*src="([^"]+)"', content_encoded.text)
         if match:
             return match.group(1)  # Retorna o primeiro URL encontrado
-
-    if "jornaleconomico.sapo.pt" in source:
-        return "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
 
     # Se ainda não encontrou imagem, tenta dentro da <description>
     description = item.find("description")
