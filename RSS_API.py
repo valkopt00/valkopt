@@ -160,7 +160,7 @@ def map_category(feed_category, feed_domain):
 FTP_HOST = os.getenv("FTP_HOST", "65.19.154.90")  # IP do HelioHost
 FTP_USER = os.getenv("FTP_USER", "valkopt")  # Teu username
 FTP_PASS = os.getenv("FTP_PASS")  # A senha será lida do GitHub Secrets
-REMOTE_PATH = "/public_html/articles.json"  # Caminho onde o ficheiro será guardado
+REMOTE_PATH = "/home/valkopt/httpdocs/Json/"  # Caminho onde o ficheiro será guardado
 
 def upload_to_ftp():
     try:
