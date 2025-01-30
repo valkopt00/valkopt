@@ -44,12 +44,26 @@ FEED_CATEGORY_MAPPER = {
     "https://www.rtp.pt/noticias/rss/economia": "Economia",
     "https://www.noticiasaominuto.com/rss/economia": "Economia",
 
-    "https://noticiasaominuto.com/rss/politica": "Politica",
-    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=85": "Politica",
+    "https://noticiasaominuto.com/rss/politica": "Política",
+    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=85": "Política",
 
     "https://rr.sapo.pt/rss/rssfeed.aspx?fid=6": "Nacional",
     "https://www.rtp.pt/noticias/rss/pais": "Nacional",
-    "https://www.noticiasaominuto.com/rss/pais": "Nacional"
+    "https://www.noticiasaominuto.com/rss/pais": "Nacional",
+
+    "https://noticiasaominuto.com/rss/mundo": "Mundo",
+    "https://www.rtp.pt/noticias/rss/mundo": "Mundo",
+    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=88": "Mundo",
+    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=84": "Mundo",
+
+    "https://www.noticiasaominuto.com/rss/cultura": "Cultura",
+    "https://www.rtp.pt/noticias/rss/cultura": "Cultura",
+
+    "https://www.noticiasaominuto.com/rss/tech": "Tecnologia",
+
+    "https://www.noticiasaominuto.com/rss/fama": "Sociedade",
+    "https://www.noticiasaominuto.com/rss/lifestyle": "Sociedade",
+    "Vida: https://rr.sapo.pt/rss/rssfeed.aspx?fid=89": "Sociedade"
 }
 
 CATEGORY_MAPPER = {
@@ -57,13 +71,33 @@ CATEGORY_MAPPER = {
     "Portugal": "Nacional",
     "Mundo": "Mundo",
     "Internacional": "Mundo",
+    "União Europeia": "Mundo",
+    "Médio Oriente": "Mundo",
+    "Faixa de Gaza": "Mundo",
+    "EUA": "Mundo",
     "Desporto": "Desporto",
     "Economia": "Economia",
     "Negócios": "Economia",
+    "Segurança Social": "Economia",
+    "Bolsa e Mercados": "Economia",
+    "Energia": "Economia",
     "Cultura": "Cultura",
+    "Livros": "Cultura",
+    "Blitz": "Cultura",
     "Tecnologia": "Tecnologia",
     "Ciência": "Tecnologia",
-    "Sociedade": "Sociedade"
+    "Exame Informática": "Tecnologia",
+    "Sociedade": "Sociedade",
+    "Coronavírus": "Sociedade",
+    "Mau tempo": "Sociedade",
+    "Comer e beber": "Sociedade",
+    "Insólitos": "Sociedade",
+    "Meteorologia": "Sociedade",
+    "Saúde": "Sociedade",
+    "Clima": "Sociedade",
+    "Defesa": "Políica",
+    "Partidos": "Política"
+    
 }
 
 def get_articles():
