@@ -67,6 +67,7 @@ FEED_CATEGORY_MAPPER = {
 }
 
 CATEGORY_MAPPER = {
+    "Nacional": "Nacional",
     "País": "Nacional",
     "Portugal": "Nacional",
     "Mundo": "Mundo",
@@ -95,6 +96,7 @@ CATEGORY_MAPPER = {
     "Meteorologia": "Sociedade",
     "Saúde": "Sociedade",
     "Clima": "Sociedade",
+    "Política": "Política",
     "Defesa": "Política",
     "Partidos": "Política"
     
