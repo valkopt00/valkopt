@@ -63,7 +63,7 @@ FEED_CATEGORY_MAPPER = {
 
     "https://www.noticiasaominuto.com/rss/fama": "Sociedade",
     "https://www.noticiasaominuto.com/rss/lifestyle": "Sociedade",
-    "Vida: https://rr.sapo.pt/rss/rssfeed.aspx?fid=89": "Sociedade"
+    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=89": "Sociedade"
 }
 
 CATEGORY_MAPPER = {
@@ -99,7 +99,7 @@ CATEGORY_MAPPER = {
     "Política": "Política",
     "Defesa": "Política",
     "Partidos": "Política"
-    
+    "Outros": "Outras Notícias"
 }
 
 def get_articles():
@@ -149,7 +149,7 @@ def get_articles():
 def export_to_json(articles):
     categorized_data = {"Últimas": articles}
 
-    for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Tecnologia", "Sociedade", "Política"]:
+    for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Tecnologia", "Sociedade", "Política", "Outras Notícias"]:
         categorized_data[category] = [article for article in articles if article["category"] == category]
 
     with open("articles.json", "w", encoding="utf-8") as f:
