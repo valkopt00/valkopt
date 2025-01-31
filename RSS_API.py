@@ -190,8 +190,16 @@ def extract_source(root):
     return "Desconhecido"
 
 def extract_image_url(item: Element):
-    """Procura uma imagem válida no RSS, corrige URLs duplicados e extrai imagens da <description>."""
+    """Procura uma imagem válida no RSS, corrige URLs duplicados e extrai imagens da <description>.
+       Se o link for do Jornal Económico, define uma imagem padrão.
+    """
     namespaces = {"media": "http://search.yahoo.com/mrss/"}  # Namespace comum para media:content
+    jornal_economico_logo = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/Logo_JE.png"
+
+    # Verifica se o link é do Jornal Económico
+    link_element = item.find("link")
+    if link_element is not None and link_element.text and "jornaleconomico" in link_element.text:
+        return jornal_economico_logo
 
     # Verifica nas tags principais (media:content, enclosure, image, img, post-thumbnail)
     for tag in ["media:content", "enclosure", "image", "img", "post-thumbnail"]:
@@ -199,18 +207,13 @@ def extract_image_url(item: Element):
         if element is not None:
             # Verifica se a tag tem atributo 'url'
             if tag == "post-thumbnail" and element.find("url") is not None:
-                # Para a tag post-thumbnail, procurar dentro de <url>
                 url = element.find("url").text
             elif "url" in element.attrib:
-                # Para as outras tags, procurar diretamente no atributo 'url'
                 url = element.attrib["url"]
 
-            # Substitui a versão 100x100 pela versão maior 932x62
+            # Substitui a versão 100x100 pela versão maior 932x621
             if "100x100" in url:
-                url = url.replace("100x100", "932x621")  # Ajuste o tamanho conforme necessário
-
-            if "jornaleconomico" in url:
-                url = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/Logo_JE.png" 
+                url = url.replace("100x100", "932x621")
 
             # Corrigir URLs duplicados no caso específico do Record
             if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
@@ -223,14 +226,14 @@ def extract_image_url(item: Element):
     if content_encoded is not None and content_encoded.text:
         match = re.search(r'<img\s+[^>]*src="([^"]+)"', content_encoded.text)
         if match:
-            return match.group(1)  # Retorna o primeiro URL encontrado
+            return match.group(1)
 
     # Se ainda não encontrou imagem, tenta dentro da <description>
     description = item.find("description")
     if description is not None and description.text:
         match = re.search(r'<img\s+src="([^"]+)"', description.text)
         if match:
-            return match.group(1)  # Retorna o URL da imagem dentro da <description>
+            return match.group(1)
 
     return None  # Retorna None se não encontrar uma imagem
 
