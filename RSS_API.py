@@ -98,7 +98,7 @@ CATEGORY_MAPPER = {
     "Clima": "Sociedade",
     "Política": "Política",
     "Defesa": "Política",
-    "Partidos": "Política"
+    "Partidos": "Política",
     "Outros": "Outras Notícias"
 }
 
