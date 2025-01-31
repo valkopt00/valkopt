@@ -194,7 +194,7 @@ def extract_image_url(item: Element):
        Se o link for do Jornal Económico, define uma imagem padrão.
     """
     namespaces = {"media": "http://search.yahoo.com/mrss/"}  # Namespace comum para media:content
-    jornal_economico_logo = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/Logo_JE.png"
+    jornal_economico_logo = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
 
     # Verifica se o link é do Jornal Económico
     link_element = item.find("link")
