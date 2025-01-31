@@ -147,7 +147,7 @@ def get_articles():
 def export_to_json(articles):
     categorized_data = {"Últimas": articles}
 
-    for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Tecnologia", "Sociedade"]:
+    for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Tecnologia", "Sociedade", "Política", "Outros"]:
         categorized_data[category] = [article for article in articles if article["category"] == category]
 
     with open("articles.json", "w", encoding="utf-8") as f:
@@ -160,7 +160,7 @@ def clean_title(title):
     return title.strip()
 
 def clean_description(description):
-    """ Remove HTML, caracteres de escape e limita a 230 caracteres sem cortar palavras. """
+    """ Remove HTML, caracteres de escape e limita a 200 caracteres sem cortar palavras. """
     description = unescape(description)  # Remove caracteres HTML escapados
     description = re.sub(r"<[^>]+>", "", description)  # Remove tags HTML
     description = description.replace('\"', "").replace("\n", " ")  # Remove \"
