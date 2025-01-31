@@ -99,7 +99,7 @@ CATEGORY_MAPPER = {
     "Política": "Política",
     "Defesa": "Política",
     "Partidos": "Política",
-    "Outros": "Outras Notícias"
+    "Outras Notícias": "Outras Notícias"
 }
 
 def get_articles():
@@ -251,7 +251,7 @@ def map_category(feed_category, feed_url):
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
 
-    return "Outros"
+    return "Outras Notícias"
 
 
 if __name__ == "__main__":
