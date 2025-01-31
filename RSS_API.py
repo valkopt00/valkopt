@@ -21,6 +21,7 @@ RSS_FEEDS = [
     "https://rr.sapo.pt/rss/rssfeed.aspx?section=section_noticias",
     "https://rss.impresa.pt/feed/latest/expresso.rss?type=ARTICLE,VIDEO,STREAM,PLAYLIST,EVENT&limit=20&pubsubhub=true",
     "https://caras.pt/feed/",
+    "https://pt.euronews.com/rss?format=mrss&level=theme&name=news",
     "https://www.noticiasaominuto.com/rss/ultima-hora"
 ]
 
@@ -37,6 +38,7 @@ FEED_CATEGORY_MAPPER = {
     "https://www.zerozero.pt/rss/noticias.php": "Desporto",
     "https://www.noticiasaominuto.com/rss/desporto": "Desporto",
     "https://rr.sapo.pt/rss/rssfeed.aspx?fid=2": "Desporto",
+    "https://pt.euronews.com/rss?format=mrss&level=theme&name=sport",
     
     "https://jornaleconomico.sapo.pt/feed": "Economia",
     "https://www.jornaldenegocios.pt/rss": "Economia",
@@ -55,15 +57,20 @@ FEED_CATEGORY_MAPPER = {
     "https://www.rtp.pt/noticias/rss/mundo": "Mundo",
     "https://rr.sapo.pt/rss/rssfeed.aspx?fid=88": "Mundo",
     "https://rr.sapo.pt/rss/rssfeed.aspx?fid=84": "Mundo",
+    "https://pt.euronews.com/rss?format=mrss&level=vertical&name=my-europe",
 
     "https://www.noticiasaominuto.com/rss/cultura": "Cultura",
     "https://www.rtp.pt/noticias/rss/cultura": "Cultura",
+    "https://pt.euronews.com/rss?format=mrss&level=vertical&name=culture",
 
     "https://www.noticiasaominuto.com/rss/tech": "Tecnologia",
+    "
+https://pt.euronews.com/rss?format=mrss&level=vertical&name=next",
 
     "https://www.noticiasaominuto.com/rss/fama": "Sociedade",
     "https://www.noticiasaominuto.com/rss/lifestyle": "Sociedade",
-    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=89": "Sociedade"
+    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=89": "Sociedade",
+    "https://pt.euronews.com/rss?format=mrss&level=vertical&name=travel"
 }
 
 CATEGORY_MAPPER = {
