@@ -95,7 +95,7 @@ CATEGORY_MAPPER = {
     "Meteorologia": "Sociedade",
     "Saúde": "Sociedade",
     "Clima": "Sociedade",
-    "Defesa": "Políica",
+    "Defesa": "Política",
     "Partidos": "Política"
     
 }
@@ -147,7 +147,7 @@ def get_articles():
 def export_to_json(articles):
     categorized_data = {"Últimas": articles}
 
-    for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Tecnologia", "Sociedade", "Política", "Outros"]:
+    for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Tecnologia", "Sociedade", "Política"]:
         categorized_data[category] = [article for article in articles if article["category"] == category]
 
     with open("articles.json", "w", encoding="utf-8") as f:
