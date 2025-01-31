@@ -238,14 +238,19 @@ def get_feed_domain(feed_url):
     """ Extrai a URL completa do feed RSS. """
     return feed_url
 
-def map_category(feed_category, feed_domain):
+def map_category(feed_category, feed_url):
     """ Determina a categoria da notícia. """
-    print(f"Feed domain: {feed_domain}, Category from feed: {feed_category}")  # Para depuração
-    if feed_domain in FEED_CATEGORY_MAPPER:
-        return FEED_CATEGORY_MAPPER[feed_domain]
+    # Primeiro verifica se a URL completa do feed está no mapeamento
+    for feed, category in FEED_CATEGORY_MAPPER.items():
+        if feed_url.startswith(feed):  # Verifica se a URL do feed começa com a URL mapeada
+            return category
+
+    # Se não encontrou no mapeamento de feed completo, verifica pelo nome da categoria
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
+
     return "Outros"
+
 
 if __name__ == "__main__":
     get_articles()
