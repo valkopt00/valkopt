@@ -209,6 +209,9 @@ def extract_image_url(item: Element):
             if "100x100" in url:
                 url = url.replace("100x100", "932x621")  # Ajuste o tamanho conforme necessário
 
+            if "jornaleconomico" in url:
+                url = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/Logo_JE.png" 
+
             # Corrigir URLs duplicados no caso específico do Record
             if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
                 return url.replace("https://cdn.record.pt/images/", "", 1)
