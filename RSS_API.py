@@ -259,6 +259,10 @@ def map_category(feed_category, feed_url):
         if feed_url.startswith(feed):  # Verifica se a URL do feed começa com a URL mapeada
             return category
 
+     # Adiciona uma verificação específica para o feed da Euronews
+    if feed_url.startswith("https://pt.euronews.com/rss?format=mrss&level=vertical&name=next"):
+        return "Tecnologia"
+        
     # Se não encontrou no mapeamento de feed completo, verifica pelo nome da categoria
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
