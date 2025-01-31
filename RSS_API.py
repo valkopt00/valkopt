@@ -235,8 +235,8 @@ def parse_date(date_str):
     return None
 
 def get_feed_domain(feed_url):
-    """ Extrai o domínio do feed RSS. """
-    return feed_url.split("//")[-1].split("/")[0]
+    """ Extrai a URL completa do feed RSS. """
+    return feed_url
 
 def map_category(feed_category, feed_domain):
     """ Determina a categoria da notícia. """
