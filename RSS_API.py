@@ -204,22 +204,28 @@ def extract_image_url(item: Element):
     # Verifica nas tags principais (media:content, enclosure, image, img, post-thumbnail)
     for tag in ["media:content", "enclosure", "image", "img", "post-thumbnail"]:
         element = item.find(tag, namespaces)  # Passa namespaces para garantir que encontra media:content
+        if element is None:
+            # Tenta sem namespaces caso a tag não esteja no namespace fornecido
+            element = item.find(tag)
+
         if element is not None:
             # Verifica se a tag tem atributo 'url'
+            url = None
             if tag == "post-thumbnail" and element.find("url") is not None:
                 url = element.find("url").text
             elif "url" in element.attrib:
                 url = element.attrib["url"]
 
-            # Substitui a versão 100x100 pela versão maior 932x621
-            if "100x100" in url:
-                url = url.replace("100x100", "932x621")
+            if url:
+                # Substitui a versão 100x100 pela versão maior 932x621
+                if "100x100" in url:
+                    url = url.replace("100x100", "932x621")
 
-            # Corrigir URLs duplicados no caso específico do Record
-            if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
-                return url.replace("https://cdn.record.pt/images/", "", 1)
-            
-            return url  # Retorna o URL normal se não precisar de correção
+                # Corrigir URLs duplicados no caso específico do Record
+                if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
+                    return url.replace("https://cdn.record.pt/images/", "", 1)
+
+                return url  # Retorna o URL normal se não precisar de correção
 
     # Se não encontrou imagem nas tags principais, verifica dentro do <content:encoded>
     content_encoded = item.find("content:encoded")
@@ -236,6 +242,7 @@ def extract_image_url(item: Element):
             return match.group(1)
 
     return None  # Retorna None se não encontrar uma imagem
+
 
 def parse_date(date_str):
     """ Converte a data do RSS para datetime. """
