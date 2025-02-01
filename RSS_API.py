@@ -38,7 +38,7 @@ FEED_CATEGORY_MAPPER = {
     "https://www.zerozero.pt/rss/noticias.php": "Desporto",
     "https://www.noticiasaominuto.com/rss/desporto": "Desporto",
     "https://rr.sapo.pt/rss/rssfeed.aspx?fid=2": "Desporto",
-    "https://pt.euronews.com/rss?format=mrss&level=theme&name=sport": "Desporto",
+    "https://pt.euronews.com/sport": "Desporto",
     
     "https://jornaleconomico.sapo.pt/feed": "Economia",
     "https://www.jornaldenegocios.pt/rss": "Economia",
@@ -57,19 +57,19 @@ FEED_CATEGORY_MAPPER = {
     "https://www.rtp.pt/noticias/rss/mundo": "Mundo",
     "https://rr.sapo.pt/rss/rssfeed.aspx?fid=88": "Mundo",
     "https://rr.sapo.pt/rss/rssfeed.aspx?fid=84": "Mundo",
-    "https://pt.euronews.com/rss?format=mrss&level=vertical&name=my-europe": "Mundo",
+    "https://pt.euronews.com/my-europe": "Mundo",
 
     "https://www.noticiasaominuto.com/rss/cultura": "Cultura",
     "https://www.rtp.pt/noticias/rss/cultura": "Cultura",
-    "https://pt.euronews.com/rss?format=mrss&level=vertical&name=culture": "Cultura",
+    "https://pt.euronews.com/culture": "Cultura",
 
     "https://www.noticiasaominuto.com/rss/tech": "Tecnologia",
-    "https://pt.euronews.com/rss?format=mrss&level=vertical&name=next": "Tecnologia",
+    ""https://pt.euronews.com/next"": "Tecnologia",
 
     "https://www.noticiasaominuto.com/rss/fama": "Sociedade",
     "https://www.noticiasaominuto.com/rss/lifestyle": "Sociedade",
     "https://rr.sapo.pt/rss/rssfeed.aspx?fid=89": "Sociedade",
-    "https://pt.euronews.com/rss?format=mrss&level=vertical&name=travel": "Sociedade"
+    "https://pt.euronews.com/travel": "Sociedade"
 }
 
 CATEGORY_MAPPER = {
@@ -260,7 +260,7 @@ def map_category(feed_category, feed_url):
             return category
 
      # Adiciona uma verificação específica para o feed da Euronews
-    if feed_url.startswith("https://pt.euronews.com/rss?format=mrss&level=vertical&name=next"):
+    if feed_url.equals("https://pt.euronews.com/rss?format=mrss&level=vertical&name=next"):
         return "Tecnologia"
         
     # Se não encontrou no mapeamento de feed completo, verifica pelo nome da categoria
