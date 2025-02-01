@@ -64,7 +64,7 @@ FEED_CATEGORY_MAPPER = {
     "https://pt.euronews.com/culture": "Cultura",
 
     "https://www.noticiasaominuto.com/rss/tech": "Tecnologia",
-    "https://pt.euronews.com/next": "Tecnologia",
+    "https://pt.euronews.com/rss?format=mrss&level=vertical&name=next": "Tecnologia",
 
     "https://www.noticiasaominuto.com/rss/fama": "Sociedade",
     "https://www.noticiasaominuto.com/rss/lifestyle": "Sociedade",
@@ -111,7 +111,7 @@ CATEGORY_MAPPER = {
 def get_articles():
     articles = []
     now = datetime.now(timezone.utc)
-    last_24_hours = now - timedelta(days=1)
+    last_48_hours = now - timedelta(days=2)
     titles_seen = set()
 
     for feed_url in RSS_FEEDS:
@@ -140,7 +140,7 @@ def get_articles():
                 link = item.findtext("link", "").strip()  # Adiciona a extração do link
 
                 pub_date = parse_date(pub_date_str)
-                if pub_date and pub_date >= last_24_hours:
+                if pub_date and pub_date >= last_48_hours:
                     articles.append({
                         "title": title,
                         "description": description,
