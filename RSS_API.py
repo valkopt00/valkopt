@@ -112,6 +112,7 @@ def get_articles():
     articles = []
     now = datetime.now(timezone.utc)
     last_24_hours = now - timedelta(days=1)
+    titles_seen = set()
 
     for feed_url in RSS_FEEDS:
         try:
@@ -128,6 +129,9 @@ def get_articles():
 
             for item in root.findall(".//item"):
                 title = clean_title(item.findtext("title", "").strip())
+                if title in titles_seen:
+                    continue  # Se o título já foi processado, ignora                
+                titles_seen.add(title) # Adiciona o título ao conjunto para que não seja processado novamente
                 description = clean_description(item.findtext("description", "").strip())
                 pub_date_str = item.findtext("pubDate", "").strip()
                 source = extract_source(root)
@@ -220,6 +224,9 @@ def extract_image_url(item: Element):
                 # Substitui a versão 100x100 pela versão maior 932x621
                 if "100x100" in url:
                     url = url.replace("100x100", "932x621")
+                # Substitui a versão 932x621 pela versão maior 900x560
+                if "932x621" in url:
+                    url = url.replace("932x621", "900x560")
 
                 # Corrigir URLs duplicados no caso específico do Record
                 if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
