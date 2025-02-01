@@ -225,7 +225,7 @@ def extract_image_url(item: Element):
                 if "100x100" in url:
                     url = url.replace("100x100", "932x621")
                 # Substitui a versão 932x621 pela versão maior 900x560
-                if "932x621" in url:
+                if "932x621" in url and "jornaldenegocios" in url:
                     url = url.replace("932x621", "900x560")
 
                 # Corrigir URLs duplicados no caso específico do Record
