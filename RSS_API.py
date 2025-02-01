@@ -64,7 +64,7 @@ FEED_CATEGORY_MAPPER = {
     "https://pt.euronews.com/culture": "Cultura",
 
     "https://www.noticiasaominuto.com/rss/tech": "Tecnologia",
-    ""https://pt.euronews.com/next"": "Tecnologia",
+    "https://pt.euronews.com/next": "Tecnologia",
 
     "https://www.noticiasaominuto.com/rss/fama": "Sociedade",
     "https://www.noticiasaominuto.com/rss/lifestyle": "Sociedade",
