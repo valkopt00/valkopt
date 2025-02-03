@@ -281,11 +281,22 @@ def map_category(feed_category, feed_url):
 # URL do feed RSS
 feed_url = "https://rr.sapo.pt/rss/rssfeed.aspx?section=section_noticias"
 
-# Faz o parsing do feed RSS
-feed = feedparser.parse(feed_url)
+# Faz a requisição HTTP para obter o conteúdo do feed
+response = requests.get(feed_url)
+response.raise_for_status()  # Levanta uma exceção se houver erro na requisição
 
-# Imprime o título do canal
-print("Título do Canal:", feed.channel.title)
+# Analisa o conteúdo XML do feed
+root = ET.fromstring(response.content)
+
+# Procura pelo título dentro do <channel>
+channel_title = root.find(".//channel/title")
+
+# Verifica se o título foi encontrado e imprime
+if channel_title is not None:
+    print("Título do Canal:", channel_title.text)
+else:
+    print("Título do canal não encontrado.")
+
 
 if __name__ == "__main__":
     get_articles()
