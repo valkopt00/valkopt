@@ -18,7 +18,6 @@ RSS_FEEDS = [
     "https://feeds.feedburner.com/expresso-geral",
     "https://www.jornaldenegocios.pt/rss",
     "https://www.rtp.pt/noticias/rss/",
-    "https://rr.sapo.pt/rss/rssfeed.aspx?section=section_noticias",
     "https://rss.impresa.pt/feed/latest/expresso.rss?type=ARTICLE,VIDEO,STREAM,PLAYLIST,EVENT&limit=20&pubsubhub=true",
     "https://caras.pt/feed/",
     "https://pt.euronews.com/rss?format=mrss&level=theme&name=news",
@@ -37,26 +36,20 @@ FEED_CATEGORY_MAPPER = {
     "https://www.autosport.pt/feed": "Desporto",
     "https://www.zerozero.pt/rss/noticias.php": "Desporto",
     "https://www.noticiasaominuto.com/rss/desporto": "Desporto",
-    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=2": "Desporto",
     "https://pt.euronews.com/sport": "Desporto",
     
     "https://jornaleconomico.sapo.pt/feed": "Economia",
     "https://www.jornaldenegocios.pt/rss": "Economia",
-    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=86": "Economia",
     "https://www.rtp.pt/noticias/rss/economia": "Economia",
     "https://www.noticiasaominuto.com/rss/economia": "Economia",
 
     "https://noticiasaominuto.com/rss/politica": "Política",
-    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=85": "Política",
 
-    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=6": "Nacional",
     "https://www.rtp.pt/noticias/rss/pais": "Nacional",
     "https://www.noticiasaominuto.com/rss/pais": "Nacional",
 
     "https://noticiasaominuto.com/rss/mundo": "Mundo",
     "https://www.rtp.pt/noticias/rss/mundo": "Mundo",
-    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=88": "Mundo",
-    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=84": "Mundo",
     "https://pt.euronews.com/my-europe": "Mundo",
 
     "https://www.noticiasaominuto.com/rss/cultura": "Cultura",
@@ -68,7 +61,6 @@ FEED_CATEGORY_MAPPER = {
 
     "https://www.noticiasaominuto.com/rss/fama": "Sociedade",
     "https://www.noticiasaominuto.com/rss/lifestyle": "Sociedade",
-    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=89": "Sociedade",
     "https://pt.euronews.com/travel": "Sociedade"
 }
 
