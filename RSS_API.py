@@ -103,7 +103,31 @@ CATEGORY_MAPPER = {
     "Saúde": "Sociedade",
     "Clima": "Sociedade",
     "Política": "Política",
-    "Defesa": "Política",
+    "Defesa": "Política",def map_category(feed_category, feed_url):
+    """ Determina a categoria da notícia. """
+    # Primeiro verifica se a URL completa do feed está no mapeamento
+    for feed, category in FEED_CATEGORY_MAPPER.items():
+        if feed_url.startswith(feed):  # Verifica se a URL do feed começa com a URL mapeada
+            return category
+    
+    # Verifica se a URL contém query parameters
+    if '?' in feed_url:
+        query_params = feed_url.split('?')[-1]
+        params = dict(param.split('=') for param in query_params.split('&') if '=' in param)
+        fid_value = params.get('fid', None)
+        
+        # Verifica se há mapeamento para o query parameter 'fid'
+        if fid_value:
+            mapped_category = FEED_CATEGORY_MAPPER.get(f"https://rr.sapo.pt/rss/rssfeed.aspx?fid={fid_value}")
+            if mapped_category:
+                return mapped_category
+
+    # Se não encontrou no mapeamento de feed completo, verifica pelo nome da categoria
+    if feed_category in CATEGORY_MAPPER:
+        return CATEGORY_MAPPER[feed_category]
+
+    return "Outras Notícias"
+
     "Partidos": "Política",
     "Outras Notícias": "Outras Notícias"
 }
@@ -272,13 +296,24 @@ def map_category(feed_category, feed_url):
     for feed, category in FEED_CATEGORY_MAPPER.items():
         if feed_url.startswith(feed):  # Verifica se a URL do feed começa com a URL mapeada
             return category
+    
+    # Verifica se a URL contém query parameters
+    if '?' in feed_url:
+        query_params = feed_url.split('?')[-1]
+        params = dict(param.split('=') for param in query_params.split('&') if '=' in param)
+        fid_value = params.get('fid', None)
         
+        # Verifica se há mapeamento para o query parameter 'fid'
+        if fid_value:
+            mapped_category = FEED_CATEGORY_MAPPER.get(f"https://rr.sapo.pt/rss/rssfeed.aspx?fid={fid_value}")
+            if mapped_category:
+                return mapped_category
+
     # Se não encontrou no mapeamento de feed completo, verifica pelo nome da categoria
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
 
     return "Outras Notícias"
-
 
 if __name__ == "__main__":
     get_articles()
