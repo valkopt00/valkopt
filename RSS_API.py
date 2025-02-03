@@ -278,5 +278,14 @@ def map_category(feed_category, feed_url):
         return CATEGORY_MAPPER[feed_category]
     return "Outras Notícias"
 
+# URL do feed RSS
+feed_url = "https://rr.sapo.pt/rss/rssfeed.aspx?section=section_noticias"
+
+# Faz o parsing do feed RSS
+feed = feedparser.parse(feed_url)
+
+# Imprime o título do canal
+print("Título do Canal:", feed.channel.title)
+
 if __name__ == "__main__":
     get_articles()
