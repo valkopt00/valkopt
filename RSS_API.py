@@ -103,31 +103,7 @@ CATEGORY_MAPPER = {
     "Saúde": "Sociedade",
     "Clima": "Sociedade",
     "Política": "Política",
-    "Defesa": "Política",def map_category(feed_category, feed_url):
-    """ Determina a categoria da notícia. """
-    # Primeiro verifica se a URL completa do feed está no mapeamento
-    for feed, category in FEED_CATEGORY_MAPPER.items():
-        if feed_url.startswith(feed):  # Verifica se a URL do feed começa com a URL mapeada
-            return category
-    
-    # Verifica se a URL contém query parameters
-    if '?' in feed_url:
-        query_params = feed_url.split('?')[-1]
-        params = dict(param.split('=') for param in query_params.split('&') if '=' in param)
-        fid_value = params.get('fid', None)
-        
-        # Verifica se há mapeamento para o query parameter 'fid'
-        if fid_value:
-            mapped_category = FEED_CATEGORY_MAPPER.get(f"https://rr.sapo.pt/rss/rssfeed.aspx?fid={fid_value}")
-            if mapped_category:
-                return mapped_category
-
-    # Se não encontrou no mapeamento de feed completo, verifica pelo nome da categoria
-    if feed_category in CATEGORY_MAPPER:
-        return CATEGORY_MAPPER[feed_category]
-
-    return "Outras Notícias"
-
+    "Defesa": "Política",
     "Partidos": "Política",
     "Outras Notícias": "Outras Notícias"
 }
@@ -282,7 +258,43 @@ def parse_date(date_str):
     for fmt in DATE_FORMATS:
         try:
             return datetime.strptime(date_str, fmt).astimezone(timezone.utc)
-        except ValueError:
+        except ValueError:import requests
+import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
+import json
+import re
+from html import unescape
+from xml.etree.ElementTree import Element
+
+
+RSS_FEEDS = [
+    "https://www.record.pt/rss/",
+    "https://www.autosport.pt/feed/",
+    "https://www.zerozero.pt/rss/noticias.php",
+    "https://visao.pt/feed/",
+    "https://feeds.feedburner.com/publicoRSS",
+    "https://jornaleconomico.sapo.pt/feed/",
+    "https://www.cmjornal.pt/rss",
+    "https://feeds.feedburner.com/expresso-geral",
+    "https://www.jornaldenegocios.pt/rss",
+    "https://www.rtp.pt/noticias/rss/",
+    "https://rr.sapo.pt/rss/rssfeed.aspx?section=section_noticias",
+    "https://rss.impresa.pt/feed/latest/expresso.rss?type=ARTICLE,VIDEO,STREAM,PLAYLIST,EVENT&limit=20&pubsubhub=true",
+    "https://caras.pt/feed/",
+    "https://pt.euronews.com/rss?format=mrss&level=theme&name=news",
+    "https://www.noticiasaominuto.com/rss/ultima-hora"
+]
+
+DATE_FORMATS = [
+    "%a, %d %b %Y %H:%M:%S %z",
+    "%Y-%m-%dT%H:%M:%S%z",
+    "%Y-%m-%dT%H:%M:%S.%f%z",
+    "%Y-%m-%d %H:%M:%S"
+]
+
+FEED_CATEGORY_MAPPER = {
+    "https://www.record.pt/rss": "Desporto",
+
             continue
     return None
 
@@ -296,24 +308,13 @@ def map_category(feed_category, feed_url):
     for feed, category in FEED_CATEGORY_MAPPER.items():
         if feed_url.startswith(feed):  # Verifica se a URL do feed começa com a URL mapeada
             return category
-    
-    # Verifica se a URL contém query parameters
-    if '?' in feed_url:
-        query_params = feed_url.split('?')[-1]
-        params = dict(param.split('=') for param in query_params.split('&') if '=' in param)
-        fid_value = params.get('fid', None)
         
-        # Verifica se há mapeamento para o query parameter 'fid'
-        if fid_value:
-            mapped_category = FEED_CATEGORY_MAPPER.get(f"https://rr.sapo.pt/rss/rssfeed.aspx?fid={fid_value}")
-            if mapped_category:
-                return mapped_category
-
     # Se não encontrou no mapeamento de feed completo, verifica pelo nome da categoria
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
 
     return "Outras Notícias"
+
 
 if __name__ == "__main__":
     get_articles()
