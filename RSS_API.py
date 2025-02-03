@@ -5,6 +5,7 @@ import json
 import re
 from html import unescape
 from xml.etree.ElementTree import Element
+from urllib.parse import urlparse, parse_qs
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
@@ -266,6 +267,27 @@ def get_feed_domain(feed_url):
     return feed_url
 
 def map_category(feed_category, feed_url):
+    parsed_url = urlparse(feed_url)
+    query_params = parse_qs(parsed_url.query)
+    # Verifica se existe o parâmetro 'fid' na URL e mapeia conforme o valor de 'fid'
+    if "fid" in query_params:
+        fid_value = query_params["fid"][0]
+        # Mapeamento de 'fid' para categorias
+        if fid_value == "2":
+            return "Desporto"
+        elif fid_value == "86":
+            return "Economia"
+        elif fid_value == "85":
+            return "Política"
+        elif fid_value == "6":
+            return "Nacional"
+        elif fid_value == "88":
+            return "Mundo"
+        elif fid_value == "84":
+            return "Mundo"
+        elif fid_value == "89":
+            return "Sociedade"
+
     """ Determina a categoria da notícia. """
     # Primeiro verifica se a URL completa do feed está no mapeamento
     for feed, category in FEED_CATEGORY_MAPPER.items():
@@ -276,26 +298,6 @@ def map_category(feed_category, feed_url):
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
     return "Outras Notícias"
-
-# URL do feed RSS
-feed_url = "https://rr.sapo.pt/rss/rssfeed.aspx?section=section_noticias"
-
-# Faz a requisição HTTP para obter o conteúdo do feed
-response = requests.get(feed_url)
-response.raise_for_status()  # Levanta uma exceção se houver erro na requisição
-
-# Analisa o conteúdo XML do feed
-root = ET.fromstring(response.content)
-
-# Procura pelo título dentro do <channel>
-channel_title = root.find(".//channel/title")
-
-# Verifica se o título foi encontrado e imprime
-if channel_title is not None:
-    print("Título do Canal:", channel_title.text)
-else:
-    print("Título do canal não encontrado.")
-
 
 if __name__ == "__main__":
     get_articles()
