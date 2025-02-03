@@ -5,7 +5,7 @@ import json
 import re
 from html import unescape
 from xml.etree.ElementTree import Element
-
+from urllib.parse import urlparse, parse_qs
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
@@ -278,6 +278,18 @@ def map_category(feed_category, feed_url):
         return CATEGORY_MAPPER[feed_category]
 
     return "Outras Notícias"
+
+def extract_parameters_from_url(url):
+    """Função para extrair e imprimir parâmetros da URL"""
+    parsed_url = urlparse(url)
+    query_params = parse_qs(parsed_url.query)
+    print(f"URL: {url}")
+    print(f"Parâmetros extraídos: {query_params}")
+    return query_params
+
+# Testando com uma URL de exemplo
+url = "https://rr.sapo.pt/rss/rssfeed.aspx?fid=2"
+extract_parameters_from_url(url)
 
 
 if __name__ == "__main__":
