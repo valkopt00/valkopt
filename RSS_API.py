@@ -1,3 +1,5 @@
+
+Dito por si:
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -258,43 +260,7 @@ def parse_date(date_str):
     for fmt in DATE_FORMATS:
         try:
             return datetime.strptime(date_str, fmt).astimezone(timezone.utc)
-        except ValueError:import requests
-import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta, timezone
-import json
-import re
-from html import unescape
-from xml.etree.ElementTree import Element
-
-
-RSS_FEEDS = [
-    "https://www.record.pt/rss/",
-    "https://www.autosport.pt/feed/",
-    "https://www.zerozero.pt/rss/noticias.php",
-    "https://visao.pt/feed/",
-    "https://feeds.feedburner.com/publicoRSS",
-    "https://jornaleconomico.sapo.pt/feed/",
-    "https://www.cmjornal.pt/rss",
-    "https://feeds.feedburner.com/expresso-geral",
-    "https://www.jornaldenegocios.pt/rss",
-    "https://www.rtp.pt/noticias/rss/",
-    "https://rr.sapo.pt/rss/rssfeed.aspx?section=section_noticias",
-    "https://rss.impresa.pt/feed/latest/expresso.rss?type=ARTICLE,VIDEO,STREAM,PLAYLIST,EVENT&limit=20&pubsubhub=true",
-    "https://caras.pt/feed/",
-    "https://pt.euronews.com/rss?format=mrss&level=theme&name=news",
-    "https://www.noticiasaominuto.com/rss/ultima-hora"
-]
-
-DATE_FORMATS = [
-    "%a, %d %b %Y %H:%M:%S %z",
-    "%Y-%m-%dT%H:%M:%S%z",
-    "%Y-%m-%dT%H:%M:%S.%f%z",
-    "%Y-%m-%d %H:%M:%S"
-]
-
-FEED_CATEGORY_MAPPER = {
-    "https://www.record.pt/rss": "Desporto",
-
+        except ValueError:
             continue
     return None
 
