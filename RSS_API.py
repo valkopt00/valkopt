@@ -5,7 +5,7 @@ import json
 import re
 from html import unescape
 from xml.etree.ElementTree import Element
-from urllib.parse import urlparse, parse_qs
+import feedparser
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
