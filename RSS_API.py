@@ -64,8 +64,8 @@ FEED_CATEGORY_MAPPER = {
     "https://www.rtp.pt/noticias/rss/cultura": "Cultura",
     "https://pt.euronews.com/culture": "Cultura",
 
-    "https://www.noticiasaominuto.com/rss/tech": "Tecnologia",
-    "https://pt.euronews.com/rss?format=mrss&level=vertical&name=next": "Tecnologia",
+    "https://www.noticiasaominuto.com/rss/tech": "Ciência & Tech",
+    "https://pt.euronews.com/rss?format=mrss&level=vertical&name=next": "Ciência & Tech",
 
     "https://www.noticiasaominuto.com/rss/fama": "Sociedade",
     "https://www.noticiasaominuto.com/rss/lifestyle": "Sociedade",
@@ -99,9 +99,9 @@ CATEGORY_MAPPER = {
     "Cultura": "Cultura",
     "Livros": "Cultura",
     "Blitz": "Cultura",
-    "Tecnologia": "Tecnologia",
-    "Ciência": "Tecnologia",
-    "Exame Informática": "Tecnologia",
+    "Ciência & Tech": "Ciência & Tech",
+    "Ciência": "Ciência & Tech",
+    "Exame Informática": "Ciência & Tech",
     "Sociedade": "Sociedade",
     "Coronavírus": "Sociedade",
     "Mau tempo": "Sociedade",
@@ -178,7 +178,7 @@ def get_articles():
 def export_to_json(articles):
     categorized_data = {"Últimas": articles}
 
-    for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Tecnologia", "Sociedade", "Política", "Outras Notícias"]:
+    for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Ciência & Tech", "Sociedade", "Política", "Multimédia", "Opinião", "Outras Notícias"]:
         categorized_data[category] = [article for article in articles if article["category"] == category]
 
     with open("articles.json", "w", encoding="utf-8") as f:
