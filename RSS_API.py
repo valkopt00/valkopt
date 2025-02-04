@@ -22,6 +22,7 @@ RSS_FEEDS = [
     "https://rss.impresa.pt/feed/latest/expresso.rss?type=ARTICLE,VIDEO,STREAM,PLAYLIST,EVENT&limit=20&pubsubhub=true",
     "https://caras.pt/feed/",
     "https://pt.euronews.com/rss?format=mrss&level=theme&name=news",
+    "https://pplware.sapo.pt/feed/",
     "https://www.noticiasaominuto.com/rss/ultima-hora"
 ]
 
@@ -66,6 +67,7 @@ FEED_CATEGORY_MAPPER = {
 
     "https://www.noticiasaominuto.com/rss/tech": "Ciência & Tech",
     "https://pt.euronews.com/rss?format=mrss&level=vertical&name=next": "Ciência & Tech",
+    "https://pplware.sapo.pt/feed/": "Ciência & Tech",
 
     "https://www.noticiasaominuto.com/rss/fama": "Sociedade",
     "https://www.noticiasaominuto.com/rss/lifestyle": "Sociedade",
@@ -91,6 +93,8 @@ CATEGORY_MAPPER = {
     "Diplomacia": "Mundo",
     "EUA": "Mundo",
     "Desporto": "Desporto",
+    "Futebol Nacional": "Desporto",
+    "Futebol Internacional": "Desporto",
     "Economia": "Economia",
     "Negócios": "Economia",
     "Segurança Social": "Economia",
@@ -101,17 +105,19 @@ CATEGORY_MAPPER = {
     "Blitz": "Cultura",
     "Ciência & Tech": "Ciência & Tech",
     "Ciência": "Ciência & Tech",
+    "Tech": "Ciência & Tech",
     "Exame Informática": "Ciência & Tech",
     "Sociedade": "Sociedade",
     "Coronavírus": "Sociedade",
     "Mau tempo": "Sociedade",
-    "Comer e beber": "Sociedade",
     "Insólitos": "Sociedade",
     "Meteorologia": "Sociedade",
     "Saúde": "Sociedade",
     "Clima": "Sociedade",
+    "Justiça": "Sociedade",
     "Política": "Política",
     "Defesa": "Política",
+    "Parlamento": "Política",
     "Partidos": "Política",
     "Multimédia": "Multimédia",
     "Fotogaleria": "Multimédia",
@@ -121,9 +127,14 @@ CATEGORY_MAPPER = {
     "Expresso da Manhã": "Multimédia",
     "Isto É Gozar Com Quem Trabalha": "Multimédia",
     "Ana Gomes": "Multimédia",
+    "Noticiários Desporto": "Multimédia",
     "Minuto Consumidor": "Multimédia",
     "Leste Oeste de Nuno Rogeiro": "Multimédia",
     "Opinião": "Opinião",
+    "Lifestyle": "Lifestyle",
+    "Comer e beber": "Lifestyle",
+    "Gastronomia": "Lifestyle",
+    "Ideias": "Lifestyle",
     "Outras Notícias": "Outras Notícias"
 }
 
@@ -178,7 +189,8 @@ def get_articles():
 def export_to_json(articles):
     categorized_data = {"Últimas": articles}
 
-    for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Ciência & Tech", "Sociedade", "Política", "Multimédia", "Opinião", "Outras Notícias"]:
+    for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Ciência & Tech", "Lifestyle", 
+                     "Sociedade", "Política", "Multimédia", "Opinião", "Outras Notícias"]:
         categorized_data[category] = [article for article in articles if article["category"] == category]
 
     with open("articles.json", "w", encoding="utf-8") as f:
