@@ -20,7 +20,6 @@ RSS_FEEDS = [
     "https://www.rtp.pt/noticias/rss/",
     "https://rr.sapo.pt/rss/rssfeed.aspx?section=section_noticias",
     "https://rss.impresa.pt/feed/latest/expresso.rss?type=ARTICLE,VIDEO,STREAM,PLAYLIST,EVENT&limit=20&pubsubhub=true",
-    "https://caras.pt/feed/",
     "https://pt.euronews.com/rss?format=mrss&level=theme&name=news",
     "https://pplware.sapo.pt/feed/",
     "https://www.noticiasaominuto.com/rss/ultima-hora"
@@ -77,6 +76,8 @@ FEED_CATEGORY_MAPPER = {
 
     "https://www.rtp.pt/noticias/rss/videos": "Multimédia",
     "https://www.rtp.pt/noticias/rss/audios": "Multimédia",
+
+    "https://caras.pt/feed/": "Lifestyle",
 
     "https://rr.sapo.pt/rss/rssfeed.aspx?fid=71": "Opinião"
 }
