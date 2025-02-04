@@ -225,6 +225,9 @@ def extract_source(root):
         return source_name
     return "Desconhecido"
 
+import re
+from xml.etree.ElementTree import Element
+
 def extract_image_url(item: Element):
     """Procura uma imagem válida no RSS, corrige URLs duplicados e extrai imagens da <description>.
        Se o link for do Jornal Económico, define uma imagem padrão.
@@ -239,20 +242,16 @@ def extract_image_url(item: Element):
 
     # Verifica nas tags principais (media:content, enclosure, image, img, post-thumbnail)
     for tag in ["media:content", "enclosure", "image", "img", "post-thumbnail"]:
-        element = item.find(tag, namespaces)  # Passa namespaces para garantir que encontra media:content
-        if element is None:
-            # Tenta sem namespaces caso a tag não esteja no namespace fornecido
-            element = item.find(tag)
+        element = item.find(tag, namespaces) or item.find(tag)  # Tenta com e sem namespaces
 
         if element is not None:
-            # Verifica se a tag tem atributo 'url'
-            url = None
-            if tag == "post-thumbnail" and element.find("url") is not None:
-                url = element.find("url").text
-            elif "url" in element.attrib:
-                url = element.attrib["url"]
+            url = element.get("url")  # Obtém diretamente o atributo "url"
+            if not url and tag == "post-thumbnail" and element.find("url") is not None:
+                url = element.find("url").text  # No caso do post-thumbnail, pode estar dentro de <url>
 
             if url:
+                url = url.strip()  # Remove espaços em branco
+
                 # Substitui a versão 100x100 pela versão maior 932x621
                 if "100x100" in url:
                     url = url.replace("100x100", "932x621")
@@ -269,16 +268,17 @@ def extract_image_url(item: Element):
     # Se não encontrou imagem nas tags principais, verifica dentro do <content:encoded>
     content_encoded = item.find("content:encoded")
     if content_encoded is not None and content_encoded.text:
-        match = re.search(r'<img\s+[^>]*src="([^"]+)"', content_encoded.text)
+        match = re.search(r'<img\s+[^>]*src=["\']([^"\']+)["\']', content_encoded.text, re.IGNORECASE)
         if match:
-            return match.group(1)
+            return match.group(1).strip()  # Retorna o primeiro URL encontrado
 
     # Se ainda não encontrou imagem, tenta dentro da <description>
     description = item.find("description")
     if description is not None and description.text:
-        match = re.search(r'<img\s+src="([^"]+)"', description.text)
-        if match:
-            return match.group(1)
+        matches = re.findall(r'<img\s+[^>]*src=["\']([^"\']+)["\']', description.text, re.IGNORECASE)
+        if matches:
+            # Se houver várias imagens, escolhe a de maior resolução (ou a primeira)
+            return max(matches, key=len).strip()  # Escolhe a de URL mais longo (maior resolução)
 
     return None  # Retorna None se não encontrar uma imagem
 
