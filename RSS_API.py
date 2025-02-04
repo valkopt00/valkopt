@@ -58,6 +58,7 @@ FEED_CATEGORY_MAPPER = {
     "https://rr.sapo.pt/rss/rssfeed.aspx?fid=88": "Mundo",
     "https://rr.sapo.pt/rss/rssfeed.aspx?fid=84": "Mundo",
     "https://pt.euronews.com/my-europe": "Mundo",
+    "https://pt.euronews.com/rss?format=mrss&level=program&name=nocomment": "Mundo",
 
     "https://www.noticiasaominuto.com/rss/cultura": "Cultura",
     "https://www.rtp.pt/noticias/rss/cultura": "Cultura",
@@ -69,7 +70,13 @@ FEED_CATEGORY_MAPPER = {
     "https://www.noticiasaominuto.com/rss/fama": "Sociedade",
     "https://www.noticiasaominuto.com/rss/lifestyle": "Sociedade",
     "https://rr.sapo.pt/rss/rssfeed.aspx?fid=89": "Sociedade",
-    "https://pt.euronews.com/travel": "Sociedade"
+    "https://pt.euronews.com/rss?format=mrss&level=vertical&name=green": "Sociedade",
+    "https://pt.euronews.com/travel": "Sociedade",
+
+    "https://www.rtp.pt/noticias/rss/videos": "Multimédia",
+    "https://www.rtp.pt/noticias/rss/audios": "Multimédia",
+
+    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=71": "Opinião"
 }
 
 CATEGORY_MAPPER = {
@@ -81,6 +88,7 @@ CATEGORY_MAPPER = {
     "União Europeia": "Mundo",
     "Médio Oriente": "Mundo",
     "Faixa de Gaza": "Mundo",
+    "Diplomacia": "Mundo",
     "EUA": "Mundo",
     "Desporto": "Desporto",
     "Economia": "Economia",
@@ -105,6 +113,17 @@ CATEGORY_MAPPER = {
     "Política": "Política",
     "Defesa": "Política",
     "Partidos": "Política",
+    "Multimédia": "Multimédia",
+    "Fotogaleria": "Multimédia",
+    "O Mundo a Seus Pés": "Multimédia",
+    "Contas Poupança": "Multimédia",
+    "O CEO é o limite": "Multimédia",
+    "Expresso da Manhã": "Multimédia",
+    "Isto É Gozar Com Quem Trabalha": "Multimédia",
+    "Ana Gomes": "Multimédia",
+    "Minuto Consumidor": "Multimédia",
+    "Leste Oeste de Nuno Rogeiro": "Multimédia",
+    "Opinião": "Opinião",
     "Outras Notícias": "Outras Notícias"
 }
 
