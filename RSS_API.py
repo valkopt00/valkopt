@@ -142,6 +142,7 @@ CATEGORY_MAPPER = {
 def get_articles():
     articles = []
     now = datetime.now(timezone.utc)
+    last_12_hours = now - timedelta(hours=12)
     last_48_hours = now - timedelta(days=2)
     titles_seen = set()
 
@@ -162,7 +163,8 @@ def get_articles():
                 title = clean_title(item.findtext("title", "").strip())
                 if title in titles_seen:
                     continue  # Se o título já foi processado, ignora                
-                titles_seen.add(title) # Adiciona o título ao conjunto para que não seja processado novamente
+                titles_seen.add(title)  # Adiciona o título ao conjunto para evitar duplicados
+
                 description = clean_description(item.findtext("description", "").strip())
                 pub_date_str = item.findtext("pubDate", "").strip()
                 source = extract_source(root)
@@ -171,16 +173,30 @@ def get_articles():
                 link = item.findtext("link", "").strip()  # Adiciona a extração do link
 
                 pub_date = parse_date(pub_date_str)
-                if pub_date and pub_date >= last_48_hours:
-                    articles.append({
-                        "title": title,
-                        "description": description,
-                        "image": image_url,
-                        "source": source,
-                        "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
-                        "category": category,
-                        "link": link  # Adiciona o link ao dicionário
-                    })
+
+                if pub_date:
+                    # Para a categoria "Últimas", considerar apenas as notícias das últimas 12 horas
+                    if category == "Últimas" and pub_date >= last_12_hours:
+                        articles.append({
+                            "title": title,
+                            "description": description,
+                            "image": image_url,
+                            "source": source,
+                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
+                            "category": category,
+                            "link": link
+                        })
+                    # Para todas as outras categorias, considerar as notícias das últimas 48 horas
+                    elif category != "Últimas" and pub_date >= last_48_hours:
+                        articles.append({
+                            "title": title,
+                            "description": description,
+                            "image": image_url,
+                            "source": source,
+                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
+                            "category": category,
+                            "link": link
+                        })
         except requests.exceptions.RequestException as e:
             print(f"Erro ao processar {feed_url}: {e}")
 
