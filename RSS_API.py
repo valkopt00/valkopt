@@ -244,52 +244,52 @@ def extract_source(root):
     return "Desconhecido"
 
 def get_image_url_from_link(news_url):
-    try:
-        response = requests.get(news_url)
-        response.raise_for_status()  # Raises an HTTPError for bad responses
-        
-        soup = BeautifulSoup(response.content, 'html.parser')
-        
-        # Expanded list of valid prefixes
-        valid_prefixes = [
-            "https://ionline.sapo.pt/wp-content/uploads/",
-            "https://jornaleconomico.sapo.pt/wp-content/themes/yootheme/",
-            "https://jornaleconomico.sapo.pt/wp-content/themes/yootheme/cache/",
-            "https://jornaleconomico.sapo.pt/wp-content/uploads/"
-        ]
-        
-        # Search for images with class or specific attributes
-        image_tags = soup.find_all(['img', 'source'], 
-                                   src=True, 
-                                   class_=['featured-image', 'main-image', 'article-image'])
-        
-        for img_tag in image_tags:
-            image_url = img_tag.get('src', '')
-            
-            # Check if image URL starts with any valid prefix or contains valid path
-            if any(prefix in image_url for prefix in valid_prefixes):
-                return image_url
-        
-        print("No valid image found.")
-        return None
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
     
-    except requests.RequestException as e:
-        print(f"Error accessing the page: {e}")
+    response = requests.get(news_url, headers=headers)
+    if response.status_code != 200:
+        print(f"Erro ao acessar a página: {response.status_code}")
         return None
+
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+    # Primeiro, tentamos encontrar a imagem principal (wp-post-image)
+    image_tag = soup.find('img', class_='wp-post-image')
+
+    # Se não encontrar, buscamos qualquer imagem dentro de um bloco de capa (cover image)
+    if not image_tag:
+        image_tag = soup.find('img', class_='wp-block-cover__image-background')
+
+    # Se ainda não encontrou, buscamos qualquer <img> na página
+    if not image_tag:
+        image_tags = soup.find_all('img')
+        for img in image_tags:
+            image_url = img.get('data-src') or img.get('src')
+            if image_url and image_url.startswith("https://ionline.sapo.pt/wp-content/uploads/"):
+                return image_url
+    
+    # Se encontrou a tag, extrai a URL
+    if image_tag:
+        image_url = image_tag.get('data-src') or image_tag.get('src')
+        if image_url and image_url.startswith("https://ionline.sapo.pt/wp-content/uploads/"):
+            return image_url
+
+    print("Nenhuma imagem correspondente encontrada.")
+    return None
 
 def extract_image_url(item: Element):
     """Procura uma imagem válida no RSS, corrige URLs duplicados e extrai imagens da <description>.
        Se o link for do Jornal Económico, define uma imagem padrão.
     """
     namespaces = {"media": "http://search.yahoo.com/mrss/"}  # Namespace comum para media:content
-    # jornal_economico_logo = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
+    jornal_economico_logo = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
 
     # Verifica se o link é do Jornal Económico
-    """
     link_element = item.find("link")
     if link_element is not None and link_element.text and "jornaleconomico" in link_element.text:
         return jornal_economico_logo
-    """
     
     # Verifica nas tags principais (media:content, enclosure, image, img, post-thumbnail)
     for tag in ["media:content", "enclosure", "image", "img", "post-thumbnail"]:
