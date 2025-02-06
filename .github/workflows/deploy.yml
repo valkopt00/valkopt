@@ -19,7 +19,7 @@ jobs:
           python-version: "3.10"
 
       - name: Instalar dependências
-        run: pip install requests
+        run: pip install -r requirements.txt
 
       - name: Executar script para atualizar JSON
         run: python RSS_API.py
