@@ -22,6 +22,7 @@ RSS_FEEDS = [
     "https://rss.impresa.pt/feed/latest/expresso.rss?type=ARTICLE,VIDEO,STREAM,PLAYLIST,EVENT&limit=20&pubsubhub=true",
     "https://pt.euronews.com/rss?format=mrss&level=theme&name=news",
     "https://pplware.sapo.pt/feed/",
+    "https://ionline.sapo.pt/feed/",
     "https://www.noticiasaominuto.com/rss/ultima-hora"
 ]
 
