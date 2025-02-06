@@ -68,7 +68,7 @@ FEED_CATEGORY_MAPPER = {
 
     "https://www.noticiasaominuto.com/rss/tech": "Ciência e Tech",
     "https://pt.euronews.com/rss?format=mrss&level=vertical&name=next": "Ciência e Tech",
-    "https://pplware.sapo.pt/feed/": "Ciência & Tech",
+    "https://pplware.sapo.pt/feed/": "Ciência e Tech",
 
     "https://www.noticiasaominuto.com/rss/fama": "Sociedade",
     "https://www.noticiasaominuto.com/rss/lifestyle": "Sociedade",
@@ -106,6 +106,7 @@ CATEGORY_MAPPER = {
     "Cultura": "Cultura",
     "Livros": "Cultura",
     "Blitz": "Cultura",
+    "Ciência e Tech": "Ciência e Tech",
     "Ciência & Tech": "Ciência e Tech",
     "Ciência": "Ciência e Tech",
     "Tech": "Ciência e Tech",
@@ -208,7 +209,7 @@ def get_articles():
 def export_to_json(articles):
     categorized_data = {"Últimas": articles}
 
-    for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Ciência & Tech", "Lifestyle", 
+    for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Ciência e Tech", "Lifestyle", 
                      "Sociedade", "Política", "Multimédia", "Opinião", "Outras Notícias"]:
         categorized_data[category] = [article for article in articles if article["category"] == category]
 
