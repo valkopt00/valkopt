@@ -5,6 +5,7 @@ import json
 import re
 from html import unescape
 from xml.etree.ElementTree import Element
+from bs4 import BeautifulSoup
 
 
 RSS_FEEDS = [
@@ -242,6 +243,21 @@ def extract_source(root):
         return source_name
     return "Desconhecido"
 
+def get_image_url_from_link(news_url):
+    response = requests.get(news_url)
+    if response.status_code != 200:
+        print(f"Erro ao acessar a página: {response.status_code}")
+        return None
+
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+    image_tag = soup.find('img')
+    if image_tag and 'src' in image_tag.attrs:
+        return image_tag['src']
+    else:
+        print("Nenhuma imagem encontrada na página.")
+        return None
+
 def extract_image_url(item: Element):
     """Procura uma imagem válida no RSS, corrige URLs duplicados e extrai imagens da <description>.
        Se o link for do Jornal Económico, define uma imagem padrão.
@@ -303,6 +319,12 @@ def extract_image_url(item: Element):
         match = re.search(r'<img\s+src="([^"]+)"', description.text)
         if match:
             return match.group(1)
+
+    # Se ainda não encontrou imagem, tenta buscar no link da notícia
+    if link_element is not None and link_element.text:
+        image_url = get_image_url_from_link(link_element.text)
+        if image_url:
+            return image_url
 
     return None  # Retorna None se não encontrar uma imagem
 
