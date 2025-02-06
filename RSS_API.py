@@ -253,7 +253,12 @@ def get_image_url_from_link(news_url):
 
     image_tag = soup.find('img')
     if image_tag and 'src' in image_tag.attrs:
-        return image_tag['src']
+        image_url = image_tag['src']
+        if image_url.startswith("https://ionline.sapo.pt/wp-content/uploads/"):
+            return image_url
+        else:
+            print("A imagem encontrada não corresponde ao link especificado.")
+            return None
     else:
         print("Nenhuma imagem encontrada na página.")
         return None
