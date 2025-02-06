@@ -244,39 +244,28 @@ def extract_source(root):
     return "Desconhecido"
 
 def get_image_url_from_link(news_url):
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    }
-    
-    response = requests.get(news_url, headers=headers)
+    response = requests.get(news_url)
     if response.status_code != 200:
         print(f"Erro ao acessar a página: {response.status_code}")
         return None
 
     soup = BeautifulSoup(response.content, 'html.parser')
 
-    # Primeiro, tentamos encontrar a imagem principal (wp-post-image)
-    image_tag = soup.find('img', class_='wp-post-image')
+    # Lista de prefixos permitidos
+    valid_prefixes = [
+        "https://ionline.sapo.pt/wp-content/uploads/",
+        "https://jornaleconomico.sapo.pt/wp-content/themes/yootheme/"
+    ]
 
-    # Se não encontrar, buscamos qualquer imagem dentro de um bloco de capa (cover image)
-    if not image_tag:
-        image_tag = soup.find('img', class_='wp-block-cover__image-background')
-
-    # Se ainda não encontrou, buscamos qualquer <img> na página
-    if not image_tag:
-        image_tags = soup.find_all('img')
-        for img in image_tags:
-            image_url = img.get('data-src') or img.get('src')
-            if image_url and image_url.startswith("https://ionline.sapo.pt/wp-content/uploads/"):
+    # Procurar todas as imagens na página
+    for img_tag in soup.find_all('img'):
+        if 'src' in img_tag.attrs:
+            image_url = img_tag['src']
+            # Verificar se a imagem começa com um dos links desejados
+            if any(image_url.startswith(prefix) for prefix in valid_prefixes):
                 return image_url
-    
-    # Se encontrou a tag, extrai a URL
-    if image_tag:
-        image_url = image_tag.get('data-src') or image_tag.get('src')
-        if image_url and image_url.startswith("https://ionline.sapo.pt/wp-content/uploads/"):
-            return image_url
 
-    print("Nenhuma imagem correspondente encontrada.")
+    print("Nenhuma imagem válida encontrada.")
     return None
 
 
