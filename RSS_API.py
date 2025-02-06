@@ -244,30 +244,38 @@ def extract_source(root):
     return "Desconhecido"
 
 def get_image_url_from_link(news_url):
-    response = requests.get(news_url)
-    if response.status_code != 200:
-        print(f"Erro ao acessar a página: {response.status_code}")
-        return None
-
-    soup = BeautifulSoup(response.content, 'html.parser')
-
-    # Lista de prefixos permitidos
-    valid_prefixes = [
-        "https://ionline.sapo.pt/wp-content/uploads/",
-        "https://jornaleconomico.sapo.pt/wp-content/themes/yootheme/"
-    ]
-
-    # Procurar todas as imagens na página
-    for img_tag in soup.find_all('img'):
-        if 'src' in img_tag.attrs:
-            image_url = img_tag['src']
-            # Verificar se a imagem começa com um dos links desejados
-            if any(image_url.startswith(prefix) for prefix in valid_prefixes):
+    try:
+        response = requests.get(news_url)
+        response.raise_for_status()  # Raises an HTTPError for bad responses
+        
+        soup = BeautifulSoup(response.content, 'html.parser')
+        
+        # Expanded list of valid prefixes
+        valid_prefixes = [
+            "https://ionline.sapo.pt/wp-content/uploads/",
+            "https://jornaleconomico.sapo.pt/wp-content/themes/yootheme/",
+            "https://jornaleconomico.sapo.pt/wp-content/themes/yootheme/cache/",
+            "https://jornaleconomico.sapo.pt/wp-content/uploads/"
+        ]
+        
+        # Search for images with class or specific attributes
+        image_tags = soup.find_all(['img', 'source'], 
+                                   src=True, 
+                                   class_=['featured-image', 'main-image', 'article-image'])
+        
+        for img_tag in image_tags:
+            image_url = img_tag.get('src', '')
+            
+            # Check if image URL starts with any valid prefix or contains valid path
+            if any(prefix in image_url for prefix in valid_prefixes):
                 return image_url
-
-    print("Nenhuma imagem válida encontrada.")
-    return None
-
+        
+        print("No valid image found.")
+        return None
+    
+    except requests.RequestException as e:
+        print(f"Error accessing the page: {e}")
+        return None
 
 def extract_image_url(item: Element):
     """Procura uma imagem válida no RSS, corrige URLs duplicados e extrai imagens da <description>.
