@@ -244,24 +244,26 @@ def extract_source(root):
     return "Desconhecido"
 
 def get_image_url_from_link(news_url):
-    response = requests.get(news_url)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    
+    response = requests.get(news_url, headers=headers)
     if response.status_code != 200:
         print(f"Erro ao acessar a página: {response.status_code}")
         return None
 
     soup = BeautifulSoup(response.content, 'html.parser')
 
-    image_tag = soup.find('img')
-    if image_tag and 'src' in image_tag.attrs:
-        image_url = image_tag['src']
-        if image_url.startswith("https://ionline.sapo.pt/wp-content/uploads/"):
+    # Encontra todas as imagens na página
+    image_tags = soup.find_all('img')
+
+    for img in image_tags:
+        # Verifica primeiro 'data-src', depois 'src'
+        image_url = img.get('data-src') or img.get('src')
+
+        if image_url and image_url.startswith("https://ionline.sapo.pt/wp-content/uploads/"):
             return image_url
-        else:
-            print("A imagem encontrada não corresponde ao link especificado.")
-            return None
-    else:
-        print("Nenhuma imagem encontrada na página.")
-        return None
 
 def extract_image_url(item: Element):
     """Procura uma imagem válida no RSS, corrige URLs duplicados e extrai imagens da <description>.
