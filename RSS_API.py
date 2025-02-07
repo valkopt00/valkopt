@@ -133,11 +133,15 @@ CATEGORY_MAPPER = {
     "Ana Gomes": "Multimédia",
     "Noticiários Desporto": "Multimédia",
     "Minuto Consumidor": "Multimédia",
+    "Noticiário Antena1": "Multimédia",
     "Leste Oeste de Nuno Rogeiro": "Multimédia",
+    "Vídeos": "Multimédia",
     "Opinião": "Opinião",
     "Lifestyle": "Lifestyle",
     "Comer e beber": "Lifestyle",
     "Gastronomia": "Lifestyle",
+    "Vidas": "Lifestyle",
+    "Fama": "Lifestyle",
     "Ideias": "Lifestyle",
     "Outras Notícias": "Outras Notícias"
 }
@@ -240,6 +244,8 @@ def extract_source(root):
     channel_title = root.find(".//channel/title")
     if channel_title is not None:
         source_name = channel_title.text.strip()
+        if source_name == "News | Euronews RSS":
+            return "Euronews"
         source_name = re.split(r" - | / ", source_name)[0]  # Remove tudo após " - " ou " / "
         return source_name
     return "Desconhecido"
