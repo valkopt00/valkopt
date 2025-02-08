@@ -234,7 +234,7 @@ def clean_description(description):
     description = description.strip()
 
     # Limita a 230 caracteres, garantindo que não corta palavras
-    if len(description) > 230:
+    if len(description) > 150:
         description = description[:230].rsplit(' ', 1)[0] + "..."
     
     return description
