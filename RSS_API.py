@@ -246,6 +246,8 @@ def extract_source(root):
         source_name = channel_title.text.strip()
         if source_name == "News | Euronews RSS":
             return "Euronews"
+        if source_name == "Notícias zerozero.pt":
+            return "zerozero.pt"
         source_name = re.split(r" - | / ", source_name)[0]  # Remove tudo após " - " ou " / "
         return source_name
     return "Desconhecido"
