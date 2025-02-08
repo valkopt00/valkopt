@@ -6,7 +6,7 @@ import re
 from html import unescape
 from xml.etree.ElementTree import Element
 from bs4 import BeautifulSoup
-
+from urllib.parse import urlparse
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
@@ -373,6 +373,14 @@ def get_feed_domain(feed_url):
 
 def map_category(feed_category, feed_url):
     """ Determina a categoria da notícia. """
+     # Verifica se a URL é do CM Jornal e extrai a categoria
+    if "cmjornal.pt" in feed_url:
+        parsed_url = urlparse(feed_url)
+        path_parts = parsed_url.path.strip("/").split("/")
+        if path_parts:  # Se houver pelo menos um segmento na URL
+            cm_category = path_parts[0].lower()
+            return cm_category.capitalize()
+            
     # Primeiro verifica se a URL completa do feed está no mapeamento
     for feed, category in FEED_CATEGORY_MAPPER.items():
         if feed_url.startswith(feed):  # Verifica se a URL do feed começa com a URL mapeada
