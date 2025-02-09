@@ -6,7 +6,7 @@ import re
 from html import unescape
 from xml.etree.ElementTree import Element
 from bs4 import BeautifulSoup
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlunparse
 import feedparser
 
 RSS_FEEDS = [
