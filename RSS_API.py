@@ -421,6 +421,17 @@ def map_category(feed_category, feed_url, item_link=None):
             if cm_category in CATEGORY_MAPPER:
                 return CATEGORY_MAPPER[cm_category]
             return "Outras Notícias"
+    elif "rr.sapo.pt" in feed_url and "/noticia/" in feed_url:
+        try:
+            parsed_url = urlparse(feed_url)
+            path_parts = parsed_url.path.strip("/").split("/")
+            index = path_parts.index("noticia")
+            if index + 1 < len(path_parts):  # Verifica se existe elemento após "noticia"
+                rr_category = path_parts[index + 1].lower()
+                rr_category = rr_category.capitalize()
+                if rr_category in CATEGORY_MAPPER:
+                    return CATEGORY_MAPPER[rr_category]
+                return "Outras Notícias"
 
     # Por fim, verifica o mapeamento completo de feeds
     for feed, category in FEED_CATEGORY_MAPPER.items():
