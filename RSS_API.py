@@ -385,7 +385,8 @@ def map_category(feed_category, feed_url):
             if category_tag is not None:
                 return category_tag.text.capitalize()  # Retorna a categoria formatada
 
-    return feed_category.capitalize()
+    category = feed_category.capitalize()
+    return category
             
     # Primeiro verifica se a URL completa do feed está no mapeamento
     for feed, category in FEED_CATEGORY_MAPPER.items():
