@@ -63,6 +63,7 @@ FEED_CATEGORY_MAPPER = {
     "https://www.noticiasaominuto.com/rss/tech": "Ciência e Tech",
     "https://pt.euronews.com/rss?format=mrss&level=vertical&name=next": "Ciência e Tech",
     "https://pplware.sapo.pt/feed/": "Ciência e Tech",
+    "https://www.eurogamer.pt/feed": "Ciência e Tech",
 
     "https://www.noticiasaominuto.com/rss/fama": "Sociedade",
     "https://www.noticiasaominuto.com/rss/lifestyle": "Sociedade",
@@ -383,22 +384,36 @@ def parse_date(date_str):
     """
     if not date_str:
         return None
-        
+    
+    # Para debug - imprimir a string de data recebida
+    print(f"Data original recebida: {date_str}")
+    
+    # Remover espaços extras e caracteres especiais
+    date_str = date_str.strip()
+    
     # Pré-processar a string para converter GMT+1 para +0100
     if "GMT+" in date_str:
         date_str = re.sub(r'GMT\+(\d+)', lambda m: f"+{m.group(1).zfill(2)}00", date_str)
+        print(f"Data após processamento GMT+: {date_str}")
     elif "GMT-" in date_str:
         date_str = re.sub(r'GMT-(\d+)', lambda m: f"-{m.group(1).zfill(2)}00", date_str)
-        
+        print(f"Data após processamento GMT-: {date_str}")
+    
+    # Tentar cada formato
     for fmt in DATE_FORMATS:
         try:
+            print(f"Tentando formato: {fmt}")
             dt = datetime.strptime(date_str, fmt)
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
-            return dt.astimezone(timezone.utc)  # Retorna o objeto datetime em UTC
-        except ValueError:
+            dt_utc = dt.astimezone(timezone.utc)
+            print(f"Sucesso! Data convertida: {dt_utc}")
+            return dt_utc
+        except ValueError as e:
+            print(f"Erro com formato {fmt}: {str(e)}")
             continue
-            
+    
+    print("Nenhum formato funcionou para a data")
     return None
 
 def get_feed_domain(feed_url):
