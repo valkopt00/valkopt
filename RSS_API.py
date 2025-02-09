@@ -163,6 +163,7 @@ CATEGORY_MAPPER = {
 
 DATE_FORMATS = [
     "%a, %d %b %Y %H:%M:%S %z",
+    "%a, %d %b %Y %H:%M:%S GMT%z",
     "%Y-%m-%dT%H:%M:%S%z",
     "%Y-%m-%dT%H:%M:%S.%f%z",
     "%Y-%m-%d %H:%M:%S"
