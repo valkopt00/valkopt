@@ -443,5 +443,6 @@ def map_category(feed_category, feed_url, item_link=None):
             return category
         
     return "Outras Notícias"
+    
 if __name__ == "__main__":
     get_articles()
