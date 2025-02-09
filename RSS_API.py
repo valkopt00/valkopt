@@ -7,6 +7,9 @@ from html import unescape
 from xml.etree.ElementTree import Element
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
+import base64
+from io import BytesIO
+from PIL import Image
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
@@ -312,6 +315,43 @@ def extract_image_url(item: Element):
             url = None
             if tag == "post-thumbnail" and element.find("url") is not None:
                 url = element.find("url").text
+
+def convert_image_to_webp_base64(image_url, quality=80):
+    """
+    Baixa a imagem do URL, converte para WebP com a qualidade definida e codifica em base64.
+    Retorna uma string do tipo "data:image/webp;base64,<dados>".
+    """
+    response = requests.get(image_url)
+    response.raise_for_status()  # Levanta exceção se houver erro
+    img = Image.open(BytesIO(response.content))
+    output = BytesIO()
+    img.save(output, format='WEBP', quality=quality)
+    webp_data = output.getvalue()
+    base64_str = base64.b64encode(webp_data).decode('utf-8')
+    return "data:image/webp;base64," + base64_str
+
+def extract_image_url(item: Element):
+    """Procura uma imagem válida no RSS, corrige URLs duplicados e extrai imagens da <description>.
+       Se o link for do Jornal Económico, define uma imagem padrão.
+    """
+    namespaces = {"media": "http://search.yahoo.com/mrss/"}  # Namespace comum para media:content
+    jornal_economico_logo = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
+
+    # Verifica se o link é do Jornal Económico
+    link_element = item.find("link")
+    if link_element is not None and link_element.text and "jornaleconomico" in link_element.text:
+        return jornal_economico_logo
+
+    # Verifica nas tags principais (media:content, enclosure, image, img, post-thumbnail)
+    for tag in ["media:content", "enclosure", "image", "img", "post-thumbnail"]:
+        element = item.find(tag, namespaces)  # Tenta com namespace
+        if element is None:
+            element = item.find(tag)          # Tenta sem namespace
+
+        if element is not None:
+            url = None
+            if tag == "post-thumbnail" and element.find("url") is not None:
+                url = element.find("url").text
             elif "url" in element.attrib:
                 url = element.attrib["url"]
 
@@ -319,22 +359,27 @@ def extract_image_url(item: Element):
                 # Substitui a versão 100x100 pela versão maior 932x621
                 if "100x100" in url:
                     url = url.replace("100x100", "932x621")
-                # Substitui a versão 932x621 pela versão maior 900x560
+                # Substitui a versão 932x621 pela versão maior 900x560 para o jornal de negócios
                 if "932x621" in url and "jornaldenegocios" in url:
                     url = url.replace("932x621", "900x560")
-
                 # Corrigir URLs duplicados no caso específico do Record
                 if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
-                    return url.replace("https://cdn.record.pt/images/", "", 1)
-
-                return url  # Retorna o URL normal se não precisar de correção
+                    url = url.replace("https://cdn.record.pt/images/", "", 1)
+                try:
+                    return convert_image_to_webp_base64(url)
+                except Exception as e:
+                    # Se houver erro na conversão, retorna o URL original
+                    return url
 
     # Se não encontrou imagem nas tags principais, verifica dentro do <content:encoded>
     content_encoded = item.find("content:encoded")
     if content_encoded is not None and content_encoded.text:
         match = re.search(r'<img\s+[^>]*src="([^"]+)"', content_encoded.text)
         if match:
-            return match.group(1)
+            try:
+                return convert_image_to_webp_base64(match.group(1))
+            except Exception as e:
+                return match.group(1)
 
     # Se ainda não encontrou imagem, tenta dentro da <description>
     description = item.find("description")
@@ -344,20 +389,27 @@ def extract_image_url(item: Element):
         if link_element is not None and link_element.text and "pplware" in link_element.text:
             match = re.search(r'<img\s+[^>]*src="([^"]+)"', description.text)
             if match:
-                return match.group(1)
-
+                try:
+                    return convert_image_to_webp_base64(match.group(1))
+                except Exception as e:
+                    return match.group(1)
         match = re.search(r'<img\s+src="([^"]+)"', description.text)
         if match:
-            return match.group(1)
+            try:
+                return convert_image_to_webp_base64(match.group(1))
+            except Exception as e:
+                return match.group(1)
 
     # Se ainda não encontrou imagem, tenta buscar no link da notícia
     if link_element is not None and link_element.text:
         image_url = get_image_url_from_link(link_element.text)
         if image_url:
-            return image_url
+            try:
+                return convert_image_to_webp_base64(image_url)
+            except Exception as e:
+                return image_url
 
     return None  # Retorna None se não encontrar uma imagem
-
 def parse_date(date_str):
     """ Converte a data do RSS para datetime. """
     if not date_str:
