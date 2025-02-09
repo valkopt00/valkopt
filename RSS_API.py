@@ -452,7 +452,7 @@ def map_category(feed_category, feed_url, item_link=None):
                     rr_category = rr_category.capitalize()
                     if rr_category in CATEGORY_MAPPER:
                         return CATEGORY_MAPPER[rr_category]
-                    return rr_category  # Retorna a categoria extraída, mesmo que não esteja no CATEGORY_MAPPER
+                    return "Outras Notícias"
         except (ValueError, IndexError):
             pass
             
@@ -465,13 +465,6 @@ def map_category(feed_category, feed_url, item_link=None):
             return category
         
     return "Outras Notícias"
-
-# Exemplo de uso
-item_link = "https://rr.sapo.pt/noticia/pais/2025/02/09/psp-detem-quatro-suspeitos-com-mandados-de-detencao-europeus/413017/?utm_medium=rss"
-feed_url = "https://rr.sapo.pt/noticia/pais/2025/02/09/psp-detem-quatro-suspeitos-com-mandados-de-detencao-europeus/413017/?utm_medium=rss"
-category = map_category(None, feed_url, item_link)
-print(category)  # Saída esperada: "Nacional"
-
    
 if __name__ == "__main__":
     get_articles()
