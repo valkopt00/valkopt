@@ -375,13 +375,17 @@ def get_feed_domain(feed_url):
 
 def map_category(feed_category, feed_url):
     """ Determina a categoria da notícia. """
-     # Verifica se a URL é do CM Jornal e extrai a categoria
+
+    # Se for do CM Jornal, ignora a URL e extrai a categoria do XML
     if "cmjornal.pt" in feed_url:
-        parsed_url = urlparse(feed_url)
-        path_parts = parsed_url.path.strip("/").split("/")
-        if path_parts:  # Se houver pelo menos um segmento na URL
-            cm_category = path_parts[0].lower()
-            return cm_category.capitalize()
+        root = ET.fromstring(xml_data)
+        first_item = root.find(".//item")
+        if first_item is not None:
+            category_tag = first_item.find("category")
+            if category_tag is not None:
+                return category_tag.text.capitalize()  # Retorna a categoria formatada
+
+    return feed_category.capitalize()
             
     # Primeiro verifica se a URL completa do feed está no mapeamento
     for feed, category in FEED_CATEGORY_MAPPER.items():
