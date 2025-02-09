@@ -386,7 +386,10 @@ def map_category(feed_category, feed_url, item_link=None):
             return cm_category.capitalize()  # Retorna a categoria formatada se não houver mapeamento
 
     # Lógica original para outros feeds
-    category = feed_category.capitalize()  # Formata a categoria do feed
+    if feed_category:  # Verifica se feed_category não é None
+        category = feed_category.capitalize()  # Formata a categoria do feed
+    else:
+        category = "Outras Notícias"  # Categoria padrão se feed_category for None
 
     # Verifica se a URL completa do feed está no mapeamento
     for feed, mapped_category in FEED_CATEGORY_MAPPER.items():
@@ -397,7 +400,7 @@ def map_category(feed_category, feed_url, item_link=None):
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
 
-    return "Outras Notícias"  # Categoria padrão
+    return category  # Retorna a categoria formatada ou "Outras Notícias"
 
 if __name__ == "__main__":
     get_articles()
