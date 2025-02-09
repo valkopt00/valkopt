@@ -108,10 +108,12 @@ CATEGORY_MAPPER = {
     "Negócios": "Economia",
     "Segurança Social": "Economia",
     "Bolsa e Mercados": "Economia",
+    "Mercados": "Economia",
     "Dinheiro": "Economia",
     "Energia": "Economia",
     "Cultura": "Cultura",
     "Livros": "Cultura",
+    "Cinema": "Cultura",
     "Blitz": "Cultura",
     "Ciência e Tech": "Ciência e Tech",
     "Ciência & Tech": "Ciência e Tech",
@@ -119,9 +121,11 @@ CATEGORY_MAPPER = {
     "Tech": "Ciência e Tech",
     "Direto do lab": "Ciência e Tech",
     "Exame Informática": "Ciência e Tech",
+    "Facebook": "Ciência e Tech",
     "Sociedade": "Sociedade",
     "Coronavírus": "Sociedade",
     "Mau tempo": "Sociedade",
+    "Animais": "Sociedade",
     "Insólitos": "Sociedade",
     "Meteorologia": "Sociedade",
     "Alterações climáticas": "Sociedade",
@@ -148,7 +152,7 @@ CATEGORY_MAPPER = {
     "Noticiário Antena1": "Multimédia",
     "Leste Oeste de Nuno Rogeiro": "Multimédia",
     "Vídeos": "Multimédia",
-    "Tv media": "Multimédia",
+    "Tv Media": "Multimédia",
     "Opinião": "Opinião",
     "Nota editorial": "Opinião",
     "José jorge letria": "Opinião",
@@ -281,6 +285,16 @@ def get_image_url_from_link(news_url):
 
     soup = BeautifulSoup(response.content, 'html.parser')
 
+    # Define os prefixos aceites para as imagens
+    allowed_prefixes = [
+        "https://ionline.sapo.pt/wp-content/uploads/",
+        "https://jornaleconomico.sapo.pt/wp-content/themes/yootheme/cache/"
+    ]
+
+    # Função auxiliar para verificar se a URL da imagem começa com um dos prefixos desejados
+    def is_valid_image_url(url):
+        return any(url.startswith(prefix) for prefix in allowed_prefixes)
+
     # Primeiro, tentamos encontrar a imagem principal (wp-post-image)
     image_tag = soup.find('img', class_='wp-post-image')
 
@@ -288,35 +302,34 @@ def get_image_url_from_link(news_url):
     if not image_tag:
         image_tag = soup.find('img', class_='wp-block-cover__image-background')
 
-    # Se ainda não encontrou, buscamos qualquer <img> na página
-    if not image_tag:
-        image_tags = soup.find_all('img')
-        for img in image_tags:
-            image_url = img.get('data-src') or img.get('src')
-            if image_url and image_url.startswith("https://ionline.sapo.pt/wp-content/uploads/"):
-                return image_url
-    
-    # Se encontrou a tag, extrai a URL
+    # Se encontrou uma tag de imagem, extrai a URL e verifica se corresponde aos prefixos aceites
     if image_tag:
         image_url = image_tag.get('data-src') or image_tag.get('src')
-        if image_url and image_url.startswith("https://ionline.sapo.pt/wp-content/uploads/"):
+        if image_url and is_valid_image_url(image_url):
+            return image_url
+
+    # Se não encontrou a imagem principal, busca por todas as tags <img> da página
+    image_tags = soup.find_all('img')
+    for img in image_tags:
+        image_url = img.get('data-src') or img.get('src')
+        if image_url and is_valid_image_url(image_url):
             return image_url
 
     print("Nenhuma imagem correspondente encontrada.")
     return None
-
+    
 def extract_image_url(item: Element):
     """Procura uma imagem válida no RSS, corrige URLs duplicados e extrai imagens da <description>.
        Se o link for do Jornal Económico, define uma imagem padrão.
     """
     namespaces = {"media": "http://search.yahoo.com/mrss/"}  # Namespace comum para media:content
     jornal_economico_logo = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
-
+    """
     # Verifica se o link é do Jornal Económico
     link_element = item.find("link")
     if link_element is not None and link_element.text and "jornaleconomico" in link_element.text:
         return jornal_economico_logo
-    
+    """
     # Verifica nas tags principais (media:content, enclosure, image, img, post-thumbnail)
     for tag in ["media:content", "enclosure", "image", "img", "post-thumbnail"]:
         element = item.find(tag, namespaces)  # Passa namespaces para garantir que encontra media:content
