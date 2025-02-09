@@ -103,6 +103,7 @@ CATEGORY_MAPPER = {
     "Mais modalidades": "Desporto",
     "Futebol Nacional": "Desporto",
     "Futebol Internacional": "Desporto",
+    "Liga D'Ouro": "Desporto",
     "Economia": "Economia",
     "Negócios": "Economia",
     "Segurança Social": "Economia",
