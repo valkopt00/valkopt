@@ -211,8 +211,8 @@ def get_articles():
                 feed_category = item.findtext("category")  # Pode ser None se não existir a tag <category>
             
                 # Chamada atualizada da função map_category com todos os parâmetros necessários
-                category = map_category(feed_category, feed_domain, link)
-            
+                category = map_category(item.findtext("category"), feed_url, link)            
+                
                 pub_date = parse_date(pub_date_str)
             
                 if pub_date:
@@ -416,8 +416,12 @@ def get_feed_domain(feed_url):
     """ Extrai a URL completa do feed RSS. """
     return feed_url
 
-from urllib.parse import urlparse
-
+def normalize_url(url):
+    parsed_url = urlparse(url)
+    # Remove parâmetros de consulta e fragmentos
+    normalized_url = urlunparse((parsed_url.scheme, parsed_url.netloc, parsed_url.path.rstrip('/'), '', '', ''))
+    return normalized_url
+    
 def map_category(feed_category, feed_url, item_link=None):
     # Primeiro, verifica se a tag <category> possui correspondência no CATEGORY_MAPPER
     if feed_category in CATEGORY_MAPPER:
@@ -452,9 +456,12 @@ def map_category(feed_category, feed_url, item_link=None):
         except (ValueError, IndexError):
             pass
             
-    # Por fim, verifica o mapeamento completo de feeds
+   # Normaliza as URLs
+    normalized_feed_url = normalize_url(feed_url)
+
     for feed, category in FEED_CATEGORY_MAPPER.items():
-        if feed_url.startswith(feed):  # Verifica se a URL do feed começa com a URL mapeada
+        normalized_feed = normalize_url(feed)
+        if normalized_feed_url.startswith(normalized_feed):
             return category
         
     return "Outras Notícias"
