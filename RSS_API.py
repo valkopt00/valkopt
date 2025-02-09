@@ -423,11 +423,6 @@ def normalize_url(url):
     return normalized_url
     
 def map_category(feed_category, feed_url, item_link=None):
-    print(f"feed_category: {feed_category}")
-    print(f"normalized_feed_category: {normalized_feed_category if feed_category else None}")
-    print(f"feed_url: {feed_url}")
-    print(f"normalized_feed_url: {normalized_feed_url}")
-    print(f"item_link: {item_link}")
 
     if feed_category:
         normalized_feed_category = feed_category.strip().lower().capitalize()
@@ -471,6 +466,12 @@ def map_category(feed_category, feed_url, item_link=None):
         if normalized_feed_url.startswith(normalized_feed):
             return category
         
+    print(f"feed_category: {feed_category}")
+    print(f"normalized_feed_category: {normalized_feed_category if feed_category else None}")
+    print(f"feed_url: {feed_url}")
+    print(f"normalized_feed_url: {normalized_feed_url}")
+    print(f"item_link: {item_link}")
+    
     return "Outras Notícias"
    
 if __name__ == "__main__":
