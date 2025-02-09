@@ -405,7 +405,7 @@ def get_feed_domain(feed_url):
     """ Extrai a URL completa do feed RSS. """
     return feed_url
 
-ef map_category(feed_category, feed_url, item_link=None):
+def map_category(feed_category, feed_url, item_link=None):
     # Primeiro, verifica se a tag <category> possui correspondência no CATEGORY_MAPPER
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
