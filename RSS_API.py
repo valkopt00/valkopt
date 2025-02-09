@@ -390,7 +390,11 @@ def get_feed_domain(feed_url):
     return feed_url
 
 def map_category(feed_category, feed_url, item_link=None):
-    # Exceção para o CM Jornal: extrai a categoria do link da notícia (item_link)
+    # Primeiro, verifica se a tag <category> possui correspondência no CATEGORY_MAPPER
+    if feed_category in CATEGORY_MAPPER:
+        return CATEGORY_MAPPER[feed_category]
+
+    # Em seguida, verifica a exceção para o CM Jornal: extrai a categoria do link da notícia (item_link)
     if "cmjornal.pt" in feed_url and item_link:
         parsed_url = urlparse(item_link)
         path_parts = parsed_url.path.strip("/").split("/")
@@ -402,14 +406,11 @@ def map_category(feed_category, feed_url, item_link=None):
                 return CATEGORY_MAPPER[cm_category]
             return "Outras Notícias"
 
+    # Por fim, verifica o mapeamento completo de feeds
     for feed, category in FEED_CATEGORY_MAPPER.items():
         if feed_url.startswith(feed):  # Verifica se a URL do feed começa com a URL mapeada
             return category
         
-    # Se não encontrou no mapeamento de feed completo, verifica pelo nome da categoria
-    if feed_category in CATEGORY_MAPPER:
-        return CATEGORY_MAPPER[feed_category]
-
     return "Outras Notícias"
 
 if __name__ == "__main__":
