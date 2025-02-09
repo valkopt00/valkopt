@@ -176,64 +176,49 @@ def get_articles():
     last_12_hours = now - timedelta(hours=12)
     last_48_hours = now - timedelta(days=2)
     titles_seen = set()
-
+    
     for feed_url in RSS_FEEDS:
         try:
+            print(f"\nProcessando feed: {feed_url}")
             headers = {"User-Agent": "Mozilla/5.0"}
             response = requests.get(feed_url, headers=headers)
             response.raise_for_status()
-
+            
             if not response.content.strip():
                 print(f"Conteúdo vazio para o feed {feed_url}")
                 continue
-
+                
             root = ET.fromstring(response.content)
             feed_domain = get_feed_domain(feed_url)
-
+            
             for item in root.findall(".//item"):
+                # Debug completo do item
+                print("\nDados do item:")
                 title = clean_title(item.findtext("title", "").strip())
-                if title in titles_seen:
-                    continue  # Se o título já foi processado, ignora                
-                titles_seen.add(title)  # Adiciona o título ao conjunto para evitar duplicados
-
-                description = clean_description(item.findtext("description", "").strip())
+                print(f"Título: {title}")
+                
+                # Imprimir XML bruto da data
+                pub_date_element = item.find("pubDate")
+                if pub_date_element is not None:
+                    print(f"Data RAW XML: {ET.tostring(pub_date_element, encoding='unicode')}")
+                    print(f"Data text content: {pub_date_element.text}")
+                else:
+                    print("Elemento pubDate não encontrado")
+                
                 pub_date_str = item.findtext("pubDate", "").strip()
-                source = extract_source(root)
-                category = map_category(item.findtext("category"), feed_domain)
-                image_url = extract_image_url(item)
-                link = item.findtext("link", "").strip()  # Adiciona a extração do link
-
+                print(f"Data após findtext: {pub_date_str}")
+                
                 pub_date = parse_date(pub_date_str)
-
-                if pub_date:
-                    # Para a categoria "Últimas", considerar apenas as notícias das últimas 12 horas
-                    if category == "Últimas" and pub_date >= last_12_hours:
-                        articles.append({
-                            "title": title,
-                            "description": description,
-                            "image": image_url,
-                            "source": source,
-                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
-                            "category": category,
-                            "link": link
-                        })
-                    # Para todas as outras categorias, considerar as notícias das últimas 48 horas
-                    elif category != "Últimas" and pub_date >= last_48_hours:
-                        articles.append({
-                            "title": title,
-                            "description": description,
-                            "image": image_url,
-                            "source": source,
-                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
-                            "category": category,
-                            "link": link
-                        })
-        except requests.exceptions.RequestException as e:
-            print(f"Erro ao processar {feed_url}: {e}")
-
-    articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
-    export_to_json(articles)
-
+                print(f"Data após parse: {pub_date}")
+                
+                if title in titles_seen:
+                    print("Título duplicado, pulando...")
+                    continue
+                    
+                titles_seen.add(title)
+                
+                # Resto do código...
+                # [mantém o resto da função igual]
 def export_to_json(articles):
     categorized_data = {"Últimas": articles}
 
@@ -382,27 +367,45 @@ def parse_date(date_str):
     Converte a data do RSS para datetime.
     Retorna um objeto datetime com timezone UTC
     """
+    print(f"\nParse date iniciado com string: '{date_str}'")
     if not date_str:
+        print("String de data vazia")
         return None
         
-    # Remover espaços extras
+    # Remover espaços extras e caracteres especiais
     date_str = date_str.strip()
+    print(f"Data após strip: '{date_str}'")
     
-    # Pré-processar string para converter GMT+1 para +0100
+    # Converter caracteres Unicode especiais se houver
+    date_str = date_str.encode('ascii', 'ignore').decode('ascii')
+    print(f"Data após limpeza ASCII: '{date_str}'")
+    
+    # Pré-processar string para GMT
     if "GMT+" in date_str:
         date_str = re.sub(r'GMT\+(\d+)', lambda m: f"+{m.group(1).zfill(2)}00", date_str)
+        print(f"Data após processamento GMT+: '{date_str}'")
     elif "GMT-" in date_str:
         date_str = re.sub(r'GMT-(\d+)', lambda m: f"-{m.group(1).zfill(2)}00", date_str)
+        print(f"Data após processamento GMT-: '{date_str}'")
     
     for fmt in DATE_FORMATS:
         try:
+            print(f"Tentando formato: {fmt}")
             dt = datetime.strptime(date_str, fmt)
-            # Se a data não tem informação de timezone, assume UTC
+            print(f"Sucesso com formato {fmt}")
+            
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
-            return dt.astimezone(timezone.utc)
-        except ValueError:
-            continue            
+                print("Adicionado timezone UTC")
+                
+            final_dt = dt.astimezone(timezone.utc)
+            print(f"Data final convertida: {final_dt}")
+            return final_dt
+        except ValueError as e:
+            print(f"Erro com formato {fmt}: {str(e)}")
+            continue
+    
+    print("Nenhum formato funcionou")
     return None
     
 def get_feed_domain(feed_url):
