@@ -1,3 +1,4 @@
+
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -6,7 +7,7 @@ import re
 from html import unescape
 from xml.etree.ElementTree import Element
 from bs4 import BeautifulSoup
-from urllib.parse import urlparse, urlunparse
+from urllib.parse import urlparse
 import feedparser
 
 RSS_FEEDS = [
@@ -211,8 +212,8 @@ def get_articles():
                 feed_category = item.findtext("category")  # Pode ser None se não existir a tag <category>
             
                 # Chamada atualizada da função map_category com todos os parâmetros necessários
-                category = map_category(item.findtext("category"), feed_url, link)            
-                
+                category = map_category(feed_category, feed_domain, link)
+            
                 pub_date = parse_date(pub_date_str)
             
                 if pub_date:
@@ -416,18 +417,12 @@ def get_feed_domain(feed_url):
     """ Extrai a URL completa do feed RSS. """
     return feed_url
 
-def normalize_url(url):
-    parsed_url = urlparse(url)
-    # Remove parâmetros de consulta e fragmentos
-    normalized_url = urlunparse((parsed_url.scheme, parsed_url.netloc, parsed_url.path.rstrip('/'), '', '', ''))
-    return normalized_url
-    
-def map_category(feed_category, feed_url, item_link=None):
+from urllib.parse import urlparse
 
-    if feed_category:
-        normalized_feed_category = feed_category.strip().lower().capitalize()
-        if normalized_feed_category in CATEGORY_MAPPER:
-            return CATEGORY_MAPPER[normalized_feed_category]
+def map_category(feed_category, feed_url, item_link=None):
+    # Primeiro, verifica se a tag <category> possui correspondência no CATEGORY_MAPPER
+    if feed_category in CATEGORY_MAPPER:
+        return CATEGORY_MAPPER[feed_category]
 
     # Em seguida, verifica a exceção para o CM Jornal: extrai a categoria do link da notícia (item_link)
     if "cmjornal.pt" in feed_url and item_link:
@@ -454,25 +449,16 @@ def map_category(feed_category, feed_url, item_link=None):
                     rr_category = rr_category.capitalize()
                     if rr_category in CATEGORY_MAPPER:
                         return CATEGORY_MAPPER[rr_category]
-                    return "Outras Notícias"
+                    return rr_category  # Retorna a categoria extraída, mesmo que não esteja no CATEGORY_MAPPER
         except (ValueError, IndexError):
             pass
             
-   # Normaliza as URLs
-    normalized_feed_url = normalize_url(feed_url)
-
+    # Por fim, verifica o mapeamento completo de feeds
     for feed, category in FEED_CATEGORY_MAPPER.items():
-        normalized_feed = normalize_url(feed)
-        if normalized_feed_url.startswith(normalized_feed):
+        if feed_url.startswith(feed):  # Verifica se a URL do feed começa com a URL mapeada
             return category
         
-    print(f"feed_category: {feed_category}")
-    print(f"normalized_feed_category: {normalized_feed_category if feed_category else None}")
-    print(f"feed_url: {feed_url}")
-    print(f"normalized_feed_url: {normalized_feed_url}")
-    print(f"item_link: {item_link}")
-    
     return "Outras Notícias"
-   
+
 if __name__ == "__main__":
     get_articles()
