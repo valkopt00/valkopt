@@ -163,11 +163,11 @@ CATEGORY_MAPPER = {
 }
 
 DATE_FORMATS = [
+    "%Y-%m-%d %H:%M:%S",
     "%a, %d %b %Y %H:%M:%S %z",
     "%a, %d %b %Y %H:%M:%S GMT%z",
     "%Y-%m-%dT%H:%M:%S%z",
-    "%Y-%m-%dT%H:%M:%S.%f%z",
-    "%Y-%m-%d %H:%M:%S"
+    "%Y-%m-%dT%H:%M:%S.%f%z"
 ]
 
 def get_articles():
@@ -384,38 +384,27 @@ def parse_date(date_str):
     """
     if not date_str:
         return None
-    
-    # Para debug - imprimir a string de data recebida
-    print(f"Data original recebida: {date_str}")
-    
-    # Remover espaços extras e caracteres especiais
+        
+    # Remover espaços extras
     date_str = date_str.strip()
     
-    # Pré-processar a string para converter GMT+1 para +0100
+    # Pré-processar string para converter GMT+1 para +0100
     if "GMT+" in date_str:
         date_str = re.sub(r'GMT\+(\d+)', lambda m: f"+{m.group(1).zfill(2)}00", date_str)
-        print(f"Data após processamento GMT+: {date_str}")
     elif "GMT-" in date_str:
         date_str = re.sub(r'GMT-(\d+)', lambda m: f"-{m.group(1).zfill(2)}00", date_str)
-        print(f"Data após processamento GMT-: {date_str}")
     
-    # Tentar cada formato
     for fmt in DATE_FORMATS:
         try:
-            print(f"Tentando formato: {fmt}")
             dt = datetime.strptime(date_str, fmt)
+            # Se a data não tem informação de timezone, assume UTC
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
-            dt_utc = dt.astimezone(timezone.utc)
-            print(f"Sucesso! Data convertida: {dt_utc}")
-            return dt_utc
-        except ValueError as e:
-            print(f"Erro com formato {fmt}: {str(e)}")
-            continue
-    
-    print("Nenhum formato funcionou para a data")
+            return dt.astimezone(timezone.utc)
+        except ValueError:
+            continue            
     return None
-
+    
 def get_feed_domain(feed_url):
     """ Extrai a URL completa do feed RSS. """
     return feed_url
