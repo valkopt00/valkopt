@@ -373,32 +373,31 @@ def get_feed_domain(feed_url):
     """ Extrai a URL completa do feed RSS. """
     return feed_url
 
-def map_category(feed_category, feed_url):
-    """ Determina a categoria da notícia. """
+def map_category(feed_category, feed_url, item_link=None):
+    # Exceção para o CM Jornal: extrai a categoria do link da notícia (item_link)
+    if "cmjornal.pt" in feed_url and item_link:
+        parsed_url = urlparse(item_link)
+        path_parts = parsed_url.path.strip("/").split("/")
+        if path_parts:  # Se houver pelo menos um segmento na URL
+            cm_category = path_parts[0].lower()
+            # Aplica o CATEGORY_MAPPER à categoria extraída
+            if cm_category in CATEGORY_MAPPER:
+                return CATEGORY_MAPPER[cm_category]
+            return cm_category.capitalize()  # Retorna a categoria formatada se não houver mapeamento
 
-    # Se for do CM Jornal, ignora a URL e extrai a categoria do XML
-    if "cmjornal.pt" in feed_url:
-        root = ET.fromstring(xml_data)
-        first_item = root.find(".//item")
-        if first_item is not None:
-            category_tag = first_item.find("category")
-            if category_tag is not None:
-                return category_tag.text.capitalize()  # Retorna a categoria formatada
+    # Lógica original para outros feeds
+    category = feed_category.capitalize()  # Formata a categoria do feed
 
-    category = feed_category.capitalize()
-    return category
-            
-    # Primeiro verifica se a URL completa do feed está no mapeamento
-    for feed, category in FEED_CATEGORY_MAPPER.items():
+    # Verifica se a URL completa do feed está no mapeamento
+    for feed, mapped_category in FEED_CATEGORY_MAPPER.items():
         if feed_url.startswith(feed):  # Verifica se a URL do feed começa com a URL mapeada
-            return category
-        
+            return mapped_category
+
     # Se não encontrou no mapeamento de feed completo, verifica pelo nome da categoria
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
 
-    return "Outras Notícias"
-
+    return "Outras Notícias"  # Categoria padrão
 
 if __name__ == "__main__":
     get_articles()
