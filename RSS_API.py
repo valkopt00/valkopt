@@ -196,17 +196,20 @@ def get_articles():
                 title = clean_title(item.findtext("title", "").strip())
                 if title in titles_seen:
                     continue
-                    
+            
                 titles_seen.add(title)
                 description = clean_description(item.findtext("description", "").strip())
                 pub_date_str = item.findtext("pubDate", "").strip()
                 source = extract_source(root)
-                category = map_category(item.findtext("category"), feed_domain)
+                link = item.findtext("link", "").strip()  # Extração do link antes de mapear a categoria
                 image_url = extract_image_url(item)
-                link = item.findtext("link", "").strip()
-                
+                feed_category = item.findtext("category")  # Pode ser None se não existir a tag <category>
+            
+                # Chamada atualizada da função map_category com todos os parâmetros necessários
+                category = map_category(feed_category, feed_domain, link)
+            
                 pub_date = parse_date(pub_date_str)
-                
+            
                 if pub_date:
                     if category == "Últimas" and pub_date >= last_12_hours:
                         articles.append({
