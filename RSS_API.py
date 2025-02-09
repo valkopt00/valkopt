@@ -443,7 +443,7 @@ ef map_category(feed_category, feed_url, item_link=None):
         if feed_url.startswith(feed):  # Verifica se a URL do feed começa com a URL mapeada
             return category
         
-    return "Outras Notícia
+    return "Outras Notícias"
     
 if __name__ == "__main__":
     get_articles()
