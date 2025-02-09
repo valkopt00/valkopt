@@ -7,6 +7,7 @@ from html import unescape
 from xml.etree.ElementTree import Element
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
+import feedparser
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
