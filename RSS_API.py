@@ -408,6 +408,8 @@ def get_feed_domain(feed_url):
     """ Extrai a URL completa do feed RSS. """
     return feed_url
 
+from urllib.parse import urlparse
+
 def map_category(feed_category, feed_url, item_link=None):
     # Primeiro, verifica se a tag <category> possui correspondência no CATEGORY_MAPPER
     if feed_category in CATEGORY_MAPPER:
@@ -426,7 +428,7 @@ def map_category(feed_category, feed_url, item_link=None):
             return "Outras Notícias"
             
     # Verifica a exceção para a RR: extrai a categoria do link da notícia
-    elif "rr.sapo.pt" in feed_url and item_link and "/noticia/" in item_link:
+    if "rr.sapo.pt" in feed_url and item_link and "/noticia/" in item_link:
         try:
             parsed_url = urlparse(item_link)
             path_parts = parsed_url.path.strip("/").split("/")
@@ -448,6 +450,13 @@ def map_category(feed_category, feed_url, item_link=None):
             return category
         
     return "Outras Notícias"
+
+# Exemplo de uso
+item_link = "https://rr.sapo.pt/noticia/pais/2025/02/09/psp-detem-quatro-suspeitos-com-mandados-de-detencao-europeus/413017/?utm_medium=rss"
+feed_url = "https://rr.sapo.pt/noticia/pais/2025/02/09/psp-detem-quatro-suspeitos-com-mandados-de-detencao-europeus/413017/?utm_medium=rss"
+category = map_category(None, feed_url, item_link)
+print(category)  # Saída esperada: "Nacional"
+
    
 if __name__ == "__main__":
     get_articles()
