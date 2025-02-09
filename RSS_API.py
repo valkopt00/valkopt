@@ -428,9 +428,11 @@ def map_category(feed_category, feed_url, item_link=None):
     print(f"feed_url: {feed_url}")
     print(f"normalized_feed_url: {normalized_feed_url}")
     print(f"item_link: {item_link}")
-    # Primeiro, verifica se a tag <category> possui correspondência no CATEGORY_MAPPER
-    if feed_category in CATEGORY_MAPPER:
-        return CATEGORY_MAPPER[feed_category]
+
+    if feed_category:
+        normalized_feed_category = feed_category.strip().lower().capitalize()
+        if normalized_feed_category in CATEGORY_MAPPER:
+            return CATEGORY_MAPPER[normalized_feed_category]
 
     # Em seguida, verifica a exceção para o CM Jornal: extrai a categoria do link da notícia (item_link)
     if "cmjornal.pt" in feed_url and item_link:
