@@ -378,7 +378,7 @@ def extract_image_url(item: Element):
 def parse_date(date_str):
     """
     Converte a data do RSS para datetime.
-    Retorna a data no formato "DD-MM-YYYY HH:MM"
+    Retorna um objeto datetime com timezone UTC
     """
     if not date_str:
         return None
@@ -394,12 +394,11 @@ def parse_date(date_str):
             dt = datetime.strptime(date_str, fmt)
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
-            dt_utc = dt.astimezone(timezone.utc)
-            return dt_utc.strftime("%d-%m-%Y %H:%M")
+            return dt.astimezone(timezone.utc)  # Retorna o objeto datetime em UTC
         except ValueError:
             continue
             
-    return "Data não disponível"
+    return None
 
 def get_feed_domain(feed_url):
     """ Extrai a URL completa do feed RSS. """
