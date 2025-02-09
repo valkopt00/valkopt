@@ -217,7 +217,7 @@ def get_articles():
                     
                 titles_seen.add(title)
 
-description = clean_description(item.findtext("description", "").strip())
+                description = clean_description(item.findtext("description", "").strip())
                 pub_date_str = item.findtext("pubDate", "").strip()
                 source = extract_source(root)
                 category = map_category(item.findtext("category"), feed_domain)
