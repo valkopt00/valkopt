@@ -82,6 +82,7 @@ FEED_CATEGORY_MAPPER = {
 CATEGORY_MAPPER = {
     "Nacional": "Nacional",
     "País": "Nacional",
+    "Pais": "Nacional",
     "Portugal": "Nacional",
     "Mundo": "Mundo",
     "Internacional": "Mundo",
@@ -126,8 +127,10 @@ CATEGORY_MAPPER = {
     "Alterações climáticas": "Sociedade",
     "Saúde": "Sociedade",
     "Clima": "Sociedade",
+    "Religiao": "Sociedade",
     "Justiça": "Sociedade",
     "Política": "Política",
+    "Politica": "Política",
     "Defesa": "Política",
     "Presidenciais 2026": "Política",
     "Parlamento": "Política",
@@ -434,7 +437,7 @@ def map_category(feed_category, feed_url, item_link=None):
                 rr_category = rr_category.capitalize()
                 if rr_category in CATEGORY_MAPPER:
                     return CATEGORY_MAPPER[rr_category]
-                return "Outras Notícias"
+                return rr_category  # Retorna a categoria extraída, mesmo que não esteja no CATEGORY_MAPPER
         except (ValueError, IndexError):
             pass
             
