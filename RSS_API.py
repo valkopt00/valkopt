@@ -376,19 +376,30 @@ def extract_image_url(item: Element):
     return None  # Retorna None se não encontrar uma imagem
 
 def parse_date(date_str):
-    """ Converte a data do RSS para datetime. """
+    """
+    Converte a data do RSS para datetime.
+    Retorna a data no formato "DD-MM-YYYY HH:MM"
+    """
     if not date_str:
         return None
-    
-    # Substitui "GMT+1" por "+0100" para que o formato %z funcione
-    date_str = date_str.replace("GMT+1", "+0100")
-    
+        
+    # Pré-processar a string para converter GMT+1 para +0100
+    if "GMT+" in date_str:
+        date_str = re.sub(r'GMT\+(\d+)', lambda m: f"+{m.group(1).zfill(2)}00", date_str)
+    elif "GMT-" in date_str:
+        date_str = re.sub(r'GMT-(\d+)', lambda m: f"-{m.group(1).zfill(2)}00", date_str)
+        
     for fmt in DATE_FORMATS:
         try:
-            return datetime.strptime(date_str, fmt).astimezone(timezone.utc)
+            dt = datetime.strptime(date_str, fmt)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            dt_utc = dt.astimezone(timezone.utc)
+            return dt_utc.strftime("%d-%m-%Y %H:%M")
         except ValueError:
             continue
-    return None
+            
+    return "Data não disponível"
 
 def get_feed_domain(feed_url):
     """ Extrai a URL completa do feed RSS. """
