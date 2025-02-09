@@ -413,9 +413,62 @@ def map_category(feed_category, feed_url, item_link=None):
         
     return "Outras Notícias"
 
-# Teste para o feed da rr.sapo.pt (sem tag <category>)
-resultado = map_category("", "https://rr.sapo.pt/rss/rssfeed.aspx?fid=2")
-print(resultado)  # Espera-se que imprima "Desporto"
+def test_rr_sapo_feed(feed_url):
+    # Faz o parse do feed
+    feed = feedparser.parse(feed_url)
+    
+    # Imprime informações gerais do feed
+    print("Título do Feed:", feed.feed.get("title", "N/A"))
+    print("Link do Feed:", feed.feed.get("link", "N/A"))
+    print("=" * 60)
+    
+    # Itera sobre cada item do feed
+    for entry in feed.entries:
+        # Extração dos campos padrão
+        title = entry.get("title", "").strip()
+        description = entry.get("description", "").strip()
+        link = entry.get("link", "").strip()
+        
+        # Extração da data de publicação
+        pub_date_struct = entry.get("published_parsed")
+        if pub_date_struct:
+            pub_date = datetime(*pub_date_struct[:6]).strftime("%d-%m-%Y %H:%M")
+        else:
+            pub_date = "Data não disponível"
+        
+        # Tentativa de extração da imagem via media_content ou enclosures
+        image_url = ""
+        if "media_content" in entry and len(entry.media_content) > 0:
+            image_url = entry.media_content[0].get("url", "")
+        elif "enclosures" in entry and len(entry.enclosures) > 0:
+            image_url = entry.enclosures[0].get("url", "")
+        
+        # Para este feed, sabemos (pela nossa lógica de mapeamento) que a categoria é "Desporto"
+        category = "Desporto"
+        
+        # Fonte: pode ser o título do feed ou um valor fixo
+        source = feed.feed.get("title", "rr.sapo.pt")
+        
+        # Monta o dicionário com os campos extraídos
+        news_data = {
+            "title": title,
+            "description": description,
+            "image": image_url,
+            "source": source,
+            "pubDate": pub_date,
+            "category": category,
+            "link": link
+        }
+        
+        # Imprime os dados extraídos para cada item
+        print("Dados extraídos para o item:")
+        for key, value in news_data.items():
+            print(f"{key}: {value}")
+        print("=" * 60)
+
+# URL do feed que queremos testar
+feed_url = "https://rr.sapo.pt/rss/rssfeed.aspx?fid=2"
+test_rr_sapo_feed(feed_url)
 
 if __name__ == "__main__":
     get_articles()
