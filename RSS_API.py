@@ -396,10 +396,11 @@ def map_category(feed_category, feed_url, item_link=None):
         path_parts = parsed_url.path.strip("/").split("/")
         if path_parts:  # Se houver pelo menos um segmento na URL
             cm_category = path_parts[0].lower()
+            cm_category = cm_category.capitalize()
             # Aplica o CATEGORY_MAPPER à categoria extraída
             if cm_category in CATEGORY_MAPPER:
                 return CATEGORY_MAPPER[cm_category]
-            return cm_category.capitalize()  # Retorna a categoria formatada se não houver mapeamento
+            return "Outras Notícias"
 
     for feed, category in FEED_CATEGORY_MAPPER.items():
         if feed_url.startswith(feed):  # Verifica se a URL do feed começa com a URL mapeada
