@@ -431,13 +431,14 @@ def map_category(feed_category, feed_url, item_link=None):
             parsed_url = urlparse(item_link)
             path_parts = parsed_url.path.strip("/").split("/")
             # Encontra o índice de "noticia" e verifica o próximo segmento
-            index = path_parts.index("noticia")
-            if index + 1 < len(path_parts):  # Verifica se existe um segmento após "noticia"
-                rr_category = path_parts[index + 1].lower()
-                rr_category = rr_category.capitalize()
-                if rr_category in CATEGORY_MAPPER:
-                    return CATEGORY_MAPPER[rr_category]
-                return rr_category  # Retorna a categoria extraída, mesmo que não esteja no CATEGORY_MAPPER
+            if "noticia" in path_parts:
+                index = path_parts.index("noticia")
+                if index + 1 < len(path_parts):  # Verifica se existe um segmento após "noticia"
+                    rr_category = path_parts[index + 1].lower()
+                    rr_category = rr_category.capitalize()
+                    if rr_category in CATEGORY_MAPPER:
+                        return CATEGORY_MAPPER[rr_category]
+                    return rr_category  # Retorna a categoria extraída, mesmo que não esteja no CATEGORY_MAPPER
         except (ValueError, IndexError):
             pass
             
@@ -447,6 +448,6 @@ def map_category(feed_category, feed_url, item_link=None):
             return category
         
     return "Outras Notícias"
-    
+   
 if __name__ == "__main__":
     get_articles()
