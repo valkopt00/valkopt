@@ -306,7 +306,7 @@ def get_articles():
             print(f"Erro ao processar API {api_source['url']}: {e}")
 
     articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
-        export_to_json(articles)
+    export_to_json(articles)
                                 
 def export_to_json(articles):
     categorized_data = {"Últimas": articles}
