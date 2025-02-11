@@ -193,7 +193,8 @@ def get_articles():
     last_12_hours = now - timedelta(hours=12)
     last_48_hours = now - timedelta(days=2)
     titles_seen = set()
-    
+
+    # Processar RSS
     for feed_url in RSS_FEEDS:
         try:
             headers = {"User-Agent": "Mozilla/5.0"}
@@ -249,7 +250,7 @@ def get_articles():
         except requests.exceptions.RequestException as e:
                 print(f"Erro ao processar {feed_url}: {e}")
 
-        # 🔹 **Processar API de Notícias**
+    # Processar API
     for api_source in API_SOURCES:
         try:
             response = requests.get(api_source["url"], headers=api_source["headers"])
