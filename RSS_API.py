@@ -27,6 +27,9 @@ RSS_FEEDS = [
     "https://pplware.sapo.pt/feed/",
     "https://ionline.sapo.pt/feed/",
     "https://www.noticiasaominuto.com/rss/ultima-hora"
+]
+
+API_SOURCES = [
     "https://observador.pt/wp-json/obs_api/v4/news/widget"
 ]
 
@@ -238,8 +241,56 @@ def get_articles():
                             "category": category,
                             "link": link
                         })
-        except requests.exceptions.RequestException as e:
+
+    except requests.exceptions.RequestException as e:
             print(f"Erro ao processar {feed_url}: {e}")
+
+        # 🔹 **Processar API de Notícias**
+    for api_source in API_SOURCES:
+        try:
+            response = requests.get(api_source["url"], headers=api_source["headers"])
+            response.raise_for_status()
+            data = response.json()
+
+            for item in data.get("articles", []):
+                title = clean_title(item["title"])
+                if title in titles_seen:
+                    continue
+
+                titles_seen.add(title)
+                description = clean_description(item["description"] if item["description"] else "")
+                pub_date_str = item["publishedAt"]
+                source = item["source"]["name"]
+                link = item["url"]
+                image_url = item.get("urlToImage")
+                feed_category = item.get("category", "Outras Notícias")  # Algumas APIs incluem categoria
+
+                category = map_category(feed_category, api_source["source_name"], link)
+                pub_date = parse_date(pub_date_str)
+
+                if pub_date:
+                    if category == "Últimas" and pub_date >= last_12_hours:
+                        articles.append({
+                            "title": title,
+                            "description": description,
+                            "image": image_url,
+                            "source": source,
+                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
+                            "category": category,
+                            "link": link
+                        })
+                    elif category != "Últimas" and pub_date >= last_48_hours:
+                        articles.append({
+                            "title": title,
+                            "description": description,
+                            "image": image_url,
+                            "source": source,
+                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
+                            "category": category,
+                            "link": link
+                        })
+        except requests.exceptions.RequestException as e:
+            print(f"Erro ao processar API {api_source['url']}: {e}")
             
     articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
     export_to_json(articles)
