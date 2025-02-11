@@ -249,59 +249,58 @@ def get_articles():
         except requests.exceptions.RequestException as e:
                 print(f"Erro ao processar {feed_url}: {e}")
 
-    print(f"Resposta da API {api_source['source_name']}: {data}") 
         # 🔹 **Processar API de Notícias**
     for api_source in API_SOURCES:
-    try:
-        response = requests.get(api_source["url"], headers=api_source["headers"])
-        response.raise_for_status()
-        data = response.json()
-
-        # Identificar se data é uma lista ou um dicionário com "articles"
-        if isinstance(data, list):
-            articles_list = data  # API retorna uma lista diretamente
-        else:
-            articles_list = data.get("articles", [])  # API retorna um dicionário com "articles"
-
-        for item in articles_list:
-            title = clean_title(item.get("title", "Sem título"))
-            if title in titles_seen:
-                continue
-
-            titles_seen.add(title)
-            description = clean_description(item.get("description", ""))
-            pub_date_str = item.get("publishedAt", "")
-            source = item.get("source", {}).get("name", api_source["source_name"])
-            link = item.get("url", "")
-            image_url = item.get("urlToImage", "")
-            feed_category = item.get("category", "Outras Notícias")
-
-            category = map_category(feed_category, api_source["source_name"], link)
-            pub_date = parse_date(pub_date_str)
-
-            if pub_date:
-                if category == "Últimas" and pub_date >= last_12_hours:
-                    articles.append({
-                        "title": title,
-                        "description": description,
-                        "image": image_url,
-                        "source": source,
-                        "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
-                        "category": category,
-                        "link": link
-                    })
-                elif category != "Últimas" and pub_date >= last_48_hours:
-                    articles.append({
-                        "title": title,
-                        "description": description,
-                        "image": image_url,
-                        "source": source,
-                        "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
-                        "category": category,
-                        "link": link
-                    })
-    except requests.exceptions.RequestException as e:
-        print(f"Erro ao processar API {api_source['url']}: {e}")
+        try:
+            response = requests.get(api_source["url"], headers=api_source["headers"])
+            response.raise_for_status()
+            data = response.json()
+    
+            # Identificar se data é uma lista ou um dicionário com "articles"
+            if isinstance(data, list):
+                articles_list = data  # API retorna uma lista diretamente
+            else:
+                articles_list = data.get("articles", [])  # API retorna um dicionário com "articles"
+    
+            for item in articles_list:
+                title = clean_title(item.get("title", "Sem título"))
+                if title in titles_seen:
+                    continue
+    
+                titles_seen.add(title)
+                description = clean_description(item.get("description", ""))
+                pub_date_str = item.get("publishedAt", "")
+                source = item.get("source", {}).get("name", api_source["source_name"])
+                link = item.get("url", "")
+                image_url = item.get("urlToImage", "")
+                feed_category = item.get("category", "Outras Notícias")
+    
+                category = map_category(feed_category, api_source["source_name"], link)
+                pub_date = parse_date(pub_date_str)
+    
+                if pub_date:
+                    if category == "Últimas" and pub_date >= last_12_hours:
+                        articles.append({
+                            "title": title,
+                            "description": description,
+                            "image": image_url,
+                            "source": source,
+                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
+                            "category": category,
+                            "link": link
+                        })
+                    elif category != "Últimas" and pub_date >= last_48_hours:
+                        articles.append({
+                            "title": title,
+                            "description": description,
+                            "image": image_url,
+                            "source": source,
+                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
+                            "category": category,
+                            "link": link
+                        })
+        except requests.exceptions.RequestException as e:
+            print(f"Erro ao processar API {api_source['url']}: {e}")
 
 articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
 export_to_json(articles)
