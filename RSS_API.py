@@ -255,28 +255,27 @@ def get_articles():
             response = requests.get(api_source["url"], headers=api_source["headers"])
             response.raise_for_status()
             data = response.json()
-
-            print(f"Resposta da API {api_source['source_name']}:")
-            print(json.dumps(data, indent=4, ensure_ascii=False)) 
     
-            # Identificar se data é uma lista ou um dicionário com "articles"
+            # 🔹 Se `data` for uma lista, usa diretamente; se for um dicionário, tenta buscar "articles"
             if isinstance(data, list):
-                articles_list = data  # API retorna uma lista diretamente
+                articles_list = data  # API retorna uma lista diretamente ✅
             else:
-                articles_list = data.get("articles", [])  # API retorna um dicionário com "articles"
+                articles_list = data.get("articles", [])  # Para APIs que retornam dicionário
     
             for item in articles_list:
                 title = clean_title(item.get("title", "Sem título"))
                 if title in titles_seen:
                     continue
-    
                 titles_seen.add(title)
-                description = clean_description(item.get("description", ""))
-                pub_date_str = item.get("publishedAt", "")
-                source = item.get("source", {}).get("name", api_source["source_name"])
+    
+                description = clean_description(item.get("lead", ""))
+                pub_date_str = item.get("publish_date", "")
+                source = api_source["source_name"]
                 link = item.get("url", "")
-                image_url = item.get("urlToImage", "")
-                feed_category = item.get("category", "Outras Notícias")
+                image_url = item.get("image", "")
+    
+                # Algumas APIs usam "tag" em vez de "category"
+                feed_category = item.get("tag", "Outras Notícias")
     
                 category = map_category(feed_category, api_source["source_name"], link)
                 pub_date = parse_date(pub_date_str)
@@ -304,9 +303,6 @@ def get_articles():
                         })
         except requests.exceptions.RequestException as e:
             print(f"Erro ao processar API {api_source['url']}: {e}")
-
-    articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
-    export_to_json(articles)
                                 
 def export_to_json(articles):
     categorized_data = {"Últimas": articles}
