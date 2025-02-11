@@ -242,8 +242,8 @@ def get_articles():
                             "link": link
                         })
 
-    except requests.exceptions.RequestException as e:
-            print(f"Erro ao processar {feed_url}: {e}")
+        except requests.exceptions.RequestException as e:
+                print(f"Erro ao processar {feed_url}: {e}")
 
         # 🔹 **Processar API de Notícias**
     for api_source in API_SOURCES:
