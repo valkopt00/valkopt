@@ -28,7 +28,7 @@ RSS_FEEDS = [
     "https://ionline.sapo.pt/feed/",
     "https://www.noticiasaominuto.com/rss/ultima-hora"
 ]
-
+"https://observador.pt/wp-json/obs_api/v4/news/widget"
 API_SOURCES = [
     {
         "url": "https://observador.pt/wp-json/obs_api/v4/news/widget",
@@ -249,6 +249,7 @@ def get_articles():
         except requests.exceptions.RequestException as e:
                 print(f"Erro ao processar {feed_url}: {e}")
 
+    print(f"Resposta da API {api_source['source_name']}: {data}") 
         # 🔹 **Processar API de Notícias**
     for api_source in API_SOURCES:
         try:
