@@ -351,24 +351,14 @@ def extract_source(root):
     return "Desconhecido"
 
 def extract_source_from_url(url):
-    """ Extrai a fonte da URL, que está sempre após 'http://' ou 'https://'. """
+    """ Extrai a fonte da URL da notícia (ex: 'observador.pt'). """
     try:
-        # Usa expressão regular para extrair a parte da URL após 'http://' ou 'https://'
-        match = re.match(r"https?:\/\/([^\/]+)", url)
-        if match:
-            source = match.group(1)  # Obtém o domínio completo (ex: "observador.pt")
-            
-            # Remove "www." se presente
-            if source.startswith("www."):
-                source = source[4:]
-            
-            # Retorna a fonte
-            return source
-        return "Desconhecido"
-    
+        # Remove 'www.' e extrai o domínio principal
+        domain = re.sub(r"^(https?://)?(www\.)?", "", url)
+        domain = domain.split('/')[0]  # Pega apenas o domínio
+        return domain
     except Exception as e:
-        # Caso ocorra algum erro
-        print(f"Erro ao processar a URL {url}: {e}")
+        print(f"Erro ao processar {url}: {e}")
         return "Desconhecido"
     
 def get_image_url_from_link(news_url):
