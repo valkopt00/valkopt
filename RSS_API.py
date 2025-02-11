@@ -257,11 +257,11 @@ def get_articles():
             response.raise_for_status()
             data = response.json()
     
-            # 🔹 Se `data` for uma lista, usa diretamente; se for um dicionário, tenta buscar "articles"
+            # Se data for uma lista, usa diretamente; se for um dicionário, tenta buscar "articles"
             if isinstance(data, list):
-                articles_list = data  # API retorna uma lista diretamente ✅
+                articles_list = data
             else:
-                articles_list = data.get("articles", [])  # Para APIs que retornam dicionário
+                articles_list = data.get("articles", [])
     
             for item in articles_list:
                 title = clean_title(item.get("title", "Sem título"))
@@ -271,39 +271,34 @@ def get_articles():
     
                 description = clean_description(item.get("lead", ""))
                 pub_date_str = item.get("publish_date", "")
-                source = extract_source_from_url(link)
                 link = item.get("url", "")
+                
+                # Extrai a fonte da URL ao invés de usar source_name fixo
+                source = extract_source_from_url(link)
+                
                 image_url = item.get("image", "")
-    
-                # Algumas APIs usam "tag" em vez de "category"
                 feed_category = item.get("tag", "Outras Notícias")
-    
-                category = map_category(feed_category, api_source["source_name"], link)
+                category = map_category(feed_category, source, link)
                 pub_date = parse_date(pub_date_str)
     
                 if pub_date:
-                    if category == "Últimas" and pub_date >= last_12_hours:
-                        articles.append({
-                            "title": title,
-                            "description": description,
-                            "image": image_url,
-                            "source": source,
-                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
-                            "category": category,
-                            "link": link
-                        })
-                    elif category != "Últimas" and pub_date >= last_48_hours:
-                        articles.append({
-                            "title": title,
-                            "description": description,
-                            "image": image_url,
-                            "source": source,
-                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
-                            "category": category,
-                            "link": link
-                        })
+                    article = {
+                        "title": title,
+                        "description": description,
+                        "image": image_url,
+                        "source": source,
+                        "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
+                        "category": category,
+                        "link": link
+                    }
+                    
+                    if (category == "Últimas" and pub_date >= last_12_hours) or \
+                       (category != "Últimas" and pub_date >= last_48_hours):
+                        articles.append(article)
+                        
         except requests.exceptions.RequestException as e:
             print(f"Erro ao processar API {api_source['url']}: {e}")
+    
 
     articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
     export_to_json(articles)
@@ -350,34 +345,22 @@ def extract_source(root):
         return source_name
     return "Desconhecido"
 
-def extract_source_from_url(news_data):
+def extract_source_from_url(url):
     try:
-        # Obtém a URL do campo 'link' do JSON
-        url = news_data.get('link', '')
-        if not url:
-            return news_data.get('source', 'Desconhecido')
-            
-        # Usa urlparse para extrair o domínio da URL
         parsed_url = urlparse(url)
         domain = parsed_url.netloc
-        
-        # Remove 'www.' se presente
         domain = re.sub(r'^www\.', '', domain)
-        
-        # Remove a extensão do domínio (.com, .pt, etc)
         domain = domain.split('.')[0]
         
-        # Mapeamento de domínios para nomes formatados
         source_mapping = {
             'observador': 'Observador',
         }
         
-        # Retorna o nome mapeado ou capitaliza o domínio se não houver mapeamento
         return source_mapping.get(domain.lower(), domain.capitalize())
         
     except Exception as e:
-        print(f"Erro ao processar o JSON da notícia: {e}")
-        return news_data.get('source', 'Desconhecido')
+        print(f"Erro ao extrair fonte da URL {url}: {e}")
+        return "Desconhecido"
     
 def get_image_url_from_link(news_url):
     headers = {
