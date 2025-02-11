@@ -27,6 +27,7 @@ RSS_FEEDS = [
     "https://pplware.sapo.pt/feed/",
     "https://ionline.sapo.pt/feed/",
     "https://www.noticiasaominuto.com/rss/ultima-hora"
+    "https://observador.pt/wp-json/obs_api/v4/news/widget"
 ]
 
 FEED_CATEGORY_MAPPER = {
