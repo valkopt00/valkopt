@@ -271,7 +271,7 @@ def get_articles():
     
                 description = clean_description(item.get("lead", ""))
                 pub_date_str = item.get("publish_date", "")
-                source = api_source["source_name"]
+                source = extract_source_from_url(link)
                 link = item.get("url", "")
                 image_url = item.get("image", "")
     
@@ -349,12 +349,6 @@ def extract_source(root):
         source_name = re.split(r" - | / ", source_name)[0]  # Remove tudo após " - " ou " / "
         return source_name
     return "Desconhecido"
-
-from urllib.parse import urlparse
-import re
-
-from urllib.parse import urlparse
-import re
 
 def extract_source_from_url(news_data):
     try:
