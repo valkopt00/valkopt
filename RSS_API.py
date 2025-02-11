@@ -353,8 +353,16 @@ def extract_source(root):
 from urllib.parse import urlparse
 import re
 
-def extract_source_from_url(url):
+from urllib.parse import urlparse
+import re
+
+def extract_source_from_url(news_data):
     try:
+        # Obtém a URL do campo 'link' do JSON
+        url = news_data.get('link', '')
+        if not url:
+            return news_data.get('source', 'Desconhecido')
+            
         # Usa urlparse para extrair o domínio da URL
         parsed_url = urlparse(url)
         domain = parsed_url.netloc
@@ -370,17 +378,12 @@ def extract_source_from_url(url):
             'observador': 'Observador',
         }
         
-        # Capitaliza a primeira letra se não houver mapeamento específico
-        formatted_source = source_mapping.get(
-            domain.lower(),
-            domain.capitalize()
-        )
-        
-        return formatted_source
+        # Retorna o nome mapeado ou capitaliza o domínio se não houver mapeamento
+        return source_mapping.get(domain.lower(), domain.capitalize())
         
     except Exception as e:
-        print(f"Erro ao processar a URL {url}: {e}")
-        return "Desconhecido"
+        print(f"Erro ao processar o JSON da notícia: {e}")
+        return news_data.get('source', 'Desconhecido')
     
 def get_image_url_from_link(news_url):
     headers = {
