@@ -350,15 +350,36 @@ def extract_source(root):
         return source_name
     return "Desconhecido"
 
+from urllib.parse import urlparse
+import re
+
 def extract_source_from_url(url):
-    """ Extrai a fonte da URL da notícia (ex: 'observador.pt'). """
     try:
-        # Remove 'www.' e extrai o domínio principal
-        domain = re.sub(r"^(https?://)?(www\.)?", "", url)
-        domain = domain.split('/')[0]  # Pega apenas o domínio
-        return domain
+        # Usa urlparse para extrair o domínio da URL
+        parsed_url = urlparse(url)
+        domain = parsed_url.netloc
+        
+        # Remove 'www.' se presente
+        domain = re.sub(r'^www\.', '', domain)
+        
+        # Remove a extensão do domínio (.com, .pt, etc)
+        domain = domain.split('.')[0]
+        
+        # Mapeamento de domínios para nomes formatados
+        source_mapping = {
+            'observador': 'Observador',
+        }
+        
+        # Capitaliza a primeira letra se não houver mapeamento específico
+        formatted_source = source_mapping.get(
+            domain.lower(),
+            domain.capitalize()
+        )
+        
+        return formatted_source
+        
     except Exception as e:
-        print(f"Erro ao processar {url}: {e}")
+        print(f"Erro ao processar a URL {url}: {e}")
         return "Desconhecido"
     
 def get_image_url_from_link(news_url):
