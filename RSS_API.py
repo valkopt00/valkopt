@@ -30,7 +30,9 @@ RSS_FEEDS = [
 ]
 
 API_SOURCES = [
+    {
     "https://observador.pt/wp-json/obs_api/v4/news/widget"
+    }
 ]
 
 FEED_CATEGORY_MAPPER = {
