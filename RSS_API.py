@@ -255,6 +255,9 @@ def get_articles():
             response = requests.get(api_source["url"], headers=api_source["headers"])
             response.raise_for_status()
             data = response.json()
+
+            print(f"Resposta da API {api_source['source_name']}:")
+            print(json.dumps(data, indent=4, ensure_ascii=False)) 
     
             # Identificar se data é uma lista ou um dicionário com "articles"
             if isinstance(data, list):
