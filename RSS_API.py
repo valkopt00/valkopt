@@ -346,6 +346,33 @@ def extract_source(root):
         return source_name
     return "Desconhecido"
 
+def extract_source_from_url(url):
+    """ Extrai a fonte do JSON da URL, com suporte a várias fontes. """
+    try:
+        # Faz a requisição GET para obter os dados da API
+        response = requests.get(url)
+        response.raise_for_status()  # Lança um erro se a requisição falhar
+        
+        # Obtém o JSON da resposta
+        data = response.json()
+        
+        # Aqui extraímos a fonte baseada no título ou em um campo específico do JSON
+        if 'site_name' in data:
+            source_name = data['site_name'].strip()
+            # Ajusta o nome da fonte, se necessário, com base em regras específicas
+            if source_name == "Observador.pt":
+                return "Observador"
+            
+            # Adicionar outras condições conforme necessário para novas fontes
+            source_name = re.split(r" - | / ", source_name)[0]  # Remove tudo após " - " ou " / "
+            return source_name
+        return "Desconhecido"
+    
+    except requests.RequestException as e:
+        # Caso ocorra algum erro na requisição ou processamento do JSON
+        print(f"Erro ao processar a URL {url}: {e}")
+        return "Desconhecido"
+
 def get_image_url_from_link(news_url):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
