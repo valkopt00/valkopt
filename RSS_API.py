@@ -31,7 +31,9 @@ RSS_FEEDS = [
 
 API_SOURCES = [
     {
-    "https://observador.pt/wp-json/obs_api/v4/news/widget"
+        "url": "https://observador.pt/wp-json/obs_api/v4/news/widget",
+        "headers": {"User-Agent": "Mozilla/5.0"},
+        "source_name": "NewsAPI"
     }
 ]
 
