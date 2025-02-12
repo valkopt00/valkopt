@@ -1,4 +1,3 @@
-
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -549,7 +548,7 @@ def check_premium(url):
         text = soup.get_text().lower()
         
         # Verifica a frase específica
-        if "Exclusivo" in text:
+        if "..." in text:
             return True
         return False
     except Exception as e:
