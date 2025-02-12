@@ -537,5 +537,31 @@ def map_category(feed_category, feed_url, item_link=None):
         
     return "Outras Notícias"
 
+def check_premium(url):
+    headers = {"User-Agent": "Mozilla/5.0"}
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        if response.status_code != 200:
+            print(f"Erro: Status code {response.status_code}")
+            return False
+        html = response.text
+        soup = BeautifulSoup(html, 'html.parser')
+        text = soup.get_text().lower()
+        
+        # Verifica a frase específica
+        if "artigo exclusivo para subscritores" in text:
+            return True
+        return False
+    except Exception as e:
+        print(f"Erro ao acessar o link: {e}")
+        return False
+
+# Exemplo de uso:
+url = "https://expresso.pt/politica/governo/2025-02-12-montenegro-leva-para-o-governo-ex-autarca-com-quem-fez-ajustes-diretos-0f6c0e56"
+if check_premium(url):
+    print("Artigo é exclusivo para subscritores.")
+else:
+    print("Artigo não apresenta indicação de ser exclusivo para subscritores.")
+
 if __name__ == "__main__":
     get_articles()
