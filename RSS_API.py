@@ -549,7 +549,7 @@ def check_premium(url):
         text = soup.get_text().lower()
         
         # Verifica a frase específica
-        if "artigo exclusivo para subscritores" in text:
+        if "Exclusivo" in text:
             return True
         return False
     except Exception as e:
@@ -557,7 +557,7 @@ def check_premium(url):
         return False
 
 # Exemplo de uso:
-url = "https://expresso.pt/politica/governo/2025-02-12-montenegro-leva-para-o-governo-ex-autarca-com-quem-fez-ajustes-diretos-0f6c0e56"
+url = "https://www.publico.pt/2025/02/11/opiniao/editorial/corrupcao-ranking-reputacional-2122195"
 if check_premium(url):
     print("Artigo é exclusivo para subscritores.")
 else:
