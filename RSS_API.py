@@ -213,8 +213,8 @@ def get_articles():
             feed_domain = get_feed_domain(feed_url)
 
             if feed_url.startswith("https://www.publico.pt/") and is_publico_exclusive(url):
-            print(f"Artigo exclusivo para assinantes: {article.get('title')}")
-            continue
+                print(f"Artigo exclusivo para assinantes: {article.get('title')}")
+                continue
             
             for item in root.findall(".//item"):
                 title = clean_title(item.findtext("title", "").strip())
