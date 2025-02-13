@@ -211,6 +211,10 @@ def get_articles():
                 
             root = ET.fromstring(response.content)
             feed_domain = get_feed_domain(feed_url)
+
+            if feed_url.startswith("https://www.publico.pt/") and is_publico_exclusive(url):
+            print(f"Artigo exclusivo para assinantes: {article.get('title')}")
+            continue
             
             for item in root.findall(".//item"):
                 title = clean_title(item.findtext("title", "").strip())
@@ -544,24 +548,26 @@ def map_category(feed_category, feed_url, item_link=None):
         
     return "Outras Notícias"
 
-def check_premium(url):
+def is_publico_exclusive(url):
+    # Verifica se o URL começa com "https://www.publico.pt/"
+    if not url.startswith("https://www.publico.pt/"):
+        return False
+
     headers = {"User-Agent": "Mozilla/5.0"}
     try:
         response = requests.get(url, headers=headers, timeout=10)
         if response.status_code != 200:
-            print(f"Erro: Status code {response.status_code}")
-            return False
+            return False  # Se não conseguiu carregar, pode tratar de outra forma.
         html = response.text
         soup = BeautifulSoup(html, 'html.parser')
         
-        # Procura por uma div que contenha a classe 'kicker--exclusive'
+        # Procura pela div que indica conteúdo exclusivo
         exclusive_div = soup.find("div", class_=lambda value: value and "kicker--exclusive" in value)
-        
         if exclusive_div:
-            return True  # Artigo exclusivo para assinantes
+            return True
         return False
     except Exception as e:
-        print(f"Erro ao acessar o link: {e}")
+        print(f"Erro ao verificar exclusividade no URL {url}: {e}")
         return False
 
 # Exemplo de uso:
