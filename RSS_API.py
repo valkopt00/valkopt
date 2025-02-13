@@ -242,7 +242,7 @@ async def process_rss_feed(session, feed_url, titles_seen, lock, last_12_hours, 
             feed_domain = get_feed_domain(feed_url)
             
             for item in root.findall(".//item"):
-                title = clean_title(item.findtext("title", "").strip()
+                title = clean_title(item.findtext("title", "").strip())
                 
                 # Verificar título duplicado com lock
                 async with lock:
