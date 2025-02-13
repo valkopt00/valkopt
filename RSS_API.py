@@ -224,9 +224,14 @@ def get_articles():
                 link = item.findtext("link", "").strip()  # Extração do link antes de mapear a categoria
                 image_url = extract_image_url(item)
                 feed_category = item.findtext("category")  # Pode ser None se não existir a tag <category>
-            
+         
                 # Chamada atualizada da função map_category com todos os parâmetros necessários
                 category = map_category(feed_category, feed_domain, link)
+
+                # Verificação de exclusividade antes de adicionar o artigo
+                if link.startswith("https://www.publico.pt/") and is_publico_exclusive(link):
+                    print(f"Artigo exclusivo para assinantes: {title}")
+                    continue  # Ignora o artigo exclusivo
             
                 pub_date = parse_date(pub_date_str)
             
@@ -251,10 +256,6 @@ def get_articles():
                             "category": category,
                             "link": link
                         })
-
-                    if link.startswith("https://www.publico.pt/") and is_publico_exclusive(url):
-                        print(f"Artigo exclusivo para assinantes: {article.get('title')}")
-                        continue
 
         except requests.exceptions.RequestException as e:
                 print(f"Erro ao processar {feed_url}: {e}")
