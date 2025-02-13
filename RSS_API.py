@@ -305,8 +305,8 @@ def get_articles():
             print(f"Erro ao processar API {api_source['url']}: {e}")
     
     if link.startswith("https://www.publico.pt/") and is_publico_exclusive(url):
-                    print(f"Artigo exclusivo para assinantes: {article.get('title')}")
-                    continue
+        print(f"Artigo exclusivo para assinantes: {article.get('title')}")
+        continue
         
     articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
     export_to_json(articles)
