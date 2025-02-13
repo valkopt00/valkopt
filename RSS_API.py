@@ -211,10 +211,6 @@ def get_articles():
                 
             root = ET.fromstring(response.content)
             feed_domain = get_feed_domain(feed_url)
-
-            if feed_url.startswith("https://www.publico.pt/") and is_publico_exclusive(url):
-                print(f"Artigo exclusivo para assinantes: {article.get('title')}")
-                continue
             
             for item in root.findall(".//item"):
                 title = clean_title(item.findtext("title", "").strip())
@@ -308,7 +304,10 @@ def get_articles():
         except requests.exceptions.RequestException as e:
             print(f"Erro ao processar API {api_source['url']}: {e}")
     
-
+    if link.startswith("https://www.publico.pt/") and is_publico_exclusive(url):
+                    print(f"Artigo exclusivo para assinantes: {article.get('title')}")
+                    continue
+        
     articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
     export_to_json(articles)
                                 
