@@ -228,8 +228,8 @@ def get_articles():
                 # Chamada atualizada da função map_category com todos os parâmetros necessários
                 category = map_category(feed_category, feed_domain, link)
 
-                # Verificação de exclusividade
-                is_exclusive = link.startswith("https://www.publico.pt/") and is_publico_exclusive(link)
+                # Verifica se o artigo é exclusivo para assinantes
+                is_exclusive = is_exclusive_article(link)
             
                 pub_date = parse_date(pub_date_str)
             
@@ -553,27 +553,23 @@ def map_category(feed_category, feed_url, item_link=None):
         
     return "Outras Notícias"
 
-def is_publico_exclusive(url):
-    # Verifica se o URL começa com "https://www.publico.pt/"
-    if not url.startswith("https://www.publico.pt/"):
-        return False
-
-    headers = {"User-Agent": "Mozilla/5.0"}
+def is_exclusive_article(url):
+    """Verifica se um artigo é exclusivo para assinantes nos sites Público e Expresso."""
     try:
-        response = requests.get(url, headers=headers, timeout=10)
-        if response.status_code != 200:
-            return False  # Se não conseguiu carregar, pode tratar de outra forma.
-        html = response.text
-        soup = BeautifulSoup(html, 'html.parser')
-        
-        # Procura pela div que indica conteúdo exclusivo
-        exclusive_div = soup.find("div", class_=lambda value: value and "kicker--exclusive" in value)
-        if exclusive_div:
-            return True
-        return False
-    except Exception as e:
-        print(f"Erro ao verificar exclusividade no URL {url}: {e}")
-        return False
+        headers = {"User-Agent": "Mozilla/5.0"}
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        page_content = response.text
 
+        # Verifica os padrões de exclusividade de cada jornal
+        if "https://www.publico.pt/" in url and '<div class="kicker kicker--exclusive">' in page_content:
+            return True
+        if "https://expresso.pt/" in url and '<span class="exclusive-label-inner">Exclusivo</span>' in page_content:
+            return True
+
+        return False
+    except requests.exceptions.RequestException:
+        return False
+        
 if __name__ == "__main__":
     get_articles()
