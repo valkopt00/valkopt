@@ -228,10 +228,8 @@ def get_articles():
                 # Chamada atualizada da função map_category com todos os parâmetros necessários
                 category = map_category(feed_category, feed_domain, link)
 
-                # Verificação de exclusividade antes de adicionar o artigo
-                if link.startswith("https://www.publico.pt/") and is_publico_exclusive(link):
-                    print(f"Artigo exclusivo para assinantes: {title}")
-                    continue  # Ignora o artigo exclusivo
+                # Verificação de exclusividade
+                is_exclusive = link.startswith("https://www.publico.pt/") and is_publico_exclusive(link)
             
                 pub_date = parse_date(pub_date_str)
             
@@ -244,7 +242,8 @@ def get_articles():
                             "source": source,
                             "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
                             "category": category,
-                            "link": link
+                            "link": link,
+                            "isExclusive": is_exclusive
                         })
                     elif category != "Últimas" and pub_date >= last_48_hours:
                         articles.append({
@@ -254,7 +253,8 @@ def get_articles():
                             "source": source,
                             "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
                             "category": category,
-                            "link": link
+                            "link": link,
+                            "isExclusive": is_exclusive
                         })
 
         except requests.exceptions.RequestException as e:
