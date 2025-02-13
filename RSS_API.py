@@ -290,6 +290,9 @@ def get_articles():
                 feed_category = item.get("tag", "Outras Notícias")
                 category = map_category(feed_category, source, link)
                 pub_date = parse_date(pub_date_str)
+
+                 # Verifica se o artigo é exclusivo para assinantes
+                is_exclusive = is_exclusive_article(link)
     
                 if pub_date:
                     article = {
