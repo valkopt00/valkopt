@@ -84,7 +84,10 @@ FEED_CATEGORY_MAPPER = {
 
     "https://caras.pt/feed/": "Lifestyle",
 
-    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=71": "Opinião"
+    "https://rr.sapo.pt/rss/rssfeed.aspx?fid=71": "Opinião",
+
+    "https://www.eurogamer.pt/feed": "Vídeojogos",
+    "https://pt.ign.com/feed.xml": "Vídeojogos"
 }
 
 CATEGORY_MAPPER = {
@@ -175,6 +178,7 @@ CATEGORY_MAPPER = {
     "Vidas": "Lifestyle",
     "Fama": "Lifestyle",
     "Ideias": "Lifestyle",
+    "Vídeojogos": "Vídeojogos",
     "Outras Notícias": "Outras Notícias"
 }
 
