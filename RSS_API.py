@@ -27,7 +27,8 @@ RSS_FEEDS = [
     "https://ionline.sapo.pt/feed/",
     "https://www.noticiasaominuto.com/rss/ultima-hora",
     "https://www.eurogamer.pt/feed",
-    "https://pt.ign.com/feed.xml"
+    "https://pt.ign.com/feed.xml",
+    "https://caras.pt/feed/"
 ]
 
 API_SOURCES = [
