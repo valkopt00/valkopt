@@ -346,6 +346,8 @@ def extract_source(root):
             return "Euronews"
         if source_name == "Notícias zerozero.pt":
             return "zerozero.pt"
+        if source_name == "Eurogamer.pt Latest Articles Feed":
+            return "Eurogamer"
         source_name = re.split(r" - | / ", source_name)[0]  # Remove tudo após " - " ou " / "
         return source_name
     return "Desconhecido"
