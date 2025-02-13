@@ -25,9 +25,11 @@ RSS_FEEDS = [
     "https://pt.euronews.com/rss?format=mrss&level=theme&name=news",
     "https://pplware.sapo.pt/feed/",
     "https://ionline.sapo.pt/feed/",
-    "https://www.noticiasaominuto.com/rss/ultima-hora"
+    "https://www.noticiasaominuto.com/rss/ultima-hora",
+    "https://www.eurogamer.pt/feed",
+    "https://pt.ign.com/feed.xml"
 ]
-"https://observador.pt/wp-json/obs_api/v4/news/widget"
+
 API_SOURCES = [
     {
         "url": "https://observador.pt/wp-json/obs_api/v4/news/widget",
