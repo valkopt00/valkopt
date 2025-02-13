@@ -570,12 +570,5 @@ def is_publico_exclusive(url):
         print(f"Erro ao verificar exclusividade no URL {url}: {e}")
         return False
 
-# Exemplo de uso:
-url = "https://www.publico.pt/2025/02/13/politica/noticia/cidadania-partidos-querem-disciplina-opcional-inclua-bemestar-animais-2122291" 
-if check_premium(url):
-    print("Artigo é exclusivo para subscritores.")
-else:
-    print("Artigo não apresenta indicação de ser exclusivo para subscritores.")
-
 if __name__ == "__main__":
     get_articles()
