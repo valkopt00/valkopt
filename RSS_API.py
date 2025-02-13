@@ -566,6 +566,8 @@ def is_exclusive_article(url):
             return True
         if "https://expresso.pt/" in url and '<span class="exclusive-label-inner">Exclusivo</span>' in page_content:
             return True
+        if "https://observador.pt/" in url and <obs-paywall-btn id="obs-paywall-btn" title="Quer mudar a forma como se informa?" style="background-color: rgb(222, 239, 250); color: rgb(38, 38, 38);"> in page_content:
+            return True    
 
         return False
     except requests.exceptions.RequestException:
