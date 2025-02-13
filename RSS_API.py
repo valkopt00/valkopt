@@ -553,18 +553,19 @@ def check_premium(url):
             return False
         html = response.text
         soup = BeautifulSoup(html, 'html.parser')
-        text = soup.get_text().lower()
         
-        # Verifica a frase específica
-        if "..." in text:
-            return True
+        # Procura por uma div que contenha a classe 'kicker--exclusive'
+        exclusive_div = soup.find("div", class_=lambda value: value and "kicker--exclusive" in value)
+        
+        if exclusive_div:
+            return True  # Artigo exclusivo para assinantes
         return False
     except Exception as e:
         print(f"Erro ao acessar o link: {e}")
         return False
 
 # Exemplo de uso:
-url = "https://www.publico.pt/2025/02/11/opiniao/editorial/corrupcao-ranking-reputacional-2122195"
+url = "https://www.publico.pt/2025/02/13/politica/noticia/cidadania-partidos-querem-disciplina-opcional-inclua-bemestar-animais-2122291" 
 if check_premium(url):
     print("Artigo é exclusivo para subscritores.")
 else:
