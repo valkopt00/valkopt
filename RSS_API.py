@@ -310,7 +310,7 @@ def export_to_json(articles):
     categorized_data = {"Últimas": articles}
 
     for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Ciência e Tech", "Lifestyle", 
-                     "Sociedade", "Política", "Multimédia", "Opinião", "Outras Notícias"]:
+                     "Sociedade", "Política", "Multimédia", "Opinião", "Vídeojogos", "Outras Notícias"]:
         categorized_data[category] = [article for article in articles if article["category"] == category]
 
     with open("articles.json", "w", encoding="utf-8") as f:
