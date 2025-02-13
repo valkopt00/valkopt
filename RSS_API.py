@@ -252,6 +252,10 @@ def get_articles():
                             "link": link
                         })
 
+                    if link.startswith("https://www.publico.pt/") and is_publico_exclusive(url):
+                        print(f"Artigo exclusivo para assinantes: {article.get('title')}")
+                        continue
+
         except requests.exceptions.RequestException as e:
                 print(f"Erro ao processar {feed_url}: {e}")
 
@@ -300,13 +304,14 @@ def get_articles():
                     if (category == "Últimas" and pub_date >= last_12_hours) or \
                        (category != "Últimas" and pub_date >= last_48_hours):
                         articles.append(article)
+
+                    if link.startswith("https://www.publico.pt/") and is_publico_exclusive(url):
+                        print(f"Artigo exclusivo para assinantes: {article.get('title')}")
+                        continue
                         
         except requests.exceptions.RequestException as e:
             print(f"Erro ao processar API {api_source['url']}: {e}")
     
-    if link.startswith("https://www.publico.pt/") and is_publico_exclusive(url):
-        print(f"Artigo exclusivo para assinantes: {article.get('title')}")
-        continue
         
     articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
     export_to_json(articles)
