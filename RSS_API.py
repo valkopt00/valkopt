@@ -554,6 +554,10 @@ def map_category(feed_category, feed_url, item_link=None):
                     return rr_category  # Retorna a categoria extraída, mesmo que não esteja no CATEGORY_MAPPER
         except (ValueError, IndexError):
             pass
+
+    if "publico.pt" in feed_url
+        category = "Últimas"
+        return category
             
     # Por fim, verifica o mapeamento completo de feeds
     for feed, category in FEED_CATEGORY_MAPPER.items():
