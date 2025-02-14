@@ -33,9 +33,14 @@ RSS_FEEDS = [
 
 API_SOURCES = [
     {
+        "url": "https://www.publico.pt/api/list/ultimas",
+        "headers": {"User-Agent": "Mozilla/5.0"},
+        "source_name": "Publico"
+    },
+    {
         "url": "https://observador.pt/wp-json/obs_api/v4/news/widget",
         "headers": {"User-Agent": "Mozilla/5.0"},
-        "source_name": "NewsAPI"
+        "source_name": "Observador"
     }
 ]
 
@@ -257,36 +262,44 @@ def get_articles():
                 print(f"Erro ao processar {feed_url}: {e}")
 
     # Processar API
-    for api_source in API_SOURCES:
+    for api_source in api_sources:
         try:
             response = requests.get(api_source["url"], headers=api_source["headers"])
             response.raise_for_status()
             data = response.json()
-    
+
             # Se data for uma lista, usa diretamente; se for um dicionário, tenta buscar "articles"
             if isinstance(data, list):
                 articles_list = data
             else:
                 articles_list = data.get("articles", [])
-    
+
             for item in articles_list:
-                title = clean_title(item.get("title", "Sem título"))
+                # Verificar se a chave 'titulo' ou 'title' está presente
+                title = clean_title(item.get("titulo") or item.get("title", "Sem título"))
                 if title in titles_seen:
                     continue
                 titles_seen.add(title)
-    
-                description = clean_description(item.get("lead", ""))
-                pub_date_str = item.get("publish_date", "")
+
+                # Verificar se a chave 'descricao' ou 'lead' está presente
+                description = clean_description(item.get("descricao") or item.get("lead", ""))
+                
+                # Verificar se a chave 'data' ou 'publish_date' está presente
+                pub_date_str = item.get("data") or item.get("publish_date", "")
+                
                 link = item.get("url", "")
                 
-                # Extrai a fonte da URL ao invés de usar source_name fixo
+                # Extrair a fonte da URL ao invés de usar source_name fixo
                 source = extract_source_from_url(link)
                 
-                image_url = item.get("image", "")
-                feed_category = item.get("tag", "Outras Notícias")
+                # Verificar se a chave 'multimediaPrincipal' ou 'image' está presente
+                image_url = item.get("multimediaPrincipal") or item.get("image", "")
+                
+                # Verificar se a chave 'rubrica' ou 'tag' está presente
+                feed_category = item.get("rubrica") or item.get("tag", "Outras Notícias")
                 category = map_category(feed_category, source, link)
                 pub_date = parse_date(pub_date_str)
-    
+
                 if pub_date:
                     article = {
                         "title": title,
