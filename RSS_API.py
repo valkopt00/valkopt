@@ -375,6 +375,7 @@ def extract_source_from_url(url):
         
         source_mapping = {
             'observador': 'Observador',
+            'publico': 'Público',
         }
         
         return source_mapping.get(domain.lower(), domain.capitalize())
