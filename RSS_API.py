@@ -37,6 +37,11 @@ API_SOURCES = [
         "headers": {"User-Agent": "Mozilla/5.0"},
         "source_name": "NewsAPI"
     }
+    {
+        "url": "https://www.publico.pt/api/list/ultimas",
+        "headers": {"User-Agent": "Mozilla/5.0"},
+        "source_name": "NewsAPI"
+    }
 ]
 
 FEED_CATEGORY_MAPPER = {
