@@ -301,6 +301,8 @@ def get_articles():
                 # Verificar se a chave 'rubrica' ou 'tag' está presente
                 feed_category = item.get("rubrica") or item.get("tag", "Últimas")
                 category = map_category(feed_category, source, link)
+                if not category:
+                    category = "Últimas"
                 pub_date = parse_date(pub_date_str)
 
                 if pub_date:
