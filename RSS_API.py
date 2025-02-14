@@ -555,7 +555,7 @@ def map_category(feed_category, feed_url, item_link=None):
         except (ValueError, IndexError):
             pass
 
-    if "publico.pt" in feed_url
+    if "publico.pt" in feed_url:
         category = "Últimas"
         return category
             
