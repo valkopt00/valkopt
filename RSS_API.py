@@ -45,6 +45,8 @@ API_SOURCES = [
 ]
 
 FEED_CATEGORY_MAPPER = {
+    "https://pt.euronews.com/rss?format=mrss&level=theme&name=news": "Últimas",
+    
     "https://www.record.pt/rss": "Desporto",
     "https://www.autosport.pt/feed": "Desporto",
     "https://www.zerozero.pt/rss/noticias.php": "Desporto",
