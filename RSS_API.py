@@ -262,7 +262,7 @@ def get_articles():
                 print(f"Erro ao processar {feed_url}: {e}")
 
     # Processar API
-    for api_source in api_sources:
+    for api_source in API_SOURCES:
         try:
             response = requests.get(api_source["url"], headers=api_source["headers"])
             response.raise_for_status()
