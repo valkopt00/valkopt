@@ -36,7 +36,7 @@ API_SOURCES = [
         "url": "https://observador.pt/wp-json/obs_api/v4/news/widget",
         "headers": {"User-Agent": "Mozilla/5.0"},
         "source_name": "NewsAPI"
-    }
+    },
     {
         "url": "https://www.publico.pt/api/list/ultimas",
         "headers": {"User-Agent": "Mozilla/5.0"},
