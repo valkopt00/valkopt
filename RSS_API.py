@@ -299,7 +299,7 @@ def get_articles():
                 image_url = item.get("multimediaPrincipal") or item.get("image", "")
                 
                 # Verificar se a chave 'rubrica' ou 'tag' está presente
-                feed_category = item.get("rubrica") or item.get("tag", "Outras Notícias")
+                feed_category = item.get("rubrica") or item.get("tag", "Últimas")
                 category = map_category(feed_category, source, link)
                 pub_date = parse_date(pub_date_str)
 
@@ -554,10 +554,6 @@ def map_category(feed_category, feed_url, item_link=None):
                     return rr_category  # Retorna a categoria extraída, mesmo que não esteja no CATEGORY_MAPPER
         except (ValueError, IndexError):
             pass
-
-    if "publico.pt" in feed_url:
-        category = "Últimas"
-        return category
             
     # Por fim, verifica o mapeamento completo de feeds
     for feed, category in FEED_CATEGORY_MAPPER.items():
