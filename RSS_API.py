@@ -10,6 +10,8 @@ from urllib.parse import urlparse
 import feedparser
 import asyncio
 import aiohttp
+from aiohttp import ClientTimeout
+import chardet
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
@@ -250,32 +252,48 @@ def export_to_json(articles):
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours, last_48_hours):
     try:
+        # Set timeout for initial feed fetch
+        timeout = ClientTimeout(total=30)
         headers = {"User-Agent": "Mozilla/5.0"}
-        async with session.get(feed_url, headers=headers) as response:
+        
+        async with session.get(feed_url, headers=headers, timeout=timeout) as response:
             if response.status != 200:
                 print(f"Error fetching {feed_url}: Status {response.status}")
                 return []
                 
-            content = await response.text()
+            # Read raw bytes
+            content_bytes = await response.read()
+            
+            # Detect encoding
+            detected = chardet.detect(content_bytes)
+            encoding = detected['encoding'] if detected['confidence'] > 0.7 else 'utf-8'
+            
+            try:
+                content = content_bytes.decode(encoding)
+            except UnicodeDecodeError:
+                # Fallback to latin1 if UTF-8 fails
+                content = content_bytes.decode('latin1')
+            
             if not content.strip():
                 return []
                 
-            root = ET.fromstring(content)
+            # Use feedparser instead of ElementTree for more robust RSS parsing
+            feed = feedparser.parse(content)
             feed_domain = get_feed_domain(feed_url)
             articles = []
             
-            for item in root.findall(".//item"):
-                title = clean_title(item.findtext("title", "").strip())
+            for entry in feed.entries:
+                title = clean_title(entry.get('title', '').strip())
                 if title in titles_seen:
                     continue
                     
                 titles_seen.add(title)
-                description = clean_description(item.findtext("description", "").strip())
-                pub_date_str = item.findtext("pubDate", "").strip()
-                source = extract_source(root)
-                link = item.findtext("link", "").strip()
-                image_url = await extract_image_url(item, session)
-                feed_category = item.findtext("category")
+                description = clean_description(entry.get('description', '').strip())
+                pub_date_str = entry.get('published', '')
+                source = extract_source_from_feed(feed)
+                link = entry.get('link', '').strip()
+                image_url = await extract_image_url(entry, session)
+                feed_category = entry.get('category', '')
                 
                 category = map_category(feed_category, feed_domain, link)
                 pub_date = parse_date(pub_date_str)
@@ -289,7 +307,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours, last_4
                         "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
                         "category": category,
                         "link": link,
-                        "isExclusive": False  # Will be updated later in process_articles
+                        "isExclusive": False
                     }
                     
                     if (category == "Últimas" and pub_date >= last_12_hours) or \
@@ -299,7 +317,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours, last_4
             return articles
                         
     except Exception as e:
-        print(f"Error processing {feed_url}: {e}")
+        print(f"Error processing {feed_url}: {str(e)}")
         return []
 
 async def process_api_source(session, api_source, titles_seen, last_12_hours, last_48_hours):
@@ -436,6 +454,20 @@ def clean_description(description):
     
     return description
 
+def extract_source_from_feed(feed):
+    """Extract source from feedparser feed object"""
+    if hasattr(feed, 'feed') and hasattr(feed.feed, 'title'):
+        source_name = feed.feed.title
+        if source_name == "News | Euronews RSS":
+            return "Euronews"
+        if source_name == "Notícias zerozero.pt":
+            return "zerozero.pt"
+        if source_name == "Eurogamer.pt Latest Articles Feed":
+            return "Eurogamer"
+        source_name = re.split(r" - | / ", source_name)[0]
+        return source_name
+    return "Desconhecido"
+
 def extract_source(root):
     """ Extrai a fonte e remove sufixos indesejados. """
     channel_title = root.find(".//channel/title")
@@ -499,88 +531,79 @@ async def process_article(article, session):
 
     
 async def get_image_url_from_link(news_url, session):
-    headers = {
-        "User-Agent": "Mozilla/5.0"
-    }
+    """Safer version of get_image_url_from_link with proper timeout handling"""
+    timeout = ClientTimeout(total=10)  # 10 second timeout
+    headers = {"User-Agent": "Mozilla/5.0"}
+    
     try:
-        async with session.get(news_url, headers=headers, timeout=5) as response:
+        async with session.get(news_url, headers=headers, timeout=timeout) as response:
             if response.status != 200:
-                print(f"Erro ao acessar a página: {response.status}")
                 return None
             content = await response.text()
-    except Exception as e:
-        print(f"Erro ao acessar {news_url}: {e}")
+            
+            soup = BeautifulSoup(content, 'html.parser')
+            
+            # Priority list of image selectors
+            selectors = [
+                {'type': 'class', 'value': 'wp-post-image'},
+                {'type': 'class', 'value': 'wp-block-cover__image-background'},
+                {'type': 'property', 'value': 'og:image'},
+                {'type': 'name', 'value': 'twitter:image'}
+            ]
+            
+            # Try meta tags first
+            for selector in selectors:
+                if selector['type'] == 'property':
+                    meta = soup.find('meta', property=selector['value'])
+                    if meta and meta.get('content'):
+                        return meta['content']
+                elif selector['type'] == 'name':
+                    meta = soup.find('meta', attrs={'name': selector['value']})
+                    if meta and meta.get('content'):
+                        return meta['content']
+                else:
+                    img = soup.find('img', class_=selector['value'])
+                    if img:
+                        return img.get('data-src') or img.get('src')
+            
+            return None
+            
+    except asyncio.TimeoutError:
+        print(f"Timeout while fetching image from {news_url}")
         return None
-
-    soup = BeautifulSoup(content, 'html.parser')
-
-    # Primeiro, tentamos encontrar a imagem principal (wp-post-image)
-    image_tag = soup.find('img', class_='wp-post-image')
-
-    # Se não encontrar, buscamos qualquer imagem dentro de um bloco de capa (cover image)
-    if not image_tag:
-        image_tag = soup.find('img', class_='wp-block-cover__image-background')
-
-    # Se ainda não encontrou, buscamos qualquer <img> na página
-    if not image_tag:
-        image_tags = soup.find_all('img')
-        for img in image_tags:
-            image_url = img.get('data-src') or img.get('src')
-            if image_url and image_url.startswith("https://ionline.sapo.pt/wp-content/uploads/"):
-                return image_url
+    except Exception as e:
+        print(f"Error fetching image from {news_url}: {str(e)}")
+        return None
     
-    # Se encontrou a tag, extrai a URL
-    if image_tag:
-        image_url = image_tag.get('data-src') or image_tag.get('src')
-        if image_url and image_url.startswith("https://ionline.sapo.pt/wp-content/uploads/"):
-            return image_url
-
-    print("Nenhuma imagem correspondente encontrada.")
-    return None
-    
-async def extract_image_url(item, session):
-    """Async version of extract_image_url"""
-    namespaces = {"media": "http://search.yahoo.com/mrss/"}
-    jornal_economico_logo = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
-    
-    link_element = item.find("link")
-    if link_element is not None and link_element.text and "jornaleconomico" in link_element.text:
-        return jornal_economico_logo
+async def extract_image_url(entry, session):
+    """Safer version of extract_image_url with better error handling"""
+    try:
+        # Check for media content
+        if 'media_content' in entry and entry.media_content:
+            for media in entry.media_content:
+                if 'url' in media:
+                    return media['url']
         
-    # Check main tags first
-    for tag in ["media:content", "enclosure", "image", "img", "post-thumbnail"]:
-        element = item.find(tag, namespaces) or item.find(tag)
-        if element is not None:
-            url = None
-            if tag == "post-thumbnail" and element.find("url") is not None:
-                url = element.find("url").text
-            elif "url" in element.attrib:
-                url = element.attrib["url"]
-                
-            if url:
-                # Handle URL corrections
-                if "100x100" in url:
-                    url = url.replace("100x100", "932x621")
-                if "932x621" in url and "jornaldenegocios" in url:
-                    url = url.replace("932x621", "900x560")
-                if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
-                    return url.replace("https://cdn.record.pt/images/", "", 1)
-                return url
-    
-    # If no image found in main tags, try content:encoded and description
-    content_encoded = item.find("content:encoded")
-    description = item.find("description")
-    
-    for content in [content_encoded, description]:
-        if content is not None and content.text:
-            match = re.search(r'<img\s+[^>]*src="([^"]+)"', content.text)
-            if match:
-                return match.group(1)
-    
-    # If still no image found and we have a link, try to fetch from the article
-    if link_element is not None and link_element.text:
-        return await get_image_url_from_link(link_element.text, session)
-    
+        # Check for enclosures
+        if 'enclosures' in entry and entry.enclosures:
+            for enclosure in entry.enclosures:
+                if 'url' in enclosure and enclosure.type and enclosure.type.startswith('image/'):
+                    return enclosure['url']
+        
+        # Check description for image
+        if 'description' in entry:
+            soup = BeautifulSoup(entry.description, 'html.parser')
+            img = soup.find('img')
+            if img and img.get('src'):
+                return img['src']
+        
+        # If no image found and we have a link, try to fetch from article with timeout
+        if 'link' in entry:
+            return await get_image_url_from_link(entry.link, session)
+            
+    except Exception as e:
+        print(f"Error extracting image URL: {str(e)}")
+        
     return None
 
 def parse_date(date_str):
