@@ -378,6 +378,7 @@ async def is_content_exclusive_from_url(link, session):
         "User-Agent": "Mozilla/5.0"
     }
     try:
+        print(f"URL final antes de acessar: {link}")
         async with session.get(link, headers=headers, timeout=5) as response:
             content = await response.text()
     except Exception as e:
