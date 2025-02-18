@@ -203,140 +203,39 @@ DATE_FORMATS = [
     "%Y-%m-%dT%H:%M:%S.%f%z"
 ]
 
-def get_articles():
+async def get_articles():
     articles = []
     now = datetime.now(timezone.utc)
     last_12_hours = now - timedelta(hours=12)
     last_48_hours = now - timedelta(days=2)
     titles_seen = set()
 
-    # Processar RSS
-    for feed_url in RSS_FEEDS:
-        try:
-            headers = {"User-Agent": "Mozilla/5.0"}
-            response = requests.get(feed_url, headers=headers)
-            response.raise_for_status()
-            
-            if not response.content.strip():
-                continue
-                
-            root = ET.fromstring(response.content)
-            feed_domain = get_feed_domain(feed_url)
-            
-            for item in root.findall(".//item"):
-                title = clean_title(item.findtext("title", "").strip())
-                if title in titles_seen:
-                    continue
-            
-                titles_seen.add(title)
-                description = clean_description(item.findtext("description", "").strip())
-                pub_date_str = item.findtext("pubDate", "").strip()
-                source = extract_source(root)
-                link = item.findtext("link", "").strip()  # Extração do link antes de mapear a categoria
-                image_url = extract_image_url(item)
-                feed_category = item.findtext("category")  # Pode ser None se não existir a tag <category>
-            
-                # Chamada atualizada da função map_category com todos os parâmetros necessários
-                category = map_category(feed_category, feed_domain, link)
-            
-                pub_date = parse_date(pub_date_str)
-
-                # Verificar se o artigo é exclusivo
-                is_exclusive = is_content_exclusive_from_url(link)
-            
-                if pub_date:
-                    if category == "Últimas" and pub_date >= last_12_hours:
-                        articles.append({
-                            "title": title,
-                            "description": description,
-                            "image": image_url,
-                            "source": source,
-                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
-                            "category": category,
-                            "link": link,
-                            "isExclusive": is_exclusive
-                        })
-                    elif category != "Últimas" and pub_date >= last_48_hours:
-                        articles.append({
-                            "title": title,
-                            "description": description,
-                            "image": image_url,
-                            "source": source,
-                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
-                            "category": category,
-                            "link": link,
-                            "isExclusive": is_exclusive
-                        })
-
-        except requests.exceptions.RequestException as e:
-                print(f"Erro ao processar {feed_url}: {e}")
-
-    # Processar API
-    for api_source in API_SOURCES:
-        try:
-            response = requests.get(api_source["url"], headers=api_source["headers"])
-            response.raise_for_status()
-            data = response.json()
-
-            # Se data for uma lista, usa diretamente; se for um dicionário, tenta buscar "articles"
-            if isinstance(data, list):
-                articles_list = data
+    async with aiohttp.ClientSession() as session:
+        # Create tasks for RSS feeds
+        rss_tasks = [process_rss_feed(session, feed_url, titles_seen, last_12_hours, last_48_hours) 
+                     for feed_url in RSS_FEEDS]
+        
+        # Create tasks for API sources
+        api_tasks = [process_api_source(session, source, titles_seen, last_12_hours, last_48_hours) 
+                    for source in API_SOURCES]
+        
+        # Gather all results
+        all_results = await asyncio.gather(*rss_tasks, *api_tasks, return_exceptions=True)
+        
+        # Flatten results and filter out errors
+        for result in all_results:
+            if isinstance(result, list):
+                articles.extend(result)
             else:
-                articles_list = data.get("articles", [])
+                print(f"Error processing feed: {result}")
 
-            for item in articles_list:
-                # Verificar se a chave 'titulo' ou 'title' está presente
-                title = clean_title(item.get("titulo") or item.get("title", "Sem título"))
-                if title in titles_seen:
-                    continue
-                titles_seen.add(title)
-
-                # Verificar se a chave 'descricao' ou 'lead' está presente
-                description = clean_description(item.get("descricao") or item.get("lead", ""))
-                
-                # Verificar se a chave 'data' ou 'publish_date' está presente
-                pub_date_str = item.get("data") or item.get("publish_date", "")
-                
-                link = item.get("url", "")
-                
-                # Extrair a fonte da URL ao invés de usar source_name fixo
-                source = extract_source_from_url(link)
-                
-                # Verificar se a chave 'multimediaPrincipal' ou 'image' está presente
-                image_url = item.get("multimediaPrincipal") or item.get("image", "")
-                
-                # Verificar se a chave 'rubrica' ou 'tag' está presente
-                feed_category = item.get("rubrica") or item.get("tag", "Últimas")
-                category = map_category(feed_category, source, link)
-                if not category:
-                    category = "Últimas"
-                pub_date = parse_date(pub_date_str)
-
-                # Verificar se o artigo é exclusivo
-                is_exclusive = is_content_exclusive_from_url(link)
-
-                if pub_date:
-                    article = {
-                        "title": title,
-                        "description": description,
-                        "image": image_url,
-                        "source": source,
-                        "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
-                        "category": category,
-                        "link": link,
-                        "isExclusive": is_exclusive
-                    }
-                    
-                    if (category == "Últimas" and pub_date >= last_12_hours) or \
-                       (category != "Últimas" and pub_date >= last_48_hours):
-                        articles.append(article)
-                        
-        except requests.exceptions.RequestException as e:
-            print(f"Erro ao processar API {api_source['url']}: {e}")
-    
-
+    # Sort articles by date
     articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
-    asyncio.run(process_articles(articles))
+    
+    # Process articles for additional info (images, exclusive status)
+    await process_articles(articles)
+    
+    # Export to JSON
     export_to_json(articles)
                                 
 def export_to_json(articles):
@@ -349,26 +248,112 @@ def export_to_json(articles):
     with open("articles.json", "w", encoding="utf-8") as f:
         json.dump(categorized_data, f, ensure_ascii=False, indent=4)
 
-async def process_articles(articles):
-    tasks = []
-    async with aiohttp.ClientSession() as session:
-        for article in articles:
-            # Cria uma tarefa assíncrona para cada artigo
-            task = asyncio.create_task(process_article(article, session))
-            tasks.append(task)
-        await asyncio.gather(*tasks)
+async def process_rss_feed(session, feed_url, titles_seen, last_12_hours, last_48_hours):
+    try:
+        headers = {"User-Agent": "Mozilla/5.0"}
+        async with session.get(feed_url, headers=headers) as response:
+            if response.status != 200:
+                print(f"Error fetching {feed_url}: Status {response.status}")
+                return []
+                
+            content = await response.text()
+            if not content.strip():
+                return []
+                
+            root = ET.fromstring(content)
+            feed_domain = get_feed_domain(feed_url)
+            articles = []
+            
+            for item in root.findall(".//item"):
+                title = clean_title(item.findtext("title", "").strip())
+                if title in titles_seen:
+                    continue
+                    
+                titles_seen.add(title)
+                description = clean_description(item.findtext("description", "").strip())
+                pub_date_str = item.findtext("pubDate", "").strip()
+                source = extract_source(root)
+                link = item.findtext("link", "").strip()
+                image_url = await extract_image_url(item, session)
+                feed_category = item.findtext("category")
+                
+                category = map_category(feed_category, feed_domain, link)
+                pub_date = parse_date(pub_date_str)
+                
+                if pub_date:
+                    article = {
+                        "title": title,
+                        "description": description,
+                        "image": image_url,
+                        "source": source,
+                        "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
+                        "category": category,
+                        "link": link,
+                        "isExclusive": False  # Will be updated later in process_articles
+                    }
+                    
+                    if (category == "Últimas" and pub_date >= last_12_hours) or \
+                       (category != "Últimas" and pub_date >= last_48_hours):
+                        articles.append(article)
+            
+            return articles
+                        
+    except Exception as e:
+        print(f"Error processing {feed_url}: {e}")
+        return []
 
-async def process_article(article, session):
-    link = article['link']
-    
-    # Verificar se o artigo é exclusivo
-    is_exclusive = await is_content_exclusive_from_url(link, session)
-    article['isExclusive'] = is_exclusive
-    
-    # Atualizar a imagem se necessário
-    if not article['image']:
-        image_url = await get_image_url_from_link(link, session)
-        article['image'] = image_url
+async def process_api_source(session, api_source, titles_seen, last_12_hours, last_48_hours):
+    try:
+        async with session.get(api_source["url"], headers=api_source["headers"]) as response:
+            if response.status != 200:
+                return []
+                
+            data = await response.json()
+            articles = []
+            
+            # Handle both list and dict responses
+            articles_list = data if isinstance(data, list) else data.get("articles", [])
+            
+            for item in articles_list:
+                title = clean_title(item.get("titulo") or item.get("title", "Sem título"))
+                if title in titles_seen:
+                    continue
+                    
+                titles_seen.add(title)
+                description = clean_description(item.get("descricao") or item.get("lead", ""))
+                pub_date_str = item.get("data") or item.get("publish_date", "")
+                link = item.get("url", "")
+                source = extract_source_from_url(link)
+                image_url = item.get("multimediaPrincipal") or item.get("image", "")
+                feed_category = item.get("rubrica") or item.get("tag", "Últimas")
+                
+                category = map_category(feed_category, source, link)
+                if not category:
+                    category = "Últimas"
+                    
+                pub_date = parse_date(pub_date_str)
+                
+                if pub_date:
+                    article = {
+                        "title": title,
+                        "description": description,
+                        "image": image_url,
+                        "source": source,
+                        "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
+                        "category": category,
+                        "link": link,
+                        "isExclusive": False
+                    }
+                    
+                    if (category == "Últimas" and pub_date >= last_12_hours) or \
+                       (category != "Últimas" and pub_date >= last_48_hours):
+                        articles.append(article)
+                        
+            return articles
+            
+    except Exception as e:
+        print(f"Error processing API {api_source['url']}: {e}")
+        return []
 
 async def is_content_exclusive_from_url(link, session):
     headers = {
@@ -483,6 +468,35 @@ def extract_source_from_url(url):
     except Exception as e:
         print(f"Erro ao extrair fonte da URL {url}: {e}")
         return "Desconhecido"
+
+async def process_articles(articles):
+    """
+    Processa em paralelo todos os artigos para adicionar informações adicionais
+    como status exclusivo e imagens faltantes.
+    """
+    tasks = []
+    async with aiohttp.ClientSession() as session:
+        for article in articles:
+            task = asyncio.create_task(process_article(article, session))
+            tasks.append(task)
+        await asyncio.gather(*tasks)
+
+async def process_article(article, session):
+    """
+    Processa um único artigo para adicionar informações como
+    status exclusivo e imagem (se estiver faltando).
+    """
+    link = article['link']
+    
+    # Verifica se o artigo é exclusivo
+    is_exclusive = await is_content_exclusive_from_url(link, session)
+    article['isExclusive'] = is_exclusive
+    
+    # Atualiza a imagem se necessário
+    if not article['image']:
+        image_url = await get_image_url_from_link(link, session)
+        article['image'] = image_url
+
     
 async def get_image_url_from_link(news_url, session):
     headers = {
@@ -524,70 +538,50 @@ async def get_image_url_from_link(news_url, session):
     print("Nenhuma imagem correspondente encontrada.")
     return None
     
-def extract_image_url(item: Element):
-    namespaces = {"media": "http://search.yahoo.com/mrss/"}  # Namespace comum para media:content
+async def extract_image_url(item, session):
+    """Async version of extract_image_url"""
+    namespaces = {"media": "http://search.yahoo.com/mrss/"}
     jornal_economico_logo = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
-    # Verifica se o link é do Jornal Económico
+    
     link_element = item.find("link")
     if link_element is not None and link_element.text and "jornaleconomico" in link_element.text:
         return jornal_economico_logo
-    # Verifica nas tags principais (media:content, enclosure, image, img, post-thumbnail)
+        
+    # Check main tags first
     for tag in ["media:content", "enclosure", "image", "img", "post-thumbnail"]:
-        element = item.find(tag, namespaces)  # Passa namespaces para garantir que encontra media:content
-        if element is None:
-            # Tenta sem namespaces caso a tag não esteja no namespace fornecido
-            element = item.find(tag)
-
+        element = item.find(tag, namespaces) or item.find(tag)
         if element is not None:
-            # Verifica se a tag tem atributo 'url'
             url = None
             if tag == "post-thumbnail" and element.find("url") is not None:
                 url = element.find("url").text
             elif "url" in element.attrib:
                 url = element.attrib["url"]
-
+                
             if url:
-                # Substitui a versão 100x100 pela versão maior 932x621
+                # Handle URL corrections
                 if "100x100" in url:
                     url = url.replace("100x100", "932x621")
-                # Substitui a versão 932x621 pela versão maior 900x560
                 if "932x621" in url and "jornaldenegocios" in url:
                     url = url.replace("932x621", "900x560")
-
-                # Corrigir URLs duplicados no caso específico do Record
                 if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
                     return url.replace("https://cdn.record.pt/images/", "", 1)
-
-                return url  # Retorna o URL normal se não precisar de correção
-
-    # Se não encontrou imagem nas tags principais, verifica dentro do <content:encoded>
+                return url
+    
+    # If no image found in main tags, try content:encoded and description
     content_encoded = item.find("content:encoded")
-    if content_encoded is not None and content_encoded.text:
-        match = re.search(r'<img\s+[^>]*src="([^"]+)"', content_encoded.text)
-        if match:
-            return match.group(1)
-
-    # Se ainda não encontrou imagem, tenta dentro da <description>
     description = item.find("description")
-    if description is not None and description.text:
-        # Se a fonte for o Pplware, extrai a imagem da descrição
-        link_element = item.find("link")
-        if link_element is not None and link_element.text and "pplware" in link_element.text:
-            match = re.search(r'<img\s+[^>]*src="([^"]+)"', description.text)
+    
+    for content in [content_encoded, description]:
+        if content is not None and content.text:
+            match = re.search(r'<img\s+[^>]*src="([^"]+)"', content.text)
             if match:
                 return match.group(1)
-
-        match = re.search(r'<img\s+src="([^"]+)"', description.text)
-        if match:
-            return match.group(1)
-
-    # Se ainda não encontrou imagem, tenta buscar no link da notícia
+    
+    # If still no image found and we have a link, try to fetch from the article
     if link_element is not None and link_element.text:
-        image_url = get_image_url_from_link(link_element.text)
-        if image_url:
-            return image_url
-
-    return None  # Retorna None se não encontrar uma imagem
+        return await get_image_url_from_link(link_element.text, session)
+    
+    return None
 
 def parse_date(date_str):
     """
@@ -661,5 +655,8 @@ def map_category(feed_category, feed_url, item_link=None):
         
     return "Outras Notícias"
 
+async def main():
+    await get_articles()
+
 if __name__ == "__main__":
-    get_articles()
+    asyncio.run(main())
