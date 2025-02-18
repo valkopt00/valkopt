@@ -440,15 +440,15 @@ def clean_title(title):
     return title.strip()
 
 def clean_description(description):
-    """ Remove HTML, caracteres de escape e limita a 200 caracteres sem cortar palavras. """
+    """ Remove HTML, caracteres de escape e limita a 150 caracteres sem cortar palavras. """
     description = unescape(description)  # Remove caracteres HTML escapados
     description = re.sub(r"<[^>]+>", "", description)  # Remove tags HTML
     description = description.replace('\"', "").replace("\n", " ")  # Remove \"
     description = description.strip()
 
-    # Limita a 230 caracteres, garantindo que não corta palavras
+    # Limita a 150 caracteres, garantindo que não corta palavras
     if len(description) > 150:
-        description = description[:230].rsplit(' ', 1)[0] + "..."
+        description = description[:150].rsplit(' ', 1)[0] + "..."
     
     return description
 
@@ -620,8 +620,6 @@ def parse_date(date_str):
 def get_feed_domain(feed_url):
     """ Extrai a URL completa do feed RSS. """
     return feed_url
-
-from urllib.parse import urlparse
 
 def map_category(feed_category, feed_url, item_link=None):
     # Primeiro, verifica se a tag <category> possui correspondência no CATEGORY_MAPPER
