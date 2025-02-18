@@ -432,7 +432,6 @@ async def is_content_exclusive_from_url(link, session):
 
     return False
 
-
 def clean_title(title):
     """ Corrige títulos dentro de CDATA e remove caracteres desnecessários. """
     if title.startswith("<![CDATA[") and title.endswith("]]>"):
