@@ -203,27 +203,6 @@ DATE_FORMATS = [
     "%Y-%m-%dT%H:%M:%S.%f%z"
 ]
 
-async def process_articles(articles):
-    tasks = []
-    async with aiohttp.ClientSession() as session:
-        for article in articles:
-            # Cria uma tarefa assíncrona para cada artigo
-            task = asyncio.create_task(process_article(article, session))
-            tasks.append(task)
-        await asyncio.gather(*tasks)
-
-async def process_article(article, session):
-    link = article['link']
-    
-    # Verificar se o artigo é exclusivo
-    is_exclusive = await is_content_exclusive_from_url(link, session)
-    article['isExclusive'] = is_exclusive
-    
-    # Atualizar a imagem se necessário
-    if not article['image']:
-        image_url = await get_image_url_from_link(link, session)
-        article['image'] = image_url
-
 def get_articles():
     articles = []
     now = datetime.now(timezone.utc)
@@ -369,6 +348,27 @@ def export_to_json(articles):
 
     with open("articles.json", "w", encoding="utf-8") as f:
         json.dump(categorized_data, f, ensure_ascii=False, indent=4)
+
+async def process_articles(articles):
+    tasks = []
+    async with aiohttp.ClientSession() as session:
+        for article in articles:
+            # Cria uma tarefa assíncrona para cada artigo
+            task = asyncio.create_task(process_article(article, session))
+            tasks.append(task)
+        await asyncio.gather(*tasks)
+
+async def process_article(article, session):
+    link = article['link']
+    
+    # Verificar se o artigo é exclusivo
+    is_exclusive = await is_content_exclusive_from_url(link, session)
+    article['isExclusive'] = is_exclusive
+    
+    # Atualizar a imagem se necessário
+    if not article['image']:
+        image_url = await get_image_url_from_link(link, session)
+        article['image'] = image_url
 
 async def is_content_exclusive_from_url(link, session):
     headers = {
