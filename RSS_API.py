@@ -238,6 +238,9 @@ def get_articles():
                 category = map_category(feed_category, feed_domain, link)
             
                 pub_date = parse_date(pub_date_str)
+
+                # Verificar se o artigo é exclusivo
+                is_exclusive = is_content_exclusive_from_url(link)
             
                 if pub_date:
                     if category == "Últimas" and pub_date >= last_12_hours:
@@ -248,7 +251,8 @@ def get_articles():
                             "source": source,
                             "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
                             "category": category,
-                            "link": link
+                            "link": link,
+                            "isExclusive": is_exclusive
                         })
                     elif category != "Últimas" and pub_date >= last_48_hours:
                         articles.append({
@@ -305,6 +309,9 @@ def get_articles():
                     category = "Últimas"
                 pub_date = parse_date(pub_date_str)
 
+                # Verificar se o artigo é exclusivo
+                is_exclusive = is_content_exclusive_from_url(link)
+
                 if pub_date:
                     article = {
                         "title": title,
@@ -313,7 +320,8 @@ def get_articles():
                         "source": source,
                         "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
                         "category": category,
-                        "link": link
+                        "link": link,
+                        "isExclusive": is_exclusive
                     }
                     
                     if (category == "Últimas" and pub_date >= last_12_hours) or \
@@ -336,6 +344,69 @@ def export_to_json(articles):
 
     with open("articles.json", "w", encoding="utf-8") as f:
         json.dump(categorized_data, f, ensure_ascii=False, indent=4)
+
+def is_content_exclusive_from_url(link):
+    headers = {
+        "User-Agent": "Mozilla/5.0"
+    }
+    try:
+        response = requests.get(link, headers=headers, timeout=5)
+        response.raise_for_status()
+    except requests.RequestException as e:
+        print(f"Erro ao acessar {link}: {e}")
+        return False  # Não é possível determinar, assume como não exclusivo
+
+    soup = BeautifulSoup(response.content, 'html.parser')
+    
+    # Listar fontes e seus indicadores de exclusividade
+    source_checks = [
+        {
+            'domain': 'publico.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'paywall'},
+                {'type': 'text', 'value': 'Exclusivo para assinantes'}
+            ]
+        },
+        {
+            'domain': 'expresso.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'premium-icon'},
+                {'type': 'text', 'value': 'Para continuar a ler, assine o Expresso'}
+            ]
+        },
+        # Adicionar outras fontes conforme necessário
+    ]
+    
+    parsed_url = urlparse(link)
+    domain = parsed_url.netloc.replace('www.', '')
+    
+    for source in source_checks:
+        if source['domain'] in domain:
+            # Verificar indicadores no conteúdo da página
+            for indicator in source['exclusive_indicators']:
+                if indicator['type'] == 'class':
+                    if soup.find(class_=indicator['value']):
+                        return True
+                elif indicator['type'] == 'text':
+                    if indicator['value'].lower() in soup.get_text().lower():
+                        return True
+    # Verificação genérica para páginas que não estejam na lista específica
+    exclusive_phrases = [
+        "conteúdo exclusivo para assinantes",
+        "exclusivo para assinantes",
+        "acesso exclusivo para assinantes",
+        "assinantes",
+        "assine para continuar a ler",
+        "assinatura digital",
+        "log in para ler",
+        "inicie sessão para continuar a ler"
+    ]
+    page_text = soup.get_text(separator=' ', strip=True).lower()
+    if any(phrase in page_text for phrase in exclusive_phrases):
+        return True
+
+    return False
+
 
 def clean_title(title):
     """ Corrige títulos dentro de CDATA e remove caracteres desnecessários. """
