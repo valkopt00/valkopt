@@ -255,7 +255,11 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours, last_4
     try:
         # Set timeout for initial feed fetch
         timeout = ClientTimeout(total=30)
-        headers = {"User-Agent": "Mozilla/5.0"}
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+            "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+        }
         
         async with session.get(feed_url, headers=headers, timeout=timeout) as response:
             if response.status != 200:
@@ -377,7 +381,9 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours, la
 
 async def is_content_exclusive_from_url(link, session):
     headers = {
-        "User-Agent": "Mozilla/5.0"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
     }
     try:
         async with session.get(link, headers=headers, timeout=10) as response:
@@ -535,8 +541,11 @@ async def process_article(article, session):
 async def get_image_url_from_link(news_url, session):
     """Safer version of get_image_url_from_link with proper timeout handling"""
     timeout = ClientTimeout(total=10)  # 10 second timeout
-    headers = {"User-Agent": "Mozilla/5.0"}
-    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+    }    
     try:
         async with session.get(news_url, headers=headers, timeout=timeout) as response:
             if response.status != 200:
