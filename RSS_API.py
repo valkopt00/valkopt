@@ -379,7 +379,7 @@ async def is_content_exclusive_from_url(link, session):
     }
     try:
         print(f"URL final antes de acessar: {link}")
-        async with session.get(link, headers=headers, timeout=5) as response:
+        async with session.get(link, headers=headers, timeout=10) as response:
             content = await response.text()
     except Exception as e:
         print(f"Erro ao acessar {link}: {e}")
