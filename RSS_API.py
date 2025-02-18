@@ -8,6 +8,8 @@ from xml.etree.ElementTree import Element
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 import feedparser
+import asyncio
+import aiohttp
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
@@ -201,6 +203,27 @@ DATE_FORMATS = [
     "%Y-%m-%dT%H:%M:%S.%f%z"
 ]
 
+async def process_articles(articles):
+    tasks = []
+    async with aiohttp.ClientSession() as session:
+        for article in articles:
+            # Cria uma tarefa assíncrona para cada artigo
+            task = asyncio.create_task(process_article(article, session))
+            tasks.append(task)
+        await asyncio.gather(*tasks)
+
+async def process_article(article, session):
+    link = article['link']
+    
+    # Verificar se o artigo é exclusivo
+    is_exclusive = await is_content_exclusive_from_url(link, session)
+    article['isExclusive'] = is_exclusive
+    
+    # Atualizar a imagem se necessário
+    if not article['image']:
+        image_url = await get_image_url_from_link(link, session)
+        article['image'] = image_url
+
 def get_articles():
     articles = []
     now = datetime.now(timezone.utc)
@@ -334,6 +357,7 @@ def get_articles():
     
 
     articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
+    asyncio.run(process_articles(articles))
     export_to_json(articles)
                                 
 def export_to_json(articles):
@@ -346,18 +370,18 @@ def export_to_json(articles):
     with open("articles.json", "w", encoding="utf-8") as f:
         json.dump(categorized_data, f, ensure_ascii=False, indent=4)
 
-def is_content_exclusive_from_url(link):
+async def is_content_exclusive_from_url(link, session):
     headers = {
         "User-Agent": "Mozilla/5.0"
     }
     try:
-        response = requests.get(link, headers=headers, timeout=5)
-        response.raise_for_status()
-    except requests.RequestException as e:
+        async with session.get(link, headers=headers, timeout=5) as response:
+            content = await response.text()
+    except Exception as e:
         print(f"Erro ao acessar {link}: {e}")
         return False  # Não é possível determinar, assume como não exclusivo
 
-    soup = BeautifulSoup(response.content, 'html.parser')
+    soup = BeautifulSoup(content, 'html.parser')
     
     # Listar fontes e seus indicadores de exclusividade
     source_checks = [
@@ -461,17 +485,21 @@ def extract_source_from_url(url):
         print(f"Erro ao extrair fonte da URL {url}: {e}")
         return "Desconhecido"
     
-def get_image_url_from_link(news_url):
+async def get_image_url_from_link(news_url, session):
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0"
     }
-    
-    response = requests.get(news_url, headers=headers)
-    if response.status_code != 200:
-        print(f"Erro ao acessar a página: {response.status_code}")
+    try:
+        async with session.get(news_url, headers=headers, timeout=5) as response:
+            if response.status != 200:
+                print(f"Erro ao acessar a página: {response.status}")
+                return None
+            content = await response.text()
+    except Exception as e:
+        print(f"Erro ao acessar {news_url}: {e}")
         return None
 
-    soup = BeautifulSoup(response.content, 'html.parser')
+    soup = BeautifulSoup(content, 'html.parser')
 
     # Primeiro, tentamos encontrar a imagem principal (wp-post-image)
     image_tag = soup.find('img', class_='wp-post-image')
