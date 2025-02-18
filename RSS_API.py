@@ -12,6 +12,7 @@ import asyncio
 import aiohttp
 from aiohttp import ClientTimeout
 import chardet
+import traceback
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
@@ -370,8 +371,9 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours, la
             return articles
             
     except Exception as e:
-        print(f"Error processing API {api_source['url']}: {e}")
-        return []
+        print(f"Erro ao acessar {link}: {e}")
+        traceback.print_exc()
+        return False
 
 async def is_content_exclusive_from_url(link, session):
     headers = {
