@@ -40,7 +40,7 @@ API_SOURCES = [
     {
         "url": "https://www.publico.pt/api/list/ultimas",
         "headers": {"User-Agent": "Mozilla/5.0"},
-        "source_name": "Público"
+        "source_name": "Publico"
     },
     {
         "url": "https://observador.pt/wp-json/obs_api/v4/news/widget",
