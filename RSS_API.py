@@ -586,37 +586,93 @@ async def get_image_url_from_link(news_url, session):
         print(f"Error fetching image from {news_url}: {str(e)}")
         return None
     
+import re
+from bs4 import BeautifulSoup
+
+def process_url(url: str) -> str:
+    """
+    Aplica correções à URL da imagem:
+    """
+    if "100x100" in url:
+        url = url.replace("100x100", "932x621")
+    if "932x621" in url and "jornaldenegocios" in url:
+        url = url.replace("932x621", "900x560")
+    if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
+        url = url.replace("https://cdn.record.pt/images/", "", 1)
+    return url
+
 async def extract_image_url(entry, session):
-    """Safer version of extract_image_url with better error handling"""
+    """
+    Versão assíncrona da função extract_image_url com tratamento de erros aprimorado.
+    """
+    jornal_economico_logo = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
+
     try:
-        # Check for media content
-        if 'media_content' in entry and entry.media_content:
+        # 1. Verifica se o link indica o Jornal Económico
+        if 'link' in entry and entry.link and "jornaleconomico" in entry.link:
+            return jornal_economico_logo
+
+        # 2. Verifica se há mídia em 'media_content'
+        if hasattr(entry, 'media_content'):
             for media in entry.media_content:
                 if 'url' in media:
-                    return media['url']
-        
-        # Check for enclosures
-        if 'enclosures' in entry and entry.enclosures:
+                    url = process_url(media['url'])
+                    return url
+
+        # 3. Verifica em 'enclosures'
+        if hasattr(entry, 'enclosures'):
             for enclosure in entry.enclosures:
-                if 'url' in enclosure and enclosure.type and enclosure.type.startswith('image/'):
-                    return enclosure['url']
-        
-        # Check description for image
-        if 'description' in entry:
+                if 'url' in enclosure and 'type' in enclosure and enclosure['type'].startswith('image/'):
+                    url = process_url(enclosure['url'])
+                    return url
+
+        # 4. Verifica em tags alternativas (ex.: 'image', 'img', 'post-thumbnail')
+        for tag in ['image', 'img', 'post-thumbnail']:
+            if tag in entry:
+                value = entry.get(tag)
+                if isinstance(value, dict) and 'url' in value:
+                    url = process_url(value['url'])
+                    return url
+                elif isinstance(value, str):
+                    url = process_url(value)
+                    return url
+
+        # 5. Verifica no <content:encoded> (normalmente disponível em entry.content)
+        if hasattr(entry, 'content'):
+            for content in entry.content:
+                if 'value' in content:
+                    match = re.search(r'<img\s+[^>]*src="([^"]+)"', content['value'])
+                    if match:
+                        url = process_url(match.group(1))
+                        return url
+
+        # 6. Verifica na <description>
+        if hasattr(entry, 'description') and entry.description:
+            # Se a fonte for o Pplware, tenta extrair a imagem via regex
+            if 'link' in entry and entry.link and "pplware" in entry.link:
+                match = re.search(r'<img\s+[^>]*src="([^"]+)"', entry.description)
+                if match:
+                    url = process_url(match.group(1))
+                    return url
+            # Se não, usa o BeautifulSoup para extrair a primeira imagem
             soup = BeautifulSoup(entry.description, 'html.parser')
             img = soup.find('img')
             if img and img.get('src'):
-                return img['src']
-        
-        # If no image found and we have a link, try to fetch from article with timeout
-        if 'link' in entry:
-            return await get_image_url_from_link(entry.link, session)
-            
+                url = process_url(img.get('src'))
+                return url
+
+        # 7. Se nenhuma imagem foi encontrada, tenta buscar no link da notícia
+        if 'link' in entry and entry.link:
+            url = await get_image_url_from_link(entry.link, session)
+            if url:
+                url = process_url(url)
+                return url
+
     except Exception as e:
         print(f"Error extracting image URL: {str(e)}")
-        
-    return None
 
+    return None
+    
 def parse_date(date_str):
     """
     Converte a data do RSS para datetime.
@@ -659,7 +715,7 @@ def map_category(feed_category, feed_url, item_link=None):
         path_parts = parsed_url.path.strip("/").split("/")
         if path_parts:  # Se houver pelo menos um segmento na URL
             cm_category = path_parts[0].lower()
-            cm_category = cm_category.capitalize()
+           O Jornal EconómicoO Jornal EconómicoO Jornal Económico cm_category = cm_category.capitalize()
             # Aplica o CATEGORY_MAPPER à categoria extraída
             if cm_category in CATEGORY_MAPPER:
                 return CATEGORY_MAPPER[cm_category]
@@ -677,7 +733,7 @@ def map_category(feed_category, feed_url, item_link=None):
                     rr_category = path_parts[index + 1].lower()
                     rr_category = rr_category.capitalize()
                     if rr_category in CATEGORY_MAPPER:
-                        return CATEGORY_MAPPER[rr_category]
+           O Jornal Económico             return CATEGORY_MAPPER[rr_category]
                     return rr_category  # Retorna a categoria extraída, mesmo que não esteja no CATEGORY_MAPPER
         except (ValueError, IndexError):
             pass
