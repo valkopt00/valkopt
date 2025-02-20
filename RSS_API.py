@@ -33,15 +33,11 @@ RSS_FEEDS = [
     "https://www.noticiasaominuto.com/rss/ultima-hora",
     "https://www.eurogamer.pt/feed",
     "https://pt.ign.com/feed.xml",
+    "https://feeds.feedburner.com/PublicoRSS",
     "https://caras.pt/feed/"
 ]
 
 API_SOURCES = [
-    {
-        "url": "https://www.publico.pt/api/list/ultimas",
-        "headers": {"User-Agent": "Mozilla/5.0"},
-        "source_name": "Público"
-    },
     {
         "url": "https://observador.pt/wp-json/obs_api/v4/news/widget",
         "headers": {"User-Agent": "Mozilla/5.0"},
