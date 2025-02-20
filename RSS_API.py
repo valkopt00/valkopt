@@ -210,16 +210,15 @@ async def get_articles():
     articles = []
     now = datetime.now(timezone.utc)
     last_12_hours = now - timedelta(hours=12)
-    last_48_hours = now - timedelta(days=2)
     titles_seen = set()
 
     async with aiohttp.ClientSession() as session:
         # Create tasks for RSS feeds
-        rss_tasks = [process_rss_feed(session, feed_url, titles_seen, last_12_hours, last_48_hours) 
+        rss_tasks = [process_rss_feed(session, feed_url, titles_seen, last_12_hours) 
                      for feed_url in RSS_FEEDS]
         
         # Create tasks for API sources
-        api_tasks = [process_api_source(session, source, titles_seen, last_12_hours, last_48_hours) 
+        api_tasks = [process_api_source(session, source, titles_seen, last_12_hours) 
                     for source in API_SOURCES]
         
         # Gather all results
