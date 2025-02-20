@@ -251,7 +251,7 @@ def export_to_json(articles):
     with open("articles.json", "w", encoding="utf-8") as f:
         json.dump(categorized_data, f, ensure_ascii=False, indent=4)
 
-async def process_rss_feed(session, feed_url, titles_seen, last_12_hours, last_48_hours):
+async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
         # Set timeout for initial feed fetch
         timeout = ClientTimeout(total=30)
@@ -315,8 +315,9 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours, last_4
                         "isExclusive": False
                     }
                     
-                    if (category == "Últimas" and pub_date >= last_12_hours) or \
-                       (category != "Últimas" and pub_date >= last_48_hours):
+                    if category == "Últimas" and pub_date >= last_12_hours:
+                        articles.append(article)
+                    elif category != "Últimas":
                         articles.append(article)
             
             return articles
@@ -325,7 +326,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours, last_4
         print(f"Error processing {feed_url}: {str(e)}")
         return []
 
-async def process_api_source(session, api_source, titles_seen, last_12_hours, last_48_hours):
+async def process_api_source(session, api_source, titles_seen, last_12_hours):
     try:
         async with session.get(api_source["url"], headers=api_source["headers"]) as response:
             if response.status != 200:
@@ -368,8 +369,9 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours, la
                         "isExclusive": False
                     }
                     
-                    if (category == "Últimas" and pub_date >= last_12_hours) or \
-                       (category != "Últimas" and pub_date >= last_48_hours):
+                    if category == "Últimas" and pub_date >= last_12_hours:
+                        articles.append(article)
+                    elif category != "Últimas":
                         articles.append(article)
                         
             return articles
