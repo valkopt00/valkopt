@@ -294,7 +294,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                 titles_seen.add(title)
                 description = clean_description(entry.get('description', '').strip())
                 pub_date_str = entry.get('published', '')
-                source = extract_source_from_feed(feed)
+                source = extract_source(feed)
                 link = entry.get('link', '').strip()
                 image_url = await extract_image_url(entry, session)
                 feed_category = entry.get('category', '')
@@ -346,7 +346,7 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
                 description = clean_description(item.get("descricao") or item.get("lead", ""))
                 pub_date_str = item.get("data") or item.get("publish_date", "")
                 link = item.get("url", "")
-                source = extract_source_from_url(link)
+                source = extract_source(link)
                 image_url = item.get("multimediaPrincipal") or item.get("image", "")
                 feed_category = item.get("rubrica") or item.get("tag", "Últimas")
                 
@@ -462,20 +462,6 @@ def clean_description(description):
     
     return description
 
-def extract_source_from_feed(feed):
-    """Extract source from feedparser feed object"""
-    if hasattr(feed, 'feed') and hasattr(feed.feed, 'title'):
-        source_name = feed.feed.title
-        if source_name == "News | Euronews RSS":
-            return "Euronews"
-        if source_name == "Notícias zerozero.pt":
-            return "zerozero.pt"
-        if source_name == "Eurogamer.pt Latest Articles Feed":
-            return "Eurogamer"
-        source_name = re.split(r" - | / ", source_name)[0]
-        return source_name
-    return "Desconhecido"
-
 def extract_source(root):
     """ Extrai a fonte e remove sufixos indesejados. """
     channel_title = root.find(".//channel/title")
@@ -491,23 +477,41 @@ def extract_source(root):
         return source_name
     return "Desconhecido"
 
-def extract_source_from_url(url):
+def extract_source(data):
+    """
+    Extrai a fonte a partir de um objeto feed (do feedparser) ou de uma URL (string).
+    
+    Se 'data' for um objeto feed (possuir atributo 'feed' com 'title'), extrai do título.
+    Caso contrário, se for uma string, interpreta como URL e extrai o domínio.
+    """
     try:
-        parsed_url = urlparse(url)
-        domain = parsed_url.netloc
-        domain = re.sub(r'^www\.', '', domain)
-        domain = domain.split('.')[0]
+        # Se for um objeto feed, extrai do título
+        if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
+            source_name = data.feed.title
+            if source_name == "News | Euronews RSS":
+                return "Euronews"
+            if source_name == "Notícias zerozero.pt":
+                return "zerozero.pt"
+            if source_name == "Eurogamer.pt Latest Articles Feed":
+                return "Eurogamer"
+            source_name = re.split(r" - | / ", source_name)[0]
+            return source_name
         
-        source_mapping = {
-            'observador': 'Observador',
-            'publico': 'Público',
-        }
-        
-        return source_mapping.get(domain.lower(), domain.capitalize())
-        
+        # Se for uma string, assume que é uma URL
+        elif isinstance(data, str):
+            parsed_url = urlparse(data)
+            domain = parsed_url.netloc
+            domain = re.sub(r'^www\.', '', domain)
+            domain = domain.split('.')[0]
+            source_mapping = {
+                'observador': 'Observador',
+                'publico': 'Público',
+            }
+            return source_mapping.get(domain.lower(), domain.capitalize())
     except Exception as e:
-        print(f"Erro ao extrair fonte da URL {url}: {e}")
-        return "Desconhecido"
+        print(f"Erro ao extrair fonte: {e}")
+    
+    return "Desconhecido"
 
 async def process_articles(articles):
     """
