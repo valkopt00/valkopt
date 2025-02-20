@@ -400,17 +400,22 @@ async def is_content_exclusive_from_url(link, session):
         {
             'domain': 'publico.pt',
             'exclusive_indicators': [
-                {'type': 'class', 'value': 'paywall'},
-                {'type': 'text', 'value': 'Exclusivo para assinantes'}
+                {'type': 'class', 'value': 'paywall-header'},
             ]
         },
         {
             'domain': 'expresso.pt',
             'exclusive_indicators': [
-                {'type': 'class', 'value': 'premium-icon'},
-                {'type': 'text', 'value': 'Para continuar a ler, assine o Expresso'}
+                {'type': 'class', 'value': 'g-premium-blocker'},
             ]
         },
+        {
+            'domain': 'observador.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'paywall-toptitle'},
+            ]
+        },
+        
         # Adicionar outras fontes conforme necessário
     ]
     
@@ -429,14 +434,8 @@ async def is_content_exclusive_from_url(link, session):
                         return True
     # Verificação genérica para páginas que não estejam na lista específica
     exclusive_phrases = [
-        "conteúdo exclusivo para assinantes",
-        "exclusivo para assinantes",
-        "acesso exclusivo para assinantes",
-        "assinantes",
-        "assine para continuar a ler",
-        "assinatura digital",
-        "log in para ler",
-        "inicie sessão para continuar a ler"
+        #"conteúdo exclusivo para assinantes",
+        #"inicie sessão para continuar a ler"
     ]
     page_text = soup.get_text(separator=' ', strip=True).lower()
     if any(phrase in page_text for phrase in exclusive_phrases):
