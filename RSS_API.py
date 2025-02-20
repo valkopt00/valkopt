@@ -733,7 +733,7 @@ def map_category(feed_category, feed_url, item_link=None):
                     rr_category = path_parts[index + 1].lower()
                     rr_category = rr_category.capitalize()
                     if rr_category in CATEGORY_MAPPER:
-           O Jornal Económico             return CATEGORY_MAPPER[rr_category]
+                        return CATEGORY_MAPPER[rr_category]
                     return rr_category  # Retorna a categoria extraída, mesmo que não esteja no CATEGORY_MAPPER
         except (ValueError, IndexError):
             pass
