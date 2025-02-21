@@ -181,6 +181,7 @@ CATEGORY_MAPPER = {
     "Vídeos": "Multimédia",
     "Tv Media": "Multimédia",
     "Opinião": "Opinião",
+    "Colunistas": "Opinião",
     "Nota editorial": "Opinião",
     "José jorge letria": "Opinião",
     "Lifestyle": "Lifestyle",
