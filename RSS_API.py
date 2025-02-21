@@ -47,7 +47,12 @@ API_SOURCES = [
 
 FEED_CATEGORY_MAPPER = {
     "https://pt.euronews.com/rss?format=mrss&level=theme&name=news": "Últimas",
-    "https://www.publico.pt/api/list/ultimas" : "Últimas",
+    "https://www.publico.pt/api/list/ultimas" : "{
+            'domain': 'jornaldenegocios.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'paywall'},
+            ]
+        },Últimas",
     
     "https://www.record.pt/rss": "Desporto",
     "https://www.autosport.pt/feed": "Desporto",
@@ -128,6 +133,7 @@ CATEGORY_MAPPER = {
     "Futebol Internacional": "Desporto",
     "Futebol-internacional": "Desporto",
     "Liga D'Ouro": "Desporto",
+    "Auto": "Desporto",
     "Economia": "Economia",
     "Negócios": "Economia",
     "Segurança Social": "Economia",
@@ -411,8 +417,36 @@ async def is_content_exclusive_from_url(link, session):
                 {'type': 'class', 'value': 'paywall-toptitle'},
             ]
         },
-        
-        # Adicionar outras fontes conforme necessário
+        {
+            'domain': 'autosport.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'exclusive_alert'},
+            ]
+        },
+        {
+            'domain': 'visao.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'paywall-blocker'},
+            ]
+        },
+        {
+            'domain': 'jornaleconomico.sapo.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'bloco_bloqueio_premium'},
+            ]
+        },
+        {
+            'domain': 'cmjornal.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'widget_je_widget_premium_content'},
+            ]
+        },
+        {
+            'domain': 'jornaldenegocios.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'paywall'},
+            ]
+        },
     ]
     
     parsed_url = urlparse(link)
