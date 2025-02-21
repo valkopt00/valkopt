@@ -33,7 +33,6 @@ RSS_FEEDS = [
     "https://www.noticiasaominuto.com/rss/ultima-hora",
     "https://www.eurogamer.pt/feed",
     "https://pt.ign.com/feed.xml",
-    "https://feeds.feedburner.com/PublicoRSS",
     "https://caras.pt/feed/"
 ]
 
