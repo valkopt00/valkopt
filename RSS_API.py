@@ -47,7 +47,7 @@ API_SOURCES = [
 
 FEED_CATEGORY_MAPPER = {
     "https://pt.euronews.com/rss?format=mrss&level=theme&name=news": "Últimas",
-    "https://www.publico.pt/api/list/ultimas" : "Últimas",
+    "https://www.publico.pt/api/list/ultimas": "Últimas",
     
     "https://www.record.pt/rss": "Desporto",
     "https://www.autosport.pt/feed": "Desporto",
@@ -196,12 +196,14 @@ CATEGORY_MAPPER = {
     "Outras Notícias": "Outras Notícias"
 }
 
+# Atualização na lista de formatos de data para incluir o formato usado no JSON
 DATE_FORMATS = [
     "%Y-%m-%d %H:%M:%S",
     "%a, %d %b %Y %H:%M:%S %z",
     "%a, %d %b %Y %H:%M:%S GMT%z",
     "%Y-%m-%dT%H:%M:%S%z",
-    "%Y-%m-%dT%H:%M:%S.%f%z"
+    "%Y-%m-%dT%H:%M:%S.%f%z",
+    "%d-%m-%Y %H:%M"  # Formato usado ao salvar em JSON
 ]
 
 async def get_articles():
@@ -211,46 +213,74 @@ async def get_articles():
     titles_seen = set()
 
     async with aiohttp.ClientSession() as session:
-        # Create tasks for RSS feeds
+        # Tarefas para feeds RSS
         rss_tasks = [process_rss_feed(session, feed_url, titles_seen, last_12_hours) 
                      for feed_url in RSS_FEEDS]
         
-        # Create tasks for API sources
+        # Tarefas para API sources
         api_tasks = [process_api_source(session, source, titles_seen, last_12_hours) 
-                    for source in API_SOURCES]
+                     for source in API_SOURCES]
         
-        # Gather all results
+        # Agrupa todos os resultados
         all_results = await asyncio.gather(*rss_tasks, *api_tasks, return_exceptions=True)
         
-        # Flatten results and filter out errors
         for result in all_results:
             if isinstance(result, list):
                 articles.extend(result)
             else:
                 print(f"Error processing feed: {result}")
 
-    # Sort articles by date
     articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
-    
-    # Process articles for additional info (images, exclusive status)
     await process_articles(articles)
     
-    # Export to JSON
-    export_to_json(articles)
+    # Em vez de sobrescrever o JSON, atualizamos mesclando os novos artigos
+    update_json(articles)
                                 
-def export_to_json(articles):
-    categorized_data = {"Últimas": articles}
+def update_json(new_articles):
+    """
+    Atualiza o arquivo JSON 'articles.json' mesclando os novos artigos com os já existentes,
+    removendo duplicados e mantendo somente os artigos dos últimos 15 dias em geral,
+    ou dos últimos 12h para a categoria 'Últimas'.
+    """
+    try:
+        with open("articles.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        data = {}
 
-    for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Ciência e Tech", "Lifestyle", 
-                     "Sociedade", "Política", "Multimédia", "Opinião", "Vídeojogos", "Outras Notícias"]:
-        categorized_data[category] = [article for article in articles if article["category"] == category]
+    # Agrupa os novos artigos por categoria
+    new_articles_by_cat = {}
+    for article in new_articles:
+        cat = article["category"]
+        new_articles_by_cat.setdefault(cat, []).append(article)
+
+    now = datetime.now(timezone.utc)
+    limit_12h = now - timedelta(hours=12)
+    limit_15d = now - timedelta(days=15)
+
+    all_categories = set(data.keys()) | set(new_articles_by_cat.keys())
+    updated_data = {}
+    for cat in all_categories:
+        existing_articles = data.get(cat, [])
+        new_list = new_articles_by_cat.get(cat, [])
+        # Mescla evitando duplicados (usando o título como chave)
+        merged = {}
+        for art in existing_articles + new_list:
+            merged[art["title"]] = art
+        merged_list = list(merged.values())
+        # Aplica filtro por data conforme a categoria
+        if cat == "Últimas":
+            merged_list = [a for a in merged_list if parse_date(a["pubDate"]) and parse_date(a["pubDate"]) >= limit_12h]
+        else:
+            merged_list = [a for a in merged_list if parse_date(a["pubDate"]) and parse_date(a["pubDate"]) >= limit_15d]
+        merged_list.sort(key=lambda a: parse_date(a["pubDate"]), reverse=True)
+        updated_data[cat] = merged_list
 
     with open("articles.json", "w", encoding="utf-8") as f:
-        json.dump(categorized_data, f, ensure_ascii=False, indent=4)
+        json.dump(updated_data, f, ensure_ascii=False, indent=4)
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
-        # Set timeout for initial feed fetch
         timeout = ClientTimeout(total=30)
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
@@ -263,23 +293,18 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                 print(f"Error fetching {feed_url}: Status {response.status}")
                 return []
                 
-            # Read raw bytes
             content_bytes = await response.read()
-            
-            # Detect encoding
             detected = chardet.detect(content_bytes)
             encoding = detected['encoding'] if detected['confidence'] > 0.7 else 'utf-8'
             
             try:
                 content = content_bytes.decode(encoding)
             except UnicodeDecodeError:
-                # Fallback to latin1 if UTF-8 fails
                 content = content_bytes.decode('latin1')
             
             if not content.strip():
                 return []
                 
-            # Use feedparser instead of ElementTree for more robust RSS parsing
             feed = feedparser.parse(content)
             feed_domain = get_feed_domain(feed_url)
             articles = []
@@ -331,8 +356,6 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
                 
             data = await response.json()
             articles = []
-            
-            # Handle both list and dict responses
             articles_list = data if isinstance(data, list) else data.get("articles", [])
             
             for item in articles_list:
@@ -389,11 +412,10 @@ async def is_content_exclusive_from_url(link, session):
             content = await response.text()
     except Exception as e:
         print(f"Erro ao acessar {link}: {e}")
-        return False  # Não é possível determinar, assume como não exclusivo
+        return False
 
     soup = BeautifulSoup(content, 'html.parser')
     
-    # Listar fontes e seus indicadores de exclusividade
     source_checks = [
         {
             'domain': 'publico.pt',
@@ -450,7 +472,6 @@ async def is_content_exclusive_from_url(link, session):
     
     for source in source_checks:
         if source['domain'] in domain:
-            # Verificar indicadores no conteúdo da página
             for indicator in source['exclusive_indicators']:
                 if indicator['type'] == 'class':
                     if soup.find(class_=indicator['value']):
@@ -458,11 +479,7 @@ async def is_content_exclusive_from_url(link, session):
                 elif indicator['type'] == 'text':
                     if indicator['value'].lower() in soup.get_text().lower():
                         return True
-    # Verificação genérica para páginas que não estejam na lista específica
-    exclusive_phrases = [
-        #"conteúdo exclusivo para assinantes",
-        #"inicie sessão para continuar a ler"
-    ]
+    exclusive_phrases = []
     page_text = soup.get_text(separator=' ', strip=True).lower()
     if any(phrase in page_text for phrase in exclusive_phrases):
         return True
@@ -470,27 +487,23 @@ async def is_content_exclusive_from_url(link, session):
     return False
 
 def clean_title(title):
-    """ Corrige títulos dentro de CDATA e remove caracteres desnecessários. """
     if title.startswith("<![CDATA[") and title.endswith("]]>"):
-        title = title[9:-3]  # Remove CDATA
+        title = title[9:-3]
     return title.strip()
 
 def clean_description(description):
-    """ Remove HTML, caracteres de escape e limita a 150 caracteres sem cortar palavras. """
-    description = unescape(description)  # Remove caracteres HTML escapados
-    description = re.sub(r"<[^>]+>", "", description)  # Remove tags HTML
-    description = description.replace('\"', "").replace("\n", " ")  # Remove \"
+    description = unescape(description)
+    description = re.sub(r"<[^>]+>", "", description)
+    description = description.replace('\"', "").replace("\n", " ")
     description = re.sub(r'\{(?:[^|}]+\|)*([^|}]+)\}', r'\1', description)
     description = description.strip()
 
-    # Limita a 150 caracteres, garantindo que não corta palavras
     if len(description) > 150:
         description = description[:150].rsplit(' ', 1)[0] + "..."
     
     return description
 
 def extract_source(root):
-    """ Extrai a fonte e remove sufixos indesejados. """
     channel_title = root.find(".//channel/title")
     if channel_title is not None:
         source_name = channel_title.text.strip()
@@ -500,19 +513,12 @@ def extract_source(root):
             return "zerozero.pt"
         if source_name == "Eurogamer.pt Latest Articles Feed":
             return "Eurogamer"
-        source_name = re.split(r" - | / ", source_name)[0]  # Remove tudo após " - " ou " / "
+        source_name = re.split(r" - | / ", source_name)[0]
         return source_name
     return "Desconhecido"
 
 def extract_source(data):
-    """
-    Extrai a fonte a partir de um objeto feed (do feedparser) ou de uma URL (string).
-    
-    Se 'data' for um objeto feed (possuir atributo 'feed' com 'title'), extrai do título.
-    Caso contrário, se for uma string, interpreta como URL e extrai o domínio.
-    """
     try:
-        # Se for um objeto feed, extrai do título
         if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
             source_name = data.feed.title
             if source_name == "News | Euronews RSS":
@@ -524,7 +530,6 @@ def extract_source(data):
             source_name = re.split(r" - | / ", source_name)[0]
             return source_name
         
-        # Se for uma string, assume que é uma URL
         elif isinstance(data, str):
             parsed_url = urlparse(data)
             domain = parsed_url.netloc
@@ -541,10 +546,6 @@ def extract_source(data):
     return "Desconhecido"
 
 async def process_articles(articles):
-    """
-    Processa em paralelo todos os artigos para adicionar informações adicionais
-    como status exclusivo e imagens faltantes.
-    """
     tasks = []
     async with aiohttp.ClientSession() as session:
         for article in articles:
@@ -553,25 +554,17 @@ async def process_articles(articles):
         await asyncio.gather(*tasks)
 
 async def process_article(article, session):
-    """
-    Processa um único artigo para adicionar informações como
-    status exclusivo e imagem (se estiver faltando).
-    """
     link = article['link']
     
-    # Verifica se o artigo é exclusivo
     is_exclusive = await is_content_exclusive_from_url(link, session)
     article['isExclusive'] = is_exclusive
     
-    # Atualiza a imagem se necessário
     if not article['image']:
         image_url = await get_image_url_from_link(link, session)
         article['image'] = image_url
 
-    
 async def get_image_url_from_link(news_url, session):
-    """Safer version of get_image_url_from_link with proper timeout handling"""
-    timeout = ClientTimeout(total=10)  # 10 second timeout
+    timeout = ClientTimeout(total=10)
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
@@ -585,7 +578,6 @@ async def get_image_url_from_link(news_url, session):
             
             soup = BeautifulSoup(content, 'html.parser')
             
-            # Priority list of image selectors
             selectors = [
                 {'type': 'class', 'value': 'wp-post-image'},
                 {'type': 'class', 'value': 'wp-block-cover__image-background'},
@@ -593,7 +585,6 @@ async def get_image_url_from_link(news_url, session):
                 {'type': 'name', 'value': 'twitter:image'}
             ]
             
-            # Try meta tags first
             for selector in selectors:
                 if selector['type'] == 'property':
                     meta = soup.find('meta', property=selector['value'])
@@ -621,9 +612,6 @@ import re
 from bs4 import BeautifulSoup
 
 def process_url(url: str) -> str:
-    """
-    Aplica correções à URL da imagem:
-    """
     if "100x100" in url:
         url = url.replace("100x100", "932x621")
     if "932x621" in url and "jornaldenegocios" in url:
@@ -633,31 +621,24 @@ def process_url(url: str) -> str:
     return url
 
 async def extract_image_url(entry, session):
-    """
-    Versão assíncrona da função extract_image_url com tratamento de erros aprimorado.
-    """
     jornal_economico_logo = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
 
     try:
-        # 1. Verifica se o link indica o Jornal Económico
         if 'link' in entry and entry.link and "jornaleconomico" in entry.link:
             return jornal_economico_logo
 
-        # 2. Verifica se há mídia em 'media_content'
         if hasattr(entry, 'media_content'):
             for media in entry.media_content:
                 if 'url' in media:
                     url = process_url(media['url'])
                     return url
 
-        # 3. Verifica em 'enclosures'
         if hasattr(entry, 'enclosures'):
             for enclosure in entry.enclosures:
                 if 'url' in enclosure and 'type' in enclosure and enclosure['type'].startswith('image/'):
                     url = process_url(enclosure['url'])
                     return url
 
-        # 4. Verifica em tags alternativas (ex.: 'image', 'img', 'post-thumbnail')
         for tag in ['image', 'img', 'post-thumbnail']:
             if tag in entry:
                 value = entry.get(tag)
@@ -668,7 +649,6 @@ async def extract_image_url(entry, session):
                     url = process_url(value)
                     return url
 
-        # 5. Verifica no <content:encoded> (normalmente disponível em entry.content)
         if hasattr(entry, 'content'):
             for content in entry.content:
                 if 'value' in content:
@@ -677,22 +657,18 @@ async def extract_image_url(entry, session):
                         url = process_url(match.group(1))
                         return url
 
-        # 6. Verifica na <description>
         if hasattr(entry, 'description') and entry.description:
-            # Se a fonte for o Pplware, tenta extrair a imagem via regex
             if 'link' in entry and entry.link and "pplware" in entry.link:
                 match = re.search(r'<img\s+[^>]*src="([^"]+)"', entry.description)
                 if match:
                     url = process_url(match.group(1))
                     return url
-            # Se não, usa o BeautifulSoup para extrair a primeira imagem
             soup = BeautifulSoup(entry.description, 'html.parser')
             img = soup.find('img')
             if img and img.get('src'):
                 url = process_url(img.get('src'))
                 return url
 
-        # 7. Se nenhuma imagem foi encontrada, tenta buscar no link da notícia
         if 'link' in entry and entry.link:
             url = await get_image_url_from_link(entry.link, session)
             if url:
@@ -705,10 +681,6 @@ async def extract_image_url(entry, session):
     return None
     
 def parse_date(date_str):
-    """
-    Converte a data do RSS para datetime.
-    Retorna um objeto datetime com timezone UTC
-    """
     if not date_str:
         return None
         
@@ -732,46 +704,39 @@ def parse_date(date_str):
     return None
     
 def get_feed_domain(feed_url):
-    """ Extrai a URL completa do feed RSS. """
     return feed_url
 
 def map_category(feed_category, feed_url, item_link=None):
-    # Primeiro, verifica se a tag <category> possui correspondência no CATEGORY_MAPPER
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
 
-    # Em seguida, verifica a exceção para o CM Jornal: extrai a categoria do link da notícia (item_link)
     if "cmjornal.pt" in feed_url and item_link:
         parsed_url = urlparse(item_link)
         path_parts = parsed_url.path.strip("/").split("/")
-        if path_parts:  # Se houver pelo menos um segmento na URL
+        if path_parts:
             cm_category = path_parts[0].lower()
             cm_category = cm_category.capitalize()
-            # Aplica o CATEGORY_MAPPER à categoria extraída
             if cm_category in CATEGORY_MAPPER:
                 return CATEGORY_MAPPER[cm_category]
             return "Outras Notícias"
             
-    # Verifica a exceção para a RR: extrai a categoria do link da notícia
     if "rr.sapo.pt" in feed_url and item_link and "/noticia/" in item_link:
         try:
             parsed_url = urlparse(item_link)
             path_parts = parsed_url.path.strip("/").split("/")
-            # Encontra o índice de "noticia" e verifica o próximo segmento
             if "noticia" in path_parts:
                 index = path_parts.index("noticia")
-                if index + 1 < len(path_parts):  # Verifica se existe um segmento após "noticia"
+                if index + 1 < len(path_parts):
                     rr_category = path_parts[index + 1].lower()
                     rr_category = rr_category.capitalize()
                     if rr_category in CATEGORY_MAPPER:
                         return CATEGORY_MAPPER[rr_category]
-                    return rr_category  # Retorna a categoria extraída, mesmo que não esteja no CATEGORY_MAPPER
+                    return rr_category
         except (ValueError, IndexError):
             pass
             
-    # Por fim, verifica o mapeamento completo de feeds
     for feed, category in FEED_CATEGORY_MAPPER.items():
-        if feed_url.startswith(feed):  # Verifica se a URL do feed começa com a URL mapeada
+        if feed_url.startswith(feed):
             return category
         
     return "Outras Notícias"
