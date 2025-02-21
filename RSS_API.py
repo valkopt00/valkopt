@@ -239,14 +239,20 @@ async def get_articles():
     export_to_json(articles)
                                 
 def export_to_json(articles):
-    categorized_data = {"Últimas": articles}
-
-    for category in ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Ciência e Tech", "Lifestyle", 
-                     "Sociedade", "Política", "Multimédia", "Opinião", "Vídeojogos", "Outras Notícias"]:
-        categorized_data[category] = [article for article in articles if article["category"] == category]
-
+    """
+    Export articles to JSON, merging with existing content
+    """
+    current_date = datetime.now(timezone.utc)
+    
+    # Load existing articles
+    existing_articles = load_existing_articles()
+    
+    # Merge existing and new articles
+    merged_articles = merge_articles(existing_articles, articles, current_date)
+    
+    # Save to file
     with open("articles.json", "w", encoding="utf-8") as f:
-        json.dump(categorized_data, f, ensure_ascii=False, indent=4)
+        json.dump(merged_articles, f, ensure_ascii=False, indent=4)
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
@@ -377,6 +383,94 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
         print(f"Erro ao acessar {link}: {e}")
         traceback.print_exc()
         return False
+
+def load_existing_articles():
+    """
+    Load existing articles from JSON file if it exists
+    """
+    try:
+        with open("articles.json", "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {"Últimas": [], "Nacional": [], "Mundo": [], "Desporto": [], 
+                "Economia": [], "Cultura": [], "Ciência e Tech": [], "Lifestyle": [],
+                "Sociedade": [], "Política": [], "Multimédia": [], "Opinião": [], 
+                "Vídeojogos": [], "Outras Notícias": []}
+
+def is_article_within_timeframe(article_date_str, category, current_date):
+    """
+    Check if article is within the desired timeframe based on category
+    """
+    article_date = datetime.strptime(article_date_str, "%d-%m-%Y %H:%M")
+    article_date = article_date.replace(tzinfo=timezone.utc)
+    
+    if category == "Últimas":
+        # Keep articles from last 12 hours
+        return current_date - article_date <= timedelta(hours=12)
+    else:
+        # Keep articles from last 15 days
+        return current_date - article_date <= timedelta(days=15)
+
+def merge_articles(existing_articles, new_articles, current_date):
+    """
+    Merge existing and new articles, removing duplicates and old articles
+    """
+    merged = {}
+    seen_titles = set()
+    
+    # Initialize categories
+    for category in existing_articles.keys():
+        merged[category] = []
+        
+    # Process all articles (both existing and new)
+    all_articles = []
+    
+    # Add existing articles
+    for category, articles in existing_articles.items():
+        for article in articles:
+            if isinstance(article, dict):  # Ensure article is valid
+                all_articles.append(article)
+    
+    # Add new articles
+    all_articles.extend(new_articles)
+    
+    # Process each article
+    for article in all_articles:
+        title = article.get("title")
+        category = article.get("category")
+        pub_date = article.get("pubDate")
+        
+        # Skip if missing required fields
+        if not all([title, category, pub_date]):
+            continue
+            
+        # Skip if we've seen this title before
+        if title in seen_titles:
+            continue
+            
+        # Skip if article is too old
+        if not is_article_within_timeframe(pub_date, category, current_date):
+            continue
+            
+        seen_titles.add(title)
+        
+        # Add to appropriate categories
+        if category in merged:
+            merged[category].append(article)
+            
+        # Add to "Últimas" if within last 12 hours
+        if is_article_within_timeframe(pub_date, "Últimas", current_date):
+            if article not in merged["Últimas"]:
+                merged["Últimas"].append(article)
+    
+    # Sort all categories by date
+    for category in merged:
+        merged[category].sort(
+            key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"),
+            reverse=True
+        )
+    
+    return merged
 
 async def is_content_exclusive_from_url(link, session):
     headers = {
