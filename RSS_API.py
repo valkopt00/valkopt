@@ -480,6 +480,7 @@ def clean_description(description):
     description = unescape(description)  # Remove caracteres HTML escapados
     description = re.sub(r"<[^>]+>", "", description)  # Remove tags HTML
     description = description.replace('\"', "").replace("\n", " ")  # Remove \"
+    description = re.sub(r'\{(?:[^|}]+\|)*([^|}]+)\}', r'\1', description)
     description = description.strip()
 
     # Limita a 150 caracteres, garantindo que não corta palavras
