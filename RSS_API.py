@@ -675,7 +675,8 @@ def extract_source(data):
     """
     try:
         # Se for um objeto feed, extrai do título
-        if hasattr(data, 'feed') and hasattr(data.feed, 'title'):            source_name = data.feed.title
+        if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
+            source_name = data.feed.title
             if source_name == "News | Euronews RSS":
                 return "Euronews"
             if source_name == "Notícias zerozero.pt":
@@ -706,7 +707,7 @@ def extract_source(data):
     except Exception as e:
         print(f"Erro ao extrair fonte: {e}")
 
-    return "Desconhecido" 
+    return "Desconhecido"
 
 async def process_articles(articles):
     """
