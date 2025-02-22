@@ -253,49 +253,6 @@ def export_to_json(articles):
     with open("articles.json", "w", encoding="utf-8") as f:
         json.dump(merged_articles, f, ensure_ascii=False, indent=4)
 
-async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
-    try:
-        # Set timeout for initial feed fetch
-        timeout = ClientTimeout(total=30)
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-            "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
-        }
-        
-        async with session.get(feed_url, headers=headers, timeout=timeout) as response:
-            if response.status != 200:
-                print(f"Error fetching {feed_url}: Status {response.status}")
-                return []
-                
-            # Read raw bytes
-            content_bytes = await response.read()
-            
-            # Detect encoding
-            detected = chardet.detect(content_bytes)
-            encoding = detected['encoding'] if detected['confidence'] > 0.7 else 'utf-8'
-            
-            try:
-                content = content_bytes.decode(encoding)
-            except UnicodeDecodeError:
-                # Fallback to latin1 if UTF-8 fails
-                content = content_bytes.decode('latin1')
-            
-            if not content.strip():
-                return []
-                
-            # Use feedparser instead of ElementTree for more robust RSS parsing
-            feed = feedparser.parse(content)
-            feed_domain = get_feed_domain(feed_url)
-            articles = []
-            
-            for entry in feed.entries:
-                title = clean_title(entry.get('title', '').strip())
-                if title in titles_seen:
-                    continue
-                    
-                titles_seen.add(title)
-
 # 1. Primeiro, vamos adicionar uma função de debug para logging
 def debug_feed_extraction(feed_url, feed_content=None, error=None):
     """
