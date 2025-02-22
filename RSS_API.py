@@ -295,37 +295,128 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     continue
                     
                 titles_seen.add(title)
-                description = clean_description(entry.get('description', '').strip())
-                pub_date_str = entry.get('published', '')
-                source = extract_source(feed)
-                link = entry.get('link', '').strip()
-                image_url = await extract_image_url(entry, session)
-                feed_category = entry.get('category', '')
+
+# 1. Primeiro, vamos adicionar uma função de debug para logging
+def debug_feed_extraction(feed_url, feed_content=None, error=None):
+    """
+    Helper function to debug feed extraction issues
+    """
+    print(f"\nDEBUG - Feed URL: {feed_url}")
+    if error:
+        print(f"Error: {error}")
+    if feed_content:
+        print(f"Feed entries count: {len(feed_content.entries) if hasattr(feed_content, 'entries') else 0}")
+        if hasattr(feed_content, 'feed'):
+            print(f"Feed title: {feed_content.feed.get('title', 'No title')}")
+
+# 2. Modificar o process_rss_feed para incluir melhor tratamento de erros
+async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
+    try:
+        timeout = ClientTimeout(total=30)
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
+            "Accept": "application/rss+xml,application/xml;q=0.9,*/*;q=0.8",  # Modified Accept header
+            "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+        }
+        
+        async with session.get(feed_url, headers=headers, timeout=timeout) as response:
+            if response.status != 200:
+                debug_feed_extraction(feed_url, error=f"Status {response.status}")
+                return []
                 
-                category = map_category(feed_category, feed_domain, link)
-                pub_date = parse_date(pub_date_str)
+            content_bytes = await response.read()
+            
+            # Special handling for Público feed
+            if "publico.pt" in feed_url or "PublicoRSS" in feed_url:
+                try:
+                    # Try UTF-8 first
+                    content = content_bytes.decode('utf-8')
+                except UnicodeDecodeError:
+                    try:
+                        # Try Windows-1252 (common for Portuguese sites)
+                        content = content_bytes.decode('cp1252')
+                    except UnicodeDecodeError:
+                        # Fallback to latin1
+                        content = content_bytes.decode('latin1')
+            else:
+                # For other feeds, use chardet
+                detected = chardet.detect(content_bytes)
+                encoding = detected['encoding'] if detected['confidence'] > 0.7 else 'utf-8'
+                try:
+                    content = content_bytes.decode(encoding)
+                except UnicodeDecodeError:
+                    content = content_bytes.decode('latin1')
+            
+            if not content.strip():
+                debug_feed_extraction(feed_url, error="Empty content")
+                return []
                 
-                if pub_date:
-                    article = {
-                        "title": title,
-                        "description": description,
-                        "image": image_url,
-                        "source": source,
-                        "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
-                        "category": category,
-                        "link": link,
-                        "isExclusive": False
-                    }
+            feed = feedparser.parse(content)
+            debug_feed_extraction(feed_url, feed)
+            
+            if not feed.entries:
+                debug_feed_extraction(feed_url, error="No entries found")
+                return []
+            
+            feed_domain = get_feed_domain(feed_url)
+            articles = []
+            
+            for entry in feed.entries:
+                try:
+                    title = clean_title(entry.get('title', '').strip())
+                    if not title or title in titles_seen:
+                        continue
+                        
+                    titles_seen.add(title)
                     
-                    if category == "Últimas" and pub_date >= last_12_hours:
-                        articles.append(article)
-                    elif category != "Últimas":
-                        articles.append(article)
+                    # Special handling for Público description
+                    if "publico.pt" in feed_url or "PublicoRSS" in feed_url:
+                        description = entry.get('summary', '') or entry.get('description', '')
+                    else:
+                        description = entry.get('description', '')
+                    
+                    description = clean_description(description.strip())
+                    pub_date_str = entry.get('published', '') or entry.get('pubDate', '') or entry.get('updated', '')
+                    source = extract_source(feed)
+                    link = entry.get('link', '').strip()
+                    
+                    # Special handling for Público links
+                    if "publico.pt" in feed_url and not link.startswith('http'):
+                        link = f"https://www.publico.pt{link}"
+                    
+                    image_url = await extract_image_url(entry, session)
+                    feed_category = entry.get('category', '')
+                    if isinstance(feed_category, list):
+                        feed_category = feed_category[0] if feed_category else ''
+                    
+                    category = map_category(feed_category, feed_domain, link)
+                    pub_date = parse_date(pub_date_str)
+                    
+                    if pub_date:
+                        article = {
+                            "title": title,
+                            "description": description,
+                            "image": image_url,
+                            "source": source,
+                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
+                            "category": category,
+                            "link": link,
+                            "isExclusive": False
+                        }
+                        
+                        if category == "Últimas" and pub_date >= last_12_hours:
+                            articles.append(article)
+                        elif category != "Últimas":
+                            articles.append(article)
+                
+                except Exception as e:
+                    print(f"Error processing entry from {feed_url}: {str(e)}")
+                    continue
             
             return articles
                         
     except Exception as e:
-        print(f"Error processing {feed_url}: {str(e)}")
+        debug_feed_extraction(feed_url, error=str(e))
         return []
 
 async def process_api_source(session, api_source, titles_seen, last_12_hours):
