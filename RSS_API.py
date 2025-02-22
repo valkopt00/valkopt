@@ -477,8 +477,8 @@ def is_article_within_timeframe(article_date_str, category, current_date):
         # Keep articles from last 12 hours
         return current_date - article_date <= timedelta(hours=12)
     else:
-        # Keep articles from last 15 days
-        return current_date - article_date <= timedelta(days=15)
+        # Keep articles from last 7 days
+        return current_date - article_date <= timedelta(days=7)
 
 def merge_articles(existing_articles, new_articles, current_date):
     """
