@@ -666,6 +666,8 @@ def clean_description(description):
     
     return description
 
+
+
 def extract_source(data):
     """
     Extrai a fonte a partir de um objeto feed (do feedparser) ou de uma URL (string).
@@ -685,28 +687,24 @@ def extract_source(data):
                 return "Eurogamer"
             source_name = re.split(r" - | / ", source_name)[0]
             return source_name
-
+        
         # Se for uma string, assume que é uma URL
         elif isinstance(data, str):
             parsed_url = urlparse(data)
             domain = parsed_url.netloc
             domain = re.sub(r'^www\.', '', domain)
             domain = domain.split('.')[0]
-            
-            # Normaliza o domínio removendo acentos (inline, sem função auxiliar)
-            domain_normalized = ''.join(
-                c for c in unicodedata.normalize('NFD', domain.lower())
-                if unicodedata.category(c) != 'Mn'
-            )
-            
             source_mapping = {
                 'observador': 'Observador',
                 'publico': 'Público',
+                'público': 'Público',
+                'PÚBLICO': 'Público',
+                'PUBLICO': 'Público',
             }
-            return source_mapping.get(domain_normalized, domain_normalized.capitalize())
+            return source_mapping
     except Exception as e:
         print(f"Erro ao extrair fonte: {e}")
-
+    
     return "Desconhecido"
 
 async def process_articles(articles):
