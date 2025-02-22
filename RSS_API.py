@@ -703,7 +703,7 @@ def extract_source(data):
                 'observador': 'Observador',
                 'publico': 'Público',
             }
-            return source_mapping.get(domain_normalized, domain.capitalize())
+            return source_mapping.get(domain_normalized, domain_normalized.capitalize())
     except Exception as e:
         print(f"Erro ao extrair fonte: {e}")
 
