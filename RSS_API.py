@@ -253,6 +253,20 @@ def export_to_json(articles):
     with open("articles.json", "w", encoding="utf-8") as f:
         json.dump(merged_articles, f, ensure_ascii=False, indent=4)
 
+# 1. Primeiro, vamos adicionar uma função de debug para logging
+def debug_feed_extraction(feed_url, feed_content=None, error=None):
+    """
+    Helper function to debug feed extraction issues
+    """
+    print(f"\nDEBUG - Feed URL: {feed_url}")
+    if error:
+        print(f"Error: {error}")
+    if feed_content:
+        print(f"Feed entries count: {len(feed_content.entries) if hasattr(feed_content, 'entries') else 0}")
+        if hasattr(feed_content, 'feed'):
+            print(f"Feed title: {feed_content.feed.get('title', 'No title')}")
+
+# 2. Modificar o process_rss_feed para incluir melhor tratamento de erros
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
         timeout = ClientTimeout(total=30)
@@ -361,6 +375,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
         print(f"Error processing {feed_url}: {str(e)}")
         return []
 
+# Também vamos verificar a função parse_date para garantir que está processando corretamente as datas do Público
 def parse_date(date_str):
     """
     Converte a data do RSS para datetime.
@@ -384,8 +399,7 @@ def parse_date(date_str):
         "%Y-%m-%d %H:%M:%S",
         "%a, %d %b %Y %H:%M:%S %Z",
     ])
-    # Também vamos verificar a função parse_date para garantir que está processando corretamente as datas do Público
-
+    
     for fmt in DATE_FORMATS:
         try:
             dt = datetime.strptime(date_str, fmt)
@@ -477,8 +491,8 @@ def is_article_within_timeframe(article_date_str, category, current_date):
         # Keep articles from last 12 hours
         return current_date - article_date <= timedelta(hours=12)
     else:
-        # Keep articles from last 7 days
-        return current_date - article_date <= timedelta(days=7)
+        # Keep articles from last 15 days
+        return current_date - article_date <= timedelta(days=15)
 
 def merge_articles(existing_articles, new_articles, current_date):
     """
