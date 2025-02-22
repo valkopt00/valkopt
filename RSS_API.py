@@ -666,8 +666,6 @@ def clean_description(description):
     
     return description
 
-
-
 def extract_source(data):
     """
     Extrai a fonte a partir de um objeto feed (do feedparser) ou de uma URL (string).
@@ -677,8 +675,7 @@ def extract_source(data):
     """
     try:
         # Se for um objeto feed, extrai do título
-        if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
-            source_name = data.feed.title
+        if hasattr(data, 'feed') and hasattr(data.feed, 'title'):            source_name = data.feed.title
             if source_name == "News | Euronews RSS":
                 return "Euronews"
             if source_name == "Notícias zerozero.pt":
@@ -687,23 +684,29 @@ def extract_source(data):
                 return "Eurogamer"
             source_name = re.split(r" - | / ", source_name)[0]
             return source_name
-        
+
         # Se for uma string, assume que é uma URL
         elif isinstance(data, str):
             parsed_url = urlparse(data)
             domain = parsed_url.netloc
             domain = re.sub(r'^www\.', '', domain)
             domain = domain.split('.')[0]
+            
+            # Normaliza o domínio removendo acentos (inline, sem função auxiliar)
+            domain_normalized = ''.join(
+                c for c in unicodedata.normalize('NFD', domain.lower())
+                if unicodedata.category(c) != 'Mn'
+            )
+            
             source_mapping = {
                 'observador': 'Observador',
                 'publico': 'Público',
-                'PÚBLICO': 'Público',
             }
-            return source_mapping.get(domain.lower(), domain.capitalize())
+            return source_mapping.get(domain_normalized, domain.capitalize())
     except Exception as e:
         print(f"Erro ao extrair fonte: {e}")
-    
-    return "Desconhecido"
+
+    return "Desconhecido" 
 
 async def process_articles(articles):
     """
