@@ -697,6 +697,7 @@ def extract_source(data):
             source_mapping = {
                 'observador': 'Observador',
                 'publico': 'Público',
+                'PÚBLICO': 'Público',
             }
             return source_mapping.get(domain.lower(), domain.capitalize())
     except Exception as e:
