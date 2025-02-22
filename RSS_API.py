@@ -355,6 +355,87 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                             "description": description,
                             "image": image_url,
                             "source": source,
+async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
+    try:
+        timeout = ClientTimeout(total=30)
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
+            "Accept": "application/rss+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+        }
+        
+        async with session.get(feed_url, headers=headers, timeout=timeout) as response:
+            if response.status != 200:
+                print(f"Error fetching {feed_url}: Status {response.status}")
+                return []
+                
+            content_bytes = await response.read()
+            
+            # Special handling for Público feed
+            if "publico.pt" in feed_url or "PublicoRSS" in feed_url:
+                try:
+                    content = content_bytes.decode('utf-8')
+                except UnicodeDecodeError:
+                    try:
+                        content = content_bytes.decode('cp1252')
+                    except UnicodeDecodeError:
+                        content = content_bytes.decode('latin1')
+                print(f"Processing Público feed from {feed_url}")
+            else:
+                detected = chardet.detect(content_bytes)
+                encoding = detected['encoding'] if detected['confidence'] > 0.7 else 'utf-8'
+                try:
+                    content = content_bytes.decode(encoding)
+                except UnicodeDecodeError:
+                    content = content_bytes.decode('latin1')
+            
+            if not content.strip():
+                return []
+                
+            feed = feedparser.parse(content)
+            if "publico.pt" in feed_url or "PublicoRSS" in feed_url:
+                print(f"Found {len(feed.entries)} entries in Público feed")
+            
+            feed_domain = get_feed_domain(feed_url)
+            articles = []
+            
+            for entry in feed.entries:
+                try:
+                    title = clean_title(entry.get('title', '').strip())
+                    if not title or title in titles_seen:
+                        continue
+                        
+                    titles_seen.add(title)
+                    description = entry.get('summary', '') or entry.get('description', '')
+                    description = clean_description(description.strip())
+                    pub_date_str = entry.get('published', '') or entry.get('pubDate', '') or entry.get('updated', '')
+                    source = extract_source(feed)
+                    link = entry.get('link', '').strip()
+                    
+                    if "publico.pt" in feed_url or "PublicoRSS" in feed_url:
+                        print(f"Processing article: {title}")
+                        print(f"Date string: {pub_date_str}")
+                    
+                    if "publico.pt" in feed_url and not link.startswith('http'):
+                        link = f"https://www.publico.pt{link}"
+                    
+                    image_url = await extract_image_url(entry, session)
+                    feed_category = entry.get('category', '')
+                    if isinstance(feed_category, list):
+                        feed_category = feed_category[0] if feed_category else ''
+                    
+                    category = map_category(feed_category, feed_domain, link)
+                    pub_date = parse_date(pub_date_str)
+                    
+                    if pub_date:
+                        if "publico.pt" in feed_url or "PublicoRSS" in feed_url:
+                            print(f"Parsed date: {pub_date}")
+                        
+                        article = {
+                            "title": title,
+                            "description": description,
+                            "image": image_url,
+                            "source": source,
                             "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
                             "category": category,
                             "link": link,
@@ -363,18 +444,61 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                         
                         if category == "Últimas" and pub_date >= last_12_hours:
                             articles.append(article)
+                            if "publico.pt" in feed_url:
+                                print(f"Added to Últimas: {title}")
                         elif category != "Últimas":
                             articles.append(article)
+                            if "publico.pt" in feed_url:
+                                print(f"Added to {category}: {title}")
                 
                 except Exception as e:
                     print(f"Error processing entry from {feed_url}: {str(e)}")
                     continue
             
+            if "publico.pt" in feed_url or "PublicoRSS" in feed_url:
+                print(f"Total articles processed from Público: {len(articles)}")
             return articles
                         
     except Exception as e:
-        debug_feed_extraction(feed_url, error=str(e))
+        print(f"Error processing {feed_url}: {str(e)}")
         return []
+
+# Também vamos verificar a função parse_date para garantir que está processando corretamente as datas do Público
+def parse_date(date_str):
+    """
+    Converte a data do RSS para datetime.
+    Retorna um objeto datetime com timezone UTC
+    """
+    if not date_str:
+        return None
+        
+    date_str = date_str.strip()
+    date_str = date_str.encode('ascii', 'ignore').decode('ascii')
+    
+    if "GMT+" in date_str:
+        date_str = re.sub(r'GMT\+(\d+)', lambda m: f"+{m.group(1).zfill(2)}00", date_str)
+    elif "GMT-" in date_str:
+        date_str = re.sub(r'GMT-(\d+)', lambda m: f"-{m.group(1).zfill(2)}00", date_str)
+    
+    # Adiciona alguns formatos comuns do Público
+    DATE_FORMATS.extend([
+        "%Y-%m-%dT%H:%M:%S%z",
+        "%Y-%m-%dT%H:%M:%SZ",
+        "%Y-%m-%d %H:%M:%S",
+        "%a, %d %b %Y %H:%M:%S %Z",
+    ])
+    
+    for fmt in DATE_FORMATS:
+        try:
+            dt = datetime.strptime(date_str, fmt)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.astimezone(timezone.utc)
+        except ValueError:
+            continue
+            
+    print(f"Failed to parse date: {date_str}")
+    return None
 
 async def process_api_source(session, api_source, titles_seen, last_12_hours):
     try:
@@ -744,9 +868,6 @@ async def get_image_url_from_link(news_url, session):
     except Exception as e:
         print(f"Error fetching image from {news_url}: {str(e)}")
         return None
-    
-import re
-from bs4 import BeautifulSoup
 
 def process_url(url: str) -> str:
     """
@@ -830,33 +951,6 @@ async def extract_image_url(entry, session):
     except Exception as e:
         print(f"Error extracting image URL: {str(e)}")
 
-    return None
-    
-def parse_date(date_str):
-    """
-    Converte a data do RSS para datetime.
-    Retorna um objeto datetime com timezone UTC
-    """
-    if not date_str:
-        return None
-        
-    date_str = date_str.strip()
-    date_str = date_str.encode('ascii', 'ignore').decode('ascii')
-    
-    if "GMT+" in date_str:
-        date_str = re.sub(r'GMT\+(\d+)', lambda m: f"+{m.group(1).zfill(2)}00", date_str)
-    elif "GMT-" in date_str:
-        date_str = re.sub(r'GMT-(\d+)', lambda m: f"-{m.group(1).zfill(2)}00", date_str)
-    
-    for fmt in DATE_FORMATS:
-        try:
-            dt = datetime.strptime(date_str, fmt)
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=timezone.utc)
-            return dt.astimezone(timezone.utc)
-        except ValueError:
-            continue
-            
     return None
     
 def get_feed_domain(feed_url):
