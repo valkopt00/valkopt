@@ -653,6 +653,12 @@ def clean_description(description):
     return description
 
 def extract_source(data):
+    """
+    Extrai a fonte a partir de um objeto feed (do feedparser) ou de uma URL (string).
+    
+    Se 'data' for um objeto feed (possuir atributo 'feed' com 'title'), extrai do título.
+    Caso contrário, se for uma string, interpreta como URL e extrai o domínio.
+    """
     try:
         # Se for um objeto feed, extrai do título
         if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
@@ -663,18 +669,8 @@ def extract_source(data):
                 return "zerozero.pt"
             if source_name == "Eurogamer.pt Latest Articles Feed":
                 return "Eurogamer"
-            # Extrai a parte principal do título
             source_name = re.split(r" - | / ", source_name)[0]
-            # Aplica normalização similar à utilizada para a URL
-            source_normalized = ''.join(
-                c for c in unicodedata.normalize('NFD', source_name.lower())
-                if unicodedata.category(c) != 'Mn'
-            )
-            source_mapping = {
-                'publico': 'Público',
-            }
-            # Se não houver mapeamento, capitaliza corretamente (apenas a primeira letra em maiúsculo)
-            return source_mapping.get(source_normalized, source_name.capitalize())
+            return source_name
 
         # Se for uma string, assume que é uma URL
         elif isinstance(data, str):
