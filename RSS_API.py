@@ -463,7 +463,7 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
             return articles
             
     except Exception as e:
-        print(f"Erro ao acessar {link}: {e}")
+        print(f"Erro ao acessar {api_source['url']}: {e}")
         traceback.print_exc()
         return False
 
@@ -655,7 +655,7 @@ def clean_title(title):
     title = re.sub(r"<.*?>", "", title)
 
     # Decodifica entidades HTML (&amp;, &quot;, etc.)
-    title = HTMLParser().unescape(title)
+    title = unescape(title)
 
     return title.strip()
 
