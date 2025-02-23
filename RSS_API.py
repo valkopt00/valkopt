@@ -666,15 +666,7 @@ def clean_description(description):
     
     return description
 
-
-
 def extract_source(data):
-    """
-    Extrai a fonte a partir de um objeto feed (do feedparser) ou de uma URL (string).
-    
-    Se 'data' for um objeto feed (possuir atributo 'feed' com 'title'), extrai do título.
-    Caso contrário, se for uma string, interpreta como URL e extrai o domínio.
-    """
     try:
         # Se for um objeto feed, extrai do título
         if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
@@ -685,15 +677,18 @@ def extract_source(data):
                 return "zerozero.pt"
             if source_name == "Eurogamer.pt Latest Articles Feed":
                 return "Eurogamer"
+            
             source_name = re.split(r" - | / ", source_name)[0]
             return source_name
-        
+
         # Se for uma string, assume que é uma URL
         elif isinstance(data, str):
             parsed_url = urlparse(data)
             domain = parsed_url.netloc
-            domain = re.sub(r'^www\.', '', domain)
-            domain = domain.split('.')[0]
+            domain = re.sub(r'^www\.', '', domain)  # Remove "www."
+            domain = domain.split('.')[0]  # Obtém apenas o nome base do domínio
+            
+            # Mapeamento de fontes
             source_mapping = {
                 'observador': 'Observador',
                 'publico': 'Público',
@@ -701,7 +696,10 @@ def extract_source(data):
                 'PÚBLICO': 'Público',
                 'PUBLICO': 'Público',
             }
-            return source_mapping
+            
+            # Retorna a fonte mapeada, se existir, caso contrário, retorna o nome original
+            return source_mapping.get(domain, domain)
+
     except Exception as e:
         print(f"Erro ao extrair fonte: {e}")
     
