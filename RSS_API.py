@@ -647,9 +647,16 @@ async def is_content_exclusive_from_url(link, session):
     return False
 
 def clean_title(title):
-    """ Corrige títulos dentro de CDATA e remove caracteres desnecessários. """
+     # Remove CDATA, se presente
     if title.startswith("<![CDATA[") and title.endswith("]]>"):
-        title = title[9:-3]  # Remove CDATA
+        title = title[9:-3]
+
+    # Remove todas as tags HTML (ex: <em>, <strong>, <br>)
+    title = re.sub(r"<.*?>", "", title)
+
+    # Decodifica entidades HTML (&amp;, &quot;, etc.)
+    title = HTMLParser().unescape(title)
+
     return title.strip()
 
 def clean_description(description):
