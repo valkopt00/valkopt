@@ -873,6 +873,10 @@ def get_feed_domain(feed_url):
     return feed_url
 
 def map_category(feed_category, feed_url, item_link=None):
+    # Converting the feed_url to a string if it's a dictionary
+    if isinstance(feed_url, dict):
+        feed_url = feed_url.get("url", "")
+        
     # Primeiro, verifica se a tag <category> possui correspondência no CATEGORY_MAPPER
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
