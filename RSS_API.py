@@ -229,8 +229,39 @@ def export_to_json(articles):
     current_date = datetime.now(timezone.utc)
     existing_articles = load_existing_articles()
     merged_articles = merge_articles(existing_articles, articles, current_date)
+    
+    # Exporta para arquivo local
     with open("articles.json", "w", encoding="utf-8") as f:
         json.dump(merged_articles, f, ensure_ascii=False, indent=4)
+    
+    # Converte os dados mesclados para uma string JSON
+    json_data = json.dumps(merged_articles, ensure_ascii=False)
+    
+    # Envia o JSON para o Aiven Valkey
+    send_to_aiven_valkey(json_data)
+    
+    return merged_articles
+
+ef send_to_aiven_valkey(json_data):
+    # Obtenha as credenciais do ambiente ou defina diretamente (não recomendado para produção)
+    valkey_host = os.environ.get("VALKEY_HOST", "seu-host-aiven")
+    valkey_port = int(os.environ.get("VALKEY_PORT", "12345"))
+    valkey_password = os.environ.get("VALKEY_PASSWORD", "sua-senha")
+    
+    try:
+        # Conecta ao Valkey (habilite SSL se necessário)
+        client = redis.StrictRedis(
+            host=valkey-d19e568-valkopt-001.g.aivencloud.com,
+            port=25487,
+            password=AVNS_LgPDTWdGq7-CxWGHWtI,
+            ssl=False  # Ajuste para False se o SSL não for necessário
+        )
+        
+        # Define uma chave para armazenar os artigos, por exemplo "articles"
+        client.set("articles", json_data)
+        print("JSON enviado para o Aiven Valkey com sucesso!")
+    except Exception as e:
+        print(f"Erro ao enviar JSON para o Aiven Valkey: {e}")
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
