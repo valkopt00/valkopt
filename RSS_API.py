@@ -13,6 +13,8 @@ import aiohttp
 from aiohttp import ClientTimeout
 import chardet
 import traceback
+import os
+import redis
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
@@ -251,9 +253,9 @@ ef send_to_aiven_valkey(json_data):
     try:
         # Conecta ao Valkey (habilite SSL se necessário)
         client = redis.StrictRedis(
-            host=valkey-d19e568-valkopt-001.g.aivencloud.com,
-            port=25487,
-            password=AVNS_LgPDTWdGq7-CxWGHWtI,
+           host=valkey_host,
+            port=valkey_port,
+            password=valkey_password,
             ssl=False  # Ajuste para False se o SSL não for necessário
         )
         
