@@ -10,4 +10,4 @@ chardet
 brotli
 redis
 valkey
-"valkey[hiredis]"
+valkey[hiredis]
