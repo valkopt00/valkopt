@@ -244,7 +244,7 @@ def export_to_json(articles):
     
     return merged_articles
 
-ef send_to_aiven_valkey(json_data):
+def send_to_aiven_valkey(json_data):
     # Obtenha as credenciais do ambiente ou defina diretamente (não recomendado para produção)
     valkey_host = os.environ.get("VALKEY_HOST", "seu-host-aiven")
     valkey_port = int(os.environ.get("VALKEY_PORT", "12345"))
