@@ -233,50 +233,8 @@ def export_to_json(articles):
     current_date = datetime.now(timezone.utc)
     existing_articles = load_existing_articles()
     merged_articles = merge_articles(existing_articles, articles, current_date)
-    
-    # Exporta para arquivo local
     with open("articles.json", "w", encoding="utf-8") as f:
         json.dump(merged_articles, f, ensure_ascii=False, indent=4)
-    
-    # Converte os dados mesclados para uma string JSON
-    json_data = json.dumps(merged_articles, ensure_ascii=False)
-    
-    # Envia o JSON para o Aiven Valkey
-    send_to_aiven_valkey(json_data)
-    
-    return merged_articles
-
-# Configurar logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-
-def send_to_aiven_valkey(json_data):
-    """Envia os dados JSON para o Aiven Valkey e regista logs para monitorizar a conexão."""
-
-    # Obter credenciais do ambiente
-    valkey_uri = os.getenv("VALKEY_URI")
-
-    if not valkey_uri:
-        logging.error("Erro: A variável VALKEY_URI não está definida!")
-        return
-
-    try:
-        logging.info("Tentando conectar ao Aiven Valkey...")
-        
-        # Criar cliente Valkey
-        valkey_client = valkey.from_url(valkey_uri)
-
-        # Testar a conexão com ping
-        if valkey_client.ping():
-            logging.info("✅ Ligação bem-sucedida ao Aiven Valkey!")
-
-        # Converter JSON para string e guardar no Valkey
-        json_str = json.dumps(json_data, ensure_ascii=False)
-        valkey_client.set('articles', json_str)
-
-        logging.info("📤 JSON enviado com sucesso para o Aiven Valkey!")
-
-    except Exception as e:
-        logging.error(f"❌ Erro ao conectar/enviar JSON para o Aiven Valkey: {e}")
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
