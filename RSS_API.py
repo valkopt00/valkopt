@@ -16,6 +16,7 @@ import traceback
 import os
 import redis
 import valkey
+import logging
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
@@ -245,29 +246,37 @@ def export_to_json(articles):
     
     return merged_articles
 
+# Configurar logging
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+
 def send_to_aiven_valkey(json_data):
-    """Envia os dados JSON para o Aiven Valkey."""
-    
-    # Obter credenciais a partir das variáveis de ambiente
+    """Envia os dados JSON para o Aiven Valkey e regista logs para monitorizar a conexão."""
+
+    # Obter credenciais do ambiente
     valkey_uri = os.getenv("VALKEY_URI")
 
     if not valkey_uri:
-        raise ValueError("Erro: A variável VALKEY_URI não está definida!")
+        logging.error("Erro: A variável VALKEY_URI não está definida!")
+        return
 
     try:
-        # Conectar ao Valkey
+        logging.info("Tentando conectar ao Aiven Valkey...")
+        
+        # Criar cliente Valkey
         valkey_client = valkey.from_url(valkey_uri)
 
-        # Converter JSON para string
-        json_str = json.dumps(json_data, ensure_ascii=False)
+        # Testar a conexão com ping
+        if valkey_client.ping():
+            logging.info("✅ Ligação bem-sucedida ao Aiven Valkey!")
 
-        # Enviar JSON para o Valkey (chave 'articles')
+        # Converter JSON para string e guardar no Valkey
+        json_str = json.dumps(json_data, ensure_ascii=False)
         valkey_client.set('articles', json_str)
 
-        print("JSON enviado com sucesso para o Aiven Valkey!")
+        logging.info("📤 JSON enviado com sucesso para o Aiven Valkey!")
 
     except Exception as e:
-        print(f"Erro ao enviar JSON para o Aiven Valkey: {e}")
+        logging.error(f"❌ Erro ao conectar/enviar JSON para o Aiven Valkey: {e}")
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
