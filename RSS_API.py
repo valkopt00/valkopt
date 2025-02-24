@@ -15,6 +15,7 @@ import chardet
 import traceback
 import os
 import redis
+import valkey
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
