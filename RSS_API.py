@@ -246,23 +246,26 @@ def export_to_json(articles):
     return merged_articles
 
 def send_to_aiven_valkey(json_data):
-    # Obtenha as credenciais do ambiente ou defina diretamente (não recomendado para produção)
-    valkey_host = os.environ.get("VALKEY_HOST", "seu-host-aiven")
-    valkey_port = int(os.environ.get("VALKEY_PORT", "12345"))
-    valkey_password = os.environ.get("VALKEY_PASSWORD", "sua-senha")
+    """Envia os dados JSON para o Aiven Valkey."""
     
+    # Obter credenciais a partir das variáveis de ambiente
+    valkey_uri = os.getenv("VALKEY_URI")
+
+    if not valkey_uri:
+        raise ValueError("Erro: A variável VALKEY_URI não está definida!")
+
     try:
-        # Conecta ao Valkey (habilite SSL se necessário)
-        client = redis.StrictRedis(
-           host=valkey_host,
-            port=valkey_port,
-            password=valkey_password,
-            ssl=False  # Ajuste para False se o SSL não for necessário
-        )
-        
-        # Define uma chave para armazenar os artigos, por exemplo "articles"
-        client.set("articles", json_data)
-        print("JSON enviado para o Aiven Valkey com sucesso!")
+        # Conectar ao Valkey
+        valkey_client = valkey.from_url(valkey_uri)
+
+        # Converter JSON para string
+        json_str = json.dumps(json_data, ensure_ascii=False)
+
+        # Enviar JSON para o Valkey (chave 'articles')
+        valkey_client.set('articles', json_str)
+
+        print("JSON enviado com sucesso para o Aiven Valkey!")
+
     except Exception as e:
         print(f"Erro ao enviar JSON para o Aiven Valkey: {e}")
 
