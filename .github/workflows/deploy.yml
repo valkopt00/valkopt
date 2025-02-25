@@ -30,7 +30,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
           # Adicionar ambos os arquivos JSON
-          git add articles.json articles_with_unique_categories.json
+          git add articles.json unique_categories.json
           
           # Verificar se houve alterações e realizar o commit
           git diff --cached --quiet || git commit -m "Atualização automática do JSON"
