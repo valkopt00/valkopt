@@ -241,30 +241,40 @@ def export_to_json(articles):
     # Exportar para o segundo ficheiro JSON sem categorias repetidas
     export_original_categories_to_json(articles)
 
-
 def export_original_categories_to_json(articles):
     categories_seen = set()
-    print("Iniciando exportação de categorias originais...")  # Debugging print
-
+    print("Iniciando exportação de categorias originais...")
+    
+    # Coletar todas as categorias originais (antes do mapeamento)
     for article in articles:
-        # Procurar pela categoria original antes do mapeamento
-        # Verificar se há um campo 'original_category' no artigo (que você precisará adicionar)
-        # Se não houver, use a categoria atual como um fallback
-        original_category = article.get("feed_category", "")
-        if not original_category:
-            continue
-            
-        if original_category and original_category not in categories_seen:
-            categories_seen.add(original_category)
-            print(f"Categoria adicionada: {original_category}")  # Debugging print
+        # Extrair a categoria atual (após o mapeamento)
+        mapped_category = article.get("category", "")
+        
+        # Encontrar a categoria original invertendo o mapeamento
+        for original_cat, mapped_cat in CATEGORY_MAPPER.items():
+            if mapped_cat == mapped_category:
+                if original_cat and original_cat not in categories_seen:
+                    categories_seen.add(original_cat)
+                    print(f"Categoria adicionada: {original_cat}")
+    
+    # Adicionar as categorias do FEED_CATEGORY_MAPPER também
+    for feed_url, category in FEED_CATEGORY_MAPPER.items():
+        for article in articles:
+            article_link = article.get("link", "")
+            if article_link and any(domain in article_link for domain in feed_url.split(".")):
+                original_cats = [cat for cat, mapped in CATEGORY_MAPPER.items() if mapped == category]
+                for cat in original_cats:
+                    if cat and cat not in categories_seen:
+                        categories_seen.add(cat)
+                        print(f"Categoria adicionada (feed): {cat}")
 
     # Criar lista formatada para JSON
-    unique_categories = [{"category": cat} for cat in sorted(categories_seen)]  # Ordenação opcional
-
+    unique_categories = [{"category": cat} for cat in sorted(categories_seen)]
+    
     # Guardar no ficheiro JSON
     with open("original_categories.json", "w", encoding="utf-8") as f:
         json.dump(unique_categories, f, ensure_ascii=False, indent=4)
-    print(f"Exportação concluída. Total de {len(categories_seen)} categorias únicas exportadas.")  # Debugging print
+    print(f"Exportação concluída. Total de {len(categories_seen)} categorias únicas exportadas.")
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
@@ -336,7 +346,6 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                             "source": source,
                             "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
                             "category": category,
-                             "feed_category": feed_category,
                             "link": link,
                             "isExclusive": False
                         }
@@ -422,7 +431,6 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
                         "source": source,
                         "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
                         "category": category,
-                         "feed_category": feed_category,
                         "link": link,
                         "isExclusive": False
                     }
