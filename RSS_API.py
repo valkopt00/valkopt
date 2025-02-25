@@ -248,21 +248,19 @@ def export_original_categories_to_json(articles):
     
     # Usar um conjunto para garantir que não haja duplicação de categorias
     categories_seen = set()
-    unique_articles = []
-    
+    unique_categories = []
+
     for article in articles:
         original_category = article.get("category", "")
         
-        if original_category not in categories_seen:
+        if original_category and original_category not in categories_seen:
             # Adicionar a categoria original se ainda não tiver sido vista
             categories_seen.add(original_category)
-            article_with_original_category = article.copy()
-            article_with_original_category["originalCategory"] = original_category
-            unique_articles.append(article_with_original_category)
+            unique_categories.append({"category": original_category})
     
-    merged_articles = merge_articles(existing_articles, unique_articles, current_date)
+    merged_articles = merge_articles(existing_articles, unique_categories, current_date)
     
-    # Exportar para o segundo ficheiro JSON sem categorias repetidas
+    # Exportar apenas as categorias únicas para o ficheiro JSON
     with open("articles_with_unique_categories.json", "w", encoding="utf-8") as f:
         json.dump(merged_articles, f, ensure_ascii=False, indent=4)
 
