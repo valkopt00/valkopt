@@ -614,7 +614,10 @@ def clean_description(description):
 def extract_source(data):
     try:
         if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
-            source_name = data.feed.title
+            source_name = data.feed.title.strip()
+            # Se for "Notícias ao Minuto - Categoria", extrai apenas "Notícias ao Minuto"
+            if "Notícias ao Minuto" in source_name and "-" in source_name:
+                source_name = source_name.split(" - ")[0]
             # Normaliza o nome da fonte se for "PÚBLICO"
             if source_name.upper() == "PÚBLICO":
                 return "Público"
