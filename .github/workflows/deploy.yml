@@ -9,10 +9,6 @@ jobs:
   update-json:
     runs-on: ubuntu-latest
 
-    env:
-        VALKEY_HOST: ${{ secrets.VALKEY_HOST }}
-        VALKEY_PORT: ${{ secrets.VALKEY_PORT }}
-        VALKEY_PASSWORD: ${{ secrets.VALKEY_PASSWORD }}
     steps:
       - name: Clonar repositório
         uses: actions/checkout@v4
