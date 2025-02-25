@@ -615,37 +615,45 @@ def extract_source(data):
     try:
         if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
             source_name = data.feed.title.strip()
+
             # Se for "Notícias ao Minuto - Categoria", extrai apenas "Notícias ao Minuto"
             if "Notícias ao Minuto" in source_name and "-" in source_name:
                 source_name = source_name.split(" - ")[0]
-            # Normaliza o nome da fonte se for "PÚBLICO"
-            if source_name.upper() == "PÚBLICO":
-                return "Público"
-            if source_name == "News | Euronews RSS":
-                return "Euronews"
-            if source_name == "Notícias zerozero.pt":
-                return "zerozero.pt"
-            if source_name == "Eurogamer.pt Latest Articles Feed":
-                return "Eurogamer"
-            
-            # Opcional: normaliza capitalização para outros casos
-            return source_name.title()
+
+            # Se for "RTP Notícias / Geral / Últimas", extrai apenas "RTP Notícias"
+            if "RTP Notícias" in source_name and "/" in source_name:
+                source_name = source_name.split(" / ")[0]
+
+            # Mapeamento direto de fontes específicas
+            source_mapping = {
+                "PÚBLICO": "Público",
+                "PUBLICO": "Público",
+                "público": "Público",
+                "News | Euronews RSS": "Euronews",
+                "Notícias zerozero.pt": "zerozero.pt",
+                "Eurogamer.pt Latest Articles Feed": "Eurogamer",
+                "Rtp Noticias": "RTP Notícias",  # Correção direta para RTP Notícias
+            }
+
+            return source_mapping.get(source_name, source_name.title())
 
         elif isinstance(data, str):
             parsed_url = urlparse(data)
             domain = parsed_url.netloc
             domain = re.sub(r'^www\.', '', domain)
             domain = domain.split('.')[0]
-            
+
             source_mapping = {
                 'observador': 'Observador',
                 'publico': 'Público',
                 'público': 'Público',
                 'PÚBLICO': 'Público',
                 'PUBLICO': 'Público',
+                'rtp': 'RTP Notícias',  # Correção para RTP Notícias baseada no domínio
             }
-            
+
             return source_mapping.get(domain, domain)
+
     except Exception as e:
         print(f"Erro ao extrair fonte: {e}")
     
