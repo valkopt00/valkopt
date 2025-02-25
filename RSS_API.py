@@ -247,9 +247,13 @@ def export_original_categories_to_json(articles):
     print("Iniciando exportação de categorias originais...")  # Debugging print
 
     for article in articles:
-        original_category = article.get("original_category", "")  # Garantir que é a categoria antes do mapeamento
-        print(f"Processando artigo com categoria original: {original_category}")  # Debugging print
-        
+        # Procurar pela categoria original antes do mapeamento
+        # Verificar se há um campo 'original_category' no artigo (que você precisará adicionar)
+        # Se não houver, use a categoria atual como um fallback
+        original_category = article.get("feed_category", "")
+        if not original_category:
+            continue
+            
         if original_category and original_category not in categories_seen:
             categories_seen.add(original_category)
             print(f"Categoria adicionada: {original_category}")  # Debugging print
@@ -260,7 +264,7 @@ def export_original_categories_to_json(articles):
     # Guardar no ficheiro JSON
     with open("original_categories.json", "w", encoding="utf-8") as f:
         json.dump(unique_categories, f, ensure_ascii=False, indent=4)
-    print("Exportação concluída.")  # Debugging print
+    print(f"Exportação concluída. Total de {len(categories_seen)} categorias únicas exportadas.")  # Debugging print
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
@@ -332,6 +336,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                             "source": source,
                             "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
                             "category": category,
+                             "feed_category": feed_category,
                             "link": link,
                             "isExclusive": False
                         }
@@ -417,6 +422,7 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
                         "source": source,
                         "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
                         "category": category,
+                         "feed_category": feed_category,
                         "link": link,
                         "isExclusive": False
                     }
