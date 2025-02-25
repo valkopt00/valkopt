@@ -244,12 +244,15 @@ def export_to_json(articles):
 
 def export_original_categories_to_json(articles):
     categories_seen = set()
+    print("Iniciando exportação de categorias originais...")  # Debugging print
 
     for article in articles:
         original_category = article.get("original_category", "")  # Garantir que é a categoria antes do mapeamento
+        print(f"Processando artigo com categoria original: {original_category}")  # Debugging print
         
         if original_category and original_category not in categories_seen:
             categories_seen.add(original_category)
+            print(f"Categoria adicionada: {original_category}")  # Debugging print
 
     # Criar lista formatada para JSON
     unique_categories = [{"category": cat} for cat in sorted(categories_seen)]  # Ordenação opcional
@@ -257,6 +260,7 @@ def export_original_categories_to_json(articles):
     # Guardar no ficheiro JSON
     with open("original_categories.json", "w", encoding="utf-8") as f:
         json.dump(unique_categories, f, ensure_ascii=False, indent=4)
+    print("Exportação concluída.")  # Debugging print
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
