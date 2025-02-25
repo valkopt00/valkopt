@@ -243,26 +243,20 @@ def export_to_json(articles):
 
 
 def export_original_categories_to_json(articles):
-    current_date = datetime.now(timezone.utc)
-    existing_articles = load_existing_articles()
-    
-    # Usar um conjunto para garantir que não haja duplicação de categorias
     categories_seen = set()
-    unique_categories = []
 
     for article in articles:
-        original_category = article.get("category", "")
+        original_category = article.get("original_category", "")  # Garantir que é a categoria antes do mapeamento
         
         if original_category and original_category not in categories_seen:
-            # Adicionar a categoria original se ainda não tiver sido vista
             categories_seen.add(original_category)
-            unique_categories.append({"category": original_category})
-    
-    merged_articles = merge_articles(existing_articles, unique_categories, current_date)
-    
-    # Exportar apenas as categorias únicas para o ficheiro JSON
-    with open("unique_categories.json", "w", encoding="utf-8") as f:
-        json.dump(merged_articles, f, ensure_ascii=False, indent=4)
+
+    # Criar lista formatada para JSON
+    unique_categories = [{"category": cat} for cat in sorted(categories_seen)]  # Ordenação opcional
+
+    # Guardar no ficheiro JSON
+    with open("original_categories.json", "w", encoding="utf-8") as f:
+        json.dump(unique_categories, f, ensure_ascii=False, indent=4)
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
