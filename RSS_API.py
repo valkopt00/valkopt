@@ -13,10 +13,6 @@ import aiohttp
 from aiohttp import ClientTimeout
 import chardet
 import traceback
-import os
-import redis
-import valkey
-import logging
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
@@ -236,9 +232,6 @@ def export_to_json(articles):
     with open("articles.json", "w", encoding="utf-8") as f:
         json.dump(merged_articles, f, ensure_ascii=False, indent=4)
 
-    # Exportar para o segundo ficheiro JSON sem categorias repetidas
-    export_original_categories_to_json(articles)
-
 def export_original_categories_to_json(articles):
     categories_seen = set()
     print("Iniciando exportação de categorias originais...")
@@ -253,7 +246,6 @@ def export_original_categories_to_json(articles):
             if mapped_cat == mapped_category:
                 if original_cat and original_cat not in categories_seen:
                     categories_seen.add(original_cat)
-                    print(f"Categoria adicionada: {original_cat}")
     
     # Adicionar as categorias do FEED_CATEGORY_MAPPER também
     for feed_url, category in FEED_CATEGORY_MAPPER.items():
@@ -264,7 +256,6 @@ def export_original_categories_to_json(articles):
                 for cat in original_cats:
                     if cat and cat not in categories_seen:
                         categories_seen.add(cat)
-                        print(f"Categoria adicionada (feed): {cat}")
 
     # Criar lista formatada para JSON
     unique_categories = [{"category": cat} for cat in sorted(categories_seen)]
@@ -273,6 +264,7 @@ def export_original_categories_to_json(articles):
     with open("original_categories.json", "w", encoding="utf-8") as f:
         json.dump(unique_categories, f, ensure_ascii=False, indent=4)
     print(f"Exportação concluída. Total de {len(categories_seen)} categorias únicas exportadas.")
+
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
@@ -614,46 +606,35 @@ def clean_description(description):
 def extract_source(data):
     try:
         if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
-            source_name = data.feed.title.strip()
-
-            # Se for "Notícias ao Minuto - Categoria", extrai apenas "Notícias ao Minuto"
-            if "Notícias ao Minuto" in source_name and "-" in source_name:
-                source_name = source_name.split(" - ")[0]
-
-            # Se for "RTP Notícias / Geral / Últimas", extrai apenas "RTP Notícias"
-            if "RTP Notícias" in source_name and "/" in source_name:
-                source_name = source_name.split(" / ")[0]
-
-            # Mapeamento direto de fontes específicas
-            source_mapping = {
-                "PÚBLICO": "Público",
-                "PUBLICO": "Público",
-                "público": "Público",
-                "News | Euronews RSS": "Euronews",
-                "Notícias zerozero.pt": "zerozero.pt",
-                "Eurogamer.pt Latest Articles Feed": "Eurogamer",
-                "Rtp Noticias": "RTP Notícias",  # Correção direta para RTP Notícias
-            }
-
-            return source_mapping.get(source_name, source_name.title())
+            source_name = data.feed.title
+            # Normaliza o nome da fonte se for "PÚBLICO"
+            if source_name.upper() == "PÚBLICO":
+                return "Público"
+            if source_name == "News | Euronews RSS":
+                return "Euronews"
+            if source_name == "Notícias zerozero.pt":
+                return "zerozero.pt"
+            if source_name == "Eurogamer.pt Latest Articles Feed":
+                return "Eurogamer"
+            
+            # Opcional: normaliza capitalização para outros casos
+            return source_name.title()
 
         elif isinstance(data, str):
             parsed_url = urlparse(data)
             domain = parsed_url.netloc
             domain = re.sub(r'^www\.', '', domain)
             domain = domain.split('.')[0]
-
+            
             source_mapping = {
                 'observador': 'Observador',
                 'publico': 'Público',
                 'público': 'Público',
                 'PÚBLICO': 'Público',
                 'PUBLICO': 'Público',
-                'rtp': 'RTP Notícias',  # Correção para RTP Notícias baseada no domínio
             }
-
+            
             return source_mapping.get(domain, domain)
-
     except Exception as e:
         print(f"Erro ao extrair fonte: {e}")
     
