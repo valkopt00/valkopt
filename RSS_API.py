@@ -261,7 +261,7 @@ def export_original_categories_to_json(articles):
     merged_articles = merge_articles(existing_articles, unique_categories, current_date)
     
     # Exportar apenas as categorias únicas para o ficheiro JSON
-    with open("articles_with_unique_categories.json", "w", encoding="utf-8") as f:
+    with open("unique_categories.json", "w", encoding="utf-8") as f:
         json.dump(merged_articles, f, ensure_ascii=False, indent=4)
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
