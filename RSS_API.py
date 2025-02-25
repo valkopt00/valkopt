@@ -585,8 +585,14 @@ def extract_source(data):
             
             # Opcional: normaliza capitalização para outros casos
             return source_name.title()
-
         elif isinstance(data, str):
+            # Verificar URLs específicos
+            if data.startswith("https://www.noticiasaominuto.com"):
+                return "Notícias ao Minuto"
+            elif data.startswith("https://www.rtp.pt/"):
+                return "RTP Notícias"
+            
+            # Processamento padrão para outros URLs
             parsed_url = urlparse(data)
             domain = parsed_url.netloc
             domain = re.sub(r'^www\.', '', domain)
