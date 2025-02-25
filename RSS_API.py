@@ -467,6 +467,39 @@ def merge_articles(existing_articles, new_articles, current_date):
     
     return merged
 
+def export_original_categories_to_json(articles):
+    categories_seen = set()
+    print("Iniciando exportação de categorias originais...")
+    
+    # Coletar todas as categorias originais (antes do mapeamento)
+    for article in articles:
+        # Extrair a categoria atual (após o mapeamento)
+        mapped_category = article.get("category", "")
+        
+        # Encontrar a categoria original invertendo o mapeamento
+        for original_cat, mapped_cat in CATEGORY_MAPPER.items():
+            if mapped_cat == mapped_category:
+                if original_cat and original_cat not in categories_seen:
+                    categories_seen.add(original_cat)
+    
+    # Adicionar as categorias do FEED_CATEGORY_MAPPER também
+    for feed_url, category in FEED_CATEGORY_MAPPER.items():
+        for article in articles:
+            article_link = article.get("link", "")
+            if article_link and any(domain in article_link for domain in feed_url.split(".")):
+                original_cats = [cat for cat, mapped in CATEGORY_MAPPER.items() if mapped == category]
+                for cat in original_cats:
+                    if cat and cat not in categories_seen:
+                        categories_seen.add(cat)
+
+    # Criar lista formatada para JSON
+    unique_categories = [{"category": cat} for cat in sorted(categories_seen)]
+    
+    # Guardar no ficheiro JSON
+    with open("original_categories.json", "w", encoding="utf-8") as f:
+        json.dump(unique_categories, f, ensure_ascii=False, indent=4)
+    print(f"Exportação concluída. Total de {len(categories_seen)} categorias únicas exportadas.")
+
 async def is_content_exclusive_from_url(link, session):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
