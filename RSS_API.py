@@ -573,7 +573,12 @@ def extract_source(data):
     try:
         if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
             source_name = data.feed.title
-            # Normaliza o nome da fonte se for "PÚBLICO"
+            if "rtp" in source_name.lower():
+                return "RTP Notícias"
+            if "notícias ao minuto" in source_name.lower():
+                return "Notícias ao Minuto"
+            if "renascença" in source_name.lower():
+                return "Renascença"
             if source_name.upper() == "PÚBLICO":
                 return "Público"
             if source_name == "News | Euronews RSS":
