@@ -33,6 +33,7 @@ RSS_FEEDS = [
     "https://www.noticiasaominuto.com/rss/ultima-hora",
     "https://www.eurogamer.pt/feed",
     "https://pt.ign.com/feed.xml",
+    "https://lusometeo.com/feed/",
     "https://caras.pt/feed/"
 ]
 
@@ -87,6 +88,7 @@ FEED_CATEGORY_MAPPER = {
     "https://www.noticiasaominuto.com/rss/fama": "Sociedade",
     "https://www.noticiasaominuto.com/rss/lifestyle": "Sociedade",
     "https://rr.sapo.pt/rss/rssfeed.aspx?fid=89": "Sociedade",
+    "https://lusometeo.com/feed/": "Sociedade",
     "https://pt.euronews.com/rss?format=mrss&level=vertical&name=green": "Sociedade",
     "https://pt.euronews.com/travel": "Sociedade",
 
