@@ -470,7 +470,17 @@ def merge_articles(existing_articles, new_articles, current_date):
     return merged
 
 def export_original_categories_to_json(articles):
+    # Tentar carregar categorias existentes, se o ficheiro existir
     categories_seen = set()
+    try:
+        with open("original_categories.json", "r", encoding="utf-8") as f:
+            existing_categories = json.load(f)
+            for cat_obj in existing_categories:
+                categories_seen.add(cat_obj.get("category", ""))
+        print(f"Carregadas {len(categories_seen)} categorias existentes.")
+    except FileNotFoundError:
+        print("Ficheiro de categorias não encontrado. Será criado um novo.")
+    
     print("Iniciando exportação de categorias originais...")
     
     # Coletar todas as categorias originais (antes do mapeamento)
@@ -486,14 +496,28 @@ def export_original_categories_to_json(articles):
     
     # Adicionar as categorias do FEED_CATEGORY_MAPPER também
     for feed_url, category in FEED_CATEGORY_MAPPER.items():
+        # Verificar melhor o domínio - extrair o domínio base do feed_url
+        import urllib.parse
+        feed_domain = urllib.parse.urlparse(feed_url).netloc
+        if not feed_domain and "." in feed_url:  # Se não for um URL completo
+            feed_domain = feed_url
+            
         for article in articles:
             article_link = article.get("link", "")
-            if article_link and any(domain in article_link for domain in feed_url.split(".")):
+            article_domain = urllib.parse.urlparse(article_link).netloc
+            
+            # Verifica se o domínio do artigo corresponde ao domínio do feed
+            if article_link and feed_domain in article_domain:
+                # Adicionar diretamente a categoria do feed se não existir
+                if category and category not in categories_seen:
+                    categories_seen.add(category)
+                
+                # Também procurar categorias originais mapeadas para essa categoria
                 original_cats = [cat for cat, mapped in CATEGORY_MAPPER.items() if mapped == category]
                 for cat in original_cats:
                     if cat and cat not in categories_seen:
                         categories_seen.add(cat)
-
+    
     # Criar lista formatada para JSON
     unique_categories = [{"category": cat} for cat in sorted(categories_seen)]
     
