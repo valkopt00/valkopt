@@ -470,61 +470,75 @@ def merge_articles(existing_articles, new_articles, current_date):
     return merged
 
 def export_original_categories_to_json(articles):
-    # Tentar carregar categorias existentes, se o ficheiro existir
-    categories_seen = set()
+    import json
+    import traceback
+    
     try:
-        with open("original_categories.json", "r", encoding="utf-8") as f:
-            existing_categories = json.load(f)
-            for cat_obj in existing_categories:
-                categories_seen.add(cat_obj.get("category", ""))
-        print(f"Carregadas {len(categories_seen)} categorias existentes.")
-    except FileNotFoundError:
-        print("Ficheiro de categorias não encontrado. Será criado um novo.")
-    
-    print("Iniciando exportação de categorias originais...")
-    
-    # Coletar todas as categorias originais (antes do mapeamento)
-    for article in articles:
-        # Extrair a categoria atual (após o mapeamento)
-        mapped_category = article.get("category", "")
+        print("Iniciando exportação de categorias originais...")
         
-        # Encontrar a categoria original invertendo o mapeamento
-        for original_cat, mapped_cat in CATEGORY_MAPPER.items():
-            if mapped_cat == mapped_category:
-                if original_cat and original_cat not in categories_seen:
-                    categories_seen.add(original_cat)
-    
-    # Adicionar as categorias do FEED_CATEGORY_MAPPER também
-    for feed_url, category in FEED_CATEGORY_MAPPER.items():
-        # Verificar melhor o domínio - extrair o domínio base do feed_url
-        import urllib.parse
-        feed_domain = urllib.parse.urlparse(feed_url).netloc
-        if not feed_domain and "." in feed_url:  # Se não for um URL completo
-            feed_domain = feed_url
+        # Verificação de dados de entrada
+        if not articles:
+            print("AVISO: Lista de artigos vazia!")
+        
+        print(f"Número de artigos recebidos: {len(articles)}")
+        print(f"CATEGORY_MAPPER contém {len(CATEGORY_MAPPER)} mapeamentos")
+        print(f"FEED_CATEGORY_MAPPER contém {len(FEED_CATEGORY_MAPPER)} mapeamentos")
+        
+        categories_seen = set()
+        
+        # Parte 1: Coletar categorias com base no mapeamento
+        for i, article in enumerate(articles):
+            try:
+                mapped_category = article.get("category", "")
+                if not mapped_category:
+                    continue
+                    
+                for original_cat, mapped_cat in CATEGORY_MAPPER.items():
+                    if mapped_cat == mapped_category:
+                        if original_cat and original_cat not in categories_seen:
+                            categories_seen.add(original_cat)
+                            print(f"Adicionada categoria: {original_cat}")
+            except Exception as e:
+                print(f"Erro ao processar artigo {i}: {str(e)}")
+        
+        # Parte 2: Coletar categorias do FEED_CATEGORY_MAPPER
+        for feed_url, category in FEED_CATEGORY_MAPPER.items():
+            print(f"Processando feed: {feed_url} -> {category}")
+            found_match = False
             
-        for article in articles:
-            article_link = article.get("link", "")
-            article_domain = urllib.parse.urlparse(article_link).netloc
+            for article in articles:
+                article_link = article.get("link", "")
+                if not article_link:
+                    continue
+                    
+                # Simplificando a verificação de domínio
+                if feed_url.lower() in article_link.lower():
+                    found_match = True
+                    if category and category not in categories_seen:
+                        categories_seen.add(category)
+                        print(f"Adicionada categoria do feed: {category}")
             
-            # Verifica se o domínio do artigo corresponde ao domínio do feed
-            if article_link and feed_domain in article_domain:
-                # Adicionar diretamente a categoria do feed se não existir
-                if category and category not in categories_seen:
-                    categories_seen.add(category)
-                
-                # Também procurar categorias originais mapeadas para essa categoria
-                original_cats = [cat for cat, mapped in CATEGORY_MAPPER.items() if mapped == category]
-                for cat in original_cats:
-                    if cat and cat not in categories_seen:
-                        categories_seen.add(cat)
-    
-    # Criar lista formatada para JSON
-    unique_categories = [{"category": cat} for cat in sorted(categories_seen)]
-    
-    # Guardar no ficheiro JSON
-    with open("original_categories.json", "w", encoding="utf-8") as f:
-        json.dump(unique_categories, f, ensure_ascii=False, indent=4)
-    print(f"Exportação concluída. Total de {len(categories_seen)} categorias únicas exportadas.")
+            if not found_match:
+                print(f"Nenhum artigo correspondente encontrado para o feed: {feed_url}")
+        
+        # Criar e guardar JSON
+        unique_categories = [{"category": cat} for cat in sorted(categories_seen)]
+        print(f"Total de categorias encontradas: {len(categories_seen)}")
+        
+        try:
+            with open("original_categories.json", "w", encoding="utf-8") as f:
+                json.dump(unique_categories, f, ensure_ascii=False, indent=4)
+            print("Ficheiro salvo com sucesso.")
+        except Exception as e:
+            print(f"Erro ao guardar ficheiro: {str(e)}")
+            
+        print("Exportação concluída.")
+        return True
+        
+    except Exception as e:
+        print(f"ERRO CRÍTICO na exportação de categorias: {str(e)}")
+        traceback.print_exc()
+        return False
 
 async def is_content_exclusive_from_url(link, session):
     headers = {
