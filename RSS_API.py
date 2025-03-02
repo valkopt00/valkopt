@@ -560,6 +560,7 @@ async def is_content_exclusive_from_url(link, session):
             'domain': 'publico.pt',
             'exclusive_indicators': [
                 {'type': 'class', 'value': 'kicker kicker--exclusive'},
+                {'type': 'class', 'value': 'paywall-header'},
             ]
         },
         {
