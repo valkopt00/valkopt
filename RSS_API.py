@@ -13,6 +13,7 @@ import aiohttp
 from aiohttp import ClientTimeout
 import chardet
 import traceback
+import os
 
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
@@ -519,24 +520,107 @@ def export_original_categories_to_json(articles):
                         print(f"Adicionada categoria do feed: {category}")
             
             if not found_match:
-                print(f"Nenhum artigo correspondente encontrado para o feed: {feed_url}")
+def export_original_categories_to_json(articles):
+    try:
+        print("Starting export of original categories...")
         
-        # Criar e guardar JSON
+        # Load existing categories if the file exists
+        existing_categories = set()
+        if os.path.exists("original_categories.json"):
+            try:
+                with open("original_categories.json", "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    for cat_obj in data:
+                        if isinstance(cat_obj, dict) and "category" in cat_obj:
+                            existing_categories.add(cat_obj["category"])
+                print(f"Loaded {len(existing_categories)} existing categories")
+            except Exception as e:
+                print(f"Error loading existing categories: {str(e)}")
+        
+        # Initialize set with existing categories
+        categories_seen = existing_categories.copy()
+        new_categories_added = 0
+        
+        # PART 1: Collect original categories directly from articles
+        for i, article in enumerate(articles):
+            try:
+                # Check the actual category in the article
+                article_category = article.get("category", "")
+                if article_category and article_category not in categories_seen:
+                    categories_seen.add(article_category)
+                    new_categories_added += 1
+                    print(f"Added category from article: {article_category}")
+                
+                # Check for source-specific categories that might be embedded in the link
+                article_link = article.get("link", "")
+                if not article_link:
+                    continue
+                    
+                # Extract potential categories from URL path segments
+                parsed_url = urlparse(article_link)
+                path_parts = parsed_url.path.strip("/").split("/")
+                
+                for part in path_parts:
+                    part = part.capitalize()
+                    # Skip common URL parts that aren't categories
+                    if part.lower() in ["www", "noticia", "noticias", "article", "articles", "news"]:
+                        continue
+                    if len(part) > 2 and part not in categories_seen:
+                        # Additional check to filter out IDs, dates, etc.
+                        if not part.isdigit() and not re.match(r'^\d{4}-\d{2}-\d{2}$', part):
+                            categories_seen.add(part)
+                            new_categories_added += 1
+                            print(f"Added category from URL: {part}")
+            except Exception as e:
+                print(f"Error processing article {i}: {str(e)}")
+        
+        # PART 2: Check for unmapped original categories in CATEGORY_MAPPER
+        for original_cat, mapped_cat in CATEGORY_MAPPER.items():
+            if original_cat and original_cat not in categories_seen:
+                categories_seen.add(original_cat)
+                new_categories_added += 1
+                print(f"Added unmapped category: {original_cat}")
+        
+        # PART 3: Process feeds with better domain matching
+        for feed_url, category in FEED_CATEGORY_MAPPER.items():
+            feed_domain = urlparse(feed_url).netloc
+            if not feed_domain:
+                continue
+                
+            feed_domain = re.sub(r'^www\.', '', feed_domain)
+            
+            for article in articles:
+                article_link = article.get("link", "")
+                if not article_link:
+                    continue
+                
+                article_domain = urlparse(article_link).netloc
+                article_domain = re.sub(r'^www\.', '', article_domain)
+                
+                # Check if domains match
+                if feed_domain == article_domain:
+                    if category and category not in categories_seen:
+                        categories_seen.add(category)
+                        new_categories_added += 1
+                        print(f"Added category from feed domain match: {category}")
+        
+        # Create and save JSON
         unique_categories = [{"category": cat} for cat in sorted(categories_seen)]
-        print(f"Total de categorias encontradas: {len(categories_seen)}")
+        print(f"Total categories found: {len(categories_seen)}")
+        print(f"New categories added: {new_categories_added}")
         
         try:
             with open("original_categories.json", "w", encoding="utf-8") as f:
                 json.dump(unique_categories, f, ensure_ascii=False, indent=4)
-            print("Ficheiro salvo com sucesso.")
+            print("File saved successfully.")
         except Exception as e:
-            print(f"Erro ao guardar ficheiro: {str(e)}")
+            print(f"Error saving file: {str(e)}")
             
-        print("Exportação concluída.")
+        print("Export completed.")
         return True
         
     except Exception as e:
-        print(f"ERRO CRÍTICO na exportação de categorias: {str(e)}")
+        print(f"CRITICAL ERROR in category export: {str(e)}")
         traceback.print_exc()
         return False
 
