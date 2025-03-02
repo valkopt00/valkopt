@@ -471,56 +471,6 @@ def merge_articles(existing_articles, new_articles, current_date):
     return merged
 
 def export_original_categories_to_json(articles):
-    import json
-    import traceback
-    
-    try:
-        print("Iniciando exportação de categorias originais...")
-        
-        # Verificação de dados de entrada
-        if not articles:
-            print("AVISO: Lista de artigos vazia!")
-        
-        print(f"Número de artigos recebidos: {len(articles)}")
-        print(f"CATEGORY_MAPPER contém {len(CATEGORY_MAPPER)} mapeamentos")
-        print(f"FEED_CATEGORY_MAPPER contém {len(FEED_CATEGORY_MAPPER)} mapeamentos")
-        
-        categories_seen = set()
-        
-        # Parte 1: Coletar categorias com base no mapeamento
-        for i, article in enumerate(articles):
-            try:
-                mapped_category = article.get("category", "")
-                if not mapped_category:
-                    continue
-                    
-                for original_cat, mapped_cat in CATEGORY_MAPPER.items():
-                    if mapped_cat == mapped_category:
-                        if original_cat and original_cat not in categories_seen:
-                            categories_seen.add(original_cat)
-                            print(f"Adicionada categoria: {original_cat}")
-            except Exception as e:
-                print(f"Erro ao processar artigo {i}: {str(e)}")
-        
-        # Parte 2: Coletar categorias do FEED_CATEGORY_MAPPER
-        for feed_url, category in FEED_CATEGORY_MAPPER.items():
-            print(f"Processando feed: {feed_url} -> {category}")
-            found_match = False
-            
-            for article in articles:
-                article_link = article.get("link", "")
-                if not article_link:
-                    continue
-                    
-                # Simplificando a verificação de domínio
-                if feed_url.lower() in article_link.lower():
-                    found_match = True
-                    if category and category not in categories_seen:
-                        categories_seen.add(category)
-                        print(f"Adicionada categoria do feed: {category}")
-            
-            if not found_match:
-def export_original_categories_to_json(articles):
     try:
         print("Starting export of original categories...")
         
