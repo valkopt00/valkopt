@@ -479,11 +479,11 @@ def export_original_categories_to_json(articles):
     if not articles:
         print("No articles provided to export_original_categories_to_json")
         return False
-        
+
     try:
         print(f"Starting export of original categories with {len(articles)} articles...")
-        
-        # Load existing categories if the file exists
+
+        # Carrega categorias existentes, se o arquivo existir
         existing_categories = set()
         if os.path.exists("original_categories.json"):
             try:
@@ -495,54 +495,43 @@ def export_original_categories_to_json(articles):
                 print(f"Loaded {len(existing_categories)} existing categories")
             except Exception as e:
                 print(f"Error loading existing categories: {str(e)}")
-                # Continue with empty set if file can't be loaded
-        
-        # Initialize set with existing categories
+                # Continua com um set vazio se houver erro
+
         categories_seen = existing_categories.copy()
         new_categories_added = 0
-        
-        # Collect original categories from different sources
+
         print("Collecting categories from articles...")
         for i, article in enumerate(articles):
             try:
-                # Extract category from the article
-                article_category = article.get("category", "")
-                if article_category and article_category not in categories_seen:
-                    categories_seen.add(article_category)
-                    new_categories_added += 1
-                    print(f"Added category from article: {article_category}")
-                
-                # Extract categories from article link
-                article_link = article.get("link", "")
-                if article_link:
-                    parsed_url = urlparse(article_link)
-                    path_parts = parsed_url.path.strip("/").split("/")
-                    
-                    for part in path_parts:
-                        part = part.capitalize()
-                        if part.lower() not in ["www", "noticia", "noticias", "article", "articles", "news"] and len(part) > 2 and not part.isdigit() and not re.match(r'^\d{4}-\d{2}-\d{2}$', part):
-                            if part not in categories_seen:
-                                categories_seen.add(part)
-                                new_categories_added += 1
-                                print(f"Added category from URL: {part}")
+                # Prioriza o campo "category" do artigo
+                article_category = article.get("category", "").strip()
+                if article_category:
+                    if article_category not in categories_seen:
+                        categories_seen.add(article_category)
+                        new_categories_added += 1
+                        print(f"Added category from article: {article_category}")
+                else:
+                    # Se não houver categoria, extrai o primeiro segmento da URL
+                    article_link = article.get("link", "").strip()
+                    if article_link:
+                        parsed_url = urlparse(article_link)
+                        path_parts = parsed_url.path.strip("/").split("/")
+                        if path_parts and len(path_parts[0]) > 2:
+                            first_segment = path_parts[0].capitalize()
+                            # Ignora segmentos comuns que não representem categoria
+                            if first_segment.lower() not in ["www", "noticia", "noticias", "article", "articles", "news"]:
+                                if first_segment not in categories_seen:
+                                    categories_seen.add(first_segment)
+                                    new_categories_added += 1
+                                    print(f"Added category from URL: {first_segment}")
             except Exception as e:
                 print(f"Error processing article {i}: {str(e)}")
                 continue
-        
-        # Collect unmapped categories from mappers
-        print("Collecting categories from mappers...")
-        for original_cat in CATEGORY_MAPPER.keys():
-            if original_cat and original_cat not in categories_seen:
-                categories_seen.add(original_cat)
-                new_categories_added += 1
-                print(f"Added unmapped category: {original_cat}")
-        
-        # Create and save JSON
+
         unique_categories = [{"category": cat} for cat in sorted(categories_seen)]
         print(f"Total categories found: {len(categories_seen)}")
         print(f"New categories added: {new_categories_added}")
-        
-        # Write to file with explicit error handling
+
         try:
             print("Writing to file original_categories.json...")
             with open("original_categories.json", "w", encoding="utf-8") as f:
@@ -553,7 +542,7 @@ def export_original_categories_to_json(articles):
             print(f"Error saving categories file: {str(e)}")
             traceback.print_exc()
             return False
-            
+
     except Exception as e:
         print(f"CRITICAL ERROR in category export: {str(e)}")
         traceback.print_exc()
