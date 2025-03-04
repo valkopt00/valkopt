@@ -512,10 +512,12 @@ def export_original_categories_to_json(articles):
                 # Utiliza exclusivamente o campo "original_category", se existir
                 orig_cat = article.get("original_category", "").strip()
                 if orig_cat:
-                    if orig_cat not in categories_seen:
+                    # Se a categoria já estiver no mapeamento, ignora-a
+                    if orig_cat in CATEGORY_MAPPER:
+                        print(f"Category '{orig_cat}' is in mapping, skipping...")
+                    elif orig_cat not in categories_seen:
                         categories_seen.add(orig_cat)
                         new_categories_added += 1
-                        print(f"Added original category from article: {orig_cat}")
                 else:
                     # Se não houver campo original_category, extrai o primeiro segmento da URL
                     article_link = article.get("link", "").strip()
@@ -526,7 +528,9 @@ def export_original_categories_to_json(articles):
                             first_segment = path_parts[0].capitalize()
                             # Ignora segmentos comuns que não representem categoria
                             if first_segment.lower() not in ["www", "noticia", "noticias", "article", "articles", "news"]:
-                                if first_segment not in categories_seen:
+                                if first_segment in CATEGORY_MAPPER:
+                                    print(f"Category '{first_segment}' is in mapping, skipping...")
+                                elif first_segment not in categories_seen:
                                     categories_seen.add(first_segment)
                                     new_categories_added += 1
                                     print(f"Added original category from URL: {first_segment}")
