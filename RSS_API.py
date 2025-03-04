@@ -564,7 +564,6 @@ async def is_content_exclusive_from_url(link, session):
         async with session.get(link, headers=headers, timeout=10) as response:
             content = await response.text()
     except Exception as e:
-        print(f"Erro ao acessar {link}: {e}")
         return False
 
     soup = BeautifulSoup(content, 'html.parser')
