@@ -504,10 +504,11 @@ def export_original_categories_to_json(articles):
         for i, article in enumerate(articles):
             try:
                 # Ignora artigos provenientes do feed da Eurogamer
-                if article.get("source_feed") == "https://www.eurogamer.pt":
+                source_feed = article.get("source_feed", "")
+                if "https://www.eurogamer.pt" in source_feed:
                     print(f"Skipping article {i} from Eurogamer feed")
                     continue
-                if article.get("source_feed") == "https://pt.ign.com":
+                if "https://pt.ign.com" in source_feed:
                     print(f"Skipping article {i} from IGN feed")
                     continue
 
