@@ -405,7 +405,6 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
                         articles.append(article)
             return articles
     except Exception as e:
-        print(f"Erro ao acessar {api_source['url']}: {e}")
         traceback.print_exc()
         return False
 
@@ -506,10 +505,8 @@ def export_original_categories_to_json(articles):
                 # Ignora artigos provenientes do feed da Eurogamer
                 article_link = article.get("link", "").strip()
                 if "eurogamer.pt" in article_link:
-                    print(f"Skipping article {i} from Eurogamer feed")
                     continue
                 if "ign.com" in article_link:
-                    print(f"Skipping article {i} from IGN feed")
                     continue
 
                 # Utiliza exclusivamente o campo "original_category", se existir
