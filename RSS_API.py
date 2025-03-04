@@ -754,10 +754,8 @@ async def get_image_url_from_link(news_url, session):
                         return img.get('data-src') or img.get('src')
             return None
     except asyncio.TimeoutError:
-        print(f"Timeout while fetching image from {news_url}")
         return None
     except Exception as e:
-        print(f"Error fetching image from {news_url}: {str(e)}")
         return None
 
 def process_url(url: str) -> str:
