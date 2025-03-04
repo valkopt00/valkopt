@@ -500,18 +500,18 @@ def export_original_categories_to_json(articles):
         categories_seen = existing_categories.copy()
         new_categories_added = 0
 
-        print("Collecting categories from articles...")
+        print("Collecting original categories from articles...")
         for i, article in enumerate(articles):
             try:
-                # Prioriza o campo "category" do artigo
-                article_category = article.get("category", "").strip()
-                if article_category:
-                    if article_category not in categories_seen:
-                        categories_seen.add(article_category)
+                # Utiliza exclusivamente o campo "original_category", se existir
+                orig_cat = article.get("original_category", "").strip()
+                if orig_cat:
+                    if orig_cat not in categories_seen:
+                        categories_seen.add(orig_cat)
                         new_categories_added += 1
-                        print(f"Added category from article: {article_category}")
+                        print(f"Added original category from article: {orig_cat}")
                 else:
-                    # Se não houver categoria, extrai o primeiro segmento da URL
+                    # Se não houver campo original_category, extrai o primeiro segmento da URL
                     article_link = article.get("link", "").strip()
                     if article_link:
                         parsed_url = urlparse(article_link)
@@ -523,28 +523,28 @@ def export_original_categories_to_json(articles):
                                 if first_segment not in categories_seen:
                                     categories_seen.add(first_segment)
                                     new_categories_added += 1
-                                    print(f"Added category from URL: {first_segment}")
+                                    print(f"Added original category from URL: {first_segment}")
             except Exception as e:
                 print(f"Error processing article {i}: {str(e)}")
                 continue
 
         unique_categories = [{"category": cat} for cat in sorted(categories_seen)]
-        print(f"Total categories found: {len(categories_seen)}")
-        print(f"New categories added: {new_categories_added}")
+        print(f"Total original categories found: {len(categories_seen)}")
+        print(f"New original categories added: {new_categories_added}")
 
         try:
             print("Writing to file original_categories.json...")
             with open("original_categories.json", "w", encoding="utf-8") as f:
                 json.dump(unique_categories, f, ensure_ascii=False, indent=4)
-            print("Categories file saved successfully.")
+            print("Original categories file saved successfully.")
             return True
         except Exception as e:
-            print(f"Error saving categories file: {str(e)}")
+            print(f"Error saving original categories file: {str(e)}")
             traceback.print_exc()
             return False
 
     except Exception as e:
-        print(f"CRITICAL ERROR in category export: {str(e)}")
+        print(f"CRITICAL ERROR in original category export: {str(e)}")
         traceback.print_exc()
         return False
 
