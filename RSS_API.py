@@ -475,9 +475,6 @@ def merge_articles(existing_articles, new_articles, current_date):
     
     return merged
 
-                else:
-                   return False
-
 def export_original_categories_to_json(articles):
     if not articles:
         print("No articles provided to export_original_categories_to_json")
