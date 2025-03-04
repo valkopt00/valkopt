@@ -475,6 +475,9 @@ def merge_articles(existing_articles, new_articles, current_date):
     
     return merged
 
+                else:
+                   return False
+
 def export_original_categories_to_json(articles):
     if not articles:
         print("No articles provided to export_original_categories_to_json")
@@ -503,6 +506,11 @@ def export_original_categories_to_json(articles):
         print("Collecting original categories from articles...")
         for i, article in enumerate(articles):
             try:
+                # Ignora artigos provenientes do feed da Eurogamer
+                if article.get("source_feed") == "https://www.eurogamer.pt/feed":
+                    print(f"Skipping article {i} from Eurogamer feed")
+                    continue
+
                 # Utiliza exclusivamente o campo "original_category", se existir
                 orig_cat = article.get("original_category", "").strip()
                 if orig_cat:
