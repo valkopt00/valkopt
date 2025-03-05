@@ -690,11 +690,26 @@ async def is_content_exclusive_from_url(link, session):
 
     return False
 
+def fix_encoding(text):
+    # Tenta detectar e corrigir problemas de codificação
+    try:
+        # Primeiro tenta corrigir problemas de codificação dupla
+        text = text.encode('latin1').decode('utf-8')
+    except (UnicodeDecodeError, UnicodeEncodeError):
+        try:
+            # Se falhar, tenta outras abordagens
+            text = text.encode('utf-8').decode('utf-8')
+        except (UnicodeDecodeError, UnicodeEncodeError):
+            # Se ainda falhar, mantém o texto original
+            pass
+    return text
+
 def clean_title(title):
     if title.startswith("<![CDATA[") and title.endswith("]]>"):
         title = title[9:-3]
     title = re.sub(r"<.*?>", "", title)
     title = unescape(title)
+    title = fix_encoding(title)  # Adicionar esta linha
     return title.strip()
 
 def clean_description(description):
@@ -702,6 +717,7 @@ def clean_description(description):
     description = re.sub(r"<[^>]+>", "", description)
     description = description.replace('\"', "").replace("\n", " ")
     description = re.sub(r'\{(?:[^|}]+\|)*([^|}]+)\}', r'\1', description)
+    description = fix_encoding(description)  # Adicionar esta linha
     description = description.strip()
     if len(description) > 150:
         description = description[:150].rsplit(' ', 1)[0] + "..."
