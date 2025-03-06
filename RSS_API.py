@@ -893,26 +893,28 @@ def get_feed_domain(feed_url):
 def map_category(feed_category, feed_url, item_link=None):
     if isinstance(feed_url, dict):
         feed_url = feed_url.get("url", "")
-
-    # 1. Verifica se o feed tem mapeamento direto no FEED_CATEGORY_MAPPER
-    if feed_url in FEED_CATEGORY_MAPPER:
-        return FEED_CATEGORY_MAPPER[feed_url]  # Retorna diretamente a categoria e ignora qualquer outra verificação
-
-    # 2. Tenta mapear a categoria diretamente, se existir
+    
+    # Primeiro verificar se o feed_url está no FEED_CATEGORY_MAPPER
+    for feed, category in FEED_CATEGORY_MAPPER.items():
+        if feed_url.startswith(feed):
+            return category
+    
+    # Se não estiver no mapeamento de URL, então processa o feed_category
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
-
-    # 3. Caso específico para "cmjornal.pt"
+    
+    # Casos especiais para CM Jornal
     if "cmjornal.pt" in feed_url and item_link:
         parsed_url = urlparse(item_link)
         path_parts = parsed_url.path.strip("/").split("/")
         if path_parts:
-            cm_category = path_parts[0].capitalize()
+            cm_category = path_parts[0].lower()
+            cm_category = cm_category.capitalize()
             if cm_category in CATEGORY_MAPPER:
                 return CATEGORY_MAPPER[cm_category]
             return "Outras Notícias"
-
-    # 4. Caso específico para "rr.sapo.pt"
+    
+    # Casos especiais para Renascença
     if "rr.sapo.pt" in feed_url and item_link and "/noticia/" in item_link:
         try:
             parsed_url = urlparse(item_link)
@@ -920,14 +922,14 @@ def map_category(feed_category, feed_url, item_link=None):
             if "noticia" in path_parts:
                 index = path_parts.index("noticia")
                 if index + 1 < len(path_parts):
-                    rr_category = path_parts[index + 1].capitalize()
+                    rr_category = path_parts[index + 1].lower()
+                    rr_category = rr_category.capitalize()
                     if rr_category in CATEGORY_MAPPER:
                         return CATEGORY_MAPPER[rr_category]
                     return rr_category
         except (ValueError, IndexError):
             pass
-
-    # 5. Fallback: Se não encontrou um mapeamento, retorna "Outras Notícias"
+    
     return "Outras Notícias"
 
 async def main():
