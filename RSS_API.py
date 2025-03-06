@@ -557,7 +557,7 @@ def export_original_categories_to_json(articles):
                     continue
 
                 # Utiliza exclusivamente o campo "original_category", se existir
-                orig_cat = article.get("original_category", "").strip()
+                orig_cat = article.get("category", "").strip()
                 if orig_cat:
                     # Se a categoria já estiver no mapeamento, ignora-a
                     if orig_cat in CATEGORY_MAPPER:
