@@ -328,6 +328,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
             
             feed_domain = get_feed_domain(feed_url)
             articles = []
+            article = {)
             
             for entry in feed.entries:
                 try:
