@@ -472,7 +472,7 @@ def is_article_within_timeframe(article_date_str, category, current_date):
     if category == "Últimas":
         return current_date - article_date <= timedelta(hours=12)
     else:
-        return current_date - article_date <= timedelta(days=15)
+        return current_date - article_date <= timedelta(days=6)
 
 def merge_articles(existing_articles, new_articles, current_date):
     merged = {}
@@ -557,7 +557,7 @@ def export_original_categories_to_json(articles):
                     continue
 
                 # Utiliza exclusivamente o campo "original_category", se existir
-                orig_cat = article.get("category", "").strip()
+                orig_cat = article.get("original_category", "").strip()
                 if orig_cat:
                     # Se a categoria já estiver no mapeamento, ignora-a
                     if orig_cat in CATEGORY_MAPPER:
