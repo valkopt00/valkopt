@@ -346,6 +346,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     feed_category = entry.get('category', '')
                     if isinstance(feed_category, list):
                         feed_category = feed_category[0] if feed_category else ''
+                    article["original_category"] = feed_category
                     category = map_category(feed_category, feed_domain, link)
                     pub_date = parse_date(pub_date_str)
                     
