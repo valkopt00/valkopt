@@ -328,7 +328,6 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
             
             feed_domain = get_feed_domain(feed_url)
             articles = []
-            article = {}
             
             for entry in feed.entries:
                 try:
@@ -346,8 +345,8 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     image_url = await extract_image_url(entry, session)
                     feed_category = entry.get('category', '')
                     if isinstance(feed_category, list):
-                        feed_category = feed_category[0] if feed_category else ''
-                    article["original_category"] = feed_category
+                        feed_category = feed_category[0] if feed_category else ''                    
+                    original_category = feed_category  
                     category = map_category(feed_category, feed_domain, link)
                     pub_date = parse_date(pub_date_str)
                     
@@ -362,6 +361,9 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                             "link": link,
                             "isExclusive": False
                         }
+
+                        # Associa original_category ao artigo sem o exportar para JSON
+                        article["original_category"] = original_category  # Usado apenas internamente
                         
                         if category == "Últimas" and pub_date >= last_12_hours:
                             articles.append(article)
@@ -379,7 +381,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     except Exception as e:
         print(f"Error processing {feed_url}: {str(e)}")
         return []
-
+        
 def parse_date(date_str):
     if not date_str:
         return None
