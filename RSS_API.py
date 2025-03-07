@@ -478,7 +478,7 @@ def is_article_within_timeframe(article_date_str, category, current_date):
     if category == "Últimas":
         return current_date - article_date <= timedelta(hours=12)
     else:
-        return current_date - article_date <= timedelta(days=6)
+        return current_date - article_date <= timedelta(days=5)
 
 def merge_articles(existing_articles, new_articles, current_date):
     merged = {}
