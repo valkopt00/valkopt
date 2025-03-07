@@ -284,6 +284,8 @@ def export_to_json(articles):
     current_date = datetime.now(timezone.utc)
     existing_articles = load_existing_articles()
     merged_articles = merge_articles(existing_articles, articles, current_date)
+    for article in articles:
+    article.pop("original_category", None)
     with open("articles.json", "w", encoding="utf-8") as f:
         json.dump(merged_articles, f, ensure_ascii=False, indent=4)
 
