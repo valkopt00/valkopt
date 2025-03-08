@@ -7,12 +7,17 @@
     {
         "category": "2025",
         "source": "Jornal I",
-        "mapped_category": "Nacional"
+        "mapped_category": "Desporto"
     },
     {
         "category": "2025",
         "source": "Jornal I",
         "mapped_category": "Economia"
+    },
+    {
+        "category": "2025",
+        "source": "Jornal I",
+        "mapped_category": "Nacional"
     },
     {
         "category": "2025",
@@ -26,8 +31,13 @@
     },
     {
         "category": "2025",
-        "source": "Jornal I",
-        "mapped_category": "Desporto"
+        "source": "Observador",
+        "mapped_category": "Sociedade"
+    },
+    {
+        "category": "2025",
+        "source": "Observador",
+        "mapped_category": "Política"
     },
     {
         "category": "2025",
@@ -41,21 +51,6 @@
     },
     {
         "category": "2025",
-        "source": "Observador",
-        "mapped_category": "Sociedade"
-    },
-    {
-        "category": "2025",
-        "source": "Observador",
-        "mapped_category": "Política"
-    },
-    {
-        "category": "2025",
-        "source": "Público",
-        "mapped_category": "Sociedade"
-    },
-    {
-        "category": "2025",
         "source": "Público",
         "mapped_category": "Outras Notícias"
     },
@@ -63,6 +58,11 @@
         "category": "2025",
         "source": "Público",
         "mapped_category": "Cultura"
+    },
+    {
+        "category": "2025",
+        "source": "Público",
+        "mapped_category": "Sociedade"
     },
     {
         "category": "Especiais",
@@ -77,12 +77,12 @@
     {
         "category": "Especiais",
         "source": "Observador",
-        "mapped_category": "Cultura"
+        "mapped_category": "Lifestyle"
     },
     {
         "category": "Especiais",
         "source": "Observador",
-        "mapped_category": "Lifestyle"
+        "mapped_category": "Cultura"
     },
     {
         "category": "Especial",
