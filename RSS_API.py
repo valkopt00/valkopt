@@ -532,83 +532,80 @@ def export_original_categories_to_json(articles):
         print("No articles provided to export_original_categories_to_json")
         return False
 
-    try:
-        print(f"Starting export of original categories with {len(articles)} articles...")
+    try:  
+        print(f"Starting export of original categories with {len(articles)} articles...")  
 
-        # Carrega categorias existentes, se o arquivo existir
-        existing_categories = set()
-        if os.path.exists("original_categories.json"):
-            try:
-                with open("original_categories.json", "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    for cat_obj in data:
-                        if isinstance(cat_obj, dict) and "category" in cat_obj:
-                            existing_categories.add(cat_obj["category"])
-                print(f"Loaded {len(existing_categories)} existing categories")
-            except Exception as e:
-                print(f"Error loading existing categories: {str(e)}")
-                # Continua com um set vazio se houver erro
+        # Carrega categorias existentes, se o arquivo existir  
+        existing_data = []  
+        if os.path.exists("original_categories.json"):  
+            try:  
+                with open("original_categories.json", "r", encoding="utf-8") as f:  
+                    existing_data = json.load(f)  
+                print(f"Loaded {len(existing_data)} existing entries")  
+            except Exception as e:  
+                print(f"Error loading existing categories: {str(e)}")  
+                # Continua com uma lista vazia se houver erro  
 
-        categories_seen = existing_categories.copy()
-        new_categories_added = 0
+        # Cria um conjunto de tuplas (categoria, fonte) existentes para verificação rápida
+        existing_entries = {(item.get("category", ""), item.get("source", "")) 
+                           for item in existing_data if isinstance(item, dict)}
+        
+        entries_seen = existing_entries.copy()
+        new_entries_added = 0  
 
-        print("Collecting original categories from articles...")
-        for i, article in enumerate(articles):
-            try:
-                # Ignora artigos provenientes do feed da Eurogamer
-                article_link = article.get("link", "").strip()
-                if "eurogamer.pt" in article_link:
-                    continue
-                if "ign.com" in article_link:
-                    continue
+        print("Collecting original categories and sources from articles...")  
+        for i, article in enumerate(articles):  
+            try:  
+                # Ignora artigos provenientes do feed da Eurogamer  
+                article_link = article.get("link", "").strip()  
+                if "eurogamer.pt" in article_link:  
+                    continue  
+                if "ign.com" in article_link:  
+                    continue  
 
-                # Utiliza exclusivamente o campo "original_category", se existir
-                orig_cat = article.get("original_category", "").strip()
-                if orig_cat:
-                    # Se a categoria já estiver no mapeamento, ignora-a
-                    if orig_cat in CATEGORY_MAPPER:
-                        print(f"Category '{orig_cat}' is in mapping, skipping...")
-                    elif orig_cat not in categories_seen:
-                        categories_seen.add(orig_cat)
-                        new_categories_added += 1
-                else:
-                    # Se não houver campo original_category, extrai o primeiro segmento da URL
-                    article_link = article.get("link", "").strip()
-                    if article_link:
-                        parsed_url = urlparse(article_link)
-                        path_parts = parsed_url.path.strip("/").split("/")
-                        if path_parts and len(path_parts[0]) > 2:
-                            first_segment = path_parts[0].capitalize()
-                            # Ignora segmentos comuns que não representem categoria
-                            if first_segment.lower() not in ["www", "noticia", "noticias", "article", "articles", "news"]:
-                                if first_segment in CATEGORY_MAPPER:
-                                    print(f"Category '{first_segment}' is in mapping, skipping...")
-                                elif first_segment not in categories_seen:
-                                    categories_seen.add(first_segment)
-                                    new_categories_added += 1
-                                    print(f"Added original category from URL: {first_segment}")
-            except Exception as e:
-                print(f"Error processing article {i}: {str(e)}")
-                continue
+                source = article.get("source", "").strip()
+                orig_cat = article.get("original_category", "").strip()  
+                
+                # Se a categoria original existe no artigo
+                if orig_cat:  
+                    # Se a categoria estiver no mapeamento ou já foi vista, ignora
+                    if orig_cat not in CATEGORY_MAPPER and (orig_cat, source) not in entries_seen:  
+                        entries_seen.add((orig_cat, source))  
+                        new_entries_added += 1  
+                else:  
+                    # Se não houver campo original_category, extrai o primeiro segmento da URL  
+                    if article_link:  
+                        parsed_url = urlparse(article_link)  
+                        path_parts = parsed_url.path.strip("/").split("/")  
+                        if path_parts and len(path_parts[0]) > 2:  
+                            first_segment = path_parts[0].capitalize()  
+                            # Ignora segmentos comuns que não representem categoria  
+                            if first_segment.lower() not in ["www", "noticia", "noticias", "article", "articles", "news"]:  
+                                if first_segment not in CATEGORY_MAPPER and (first_segment, source) not in entries_seen:  
+                                    entries_seen.add((first_segment, source))  
+                                    new_entries_added += 1  
+            except Exception as e:  
+                print(f"Error processing article {i}: {str(e)}")  
+                continue  
 
-        unique_categories = [{"category": cat} for cat in sorted(categories_seen)]
-        print(f"Total original categories found: {len(categories_seen)}")
-        print(f"New original categories added: {new_categories_added}")
+        # Converte o conjunto de tuplas para a lista de dicionários para o JSON
+        unique_entries = [{"category": cat, "source": src} 
+                          for cat, src in sorted(entries_seen, key=lambda x: (x[0], x[1]))]
+        
+        try:  
+            print("Writing to file original_categories.json...")  
+            with open("original_categories.json", "w", encoding="utf-8") as f:  
+                json.dump(unique_entries, f, ensure_ascii=False, indent=4)  
+            print("Original categories file saved successfully.")  
+            return True  
+        except Exception as e:  
+            print(f"Error saving original categories file: {str(e)}")  
+            traceback.print_exc()  
+            return False  
 
-        try:
-            print("Writing to file original_categories.json...")
-            with open("original_categories.json", "w", encoding="utf-8") as f:
-                json.dump(unique_categories, f, ensure_ascii=False, indent=4)
-            print("Original categories file saved successfully.")
-            return True
-        except Exception as e:
-            print(f"Error saving original categories file: {str(e)}")
-            traceback.print_exc()
-            return False
-
-    except Exception as e:
-        print(f"CRITICAL ERROR in original category export: {str(e)}")
-        traceback.print_exc()
+    except Exception as e:  
+        print(f"CRITICAL ERROR in original category export: {str(e)}")  
+        traceback.print_exc()  
         return False
 
 async def is_content_exclusive_from_url(link, session):
