@@ -7,6 +7,16 @@
     {
         "category": "2025",
         "source": "Jornal I",
+        "mapped_category": "Nacional"
+    },
+    {
+        "category": "2025",
+        "source": "Jornal I",
+        "mapped_category": "Economia"
+    },
+    {
+        "category": "2025",
+        "source": "Jornal I",
         "mapped_category": "Cultura"
     },
     {
@@ -17,17 +27,12 @@
     {
         "category": "2025",
         "source": "Jornal I",
-        "mapped_category": "Nacional"
-    },
-    {
-        "category": "2025",
-        "source": "Jornal I",
         "mapped_category": "Desporto"
     },
     {
         "category": "2025",
-        "source": "Jornal I",
-        "mapped_category": "Economia"
+        "source": "Observador",
+        "mapped_category": "Lifestyle"
     },
     {
         "category": "2025",
@@ -42,22 +47,7 @@
     {
         "category": "2025",
         "source": "Observador",
-        "mapped_category": "Lifestyle"
-    },
-    {
-        "category": "2025",
-        "source": "Observador",
         "mapped_category": "Política"
-    },
-    {
-        "category": "2025",
-        "source": "Público",
-        "mapped_category": "Cultura"
-    },
-    {
-        "category": "2025",
-        "source": "Público",
-        "mapped_category": "Outras Notícias"
     },
     {
         "category": "2025",
@@ -65,14 +55,19 @@
         "mapped_category": "Sociedade"
     },
     {
-        "category": "Especiais",
-        "source": "Observador",
+        "category": "2025",
+        "source": "Público",
+        "mapped_category": "Outras Notícias"
+    },
+    {
+        "category": "2025",
+        "source": "Público",
         "mapped_category": "Cultura"
     },
     {
         "category": "Especiais",
         "source": "Observador",
-        "mapped_category": "Lifestyle"
+        "mapped_category": "Política"
     },
     {
         "category": "Especiais",
@@ -82,7 +77,12 @@
     {
         "category": "Especiais",
         "source": "Observador",
-        "mapped_category": "Política"
+        "mapped_category": "Cultura"
+    },
+    {
+        "category": "Especiais",
+        "source": "Observador",
+        "mapped_category": "Lifestyle"
     },
     {
         "category": "Especial",
