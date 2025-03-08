@@ -546,14 +546,14 @@ def export_original_categories_to_json(articles):
                 print(f"Error loading existing categories: {str(e)}")  
                 # Continua com uma lista vazia se houver erro  
 
-        # Cria um conjunto de tuplas (categoria, fonte) existentes para verificação rápida
-        existing_entries = {(item.get("category", ""), item.get("source", "")) 
+        # Cria um conjunto de tuplas (categoria, fonte, categoria_mapeada) existentes para verificação rápida
+        existing_entries = {(item.get("category", ""), item.get("source", ""), item.get("mapped_category", "")) 
                            for item in existing_data if isinstance(item, dict)}
         
         entries_seen = existing_entries.copy()
         new_entries_added = 0  
 
-        print("Collecting original categories and sources from articles...")  
+        print("Collecting original categories, sources and mapped categories from articles...")  
         for i, article in enumerate(articles):  
             try:  
                 # Ignora artigos provenientes do feed da Eurogamer  
@@ -564,13 +564,14 @@ def export_original_categories_to_json(articles):
                     continue  
 
                 source = article.get("source", "").strip()
-                orig_cat = article.get("original_category", "").strip()  
+                orig_cat = article.get("original_category", "").strip()
+                mapped_cat = article.get("category", "").strip()  
                 
                 # Se a categoria original existe no artigo
                 if orig_cat:  
-                    # Se a categoria estiver no mapeamento ou já foi vista, ignora
-                    if orig_cat not in CATEGORY_MAPPER and (orig_cat, source) not in entries_seen:  
-                        entries_seen.add((orig_cat, source))  
+                    # Se a categoria não estiver no mapeamento e a entrada ainda não foi vista
+                    if orig_cat not in CATEGORY_MAPPER and (orig_cat, source, mapped_cat) not in entries_seen:  
+                        entries_seen.add((orig_cat, source, mapped_cat))  
                         new_entries_added += 1  
                 else:  
                     # Se não houver campo original_category, extrai o primeiro segmento da URL  
@@ -581,17 +582,21 @@ def export_original_categories_to_json(articles):
                             first_segment = path_parts[0].capitalize()  
                             # Ignora segmentos comuns que não representem categoria  
                             if first_segment.lower() not in ["www", "noticia", "noticias", "article", "articles", "news"]:  
-                                if first_segment not in CATEGORY_MAPPER and (first_segment, source) not in entries_seen:  
-                                    entries_seen.add((first_segment, source))  
+                                if first_segment not in CATEGORY_MAPPER and (first_segment, source, mapped_cat) not in entries_seen:  
+                                    entries_seen.add((first_segment, source, mapped_cat))  
                                     new_entries_added += 1  
+                                    print(f"Added original category from URL: {first_segment} (Source: {source}, Mapped: {mapped_cat})")  
             except Exception as e:  
                 print(f"Error processing article {i}: {str(e)}")  
                 continue  
 
         # Converte o conjunto de tuplas para a lista de dicionários para o JSON
-        unique_entries = [{"category": cat, "source": src} 
-                          for cat, src in sorted(entries_seen, key=lambda x: (x[0], x[1]))]
+        unique_entries = [{"category": cat, "source": src, "mapped_category": mapped} 
+                          for cat, src, mapped in sorted(entries_seen, key=lambda x: (x[0], x[1]))]
         
+        print(f"Total entries found: {len(entries_seen)}")  
+        print(f"New entries added: {new_entries_added}")  
+
         try:  
             print("Writing to file original_categories.json...")  
             with open("original_categories.json", "w", encoding="utf-8") as f:  
