@@ -533,79 +533,54 @@ def export_original_categories_to_json(articles):
         return False
 
     try:  
-        print(f"Starting export of original categories with {len(articles)} articles...")  
+        print(f"Starting export of original categories mapped to 'Outras Notícias' with {len(articles)} articles...")  
 
-        # Carrega categorias existentes, se o arquivo existir  
-        existing_data = []  
-        if os.path.exists("original_categories.json"):  
-            try:  
-                with open("original_categories.json", "r", encoding="utf-8") as f:  
-                    existing_data = json.load(f)  
-                print(f"Loaded {len(existing_data)} existing entries")  
-            except Exception as e:  
-                print(f"Error loading existing categories: {str(e)}")  
-                # Continua com uma lista vazia se houver erro  
+        # Filtra apenas artigos com categoria "Outras Notícias"
+        filtered_articles = [article for article in articles if article.get("category", "").strip() == "Outras Notícias"]
+        print(f"Found {len(filtered_articles)} articles with category 'Outras Notícias'")
 
-        # Cria um conjunto de tuplas (categoria, fonte, categoria_mapeada) existentes para verificação rápida
-        existing_entries = {(item.get("category", ""), item.get("source", ""), item.get("mapped_category", "")) 
-                           for item in existing_data if isinstance(item, dict) and item.get("mapped_category", "") == "Outras Notícias"}
-        
-        entries_seen = existing_entries.copy()
-        new_entries_added = 0  
+        # Set para armazenar tuples únicos (categoria_original, fonte, categoria_mapeada)
+        unique_entries = set()
 
-        print("Collecting original categories, sources and mapped categories from articles...")  
-        for i, article in enumerate(articles):  
-            try:  
-                # Ignora artigos provenientes do feed da Eurogamer  
+        for article in filtered_articles:
+            try:
+                # Ignora artigos provenientes do feed da Eurogamer e IGN
                 article_link = article.get("link", "").strip()  
-                if "eurogamer.pt" in article_link:  
-                    continue  
-                if "ign.com" in article_link:  
+                if "eurogamer.pt" in article_link or "ign.com" in article_link:  
                     continue  
 
                 source = article.get("source", "").strip()
+                mapped_cat = "Outras Notícias"  # Já sabemos que é "Outras Notícias"
+                
+                # Tenta obter a categoria original do artigo
                 orig_cat = article.get("original_category", "").strip()
-                mapped_cat = article.get("category", "").strip()  
                 
-                # Apenas processa artigos com categoria mapeada "Outras Notícias"
-                if mapped_cat != "Outras Notícias":
-                    continue
+                # Se não houver categoria original, tenta extrair da URL
+                if not orig_cat and article_link:  
+                    parsed_url = urlparse(article_link)  
+                    path_parts = parsed_url.path.strip("/").split("/")  
+                    if path_parts and len(path_parts[0]) > 2:  
+                        first_segment = path_parts[0].capitalize()  
+                        # Ignora segmentos comuns que não representem categoria  
+                        if first_segment.lower() not in ["www", "noticia", "noticias", "article", "articles", "news"]:  
+                            orig_cat = first_segment
                 
-                # Se a categoria original existe no artigo
-                if orig_cat:  
-                    # Se a categoria não estiver no mapeamento e a entrada ainda não foi vista
-                    if orig_cat not in CATEGORY_MAPPER and (orig_cat, source, mapped_cat) not in entries_seen:  
-                        entries_seen.add((orig_cat, source, mapped_cat))  
-                        new_entries_added += 1  
-                else:  
-                    # Se não houver campo original_category, extrai o primeiro segmento da URL  
-                    if article_link:  
-                        parsed_url = urlparse(article_link)  
-                        path_parts = parsed_url.path.strip("/").split("/")  
-                        if path_parts and len(path_parts[0]) > 2:  
-                            first_segment = path_parts[0].capitalize()  
-                            # Ignora segmentos comuns que não representem categoria  
-                            if first_segment.lower() not in ["www", "noticia", "noticias", "article", "articles", "news"]:  
-                                if first_segment not in CATEGORY_MAPPER and (first_segment, source, mapped_cat) not in entries_seen:  
-                                    entries_seen.add((first_segment, source, mapped_cat))  
-                                    new_entries_added += 1  
+                # Adiciona à lista se temos uma categoria original válida
+                if orig_cat:
+                    unique_entries.add((orig_cat, source, mapped_cat))
             except Exception as e:  
-                print(f"Error processing article {i}: {str(e)}")  
+                print(f"Error processing article: {str(e)}")  
                 continue  
 
-        # Converte o conjunto de tuplas para a lista de dicionários para o JSON
-        # Garante que apenas entradas com "Outras Notícias" sejam incluídas
-        unique_entries = [{"category": cat, "source": src, "mapped_category": mapped} 
-                          for cat, src, mapped in sorted(entries_seen, key=lambda x: (x[0], x[1]))
-                          if mapped == "Outras Notícias"]
+        # Converte o set de tuples para lista de dicionários para o JSON
+        result = [
+            {"category": cat, "source": src, "mapped_category": mapped} 
+            for cat, src, mapped in sorted(unique_entries, key=lambda x: (x[0], x[1]))
+        ]
         
-        print(f"Total entries found with 'Outras Notícias': {len(unique_entries)}")  
-        print(f"New entries added: {new_entries_added}")  
-
         try:  
-            print("Writing to file original_categories.json...")  
             with open("original_categories.json", "w", encoding="utf-8") as f:  
-                json.dump(unique_entries, f, ensure_ascii=False, indent=4)  
+                json.dump(result, f, ensure_ascii=False, indent=4)  
             print("Original categories file saved successfully.")  
             return True  
         except Exception as e:  
@@ -617,7 +592,7 @@ def export_original_categories_to_json(articles):
         print(f"CRITICAL ERROR in original category export: {str(e)}")  
         traceback.print_exc()  
         return False
-
+        
 async def is_content_exclusive_from_url(link, session):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
