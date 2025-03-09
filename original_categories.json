@@ -7,12 +7,17 @@
     {
         "category": "2025",
         "source": "Jornal I",
+        "mapped_category": "Cultura"
+    },
+    {
+        "category": "2025",
+        "source": "Jornal I",
         "mapped_category": "Desporto"
     },
     {
         "category": "2025",
         "source": "Jornal I",
-        "mapped_category": "Economia"
+        "mapped_category": "Mundo"
     },
     {
         "category": "2025",
@@ -22,27 +27,7 @@
     {
         "category": "2025",
         "source": "Jornal I",
-        "mapped_category": "Cultura"
-    },
-    {
-        "category": "2025",
-        "source": "Jornal I",
-        "mapped_category": "Mundo"
-    },
-    {
-        "category": "2025",
-        "source": "Observador",
-        "mapped_category": "Sociedade"
-    },
-    {
-        "category": "2025",
-        "source": "Observador",
-        "mapped_category": "Política"
-    },
-    {
-        "category": "2025",
-        "source": "Observador",
-        "mapped_category": "Lifestyle"
+        "mapped_category": "Economia"
     },
     {
         "category": "2025",
@@ -51,13 +36,18 @@
     },
     {
         "category": "2025",
-        "source": "Público",
-        "mapped_category": "Outras Notícias"
+        "source": "Observador",
+        "mapped_category": "Lifestyle"
     },
     {
         "category": "2025",
-        "source": "Público",
-        "mapped_category": "Cultura"
+        "source": "Observador",
+        "mapped_category": "Sociedade"
+    },
+    {
+        "category": "2025",
+        "source": "Observador",
+        "mapped_category": "Política"
     },
     {
         "category": "2025",
@@ -65,9 +55,19 @@
         "mapped_category": "Sociedade"
     },
     {
-        "category": "Especiais",
-        "source": "Observador",
-        "mapped_category": "Política"
+        "category": "2025",
+        "source": "Público",
+        "mapped_category": "Opinião"
+    },
+    {
+        "category": "2025",
+        "source": "Público",
+        "mapped_category": "Outras Notícias"
+    },
+    {
+        "category": "2025",
+        "source": "Público",
+        "mapped_category": "Cultura"
     },
     {
         "category": "Especiais",
@@ -83,6 +83,11 @@
         "category": "Especiais",
         "source": "Observador",
         "mapped_category": "Cultura"
+    },
+    {
+        "category": "Especiais",
+        "source": "Observador",
+        "mapped_category": "Política"
     },
     {
         "category": "Especial",
