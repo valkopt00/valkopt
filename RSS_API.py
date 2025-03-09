@@ -548,7 +548,7 @@ def export_original_categories_to_json(articles):
 
         # Cria um conjunto de tuplas (categoria, fonte, categoria_mapeada) existentes para verificação rápida
         existing_entries = {(item.get("category", ""), item.get("source", ""), item.get("mapped_category", "")) 
-                           for item in existing_data if isinstance(item, dict)}
+                           for item in existing_data if isinstance(item, dict) and item.get("mapped_category", "") == "Outras Notícias"}
         
         entries_seen = existing_entries.copy()
         new_entries_added = 0  
@@ -566,6 +566,10 @@ def export_original_categories_to_json(articles):
                 source = article.get("source", "").strip()
                 orig_cat = article.get("original_category", "").strip()
                 mapped_cat = article.get("category", "").strip()  
+                
+                # Apenas processa artigos com categoria mapeada "Outras Notícias"
+                if mapped_cat != "Outras Notícias":
+                    continue
                 
                 # Se a categoria original existe no artigo
                 if orig_cat:  
@@ -585,16 +589,17 @@ def export_original_categories_to_json(articles):
                                 if first_segment not in CATEGORY_MAPPER and (first_segment, source, mapped_cat) not in entries_seen:  
                                     entries_seen.add((first_segment, source, mapped_cat))  
                                     new_entries_added += 1  
-                                    print(f"Added original category from URL: {first_segment} (Source: {source}, Mapped: {mapped_cat})")  
             except Exception as e:  
                 print(f"Error processing article {i}: {str(e)}")  
                 continue  
 
         # Converte o conjunto de tuplas para a lista de dicionários para o JSON
+        # Garante que apenas entradas com "Outras Notícias" sejam incluídas
         unique_entries = [{"category": cat, "source": src, "mapped_category": mapped} 
-                          for cat, src, mapped in sorted(entries_seen, key=lambda x: (x[0], x[1]))]
+                          for cat, src, mapped in sorted(entries_seen, key=lambda x: (x[0], x[1]))
+                          if mapped == "Outras Notícias"]
         
-        print(f"Total entries found: {len(entries_seen)}")  
+        print(f"Total entries found with 'Outras Notícias': {len(unique_entries)}")  
         print(f"New entries added: {new_entries_added}")  
 
         try:  
