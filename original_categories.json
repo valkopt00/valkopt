@@ -7,17 +7,12 @@
     {
         "category": "2025",
         "source": "Jornal I",
+        "mapped_category": "Cultura"
+    },
+    {
+        "category": "2025",
+        "source": "Jornal I",
         "mapped_category": "Desporto"
-    },
-    {
-        "category": "2025",
-        "source": "Jornal I",
-        "mapped_category": "Mundo"
-    },
-    {
-        "category": "2025",
-        "source": "Jornal I",
-        "mapped_category": "Economia"
     },
     {
         "category": "2025",
@@ -27,7 +22,12 @@
     {
         "category": "2025",
         "source": "Jornal I",
-        "mapped_category": "Cultura"
+        "mapped_category": "Economia"
+    },
+    {
+        "category": "2025",
+        "source": "Jornal I",
+        "mapped_category": "Mundo"
     },
     {
         "category": "2025",
@@ -37,7 +37,7 @@
     {
         "category": "2025",
         "source": "Observador",
-        "mapped_category": "Política"
+        "mapped_category": "Cultura"
     },
     {
         "category": "2025",
@@ -47,17 +47,12 @@
     {
         "category": "2025",
         "source": "Observador",
-        "mapped_category": "Cultura"
-    },
-    {
-        "category": "2025",
-        "source": "Observador",
         "mapped_category": "Desporto"
     },
     {
         "category": "2025",
-        "source": "Público",
-        "mapped_category": "Mundo"
+        "source": "Observador",
+        "mapped_category": "Política"
     },
     {
         "category": "2025",
@@ -67,7 +62,12 @@
     {
         "category": "2025",
         "source": "Público",
-        "mapped_category": "Outras Notícias"
+        "mapped_category": "Mundo"
+    },
+    {
+        "category": "2025",
+        "source": "Público",
+        "mapped_category": "Cultura"
     },
     {
         "category": "2025",
@@ -82,7 +82,7 @@
     {
         "category": "2025",
         "source": "Público",
-        "mapped_category": "Cultura"
+        "mapped_category": "Outras Notícias"
     },
     {
         "category": "Browsers",
@@ -102,12 +102,7 @@
     {
         "category": "Especiais",
         "source": "Observador",
-        "mapped_category": "Outras Notícias"
-    },
-    {
-        "category": "Especiais",
-        "source": "Observador",
-        "mapped_category": "Política"
+        "mapped_category": "Cultura"
     },
     {
         "category": "Especiais",
@@ -117,7 +112,12 @@
     {
         "category": "Especiais",
         "source": "Observador",
-        "mapped_category": "Cultura"
+        "mapped_category": "Outras Notícias"
+    },
+    {
+        "category": "Especiais",
+        "source": "Observador",
+        "mapped_category": "Política"
     },
     {
         "category": "Especial",
@@ -133,6 +133,11 @@
         "category": "High-tech",
         "source": "Pplware",
         "mapped_category": "Ciência e Tech"
+    },
+    {
+        "category": "Jogo-da-vida",
+        "source": "Record",
+        "mapped_category": "Desporto"
     },
     {
         "category": "Mais-cm",
