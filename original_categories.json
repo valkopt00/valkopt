@@ -7,17 +7,7 @@
     {
         "category": "2025",
         "source": "Jornal I",
-        "mapped_category": "Desporto"
-    },
-    {
-        "category": "2025",
-        "source": "Jornal I",
-        "mapped_category": "Nacional"
-    },
-    {
-        "category": "2025",
-        "source": "Jornal I",
-        "mapped_category": "Cultura"
+        "mapped_category": "Economia"
     },
     {
         "category": "2025",
@@ -27,11 +17,16 @@
     {
         "category": "2025",
         "source": "Jornal I",
-        "mapped_category": "Economia"
+        "mapped_category": "Nacional"
     },
     {
         "category": "2025",
-        "source": "Observador",
+        "source": "Jornal I",
+        "mapped_category": "Desporto"
+    },
+    {
+        "category": "2025",
+        "source": "Jornal I",
         "mapped_category": "Cultura"
     },
     {
@@ -52,16 +47,11 @@
     {
         "category": "2025",
         "source": "Observador",
-        "mapped_category": "Lifestyle"
+        "mapped_category": "Cultura"
     },
     {
         "category": "2025",
-        "source": "Público",
-        "mapped_category": "Opinião"
-    },
-    {
-        "category": "2025",
-        "source": "Público",
+        "source": "Observador",
         "mapped_category": "Lifestyle"
     },
     {
@@ -72,17 +62,27 @@
     {
         "category": "2025",
         "source": "Público",
-        "mapped_category": "Mundo"
-    },
-    {
-        "category": "2025",
-        "source": "Público",
         "mapped_category": "Outras Notícias"
     },
     {
         "category": "2025",
         "source": "Público",
+        "mapped_category": "Lifestyle"
+    },
+    {
+        "category": "2025",
+        "source": "Público",
+        "mapped_category": "Opinião"
+    },
+    {
+        "category": "2025",
+        "source": "Público",
         "mapped_category": "Sociedade"
+    },
+    {
+        "category": "2025",
+        "source": "Público",
+        "mapped_category": "Mundo"
     },
     {
         "category": "Browsers",
@@ -102,22 +102,22 @@
     {
         "category": "Especiais",
         "source": "Observador",
-        "mapped_category": "Outras Notícias"
-    },
-    {
-        "category": "Especiais",
-        "source": "Observador",
         "mapped_category": "Política"
     },
     {
         "category": "Especiais",
         "source": "Observador",
-        "mapped_category": "Lifestyle"
+        "mapped_category": "Cultura"
     },
     {
         "category": "Especiais",
         "source": "Observador",
-        "mapped_category": "Cultura"
+        "mapped_category": "Outras Notícias"
+    },
+    {
+        "category": "Especiais",
+        "source": "Observador",
+        "mapped_category": "Lifestyle"
     },
     {
         "category": "Especial",
@@ -150,9 +150,19 @@
         "mapped_category": "Ciência e Tech"
     },
     {
+        "category": "O-que-o-rabo-do-seu-gato-esta-a-tentar-dizer-decifre-a-linguagem-felina-com-estes-6-movimentos",
+        "source": "Correio Da Manhã",
+        "mapped_category": "Sociedade"
+    },
+    {
         "category": "Prazeres",
         "source": "Jornal De Negócios",
         "mapped_category": "Economia"
+    },
+    {
+        "category": "Programas",
+        "source": "Observador",
+        "mapped_category": "Lifestyle"
     },
     {
         "category": "Semanario",
