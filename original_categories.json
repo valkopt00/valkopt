@@ -7,12 +7,7 @@
     {
         "category": "2025",
         "source": "Jornal I",
-        "mapped_category": "Cultura"
-    },
-    {
-        "category": "2025",
-        "source": "Jornal I",
-        "mapped_category": "Mundo"
+        "mapped_category": "Desporto"
     },
     {
         "category": "2025",
@@ -27,22 +22,22 @@
     {
         "category": "2025",
         "source": "Jornal I",
-        "mapped_category": "Desporto"
+        "mapped_category": "Cultura"
+    },
+    {
+        "category": "2025",
+        "source": "Jornal I",
+        "mapped_category": "Mundo"
     },
     {
         "category": "2025",
         "source": "Observador",
-        "mapped_category": "Lifestyle"
+        "mapped_category": "Desporto"
     },
     {
         "category": "2025",
         "source": "Observador",
         "mapped_category": "Política"
-    },
-    {
-        "category": "2025",
-        "source": "Observador",
-        "mapped_category": "Desporto"
     },
     {
         "category": "2025",
@@ -56,8 +51,13 @@
     },
     {
         "category": "2025",
+        "source": "Observador",
+        "mapped_category": "Lifestyle"
+    },
+    {
+        "category": "2025",
         "source": "Público",
-        "mapped_category": "Outras Notícias"
+        "mapped_category": "Cultura"
     },
     {
         "category": "2025",
@@ -72,12 +72,12 @@
     {
         "category": "2025",
         "source": "Público",
-        "mapped_category": "Sociedade"
+        "mapped_category": "Outras Notícias"
     },
     {
         "category": "2025",
         "source": "Público",
-        "mapped_category": "Cultura"
+        "mapped_category": "Sociedade"
     },
     {
         "category": "2025",
@@ -102,12 +102,17 @@
     {
         "category": "Especiais",
         "source": "Observador",
-        "mapped_category": "Outras Notícias"
+        "mapped_category": "Cultura"
     },
     {
         "category": "Especiais",
         "source": "Observador",
         "mapped_category": "Lifestyle"
+    },
+    {
+        "category": "Especiais",
+        "source": "Observador",
+        "mapped_category": "Outras Notícias"
     },
     {
         "category": "Especiais",
@@ -118,11 +123,6 @@
         "category": "Especiais",
         "source": "Observador",
         "mapped_category": "Sociedade"
-    },
-    {
-        "category": "Especiais",
-        "source": "Observador",
-        "mapped_category": "Cultura"
     },
     {
         "category": "Especiais",
