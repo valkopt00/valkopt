@@ -7,17 +7,12 @@
     {
         "category": "2025",
         "source": "Jornal I",
-        "mapped_category": "Nacional"
-    },
-    {
-        "category": "2025",
-        "source": "Jornal I",
-        "mapped_category": "Desporto"
-    },
-    {
-        "category": "2025",
-        "source": "Jornal I",
         "mapped_category": "Economia"
+    },
+    {
+        "category": "2025",
+        "source": "Jornal I",
+        "mapped_category": "Nacional"
     },
     {
         "category": "2025",
@@ -31,18 +26,8 @@
     },
     {
         "category": "2025",
-        "source": "Observador",
+        "source": "Jornal I",
         "mapped_category": "Desporto"
-    },
-    {
-        "category": "2025",
-        "source": "Observador",
-        "mapped_category": "Cultura"
-    },
-    {
-        "category": "2025",
-        "source": "Observador",
-        "mapped_category": "Lifestyle"
     },
     {
         "category": "2025",
@@ -52,22 +37,27 @@
     {
         "category": "2025",
         "source": "Observador",
+        "mapped_category": "Desporto"
+    },
+    {
+        "category": "2025",
+        "source": "Observador",
+        "mapped_category": "Lifestyle"
+    },
+    {
+        "category": "2025",
+        "source": "Observador",
         "mapped_category": "Sociedade"
     },
     {
         "category": "2025",
-        "source": "Público",
+        "source": "Observador",
         "mapped_category": "Cultura"
     },
     {
         "category": "2025",
         "source": "Público",
         "mapped_category": "Opinião"
-    },
-    {
-        "category": "2025",
-        "source": "Público",
-        "mapped_category": "Lifestyle"
     },
     {
         "category": "2025",
@@ -82,7 +72,17 @@
     {
         "category": "2025",
         "source": "Público",
+        "mapped_category": "Lifestyle"
+    },
+    {
+        "category": "2025",
+        "source": "Público",
         "mapped_category": "Sociedade"
+    },
+    {
+        "category": "2025",
+        "source": "Público",
+        "mapped_category": "Cultura"
     },
     {
         "category": "Browsers",
@@ -102,12 +102,12 @@
     {
         "category": "Especiais",
         "source": "Observador",
-        "mapped_category": "Outras Notícias"
+        "mapped_category": "Política"
     },
     {
         "category": "Especiais",
         "source": "Observador",
-        "mapped_category": "Cultura"
+        "mapped_category": "Outras Notícias"
     },
     {
         "category": "Especiais",
@@ -117,7 +117,12 @@
     {
         "category": "Especiais",
         "source": "Observador",
-        "mapped_category": "Política"
+        "mapped_category": "Sociedade"
+    },
+    {
+        "category": "Especiais",
+        "source": "Observador",
+        "mapped_category": "Cultura"
     },
     {
         "category": "Especial",
@@ -168,6 +173,11 @@
         "category": "Semanario",
         "source": "Expresso",
         "mapped_category": "Multimédia"
+    },
+    {
+        "category": "Software",
+        "source": "Pplware",
+        "mapped_category": "Ciência e Tech"
     },
     {
         "category": "Transfers.php",
