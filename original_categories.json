@@ -7,7 +7,7 @@
     {
         "category": "2025",
         "source": "Jornal I",
-        "mapped_category": "Economia"
+        "mapped_category": "Nacional"
     },
     {
         "category": "2025",
@@ -27,12 +27,7 @@
     {
         "category": "2025",
         "source": "Jornal I",
-        "mapped_category": "Nacional"
-    },
-    {
-        "category": "2025",
-        "source": "Observador",
-        "mapped_category": "Desporto"
+        "mapped_category": "Economia"
     },
     {
         "category": "2025",
@@ -42,12 +37,12 @@
     {
         "category": "2025",
         "source": "Observador",
-        "mapped_category": "Cultura"
+        "mapped_category": "Sociedade"
     },
     {
         "category": "2025",
         "source": "Observador",
-        "mapped_category": "Sociedade"
+        "mapped_category": "Cultura"
     },
     {
         "category": "2025",
@@ -56,23 +51,8 @@
     },
     {
         "category": "2025",
-        "source": "Público",
-        "mapped_category": "Sociedade"
-    },
-    {
-        "category": "2025",
-        "source": "Público",
-        "mapped_category": "Lifestyle"
-    },
-    {
-        "category": "2025",
-        "source": "Público",
-        "mapped_category": "Outras Notícias"
-    },
-    {
-        "category": "2025",
-        "source": "Público",
-        "mapped_category": "Cultura"
+        "source": "Observador",
+        "mapped_category": "Desporto"
     },
     {
         "category": "2025",
@@ -85,18 +65,38 @@
         "mapped_category": "Mundo"
     },
     {
-        "category": "Domingo",
+        "category": "2025",
+        "source": "Público",
+        "mapped_category": "Cultura"
+    },
+    {
+        "category": "2025",
+        "source": "Público",
+        "mapped_category": "Outras Notícias"
+    },
+    {
+        "category": "2025",
+        "source": "Público",
+        "mapped_category": "Lifestyle"
+    },
+    {
+        "category": "2025",
+        "source": "Público",
+        "mapped_category": "Sociedade"
+    },
+    {
+        "category": "Browsers",
+        "source": "Pplware",
+        "mapped_category": "Ciência e Tech"
+    },
+    {
+        "category": "Cm-ao-minuto",
         "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias"
     },
     {
-        "category": "Especiais",
-        "source": "Observador",
-        "mapped_category": "Política"
-    },
-    {
-        "category": "Especiais",
-        "source": "Observador",
+        "category": "Domingo",
+        "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias"
     },
     {
@@ -107,7 +107,17 @@
     {
         "category": "Especiais",
         "source": "Observador",
+        "mapped_category": "Outras Notícias"
+    },
+    {
+        "category": "Especiais",
+        "source": "Observador",
         "mapped_category": "Lifestyle"
+    },
+    {
+        "category": "Especiais",
+        "source": "Observador",
+        "mapped_category": "Política"
     },
     {
         "category": "Especial",
