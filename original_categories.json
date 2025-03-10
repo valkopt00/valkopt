@@ -1,11 +1,6 @@
 [
     {
         "category": "2025",
-        "source": "Observador",
-        "mapped_category": "Outras Notícias"
-    },
-    {
-        "category": "2025",
         "source": "Público",
         "mapped_category": "Outras Notícias"
     },
@@ -40,6 +35,11 @@
         "mapped_category": "Outras Notícias"
     },
     {
+        "category": "Expresso-fundamental",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias"
+    },
+    {
         "category": "Iniciativaseprodutos",
         "source": "Expresso",
         "mapped_category": "Outras Notícias"
@@ -51,6 +51,11 @@
     },
     {
         "category": "Jogos",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias"
+    },
+    {
+        "category": "Multimedia",
         "source": "Expresso",
         "mapped_category": "Outras Notícias"
     },
