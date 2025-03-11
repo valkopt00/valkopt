@@ -565,17 +565,15 @@ def export_original_categories_to_json(articles):
                         if first_segment.lower() not in ["www", "noticia", "noticias", "article", "articles", "news"]:  
                             orig_cat = first_segment
                 
-                # Adiciona à lista se temos uma categoria original válida
-                if orig_cat:
-                    unique_entries.add((orig_cat, source, mapped_cat))
+                unique_entries.add((orig_cat, source, mapped_cat, article_link))
             except Exception as e:  
                 print(f"Error processing article: {str(e)}")  
                 continue  
 
         # Converte o set de tuples para lista de dicionários para o JSON
         result = [
-            {"category": cat, "source": src, "mapped_category": mapped} 
-            for cat, src, mapped in sorted(unique_entries, key=lambda x: (x[0], x[1]))
+            {"category": cat, "source": src, "mapped_category": mapped, "url": url} 
+            for cat, src, mapped, url in sorted(unique_entries, key=lambda x: (x[0], x[1]))
         ]
         
         try:  
