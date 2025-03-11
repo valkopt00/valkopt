@@ -555,16 +555,6 @@ def export_original_categories_to_json(articles):
                 # Tenta obter a categoria original do artigo
                 orig_cat = article.get("original_category", "").strip()
                 
-                # Se não houver categoria original, tenta extrair da URL
-                if not orig_cat and article_link:  
-                    parsed_url = urlparse(article_link)  
-                    path_parts = parsed_url.path.strip("/").split("/")  
-                    if path_parts and len(path_parts[0]) > 2:  
-                        first_segment = path_parts[0].capitalize()  
-                        # Ignora segmentos comuns que não representem categoria  
-                        if first_segment.lower() not in ["www", "noticia", "noticias", "article", "articles", "news"]:  
-                            orig_cat = first_segment
-                
                 unique_entries.add((orig_cat, source, mapped_cat, article_link))
             except Exception as e:  
                 print(f"Error processing article: {str(e)}")  
