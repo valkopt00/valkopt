@@ -806,6 +806,8 @@ def process_url(url: str) -> str:
         url = url.replace("100x100", "932x621")
     if "932x621" in url and "jornaldenegocios" in url:
         url = url.replace("932x621", "900x560")
+    if "220x220" in url and "record.pt" in url:
+        url = url.replace("220x220", "920x518")
     if url.startswith("https://cdn.record.pt/images/https://cdn.record.pt/images/"):
         url = url.replace("https://cdn.record.pt/images/", "", 1)
     return url
