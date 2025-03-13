@@ -273,21 +273,26 @@ async def get_articles():
 
     articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
     await process_articles(articles)
-    export_to_json(articles)
     
-    # Call the function to export original categories
+    # Exporta as categorias originais antes de remover o campo original_category
     success = export_original_categories_to_json(articles)
     if not success:
         print("Failed to export original categories")
+    
+    export_to_json(articles)
                                 
 def export_to_json(articles):
     current_date = datetime.now(timezone.utc)
     existing_articles = load_existing_articles()
     merged_articles = merge_articles(existing_articles, articles, current_date)
-    for article in articles:
-        article.pop("original_category", None)
-        with open("articles.json", "w", encoding="utf-8") as f:
-            json.dump(merged_articles, f, ensure_ascii=False, indent=4)
+    
+    # Remove o campo "original_category" apenas dos artigos mesclados antes de salvar
+    for cat, articles_list in merged_articles.items():
+        for article in articles_list:
+            article.pop("original_category", None)
+            
+    with open("articles.json", "w", encoding="utf-8") as f:
+         json.dump(merged_articles, f, ensure_ascii=False, indent=4)
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
@@ -434,7 +439,11 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
                 link = item.get("url", "")
                 source = extract_source(link)
                 image_url = item.get("multimediaPrincipal") or item.get("image", "")
+                
+                # Captura a categoria original antes do mapeamento
                 feed_category = item.get("rubrica") or item.get("tag", "Últimas")
+                original_category = feed_category
+                
                 category = map_category(feed_category, source, link)
                 if not category:
                     category = "Últimas"
@@ -449,7 +458,8 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
                         "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
                         "category": category,
                         "link": link,
-                        "isExclusive": False
+                        "isExclusive": False,
+                        "original_category": original_category
                     }
                     
                     if category == "Últimas" and pub_date >= last_12_hours:
