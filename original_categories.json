@@ -1,17 +1,5 @@
 [
     {
-        "category": "",
-        "source": "Renascença",
-        "mapped_category": "Outras Notícias",
-        "url": "https://rr.pt/especial/politica/2025/03/14/sondagem-coloca-ad-a-frente-do-ps-coligacao-alarga-vantagem-depois-da-mocao-de-confianca/417538/?utm_medium=rss"
-    },
-    {
-        "category": "1.ª Liga",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/1a-liga/hugo-oliveira-garante-famalicao-com-identidade-inalterada-em-alvalade_d1640842"
-    },
-    {
         "category": "A Beleza das Pequenas Coisas",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -30,12 +18,6 @@
         "url": "https://expresso.pt/podcasts/antes-pelo-contrario/2025-03-14-roteiros-2025-eleicoes-convocadas-lamentos-de-marcelo-b203b73b"
     },
     {
-        "category": "Atletismo",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/atletismo/pichardo-passa-a-competir-pelos-italianos-do-atl-etica_d1640863"
-    },
-    {
         "category": "Boa Cama Boa Mesa",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -48,22 +30,16 @@
         "url": "https://expresso.pt/podcasts/chave-na-mao/2025-03-14-ha-pressoes-por-parte-de-senhorios-para-que-as-pessoas-saiam-antes-do-fim-do-contrato.-53-refere-situacoes-de-inseguranca-contratual-7be090ba"
     },
     {
-        "category": "Ciclismo",
-        "source": "RTP Notícias",
+        "category": "Crise política",
+        "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/ciclismo/joao-almeida-caiu-na-armadilha-da-visma-e-perdeu-opcoes-de-lutar-pelo-paris-nice_d1640839"
+        "url": "https://expresso.pt/politica/crise/2025-03-14-cds-ficou-fora-das-decisoes-mas-quer-coligacao-para-as-legislativas-d76f5d76"
     },
     {
         "category": "Crise política",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/crise/2025-03-14-medina-demarcou-se-da-direcao-do-ps-sem-aviso-previo-07392d3d"
-    },
-    {
-        "category": "Crise política",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/crise/2025-03-14-cds-ficou-fora-das-decisoes-mas-quer-coligacao-para-as-legislativas-d76f5d76"
     },
     {
         "category": "Crise política",
@@ -99,13 +75,19 @@
         "category": "Guerra na Ucrânia",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-14-proposta-de-cessar-fogo-na-ucrania-as-exigencias-de-putin-a-reacao-de-zelensky-e-a-chamada-que-se-avizinha-35b5626b"
+    },
+    {
+        "category": "Guerra na Ucrânia",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-14-trump-diz-que-ha-uma-hipotese-muito-boa-de-acabar-com-a-guerra-e-pede-a-putin-para-poupar-soldados-ucranianos-0c0e3770"
     },
     {
         "category": "Guerra na Ucrânia",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-14-proposta-de-cessar-fogo-na-ucrania-as-exigencias-de-putin-a-reacao-de-zelensky-e-a-chamada-que-se-avizinha-35b5626b"
+        "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-14-ucrania-comissao-independente-da-onu-atribui-crimes-contra-a-humanidade-a-russia-9f98954d"
     },
     {
         "category": "Insólito",
@@ -124,6 +106,18 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/14/local/noticia/cidadaos-protestam-hotel-quartel-graca-exigem-centro-comunitario-2126006"
+    },
+    {
+        "category": "Mais Modalidades",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/atletismo/pichardo-passa-a-competir-pelos-italianos-do-atl-etica_d1640863"
+    },
+    {
+        "category": "Mais Modalidades",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/outras-modalidades/joao-almeida-caiu-na-armadilha-da-visma-e-perdeu-opcoes-de-lutar-pelo-paris-nice_d1640839"
     },
     {
         "category": "Música",
