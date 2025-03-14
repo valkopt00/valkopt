@@ -3,18 +3,6 @@
         "category": "",
         "source": "Renascença",
         "mapped_category": "Outras Notícias",
-        "url": "https://rr.pt/artigo/francisco-sarsfield-cabral/2025/03/14/agua-um-problema-portugues/417474/?utm_medium=rss"
-    },
-    {
-        "category": "",
-        "source": "Renascença",
-        "mapped_category": "Outras Notícias",
-        "url": "https://rr.pt/artigo/ribeiro-cristovao/2025/03/14/contra-a-forca-nao-ha-resistencia/417472/?utm_medium=rss"
-    },
-    {
-        "category": "",
-        "source": "Renascença",
-        "mapped_category": "Outras Notícias",
         "url": "https://rr.pt/especial/pais/2025/03/14/80-anos-da-tap-os-portugueses-quando-sao-disciplinados-fazem-coisas-extraordinarias/417468/?utm_medium=rss"
     },
     {
@@ -27,19 +15,31 @@
         "category": "",
         "source": "Renascença",
         "mapped_category": "Outras Notícias",
+        "url": "https://rr.pt/artigo/ribeiro-cristovao/2025/03/14/contra-a-forca-nao-ha-resistencia/417472/?utm_medium=rss"
+    },
+    {
+        "category": "",
+        "source": "Renascença",
+        "mapped_category": "Outras Notícias",
+        "url": "https://rr.pt/artigo/francisco-sarsfield-cabral/2025/03/14/agua-um-problema-portugues/417474/?utm_medium=rss"
+    },
+    {
+        "category": "",
+        "source": "Renascença",
+        "mapped_category": "Outras Notícias",
         "url": "https://rr.pt/artigo/hora-da-verdade/2025/03/13/nuno-melo-a-crise-politica-e-os-novos-cacas/417462/?utm_medium=rss"
     },
     {
         "category": "+E",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/revista-e/-e/2025-03-13-montenegro-rei-do-drama-governo-sob-pressao-a-historia-que-nao-se-repete--1b00ba22"
+        "url": "https://expresso.pt/semanario/revista-e/-e/2025-03-13-no-meu-quarteirao-um-dia-as-pessoas-desapareceram.-e-eu-nao-percebia-entrevista-a-theaster-gates-artista-e-ativista-do-imobiliario-e77b9ef3"
     },
     {
         "category": "+E",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/revista-e/-e/2025-03-13-no-meu-quarteirao-um-dia-as-pessoas-desapareceram.-e-eu-nao-percebia-entrevista-a-theaster-gates-artista-e-ativista-do-imobiliario-e77b9ef3"
+        "url": "https://expresso.pt/semanario/revista-e/-e/2025-03-13-montenegro-rei-do-drama-governo-sob-pressao-a-historia-que-nao-se-repete--1b00ba22"
     },
     {
         "category": "A semana",
@@ -75,7 +75,19 @@
         "category": "Crise política",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/politica/crise/2025-03-13-montenegro-fragilizado-psd-amarrado-ao-lider-culpar-o-ps-e-mostrar-governacao-virtuosa-sao-as-estrategias-para-a-campanha--8e2274f0"
+    },
+    {
+        "category": "Crise política",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/crise/2025-03-13-fatima-futebol-e-eleicoes-as-variante-que-levaram-o-presidente-a-escolher-18-de-maio-e55d1a29"
+    },
+    {
+        "category": "Crise política",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/politica/crise/2025-03-13-liberais-abertos-a-acordo-com-ad-querem-ser-o-adulto-na-sala-6399051f"
     },
     {
         "category": "Crise política",
@@ -88,18 +100,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/crise/2025-03-14-fernando-medina-anteve-o-pior-que-proximo-governo-mantenha-profundas-fragilidades-politicas-ou-pior-fique-nas-maos-da-extrema-direita-9593cf60"
-    },
-    {
-        "category": "Crise política",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/crise/2025-03-13-montenegro-fragilizado-psd-amarrado-ao-lider-culpar-o-ps-e-mostrar-governacao-virtuosa-sao-as-estrategias-para-a-campanha--8e2274f0"
-    },
-    {
-        "category": "Crise política",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/crise/2025-03-13-liberais-abertos-a-acordo-com-ad-querem-ser-o-adulto-na-sala-6399051f"
     },
     {
         "category": "Crise política",
@@ -190,6 +190,12 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/culturas/teatro--danca/2025-03-13-como-se-aproximar-de-um-pai-que-ja-partiu-a-missao-e-a-danca-de-ines-sybille-vooduness-9d7f5d75"
+    },
+    {
+        "category": "Transportes",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/economia/transportes/2025-03-14-aviao-com-178-a-bordo-incendeia-se-ao-aterrar-em-denver-mas-sem-causar-feridos-graves-3673f8c4"
     },
     {
         "category": "Transportes",
