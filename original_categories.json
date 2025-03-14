@@ -6,12 +6,6 @@
         "url": "https://rr.pt/artigo/sao-bento-a-sexta/2025/03/14/ps-admite-formar-governo-se-ficar-em-segundo-lugar-nas-eleicoes/417596/?utm_medium=rss"
     },
     {
-        "category": "",
-        "source": "Renascença",
-        "mapped_category": "Outras Notícias",
-        "url": "https://rr.pt/artigo/novas-cronicas-da-idade-midia/2025/03/14/as-legislativas-que-ninguem-quer/417578/?utm_medium=rss"
-    },
-    {
         "category": "Angola",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -39,7 +33,13 @@
         "category": "Crise política",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/crise/2025-03-14-parlamento-alteracoes-sobre-declaracao-de-patrimonio-dos-politicos-tambem-ficam-pelo-caminho-332324e7-1"
+        "url": "https://expresso.pt/politica/crise/2025-03-14-montenegro-queixa-se-de-deturpacao-entreguei-toda-a-documentacao-que-me-foi-pedida-0e4b76b2"
+    },
+    {
+        "category": "Crise política",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/politica/crise/2025-03-14-montenegro-fragilizado-psd-amarrado-ao-lider-culpar-o-ps-e-mostrar-governacao-virtuosa-sao-as-estrategias-para-a-campanha-8e2274f0"
     },
     {
         "category": "Crise política",
@@ -51,13 +51,7 @@
         "category": "Crise política",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/crise/2025-03-14-montenegro-queixa-se-de-deturpacao-entreguei-toda-a-documentacao-que-me-foi-pedida-0e4b76b2"
-    },
-    {
-        "category": "Crise política",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/crise/2025-03-14-montenegro-fragilizado-psd-amarrado-ao-lider-culpar-o-ps-e-mostrar-governacao-virtuosa-sao-as-estrategias-para-a-campanha-8e2274f0"
+        "url": "https://expresso.pt/politica/crise/2025-03-14-parlamento-alteracoes-sobre-declaracao-de-patrimonio-dos-politicos-tambem-ficam-pelo-caminho-332324e7-1"
     },
     {
         "category": "EILive",
@@ -93,12 +87,6 @@
         "category": "Guerra na Ucrânia",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-14-trump-diz-que-ha-uma-hipotese-muito-boa-de-acabar-com-a-guerra-e-pede-a-putin-para-poupar-soldados-ucranianos-0c0e3770"
-    },
-    {
-        "category": "Guerra na Ucrânia",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-14-ucrania-comissao-independente-da-onu-atribui-crimes-contra-a-humanidade-a-russia-9f98954d"
     },
     {
@@ -108,10 +96,22 @@
         "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-14-proposta-de-cessar-fogo-na-ucrania-as-exigencias-de-putin-a-reacao-de-zelensky-e-a-chamada-que-se-avizinha-35b5626b"
     },
     {
+        "category": "Guerra na Ucrânia",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-14-trump-diz-que-ha-uma-hipotese-muito-boa-de-acabar-com-a-guerra-e-pede-a-putin-para-poupar-soldados-ucranianos-0c0e3770"
+    },
+    {
         "category": "Jogo Aberto",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/jogo-aberto/2025-03-14-nuno-luz-roberto-martinez-nao-foi-feliz-com-as-palavras-que-escolheu-dizer-lesao-cronica-e-grave-980828a8"
+    },
+    {
+        "category": "Mais Modalidades",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/outras-modalidades/fernando-gomes-acusa-artur-lopes-de-falta-de-equidade-e-etica-na-corrida-ao-cop_d1640910"
     },
     {
         "category": "O Vale Era Verde",
@@ -147,7 +147,7 @@
         "category": "Taça de Portugal",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/futebol-nacional/sporting-rio-ave-da-taca-em-03-de-abril-tirsense-benfica-em-09-de-abril_d1640895"
+        "url": "https://www.rtp.pt/noticias/taca-de-portugal/sporting-rio-ave-da-taca-em-03-de-abril-tirsense-benfica-em-09-de-abril_d1640895"
     },
     {
         "category": "Tecnologia",
@@ -171,19 +171,19 @@
         "category": "Turismo",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/economia/economia_turismo/2025-03-14-passageiros-nos-aeroportos-nacionais-aumentam-6-em-janeiro-para-42-milhoes-bb6eccec"
+        "url": "https://expresso.pt/economia/economia_turismo/2025-03-14-btl-acelera-reunioes-entre-empresas-turisticas-esta-a-ser-uma-feira-muito-util-para-fazer-negocios-78350f86"
     },
     {
         "category": "Turismo",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/economia/economia_turismo/2025-03-14-btl-acelera-reunioes-entre-empresas-turisticas-esta-a-ser-uma-feira-muito-util-para-fazer-negocios-78350f86"
+        "url": "https://expresso.pt/economia/economia_turismo/2025-03-14-passageiros-nos-aeroportos-nacionais-aumentam-6-em-janeiro-para-42-milhoes-bb6eccec"
     },
     {
         "category": "Ténis",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/tenis/nuno-borges-regressa-as-meias-finais-do-challenger-de-phoenix_d1640892"
+        "url": "https://www.rtp.pt/noticias/outras-modalidades/nuno-borges-regressa-as-meias-finais-do-challenger-de-phoenix_d1640892"
     },
     {
         "category": "VISÃO Saúde",
