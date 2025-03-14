@@ -1,0 +1,40 @@
+name: Atualizar JSON de Notícias
+
+on:
+  schedule:
+    - cron: "*/15 6-23 * * *"  # Executa a cada 15 minutos das 06:00 às 23:59
+    - cron: "0 0-5 * * *"      # Executa a cada hora das 00:00 às 05:59
+  workflow_dispatch:  # Permite execução manual
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Executar script para atualizar JSON
+        run: python RSS_API.py
+
+      - name: Fazer commit dos JSONs (reescrever histórico)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Adicionar ambos os arquivos JSON
+          git add articles.json original_categories.json
+          
+          # Verificar se houve alterações e realizar o commit
+          git diff --cached --quiet || git commit -m "Atualização automática do JSON"
+          
+          # Push forçado para garantir que o histórico seja sobrescrito
+          git push --force origin main
