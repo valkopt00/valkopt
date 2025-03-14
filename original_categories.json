@@ -24,10 +24,10 @@
         "url": "https://expresso.pt/internacional/angola/2025-03-14-ex-presidente-colombiano-pastrana-libertado-apos-ficar-retido-no-aeroporto-de-luanda-77e79d22"
     },
     {
-        "category": "Atletismo",
-        "source": "RTP Notícias",
+        "category": "Arquitectura",
+        "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/outras-modalidades/pichardo-passa-a-competir-pelos-italianos-do-atl-etica_d1640863"
+        "url": "https://www.publico.pt/2025/03/14/culturaipsilon/noticia/administracao-trump-quer-vender-centenas-edificios-federais-obras-mies-breuer-lista-2126035"
     },
     {
         "category": "Boa Cama Boa Mesa",
@@ -36,10 +36,10 @@
         "url": "https://expresso.pt/boa-cama-boa-mesa/2025-03-14-hotel-do-sono-no-alentejo-celebra-primavera-com-novos-tratamentos-e-banhos-de-floresta-4467cf8d"
     },
     {
-        "category": "Crise política",
-        "source": "Expresso",
+        "category": "Cidadania",
+        "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/crise/2025-03-14-montenegro-queixa-se-de-deturpacao-entreguei-toda-a-documentacao-que-me-foi-pedida-0e4b76b2"
+        "url": "https://www.publico.pt/2025/03/14/publico-brasil/noticia/lei-nacionalidade-casa-brasil-ajudara-imigrantes-junto-aima-2126068"
     },
     {
         "category": "Crise política",
@@ -58,6 +58,12 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/crise/2025-03-14-parlamento-alteracoes-sobre-declaracao-de-patrimonio-dos-politicos-tambem-ficam-pelo-caminho-332324e7-1"
+    },
+    {
+        "category": "Crise política",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/politica/crise/2025-03-14-montenegro-queixa-se-de-deturpacao-entreguei-toda-a-documentacao-que-me-foi-pedida-0e4b76b2"
     },
     {
         "category": "EILive",
@@ -108,6 +114,12 @@
         "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-14-ucrania-comissao-independente-da-onu-atribui-crimes-contra-a-humanidade-a-russia-9f98954d"
     },
     {
+        "category": "Guiné-Bissau",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/14/mundo/noticia/parlamento-unico-legal-guinebissau-embalo-ja-nao-presidente-2126059"
+    },
+    {
         "category": "IEFP",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -126,10 +138,16 @@
         "url": "https://expresso.pt/podcasts/jogo-aberto/2025-03-14-nuno-luz-roberto-martinez-nao-foi-feliz-com-as-palavras-que-escolheu-dizer-lesao-cronica-e-grave-980828a8"
     },
     {
-        "category": "Lazer",
-        "source": "Público",
+        "category": "Mais Modalidades",
+        "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/14/fugas/noticia/neste-fimdesemana-celebrar-museu-gulbenkian-coleccao-fittipaldi-2126051"
+        "url": "https://www.rtp.pt/noticias/outras-modalidades/nuno-borges-regressa-as-meias-finais-do-challenger-de-phoenix_d1640892"
+    },
+    {
+        "category": "Mais Modalidades",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/outras-modalidades/pichardo-passa-a-competir-pelos-italianos-do-atl-etica_d1640863"
     },
     {
         "category": "O Vale Era Verde",
@@ -150,12 +168,6 @@
         "url": "https://expresso.pt/economia/sistema-financeiro/2025-03-14-sociedade-financeira-espanhola-uci-quer-dar-credito-aos-jovens-em-portugal-com-garantia-do-estado-3f02987f"
     },
     {
-        "category": "Taça de Portugal",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/taca-de-portugal/sporting-rio-ave-da-taca-em-03-de-abril-tirsense-benfica-em-09-de-abril_d1640895"
-    },
-    {
         "category": "Tecnologia",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -168,12 +180,6 @@
         "url": "https://expresso.pt/sociedade/tecnologia/2025-03-14-modelo-de-ia-gemini-da-google-vai-poder-aceder-ao-historico-de-pesquisa-72ba5fc5"
     },
     {
-        "category": "Televisão",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/14/culturaipsilon/noticia/fimdesemana-tv-ingmar-bergman-sly-stone-dee-dee-bridgewater-2126010"
-    },
-    {
         "category": "Transportes",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -183,30 +189,18 @@
         "category": "Turismo",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/economia/economia_turismo/2025-03-14-btl-acelera-reunioes-entre-empresas-turisticas-esta-a-ser-uma-feira-muito-util-para-fazer-negocios-78350f86"
+        "url": "https://expresso.pt/economia/economia_turismo/2025-03-14-passageiros-nos-aeroportos-nacionais-aumentam-6-em-janeiro-para-42-milhoes-bb6eccec"
     },
     {
         "category": "Turismo",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/economia/economia_turismo/2025-03-14-passageiros-nos-aeroportos-nacionais-aumentam-6-em-janeiro-para-42-milhoes-bb6eccec"
-    },
-    {
-        "category": "Ténis",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/outras-modalidades/nuno-borges-regressa-as-meias-finais-do-challenger-de-phoenix_d1640892"
+        "url": "https://expresso.pt/economia/economia_turismo/2025-03-14-btl-acelera-reunioes-entre-empresas-turisticas-esta-a-ser-uma-feira-muito-util-para-fazer-negocios-78350f86"
     },
     {
         "category": "VISÃO Saúde",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/visaosaude/2025-03-14-precisamos-mesmo-de-suplementos-depois-dos-60-anos/?utm_source=rss&utm_medium=rss&utm_campaign=precisamos-mesmo-de-suplementos-depois-dos-60-anos"
-    },
-    {
-        "category": "Água",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/14/azul/noticia/governo-alivia-restricoes-consumo-agua-algarve-5-2126040"
     }
 ]
