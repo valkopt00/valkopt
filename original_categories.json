@@ -1,5 +1,11 @@
 [
     {
+        "category": "1.ª Liga",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/1a-liga/hugo-oliveira-garante-famalicao-com-identidade-inalterada-em-alvalade_d1640842"
+    },
+    {
         "category": "A Beleza das Pequenas Coisas",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -18,6 +24,12 @@
         "url": "https://expresso.pt/podcasts/antes-pelo-contrario/2025-03-14-roteiros-2025-eleicoes-convocadas-lamentos-de-marcelo-b203b73b"
     },
     {
+        "category": "Atletismo",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/atletismo/pichardo-passa-a-competir-pelos-italianos-do-atl-etica_d1640863"
+    },
+    {
         "category": "Boa Cama Boa Mesa",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -30,16 +42,10 @@
         "url": "https://expresso.pt/podcasts/chave-na-mao/2025-03-14-ha-pressoes-por-parte-de-senhorios-para-que-as-pessoas-saiam-antes-do-fim-do-contrato.-53-refere-situacoes-de-inseguranca-contratual-7be090ba"
     },
     {
-        "category": "Crise política",
-        "source": "Expresso",
+        "category": "Ciclismo",
+        "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/crise/2025-03-14-cds-ficou-fora-das-decisoes-mas-quer-coligacao-para-as-legislativas-d76f5d76"
-    },
-    {
-        "category": "Crise política",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/crise/2025-03-14-medina-demarcou-se-da-direcao-do-ps-sem-aviso-previo-07392d3d"
+        "url": "https://www.rtp.pt/noticias/ciclismo/joao-almeida-caiu-na-armadilha-da-visma-e-perdeu-opcoes-de-lutar-pelo-paris-nice_d1640839"
     },
     {
         "category": "Crise política",
@@ -52,6 +58,18 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/crise/2025-03-14-montenegro-fragilizado-psd-amarrado-ao-lider-culpar-o-ps-e-mostrar-governacao-virtuosa-sao-as-estrategias-para-a-campanha-8e2274f0"
+    },
+    {
+        "category": "Crise política",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/politica/crise/2025-03-14-medina-demarcou-se-da-direcao-do-ps-sem-aviso-previo-07392d3d"
+    },
+    {
+        "category": "Crise política",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/politica/crise/2025-03-14-cds-ficou-fora-das-decisoes-mas-quer-coligacao-para-as-legislativas-d76f5d76"
     },
     {
         "category": "EILive",
@@ -75,6 +93,12 @@
         "category": "Guerra na Ucrânia",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-14-ucrania-comissao-independente-da-onu-atribui-crimes-contra-a-humanidade-a-russia-9f98954d"
+    },
+    {
+        "category": "Guerra na Ucrânia",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-14-proposta-de-cessar-fogo-na-ucrania-as-exigencias-de-putin-a-reacao-de-zelensky-e-a-chamada-que-se-avizinha-35b5626b"
     },
     {
@@ -82,12 +106,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-14-trump-diz-que-ha-uma-hipotese-muito-boa-de-acabar-com-a-guerra-e-pede-a-putin-para-poupar-soldados-ucranianos-0c0e3770"
-    },
-    {
-        "category": "Guerra na Ucrânia",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-14-ucrania-comissao-independente-da-onu-atribui-crimes-contra-a-humanidade-a-russia-9f98954d"
     },
     {
         "category": "Insólito",
@@ -106,18 +124,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/14/local/noticia/cidadaos-protestam-hotel-quartel-graca-exigem-centro-comunitario-2126006"
-    },
-    {
-        "category": "Mais Modalidades",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/atletismo/pichardo-passa-a-competir-pelos-italianos-do-atl-etica_d1640863"
-    },
-    {
-        "category": "Mais Modalidades",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/outras-modalidades/joao-almeida-caiu-na-armadilha-da-visma-e-perdeu-opcoes-de-lutar-pelo-paris-nice_d1640839"
     },
     {
         "category": "Música",
@@ -150,6 +156,12 @@
         "url": "https://www.publico.pt/2025/03/14/fugas/opiniao/docura-campo-subsidios-2125350"
     },
     {
+        "category": "Parlamento Europeu",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/14/sociedade/noticia/parlamento-europeu-suspende-acesso-representantes-huawei-precaucao-2126026"
+    },
+    {
         "category": "Rússia",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -171,13 +183,13 @@
         "category": "Tecnologia",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/sociedade/tecnologia/2025-03-14-modelo-de-ia-gemini-da-google-vai-poder-aceder-ao-historico-de-pesquisa-72ba5fc5"
+        "url": "https://expresso.pt/sociedade/tecnologia/2025-03-14-antonio-costa-usado-por-rede-de-desinformacao-politica-no-youtube-ia-generativa-foi-utilizada-para-alterar-imagens-e-vozes-b988ac1a"
     },
     {
         "category": "Tecnologia",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/sociedade/tecnologia/2025-03-14-antonio-costa-usado-por-rede-de-desinformacao-politica-no-youtube-ia-generativa-foi-utilizada-para-alterar-imagens-e-vozes-b988ac1a"
+        "url": "https://expresso.pt/sociedade/tecnologia/2025-03-14-modelo-de-ia-gemini-da-google-vai-poder-aceder-ao-historico-de-pesquisa-72ba5fc5"
     },
     {
         "category": "Tecnologia",
@@ -189,12 +201,18 @@
         "category": "Turismo",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/economia/economia_turismo/2025-03-14-btl-acelera-reunioes-entre-empresas-turisticas-esta-a-ser-uma-feira-muito-util-para-fazer-negocios-78350f86"
+        "url": "https://expresso.pt/economia/economia_turismo/2025-03-14-passageiros-nos-aeroportos-nacionais-aumentam-6-em-janeiro-para-42-milhoes-bb6eccec"
     },
     {
         "category": "Turismo",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/economia/economia_turismo/2025-03-14-passageiros-nos-aeroportos-nacionais-aumentam-6-em-janeiro-para-42-milhoes-bb6eccec"
+        "url": "https://expresso.pt/economia/economia_turismo/2025-03-14-btl-acelera-reunioes-entre-empresas-turisticas-esta-a-ser-uma-feira-muito-util-para-fazer-negocios-78350f86"
+    },
+    {
+        "category": "VISÃO Saúde",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/visaosaude/2025-03-14-precisamos-mesmo-de-suplementos-depois-dos-60-anos/?utm_source=rss&utm_medium=rss&utm_campaign=precisamos-mesmo-de-suplementos-depois-dos-60-anos"
     }
 ]
