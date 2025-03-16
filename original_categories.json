@@ -1,11 +1,5 @@
 [
     {
-        "category": "Alta Definição",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/alta-definicao/2025-03-15-paula-magalhaes-sofri-de-bullying-mas-com-o-tempo-ganhei-uma-aversao-a-ser-vitima-e-passei-a-fazer-bullying.-era-uma-forma-de-defesa-26c49f4c"
-    },
-    {
         "category": "Boa Cama Boa Mesa",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -16,6 +10,12 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/brasil/2025-03-16-eu-vou-ser-um-problema-para-eles-preso-ou-morto-bolsonaro-e-recebido-por-milhares-de-apoiantes-no-rio-de-janeiro-54f7de23"
+    },
+    {
+        "category": "Crianças",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/16/sociedade/noticia/pensoes-alimentos-pagas-estado-desceram-224-milhoes-ano-passado-2126009"
     },
     {
         "category": "Crise política",
@@ -30,10 +30,22 @@
         "url": "https://www.publico.pt/2025/03/16/politica/noticia/ventura-cita-tiririca-revela-plano-dia-mandato-2126181"
     },
     {
+        "category": "Crónica de jogo",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/16/desporto/cronica_de_jogo/benfica-derrota-rio-ave-quase-afectado-virose-2126186"
+    },
+    {
         "category": "Descodificador",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/economia/descodificador/2025-03-16-sobreiros-ou-paineis-solares-eis-a-questao-quatro-perguntas-e-respostas-sobre-as-autorizacoes-de-abate-do-governo-fc2b1034"
+    },
+    {
+        "category": "Editorial",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/16/opiniao/editorial/insulto-portugueses-2126141"
     },
     {
         "category": "Elefante na Sala",
@@ -60,28 +72,16 @@
         "url": "https://expresso.pt/podcasts/facto-politico/2025-03-15-pinto-luz-ad-mantem-nao-e-nao-ao-chega-0cb7d7d4"
     },
     {
-        "category": "Fugas",
+        "category": "Futebol internacional",
         "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/16/newsletter/fugas"
+        "url": "https://www.publico.pt/2025/03/16/desporto/noticia/nova-vida-joelinton-vida-nova-newcastle-2126192"
     },
     {
         "category": "Guerra na Ucrânia",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-15-zelensky-acusa-putin-esta-a-mentir-sobre-o-cessar-fogo-ser-alegadamente-muito-complicado-2393ed62"
-    },
-    {
-        "category": "Imigração",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/16/mundo/noticia/eua-expulsam-centenas-venezuelanos-horas-juiz-travar-deportacoes-2126175"
-    },
-    {
-        "category": "Lazer",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/16/fugas/noticia/segunda-dia-escutar-sokolov-obra-vivian-suter-2126055"
     },
     {
         "category": "Linhas Direitas",
@@ -99,25 +99,13 @@
         "category": "Mais Modalidades",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/outras-modalidades/portugal-falha-podio-do-rec25_d1641257"
-    },
-    {
-        "category": "Mais Modalidades",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/outras-modalidades/jorgenson-confirma-triunfo-no-paris-nice_d1641240"
-    },
-    {
-        "category": "Mais Modalidades",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/outras-modalidades/andreeva-campea-em-indian-wells_d1641285"
     },
     {
         "category": "Mais Modalidades",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/outras-modalidades/principais-candidatas-garantem-vaga-nos-quartosem-peniche_d1641258"
+        "url": "https://www.rtp.pt/noticias/outras-modalidades/jorgenson-confirma-triunfo-no-paris-nice_d1641240"
     },
     {
         "category": "Mais Modalidades",
@@ -132,10 +120,16 @@
         "url": "https://www.rtp.pt/noticias/outras-modalidades/portugal-carimba-quarta-presenca-seguida-no-europeu_d1641262"
     },
     {
-        "category": "MotoGP",
-        "source": "Público",
+        "category": "Mais Modalidades",
+        "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/16/desporto/noticia/marc-marquez-vence-gp-argentina-motogp-alarga-vantagem-mundial-2126184"
+        "url": "https://www.rtp.pt/noticias/outras-modalidades/portugal-falha-podio-do-rec25_d1641257"
+    },
+    {
+        "category": "Mais Modalidades",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/outras-modalidades/principais-candidatas-garantem-vaga-nos-quartosem-peniche_d1641258"
     },
     {
         "category": "Na primeira pessoa",
@@ -150,10 +144,10 @@
         "url": "https://expresso.pt/podcasts/o-animal-que-ri/2025-03-16-uma-pessoa-com-deficiencia-retratada-pelos-media-era-sempre-o-coitadinho.-como-e-que-desmistifico-isto--vao-fazer-de-mim-algo-que-nao-sou-8eb72508"
     },
     {
-        "category": "Religião",
-        "source": "Expresso",
+        "category": "Peru",
+        "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/sociedade/religiao/2025-03-16-de-costas-sentado-numa-cadeira-de-rodas-e-a-rezar-vaticano-divulgou-primeira-fotografia-do-papa-desde-o-internamento-6507fae8"
+        "url": "https://www.publico.pt/2025/03/16/mundo/noticia/vida-maximo-pescador-resgatado-apos-tres-meses-deriva-oceano-pacifico-2126183"
     },
     {
         "category": "Religião",
@@ -162,10 +156,16 @@
         "url": "https://expresso.pt/sociedade/religiao/2025-03-15-papa-vai-continuar-internado-por-periodo-indeterminado-porque-necessita-ainda-de-tratamento-hospitalar-fisioterapia-motora-e-respiratoria-53dab99c"
     },
     {
-        "category": "Râguebi",
+        "category": "Religião",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/sociedade/religiao/2025-03-16-de-costas-sentado-numa-cadeira-de-rodas-e-a-rezar-vaticano-divulgou-primeira-fotografia-do-papa-desde-o-internamento-6507fae8"
+    },
+    {
+        "category": "Roménia",
         "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/16/desporto/noticia/portugal-perde-raguebi-faz-exibicao-cinzenta-2126177"
+        "url": "https://www.publico.pt/2025/03/16/mundo/noticia/romenia-comissao-eleitoral-recusa-candidatura-extremadireita-aceita-2126191"
     },
     {
         "category": "Seleção Nacional",
@@ -190,12 +190,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/cultura/sugestoes_culturais_televisao/2025-03-16-minisserie-adolescencia-e-a-mais-vista-na-netflix-historia-de-um-jovem-acusado-de-homicidio-foi-filmada-em-plano-sequencia-02c52c61"
-    },
-    {
-        "category": "Televisão",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/16/culturaipsilon/noticia/segunda-tv-infancia-deriva-mulheres-espias-acores-ilhas-2126014"
     },
     {
         "category": "Tendências",
