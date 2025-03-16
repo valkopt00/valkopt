@@ -9,12 +9,6 @@
         "category": "Boa Cama Boa Mesa",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/boa-cama-boa-mesa/2025-03-15-sabores-ao-centro-novo-projeto-vai-destacar-os-melhores-restaurantes-e-produtos-da-regiao-0f18fd97"
-    },
-    {
-        "category": "Boa Cama Boa Mesa",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/boa-cama-boa-mesa/2025-03-15-restaurante-portugues-uma-casa-fecha-portas-ao-fim-de-oito-anos-em-sao-francisco-8889efd3"
     },
     {
@@ -54,12 +48,6 @@
         "url": "https://expresso.pt/semanario/economia/descodificador/2025-03-16-sobreiros-ou-paineis-solares-eis-a-questao-quatro-perguntas-e-respostas-sobre-as-autorizacoes-de-abate-do-governo-fc2b1034"
     },
     {
-        "category": "Economia dia a dia",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/economia-dia-a-dia/2025-03-15-investimento-europeu-em-defesa-portugal-pode-ter-um-papel-relevante-nesta-materia--c88a5526"
-    },
-    {
         "category": "Elefante na Sala",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -78,22 +66,40 @@
         "url": "https://expresso.pt/podcasts/facto-politico/2025-03-15-pinto-luz-ad-mantem-nao-e-nao-ao-chega-0cb7d7d4"
     },
     {
+        "category": "Fugas",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/16/newsletter/fugas"
+    },
+    {
         "category": "Guerra na Ucrânia",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/guerra-na-ucrania/2025-03-15-zelensky-acusa-putin-esta-a-mentir-sobre-o-cessar-fogo-ser-alegadamente-muito-complicado-2393ed62"
     },
     {
-        "category": "Iémen",
+        "category": "Imigração",
         "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/16/mundo/noticia/eua-avisaram-russia-ataque-houthis-iemen-2126169"
+        "url": "https://www.publico.pt/2025/03/16/mundo/noticia/eua-expulsam-centenas-venezuelanos-horas-juiz-travar-deportacoes-2126175"
+    },
+    {
+        "category": "Lazer",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/16/fugas/noticia/segunda-dia-escutar-sokolov-obra-vivian-suter-2126055"
     },
     {
         "category": "Linhas Direitas",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/ponto-de-vista/linhas-direitas/2025-03-16-portugal-sem-f-35/?utm_source=rss&utm_medium=rss&utm_campaign=portugal-sem-f-35"
+    },
+    {
+        "category": "Lusa",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/lusa/2025-03-16-venezuela-condena-lei-anacronica-e-ilegal-usada-por-eua-para-expulsar-imigrantes-87d57f75"
     },
     {
         "category": "Luís Montenegro",
@@ -105,19 +111,13 @@
         "category": "Mais Modalidades",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/outras-modalidades/frederico-morais-eliminado-em-peniche_d1641217"
+    },
+    {
+        "category": "Mais Modalidades",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/outras-modalidades/yolanda-hopkins-nona-em-peniche_d1641216"
-    },
-    {
-        "category": "Mais Modalidades",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/outras-modalidades/liliana-ca-conquista-prata-na-taca-da-europa-de-lancamentos_d1641251"
-    },
-    {
-        "category": "Mais Modalidades",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/outras-modalidades/jorgenson-confirma-triunfo-no-paris-nice_d1641240"
     },
     {
         "category": "Mais Modalidades",
@@ -129,19 +129,25 @@
         "category": "Mais Modalidades",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/outras-modalidades/ayuso-conquista-tirreno-adriatico_d1641221"
-    },
-    {
-        "category": "Mais Modalidades",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/outras-modalidades/frederico-morais-eliminado-em-peniche_d1641217"
+        "url": "https://www.rtp.pt/noticias/outras-modalidades/liliana-ca-conquista-prata-na-taca-da-europa-de-lancamentos_d1641251"
     },
     {
         "category": "Mais Modalidades",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/outras-modalidades/draper-elimina-alcaraz-em-indian-wells_d1641202"
+    },
+    {
+        "category": "Mais Modalidades",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/outras-modalidades/jorgenson-confirma-triunfo-no-paris-nice_d1641240"
+    },
+    {
+        "category": "Mais Modalidades",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/outras-modalidades/ayuso-conquista-tirreno-adriatico_d1641221"
     },
     {
         "category": "Na primeira pessoa",
@@ -162,28 +168,16 @@
         "url": "https://www.publico.pt/2025/03/16/culturaipsilon/noticia/relevo-quase-500-anos-recuperou-cores-vibrantes-ceu-alvorada-sapo-2126083"
     },
     {
-        "category": "Programa Cujo Nome Estamos Legalmente Impedidos de Dizer",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/governo-sombra/2025-03-15-os-livros-da-semana-russia-mafia-cinicos-e-suicidas-705a2dc8"
-    },
-    {
-        "category": "Programa Cujo Nome Estamos Legalmente Impedidos de Dizer",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/governo-sombra/2025-03-15-no-centro-de-portugal-8bfe6993"
-    },
-    {
-        "category": "Público Brasil",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/16/publico-brasil/entrevista/brasileiros-podem-diferenca-eleicao-ordem-advogados-portugal-2126132"
-    },
-    {
         "category": "Religião",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/religiao/2025-03-15-papa-vai-continuar-internado-por-periodo-indeterminado-porque-necessita-ainda-de-tratamento-hospitalar-fisioterapia-motora-e-respiratoria-53dab99c"
+    },
+    {
+        "category": "Râguebi",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/16/desporto/noticia/portugal-perde-raguebi-faz-exibicao-cinzenta-2126177"
     },
     {
         "category": "Seleção Nacional",
@@ -214,12 +208,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/16/local/reportagem/envelhecimento-galopante-vila-flor-luta-nao-deixar-existir-2124918"
-    },
-    {
-        "category": "Turismo",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/16/fugas/noticia/luxo-mochileiro-douro-busca-turistas-douro-es-2125370"
     },
     {
         "category": "VISÃO Saúde",
