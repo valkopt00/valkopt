@@ -15,12 +15,6 @@
         "category": "",
         "source": "Renascença",
         "mapped_category": "Outras Notícias",
-        "url": "https://rr.pt/artigo/ribeiro-cristovao/2025/03/17/a-ultima-paragem/417823/?utm_medium=rss"
-    },
-    {
-        "category": "",
-        "source": "Renascença",
-        "mapped_category": "Outras Notícias",
         "url": "https://rr.pt/artigo/joao-pedro-tavares/2025/03/17/podemos-sonhar-com-um-mundo-fratelli-tutti/417828/?utm_medium=rss"
     },
     {
@@ -28,6 +22,12 @@
         "source": "Renascença",
         "mapped_category": "Outras Notícias",
         "url": "https://rr.pt/artigo/francisco-sarsfield-cabral/2025/03/17/a-dificil-relacao-europa-eua/417825/?utm_medium=rss"
+    },
+    {
+        "category": "",
+        "source": "Renascença",
+        "mapped_category": "Outras Notícias",
+        "url": "https://rr.pt/artigo/ribeiro-cristovao/2025/03/17/a-ultima-paragem/417823/?utm_medium=rss"
     },
     {
         "category": "+E",
@@ -96,6 +96,18 @@
         "url": "https://www.publico.pt/2025/03/16/ciencia/noticia/astronautas-retidos-estacao-espacial-internacional-recebem-substitutos-bordo-2126196"
     },
     {
+        "category": "Europa",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/internacional/europa/2025-03-17-governo-da-servia-nega-ataque-ilegal-com-arma-sonica-contra-manifestantes-8722e527"
+    },
+    {
+        "category": "Expresso Fundamental",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/expresso-fundamental/2025-03-17-ultimas-noticias-de-segunda-feira-dia-17-de-marco-2025-96bf1805"
+    },
+    {
         "category": "Futebol internacional",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -105,19 +117,25 @@
         "category": "Geração E",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/geracao-e/2025-03-17-caros-membros-do-habeas-corpus-a-comunidade-lgbt-nao-e-um-perigo-nem-para-as-criancas-nem-para-os-jovens-nem-para-os-avos-9bb0b00b"
+        "url": "https://expresso.pt/geracao-e/2025-03-17-que-horas-sao-na-etiopia--cronica-de-uma-viagem-ao-pais-do-cafe-8f3c8838"
     },
     {
         "category": "Geração E",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/geracao-e/2025-03-17-que-horas-sao-na-etiopia--cronica-de-uma-viagem-ao-pais-do-cafe-8f3c8838"
+        "url": "https://expresso.pt/geracao-e/2025-03-17-caros-membros-do-habeas-corpus-a-comunidade-lgbt-nao-e-um-perigo-nem-para-as-criancas-nem-para-os-jovens-nem-para-os-avos-9bb0b00b"
     },
     {
         "category": "Guerra Fria",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/guerra-fria/2025-03-16-estamos-a-assistir-ao-fim-da-guerra-na-ucrania--qualquer-acordo-de-cessar-fogo-esta-neste-momento-preso-por-arames-7b97fa01"
+    },
+    {
+        "category": "Guerra na Ucrânia",
+        "source": "Correio Da Manhã",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.cmjornal.pt/mais-cm/especiais/guerra-na-ucrania/detalhe/ministros-dos-negocios-estrangeiros-da-uniao-europeia-reunem-se-hoje-para-discutir-situacao-na-ucrania"
     },
     {
         "category": "Guerra na Ucrânia",
@@ -195,13 +213,13 @@
         "category": "Religião",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/sociedade/religiao/2025-03-16-de-costas-sentado-numa-cadeira-de-rodas-e-a-rezar-vaticano-divulgou-primeira-fotografia-do-papa-desde-o-internamento-6507fae8"
+        "url": "https://expresso.pt/sociedade/religiao/2025-03-15-papa-vai-continuar-internado-por-periodo-indeterminado-porque-necessita-ainda-de-tratamento-hospitalar-fisioterapia-motora-e-respiratoria-53dab99c"
     },
     {
         "category": "Religião",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/sociedade/religiao/2025-03-15-papa-vai-continuar-internado-por-periodo-indeterminado-porque-necessita-ainda-de-tratamento-hospitalar-fisioterapia-motora-e-respiratoria-53dab99c"
+        "url": "https://expresso.pt/sociedade/religiao/2025-03-16-de-costas-sentado-numa-cadeira-de-rodas-e-a-rezar-vaticano-divulgou-primeira-fotografia-do-papa-desde-o-internamento-6507fae8"
     },
     {
         "category": "Tecnologia",
