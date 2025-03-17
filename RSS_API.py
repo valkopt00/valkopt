@@ -549,37 +549,58 @@ def export_original_categories_to_json(articles):
         filtered_articles = [article for article in articles if article.get("category", "").strip() == "Outras Notícias"]
         print(f"Found {len(filtered_articles)} articles with category 'Outras Notícias'")
 
-        # Set para armazenar tuples únicos (categoria_original, fonte, categoria_mapeada)
-        unique_entries = set()
-
+        # Carrega o arquivo existente, se houver
+        existing_entries = []
+        try:
+            with open("original_categories.json", "r", encoding="utf-8") as f:
+                existing_entries = json.load(f)
+                print(f"Loaded {len(existing_entries)} existing entries from file")
+        except (FileNotFoundError, json.JSONDecodeError):
+            print("No existing file found or file is empty. Creating new file.")
+        
+        # Cria um conjunto de identificadores únicos para categorias existentes
+        # usando apenas a categoria original como critério de unicidade
+        existing_categories = {entry["category"] for entry in existing_entries}
+        
+        # Processa os novos artigos
+        new_entries = []
         for article in filtered_articles:
             try:
-                # Ignora artigos provenientes do feed da Eurogamer e IGN
                 article_link = article.get("link", "").strip()  
+                # Ignora artigos provenientes do feed da Eurogamer e IGN
                 if "eurogamer.pt" in article_link or "ign.com" in article_link:  
                     continue  
 
                 source = article.get("source", "").strip()
                 mapped_cat = "Outras Notícias"  # Já sabemos que é "Outras Notícias"
-                
-                # Tenta obter a categoria original do artigo
                 orig_cat = article.get("original_category", "").strip()
                 
-                unique_entries.add((orig_cat, source, mapped_cat, article_link))
+                # Verifica se esta categoria já existe no arquivo
+                if orig_cat and orig_cat not in existing_categories:
+                    new_entries.append({
+                        "category": orig_cat, 
+                        "source": source, 
+                        "mapped_category": mapped_cat, 
+                        "url": article_link
+                    })
+                    # Adiciona ao conjunto de categorias para evitar duplicatas no lote atual
+                    existing_categories.add(orig_cat)
             except Exception as e:  
                 print(f"Error processing article: {str(e)}")  
-                continue  
-
-        # Converte o set de tuples para lista de dicionários para o JSON
-        result = [
-            {"category": cat, "source": src, "mapped_category": mapped, "url": url} 
-            for cat, src, mapped, url in sorted(unique_entries, key=lambda x: (x[0], x[1]))
-        ]
+                continue
+        
+        print(f"Found {len(new_entries)} new entries to add")
+        
+        # Combina entradas existentes com novas entradas
+        combined_entries = existing_entries + new_entries
+        
+        # Ordena as entradas
+        combined_entries.sort(key=lambda x: (x["category"], x["source"]))
         
         try:  
             with open("original_categories.json", "w", encoding="utf-8") as f:  
-                json.dump(result, f, ensure_ascii=False, indent=4)  
-            print("Original categories file saved successfully.")  
+                json.dump(combined_entries, f, ensure_ascii=False, indent=4)  
+            print(f"Original categories file saved successfully with {len(combined_entries)} entries.")  
             return True  
         except Exception as e:  
             print(f"Error saving original categories file: {str(e)}")  
