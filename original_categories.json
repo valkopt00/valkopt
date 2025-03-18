@@ -1,5 +1,11 @@
 [
     {
+        "category": "Briefing",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/newsletter/despertador"
+    },
+    {
         "category": "Comissão Política",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -60,6 +66,18 @@
         "url": "https://www.publico.pt/2025/03/18/sociedade/noticia/lares-idosos-privados-vagas-precos-rondar-1500-euros-mes-2126292"
     },
     {
+        "category": "Megafone",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/p3/cronica/sindrome-delirio-europeu-2126003"
+    },
+    {
+        "category": "Música",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/culturaipsilon/noticia/eliades-ochoa-traz-guajiro-portugal-sinto-ha-campones-dentro-mim-2125993"
+    },
+    {
         "category": "O Futuro do Futuro",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -102,10 +120,22 @@
         "url": "https://expresso.pt/premio-nacional-turismo/2025-03-17-dado-o-tiro-de-partida-para-mais-uma-edicao-do-premio-nacional-de-turismo-256ee288"
     },
     {
+        "category": "Que voz é esta?",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/que-voz-e-esta/2025-03-18-ha-ainda-muito-estigma-e-discriminacao.-as-vezes-no-supermercado-enganam-nos-na-conta-e-nos-autocarros-ouvimos-comentarios-sobre-nos-11ae2e70"
+    },
+    {
         "category": "Segurança",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/seguranca/2025-03-18-o-governo-queria-proibir-as-lanchas-rapidas-para-combater-o-carteis-da-droga-a-queda-do-executivo-afundou-este-plano-f7ac7c62"
+    },
+    {
+        "category": "Seleção Nacional",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/selecao-nacional/pedro-santos-destaca-estagio-dos-sub-21_d1641557"
     },
     {
         "category": "VISÃO Saúde",
