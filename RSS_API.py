@@ -15,6 +15,7 @@ import chardet
 import traceback
 import os
 
+# List of RSS feed URLs to fetch news from Portuguese news sources
 RSS_FEEDS = [
     "https://www.record.pt/rss/",
     "https://www.autosport.pt/feed/",
@@ -38,6 +39,7 @@ RSS_FEEDS = [
     "https://caras.pt/feed/"
 ]
 
+# API sources that don't provide RSS feeds but have JSON endpoints
 API_SOURCES = [
     {
         "url": "https://observador.pt/wp-json/obs_api/v4/news/widget",
@@ -46,6 +48,7 @@ API_SOURCES = [
     }
 ]
 
+# Maps feed URLs to predefined categories
 FEED_CATEGORY_MAPPER = {
     "https://pt.euronews.com/rss?format=mrss&level=theme&name=news": "Últimas",
     "https://feeds.feedburner.com/PublicoRSS" : "Últimas",
@@ -104,6 +107,7 @@ FEED_CATEGORY_MAPPER = {
     "https://pt.ign.com/feed.xml": "Vídeojogos"
 }
 
+# Maps specific category names to standardized category names
 CATEGORY_MAPPER = {
     "Nacional": "Nacional",
     "País": "Nacional",
@@ -273,6 +277,7 @@ CATEGORY_MAPPER = {
     "Outras Notícias": "Outras Notícias"
 }
 
+# Date format patterns for parsing publication dates
 DATE_FORMATS = [
     "%Y-%m-%d %H:%M:%S",
     "%a, %d %b %Y %H:%M:%S %z",
@@ -282,16 +287,23 @@ DATE_FORMATS = [
 ]
 
 async def get_articles():
+    """
+    Main function to fetch articles from all sources and process them.
+    Creates tasks for each feed and API source, then sorts and exports the results.
+    """
     articles = []
     now = datetime.now(timezone.utc)
     last_12_hours = now - timedelta(hours=12)
-    titles_seen = set()
+    titles_seen = set()  # Set to track duplicate titles
 
     async with aiohttp.ClientSession() as session:
+        # Create async tasks for RSS feeds and API sources
         rss_tasks = [process_rss_feed(session, feed_url, titles_seen, last_12_hours) 
                      for feed_url in RSS_FEEDS]
         api_tasks = [process_api_source(session, source, titles_seen, last_12_hours) 
                      for source in API_SOURCES]
+        
+        # Gather all results
         all_results = await asyncio.gather(*rss_tasks, *api_tasks, return_exceptions=True)
         for result in all_results:
             if isinstance(result, list):
@@ -299,22 +311,30 @@ async def get_articles():
             else:
                 print(f"Error processing feed: {result}")
 
+    # Sort articles by publication date (newest first)
     articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
+    
+    # Process articles for additional metadata (exclusive content flags, images)
     await process_articles(articles)
     
-    # Exporta as categorias originais antes de remover o campo original_category
+    # Export original categories before removing the field
     success = export_original_categories_to_json(articles)
     if not success:
         print("Failed to export original categories")
     
+    # Export processed articles to JSON
     export_to_json(articles)
                                 
 def export_to_json(articles):
+    """
+    Export processed articles to JSON, merging with existing articles.
+    Removes original_category field before saving.
+    """
     current_date = datetime.now(timezone.utc)
     existing_articles = load_existing_articles()
     merged_articles = merge_articles(existing_articles, articles, current_date)
     
-    # Remove o campo "original_category" apenas dos artigos mesclados antes de salvar
+    # Remove original_category field before saving
     for cat, articles_list in merged_articles.items():
         for article in articles_list:
             article.pop("original_category", None)
@@ -323,6 +343,18 @@ def export_to_json(articles):
          json.dump(merged_articles, f, ensure_ascii=False, indent=4)
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
+    """
+    Process a single RSS feed to extract articles.
+    
+    Args:
+        session: aiohttp ClientSession for making requests
+        feed_url: URL of the RSS feed
+        titles_seen: Set of already seen article titles (to avoid duplicates)
+        last_12_hours: Datetime threshold for "Últimas" category articles
+        
+    Returns:
+        List of processed articles
+    """
     try:
         timeout = ClientTimeout(total=30)
         headers = {
@@ -336,6 +368,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                 print(f"Error fetching {feed_url}: Status {response.status}")
                 return []
                 
+            # Handle encoding for specific sources (Público requires special handling)
             content_bytes = await response.read()
             if "publico.pt" in feed_url or "PublicoRSS" in feed_url:
                 try:
@@ -347,6 +380,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                         content = content_bytes.decode('latin1')
                 print(f"Processing Público feed from {feed_url}")
             else:
+                # For other sources, detect encoding
                 detected = chardet.detect(content_bytes)
                 encoding = detected['encoding'] if detected['confidence'] > 0.7 else 'utf-8'
                 try:
@@ -357,6 +391,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
             if not content.strip():
                 return []
                 
+            # Parse the feed content
             feed = feedparser.parse(content)
             if "publico.pt" in feed_url or "PublicoRSS" in feed_url:
                 print(f"Found {len(feed.entries)} entries in Público feed")
@@ -364,19 +399,27 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
             feed_domain = get_feed_domain(feed_url)
             articles = []
             
+            # Process each entry in the feed
             for entry in feed.entries:
                 try:
+                    # Extract and clean title
                     title = clean_title(entry.get('title', '').strip())
                     if not title or title in titles_seen:
                         continue
                     titles_seen.add(title)
+                    
+                    # Extract other article metadata
                     description = entry.get('summary', '') or entry.get('description', '')
                     description = clean_description(description.strip())
                     pub_date_str = entry.get('published', '') or entry.get('pubDate', '') or entry.get('updated', '')
                     source = extract_source(feed)
                     link = entry.get('link', '').strip()
+                    
+                    # Special handling for Público links
                     if "publico.pt" in feed_url and not link.startswith('http'):
                         link = f"https://www.publico.pt{link}"
+                    
+                    # Extract image and category information
                     image_url = await extract_image_url(entry, session)
                     feed_category = entry.get('category', '')
                     if isinstance(feed_category, list):
@@ -397,9 +440,10 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                             "isExclusive": False
                         }
 
-                        # Associa original_category ao artigo sem o exportar para JSON
-                        article["original_category"] = original_category  # Usado apenas internamente
+                        # Add original_category for internal use
+                        article["original_category"] = original_category
                         
+                        # Add to articles based on category and date
                         if category == "Últimas" and pub_date >= last_12_hours:
                             articles.append(article)
                         elif category != "Últimas":
@@ -418,17 +462,28 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
         return []
         
 def parse_date(date_str):
+    """
+    Parse publication date from various formats.
+    
+    Args:
+        date_str: Date string to parse
+        
+    Returns:
+        Datetime object with UTC timezone or None if parsing fails
+    """
     if not date_str:
         return None
         
     date_str = date_str.strip()
     date_str = date_str.encode('ascii', 'ignore').decode('ascii')
     
+    # Handle special GMT timezone cases
     if "GMT+" in date_str:
         date_str = re.sub(r'GMT\+(\d+)', lambda m: f"+{m.group(1).zfill(2)}00", date_str)
     elif "GMT-" in date_str:
         date_str = re.sub(r'GMT-(\d+)', lambda m: f"-{m.group(1).zfill(2)}00", date_str)
     
+    # Extended date formats
     DATE_FORMATS.extend([
         "%Y-%m-%dT%H:%M:%S%z",
         "%Y-%m-%dT%H:%M:%SZ",
@@ -436,9 +491,11 @@ def parse_date(date_str):
         "%a, %d %b %Y %H:%M:%S %Z",
     ])
     
+    # Try each format until one works
     for fmt in DATE_FORMATS:
         try:
             dt = datetime.strptime(date_str, fmt)
+            # Add UTC timezone if not provided
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
             return dt.astimezone(timezone.utc)
@@ -449,6 +506,18 @@ def parse_date(date_str):
     return None
 
 async def process_api_source(session, api_source, titles_seen, last_12_hours):
+    """
+    Process articles from an API source (non-RSS JSON endpoint).
+    
+    Args:
+        session: aiohttp ClientSession
+        api_source: Dictionary with API endpoint information
+        titles_seen: Set of already seen article titles
+        last_12_hours: Datetime threshold for "Últimas" category
+        
+    Returns:
+        List of processed articles or False if error occurs
+    """
     try:
         async with session.get(api_source["url"], headers=api_source["headers"]) as response:
             if response.status != 200:
@@ -468,7 +537,7 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
                 source = extract_source(link)
                 image_url = item.get("multimediaPrincipal") or item.get("image", "")
                 
-                # Captura a categoria original antes do mapeamento
+                # Capture original category before mapping
                 feed_category = item.get("rubrica") or item.get("tag", "Últimas")
                 original_category = feed_category
                 
@@ -500,6 +569,12 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
         return False
 
 def load_existing_articles():
+    """
+    Load existing articles from JSON file or return empty structure if file doesn't exist.
+    
+    Returns:
+        Dictionary with categories as keys and article lists as values
+    """
     try:
         with open("articles.json", "r", encoding="utf-8") as f:
             return json.load(f)
@@ -510,21 +585,46 @@ def load_existing_articles():
                 "Vídeojogos": [], "Outras Notícias": []}
 
 def is_article_within_timeframe(article_date_str, category, current_date):
+    """
+    Check if an article is within the desired timeframe based on its category.
+    
+    Args:
+        article_date_str: Article date string
+        category: Article category
+        current_date: Current datetime for comparison
+        
+    Returns:
+        Boolean indicating if article should be kept
+    """
     article_date = datetime.strptime(article_date_str, "%d-%m-%Y %H:%M")
     article_date = article_date.replace(tzinfo=timezone.utc)
     
+    # Different retention periods based on category
     if category == "Últimas":
         return current_date - article_date <= timedelta(hours=12)
     else:
         return current_date - article_date <= timedelta(days=5)
 
 def merge_articles(existing_articles, new_articles, current_date):
+    """
+    Merge new articles with existing ones, removing duplicates and expired articles.
+    
+    Args:
+        existing_articles: Dictionary of existing articles by category
+        new_articles: List of new articles to merge
+        current_date: Current datetime for timeframe filtering
+        
+    Returns:
+        Dictionary of merged articles by category
+    """
     merged = {}
     seen_titles = set()
     
+    # Initialize merged categories
     for category in existing_articles.keys():
         merged[category] = []
         
+    # Combine existing and new articles
     all_articles = []
     
     for category, articles in existing_articles.items():
@@ -534,29 +634,36 @@ def merge_articles(existing_articles, new_articles, current_date):
     
     all_articles.extend(new_articles)
     
+    # Process all articles
     for article in all_articles:
         title = article.get("title")
         category = article.get("category")
         pub_date = article.get("pubDate")
         
+        # Skip invalid articles
         if not all([title, category, pub_date]):
             continue
             
+        # Skip duplicates
         if title in seen_titles:
             continue
             
+        # Skip expired articles
         if not is_article_within_timeframe(pub_date, category, current_date):
             continue
             
         seen_titles.add(title)
         
+        # Add to appropriate category
         if category in merged:
             merged[category].append(article)
             
+        # Add recent articles to "Últimas" category as well
         if is_article_within_timeframe(pub_date, "Últimas", current_date):
             if article not in merged["Últimas"]:
                 merged["Últimas"].append(article)
     
+    # Sort articles by date (newest first)
     for category in merged:
         merged[category].sort(
             key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"),
