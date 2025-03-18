@@ -673,18 +673,23 @@ def merge_articles(existing_articles, new_articles, current_date):
     return merged
 
 def export_original_categories_to_json(articles):
+    """
+    Exports the original categories of articles that have been mapped to 'Outras Notícias'
+    to a JSON file (original_categories.json). Only new, unique original categories (based on the article's original_category)
+    are added to the file.
+    """
     if not articles:
         print("No articles provided to export_original_categories_to_json")
         return False
 
-    try:  
-        print(f"Starting export of original categories mapped to 'Outras Notícias' with {len(articles)} articles...")  
+    try:
+        print(f"Starting export of original categories mapped to 'Outras Notícias' with {len(articles)} articles...")
 
-        # Filtra apenas artigos com categoria "Outras Notícias"
+        # Filter only articles with the category "Outras Notícias"
         filtered_articles = [article for article in articles if article.get("category", "").strip() == "Outras Notícias"]
         print(f"Found {len(filtered_articles)} articles with category 'Outras Notícias'")
 
-        # Carrega o arquivo existente, se houver
+        # Load the existing entries from the file if available
         existing_entries = []
         try:
             with open("original_categories.json", "r", encoding="utf-8") as f:
@@ -692,62 +697,67 @@ def export_original_categories_to_json(articles):
                 print(f"Loaded {len(existing_entries)} existing entries from file")
         except (FileNotFoundError, json.JSONDecodeError):
             print("No existing file found or file is empty. Creating new file.")
-        
-        # Cria um conjunto de identificadores únicos para categorias existentes
-        # usando apenas a categoria original como critério de unicidade
+
+        # Create a set of unique original categories from the existing entries
         existing_categories = {entry["category"] for entry in existing_entries}
-        
-        # Processa os novos artigos
+
+        # Process new articles to collect new category entries
         new_entries = []
         for article in filtered_articles:
             try:
-                article_link = article.get("link", "").strip()  
-                # Ignora artigos provenientes do feed da Eurogamer e IGN
-                if "eurogamer.pt" in article_link or "ign.com" in article_link:  
-                    continue  
+                article_link = article.get("link", "").strip()
+                # Skip articles from Eurogamer and IGN feeds
+                if "eurogamer.pt" in article_link or "ign.com" in article_link:
+                    continue
 
                 source = article.get("source", "").strip()
-                mapped_cat = "Outras Notícias"  # Já sabemos que é "Outras Notícias"
+                mapped_cat = "Outras Notícias"  # We already know it maps to "Outras Notícias"
                 orig_cat = article.get("original_category", "").strip()
-                
-                # Verifica se esta categoria já existe no arquivo
+
+                # If the original category is not empty and is not already recorded, add it
                 if orig_cat and orig_cat not in existing_categories:
                     new_entries.append({
-                        "category": orig_cat, 
-                        "source": source, 
-                        "mapped_category": mapped_cat, 
+                        "category": orig_cat,
+                        "source": source,
+                        "mapped_category": mapped_cat,
                         "url": article_link
                     })
-                    # Adiciona ao conjunto de categorias para evitar duplicatas no lote atual
+                    # Add to the set to prevent duplicates in the current batch
                     existing_categories.add(orig_cat)
-            except Exception as e:  
-                print(f"Error processing article: {str(e)}")  
+            except Exception as e:
+                print(f"Error processing article: {str(e)}")
                 continue
-        
-        print(f"Found {len(new_entries)} new entries to add")
-        
-        # Combina entradas existentes com novas entradas
-        combined_entries = existing_entries + new_entries
-        
-        # Ordena as entradas
-        combined_entries.sort(key=lambda x: (x["category"], x["source"]))
-        
-        try:  
-            with open("original_categories.json", "w", encoding="utf-8") as f:  
-                json.dump(combined_entries, f, ensure_ascii=False, indent=4)  
-            print(f"Original categories file saved successfully with {len(combined_entries)} entries.")  
-            return True  
-        except Exception as e:  
-            print(f"Error saving original categories file: {str(e)}")  
-            traceback.print_exc()  
-            return False  
 
-    except Exception as e:  
-        print(f"CRITICAL ERROR in original category export: {str(e)}")  
-        traceback.print_exc()  
+        print(f"Found {len(new_entries)} new entries to add")
+
+        # Combine the existing entries with the new entries
+        combined_entries = existing_entries + new_entries
+
+        # Sort the combined entries by category and source
+        combined_entries.sort(key=lambda x: (x["category"], x["source"]))
+
+        try:
+            # Save the combined entries back to the JSON file
+            with open("original_categories.json", "w", encoding="utf-8") as f:
+                json.dump(combined_entries, f, ensure_ascii=False, indent=4)
+            print(f"Original categories file saved successfully with {len(combined_entries)} entries.")
+            return True
+        except Exception as e:
+            print(f"Error saving original categories file: {str(e)}")
+            traceback.print_exc()
+            return False
+
+    except Exception as e:
+        print(f"CRITICAL ERROR in original category export: {str(e)}")
+        traceback.print_exc()
         return False
-        
+
+
 async def is_content_exclusive_from_url(link, session):
+    """
+    Checks if the content at the given URL is exclusive (e.g. behind a paywall or marked as premium).
+    It uses several indicators based on the domain.
+    """
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
@@ -760,7 +770,8 @@ async def is_content_exclusive_from_url(link, session):
         return False
 
     soup = BeautifulSoup(content, 'html.parser')
-    
+
+    # Define source-specific exclusive indicators
     source_checks = [
         {
             'domain': 'publico.pt',
@@ -812,10 +823,12 @@ async def is_content_exclusive_from_url(link, session):
             ]
         },
     ]
-    
+
+    # Parse the URL to extract the domain
     parsed_url = urlparse(link)
     domain = parsed_url.netloc.replace('www.', '')
-    
+
+    # Check for exclusive indicators based on domain
     for source in source_checks:
         if source['domain'] in domain:
             for indicator in source['exclusive_indicators']:
@@ -825,6 +838,8 @@ async def is_content_exclusive_from_url(link, session):
                 elif indicator['type'] == 'text':
                     if indicator['value'].lower() in soup.get_text().lower():
                         return True
+
+    # Additional check for exclusive phrases (currently empty)
     exclusive_phrases = []
     page_text = soup.get_text(separator=' ', strip=True).lower()
     if any(phrase in page_text for phrase in exclusive_phrases):
@@ -832,40 +847,58 @@ async def is_content_exclusive_from_url(link, session):
 
     return False
 
+
 def fix_encoding(text):
-    # Tenta detectar e corrigir problemas de codificação
+    """
+    Attempts to detect and fix encoding issues in the given text.
+    """
     try:
-        # Primeiro tenta corrigir problemas de codificação dupla
+        # First, try to fix potential double encoding issues
         text = text.encode('latin1').decode('utf-8')
     except (UnicodeDecodeError, UnicodeEncodeError):
         try:
-            # Se falhar, tenta outras abordagens
+            # If that fails, try decoding as utf-8
             text = text.encode('utf-8').decode('utf-8')
         except (UnicodeDecodeError, UnicodeEncodeError):
-            # Se ainda falhar, mantém o texto original
+            # If all fails, return the original text
             pass
     return text
 
+
 def clean_title(title):
+    """
+    Cleans the title string by removing CDATA markers, HTML tags, unescaping HTML entities,
+    and fixing encoding issues.
+    """
     if title.startswith("<![CDATA[") and title.endswith("]]>"):
         title = title[9:-3]
     title = re.sub(r"<.*?>", "", title)
     title = unescape(title)
-    title = fix_encoding(title)  # Adicionar esta linha
+    title = fix_encoding(title)  # Fix encoding issues
     return title.strip()
 
+
 def clean_description(description):
+    """
+    Cleans the description string by unescaping HTML, removing HTML tags, quotes, and newlines.
+    Also fixes encoding issues and truncates the description to 150 characters if necessary.
+    """
     description = unescape(description)
     description = re.sub(r"<[^>]+>", "", description)
     description = description.replace('\"', "").replace("\n", " ")
     description = re.sub(r'\{(?:[^|}]+\|)*([^|}]+)\}', r'\1', description)
-    description = fix_encoding(description)  # Adicionar esta linha
+    description = fix_encoding(description)  # Fix encoding issues
     description = description.strip()
     if len(description) > 150:
         description = description[:150].rsplit(' ', 1)[0] + "..."
     return description
 
+
 def extract_source(data):
+    """
+    Extracts the source name from a feed or URL.
+    For feed objects, uses the feed title; for URLs, attempts to parse the domain.
+    """
     try:
         if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
             source_name = data.feed.title
@@ -883,22 +916,19 @@ def extract_source(data):
                 return "zerozero.pt"
             if source_name == "Eurogamer.pt Latest Articles Feed":
                 return "Eurogamer"
-            
-            # Opcional: normaliza capitalização para outros casos
+            # Normalize capitalization for other cases
             return source_name.title()
         elif isinstance(data, str):
-            # Verificar URLs específicos
+            # Check for specific URLs
             if data.startswith("https://www.noticiasaominuto.com"):
                 return "Notícias ao Minuto"
             elif data.startswith("https://www.rtp.pt/"):
                 return "RTP Notícias"
-            
-            # Processamento padrão para outros URLs
+            # Default processing for other URLs: extract domain and map if necessary
             parsed_url = urlparse(data)
             domain = parsed_url.netloc
             domain = re.sub(r'^www\.', '', domain)
             domain = domain.split('.')[0]
-            
             source_mapping = {
                 'observador': 'Observador',
                 'publico': 'Público',
@@ -906,14 +936,17 @@ def extract_source(data):
                 'PÚBLICO': 'Público',
                 'PUBLICO': 'Público',
             }
-            
             return source_mapping.get(domain, domain)
     except Exception as e:
-        print(f"Erro ao extrair fonte: {e}")
-    
+        print(f"Error extracting source: {e}")
+
     return "Desconhecido"
 
+
 async def process_articles(articles):
+    """
+    Processes a list of articles concurrently by checking for exclusive content and retrieving images if missing.
+    """
     tasks = []
     async with aiohttp.ClientSession() as session:
         for article in articles:
@@ -921,7 +954,11 @@ async def process_articles(articles):
             tasks.append(task)
         await asyncio.gather(*tasks)
 
+
 async def process_article(article, session):
+    """
+    Processes a single article by checking if its content is exclusive and by extracting the image URL if missing.
+    """
     link = article['link']
     is_exclusive = await is_content_exclusive_from_url(link, session)
     article['isExclusive'] = is_exclusive
@@ -929,19 +966,24 @@ async def process_article(article, session):
         image_url = await get_image_url_from_link(link, session)
         article['image'] = image_url
 
+
 async def get_image_url_from_link(news_url, session):
+    """
+    Retrieves an image URL from a news article's webpage by searching for meta tags and image selectors.
+    """
     timeout = ClientTimeout(total=10)
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
         "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
-    }    
+    }
     try:
         async with session.get(news_url, headers=headers, timeout=timeout) as response:
             if response.status != 200:
                 return None
             content = await response.text()
             soup = BeautifulSoup(content, 'html.parser')
+            # Define selectors to search for images
             selectors = [
                 {'type': 'class', 'value': 'wp-post-image'},
                 {'type': 'class', 'value': 'wp-block-cover__image-background'},
@@ -967,7 +1009,11 @@ async def get_image_url_from_link(news_url, session):
     except Exception as e:
         return None
 
+
 def process_url(url: str) -> str:
+    """
+    Adjusts image URLs based on known patterns to obtain a higher resolution image.
+    """
     if "100x100" in url:
         url = url.replace("100x100", "932x621")
     if "932x621" in url and "jornaldenegocios" in url:
@@ -978,9 +1024,14 @@ def process_url(url: str) -> str:
         url = url.replace("https://cdn.record.pt/images/", "", 1)
     return url
 
+
 async def extract_image_url(entry, session):
+    """
+    Extracts an image URL from an RSS feed entry by checking multiple possible fields and selectors.
+    """
     jornal_economico_logo = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
     try:
+        # If the article is from 'jornaleconomico', return its fixed logo URL
         if 'link' in entry and entry.link and "jornaleconomico" in entry.link:
             return jornal_economico_logo
         if hasattr(entry, 'media_content'):
@@ -993,6 +1044,7 @@ async def extract_image_url(entry, session):
                 if 'url' in enclosure and 'type' in enclosure and enclosure['type'].startswith('image/'):
                     url = process_url(enclosure['url'])
                     return url
+        # Check alternative tags that might contain an image URL
         for tag in ['image', 'img', 'post-thumbnail']:
             if tag in entry:
                 value = entry.get(tag)
@@ -1020,6 +1072,7 @@ async def extract_image_url(entry, session):
             if img and img.get('src'):
                 url = process_url(img.get('src'))
                 return url
+        # As a fallback, try to extract the image directly from the article page
         if 'link' in entry and entry.link:
             url = await get_image_url_from_link(entry.link, session)
             if url:
@@ -1028,35 +1081,43 @@ async def extract_image_url(entry, session):
     except Exception as e:
         print(f"Error extracting image URL: {str(e)}")
     return None
-    
+
+
 def get_feed_domain(feed_url):
+    """
+    Returns the feed URL as is (placeholder function for future domain processing if needed).
+    """
     return feed_url
 
+
 def map_category(feed_category, feed_url, item_link=None):
+    """
+    Maps the provided feed category and URL to a standardized category using predefined mappers.
+    Includes special handling for certain sources (e.g., CM Jornal and Renascença).
+    """
     if isinstance(feed_url, dict):
         feed_url = feed_url.get("url", "")
-    
-    # Primeiro verificar se o feed_url está no FEED_CATEGORY_MAPPER
+
+    # First, check if the feed URL is in the FEED_CATEGORY_MAPPER
     for feed, category in FEED_CATEGORY_MAPPER.items():
         if feed_url.startswith(feed):
             return category
-    
-    # Se não estiver no mapeamento de URL, então processa o feed_category
+
+    # If not, process the feed_category using the CATEGORY_MAPPER
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
-    
-    # Casos especiais para CM Jornal
+
+    # Special case handling for CM Jornal
     if "cmjornal.pt" in feed_url and item_link:
         parsed_url = urlparse(item_link)
         path_parts = parsed_url.path.strip("/").split("/")
         if path_parts:
-            cm_category = path_parts[0].lower()
-            cm_category = cm_category.capitalize()
+            cm_category = path_parts[0].lower().capitalize()
             if cm_category in CATEGORY_MAPPER:
                 return CATEGORY_MAPPER[cm_category]
             return "Outras Notícias"
-    
-    # Casos especiais para Renascença
+
+    # Special case handling for Renascença
     if "rr.sapo.pt" in feed_url and item_link and "/noticia/" in item_link:
         try:
             parsed_url = urlparse(item_link)
@@ -1064,18 +1125,23 @@ def map_category(feed_category, feed_url, item_link=None):
             if "noticia" in path_parts:
                 index = path_parts.index("noticia")
                 if index + 1 < len(path_parts):
-                    rr_category = path_parts[index + 1].lower()
-                    rr_category = rr_category.capitalize()
+                    rr_category = path_parts[index + 1].lower().capitalize()
                     if rr_category in CATEGORY_MAPPER:
                         return CATEGORY_MAPPER[rr_category]
                     return rr_category
         except (ValueError, IndexError):
             pass
-    
+
     return "Outras Notícias"
 
+
 async def main():
+    """
+    Main asynchronous entry point to fetch and process articles.
+    """
     await get_articles()
 
+
 if __name__ == "__main__":
+    # Run the main async function when the script is executed directly
     asyncio.run(main())
