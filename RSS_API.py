@@ -156,7 +156,7 @@ CATEGORY_MAPPER = {
     "Empresas": "Economia",
     "Iniciativaseprodutos": "Economia",
     "Economia Expresso": "Economia",
-    "Economia dia a dia" "Economia",
+    "Economia dia a dia": "Economia",
     "Finanças pessoais": "Economia",
     "Finanças públicas": "Economia",
     "Cultura": "Cultura",
