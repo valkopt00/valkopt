@@ -483,7 +483,6 @@ def export_original_categories_to_json(articles):
         traceback.print_exc()
         return False
 
-
 async def is_content_exclusive_from_url(link, session):
     """
     Checks if the content at the given URL is exclusive (e.g. behind a paywall or marked as premium).
