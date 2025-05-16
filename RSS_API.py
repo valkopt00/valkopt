@@ -407,7 +407,7 @@ def export_original_categories_to_json(articles):
     """
     Exports the original categories of articles that have been mapped to 'Outras Notícias'
     to a JSON file (original_categories.json). Only new, unique original categories (based on the article's original_category)
-    are added to the file.
+    are added to the file. Also includes a count of how many times each category appears overall.
     """
     if not articles:
         print("No articles provided to export_original_categories_to_json")
@@ -431,6 +431,35 @@ def export_original_categories_to_json(articles):
 
         # Create a set of unique original categories from the existing entries
         existing_categories = {entry["category"] for entry in existing_entries}
+        
+        # Create a dictionary to track category occurrence counts
+        # Initialize with counts from existing entries
+        category_counts = {}
+        for entry in existing_entries:
+            category = entry.get("category")
+            # If the entry already has a count field, use it as starting point
+            if "count" in entry:
+                category_counts[category] = entry.get("count")
+            else:
+                # Otherwise start with count of 1 for existing entries
+                category_counts[category] = 1
+
+        # Process all articles to count occurrences of each category
+        for article in filtered_articles:
+            try:
+                article_link = article.get("link", "").strip()
+                # Skip articles from Eurogamer and IGN feeds
+                if "eurogamer.pt" in article_link or "ign.com" in article_link:
+                    continue
+
+                orig_cat = article.get("original_category", "").strip()
+                
+                # Count all categories, including those we've seen before
+                if orig_cat:
+                    category_counts[orig_cat] = category_counts.get(orig_cat, 0) + 1
+            except Exception as e:
+                print(f"Error counting category: {str(e)}")
+                continue
 
         # Process new articles to collect new category entries
         new_entries = []
@@ -451,7 +480,8 @@ def export_original_categories_to_json(articles):
                         "category": orig_cat,
                         "source": source,
                         "mapped_category": mapped_cat,
-                        "url": article_link
+                        "url": article_link,
+                        "count": category_counts.get(orig_cat, 1)  # Add the count field
                     })
                     # Add to the set to prevent duplicates in the current batch
                     existing_categories.add(orig_cat)
@@ -461,11 +491,16 @@ def export_original_categories_to_json(articles):
 
         print(f"Found {len(new_entries)} new entries to add")
 
+        # Update counts for existing entries
+        for entry in existing_entries:
+            category = entry.get("category")
+            entry["count"] = category_counts.get(category, 1)
+
         # Combine the existing entries with the new entries
         combined_entries = existing_entries + new_entries
 
-        # Sort the combined entries by category and source
-        combined_entries.sort(key=lambda x: (x["category"], x["source"]))
+        # Sort the combined entries by count (descending) and then by category and source
+        combined_entries.sort(key=lambda x: (-x.get("count", 0), x["category"], x["source"]))
 
         try:
             # Save the combined entries back to the JSON file
