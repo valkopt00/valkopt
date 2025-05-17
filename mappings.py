@@ -19,6 +19,7 @@ RSS_FEEDS = [
     "https://www.eurogamer.pt/feed",
     "https://pt.ign.com/feed.xml",
     "https://lusometeo.com/feed/",
+    "https://www.sapo.pt/rss",
     "https://caras.pt/feed/"
 ]
 
@@ -71,6 +72,7 @@ FEED_CATEGORY_MAPPER = {
     "https://pt.euronews.com/rss?format=mrss&level=vertical&name=next": "Ciência e Tech",
     "https://pplware.sapo.pt/feed/": "Ciência e Tech",
     "https://www.eurogamer.pt/feed": "Ciência e Tech",
+    "https://tek.sapo.pt/rss": "Ciência e Tech",
 
     "https://www.noticiasaominuto.com/rss/fama": "Sociedade",
     "https://www.noticiasaominuto.com/rss/lifestyle": "Sociedade",
