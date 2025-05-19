@@ -7,18 +7,18 @@
         "count": 1146
     },
     {
-        "category": "Notícias",
-        "source": "Sapo",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.sapo.pt/noticias/atualidade/artigos/as-pme-resistiriam-a-subir-salarios-em-15-o-pcp-responde-sao-as-principais-beneficiarias-pelo-aumento-do-poder-de-compra",
-        "count": 900
-    },
-    {
         "category": "Legislativas 2025",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/eleicoes/legislativas-2025/2025-03-19-psd-nao-exclui-candidatos-autarquicos-das-listas-para-as-legislativas-escolha-tera-criterio-estritamente-politico-d06364b7",
-        "count": 889
+        "count": 921
+    },
+    {
+        "category": "Notícias",
+        "source": "Sapo",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.sapo.pt/noticias/atualidade/artigos/as-pme-resistiriam-a-subir-salarios-em-15-o-pcp-responde-sao-as-principais-beneficiarias-pelo-aumento-do-poder-de-compra",
+        "count": 907
     },
     {
         "category": "Pol√≠tica",
@@ -74,7 +74,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/multimedia/video/2025-03-18-video-o-dia-em-que-as-lojas-cafes-empresas-escolas-e-jardins-ficaram-vazios-como-assim-ja-passaram-cinco-anos-desde-o-inicio-da-pandemia--661a60c6",
-        "count": 136
+        "count": 137
     },
     {
         "category": "A História repete-se",
@@ -200,14 +200,14 @@
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/eleicoes-legislativas-2025/pan-diz-que-voto-util-e-nas-causas-certas_v1652130",
-        "count": 48
+        "count": 49
     },
     {
         "category": "Religião",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/religiao/2025-03-18-papa-francisco-escreve-carta-a-partir-do-hospital-e-apela-a-fim-dos-conflitos-dbaa44c7",
-        "count": 48
+        "count": 49
     },
     {
         "category": "Japão",
@@ -256,6 +256,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/24/impar/noticia/gerard-depardieu-enfrenta-julgamento-acusacoes-violencia-sexual-2127110",
+        "count": 32
+    },
+    {
+        "category": "Resultados Legislativas 2025",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/politica/eleicoes/legislativas-2025/resultados/2025-05-18-ps-e-psd-deixam-de-ter-maioria-constitucional-socialistas-nao-sao-necessarios-para-leis-e-nomeacoes-institucionais-0f7cfa4f",
         "count": 32
     },
     {
@@ -354,13 +361,6 @@
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/lusa/mais-de-400-ocorrencias-ate-as-20_n1642029",
-        "count": 23
-    },
-    {
-        "category": "Resultados Legislativas 2025",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/eleicoes/legislativas-2025/resultados/2025-05-18-ps-e-psd-deixam-de-ter-maioria-constitucional-socialistas-nao-sao-necessarios-para-leis-e-nomeacoes-institucionais-0f7cfa4f",
         "count": 23
     },
     {
@@ -637,6 +637,13 @@
         "count": 12
     },
     {
+        "category": "Inimigo Público",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/inimigo-publico/2025-03-21-troca-de-galhardetes-nas-redes-sociais-entre-pedro-nuno-santos-e-lili-canecas-devolveu-aos-portugueses-a-confianca-nas-instituicoes-2b2c35f2",
+        "count": 11
+    },
+    {
         "category": "Lince-ibérico",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -665,13 +672,6 @@
         "count": 10
     },
     {
-        "category": "Inimigo Público",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/inimigo-publico/2025-03-21-troca-de-galhardetes-nas-redes-sociais-entre-pedro-nuno-santos-e-lili-canecas-devolveu-aos-portugueses-a-confianca-nas-instituicoes-2b2c35f2",
-        "count": 10
-    },
-    {
         "category": "Juros",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -683,6 +683,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/10/sociedade/noticia/comunidade-lgbt-marchou-porto-silencio-agenda-politica-2132648",
+        "count": 10
+    },
+    {
+        "category": "Legislativas 2025: todos os debates",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/legislativas-2025-todos-os-debates/2025-04-07-luis-montenegro-vs-paulo-raimundo-oica-aqui-o-debate-entre-os-lideres-da-ad-e-da-cdu-921d6c78",
         "count": 10
     },
     {
@@ -844,13 +851,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/ciencia/noticia/descoberta-nova-especie-bacteria-corais-oceanario-lisboa-2126310",
-        "count": 7
-    },
-    {
-        "category": "Legislativas 2025: todos os debates",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/legislativas-2025-todos-os-debates/2025-04-07-luis-montenegro-vs-paulo-raimundo-oica-aqui-o-debate-entre-os-lideres-da-ad-e-da-cdu-921d6c78",
         "count": 7
     },
     {
@@ -1050,6 +1050,13 @@
         "count": 4
     },
     {
+        "category": "Podcast P24",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/sociedade/noticia/regresso-barracas-sinal-pais-volta-passado-2126300",
+        "count": 4
+    },
+    {
         "category": "Podcast Soundbite",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1085,17 +1092,17 @@
         "count": 3
     },
     {
+        "category": "Chega",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/05/19/politica/noticia/seis-anos-chega-sobe-13-23-empata-ps-2133511",
+        "count": 3
+    },
+    {
         "category": "O Vale Era Verde",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/o-vale-era-verde/2025-03-21-a-beleza-de-estar-calado/?utm_source=rss&utm_medium=rss&utm_campaign=a-beleza-de-estar-calado",
-        "count": 3
-    },
-    {
-        "category": "Podcast P24",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/sociedade/noticia/regresso-barracas-sinal-pais-volta-passado-2126300",
         "count": 3
     },
     {
@@ -1104,13 +1111,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/16/impar/noticia/dua-lipa-faz-historia-tornar-jovem-milionaria-reino-unido-2133307",
         "count": 3
-    },
-    {
-        "category": "Chega",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/05/19/politica/noticia/seis-anos-chega-sobe-13-23-empata-ps-2133511",
-        "count": 2
     },
     {
         "category": "Fotografia",
