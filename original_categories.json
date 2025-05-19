@@ -11,14 +11,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/eleicoes/legislativas-2025/2025-03-19-psd-nao-exclui-candidatos-autarquicos-das-listas-para-as-legislativas-escolha-tera-criterio-estritamente-politico-d06364b7",
-        "count": 1105
+        "count": 1132
     },
     {
         "category": "Notícias",
         "source": "Sapo",
         "mapped_category": "Outras Notícias",
         "url": "https://www.sapo.pt/noticias/atualidade/artigos/as-pme-resistiriam-a-subir-salarios-em-15-o-pcp-responde-sao-as-principais-beneficiarias-pelo-aumento-do-poder-de-compra",
-        "count": 949
+        "count": 956
     },
     {
         "category": "Pol√≠tica",
@@ -74,7 +74,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/multimedia/video/2025-03-18-video-o-dia-em-que-as-lojas-cafes-empresas-escolas-e-jardins-ficaram-vazios-como-assim-ja-passaram-cinco-anos-desde-o-inicio-da-pandemia--661a60c6",
-        "count": 144
+        "count": 145
     },
     {
         "category": "A História repete-se",
@@ -154,18 +154,18 @@
         "count": 104
     },
     {
+        "category": "Resultados Legislativas 2025",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/politica/eleicoes/legislativas-2025/resultados/2025-05-18-ps-e-psd-deixam-de-ter-maioria-constitucional-socialistas-nao-sao-necessarios-para-leis-e-nomeacoes-institucionais-0f7cfa4f",
+        "count": 95
+    },
+    {
         "category": "No Último Episódio",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/no-ultimo-episodio/2025-04-18-se-e-viciado-em-series-como-stranger-things-white-lotus-e-the-last-of-us-este-podcast-e-para-si-no-ultimo-episodio--oica-aqui-o-trailer--c22d6f92",
         "count": 90
-    },
-    {
-        "category": "Resultados Legislativas 2025",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/eleicoes/legislativas-2025/resultados/2025-05-18-ps-e-psd-deixam-de-ter-maioria-constitucional-socialistas-nao-sao-necessarios-para-leis-e-nomeacoes-institucionais-0f7cfa4f",
-        "count": 86
     },
     {
         "category": "Legislativas 2024",
@@ -189,17 +189,17 @@
         "count": 56
     },
     {
-        "category": "Eleições Legislativas 2025",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/eleicoes-legislativas-2025/pan-diz-que-voto-util-e-nas-causas-certas_v1652130",
-        "count": 55
-    },
-    {
         "category": "Religião",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/religiao/2025-03-18-papa-francisco-escreve-carta-a-partir-do-hospital-e-apela-a-fim-dos-conflitos-dbaa44c7",
+        "count": 56
+    },
+    {
+        "category": "Eleições Legislativas 2025",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/eleicoes-legislativas-2025/pan-diz-que-voto-util-e-nas-causas-certas_v1652130",
         "count": 55
     },
     {
@@ -266,6 +266,13 @@
         "count": 32
     },
     {
+        "category": "Legislativas 2025: todos os debates",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/legislativas-2025-todos-os-debates/2025-04-07-luis-montenegro-vs-paulo-raimundo-oica-aqui-o-debate-entre-os-lideres-da-ad-e-da-cdu-921d6c78",
+        "count": 31
+    },
+    {
         "category": "The Heart and Hustle of Portugal",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -292,13 +299,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/21/politica/noticia/sondagem-coloca-ad-vencer-ps-ha-39-indecisos-2126831",
         "count": 30
-    },
-    {
-        "category": "Legislativas 2025: todos os debates",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/legislativas-2025-todos-os-debates/2025-04-07-luis-montenegro-vs-paulo-raimundo-oica-aqui-o-debate-entre-os-lideres-da-ad-e-da-cdu-921d6c78",
-        "count": 28
     },
     {
         "category": "SL Benfica",
@@ -434,10 +434,24 @@
         "count": 19
     },
     {
+        "category": "Televisão",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/impar/noticia/lili-canecas-pedro-nuno-santos-trocam-galhardetes-online-2126384",
+        "count": 19
+    },
+    {
         "category": "Domingo",
         "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias",
         "url": "https://www.cmjornal.pt/domingo/detalhe/20250322-161246-o-superatleta-portugues-que-desafia-o-tempo",
+        "count": 18
+    },
+    {
+        "category": "Inimigo Público",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/inimigo-publico/2025-03-21-troca-de-galhardetes-nas-redes-sociais-entre-pedro-nuno-santos-e-lili-canecas-devolveu-aos-portugueses-a-confianca-nas-instituicoes-2b2c35f2",
         "count": 18
     },
     {
@@ -448,24 +462,10 @@
         "count": 18
     },
     {
-        "category": "Televisão",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/impar/noticia/lili-canecas-pedro-nuno-santos-trocam-galhardetes-online-2126384",
-        "count": 18
-    },
-    {
         "category": "1.ª Liga",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/1a-liga/i-liga-e-a-5a-do-mundo-com-mais-faltas_d1643519",
-        "count": 17
-    },
-    {
-        "category": "Inimigo Público",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/inimigo-publico/2025-03-21-troca-de-galhardetes-nas-redes-sociais-entre-pedro-nuno-santos-e-lili-canecas-devolveu-aos-portugueses-a-confianca-nas-instituicoes-2b2c35f2",
         "count": 17
     },
     {
@@ -1117,6 +1117,20 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/fotografia/2025-03-19-imagens-de-outra-vida-portugal-ha-5-anos-no-primeiro-confinamento-da-covid-19/?utm_source=rss&utm_medium=rss&utm_campaign=imagens-de-outra-vida-portugal-ha-5-anos-no-primeiro-confinamento-da-covid-19",
+        "count": 2
+    },
+    {
+        "category": "Golfe",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/31/desporto/noticia/min-woo-lee-supera-pressao-vencer-houston-2127975",
+        "count": 2
+    },
+    {
+        "category": "Transplantes",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/05/19/sociedade/noticia/novos-criterios-colheita-orgaos-ficar-concluidos-final-junho-2133394",
         "count": 2
     },
     {
@@ -3931,13 +3945,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/30/azul/noticia/venezuela-ja-perdeu-humboldt-ultimo-glaciar-2127907",
-        "count": 1
-    },
-    {
-        "category": "Golfe",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/31/desporto/noticia/min-woo-lee-supera-pressao-vencer-houston-2127975",
         "count": 1
     },
     {
@@ -6899,13 +6906,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/19/politica/noticia/funcionarios-ar-regras-menos-apertadas-deputados-prendas-2129180",
-        "count": 1
-    },
-    {
-        "category": "Transplantes",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/05/19/sociedade/noticia/novos-criterios-colheita-orgaos-ficar-concluidos-final-junho-2133394",
         "count": 1
     },
     {
