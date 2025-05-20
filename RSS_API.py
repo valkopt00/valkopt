@@ -155,7 +155,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     # Dentro do teu loop for entry in feed.entries:
 
 # Determina se é feed SAPO
-is_sapo_feed = "www.sapo.pt" in feed_domain
+is_sapo_feed = "sapo.pt" in feed_domain
 
 if is_sapo_feed:
     # O feedparser coloca a primeira <category> em entry.category
@@ -183,7 +183,6 @@ else:
     feed_category = entry.get('category', '')
     if isinstance(feed_category, list):
         feed_category = feed_category[0] if feed_category else ''
-                    
                     original_category = feed_category  
                     category = map_category(feed_category, feed_domain, link)
                     pub_date = parse_date(pub_date_str)
