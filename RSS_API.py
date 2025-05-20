@@ -180,9 +180,13 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                             print(f"Found tags attribute with {len(tags)} items")
                             # Try to get the second tag's term
                             tag = tags[1]
-                            if hasattr(tag, 'term'):
+                            if isinstance(tag, dict) and 'term' in tag:
+                                feed_category = tag['term'].strip()
+                            elif hasattr(tag, 'term'):
                                 feed_category = tag.term.strip()
-                                print(f"Using second tag's term: {feed_category}")
+                            elif hasattr(tag, 'label'):
+                                feed_category = tag.label.strip()
+
                             elif hasattr(tag, 'name'):
                                 feed_category = tag.name.strip()
                                 print(f"Using second tag's name: {feed_category}")
