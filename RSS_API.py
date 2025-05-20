@@ -199,7 +199,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     image_url = await extract_image_url(entry, session)
                     # Process category extraction
                     # Se for feed do SAPO, utiliza extract_sapo_category()
-                    is_sapo_feed = "sapo.pt" in feed_domain
+                    is_sapo_feed = "www.sapo.pt" in feed_domain
                     if is_sapo_feed:
                         feed_category = extract_sapo_category(entry)
                         print(f"[SAPO] Extracted category: {feed_category}")
