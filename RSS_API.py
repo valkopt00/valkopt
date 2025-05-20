@@ -77,46 +77,15 @@ def extract_sapo_category(entry):
     """
     Extrai a categoria de um artigo de um feed SAPO a partir dos atributos 'tags', 'categories' ou 'category'.
     """
-    # 1. Tentar via tags (considerando dicionários ou objetos com atributos)
-    tags = getattr(entry, "tags", None)
-    if tags and isinstance(tags, list):
-        for tag in tags:
-            if isinstance(tag, dict):
-                if 'term' in tag and tag['term']:
-                    return tag['term'].strip()
-                elif 'label' in tag and tag['label']:
-                    return tag['label'].strip()
-            else:
-                if hasattr(tag, 'term') and tag.term:
-                    return tag.term.strip()
-                elif hasattr(tag, 'label') and tag.label:
-                    return tag.label.strip()
+   # Primeiro tenta obter de tags (que é a forma mais estruturada no SAPO)
+    if hasattr(entry, 'tags') and isinstance(entry.tags, list) and len(entry.tags) > 0:
+        return entry.tags[-1].get('term', '')  # última tag
 
-    # 2. Tentar via categories (se disponíveis)
-    categories = getattr(entry, "categories", None)
-    if categories and isinstance(categories, list):
-        for cat in categories:
-            if isinstance(cat, dict):
-                if 'term' in cat and cat['term']:
-                    return cat['term'].strip()
-                elif 'label' in cat and cat['label']:
-                    return cat['label'].strip()
-            else:
-                if hasattr(cat, 'term') and cat.term:
-                    return cat.term.strip()
-                elif hasattr(cat, 'label') and cat.label:
-                    return cat.label.strip()
-
-    # 3. Tentar via atributo direto 'category'
-    direct_category = getattr(entry, "category", None)
-    if isinstance(direct_category, str) and direct_category.strip():
-        return direct_category.strip()
-
-    # 4. Fallback caso nenhum dos anteriores retorne valor
-    if isinstance(entry, dict):
-        return entry.get("category", "").strip()
-
-    return ""
+    # Caso contrário, tenta o campo 'category'
+    category = entry.get('category', '')
+    if isinstance(category, list):
+        return category[-1] if category else ''
+    return category
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     """
