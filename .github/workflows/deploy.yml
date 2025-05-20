@@ -21,8 +21,11 @@ jobs:
       - name: Instalar dependências
         run: pip install -r requirements.txt
 
+      #- name: Reset counts with backup
+      #  run: python reset_counts_with_backup.py
+
       - name: Executar script para atualizar JSON
-        run: python reset_counts_with_backup.py RSS_API.py 
+        run: python RSS_API.py 
 
       - name: Fazer commit dos JSONs (reescrever histórico)
         run: |
