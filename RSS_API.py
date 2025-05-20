@@ -73,6 +73,51 @@ def export_to_json(articles):
     with open("articles.json", "w", encoding="utf-8") as f:
          json.dump(merged_articles, f, ensure_ascii=False, indent=4)
 
+def extract_sapo_category(entry):
+    """
+    Extrai a categoria de um artigo de um feed SAPO a partir dos atributos 'tags', 'categories' ou 'category'.
+    """
+    # 1. Tentar via tags (considerando dicionários ou objetos com atributos)
+    tags = getattr(entry, "tags", None)
+    if tags and isinstance(tags, list):
+        for tag in tags:
+            if isinstance(tag, dict):
+                if 'term' in tag and tag['term']:
+                    return tag['term'].strip()
+                elif 'label' in tag and tag['label']:
+                    return tag['label'].strip()
+            else:
+                if hasattr(tag, 'term') and tag.term:
+                    return tag.term.strip()
+                elif hasattr(tag, 'label') and tag.label:
+                    return tag.label.strip()
+
+    # 2. Tentar via categories (se disponíveis)
+    categories = getattr(entry, "categories", None)
+    if categories and isinstance(categories, list):
+        for cat in categories:
+            if isinstance(cat, dict):
+                if 'term' in cat and cat['term']:
+                    return cat['term'].strip()
+                elif 'label' in cat and cat['label']:
+                    return cat['label'].strip()
+            else:
+                if hasattr(cat, 'term') and cat.term:
+                    return cat.term.strip()
+                elif hasattr(cat, 'label') and cat.label:
+                    return cat.label.strip()
+
+    # 3. Tentar via atributo direto 'category'
+    direct_category = getattr(entry, "category", None)
+    if isinstance(direct_category, str) and direct_category.strip():
+        return direct_category.strip()
+
+    # 4. Fallback caso nenhum dos anteriores retorne valor
+    if isinstance(entry, dict):
+        return entry.get("category", "").strip()
+
+    return ""
+
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     """
     Process a single RSS feed to extract articles.
@@ -152,9 +197,17 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     
                     # Extract image and category information
                     image_url = await extract_image_url(entry, session)
-                    feed_category = entry.get('category', '')
-                    if isinstance(feed_category, list):
-                        feed_category = feed_category[0] if feed_category else ''                    
+                    # Process category extraction
+                    # Se for feed do SAPO, utiliza extract_sapo_category()
+                    is_sapo_feed = "sapo.pt" in feed_domain
+                    if is_sapo_feed:
+                        feed_category = extract_sapo_category(entry)
+                        print(f"[SAPO] Extracted category: {feed_category}")
+                    else:
+                        feed_category = entry.get('category', '')
+                        if isinstance(feed_category, list):
+                            feed_category = feed_category[0] if feed_category else ''
+                    
                     original_category = feed_category  
                     category = map_category(feed_category, feed_domain, link)
                     pub_date = parse_date(pub_date_str)
