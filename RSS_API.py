@@ -178,7 +178,6 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                                 feed_category = cat[-1] if cat else ''
                             else:
                                 feed_category = cat.strip()
-                        print(f"[SAPO] Extracted category: {feed_category}")
                     else:
                         feed_category = entry.get('category', '')
                         if isinstance(feed_category, list):
