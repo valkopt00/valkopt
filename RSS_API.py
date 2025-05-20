@@ -89,7 +89,8 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
         timeout = ClientTimeout(total=30)
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                          "(KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
             "Accept": "application/rss+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
         }
@@ -126,61 +127,44 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
             
             for entry in feed.entries:
                 try:
+                    # Extract and clean title
                     title = clean_title(entry.get('title', '').strip())
                     if not title or title in titles_seen:
                         continue
                     titles_seen.add(title)
                     
+                    # Description & publication date
                     description = entry.get('summary', '') or entry.get('description', '')
                     description = clean_description(description.strip())
                     pub_date_str = (entry.get('published', '') or
                                     entry.get('pubDate', '') or
                                     entry.get('updated', ''))
+                    
+                    # Source & link
                     source = extract_source(feed)
                     link = entry.get('link', '').strip()
-                    
                     if "publico.pt" in feed_url and not link.startswith('http'):
                         link = f"https://www.publico.pt{link}"
                     
+                    # Image
                     image_url = await extract_image_url(entry, session)
                     
-                    # --- Extração consolidada de categorias ---
-                    raw_tags = []
-                    # 1) entry.tags (feedparser)
-                    if hasattr(entry, 'tags') and entry.tags:
-                        raw_tags.extend(
-                            t.get('term', '').strip() for t in entry.tags if t.get('term')
-                        )
-                    # 2) entry.get('tags') fallback
-                    extra = entry.get('tags', [])
-                    if isinstance(extra, list):
-                        raw_tags.extend(
-                            t.get('term', '').strip() for t in extra
-                            if isinstance(t, dict) and t.get('term')
-                        )
-                    # 3) entry.get('categories')
-                    cats = entry.get('categories', [])
-                    if isinstance(cats, list):
-                        raw_tags.extend(c.strip() for c in cats if isinstance(c, str) and c.strip())
-                    # 4) entry.get('category')
-                    cat0 = entry.get('category', '')
-                    if isinstance(cat0, str) and cat0.strip():
-                        raw_tags.append(cat0.strip())
-                    
-                    # Remove duplicados mantendo ordem
-                    seen = set()
-                    feed_categories = []
-                    for c in raw_tags:
-                        if c not in seen:
-                            seen.add(c)
-                            feed_categories.append(c)
-                    
-                    # Se link for notícia SAPO e houver ≥2 categorias, usa a 2.ª
-                    if link.startswith("https://www.sapo.pt/noticias/") and len(feed_categories) >= 2:
-                        feed_category = feed_categories[1]
+                    # --- Extração de categories SAPO e resto ---
+                    if "sapo.pt" in feed_domain:
+                        cats = getattr(entry, "categories", None)
+                        if isinstance(cats, list) and len(cats) >= 2:
+                            feed_category = cats[1].term.strip()
+                        elif isinstance(cats, list) and len(cats) == 1:
+                            feed_category = cats[0].term.strip()
+                        else:
+                            feed_category = entry.get("category", "").strip()
                     else:
-                        feed_category = feed_categories[0] if feed_categories else ''
-                    # ---------------------------------------------------------
+                        cats = getattr(entry, "categories", None)
+                        if isinstance(cats, list) and len(cats) >= 1:
+                            feed_category = cats[0].term.strip()
+                        else:
+                            feed_category = entry.get("category", "").strip()
+                    # ------------------------------------------------
                     
                     original_category = feed_category
                     category = map_category(feed_category, feed_domain, link)
@@ -188,14 +172,14 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     
                     if pub_date:
                         article = {
-                            "title": title,
-                            "description": description,
-                            "image": image_url,
-                            "source": source,
-                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
-                            "category": category,
-                            "link": link,
-                            "isExclusive": False,
+                            "title":        title,
+                            "description":  description,
+                            "image":        image_url,
+                            "source":       source,
+                            "pubDate":      pub_date.strftime("%d-%m-%Y %H:%M"),
+                            "category":     category,
+                            "link":         link,
+                            "isExclusive":  False,
                             "original_category": original_category
                         }
 
