@@ -152,9 +152,30 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     
                     # Extract image and category information
                     image_url = await extract_image_url(entry, session)
-                    feed_category = entry.get('category', '')
-                    if isinstance(feed_category, list):
-                        feed_category = feed_category[0] if feed_category else ''                    
+                    
+                    # Handle categories differently for Sapo.pt
+                    if "www.sapo.pt" in feed_url:
+                        # Try to get categories directly from entry
+                        feed_categories = entry.get('categories', [])
+                        # If not available, try to get the category field
+                        if not feed_categories:
+                            temp_category = entry.get('category', '')
+                            if isinstance(temp_category, list):
+                                feed_categories = temp_category
+                            else:
+                                feed_categories = [temp_category] if temp_category else []
+                                
+                        # Use second category for Sapo.pt if available
+                        if len(feed_categories) > 1:
+                            feed_category = feed_categories[1]  # Use second category
+                        else:
+                            feed_category = feed_categories[0] if feed_categories else ''
+                    else:
+                        # Default behavior for other sources
+                        feed_category = entry.get('category', '')
+                        if isinstance(feed_category, list):
+                            feed_category = feed_category[0] if feed_category else ''
+                    
                     original_category = feed_category  
                     category = map_category(feed_category, feed_domain, link)
                     pub_date = parse_date(pub_date_str)
@@ -867,20 +888,6 @@ def map_category(feed_category, feed_url, item_link=None):
     for feed, category in FEED_CATEGORY_MAPPER.items():
         if feed_url.startswith(feed):
             return category
-    
-    # Special case handling for Sapo.pt
-    if "www.sapo.pt" in feed_url and item_link:
-        try:
-            parsed_url = urlparse(item_link)
-            path_parts = parsed_url.path.strip("/").split("/")
-            # Ignorar a primeira tag e extrair o conteúdo da segunda
-            if len(path_parts) >= 2:
-                sapo_category = path_parts[1].lower().capitalize()
-                if sapo_category in CATEGORY_MAPPER:
-                    return CATEGORY_MAPPER[sapo_category]
-                return sapo_category
-        except (ValueError, IndexError):
-            pass
     
     # If not, process the feed_category using the CATEGORY_MAPPER
     if feed_category in CATEGORY_MAPPER:
