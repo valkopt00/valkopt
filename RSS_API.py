@@ -89,8 +89,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
         timeout = ClientTimeout(total=30)
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                          "(KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
             "Accept": "application/rss+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
         }
@@ -100,8 +99,8 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                 print(f"Error fetching {feed_url}: Status {response.status}")
                 return []
                 
+            # Handle encoding for specific sources (Público requires special handling)
             content_bytes = await response.read()
-            # Público special encoding
             if "publico.pt" in feed_url or "PublicoRSS" in feed_url:
                 try:
                     content = content_bytes.decode('utf-8')
@@ -110,7 +109,9 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                         content = content_bytes.decode('cp1252')
                     except UnicodeDecodeError:
                         content = content_bytes.decode('latin1')
+                print(f"Processing Público feed from {feed_url}")
             else:
+                # For other sources, detect encoding
                 detected = chardet.detect(content_bytes)
                 encoding = detected['encoding'] if detected['confidence'] > 0.7 else 'utf-8'
                 try:
@@ -121,27 +122,15 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
             if not content.strip():
                 return []
                 
+            # Parse the feed content
             feed = feedparser.parse(content)
+            if "publico.pt" in feed_url or "PublicoRSS" in feed_url:
+                print(f"Found {len(feed.entries)} entries in Público feed")
+            
             feed_domain = get_feed_domain(feed_url)
             articles = []
             
-            # Debug flag for SAPO feeds
-            is_sapo_feed = "sapo.pt" in feed_domain
-            if is_sapo_feed:
-                print(f"Processing SAPO feed: {feed_url}")
-                # Inspect raw feed structure for the first entry if available
-                if feed.entries and len(feed.entries) > 0:
-                    print("Inspecting first SAPO entry structure:")
-                    first_entry = feed.entries[0]
-                    for attr_name in dir(first_entry):
-                        if not attr_name.startswith('_'):  # Skip private attributes
-                            try:
-                                attr_value = getattr(first_entry, attr_name)
-                                if attr_name in ['tags', 'category', 'categories']:
-                                    print(f"  {attr_name}: {attr_value}")
-                            except:
-                                pass
-            
+            # Process each entry in the feed
             for entry in feed.entries:
                 try:
                     # Extract and clean title
@@ -150,124 +139,57 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                         continue
                     titles_seen.add(title)
                     
-                    # Description & publication date
+                    # Extract other article metadata
                     description = entry.get('summary', '') or entry.get('description', '')
                     description = clean_description(description.strip())
-                    pub_date_str = (entry.get('published', '') or
-                                    entry.get('pubDate', '') or
-                                    entry.get('updated', ''))
-                    
-                    # Source & link
+                    pub_date_str = entry.get('published', '') or entry.get('pubDate', '') or entry.get('updated', '')
                     source = extract_source(feed)
                     link = entry.get('link', '').strip()
+                    
+                    # Special handling for Público links
                     if "publico.pt" in feed_url and not link.startswith('http'):
                         link = f"https://www.publico.pt{link}"
                     
-                    # Image
+                    # Extract image and category information
                     image_url = await extract_image_url(entry, session)
-                    
-                    # --- Extração de categories SAPO e resto ---
-                    feed_category = ""
-                    
-                    if is_sapo_feed:
-                        print(f"SAPO article: {title}")
-                        
-                        # Try different ways to access categories for SAPO feeds
-                        
-                        # 1. Check 'tags' attribute (common in some feeds)
-                        tags = getattr(entry, "tags", None)
-                        if tags and isinstance(tags, list) and len(tags) >= 2:
-                            print(f"Found tags attribute with {len(tags)} items")
-                            # Try to get the second tag's term
-                            tag = tags[1]
-                            if isinstance(tag, dict) and 'term' in tag:
-                                feed_category = tag['term'].strip()
-                            elif hasattr(tag, 'term'):
-                                feed_category = tag.term.strip()
-                            elif hasattr(tag, 'label'):
-                                feed_category = tag.label.strip()
-
-                            elif hasattr(tag, 'name'):
-                                feed_category = tag.name.strip()
-                                print(f"Using second tag's name: {feed_category}")
-                        
-                        # 2. If no feed_category yet, try 'categories' attribute
-                        if not feed_category:
-                            cats = getattr(entry, "categories", None)
-                            print(f"SAPO categories type: {type(cats)}")
-                            
-                            if cats and isinstance(cats, list) and len(cats) >= 2:
-                                print(f"Found categories with {len(cats)} items")
-                                cat = cats[1]
-                                if hasattr(cat, 'term'):
-                                    feed_category = cat.term.strip()
-                                    print(f"Using second category's term: {feed_category}")
-                            
-                        # 3. If still no feed_category, check for direct category attribute
-                        if not feed_category:
-                            direct_category = getattr(entry, "category", None)
-                            if direct_category:
-                                feed_category = direct_category.strip()
-                                print(f"Using direct category attribute: {feed_category}")
-                        
-                        # 4. Final fallback to dictionary-style access
-                        if not feed_category:
-                            feed_category = entry.get("category", "").strip()
-                            print(f"Using dictionary access fallback: {feed_category}")
-                            
-                        # 5. If there are tags but we didn't use them, print them for debugging
-                        if tags and not feed_category:
-                            print("Available tags content:")
-                            for i, tag in enumerate(tags):
-                                print(f"  Tag {i}: {tag}")
-                                if hasattr(tag, 'term'):
-                                    print(f"    term: {tag.term}")
-                                if hasattr(tag, 'scheme'):
-                                    print(f"    scheme: {tag.scheme}")
-                                if hasattr(tag, 'label'):
-                                    print(f"    label: {tag.label}")
-                    else:
-                        # Standard category extraction for non-SAPO feeds
-                        cats = getattr(entry, "categories", None)
-                        if isinstance(cats, list) and len(cats) >= 1:
-                            if hasattr(cats[0], 'term'):
-                                feed_category = cats[0].term.strip()
-                            else:
-                                feed_category = str(cats[0]).strip()
-                        else:
-                            feed_category = entry.get("category", "").strip()
-                    # ------------------------------------------------
-                    
-                    original_category = feed_category
+                    feed_category = entry.get('category', '')
+                    if isinstance(feed_category, list):
+                        feed_category = feed_category[0] if feed_category else ''                    
+                    original_category = feed_category  
                     category = map_category(feed_category, feed_domain, link)
                     pub_date = parse_date(pub_date_str)
                     
                     if pub_date:
                         article = {
-                            "title":        title,
-                            "description":  description,
-                            "image":        image_url,
-                            "source":       source,
-                            "pubDate":      pub_date.strftime("%d-%m-%Y %H:%M"),
-                            "category":     category,
-                            "link":         link,
-                            "isExclusive":  False,
-                            "original_category": original_category
+                            "title": title,
+                            "description": description,
+                            "image": image_url,
+                            "source": source,
+                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
+                            "category": category,
+                            "link": link,
+                            "isExclusive": False
                         }
 
+                        # Add original_category for internal use
+                        article["original_category"] = original_category
+                        
+                        # Add to articles based on category and date
                         if category == "Últimas" and pub_date >= last_12_hours:
                             articles.append(article)
                         elif category != "Últimas":
                             articles.append(article)
                 
                 except Exception as e:
-                    print(f"Error processing entry from {feed_url}: {e}")
+                    print(f"Error processing entry from {feed_url}: {str(e)}")
                     continue
             
+            if "publico.pt" in feed_url or "PublicoRSS" in feed_url:
+                print(f"Total articles processed from Público: {len(articles)}")
             return articles
                         
     except Exception as e:
-        print(f"Error processing {feed_url}: {e}")
+        print(f"Error processing {feed_url}: {str(e)}")
         return []
         
 def parse_date(date_str):
