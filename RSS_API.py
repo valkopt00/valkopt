@@ -125,6 +125,10 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
             feed_domain = get_feed_domain(feed_url)
             articles = []
             
+            # Debugging - print feed domain for SAPO feeds
+            if "sapo.pt" in feed_domain:
+                print(f"Processing SAPO feed: {feed_url}")
+            
             for entry in feed.entries:
                 try:
                     # Extract and clean title
@@ -150,21 +154,50 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     image_url = await extract_image_url(entry, session)
                     
                     # --- Extração de categories SAPO e resto ---
-                    if "sapo.pt" in feed_domain:
+                    if "www.sapo.pt" in feed_domain:
+                        # Debug output for SAPO feed entries
                         cats = getattr(entry, "categories", None)
+                        print(f"SAPO article: {title}")
+                        print(f"SAPO categories type: {type(cats)}")
+                        
+                        if cats:
+                            print(f"SAPO categories count: {len(cats)}")
+                            # Dump category details for inspection
+                            for i, cat in enumerate(cats):
+                                if hasattr(cat, 'term'):
+                                    print(f"Category {i}: {cat.term}")
+                                else:
+                                    print(f"Category {i}: {cat} (no term attribute)")
+                        
+                        # Enhanced category extraction for SAPO
                         if isinstance(cats, list) and len(cats) >= 2:
-                            feed_category = cats[1].term.strip()
+                            if hasattr(cats[1], 'term'):
+                                feed_category = cats[1].term.strip()
+                                print(f"Selected SAPO category (from second tag): {feed_category}")
+                            else:
+                                # Try direct access if term attribute is missing
+                                feed_category = str(cats[1]).strip()
+                                print(f"Selected SAPO category (direct string): {feed_category}")
                         elif isinstance(cats, list) and len(cats) == 1:
-                            feed_category = cats[0].term.strip()
+                            if hasattr(cats[0], 'term'):
+                                feed_category = cats[0].term.strip()
+                                print(f"Selected SAPO category (from first tag): {feed_category}")
+                            else:
+                                feed_category = str(cats[0]).strip()
+                                print(f"Selected SAPO category (first, direct string): {feed_category}")
                         else:
+                            # Fallback to entry.category
                             feed_category = entry.get("category", "").strip()
+                            print(f"Selected SAPO category (fallback): {feed_category}")
                     else:
                         cats = getattr(entry, "categories", None)
                         if isinstance(cats, list) and len(cats) >= 1:
-                            feed_category = cats[0].term.strip()
+                            if hasattr(cats[0], 'term'):
+                                feed_category = cats[0].term.strip()
+                            else:
+                                feed_category = str(cats[0]).strip()
                         else:
                             feed_category = entry.get("category", "").strip()
-                    # ------------------------------------------------
                     
                     original_category = feed_category
                     category = map_category(feed_category, feed_domain, link)
