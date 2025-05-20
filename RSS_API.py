@@ -144,28 +144,43 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     
                     image_url = await extract_image_url(entry, session)
                     
-                    # --- AQUI FICA A LÓGICA DE CATEGORIAS SAPO ---
-                    # Compila todas as categorias disponíveis
-                    feed_categories = []
+                    # --- Extração consolidada de categorias ---
+                    raw_tags = []
+                    # 1) entry.tags (feedparser)
                     if hasattr(entry, 'tags') and entry.tags:
-                        feed_categories = [
-                            tag.get('term', '').strip()
-                            for tag in entry.tags
-                            if tag.get('term')
-                        ]
-                    if not feed_categories:
-                        temp = entry.get('category', entry.get('categories', []))
-                        if isinstance(temp, list):
-                            feed_categories = temp
-                        elif isinstance(temp, str) and temp:
-                            feed_categories = [temp]
+                        raw_tags.extend(
+                            t.get('term', '').strip() for t in entry.tags if t.get('term')
+                        )
+                    # 2) entry.get('tags') fallback
+                    extra = entry.get('tags', [])
+                    if isinstance(extra, list):
+                        raw_tags.extend(
+                            t.get('term', '').strip() for t in extra
+                            if isinstance(t, dict) and t.get('term')
+                        )
+                    # 3) entry.get('categories')
+                    cats = entry.get('categories', [])
+                    if isinstance(cats, list):
+                        raw_tags.extend(c.strip() for c in cats if isinstance(c, str) and c.strip())
+                    # 4) entry.get('category')
+                    cat0 = entry.get('category', '')
+                    if isinstance(cat0, str) and cat0.strip():
+                        raw_tags.append(cat0.strip())
                     
-                    # Se houver ≥2 categories e link for "/noticias/", usa a 2ª
-                    if len(feed_categories) >= 2 and link.startswith("https://www.sapo.pt/noticias/"):
+                    # Remove duplicados mantendo ordem
+                    seen = set()
+                    feed_categories = []
+                    for c in raw_tags:
+                        if c not in seen:
+                            seen.add(c)
+                            feed_categories.append(c)
+                    
+                    # Se link for notícia SAPO e houver ≥2 categorias, usa a 2.ª
+                    if link.startswith("https://www.sapo.pt/noticias/") and len(feed_categories) >= 2:
                         feed_category = feed_categories[1]
                     else:
                         feed_category = feed_categories[0] if feed_categories else ''
-                    # -------------------------------------------------
+                    # ---------------------------------------------------------
                     
                     original_category = feed_category
                     category = map_category(feed_category, feed_domain, link)
