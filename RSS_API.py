@@ -89,7 +89,8 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     try:
         timeout = ClientTimeout(total=30)
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                          "(KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
             "Accept": "application/rss+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
         }
@@ -142,7 +143,11 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     # Extract other article metadata
                     description = entry.get('summary', '') or entry.get('description', '')
                     description = clean_description(description.strip())
-                    pub_date_str = entry.get('published', '') or entry.get('pubDate', '') or entry.get('updated', '')
+                    pub_date_str = (
+                        entry.get('published', '') or
+                        entry.get('pubDate', '') or
+                        entry.get('updated', '')
+                    )
                     source = extract_source(feed)
                     link = entry.get('link', '').strip()
                     
@@ -150,36 +155,36 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     if "publico.pt" in feed_url and not link.startswith('http'):
                         link = f"https://www.publico.pt{link}"
                     
-                    # Extract image and category information
+                    # Extract image URL
                     image_url = await extract_image_url(entry, session)
-                    # Determina se é feed SAPO
+                    
+                    # Determine SAPO feed and extract category
+                    feed_category = ""
                     is_sapo_feed = "sapo.pt" in feed_domain
-            
                     if is_sapo_feed:
-                    # O feedparser coloca a primeira <category> em entry.category
-                    # e as restantes em entry.tags.
-                    tags = getattr(entry, 'tags', None)
-                    if isinstance(tags, list) and tags:
-                        # Usa a última tag como categoria
-                        last_tag = tags[-1]
-                        if isinstance(last_tag, dict):
-                            feed_category = last_tag.get('term', '').strip()
-                        elif hasattr(last_tag, 'term'):
-                            feed_category = last_tag.term.strip()
+                        # feedparser puts first <category> in entry.category and the rest in entry.tags
+                        tags = getattr(entry, 'tags', None)
+                        if isinstance(tags, list) and tags:
+                            last_tag = tags[-1]
+                            if isinstance(last_tag, dict):
+                                feed_category = last_tag.get('term', '').strip()
+                            elif hasattr(last_tag, 'term'):
+                                feed_category = last_tag.term.strip()
+                            else:
+                                feed_category = entry.get('category', '').strip()
                         else:
-                            feed_category = entry.get('category', '').strip()
+                            cat = entry.get('category', '')
+                            if isinstance(cat, list):
+                                feed_category = cat[-1] if cat else ''
+                            else:
+                                feed_category = cat.strip()
+                        print(f"[SAPO] Extracted category: {feed_category}")
                     else:
-                        cat = entry.get('category', '')
-                        if isinstance(cat, list):
-                            feed_category = cat[-1] if cat else ''
-                        else:
-                            feed_category = cat.strip()
-                    print(f"[SAPO] Extracted category: {feed_category}")
-                else:
-                feed_category = entry.get('category', '')
-                if isinstance(feed_category, list):
-                    feed_category = feed_category[0] if feed_category else ''
-                    original_category = feed_category  
+                        feed_category = entry.get('category', '')
+                        if isinstance(feed_category, list):
+                            feed_category = feed_category[0] if feed_category else ''
+                    
+                    original_category = feed_category
                     category = map_category(feed_category, feed_domain, link)
                     pub_date = parse_date(pub_date_str)
                     
@@ -192,11 +197,9 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                             "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
                             "category": category,
                             "link": link,
-                            "isExclusive": False
+                            "isExclusive": False,
+                            "original_category": original_category
                         }
-
-                        # Add original_category for internal use
-                        article["original_category"] = original_category
                         
                         # Add to articles based on category and date
                         if category == "Últimas" and pub_date >= last_12_hours:
@@ -210,6 +213,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
             
             if "publico.pt" in feed_url or "PublicoRSS" in feed_url:
                 print(f"Total articles processed from Público: {len(articles)}")
+            
             return articles
                         
     except Exception as e:
