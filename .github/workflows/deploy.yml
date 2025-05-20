@@ -22,9 +22,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Executar script para atualizar JSON
-        run: 
-          python RSS_API.py
-          python reset_counts.py
+        run: python RSS_API.py # python reset_counts.py
 
       - name: Fazer commit dos JSONs (reescrever histórico)
         run: |
