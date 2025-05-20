@@ -858,20 +858,34 @@ def get_feed_domain(feed_url):
 def map_category(feed_category, feed_url, item_link=None):
     """
     Maps the provided feed category and URL to a standardized category using predefined mappers.
-    Includes special handling for certain sources (e.g., CM Jornal and Renascença).
+    Includes special handling for certain sources (e.g., CM Jornal, Renascença, and Sapo.pt).
     """
     if isinstance(feed_url, dict):
         feed_url = feed_url.get("url", "")
-
+    
     # First, check if the feed URL is in the FEED_CATEGORY_MAPPER
     for feed, category in FEED_CATEGORY_MAPPER.items():
         if feed_url.startswith(feed):
             return category
-
+    
+    # Special case handling for Sapo.pt
+    if "www.sapo.pt" in feed_url and item_link:
+        try:
+            parsed_url = urlparse(item_link)
+            path_parts = parsed_url.path.strip("/").split("/")
+            # Ignorar a primeira tag e extrair o conteúdo da segunda
+            if len(path_parts) >= 2:
+                sapo_category = path_parts[1].lower().capitalize()
+                if sapo_category in CATEGORY_MAPPER:
+                    return CATEGORY_MAPPER[sapo_category]
+                return sapo_category
+        except (ValueError, IndexError):
+            pass
+    
     # If not, process the feed_category using the CATEGORY_MAPPER
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
-
+    
     # Special case handling for CM Jornal
     if "cmjornal.pt" in feed_url and item_link:
         parsed_url = urlparse(item_link)
@@ -881,7 +895,7 @@ def map_category(feed_category, feed_url, item_link=None):
             if cm_category in CATEGORY_MAPPER:
                 return CATEGORY_MAPPER[cm_category]
             return "Outras Notícias"
-
+    
     # Special case handling for Renascença
     if "rr.sapo.pt" in feed_url and item_link and "/noticia/" in item_link:
         try:
@@ -896,10 +910,9 @@ def map_category(feed_category, feed_url, item_link=None):
                     return rr_category
         except (ValueError, IndexError):
             pass
-
+    
     return "Outras Notícias"
-
-
+    
 async def main():
     """
     Main asynchronous entry point to fetch and process articles.
