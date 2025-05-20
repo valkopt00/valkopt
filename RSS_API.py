@@ -73,23 +73,6 @@ def export_to_json(articles):
     with open("articles.json", "w", encoding="utf-8") as f:
          json.dump(merged_articles, f, ensure_ascii=False, indent=4)
 
-def extract_sapo_category(entry):
-    """
-    Extrai a última categoria válida de um artigo SAPO, usando <category> ou <tags>.
-    """
-    tags = getattr(entry, 'tags', None)
-    if isinstance(tags, list) and len(tags) > 0:
-        # Extrai a última categoria entre os <category> tags
-        last_tag = tags[-1]
-        if isinstance(last_tag, dict):
-            return last_tag.get('term', '').strip()
-
-    # Fallback para o campo 'category' (será a primeira <category>)
-    category = entry.get('category', '')
-    if isinstance(category, list):
-        return category[-1] if category else ''
-    return category.strip()
-
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     """
     Process a single RSS feed to extract articles.
@@ -169,16 +152,37 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     
                     # Extract image and category information
                     image_url = await extract_image_url(entry, session)
-                    # Process category extraction
-                    # Se for feed do SAPO, utiliza extract_sapo_category()
-                    is_sapo_feed = "www.sapo.pt" in feed_domain
-                    if is_sapo_feed:
-                        feed_category = extract_sapo_category(entry)
-                        print(f"[SAPO] Extracted category: {feed_category}")
-                    else:
-                        feed_category = entry.get('category', '')
-                        if isinstance(feed_category, list):
-                            feed_category = feed_category[0] if feed_category else ''
+                    # Dentro do teu loop for entry in feed.entries:
+
+# Determina se é feed SAPO
+is_sapo_feed = "www.sapo.pt" in feed_domain
+
+if is_sapo_feed:
+    # O feedparser coloca a primeira <category> em entry.category
+    # e as restantes em entry.tags.
+    tags = getattr(entry, 'tags', None)
+    if isinstance(tags, list) and tags:
+        # Usa a última tag como categoria
+        last_tag = tags[-1]
+        if isinstance(last_tag, dict):
+            feed_category = last_tag.get('term', '').strip()
+        elif hasattr(last_tag, 'term'):
+            feed_category = last_tag.term.strip()
+        else:
+            feed_category = entry.get('category', '').strip()
+    else:
+        # Se não houver tags, fallback para entry.category
+        cat = entry.get('category', '')
+        if isinstance(cat, list):
+            feed_category = cat[-1] if cat else ''
+        else:
+            feed_category = cat.strip()
+    print(f"[SAPO] Extracted category: {feed_category}")
+else:
+    # Lógica padrão para outros feeds
+    feed_category = entry.get('category', '')
+    if isinstance(feed_category, list):
+        feed_category = feed_category[0] if feed_category else ''
                     
                     original_category = feed_category  
                     category = map_category(feed_category, feed_domain, link)
