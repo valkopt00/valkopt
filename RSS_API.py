@@ -75,17 +75,20 @@ def export_to_json(articles):
 
 def extract_sapo_category(entry):
     """
-    Extrai a categoria de um artigo de um feed SAPO a partir dos atributos 'tags', 'categories' ou 'category'.
+    Extrai a última categoria válida de um artigo SAPO, usando <category> ou <tags>.
     """
-   # Primeiro tenta obter de tags (que é a forma mais estruturada no SAPO)
-    if hasattr(entry, 'tags') and isinstance(entry.tags, list) and len(entry.tags) > 0:
-        return entry.tags[-1].get('term', '')  # última tag
+    tags = getattr(entry, 'tags', None)
+    if isinstance(tags, list) and len(tags) > 0:
+        # Extrai a última categoria entre os <category> tags
+        last_tag = tags[-1]
+        if isinstance(last_tag, dict):
+            return last_tag.get('term', '').strip()
 
-    # Caso contrário, tenta o campo 'category'
+    # Fallback para o campo 'category' (será a primeira <category>)
     category = entry.get('category', '')
     if isinstance(category, list):
         return category[-1] if category else ''
-    return category
+    return category.strip()
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     """
