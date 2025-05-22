@@ -846,90 +846,71 @@ def process_url(url: str) -> str:
     return url
 
 async def extract_image_url(entry, session, mapped_category=None):
-    """
-    Extract an image URL from an RSS entry by checking, in order:
-      1) CM Jornal + Opinião (exact match, case‐insensitive) → fixed opinion image
-      2) media_content
-      3) enclosures
-      4) simple fields (image, img, post-thumbnail)
-      5) inline <img> in entry.content
-      6) inline <img> in description/summary
-      7) scraping the article page
-      8) fallback: Jornal Económico logo if link matches that domain
-    """
+    
     jornal_economico_logo = (
         "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
     )
     cmjornal_opinion_img = (
         "https://imagens.publico.pt/imagens.aspx/260779?tp=UH&db=IMAGENS&type=JPG"
     )
-
-    def clean_srcset(val: str) -> str:
-        # drop any descriptor like "70w"
-        return val.split()[0]
-
+    
     try:
         link = entry.get("link", "") or ""
         lc_link = link.lower()
-
-        # 1) Special case: CM Jornal + mapped_category == "opinião"
+        
         if "cmjornal.pt" in lc_link and mapped_category:
-            if mapped_category.strip().lower() == "opinião":
+            normalized_category = mapped_category.strip().lower()
+            if normalized_category == "opinião":
+                print(f"DEBUG: CM Jornal + Opinião detectado. Link: {link}, Categoria: {mapped_category}")
                 return cmjornal_opinion_img
-
-        # 2) media_content
+        
         if hasattr(entry, "media_content"):
             for m in entry.media_content:
                 url = m.get("url")
                 if url:
-                    return process_url(clean_srcset(url))
-
-        # 3) enclosures
+                    return process_url(url)
+        
         if hasattr(entry, "enclosures"):
             for enc in entry.enclosures:
                 if enc.get("url") and enc.get("type", "").startswith("image/"):
-                    return process_url(clean_srcset(enc["url"]))
-
-        # 4) simple fields
+                    return process_url(enc["url"])
+        
         for tag in ("image", "img", "post-thumbnail"):
             val = entry.get(tag)
             if isinstance(val, dict) and val.get("url"):
-                return process_url(clean_srcset(val["url"]))
+                return process_url(val["url"])
             elif isinstance(val, str) and val.strip().startswith("http"):
-                return process_url(clean_srcset(val))
-
-        # 5) inline <img> in entry.content
+                return process_url(val)
+        
         if hasattr(entry, "content"):
             for block in entry.content:
                 html = block.get("value", "")
                 m = re.search(r'<img[^>]+src="([^"]+)"', html)
                 if m:
-                    return process_url(clean_srcset(m.group(1)))
-
-        # 6) inline <img> in description/summary
+                    return process_url(m.group(1))
+        
         desc = entry.get("description") or entry.get("summary") or ""
         if desc:
             m = re.search(r'<img[^>]+src="([^"]+)"', desc)
             if m:
-                return process_url(clean_srcset(m.group(1)))
+                return process_url(m.group(1))
+            
             soup = BeautifulSoup(desc, "html.parser")
             img = soup.find("img")
             if img and img.get("src"):
-                return process_url(clean_srcset(img.get("src")))
-
-        # 7) scrape the article page
+                return process_url(img.get("src"))
+        
         if link:
             scraped = await get_image_url_from_link(link, session)
             if scraped:
-                return process_url(clean_srcset(scraped))
-
-        # 8) fallback Jornal Económico logo
+                return process_url(scraped)
+        
         if "jornaleconomico.pt" in lc_link:
             return jornal_economico_logo
-
+            
     except Exception as e:
         print(f"Error extracting image URL: {e}")
-
+    
     return None
 
 def get_feed_domain(feed_url):
