@@ -846,63 +846,69 @@ def process_url(url: str) -> str:
     return url
 
 
-async def extract_image_url(entry, session):
-    """
-    Extracts an image URL from an RSS feed entry by checking multiple possible fields and selectors.
-    """
-    jornal_economico_logo = "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
-    try:
-        # If the article is from 'jornaleconomico', return its fixed logo URL
-        if 'link' in entry and entry.link and "jornaleconomico" in entry.link:
-            return jornal_economico_logo
-        if hasattr(entry, 'media_content'):
-            for media in entry.media_content:
-                if 'url' in media:
-                    url = process_url(media['url'])
-                    return url
-        if hasattr(entry, 'enclosures'):
-            for enclosure in entry.enclosures:
-                if 'url' in enclosure and 'type' in enclosure and enclosure['type'].startswith('image/'):
-                    url = process_url(enclosure['url'])
-                    return url
-        # Check alternative tags that might contain an image URL
-        for tag in ['image', 'img', 'post-thumbnail']:
-            if tag in entry:
-                value = entry.get(tag)
-                if isinstance(value, dict) and 'url' in value:
-                    url = process_url(value['url'])
-                    return url
-                elif isinstance(value, str):
-                    url = process_url(value)
-                    return url
-        if hasattr(entry, 'content'):
-            for content in entry.content:
-                if 'value' in content:
-                    match = re.search(r'<img\s+[^>]*src="([^"]+)"', content['value'])
-                    if match:
-                        url = process_url(match.group(1))
-                        return url
-        if hasattr(entry, 'description') and entry.description:
-            if 'link' in entry and entry.link and "pplware" in entry.link:
-                match = re.search(r'<img\s+[^>]*src="([^"]+)"', entry.description)
-                if match:
-                    url = process_url(match.group(1))
-                    return url
-            soup = BeautifulSoup(entry.description, 'html.parser')
-            img = soup.find('img')
-            if img and img.get('src'):
-                url = process_url(img.get('src'))
-                return url
-        # As a fallback, try to extract the image directly from the article page
-        if 'link' in entry and entry.link:
-            url = await get_image_url_from_link(entry.link, session)
-            if url:
-                url = process_url(url)
-                return url
-    except Exception as e:
-        print(f"Error extracting image URL: {str(e)}")
-    return None
+import re
+from bs4 import BeautifulSoup
 
+async def extract_image_url(entry, session):
+   
+    jornal_economico_logo = (
+        "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
+    )
+
+    def clean_srcset(val: str) -> str:
+        # drop descriptors like "70w"
+        return val.split()[0]
+
+    try:
+        if hasattr(entry, "media_content"):
+            for m in entry.media_content:
+                url = m.get("url")
+                if url:
+                    return process_url(clean_srcset(url))
+
+        if hasattr(entry, "enclosures"):
+            for enc in entry.enclosures:
+                if enc.get("url") and enc.get("type", "").startswith("image/"):
+                    return process_url(clean_srcset(enc["url"]))
+
+        for tag in ("image", "img", "post-thumbnail"):
+            val = entry.get(tag)
+            if isinstance(val, dict) and val.get("url"):
+                return process_url(clean_srcset(val["url"]))
+            elif isinstance(val, str) and val.strip().startswith("http"):
+                return process_url(clean_srcset(val))
+
+        if hasattr(entry, "content"):
+            for block in entry.content:
+                html = block.get("value", "")
+                m = re.search(r'<img[^>]+src="([^"]+)"', html)
+                if m:
+                    return process_url(clean_srcset(m.group(1)))
+
+        desc = entry.get("description") or entry.get("summary") or ""
+        if desc:
+            m = re.search(r'<img[^>]+src="([^"]+)"', desc)
+            if m:
+                return process_url(clean_srcset(m.group(1)))
+
+            soup = BeautifulSoup(desc, "html.parser")
+            img = soup.find("img")
+            if img and img.get("src"):
+                return process_url(clean_srcset(img.get("src")))
+
+        link = entry.get("link")
+        if link:
+            scraped = await get_image_url_from_link(link, session)
+            if scraped:
+                return process_url(clean_srcset(scraped))
+
+        if link and "jornaleconomico.sapo.pt" in link:
+            return jornal_economico_logo
+
+    except Exception as e:
+        print(f"Error extracting image URL: {e}")
+
+    return None
 
 def get_feed_domain(feed_url):
     """
