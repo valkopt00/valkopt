@@ -60,4 +60,4 @@ jobs:
       - name: Deploy para Firebase Hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_DEPLOY_TOKEN }}
-        run: firebase deploy --only hosting --token "$FIREBASE_TOKEN"
+        run: firebase deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID }} --token "$FIREBASE_TOKEN"
