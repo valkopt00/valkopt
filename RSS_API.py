@@ -64,16 +64,13 @@ def export_to_json(articles):
     current_date = datetime.now(timezone.utc)
     existing_articles = load_existing_articles()
     merged_articles = merge_articles(existing_articles, articles, current_date)
-    public_dir = "public"
-    articles_file = os.path.join(public_dir, "articles.json")
-    os.makedirs(public_dir, exist_ok=True)
     
     # Remove original_category field before saving
     for cat, articles_list in merged_articles.items():
         for article in articles_list:
             article.pop("original_category", None)
             
-    with open(articles_file, "w", encoding="utf-8") as f:
+    with open("articles.json", "w", encoding="utf-8") as f:
          json.dump(merged_articles, f, ensure_ascii=False, indent=4)
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
@@ -336,12 +333,8 @@ def load_existing_articles():
     Returns:
         Dictionary with categories as keys and article lists as values
     """
-    public_dir = "public"
-    articles_file = os.path.join(public_dir, "articles.json")
-    os.makedirs(public_dir, exist_ok=True)
-    
     try:
-        with open(articles_file, "r", encoding="utf-8") as f:
+        with open("articles.json", "r", encoding="utf-8") as f:
             return json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         return {"Últimas": [], "Nacional": [], "Mundo": [], "Desporto": [], 
