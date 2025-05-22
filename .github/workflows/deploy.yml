@@ -1,5 +1,4 @@
 name: Atualizar JSON de Notícias e Deploy Firebase
-
 on:
   schedule:
     - cron: "*/15 * * * *"  # Executa a cada 15 minutos
@@ -8,30 +7,32 @@ on:
 jobs:
   update-json:
     runs-on: ubuntu-latest
-
     steps:
       - name: Clonar repositório
         uses: actions/checkout@v4
-
+        
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
-
+          
       - name: Instalar dependências
         run: pip install -r requirements.txt
-
+        
       - name: Executar script para atualizar JSON
         run: python RSS_API.py
-
+        
+      - name: Copiar articles.json para pasta public
+        run: cp articles.json public/articles.json
+        
       #- name: Reset counts with backup
       #  run: python reset_counts_with_backup.py
-
-      - name: Commit do articles.json
+      
+      - name: Commit dos ficheiros atualizados
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/articles.json original_categories.json
+          git add articles.json original_categories.json public/articles.json
           git diff --cached --quiet || git commit -m "Atualização automática do articles.json"
           git push --force origin main
 
@@ -39,19 +40,18 @@ jobs:
     needs: update-json
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
-
     steps:
       - name: Clonar repositório
         uses: actions/checkout@v4
-
+        
       - name: Configurar Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20'
-
+          
       - name: Instalar Firebase CLI
         run: npm install -g firebase-tools
-
+        
       - name: Deploy para Firebase Hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_DEPLOY_TOKEN }}
