@@ -22,8 +22,11 @@ jobs:
       - name: Executar script para atualizar JSON
         run: python RSS_API.py
         
-      - name: Copiar articles.json para pasta public
-        run: cp articles.json public/articles.json
+      - name: Copiar ficheiros JSON para pasta public
+        run: |
+          cp articles.json public/articles.json
+          cp articles_priority.json public/articles_priority.json
+          cp articles_secondary.json public/articles_secondary.json
         
       #- name: Reset counts with backup
       #  run: python reset_counts_with_backup.py
@@ -32,8 +35,8 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add articles.json original_categories.json public/articles.json
-          git diff --cached --quiet || git commit -m "Atualização automática do articles.json"
+          git add articles.json articles_priority.json articles_secondary.json original_categories.json public/articles.json public/articles_priority.json public/articles_secondary.json
+          git diff --cached --quiet || git commit -m "Atualização automática dos ficheiros JSON"
           git push --force origin main
 
   deploy-firebase:
