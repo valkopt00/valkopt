@@ -23,16 +23,17 @@ jobs:
 
       - name: Executar script para atualizar JSON
         run: python RSS_API.py
-
+        
       #- name: Reset counts with backup
       #  run: python reset_counts_with_backup.py
 
-      - name: Commit do articles.json
+      - name: Commit dos JSONs
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/articles.json
-          git diff --cached --quiet || git commit -m "Atualização automática do articles.json"
+          # Adicionar articles.json para Firebase e manter original_categories.json na raiz
+          git add public/articles.json original_categories.json
+          git diff --cached --quiet || git commit -m "Atualização automática dos JSONs"
           git push --force origin main
 
   deploy-firebase:
@@ -41,8 +42,16 @@ jobs:
     if: github.ref == 'refs/heads/main'
 
     steps:
-      - name: Clonar repositório
+      - name: Checkout repository with latest main
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configure public folder for hosting
+        run: |
+          # public/articles.json já gerado e commitado; garante que existe localmente
+          ls -R .
 
       - name: Configurar Node.js
         uses: actions/setup-node@v3
@@ -55,4 +64,5 @@ jobs:
       - name: Deploy para Firebase Hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_DEPLOY_TOKEN }}
-        run: firebase deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID }} --token "$FIREBASE_TOKEN"
+        run: |
+          firebase deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID }} --token "$FIREBASE_TOKEN"
