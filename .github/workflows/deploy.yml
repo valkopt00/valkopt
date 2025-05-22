@@ -27,6 +27,11 @@ jobs:
       #- name: Reset counts with backup
       #  run: python reset_counts_with_backup.py
 
+      - name: Prepare Firebase public folder
+        run: |
+          mkdir -p public
+          cp articles.json public/
+
       - name: Commit dos JSONs
         run: |
           git config --global user.name "github-actions[bot]"
