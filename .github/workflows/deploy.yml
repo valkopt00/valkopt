@@ -49,6 +49,11 @@ jobs:
       - name: Clonar repositório
         uses: actions/checkout@v4
 
+      - name: Configure public folder for hosting
+        run: |
+          mkdir -p public
+          cp articles.json public/
+
       - name: Configurar Node.js
         uses: actions/setup-node@v3
         with:
