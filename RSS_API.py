@@ -845,21 +845,24 @@ def process_url(url: str) -> str:
         url = url.replace("https://cdn.record.pt/images/", "", 1)
     return url
 
-
-import re
-from bs4 import BeautifulSoup
-
-async def extract_image_url(entry, session):
+async def extract_image_url(entry, session, mapped_category=None):
    
     jornal_economico_logo = (
         "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
     )
+    cmjornal_opinion_img = (
+        "https://imagens.publico.pt/imagens.aspx/260779?tp=UH&db=IMAGENS&type=JPG"
+    )
 
     def clean_srcset(val: str) -> str:
-        # drop descriptors like "70w"
         return val.split()[0]
 
     try:
+        link = entry.get("link", "")
+
+        if link and "cmjornal.pt" in link and mapped_category == "Opinião":
+            return cmjornal_opinion_img
+
         if hasattr(entry, "media_content"):
             for m in entry.media_content:
                 url = m.get("url")
@@ -890,19 +893,17 @@ async def extract_image_url(entry, session):
             m = re.search(r'<img[^>]+src="([^"]+)"', desc)
             if m:
                 return process_url(clean_srcset(m.group(1)))
-
             soup = BeautifulSoup(desc, "html.parser")
             img = soup.find("img")
             if img and img.get("src"):
                 return process_url(clean_srcset(img.get("src")))
 
-        link = entry.get("link")
         if link:
             scraped = await get_image_url_from_link(link, session)
             if scraped:
                 return process_url(clean_srcset(scraped))
 
-        if link and "jornaleconomico.sapo.pt" in link:
+        if link and "jornaleconomico.pt" in link:
             return jornal_economico_logo
 
     except Exception as e:
