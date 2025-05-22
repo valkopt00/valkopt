@@ -70,7 +70,7 @@ def export_to_json(articles):
         for article in articles_list:
             article.pop("original_category", None)
             
-    with open("articles.json", "w", encoding="utf-8") as f:
+    with open("public/articles.json", "w", encoding="utf-8") as f:
          json.dump(merged_articles, f, ensure_ascii=False, indent=4)
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
