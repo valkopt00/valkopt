@@ -11,21 +11,21 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/03/22/governo-angolano-fecha-a-porta-a-oposicao/",
-        "count": 75
+        "count": 76
     },
     {
         "category": "Palavras Cruzadas",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/jogos/palavras-cruzadas/2025-03-18-palavras-cruzadas-n-1184-0a4b9c42",
-        "count": 72
+        "count": 73
     },
     {
         "category": "Expresso Fundamental",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-03-18-ultimas-noticias-de-terca-feira-dia-18-de-marco-de-2025-72c5e305",
-        "count": 66
+        "count": 67
     },
     {
         "category": "Inimigo Público",
@@ -60,7 +60,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expressinho/2025-03-20-eu-nunca-vou-pertencer-aquela-cidade-d486a292",
-        "count": 31
+        "count": 33
     },
     {
         "category": "+E",
@@ -74,13 +74,20 @@
         "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias",
         "url": "https://www.cmjornal.pt/cm-ao-minuto/detalhe/20250321-090533-aeroporto-de-gatwick-esta-a-receber-voos-desviados-apos-incendio-em-heathrow",
-        "count": 28
+        "count": 30
     },
     {
         "category": "Habitação",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/19/economia/noticia/taxa-juro-contratos-habitacao-recentes-subiu-15-meses-queda-2126542",
+        "count": 23
+    },
+    {
+        "category": "Iniciativas e Produtos",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/iniciativaseprodutos/2025-03-27-informar-ou-desinformar--conheca-os-vencedores-do-concurso-que-desafiou-escolas-de-todo-o-pais-d80ed4e2",
         "count": 22
     },
     {
@@ -89,13 +96,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/publico-brasil/noticia/imigrantes-documentos-vencidos-esperam-resposta-governo-eleicoes-2126362",
         "count": 21
-    },
-    {
-        "category": "Iniciativas e Produtos",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/iniciativaseprodutos/2025-03-27-informar-ou-desinformar--conheca-os-vencedores-do-concurso-que-desafiou-escolas-de-todo-o-pais-d80ed4e2",
-        "count": 20
     },
     {
         "category": "Capas",
@@ -158,14 +158,21 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/importa-se-de-repetir/2025-03-27-rui-moreira-no-porto-ha-mais-candidatos-alem-de-pizarro-e-pedro-duarte-vou-manter-me-neutro-ate-ao-fim-a1fe8920",
-        "count": 13
+        "count": 14
     },
     {
         "category": "Negócios da Semana",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/negocios-da-semana/2025-03-27-superavit-ou-superproblema--o-dilema-economico-portugues-em-tempos-de-incerteza-efca7343",
-        "count": 13
+        "count": 14
+    },
+    {
+        "category": "Ver",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/visaose7e/ver/2025-03-18-capicua-este-disco-pretende-ser-uma-pausa-na-sensacao-de-fim-do-mundo-que-vivemos/?utm_source=rss&utm_medium=rss&utm_campaign=capicua-este-disco-pretende-ser-uma-pausa-na-sensacao-de-fim-do-mundo-que-vivemos",
+        "count": 14
     },
     {
         "category": "Património",
@@ -182,6 +189,20 @@
         "count": 13
     },
     {
+        "category": "Reino Unido",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/19/mundo/noticia/governo-trabalhista-britanico-corta-prestacoes-sociais-arrisca-mae-rebelioes-2126587",
+        "count": 13
+    },
+    {
+        "category": "TV",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/visaose7e/tv/2025-03-26-the-studio-seth-rogen-aponta-o-dedo-a-industria-de-hollywood/?utm_source=rss&utm_medium=rss&utm_campaign=the-studio-seth-rogen-aponta-o-dedo-a-industria-de-hollywood",
+        "count": 13
+    },
+    {
         "category": "Universidade de Coimbra",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -189,24 +210,10 @@
         "count": 13
     },
     {
-        "category": "Ver",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/visaose7e/ver/2025-03-18-capicua-este-disco-pretende-ser-uma-pausa-na-sensacao-de-fim-do-mundo-que-vivemos/?utm_source=rss&utm_medium=rss&utm_campaign=capicua-este-disco-pretende-ser-uma-pausa-na-sensacao-de-fim-do-mundo-que-vivemos",
-        "count": 13
-    },
-    {
         "category": "Da economia, com felicidade",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/da-economia-com-felicidade/2025-03-25-o-portugal-dinamarca-da-felicidade/?utm_source=rss&utm_medium=rss&utm_campaign=o-portugal-dinamarca-da-felicidade",
-        "count": 12
-    },
-    {
-        "category": "TV",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/visaose7e/tv/2025-03-26-the-studio-seth-rogen-aponta-o-dedo-a-industria-de-hollywood/?utm_source=rss&utm_medium=rss&utm_campaign=the-studio-seth-rogen-aponta-o-dedo-a-industria-de-hollywood",
         "count": 12
     },
     {
@@ -245,13 +252,6 @@
         "count": 11
     },
     {
-        "category": "Reino Unido",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/19/mundo/noticia/governo-trabalhista-britanico-corta-prestacoes-sociais-arrisca-mae-rebelioes-2126587",
-        "count": 11
-    },
-    {
         "category": "Roménia",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -280,10 +280,24 @@
         "count": 10
     },
     {
+        "category": "Rússia",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/21/mundo/noticia/russia-bombardeia-infraestruturas-civis-odessa-2126941",
+        "count": 10
+    },
+    {
         "category": "Crítica Cinema",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/culturaipsilon/critica/novocaine-ultimo-microheroi-2126152",
+        "count": 9
+    },
+    {
+        "category": "Guiné-Bissau",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/04/19/mundo/noticia/aldeia-resiste-fogo-exploracao-areias-pesadas-bonitas-praias-guinebissau-2130340",
         "count": 9
     },
     {
@@ -294,10 +308,10 @@
         "count": 9
     },
     {
-        "category": "Rússia",
-        "source": "Público",
+        "category": "Resultados Legislativas 2025",
+        "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/21/mundo/noticia/russia-bombardeia-infraestruturas-civis-odessa-2126941",
+        "url": "https://expresso.pt/politica/eleicoes/legislativas-2025/resultados/2025-05-22-entre-as-autarquicas-de-2021-e-estas-legislativas-como-mudaram-as-cores-do-mapa-politico-do-pais--62ae4e6e",
         "count": 9
     },
     {
@@ -336,13 +350,6 @@
         "count": 8
     },
     {
-        "category": "Guiné-Bissau",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/04/19/mundo/noticia/aldeia-resiste-fogo-exploracao-areias-pesadas-bonitas-praias-guinebissau-2130340",
-        "count": 8
-    },
-    {
         "category": "Motores - Novidade",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -350,10 +357,10 @@
         "count": 8
     },
     {
-        "category": "Resultados Legislativas 2025",
-        "source": "Expresso",
+        "category": "Sair",
+        "source": "Visão",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/eleicoes/legislativas-2025/resultados/2025-05-22-entre-as-autarquicas-de-2021-e-estas-legislativas-como-mudaram-as-cores-do-mapa-politico-do-pais--62ae4e6e",
+        "url": "https://visao.pt/visaose7e/sair/2025-03-21-8-ideias-gratis-para-celebrar-o-dia-mundial-da-poesia/?utm_source=rss&utm_medium=rss&utm_campaign=8-ideias-gratis-para-celebrar-o-dia-mundial-da-poesia",
         "count": 8
     },
     {
@@ -396,13 +403,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/asia/japao/2025-03-19-soga-teve-a-sorte-de-regressar-mas-a-mae-ficou-para-tras-decadas-de-espera-pelos-japoneses-raptados-pela-coreia-do-norte-78076148",
-        "count": 7
-    },
-    {
-        "category": "Sair",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/visaose7e/sair/2025-03-21-8-ideias-gratis-para-celebrar-o-dia-mundial-da-poesia/?utm_source=rss&utm_medium=rss&utm_campaign=8-ideias-gratis-para-celebrar-o-dia-mundial-da-poesia",
         "count": 7
     },
     {
@@ -462,6 +462,13 @@
         "count": 6
     },
     {
+        "category": "Seleção Nacional",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/selecao-nacional/bino-quer-entrar-a-ganhar-no-europeu-de-sub-17_d1656740",
+        "count": 6
+    },
+    {
         "category": "Trabalho",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -469,10 +476,31 @@
         "count": 6
     },
     {
-        "category": "Seleção Nacional",
-        "source": "RTP Notícias",
+        "category": "Arte Urbana",
+        "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/selecao-nacional/bino-quer-entrar-a-ganhar-no-europeu-de-sub-17_d1656740",
+        "url": "https://www.publico.pt/2025/04/19/culturaipsilon/noticia/robin-gunningham-sera-banksy-detective-privado-espanhol-francisco-marco-2130366",
+        "count": 5
+    },
+    {
+        "category": "Bem-estar",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/20/impar/noticia/portugal-infeliz-ha-ano-finlandeses-seguram-lugar-2126637",
+        "count": 5
+    },
+    {
+        "category": "Podcast Poder Público",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/27/politica/noticia/caminho-pedras-pedro-nuno-santos-fuga-luis-montenegro-debates-2127528",
+        "count": 5
+    },
+    {
+        "category": "Solidariedade",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/31/impar/noticia/principe-harry-acusado-intimidacao-assedio-presidente-instituicao-beneficencia-2127918",
         "count": 5
     },
     {
@@ -490,24 +518,10 @@
         "count": 4
     },
     {
-        "category": "Arte Urbana",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/04/19/culturaipsilon/noticia/robin-gunningham-sera-banksy-detective-privado-espanhol-francisco-marco-2130366",
-        "count": 4
-    },
-    {
         "category": "Aviação",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/publico-brasil/noticia/controle-embraer-ogma-vai-faturar-290-milhoes-euros-montenegro-comemora-2126451",
-        "count": 4
-    },
-    {
-        "category": "Bem-estar",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/20/impar/noticia/portugal-infeliz-ha-ano-finlandeses-seguram-lugar-2126637",
         "count": 4
     },
     {
@@ -553,13 +567,6 @@
         "count": 4
     },
     {
-        "category": "Podcast Poder Público",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/27/politica/noticia/caminho-pedras-pedro-nuno-santos-fuga-luis-montenegro-debates-2127528",
-        "count": 4
-    },
-    {
         "category": "Podcast Um pouco mais de azul",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -588,10 +595,10 @@
         "count": 4
     },
     {
-        "category": "Solidariedade",
-        "source": "Público",
+        "category": "Sistema financeiro",
+        "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/31/impar/noticia/principe-harry-acusado-intimidacao-assedio-presidente-instituicao-beneficencia-2127918",
+        "url": "https://expresso.pt/economia/sistema-financeiro/2025-05-22-miranda-sarmento-e-contra-a-compra-do-novo-banco-pelo-espanhol-caixabank-f0e288d2",
         "count": 4
     },
     {
@@ -679,10 +686,10 @@
         "count": 3
     },
     {
-        "category": "Sistema financeiro",
-        "source": "Expresso",
+        "category": "Violência Doméstica",
+        "source": "Jornal I",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/economia/sistema-financeiro/2025-05-22-miranda-sarmento-e-contra-a-compra-do-novo-banco-pelo-espanhol-caixabank-f0e288d2",
+        "url": "https://ionline.sapo.pt/2025/05/20/homem-condenado-a-12-anos-de-prisao-por-crimes-sexuais-contra-a-filha/",
         "count": 3
     },
     {
@@ -718,13 +725,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/01/culturaipsilon/noticia/lisboa-genealogia-visual-diaspora-africana-2127981",
-        "count": 2
-    },
-    {
-        "category": "Violência Doméstica",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/20/homem-condenado-a-12-anos-de-prisao-por-crimes-sexuais-contra-a-filha/",
         "count": 2
     },
     {
