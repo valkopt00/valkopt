@@ -2,7 +2,7 @@ name: Atualizar JSON de Notícias e Deploy Firebase
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/15 * * * *"  # Executa a cada 15 minutos
   workflow_dispatch:
 
 jobs:
@@ -27,12 +27,12 @@ jobs:
       #- name: Reset counts with backup
       #  run: python reset_counts_with_backup.py
 
-      - name: Commit dos JSONs
+      - name: Commit do articles.json
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/articles.json original_categories.json
-          git diff --cached --quiet || git commit -m "Atualização automática do JSON"
+          git add public/articles.json
+          git diff --cached --quiet || git commit -m "Atualização automática do articles.json"
           git push --force origin main
 
   deploy-firebase:
