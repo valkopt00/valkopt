@@ -67,7 +67,7 @@ def export_to_json(articles):
     merged_articles = merge_articles(existing_articles, articles, current_date)
     
     # Define priority categories (lowercase for comparison)
-    priority_categories = ["Últimas", "Nacional", "Mundo", "Desporto", "Economia", "Cultura", "Política"]
+    priority_categories = ["Últimas", "Nacional", "Mundo"]
     
     # Create priority and secondary dictionaries
     priority_articles = {}
