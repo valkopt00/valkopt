@@ -81,13 +81,13 @@ jobs:
           fi
       
       - name: Deploy para Vercel
-        env:
-          VERCEL_ARTICLES: ${{ secrets.VERCEL_ARTICLES }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-        run: |
-          echo "Iniciando deploy para Vercel..."
-          vercel --token="$VERCEL_ARTICLES" --prod --yes
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          working-directory: ./
+          vercel-args: '--prod'
           
       - name: Aguardar propagação
         run: |
