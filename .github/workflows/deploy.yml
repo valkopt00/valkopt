@@ -61,7 +61,7 @@ jobs:
         run: firebase deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID }} --token "$FIREBASE_TOKEN"
 
       - name: Warm up Firebase CDN cache
-      run: |
-        curl -I https://ned-api-316f8.web.app/articles_priority.json
-        curl -I https://ned-api-316f8.web.app/articles_secondary.json        
-        curl -I https://ned-api-316f8.web.app/articles.json
+        run: |
+          curl -I https://ned-api-316f8.web.app/articles_priority.json
+          curl -I https://ned-api-316f8.web.app/articles_secondary.json        
+          curl -I https://ned-api-316f8.web.app/articles.json
