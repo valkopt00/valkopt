@@ -1,17 +1,48 @@
 {
   "hosting": {
     "public": "public",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "headers": [
       {
-        "source": "/articles.json",
+        "source": "**/*.json",
         "headers": [
           {
             "key": "Cache-Control",
             "value": "public, max-age=60, s-maxage=60"
+          },
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          },
+          {
+            "key": "Access-Control-Allow-Methods", 
+            "value": "GET, HEAD, OPTIONS"
+          }
+        ]
+      },
+      {
+        "source": "**/articles*.json",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=30, s-maxage=30, must-revalidate"
+          },
+          {
+            "key": "ETag",
+            "value": "\"articles-cache\""
           }
         ]
       }
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
     ]
   }
 }
