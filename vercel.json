@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "public": true,
+  "github": {
+    "silent": true
+  },
+  "headers": [
+    {
+      "source": "/articles*.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=30, s-maxage=30, stale-while-revalidate=60"
+        },
+        {
+          "key": "Access-Control-Allow-Origin", 
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, HEAD, OPTIONS"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=60, s-maxage=60"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "src": "/articles_priority.json",
+      "dest": "/public/articles_priority.json"
+    },
+    {
+      "src": "/articles_secondary.json", 
+      "dest": "/public/articles_secondary.json"
+    },
+    {
+      "src": "/articles.json",
+      "dest": "/public/articles.json"
+    }
+  ]
+}
