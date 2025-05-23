@@ -6,7 +6,49 @@
   },
   "headers": [
     {
-      "source": "/articles(?:_.*)?\\.json",
+      "source": "/articles.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=30, s-maxage=30, stale-while-revalidate=60"
+        },
+        {
+          "key": "Access-Control-Allow-Origin", 
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, HEAD, OPTIONS"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/articles_priority.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=30, s-maxage=30, stale-while-revalidate=60"
+        },
+        {
+          "key": "Access-Control-Allow-Origin", 
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, HEAD, OPTIONS"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/articles_secondary.json",
       "headers": [
         {
           "key": "Cache-Control",
