@@ -6,7 +6,7 @@
   },
   "headers": [
     {
-      "source": "/articles*.json",
+      "source": "/articles(?:_.*)?\\.json",
       "headers": [
         {
           "key": "Cache-Control",
