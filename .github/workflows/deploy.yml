@@ -20,7 +20,9 @@ jobs:
         run: pip install -r requirements.txt
         
       - name: Executar script para atualizar JSON
-        run: python ./scripts/RSS_API.py
+        run: |
+            export PYTHONPATH=$(pwd)
+            python scripts/RSS_API.py
         
       - name: Copiar ficheiros JSON para pasta public
         run: |
