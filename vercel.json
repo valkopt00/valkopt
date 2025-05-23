@@ -39,19 +39,5 @@
         }
       ]
     }
-  ],
-  "routes": [
-    {
-      "src": "/articles_priority.json",
-      "dest": "/public/articles_priority.json"
-    },
-    {
-      "src": "/articles_secondary.json", 
-      "dest": "/public/articles_secondary.json"
-    },
-    {
-      "src": "/articles.json",
-      "dest": "/public/articles.json"
-    }
   ]
 }
