@@ -18,7 +18,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/iniciativaseprodutos/mais-europa/2025-03-19-inovar-nas-guloseimas-para-caes--um-queijo-madeirense-deu-origem-a-snacks-caninos-saudaveis-e-seguros-fc15ab4d",
-        "count": 139
+        "count": 140
     },
     {
         "category": "Sem categoria",
@@ -32,7 +32,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-03-18-ultimas-noticias-de-terca-feira-dia-18-de-marco-de-2025-72c5e305",
-        "count": 104
+        "count": 105
+    },
+    {
+        "category": "Sistema financeiro",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/economia/sistema-financeiro/2025-05-22-miranda-sarmento-e-contra-a-compra-do-novo-banco-pelo-espanhol-caixabank-f0e288d2",
+        "count": 102
     },
     {
         "category": "Ver",
@@ -40,13 +47,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/visaose7e/ver/2025-03-18-capicua-este-disco-pretende-ser-uma-pausa-na-sensacao-de-fim-do-mundo-que-vivemos/?utm_source=rss&utm_medium=rss&utm_campaign=capicua-este-disco-pretende-ser-uma-pausa-na-sensacao-de-fim-do-mundo-que-vivemos",
         "count": 102
-    },
-    {
-        "category": "Sistema financeiro",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/economia/sistema-financeiro/2025-05-22-miranda-sarmento-e-contra-a-compra-do-novo-banco-pelo-espanhol-caixabank-f0e288d2",
-        "count": 101
     },
     {
         "category": "The Heart and Hustle of Portugal",
@@ -60,7 +60,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/eleicoes/legislativas-2025/resultados/2025-05-22-entre-as-autarquicas-de-2021-e-estas-legislativas-como-mudaram-as-cores-do-mapa-politico-do-pais--62ae4e6e",
-        "count": 93
+        "count": 95
     },
     {
         "category": "Lisboa",
@@ -70,6 +70,13 @@
         "count": 79
     },
     {
+        "category": "PS",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/05/22/politica/noticia/manuel-alegre-ps-fechado-2134044",
+        "count": 78
+    },
+    {
         "category": "Música",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
@@ -77,18 +84,11 @@
         "count": 76
     },
     {
-        "category": "PS",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/05/22/politica/noticia/manuel-alegre-ps-fechado-2134044",
-        "count": 75
-    },
-    {
         "category": "A Beleza das Pequenas Coisas",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/a-beleza-das-pequenas-coisas/2025-03-21-rita-blanco--parte-1--ser-mulher-e-ter-que-lutar-todos-os-dias-por-um-lugar.-comigo-foi-assim.-o-humor-e-a-dureza-tem-sido-a-minha-arma-a66b8d24",
-        "count": 72
+        "count": 73
     },
     {
         "category": "Em Destaque",
@@ -151,6 +151,13 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/multimedia/video/2025-05-22-video-cresci-com-a-minha-mae-sempre-na-cozinha-se-queria-mesmo-conversar-ou-estar-com-ela-era-la-que-tinha-de-ir-27e93c1e",
+        "count": 62
+    },
+    {
+        "category": "No Último Episódio",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/no-ultimo-episodio/2025-04-18-se-e-viciado-em-series-como-stranger-things-white-lotus-e-the-last-of-us-este-podcast-e-para-si-no-ultimo-episodio--oica-aqui-o-trailer--c22d6f92",
         "count": 61
     },
     {
@@ -161,18 +168,11 @@
         "count": 60
     },
     {
-        "category": "No Último Episódio",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/no-ultimo-episodio/2025-04-18-se-e-viciado-em-series-como-stranger-things-white-lotus-e-the-last-of-us-este-podcast-e-para-si-no-ultimo-episodio--oica-aqui-o-trailer--c22d6f92",
-        "count": 60
-    },
-    {
         "category": "Eixo do Mal",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/eixo-do-mal/2025-03-21-bem-vindos-de-novo-ao-mundo-encantado-das-sondagens-cenarios-e-eleicoes-a7753e06",
-        "count": 57
+        "count": 58
     },
     {
         "category": "Fisga",
@@ -200,7 +200,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/29/politica/noticia/ministro-assuntos-parlamentares-garante-montenegro-saude-rija-2127819",
-        "count": 53
+        "count": 54
     },
     {
         "category": "Violência Doméstica",
@@ -238,6 +238,20 @@
         "count": 49
     },
     {
+        "category": "Espanha",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/19/mundo/noticia/fortes-chuvas-sul-espanha-provocam-duas-mortes-causam-estragos-2126544",
+        "count": 49
+    },
+    {
+        "category": "Observador",
+        "source": "Observador",
+        "mapped_category": "Outras Notícias",
+        "url": "https://observador.pt/programas/em-40-minutos/samuel-uria-o-publico-sabe-quando-ha-sinceridade-nas-cancoes-em-40-minutos/",
+        "count": 49
+    },
+    {
         "category": "Edição Impressa",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
@@ -245,31 +259,24 @@
         "count": 48
     },
     {
-        "category": "Espanha",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/19/mundo/noticia/fortes-chuvas-sul-espanha-provocam-duas-mortes-causam-estragos-2126544",
-        "count": 48
-    },
-    {
-        "category": "Observador",
-        "source": "Observador",
-        "mapped_category": "Outras Notícias",
-        "url": "https://observador.pt/programas/em-40-minutos/samuel-uria-o-publico-sabe-quando-ha-sinceridade-nas-cancoes-em-40-minutos/",
-        "count": 48
-    },
-    {
         "category": "Redes Sociais",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/21/mp-abre-inquerito-a-videos-de-ventura-sobre-comunidade-cigana/",
-        "count": 47
+        "count": 48
     },
     {
         "category": "Jogo Aberto",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/jogo-aberto/2025-05-22-luis-aguilar-ha-quem-nasca-e-ha-quem-se-faca-capitao-e-hjulmand-nasceu-capitao-be8f1b46",
+        "count": 47
+    },
+    {
+        "category": "Tráfico de droga",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/19/sociedade/noticia/apreendidas-23-toneladas-cocaina-2024-valor-alto-desde-2006-2126529",
         "count": 46
     },
     {
@@ -277,13 +284,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/memorias-de-francisco-pinto-balsemao/2025-03-21-o-expresso-durante-a-revolucao-e-os-primeiros-anos-da-democracia-cheguei-a-passar-uma-noite-com-uma-pistola-a-espera-da-extrema-esquerda-15baef0c",
-        "count": 45
-    },
-    {
-        "category": "Tráfico de droga",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/19/sociedade/noticia/apreendidas-23-toneladas-cocaina-2024-valor-alto-desde-2006-2126529",
         "count": 45
     },
     {
@@ -336,6 +336,13 @@
         "count": 37
     },
     {
+        "category": "Programa Cujo Nome Estamos Legalmente Impedidos de Dizer",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/governo-sombra/2025-03-22-o-mundo-e-um-lugar-muito-mal-frequentado-75e6fe09",
+        "count": 36
+    },
+    {
         "category": "Importa-se de Repetir?",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -357,13 +364,6 @@
         "count": 35
     },
     {
-        "category": "Programa Cujo Nome Estamos Legalmente Impedidos de Dizer",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/governo-sombra/2025-03-22-o-mundo-e-um-lugar-muito-mal-frequentado-75e6fe09",
-        "count": 34
-    },
-    {
         "category": "Segurança",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -375,14 +375,21 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/22/caixa-lucra-393-milhoes-no-primeiro-trimestre/",
-        "count": 33
+        "count": 34
     },
     {
         "category": "Rússia",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/21/mundo/noticia/russia-bombardeia-infraestruturas-civis-odessa-2126941",
-        "count": 32
+        "count": 33
+    },
+    {
+        "category": "Irritações",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/irritacoes/2025-03-21-carla-quevedo-e-portugues-deduzir-se-logo-que-nao-e-possivel-fazer-certa-coisa-sem-ainda-se-ter-nocao-do-problema-e9025372",
+        "count": 31
     },
     {
         "category": "Receita",
@@ -397,13 +404,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/01/desporto/noticia/sexualidade-politica-levam-russa-daria-kasatkina-naturalizarse-australiana-2128177",
         "count": 31
-    },
-    {
-        "category": "Irritações",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/irritacoes/2025-03-21-carla-quevedo-e-portugues-deduzir-se-logo-que-nao-e-possivel-fazer-certa-coisa-sem-ainda-se-ter-nocao-do-problema-e9025372",
-        "count": 30
     },
     {
         "category": "Podcast Soundbite",
@@ -504,6 +504,13 @@
         "count": 18
     },
     {
+        "category": "Expresso da Meia-Noite",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/expresso-da-meia-noite/2025-03-22-novas-sondagem-e-mais-documentacao-sobre-a-spinumviva.-e-a-partir-daqui-que-rumo-vai-tomar-esta-campanha--056607c6",
+        "count": 18
+    },
+    {
         "category": "Incerto Mundo Novo",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
@@ -536,13 +543,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/primeiro/a-abrir/duelo/2025-03-27-partidos-devem-aceitar-modelo-de-debates-que-inclui-nuno-melo--84c2f95a",
-        "count": 17
-    },
-    {
-        "category": "Expresso da Meia-Noite",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/expresso-da-meia-noite/2025-03-22-novas-sondagem-e-mais-documentacao-sobre-a-spinumviva.-e-a-partir-daqui-que-rumo-vai-tomar-esta-campanha--056607c6",
         "count": 17
     },
     {
@@ -588,6 +588,13 @@
         "count": 14
     },
     {
+        "category": "ApressadaMente",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/opiniao/apressadamente/2025-04-29-o-apagao-que-iluminou-o-essencial/?utm_source=rss&utm_medium=rss&utm_campaign=o-apagao-que-iluminou-o-essencial",
+        "count": 13
+    },
+    {
         "category": "Guiné-Bissau",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -616,17 +623,17 @@
         "count": 13
     },
     {
-        "category": "ApressadaMente",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/opiniao/apressadamente/2025-04-29-o-apagao-que-iluminou-o-essencial/?utm_source=rss&utm_medium=rss&utm_campaign=o-apagao-que-iluminou-o-essencial",
-        "count": 12
-    },
-    {
         "category": "Da economia, com felicidade",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/da-economia-com-felicidade/2025-03-25-o-portugal-dinamarca-da-felicidade/?utm_source=rss&utm_medium=rss&utm_campaign=o-portugal-dinamarca-da-felicidade",
+        "count": 12
+    },
+    {
+        "category": "França",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/25/mundo/noticia/avos-tios-emile-menino-dois-anos-desaparecido-franca-detidos-homicidio-2127233",
         "count": 12
     },
     {
@@ -641,6 +648,13 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/miguel-sousa-tavares-de-viva-voz/2025-03-21-a-ucrania-a-desilusao-depois-das-altissimas-expectativas-de-trump-e-as-sondagens-a-pedir-rejuvenescimento-no-psd-e-ps-cadb3ea3",
+        "count": 12
+    },
+    {
+        "category": "Óbito",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/04/03/sociedade/noticia/morreu-paulo-mendo-exministro-saude-92-anos-2128411",
         "count": 12
     },
     {
@@ -700,11 +714,11 @@
         "count": 11
     },
     {
-        "category": "Óbito",
+        "category": "Constituição",
         "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/04/03/sociedade/noticia/morreu-paulo-mendo-exministro-saude-92-anos-2128411",
-        "count": 11
+        "url": "https://www.publico.pt/2025/05/22/politica/noticia/ad-negoceia-revisao-constitucional-esquerda-teme-mudanca-regime-2133832",
+        "count": 10
     },
     {
         "category": "Diários da República",
@@ -746,13 +760,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/20/impar/noticia/portugal-infeliz-ha-ano-finlandeses-seguram-lugar-2126637",
-        "count": 9
-    },
-    {
-        "category": "Constituição",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/05/22/politica/noticia/ad-negoceia-revisao-constitucional-esquerda-teme-mudanca-regime-2133832",
         "count": 9
     },
     {
@@ -830,13 +837,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/mundo/noticia/preso-politico-mahmoud-khalil-activista-palestiniano-detido-eua-2126491",
-        "count": 8
-    },
-    {
-        "category": "França",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/25/mundo/noticia/avos-tios-emile-menino-dois-anos-desaparecido-franca-detidos-homicidio-2127233",
         "count": 8
     },
     {
@@ -1316,6 +1316,13 @@
         "count": 2
     },
     {
+        "category": "Fugas",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/23/newsletter/fugas",
+        "count": 2
+    },
+    {
         "category": "Hollywood",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1334,6 +1341,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/27/local/noticia/mubi-contesta-corte-numero-apoios-governo-compra-bicicletas-2127637",
+        "count": 2
+    },
+    {
+        "category": "Paleontologia",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/27/ciencia/noticia/estranho-dinossauro-mongolia-garras-afiadas-terriveis-2127294",
         "count": 2
     },
     {
@@ -1519,13 +1533,6 @@
         "count": 1
     },
     {
-        "category": "Fugas",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/23/newsletter/fugas",
-        "count": 1
-    },
-    {
         "category": "Furacões",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1603,6 +1610,13 @@
         "count": 1
     },
     {
+        "category": "Moçambique",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/mundo/noticia/policia-mocambicana-usar-meios-legitimos-dispersar-manifestantes-2126379",
+        "count": 1
+    },
+    {
         "category": "O Homem Que Comia Tudo",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -1656,13 +1670,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/23/publico-brasil/noticia/aumento-iof-reduz-vantagens-pix-portugal-continua-melhor-cartao-credito-2134121",
-        "count": 1
-    },
-    {
-        "category": "Paleontologia",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/27/ciencia/noticia/estranho-dinossauro-mongolia-garras-afiadas-terriveis-2127294",
         "count": 1
     },
     {
@@ -5751,13 +5758,6 @@
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/motores/marc-marquez-vence-corrida-sprint-do-gp-das-americas-de-motogp_d1644407",
-        "count": 0
-    },
-    {
-        "category": "Moçambique",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/mundo/noticia/policia-mocambicana-usar-meios-legitimos-dispersar-manifestantes-2126379",
         "count": 0
     },
     {
