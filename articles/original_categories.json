@@ -4,14 +4,14 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/22/politica/noticia/manuel-alegre-ps-fechado-2134044",
-        "count": 208
+        "count": 213
     },
     {
         "category": "Resultados Legislativas 2025",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/eleicoes/legislativas-2025/resultados/2025-05-22-entre-as-autarquicas-de-2021-e-estas-legislativas-como-mudaram-as-cores-do-mapa-politico-do-pais--62ae4e6e",
-        "count": 173
+        "count": 176
     },
     {
         "category": "Mais Europa",
@@ -39,7 +39,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-03-18-ultimas-noticias-de-terca-feira-dia-18-de-marco-de-2025-72c5e305",
-        "count": 135
+        "count": 136
     },
     {
         "category": "Sem categoria",
@@ -53,7 +53,14 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/25/mundo/noticia/avos-tios-emile-menino-dois-anos-desaparecido-franca-detidos-homicidio-2127233",
-        "count": 107
+        "count": 110
+    },
+    {
+        "category": "A Beleza das Pequenas Coisas",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/a-beleza-das-pequenas-coisas/2025-03-21-rita-blanco--parte-1--ser-mulher-e-ter-que-lutar-todos-os-dias-por-um-lugar.-comigo-foi-assim.-o-humor-e-a-dureza-tem-sido-a-minha-arma-a66b8d24",
+        "count": 104
     },
     {
         "category": "Sistema financeiro",
@@ -61,13 +68,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/economia/sistema-financeiro/2025-05-22-miranda-sarmento-e-contra-a-compra-do-novo-banco-pelo-espanhol-caixabank-f0e288d2",
         "count": 104
-    },
-    {
-        "category": "A Beleza das Pequenas Coisas",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/a-beleza-das-pequenas-coisas/2025-03-21-rita-blanco--parte-1--ser-mulher-e-ter-que-lutar-todos-os-dias-por-um-lugar.-comigo-foi-assim.-o-humor-e-a-dureza-tem-sido-a-minha-arma-a66b8d24",
-        "count": 103
     },
     {
         "category": "Ver",
@@ -88,7 +88,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/governo-sombra/2025-03-22-o-mundo-e-um-lugar-muito-mal-frequentado-75e6fe09",
-        "count": 96
+        "count": 98
     },
     {
         "category": "Música",
@@ -102,7 +102,14 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/19/mundo/noticia/fortes-chuvas-sul-espanha-provocam-duas-mortes-causam-estragos-2126544",
-        "count": 79
+        "count": 80
+    },
+    {
+        "category": "Observador",
+        "source": "Observador",
+        "mapped_category": "Outras Notícias",
+        "url": "https://observador.pt/programas/em-40-minutos/samuel-uria-o-publico-sabe-quando-ha-sinceridade-nas-cancoes-em-40-minutos/",
+        "count": 80
     },
     {
         "category": "Lisboa",
@@ -112,25 +119,18 @@
         "count": 79
     },
     {
-        "category": "Observador",
-        "source": "Observador",
-        "mapped_category": "Outras Notícias",
-        "url": "https://observador.pt/programas/em-40-minutos/samuel-uria-o-publico-sabe-quando-ha-sinceridade-nas-cancoes-em-40-minutos/",
-        "count": 79
-    },
-    {
         "category": "Jogo Aberto",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/jogo-aberto/2025-05-22-luis-aguilar-ha-quem-nasca-e-ha-quem-se-faca-capitao-e-hjulmand-nasceu-capitao-be8f1b46",
-        "count": 77
+        "count": 78
     },
     {
         "category": "Autárquicas 2025",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/eleicoes/autarquicas-2025/2025-05-22-pedro-duarte-candidato-da-ad-ao-porto-encabeca-peticao-para-suspender-2.-fase-do-metrobus-do-porto-4e2ed9a5",
-        "count": 73
+        "count": 74
     },
     {
         "category": "Vídeo",
@@ -161,6 +161,13 @@
         "count": 66
     },
     {
+        "category": "lucros",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/22/caixa-lucra-393-milhoes-no-primeiro-trimestre/",
+        "count": 65
+    },
+    {
         "category": "Iniciativas e Produtos",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -172,13 +179,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/culturas/teatro--danca/2025-03-20-teatro-nas-caldas-da-rainha-quem-esta-ai--mostra-todos-os-fantasmas-do-mundo-06893579",
-        "count": 64
-    },
-    {
-        "category": "lucros",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/22/caixa-lucra-393-milhoes-no-primeiro-trimestre/",
         "count": 64
     },
     {
@@ -210,6 +210,13 @@
         "count": 62
     },
     {
+        "category": "Irritações",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/irritacoes/2025-03-21-carla-quevedo-e-portugues-deduzir-se-logo-que-nao-e-possivel-fazer-certa-coisa-sem-ainda-se-ter-nocao-do-problema-e9025372",
+        "count": 62
+    },
+    {
         "category": "Prémio Nacional Turismo",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -222,13 +229,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/21/mp-abre-inquerito-a-videos-de-ventura-sobre-comunidade-cigana/",
         "count": 62
-    },
-    {
-        "category": "Irritações",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/irritacoes/2025-03-21-carla-quevedo-e-portugues-deduzir-se-logo-que-nao-e-possivel-fazer-certa-coisa-sem-ainda-se-ter-nocao-do-problema-e9025372",
-        "count": 61
     },
     {
         "category": "Tráfico de droga",
@@ -308,17 +308,17 @@
         "count": 49
     },
     {
-        "category": "Edição Impressa",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/edicao-impressa/2025-03-19-edicao-1672/?utm_source=rss&utm_medium=rss&utm_campaign=edicao-1672",
-        "count": 48
-    },
-    {
         "category": "Expresso da Meia-Noite",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/expresso-da-meia-noite/2025-03-22-novas-sondagem-e-mais-documentacao-sobre-a-spinumviva.-e-a-partir-daqui-que-rumo-vai-tomar-esta-campanha--056607c6",
+        "count": 49
+    },
+    {
+        "category": "Edição Impressa",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/edicao-impressa/2025-03-19-edicao-1672/?utm_source=rss&utm_medium=rss&utm_campaign=edicao-1672",
         "count": 48
     },
     {
@@ -340,7 +340,7 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/apressadamente/2025-04-29-o-apagao-que-iluminou-o-essencial/?utm_source=rss&utm_medium=rss&utm_campaign=o-apagao-que-iluminou-o-essencial",
-        "count": 43
+        "count": 44
     },
     {
         "category": "Tribuna",
@@ -434,18 +434,18 @@
         "count": 31
     },
     {
+        "category": "Alta Definição",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/alta-definicao/2025-03-22-bruno-de-carvalho-os-meus-pais-souberam-o-que-era-o-confinamento-dois-anos-antes.-nao-consegui-proteger-a-familia-dos-estilhacos-publicos-f6195b37",
+        "count": 30
+    },
+    {
         "category": "Futebol internacional",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/desporto/noticia/diogo-dalot-assume-portugal-tera-aguerrido-dinamarca-2126467",
         "count": 30
-    },
-    {
-        "category": "Alta Definição",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/alta-definicao/2025-03-22-bruno-de-carvalho-os-meus-pais-souberam-o-que-era-o-confinamento-dois-anos-antes.-nao-consegui-proteger-a-familia-dos-estilhacos-publicos-f6195b37",
-        "count": 29
     },
     {
         "category": "Podcast Soundbite",
@@ -462,6 +462,27 @@
         "count": 28
     },
     {
+        "category": "Elefante na Sala",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/elefante-na-sala/2025-03-22-foi-acionada-uma-lei-que-deportou-japoneses-e-italianos-na-2-guerra-mundial-o-teste-de-trump-aos-limites-legais-do-poder-executivo-0a00bafd",
+        "count": 27
+    },
+    {
+        "category": "Estados Unidos",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/mundo/noticia/preso-politico-mahmoud-khalil-activista-palestiniano-detido-eua-2126491",
+        "count": 27
+    },
+    {
+        "category": "Facto Político",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/facto-politico/2025-03-22-louca-fazenda-e-rosas-nas-listas-do-bloco--contamos-com-todos.-com-os-netos-e-os-avos-d9df1b30",
+        "count": 27
+    },
+    {
         "category": "Habitação",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -469,24 +490,10 @@
         "count": 27
     },
     {
-        "category": "Elefante na Sala",
+        "category": "Crise climática",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/elefante-na-sala/2025-03-22-foi-acionada-uma-lei-que-deportou-japoneses-e-italianos-na-2-guerra-mundial-o-teste-de-trump-aos-limites-legais-do-poder-executivo-0a00bafd",
-        "count": 26
-    },
-    {
-        "category": "Facto Político",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/facto-politico/2025-03-22-louca-fazenda-e-rosas-nas-listas-do-bloco--contamos-com-todos.-com-os-netos-e-os-avos-d9df1b30",
-        "count": 26
-    },
-    {
-        "category": "Estados Unidos",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/mundo/noticia/preso-politico-mahmoud-khalil-activista-palestiniano-detido-eua-2126491",
+        "url": "https://expresso.pt/sustentabilidade/crise-climatica/2025-05-24-516-graus-celsius.-emirados-registam-maior-temperatura-de-sempre-em-maio-2321861d",
         "count": 25
     },
     {
@@ -494,13 +501,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/22/politica/noticia/ad-negoceia-revisao-constitucional-esquerda-teme-mudanca-regime-2133832",
-        "count": 24
-    },
-    {
-        "category": "Crise climática",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/sustentabilidade/crise-climatica/2025-05-24-516-graus-celsius.-emirados-registam-maior-temperatura-de-sempre-em-maio-2321861d",
         "count": 24
     },
     {
@@ -623,6 +623,20 @@
         "count": 17
     },
     {
+        "category": "resultados",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/21/bcp-lucro-sobe-39-para-2435-milhoes-no-1-o-trimestre/",
+        "count": 17
+    },
+    {
+        "category": "transportes",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/22/greve-amanha-no-metro-de-lisboa-nao-tera-impacto-no-habitual-servico-de-transporte/",
+        "count": 17
+    },
+    {
         "category": "Podcast P24",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -634,20 +648,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/09/sociedade/noticia/sindicato-enfermeiros-apresenta-queixa-pgr-ministra-saude-2132504",
-        "count": 16
-    },
-    {
-        "category": "resultados",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/21/bcp-lucro-sobe-39-para-2435-milhoes-no-1-o-trimestre/",
-        "count": 16
-    },
-    {
-        "category": "transportes",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/22/greve-amanha-no-metro-de-lisboa-nao-tera-impacto-no-habitual-servico-de-transporte/",
         "count": 16
     },
     {
@@ -1435,6 +1435,13 @@
         "count": 2
     },
     {
+        "category": "Domingo",
+        "source": "Correio Da Manhã",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.cmjornal.pt/domingo/detalhe/20250322-161246-o-superatleta-portugues-que-desafia-o-tempo",
+        "count": 2
+    },
+    {
         "category": "Hollywood",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1607,13 +1614,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/24/publico-brasil/noticia/grupo-mulheres-brasil-traz-violentometro-portugal-2134031",
-        "count": 1
-    },
-    {
-        "category": "Domingo",
-        "source": "Correio Da Manhã",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.cmjornal.pt/domingo/detalhe/20250322-161246-o-superatleta-portugues-que-desafia-o-tempo",
         "count": 1
     },
     {
