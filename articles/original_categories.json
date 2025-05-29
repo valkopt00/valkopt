@@ -11,28 +11,28 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-03-18-ultimas-noticias-de-terca-feira-dia-18-de-marco-de-2025-72c5e305",
-        "count": 360
+        "count": 361
     },
     {
         "category": "Mais Europa",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/iniciativaseprodutos/mais-europa/2025-03-19-inovar-nas-guloseimas-para-caes--um-queijo-madeirense-deu-origem-a-snacks-caninos-saudaveis-e-seguros-fc15ab4d",
-        "count": 348
+        "count": 349
     },
     {
         "category": "Resultados Legislativas 2025",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/eleicoes/legislativas-2025/resultados/2025-05-22-entre-as-autarquicas-de-2021-e-estas-legislativas-como-mudaram-as-cores-do-mapa-politico-do-pais--62ae4e6e",
-        "count": 338
+        "count": 341
     },
     {
         "category": "França",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/25/mundo/noticia/avos-tios-emile-menino-dois-anos-desaparecido-franca-detidos-homicidio-2127233",
-        "count": 306
+        "count": 307
     },
     {
         "category": "Observador",
@@ -46,7 +46,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/jogos/palavras-cruzadas/2025-03-18-palavras-cruzadas-n-1184-0a4b9c42",
-        "count": 217
+        "count": 218
     },
     {
         "category": "Lisboa",
@@ -67,21 +67,28 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/eleicoes/autarquicas-2025/2025-05-22-pedro-duarte-candidato-da-ad-ao-porto-encabeca-peticao-para-suspender-2.-fase-do-metrobus-do-porto-4e2ed9a5",
-        "count": 177
+        "count": 178
     },
     {
         "category": "Ver",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/visaose7e/ver/2025-03-18-capicua-este-disco-pretende-ser-uma-pausa-na-sensacao-de-fim-do-mundo-que-vivemos/?utm_source=rss&utm_medium=rss&utm_campaign=capicua-este-disco-pretende-ser-uma-pausa-na-sensacao-de-fim-do-mundo-que-vivemos",
-        "count": 170
+        "count": 171
     },
     {
         "category": "Israel",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/22/seguranca-da-embaixada-de-israel-continua-reforcado-diz-psp/",
-        "count": 169
+        "count": 170
+    },
+    {
+        "category": "Capas",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/visaose7e/capas/2025-03-19-a-visao-se7e-desta-semana-edicao-1672/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1672",
+        "count": 168
     },
     {
         "category": "Jogo Aberto",
@@ -89,13 +96,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/jogo-aberto/2025-05-22-luis-aguilar-ha-quem-nasca-e-ha-quem-se-faca-capitao-e-hjulmand-nasceu-capitao-be8f1b46",
         "count": 168
-    },
-    {
-        "category": "Capas",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/visaose7e/capas/2025-03-19-a-visao-se7e-desta-semana-edicao-1672/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1672",
-        "count": 167
     },
     {
         "category": "Programa Cujo Nome Estamos Legalmente Impedidos de Dizer",
@@ -137,7 +137,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/01/desporto/noticia/sexualidade-politica-levam-russa-daria-kasatkina-naturalizarse-australiana-2128177",
-        "count": 135
+        "count": 136
     },
     {
         "category": "Inimigo Público",
@@ -354,7 +354,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/iniciativaseprodutos/projetos-expresso/ambicao-para-portugal/2025-05-21-somos-a-primeira-geracao-que-ve-a-ambicao-como-um-superpoder-300fa35f",
-        "count": 70
+        "count": 72
     },
     {
         "category": "Em Destaque",
@@ -469,6 +469,20 @@
         "count": 55
     },
     {
+        "category": "presidenciais",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/21/marques-mendes-diz-que-eleicao-de-gouveia-e-melo-seria-perigo-democratico/",
+        "count": 54
+    },
+    {
+        "category": "+E",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/revista-e/-e/2025-03-19-acho-que-nao-precisamos-de-trabalhar-tanto.-estamos-a-destruir-o-planeta-e-a-destruir-nos-a-nos-mesmos-a-visao-da-cineasta-laura-carreira-4440e006",
+        "count": 53
+    },
+    {
         "category": "Brasil",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -488,20 +502,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/20/homem-condenado-a-12-anos-de-prisao-por-crimes-sexuais-contra-a-filha/",
         "count": 53
-    },
-    {
-        "category": "presidenciais",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/21/marques-mendes-diz-que-eleicao-de-gouveia-e-melo-seria-perigo-democratico/",
-        "count": 53
-    },
-    {
-        "category": "+E",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/revista-e/-e/2025-03-19-acho-que-nao-precisamos-de-trabalhar-tanto.-estamos-a-destruir-o-planeta-e-a-destruir-nos-a-nos-mesmos-a-visao-da-cineasta-laura-carreira-4440e006",
-        "count": 52
     },
     {
         "category": "Rússia",
@@ -630,6 +630,13 @@
         "count": 44
     },
     {
+        "category": "onu",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/22/humanidade-esta-a-destruir-biodiversidade-alerta-onu/",
+        "count": 44
+    },
+    {
         "category": "China",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -655,13 +662,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/tribuna/2025-04-03-construir-destruir-reconstruir-9bdfaafb",
-        "count": 43
-    },
-    {
-        "category": "onu",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/22/humanidade-esta-a-destruir-biodiversidade-alerta-onu/",
         "count": 43
     },
     {
@@ -714,6 +714,13 @@
         "count": 40
     },
     {
+        "category": "Antes Pelo Contrário",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/antes-pelo-contrario/2025-05-23-por-que-razao-a-queda-do-ps-nao-era-expectavel-pelas-sondagens--6b250886",
+        "count": 40
+    },
+    {
         "category": "Fundos europeus",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -728,10 +735,10 @@
         "count": 40
     },
     {
-        "category": "Antes Pelo Contrário",
+        "category": "Média",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/antes-pelo-contrario/2025-05-23-por-que-razao-a-queda-do-ps-nao-era-expectavel-pelas-sondagens--6b250886",
+        "url": "https://expresso.pt/economia/media/2025-05-27-credores-aprovam-recuperacao-da-trust-in-news-com-despedimento-de-20-trabalhadores-a-vista-38bc651c",
         "count": 39
     },
     {
@@ -742,32 +749,25 @@
         "count": 39
     },
     {
-        "category": "Habitação",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/19/economia/noticia/taxa-juro-contratos-habitacao-recentes-subiu-15-meses-queda-2126542",
-        "count": 38
-    },
-    {
-        "category": "Média",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/economia/media/2025-05-27-credores-aprovam-recuperacao-da-trust-in-news-com-despedimento-de-20-trabalhadores-a-vista-38bc651c",
-        "count": 38
-    },
-    {
         "category": "Roteiro de fim de semana",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/boa-cama-boa-mesa/iniciativas-e-produtos/roteiro-de-fim-de-semana/2025-05-21-descobrir-a-gardunha-com-paragem-na-vila-onde-se-produz-o-melhor-queijo-do-mundo-b7ca8053",
-        "count": 38
+        "count": 39
     },
     {
         "category": "Briefing",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/newsletter/despertador",
-        "count": 37
+        "count": 38
+    },
+    {
+        "category": "Habitação",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/19/economia/noticia/taxa-juro-contratos-habitacao-recentes-subiu-15-meses-queda-2126542",
+        "count": 38
     },
     {
         "category": "Conteúdo Patrocinado",
@@ -798,6 +798,13 @@
         "count": 35
     },
     {
+        "category": "Incêndios",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/20/azul/noticia/100-bombeiros-combatem-fogos-viana-castelo-2126626",
+        "count": 35
+    },
+    {
         "category": "Negócios da Semana",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -809,13 +816,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/publico-brasil/noticia/imigrantes-documentos-vencidos-esperam-resposta-governo-eleicoes-2126362",
-        "count": 34
-    },
-    {
-        "category": "Incêndios",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/20/azul/noticia/100-bombeiros-combatem-fogos-viana-castelo-2126626",
         "count": 34
     },
     {
@@ -858,7 +858,7 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/27/mira-amaral-deviamos-comecar-a-discutir-os-pequenos-reatores-nucleares/",
-        "count": 29
+        "count": 30
     },
     {
         "category": "Artes",
@@ -872,6 +872,13 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/21/lisboa-menos-pessoas-em-situacao-de-sem-abrigo/",
+        "count": 28
+    },
+    {
+        "category": "Escapar",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/visaose7e/escapar/2025-04-27-the-social-hub-porto-mais-do-que-um-hotel/?utm_source=rss&utm_medium=rss&utm_campaign=the-social-hub-porto-mais-do-que-um-hotel",
         "count": 27
     },
     {
@@ -879,13 +886,6 @@
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/ciclismo/olav-kooij-vence-12a-etapa-ao-sprint-isaac-del-toro-segue-lider_d1656856",
-        "count": 26
-    },
-    {
-        "category": "Escapar",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/visaose7e/escapar/2025-04-27-the-social-hub-porto-mais-do-que-um-hotel/?utm_source=rss&utm_medium=rss&utm_campaign=the-social-hub-porto-mais-do-que-um-hotel",
         "count": 26
     },
     {
@@ -917,6 +917,13 @@
         "count": 24
     },
     {
+        "category": "Podcast P24",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/sociedade/noticia/regresso-barracas-sinal-pais-volta-passado-2126300",
+        "count": 24
+    },
+    {
         "category": "Motos",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
@@ -924,11 +931,18 @@
         "count": 23
     },
     {
-        "category": "Podcast P24",
+        "category": "ren",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/22/prazo-do-relatorio-sobre-apagao-alargado-ate-28-de-maio/",
+        "count": 23
+    },
+    {
+        "category": "Angola",
         "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/sociedade/noticia/regresso-barracas-sinal-pais-volta-passado-2126300",
-        "count": 23
+        "url": "https://www.publico.pt/2025/04/02/mundo/noticia/angola-precisa-240-milhoes-dolares-desactivar-minas-2128271",
+        "count": 22
     },
     {
         "category": "Geração 60",
@@ -943,20 +957,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/17/fugas/noticia/25-abril-marinha-evoca-celeste-cravos-decorase-4100-cravos-2130145",
         "count": 22
-    },
-    {
-        "category": "ren",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/22/prazo-do-relatorio-sobre-apagao-alargado-ate-28-de-maio/",
-        "count": 22
-    },
-    {
-        "category": "Angola",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/04/02/mundo/noticia/angola-precisa-240-milhoes-dolares-desactivar-minas-2128271",
-        "count": 21
     },
     {
         "category": "Blitz Posto Emissor",
@@ -1876,6 +1876,13 @@
         "count": 5
     },
     {
+        "category": "O Homem Que Comia Tudo",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/o-homem-que-comia-tudo/2025-05-22-como-escolher-um-restaurante--ricardo-dias-felner-tem-10-conselhos-universais-para-saber-sempre-onde-comer-em-qualquer-parte-do-mundo-1abc6155",
+        "count": 5
+    },
+    {
         "category": "O gato das botas",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1995,10 +2002,10 @@
         "count": 4
     },
     {
-        "category": "O Homem Que Comia Tudo",
+        "category": "Money Money Money",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/o-homem-que-comia-tudo/2025-05-22-como-escolher-um-restaurante--ricardo-dias-felner-tem-10-conselhos-universais-para-saber-sempre-onde-comer-em-qualquer-parte-do-mundo-1abc6155",
+        "url": "https://expresso.pt/podcasts/money-money-money/2025-05-22-joao-leao-portugal-pode-ter-defice-ja-no-proximo-ano-69e89497",
         "count": 4
     },
     {
@@ -2156,6 +2163,13 @@
         "count": 3
     },
     {
+        "category": "Geração 80",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/geracao-80/2025-05-22-parece-que-vivi-uma-vida-de-luxo-pelo-contrario.-nunca-nos-faltou-nada-mas-o-meu-pai-trabalhava-dia-e-noite-para-sustentar-tres-filhos-f0149031",
+        "count": 3
+    },
+    {
         "category": "INEM",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -2174,13 +2188,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/sociedade/noticia/aima-alerta-autoridades-milhar-estrangeiros-moradas-2126488",
-        "count": 3
-    },
-    {
-        "category": "Money Money Money",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/money-money-money/2025-05-22-joao-leao-portugal-pode-ter-defice-ja-no-proximo-ano-69e89497",
         "count": 3
     },
     {
@@ -2289,6 +2296,13 @@
         "count": 2
     },
     {
+        "category": "Bloco Central",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/bloco-central/2025-05-22-pedro-siza-vieira-o-ps-deve-viabilizar-o-governo-com-o-compromisso-da-ad-de-nao-alterar-leis-do-regime-com-o-chega-3d21948f",
+        "count": 2
+    },
+    {
         "category": "Catástrofes naturais",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -2328,13 +2342,6 @@
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/rtpeuropa-parlamento-europeu/ativista-ucraniana-relembra-atrocidades-da-guerra-aos-eurodeputados_v1642244",
-        "count": 2
-    },
-    {
-        "category": "Geração 80",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/geracao-80/2025-05-22-parece-que-vivi-uma-vida-de-luxo-pelo-contrario.-nunca-nos-faltou-nada-mas-o-meu-pai-trabalhava-dia-e-noite-para-sustentar-tres-filhos-f0149031",
         "count": 2
     },
     {
@@ -2510,13 +2517,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/27/local/noticia/mubi-quer-discutir-mobilidade-sustentavel-porto-neste-mandato-2134588",
-        "count": 1
-    },
-    {
-        "category": "Bloco Central",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/bloco-central/2025-05-22-pedro-siza-vieira-o-ps-deve-viabilizar-o-governo-com-o-compromisso-da-ad-de-nao-alterar-leis-do-regime-com-o-chega-3d21948f",
         "count": 1
     },
     {
