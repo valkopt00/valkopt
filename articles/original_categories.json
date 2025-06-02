@@ -4,14 +4,14 @@
         "source": "Sapo",
         "mapped_category": "Outras Notícias",
         "url": "https://www.sapo.pt/noticias/atualidade/artigos/as-pme-resistiriam-a-subir-salarios-em-15-o-pcp-responde-sao-as-principais-beneficiarias-pelo-aumento-do-poder-de-compra",
-        "count": 2564
+        "count": 2584
     },
     {
         "category": "Expresso Fundamental",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-03-18-ultimas-noticias-de-terca-feira-dia-18-de-marco-de-2025-72c5e305",
-        "count": 564
+        "count": 566
     },
     {
         "category": "PS",
@@ -81,7 +81,7 @@
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/selecao-nacional/bino-quer-entrar-a-ganhar-no-europeu-de-sub-17_d1656740",
-        "count": 266
+        "count": 267
     },
     {
         "category": "The Heart and Hustle of Portugal",
@@ -109,7 +109,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/20/azul/noticia/100-bombeiros-combatem-fogos-viana-castelo-2126626",
-        "count": 230
+        "count": 231
     },
     {
         "category": "Ténis",
@@ -137,14 +137,14 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/visaose7e/ver/2025-03-18-capicua-este-disco-pretende-ser-uma-pausa-na-sensacao-de-fim-do-mundo-que-vivemos/?utm_source=rss&utm_medium=rss&utm_campaign=capicua-este-disco-pretende-ser-uma-pausa-na-sensacao-de-fim-do-mundo-que-vivemos",
-        "count": 198
+        "count": 199
     },
     {
         "category": "Reino Unido",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/19/mundo/noticia/governo-trabalhista-britanico-corta-prestacoes-sociais-arrisca-mae-rebelioes-2126587",
-        "count": 196
+        "count": 198
     },
     {
         "category": "Televisão",
@@ -186,7 +186,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/facto-politico/2025-03-22-louca-fazenda-e-rosas-nas-listas-do-bloco--contamos-com-todos.-com-os-netos-e-os-avos-d9df1b30",
-        "count": 174
+        "count": 175
     },
     {
         "category": "Prémio Nacional Turismo",
@@ -200,7 +200,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/elefante-na-sala/2025-03-22-foi-acionada-uma-lei-que-deportou-japoneses-e-italianos-na-2-guerra-mundial-o-teste-de-trump-aos-limites-legais-do-poder-executivo-0a00bafd",
-        "count": 171
+        "count": 172
     },
     {
         "category": "Jogo Aberto",
@@ -217,6 +217,13 @@
         "count": 166
     },
     {
+        "category": "presidenciais",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/21/marques-mendes-diz-que-eleicao-de-gouveia-e-melo-seria-perigo-democratico/",
+        "count": 162
+    },
+    {
         "category": "Taça de Portugal",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
@@ -224,25 +231,18 @@
         "count": 161
     },
     {
-        "category": "presidenciais",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/21/marques-mendes-diz-que-eleicao-de-gouveia-e-melo-seria-perigo-democratico/",
-        "count": 161
-    },
-    {
         "category": "ue",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/21/kaja-kallas-pede-israel-que-investigue-disparos-a-diplomatas-na-cisjordania/",
-        "count": 160
+        "count": 161
     },
     {
         "category": "Luís Montenegro",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/29/politica/noticia/ministro-assuntos-parlamentares-garante-montenegro-saude-rija-2127819",
-        "count": 152
+        "count": 153
     },
     {
         "category": "Vídeo",
@@ -413,17 +413,17 @@
         "count": 112
     },
     {
-        "category": "Ucrânia",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/25/ucrania-varios-mortos-e-feridos-em-novo-ataque-russo-com-recurso-a-drones/",
-        "count": 111
-    },
-    {
         "category": "VISÃO Saúde",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/visaosaude/2025-03-18-vigorexia-o-que-e-este-disturbio-que-afeta-os-jovens/?utm_source=rss&utm_medium=rss&utm_campaign=vigorexia-o-que-e-este-disturbio-que-afeta-os-jovens",
+        "count": 112
+    },
+    {
+        "category": "Ucrânia",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/25/ucrania-varios-mortos-e-feridos-em-novo-ataque-russo-com-recurso-a-drones/",
         "count": 111
     },
     {
@@ -511,6 +511,13 @@
         "count": 88
     },
     {
+        "category": "Redes Sociais",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/21/mp-abre-inquerito-a-videos-de-ventura-sobre-comunidade-cigana/",
+        "count": 85
+    },
+    {
         "category": "lucros",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
@@ -529,13 +536,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/ensino/2025-03-21-iscte-conquista-selo-europeu-para-a-excelencia-na-pesquisa-cientifica-214b245c",
-        "count": 84
-    },
-    {
-        "category": "Redes Sociais",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/21/mp-abre-inquerito-a-videos-de-ventura-sobre-comunidade-cigana/",
         "count": 84
     },
     {
@@ -574,6 +574,13 @@
         "count": 78
     },
     {
+        "category": "Lusa",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/lusa/2025-03-25-golpedeestado-no-brasil-supremo-decide-a-partir-desta-terca-feira-se-leva-ex-presidente-bolsonaro-a-julgamento-79cf8e4d",
+        "count": 74
+    },
+    {
         "category": "TV",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
@@ -588,10 +595,10 @@
         "count": 74
     },
     {
-        "category": "Lusa",
-        "source": "Expresso",
+        "category": "Iniciativa Liberal",
+        "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/lusa/2025-03-25-golpedeestado-no-brasil-supremo-decide-a-partir-desta-terca-feira-se-leva-ex-presidente-bolsonaro-a-julgamento-79cf8e4d",
+        "url": "https://www.publico.pt/2025/03/18/politica/noticia/rui-rocha-mariana-leitao-integrar-listas-assembleia-republica-2126390",
         "count": 73
     },
     {
@@ -602,25 +609,18 @@
         "count": 73
     },
     {
+        "category": "Partido Socialista",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/23/facas-longas-no-ps-apos-desastre-eleitoral/",
+        "count": 73
+    },
+    {
         "category": "sebastião salgado",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/23/fotografo-sebastiao-salgado-morreu-aos-81-anos/",
         "count": 73
-    },
-    {
-        "category": "Iniciativa Liberal",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/politica/noticia/rui-rocha-mariana-leitao-integrar-listas-assembleia-republica-2126390",
-        "count": 72
-    },
-    {
-        "category": "Partido Socialista",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/23/facas-longas-no-ps-apos-desastre-eleitoral/",
-        "count": 72
     },
     {
         "category": "Contas Públicas",
@@ -637,17 +637,17 @@
         "count": 70
     },
     {
-        "category": "45 Graus",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/45-graus/2025-03-19-emilia-vieira-a-longo-prazo-as-acoes-nao-sao-arriscadas.-o-verdadeiro-risco-e-deixar-o-dinheiro-perder-valor-com-a-inflacao-a417d7f5",
-        "count": 69
-    },
-    {
         "category": "Planeta",
         "source": "Sapo",
         "mapped_category": "Outras Notícias",
         "url": "https://www.sapo.pt/noticias/planeta/artigos/a-via",
+        "count": 70
+    },
+    {
+        "category": "45 Graus",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/45-graus/2025-03-19-emilia-vieira-a-longo-prazo-as-acoes-nao-sao-arriscadas.-o-verdadeiro-risco-e-deixar-o-dinheiro-perder-valor-com-a-inflacao-a417d7f5",
         "count": 69
     },
     {
@@ -788,7 +788,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/era-uma-voz/2025-05-25-as-vozes-das-personagens-que-marcaram-geracoes-chegam-ao-era-uma-voz-oica-aqui-o-trailer-do-novo-podcast-do-expresso-e1265354",
-        "count": 51
+        "count": 52
     },
     {
         "category": "Património",
@@ -903,6 +903,13 @@
         "count": 43
     },
     {
+        "category": "psg",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/31/liga-dos-campeoes-psg-limpa-o-campo-com-inter-milao-e-levanta-trofeu-pela-primeira-vez/",
+        "count": 43
+    },
+    {
         "category": "votos",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
@@ -921,13 +928,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/perguntar-nao-ofende/2025-03-20-que-politica-economica-poderemos-debater-nesta-campanha--ricardo-paes-mamedes-economista-responde-a-daniel-oliveira-e0dd060a",
-        "count": 42
-    },
-    {
-        "category": "psg",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/31/liga-dos-campeoes-psg-limpa-o-campo-com-inter-milao-e-levanta-trofeu-pela-primeira-vez/",
         "count": 42
     },
     {
@@ -959,6 +959,20 @@
         "count": 40
     },
     {
+        "category": "Imigração",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/sociedade/noticia/aima-alerta-autoridades-milhar-estrangeiros-moradas-2126488",
+        "count": 39
+    },
+    {
+        "category": "Rui Rio",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/31/rui-rio-e-o-mandatario-nacional-de-gouveia-e-melo/",
+        "count": 39
+    },
+    {
         "category": "sem-abrigo",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
@@ -987,17 +1001,17 @@
         "count": 38
     },
     {
-        "category": "Imigração",
-        "source": "Público",
+        "category": "Guerra Israel-Hamas",
+        "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/sociedade/noticia/aima-alerta-autoridades-milhar-estrangeiros-moradas-2126488",
+        "url": "https://www.cmjornal.pt/mais-cm/especiais/guerra-israel-hamas/detalhe/livrarias-independentes-lancam-campanha-de-apoio-a-palestina-e-repudio-ao-massacre-por-israel",
         "count": 38
     },
     {
-        "category": "Rui Rio",
-        "source": "Jornal I",
+        "category": "Polónia",
+        "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/31/rui-rio-e-o-mandatario-nacional-de-gouveia-e-melo/",
+        "url": "https://expresso.pt/internacional/europa/polonia/2025-05-15-donald-tusk-aguarda-sinal-verde-ou-vermelho-de-presidenciais-vistas-como-referendo-a-sua-governacao-acde5561",
         "count": 38
     },
     {
@@ -1019,20 +1033,6 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/visaose7e/escapar/2025-04-27-the-social-hub-porto-mais-do-que-um-hotel/?utm_source=rss&utm_medium=rss&utm_campaign=the-social-hub-porto-mais-do-que-um-hotel",
-        "count": 37
-    },
-    {
-        "category": "Guerra Israel-Hamas",
-        "source": "Correio Da Manhã",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.cmjornal.pt/mais-cm/especiais/guerra-israel-hamas/detalhe/livrarias-independentes-lancam-campanha-de-apoio-a-palestina-e-repudio-ao-massacre-por-israel",
-        "count": 37
-    },
-    {
-        "category": "Polónia",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/internacional/europa/polonia/2025-05-15-donald-tusk-aguarda-sinal-verde-ou-vermelho-de-presidenciais-vistas-como-referendo-a-sua-governacao-acde5561",
         "count": 37
     },
     {
@@ -1176,6 +1176,13 @@
         "count": 30
     },
     {
+        "category": "Podcast P24",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/sociedade/noticia/regresso-barracas-sinal-pais-volta-passado-2126300",
+        "count": 30
+    },
+    {
         "category": "Acidentes",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1187,13 +1194,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/27/economia/noticia/credito-habitacao-atinge-fevereiro-valor-elevado-desde-2014-2127555",
-        "count": 29
-    },
-    {
-        "category": "Podcast P24",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/sociedade/noticia/regresso-barracas-sinal-pais-volta-passado-2126300",
         "count": 29
     },
     {
@@ -1666,6 +1666,13 @@
         "count": 11
     },
     {
+        "category": "Guerra Fria",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/guerra-fria/2025-03-23-as-novas-rondas-de-negociacao-da-guerra-os-ucranianos-nao-partem-com-qualquer-tipo-de-esperanca-61acd360",
+        "count": 11
+    },
+    {
         "category": "Itália",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1743,13 +1750,6 @@
         "count": 10
     },
     {
-        "category": "Guerra Fria",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/guerra-fria/2025-03-23-as-novas-rondas-de-negociacao-da-guerra-os-ucranianos-nao-partem-com-qualquer-tipo-de-esperanca-61acd360",
-        "count": 10
-    },
-    {
         "category": "Igreja Católica",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
@@ -1803,6 +1803,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/19/culturaipsilon/noticia/robin-gunningham-sera-banksy-detective-privado-espanhol-francisco-marco-2130366",
+        "count": 9
+    },
+    {
+        "category": "Automóveis",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/revista/vicios/automoveis/2025-03-21-lamborghini-temerario-hibrido-chega-a-portugal-em-dia-de-tempestade-75e5984d",
         "count": 9
     },
     {
@@ -1880,13 +1887,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/01/culturaipsilon/noticia/garagem-sul-introduznos-arquitectura-poshumana-aquario-partilhar-casa-papagaio-2128022",
-        "count": 8
-    },
-    {
-        "category": "Automóveis",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/vicios/automoveis/2025-03-21-lamborghini-temerario-hibrido-chega-a-portugal-em-dia-de-tempestade-75e5984d",
         "count": 8
     },
     {
@@ -2919,6 +2919,13 @@
         "count": 2
     },
     {
+        "category": "Migrações",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/sociedade/migracoes/2025-05-22-filas-continuam-em-lisboa-e-no-porto-imigrantes-passam-noite-na-rua-para-garantir-atendimento-dos-servicos-consulares-502916bc",
+        "count": 2
+    },
+    {
         "category": "MotoGP",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -3556,13 +3563,6 @@
         "count": 1
     },
     {
-        "category": "Migrações",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/sociedade/migracoes/2025-05-22-filas-continuam-em-lisboa-e-no-porto-imigrantes-passam-noite-na-rua-para-garantir-atendimento-dos-servicos-consulares-502916bc",
-        "count": 1
-    },
-    {
         "category": "Ministério dos Negócios Estrangeiros",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -3609,6 +3609,13 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/29/nos-alive-muse-substituem-kings-of-leon/",
+        "count": 1
+    },
+    {
+        "category": "O CEO é o limite em Podcast",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/o-ceo-e-o-limite/2025-06-02-alexandra-andrade-ceo-da-adecco-os-jovens-querem-ter-impacto.-o-problema-e-que-querem-impacto-rapido-como-nas-redes-sociais-e-na-ia-099f9cdb",
         "count": 1
     },
     {
