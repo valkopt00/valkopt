@@ -1,6 +1,46 @@
 {
     "Desporto": [
         {
+            "title": "Martim Fernandes resguardado",
+            "description": "Defesa do FC Porto inserido num regime de treino condicionado devido a traumatismo num pé",
+            "image": "https://cdn.record.pt/images/2025-06/img_920x518uu2025-06-22-02-09-00-2371221.jpg",
+            "source": "Record",
+            "pubDate": "22-06-2025 04:16",
+            "category": "Desporto",
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/martim-fernandes-resguardado",
+            "isExclusive": false
+        },
+        {
+            "title": "Casa Pia pergunta por Kaique Rocha",
+            "description": "Central brasileiro de 24 anos joga no Internacional e está avaliado em 3 milhões de euros",
+            "image": "https://cdn.record.pt/images/2025-06/img_920x518uu2025-06-21-15-55-26-2371116.jpg",
+            "source": "Record",
+            "pubDate": "22-06-2025 04:02",
+            "category": "Desporto",
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/casa-pia/detalhe/casa-pia-pergunta-por-kaique-rocha",
+            "isExclusive": false
+        },
+        {
+            "title": "Uma vila à escala mundial: começa uma nova era no Moreirense",
+            "description": "Entrada do Black Knight Football Club na SAD coloca Moreira de Cónegos no mapa e o emblema local na esfera de um grupo com alta influência",
+            "image": "https://cdn.record.pt/images/2025-06/img_920x518uu2025-06-22-01-03-34-2371217.png",
+            "source": "Record",
+            "pubDate": "22-06-2025 03:48",
+            "category": "Desporto",
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/moreirense/detalhe/uma-vila-a-escala-mundial-comeca-uma-nova-era-no-moreirense",
+            "isExclusive": false
+        },
+        {
+            "title": "Rui Borges quer ver o Sporting a atacar o tricampeonato apostando no 4x2x3x1",
+            "description": "Técnico vai usar a pré-época para incutir novos conceitos táticos à equipa",
+            "image": "https://cdn.record.pt/images/2025-05/img_920x518uu2025-05-31-15-04-22-2366392.jpg",
+            "source": "Record",
+            "pubDate": "22-06-2025 03:33",
+            "category": "Desporto",
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/rui-borges-quer-ver-o-sporting-a-atacar-o-tricampeonato-apostando-no-4x2x3x1",
+            "isExclusive": false
+        },
+        {
             "title": "O River Plate x Monterrey foi assim...",
             "description": "O árbitro apita para o final da partida Acompanhe aqui o River Plate x Monterrey em direto e ao minuto, com todas as estatísticas e as curiosidades...",
             "image": "https://www.zerozero.pt/img/noticias/442/imgS620I846442T20250622013400.png",
@@ -20129,29 +20169,19 @@
             "category": "Desporto",
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/partida-com-o-auckland-ganha-preponderancia-gigante-apos-empate-com-o-boca-juniors",
             "isExclusive": false
-        },
-        {
-            "title": "Primeira etapa na Suíça deixou João Almeida sob pressão: «Foi grande perda»",
-            "description": "O favorito da Volta à Suíça reconhece muitas dificuldades após resultados dessa tirada",
-            "image": "https://cdn.record.pt/images/2025-06/img_920x518uu2025-06-17-00-14-45-2370131.jpg",
-            "source": "Record",
-            "pubDate": "17-06-2025 04:12",
-            "category": "Desporto",
-            "link": "https://www.record.pt/modalidades/ciclismo/detalhe/primeira-etapa-na-suica-deixou-joao-almeida-sob-pressao-foi-grande-perda",
-            "isExclusive": false
-        },
-        {
-            "title": "Novo visual a caminho: Sporting lançará mais três equipamentos ainda no mês de junho",
-            "description": "Novidades em breve para os adeptos e associados leoninos",
-            "image": "https://cdn.record.pt/images/2025-06/img_920x518uu2025-06-16-18-23-53-2369986.jpg",
-            "source": "Record",
-            "pubDate": "17-06-2025 04:00",
-            "category": "Desporto",
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/novo-visual-a-caminho-sporting-lancara-mais-tres-equipamentos-ainda-no-mes-de-junho",
-            "isExclusive": false
         }
     ],
     "Economia": [
+        {
+            "title": "EUA entram na ofensiva contra o Irão",
+            "description": "Depois de Israel estar a lançar ataques aéreos contra o Irão há já uma semana, Donald Trump decidiu-se pela participação dos Estados Unidos....",
+            "image": "https://cdn.jornaldenegocios.pt/images/2025-06/img_900x560uu2025-06-15-10-28-19-504162.jpg",
+            "source": "Jornal De Negocios",
+            "pubDate": "22-06-2025 04:01",
+            "category": "Economia",
+            "link": "https://www.jornaldenegocios.pt/economia/politica/detalhe/eua-entram-na-ofensiva-contra-o-irao",
+            "isExclusive": true
+        },
         {
             "title": "Bens perdidos a favor do Estado valem 271 milhões de euros",
             "description": "Colocados à venda veículos, embarcações, imóveis, aeronaves, bem como várias obras de arte, joias e objetos em ouro.",
@@ -44643,16 +44673,6 @@
             "category": "Multimédia",
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/5h-g7-apoia-israel-e-acusa-irao-de-instabilidade-no-medio-oriente_a1_1662584",
             "isExclusive": false
-        },
-        {
-            "title": "4h Relatório. Portugal preocupado com desinformação na internet",
-            "description": "",
-            "image": "https://cdn-images.rtp.pt/noticias/images/img_article_a1.jpg?w=350&amp;q=50&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "17-06-2025 04:19",
-            "category": "Multimédia",
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/4h-relatorio-portugal-preocupado-com-desinformacao-na-internet_a1_1662580",
-            "isExclusive": false
         }
     ],
     "Opinião": [
@@ -47878,6 +47898,16 @@
             "pubDate": "22-06-2025 00:30",
             "category": "Outras Notícias",
             "link": "https://www.cmjornal.pt/domingo/detalhe/imigrantes-na-dinamarca-governo-de-esquerda-com-posicoes-da-extrema-direita",
+            "isExclusive": false
+        },
+        {
+            "title": "A invasão que roubou a presidência a Nixon",
+            "description": "A pressão foi tal que o presidente acabou por ceder e entregou as fitas, relançando a investigação.",
+            "image": "https://cdn.cmjornal.pt/images/2025-06/img_932x621uu2025-06-19-18-00-26-2217431.jpg",
+            "source": "Correio Da Manhã",
+            "pubDate": "22-06-2025 00:30",
+            "category": "Outras Notícias",
+            "link": "https://www.cmjornal.pt/domingo/detalhe/a-invasao-que-roubou-a-presidencia-a-nixon",
             "isExclusive": false
         },
         {
