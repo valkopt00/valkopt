@@ -4,21 +4,21 @@
         "source": "Sapo",
         "mapped_category": "Outras Notícias",
         "url": "https://www.sapo.pt/noticias/atualidade/artigos/as-pme-resistiriam-a-subir-salarios-em-15-o-pcp-responde-sao-as-principais-beneficiarias-pelo-aumento-do-poder-de-compra",
-        "count": 5965
+        "count": 5968
     },
     {
         "category": "Expresso Fundamental",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-03-18-ultimas-noticias-de-terca-feira-dia-18-de-marco-de-2025-72c5e305",
-        "count": 1325
+        "count": 1326
     },
     {
         "category": "Seleção Nacional",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/selecao-nacional/bino-quer-entrar-a-ganhar-no-europeu-de-sub-17_d1656740",
-        "count": 933
+        "count": 935
     },
     {
         "category": "Segurança",
@@ -60,7 +60,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/jogos/palavras-cruzadas/2025-03-18-palavras-cruzadas-n-1184-0a4b9c42",
-        "count": 731
+        "count": 732
     },
     {
         "category": "Inimigo Público",
@@ -95,7 +95,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/eleicoes/autarquicas-2025/2025-05-22-pedro-duarte-candidato-da-ad-ao-porto-encabeca-peticao-para-suspender-2.-fase-do-metrobus-do-porto-4e2ed9a5",
-        "count": 647
+        "count": 648
     },
     {
         "category": "Capas",
@@ -186,14 +186,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/ensino/2025-03-21-iscte-conquista-selo-europeu-para-a-excelencia-na-pesquisa-cientifica-214b245c",
-        "count": 430
+        "count": 431
     },
     {
         "category": "O Vale Era Verde",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/o-vale-era-verde/2025-03-21-a-beleza-de-estar-calado/?utm_source=rss&utm_medium=rss&utm_campaign=a-beleza-de-estar-calado",
-        "count": 424
+        "count": 425
     },
     {
         "category": "Em Destaque",
@@ -235,7 +235,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/19/mundo/noticia/fortes-chuvas-sul-espanha-provocam-duas-mortes-causam-estragos-2126544",
-        "count": 374
+        "count": 375
     },
     {
         "category": "Jogo Aberto",
@@ -371,6 +371,13 @@
         "count": 283
     },
     {
+        "category": "Autarquias",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/politica/autarquias/2025-05-30-moedas-falta-a-reuniao-onde-iam-ser-repetidas-votacoes-de-deliberacoes-aprovadas-por-executivo-irregular-6f3241fe",
+        "count": 266
+    },
+    {
         "category": "Chave na mão",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -383,13 +390,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/21/sintra-homem-detido-por-abusar-sexualmente-crianca/",
         "count": 266
-    },
-    {
-        "category": "Autarquias",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/autarquias/2025-05-30-moedas-falta-a-reuniao-onde-iam-ser-repetidas-votacoes-de-deliberacoes-aprovadas-por-executivo-irregular-6f3241fe",
-        "count": 265
     },
     {
         "category": "Entretenimento",
@@ -557,7 +557,7 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/06/18/mundial-de-clubes-fc-porto-e-benfica-entre-a-elite-num-novo-e-longo-formato-da-competicao/",
-        "count": 200
+        "count": 201
     },
     {
         "category": "China",
@@ -756,17 +756,17 @@
         "count": 153
     },
     {
-        "category": "Imigração",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/sociedade/noticia/aima-alerta-autoridades-milhar-estrangeiros-moradas-2126488",
-        "count": 151
-    },
-    {
         "category": "O Futuro do Futuro",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/o-futuro-do-futuro/2025-03-18-as-tarefas-aborrecidas-estao-perto-do-fim--o-manus-ai-as-novidades-da-openai-e-as-ferramentas-que-ja-nao-precisam-de-humanos-para-funcionar-ae05b8a8",
+        "count": 152
+    },
+    {
+        "category": "Imigração",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/sociedade/noticia/aima-alerta-autoridades-milhar-estrangeiros-moradas-2126488",
         "count": 151
     },
     {
@@ -830,7 +830,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/humor-a-primeira-vista/2025-03-18-crescer-na-linha-de-sintra-e-metade-do-caminho-para-ser-comediante-e-quase-sobreviver.-aprendi-a-responder-muito-rapidamente-as-pessoas-959ec81a",
-        "count": 131
+        "count": 132
+    },
+    {
+        "category": "Comissão Política",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/comissao-politica/2025-03-18-luzes-e-sombras-do-choque-etico-que-provocou-eleicoes-92d187ad",
+        "count": 129
     },
     {
         "category": "Habitação",
@@ -845,13 +852,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/17/politica/noticia/gouveia-melo-militares-pedreiros-direito-presidencia-2126349",
         "count": 129
-    },
-    {
-        "category": "Comissão Política",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/comissao-politica/2025-03-18-luzes-e-sombras-do-choque-etico-que-provocou-eleicoes-92d187ad",
-        "count": 128
     },
     {
         "category": "Banca",
@@ -952,6 +952,13 @@
         "count": 114
     },
     {
+        "category": "Migrações",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/sociedade/migracoes/2025-05-22-filas-continuam-em-lisboa-e-no-porto-imigrantes-passam-noite-na-rua-para-garantir-atendimento-dos-servicos-consulares-502916bc",
+        "count": 114
+    },
+    {
         "category": "eurodreams",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
@@ -970,13 +977,6 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/exameinformatica/noticias-ei/aeroespacial/2025-03-18-elon-musk-promete-primeira-missao-a-marte-para-2026/?utm_source=rss&utm_medium=rss&utm_campaign=elon-musk-promete-primeira-missao-a-marte-para-2026",
-        "count": 112
-    },
-    {
-        "category": "Migrações",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/sociedade/migracoes/2025-05-22-filas-continuam-em-lisboa-e-no-porto-imigrantes-passam-noite-na-rua-para-garantir-atendimento-dos-servicos-consulares-502916bc",
         "count": 112
     },
     {
@@ -1001,25 +1001,25 @@
         "count": 110
     },
     {
-        "category": "Trabalho",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/economia/trabalho/2025-03-22-act-notifica-132-empresas-por-falha-na-integracao-de-pessoas-com-deficiencia.-grandes-empresas-lideram-incumprimentos-355f2711",
-        "count": 109
-    },
-    {
         "category": "Camões: 500 Anos de História e de Lenda",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/camoes-500-anos-de-historia-e-de-lenda/2025-06-03-camoes-500-anos-de-historia-e-de-lenda-d3f1c8ab",
-        "count": 108
+        "count": 109
     },
     {
         "category": "Conteúdo Patrocinado",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/exameinformatica/conteudo-patrocinado-ei/2025-04-02-meo-empresas-lanca-3a-edicao-do-5g-challenge-para-impulsionar-a-inovacao/?utm_source=rss&utm_medium=rss&utm_campaign=meo-empresas-lanca-3a-edicao-do-5g-challenge-para-impulsionar-a-inovacao",
-        "count": 108
+        "count": 109
+    },
+    {
+        "category": "Trabalho",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/economia/trabalho/2025-03-22-act-notifica-132-empresas-por-falha-na-integracao-de-pessoas-com-deficiencia.-grandes-empresas-lideram-incumprimentos-355f2711",
+        "count": 109
     },
     {
         "category": "Na primeira pessoa",
@@ -1068,7 +1068,7 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/21/il-vai-apresentar-proposta-de-revisao-constitucional/",
-        "count": 103
+        "count": 104
     },
     {
         "category": "Petróleo",
@@ -1176,17 +1176,17 @@
         "count": 94
     },
     {
-        "category": "Crónica de jogo",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/20/desporto/cronica_de_jogo/portugal-arte-ambicao-cai-reino-dinamarca-2126802",
-        "count": 93
-    },
-    {
         "category": "Por Uma Democracia de Qualidade",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/27/necessitamos-da-implementacao-urgente-dos-circulos-uninominais/",
+        "count": 94
+    },
+    {
+        "category": "Crónica de jogo",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/20/desporto/cronica_de_jogo/portugal-arte-ambicao-cai-reino-dinamarca-2126802",
         "count": 93
     },
     {
@@ -1505,6 +1505,13 @@
         "count": 69
     },
     {
+        "category": "Técnico",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/27/o-aconselhamento-cientifico-independente-na-tomada-de-decisao-em-politicas-publicas/",
+        "count": 69
+    },
+    {
         "category": "Ministério Público",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1523,13 +1530,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/vicios/receita/2025-03-20-receitas-o-que-sao-os-friands-e-porque-e-que-devem-levar-framboesas--1f4cac73",
-        "count": 68
-    },
-    {
-        "category": "Técnico",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/27/o-aconselhamento-cientifico-independente-na-tomada-de-decisao-em-politicas-publicas/",
         "count": 68
     },
     {
@@ -1603,6 +1603,13 @@
         "count": 61
     },
     {
+        "category": "Biodiversidade",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/23/azul/noticia/abelhas-borboletas-insectos-vai-nascer-rodovia-transfronteirica-polinizadores-ate-portugal-2127079",
+        "count": 60
+    },
+    {
         "category": "PSD",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1615,13 +1622,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/tenho-cancro.-e-depois--/2025-05-29-mais-do-que-morrer-o-que-me-atormentava-era-nao-ver-crescer-o-meu-filho-vem-ai-a-2-temporada-de-tenho-cancro.-e-depois--5108fc73",
         "count": 60
-    },
-    {
-        "category": "Biodiversidade",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/23/azul/noticia/abelhas-borboletas-insectos-vai-nascer-rodovia-transfronteirica-polinizadores-ate-portugal-2127079",
-        "count": 59
     },
     {
         "category": "Restaurantes",
@@ -1687,6 +1687,13 @@
         "count": 55
     },
     {
+        "category": "SIGIC",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/30/ministra-da-saude-reconhece-lacunas-no-sigic/",
+        "count": 55
+    },
+    {
         "category": "Greve",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1698,13 +1705,6 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/ponto-de-vista/igualmente-desiguais/2025-03-27-este-mundo-nao-e-para-adolescentes/?utm_source=rss&utm_medium=rss&utm_campaign=este-mundo-nao-e-para-adolescentes",
-        "count": 54
-    },
-    {
-        "category": "SIGIC",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/30/ministra-da-saude-reconhece-lacunas-no-sigic/",
         "count": 54
     },
     {
@@ -2114,6 +2114,13 @@
         "count": 31
     },
     {
+        "category": "moçambique",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/28/cabo-delgado-estado-islamico-reivindica-ataque/",
+        "count": 31
+    },
+    {
         "category": "Óbito",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -2156,17 +2163,17 @@
         "count": 30
     },
     {
-        "category": "moçambique",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/28/cabo-delgado-estado-islamico-reivindica-ataque/",
-        "count": 30
-    },
-    {
         "category": "Arquitectura",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/01/culturaipsilon/noticia/garagem-sul-introduznos-arquitectura-poshumana-aquario-partilhar-casa-papagaio-2128022",
+        "count": 29
+    },
+    {
+        "category": "Bolsa de Especialistas",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/opiniao/bolsa-de-especialistas/2025-03-24-inimputabilidade-justica-ou-impunidade/?utm_source=rss&utm_medium=rss&utm_campaign=inimputabilidade-justica-ou-impunidade",
         "count": 29
     },
     {
@@ -2212,13 +2219,6 @@
         "count": 29
     },
     {
-        "category": "Bolsa de Especialistas",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/opiniao/bolsa-de-especialistas/2025-03-24-inimputabilidade-justica-ou-impunidade/?utm_source=rss&utm_medium=rss&utm_campaign=inimputabilidade-justica-ou-impunidade",
-        "count": 28
-    },
-    {
         "category": "Guerra Comercial",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -2247,6 +2247,13 @@
         "count": 27
     },
     {
+        "category": "Família Real Britânica",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/impar/noticia/carlos-iii-rezar-visita-papa-francisco-concretize-buckingham-2126358",
+        "count": 27
+    },
+    {
         "category": "Motos",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
@@ -2259,13 +2266,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/23/opiniao/cronica/ha-melhores-maneiras-morrer-vezes-2126864",
         "count": 27
-    },
-    {
-        "category": "Família Real Britânica",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/impar/noticia/carlos-iii-rezar-visita-papa-francisco-concretize-buckingham-2126358",
-        "count": 26
     },
     {
         "category": "Igreja Católica",
@@ -2919,6 +2919,13 @@
         "count": 13
     },
     {
+        "category": "Birras de Mãe",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/impar/cronica/vemos-subimos-bitola-perfeicao-2126276",
+        "count": 13
+    },
+    {
         "category": "CRÓNICA",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -3007,13 +3014,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/19/azul/noticia/protesto-nao-podemos-aceitar-governo-condena-colapso-climatico-2133538",
-        "count": 12
-    },
-    {
-        "category": "Birras de Mãe",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/impar/cronica/vemos-subimos-bitola-perfeicao-2126276",
         "count": 12
     },
     {
@@ -4578,6 +4578,13 @@
         "count": 2
     },
     {
+        "category": "Fundação Calouste Gulbenkian",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/04/21/culturaipsilon/noticia/gulbenkian-procura-novo-director-museu-antonio-filipe-pimentel-reformase-proximo-ano-2130527",
+        "count": 2
+    },
+    {
         "category": "INE",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -5464,13 +5471,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/06/04/culturaipsilon/noticia/morreu-eduardo-gageiro-fotojornalista-realidade-pais-25-abril-90-anos-2135493",
-        "count": 1
-    },
-    {
-        "category": "Fundação Calouste Gulbenkian",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/04/21/culturaipsilon/noticia/gulbenkian-procura-novo-director-museu-antonio-filipe-pimentel-reformase-proximo-ano-2130527",
         "count": 1
     },
     {
