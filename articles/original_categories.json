@@ -4,7 +4,7 @@
         "source": "Sapo",
         "mapped_category": "Outras Notícias",
         "url": "https://www.sapo.pt/noticias/atualidade/artigos/as-pme-resistiriam-a-subir-salarios-em-15-o-pcp-responde-sao-as-principais-beneficiarias-pelo-aumento-do-poder-de-compra",
-        "count": 6504
+        "count": 6505
     },
     {
         "category": "Expresso Fundamental",
@@ -119,6 +119,13 @@
         "count": 587
     },
     {
+        "category": "Entretenimento",
+        "source": "Sapo",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.sapo.pt/noticias/entretenimento/artigos/um-casamento-e-um-espetaculo-que-todos-devem-ver",
+        "count": 567
+    },
+    {
         "category": "Observador",
         "source": "Observador",
         "mapped_category": "Outras Notícias",
@@ -126,18 +133,11 @@
         "count": 566
     },
     {
-        "category": "Entretenimento",
-        "source": "Sapo",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.sapo.pt/noticias/entretenimento/artigos/um-casamento-e-um-espetaculo-que-todos-devem-ver",
-        "count": 565
-    },
-    {
         "category": "Música",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/22/evento-mama-africa-quer-celebrar-cultura-africana/",
-        "count": 556
+        "count": 557
     },
     {
         "category": "Espanha",
@@ -172,7 +172,7 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/26/psp-chamada-ao-hospital-curry-cabral-apos-familia-de-doente-agredir-enfermeiros/",
-        "count": 508
+        "count": 510
     },
     {
         "category": "Resultados Legislativas 2025",
@@ -200,7 +200,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/alta-definicao/2025-03-22-bruno-de-carvalho-os-meus-pais-souberam-o-que-era-o-confinamento-dois-anos-antes.-nao-consegui-proteger-a-familia-dos-estilhacos-publicos-f6195b37",
-        "count": 457
+        "count": 458
     },
     {
         "category": "Portugal Autêntico",
@@ -228,7 +228,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/facto-politico/2025-03-22-louca-fazenda-e-rosas-nas-listas-do-bloco--contamos-com-todos.-com-os-netos-e-os-avos-d9df1b30",
-        "count": 442
+        "count": 443
     },
     {
         "category": "O Vale Era Verde",
@@ -259,17 +259,17 @@
         "count": 402
     },
     {
-        "category": "PJ",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/21/sintra-homem-detido-por-abusar-sexualmente-crianca/",
-        "count": 400
-    },
-    {
         "category": "Vídeo",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/multimedia/video/2025-05-22-video-cresci-com-a-minha-mae-sempre-na-cozinha-se-queria-mesmo-conversar-ou-estar-com-ela-era-la-que-tinha-de-ir-27e93c1e",
+        "count": 401
+    },
+    {
+        "category": "PJ",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/21/sintra-homem-detido-por-abusar-sexualmente-crianca/",
         "count": 400
     },
     {
@@ -284,7 +284,7 @@
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/fc-porto/fc-porto-e-miguel-coelho-renovam-contrato_d1657053",
-        "count": 388
+        "count": 389
     },
     {
         "category": "Jogo Aberto",
@@ -326,7 +326,7 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/edicao-impressa/2025-03-19-edicao-1672/?utm_source=rss&utm_medium=rss&utm_campaign=edicao-1672",
-        "count": 358
+        "count": 359
     },
     {
         "category": "Expresso da Meia-Noite",
@@ -340,7 +340,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/migracoes/2025-05-22-filas-continuam-em-lisboa-e-no-porto-imigrantes-passam-noite-na-rua-para-garantir-atendimento-dos-servicos-consulares-502916bc",
-        "count": 357
+        "count": 358
+    },
+    {
+        "category": "Elefante na Sala",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/elefante-na-sala/2025-03-22-foi-acionada-uma-lei-que-deportou-japoneses-e-italianos-na-2-guerra-mundial-o-teste-de-trump-aos-limites-legais-do-poder-executivo-0a00bafd",
+        "count": 355
     },
     {
         "category": "Ténis",
@@ -348,13 +355,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/01/desporto/noticia/sexualidade-politica-levam-russa-daria-kasatkina-naturalizarse-australiana-2128177",
         "count": 355
-    },
-    {
-        "category": "Elefante na Sala",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/elefante-na-sala/2025-03-22-foi-acionada-uma-lei-que-deportou-japoneses-e-italianos-na-2-guerra-mundial-o-teste-de-trump-aos-limites-legais-do-poder-executivo-0a00bafd",
-        "count": 354
     },
     {
         "category": "Reino Unido",
@@ -389,7 +389,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/era-uma-voz/2025-05-25-as-vozes-das-personagens-que-marcaram-geracoes-chegam-ao-era-uma-voz-oica-aqui-o-trailer-do-novo-podcast-do-expresso-e1265354",
-        "count": 322
+        "count": 323
     },
     {
         "category": "Apagão",
@@ -459,7 +459,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/06/fugas/noticia/maior-piscina-ondas-portugal-verao-praia-rocas-2132124",
-        "count": 278
+        "count": 279
     },
     {
         "category": "Impostos",
@@ -476,17 +476,17 @@
         "count": 273
     },
     {
-        "category": "Autarquias",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/autarquias/2025-05-30-moedas-falta-a-reuniao-onde-iam-ser-repetidas-votacoes-de-deliberacoes-aprovadas-por-executivo-irregular-6f3241fe",
-        "count": 271
-    },
-    {
         "category": "gasolina",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/23/proxima-semana-arranca-com-descida-nos-combustiveis-2/",
+        "count": 272
+    },
+    {
+        "category": "Autarquias",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/politica/autarquias/2025-05-30-moedas-falta-a-reuniao-onde-iam-ser-repetidas-votacoes-de-deliberacoes-aprovadas-por-executivo-irregular-6f3241fe",
         "count": 271
     },
     {
@@ -515,7 +515,7 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/26/habitacao-governo-acredita-que-prazos-do-prr-serao-cumpridos/",
-        "count": 244
+        "count": 245
     },
     {
         "category": "Iniciativa Liberal",
@@ -529,7 +529,7 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/vestigios-de-azul/2025-05-28-o-aparente-regresso-da-fe-a-silicon-valley/?utm_source=rss&utm_medium=rss&utm_campaign=o-aparente-regresso-da-fe-a-silicon-valley",
-        "count": 236
+        "count": 237
     },
     {
         "category": "IPMA",
@@ -599,7 +599,7 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/23/facas-longas-no-ps-apos-desastre-eleitoral/",
-        "count": 217
+        "count": 218
     },
     {
         "category": "Megafone",
@@ -616,6 +616,13 @@
         "count": 214
     },
     {
+        "category": "Mundial de Clubes",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/06/18/mundial-de-clubes-fc-porto-e-benfica-entre-a-elite-num-novo-e-longo-formato-da-competicao/",
+        "count": 213
+    },
+    {
         "category": "Rui Rio",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
@@ -627,13 +634,6 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/apressadamente/2025-04-29-o-apagao-que-iluminou-o-essencial/?utm_source=rss&utm_medium=rss&utm_campaign=o-apagao-que-iluminou-o-essencial",
-        "count": 212
-    },
-    {
-        "category": "Mundial de Clubes",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/06/18/mundial-de-clubes-fc-porto-e-benfica-entre-a-elite-num-novo-e-longo-formato-da-competicao/",
         "count": 212
     },
     {
@@ -651,6 +651,13 @@
         "count": 211
     },
     {
+        "category": "nato",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/20/oeiras-militar-de-19-anos-morre-na-base-da-nato/",
+        "count": 210
+    },
+    {
         "category": "VISÃO Saúde",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
@@ -658,24 +665,17 @@
         "count": 209
     },
     {
-        "category": "nato",
-        "source": "Jornal I",
+        "category": "Lusa",
+        "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/20/oeiras-militar-de-19-anos-morre-na-base-da-nato/",
-        "count": 209
+        "url": "https://expresso.pt/lusa/2025-03-25-golpedeestado-no-brasil-supremo-decide-a-partir-desta-terca-feira-se-leva-ex-presidente-bolsonaro-a-julgamento-79cf8e4d",
+        "count": 207
     },
     {
         "category": "Consulta Aberta",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/consulta-aberta/2025-03-24-assusta-me-as-familias-nao-comerem-juntas-a-mesa.-comer-e-mais-do-que-nutricao-e-uma-partilha-e-a-companhia-ajuda-na-compulsao-alimentar-09fc83b6",
-        "count": 206
-    },
-    {
-        "category": "Lusa",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/lusa/2025-03-25-golpedeestado-no-brasil-supremo-decide-a-partir-desta-terca-feira-se-leva-ex-presidente-bolsonaro-a-julgamento-79cf8e4d",
         "count": 206
     },
     {
@@ -718,7 +718,7 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/ponto-de-vista/igualmente-desiguais/2025-03-27-este-mundo-nao-e-para-adolescentes/?utm_source=rss&utm_medium=rss&utm_campaign=este-mundo-nao-e-para-adolescentes",
-        "count": 198
+        "count": 199
     },
     {
         "category": "Ásia",
@@ -847,6 +847,13 @@
         "count": 162
     },
     {
+        "category": "Obituário",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/culturaipsilon/noticia/morreu-jesse-colin-young-get-together-elevou-espirito-geracao-woodstock-2126361",
+        "count": 161
+    },
+    {
         "category": "Taça de Portugal",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
@@ -859,13 +866,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/06/20/fotogaleria-o-primeiro-dia-do-kalorama-em-imagens/",
         "count": 161
-    },
-    {
-        "category": "Obituário",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/culturaipsilon/noticia/morreu-jesse-colin-young-get-together-elevou-espirito-geracao-woodstock-2126361",
-        "count": 160
     },
     {
         "category": "GNR",
@@ -1078,6 +1078,13 @@
         "count": 114
     },
     {
+        "category": "Análise",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/impar/analise/mclaurine-pinover-aspirante-influencer-capta-perfeicao-doge-2126304",
+        "count": 113
+    },
+    {
         "category": "Elon Musk",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1090,13 +1097,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/liga-dos-inovadores/2025-05-28-e-como-montar-puzzles-ou-fazer-bolos-a-tecnologia-da-hovione-para-produzir-comprimidos-soluveis-e-de-forma-mais-rapida-deeff8e2",
         "count": 113
-    },
-    {
-        "category": "Análise",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/impar/analise/mclaurine-pinover-aspirante-influencer-capta-perfeicao-doge-2126304",
-        "count": 112
     },
     {
         "category": "45 Graus",
@@ -1267,6 +1267,13 @@
         "count": 98
     },
     {
+        "category": "Ciclismo",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/ciclismo/olav-kooij-vence-12a-etapa-ao-sprint-isaac-del-toro-segue-lider_d1656856",
+        "count": 97
+    },
+    {
         "category": "sintra",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
@@ -1278,13 +1285,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/bloco-central/2025-05-22-pedro-siza-vieira-o-ps-deve-viabilizar-o-governo-com-o-compromisso-da-ad-de-nao-alterar-leis-do-regime-com-o-chega-3d21948f",
-        "count": 96
-    },
-    {
-        "category": "Ciclismo",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/ciclismo/olav-kooij-vence-12a-etapa-ao-sprint-isaac-del-toro-segue-lider_d1656856",
         "count": 96
     },
     {
@@ -1736,6 +1736,13 @@
         "count": 60
     },
     {
+        "category": "Igualdade",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/sociedade/igualdade/2025-03-21-movimento-vida-justa-quer-que-marcelo-intervenha-para-travar-demolicoes-de-casas-precarias-o-que-esta-a-acontecer-ofende-a-constituicao-f127353b",
+        "count": 59
+    },
+    {
         "category": "Património",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1761,13 +1768,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/sociedade/noticia/estudantes-instituto-superior-miguel-torga-vao-manifestarse-decisao-a3es-2126331",
-        "count": 58
-    },
-    {
-        "category": "Igualdade",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/sociedade/igualdade/2025-03-21-movimento-vida-justa-quer-que-marcelo-intervenha-para-travar-demolicoes-de-casas-precarias-o-que-esta-a-acontecer-ofende-a-constituicao-f127353b",
         "count": 58
     },
     {
@@ -2366,6 +2366,13 @@
         "count": 28
     },
     {
+        "category": "Motos",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/motores/marc-marquez-vence-corrida-sprint-do-gp-das-americas-de-motogp_d1644407",
+        "count": 28
+    },
+    {
         "category": "subvenções",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
@@ -2401,13 +2408,6 @@
         "count": 27
     },
     {
-        "category": "Motos",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/motores/marc-marquez-vence-corrida-sprint-do-gp-das-americas-de-motogp_d1644407",
-        "count": 27
-    },
-    {
         "category": "O gato das botas",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -2422,17 +2422,17 @@
         "count": 27
     },
     {
-        "category": "Igreja Católica",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/22/recebidos-78-pedidos-de-compensacao-financeira-por-abusos-sexuais-na-igreja/",
-        "count": 26
-    },
-    {
         "category": "Urbanismo",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/local/noticia/camara-lisboa-nao-detecta-ilegalidades-obras-casa-montenegro-2126427",
+        "count": 27
+    },
+    {
+        "category": "Igreja Católica",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/22/recebidos-78-pedidos-de-compensacao-financeira-por-abusos-sexuais-na-igreja/",
         "count": 26
     },
     {
@@ -2814,6 +2814,13 @@
         "count": 17
     },
     {
+        "category": "Chega",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/05/19/politica/noticia/seis-anos-chega-sobe-13-23-empata-ps-2133511",
+        "count": 17
+    },
+    {
         "category": "Empreendedorismo",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -2860,13 +2867,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/06/22/politica/noticia/breve-historia-base-lajes-coqueluche-portuguesa-posto-numero-65-eua-2137454",
-        "count": 16
-    },
-    {
-        "category": "Chega",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/05/19/politica/noticia/seis-anos-chega-sobe-13-23-empata-ps-2133511",
         "count": 16
     },
     {
@@ -4032,10 +4032,24 @@
         "count": 6
     },
     {
+        "category": "MotoGP",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/29/desporto/noticia/corrida-vitoria-marc-marquez-2127850",
+        "count": 6
+    },
+    {
         "category": "Nacionalidade",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/29/publico-brasil/noticia/governo-italia-baixa-decreto-inviabiliza-cidadania-nasceu-exterior-2127836",
+        "count": 6
+    },
+    {
+        "category": "Papa Leão XIV",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/05/09/mundo/noticia/catolicos-eua-surpresa-alegria-papa-americano-2132459",
         "count": 6
     },
     {
@@ -4200,13 +4214,6 @@
         "count": 5
     },
     {
-        "category": "MotoGP",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/29/desporto/noticia/corrida-vitoria-marc-marquez-2127850",
-        "count": 5
-    },
-    {
         "category": "Opinião Bem-estar",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -4225,13 +4232,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/27/ciencia/noticia/estranho-dinossauro-mongolia-garras-afiadas-terriveis-2127294",
-        "count": 5
-    },
-    {
-        "category": "Papa Leão XIV",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/05/09/mundo/noticia/catolicos-eua-surpresa-alegria-papa-americano-2132459",
         "count": 5
     },
     {
@@ -4592,6 +4592,13 @@
         "count": 3
     },
     {
+        "category": "Câmara Municipal de Lisboa",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/local/noticia/camara-lisboa-quer-construir-novas-residencias-universitarias-parceria-privados-2126311",
+        "count": 3
+    },
+    {
         "category": "Desflorestação",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -4764,13 +4771,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/26/economia/noticia/preco-ovos-subiu-10-ultimo-ano-produtores-esperam-estabilizacao-2127465",
-        "count": 2
-    },
-    {
-        "category": "Câmara Municipal de Lisboa",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/local/noticia/camara-lisboa-quer-construir-novas-residencias-universitarias-parceria-privados-2126311",
         "count": 2
     },
     {
