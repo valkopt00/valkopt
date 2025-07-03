@@ -4,7 +4,7 @@
         "source": "Sapo",
         "mapped_category": "Outras Notícias",
         "url": "https://www.sapo.pt/noticias/atualidade/artigos/as-pme-resistiriam-a-subir-salarios-em-15-o-pcp-responde-sao-as-principais-beneficiarias-pelo-aumento-do-poder-de-compra",
-        "count": 6650
+        "count": 6651
     },
     {
         "category": "Expresso Fundamental",
@@ -18,7 +18,7 @@
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/selecao-nacional/bino-quer-entrar-a-ganhar-no-europeu-de-sub-17_d1656740",
-        "count": 1079
+        "count": 1080
     },
     {
         "category": "Segurança",
@@ -39,7 +39,14 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/22/seguranca-da-embaixada-de-israel-continua-reforcado-diz-psp/",
-        "count": 920
+        "count": 921
+    },
+    {
+        "category": "Autárquicas 2025",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/politica/eleicoes/autarquicas-2025/2025-05-22-pedro-duarte-candidato-da-ad-ao-porto-encabeca-peticao-para-suspender-2.-fase-do-metrobus-do-porto-4e2ed9a5",
+        "count": 893
     },
     {
         "category": "Palavras Cruzadas",
@@ -47,13 +54,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/jogos/palavras-cruzadas/2025-03-18-palavras-cruzadas-n-1184-0a4b9c42",
         "count": 892
-    },
-    {
-        "category": "Autárquicas 2025",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/eleicoes/autarquicas-2025/2025-05-22-pedro-duarte-candidato-da-ad-ao-porto-encabeca-peticao-para-suspender-2.-fase-do-metrobus-do-porto-4e2ed9a5",
-        "count": 890
     },
     {
         "category": "Planeta",
@@ -88,7 +88,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/economia/sistema-financeiro/2025-05-22-miranda-sarmento-e-contra-a-compra-do-novo-banco-pelo-espanhol-caixabank-f0e288d2",
-        "count": 789
+        "count": 791
     },
     {
         "category": "Programa Cujo Nome Estamos Legalmente Impedidos de Dizer",
@@ -130,7 +130,7 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/26/psp-chamada-ao-hospital-curry-cabral-apos-familia-de-doente-agredir-enfermeiros/",
-        "count": 658
+        "count": 659
     },
     {
         "category": "Espanha",
@@ -144,7 +144,7 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/22/evento-mama-africa-quer-celebrar-cultura-africana/",
-        "count": 613
+        "count": 614
     },
     {
         "category": "Lisboa",
@@ -172,7 +172,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expressinho/2025-03-20-eu-nunca-vou-pertencer-aquela-cidade-d486a292",
-        "count": 539
+        "count": 542
     },
     {
         "category": "Incêndios",
@@ -347,7 +347,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/01/desporto/noticia/sexualidade-politica-levam-russa-daria-kasatkina-naturalizarse-australiana-2128177",
-        "count": 370
+        "count": 371
     },
     {
         "category": "ue",
@@ -364,17 +364,17 @@
         "count": 360
     },
     {
-        "category": "Expresso da Meia-Noite",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/expresso-da-meia-noite/2025-03-22-novas-sondagem-e-mais-documentacao-sobre-a-spinumviva.-e-a-partir-daqui-que-rumo-vai-tomar-esta-campanha--056607c6",
-        "count": 358
-    },
-    {
         "category": "Reino Unido",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/19/mundo/noticia/governo-trabalhista-britanico-corta-prestacoes-sociais-arrisca-mae-rebelioes-2126587",
+        "count": 359
+    },
+    {
+        "category": "Expresso da Meia-Noite",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/expresso-da-meia-noite/2025-03-22-novas-sondagem-e-mais-documentacao-sobre-a-spinumviva.-e-a-partir-daqui-que-rumo-vai-tomar-esta-campanha--056607c6",
         "count": 358
     },
     {
@@ -417,20 +417,20 @@
         "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias",
         "url": "https://www.cmjornal.pt/cm-ao-minuto/detalhe/20250321-090533-aeroporto-de-gatwick-esta-a-receber-voos-desviados-apos-incendio-em-heathrow",
-        "count": 317
-    },
-    {
-        "category": "No Último Episódio",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/no-ultimo-episodio/2025-04-18-se-e-viciado-em-series-como-stranger-things-white-lotus-e-the-last-of-us-este-podcast-e-para-si-no-ultimo-episodio--oica-aqui-o-trailer--c22d6f92",
-        "count": 317
+        "count": 318
     },
     {
         "category": "Verão",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/06/fugas/noticia/maior-piscina-ondas-portugal-verao-praia-rocas-2132124",
+        "count": 318
+    },
+    {
+        "category": "No Último Episódio",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/no-ultimo-episodio/2025-04-18-se-e-viciado-em-series-como-stranger-things-white-lotus-e-the-last-of-us-este-podcast-e-para-si-no-ultimo-episodio--oica-aqui-o-trailer--c22d6f92",
         "count": 317
     },
     {
@@ -466,7 +466,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/economia/noticia/imposto-minimo-ricos-daria-200-milhoes-portugal-2126420",
-        "count": 307
+        "count": 308
     },
     {
         "category": "IPMA",
@@ -504,18 +504,18 @@
         "count": 290
     },
     {
-        "category": "Violência Doméstica",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/20/homem-condenado-a-12-anos-de-prisao-por-crimes-sexuais-contra-a-filha/",
-        "count": 288
-    },
-    {
         "category": "Operação Marquês",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/investigacao/operacao-marques/2025-06-03-operacao-marques-ministerio-publico-pede-ida-a-julgamento-de-socrates-por-branqueamento-bac6a98c",
-        "count": 286
+        "count": 289
+    },
+    {
+        "category": "Violência Doméstica",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/20/homem-condenado-a-12-anos-de-prisao-por-crimes-sexuais-contra-a-filha/",
+        "count": 289
     },
     {
         "category": "Vestígios de Azul",
@@ -627,14 +627,14 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/culturaipsilon/noticia/morreu-jesse-colin-young-get-together-elevou-espirito-geracao-woodstock-2126361",
-        "count": 243
+        "count": 244
     },
     {
         "category": "Educação",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/20/newsletter/educacao",
-        "count": 240
+        "count": 241
     },
     {
         "category": "Iniciativa Liberal",
@@ -711,7 +711,7 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/22/querida-encolhi-os-partidos/",
-        "count": 218
+        "count": 219
     },
     {
         "category": "Crise climática",
@@ -774,7 +774,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/negocios-da-semana/2025-03-27-superavit-ou-superproblema--o-dilema-economico-portugues-em-tempos-de-incerteza-efca7343",
-        "count": 200
+        "count": 201
     },
     {
         "category": "Religião",
@@ -795,7 +795,7 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/24/estudante-alema-apresenta-queixa-de-violacao-num-bar-no-bairro-alto/",
-        "count": 196
+        "count": 197
     },
     {
         "category": "Humor à Primeira Vista",
@@ -809,7 +809,7 @@
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/lusa/mais-de-400-ocorrencias-ate-as-20_n1642029",
-        "count": 191
+        "count": 192
     },
     {
         "category": "Geração 60",
@@ -1138,13 +1138,20 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/blitz-posto-emissor/2025-03-20-barbara-bandeira-recebi-a-chamada-sobre-coldplay-as-3-da-manha-so-berrava.-depois-tive-pessoas-que-nao-sao-publico-meu-a-falar-sobre-mim-8bff34cb",
-        "count": 118
+        "count": 119
     },
     {
         "category": "Análise",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/impar/analise/mclaurine-pinover-aspirante-influencer-capta-perfeicao-doge-2126304",
+        "count": 117
+    },
+    {
+        "category": "Bloco Central",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/bloco-central/2025-05-22-pedro-siza-vieira-o-ps-deve-viabilizar-o-governo-com-o-compromisso-da-ad-de-nao-alterar-leis-do-regime-com-o-chega-3d21948f",
         "count": 117
     },
     {
@@ -1159,13 +1166,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/publico-brasil/noticia/controle-embraer-ogma-vai-faturar-290-milhoes-euros-montenegro-comemora-2126451",
-        "count": 116
-    },
-    {
-        "category": "Bloco Central",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/bloco-central/2025-05-22-pedro-siza-vieira-o-ps-deve-viabilizar-o-governo-com-o-compromisso-da-ad-de-nao-alterar-leis-do-regime-com-o-chega-3d21948f",
         "count": 116
     },
     {
@@ -1582,17 +1582,17 @@
         "count": 81
     },
     {
-        "category": "Artes",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/19/culturaipsilon/noticia/principe-africano-klimt-85-anos-perdido-vendese-15-milhoes-2126562",
-        "count": 78
-    },
-    {
         "category": "Emprego",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/economia/emprego/2025-03-20-alunos-do-iscte-assumem-o-papel-de-lider-ab4cdd5c",
+        "count": 79
+    },
+    {
+        "category": "Artes",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/19/culturaipsilon/noticia/principe-africano-klimt-85-anos-perdido-vendese-15-milhoes-2126562",
         "count": 78
     },
     {
@@ -1960,6 +1960,13 @@
         "count": 52
     },
     {
+        "category": "Serra da Estrela",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/05/09/local/noticia/metal-proteccoes-estrada-madeira-serra-estrela-ja-sao-2132412",
+        "count": 52
+    },
+    {
         "category": "violacao",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
@@ -1992,13 +1999,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/12/desporto/noticia/xabi-alonso-treinara-real-madrid-proximos-tres-anos-2132744",
-        "count": 51
-    },
-    {
-        "category": "Serra da Estrela",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/05/09/local/noticia/metal-proteccoes-estrada-madeira-serra-estrela-ja-sao-2132412",
         "count": 51
     },
     {
@@ -2359,6 +2359,13 @@
         "count": 33
     },
     {
+        "category": "Bolsa",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/04/08/economia/noticia/alta-bolsas-europa-asia-aliviam-tensao-comercial-ultimos-dias-2128942",
+        "count": 33
+    },
+    {
         "category": "Poluição",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -2378,13 +2385,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/03/sociedade/noticia/morreu-paulo-mendo-exministro-saude-92-anos-2128411",
         "count": 33
-    },
-    {
-        "category": "Bolsa",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/04/08/economia/noticia/alta-bolsas-europa-asia-aliviam-tensao-comercial-ultimos-dias-2128942",
-        "count": 32
     },
     {
         "category": "Futebol feminino",
@@ -4018,6 +4018,13 @@
         "count": 8
     },
     {
+        "category": "praia",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/26/pedrogao-retomadas-buscas-por-dois-menores-desaparecidos/",
+        "count": 8
+    },
+    {
         "category": "Afeganistão",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -4127,13 +4134,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/14/fugas/noticia/cafetaria-celebra-33-anos-tao-jovem-airoso-2132773",
-        "count": 7
-    },
-    {
-        "category": "praia",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/26/pedrogao-retomadas-buscas-por-dois-menores-desaparecidos/",
         "count": 7
     },
     {
@@ -4396,6 +4396,13 @@
         "count": 5
     },
     {
+        "category": "Catástrofes naturais",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/04/03/azul/noticia/ja-conhecemos-nomes-furacoes-2025-beryl-helene-milton-sairam-lista-2128391",
+        "count": 5
+    },
+    {
         "category": "Consumidores",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -4547,13 +4554,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/06/28/fugas/noticia/tivoli-tenerife-roque-mar-oasis-2138004",
-        "count": 4
-    },
-    {
-        "category": "Catástrofes naturais",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/04/03/azul/noticia/ja-conhecemos-nomes-furacoes-2025-beryl-helene-milton-sairam-lista-2128391",
         "count": 4
     },
     {
@@ -4823,6 +4823,13 @@
         "count": 3
     },
     {
+        "category": "Debate",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/04/12/politica/noticia/be-cdu-admitem-entendimentos-ps-romper-caminho-actual-2129608",
+        "count": 3
+    },
+    {
         "category": "Desflorestação",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -5009,13 +5016,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/16/ciencia/noticia/autorizado-farmaco-europa-atrasar-defice-cognitivo-doentes-alzheimer-2130010",
-        "count": 2
-    },
-    {
-        "category": "Debate",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/04/12/politica/noticia/be-cdu-admitem-entendimentos-ps-romper-caminho-actual-2129608",
         "count": 2
     },
     {
