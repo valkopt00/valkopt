@@ -214,7 +214,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/investigacao/operacao-marques/2025-06-03-operacao-marques-ministerio-publico-pede-ida-a-julgamento-de-socrates-por-branqueamento-bac6a98c",
-        "count": 534
+        "count": 535
     },
     {
         "category": "FC Porto",
@@ -270,14 +270,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-03-19-novo-volkswagen-eletrico-da-autoeuropa-ja-esta-a-agitar-a-industria-de-fornecedores-de-componentes-e188cec6",
-        "count": 498
+        "count": 499
     },
     {
         "category": "Ténis",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/01/desporto/noticia/sexualidade-politica-levam-russa-daria-kasatkina-naturalizarse-australiana-2128177",
-        "count": 498
+        "count": 499
     },
     {
         "category": "Resultados Legislativas 2025",
@@ -315,6 +315,13 @@
         "count": 450
     },
     {
+        "category": "+E",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/revista-e/-e/2025-03-19-acho-que-nao-precisamos-de-trabalhar-tanto.-estamos-a-destruir-o-planeta-e-a-destruir-nos-a-nos-mesmos-a-visao-da-cineasta-laura-carreira-4440e006",
+        "count": 447
+    },
+    {
         "category": "Elefante na Sala",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -334,13 +341,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/multimedia/video/2025-05-22-video-cresci-com-a-minha-mae-sempre-na-cozinha-se-queria-mesmo-conversar-ou-estar-com-ela-era-la-que-tinha-de-ir-27e93c1e",
         "count": 447
-    },
-    {
-        "category": "+E",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/revista-e/-e/2025-03-19-acho-que-nao-precisamos-de-trabalhar-tanto.-estamos-a-destruir-o-planeta-e-a-destruir-nos-a-nos-mesmos-a-visao-da-cineasta-laura-carreira-4440e006",
-        "count": 444
     },
     {
         "category": "Presidente da República",
@@ -511,18 +511,18 @@
         "count": 321
     },
     {
-        "category": "Impostos",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/18/economia/noticia/imposto-minimo-ricos-daria-200-milhoes-portugal-2126420",
-        "count": 312
-    },
-    {
         "category": "gasolina",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/23/proxima-semana-arranca-com-descida-nos-combustiveis-2/",
         "count": 312
+    },
+    {
+        "category": "Impostos",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/18/economia/noticia/imposto-minimo-ricos-daria-200-milhoes-portugal-2126420",
+        "count": 311
     },
     {
         "category": "Incerto Mundo Novo",
@@ -704,7 +704,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/18/sociedade/noticia/aima-alerta-autoridades-milhar-estrangeiros-moradas-2126488",
-        "count": 257
+        "count": 258
     },
     {
         "category": "Religião",
@@ -1824,7 +1824,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/vicios/2025-03-20-copo-cor-e-acao-a-ascensao-dos-cocktails-na-terra-do-vinho-e-da-cerveja-d8679f25",
-        "count": 70
+        "count": 71
+    },
+    {
+        "category": "Cartoon",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/opinao/cartoon/2025-04-03-fumo-negro-na-frente-b01d3824",
+        "count": 69
     },
     {
         "category": "Temos de Falar",
@@ -1839,13 +1846,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/02/politica/noticia/siglas-nomes-figuras-historicas-embates-partidos-constitucional-2128257",
         "count": 69
-    },
-    {
-        "category": "Cartoon",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/opinao/cartoon/2025-04-03-fumo-negro-na-frente-b01d3824",
-        "count": 68
     },
     {
         "category": "Media",
@@ -2716,6 +2716,13 @@
         "count": 28
     },
     {
+        "category": "Automóveis",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/revista/vicios/automoveis/2025-03-21-lamborghini-temerario-hibrido-chega-a-portugal-em-dia-de-tempestade-75e5984d",
+        "count": 27
+    },
+    {
         "category": "Da economia, com felicidade",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
@@ -2755,13 +2762,6 @@
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/1a-liga/i-liga-e-a-5a-do-mundo-com-mais-faltas_d1643519",
-        "count": 26
-    },
-    {
-        "category": "Automóveis",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/vicios/automoveis/2025-03-21-lamborghini-temerario-hibrido-chega-a-portugal-em-dia-de-tempestade-75e5984d",
         "count": 26
     },
     {
@@ -3388,13 +3388,6 @@
         "count": 16
     },
     {
-        "category": "Humor",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/05/07/ciencia/noticia/quase-metade-memes-mpox-redes-sociais-desinformacao-estigma-2132287",
-        "count": 16
-    },
-    {
         "category": "INEM",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -3476,6 +3469,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/03/22/economia/noticia/presidente-promulga-duvidas-nova-organica-ministerio-financas-2126997",
+        "count": 15
+    },
+    {
+        "category": "Humor",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/05/07/ciencia/noticia/quase-metade-memes-mpox-redes-sociais-desinformacao-estigma-2132287",
         "count": 15
     },
     {
@@ -6755,6 +6755,13 @@
         "count": 1
     },
     {
+        "category": "Leilões",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/05/08/impar/noticia/diamante-azul-mediterraneo-vai-leilao-valer-20-milhoes-2132394",
+        "count": 1
+    },
+    {
         "category": "Leonora Carrington",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
@@ -7522,13 +7529,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/23/ciencia/noticia/quase-pais-risco-elevado-exposicao-radiacao-uv-2134064",
-        "count": 1
-    },
-    {
-        "category": "Reciclagem",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/04/01/azul/noticia/portugal-precisa-produzir-menos-lixo-essencial-consumir-desperdicar-menos-alerta-ministra-2128079",
         "count": 1
     },
     {
@@ -11403,13 +11403,6 @@
         "count": 0
     },
     {
-        "category": "Leilões",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/05/08/impar/noticia/diamante-azul-mediterraneo-vai-leilao-valer-20-milhoes-2132394",
-        "count": 0
-    },
-    {
         "category": "Letra Pequena",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -12289,6 +12282,13 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/ranking-das-escolas/2024/2025-04-03-o-que-dizem-os-rankings-o-dominio-do-norte-do-ensino-artistico-as-escolas-com-notas-20-e-o-papel-das-maes-77ef039f",
+        "count": 0
+    },
+    {
+        "category": "Reciclagem",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/04/01/azul/noticia/portugal-precisa-produzir-menos-lixo-essencial-consumir-desperdicar-menos-alerta-ministra-2128079",
         "count": 0
     },
     {
