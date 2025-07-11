@@ -6,60 +6,53 @@ on:
   workflow_dispatch:
 
 jobs:
-  # Job 1: Gerar JSONs na branch main
-  generate-json:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Clonar repositório
-        uses: actions/checkout@v4
+  # Job 1: Gerar JSONs na branch main (SEM MANTER JSONs NO MAIN)
+generate-json:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Clonar repositório
+      uses: actions/checkout@v4
+      
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
         
-      - name: Configurar Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.10"
+    - name: Instalar dependências
+      run: pip install -r requirements.txt
+      
+    - name: Criar estrutura de pastas temporárias
+      run: |
+        mkdir -p articles public
+        
+    - name: Executar script para atualizar JSON
+      run: |
+        export PYTHONPATH=$(pwd)
+        python scripts/RSS_API.py
+
+    - name: Copiar ficheiros JSON para pasta public
+      run: |
+        cp articles/articles.json public/articles.json
+        cp articles/articles_priority.json public/articles_priority.json
+        cp articles/articles_secondary.json public/articles_secondary.json
+        
+    - name: Upload dos ficheiros JSON
+      uses: actions/upload-artifact@v4
+      with:
+        name: json-files
+        path: |
+          articles/articles.json
+          articles/articles_priority.json
+          articles/articles_secondary.json
+          articles/original_categories.json
+          public/articles.json
+          public/articles_priority.json
+          public/articles_secondary.json
+          articles/date_test.json
           
-      - name: Instalar dependências
-        run: pip install -r requirements.txt
-        
-      - name: Executar script para atualizar JSON
-        run: |
-          export PYTHONPATH=$(pwd)
-          python scripts/RSS_API.py
-
-      - name: Gerar date_test.json
-        run: |
-          python - << 'EOF'
-          import json
-
-          # load the freshly generated JSON
-          with open('articles/articles.json', encoding='utf-8') as f:
-              data = json.load(f)
-
-          # write a brand‑new JSON from scratch
-          with open('articles/date_test.json', 'w', encoding='utf-8') as f:
-              json.dump(data, f, ensure_ascii=False, indent=2)
-          EOF
-        
-      - name: Copiar ficheiros JSON para pasta public
-        run: |
-          cp articles/articles.json public/articles.json
-          cp articles/articles_priority.json public/articles_priority.json
-          cp articles/articles_secondary.json public/articles_secondary.json
-          
-      - name: Upload dos ficheiros JSON
-        uses: actions/upload-artifact@v4
-        with:
-          name: json-files
-          path: |
-            articles/articles.json
-            articles/articles_priority.json
-            articles/articles_secondary.json
-            articles/original_categories.json
-            public/articles.json
-            public/articles_priority.json
-            public/articles_secondary.json
-            # incluir também o ficheiro de teste
-            articles/date_test.json
+    - name: Limpar ficheiros temporários (manter main limpo)
+      run: |
+        rm -rf articles public
 
   # Job 2: Atualizar branch data (OTIMIZADO)
   update-data-branch:
