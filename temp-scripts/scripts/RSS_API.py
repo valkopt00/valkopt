@@ -297,11 +297,11 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
         traceback.print_exc()
         return []
         
-def parse_date(date_str, source_url=None):
-    import re
-    from datetime import datetime, timedelta
-    from dateutil import tz, parser
+import re
+from datetime import datetime, timedelta
+from dateutil import tz, parser
 
+def parse_date(date_str, source_url=None):
     if not date_str:
         return None
 
@@ -322,10 +322,8 @@ def parse_date(date_str, source_url=None):
         except Exception:
             return None
 
-    # Converter sempre para Lisboa
     dt = dt.astimezone(portugal_tz)
 
-    # FORÇAR subtração de 1h para feeds RTP
     if source_url and 'www.rtp.pt' in source_url:
         dt = dt - timedelta(hours=1)
         print("⚠️ RTP correction FORÇADA: -1 hora")
@@ -333,8 +331,6 @@ def parse_date(date_str, source_url=None):
     print(f"📅 Data final: {dt.strftime('%d-%m-%Y %H:%M:%S %z')}")
 
     return dt
-
-
 
 async def process_api_source(session, api_source, titles_seen, last_12_hours):
     """
