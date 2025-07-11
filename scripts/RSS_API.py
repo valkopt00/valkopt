@@ -365,7 +365,8 @@ def parse_date(date_str, source_url=None):
                 portugal_tz = tz.gettz('Europe/Lisbon')
                 dt = dt.replace(tzinfo=portugal_tz)
             
-            # Aplicar correção específica RTP APENAS para feeds rtp.pt
+            # CORREÇÃO: Aplicar correção específica RTP para feeds rtp.pt
+            # independentemente de ter timezone ou não
             if source_url and 'rtp.pt' in source_url:
                 from datetime import timedelta
                 dt = dt - timedelta(hours=1)
@@ -392,11 +393,12 @@ def parse_date(date_str, source_url=None):
             portugal_tz = tz.gettz('Europe/Lisbon')
             dt = dt.replace(tzinfo=portugal_tz)
         
-        # Aplicar correção específica RTP APENAS para feeds rtp.pt
+        # CORREÇÃO: Aplicar correção específica RTP para feeds rtp.pt
+        # independentemente de ter timezone ou não
         if source_url and 'rtp.pt' in source_url:
             from datetime import timedelta
             dt = dt - timedelta(hours=1)
-            print("⚠️  RTP correction applied: -1 hour")
+            print(f"⚠️  RTP correction applied: -1 hour")
         
         # Display da data para debug (sem alterar a data original)
         formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
