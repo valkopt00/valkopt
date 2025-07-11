@@ -21882,7 +21882,7 @@
             "pubDate": "10-07-2025 22:57",
             "category": "Lifestyle",
             "link": "https://expresso.pt/semanario/ideias/2025-07-10-o-que-ando-a-ver-ler-e-ouvir-a9831954",
-            "isExclusive": true
+            "isExclusive": false
         },
         {
             "title": "Mala Birkin original vendida por 8,6 milhões de euros",
@@ -25739,6 +25739,16 @@
     ],
     "Outras Notícias": [
         {
+            "title": "Em todas as direções",
+            "description": "O Cartoon de António",
+            "image": "https://images.impresa.pt/expresso/2025-07-10-em-todas-as-direcoes_t-_idp.jpg-4ac24ed8/1.91x1/mw-1200?outputFormat=jpeg",
+            "source": "Expresso",
+            "pubDate": "10-07-2025 22:57",
+            "category": "Outras Notícias",
+            "link": "https://expresso.pt/opinao/cartoon/2025-07-10-em-todas-as-direcoes-e3bbc416",
+            "isExclusive": true
+        },
+        {
             "title": "Rishi Sunak acelera de regresso ao Goldman Sachs",
             "description": "",
             "image": "https://images.impresa.pt/expresso/2025-07-09-4005z_804781593_mt1sipa000zb4s5t_rtrmadp_3_si_0001-_idp.jpg-62f71770/1.91x1/mw-1200?outputFormat=jpeg",
@@ -25786,7 +25796,7 @@
             "pubDate": "10-07-2025 22:57",
             "category": "Outras Notícias",
             "link": "https://expresso.pt/semanario/revista-e/-e/2025-07-10-nos-bastidores-da-guerra-entre-a-vinted-e-grandes-marcas-de-roupa-f1a16122",
-            "isExclusive": true
+            "isExclusive": false
         },
         {
             "title": "Europa. Von der Leyen sobrevive a censura",
@@ -25866,16 +25876,6 @@
             "pubDate": "10-07-2025 22:57",
             "category": "Outras Notícias",
             "link": "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-07-10-queda-de-ponte-mata-16-na-india-55432727",
-            "isExclusive": false
-        },
-        {
-            "title": "Em todas as direções",
-            "description": "O Cartoon de António",
-            "image": "https://images.impresa.pt/expresso/2025-07-10-em-todas-as-direcoes_t-_idp.jpg-4ac24ed8/1.91x1/mw-1200?outputFormat=jpeg",
-            "source": "Expresso",
-            "pubDate": "10-07-2025 22:57",
-            "category": "Outras Notícias",
-            "link": "https://expresso.pt/opinao/cartoon/2025-07-10-em-todas-as-direcoes-e3bbc416",
             "isExclusive": false
         },
         {
@@ -31528,7 +31528,7 @@
             "pubDate": "10-07-2025 22:57",
             "category": "Política",
             "link": "https://expresso.pt/politica/2025-07-10-nuno-melo-e-marcelo-apontam-incapacidade-dos-hospitais-para-defender-forca-aerea-63349d04",
-            "isExclusive": false
+            "isExclusive": true
         },
         {
             "title": "Carneiro chama a si pelouro das autárquicas no PS",
@@ -34723,16 +34723,6 @@
             "isExclusive": false
         },
         {
-            "title": "Governo autoriza Força Aérea a investir até 30 milhões de euros para deslocar Figo Maduro para Montijo",
-            "description": "A transferência das operações do aeródromo militar deverá estar concluída até ao final de 2028, disse o Executivo.",
-            "image": "https://cdn.jornaldenegocios.pt/images/2020-02/img_900x560uu2020-02-02-21-04-38-369172.jpg",
-            "source": "Jornal De Negocios",
-            "pubDate": "10-07-2025 22:47",
-            "category": "Economia",
-            "link": "https://www.jornaldenegocios.pt/economia/detalhe/governo-autoriza-forca-aerea-a-investir-ate-30-milhoes-de-euros-para-deslocar-figo-maduro-para-montijo",
-            "isExclusive": true
-        },
-        {
             "title": "\"Precisamos de mais investimento\". ​Agências de Viagens aprovam privatização da TAP",
             "description": "Em declarações à Renascença, Pedro Costa Ferreira diz que, para manter a rota de crescimento, a empresa precisa de novos investimentos e os privados...",
             "image": "https://images.rr.pt/436231261249d9eb164c_standard.JPG",
@@ -34770,7 +34760,7 @@
             "pubDate": "10-07-2025 21:28",
             "category": "Economia",
             "link": "https://www.jornaldenegocios.pt/economia/impostos/irs/detalhe/mais-de-2-milhoes-de-familias-tem-ja-garantido-novo-alivio-de-irs-em-2026",
-            "isExclusive": true
+            "isExclusive": false
         },
         {
             "title": "Trump dá folga de tarifas aos mercados. S&P 500 e Nasdaq batem recordes",
@@ -34780,7 +34770,7 @@
             "pubDate": "10-07-2025 21:15",
             "category": "Economia",
             "link": "https://www.jornaldenegocios.pt/mercados/bolsa/detalhe/trump-da-folga-de-tarifas-aos-mercados-s-p-500-e-nasdaq-batem-recordes",
-            "isExclusive": true
+            "isExclusive": false
         },
         {
             "title": "O valor dos imigrantes",
@@ -51721,13 +51711,13 @@
             "isExclusive": true
         },
         {
-            "title": "Tacos em todo o lado",
-            "description": "Hoje em dia, várias políticas americanas têm em mente os mexicanos. Não só nas pessoas, mas  na forma de agir e na influência sobre a economia, mais...",
-            "image": "https://images.impresa.pt/expresso/2020-04-15-Ricardo-Reis.png-1/1.91x1?wm=true&outputFormat=jpeg",
+            "title": "Somos todos Jay Powell",
+            "description": "A independência dos bancos centrais é fundamental. Trump quer retirá-la à Fed. Deve preocupar-nos a todos",
+            "image": "https://images.impresa.pt/expresso/2020-04-17-JoaoSilvestre.png-1/1.91x1?wm=true&outputFormat=jpeg",
             "source": "Expresso",
             "pubDate": "10-07-2025 22:57",
             "category": "Opinião",
-            "link": "https://expresso.pt/opiniao/2025-07-10-tacos-em-todo-o-lado-88d1fbfd",
+            "link": "https://expresso.pt/opiniao/2025-07-10-somos-todos-jay-powell-a2be672f",
             "isExclusive": true
         },
         {
@@ -51811,13 +51801,13 @@
             "isExclusive": false
         },
         {
-            "title": "Somos todos Jay Powell",
-            "description": "A independência dos bancos centrais é fundamental. Trump quer retirá-la à Fed. Deve preocupar-nos a todos",
-            "image": "https://images.impresa.pt/expresso/2020-04-17-JoaoSilvestre.png-1/1.91x1?wm=true&outputFormat=jpeg",
+            "title": "Tacos em todo o lado",
+            "description": "Hoje em dia, várias políticas americanas têm em mente os mexicanos. Não só nas pessoas, mas  na forma de agir e na influência sobre a economia, mais...",
+            "image": "https://images.impresa.pt/expresso/2020-04-15-Ricardo-Reis.png-1/1.91x1?wm=true&outputFormat=jpeg",
             "source": "Expresso",
             "pubDate": "10-07-2025 22:57",
             "category": "Opinião",
-            "link": "https://expresso.pt/opiniao/2025-07-10-somos-todos-jay-powell-a2be672f",
+            "link": "https://expresso.pt/opiniao/2025-07-10-tacos-em-todo-o-lado-88d1fbfd",
             "isExclusive": false
         },
         {
