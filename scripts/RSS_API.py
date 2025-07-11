@@ -314,6 +314,7 @@ def parse_date(date_str, source_url=None):
         date_str = re.sub(r'GMT-(\d+)', lambda m: f"-{m.group(1).zfill(2)}00", date_str)
 
     portugal_tz = tz.gettz('Europe/Lisbon')
+
     try:
         dt = datetime.strptime(date_str, "%a, %d %b %Y %H:%M:%S %z")
     except Exception:
@@ -331,6 +332,7 @@ def parse_date(date_str, source_url=None):
     print(f"📅 Data final: {dt.strftime('%d-%m-%Y %H:%M:%S %z')}")
 
     return dt
+
 
 async def process_api_source(session, api_source, titles_seen, last_12_hours):
     """
