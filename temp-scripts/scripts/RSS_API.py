@@ -393,7 +393,8 @@ def parse_date(date_str, source_url=None):
             dt = dt.replace(tzinfo=portugal_tz)
         
         # Aplicar correção específica RTP APENAS para feeds rtp.pt
-        if source_url and 'rtp.pt' in source_url:
+        # only subtract 1h when the datetime has no offset (i.e. feed gave no timezone)
+        if source_url and 'rtp.pt' in source_url and dt.utcoffset() in (None, timedelta(0)):
             from datetime import timedelta
             dt = dt - timedelta(hours=1)
             print(f"⚠️  RTP correction applied: -1 hour")
