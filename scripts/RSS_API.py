@@ -15,7 +15,8 @@ from aiohttp import ClientTimeout
 import chardet
 import traceback
 import os
-from dateutil import tz, parser
+from dateutil import tz
+from dateutil import parser
 
 
 async def get_articles():
