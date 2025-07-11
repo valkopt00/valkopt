@@ -57,6 +57,12 @@ jobs:
       - name: Instalar dependências
         run: pip install -r temp-scripts/requirements.txt
 
+      - name: Verificar instalação do dateutil
+        run: |
+          pip show python-dateutil
+          python -c "from dateutil import tz; print('✅ dateutil disponível')"
+        
+
       - name: Executar script de atualização de JSON
         run: |
           export PYTHONPATH=$(pwd)/temp-scripts
