@@ -62,7 +62,11 @@ jobs:
           export PYTHONPATH=$(pwd)/temp-scripts
           python temp-scripts/scripts/RSS_API.py
 
-      
+      - name: Garantir pasta public e copiar JSONs
+        run: |
+          mkdir -p public
+          cp articles/*.json public/
+
       - name: Criar README informativo
         run: |
           echo "# Branch Data - Ficheiros JSON" > README.md
