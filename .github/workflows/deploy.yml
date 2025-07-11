@@ -11,14 +11,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout do branch `data`
+      - name: Checkout completo do repositório
         uses: actions/checkout@v4
         with:
-          ref: data
-          fetch-depth: 1   # Shallow clone para acelerar
+          fetch-depth: 0         # Clona todas as branches e histórico completo
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Configurar caching do pip
+      - name: Configurar cache do pip
         uses: actions/cache@v3
         with:
           path: ~/.cache/pip
@@ -32,26 +31,40 @@ jobs:
       - name: Instalar dependências
         run: pip install -r requirements.txt
 
-      - name: Executar script de atualização de JSON
+      - name: Executar script de atualização de JSON (branch main)
         run: |
           export PYTHONPATH=$(pwd)
           python scripts/RSS_API.py
 
-      - name: Copiar JSONs para diretórios finais
+      - name: Preparar branch `data`
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git show-ref --verify --quiet refs/heads/data; then
+            git checkout data
+          else
+            git checkout --orphan data
+          fi
+
+          # Limpar arquivos anteriores, exceto .git/
+          git rm -rf .
+          rm -rf articles public || true
+          mkdir -p articles public
+
+      - name: Copiar JSONs para `data`
         run: |
           cp articles/*.json public/ || true
-          # Criar README
+          mkdir -p articles
+          cp articles/*.json articles/
           echo "# Branch Data - Ficheiros JSON" > README.md
           echo "Atualizado automaticamente em: $(date '+%Y-%m-%d %H:%M:%S')" >> README.md
 
       - name: Commit e Push para branch `data`
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           if ! git diff --cached --quiet; then
             git commit -m "Atualização automática dos ficheiros JSON - $(date '+%Y-%m-%d %H:%M:%S')"
-            git push origin data
+            git push origin data --force
           else
             echo "Nenhuma mudança para commitar"
           fi
