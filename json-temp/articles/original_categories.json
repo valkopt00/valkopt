@@ -46,7 +46,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/inimigo-publico/2025-03-21-troca-de-galhardetes-nas-redes-sociais-entre-pedro-nuno-santos-e-lili-canecas-devolveu-aos-portugueses-a-confianca-nas-instituicoes-2b2c35f2",
-        "count": 1109
+        "count": 1110
     },
     {
         "category": "PS",
@@ -60,7 +60,7 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/25/ucrania-varios-mortos-e-feridos-em-novo-ataque-russo-com-recurso-a-drones/",
-        "count": 1030
+        "count": 1031
     },
     {
         "category": "Palavras Cruzadas",
@@ -123,7 +123,7 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/visaose7e/capas/2025-03-19-a-visao-se7e-desta-semana-edicao-1672/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1672",
-        "count": 754
+        "count": 755
     },
     {
         "category": "Entretenimento",
@@ -186,7 +186,14 @@
         "source": "Observador",
         "mapped_category": "Outras Notícias",
         "url": "https://observador.pt/programas/em-40-minutos/samuel-uria-o-publico-sabe-quando-ha-sinceridade-nas-cancoes-em-40-minutos/",
-        "count": 581
+        "count": 582
+    },
+    {
+        "category": "Fisga",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/revista/fisga/2025-03-18-quem-e-nininho-vaz-maia-o-cantor-que-escapou-a-pobreza-pela-via-da-musica-4d49529e",
+        "count": 546
     },
     {
         "category": "PJ",
@@ -194,13 +201,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/21/sintra-homem-detido-por-abusar-sexualmente-crianca/",
         "count": 546
-    },
-    {
-        "category": "Fisga",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/fisga/2025-03-18-quem-e-nininho-vaz-maia-o-cantor-que-escapou-a-pobreza-pela-via-da-musica-4d49529e",
-        "count": 545
     },
     {
         "category": "Alta Definição",
@@ -242,7 +242,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/05/06/fugas/noticia/maior-piscina-ondas-portugal-verao-praia-rocas-2132124",
-        "count": 513
+        "count": 514
     },
     {
         "category": "Presidente",
@@ -270,7 +270,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-03-19-novo-volkswagen-eletrico-da-autoeuropa-ja-esta-a-agitar-a-industria-de-fornecedores-de-componentes-e188cec6",
-        "count": 498
+        "count": 501
     },
     {
         "category": "Ténis",
@@ -312,7 +312,14 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/exameinformatica/noticias-ei/aeroespacial/2025-03-18-elon-musk-promete-primeira-missao-a-marte-para-2026/?utm_source=rss&utm_medium=rss&utm_campaign=elon-musk-promete-primeira-missao-a-marte-para-2026",
-        "count": 449
+        "count": 450
+    },
+    {
+        "category": "+E",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/revista-e/-e/2025-03-19-acho-que-nao-precisamos-de-trabalhar-tanto.-estamos-a-destruir-o-planeta-e-a-destruir-nos-a-nos-mesmos-a-visao-da-cineasta-laura-carreira-4440e006",
+        "count": 448
     },
     {
         "category": "Elefante na Sala",
@@ -334,13 +341,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/multimedia/video/2025-05-22-video-cresci-com-a-minha-mae-sempre-na-cozinha-se-queria-mesmo-conversar-ou-estar-com-ela-era-la-que-tinha-de-ir-27e93c1e",
         "count": 447
-    },
-    {
-        "category": "+E",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/revista-e/-e/2025-03-19-acho-que-nao-precisamos-de-trabalhar-tanto.-estamos-a-destruir-o-planeta-e-a-destruir-nos-a-nos-mesmos-a-visao-da-cineasta-laura-carreira-4440e006",
-        "count": 444
     },
     {
         "category": "Presidente da República",
@@ -529,7 +529,7 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/ponto-de-vista/incerto-mundo-novo/2025-03-20-enfrentar-o-algoritmo-editor/?utm_source=rss&utm_medium=rss&utm_campaign=enfrentar-o-algoritmo-editor",
-        "count": 307
+        "count": 308
     },
     {
         "category": "Autarquias",
@@ -546,18 +546,18 @@
         "count": 306
     },
     {
+        "category": "Culturas",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/revista/culturas/2025-03-19-como-nasceu-o-macam-o-novo-museu-de-lisboa-onde-se-pode-dormir-4d19ce01",
+        "count": 303
+    },
+    {
         "category": "jogos Santa Casa",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/23/conheca-a-combinacao-vencedora-do-euromilhoes-106/",
         "count": 303
-    },
-    {
-        "category": "Culturas",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/culturas/2025-03-19-como-nasceu-o-macam-o-novo-museu-de-lisboa-onde-se-pode-dormir-4d19ce01",
-        "count": 302
     },
     {
         "category": "Guerra Israel-Hamas",
@@ -994,6 +994,13 @@
         "count": 166
     },
     {
+        "category": "TAP",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/05/23/prejuizos-na-tap-ascendem-a-108-me-no-primeiro/",
+        "count": 163
+    },
+    {
         "category": "transportes",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
@@ -1033,13 +1040,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/liga-dos-inovadores/2025-05-28-e-como-montar-puzzles-ou-fazer-bolos-a-tecnologia-da-hovione-para-produzir-comprimidos-soluveis-e-de-forma-mais-rapida-deeff8e2",
-        "count": 160
-    },
-    {
-        "category": "TAP",
-        "source": "Jornal I",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/05/23/prejuizos-na-tap-ascendem-a-108-me-no-primeiro/",
         "count": 160
     },
     {
@@ -1288,18 +1288,18 @@
         "count": 120
     },
     {
+        "category": "A semana",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-03-20-inflacao-tarifas-telefonemas-rajadas-e-uma-eleicao-d1e4f65a",
+        "count": 117
+    },
+    {
         "category": "Conteúdo patrocinado",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/conteudopatrocinado/2025-03-26-primavera-sem-iva-da-antarte-chega-com-descontos-irresistiveis/?utm_source=rss&utm_medium=rss&utm_campaign=primavera-sem-iva-da-antarte-chega-com-descontos-irresistiveis",
         "count": 117
-    },
-    {
-        "category": "A semana",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-03-20-inflacao-tarifas-telefonemas-rajadas-e-uma-eleicao-d1e4f65a",
-        "count": 116
     },
     {
         "category": "Domingo",
@@ -1824,7 +1824,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/vicios/2025-03-20-copo-cor-e-acao-a-ascensao-dos-cocktails-na-terra-do-vinho-e-da-cerveja-d8679f25",
-        "count": 70
+        "count": 71
+    },
+    {
+        "category": "Cartoon",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/opinao/cartoon/2025-04-03-fumo-negro-na-frente-b01d3824",
+        "count": 69
     },
     {
         "category": "Temos de Falar",
@@ -1839,13 +1846,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/04/02/politica/noticia/siglas-nomes-figuras-historicas-embates-partidos-constitucional-2128257",
         "count": 69
-    },
-    {
-        "category": "Cartoon",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/opinao/cartoon/2025-04-03-fumo-negro-na-frente-b01d3824",
-        "count": 68
     },
     {
         "category": "Media",
@@ -2002,17 +2002,17 @@
         "count": 60
     },
     {
-        "category": "Outras Modalidades",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/03/27/desporto/noticia/eurobasket2025-portugal-servia-letonia-rep-checa-turquia-estonia-2127579",
-        "count": 59
-    },
-    {
         "category": "violacao",
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/05/30/be-vai-apresentar-tres-projetos-de-lei-no-primeiro-dia-de-parlamento/",
+        "count": 60
+    },
+    {
+        "category": "Outras Modalidades",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/03/27/desporto/noticia/eurobasket2025-portugal-servia-letonia-rep-checa-turquia-estonia-2127579",
         "count": 59
     },
     {
@@ -3535,6 +3535,13 @@
         "count": 14
     },
     {
+        "category": "Culturando na Lusofonia",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/opiniao/culturando-na-lusofonia/2025-03-26-a-cabeca-de-santo-de-socorro-acioli/?utm_source=rss&utm_medium=rss&utm_campaign=a-cabeca-de-santo-de-socorro-acioli",
+        "count": 14
+    },
+    {
         "category": "Exploração espacial",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -3595,13 +3602,6 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/exameinformatica/revista-exame-informatica/2025-04-16-exame-informatica-no-355-os-melhores-carros-eletricos-ate-25-mil-euros/?utm_source=rss&utm_medium=rss&utm_campaign=exame-informatica-no-355-os-melhores-carros-eletricos-ate-25-mil-euros",
-        "count": 13
-    },
-    {
-        "category": "Culturando na Lusofonia",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/opiniao/culturando-na-lusofonia/2025-03-26-a-cabeca-de-santo-de-socorro-acioli/?utm_source=rss&utm_medium=rss&utm_campaign=a-cabeca-de-santo-de-socorro-acioli",
         "count": 13
     },
     {
@@ -5425,6 +5425,13 @@
         "count": 2
     },
     {
+        "category": "Margarida Balseiro Lopes",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/06/04/culturaipsilon/noticia/margarida-balseiro-lopes-mulher-jovem-curriculo-cultura-2135569",
+        "count": 2
+    },
+    {
         "category": "Natalidade",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -6860,13 +6867,6 @@
         "count": 1
     },
     {
-        "category": "Margarida Balseiro Lopes",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/06/04/culturaipsilon/noticia/margarida-balseiro-lopes-mulher-jovem-curriculo-cultura-2135569",
-        "count": 1
-    },
-    {
         "category": "Mariana Mortágua",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -7025,6 +7025,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/06/04/ciencia/noticia/fisicos-impulsionam-nanotecnologia-criam-violino-mundo-2135487",
+        "count": 1
+    },
+    {
+        "category": "Narenda Modi",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/07/10/pm-da-india-defende-que-africa-deve-criar-valor/",
         "count": 1
     },
     {
@@ -9244,6 +9251,13 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/06/26/franca-dois-mortos-devido-ao-mau-tempo/",
+        "count": 1
+    },
+    {
+        "category": "terceira travessia do tejo",
+        "source": "Jornal I",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/07/10/terceira-travessia-do-tejo-envolve-ponte-entre-barreiro-e-seixal/",
         "count": 1
     },
     {
