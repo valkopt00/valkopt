@@ -369,9 +369,11 @@ def parse_date(date_str, source_url=None):
             # independentemente de ter timezone ou não
             print(f"🔍 Debug - source_url: '{source_url}'")
             print(f"🔍 Debug - source_url type: {type(source_url)}")
-            if source_url:
-                print(f"🔍 Debug - 'rtp.pt' in source_url: {'rtp.pt' in source_url}")
-                print(f"🔍 Debug - source_url.lower(): '{source_url.lower()}'")
+            
+            # Converter set para string se necessário
+            if isinstance(source_url, set):
+                source_url = next(iter(source_url)) if source_url else None
+                print(f"🔍 Debug - source_url converted from set: '{source_url}'")
             
             if source_url and ('rtp.pt' in source_url.lower()):
                 from datetime import timedelta
@@ -406,9 +408,11 @@ def parse_date(date_str, source_url=None):
         # independentemente de ter timezone ou não
         print(f"🔍 Debug - source_url: '{source_url}'")
         print(f"🔍 Debug - source_url type: {type(source_url)}")
-        if source_url:
-            print(f"🔍 Debug - 'rtp.pt' in source_url: {'rtp.pt' in source_url}")
-            print(f"🔍 Debug - source_url.lower(): '{source_url.lower()}'")
+        
+        # Converter set para string se necessário
+        if isinstance(source_url, set):
+            source_url = next(iter(source_url)) if source_url else None
+            print(f"🔍 Debug - source_url converted from set: '{source_url}'")
         
         if source_url and ('rtp.pt' in source_url.lower()):
             from datetime import timedelta
