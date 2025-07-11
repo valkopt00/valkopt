@@ -74,7 +74,7 @@ jobs:
 
       - name: Commit e Push para branch `data`
         run: |
-          git config user.name "valkopt00"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           if ! git diff --cached --quiet; then
@@ -84,6 +84,6 @@ jobs:
             echo "Nenhuma mudança para commitar"
           fi
 
-      - name: Trigger Vercel Deploy
-        run: |
-          curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
+      #- name: Trigger Vercel Deploy
+        #run: |
+          #curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
