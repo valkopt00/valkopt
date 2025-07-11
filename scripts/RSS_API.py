@@ -253,7 +253,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     
                     original_category = feed_category
                     category = map_category(feed_category, feed_domain, link)
-                    pub_date = parse_date(pub_date_str)
+                    pub_date = parse_date(pub_date_str, source_url={feed_url})
                     
                     if pub_date:
                         # More lenient time filtering - keep articles from last 24 hours instead of 12
@@ -469,8 +469,9 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
                 category = map_category(feed_category, source, link)
                 if not category:
                     category = "Últimas"
-                pub_date = parse_date(pub_date_str)
-                
+
+                pub_date = parse_date(pub_date_str, source_url=api_source["url"])
+
                 if pub_date:
                     # More lenient time filtering
                     article_age = datetime.now(timezone.utc) - pub_date
