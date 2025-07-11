@@ -367,13 +367,19 @@ def parse_date(date_str, source_url=None):
             
             # CORREÇÃO: Aplicar correção específica RTP para feeds rtp.pt
             # independentemente de ter timezone ou não
-            print(f"🔍 Debug - source_url: {source_url}")
-            if source_url and 'rtp.pt' in source_url:
+            print(f"🔍 Debug - source_url: '{source_url}'")
+            print(f"🔍 Debug - source_url type: {type(source_url)}")
+            if source_url:
+                print(f"🔍 Debug - 'rtp.pt' in source_url: {'rtp.pt' in source_url}")
+                print(f"🔍 Debug - source_url.lower(): '{source_url.lower()}'")
+            
+            if source_url and ('rtp.pt' in source_url.lower()):
                 from datetime import timedelta
+                print(f"⚠️  BEFORE RTP correction: {dt}")
                 dt = dt - timedelta(hours=1)
-                print(f"⚠️  RTP correction applied: -1 hour")
+                print(f"⚠️  AFTER RTP correction: {dt} (applied -1 hour)")
             else:
-                print(f"⚠️  RTP correction NOT applied - source_url: {source_url}")
+                print(f"⚠️  RTP correction NOT applied - source_url: '{source_url}'")
             
             # Display da data para debug (sem alterar a data original)
             formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
@@ -398,13 +404,19 @@ def parse_date(date_str, source_url=None):
         
         # CORREÇÃO: Aplicar correção específica RTP para feeds rtp.pt
         # independentemente de ter timezone ou não
-        print(f"🔍 Debug - source_url: {source_url}")
-        if source_url and 'rtp.pt' in source_url:
+        print(f"🔍 Debug - source_url: '{source_url}'")
+        print(f"🔍 Debug - source_url type: {type(source_url)}")
+        if source_url:
+            print(f"🔍 Debug - 'rtp.pt' in source_url: {'rtp.pt' in source_url}")
+            print(f"🔍 Debug - source_url.lower(): '{source_url.lower()}'")
+        
+        if source_url and ('rtp.pt' in source_url.lower()):
             from datetime import timedelta
+            print(f"⚠️  BEFORE RTP correction: {dt}")
             dt = dt - timedelta(hours=1)
-            print(f"⚠️  RTP correction applied: -1 hour")
+            print(f"⚠️  AFTER RTP correction: {dt} (applied -1 hour)")
         else:
-            print(f"⚠️  RTP correction NOT applied - source_url: {source_url}")
+            print(f"⚠️  RTP correction NOT applied - source_url: '{source_url}'")
         
         # Display da data para debug (sem alterar a data original)
         formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
