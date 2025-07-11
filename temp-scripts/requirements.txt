@@ -1,0 +1,13 @@
+requests
+fastapi
+uvicorn
+aiohttp
+python-dotenv
+beautifulsoup4
+feedparser
+aiohttp-client-cache
+chardet
+brotli
+redis
+valkey
+valkey[hiredis]
