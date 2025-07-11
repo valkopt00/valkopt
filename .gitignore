@@ -1,59 +1,48 @@
-# Byte-compiled / cache files
+# Data/output
+*.json
+data/
+logs/
+*.log
+json-temp/
+
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Virtual environment
-venv/
-env/
-ENV/
-.venv/
-.python-version
-
-# VS Code settings
-.vscode/
-
-# Pytest
-.cache/
-.pytest_cache/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# MacOS
-.DS_Store
-
-# Logs
-*.log
-
-# MyPy, Pylint, coverage reports, etc.
-.mypy_cache/
-.pylint.d/
-coverage.*
-htmlcov/
-*.cover
-*.py,cover
-
-# pip-tools
-*.txt~  # backup files
-
-# Local environment files (optional)
-.env
-.env.*
-
-.vercel
-
-# Python
-venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.so
 .Python
-env/
-.env
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+htmlcov/
+.coverage
+.tox/
+
+# Virtual envs
+venv/
 .venv/
 
-# Outros
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
 .DS_Store
-*.log
+Thumbs.db
+
+# Backup files
+*~
