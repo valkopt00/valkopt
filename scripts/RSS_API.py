@@ -298,37 +298,38 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
         print(f"❌ Error processing {feed_url}: {str(e)}")
         traceback.print_exc()
         return []
-        
-
-import re
-from datetime import datetime, timedelta
-from dateutil import tz, parser
+    
 
 def parse_date(date_str, source_url=None):
     """
     Parse publication date from various formats.
-    Apply correction for RTP feeds if needed.
+    
+    Args:
+        date_str: Date string to parse
+        source_url: URL of the RSS feed (for RTP correction)
+        
+    Returns:
+        Datetime object with original timezone or None if parsing fails
     """
-
     if not date_str:
         return None
-
+        
     date_str = date_str.strip()
-
-    # Handle Portuguese timezone abbreviations
-    date_str = date_str.replace(' WET', ' +0000')
-    date_str = date_str.replace(' WEST', ' +0100')
-
-    # Remove problematic characters
+    
+    # Handle common Portuguese timezone abbreviations
+    date_str = date_str.replace(' WET', ' +0000')  # Western European Time
+    date_str = date_str.replace(' WEST', ' +0100')  # Western European Summer Time
+    
+    # Remove non-ASCII characters that might cause issues
     date_str = date_str.encode('ascii', 'ignore').decode('ascii')
-
-    # Normalize GMT offset formats
+    
+    # Handle special GMT timezone cases
     if "GMT+" in date_str:
         date_str = re.sub(r'GMT\+(\d+)', lambda m: f"+{m.group(1).zfill(2)}00", date_str)
     elif "GMT-" in date_str:
         date_str = re.sub(r'GMT-(\d+)', lambda m: f"-{m.group(1).zfill(2)}00", date_str)
-
-    # Lista de formatos possíveis
+    
+    # Extended date formats - include more common formats
     extended_formats = [
         "%Y-%m-%dT%H:%M:%S%z",
         "%Y-%m-%dT%H:%M:%SZ",
@@ -346,49 +347,70 @@ def parse_date(date_str, source_url=None):
         "%d %b %Y %H:%M:%S",
         "%Y-%m-%dT%H:%M:%S",
     ]
-
-    # Combinar com outros formatos (caso existam)
+    
+    # Combine with existing formats (assuming DATE_FORMATS exists)
     try:
         all_formats = DATE_FORMATS + extended_formats
     except NameError:
         all_formats = extended_formats
-
-    # Tentar parsing com todos os formatos
+    
+    # Try each format until one works
     for fmt in all_formats:
         try:
             dt = datetime.strptime(date_str, fmt)
-
-            # Se não tiver timezone, aplicar Europe/Lisbon
+            
+            # Só adicionar timezone português se a data não tiver timezone
             if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=tz.gettz('Europe/Lisbon'))
-
-            if source_url and 'www.rtp.pt' in source_url:
+                from dateutil import tz
+                portugal_tz = tz.gettz('Europe/Lisbon')
+                dt = dt.replace(tzinfo=portugal_tz)
+            
+            # Aplicar correção específica RTP APENAS para feeds rtp.pt
+            if source_url and 'rtp.pt' in source_url:
+                from datetime import timedelta
                 dt = dt - timedelta(hours=1)
                 print(f"⚠️  RTP correction applied: -1 hour")
-
-            # Debug
-            print(f"📅 Date parsed: {date_str} -> {dt.strftime('%d-%m-%Y %H:%M')} ({dt.tzinfo})")
-            return dt
-
+            
+            # Display da data para debug (sem alterar a data original)
+            formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
+            timezone_info = f"({dt.tzinfo})" if dt.tzinfo else "(no timezone)"
+            print(f"📅 Date parsed: {date_str} -> {formatted_for_json} {timezone_info}")
+            
+            return dt  # Return with original/correct timezone
+            
         except ValueError:
             continue
-
-    # Fallback com dateutil.parser
+    
+    # If all formats fail, try a more flexible approach
     try:
+        from dateutil import parser
         dt = parser.parse(date_str)
+        
+        # Só adicionar timezone português se a data não tiver timezone
         if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=tz.gettz('Europe/Lisbon'))
-
-        if source_url and 'www.rtp.pt' in source_url:
+            from dateutil import tz
+            portugal_tz = tz.gettz('Europe/Lisbon')
+            dt = dt.replace(tzinfo=portugal_tz)
+        
+        # Aplicar correção específica RTP APENAS para feeds rtp.pt
+        if source_url and 'rtp.pt' in source_url:
+            from datetime import timedelta
             dt = dt - timedelta(hours=1)
             print(f"⚠️  RTP correction applied: -1 hour")
-
-        print(f"📅 Date parsed (fallback): {date_str} -> {dt.strftime('%d-%m-%Y %H:%M')} ({dt.tzinfo})")
-        return dt
-
-    except Exception as e:
-        print(f"⚠️  Failed to parse date: {date_str} — {e}")
-        return None
+        
+        # Display da data para debug (sem alterar a data original)
+        formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
+        timezone_info = f"({dt.tzinfo})" if dt.tzinfo else "(no timezone)"
+        print(f"📅 Date parsed: {date_str} -> {formatted_for_json} {timezone_info}")
+        
+        return dt  # Return with original/correct timezone
+        
+    except:
+        pass
+            
+    print(f"⚠️  Failed to parse date: {date_str}")
+    
+    return None
 
 async def process_api_source(session, api_source, titles_seen, last_12_hours):
     """
