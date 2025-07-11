@@ -48,7 +48,7 @@
             "pubDate": "11-07-2025 15:58",
             "category": "Outras Notícias",
             "link": "https://expresso.pt/sociedade/seguranca/2025-07-11-associacoes-das-forcas-armadas-surpreendidas-com-suspeitas-de-treinos-de-militares-a-grupos-nazis-envergonha-nos-a-todos-e-preocupa-nos-2a04fa97",
-            "isExclusive": false
+            "isExclusive": true
         },
         {
             "title": "Dissidente norte-coreana processa Kim Jong-un por tortura e violência sexual",
@@ -580,7 +580,7 @@
             "pubDate": "11-07-2025 15:34",
             "category": "Economia",
             "link": "https://expresso.pt/economia/2025-07-11-gasoleo-sobe-3-centimos-e-gasolina-15-centimos-por-litro-na-proxima-semana-c96ef7b6",
-            "isExclusive": false
+            "isExclusive": true
         },
         {
             "title": "FDA aceita aprovar medicamentos mais rápido em troca de preços mais baixos nos Estados Unidos",
@@ -690,7 +690,7 @@
             "pubDate": "11-07-2025 14:30",
             "category": "Economia",
             "link": "https://www.jornaldenegocios.pt/economia/detalhe/certidoes-de-nao-divida-as-financas-passam-a-ter-validade-de-quatro-meses",
-            "isExclusive": false
+            "isExclusive": true
         },
         {
             "title": "Candidaturas a fundos europeus passam a exigir menos documentos",
@@ -700,7 +700,7 @@
             "pubDate": "11-07-2025 14:15",
             "category": "Economia",
             "link": "https://www.jornaldenegocios.pt/empresas/pme/detalhe/candidaturas-a-fundos-europeus-passam-a-exigir-menos-documentos",
-            "isExclusive": false
+            "isExclusive": true
         },
         {
             "title": "TAP: Grupo IAG é \"aquele que está mais bem posicionado\"",
@@ -710,7 +710,7 @@
             "pubDate": "11-07-2025 14:12",
             "category": "Economia",
             "link": "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/tap-grupo-iag-e-aquele-que-esta-mais-bem-posicionado",
-            "isExclusive": false
+            "isExclusive": true
         },
         {
             "title": "Risco climático? Bancos estão a fazer progressos, mas é preciso \"mais\"",
@@ -992,7 +992,7 @@
             "pubDate": "11-07-2025 15:28",
             "category": "Cultura",
             "link": "https://expresso.pt/blitz/2025-07-11-musica-nova-para-o-fim-de-semana-o-regresso-em-estilo-de-justin-bieber-o-amanhecer-de-ivandro-e-a-pergunta-de-drake-69797d8b",
-            "isExclusive": false
+            "isExclusive": true
         },
         {
             "title": "\"O Crochet Sai à Rua\". Obras em formato gigante em Vila Nova de Cerveira",
@@ -1177,16 +1177,6 @@
             "isExclusive": false
         },
         {
-            "title": "Svilar renova com a Roma até 2030",
-            "description": "O guarda-redes internacional sérvio Mile Svilar, ex-Benfica, renovou contrato com a Roma por mais cinco épocas, até junho de 2030, informou hoje o...",
-            "image": "https://cdn-images.rtp.pt/icm/noticias/images/20/2013893fb5f2e55467ada1af62264319?w=350&amp;q=50&amp;rect=0,0,1499,822&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "11-07-2025 17:30",
-            "category": "Desporto",
-            "link": "https://www.rtp.pt/noticias/futebol-internacional/svilar-renova-com-a-roma-ate-2030_d1668512",
-            "isExclusive": false
-        },
-        {
             "title": "Futebol feminino do Sporting inicia treinos com dois reforços",
             "description": "A equipa de futebol feminino do Sporting iniciou hoje a sua época desportiva 2025/26, contando com os reforços Anna Wellmann e Daniela Arques na...",
             "image": "https://cdn-images.rtp.pt/icm/noticias/images/42/429498f7e57a448105613cf3fc9150ee?w=350&amp;q=50&amp;rect=0,0,1499,822&amp;auto=format",
@@ -1277,6 +1267,16 @@
             "isExclusive": false
         },
         {
+            "title": "FC Porto compra totalidade de Samu: é a contratação mais cara de sempre em Portugal",
+            "description": "Dragões ativam opção e negociaram última parcela com o At. Madrid",
+            "image": "https://cdn.cmjornal.pt/images/2025-07/img_932x621uu2025-07-11-16-49-14-2221922.jpg",
+            "source": "Correio Da Manhã",
+            "pubDate": "11-07-2025 16:58",
+            "category": "Desporto",
+            "link": "https://www.cmjornal.pt/desporto/futebol/detalhe/fc-porto-compra-totalidade-de-samu-e-a-contratacao-mais-cara-de-sempre-em-portugal",
+            "isExclusive": false
+        },
+        {
             "title": "Samu torna-se a contratação mais cara do futebol português",
             "description": "O FC Porto anunciou, na tarde desta sexta-feira, ter chegado a acordo com o Atlético de Madrid para a aquisição da totalidade do passe de Samu....",
             "image": "https://www.zerozero.pt/img/noticias/096/imgS620I861096T20250711165252.jpg",
@@ -1364,16 +1364,6 @@
             "pubDate": "11-07-2025 16:47",
             "category": "Desporto",
             "link": "https://www.record.pt/modalidades/atletismo/detalhe/caster-semenya-batalha-de-elegibilidade-sexual-dura-ha-16-anos",
-            "isExclusive": false
-        },
-        {
-            "title": "FC Porto compra totalidade de Samu: é a contratação mais cara de sempre em Portugal",
-            "description": "Investimento global é de 32 milhões de euros",
-            "image": "https://cdn.record.pt/images/2025-06/img_920x518uu2025-06-04-12-53-43-2367191.jpg",
-            "source": "Record",
-            "pubDate": "11-07-2025 16:42",
-            "category": "Desporto",
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/fc-porto-compra-totalidade-de-samu-e-a-contratacao-mais-cara-de-sempre-em-portugal",
             "isExclusive": false
         },
         {
@@ -1934,6 +1924,16 @@
             "pubDate": "11-07-2025 14:01",
             "category": "Desporto",
             "link": "https://www.noticiasaominuto.com/desporto/2820461/rodrygo-e-empurrado-pelo-real-madrid-apos-mundial-quase-sem-minutos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Mile Svilar renova com a Roma até 2030",
+            "description": "A AS Roma, da Serie A, anunciou, esta sexta-feira ao início da tarde, que chegou a acordo com o guarda-redes sérvio Miles Svilar para a renovação do...",
+            "image": "https://www.zerozero.pt/img/noticias/955/imgS620I860955T20250711134903.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "11-07-2025 13:56",
+            "category": "Desporto",
+            "link": "https://www.zerozero.pt/noticias/mile-svilar-renova-com-a-roma-ate-2030/860955",
             "isExclusive": false
         },
         {
@@ -2539,6 +2539,168 @@
             "isExclusive": false
         }
     ],
+    "Lifestyle": [
+        {
+            "title": "Anjos insistem na condenação de Joana Marques. Defesa pede absolvição",
+            "description": "A mandatária dos Anjos insistiu hoje que Joana Marques tem de ser condenada a indemnizar a dupla em mais de um milhão de euros por um vídeo publicado...",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_5bbf130470346.jpg",
+            "source": "Notícias ao Minuto",
+            "pubDate": "11-07-2025 17:15",
+            "category": "Lifestyle",
+            "link": "https://www.noticiasaominuto.com/fama/2820638/anjos-insistem-na-condenacao-de-joana-marques-defesa-pede-absolvicao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Amiga de Diogo Jota e Rute Cardoso partilha mensagem emotiva e imagens inéditas do casamento",
+            "description": "Andreia Nunes L’or mostrou-se solidÃ¡ria com a amiga e deixou-lhe umas palavras de forÃ§a.",
+            "image": "https://cdn.cmjornal.pt/images/2025-07/img_932x621uu2025-07-04-09-42-03-2220406.jpg",
+            "source": "Correio Da Manhã",
+            "pubDate": "11-07-2025 16:58",
+            "category": "Lifestyle",
+            "link": "https://www.cmjornal.pt/vidas/ultimas/detalhe/amiga-de-diogo-jota-e-rute-cardoso-partilha-mensagem-emotiva-e-imagens-ineditas-do-casamento",
+            "isExclusive": false
+        },
+        {
+            "title": "Justin Bieber diz que não vai afastar-se da mulher em novo álbum?",
+            "description": "Aparentemente, o cantor Justin Bieber abordou as especulações sobre o casamento com Hailey Bieber no novo álbum, que foi lançado esta sexta-feira,...",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_6871304b62a7c.jpg",
+            "source": "Notícias ao Minuto",
+            "pubDate": "11-07-2025 16:50",
+            "category": "Lifestyle",
+            "link": "https://www.noticiasaominuto.com/fama/2820594/justin-bieber-diz-que-nao-vai-afastar-se-da-mulher-em-novo-album#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Filho de Paulo Battista é craque de futebol e assina por clube histórico",
+            "description": "O alfaiate dos famosos mostrou-se orgulhoso por conquista do filho Miguel.",
+            "image": "https://cdn.cmjornal.pt/images/2019-05/img_932x621uu2019-05-27-11-50-00-2136209.jpg",
+            "source": "Correio Da Manhã",
+            "pubDate": "11-07-2025 16:42",
+            "category": "Lifestyle",
+            "link": "https://www.cmjornal.pt/vidas/ultimas/detalhe/filho-do-alfaiate-paulo-battista-e-craque-de-futebol-e-assina-por-clube-historico",
+            "isExclusive": false
+        },
+        {
+            "title": "Messi está a caminho de Portugal com novo negócio",
+            "description": "Craque argentino de 38 anos pretende também entrar nos mercados italiano e espanhol.",
+            "image": "https://cdn.cmjornal.pt/images/2024-12/img_932x621uu2024-12-06-16-16-42-2181407.jpg",
+            "source": "Correio Da Manhã",
+            "pubDate": "11-07-2025 16:14",
+            "category": "Lifestyle",
+            "link": "https://www.cmjornal.pt/vidas/ultimas/detalhe/messi-esta-a-caminho-de-portugal-com-novo-negocio",
+            "isExclusive": false
+        },
+        {
+            "title": "Sabores do Atlântico. Um novo festival gastronómico começa no Funchal",
+            "description": "A primeira edição do festival gastronómico SAL - Sabores do Atlântico decorre entre hoje e 20 de julho na Praça do Povo, no Funchal, indicou a...",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_6871291ebe68a.jpg",
+            "source": "Notícias ao Minuto",
+            "pubDate": "11-07-2025 16:10",
+            "category": "Lifestyle",
+            "link": "https://www.noticiasaominuto.com/lifestyle/2820576/sabores-do-atlantico-um-novo-festival-gastronomico-comeca-no-funchal#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Inspirado pelo azul do oceano, este hotel renovado oferece acesso direto à praia da Falésia em Albufeira",
+            "description": "Luz natural, espaços verdes, conforto e tranquilidade são premissas do PortoBay Blue Ocean. A partir do hotel, aberto a 10 de julho após profunda...",
+            "image": "https://images.impresa.pt/expresso/2025-07-11-53911112767_69da07afaa_k.jpg-0b720442/1.91x1/mw-1200?outputFormat=jpeg",
+            "source": "Expresso",
+            "pubDate": "11-07-2025 15:59",
+            "category": "Lifestyle",
+            "link": "https://expresso.pt/boa-cama-boa-mesa/2025-07-11-inspirado-pelo-azul-do-oceano-este-hotel-renovado-oferece-acesso-direto-a-praia-da-falesia-em-albufeira-ccf4ffe0",
+            "isExclusive": true
+        },
+        {
+            "title": "Rita Stock luta contra um linfoma “muito agressivo”",
+            "description": "A ex-apresentadora de televisão, de 55 anos, recebeu o diagnóstico após ter sentido dores no peito. O conteúdo Rita Stock luta contra um linfoma...",
+            "image": "https://images.trustinnews.pt/uploads/sites/6/2025/07/250711_Capitulo-Perfeito-JLi7751-600x315.jpg",
+            "source": "Caras",
+            "pubDate": "11-07-2025 15:54",
+            "category": "Lifestyle",
+            "link": "https://caras.pt/famosos/2025-07-11-rita-stock-luta-contra-um-linfoma-muito-agressivo/?utm_source=rss&utm_medium=rss&utm_campaign=rita-stock-luta-contra-um-linfoma-muito-agressivo",
+            "isExclusive": false
+        },
+        {
+            "title": "Paula Lobo Antunes e a filha Beatriz em modo “matchy-matchy”",
+            "description": "Paula Lobo Antunes, de 49 anos, e a filha Beatriz, de 12, que nasceu do seu casamento com o ator Jorge Corrula, surgiram com looks coordenados em...",
+            "image": "https://images.trustinnews.pt/uploads/sites/6/2025/07/250711_Untitled-2-600x315.jpg",
+            "source": "Caras",
+            "pubDate": "11-07-2025 15:21",
+            "category": "Lifestyle",
+            "link": "https://caras.pt/famosos/2025-07-11-paula-lobo-antunes-e-a-filha-beatriz-em-modo-matchy-matchy/?utm_source=rss&utm_medium=rss&utm_campaign=paula-lobo-antunes-e-a-filha-beatriz-em-modo-matchy-matchy",
+            "isExclusive": false
+        },
+        {
+            "title": "O que causa e como pode prevenir as unhas encravadas",
+            "description": "É algo bastante desconfortável e doloroso, ainda para mais na altura do verão que anda com calçado mais aberto. Saiba o que causa e como pode...",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_6871164232acc.jpg",
+            "source": "Notícias ao Minuto",
+            "pubDate": "11-07-2025 14:59",
+            "category": "Lifestyle",
+            "link": "https://www.noticiasaominuto.com/lifestyle/2820523/o-que-causa-e-como-pode-prevenir-as-unhas-encravadas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Famosos divertem-se no primeiro dia do NOS Alive 2025",
+            "description": "Energia, música e muitas caras conhecidas não faltaram no Passeio Marítimo de Algés, onde atuaram Olivia Rodrigo, Benson Boone e Noah Kahan. O...",
+            "image": "https://images.trustinnews.pt/uploads/sites/6/2025/07/250711_Untitled-3-600x315.jpg",
+            "source": "Caras",
+            "pubDate": "11-07-2025 14:39",
+            "category": "Lifestyle",
+            "link": "https://caras.pt/famosos/2025-07-11-famosos-divertem-se-no-primeiro-dia-do-nos-alive-2025/?utm_source=rss&utm_medium=rss&utm_campaign=famosos-divertem-se-no-primeiro-dia-do-nos-alive-2025",
+            "isExclusive": false
+        },
+        {
+            "title": "Cristiano Ronaldo e Georgina Rodríguez em férias de luxo em Maiorca",
+            "description": "Veja a galeria de imagens. O conteúdo Cristiano Ronaldo e Georgina Rodríguez em férias de luxo em Maiorca aparece primeiro em Caras.",
+            "image": "https://images.trustinnews.pt/uploads/sites/6/2025/07/250711_georginagio_3673756825685157449-600x315.jpg",
+            "source": "Caras",
+            "pubDate": "11-07-2025 12:53",
+            "category": "Lifestyle",
+            "link": "https://caras.pt/famosos/2025-07-11-cristiano-ronaldo-e-georgina-rodriguez-em-ferias-de-luxo-em-maiorca/?utm_source=rss&utm_medium=rss&utm_campaign=cristiano-ronaldo-e-georgina-rodriguez-em-ferias-de-luxo-em-maiorca",
+            "isExclusive": false
+        },
+        {
+            "title": "Churrasco, petiscos e cocktails animam novo rooftop no Porto com vista panorâmica sobre a cidade",
+            "description": "Fins de tarde descontraídos com sabores da Invicta e da costa portuguesa, cocktails de assinatura e vista sobre a cidade são a promessa do novo...",
+            "image": "https://images.impresa.pt/expresso/2025-07-03-the-social-hub-porto-rooftop-1.jpg-c7eb948d/1.91x1/mw-1200?outputFormat=jpeg",
+            "source": "Expresso",
+            "pubDate": "11-07-2025 12:23",
+            "category": "Lifestyle",
+            "link": "https://expresso.pt/boa-cama-boa-mesa/2025-07-11-churrasco-petiscos-e-cocktails-animam-novo-rooftop-no-porto-com-vista-panoramica-sobre-a-cidade-7be30e9e",
+            "isExclusive": false
+        },
+        {
+            "title": "Vera Moura brilha no NOS Alive com “look” irreverente",
+            "description": "A atriz apostou num visual cheio de estilo para o primeiro dia do festival. O conteúdo Vera Moura brilha no NOS Alive com “look” irreverente aparece...",
+            "image": "https://images.trustinnews.pt/uploads/sites/6/2025/07/250711_Vera-Moura-600x315.jpg",
+            "source": "Caras",
+            "pubDate": "11-07-2025 12:11",
+            "category": "Lifestyle",
+            "link": "https://caras.pt/famosos/2025-07-11-vera-moura-brilha-no-nos-alive-com-look-irreverente/?utm_source=rss&utm_medium=rss&utm_campaign=vera-moura-brilha-no-nos-alive-com-look-irreverente",
+            "isExclusive": false
+        },
+        {
+            "title": "Cláudia Vieira deslumbra no NOS Alive com “look” de luxo",
+            "description": "Cláudia Vieira foi uma das protagonistas no arranque do NOS Alive!, que decorreu até dia 12 no Passeio Marítimo de Algés. A atriz, que se prepara...",
+            "image": "https://images.trustinnews.pt/uploads/sites/6/2025/07/250711_Claudia-Vieira1-600x315.jpeg",
+            "source": "Caras",
+            "pubDate": "11-07-2025 10:37",
+            "category": "Lifestyle",
+            "link": "https://caras.pt/famosos/2025-07-11-claudia-vieira-deslumbra-no-nos-alive-com-look-de-luxo/?utm_source=rss&utm_medium=rss&utm_campaign=claudia-vieira-deslumbra-no-nos-alive-com-look-de-luxo",
+            "isExclusive": false
+        },
+        {
+            "title": "Gabriella do Mónaco deslumbra ao assumir o título de Condessa de Carladès",
+            "description": "Com apenas 10 anos, Gabriella assumiu um papel central nesta visita oficial O conteúdo Gabriella do Mónaco deslumbra ao assumir o título de Condessa...",
+            "image": "https://images.trustinnews.pt/uploads/sites/6/2025/07/250710_Untitled-7-600x315.jpg",
+            "source": "Caras",
+            "pubDate": "10-07-2025 17:06",
+            "category": "Lifestyle",
+            "link": "https://caras.pt/realeza/2025-07-10-gabriella-do-monaco-deslumbra-ao-assumir-o-titulo-de-condessa-de-carlades/?utm_source=rss&utm_medium=rss&utm_campaign=gabriella-do-monaco-deslumbra-ao-assumir-o-titulo-de-condessa-de-carlades",
+            "isExclusive": false
+        }
+    ],
     "Sociedade": [
         {
             "title": "Venda de livros aumenta 10% no segundo trimestre face ao mesmo período de 2024",
@@ -2588,7 +2750,7 @@
             "pubDate": "11-07-2025 15:55",
             "category": "Sociedade",
             "link": "https://expresso.pt/sociedade/2025-07-11-video-heli-black-hawk-fap-hospital-sao-joao-porto.mp4-8b1d6150",
-            "isExclusive": false
+            "isExclusive": true
         },
         {
             "title": "Parlamento aprova violação como crime público",
@@ -2920,7 +3082,7 @@
             "pubDate": "11-07-2025 15:07",
             "category": "Política",
             "link": "https://expresso.pt/politica/parlamento/2025-07-11-parlamento-aprova-violacao-como-crime-publico-com-divisoes-na-bancada-do-ps-bed71e16",
-            "isExclusive": true
+            "isExclusive": false
         },
         {
             "title": "Parlamento volta a chumbar reconhecimento da Palestina, num debate em que também se discutiu liberdade de expressão e nomes de crianças",
@@ -3033,158 +3195,6 @@
             "isExclusive": false
         }
     ],
-    "Lifestyle": [
-        {
-            "title": "Amiga de Diogo Jota e Rute Cardoso partilha mensagem emotiva e imagens inéditas do casamento",
-            "description": "Andreia Nunes L’or mostrou-se solidÃ¡ria com a amiga e deixou-lhe umas palavras de forÃ§a.",
-            "image": "https://cdn.cmjornal.pt/images/2025-07/img_932x621uu2025-07-04-09-42-03-2220406.jpg",
-            "source": "Correio Da Manhã",
-            "pubDate": "11-07-2025 16:58",
-            "category": "Lifestyle",
-            "link": "https://www.cmjornal.pt/vidas/ultimas/detalhe/amiga-de-diogo-jota-e-rute-cardoso-partilha-mensagem-emotiva-e-imagens-ineditas-do-casamento",
-            "isExclusive": false
-        },
-        {
-            "title": "Justin Bieber diz que não vai afastar-se da mulher em novo álbum?",
-            "description": "Aparentemente, o cantor Justin Bieber abordou as especulações sobre o casamento com Hailey Bieber no novo álbum, que foi lançado esta sexta-feira,...",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_6871304b62a7c.jpg",
-            "source": "Notícias ao Minuto",
-            "pubDate": "11-07-2025 16:50",
-            "category": "Lifestyle",
-            "link": "https://www.noticiasaominuto.com/fama/2820594/justin-bieber-diz-que-nao-vai-afastar-se-da-mulher-em-novo-album#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "Filho de Paulo Battista é craque de futebol e assina por clube histórico",
-            "description": "O alfaiate dos famosos mostrou-se orgulhoso por conquista do filho Miguel.",
-            "image": "https://cdn.cmjornal.pt/images/2019-05/img_932x621uu2019-05-27-11-50-00-2136209.jpg",
-            "source": "Correio Da Manhã",
-            "pubDate": "11-07-2025 16:42",
-            "category": "Lifestyle",
-            "link": "https://www.cmjornal.pt/vidas/ultimas/detalhe/filho-do-alfaiate-paulo-battista-e-craque-de-futebol-e-assina-por-clube-historico",
-            "isExclusive": false
-        },
-        {
-            "title": "Messi está a caminho de Portugal com novo negócio",
-            "description": "Craque argentino de 38 anos pretende também entrar nos mercados italiano e espanhol.",
-            "image": "https://cdn.cmjornal.pt/images/2024-12/img_932x621uu2024-12-06-16-16-42-2181407.jpg",
-            "source": "Correio Da Manhã",
-            "pubDate": "11-07-2025 16:14",
-            "category": "Lifestyle",
-            "link": "https://www.cmjornal.pt/vidas/ultimas/detalhe/messi-esta-a-caminho-de-portugal-com-novo-negocio",
-            "isExclusive": false
-        },
-        {
-            "title": "Sabores do Atlântico. Um novo festival gastronómico começa no Funchal",
-            "description": "A primeira edição do festival gastronómico SAL - Sabores do Atlântico decorre entre hoje e 20 de julho na Praça do Povo, no Funchal, indicou a...",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_6871291ebe68a.jpg",
-            "source": "Notícias ao Minuto",
-            "pubDate": "11-07-2025 16:10",
-            "category": "Lifestyle",
-            "link": "https://www.noticiasaominuto.com/lifestyle/2820576/sabores-do-atlantico-um-novo-festival-gastronomico-comeca-no-funchal#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "Inspirado pelo azul do oceano, este hotel renovado oferece acesso direto à praia da Falésia em Albufeira",
-            "description": "Luz natural, espaços verdes, conforto e tranquilidade são premissas do PortoBay Blue Ocean. A partir do hotel, aberto a 10 de julho após profunda...",
-            "image": "https://images.impresa.pt/expresso/2025-07-11-53911112767_69da07afaa_k.jpg-0b720442/1.91x1/mw-1200?outputFormat=jpeg",
-            "source": "Expresso",
-            "pubDate": "11-07-2025 15:59",
-            "category": "Lifestyle",
-            "link": "https://expresso.pt/boa-cama-boa-mesa/2025-07-11-inspirado-pelo-azul-do-oceano-este-hotel-renovado-oferece-acesso-direto-a-praia-da-falesia-em-albufeira-ccf4ffe0",
-            "isExclusive": true
-        },
-        {
-            "title": "Rita Stock luta contra um linfoma “muito agressivo”",
-            "description": "A ex-apresentadora de televisão, de 55 anos, recebeu o diagnóstico após ter sentido dores no peito. O conteúdo Rita Stock luta contra um linfoma...",
-            "image": "https://images.trustinnews.pt/uploads/sites/6/2025/07/250711_Capitulo-Perfeito-JLi7751-600x315.jpg",
-            "source": "Caras",
-            "pubDate": "11-07-2025 15:54",
-            "category": "Lifestyle",
-            "link": "https://caras.pt/famosos/2025-07-11-rita-stock-luta-contra-um-linfoma-muito-agressivo/?utm_source=rss&utm_medium=rss&utm_campaign=rita-stock-luta-contra-um-linfoma-muito-agressivo",
-            "isExclusive": false
-        },
-        {
-            "title": "Paula Lobo Antunes e a filha Beatriz em modo “matchy-matchy”",
-            "description": "Paula Lobo Antunes, de 49 anos, e a filha Beatriz, de 12, que nasceu do seu casamento com o ator Jorge Corrula, surgiram com looks coordenados em...",
-            "image": "https://images.trustinnews.pt/uploads/sites/6/2025/07/250711_Untitled-2-600x315.jpg",
-            "source": "Caras",
-            "pubDate": "11-07-2025 15:21",
-            "category": "Lifestyle",
-            "link": "https://caras.pt/famosos/2025-07-11-paula-lobo-antunes-e-a-filha-beatriz-em-modo-matchy-matchy/?utm_source=rss&utm_medium=rss&utm_campaign=paula-lobo-antunes-e-a-filha-beatriz-em-modo-matchy-matchy",
-            "isExclusive": false
-        },
-        {
-            "title": "O que causa e como pode prevenir as unhas encravadas",
-            "description": "É algo bastante desconfortável e doloroso, ainda para mais na altura do verão que anda com calçado mais aberto. Saiba o que causa e como pode...",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_6871164232acc.jpg",
-            "source": "Notícias ao Minuto",
-            "pubDate": "11-07-2025 14:59",
-            "category": "Lifestyle",
-            "link": "https://www.noticiasaominuto.com/lifestyle/2820523/o-que-causa-e-como-pode-prevenir-as-unhas-encravadas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "Famosos divertem-se no primeiro dia do NOS Alive 2025",
-            "description": "Energia, música e muitas caras conhecidas não faltaram no Passeio Marítimo de Algés, onde atuaram Olivia Rodrigo, Benson Boone e Noah Kahan. O...",
-            "image": "https://images.trustinnews.pt/uploads/sites/6/2025/07/250711_Untitled-3-600x315.jpg",
-            "source": "Caras",
-            "pubDate": "11-07-2025 14:39",
-            "category": "Lifestyle",
-            "link": "https://caras.pt/famosos/2025-07-11-famosos-divertem-se-no-primeiro-dia-do-nos-alive-2025/?utm_source=rss&utm_medium=rss&utm_campaign=famosos-divertem-se-no-primeiro-dia-do-nos-alive-2025",
-            "isExclusive": false
-        },
-        {
-            "title": "Cristiano Ronaldo e Georgina Rodríguez em férias de luxo em Maiorca",
-            "description": "Veja a galeria de imagens. O conteúdo Cristiano Ronaldo e Georgina Rodríguez em férias de luxo em Maiorca aparece primeiro em Caras.",
-            "image": "https://images.trustinnews.pt/uploads/sites/6/2025/07/250711_georginagio_3673756825685157449-600x315.jpg",
-            "source": "Caras",
-            "pubDate": "11-07-2025 12:53",
-            "category": "Lifestyle",
-            "link": "https://caras.pt/famosos/2025-07-11-cristiano-ronaldo-e-georgina-rodriguez-em-ferias-de-luxo-em-maiorca/?utm_source=rss&utm_medium=rss&utm_campaign=cristiano-ronaldo-e-georgina-rodriguez-em-ferias-de-luxo-em-maiorca",
-            "isExclusive": false
-        },
-        {
-            "title": "Churrasco, petiscos e cocktails animam novo rooftop no Porto com vista panorâmica sobre a cidade",
-            "description": "Fins de tarde descontraídos com sabores da Invicta e da costa portuguesa, cocktails de assinatura e vista sobre a cidade são a promessa do novo...",
-            "image": "https://images.impresa.pt/expresso/2025-07-03-the-social-hub-porto-rooftop-1.jpg-c7eb948d/1.91x1/mw-1200?outputFormat=jpeg",
-            "source": "Expresso",
-            "pubDate": "11-07-2025 12:23",
-            "category": "Lifestyle",
-            "link": "https://expresso.pt/boa-cama-boa-mesa/2025-07-11-churrasco-petiscos-e-cocktails-animam-novo-rooftop-no-porto-com-vista-panoramica-sobre-a-cidade-7be30e9e",
-            "isExclusive": false
-        },
-        {
-            "title": "Vera Moura brilha no NOS Alive com “look” irreverente",
-            "description": "A atriz apostou num visual cheio de estilo para o primeiro dia do festival. O conteúdo Vera Moura brilha no NOS Alive com “look” irreverente aparece...",
-            "image": "https://images.trustinnews.pt/uploads/sites/6/2025/07/250711_Vera-Moura-600x315.jpg",
-            "source": "Caras",
-            "pubDate": "11-07-2025 12:11",
-            "category": "Lifestyle",
-            "link": "https://caras.pt/famosos/2025-07-11-vera-moura-brilha-no-nos-alive-com-look-irreverente/?utm_source=rss&utm_medium=rss&utm_campaign=vera-moura-brilha-no-nos-alive-com-look-irreverente",
-            "isExclusive": false
-        },
-        {
-            "title": "Cláudia Vieira deslumbra no NOS Alive com “look” de luxo",
-            "description": "Cláudia Vieira foi uma das protagonistas no arranque do NOS Alive!, que decorreu até dia 12 no Passeio Marítimo de Algés. A atriz, que se prepara...",
-            "image": "https://images.trustinnews.pt/uploads/sites/6/2025/07/250711_Claudia-Vieira1-600x315.jpeg",
-            "source": "Caras",
-            "pubDate": "11-07-2025 10:37",
-            "category": "Lifestyle",
-            "link": "https://caras.pt/famosos/2025-07-11-claudia-vieira-deslumbra-no-nos-alive-com-look-de-luxo/?utm_source=rss&utm_medium=rss&utm_campaign=claudia-vieira-deslumbra-no-nos-alive-com-look-de-luxo",
-            "isExclusive": false
-        },
-        {
-            "title": "Gabriella do Mónaco deslumbra ao assumir o título de Condessa de Carladès",
-            "description": "Com apenas 10 anos, Gabriella assumiu um papel central nesta visita oficial O conteúdo Gabriella do Mónaco deslumbra ao assumir o título de Condessa...",
-            "image": "https://images.trustinnews.pt/uploads/sites/6/2025/07/250710_Untitled-7-600x315.jpg",
-            "source": "Caras",
-            "pubDate": "10-07-2025 17:06",
-            "category": "Lifestyle",
-            "link": "https://caras.pt/realeza/2025-07-10-gabriella-do-monaco-deslumbra-ao-assumir-o-titulo-de-condessa-de-carlades/?utm_source=rss&utm_medium=rss&utm_campaign=gabriella-do-monaco-deslumbra-ao-assumir-o-titulo-de-condessa-de-carlades",
-            "isExclusive": false
-        }
-    ],
     "Ciência e Tech": [
         {
             "title": "Nova IA de Musk utiliza publicações do criador para responder a questões",
@@ -3194,6 +3204,16 @@
             "pubDate": "11-07-2025 16:36",
             "category": "Ciência e Tech",
             "link": "https://www.noticiasaominuto.com/tech/2820527/nova-ia-de-musk-utiliza-publicacoes-do-criador-para-responder-a-questoes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Samsung mostrou novos smartphones dobráveis no Galaxy Unpacked. Mas onde está o modelo tripartido?",
+            "description": "Apesar de ter falhado a mais recente apresentação de modelos com ecrã dobrável, a Samsung ainda poderá lançar o modelo tripartido antes do fim do ano.",
+            "image": "https://mb.web.sapo.io/ad88492936528cbcd17f7fbf00d660cf9ddf9372.jpg",
+            "source": "Tek Notícias",
+            "pubDate": "11-07-2025 16:16",
+            "category": "Ciência e Tech",
+            "link": "https://tek.sapo.pt/mobile/equipamentos/artigos/samsung-mostrou-novos-smartphones-dobraveis-no-galaxy-unpacked-mas-onde-esta-o-modelo-tripartido",
             "isExclusive": false
         },
         {
@@ -3479,6 +3499,16 @@
     ],
     "Vídeojogos": [
         {
+            "title": "FBI encerra um grande website dedicado à pirataria na Nintendo Switch",
+            "description": "Ponto final. Um dos maiores websites dedicado ao alojamento de cópias piratas para jogos da Nintendo Switch, foi encerrado pelo FBI. Agora, em vez de...",
+            "image": "https://sm.ign.com/ign_pt/news/f/fbi-seizes/fbi-seizes-major-nintendo-switch-piracy-website_crcy.jpg",
+            "source": "Ign Portugal",
+            "pubDate": "11-07-2025 16:12",
+            "category": "Vídeojogos",
+            "link": "https://pt.ign.com/nintendo-switch-2/148500/news/fbi-encerra-um-grande-website-dedicado-a-pirataria-na-nintendo-switch",
+            "isExclusive": false
+        },
+        {
             "title": "Ghost of Tsushima VS Ghost of Yōtei em vídeo",
             "description": "O canal ElAnalistaDeBits publicou uma comparação direta entre Ghost of Tsushima e Ghost of Y&omacrtei, focando-se nas diferenças visuais, de...",
             "image": "https://assetsio.gnwcdn.com/Ghost-of-Y%C5%8Dtei---State-of-Play-Gameplay-Deep-Dive-_-PS5-Games-13-59-screenshot.png?width=1920&height=1920&fit=bounds&quality=70&format=jpg&auto=webp",
@@ -3679,16 +3709,6 @@
             "isExclusive": false
         },
         {
-            "title": "Ghost of Yotei State of Play julho de 2025 - Tudo o que foi revelado",
-            "description": "Uma espada afiada, um enorme desejo de vingança. A Sony e o Sucker Punch apresentaram um novo State of Play de 20 minutos, totalmente dedicado a...",
-            "image": "https://sm.ign.com/ign_pt/news/g/ghost-of-y/ghost-of-yotei-state-of-play-july-2025-everything-revealed_p5zf.jpg",
-            "source": "Ign Portugal",
-            "pubDate": "11-07-2025 08:21",
-            "category": "Vídeojogos",
-            "link": "https://pt.ign.com/ghost-of-yotei/148480/news/ghost-of-yotei-state-of-play-julho-de-2025-tudo-o-que-foi-revelado",
-            "isExclusive": false
-        },
-        {
             "title": "Ghost of Yotei - Imagens State of Play 2025",
             "description": "",
             "image": "https://sm.ign.com/ign_pt/gallery/g/ghost-of-y/ghost-of-yotei-state-of-play-july-2025-screenshots_98yn.jpg",
@@ -3696,6 +3716,16 @@
             "pubDate": "11-07-2025 08:21",
             "category": "Vídeojogos",
             "link": "https://pt.ign.com/ghost-of-yotei/148481/gallery/ghost-of-yotei-state-of-play-july-2025-screenshots",
+            "isExclusive": false
+        },
+        {
+            "title": "Ghost of Yotei State of Play julho de 2025 - Tudo o que foi revelado",
+            "description": "Uma espada afiada, um enorme desejo de vingança. A Sony e o Sucker Punch apresentaram um novo State of Play de 20 minutos, totalmente dedicado a...",
+            "image": "https://sm.ign.com/ign_pt/news/g/ghost-of-y/ghost-of-yotei-state-of-play-july-2025-everything-revealed_p5zf.jpg",
+            "source": "Ign Portugal",
+            "pubDate": "11-07-2025 08:21",
+            "category": "Vídeojogos",
+            "link": "https://pt.ign.com/ghost-of-yotei/148480/news/ghost-of-yotei-state-of-play-julho-de-2025-tudo-o-que-foi-revelado",
             "isExclusive": false
         },
         {
@@ -3766,6 +3796,16 @@
             "pubDate": "10-07-2025 20:30",
             "category": "Vídeojogos",
             "link": "https://pt.ign.com/ign-misc/148482/video/sony-state-of-play-ghost-of-yotei",
+            "isExclusive": false
+        },
+        {
+            "title": "Nintendo Switch 2 - Official Home Menu Overview Trailer",
+            "description": "Watch the Home Menu Overview Trailer for Nintendo Switch 2, the latest Nintendo console developed by Nintendo. The Home Menu is the center of the...",
+            "image": "https://sm.ign.com/ign_pt/video/n/nintendo-s/nintendo-switch-2-official-home-menu-overview-trailer_4wpg.png",
+            "source": "Ign Portugal",
+            "pubDate": "10-07-2025 19:08",
+            "category": "Vídeojogos",
+            "link": "https://pt.ign.com/nintendo-switch-2/148501/video/nintendo-switch-2-official-home-menu-overview-trailer",
             "isExclusive": false
         },
         {
