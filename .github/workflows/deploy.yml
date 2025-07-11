@@ -17,12 +17,6 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Criar diretório temporário para scripts
-        run: |
-          mkdir temp-scripts
-          cp -r scripts temp-scripts/
-          cp requirements.txt temp-scripts/
-
       - name: Mudar para branch `data`
         run: |
           git fetch origin data || true
@@ -33,7 +27,18 @@ jobs:
             git reset --hard
           fi
 
-      - name: Preparar diretórios e conteúdo
+      - name: Extrair scripts e requirements da branch `main`
+        run: |
+          mkdir -p temp-scripts/scripts/exporters
+          git show origin/main:requirements.txt > temp-scripts/requirements.txt
+          git show origin/main:scripts/RSS_API.py > temp-scripts/scripts/RSS_API.py
+          git show origin/main:scripts/__init__.py > temp-scripts/scripts/__init__.py
+          git show origin/main:scripts/mappings.py > temp-scripts/scripts/mappings.py
+          git show origin/main:scripts/remove_articles.py > temp-scripts/scripts/remove_articles.py
+          git show origin/main:scripts/reset_counts_with_backup.py > temp-scripts/scripts/reset_counts_with_backup.py
+          git show origin/main:scripts/exporters/export_original_categories.py > temp-scripts/scripts/exporters/export_original_categories.py
+
+      - name: Preparar diretórios
         run: |
           rm -rf articles public || true
           mkdir -p articles public
@@ -57,6 +62,7 @@ jobs:
           export PYTHONPATH=$(pwd)/temp-scripts
           python temp-scripts/scripts/RSS_API.py
 
+      
       - name: Criar README informativo
         run: |
           echo "# Branch Data - Ficheiros JSON" > README.md
