@@ -15,6 +15,8 @@ from aiohttp import ClientTimeout
 import chardet
 import traceback
 import os
+from dateutil import tz
+from dateutil import parser
 
 
 async def get_articles():
@@ -297,8 +299,8 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
         traceback.print_exc()
         return []
         
-def parse_date(date_str, source_url=None):
 
+def parse_date(date_str, source_url=None):
     if not date_str:
         return None
 
@@ -311,6 +313,7 @@ def parse_date(date_str, source_url=None):
         date_str = re.sub(r'GMT-(\d+)', lambda m: f"-{m.group(1).zfill(2)}00", date_str)
 
     portugal_tz = tz.gettz('Europe/Lisbon')
+
     try:
         dt = datetime.strptime(date_str, "%a, %d %b %Y %H:%M:%S %z")
     except Exception:
@@ -319,10 +322,8 @@ def parse_date(date_str, source_url=None):
         except Exception:
             return None
 
-    # Converter sempre para Lisboa
     dt = dt.astimezone(portugal_tz)
 
-    # FORÇAR subtração de 1h para feeds RTP
     if source_url and 'www.rtp.pt' in source_url:
         dt = dt - timedelta(hours=1)
         print("⚠️ RTP correction FORÇADA: -1 hora")
