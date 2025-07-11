@@ -1,0 +1,59 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# VS Code settings
+.vscode/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# MyPy, Pylint, coverage reports, etc.
+.mypy_cache/
+.pylint.d/
+coverage.*
+htmlcov/
+*.cover
+*.py,cover
+
+# pip-tools
+*.txt~  # backup files
+
+# Local environment files (optional)
+.env
+.env.*
+
+.vercel
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.env
+.venv/
+
+# Outros
+.DS_Store
+*.log
