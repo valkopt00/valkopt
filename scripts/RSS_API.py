@@ -297,24 +297,12 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
         traceback.print_exc()
         return []
         
-import re
-from datetime import datetime, timezone, timedelta
-from dateutil import tz, parser
-
-import re
-from datetime import datetime, timezone, timedelta
-from dateutil import tz, parser
-
-import re
-from datetime import datetime, timedelta
-from dateutil import tz, parser
-
 def parse_date(date_str, source_url=None):
+
     if not date_str:
         return None
 
     date_str = date_str.strip()
-    # Substitui abreviações portuguesas comuns
     date_str = date_str.replace(' WET', ' +0000').replace(' WEST', ' +0100')
     date_str = date_str.encode('ascii', 'ignore').decode('ascii')
     if "GMT+" in date_str:
@@ -322,73 +310,26 @@ def parse_date(date_str, source_url=None):
     if "GMT-" in date_str:
         date_str = re.sub(r'GMT-(\d+)', lambda m: f"-{m.group(1).zfill(2)}00", date_str)
 
-    extended_formats = [
-        "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%d %H:%M:%S",
-        "%a, %d %b %Y %H:%M:%S %Z", "%a, %d %b %Y %H:%M:%S %z",
-        "%d %b %Y %H:%M:%S %Z", "%d %b %Y %H:%M:%S %z",
-        "%Y-%m-%d %H:%M:%S %z", "%Y-%m-%d %H:%M:%S %Z",
-        "%d/%m/%Y %H:%M:%S", "%d-%m-%Y %H:%M:%S", "%Y/%m/%d %H:%M:%S",
-        "%a, %d %b %Y %H:%M:%S", "%d %b %Y %H:%M:%S", "%Y-%m-%dT%H:%M:%S",
-    ]
-
-    try:
-        all_formats = DATE_FORMATS + extended_formats
-    except NameError:
-        all_formats = extended_formats
-
     portugal_tz = tz.gettz('Europe/Lisbon')
-
-    for fmt in all_formats:
-        try:
-            dt = datetime.strptime(date_str, fmt)
-            # Se não tiver timezone, assume Lisboa
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=portugal_tz)
-            else:
-                # Converte para Lisboa (corrige automaticamente o offset)
-                dt = dt.astimezone(portugal_tz)
-
-            # Correção RTP: só se hora estiver 1h à frente da hora atual em Lisboa
-            if source_url and 'www.rtp.pt' in source_url:
-                now = datetime.now(portugal_tz)
-                diff = (dt - now).total_seconds()
-                # Se a data estiver mais do que 30 minutos à frente da hora atual, subtrai 1h
-                if diff > 1800:
-                    dt = dt - timedelta(hours=1)
-                    print("⚠️ RTP correction applied: -1 hour")
-                else:
-                    print("ℹ️ RTP date time OK, sem correção")
-
-            print(f"📅 Date parsed: {date_str} -> {dt.strftime('%d-%m-%Y %H:%M')} ({dt.tzinfo})")
-            return dt
-
-        except ValueError:
-            continue
-
-    # fallback dateutil parser
     try:
-        dt = parser.parse(date_str)
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=portugal_tz)
-        else:
-            dt = dt.astimezone(portugal_tz)
-
-        if source_url and 'www.rtp.pt' in source_url:
-            now = datetime.now(portugal_tz)
-            diff = (dt - now).total_seconds()
-            if diff > 1800:
-                dt = dt - timedelta(hours=1)
-                print("⚠️ RTP correction applied: -1 hour")
-            else:
-                print("ℹ️ RTP date time OK, sem correção")
-
-        print(f"📅 Date parsed (fallback): {date_str} -> {dt.strftime('%d-%m-%Y %H:%M')} ({dt.tzinfo})")
-        return dt
+        dt = datetime.strptime(date_str, "%a, %d %b %Y %H:%M:%S %z")
     except Exception:
-        pass
+        try:
+            dt = parser.parse(date_str)
+        except Exception:
+            return None
 
-    print(f"⚠️ Failed to parse date: {date_str}")
-    return None
+    # Converter sempre para Lisboa
+    dt = dt.astimezone(portugal_tz)
+
+    # FORÇAR subtração de 1h para feeds RTP
+    if source_url and 'www.rtp.pt' in source_url:
+        dt = dt - timedelta(hours=1)
+        print("⚠️ RTP correction FORÇADA: -1 hora")
+
+    print(f"📅 Data final: {dt.strftime('%d-%m-%Y %H:%M:%S %z')}")
+
+    return dt
 
 
 async def process_api_source(session, api_source, titles_seen, last_12_hours):
