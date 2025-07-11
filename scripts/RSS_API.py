@@ -15,6 +15,7 @@ from aiohttp import ClientTimeout
 import chardet
 import traceback
 import os
+from dateutil import tz, parser
 
 
 async def get_articles():
@@ -297,9 +298,6 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
         traceback.print_exc()
         return []
         
-import re
-from datetime import datetime, timedelta
-from dateutil import tz, parser
 
 def parse_date(date_str, source_url=None):
     if not date_str:
