@@ -80,6 +80,8 @@ def export_to_json(articles):
     Creates two separate files: priority and secondary categories.
     Removes original_category field before saving.
     """
+    os.makedirs("articles", exist_ok=True)
+
     current_date = datetime.now(timezone.utc)
     existing_articles = load_existing_articles()
     merged_articles = merge_articles(existing_articles, articles, current_date)

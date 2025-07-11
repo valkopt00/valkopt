@@ -14,14 +14,35 @@ jobs:
       - name: Checkout completo do repositório
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0         # Clona todas as branches e histórico completo
+          fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Criar diretório temporário para scripts
+        run: |
+          mkdir temp-scripts
+          cp -r scripts temp-scripts/
+          cp requirements.txt temp-scripts/
+
+      - name: Mudar para branch `data`
+        run: |
+          git fetch origin data || true
+          if git show-ref --verify --quiet refs/remotes/origin/data; then
+            git checkout data
+          else
+            git checkout --orphan data
+            git reset --hard
+          fi
+
+      - name: Preparar diretórios e conteúdo
+        run: |
+          rm -rf articles public || true
+          mkdir -p articles public
 
       - name: Configurar cache do pip
         uses: actions/cache@v3
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('temp-scripts/requirements.txt') }}
 
       - name: Configurar Python
         uses: actions/setup-python@v4
@@ -29,38 +50,22 @@ jobs:
           python-version: '3.10'
 
       - name: Instalar dependências
-        run: pip install -r requirements.txt
+        run: pip install -r temp-scripts/requirements.txt
 
-      - name: Executar script de atualização de JSON (branch main)
+      - name: Executar script de atualização de JSON
         run: |
-          export PYTHONPATH=$(pwd)
-          python scripts/RSS_API.py
+          export PYTHONPATH=$(pwd)/temp-scripts
+          python temp-scripts/scripts/RSS_API.py
 
-      - name: Preparar branch `data`
+      - name: Criar README informativo
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git show-ref --verify --quiet refs/heads/data; then
-            git checkout data
-          else
-            git checkout --orphan data
-          fi
-
-          # Limpar arquivos anteriores, exceto .git/
-          git rm -rf .
-          rm -rf articles public || true
-          mkdir -p articles public
-
-      - name: Copiar JSONs para `data`
-        run: |
-          cp articles/*.json public/ || true
-          mkdir -p articles
-          cp articles/*.json articles/
           echo "# Branch Data - Ficheiros JSON" > README.md
           echo "Atualizado automaticamente em: $(date '+%Y-%m-%d %H:%M:%S')" >> README.md
 
       - name: Commit e Push para branch `data`
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           if ! git diff --cached --quiet; then
             git commit -m "Atualização automática dos ficheiros JSON - $(date '+%Y-%m-%d %H:%M:%S')"
