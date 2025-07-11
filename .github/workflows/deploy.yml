@@ -6,108 +6,118 @@ on:
   workflow_dispatch:
 
 jobs:
-  # Job 1: Gerar JSONs na branch main (SEM MANTER JSONs NO MAIN)
-generate-json:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Clonar repositório
-      uses: actions/checkout@v4
-      
-    - name: Configurar Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.10"
+  # Job 1: Gerar JSONs na branch main
+  generate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositório
+        uses: actions/checkout@v4
         
-    - name: Instalar dependências
-      run: pip install -r requirements.txt
-      
-    - name: Criar estrutura de pastas temporárias
-      run: |
-        mkdir -p articles public
-        
-    - name: Executar script para atualizar JSON
-      run: |
-        export PYTHONPATH=$(pwd)
-        python scripts/RSS_API.py
-
-    - name: Copiar ficheiros JSON para pasta public
-      run: |
-        cp articles/articles.json public/articles.json
-        cp articles/articles_priority.json public/articles_priority.json
-        cp articles/articles_secondary.json public/articles_secondary.json
-        
-    - name: Upload dos ficheiros JSON
-      uses: actions/upload-artifact@v4
-      with:
-        name: json-files
-        path: |
-          articles/articles.json
-          articles/articles_priority.json
-          articles/articles_secondary.json
-          articles/original_categories.json
-          public/articles.json
-          public/articles_priority.json
-          public/articles_secondary.json
-          articles/date_test.json
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
           
-    - name: Limpar ficheiros temporários (manter main limpo)
-      run: |
-        rm -rf articles public
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+        
+      - name: Executar script para atualizar JSON
+        run: |
+          export PYTHONPATH=$(pwd)
+          python scripts/RSS_API.py
 
-  # Job 2: Atualizar branch data (OTIMIZADO)
+      - name: Gerar date_test.json
+        run: |
+          python - << 'EOF'
+          import json
+
+          # load the freshly generated JSON
+          with open('articles/articles.json', encoding='utf-8') as f:
+              data = json.load(f)
+
+          # write a brand‑new JSON from scratch
+          with open('articles/date_test.json', 'w', encoding='utf-8') as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
+          EOF
+        
+      - name: Copiar ficheiros JSON para pasta public
+        run: |
+          cp articles/articles.json public/articles.json
+          cp articles/articles_priority.json public/articles_priority.json
+          cp articles/articles_secondary.json public/articles_secondary.json
+          
+      - name: Upload dos ficheiros JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: json-files
+          path: |
+            articles/articles.json
+            articles/articles_priority.json
+            articles/articles_secondary.json
+            articles/original_categories.json
+            public/articles.json
+            public/articles_priority.json
+            public/articles_secondary.json
+            # incluir também o ficheiro de teste
+            articles/date_test.json
+
+  # Job 2: Atualizar branch data
   update-data-branch:
     runs-on: ubuntu-latest
     needs: generate-json
     steps:
-      - name: Clonar repositório (shallow clone)
+      - name: Clonar repositório
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1  # Apenas o último commit
+          fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-      
+        
       - name: Configurar Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
+      - name: Configurar branch data
+        run: |
+          # Verificar se branch data existe
+          if git ls-remote --heads origin data | grep -q data; then
+            git fetch origin data
+            git checkout data
+          else
+            git checkout --orphan data
+          fi
+
+          # Limpar estrutura anterior
+          find . -maxdepth 1 -type f ! -name '.gitignore' -delete || true
+          rm -rf articles public json-temp || true
+          mkdir -p articles public json-temp
+
       - name: Download dos ficheiros JSON
         uses: actions/download-artifact@v4
         with:
           name: json-files
           path: json-temp/
           
-      - name: Configurar e atualizar branch data
+      - name: Copiar ficheiros JSON para estrutura limpa
         run: |
-          # Verificar se branch data existe remotamente
-          if git ls-remote --exit-code --heads origin data > /dev/null 2>&1; then
-            # Branch existe - fazer checkout
-            git fetch origin data:data --depth=1
-            git checkout data
-          else
-            # Branch não existe - criar nova
-            git checkout --orphan data
-            git rm -rf . || true
-          fi
+          cp json-temp/articles/articles.json articles/
+          cp json-temp/articles/articles_priority.json articles/
+          cp json-temp/articles/articles_secondary.json articles/
+          cp json-temp/articles/original_categories.json articles/
+          cp json-temp/public/articles.json public/
+          cp json-temp/public/articles_priority.json public/
+          cp json-temp/public/articles_secondary.json public/
+          
+          # Criar README
+          echo "# Branch Data - Ficheiros JSON" > README.md
+          echo "Atualizado automaticamente em: $(date)" >> README.md
 
-          # Preparar estrutura (mais eficiente)
-          mkdir -p articles public
-          
-          # Mover ficheiros diretamente (sem cp)
-          mv json-temp/articles/*.json articles/ 2>/dev/null || true
-          mv json-temp/public/*.json public/ 2>/dev/null || true
-          
-          # Criar README de forma mais eficiente
-          printf "# Branch Data - Ficheiros JSON\nAtualizado automaticamente em: %s\n" "$(date)" > README.md
-          
-          # Limpeza
-          rm -rf json-temp
-
-      - name: Commit e Push (otimizado)
+      - name: Commit e Push para branch data
         run: |
-          git add -A
+          git add .
           if ! git diff --cached --quiet; then
-            git commit -m "Auto-update JSON files - $(date '+%Y-%m-%d %H:%M')"
+            git commit -m "Atualização automática dos ficheiros JSON - $(date '+%Y-%m-%d %H:%M:%S')"
             git push origin data
           else
             echo "Nenhuma mudança para commitar"
-          fi
+          fi  
