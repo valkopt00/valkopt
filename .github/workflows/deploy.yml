@@ -61,63 +61,60 @@ jobs:
             # incluir também o ficheiro de teste
             articles/date_test.json
 
-  # Job 2: Atualizar branch data
+  # Job 2: Atualizar branch data (OTIMIZADO)
   update-data-branch:
     runs-on: ubuntu-latest
     needs: generate-json
     steps:
-      - name: Clonar repositório
+      - name: Clonar repositório (shallow clone)
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1  # Apenas o último commit
           token: ${{ secrets.GITHUB_TOKEN }}
-        
+      
       - name: Configurar Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-      - name: Configurar branch data
-        run: |
-          # Verificar se branch data existe
-          if git ls-remote --heads origin data | grep -q data; then
-            git fetch origin data
-            git checkout data
-          else
-            git checkout --orphan data
-          fi
-
-          # Limpar estrutura anterior
-          find . -maxdepth 1 -type f ! -name '.gitignore' -delete || true
-          rm -rf articles public json-temp || true
-          mkdir -p articles public json-temp
-
       - name: Download dos ficheiros JSON
         uses: actions/download-artifact@v4
         with:
           name: json-files
           path: json-temp/
           
-      - name: Copiar ficheiros JSON para estrutura limpa
+      - name: Configurar e atualizar branch data
         run: |
-          cp json-temp/articles/articles.json articles/
-          cp json-temp/articles/articles_priority.json articles/
-          cp json-temp/articles/articles_secondary.json articles/
-          cp json-temp/articles/original_categories.json articles/
-          cp json-temp/public/articles.json public/
-          cp json-temp/public/articles_priority.json public/
-          cp json-temp/public/articles_secondary.json public/
-          
-          # Criar README
-          echo "# Branch Data - Ficheiros JSON" > README.md
-          echo "Atualizado automaticamente em: $(date)" >> README.md
+          # Verificar se branch data existe remotamente
+          if git ls-remote --exit-code --heads origin data > /dev/null 2>&1; then
+            # Branch existe - fazer checkout
+            git fetch origin data:data --depth=1
+            git checkout data
+          else
+            # Branch não existe - criar nova
+            git checkout --orphan data
+            git rm -rf . || true
+          fi
 
-      - name: Commit e Push para branch data
+          # Preparar estrutura (mais eficiente)
+          mkdir -p articles public
+          
+          # Mover ficheiros diretamente (sem cp)
+          mv json-temp/articles/*.json articles/ 2>/dev/null || true
+          mv json-temp/public/*.json public/ 2>/dev/null || true
+          
+          # Criar README de forma mais eficiente
+          printf "# Branch Data - Ficheiros JSON\nAtualizado automaticamente em: %s\n" "$(date)" > README.md
+          
+          # Limpeza
+          rm -rf json-temp
+
+      - name: Commit e Push (otimizado)
         run: |
-          git add .
+          git add -A
           if ! git diff --cached --quiet; then
-            git commit -m "Atualização automática dos ficheiros JSON - $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "Auto-update JSON files - $(date '+%Y-%m-%d %H:%M')"
             git push origin data
           else
             echo "Nenhuma mudança para commitar"
-          fi  
+          fi
