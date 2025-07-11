@@ -7,13 +7,10 @@ from html import unescape
 from xml.etree.ElementTree import Element
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
+from scripts.mappings import CATEGORY_MAPPER, FEED_CATEGORY_MAPPER, API_SOURCES, RSS_FEEDS, DATE_FORMATS
 import feedparser
 import asyncio
 import aiohttp
-
-from scripts.mappings import CATEGORY_MAPPER, FEED_CATEGORY_MAPPER, API_SOURCES, RSS_FEEDS, DATE_FORMATS
-# from scripts.exporters.export_original_categories import export_original_categories_to_json
-
 from aiohttp import ClientTimeout
 import chardet
 import traceback
@@ -634,147 +631,6 @@ def merge_articles(existing_articles, new_articles, current_date):
     
     return merged
 
-    
-async def is_content_exclusive_from_url(link, session):
-    """
-    Checks if the content at the given URL is exclusive (e.g. behind a paywall or marked as premium).
-    It uses several indicators based on the domain.
-    """
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-        "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
-    }
-    try:
-        async with session.get(link, headers=headers, timeout=10) as response:
-            content = await response.text()
-    except Exception as e:
-        return False
-
-    soup = BeautifulSoup(content, 'html.parser')
-
-    # Define source-specific exclusive indicators
-    source_checks = [
-        {
-            'domain': 'publico.pt',
-            'exclusive_indicators': [
-                {'type': 'class', 'value': 'kicker kicker--exclusive'},
-                {'type': 'class', 'value': 'paywall-header'},
-            ]
-        },
-        {
-            'domain': 'expresso.pt',
-            'exclusive_indicators': [
-                {'type': 'class', 'value': 'g-premium-blocker'},
-            ]
-        },
-        {
-            'domain': 'observador.pt',
-            'exclusive_indicators': [
-                {'type': 'class', 'value': 'paywall-toptitle'},
-            ]
-        },
-        {
-            'domain': 'autosport.pt',
-            'exclusive_indicators': [
-                {'type': 'class', 'value': 'exclusive_alert'},
-            ]
-        },
-        {
-            'domain': 'visao.pt',
-            'exclusive_indicators': [
-                {'type': 'class', 'value': 'paywall-blocker'},
-            ]
-        },
-        {
-            'domain': 'jornaleconomico.sapo.pt',
-            'exclusive_indicators': [
-                {'type': 'class', 'value': 'bloco_bloqueio_premium'},
-            ]
-        },
-        {
-            'domain': 'cmjornal.pt',
-            'exclusive_indicators': [
-                {'type': 'class', 'value': 'widget_je_widget_premium_content'},
-            ]
-        },
-        {
-            'domain': 'jornaldenegocios.pt',
-            'exclusive_indicators': [
-                {'type': 'class', 'value': 'paywall'},
-            ]
-        },
-    ]
-
-    # Parse the URL to extract the domain
-    parsed_url = urlparse(link)
-    domain = parsed_url.netloc.replace('www.', '')
-
-    # Check for exclusive indicators based on domain
-    for source in source_checks:
-        if source['domain'] in domain:
-            for indicator in source['exclusive_indicators']:
-                if indicator['type'] == 'class':
-                    if soup.find(class_=indicator['value']):
-                        return True
-                elif indicator['type'] == 'text':
-                    if indicator['value'].lower() in soup.get_text().lower():
-                        return True
-
-    # Additional check for exclusive phrases (currently empty)
-    exclusive_phrases = []
-    page_text = soup.get_text(separator=' ', strip=True).lower()
-    if any(phrase in page_text for phrase in exclusive_phrases):
-        return True
-
-    return False
-
-
-def fix_encoding(text):
-    """
-    Attempts to detect and fix encoding issues in the given text.
-    """
-    try:
-        # First, try to fix potential double encoding issues
-        text = text.encode('latin1').decode('utf-8')
-    except (UnicodeDecodeError, UnicodeEncodeError):
-        try:
-            # If that fails, try decoding as utf-8
-            text = text.encode('utf-8').decode('utf-8')
-        except (UnicodeDecodeError, UnicodeEncodeError):
-            # If all fails, return the original text
-            pass
-    return text
-
-
-def clean_title(title):
-    """
-    Cleans the title string by removing CDATA markers, HTML tags, unescaping HTML entities,
-    and fixing encoding issues.
-    """
-    if title.startswith("<![CDATA[") and title.endswith("]]>"):
-        title = title[9:-3]
-    title = re.sub(r"<.*?>", "", title)
-    title = unescape(title)
-    title = fix_encoding(title)  # Fix encoding issues
-    return title.strip()
-
-
-def clean_description(description):
-    """
-    Cleans the description string by unescaping HTML, removing HTML tags, quotes, and newlines.
-    Also fixes encoding issues and truncates the description to 150 characters if necessary.
-    """
-    description = unescape(description)
-    description = re.sub(r"<[^>]+>", "", description)
-    description = description.replace('\"', "").replace("\n", " ")
-    description = re.sub(r'\{(?:[^|}]+\|)*([^|}]+)\}', r'\1', description)
-    description = fix_encoding(description)  # Fix encoding issues
-    description = description.strip()
-    if len(description) > 150:
-        description = description[:150].rsplit(' ', 1)[0] + "..."
-    return description
-
 def export_original_categories_to_json(articles):
     """
     Exports the original categories of articles that have been mapped to 'Outras Notícias'
@@ -919,6 +775,146 @@ def export_original_categories_to_json(articles):
         print(f"CRITICAL ERROR in original category export: {str(e)}")
         traceback.print_exc()
         return False
+async def is_content_exclusive_from_url(link, session):
+    """
+    Checks if the content at the given URL is exclusive (e.g. behind a paywall or marked as premium).
+    It uses several indicators based on the domain.
+    """
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+    }
+    try:
+        async with session.get(link, headers=headers, timeout=10) as response:
+            content = await response.text()
+    except Exception as e:
+        return False
+
+    soup = BeautifulSoup(content, 'html.parser')
+
+    # Define source-specific exclusive indicators
+    source_checks = [
+        {
+            'domain': 'publico.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'kicker kicker--exclusive'},
+                {'type': 'class', 'value': 'paywall-header'},
+            ]
+        },
+        {
+            'domain': 'expresso.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'g-premium-blocker'},
+            ]
+        },
+        {
+            'domain': 'observador.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'paywall-toptitle'},
+            ]
+        },
+        {
+            'domain': 'autosport.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'exclusive_alert'},
+            ]
+        },
+        {
+            'domain': 'visao.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'paywall-blocker'},
+            ]
+        },
+        {
+            'domain': 'jornaleconomico.sapo.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'bloco_bloqueio_premium'},
+            ]
+        },
+        {
+            'domain': 'cmjornal.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'widget_je_widget_premium_content'},
+            ]
+        },
+        {
+            'domain': 'jornaldenegocios.pt',
+            'exclusive_indicators': [
+                {'type': 'class', 'value': 'paywall'},
+            ]
+        },
+    ]
+
+    # Parse the URL to extract the domain
+    parsed_url = urlparse(link)
+    domain = parsed_url.netloc.replace('www.', '')
+
+    # Check for exclusive indicators based on domain
+    for source in source_checks:
+        if source['domain'] in domain:
+            for indicator in source['exclusive_indicators']:
+                if indicator['type'] == 'class':
+                    if soup.find(class_=indicator['value']):
+                        return True
+                elif indicator['type'] == 'text':
+                    if indicator['value'].lower() in soup.get_text().lower():
+                        return True
+
+    # Additional check for exclusive phrases (currently empty)
+    exclusive_phrases = []
+    page_text = soup.get_text(separator=' ', strip=True).lower()
+    if any(phrase in page_text for phrase in exclusive_phrases):
+        return True
+
+    return False
+
+
+def fix_encoding(text):
+    """
+    Attempts to detect and fix encoding issues in the given text.
+    """
+    try:
+        # First, try to fix potential double encoding issues
+        text = text.encode('latin1').decode('utf-8')
+    except (UnicodeDecodeError, UnicodeEncodeError):
+        try:
+            # If that fails, try decoding as utf-8
+            text = text.encode('utf-8').decode('utf-8')
+        except (UnicodeDecodeError, UnicodeEncodeError):
+            # If all fails, return the original text
+            pass
+    return text
+
+
+def clean_title(title):
+    """
+    Cleans the title string by removing CDATA markers, HTML tags, unescaping HTML entities,
+    and fixing encoding issues.
+    """
+    if title.startswith("<![CDATA[") and title.endswith("]]>"):
+        title = title[9:-3]
+    title = re.sub(r"<.*?>", "", title)
+    title = unescape(title)
+    title = fix_encoding(title)  # Fix encoding issues
+    return title.strip()
+
+
+def clean_description(description):
+    """
+    Cleans the description string by unescaping HTML, removing HTML tags, quotes, and newlines.
+    Also fixes encoding issues and truncates the description to 150 characters if necessary.
+    """
+    description = unescape(description)
+    description = re.sub(r"<[^>]+>", "", description)
+    description = description.replace('\"', "").replace("\n", " ")
+    description = re.sub(r'\{(?:[^|}]+\|)*([^|}]+)\}', r'\1', description)
+    description = fix_encoding(description)  # Fix encoding issues
+    description = description.strip()
+    if len(description) > 150:
+        description = description[:150].rsplit(' ', 1)[0] + "..."
+    return description
+
 
 def extract_source(data):
     """
