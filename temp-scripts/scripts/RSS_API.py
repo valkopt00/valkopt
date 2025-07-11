@@ -298,6 +298,9 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
         return []
         
 def parse_date(date_str, source_url=None):
+    import re
+    from datetime import datetime, timedelta
+    from dateutil import tz, parser
 
     if not date_str:
         return None
@@ -330,6 +333,7 @@ def parse_date(date_str, source_url=None):
     print(f"📅 Data final: {dt.strftime('%d-%m-%Y %H:%M:%S %z')}")
 
     return dt
+
 
 
 async def process_api_source(session, api_source, titles_seen, last_12_hours):
