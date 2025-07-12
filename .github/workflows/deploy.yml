@@ -58,10 +58,21 @@ jobs:
           export PYTHONPATH=$(pwd)/temp-scripts
           python temp-scripts/scripts/RSS_API.py
 
-      - name: Garantir pasta public e copiar JSONs
+      - name: Garantir pasta public e copiar ficheiros
         run: |
           mkdir -p public
           cp articles/*.json public/
+          
+          # Copiar ficheiros HTML estáticos da branch main (se existirem)
+          if git show origin/main:public/politica_de_privacidade.html > /dev/null 2>&1; then
+            git show origin/main:public/politica_de_privacidade.html > public/politica_de_privacidade.html
+            echo "Política de privacidade copiada"
+          fi
+          
+          if git show origin/main:public/termos_de_utilizacao.html > /dev/null 2>&1; then
+            git show origin/main:public/termos_de_utilizacao.html > public/termos_de_utilizacao.html
+            echo "Termos de utilização copiado"
+          fi
 
       - name: Criar README informativo
         run: |
