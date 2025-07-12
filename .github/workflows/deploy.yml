@@ -56,87 +56,28 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Limpar ficheiros corrompidos (se existirem)
+      - name: Verificar ficheiros existentes
         run: |
-          # Verificar e limpar ficheiros com formato incorreto
+          echo "=== Ficheiros existentes ==="
+          ls -la articles/ || echo "Pasta articles não existe"
           if [ -f "articles/original_categories.json" ]; then
-            if ! python -c "
-import json
-try:
-    with open('articles/original_categories.json', 'r') as f:
-        data = json.load(f)
-    # Verificar se é um array
-    if not isinstance(data, list):
-        exit(1)
-except:
-    exit(1)
-" 2>/dev/null; then
-                echo "Removendo ficheiro original_categories.json com formato incorreto"
-                rm -f articles/original_categories.json
-            else
-                echo "Ficheiro original_categories.json tem formato correto - mantendo"
-            fi
+            echo "original_categories.json existe - será preservado"
           else
-            echo "Ficheiro original_categories.json não existe - será criado pelo script"
+            echo "original_categories.json não existe - será criado"
           fi
 
       - name: Instalar dependências
         run: pip install -r temp-scripts/requirements.txt
-
-      - name: Verificar ficheiros JSON existentes antes do script
-        run: |
-          echo "=== Estado dos ficheiros JSON ANTES do script ==="
-          ls -la articles/
-          if [ -f "articles/original_categories.json" ]; then
-            echo "=== original_categories.json existe - tamanho e formato ==="
-            wc -l articles/original_categories.json
-            python -c "
-import json
-try:
-    with open('articles/original_categories.json', 'r') as f:
-        data = json.load(f)
-    print(f'Ficheiro válido com {len(data)} entradas')
-    if len(data) > 0:
-        print(f'Primeira entrada: {data[0]}')
-except Exception as e:
-    print(f'Erro ao ler ficheiro: {e}')
-"
-          else
-            echo "original_categories.json NÃO existe - será criado pelo script"
-          fi
 
       - name: Executar script de atualização de JSON
         run: |
           export PYTHONPATH=$(pwd)/temp-scripts
           python temp-scripts/scripts/RSS_API.py
 
-      - name: Debug - Verificar ficheiros após script
+      - name: Verificar ficheiros finais
         run: |
-          echo "=== Ficheiros criados/atualizados pelo script ==="
+          echo "=== Ficheiros após script ==="
           ls -la articles/
-          echo "=== Conteúdo do original_categories.json (se existir) ==="
-          if [ -f "articles/original_categories.json" ]; then
-            echo "Ficheiro existe!"
-            echo "=== Tamanho do ficheiro ==="
-            wc -l articles/original_categories.json
-            echo "=== Primeiras linhas ==="
-            head -20 articles/original_categories.json
-            echo "=== Formato e estatísticas do ficheiro ==="
-            python -c "
-import json
-with open('articles/original_categories.json', 'r') as f:
-    data = json.load(f)
-    print('Type:', type(data))
-    print('Length:', len(data) if isinstance(data, list) else 'N/A')
-    if isinstance(data, list) and len(data) > 0:
-        print('First entry:', data[0])
-        print('Last entry:', data[-1])
-    else:
-        print('Empty or not a list')
-"
-          else
-            echo "Ficheiro NÃO existe!"
-          fi
 
       - name: Garantir pasta public e copiar JSONs
         run: |
