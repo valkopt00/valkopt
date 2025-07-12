@@ -83,7 +83,3 @@ jobs:
           else
             echo "Nenhuma mudança para commitar"
           fi
-
-      #- name: Trigger Vercel Deploy
-        #run: |
-          #curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"

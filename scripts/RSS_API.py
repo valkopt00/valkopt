@@ -159,7 +159,6 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                         content = content_bytes.decode('cp1252')
                     except UnicodeDecodeError:
                         content = content_bytes.decode('latin1')
-                print(f"📰 Processing Público feed from {feed_url}")
             else:
                 # For other sources, detect encoding
                 detected = chardet.detect(content_bytes)
@@ -275,11 +274,8 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                             articles.append(article)
                             processed_count += 1
                         else:
-                            # Debug: show why articles are being skipped
-                            print(f"⏰ Skipping old article from {source}: {title[:50]}... (Age: {article_age})")
                             skipped_count += 1
                     else:
-                        print(f"📅 Failed to parse date for article: {title[:50]}... Date string: {pub_date_str}")
                         skipped_count += 1
                 
                 except Exception as e:
@@ -367,26 +363,17 @@ def parse_date(date_str, source_url=None):
             
             # CORREÇÃO: Aplicar correção específica RTP para feeds rtp.pt
             # independentemente de ter timezone ou não
-            print(f"🔍 Debug - source_url: '{source_url}'")
-            print(f"🔍 Debug - source_url type: {type(source_url)}")
-            
             # Converter set para string se necessário
             if isinstance(source_url, set):
                 source_url = next(iter(source_url)) if source_url else None
-                print(f"🔍 Debug - source_url converted from set: '{source_url}'")
             
             if source_url and ('rtp.pt' in source_url.lower()):
                 from datetime import timedelta
-                print(f"⚠️  BEFORE RTP correction: {dt}")
                 dt = dt - timedelta(hours=1)
-                print(f"⚠️  AFTER RTP correction: {dt} (applied -1 hour)")
-            else:
-                print(f"⚠️  RTP correction NOT applied - source_url: '{source_url}'")
             
             # Display da data para debug (sem alterar a data original)
             formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
             timezone_info = f"({dt.tzinfo})" if dt.tzinfo else "(no timezone)"
-            print(f"📅 Date parsed: {date_str} -> {formatted_for_json} {timezone_info}")
             
             return dt  # Return with original/correct timezone
             
@@ -404,28 +391,18 @@ def parse_date(date_str, source_url=None):
             portugal_tz = tz.gettz('Europe/Lisbon')
             dt = dt.replace(tzinfo=portugal_tz)
         
-        # CORREÇÃO: Aplicar correção específica RTP para feeds rtp.pt
-        # independentemente de ter timezone ou não
-        print(f"🔍 Debug - source_url: '{source_url}'")
-        print(f"🔍 Debug - source_url type: {type(source_url)}")
-        
+        # CORREÇÃO: Aplicar correção específica RTP para feeds rtp.pt              
         # Converter set para string se necessário
         if isinstance(source_url, set):
             source_url = next(iter(source_url)) if source_url else None
-            print(f"🔍 Debug - source_url converted from set: '{source_url}'")
         
         if source_url and ('rtp.pt' in source_url.lower()):
             from datetime import timedelta
-            print(f"⚠️  BEFORE RTP correction: {dt}")
             dt = dt - timedelta(hours=1)
-            print(f"⚠️  AFTER RTP correction: {dt} (applied -1 hour)")
-        else:
-            print(f"⚠️  RTP correction NOT applied - source_url: '{source_url}'")
         
         # Display da data para debug (sem alterar a data original)
         formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
         timezone_info = f"({dt.tzinfo})" if dt.tzinfo else "(no timezone)"
-        print(f"📅 Date parsed: {date_str} -> {formatted_for_json} {timezone_info}")
         
         return dt  # Return with original/correct timezone
         
@@ -1090,7 +1067,6 @@ async def extract_image_url(entry, session, mapped_category=None):
         if "cmjornal.pt" in lc_link and mapped_category:
             normalized_category = mapped_category.strip().lower()
             if normalized_category == "opinião":
-                print(f"DEBUG: CM Jornal + Opinião detectado. Link: {link}, Categoria: {mapped_category}")
                 return cmjornal_opinion_img
         
         if hasattr(entry, "media_content"):
