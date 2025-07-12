@@ -88,6 +88,27 @@ jobs:
           export PYTHONPATH=$(pwd)/temp-scripts
           python temp-scripts/scripts/RSS_API.py
 
+      - name: Debug - Verificar ficheiros após script
+        run: |
+          echo "=== Ficheiros criados pelo script ==="
+          ls -la articles/
+          echo "=== Conteúdo do original_categories.json (se existir) ==="
+          if [ -f "articles/original_categories.json" ]; then
+            echo "Ficheiro existe!"
+            cat articles/original_categories.json | head -20
+            echo "=== Formato do ficheiro ==="
+            python -c "
+            import json
+            with open('articles/original_categories.json', 'r') as f:
+                data = json.load(f)
+                print('Type:', type(data))
+                print('Length:', len(data) if isinstance(data, list) else 'N/A')
+                print('First few entries:', data[:2] if isinstance(data, list) and len(data) > 0 else 'Empty or not a list')
+            "
+          else
+            echo "Ficheiro NÃO existe!"
+          fi    
+
       - name: Garantir pasta public e copiar JSONs
         run: |
           mkdir -p public
