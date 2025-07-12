@@ -59,7 +59,6 @@ jobs:
       - name: Instalar dependências
         run: pip install -r temp-scripts/requirements.txt
 
-      # AQUI É ONDE ADICIONA O DEBUG - ANTES DO SCRIPT
       - name: Debug - Verificar caminhos no Python
         run: |
           export PYTHONPATH=$(pwd)/temp-scripts
@@ -77,6 +76,23 @@ jobs:
           else:
               print('Articles directory does not exist')
           "
+
+      - name: Debug - Verificar conteúdo do ficheiro
+        run: |
+          echo "=== Conteúdo do original_categories.json ==="
+          cat articles/original_categories.json
+          echo ""
+          echo "=== Verificar se é JSON válido ==="
+          python -c "
+          import json
+          with open('articles/original_categories.json', 'r') as f:
+              data = json.load(f)
+              print('Type of data:', type(data))
+              print('Data content:', data)
+              if isinstance(data, list) and len(data) > 0:
+                  print('First entry type:', type(data[0]))
+                  print('First entry:', data[0])
+          "      
 
       - name: Executar script de atualização de JSON
         run: |
