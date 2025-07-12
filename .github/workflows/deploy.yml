@@ -56,6 +56,12 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Remover ficheiro corrompido
+        run: |
+          # Remover ficheiro de teste anterior
+          rm -f articles/original_categories.json
+          echo "Ficheiro original_categories.json removido - será recriado pelo script"    
+
       - name: Instalar dependências
         run: pip install -r temp-scripts/requirements.txt
 
