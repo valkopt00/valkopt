@@ -45,11 +45,6 @@ jobs:
           git show origin/main:scripts/reset_counts_with_backup.py > temp-scripts/scripts/reset_counts_with_backup.py
           git show origin/main:scripts/exporters/export_original_categories.py > temp-scripts/scripts/exporters/export_original_categories.py
 
-      - name: Preparar diretórios
-        run: |
-          rm -rf articles public || true
-          mkdir -p articles public
-
       - name: Configurar cache do pip
         uses: actions/cache@v3
         with:
@@ -64,15 +59,24 @@ jobs:
       - name: Instalar dependências
         run: pip install -r temp-scripts/requirements.txt
 
-      - name: Debug e preparar ficheiros
+      # AQUI É ONDE ADICIONA O DEBUG - ANTES DO SCRIPT
+      - name: Debug - Verificar caminhos no Python
         run: |
-          echo "=== Criar ficheiro de teste ==="
-          mkdir -p articles
-          echo '{"test": "data"}' > articles/original_categories.json
-          echo "=== Verificar se ficheiro existe ==="
-          ls -la articles/original_categories.json
-          echo "=== Conteúdo do ficheiro ==="
-          cat articles/original_categories.json
+          export PYTHONPATH=$(pwd)/temp-scripts
+          python -c "
+          import os
+          print('=== Current working directory ===')
+          print(os.getcwd())
+          print('=== Articles directory exists? ===')
+          print(os.path.exists('articles'))
+          print('=== original_categories.json exists? ===')
+          print(os.path.exists('articles/original_categories.json'))
+          print('=== Files in articles directory ===')
+          if os.path.exists('articles'):
+              print(os.listdir('articles'))
+          else:
+              print('Articles directory does not exist')
+          "
 
       - name: Executar script de atualização de JSON
         run: |
