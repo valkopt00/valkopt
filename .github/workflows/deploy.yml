@@ -26,16 +26,11 @@ jobs:
             git checkout --orphan data
             git reset --hard
           fi
-          
-          # Criar todas as pastas necessárias
           mkdir -p articles public
           
           # Criar ficheiro original_categories.json vazio se não existir
           if [ ! -f "articles/original_categories.json" ]; then
             echo '{"categories": {}, "articles": {}}' > articles/original_categories.json
-            echo "Ficheiro original_categories.json criado"
-          else
-            echo "Ficheiro original_categories.json já existe"
           fi
 
       - name: Extrair scripts e requirements da branch `main`
@@ -63,77 +58,29 @@ jobs:
       - name: Instalar dependências
         run: pip install -r temp-scripts/requirements.txt
 
-      - name: Verificar estrutura antes da execução
-        run: |
-          echo "=== Estrutura atual ==="
-          ls -la
-          echo "=== Conteúdo da pasta articles ==="
-          ls -la articles/ || echo "Pasta articles não existe"
-          echo "=== Verificar ficheiro original_categories.json ==="
-          if [ -f "articles/original_categories.json" ]; then
-            echo "Ficheiro existe, tamanho: $(stat -c%s articles/original_categories.json) bytes"
-            echo "Primeiras linhas:"
-            head -5 articles/original_categories.json
-          else
-            echo "Ficheiro original_categories.json NÃO existe"
-          fi
-
       - name: Executar script de atualização de JSON
         run: |
           export PYTHONPATH=$(pwd)/temp-scripts
-          echo "=== Executando script principal ==="
           python temp-scripts/scripts/RSS_API.py
-          
-          echo "=== Verificar ficheiros após execução ==="
-          ls -la articles/
-          
-          # Verificar se o ficheiro foi criado/atualizado
-          if [ -f "articles/original_categories.json" ]; then
-            echo "Ficheiro original_categories.json existe após execução"
-            echo "Tamanho: $(stat -c%s articles/original_categories.json) bytes"
-          else
-            echo "ERRO: Ficheiro original_categories.json não foi criado"
-          fi
 
       - name: Garantir pasta public e copiar ficheiros
         run: |
           mkdir -p public
-          
-          # Copiar todos os ficheiros JSON
-          if [ -d "articles" ] && [ "$(ls -A articles/*.json 2>/dev/null)" ]; then
-            cp articles/*.json public/
-            echo "Ficheiros JSON copiados para public/"
-            ls -la public/
-          else
-            echo "Nenhum ficheiro JSON encontrado para copiar"
-          fi
+          cp articles/*.json public/
           
           # Copiar ficheiros HTML estáticos da branch main (se existirem)
           if git show origin/main:public/politica_de_privacidade.html > /dev/null 2>&1; then
             git show origin/main:public/politica_de_privacidade.html > public/politica_de_privacidade.html
-            echo "Política de privacidade copiada"
           fi
           
           if git show origin/main:public/termos_de_utilizacao.html > /dev/null 2>&1; then
             git show origin/main:public/termos_de_utilizacao.html > public/termos_de_utilizacao.html
-            echo "Termos de utilização copiado"
           fi
 
       - name: Criar README informativo
         run: |
           echo "# Branch Data - Ficheiros JSON" > README.md
           echo "Atualizado automaticamente em: $(date '+%Y-%m-%d %H:%M:%S')" >> README.md
-          echo "" >> README.md
-          echo "## Ficheiros disponíveis:" >> README.md
-          if [ -d "articles" ]; then
-            for file in articles/*.json; do
-              if [ -f "$file" ]; then
-                filename=$(basename "$file")
-                size=$(stat -c%s "$file")
-                echo "- $filename (${size} bytes)" >> README.md
-              fi
-            done
-          fi
 
       - name: Commit e Push para branch `data`
         run: |
@@ -143,7 +90,6 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "Atualização automática dos ficheiros JSON - $(date '+%Y-%m-%d %H:%M:%S')"
             git push origin data --force
-            echo "Mudanças commitadas e pushed"
           else
             echo "Nenhuma mudança para commitar"
           fi
