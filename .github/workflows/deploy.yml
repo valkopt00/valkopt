@@ -64,6 +64,16 @@ jobs:
       - name: Instalar dependências
         run: pip install -r temp-scripts/requirements.txt
 
+      - name: Debug e preparar ficheiros
+        run: |
+          echo "=== Criar ficheiro de teste ==="
+          mkdir -p articles
+          echo '{"test": "data"}' > articles/original_categories.json
+          echo "=== Verificar se ficheiro existe ==="
+          ls -la articles/original_categories.json
+          echo "=== Conteúdo do ficheiro ==="
+          cat articles/original_categories.json
+
       - name: Executar script de atualização de JSON
         run: |
           export PYTHONPATH=$(pwd)/temp-scripts
