@@ -17,15 +17,22 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Mudar para branch `data`
+      - name: Mudar para branch `data` e preparar
         run: |
           git fetch origin data || true
           if git show-ref --verify --quiet refs/remotes/origin/data; then
             git checkout data
+            echo "Branch data existe - ficheiros preservados"
+            ls -la articles/ || echo "Pasta articles não existe ainda"
           else
             git checkout --orphan data
             git reset --hard
+            echo "Branch data criado - começando do zero"
+            mkdir -p articles public
           fi
+          
+          # Garantir que as pastas existem
+          mkdir -p articles public
 
       - name: Extrair scripts e requirements da branch `main`
         run: |
