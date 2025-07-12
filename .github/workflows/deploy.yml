@@ -22,16 +22,10 @@ jobs:
           git fetch origin data || true
           if git show-ref --verify --quiet refs/remotes/origin/data; then
             git checkout data
-            echo "Branch data existe - ficheiros preservados"
-            ls -la articles/ || echo "Pasta articles não existe ainda"
           else
             git checkout --orphan data
             git reset --hard
-            echo "Branch data criado - começando do zero"
-            mkdir -p articles public
           fi
-          
-          # Garantir que as pastas existem
           mkdir -p articles public
 
       - name: Extrair scripts e requirements da branch `main`
@@ -56,16 +50,6 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Verificar ficheiros existentes
-        run: |
-          echo "=== Ficheiros existentes ==="
-          ls -la articles/ || echo "Pasta articles não existe"
-          if [ -f "articles/original_categories.json" ]; then
-            echo "original_categories.json existe - será preservado"
-          else
-            echo "original_categories.json não existe - será criado"
-          fi
-
       - name: Instalar dependências
         run: pip install -r temp-scripts/requirements.txt
 
@@ -73,11 +57,6 @@ jobs:
         run: |
           export PYTHONPATH=$(pwd)/temp-scripts
           python temp-scripts/scripts/RSS_API.py
-
-      - name: Verificar ficheiros finais
-        run: |
-          echo "=== Ficheiros após script ==="
-          ls -la articles/
 
       - name: Garantir pasta public e copiar JSONs
         run: |
@@ -88,12 +67,6 @@ jobs:
         run: |
           echo "# Branch Data - Ficheiros JSON" > README.md
           echo "Atualizado automaticamente em: $(date '+%Y-%m-%d %H:%M:%S')" >> README.md
-          echo "" >> README.md
-          echo "## Ficheiros disponíveis:" >> README.md
-          echo "- articles.json: Todas as notícias" >> README.md
-          echo "- articles_priority.json: Notícias prioritárias" >> README.md
-          echo "- articles_secondary.json: Notícias secundárias" >> README.md
-          echo "- original_categories.json: Categorias originais com contadores (preservado entre execuções)" >> README.md
 
       - name: Commit e Push para branch `data`
         run: |
