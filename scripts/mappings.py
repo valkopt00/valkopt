@@ -192,7 +192,7 @@ CATEGORY_GROUPS = {
         "Boa Cama Boa Mesa", "Boa-cama-boa-mesa", "Vidas", "Óscares",
         "Fama", "Visaose7e", "Viagens", "Famosos", "Decoracao", "Ideias",
         "As Novas Cozinhas da Terra", "Beleza", "O gato das botas",
-        "Fugas"
+        "Fugas", "Lazer"
     ],
     "Vídeojogos": [
         "Vídeojogos", "Jogos", "Record-gaming"
