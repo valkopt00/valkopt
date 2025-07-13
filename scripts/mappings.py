@@ -104,7 +104,8 @@ CATEGORY_GROUPS = {
         "África", "Europa", "A guerra na Síria", "Guerra israel-hamas",
         "Faixa de Gaza", "Guerra no Médio Oriente", "Alemanha",
         "Diplomacia", "EUA", "Público Brasil", "Brasil", "Israel", "Reino Unido",
-        "Turquia", "Ursula von der Leyen"
+        "Turquia", "Ursula von der Leyen", "América Latina", "Espanha",
+        "Bósnia-Herzegovina", "Geopolítica"
     ],
     "Desporto": [
         "Desporto", "Futebol", "Benfica", "Sporting", "Porto",
@@ -114,7 +115,8 @@ CATEGORY_GROUPS = {
         "Futebol nacional", "Motores", "Ralis", "Karting", "Seleção Nacional",
         "Formula1", "Auto", "Bola-branca", "Futebol feminino", "Volta à França",
         "Automobilismo", "MotoGP", "Ciclismo", "Râguebi", "Futebol internacional",
-        "Clube-portugal", "Especial-de-corrida", "Futebol-nacional"
+        "Clube-portugal", "Especial-de-corrida", "Futebol-nacional", "Red Bull",
+        "Ténis"
     ],
     "Economia": [
         "Economia", "Negócios", "Segurança Social", "Bolsa e Mercados",
@@ -122,10 +124,11 @@ CATEGORY_GROUPS = {
         "Iniciativaseprodutos", "Economia Expresso", "Economia dia a dia",
         "Finanças pessoais", "Finanças públicas", "Imobiliário", "Comércio",
         "Comércio Externo", "Criptomoedas", "Guerra Comercial", "Impostos",
-        "irs", "Empreendedorismo"
+        "irs", "Empreendedorismo", "Poupança", "trabalho", "rendas"
     ],
     "Cultura": [
-        "Cultura", "Livros", "Cinema", "Blitz", "Inimigo-publico"
+        "Cultura", "Livros", "Cinema", "Blitz", "Inimigo-publico",
+        "Artes", "Música",  "Festivais de Verão", "Fotografia"
     ],
     "Ciência e Tech": [
         "Ciência e Tech", "Ciência & Tech", "Ciência", "Ciencia",
@@ -149,13 +152,15 @@ CATEGORY_GROUPS = {
         "Poluição", "Violência", "gasolina", "pescadores", "pordata",
         "prisão preventiva", "tortura", "Aquecimento", "50 anos das independências",
         "Habitação", "Acessibilidade", "Arquitectura", "Conservação da natureza",
-        "Direitos das crianças", "Educação"
+        "Direitos das crianças", "Educação", "SGIFR",  "Segunda Guerra Mundial",
+        "TAP", "linha de cascais", "tuk-tuk", "verao"
     ],
     "Política": [
         "Política", "Politica", "Defesa", "Presidenciais 2026",
         "Parlamento", "Partidos", "Crise política", "Governo",
         "Legislativas 2025", "Autárquicas 2025", "Lei da Nacionalidade",
-        "Luís Filipe Menezes", "Ministério Público", "sns"
+        "Luís Filipe Menezes", "Ministério Público", "sns", "PAN",
+        "Presidente"
     ],
     "Multimédia": [
         "Multimédia", "Multimedia", "Video", "Podcasts", "Fotogaleria",
@@ -168,12 +173,16 @@ CATEGORY_GROUPS = {
         "Leste Oeste de Nuno Rogeiro", "Vídeos", "O Divórcio do Sono",
         "Tv Media", "Tv-media", "Cmtv", "Antes Pelo Contrário", "Chave na mão",
         "Eixo do Mal", "Expresso da Meia-Noite", "Humor à Primeira Vista",
-        "Importa-se de Repetir?", "Irritações", "No Último Episódio"
+        "Importa-se de Repetir?", "Irritações", "No Último Episódio",
+        "Alta Definição", "Elefante na Sala", "Era Uma Voz", "Facto Político",
+        "O Tal Podcast"
     ],
     "Opinião": [
         "Opinião", "Opiniao", "Colunistas", "Nota editorial",
         "Editorial", "Linhas Direitas", "José jorge letria", "Liveblogs",
-        "Artigos de Newsletter", "O Vale Era Verde", "Opinião União Europeia"
+        "Artigos de Newsletter", "O Vale Era Verde", "Opinião União Europeia",
+        "Isso era uma longa conversa", "Opinião Protopia",
+         "Tanto faz não é resposta"
     ],
     "Lifestyle": [
         "Lifestyle", "Comer e beber", "Gastronomia", "Vida",
