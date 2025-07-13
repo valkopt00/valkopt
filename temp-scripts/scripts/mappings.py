@@ -96,7 +96,7 @@ FEED_CATEGORY_MAPPER = {
 # Maps specific category names to standardized category names
 CATEGORY_GROUPS = {
     "Nacional": [
-        "Nacional", "País", "Pais", "Portugal"
+        "Nacional", "País", "Pais", "Portugal", "Lisboa"
     ],
     "Mundo": [
         "Mundo", "Internacional", "União Europeia", "Guerra na Ucrânia",
@@ -124,7 +124,8 @@ CATEGORY_GROUPS = {
         "Iniciativaseprodutos", "Economia Expresso", "Economia dia a dia",
         "Finanças pessoais", "Finanças públicas", "Imobiliário", "Comércio",
         "Comércio Externo", "Criptomoedas", "Guerra Comercial", "Impostos",
-        "irs", "Empreendedorismo", "Poupança", "trabalho", "rendas"
+        "irs", "Empreendedorismo", "Poupança", "trabalho", "rendas",
+        "Finanças"
     ],
     "Cultura": [
         "Cultura", "Livros", "Cinema", "Blitz", "Inimigo-publico",
@@ -153,7 +154,8 @@ CATEGORY_GROUPS = {
         "prisão preventiva", "tortura", "Aquecimento", "50 anos das independências",
         "Habitação", "Acessibilidade", "Arquitectura", "Conservação da natureza",
         "Direitos das crianças", "Educação", "SGIFR",  "Segunda Guerra Mundial",
-        "TAP", "linha de cascais", "tuk-tuk", "verao"
+        "TAP", "linha de cascais", "tuk-tuk", "verao", "Agricultura",
+        "Tráfico"
     ],
     "Política": [
         "Política", "Politica", "Defesa", "Presidenciais 2026",
@@ -189,7 +191,8 @@ CATEGORY_GROUPS = {
         "Realeza", "Moda", "Truques-dicas", "Boa cama boa mesa",
         "Boa Cama Boa Mesa", "Boa-cama-boa-mesa", "Vidas", "Óscares",
         "Fama", "Visaose7e", "Viagens", "Famosos", "Decoracao", "Ideias",
-        "As Novas Cozinhas da Terra", "Beleza", "O gato das botas"
+        "As Novas Cozinhas da Terra", "Beleza", "O gato das botas",
+        "Fugas"
     ],
     "Vídeojogos": [
         "Vídeojogos", "Jogos", "Record-gaming"
