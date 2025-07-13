@@ -113,7 +113,8 @@ CATEGORY_GROUPS = {
         "Liga D'Ouro", "Maismotores", "Liga Europa", "Velocidade",
         "Futebol nacional", "Motores", "Ralis", "Karting", "Seleção Nacional",
         "Formula1", "Auto", "Bola-branca", "Futebol feminino", "Volta à França",
-        "Automobilismo", "MotoGP"
+        "Automobilismo", "MotoGP", "Ciclismo", "Râguebi", "Futebol internacional",
+        "Clube-portugal", "Especial-de-corrida", "Futebol-nacional"
     ],
     "Economia": [
         "Economia", "Negócios", "Segurança Social", "Bolsa e Mercados",
@@ -146,7 +147,9 @@ CATEGORY_GROUPS = {
         "Acidentes", "Activismo", "Aeroespacial", "Crianças", "Fraudes",
         "Incêndios", "Inimigo Público", "Megafone", "Menores em risco", "PJ",
         "Poluição", "Violência", "gasolina", "pescadores", "pordata",
-        "prisão preventiva", "tortura", "Aquecimento", "50 anos das independências"
+        "prisão preventiva", "tortura", "Aquecimento", "50 anos das independências",
+        "Habitação", "Acessibilidade", "Arquitectura", "Conservação da natureza",
+        "Direitos das crianças", "Educação"
     ],
     "Política": [
         "Política", "Politica", "Defesa", "Presidenciais 2026",
