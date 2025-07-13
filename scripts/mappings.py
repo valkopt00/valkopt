@@ -113,7 +113,8 @@ CATEGORY_GROUPS = {
         "Liga D'Ouro", "Maismotores", "Liga Europa", "Velocidade",
         "Futebol nacional", "Motores", "Ralis", "Karting", "Seleção Nacional",
         "Formula1", "Auto", "Bola-branca", "Futebol feminino", "Volta à França",
-        "Automobilismo", "MotoGP", "Ciclismo", "Râguebi", "Futebol internacional"
+        "Automobilismo", "MotoGP", "Ciclismo", "Râguebi", "Futebol internacional",
+        "Clube-portugal", "Especial-de-corrida", "Futebol-nacional"
     ],
     "Economia": [
         "Economia", "Negócios", "Segurança Social", "Bolsa e Mercados",
