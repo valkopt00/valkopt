@@ -154,7 +154,8 @@ CATEGORY_GROUPS = {
         "prisão preventiva", "tortura", "Aquecimento", "50 anos das independências",
         "Habitação", "Acessibilidade", "Arquitectura", "Conservação da natureza",
         "Direitos das crianças", "Educação", "SGIFR",  "Segunda Guerra Mundial",
-        "TAP", "linha de cascais", "tuk-tuk", "verao", "Agricultura"
+        "TAP", "linha de cascais", "tuk-tuk", "verao", "Agricultura",
+        "Tráfico"
     ],
     "Política": [
         "Política", "Politica", "Defesa", "Presidenciais 2026",
