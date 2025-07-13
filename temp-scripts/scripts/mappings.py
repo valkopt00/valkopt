@@ -105,7 +105,7 @@ CATEGORY_GROUPS = {
         "Faixa de Gaza", "Guerra no Médio Oriente", "Alemanha",
         "Diplomacia", "EUA", "Público Brasil", "Brasil", "Israel", "Reino Unido",
         "Turquia", "Ursula von der Leyen", "América Latina", "Espanha",
-        "Bósnia-Herzegovina", "Geopolítica"
+        "Bósnia-Herzegovina", "Geopolítica", "França", "Nigéria"
     ],
     "Desporto": [
         "Desporto", "Futebol", "Benfica", "Sporting", "Porto",
@@ -116,7 +116,7 @@ CATEGORY_GROUPS = {
         "Formula1", "Auto", "Bola-branca", "Futebol feminino", "Volta à França",
         "Automobilismo", "MotoGP", "Ciclismo", "Râguebi", "Futebol internacional",
         "Clube-portugal", "Especial-de-corrida", "Futebol-nacional", "Red Bull",
-        "Ténis"
+        "Ténis", "1.ª Liga", "Atletismo", "FC Porto", "Modalidade"
     ],
     "Economia": [
         "Economia", "Negócios", "Segurança Social", "Bolsa e Mercados",
@@ -129,7 +129,8 @@ CATEGORY_GROUPS = {
     ],
     "Cultura": [
         "Cultura", "Livros", "Cinema", "Blitz", "Inimigo-publico",
-        "Artes", "Música",  "Festivais de Verão", "Fotografia"
+        "Artes", "Música",  "Festivais de Verão", "Fotografia",
+        "Crítica"
     ],
     "Ciência e Tech": [
         "Ciência e Tech", "Ciência & Tech", "Ciência", "Ciencia",
@@ -162,7 +163,7 @@ CATEGORY_GROUPS = {
         "Parlamento", "Partidos", "Crise política", "Governo",
         "Legislativas 2025", "Autárquicas 2025", "Lei da Nacionalidade",
         "Luís Filipe Menezes", "Ministério Público", "sns", "PAN",
-        "Presidente"
+        "Presidente", "Bloco de Esquerda", "Iniciativa Liberal"
     ],
     "Multimédia": [
         "Multimédia", "Multimedia", "Video", "Podcasts", "Fotogaleria",
@@ -177,7 +178,7 @@ CATEGORY_GROUPS = {
         "Eixo do Mal", "Expresso da Meia-Noite", "Humor à Primeira Vista",
         "Importa-se de Repetir?", "Irritações", "No Último Episódio",
         "Alta Definição", "Elefante na Sala", "Era Uma Voz", "Facto Político",
-        "O Tal Podcast"
+        "O Tal Podcast", "Guerra Fria"
     ],
     "Opinião": [
         "Opinião", "Opiniao", "Colunistas", "Nota editorial",
