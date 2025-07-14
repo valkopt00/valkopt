@@ -227,7 +227,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     
                     # Determine SAPO feed and extract category
                     feed_category = ""
-                    is_sapo_feed = "sapo.pt" in feed_domain
+                    is_sapo_feed = "www.sapo.pt" in feed_domain
                     if is_sapo_feed:
                         # feedparser puts first <category> in entry.category and the rest in entry.tags
                         tags = getattr(entry, 'tags', None)
