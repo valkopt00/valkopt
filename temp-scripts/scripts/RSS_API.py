@@ -370,8 +370,10 @@ def parse_date(date_str, source_url=None):
             if source_url:
                 from datetime import timedelta
                 if 'rtp.pt' in source_url.lower():
+                    print(f"DEBUG RTP: Antes: {dt}, Depois: {dt - timedelta(hours=1)}")
                     dt = dt - timedelta(hours=1)
                 elif 'pt.euronews.com' in source_url.lower():
+                    print(f"DEBUG EURONEWS: Antes: {dt}, Depois: {dt - timedelta(hours=1)}")
                     dt = dt - timedelta(hours=1)
             
             formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
@@ -401,8 +403,10 @@ def parse_date(date_str, source_url=None):
         if source_url:
             from datetime import timedelta
             if 'rtp.pt' in source_url.lower():
+                print(f"DEBUG RTP (fallback): Antes: {dt}, Depois: {dt - timedelta(hours=1)}")
                 dt = dt - timedelta(hours=1)
             elif 'pt.euronews.com' in source_url.lower():
+                print(f"DEBUG EURONEWS (fallback): Antes: {dt}, Depois: {dt - timedelta(hours=1)}")
                 dt = dt - timedelta(hours=1)
         
         formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
