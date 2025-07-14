@@ -371,7 +371,6 @@ def parse_date(date_str, source_url=None):
                 from datetime import timedelta
                 dt = dt - timedelta(hours=1)
             
-            # Display da data para debug (sem alterar a data original)
             formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
             timezone_info = f"({dt.tzinfo})" if dt.tzinfo else "(no timezone)"
             
@@ -400,7 +399,6 @@ def parse_date(date_str, source_url=None):
             from datetime import timedelta
             dt = dt - timedelta(hours=1)
         
-        # Display da data para debug (sem alterar a data original)
         formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
         timezone_info = f"({dt.tzinfo})" if dt.tzinfo else "(no timezone)"
         
@@ -945,7 +943,6 @@ def extract_source(data):
                 return "Eurogamer"
             # Verificação específica para Jornal i (antes da normalização)
             if "jornal i" in source_name.lower():
-                print(f"DEBUG: Retornando 'Jornal i' para source_name: '{source_name}'")
                 return "Jornal i"
             # Normalize capitalization for other cases
             return source_name.title()
