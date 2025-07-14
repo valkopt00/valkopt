@@ -252,7 +252,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     
                     original_category = feed_category
                     category = map_category(feed_category, feed_domain, link)
-                    pub_date = parse_date(pub_date_str, source_url={feed_url})
+                    pub_date = parse_date(pub_date_str, source_url=feed_url)
                     
                     if pub_date:
                         # More lenient time filtering - keep articles from last 24 hours instead of 12
@@ -263,7 +263,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                                 "description": description,
                                 "image": image_url,
                                 "source": source,
-                                "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
+                                "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),  # Use the corrected pub_date
                                 "category": category,
                                 "link": link,
                                 "isExclusive": False,
@@ -305,7 +305,7 @@ def parse_date(date_str, source_url=None):
         source_url: URL of the RSS feed (for RTP and Euronews correction)
         
     Returns:
-        Datetime object with original timezone or None if parsing fails
+        Datetime object with corrected timezone or None if parsing fails
     """
     if not date_str:
         return None
@@ -350,74 +350,47 @@ def parse_date(date_str, source_url=None):
     except NameError:
         all_formats = extended_formats
     
+    parsed_dt = None
+    
     # Try each format until one works
     for fmt in all_formats:
         try:
-            dt = datetime.strptime(date_str, fmt)
-            
-            # Só adicionar timezone português se a data não tiver timezone
-            if dt.tzinfo is None:
-                from dateutil import tz
-                portugal_tz = tz.gettz('Europe/Lisbon')
-                dt = dt.replace(tzinfo=portugal_tz)
-            
-            # CORREÇÃO: Aplicar correção específica para feeds rtp.pt e pt.euronews.com
-            # independentemente de ter timezone ou não
-            # Converter set para string se necessário
-            if isinstance(source_url, set):
-                source_url = next(iter(source_url)) if source_url else None
-            
-            if source_url:
-                from datetime import timedelta
-                if 'rtp.pt' in source_url.lower():
-                    print(f"DEBUG RTP: Antes: {dt}, Depois: {dt - timedelta(hours=1)}")
-                    dt = dt - timedelta(hours=1)
-                elif 'pt.euronews.com' in source_url.lower():
-                    print(f"DEBUG EURONEWS: Antes: {dt}, Depois: {dt - timedelta(hours=1)}")
-                    dt = dt - timedelta(hours=1)
-            
-            # ESTAS LINHAS FORAM REMOVIDAS - ERAM O PROBLEMA!
-            # formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
-            # timezone_info = f"({dt.tzinfo})" if dt.tzinfo else "(no timezone)"
-            
-            return dt  # Return with original/correct timezone
-            
+            parsed_dt = datetime.strptime(date_str, fmt)
+            break
         except ValueError:
             continue
     
     # If all formats fail, try a more flexible approach
-    try:
-        from dateutil import parser
-        dt = parser.parse(date_str)
-        
-        # Só adicionar timezone português se a data não tiver timezone
-        if dt.tzinfo is None:
-            from dateutil import tz
-            portugal_tz = tz.gettz('Europe/Lisbon')
-            dt = dt.replace(tzinfo=portugal_tz)
-        
-        # CORREÇÃO: Aplicar correção específica para feeds rtp.pt e pt.euronews.com              
-        # Converter set para string se necessário
+    if parsed_dt is None:
+        try:
+            from dateutil import parser
+            parsed_dt = parser.parse(date_str)
+        except:
+            print(f"⚠️  Failed to parse date: {date_str}")
+            return None
+    
+    # Add timezone if missing
+    if parsed_dt.tzinfo is None:
+        from dateutil import tz
+        portugal_tz = tz.gettz('Europe/Lisbon')
+        parsed_dt = parsed_dt.replace(tzinfo=portugal_tz)
+    
+    # Apply timezone corrections for specific sources
+    if source_url:
+        # Convert set to string if necessary
         if isinstance(source_url, set):
             source_url = next(iter(source_url)) if source_url else None
         
         if source_url:
             from datetime import timedelta
             if 'rtp.pt' in source_url.lower():
-                print(f"DEBUG RTP (fallback): Antes: {dt}, Depois: {dt - timedelta(hours=1)}")
-                dt = dt - timedelta(hours=1)
+                print(f"DEBUG RTP: Antes: {parsed_dt}, Depois: {parsed_dt - timedelta(hours=1)}")
+                parsed_dt = parsed_dt - timedelta(hours=1)
             elif 'pt.euronews.com' in source_url.lower():
-                print(f"DEBUG EURONEWS (fallback): Antes: {dt}, Depois: {dt - timedelta(hours=1)}")
-                dt = dt - timedelta(hours=1)
-        
-        return dt 
-        
-    except:
-        pass
-            
-    print(f"⚠️  Failed to parse date: {date_str}")
+                print(f"DEBUG EURONEWS: Antes: {parsed_dt}, Depois: {parsed_dt - timedelta(hours=1)}")
+                parsed_dt = parsed_dt - timedelta(hours=1)
     
-    return None
+    return parsed_dt
 
 async def process_api_source(session, api_source, titles_seen, last_12_hours):
     """
@@ -480,7 +453,7 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
                             "description": description,
                             "image": image_url,
                             "source": source,
-                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),
+                            "pubDate": pub_date.strftime("%d-%m-%Y %H:%M"),  # Use corrected pub_date
                             "category": category,
                             "link": link,
                             "isExclusive": False,
