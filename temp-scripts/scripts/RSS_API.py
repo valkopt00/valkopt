@@ -939,6 +939,8 @@ def extract_source(data):
                 return "zerozero.pt"
             if source_name == "Eurogamer.pt Latest Articles Feed":
                 return "Eurogamer"
+            
+            print("DEBUG source_name raw:", repr(source_name))
             if source_name == "Tek Notícias":
                 return "SAPO Tek"
             if "jornal i" in source_name.lower():
