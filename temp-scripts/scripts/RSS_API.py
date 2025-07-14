@@ -302,7 +302,7 @@ def parse_date(date_str, source_url=None):
     
     Args:
         date_str: Date string to parse
-        source_url: URL of the RSS feed (for RTP correction)
+        source_url: URL of the RSS feed (for RTP and Euronews correction)
         
     Returns:
         Datetime object with original timezone or None if parsing fails
@@ -361,15 +361,18 @@ def parse_date(date_str, source_url=None):
                 portugal_tz = tz.gettz('Europe/Lisbon')
                 dt = dt.replace(tzinfo=portugal_tz)
             
-            # CORREÇÃO: Aplicar correção específica RTP para feeds rtp.pt
+            # CORREÇÃO: Aplicar correção específica para feeds rtp.pt e pt.euronews.com
             # independentemente de ter timezone ou não
             # Converter set para string se necessário
             if isinstance(source_url, set):
                 source_url = next(iter(source_url)) if source_url else None
             
-            if source_url and ('rtp.pt' in source_url.lower()):
+            if source_url:
                 from datetime import timedelta
-                dt = dt - timedelta(hours=1)
+                if 'rtp.pt' in source_url.lower():
+                    dt = dt - timedelta(hours=1)
+                elif 'pt.euronews.com' in source_url.lower():
+                    dt = dt - timedelta(hours=1)
             
             formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
             timezone_info = f"({dt.tzinfo})" if dt.tzinfo else "(no timezone)"
@@ -390,14 +393,17 @@ def parse_date(date_str, source_url=None):
             portugal_tz = tz.gettz('Europe/Lisbon')
             dt = dt.replace(tzinfo=portugal_tz)
         
-        # CORREÇÃO: Aplicar correção específica RTP para feeds rtp.pt              
+        # CORREÇÃO: Aplicar correção específica para feeds rtp.pt e pt.euronews.com              
         # Converter set para string se necessário
         if isinstance(source_url, set):
             source_url = next(iter(source_url)) if source_url else None
         
-        if source_url and ('rtp.pt' in source_url.lower()):
+        if source_url:
             from datetime import timedelta
-            dt = dt - timedelta(hours=1)
+            if 'rtp.pt' in source_url.lower():
+                dt = dt - timedelta(hours=1)
+            elif 'pt.euronews.com' in source_url.lower():
+                dt = dt - timedelta(hours=1)
         
         formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
         timezone_info = f"({dt.tzinfo})" if dt.tzinfo else "(no timezone)"
