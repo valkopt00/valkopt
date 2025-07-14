@@ -376,8 +376,9 @@ def parse_date(date_str, source_url=None):
                     print(f"DEBUG EURONEWS: Antes: {dt}, Depois: {dt - timedelta(hours=1)}")
                     dt = dt - timedelta(hours=1)
             
-            formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
-            timezone_info = f"({dt.tzinfo})" if dt.tzinfo else "(no timezone)"
+            # ESTAS LINHAS FORAM REMOVIDAS - ERAM O PROBLEMA!
+            # formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
+            # timezone_info = f"({dt.tzinfo})" if dt.tzinfo else "(no timezone)"
             
             return dt  # Return with original/correct timezone
             
@@ -409,10 +410,7 @@ def parse_date(date_str, source_url=None):
                 print(f"DEBUG EURONEWS (fallback): Antes: {dt}, Depois: {dt - timedelta(hours=1)}")
                 dt = dt - timedelta(hours=1)
         
-        formatted_for_json = dt.strftime("%d-%m-%Y %H:%M")
-        timezone_info = f"({dt.tzinfo})" if dt.tzinfo else "(no timezone)"
-        
-        return dt  # Return with original/correct timezone
+        return dt 
         
     except:
         pass
