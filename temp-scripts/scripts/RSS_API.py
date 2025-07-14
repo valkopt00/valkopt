@@ -962,6 +962,7 @@ def extract_source(data):
                 'público': 'Público',
                 'PÚBLICO': 'Público',
                 'PUBLICO': 'Público',
+                'Jornal I': 'Jornal i',
             }
             return source_mapping.get(domain, domain)
     except Exception as e:
