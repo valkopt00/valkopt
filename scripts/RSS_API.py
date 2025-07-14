@@ -939,6 +939,8 @@ def extract_source(data):
                 return "zerozero.pt"
             if source_name == "Eurogamer.pt Latest Articles Feed":
                 return "Eurogamer"
+            if source_name == "Tek Notícias":
+                return "SAPO Tek"
             # Verificação específica para Jornal i (antes da normalização)
             if "jornal i" in source_name.lower():
                 return "Jornal i"
@@ -961,8 +963,6 @@ def extract_source(data):
                 'público': 'Público',
                 'PÚBLICO': 'Público',
                 'PUBLICO': 'Público',
-                'Jornal I': 'Jornal i',
-                'Tek Notícias': 'SAPO Tek'
             }
             return source_mapping.get(domain, domain)
     except Exception as e:
