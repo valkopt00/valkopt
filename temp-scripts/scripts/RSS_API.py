@@ -389,6 +389,10 @@ def parse_date(date_str, source_url=None):
             elif 'pt.euronews.com' in source_url.lower():
                 print(f"DEBUG EURONEWS: Antes: {parsed_dt}, Depois: {parsed_dt - timedelta(hours=1)}")
                 parsed_dt = parsed_dt - timedelta(hours=1)
+
+    from dateutil import tz
+    portugal_tz = tz.gettz('Europe/Lisbon')
+    parsed_dt = parsed_dt.astimezone(portugal_tz)
     
     return parsed_dt
 
