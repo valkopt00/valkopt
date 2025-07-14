@@ -943,9 +943,9 @@ def extract_source(data):
                 return "zerozero.pt"
             if source_name == "Eurogamer.pt Latest Articles Feed":
                 return "Eurogamer"
-            # Adicione debug para o Jornal I
-            if "jornal" in source_name.lower() and "i" in source_name.lower():
-                print(f"DEBUG: Feed title encontrado: '{source_name}'")
+            # Verificação específica para Jornal i (antes da normalização)
+            if "jornal i" in source_name.lower():
+                print(f"DEBUG: Retornando 'Jornal i' para source_name: '{source_name}'")
                 return "Jornal i"
             # Normalize capitalization for other cases
             return source_name.title()
@@ -958,32 +958,17 @@ def extract_source(data):
             # Default processing for other URLs: extract domain and map if necessary
             parsed_url = urlparse(data)
             domain = parsed_url.netloc
-            domain_clean = re.sub(r'^www\.', '', domain)
-            domain_first = domain_clean.split('.')[0]
-            
-            # DEBUG: Adicione prints para ver o que está sendo extraído
-            print(f"DEBUG: URL: {data}")
-            print(f"DEBUG: Domain netloc: {domain}")
-            print(f"DEBUG: Domain clean: {domain_clean}")
-            print(f"DEBUG: Domain first: {domain_first}")
-            
+            domain = re.sub(r'^www\.', '', domain)
+            domain = domain.split('.')[0]
             source_mapping = {
                 'observador': 'Observador',
                 'publico': 'Público',
                 'público': 'Público',
                 'PÚBLICO': 'Público',
                 'PUBLICO': 'Público',
-                # Mude a chave para o que realmente está sendo extraído
-                'jornal': 'Jornal i',  # Se o domínio for algo como jornal.pt
-                'jornali': 'Jornal i',  # Se o domínio for jornali.pt
+                'Jornal I': 'Jornal i',
             }
-            
-            # Tente também uma busca case-insensitive
-            for key, value in source_mapping.items():
-                if key.lower() == domain_first.lower():
-                    return value
-            
-            return source_mapping.get(domain_first, domain_first)
+            return source_mapping.get(domain, domain)
     except Exception as e:
         print(f"Error extracting source: {e}")
     return "Desconhecido"
