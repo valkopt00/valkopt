@@ -941,7 +941,6 @@ def extract_source(data):
                 return "Eurogamer"
             if source_name == "Tek Notícias":
                 return "SAPO Tek"
-            # Verificação específica para Jornal i (antes da normalização)
             if "jornal i" in source_name.lower():
                 return "Jornal i"
             # Normalize capitalization for other cases
