@@ -941,7 +941,7 @@ def extract_source(data):
                 return "Eurogamer"
             
             print("DEBUG source_name raw:", repr(source_name))
-            if source_name == "Tek Notícias":
+            if "tek notícias" in source_name.lower():
                 return "SAPO Tek"
             if "jornal i" in source_name.lower():
                 return "Jornal i"
