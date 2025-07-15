@@ -376,7 +376,23 @@ def parse_date(date_str, source_url=None):
         portugal_tz = tz.gettz('Europe/Lisbon')
         parsed_dt = parsed_dt.replace(tzinfo=portugal_tz)
     
-    # Apply timezone corrections for specific sources BEFORE converting to Portugal timezone
+    # Convert to Portugal timezone FIRST, then apply any specific corrections
+    from dateutil import tz
+    portugal_tz = tz.gettz('Europe/Lisbon')
+    
+    # Debug: Show original datetime before conversion
+    if source_url and 'pt.euronews.com' in source_url.lower():
+        print(f"DEBUG EURONEWS: Data original: {parsed_dt}")
+        print(f"DEBUG EURONEWS: Timezone original: {parsed_dt.tzinfo}")
+    
+    parsed_dt = parsed_dt.astimezone(portugal_tz)
+    
+    # Debug: Show after conversion to Portugal timezone
+    if source_url and 'pt.euronews.com' in source_url.lower():
+        print(f"DEBUG EURONEWS: Após conversão para Portugal: {parsed_dt}")
+        print(f"DEBUG EURONEWS: Timezone Portugal: {parsed_dt.tzinfo}")
+    
+    # Apply specific source corrections AFTER converting to Portugal timezone
     if source_url:
         # Convert set to string if necessary
         if isinstance(source_url, set):
@@ -388,25 +404,9 @@ def parse_date(date_str, source_url=None):
                 print(f"DEBUG RTP: Antes: {parsed_dt}, Depois: {parsed_dt - timedelta(hours=1)}")
                 parsed_dt = parsed_dt - timedelta(hours=1)
             elif 'pt.euronews.com' in source_url.lower():
-                print(f"DEBUG EURONEWS: Antes: {parsed_dt}")
-                # For Euronews, if the date already has timezone info, convert to UTC first
-                # then subtract 1 hour, then convert to Portugal timezone
-                if parsed_dt.tzinfo is not None:
-                    parsed_dt_utc = parsed_dt.astimezone(timezone.utc)
-                    parsed_dt = parsed_dt_utc - timedelta(hours=1)
-                    # Set it back to Portugal timezone
-                    from dateutil import tz
-                    portugal_tz = tz.gettz('Europe/Lisbon')
-                    parsed_dt = parsed_dt.replace(tzinfo=portugal_tz)
-                else:
-                    parsed_dt = parsed_dt - timedelta(hours=1)
-                print(f"DEBUG EURONEWS: Depois: {parsed_dt}")
-    
-    # Convert to Portugal timezone (only if no special source handling was applied)
-    if not (source_url and ('rtp.pt' in source_url.lower() or 'pt.euronews.com' in source_url.lower())):
-        from dateutil import tz
-        portugal_tz = tz.gettz('Europe/Lisbon')
-        parsed_dt = parsed_dt.astimezone(portugal_tz)
+                print(f"DEBUG EURONEWS: Sem correção adicional - usando conversão automática de timezone")
+                print(f"DEBUG EURONEWS: Data final: {parsed_dt}")
+                # Não fazer nada extra - a conversão de timezone já está correta
     
     return parsed_dt
 
