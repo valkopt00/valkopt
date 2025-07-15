@@ -14,18 +14,18 @@
         "count": 74
     },
     {
+        "category": "Ensino",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/sociedade/ensino/2025-07-15-exames-do-ensino-secundario-matematica-aplicada-e-geometria-com-mediasnegativas-15f76011",
+        "count": 44
+    },
+    {
         "category": "LUSA-INBOX",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/lusa/iga-swiatek-conquista-pela-primeira-vez-major-londrino_d1668726",
         "count": 43
-    },
-    {
-        "category": "Ensino",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/sociedade/ensino/2025-07-15-exames-do-ensino-secundario-matematica-aplicada-e-geometria-com-mediasnegativas-15f76011",
-        "count": 41
     },
     {
         "category": "Palavras Cruzadas",
@@ -53,7 +53,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/iniciativaseprodutos/2025-07-15-video-expresso-desconectados.mp4-cd7c17b9",
-        "count": 30
+        "count": 31
     },
     {
         "category": "Operação Marquês",
@@ -67,7 +67,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/culturaipsilon/noticia/comedias-romanticas-precisamse-lena-dunham-voltou-pegar-largar-2140065",
-        "count": 24
+        "count": 27
     },
     {
         "category": "Cm ao Minuto",
@@ -102,7 +102,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/culturaipsilon/noticia/roberto-saviano-vitorioso-chora-apos-processo-judicial-importante-vida-2140256",
-        "count": 14
+        "count": 15
     },
     {
         "category": "PSD",
@@ -140,6 +140,13 @@
         "count": 7
     },
     {
+        "category": "Inteligência artificial",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/15/enter/noticia/kimi-k2-novo-modelo-chines-ia-rivaliza-melhores-ocidente-2140303",
+        "count": 7
+    },
+    {
         "category": "Loures",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -152,13 +159,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/mundo/noticia/elon-musk-quer-criar-partido-romper-bipartidarismo-estados-unidos-tera-sucesso-2140112",
         "count": 7
-    },
-    {
-        "category": "Inteligência artificial",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/15/enter/noticia/kimi-k2-novo-modelo-chines-ia-rivaliza-melhores-ocidente-2140303",
-        "count": 6
     },
     {
         "category": "Eduardo Cabrita",
@@ -200,6 +200,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/13/mundo/noticia/ajuda-eua-hospitais-assumem-dificuldades-fome-aumenta-afeganistao-2140109",
+        "count": 1
+    },
+    {
+        "category": "Alimentação",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/15/impar/noticia/gastrenterologista-eis-dia-melhorar-saude-intestinal-2140234",
         "count": 1
     },
     {
@@ -403,6 +410,13 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/culturando-na-lusofonia/2025-07-15-lugares-esconsos-da-memoria-as-2000-criancas-judias-raptadas-em-1493/?utm_source=rss&utm_medium=rss&utm_campaign=lugares-esconsos-da-memoria-as-2000-criancas-judias-raptadas-em-1493",
+        "count": 1
+    },
+    {
+        "category": "Código do Trabalho",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/15/economia/noticia/limites-outsourcing-nao-violam-constituicao-conclui-tc-2140421",
         "count": 1
     },
     {
@@ -749,10 +763,24 @@
         "count": 1
     },
     {
+        "category": "Podcast PIDE/DGS em Moçambique",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/15/sociedade/noticia/restou-pide-beira-2140376",
+        "count": 1
+    },
+    {
         "category": "Podcast Soundbite",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/politica/noticia/antonio-filipe-conseguira-substituir-sampaio-novoa-2140272",
+        "count": 1
+    },
+    {
+        "category": "Política Cultural",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/15/culturaipsilon/noticia/ministra-cultura-ouviu-preocupacoes-trabalhadores-centro-cultural-belem-2140419",
         "count": 1
     },
     {
@@ -970,6 +998,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/15/impar/noticia/loro-piana-rei-italiano-caxemira-alvo-criticas-explorar-trabalhadores-2140288",
+        "count": 1
+    },
+    {
+        "category": "Índia",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/15/desporto/noticia/morre-114-anos-indiano-considerado-maratonista-velho-mundo-2140416",
         "count": 1
     }
 ]
