@@ -941,7 +941,9 @@ def extract_source(data):
                 return "Eurogamer"
             
             print("DEBUG source_name.lower():", repr(source_name.lower()))
-            if "tek" in source_name.lower() and "notícias" in source_name.lower():
+            print("DEBUG condition result:", "tek notícias" in source_name.lower())
+            if "tek notícias" in source_name.lower():
+                print("DEBUG: Entrou na condição do TEK!")
                 return "SAPO Tek"
             if "jornal i" in source_name.lower():
                 return "Jornal i"
