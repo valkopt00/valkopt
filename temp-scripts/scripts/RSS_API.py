@@ -942,15 +942,20 @@ def extract_source(data):
                 return "Eurogamer"
             if "jornal i" in source_name.lower():
                 return "Jornal i"
+            if "tek notícias" in source_name.lower():
+                return "SAPO Tek"
             # Normalize capitalization for other cases
             return source_name.title()
         elif isinstance(data, str):
+            parsed = urlparse(data)
+            domain = parsed.netloc.lower().removeprefix('www.')
+
             # Check for specific URLs
             if data.startswith("https://www.noticiasaominuto.com"):
                 return "Notícias ao Minuto"
             elif data.startswith("https://www.rtp.pt/"):
                 return "RTP Notícias"
-            elif data.startswith("https://tek.sapo.pt"):
+            elif "tek.sapo.pt" in domain:
                 return "SAPO Tek"
 
             # Default processing for other URLs: extract domain and map if necessary
