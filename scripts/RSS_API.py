@@ -96,6 +96,8 @@ def export_to_json(articles):
     for cat, articles_list in merged_articles.items():
         # Clean articles
         for article in articles_list:
+            if "tek" in article.get("source", "").lower():
+                print(f"DEBUG EXPORT: TEK article source = {repr(article.get('source'))}")
             article.pop("original_category", None)
         
         # Split by priority
@@ -572,6 +574,7 @@ def merge_articles(existing_articles, new_articles, current_date):
     skipped_invalid = 0
     
     for article in all_articles:
+        print(f"DEBUG MERGE: title={article.get('title')[:50]}..., source={repr(article.get('source'))}")
         title = article.get("title")
         category = article.get("category")
         pub_date = article.get("pubDate")
