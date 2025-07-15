@@ -926,26 +926,33 @@ def extract_source(data):
     try:
         if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
             source_name = data.feed.title
-            if "rtp" in source_name.lower():
-                return "RTP Notícias"
-            if "notícias ao minuto" in source_name.lower():
-                return "Notícias ao Minuto"
-            if "renascença" in source_name.lower():
-                return "Renascença"
-            if source_name.upper() == "PÚBLICO":
-                return "Público"
-            if source_name == "News | Euronews RSS":
-                return "Euronews"
-            if source_name == "Notícias zerozero.pt":
-                return "zerozero.pt"
-            if source_name == "Eurogamer.pt Latest Articles Feed":
-                return "Eurogamer"
-            if "jornal i" in source_name.lower():
-                return "Jornal i"
-            if "tek notícias" in source_name.lower():
+            source_name_lower = source_name.lower()
+            
+            # Check for specific sources first (before any normalization)
+            if "tek" in source_name_lower and "notícias" in source_name_lower:
+                print(f"DEBUG SAPO TEK: source_name = '{source_name}'")
+                print(f"DEBUG SAPO TEK: source_name_lower = '{source_name_lower}'")
                 return "SAPO Tek"
+            elif "rtp" in source_name_lower:
+                return "RTP Notícias"
+            elif "notícias ao minuto" in source_name_lower:
+                return "Notícias ao Minuto"
+            elif "renascença" in source_name_lower:
+                return "Renascença"
+            elif source_name.upper() == "PÚBLICO":
+                return "Público"
+            elif source_name == "News | Euronews RSS":
+                return "Euronews"
+            elif source_name == "Notícias zerozero.pt":
+                return "zerozero.pt"
+            elif source_name == "Eurogamer.pt Latest Articles Feed":
+                return "Eurogamer"
+            elif "jornal i" in source_name_lower:
+                return "Jornal i"
+            
             # Normalize capitalization for other cases
             return source_name.title()
+            
         elif isinstance(data, str):
             parsed = urlparse(data)
             domain = parsed.netloc.lower().removeprefix('www.')
