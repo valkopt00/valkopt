@@ -916,6 +916,8 @@ def extract_source(data):
             # Check for specific sources first (before any normalization)
             if "tek" in source_name_lower and "notícias" in source_name_lower:
                 return "SAPO Tek"
+            elif "sapo" in source_name_lower:
+                return "SAPO"
             elif "rtp" in source_name_lower:
                 return "RTP Notícias"
             elif "notícias ao minuto" in source_name_lower:
