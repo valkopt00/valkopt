@@ -401,7 +401,6 @@ def parse_date(date_str, source_url=None):
         if source_url:
             from datetime import timedelta
             if 'rtp.pt' in source_url.lower():
-                print(f"DEBUG RTP: Antes: {parsed_dt}, Depois: {parsed_dt - timedelta(hours=1)}")
                 parsed_dt = parsed_dt - timedelta(hours=1)
             elif 'pt.euronews.com' in source_url.lower():
                 print(f"DEBUG EURONEWS: Sem correção adicional - usando conversão automática de timezone")

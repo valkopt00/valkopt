@@ -1,0 +1,78 @@
+name: Remover Artigos Manualmente
+
+on:
+  workflow_dispatch:  # Só executa manualmente
+
+jobs:
+  remove-articles:
+    name: Executar remove_articles.py e Atualizar Public
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout completo do repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Mudar para branch `data` e preparar pastas
+        run: |
+          git fetch origin data || true
+          if git show-ref --verify --quiet refs/remotes/origin/data; then
+            git checkout data
+          else
+            git checkout --orphan data
+            git reset --hard
+          fi
+
+          # Garante pastas
+          mkdir -p articles public
+
+      - name: Extrair scripts e requirements da branch `main`
+        run: |
+          mkdir -p temp-scripts/scripts
+          git show origin/main:requirements.txt               > temp-scripts/requirements.txt
+          git show origin/main:scripts/remove_articles.py     > temp-scripts/scripts/remove_articles.py
+          git show origin/main:scripts/__init__.py            > temp-scripts/scripts/__init__.py
+          git show origin/main:scripts/mappings.py            > temp-scripts/scripts/mappings.py
+
+      - name: Configurar cache do pip
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('temp-scripts/requirements.txt') }}
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Instalar dependências
+        run: pip install -r temp-scripts/requirements.txt
+
+      - name: Executar script remove_articles.py
+        run: |
+          export PYTHONPATH=$(pwd)/temp-scripts
+          python temp-scripts/scripts/remove_articles.py
+
+      - name: Copiar JSONs atualizados para public
+        run: |
+          # Assegura que artigos atualizados estão em articles/
+          cp articles/articles.json articles/articles_priority.json articles/articles_secondary.json public/
+
+      - name: Criar README informativo
+        run: |
+          echo "# Branch Data - Ficheiros JSON" > README.md
+          echo "Atualizado manualmente em: $(date '+%Y-%m-%d %H:%M:%S')" >> README.md
+
+      - name: Commit e Push para branch `data`
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "Remoção manual de artigos e atualização dos JSONs - $(date '+%Y-%m-%d %H:%M:%S')"
+            git push origin data --force
+          else
+            echo "Nenhuma mudança para commitar"
+          fi
