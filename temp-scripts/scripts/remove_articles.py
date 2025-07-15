@@ -3,7 +3,7 @@ import os
 
 # List of sources to remove
 fonts_to_remove = {
-    "Euronews"
+    "Sapo"
     }
 
 # List of JSON files to process
