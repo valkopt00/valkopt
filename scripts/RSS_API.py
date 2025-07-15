@@ -216,6 +216,8 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                         entry.get('updated', '')
                     )
                     source = extract_source(feed)
+                    print(f"DEBUG: source após extract_source: {repr(source)}")
+
                     link = entry.get('link', '').strip()
                     
                     # Special handling for Público links
@@ -269,7 +271,8 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                                 "isExclusive": False,
                                 "original_category": original_category
                             }
-                            
+                            print(f"DEBUG: article source: {repr(article['source'])}")
+
                             # Add to articles based on category and date
                             articles.append(article)
                             processed_count += 1
