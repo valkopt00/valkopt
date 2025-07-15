@@ -96,8 +96,6 @@ def export_to_json(articles):
     for cat, articles_list in merged_articles.items():
         # Clean articles
         for article in articles_list:
-            if "tek" in article.get("source", "").lower():
-                print(f"DEBUG EXPORT: TEK article source = {repr(article.get('source'))}")
             article.pop("original_category", None)
         
         # Split by priority
@@ -218,7 +216,6 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                         entry.get('updated', '')
                     )
                     source = extract_source(feed)
-                    print(f"DEBUG: source após extract_source: {repr(source)}")
 
                     link = entry.get('link', '').strip()
                     
@@ -273,7 +270,6 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                                 "isExclusive": False,
                                 "original_category": original_category
                             }
-                            print(f"DEBUG: article source: {repr(article['source'])}")
 
                             # Add to articles based on category and date
                             articles.append(article)
@@ -574,7 +570,6 @@ def merge_articles(existing_articles, new_articles, current_date):
     skipped_invalid = 0
     
     for article in all_articles:
-        print(f"DEBUG MERGE: title={article.get('title')[:50]}..., source={repr(article.get('source'))}")
         title = article.get("title")
         category = article.get("category")
         pub_date = article.get("pubDate")
@@ -945,12 +940,6 @@ def extract_source(data):
                 return "zerozero.pt"
             if source_name == "Eurogamer.pt Latest Articles Feed":
                 return "Eurogamer"
-            
-            print("DEBUG source_name.lower():", repr(source_name.lower()))
-            print("DEBUG condition result:", "tek notícias" in source_name.lower())
-            if "tek notícias" in source_name.lower():
-                print("DEBUG: Entrou na condição do TEK!")
-                return "SAPO Tek"
             if "jornal i" in source_name.lower():
                 return "Jornal i"
             # Normalize capitalization for other cases
@@ -961,6 +950,9 @@ def extract_source(data):
                 return "Notícias ao Minuto"
             elif data.startswith("https://www.rtp.pt/"):
                 return "RTP Notícias"
+            elif data.startswith("https://tek.sapo.pt"):
+                return "SAPO Tek"
+
             # Default processing for other URLs: extract domain and map if necessary
             parsed_url = urlparse(data)
             domain = parsed_url.netloc
