@@ -961,6 +961,9 @@ def extract_source(data):
                 return "Notícias ao Minuto"
             elif data.startswith("https://www.rtp.pt/"):
                 return "RTP Notícias"
+            elif 'tek.sapo.pt' in domain:
+                return "SAPO Tek"
+
             # Default processing for other URLs: extract domain and map if necessary
             parsed_url = urlparse(data)
             domain = parsed_url.netloc
