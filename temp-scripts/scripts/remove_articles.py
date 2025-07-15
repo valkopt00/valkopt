@@ -1,33 +1,43 @@
 import json
+import os
 
-# Lista de fontes a remover
-fontes_a_remover = {
-    "Record", "AutoSport", "zerozero.pt", "Eurogamer", 
-    "IGN Portugal", "Jornal de Negócios", "O Jornal Económico"
+# List of categories to remove
+fonts_to_remove = {
+    "Euronews"
 }
 
-# Nome do ficheiro JSON
-ficheiro_json = "articles/articles.json"
+# List of JSON files to process
+json_files = [
+    "articles/articles.json",
+    "articles/articles_priority.json",
+    "articles/articles_secondary.json"
+]
 
-# Carregar os dados do ficheiro JSON
-with open(ficheiro_json, "r", encoding="utf-8") as f:
-    try:
-        dados = json.load(f)
-        if not isinstance(dados, dict):
-            raise ValueError("O ficheiro JSON não tem o formato esperado (objeto com categorias).")
-    except json.JSONDecodeError as e:
-        print(f"Erro ao carregar JSON: {e}")
-        exit(1)
+for file_json in json_files:
+    # Load data from the JSON file
+    with open(file_json, "r", encoding="utf-8") as f:
+        try:
+            data = json.load(f)
+            if not isinstance(data, dict):
+                raise ValueError(f"The JSON file {file_json} does not have the expected top‑level object format.")
+        except json.JSONDecodeError as e:
+            print(f"Error loading JSON from {file_json}: {e}")
+            continue
 
-# Filtrar artigos dentro da categoria "Outras Notícias"
-if "Outras Notícias" in dados:
-    dados["Outras Notícias"] = [
-        artigo for artigo in dados["Outras Notícias"]
-        if artigo.get("source") not in fontes_a_remover
-    ]
+    # Count how many categories exist before removal
+    total_before = len(data)
 
-# Guardar os dados filtrados de volta no ficheiro JSON
-with open(ficheiro_json, "w", encoding="utf-8") as f:
-    json.dump(dados, f, ensure_ascii=False, indent=4)
+    # Remove unwanted categories
+    for source in fonts_to_remove:
+        if source in data:
+            del data[source]
 
-print(f"Artigos filtrados com sucesso. Restam {len(dados.get('Outras Notícias', []))} artigos em 'Outras Notícias'.")
+    # Count how many categories remain
+    total_after = len(data)
+    removed = total_before - total_after
+
+    # Write the updated data back to the JSON file
+    with open(file_json, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+    print(f"[{os.path.basename(file_json)}] Removed {removed} categories; {total_after} remain.")
