@@ -930,8 +930,6 @@ def extract_source(data):
             
             # Check for specific sources first (before any normalization)
             if "tek" in source_name_lower and "notícias" in source_name_lower:
-                print(f"DEBUG SAPO TEK: source_name = '{source_name}'")
-                print(f"DEBUG SAPO TEK: source_name_lower = '{source_name_lower}'")
                 return "SAPO Tek"
             elif "rtp" in source_name_lower:
                 return "RTP Notícias"
