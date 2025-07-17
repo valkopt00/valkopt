@@ -81,7 +81,7 @@
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/lusa/iga-swiatek-conquista-pela-primeira-vez-major-londrino_d1668726",
-        "count": 53
+        "count": 54
     },
     {
         "category": "Migrações",
@@ -161,6 +161,13 @@
         "count": 25
     },
     {
+        "category": "Capas",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
+        "count": 25
+    },
+    {
         "category": "Cm ao Minuto",
         "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias",
@@ -172,27 +179,20 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/azul/noticia/destruicao-zonas-humidas-gerar-perda-economica-33-bilioes-euros-2140351",
-        "count": 23
-    },
-    {
-        "category": "Capas",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
-        "count": 21
-    },
-    {
-        "category": "Cidadania",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/publico-brasil/noticia/fafa-belem-cop30-amazonia-ouvida-respeitada-preservada-2140068",
-        "count": 19
+        "count": 24
     },
     {
         "category": "Em Destaque",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
+        "count": 20
+    },
+    {
+        "category": "Cidadania",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/publico-brasil/noticia/fafa-belem-cop30-amazonia-ouvida-respeitada-preservada-2140068",
         "count": 19
     },
     {
@@ -214,7 +214,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/politica/noticia/sete-graficos-precisa-perceber-estado-nacao-2140510",
-        "count": 14
+        "count": 16
     },
     {
         "category": "Guerra Israel-Hamas",
@@ -252,6 +252,13 @@
         "count": 11
     },
     {
+        "category": "Culturas",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/revista/culturas/2025-07-17-roteiro-pelos-novos-museus-de-lisboa-o-que-importa-ver-no-mac-ccb-macam-e-pavilhao-juliao-sarmento-c350e1ba",
+        "count": 11
+    },
+    {
         "category": "Teatro",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -264,13 +271,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/blitz-posto-emissor/2025-07-17-ivandro-basta-um-jantarzinho-angolano-e-o-meu-sotaque-fica-mais-solto-mas-cresci-aqui-e-sou-mais-portugues-c965c539",
         "count": 10
-    },
-    {
-        "category": "Culturas",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/culturas/2025-07-17-roteiro-pelos-novos-museus-de-lisboa-o-que-importa-ver-no-mac-ccb-macam-e-pavilhao-juliao-sarmento-c350e1ba",
-        "count": 9
     },
     {
         "category": "Direito de Resposta",
@@ -364,6 +364,13 @@
         "count": 5
     },
     {
+        "category": "Fundos europeus",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/economia/fundos-europeus/2025-07-15-pagamentos-do-prr-no-primeiro-semestre-quase-duplicam-b7e91c29",
+        "count": 5
+    },
+    {
         "category": "Google",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -378,6 +385,13 @@
         "count": 5
     },
     {
+        "category": "Teatro & Dança",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/revista/culturas/teatro--danca/2025-07-17-teatro-o-escoamento-da-vida-de-tres-irmas-de-tchekhov-cec78926",
+        "count": 5
+    },
+    {
         "category": "Vinhos",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -389,20 +403,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/17/impar/noticia/palacio-buckingham-assinala-aniversario-rainha-camila-nova-fotografia-2140697",
-        "count": 4
-    },
-    {
-        "category": "Fundos europeus",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/economia/fundos-europeus/2025-07-15-pagamentos-do-prr-no-primeiro-semestre-quase-duplicam-b7e91c29",
-        "count": 4
-    },
-    {
-        "category": "Teatro & Dança",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/culturas/teatro--danca/2025-07-17-teatro-o-escoamento-da-vida-de-tres-irmas-de-tchekhov-cec78926",
         "count": 4
     },
     {
@@ -432,6 +432,13 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/mundo/noticia/zelensky-nomeia-viceprimeiraministra-svyrydenko-chefia-governo-2140223",
         "count": 3
+    },
+    {
+        "category": "Observador",
+        "source": "Observador",
+        "mapped_category": "Outras Notícias",
+        "url": "https://observador.pt/programas/emissao-especial/a-arrepiante-homenagem-a-diogo-jota-no-regresso-do-liverpool/",
+        "count": 2
     },
     {
         "category": "+E",
@@ -1194,13 +1201,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/primeiro/obituario/2025-07-17-mikayla-raines-41deba53",
-        "count": 1
-    },
-    {
-        "category": "Observador",
-        "source": "Observador",
-        "mapped_category": "Outras Notícias",
-        "url": "https://observador.pt/programas/emissao-especial/a-arrepiante-homenagem-a-diogo-jota-no-regresso-do-liverpool/",
         "count": 1
     },
     {
