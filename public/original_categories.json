@@ -11,14 +11,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/ensino/2025-07-15-exames-do-ensino-secundario-matematica-aplicada-e-geometria-com-mediasnegativas-15f76011",
-        "count": 178
+        "count": 180
     },
     {
         "category": "Televisão",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/culturaipsilon/noticia/comedias-romanticas-precisamse-lena-dunham-voltou-pegar-largar-2140065",
-        "count": 154
+        "count": 156
     },
     {
         "category": "Autarquias",
@@ -49,17 +49,17 @@
         "count": 58
     },
     {
-        "category": "China",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/internacional/asia/china/2025-07-14-pequim-enaltece-valor-estrategico-inigualavel-das-relacoes-com-moscovo-808452a0",
-        "count": 55
-    },
-    {
         "category": "Média",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/economia/media/2025-07-14-nova-edicao-do-jornal-de-letras-chega-as-bancas-com-uma-semana-de-atraso-e-futuro-incerto-318c07e3",
+        "count": 56
+    },
+    {
+        "category": "China",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/internacional/asia/china/2025-07-14-pequim-enaltece-valor-estrategico-inigualavel-das-relacoes-com-moscovo-808452a0",
         "count": 55
     },
     {
@@ -88,7 +88,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/iniciativaseprodutos/mais-europa/2025-07-15-um-nariz-eletronico-para-perceber-se-a-carne-e-o-peixe-no-supermercado-estao-bons-para-consumo-e-evitar-a-sua-ida-prematura-para-o-lixo-71548117",
-        "count": 36
+        "count": 37
     },
     {
         "category": "Iniciativas e Produtos",
@@ -102,21 +102,21 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/longevidade/2025-07-15-os-idosos-sao-os-herois-de-hoje.-souberam-sobreviver-e-tinham-um-sonho---dar-um-curso-aos-seus-filhos-3dbe672c",
-        "count": 25
+        "count": 26
     },
     {
         "category": "Migrações",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/migracoes/2025-07-15-imigrantes-do-bangladesh-em-portugal-sentem-aumento-dos-discursos-de-odio-e-da-discriminacao-5fee1954",
-        "count": 25
+        "count": 26
     },
     {
         "category": "Podcast P24",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/mundo/noticia/elon-musk-quer-criar-partido-romper-bipartidarismo-estados-unidos-tera-sucesso-2140112",
-        "count": 25
+        "count": 26
     },
     {
         "category": "Cm ao Minuto",
@@ -285,6 +285,20 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/sociedade/noticia/exmotorista-eduardo-cabrita-conhece-sentenca-caso-atropelamento-a6-2140116",
         "count": 3
+    },
+    {
+        "category": "Estado da nação 2025",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/16/politica/noticia/sete-graficos-precisa-perceber-estado-nacao-2140510",
+        "count": 2
+    },
+    {
+        "category": "Fisga",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/revista/fisga/2025-07-15-jannik-sinner-o-primeiro-italiano-a-vencer-wimbledon-7c688994",
+        "count": 2
     },
     {
         "category": "4.0",
@@ -651,13 +665,6 @@
         "count": 1
     },
     {
-        "category": "Estado da nação 2025",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/16/politica/noticia/sete-graficos-precisa-perceber-estado-nacao-2140510",
-        "count": 1
-    },
-    {
         "category": "Estados Unidos",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -718,13 +725,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/sociedade/noticia/retorica-extremadireita-imigracao-dificulta-combate-violencia-mulheres-2140019",
-        "count": 1
-    },
-    {
-        "category": "Fisga",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/fisga/2025-07-15-jannik-sinner-o-primeiro-italiano-a-vencer-wimbledon-7c688994",
         "count": 1
     },
     {
@@ -886,6 +886,13 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/mercado-aberto/2025-07-15-e-negocio-fechado-por-15-milhoes-de-euros-enzo-barrenechea-esta-a-caminho-do-benfica-para-assinar-por-5-epocas-e69d761a",
+        "count": 1
+    },
+    {
+        "category": "Ministério da Justiça",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/17/sociedade/noticia/ha-220-jovens-cumprir-pena-prisoes-sao-45-ha-cinco-anos-2140206",
         "count": 1
     },
     {
@@ -1208,6 +1215,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/13/azul/noticia/oito-distritos-aviso-amarelo-devido-tempo-quente-terca-quartafeira-2140107",
+        "count": 1
+    },
+    {
+        "category": "Tempo ao Tempo",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/tempo-ao-tempo/2025-07-17-o-que-e-afinal-o-dinheiro--pode-o-banco-de-portugal-emitir-notas-falsas--1848e5ad",
         "count": 1
     },
     {
