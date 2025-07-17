@@ -25,7 +25,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/autarquias/2025-07-14-nao-vou-perder-mais-tempo-com-o-metrobus-rui-moreira-chuta-o-problema-para-o-governo-e-para-quem-o-suceder-8618dd11",
-        "count": 117
+        "count": 118
     },
     {
         "category": "Palavras Cruzadas",
@@ -46,7 +46,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/longevidade/2025-07-15-os-idosos-sao-os-herois-de-hoje.-souberam-sobreviver-e-tinham-um-sonho---dar-um-curso-aos-seus-filhos-3dbe672c",
-        "count": 65
+        "count": 66
     },
     {
         "category": "Imigração",
@@ -60,7 +60,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expressinho/2025-07-17-o-que-eu-ando-a-ler-ff099f8c",
-        "count": 59
+        "count": 62
     },
     {
         "category": "Média",
@@ -81,7 +81,7 @@
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/lusa/iga-swiatek-conquista-pela-primeira-vez-major-londrino_d1668726",
-        "count": 49
+        "count": 50
     },
     {
         "category": "Migrações",
@@ -154,6 +154,13 @@
         "count": 25
     },
     {
+        "category": "Inteligência artificial",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/15/enter/noticia/kimi-k2-novo-modelo-chines-ia-rivaliza-melhores-ocidente-2140303",
+        "count": 25
+    },
+    {
         "category": "Cm ao Minuto",
         "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias",
@@ -161,11 +168,11 @@
         "count": 24
     },
     {
-        "category": "Inteligência artificial",
+        "category": "Planeta",
         "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/15/enter/noticia/kimi-k2-novo-modelo-chines-ia-rivaliza-melhores-ocidente-2140303",
-        "count": 24
+        "url": "https://www.publico.pt/2025/07/16/azul/noticia/destruicao-zonas-humidas-gerar-perda-economica-33-bilioes-euros-2140351",
+        "count": 20
     },
     {
         "category": "Cidadania",
@@ -175,11 +182,11 @@
         "count": 19
     },
     {
-        "category": "Planeta",
+        "category": "Loures",
         "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/16/azul/noticia/destruicao-zonas-humidas-gerar-perda-economica-33-bilioes-euros-2140351",
-        "count": 19
+        "url": "https://www.publico.pt/2025/07/14/local/reportagem/forte-contestacao-forca-camara-loures-avanca-demolicoes-barracas-2140145",
+        "count": 18
     },
     {
         "category": "Domingo",
@@ -189,18 +196,11 @@
         "count": 17
     },
     {
-        "category": "Loures",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/local/reportagem/forte-contestacao-forca-camara-loures-avanca-demolicoes-barracas-2140145",
-        "count": 17
-    },
-    {
         "category": "Em Destaque",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
-        "count": 15
+        "count": 16
     },
     {
         "category": "Guerra Israel-Hamas",
@@ -210,17 +210,17 @@
         "count": 14
     },
     {
-        "category": "Briefing",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/newsletter/despertador",
-        "count": 13
-    },
-    {
         "category": "Mercado Aberto",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/mercado-aberto/2025-07-15-e-negocio-fechado-por-15-milhoes-de-euros-enzo-barrenechea-esta-a-caminho-do-benfica-para-assinar-por-5-epocas-e69d761a",
+        "count": 14
+    },
+    {
+        "category": "Briefing",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/newsletter/despertador",
         "count": 13
     },
     {
@@ -252,6 +252,13 @@
         "count": 10
     },
     {
+        "category": "Capas",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
+        "count": 9
+    },
+    {
         "category": "Direito de Resposta",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -273,6 +280,20 @@
         "count": 8
     },
     {
+        "category": "Aveiro",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/16/local/noticia/artista-frances-constroi-enorme-fabrica-cartao-ajuda-comunidade-aveiro-2140476",
+        "count": 8
+    },
+    {
+        "category": "Estado da nação 2025",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/16/politica/noticia/sete-graficos-precisa-perceber-estado-nacao-2140510",
+        "count": 8
+    },
+    {
         "category": "O Futuro do Futuro",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -287,24 +308,10 @@
         "count": 7
     },
     {
-        "category": "Aveiro",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/16/local/noticia/artista-frances-constroi-enorme-fabrica-cartao-ajuda-comunidade-aveiro-2140476",
-        "count": 7
-    },
-    {
         "category": "Direitos humanos",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/impar/noticia/chegado-maioridade-lamine-yamal-contratou-anoes-aniversario-condenado-2140127",
-        "count": 7
-    },
-    {
-        "category": "Estado da nação 2025",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/16/politica/noticia/sete-graficos-precisa-perceber-estado-nacao-2140510",
         "count": 7
     },
     {
@@ -350,13 +357,6 @@
         "count": 5
     },
     {
-        "category": "Capas",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
-        "count": 5
-    },
-    {
         "category": "Google",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -392,6 +392,13 @@
         "count": 3
     },
     {
+        "category": "Culturas",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/revista/culturas/2025-07-17-roteiro-pelos-novos-museus-de-lisboa-o-que-importa-ver-no-mac-ccb-macam-e-pavilhao-juliao-sarmento-c350e1ba",
+        "count": 3
+    },
+    {
         "category": "Eduardo Cabrita",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -411,13 +418,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/mundo/noticia/zelensky-nomeia-viceprimeiraministra-svyrydenko-chefia-governo-2140223",
         "count": 3
-    },
-    {
-        "category": "Culturas",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/culturas/2025-07-17-roteiro-pelos-novos-museus-de-lisboa-o-que-importa-ver-no-mac-ccb-macam-e-pavilhao-juliao-sarmento-c350e1ba",
-        "count": 2
     },
     {
         "category": "4.0",
