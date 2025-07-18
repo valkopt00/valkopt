@@ -32,21 +32,21 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
-        "count": 89
+        "count": 93
     },
     {
         "category": "Palavras Cruzadas",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/jogos/palavras-cruzadas/2025-07-14-palavras-cruzadas-n-1263-35e09e20",
-        "count": 89
+        "count": 90
     },
     {
         "category": "Expresso Fundamental",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-07-14-ultimas-noticias-de-segunda-feira-dia-14-de-julho-e75b6e2c",
-        "count": 87
+        "count": 88
     },
     {
         "category": "Imigração",
@@ -95,7 +95,21 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/migracoes/2025-07-15-imigrantes-do-bangladesh-em-portugal-sentem-aumento-dos-discursos-de-odio-e-da-discriminacao-5fee1954",
-        "count": 49
+        "count": 50
+    },
+    {
+        "category": "Planeta",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/16/azul/noticia/destruicao-zonas-humidas-gerar-perda-economica-33-bilioes-euros-2140351",
+        "count": 41
+    },
+    {
+        "category": "Culturas",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/revista/culturas/2025-07-17-roteiro-pelos-novos-museus-de-lisboa-o-que-importa-ver-no-mac-ccb-macam-e-pavilhao-juliao-sarmento-c350e1ba",
+        "count": 40
     },
     {
         "category": "Itália",
@@ -103,20 +117,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/culturaipsilon/noticia/roberto-saviano-vitorioso-chora-apos-processo-judicial-importante-vida-2140256",
         "count": 40
-    },
-    {
-        "category": "Planeta",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/16/azul/noticia/destruicao-zonas-humidas-gerar-perda-economica-33-bilioes-euros-2140351",
-        "count": 40
-    },
-    {
-        "category": "Culturas",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/culturas/2025-07-17-roteiro-pelos-novos-museus-de-lisboa-o-que-importa-ver-no-mac-ccb-macam-e-pavilhao-juliao-sarmento-c350e1ba",
-        "count": 39
     },
     {
         "category": "Operação Marquês",
@@ -137,7 +137,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
-        "count": 36
+        "count": 37
     },
     {
         "category": "Iniciativas e Produtos",
@@ -207,7 +207,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/economia/fundos-europeus/2025-07-15-pagamentos-do-prr-no-primeiro-semestre-quase-duplicam-b7e91c29",
-        "count": 21
+        "count": 22
     },
     {
         "category": "Teatro & Dança",
@@ -224,25 +224,25 @@
         "count": 19
     },
     {
-        "category": "Loures",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/local/reportagem/forte-contestacao-forca-camara-loures-avanca-demolicoes-barracas-2140145",
-        "count": 18
-    },
-    {
         "category": "Observador",
         "source": "Observador",
         "mapped_category": "Outras Notícias",
         "url": "https://observador.pt/programas/emissao-especial/a-arrepiante-homenagem-a-diogo-jota-no-regresso-do-liverpool/",
-        "count": 18
+        "count": 19
     },
     {
         "category": "Briefing",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/newsletter/despertador",
-        "count": 17
+        "count": 18
+    },
+    {
+        "category": "Loures",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/local/reportagem/forte-contestacao-forca-camara-loures-avanca-demolicoes-barracas-2140145",
+        "count": 18
     },
     {
         "category": "Domingo",
@@ -364,6 +364,13 @@
         "count": 7
     },
     {
+        "category": "CPLP",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/18/politica/noticia/portugal-oposse-inclusao-direito-palestinianos-comer-declaracao-cplp-2140693",
+        "count": 6
+    },
+    {
         "category": "Hospitais",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -382,13 +389,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/p3/noticia/movimento-body-positivity-morreu-ozempic-corpo-magro-desapareceu-2135332",
-        "count": 5
-    },
-    {
-        "category": "CPLP",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/18/politica/noticia/portugal-oposse-inclusao-direito-palestinianos-comer-declaracao-cplp-2140693",
         "count": 5
     },
     {
@@ -788,6 +788,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/13/desporto/cronica_de_jogo/psg-europa-chelsea-ficou-mundo-2140103",
+        "count": 1
+    },
+    {
+        "category": "Crónica do Observatório da Fraude",
+        "source": "Jornal i",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/07/18/investimento-em-defesa-uma-oportunidade-para-o-pais/",
         "count": 1
     },
     {
