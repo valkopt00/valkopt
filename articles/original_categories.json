@@ -46,7 +46,14 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/politica/noticia/ps-acusa-governo-violar-constituicao-deveres-legais-lei-estrangeiros-2140203",
-        "count": 73
+        "count": 74
+    },
+    {
+        "category": "Capas",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
+        "count": 69
     },
     {
         "category": "Longevidade",
@@ -56,18 +63,11 @@
         "count": 66
     },
     {
-        "category": "Capas",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
-        "count": 65
-    },
-    {
         "category": "LUSA-INBOX",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/lusa/iga-swiatek-conquista-pela-primeira-vez-major-londrino_d1668726",
-        "count": 64
+        "count": 65
     },
     {
         "category": "Expressinho",
@@ -119,6 +119,13 @@
         "count": 38
     },
     {
+        "category": "Planeta",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/16/azul/noticia/destruicao-zonas-humidas-gerar-perda-economica-33-bilioes-euros-2140351",
+        "count": 35
+    },
+    {
         "category": "Iniciativas e Produtos",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -126,11 +133,11 @@
         "count": 34
     },
     {
-        "category": "Planeta",
-        "source": "Público",
+        "category": "Culturas",
+        "source": "Expresso",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/16/azul/noticia/destruicao-zonas-humidas-gerar-perda-economica-33-bilioes-euros-2140351",
-        "count": 34
+        "url": "https://expresso.pt/revista/culturas/2025-07-17-roteiro-pelos-novos-museus-de-lisboa-o-que-importa-ver-no-mac-ccb-macam-e-pavilhao-juliao-sarmento-c350e1ba",
+        "count": 33
     },
     {
         "category": "Estado da nação 2025",
@@ -140,18 +147,11 @@
         "count": 32
     },
     {
-        "category": "Culturas",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/culturas/2025-07-17-roteiro-pelos-novos-museus-de-lisboa-o-que-importa-ver-no-mac-ccb-macam-e-pavilhao-juliao-sarmento-c350e1ba",
-        "count": 31
-    },
-    {
         "category": "Em Destaque",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
-        "count": 30
+        "count": 31
     },
     {
         "category": "Inteligência artificial",
@@ -182,18 +182,18 @@
         "count": 26
     },
     {
+        "category": "Banca",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/economia/noticia/centro-vssarmento-choque-prejuizos-defices-2139929",
+        "count": 26
+    },
+    {
         "category": "Fisga",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/fisga/2025-07-15-jannik-sinner-o-primeiro-italiano-a-vencer-wimbledon-7c688994",
         "count": 26
-    },
-    {
-        "category": "Banca",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/economia/noticia/centro-vssarmento-choque-prejuizos-defices-2139929",
-        "count": 25
     },
     {
         "category": "Cm ao Minuto",
@@ -228,14 +228,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/economia/fundos-europeus/2025-07-15-pagamentos-do-prr-no-primeiro-semestre-quase-duplicam-b7e91c29",
-        "count": 15
+        "count": 16
     },
     {
         "category": "Teatro & Dança",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/culturas/teatro--danca/2025-07-17-teatro-o-escoamento-da-vida-de-tres-irmas-de-tchekhov-cec78926",
-        "count": 15
+        "count": 16
     },
     {
         "category": "Guerra Israel-Hamas",
@@ -263,7 +263,7 @@
         "source": "Observador",
         "mapped_category": "Outras Notícias",
         "url": "https://observador.pt/programas/emissao-especial/a-arrepiante-homenagem-a-diogo-jota-no-regresso-do-liverpool/",
-        "count": 12
+        "count": 13
     },
     {
         "category": "PSD",
@@ -280,6 +280,13 @@
         "count": 11
     },
     {
+        "category": "Podcast Soundbite",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/politica/noticia/antonio-filipe-conseguira-substituir-sampaio-novoa-2140272",
+        "count": 11
+    },
+    {
         "category": "Teatro",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -291,13 +298,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/blitz-posto-emissor/2025-07-17-ivandro-basta-um-jantarzinho-angolano-e-o-meu-sotaque-fica-mais-solto-mas-cresci-aqui-e-sou-mais-portugues-c965c539",
-        "count": 10
-    },
-    {
-        "category": "Podcast Soundbite",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/politica/noticia/antonio-filipe-conseguira-substituir-sampaio-novoa-2140272",
         "count": 10
     },
     {
@@ -616,6 +616,13 @@
         "count": 1
     },
     {
+        "category": "CPLP",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/18/politica/noticia/portugal-oposse-inclusao-direito-palestinianos-comer-declaracao-cplp-2140693",
+        "count": 1
+    },
+    {
         "category": "Café Central",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
@@ -711,6 +718,13 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/comportamento/2025-07-17-numero-de-jovens-a-cumprir-pena-nas-prisoes-aumentou-45-desde-2019-leiria-concentra-a-maioria-0da11e20",
+        "count": 1
+    },
+    {
+        "category": "Comunidade dos Países de Língua Portuguesa",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/18/politica/noticia/portugal-poe-causa-mobilidade-cplp-espero-envergonhe-ministro-2140695",
         "count": 1
     },
     {
