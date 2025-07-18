@@ -1122,7 +1122,6 @@ async def extract_image_url(entry, session, mapped_category=None):
             image_url = jornal_economico_logo
 
         if not image_url and re.search(r"(www\.)?cmjornal\.pt/opiniao", lc_link):
-            print("✅ Artigo CM Opinião sem imagem — usar default")
             image_url = cmjornal_logo
 
         return image_url
