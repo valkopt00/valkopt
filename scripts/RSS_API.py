@@ -1053,7 +1053,7 @@ async def extract_image_url(entry, session, mapped_category=None):
     jornal_economico_logo = (
         "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
     )
-    cmjornal_opinion_img = (
+    cmjornal_logo = (
         "https://imagens.publico.pt/imagens.aspx/260779?tp=UH&db=IMAGENS&type=JPG"
     )
 
@@ -1121,8 +1121,8 @@ async def extract_image_url(entry, session, mapped_category=None):
         if not image_url and "jornaleconomico.pt" in lc_link:
             image_url = jornal_economico_logo
 
-        if not image_url and lc_link.startswith("https://www.cmjornal.pt/opiniao/"):
-            image_url = cmjornal_opinion_img
+        if not image_url and "cmjornal.pt/opiniao" in lc_link:
+            image_url = cmjornal_logo
 
         return image_url
 
