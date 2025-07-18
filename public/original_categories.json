@@ -25,28 +25,28 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/politica/autarquias/2025-07-14-nao-vou-perder-mais-tempo-com-o-metrobus-rui-moreira-chuta-o-problema-para-o-governo-e-para-quem-o-suceder-8618dd11",
-        "count": 121
+        "count": 122
     },
     {
         "category": "Capas",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
-        "count": 113
+        "count": 117
     },
     {
         "category": "Palavras Cruzadas",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/jogos/palavras-cruzadas/2025-07-14-palavras-cruzadas-n-1263-35e09e20",
-        "count": 95
+        "count": 96
     },
     {
         "category": "Expresso Fundamental",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-07-14-ultimas-noticias-de-segunda-feira-dia-14-de-julho-e75b6e2c",
-        "count": 93
+        "count": 94
     },
     {
         "category": "Imigração",
@@ -77,6 +77,13 @@
         "count": 62
     },
     {
+        "category": "Migrações",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/sociedade/migracoes/2025-07-15-imigrantes-do-bangladesh-em-portugal-sentem-aumento-dos-discursos-de-odio-e-da-discriminacao-5fee1954",
+        "count": 56
+    },
+    {
         "category": "Média",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -91,25 +98,18 @@
         "count": 55
     },
     {
-        "category": "Migrações",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/sociedade/migracoes/2025-07-15-imigrantes-do-bangladesh-em-portugal-sentem-aumento-dos-discursos-de-odio-e-da-discriminacao-5fee1954",
-        "count": 55
-    },
-    {
         "category": "Planeta",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/azul/noticia/destruicao-zonas-humidas-gerar-perda-economica-33-bilioes-euros-2140351",
-        "count": 46
+        "count": 47
     },
     {
         "category": "Culturas",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/culturas/2025-07-17-roteiro-pelos-novos-museus-de-lisboa-o-que-importa-ver-no-mac-ccb-macam-e-pavilhao-juliao-sarmento-c350e1ba",
-        "count": 45
+        "count": 46
     },
     {
         "category": "Em Destaque",
@@ -154,6 +154,13 @@
         "count": 32
     },
     {
+        "category": "Fundos europeus",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/economia/fundos-europeus/2025-07-15-pagamentos-do-prr-no-primeiro-semestre-quase-duplicam-b7e91c29",
+        "count": 28
+    },
+    {
         "category": "Inteligência artificial",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -165,13 +172,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/economia/noticia/centro-vssarmento-choque-prejuizos-defices-2139929",
-        "count": 27
-    },
-    {
-        "category": "Fundos europeus",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/economia/fundos-europeus/2025-07-15-pagamentos-do-prr-no-primeiro-semestre-quase-duplicam-b7e91c29",
         "count": 27
     },
     {
@@ -203,17 +203,17 @@
         "count": 26
     },
     {
-        "category": "Cm ao Minuto",
-        "source": "Correio Da Manhã",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.cmjornal.pt/cm-ao-minuto/detalhe/medio-orkun-kokcu-deixa-benfica-e-e-reforco-do-besiktas",
-        "count": 24
-    },
-    {
         "category": "Observador",
         "source": "Observador",
         "mapped_category": "Outras Notícias",
         "url": "https://observador.pt/programas/emissao-especial/a-arrepiante-homenagem-a-diogo-jota-no-regresso-do-liverpool/",
+        "count": 25
+    },
+    {
+        "category": "Cm ao Minuto",
+        "source": "Correio Da Manhã",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.cmjornal.pt/cm-ao-minuto/detalhe/medio-orkun-kokcu-deixa-benfica-e-e-reforco-do-besiktas",
         "count": 24
     },
     {
@@ -462,6 +462,20 @@
         "count": 3
     },
     {
+        "category": "Celebridades",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/17/impar/noticia/sydney-sweeney-regressa-moda-marca-lingerie-patrocinada-jeff-bezos-2140684",
+        "count": 2
+    },
+    {
+        "category": "Pensões",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/17/economia/noticia/montenegro-anuncia-novo-bonus-100-200-euros-pensoes-ate-15675-euros-2140712",
+        "count": 2
+    },
+    {
         "category": "+E",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -669,13 +683,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/opinao/cartoon/2025-07-17-a-nobelizacao-25afac2f",
-        "count": 1
-    },
-    {
-        "category": "Celebridades",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/17/impar/noticia/sydney-sweeney-regressa-moda-marca-lingerie-patrocinada-jeff-bezos-2140684",
         "count": 1
     },
     {
@@ -1162,6 +1169,13 @@
         "count": 1
     },
     {
+        "category": "Meditação na Pastelaria",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/18/culturaipsilon/cronica/ah-ociosidade-verao-2140282",
+        "count": 1
+    },
+    {
         "category": "Ministério da Justiça",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1365,13 +1379,6 @@
         "count": 1
     },
     {
-        "category": "Pensões",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/17/economia/noticia/montenegro-anuncia-novo-bonus-100-200-euros-pensoes-ate-15675-euros-2140712",
-        "count": 1
-    },
-    {
         "category": "Perguntas e Respostas",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1495,6 +1502,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/local/noticia/jovem-desaparecido-parque-aquatico-torres-vedras-2140564",
+        "count": 1
+    },
+    {
+        "category": "Prova dos Factos",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/18/politica/noticia/inem-privatizacao-tap-factos-debate-estado-nacao-2140783",
         "count": 1
     },
     {
@@ -1824,6 +1838,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/15/desporto/noticia/morre-114-anos-indiano-considerado-maratonista-velho-mundo-2140416",
+        "count": 1
+    },
+    {
+        "category": "Ípsilon",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/18/newsletter/ipsilon",
         "count": 1
     },
     {
