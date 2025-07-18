@@ -1121,12 +1121,8 @@ async def extract_image_url(entry, session, mapped_category=None):
         if not image_url and "jornaleconomico.pt" in lc_link:
             image_url = jornal_economico_logo
 
-        if not image_url and mapped_category:
-            print("Categoria:", mapped_category)
-            print("Link:", lc_link)
-            if mapped_category.strip().lower() == "opinião" and "cmjornal.pt" in lc_link:
-                print("⚠️ Atribuindo imagem default de Opinião do CM")
-                image_url = cmjornal_opinion_img
+        if not image_url and lc_link.startswith("https://www.cmjornal.pt/opiniao/"):
+            image_url = cmjornal_opinion_img
 
         return image_url
 
