@@ -18,7 +18,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/ensino/2025-07-15-exames-do-ensino-secundario-matematica-aplicada-e-geometria-com-mediasnegativas-15f76011",
-        "count": 206
+        "count": 208
     },
     {
         "category": "Capas",
@@ -32,7 +32,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/jogos/palavras-cruzadas/2025-07-14-palavras-cruzadas-n-1263-35e09e20",
-        "count": 156
+        "count": 157
     },
     {
         "category": "Migrações",
@@ -53,7 +53,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/economia/sistema-financeiro/2025-07-16-o-grande-designio-e-dinamizar-na-europa-os-pagamentos-digitais-2ae3929d",
-        "count": 132
+        "count": 133
     },
     {
         "category": "Autarquias",
@@ -88,14 +88,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expressinho/2025-07-17-o-que-eu-ando-a-ler-ff099f8c",
-        "count": 86
+        "count": 87
     },
     {
         "category": "China",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/asia/china/2025-07-14-pequim-enaltece-valor-estrategico-inigualavel-das-relacoes-com-moscovo-808452a0",
-        "count": 70
+        "count": 71
     },
     {
         "category": "LUSA-INBOX",
@@ -322,6 +322,20 @@
         "count": 16
     },
     {
+        "category": "Geração 60",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/geracao-60/2025-07-14-fiz-o-hotel-wc-e-o-dono-disse-me-que-os-quartos-eram-pequenos.-respondi-vamos-por-as-pessoas-a-dormir-no-wc.-e-um-caso-de-estudo-a5a68e8a",
+        "count": 16
+    },
+    {
+        "category": "O CEO é o limite em Podcast",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/o-ceo-e-o-limite/2025-07-14-ricardo-alves-ceo-da-riberalves-a-empresa-nao-e-nossa-estamos-a-geri-la.-tem-donos-mas-tem-sobretudo-500-familias-que-dependem-de-nos-fff19aca",
+        "count": 16
+    },
+    {
         "category": "Obituário",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -329,31 +343,17 @@
         "count": 16
     },
     {
-        "category": "Geração 60",
-        "source": "Expresso",
+        "category": "PS",
+        "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/geracao-60/2025-07-14-fiz-o-hotel-wc-e-o-dono-disse-me-que-os-quartos-eram-pequenos.-respondi-vamos-por-as-pessoas-a-dormir-no-wc.-e-um-caso-de-estudo-a5a68e8a",
-        "count": 15
+        "url": "https://www.publico.pt/2025/07/13/politica/noticia/carneiro-critica-empurrar-responsabilidades-saude-defesa-2140106",
+        "count": 16
     },
     {
         "category": "Local",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/20/azul/noticia/parque-eolico-arcos-valdevez-sera-atrocidade-loboiberico-2140830",
-        "count": 15
-    },
-    {
-        "category": "O CEO é o limite em Podcast",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/o-ceo-e-o-limite/2025-07-14-ricardo-alves-ceo-da-riberalves-a-empresa-nao-e-nossa-estamos-a-geri-la.-tem-donos-mas-tem-sobretudo-500-familias-que-dependem-de-nos-fff19aca",
-        "count": 15
-    },
-    {
-        "category": "PS",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/13/politica/noticia/carneiro-critica-empurrar-responsabilidades-saude-defesa-2140106",
         "count": 15
     },
     {
@@ -371,17 +371,17 @@
         "count": 14
     },
     {
-        "category": "Japão",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/internacional/asia/japao/2025-07-14-nunca-nasceram-tao-poucos-bebes-no-japao-60-mil-por-crianca-e-tudo-o-que-e-necessario-ou-tendencia-nao-pode-ser-revertida--300e997a",
-        "count": 13
-    },
-    {
         "category": "Religião",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/17/sociedade/noticia/tac-estatua-senhora-malaga-descobre-capsula-conter-mensagem-2140627",
+        "count": 14
+    },
+    {
+        "category": "Japão",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/internacional/asia/japao/2025-07-14-nunca-nasceram-tao-poucos-bebes-no-japao-60-mil-por-crianca-e-tudo-o-que-e-necessario-ou-tendencia-nao-pode-ser-revertida--300e997a",
         "count": 13
     },
     {
@@ -427,6 +427,13 @@
         "count": 10
     },
     {
+        "category": "Consulta Aberta",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/consulta-aberta/2025-07-14-ter-vivido-numa-casa-de-acolhimento-moldou-me-mas-nao-me-define.-que-nao-tenha-vergonha-quem-esta-nessa-situacao-a-culpa-nao-e-nossa-366e3e0a",
+        "count": 10
+    },
+    {
         "category": "Estados Unidos",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -446,13 +453,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/15/impar/noticia/loro-piana-rei-italiano-caxemira-alvo-criticas-explorar-trabalhadores-2140288",
         "count": 10
-    },
-    {
-        "category": "Consulta Aberta",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/consulta-aberta/2025-07-14-ter-vivido-numa-casa-de-acolhimento-moldou-me-mas-nao-me-define.-que-nao-tenha-vergonha-quem-esta-nessa-situacao-a-culpa-nao-e-nossa-366e3e0a",
-        "count": 9
     },
     {
         "category": "Direito de Resposta",
@@ -672,6 +672,13 @@
         "count": 3
     },
     {
+        "category": "Explicadores",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/17/enter/noticia/nova-funcao-gmail-permite-agendar-reunioes-sair-email-saiba-2140752",
+        "count": 3
+    },
+    {
         "category": "José Luís Carneiro",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -691,13 +698,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/mundo/noticia/zelensky-nomeia-viceprimeiraministra-svyrydenko-chefia-governo-2140223",
         "count": 3
-    },
-    {
-        "category": "Explicadores",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/17/enter/noticia/nova-funcao-gmail-permite-agendar-reunioes-sair-email-saiba-2140752",
-        "count": 2
     },
     {
         "category": "+E",
@@ -1159,6 +1159,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/p3/noticia/comissao-europeia-abre-435-vagas-emprego-areas-comunicacao-2140185",
+        "count": 1
+    },
+    {
+        "category": "Enter",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/21/enter/noticia/grave-falha-sharepoint-permite-ciberataques-globais-governos-empresas-2141124",
         "count": 1
     },
     {
