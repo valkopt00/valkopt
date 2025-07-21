@@ -4,7 +4,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/lusa/2025-07-12-irao-reitera-direito-ao-enriquecimento-de-uranio-em-possivel-acordo-nuclear-3b2b9c57",
-        "count": 571
+        "count": 572
     },
     {
         "category": "Televisão",
@@ -67,7 +67,14 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/politica/noticia/ps-acusa-governo-violar-constituicao-deveres-legais-lei-estrangeiros-2140203",
-        "count": 107
+        "count": 108
+    },
+    {
+        "category": "Sistema financeiro",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/economia/sistema-financeiro/2025-07-16-o-grande-designio-e-dinamizar-na-europa-os-pagamentos-digitais-2ae3929d",
+        "count": 92
     },
     {
         "category": "Ásia",
@@ -75,13 +82,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/asia/2025-07-14-wonsan-kalma-o-postal-turistico-que-kim-jong-un-quer-mostrar-ao-mundo-prova-que-ate-um-resort-e-historia-complicada-na-coreia-do-norte-2e401146",
         "count": 91
-    },
-    {
-        "category": "Sistema financeiro",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/economia/sistema-financeiro/2025-07-16-o-grande-designio-e-dinamizar-na-europa-os-pagamentos-digitais-2ae3929d",
-        "count": 90
     },
     {
         "category": "LUSA-INBOX",
@@ -165,7 +165,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/local/reportagem/forte-contestacao-forca-camara-loures-avanca-demolicoes-barracas-2140145",
-        "count": 36
+        "count": 37
     },
     {
         "category": "Banca",
@@ -242,7 +242,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/desporto/noticia/neemias-queta-vai-jogar-portugal-eurobasket-2025-2140200",
-        "count": 23
+        "count": 24
     },
     {
         "category": "Celebridades",
@@ -301,6 +301,13 @@
         "count": 16
     },
     {
+        "category": "Guerra Israel-Hamas",
+        "source": "Correio Da Manhã",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.cmjornal.pt/mais-cm/especiais/guerra-israel-hamas/detalhe/cidade-humanitaria-em-gaza-e-campo-de-concentracao-diz-ex-primeiro-ministro-israelita",
+        "count": 16
+    },
+    {
         "category": "Obituário",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -312,13 +319,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/13/sociedade/noticia/acesso-ensino-superior-quero-trabalhar-ar-livre-cursos-ha-mim-2139686",
-        "count": 15
-    },
-    {
-        "category": "Guerra Israel-Hamas",
-        "source": "Correio Da Manhã",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.cmjornal.pt/mais-cm/especiais/guerra-israel-hamas/detalhe/cidade-humanitaria-em-gaza-e-campo-de-concentracao-diz-ex-primeiro-ministro-israelita",
         "count": 15
     },
     {
@@ -595,6 +595,13 @@
         "count": 4
     },
     {
+        "category": "Calor",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/15/azul/noticia/armadilhas-calor-morrem-tantos-idosos-termometros-disparam-2140271",
+        "count": 3
+    },
+    {
         "category": "Cascais",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -642,13 +649,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/mundo/noticia/zelensky-nomeia-viceprimeiraministra-svyrydenko-chefia-governo-2140223",
         "count": 3
-    },
-    {
-        "category": "Calor",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/15/azul/noticia/armadilhas-calor-morrem-tantos-idosos-termometros-disparam-2140271",
-        "count": 2
     },
     {
         "category": "+E",
@@ -2090,6 +2090,13 @@
         "source": "Jornal I",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/07/14/aumento-de-177-de-despedimentos-coletivos-ate-maio/",
+        "count": 1
+    },
+    {
+        "category": "luto",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/21/publico-brasil/noticia/morre-cantora-preta-gil-filha-gilberto-gil-50-anos-2141081",
         "count": 1
     },
     {
