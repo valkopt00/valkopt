@@ -11,7 +11,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/ensino/2025-07-15-exames-do-ensino-secundario-matematica-aplicada-e-geometria-com-mediasnegativas-15f76011",
-        "count": 283
+        "count": 286
     },
     {
         "category": "Televisão",
@@ -39,7 +39,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/economia/sistema-financeiro/2025-07-16-o-grande-designio-e-dinamizar-na-europa-os-pagamentos-digitais-2ae3929d",
-        "count": 165
+        "count": 166
     },
     {
         "category": "Expresso Fundamental",
@@ -53,7 +53,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/migracoes/2025-07-15-imigrantes-do-bangladesh-em-portugal-sentem-aumento-dos-discursos-de-odio-e-da-discriminacao-5fee1954",
-        "count": 141
+        "count": 142
     },
     {
         "category": "Autarquias",
@@ -130,7 +130,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/economia/noticia/centro-vssarmento-choque-prejuizos-defices-2139929",
-        "count": 52
+        "count": 53
     },
     {
         "category": "Culturas",
@@ -161,18 +161,18 @@
         "count": 40
     },
     {
+        "category": "Consulta Aberta",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/consulta-aberta/2025-07-14-ter-vivido-numa-casa-de-acolhimento-moldou-me-mas-nao-me-define.-que-nao-tenha-vergonha-quem-esta-nessa-situacao-a-culpa-nao-e-nossa-366e3e0a",
+        "count": 39
+    },
+    {
         "category": "Operação Marquês",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/investigacao/operacao-marques/2025-07-15-operacao-marques-socrates-regressa-ao-tribunal-para-a-quinta-sessao-do-julgamento-c4340ed9",
         "count": 39
-    },
-    {
-        "category": "Consulta Aberta",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/consulta-aberta/2025-07-14-ter-vivido-numa-casa-de-acolhimento-moldou-me-mas-nao-me-define.-que-nao-tenha-vergonha-quem-esta-nessa-situacao-a-culpa-nao-e-nossa-366e3e0a",
-        "count": 38
     },
     {
         "category": "Mais Europa",
@@ -214,13 +214,20 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/asia/japao/2025-07-14-nunca-nasceram-tao-poucos-bebes-no-japao-60-mil-por-crianca-e-tudo-o-que-e-necessario-ou-tendencia-nao-pode-ser-revertida--300e997a",
-        "count": 31
+        "count": 32
     },
     {
         "category": "Fundos europeus",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/economia/fundos-europeus/2025-07-15-pagamentos-do-prr-no-primeiro-semestre-quase-duplicam-b7e91c29",
+        "count": 30
+    },
+    {
+        "category": "Mercado Aberto",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/mercado-aberto/2025-07-15-e-negocio-fechado-por-15-milhoes-de-euros-enzo-barrenechea-esta-a-caminho-do-benfica-para-assinar-por-5-epocas-e69d761a",
         "count": 30
     },
     {
@@ -235,13 +242,6 @@
         "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias",
         "url": "https://www.cmjornal.pt/cm-ao-minuto/detalhe/medio-orkun-kokcu-deixa-benfica-e-e-reforco-do-besiktas",
-        "count": 29
-    },
-    {
-        "category": "Mercado Aberto",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/mercado-aberto/2025-07-15-e-negocio-fechado-por-15-milhoes-de-euros-enzo-barrenechea-esta-a-caminho-do-benfica-para-assinar-por-5-epocas-e69d761a",
         "count": 29
     },
     {
@@ -266,6 +266,13 @@
         "count": 27
     },
     {
+        "category": "Emprego",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/p3/noticia/comissao-europeia-abre-435-vagas-emprego-areas-comunicacao-2140185",
+        "count": 27
+    },
+    {
         "category": "Geração 60",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -284,13 +291,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/angola/2025-07-14-metade-das-criancas-no-sul-de-angola-sofre-de-desnutricao-cronica-cf502f70",
-        "count": 26
-    },
-    {
-        "category": "Emprego",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/p3/noticia/comissao-europeia-abre-435-vagas-emprego-areas-comunicacao-2140185",
         "count": 26
     },
     {
@@ -350,17 +350,17 @@
         "count": 21
     },
     {
-        "category": "Cidadania",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/publico-brasil/noticia/fafa-belem-cop30-amazonia-ouvida-respeitada-preservada-2140068",
-        "count": 19
-    },
-    {
         "category": "PALOP",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/palop/2025-07-21-venancio-mondlane-diz-que-recusa-de-entrada-a-humoristas-teve-motivacoes-politicas-o-gilmario-vemba-foi-meu-embaixador-b6e55a53",
+        "count": 20
+    },
+    {
+        "category": "Cidadania",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/publico-brasil/noticia/fafa-belem-cop30-amazonia-ouvida-respeitada-preservada-2140068",
         "count": 19
     },
     {
@@ -406,17 +406,17 @@
         "count": 14
     },
     {
-        "category": "Praias",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/azul/noticia/levantada-interdicao-praias-labruge-angeiras-norte-apos-descargas-lactogal-2140247",
-        "count": 12
-    },
-    {
         "category": "Água",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/20/mundo/noticia/cortes-trump-financiamento-projectos-hidricos-ameacam-milhoes-pessoas-2141025",
+        "count": 13
+    },
+    {
+        "category": "Praias",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/azul/noticia/levantada-interdicao-praias-labruge-angeiras-norte-apos-descargas-lactogal-2140247",
         "count": 12
     },
     {
