@@ -74,7 +74,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/economia/sistema-financeiro/2025-07-16-o-grande-designio-e-dinamizar-na-europa-os-pagamentos-digitais-2ae3929d",
-        "count": 104
+        "count": 106
     },
     {
         "category": "Ásia",
@@ -88,7 +88,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expressinho/2025-07-17-o-que-eu-ando-a-ler-ff099f8c",
-        "count": 72
+        "count": 73
     },
     {
         "category": "LUSA-INBOX",
@@ -123,7 +123,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/asia/china/2025-07-14-pequim-enaltece-valor-estrategico-inigualavel-das-relacoes-com-moscovo-808452a0",
-        "count": 56
+        "count": 57
     },
     {
         "category": "Culturas",
@@ -210,6 +210,13 @@
         "count": 30
     },
     {
+        "category": "Podcast P24",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/mundo/noticia/elon-musk-quer-criar-partido-romper-bipartidarismo-estados-unidos-tera-sucesso-2140112",
+        "count": 28
+    },
+    {
         "category": "Basquetebol",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -221,13 +228,6 @@
         "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias",
         "url": "https://www.cmjornal.pt/cm-ao-minuto/detalhe/medio-orkun-kokcu-deixa-benfica-e-e-reforco-do-besiktas",
-        "count": 27
-    },
-    {
-        "category": "Podcast P24",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/mundo/noticia/elon-musk-quer-criar-partido-romper-bipartidarismo-estados-unidos-tera-sucesso-2140112",
         "count": 27
     },
     {
@@ -364,6 +364,13 @@
         "count": 11
     },
     {
+        "category": "Análise",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/13/mundo/analise/regresso-entente-cordiale-2140022",
+        "count": 11
+    },
+    {
         "category": "In memoriam",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -376,13 +383,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/culturaipsilon/noticia/sao-luiz-202526-siegfried-joy-bonnie-prince-billy-2140571",
         "count": 11
-    },
-    {
-        "category": "Análise",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/13/mundo/analise/regresso-entente-cordiale-2140022",
-        "count": 10
     },
     {
         "category": "Blitz Posto Emissor",
@@ -649,6 +649,34 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/mundo/noticia/zelensky-nomeia-viceprimeiraministra-svyrydenko-chefia-governo-2140223",
         "count": 3
+    },
+    {
+        "category": "Geração 60",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/geracao-60/2025-07-14-fiz-o-hotel-wc-e-o-dono-disse-me-que-os-quartos-eram-pequenos.-respondi-vamos-por-as-pessoas-a-dormir-no-wc.-e-um-caso-de-estudo-a5a68e8a",
+        "count": 2
+    },
+    {
+        "category": "O CEO é o limite em Podcast",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/o-ceo-e-o-limite/2025-07-14-ricardo-alves-ceo-da-riberalves-a-empresa-nao-e-nossa-estamos-a-geri-la.-tem-donos-mas-tem-sobretudo-500-familias-que-dependem-de-nos-fff19aca",
+        "count": 2
+    },
+    {
+        "category": "Perguntas e respostas",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/sociedade/noticia/milhao-utentes-sns-comecam-amanha-convocados-actualizarem-dados-2140094",
+        "count": 2
+    },
+    {
+        "category": "Podcast Biblioteca de Bolso",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/culturaipsilon/noticia/biblioteca-bolso-filipe-homem-fonseca-2140141",
+        "count": 2
     },
     {
         "category": "+E",
@@ -1218,13 +1246,6 @@
         "count": 1
     },
     {
-        "category": "Geração 60",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/geracao-60/2025-07-14-fiz-o-hotel-wc-e-o-dono-disse-me-que-os-quartos-eram-pequenos.-respondi-vamos-por-as-pessoas-a-dormir-no-wc.-e-um-caso-de-estudo-a5a68e8a",
-        "count": 1
-    },
-    {
         "category": "Geração 80",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -1463,13 +1484,6 @@
         "count": 1
     },
     {
-        "category": "O CEO é o limite em Podcast",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/o-ceo-e-o-limite/2025-07-14-ricardo-alves-ceo-da-riberalves-a-empresa-nao-e-nossa-estamos-a-geri-la.-tem-donos-mas-tem-sobretudo-500-familias-que-dependem-de-nos-fff19aca",
-        "count": 1
-    },
-    {
         "category": "O Estado das Coisas",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1631,17 +1645,17 @@
         "count": 1
     },
     {
+        "category": "Perguntar Não Ofende",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/perguntar-nao-ofende/2025-07-21-o-humor-serve-para-mais-do-que-rir--bruno-nogueira-humorista-e-ator-responde-a-daniel-oliveira-bd7cdbe5",
+        "count": 1
+    },
+    {
         "category": "Perguntas e Respostas",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/mundo/perguntaserespostas/torre-pacheco-pensionista-agredido-cacada-imigrante-oito-detidos-medo-sair-rua-politica-2140134",
-        "count": 1
-    },
-    {
-        "category": "Perguntas e respostas",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/sociedade/noticia/milhao-utentes-sns-comecam-amanha-convocados-actualizarem-dados-2140094",
         "count": 1
     },
     {
@@ -1670,13 +1684,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/enter/noticia/spark-alliance-nova-rede-carregamento-comecou-funcionar-1700-postos-2140474",
-        "count": 1
-    },
-    {
-        "category": "Podcast Biblioteca de Bolso",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/culturaipsilon/noticia/biblioteca-bolso-filipe-homem-fonseca-2140141",
         "count": 1
     },
     {
@@ -1915,6 +1922,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/19/azul/noticia/desafio-arquitectos-criar-escolas-resistentes-calor-ar-condicionado-2140640",
+        "count": 1
+    },
+    {
+        "category": "Streaming",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/21/culturaipsilon/noticia/documentario-responder-pergunta-billy-joel-2140929",
         "count": 1
     },
     {
