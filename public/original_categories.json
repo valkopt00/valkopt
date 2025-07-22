@@ -11,21 +11,21 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/ensino/2025-07-15-exames-do-ensino-secundario-matematica-aplicada-e-geometria-com-mediasnegativas-15f76011",
-        "count": 356
+        "count": 357
     },
     {
         "category": "Televisão",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/culturaipsilon/noticia/comedias-romanticas-precisamse-lena-dunham-voltou-pegar-largar-2140065",
-        "count": 291
+        "count": 292
     },
     {
         "category": "Sistema financeiro",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/economia/sistema-financeiro/2025-07-16-o-grande-designio-e-dinamizar-na-europa-os-pagamentos-digitais-2ae3929d",
-        "count": 203
+        "count": 205
     },
     {
         "category": "Palavras Cruzadas",
@@ -74,7 +74,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/politica/noticia/ps-acusa-governo-violar-constituicao-deveres-legais-lei-estrangeiros-2140203",
-        "count": 129
+        "count": 130
     },
     {
         "category": "Ásia",
@@ -105,17 +105,17 @@
         "count": 68
     },
     {
-        "category": "LUSA-INBOX",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/lusa/iga-swiatek-conquista-pela-primeira-vez-major-londrino_d1668726",
-        "count": 67
-    },
-    {
         "category": "Planeta",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/azul/noticia/destruicao-zonas-humidas-gerar-perda-economica-33-bilioes-euros-2140351",
+        "count": 68
+    },
+    {
+        "category": "LUSA-INBOX",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/lusa/iga-swiatek-conquista-pela-primeira-vez-major-londrino_d1668726",
         "count": 67
     },
     {
@@ -179,7 +179,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/iniciativaseprodutos/mais-europa/2025-07-15-um-nariz-eletronico-para-perceber-se-a-carne-e-o-peixe-no-supermercado-estao-bons-para-consumo-e-evitar-a-sua-ida-prematura-para-o-lixo-71548117",
-        "count": 45
+        "count": 46
     },
     {
         "category": "Loures",
@@ -277,7 +277,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/17/impar/noticia/sydney-sweeney-regressa-moda-marca-lingerie-patrocinada-jeff-bezos-2140684",
-        "count": 30
+        "count": 31
     },
     {
         "category": "Fundos europeus",
@@ -399,18 +399,18 @@
         "count": 21
     },
     {
+        "category": "Sem categoria",
+        "source": "Jornal i",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/07/18/combustiveis-baixam-na-proxima-semana/",
+        "count": 21
+    },
+    {
         "category": "Teatro & Dança",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/culturas/teatro--danca/2025-07-17-teatro-o-escoamento-da-vida-de-tres-irmas-de-tchekhov-cec78926",
         "count": 21
-    },
-    {
-        "category": "Sem categoria",
-        "source": "Jornal i",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/07/18/combustiveis-baixam-na-proxima-semana/",
-        "count": 20
     },
     {
         "category": "Cidadania",
@@ -469,6 +469,13 @@
         "count": 14
     },
     {
+        "category": "Vídeo",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/video/grupos-extremadireita-organizam-caca-imigrantes-murcia-20250714-121319",
+        "count": 14
+    },
+    {
         "category": "Água",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -476,17 +483,24 @@
         "count": 14
     },
     {
-        "category": "Vídeo",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/video/grupos-extremadireita-organizam-caca-imigrantes-murcia-20250714-121319",
-        "count": 13
-    },
-    {
         "category": "Praias",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/azul/noticia/levantada-interdicao-praias-labruge-angeiras-norte-apos-descargas-lactogal-2140247",
+        "count": 12
+    },
+    {
+        "category": "Rússia",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/17/mundo/noticia/ataques-preventivos-ocidente-podem-necessarios-medvedev-2140653",
+        "count": 12
+    },
+    {
+        "category": "Trabalho",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/21/sociedade/noticia/camara-guarda-submeteu-trabalhadora-condicoes-laborais-humilhantes-vexatorias-2140252",
         "count": 12
     },
     {
@@ -504,24 +518,10 @@
         "count": 11
     },
     {
-        "category": "Rússia",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/17/mundo/noticia/ataques-preventivos-ocidente-podem-necessarios-medvedev-2140653",
-        "count": 11
-    },
-    {
         "category": "Teatro",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/culturaipsilon/noticia/sao-luiz-202526-siegfried-joy-bonnie-prince-billy-2140571",
-        "count": 11
-    },
-    {
-        "category": "Trabalho",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/21/sociedade/noticia/camara-guarda-submeteu-trabalhadora-condicoes-laborais-humilhantes-vexatorias-2140252",
         "count": 11
     },
     {
@@ -707,6 +707,13 @@
         "count": 6
     },
     {
+        "category": "Podcast PIDE/DGS em Moçambique",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/15/sociedade/noticia/restou-pide-beira-2140376",
+        "count": 6
+    },
+    {
         "category": "Política Cultural",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -763,13 +770,6 @@
         "count": 5
     },
     {
-        "category": "Podcast PIDE/DGS em Moçambique",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/15/sociedade/noticia/restou-pide-beira-2140376",
-        "count": 5
-    },
-    {
         "category": "Relações",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -782,6 +782,13 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/economia/noticia/viticultores-manifestamse-regua-chamar-atencao-crise-douro-2140460",
         "count": 5
+    },
+    {
+        "category": "+E",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/revista-e/-e/2025-07-17-carvalho-ribeiro--ferreira-uma-casa-portuguesa-com-certeza-100-anos-de-historia-num-copo-de-aguardente-e255084b",
+        "count": 4
     },
     {
         "category": "Aviação",
@@ -817,13 +824,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/sociedade/noticia/psp-deteta-dez-criancas-situacao-perigo-grave-creche-ilegal-casal-cambra-2140193",
         "count": 4
-    },
-    {
-        "category": "+E",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/revista-e/-e/2025-07-17-carvalho-ribeiro--ferreira-uma-casa-portuguesa-com-certeza-100-anos-de-historia-num-copo-de-aguardente-e255084b",
-        "count": 3
     },
     {
         "category": "Cascais",
