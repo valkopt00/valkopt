@@ -1,2 +1,2 @@
 # Branch Data - Ficheiros JSON
-Atualizado automaticamente em: 2025-07-24 19:48:52
+Atualizado automaticamente em: 2025-07-24 20:14:09
