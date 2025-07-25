@@ -11,14 +11,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/ensino/2025-07-15-exames-do-ensino-secundario-matematica-aplicada-e-geometria-com-mediasnegativas-15f76011",
-        "count": 546
+        "count": 547
     },
     {
         "category": "Sistema financeiro",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/economia/sistema-financeiro/2025-07-16-o-grande-designio-e-dinamizar-na-europa-os-pagamentos-digitais-2ae3929d",
-        "count": 422
+        "count": 423
     },
     {
         "category": "Televisão",
@@ -32,7 +32,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/jogos/palavras-cruzadas/2025-07-14-palavras-cruzadas-n-1263-35e09e20",
-        "count": 264
+        "count": 265
     },
     {
         "category": "Expressinho",
@@ -46,7 +46,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-07-14-ultimas-noticias-de-segunda-feira-dia-14-de-julho-e75b6e2c",
-        "count": 216
+        "count": 217
+    },
+    {
+        "category": "Capas",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
+        "count": 204
     },
     {
         "category": "Migrações",
@@ -54,13 +61,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/sociedade/migracoes/2025-07-15-imigrantes-do-bangladesh-em-portugal-sentem-aumento-dos-discursos-de-odio-e-da-discriminacao-5fee1954",
         "count": 204
-    },
-    {
-        "category": "Capas",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
-        "count": 203
     },
     {
         "category": "Autarquias",
@@ -74,7 +74,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/video/grupos-extremadireita-organizam-caca-imigrantes-murcia-20250714-121319",
-        "count": 189
+        "count": 190
     },
     {
         "category": "Média",
@@ -95,7 +95,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/asia/china/2025-07-14-pequim-enaltece-valor-estrategico-inigualavel-das-relacoes-com-moscovo-808452a0",
-        "count": 129
+        "count": 130
     },
     {
         "category": "Ásia",
@@ -634,14 +634,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-07-17-duas-torres-e-uma-festa-74e6b8fb",
-        "count": 19
+        "count": 20
     },
     {
         "category": "Restaurantes",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/vicios/restaurantes/2025-07-17-leca-e-cada-vez-mais-e-o-lessa-e-um-restaurante-de-mao-cheia-a-beira-mar-8b7d6eac",
-        "count": 19
+        "count": 20
     },
     {
         "category": "Análise",
@@ -742,6 +742,13 @@
         "count": 12
     },
     {
+        "category": "Alimentação",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/15/impar/noticia/gastrenterologista-eis-dia-melhorar-saude-intestinal-2140234",
+        "count": 11
+    },
+    {
         "category": "In memoriam",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -768,13 +775,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/15/culturaipsilon/noticia/ministra-cultura-ouviu-preocupacoes-trabalhadores-centro-cultural-belem-2140419",
         "count": 11
-    },
-    {
-        "category": "Alimentação",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/15/impar/noticia/gastrenterologista-eis-dia-melhorar-saude-intestinal-2140234",
-        "count": 10
     },
     {
         "category": "Comércio internacional",
@@ -1078,10 +1078,24 @@
         "count": 4
     },
     {
+        "category": "Crítica Exposição",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/24/culturaipsilon/critica/sentidos-imagem-novas-obras-julia-ventura-lisboa-2141248",
+        "count": 4
+    },
+    {
         "category": "Hóquei",
         "source": "RTP Notícias",
         "mapped_category": "Outras Notícias",
         "url": "https://www.rtp.pt/noticias/outras-modalidades/selecao-de-hoquei-sub-17-feminina-quinta-no-europeu-espanha-revalida-titulo_d1670438",
+        "count": 4
+    },
+    {
+        "category": "IPMA",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/23/azul/noticia/incendios-30-concelhos-perigo-maximo-lisboa-aviso-amarelo-vento-forte-2141400",
         "count": 4
     },
     {
@@ -1099,6 +1113,13 @@
         "count": 4
     },
     {
+        "category": "Opinião Acção Paralela",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/18/culturaipsilon/opiniao/miseria-mundo-2140331",
+        "count": 4
+    },
+    {
         "category": "Podcast Diplomatas",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1110,6 +1131,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/sociedade/noticia/psp-deteta-dez-criancas-situacao-perigo-grave-creche-ilegal-casal-cambra-2140193",
+        "count": 4
+    },
+    {
+        "category": "Ípsilon",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/18/newsletter/ipsilon",
         "count": 4
     },
     {
@@ -1134,13 +1162,6 @@
         "count": 3
     },
     {
-        "category": "Crítica Exposição",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/24/culturaipsilon/critica/sentidos-imagem-novas-obras-julia-ventura-lisboa-2141248",
-        "count": 3
-    },
-    {
         "category": "Eduardo Cabrita",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1152,13 +1173,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/17/local/noticia/concentracao-motos-faro-arranca-quintafeira-esperadas-20000-pessoas-2140686",
-        "count": 3
-    },
-    {
-        "category": "IPMA",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/23/azul/noticia/incendios-30-concelhos-perigo-maximo-lisboa-aviso-amarelo-vento-forte-2141400",
         "count": 3
     },
     {
@@ -1176,24 +1190,10 @@
         "count": 3
     },
     {
-        "category": "Opinião Acção Paralela",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/18/culturaipsilon/opiniao/miseria-mundo-2140331",
-        "count": 3
-    },
-    {
         "category": "PHotoEspaña",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/18/culturaipsilon/noticia/quatro-exposicoes-nao-perder-photoespana-2140277",
-        "count": 3
-    },
-    {
-        "category": "Ípsilon",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/18/newsletter/ipsilon",
         "count": 3
     },
     {
