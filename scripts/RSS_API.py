@@ -165,12 +165,15 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                         content = content_bytes.decode('latin1')
             else:
                 # For other sources, detect encoding
-                detected = chardet.detect(content_bytes)
-                encoding = detected['encoding'] if detected['confidence'] > 0.7 else 'utf-8'
                 try:
-                    content = content_bytes.decode(encoding)
+                    content = content_bytes.decode('utf-8')
                 except UnicodeDecodeError:
-                    content = content_bytes.decode('latin1')
+                    detected = chardet.detect(content_bytes)
+                    encoding = detected['encoding'] if detected['confidence'] > 0.7 else 'latin1'
+                    try:
+                        content = content_bytes.decode(encoding)
+                    except UnicodeDecodeError:
+                        content = content_bytes.decode('latin1', errors='replace')
             
             if not content.strip():
                 print(f"⚠️  Empty content from {feed_url}")
@@ -953,23 +956,18 @@ async def is_content_exclusive_from_url(link, session):
 
     return False
 
-
 def fix_encoding(text):
     """
-    Attempts to detect and fix encoding issues in the given text.
+    Fix only when common double-encoding artifacts are detected.
     """
+    # Typical patterns of bad decoding: "Ã©", "Ã¡", "Ãª", "Ã£", etc.
+    if not re.search(r"[ÃÂ][©ª¢±º«°]", text):
+        return text  # Looks fine, don't touch
+    
     try:
-        # First, try to fix potential double encoding issues
-        text = text.encode('latin1').decode('utf-8')
-    except (UnicodeDecodeError, UnicodeEncodeError):
-        try:
-            # If that fails, try decoding as utf-8
-            text = text.encode('utf-8').decode('utf-8')
-        except (UnicodeDecodeError, UnicodeEncodeError):
-            # If all fails, return the original text
-            pass
-    return text
-
+        return text.encode('latin1').decode('utf-8')
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return text
 
 def clean_title(title):
     """
