@@ -63,10 +63,15 @@ jobs:
           export PYTHONPATH=$(pwd)/temp-scripts
           python temp-scripts/scripts/RSS_API.py
 
-      - name: Garantir pasta public e copiar ficheiros
+      - name: Garantir pasta public e copiar ficheiros JSON
         run: |
           mkdir -p public
-          cp articles/*.json public/
+          # Copiar todos os ficheiros JSON gerados
+          cp articles/articles.json public/
+          cp articles/articles_priority.json public/
+          cp articles/articles_secondary.json public/
+          cp articles/articles_search.json public/  # NOVO ARQUIVO
+          cp articles/original_categories.json public/
           
           # Copiar ficheiros HTML estáticos da branch main (se existirem)
           if git show origin/main:public/politica_de_privacidade.html > /dev/null 2>&1; then
@@ -77,10 +82,32 @@ jobs:
             git show origin/main:public/termos_de_utilizacao.html > public/termos_de_utilizacao.html
           fi
 
+      - name: Verificar ficheiros gerados
+        run: |
+          echo "📁 Ficheiros na pasta articles:"
+          ls -la articles/
+          echo ""
+          echo "📁 Ficheiros na pasta public:"
+          ls -la public/
+          echo ""
+          echo "📊 Estatísticas dos ficheiros JSON:"
+          if [ -f "articles/articles_search.json" ]; then
+            echo "✅ articles_search.json criado ($(wc -l < articles/articles_search.json) linhas)"
+          else
+            echo "❌ articles_search.json NÃO foi criado"
+          fi
+
       - name: Criar README informativo
         run: |
           echo "# Branch Data - Ficheiros JSON" > README.md
           echo "Atualizado automaticamente em: $(date '+%Y-%m-%d %H:%M:%S')" >> README.md
+          echo "" >> README.md
+          echo "## Ficheiros disponíveis:" >> README.md
+          echo "- **articles.json** - Todos os artigos (compatibilidade)" >> README.md
+          echo "- **articles_priority.json** - Categorias prioritárias (Últimas, Nacional, Mundo)" >> README.md
+          echo "- **articles_secondary.json** - Outras categorias" >> README.md
+          echo "- **articles_search.json** - Versão normalizada para pesquisa" >> README.md
+          echo "- **original_categories.json** - Categorias originais mapeadas" >> README.md
 
       - name: Commit e Push para branch `data`
         run: |

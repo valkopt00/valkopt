@@ -17,6 +17,7 @@ import traceback
 import os
 from dateutil import tz
 from dateutil import parser
+import unicodedata
 
 
 async def get_articles():
@@ -76,7 +77,7 @@ async def get_articles():
 def export_to_json(articles):
     """
     Export processed articles to JSON, merging with existing articles.
-    Creates two separate files: priority and secondary categories.
+    Creates multiple files: priority, secondary, search, and complete.
     Removes original_category field before saving.
     """
     os.makedirs("articles", exist_ok=True)
@@ -112,9 +113,12 @@ def export_to_json(articles):
     with open("articles/articles_secondary.json", "w", encoding="utf-8") as f:
         json.dump(secondary_articles, f, ensure_ascii=False, indent=4)
     
-    # Keep the original full file for compatibility (optional)
+    # Keep the original full file for compatibility
     with open("articles/articles.json", "w", encoding="utf-8") as f:
         json.dump(merged_articles, f, ensure_ascii=False, indent=4)
+    
+    # Export search version (NEW)
+    export_search_json(merged_articles)
     
     print(f"✅ Exported {len(priority_articles)} priority categories to articles_priority.json")
     print(f"✅ Exported {len(secondary_articles)} secondary categories to articles_secondary.json")
@@ -295,7 +299,100 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
         print(f"❌ Error processing {feed_url}: {str(e)}")
         traceback.print_exc()
         return []
+
+def normalize_text(text):
+    """
+    Normaliza texto removendo acentos, convertendo para minúsculas,
+    removendo pontuação e espaços extras.
     
+    Args:
+        text: String a ser normalizada
+        
+    Returns:
+        String normalizada para pesquisa
+    """
+    if not text:
+        return ""
+    
+    # Remove acentos (NFD decomposição + remoção de marcas diacríticas)
+    text = unicodedata.normalize('NFD', text)
+    text = ''.join(c for c in text if unicodedata.category(c) != 'Mn')
+    
+    # Minúsculas e remove pontuação (mantém apenas letras, números e espaços)
+    text = re.sub(r'[^\w\s]', ' ', text.lower())
+    
+    # Remove espaços extras
+    text = ' '.join(text.split())
+    
+    return text
+
+
+def create_search_articles(articles_dict):
+    """
+    Cria uma versão simplificada dos artigos apenas para pesquisa.
+    Contém apenas os campos normalizados e o link para mapeamento.
+    
+    Args:
+        articles_dict: Dicionário com categorias e artigos
+        
+    Returns:
+        Dicionário com artigos simplificados para pesquisa
+    """
+    search_articles = {}
+    total_processed = 0
+    
+    print("🔍 Criando versão simplificada para pesquisa...")
+    
+    for category, articles_list in articles_dict.items():
+        if not articles_list:
+            continue
+            
+        search_articles[category] = []
+        
+        for article in articles_list:
+            try:
+                title = article.get('title', '')
+                description = article.get('description', '')
+                link = article.get('link', '')
+                
+                # Apenas os campos necessários para pesquisa
+                search_article = {
+                    "link": link,  # Para mapeamento com articles.json
+                    "normalized_title": normalize_text(title),
+                    "normalized_description": normalize_text(description)
+                }
+                
+                search_articles[category].append(search_article)
+                total_processed += 1
+                
+            except Exception as e:
+                print(f"❌ Erro ao processar artigo para pesquisa: {e}")
+                continue
+    
+    print(f"✅ {total_processed} artigos simplificados para pesquisa")
+    return search_articles
+
+
+def export_search_json(merged_articles):
+    """
+    Exporta versão normalizada dos artigos para pesquisa.
+    
+    Args:
+        merged_articles: Dicionário com artigos processados
+    """
+    try:
+        # Criar versão para pesquisa
+        search_articles = create_search_articles(merged_articles)
+        
+        # Exportar articles_search.json
+        with open("articles/articles_search.json", "w", encoding="utf-8") as f:
+            json.dump(search_articles, f, ensure_ascii=False, indent=4)
+        
+        print(f"✅ Exportado articles_search.json com {len(search_articles)} categorias")
+        
+    except Exception as e:
+        print(f"❌ Erro ao exportar articles_search.json: {e}")
+
 
 def parse_date(date_str, source_url=None):
     """
