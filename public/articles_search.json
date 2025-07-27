@@ -1,6 +1,11 @@
 {
     "Multimédia": [
         {
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/01h-felix-a-caminho-do-al-nassr-de-ronaldo-e-jesus_a1_1672041",
+            "normalized_title": "01h felix a caminho do al nassr de ronaldo e jesus",
+            "normalized_description": ""
+        },
+        {
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/00h-israel-intercepta-barco-handala-que-levava-ajuda-humanitaria-a-gaza_a1_1672040",
             "normalized_title": "00h israel intercepta barco handala que levava ajuda humanitaria a gaza",
             "normalized_description": ""
@@ -1384,48 +1389,133 @@
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/0h-retirada-da-educacao-sexual-das-escolas-conquistas-dos-ultimos-anos-podem-estar-causa_a1_1670852",
             "normalized_title": "0h retirada da educacao sexual das escolas conquistas dos ultimos anos podem estar causa",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/23h-atores-palestinianos-em-portugal-pedem-acao-rapida-em-gaza_a1_1670851",
-            "normalized_title": "23h atores palestinianos em portugal pedem acao rapida em gaza",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/22h-tin-destino-do-grupo-permanece-uma-incognita_a1_1670847",
-            "normalized_title": "22h tin destino do grupo permanece uma incognita",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/21h-cidadania-retrocesso-civilizacional-diz-margarida-gaspar-de-matos_a1_1670846",
-            "normalized_title": "21h cidadania retrocesso civilizacional diz margarida gaspar de matos",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/programas/futebol/pe-em-riste/detalhe/andre-pinotes-batista-estamos-perante-alguem-que-se-comporta-como-coproprietario-de-gyokeres",
-            "normalized_title": "andre pinotes batista estamos perante alguem que se comporta como coproprietario de gyokeres",
-            "normalized_description": "comentador da cmtv refere que o avancado sueco nao precisava de um agente assim"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/programas/futebol/pe-em-riste/detalhe/tiago-silva-prolongar-esta-telenovela-so-vai-prejudicar-o-gyokeres-mas-tambem-o-sporting",
-            "normalized_title": "tiago silva prolongar esta telenovela so vai prejudicar o gyokeres mas tambem o sporting",
-            "normalized_description": "comentador da cmtv entende que a nao saida do sueco atrasa a contratacao de um novo ponta de lanca"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/programas/futebol/pe-em-riste/detalhe/antonio-salvador-nao-ha-nenhum-clube-que-receba-gyokeres-e-nao-tenha-receio-do-que-ele-possa-fazer-posteriormente",
-            "normalized_title": "antonio salvador nao ha nenhum clube que receba gyokeres e nao tenha receio do que ele possa fazer posteriormente",
-            "normalized_description": "opiniao sobre a greve feita pelo avancado sueco no sporting"
         }
     ],
     "Últimas": [
         {
-            "link": "https://www.zerozero.pt/noticias/renato-paiva-vence-pela-primeira-vez-com-o-fortaleza-no-brasileirao/873540",
-            "normalized_title": "renato paiva vence pela primeira vez com o fortaleza no brasileirao",
-            "normalized_description": "apos seis jornadas o fortaleza regressou as vitorias no campeonato brasileiro o tricolor de aco recebeu o bragantino realizou uma partida segura e"
+            "link": "https://www.record.pt/internacional/paises/espanha/barcelona/detalhe/lewandowski-aprova-o-novo-colega-de-ataque-rashford-tem-muito-talento",
+            "normalized_title": "lewandowski aprova o novo colega de ataque rashford tem muito talento",
+            "normalized_description": "ingles pode estrear se pelo barcelona este domingo"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/01h-felix-a-caminho-do-al-nassr-de-ronaldo-e-jesus_a1_1672041",
+            "normalized_title": "01h felix a caminho do al nassr de ronaldo e jesus",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.cmjornal.pt/desporto/futebol/detalhe/famalicao-lucra-mais-com-otavio-do-que-o-fc-porto",
+            "normalized_title": "famalicao lucra mais com otavio do que o fc porto",
+            "normalized_description": "famalicenses recebem 15 7 milhoes nas transacoes com o central quando os dragoes so encaixam 13 6 milhoes"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/avancam-dois-novos-centros-de-deportacao-de-imigrantes",
+            "normalized_title": "avancam dois novos centros de deportacao de imigrantes",
+            "normalized_description": "psp prepara o lancamento de concursos publicos para centros de instalacao temporaria de imigrantes"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/reclusos-do-pcc-escapam-ao-radar-dos-servicos-prisionais",
+            "normalized_title": "reclusos do pcc escapam ao radar dos servicos prisionais",
+            "normalized_description": "omp de sao paulo acredita que ha 29 reclusos em portugal que sao membros do pcc"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/francisca-desapareceu-no-primeiro-dia-das-festas-de-tabuaco",
+            "normalized_title": "francisca desapareceu no primeiro dia das festas de tabuaco",
+            "normalized_description": "pj continua a investigar mas nao tem qualquer pista pc vai ser entregue no domingo mas ainda nao se sabe a que horas"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cultura/detalhe/concerto-de-kendrick-lamar-no-restelo-o-rapper-que-proibe-os-moshes-atua-hoje-em-lisboa",
+            "normalized_title": "concerto de kendrick lamar no restelo o rapper que proibe os moshes atua hoje em lisboa",
+            "normalized_description": "musico norte americano apresenta se hoje no estadio do restelo em lisboa com sza num concerto de tres horas"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/donald-trump-diz-que-a-imigracao-esta-a-matar-a-europa",
+            "normalized_title": "donald trump diz que a imigracao esta a matar a europa",
+            "normalized_description": "nao vao continuar a ter a europa avisa o presidente dos estados unidos"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/gnr-combate-roubos-e-trafico-de-droga-em-zona-de-diversao-noturna-em-albufeira",
+            "normalized_title": "gnr combate roubos e trafico de droga em zona de diversao noturna em albufeira",
+            "normalized_description": "cinco pessoas foram detidas durante fiscalizacao na rua da oura apreendida droga e navalhas"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/20250726-234326-alyssa-treina-para-ser-a-primeira-a-pisar-marte",
+            "normalized_title": "alyssa treina para ser a primeira a pisar marte",
+            "normalized_description": "norte americana de 24 anos com vasto curriculo na area espacial prepara se para integrar a primeira missao ao planeta vermelho"
+        },
+        {
+            "link": "https://www.cmjornal.pt/domingo/detalhe/tres-dias-depois-morreu-salazar-e-passou-a-ser-a-noticia-mais-importante",
+            "normalized_title": "tres dias depois morreu salazar e passou a ser a noticia mais importante",
+            "normalized_description": "queda de um helicoptero na guine bissau fez seis mortos e envolveu longas buscas"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/o-meu-filho-nao-consegue-voltar-para-casa-sozinho-mae-de-homem-que-desapareceu-do-hospital-de-braga-esta-desesperada",
+            "normalized_title": "o meu filho nao consegue voltar para casa sozinho mae de homem que desapareceu do hospital de braga esta desesperada",
+            "normalized_description": "mae de paulo sergio vieira de 46 anos desespera por noticias do filho ex militar fugiu terca feira do hospital de braga"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/20250726-200804-tribunal-livra-vieira-de-divida-milionaria-ao-novo-banco",
+            "normalized_title": "tribunal livra vieira de divida milionaria ao novo banco",
+            "normalized_description": "banco reclamou o pagamento de divida 291 milhoes de euros mas o tribunal deu nega"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/filho-mais-velho-escreveu-diario-para-relatar-abusos-do-pai",
+            "normalized_title": "filho mais velho de um gestor hoteleiro de topo escreveu diario para relatar abusos do pai",
+            "normalized_description": "os textos da crianca hoje com sete anos foram descritos como muito esclarecedores por pessoas proximas da investigacao"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/motard-morre-e-filho-fica-ferido-em-colisao-na-en125-em-tavira",
+            "normalized_title": "motard morre e filho fica ferido em colisao na en125 em tavira",
+            "normalized_description": "motociclistas seguiam em motos diferentes e colidiram com carro"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/a-minha-familia-esta-a-morrer-a-fome-fotojornalista-vencedora-do-world-press-photo-alerta-para-tragedia-em-gaza",
+            "normalized_title": "a minha familia esta a morrer a fome fotojornalista vencedora do world press photo alerta para tragedia em gaza",
+            "normalized_description": "samar elouf fotografou crianca palestiniana que ficou sem bracos apos um bombardeamento teve de ser retirada de gaza porque era um alvo"
+        },
+        {
+            "link": "https://www.cmjornal.pt/economia/detalhe/400-milhoes-de-euros-e-mais-paineis-solares-para-evitar-apagao",
+            "normalized_title": "400 milhoes de euros e mais paineis solares para evitar apagao",
+            "normalized_description": "governo apresenta na segunda feira pacote de medidas para evitar que o pais volte a parar com colapso da rede"
+        },
+        {
+            "link": "https://www.cmjornal.pt/sociedade/detalhe/calor-deixa-todo-o-pais-sob-aviso-amarelo",
+            "normalized_title": "calor deixa todo o pais sob aviso amarelo",
+            "normalized_description": "perigo de incendio rural encerra serra de sintra e respetivos monumentos"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/barcos-turisticos-sem-seguro-nem-meios-de-alerta",
+            "normalized_title": "barcos turisticos sem seguro nem meios de alerta",
+            "normalized_description": "acao de fiscalizacao da policia maritima deteta infracoes em varias embarcacoes e levanta 5 autos alguns por falta de certificacao de navegabilidade"
+        },
+        {
+            "link": "https://www.cmjornal.pt/desporto/futebol/detalhe/sporting-e-o-favorito-ao-tricampeonato",
+            "normalized_title": "sporting e o favorito ao tricampeonato",
+            "normalized_description": "estudo para o cm revela enorme preferencia pelos leoes com benfica a surgir na segunda posicao e com o fc porto bem mais atras no terceiro lugar"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/ataques-israelitas-matam-mais-25-pessoas-em-busca-de-alimentos",
+            "normalized_title": "ataques israelitas matam mais 25 pessoas em busca de alimentos",
+            "normalized_description": "pelo menos 25 pessoas morreram tendo a maioria sido morta a tiro"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/falsos-pj-sacam-430-mil-euros-em-seis-buscas",
+            "normalized_title": "falsos pj sacam 430 mil euros em seis buscas",
+            "normalized_description": "empresarios eram escolhidos pelos sinais exteriores de riqueza acreditavam estar a ser investigados e colaboravam com os falsos inspetores que"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/detalhe/marco-silva-elogia-investimentos-de-sporting-benfica-e-fc-porto-estes-valores-nao-eram-normais-no-nosso-futebol",
+            "normalized_title": "marco silva elogia investimentos de sporting benfica e fc porto estes valores nao eram normais no nosso futebol",
+            "normalized_description": "treinador do fulham nao aponta no entanto um favorito a conquista da liga betclic em 2025 26"
         },
         {
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/00h-israel-intercepta-barco-handala-que-levava-ajuda-humanitaria-a-gaza_a1_1672040",
             "normalized_title": "00h israel intercepta barco handala que levava ajuda humanitaria a gaza",
             "normalized_description": ""
+        },
+        {
+            "link": "https://www.zerozero.pt/noticias/renato-paiva-vence-pela-primeira-vez-com-o-fortaleza-no-brasileirao/873540",
+            "normalized_title": "renato paiva vence pela primeira vez com o fortaleza no brasileirao",
+            "normalized_description": "apos seis jornadas o fortaleza regressou as vitorias no campeonato brasileiro o tricolor de aco recebeu o bragantino realizou uma partida segura e"
         },
         {
             "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/20250727-000407-o-poder-da-imagem",
@@ -1573,6 +1663,11 @@
             "normalized_description": "a policia estadual garante que o gabinete do sherife esta a investigar o episodio e as motivacoes do atacante mas revelam que ainda nao tem"
         },
         {
+            "link": "https://www.record.pt/mercado/detalhe/20250726-082225-mercado-a-mexer-todos-os-rumores-e-confirmacoes",
+            "normalized_title": "mercado a mexer todos os rumores e confirmacoes",
+            "normalized_description": "acompanhe todas as movimentacoes em portugal e no estrangeiro"
+        },
+        {
             "link": "https://rr.pt/bola-branca/noticia/modalidades/2025/07/26/de-marchi-aliviado-por-ja-nao-ser-ciclista-da-israel-premier-tech/434147/?utm_medium=rss",
             "normalized_title": "de marchi aliviado por ja nao ser ciclista da israel premier tech",
             "normalized_description": "bilionario detentor da equipa ve os ciclistas da equipa como embaixadores do pais e esteve presente na tomada de posse de donald trump ciclista"
@@ -1598,6 +1693,11 @@
             "normalized_description": "sporting eliminado na 2 ª fase mantorras encantou e ainda houve momentos de tensao"
         },
         {
+            "link": "https://www.publico.pt/2025/07/27/opiniao/opiniao/trump-supremo-anatomia-freio-2140323",
+            "normalized_title": "trump e o supremo anatomia de um poder sem freio",
+            "normalized_description": "o uso reiterado de deliberacoes concebidas para cenarios de urgencia transforma hoje o supremo numa especie de camara de eco do executivo opiniao de"
+        },
+        {
             "link": "https://www.rtp.pt/noticias/outras-modalidades/joao-moco-e-duarte-esteves-vencem-no-ocean-spirit-em-santa-cruz_d1672037",
             "normalized_title": "joao moco e duarte esteves vencem no ocean spirit em santa cruz",
             "normalized_description": "terminou pelas 15h a 4ª etapa do campeonato nacional de bodysurf santa cruz pro que decorreu no contexto do ocean spirit nas praias de torres"
@@ -1611,6 +1711,11 @@
             "link": "https://www.rtp.pt/noticias/outras-modalidades/atletas-portugueses-com-excelentes-resultados-no-2o-dia-dos-jogos-europeus-da-juventude-epyg_d1672036",
             "normalized_title": "atletas portugueses com excelentes resultados no 2 º dia dos jogos europeus da juventude epyg",
             "normalized_description": "no segundo dia de competicao dos jogos europeus da juventude 2025 epyg que decorrem em istambul o destaque foi para o apuramento de francisco"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/27/opiniao/opiniao/mulher-compreende-2141789",
+            "normalized_title": "uma mulher que compreende tudo",
+            "normalized_description": "hoje ha muitas mulheres teologas e nao so que tem dificuldade em aceitar a discriminacao que recai sobre elas na igreja opiniao de frei bento"
         },
         {
             "link": "https://www.cmjornal.pt/desporto/futebol/detalhe/joao-felix-vai-para-o-al-nasr",
@@ -1638,6 +1743,11 @@
             "normalized_description": "o treinador marco silva que orienta os ingleses do fulham elogiou hoje a demonstracao de poderio financeiro evidenciada pelos principais clubes"
         },
         {
+            "link": "https://www.publico.pt/2025/07/27/opiniao/opiniao/novo-edificio-banco-portugal-provocacao-pobreza-2141463",
+            "normalized_title": "novo edificio para o banco de portugal e mais uma provocacao a pobreza",
+            "normalized_description": "nao saberao gestores como o dr mario centeno que as camaras municipais tem listagens enormes de familias a espera ha muitos anos de uma casa com"
+        },
+        {
             "link": "https://www.rtp.pt/noticias/benfica/benfica-mostra-se-aos-adeptos-com-vitoria-sobre-o-fenerbahce_d1672034",
             "normalized_title": "benfica mostra se aos adeptos com vitoria sobre o fenerbahce",
             "normalized_description": "o benfica venceu hoje o fenerbahce por 3 2 e conquistou a 13 ª edicao da eusebio cup no estadio da luz em lisboa com henrique araujo a marcar o"
@@ -1658,9 +1768,19 @@
             "normalized_description": "o primeiro ministro chines li qiang anunciou hoje o lancamento de uma organizacao dedicada a cooperacao internacional em inteligencia artificial"
         },
         {
+            "link": "https://www.publico.pt/2025/07/27/opiniao/opiniao/portugal-palestina-2141830",
+            "normalized_title": "de portugal e da palestina",
+            "normalized_description": "o que e que nos temos a ver com gaza aqui em portugal nao temos os nossos problemas para resolver pois e mas agora pensem comigo opiniao de ines"
+        },
+        {
             "link": "https://www.cmjornal.pt/portugal/detalhe/detido-o-alegado-autor-do-falso-alarme-de-bomba-em-aviao-da-sata",
             "normalized_title": "detido o alegado autor do falso alarme de bomba em aviao da sata",
             "normalized_description": "a empresa anunciou entretanto que apos a conclusao das diligencias pelas autoridades competentes a aeronave foi autorizada a retomar a operacao"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/27/opiniao/opiniao/cem-candidatos-presidenciais-florescam-2141887",
+            "normalized_title": "que cem candidatos presidenciais florescam",
+            "normalized_description": "ate agora temos candidatos da sociedade partidaria e da sociedade militar falta uma candidatura da sociedade civil opiniao de pedro adao e"
         },
         {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/a-cronica-do-benfica-fenerbahce-3-2-o-benfica-district-ja-vai-ate-sete-rios",
@@ -4381,324 +4501,29 @@
             "link": "https://www.record.pt/futebol/futebol-nacional/2--liga/detalhe/pacos-de-ferreira-vence-torreense-em-jogo-de-preparacao",
             "normalized_title": "pacos de ferreira vence torreense em jogo de preparacao",
             "normalized_description": "encontro foi realizado a porta fechada"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/empresas/detalhe/greve-na-menzies-causa-atrasos-e-20-voos-cancelados-em-lisboa",
-            "normalized_title": "greve na menzies causa atrasos e 20 voos cancelados em lisboa",
-            "normalized_description": "a ana aeroportos adianta que a greve dos trabalhadores da menzies ja provocou este sabado alguns atrasos e cancelamentos no aeroporto de lisboa"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/fama/2828369/marketing-empresa-do-ceo-traidor-dos-coldplay-contrata-gwyneth-paltrow#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "marketing empresa do ceo traidor dos coldplay contrata gwyneth paltrow",
-            "normalized_description": "gwyneth paltrow ex mulher de chris martin vocalista dos coldplay foi contratada pela astronomer empresa onde trabalhava o casal que foi apanhado"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/2828382/estrela-da-amadora-vence-vitoria-sc-em-jogo-de-primodivisionarios#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "estrela da amadora vence vitoria sc em jogo de primodivisionarios",
-            "normalized_description": "o estrela da amadora venceu hoje o vitoria de guimaraes por 1 0 num duelo entre equipas que disputarao a edicao 25 26 da i liga de futebol"
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/estrela-da-amadora-vence-vitoria-sc-a-boleia-de-jovane/873109",
-            "normalized_title": "estrela da amadora vence vitoria sc a boleia de jovane",
-            "normalized_description": "quarta vitoria em cinco jogos para o estrela da amadora na pre temporada num jogo realizado em albufeira os tricolores superiorizaram se pela"
-        },
-        {
-            "link": "https://www.cmjornal.pt/mundo/detalhe/taiwaneses-rejeitam-destituicao-de-deputados-pro-china-da-oposicao",
-            "normalized_title": "taiwaneses rejeitam destituicao de deputados pro china da oposicao",
-            "normalized_description": "resultados preliminares mostram que as tentativas de destituicao nao conseguiram remover nenhum dos parlamentares"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/lifestyle/2825535/estes-sao-os-seis-signos-mais-divertidos-do-zodiaco-falamos-do-seu#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "estes sao os seis signos mais divertidos do zodiaco falamos do seu",
-            "normalized_description": "os nativos destes signos sao convidados para todas as festas ate porque sem eles os eventos nao tem a mesma piada saiba se o seu se encontra na"
-        },
-        {
-            "link": "https://www.eurogamer.pt/sony-prepara-um-salto-inesperado-jogos-playstation-na-xbox-e-outras-plataformas",
-            "normalized_title": "sony prepara um salto inesperado jogos playstation na xbox e outras plataformas",
-            "normalized_description": "a sony esta a recrutar um novo diretor senior responsavel pela gestao da estrategia comercial da playstation studios fora do ecossistema tradicional"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/2828380/greve-na-menzies-causa-atrasos-vinte-voos-cancelados-em-lisboa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "greve na menzies causa atrasos vinte voos cancelados em lisboa",
-            "normalized_description": "a greve de hoje dos trabalhadores da spdh menzies antiga groundforce provocou ate agora alguns atrasos e o cancelamento de 20 voos no aeroporto de"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/weekend/gastronomia/detalhe/20250725-073547-terramay-a-chef-que-mede-a-felicidade",
-            "normalized_title": "terramay a chef que mede a felicidade",
-            "normalized_description": "o projeto terramay desenvolvido pelo casal anna e david de brito e o socio thomas sterchi contemplou a abertura de dois restaurantes raya e pao e"
-        },
-        {
-            "link": "https://pplware.sapo.pt/microsoft/copilot-ja-tem-cara-e-gestos-e-nao-se-parece-nada-com-o-clippy-da-microsoft/",
-            "normalized_title": "copilot ja tem cara e gestos e nao se parece nada com o clippy da microsoft",
-            "normalized_description": "a ia tem muitas caras mas na verdade nao tem uma verdadeira personalizacao ate agora o copilot era uma entidade abstrata mas a microsoft acaba"
-        },
-        {
-            "link": "https://ionline.sapo.pt/2025/07/26/tres-militares-querem-chegar-a-belem/",
-            "normalized_title": "tres militares querem chegar a belem",
-            "normalized_description": "gouveia e melo pode ter a companhia de mais dois militares na corrida a belem morais pereira e tinoco faria o conteudo tres militares querem chegar"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/sociedade/noticia/mais-cartas-avos-netos-revolucao-2141714",
-            "normalized_title": "nunca mais cartas de avos aos netos da revolucao",
-            "normalized_description": "excertos de cartas escritas para os netos da revolucao integradas no livro o dia mais feliz editado pela associacao de pais e encarregados de"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/sociedade/noticia/25-abril-avos-escrevem-netos-contam-2141602",
-            "normalized_title": "25 de abril avos escrevem aos netos e contam como foi",
-            "normalized_description": "alunos do 1 º ciclo receberam cartas dos avos a contar como viveram a revolucao dos cravos uns eram militares outros operarios ou criancas ainda"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/economia/detalhe/hungria-condiciona-apoio-ao-orcamento-europeu-a-rececao-de-fundos-bloqueados",
-            "normalized_title": "hungria condiciona apoio ao orcamento europeu a rececao de fundos bloqueados",
-            "normalized_description": "viktor orban lembrou que a viabilizacao do orcamento comunitario requer a aprovacao unanime dos paises da ue e disse que esta disposto a veta lo"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/fotogalerias/detalhe/fc-porto-regressa-ao-olival-e-trabalha-ja-com-alberto-costa-integrado",
-            "normalized_title": "fc porto regressa ao olival e trabalha com alberto costa ja integrado",
-            "normalized_description": "amanha a equipa disputa dois encontros particulares"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2828377/taiwaneses-rejeitam-proposta-para-destituir-deputados-pro-china#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "taiwaneses rejeitam proposta para destituir deputados pro china",
-            "normalized_description": "os eleitores taiwaneses rejeitaram hoje a proposta para destituir 24 deputados do partido da oposicao kuomintang kmt acusados de bloquear"
-        },
-        {
-            "link": "https://expresso.pt/multimedia/video/2025-07-26-video-acho-que-e-preciso-acabar-com-essa-ideia-de-equivalencia-entre-aumentar-a-oferta-com-nova-construcao-8a0e04a1",
-            "normalized_title": "acho que e preciso acabar com essa ideia de equivalencia entre aumentar a oferta com nova construcao",
-            "normalized_description": "nos ultimos anos a crise da habitacao em portugal tem se agravado com precos em alta e acesso cada vez mais dificil especialmente nas grandes"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2828375/hungria-nao-aprova-orcamento-comunitario-ate-receber-fundos-bloqueados#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "hungria nao aprova orcamento comunitario ate receber fundos bloqueados",
-            "normalized_description": "a hungria recusa aprovar o novo orcamento comunitario ate receber os fundos europeus que a comissao europeia ce continua a bloquear advertiu hoje"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/2828379/moreirense-e-desportivo-de-chaves-empatam-em-jogo-de-pre-epoca#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "moreirense e desportivo de chaves empatam em jogo de pre epoca",
-            "normalized_description": "o moreirense da i liga portuguesa de futebol e o desportivo de chaves da ii liga empataram hoje 0 0 num encontro particular disputado no estadio"
-        },
-        {
-            "link": "https://www.cmjornal.pt/mundo/detalhe/paquistao-procura-reforcar-lacos-comerciais-e-de-investimento-com-estados-unidos",
-            "normalized_title": "paquistao procura reforcar lacos comerciais e de investimento com estados unidos",
-            "normalized_description": "eua sao o principal destino das exportacoes do paquistao com envios que totalizam 5 44 mil milhoes de dolares por isso alcancar um acordo"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/economia/hungria-condiciona-apoio-aos-orcamentos-europeus-a-rececao-de-fundos-bloqueados_n1671932",
-            "normalized_title": "hungria condiciona apoio aos orcamentos europeus a rececao de fundos bloqueados",
-            "normalized_description": "a hungria recusa aprovar o novo orcamento comunitario ate receber os fundos europeus que a comissao europeia ce continua a bloquear advertiu hoje"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2828374/guerra-na-ucrania-russia-reivindica-ocupacao-de-aldeia-em-dnipropetrovsk#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "guerra na ucrania russia reivindica ocupacao de aldeia em dnipropetrovsk",
-            "normalized_description": "o exercito russo reivindicou ter conquistado uma aldeia na regiao de dnipropetrovsk no centro leste da ucrania a segunda nesta zona administrativa"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/azul/noticia/alga-asiatica-invasora-causar-problema-gravissimo-turismo-cientista-2141723",
-            "normalized_title": "alga asiatica invasora pode causar problema gravissimo no turismo",
-            "normalized_description": "alga chegou aos acores em 2019 e dois anos depois foi encontrada no algarve apesar de haver agora um plano de gestao nao se sabe como combate la e"
-        },
-        {
-            "link": "https://expresso.pt/internacional/2025-07-26-imagem-do-partido-democrata-e-a-pior-dos-ultimos-30-anos-revela-o-wall-street-journal-24cf2055",
-            "normalized_title": "imagem do partido democrata e a pior dos ultimos 30 anos revela o wall street journal",
-            "normalized_description": "nova sondagem revela que 63 dos eleitores tem uma opiniao desfavoravel do partido democrata norte americanos consideram os republicanos mais"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20250726-124627-um-ferido-em-colisao-com-tres-veiculos-na-en120-em-odemira",
-            "normalized_title": "um ferido em colisao com tres veiculos na en120 em odemira",
-            "normalized_description": "para o local foram mobilizados seis veiculos e 15 operacionais dos bombeiros e da gnr"
-        },
-        {
-            "link": "https://www.cmjornal.pt/vidas/ultimas/detalhe/rodrigo-guedes-de-carvalho-defende-amantes-e-arrasa-chris-martin-palhacinho-que-anima-aniversarios-de-criancas",
-            "normalized_title": "rodrigo guedes de carvalho defende amantes e arrasa chris martin palhacinho que anima aniversarios de criancas",
-            "normalized_description": "jornalista da sic diz que o casal foi alvo de bullying global e vitima de uma furia de entretenimento bacoco"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2828372/australia-e-reino-unido-assinam-tratado-para-construir-submarinos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "australia e reino unido assinam tratado para construir submarinos",
-            "normalized_description": "a australia e o reino unido assinaram hoje um acordo para aprofundar a cooperacao no desenvolvimento de submarinos de propulsao nuclear para"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/videos/detalhe/vitor-pereira-e-a-sua-pint-treinador-faz-anos-e-wolverhampton-surpreende-com-prenda-original",
-            "normalized_title": "vitor pereira e a sua pint treinador faz anos e wolverhampton surpreende com prenda original",
-            "normalized_description": "foram necessarias 88 horas para produzir este quadro"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/apenas-10-dos-finalistas-usufruiram-dos-vouchers-para-ferias-gratis/",
-            "normalized_title": "apenas 10 dos finalistas usufruiram dos vouchers para ferias gratis",
-            "normalized_description": "segundo avanca o jornal de noticias desde que a medida entrou em vigor em 2024 apenas 12 981 jovens pediram o voucher sendo que dos que"
-        },
-        {
-            "link": "https://www.autosport.pt/formula1/f1/gp-da-belgica-de-f1-horarios/?utm_source=rss&utm_medium=rss&utm_campaign=gp-da-belgica-de-f1-horarios",
-            "normalized_title": "gp da belgica f1 horarios qualificacao as 15 00",
-            "normalized_description": "ha algo especial em ver os carros de formula 1 atacar spa francorchamps um circuito que mantem um sentido unico de historia serpenteando pelas"
-        },
-        {
-            "link": "https://expresso.pt/blitz/2025-07-26-ainda-bem-que-nao-sou-a-sogra-dela-mae-de-matty-healy-dos-the-1975-arrasa-taylor-swift-9673a138",
-            "normalized_title": "ainda bem que nao sou a sogra dela mae de matty healy dos the 1975 arrasa taylor swift",
-            "normalized_description": "denise welch mostrou se satisfeita com o fim do romance entre o seu filho e taylor swift ela nao te deixa dizer nada e mais tarde acaba a compor"
-        },
-        {
-            "link": "https://www.cmjornal.pt/tv-media/detalhe/correio-da-manha-e-o-orgao-de-comunicacao-social-cuja-confianca-mais-subiu-junto-dos-portugueses",
-            "normalized_title": "correio da manha e o orgao de comunicacao social cuja confianca mais subiu junto dos portugueses",
-            "normalized_description": "confianca atribuida pelos portugueses ao cm regista uma evolucao de 10 1 pontos percentuais"
-        },
-        {
-            "link": "https://expresso.pt/blitz/2025-07-26-king-gizzard-and-the-lizard-wizard-saem-com-estrondo-do-spotify-fc3dcafb",
-            "normalized_title": "king gizzard and the lizard wizard saem com estrondo do spotify",
-            "normalized_description": "os australianos king gizzard and the lizard wizard retiraram se do spotify em protesto contra o ceo da plataforma daniel ek ja nao e possivel"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futsal/detalhe/mamadu-ture-reforca-futsal-do-sp-braga",
-            "normalized_title": "mamadu ture reforca futsal do sp braga",
-            "normalized_description": "ala internacional portugues chega proveniente dos leoes de porto salvo"
-        },
-        {
-            "link": "https://rr.pt/noticia/politica/2025/07/26/carneiro-jovens-socialistas-estao-preocupados-com-habitacao-e-rendimentos-medios/434107/?utm_medium=rss",
-            "normalized_title": "carneiro jovens socialistas estao preocupados com habitacao e rendimentos medios",
-            "normalized_description": "o secretario geral do ps revela as grandes preocupacoes dos jovens socialistas habitacao valorizacao de rendimentos medios custo de vida e"
-        },
-        {
-            "link": "https://observador.pt/especiais/pais-filhos-e-fantasmas-as-vozes-da-familia-ecoam-nos-palcos-de-avignon/",
-            "normalized_title": "pais filhos e fantasmas ecoam no palcos em avignon",
-            "normalized_description": "enquanto a atualidade geopolitica se agita os artistas refugiam se no intimo e as questoes familiares roubam o palco do festival de avignon o maior"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2828368/paquistao-quer-reforcar-lacos-comerciais-com-estados-unidos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "paquistao quer reforcar lacos comerciais com estados unidos",
-            "normalized_description": "o vice primeiro ministro e ministro dos negocios estrangeiros do paquistao ishaq dar defendeu junto do seu homologo norte americano marco rubio o"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/carneiro-diz-que-jovens-socialistas-estao-preocupados-com-habitacao-e-rendimentos-medios_n1671926",
-            "normalized_title": "carneiro diz que jovens socialistas estao preocupados com habitacao e rendimentos medios",
-            "normalized_description": "o secretario geral do ps jose luis carneiro revelou hoje quais sao as grandes preocupacoes dos jovens socialistas destacando a questao da"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/2--liga/farense/detalhe/farense-apresenta-as-suas-equipas-no-dia-1-de-agosto",
-            "normalized_title": "farense apresenta as suas equipas no dia 1 de agosto",
-            "normalized_description": "campeoes nacionais sub 17 e andre candeias alvo de homenagens"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/politica/noticia/apos-duvidas-marcelo-ine-expoe-atraso-aima-envio-dados-imigracao-2141884",
-            "normalized_title": "apos duvidas de marcelo ine expoe atraso da aima no envio de dados sobre imigracao",
-            "normalized_description": "sem os dados de 2024 que deviam ter chegado pela primeira vez em fevereiro ine nao consegue integrar numeros da aima nas estimativas e aponta"
-        },
-        {
-            "link": "https://tek.sapo.pt/artigos/smartwatch-e-auriculares-da-motorola-chegam-as-lojas-para-ajudar-nos-treinos-durante-o-verao",
-            "normalized_title": "smartwatch e auriculares da motorola chegam as lojas para ajudar nos treinos durante o verao",
-            "normalized_description": "o ecossistema de produtos moto things da motorola continua a crescer no mercado nacional com os novos auriculares moto buds loop e o smartwatch de"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/politica/2828366/carneiro-jovens-socialistas-preocupados-com-habitacao-e-rendimentos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "carneiro jovens socialistas preocupados com habitacao e rendimentos",
-            "normalized_description": "o secretario geral do ps jose luis carneiro revelou hoje quais sao as grandes preocupacoes dos jovens socialistas destacando a questao da"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/12h-carneiro-diz-que-ps-tem-portas-abertas-para-centeno_a1_1671931",
-            "normalized_title": "12h carneiro diz que ps tem portas abertas para centeno",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/11h-prolongado-ate-terca-feira-aviso-amarelo-por-causa-do-calor_a1_1671930",
-            "normalized_title": "11h prolongado ate terca feira aviso amarelo por causa do calor",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/10h-uma-em-cada-tres-pessoas-passa-dias-sem-comer-em-gaza_a1_1671929",
-            "normalized_title": "10h uma em cada tres pessoas passa dias sem comer em gaza",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/09h-centeno-rejeita-que-independencia-seja-colocada-em-causa_a1_1671928",
-            "normalized_title": "09h centeno rejeita que independencia seja colocada em causa",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/08h-mario-centeno-garante-que-e-independente_a1_1671927",
-            "normalized_title": "08h mario centeno garante que e independente",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/desporto/futebol/detalhe/william-carvalho-assina-por-clube-mexicano",
-            "normalized_title": "william carvalho assina por clube mexicano",
-            "normalized_description": "na epoca passada afetada por uma lesao no tendao de aquiles o internacional portugues participou em 15 jogos"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/2828356/ja-a-avo-dizia-no-dia-dos-avos-dgs-lembra-expressoes-e-da-dicas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "ja a avo dizia no dia dos avos dgs lembra expressoes e da dicas",
-            "normalized_description": "no dia mundial dos avos a direcao geral da saude dgs recuperou algumas das suas expressoes para dar dicas de saude e nunca se esqueca os avos"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/casa-pia/detalhe/casa-pia-empata-sem-golos-contra-portimonense",
-            "normalized_title": "casa pia empata sem golos contra portimonense",
-            "normalized_description": "gansos tem mais um ensaio este sabado frente ao betis b"
-        },
-        {
-            "link": "https://www.record.pt/internacional/detalhe/amorim-elogia-reforcos-e-deixa-recado-podiam-ter-ido-para-clubes-que-estao-na-champions",
-            "normalized_title": "amorim elogia reforcos e deixa recado podiam ter ido para clubes que estao na champions",
-            "normalized_description": "treinador satisfeito com a presenca de matheus cunha e bryan mbeumo no plantel dos red devils"
-        },
-        {
-            "link": "https://expresso.pt/blitz/2025-07-26-quem-e-a-nova-porta-voz-da-astronomer-que-ficou-nas-bocas-do-mundo-por-causa-dos-coldplay--gwyneth-paltrow-a-ex-mulher-de-chris-martin-bad1ef1c",
-            "normalized_title": "quem e a nova porta voz da astronomer que ficou nas bocas do mundo por causa dos coldplay gwyneth paltrow a ex mulher de chris martin",
-            "normalized_description": "a atriz ex mulher de chris martin vocalista dos coldplay e a nova porta voz da astronomer que ficou nas bocas do mundo apos a kiss cam de um"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2828365/eua-aviao-fez-manobra-agressiva-para-nao-colidir-com-outro-ha-feridos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "eua aviao fez manobra agressiva para nao colidir com outro ha feridos",
-            "normalized_description": "um aviao da companhia aerea southwest airlines foi obrigado a fazer uma manobra agressiva para evitar a colisao com uma aeronave militar na"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/2828364/ultimo-reforco-do-fc-porto-ja-esta-as-ordens-de-francesco-farioli#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "ultimo reforco do fc porto ja esta as ordens de francesco farioli",
-            "normalized_description": "alberto costa marcou presenca na primeira sessao de trabalho dos dragoes apos o estagio que decorreu na austria lateral portugues mostrou se a"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/mundo/noticia/torre-pacheco-forcas-populistas-interessalhes-vender-nada-funciona-caos-dor-2141604",
-            "normalized_title": "torre pacheco as forcas populistas interessa lhes vender que nada funciona que tudo e caos e dor",
-            "normalized_description": "torre pacheco viveu uma semana de violencia motivada pelo odio que chegou a levar grupos a uma caca ao imigrante o publico falou com dois"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/antonio-calcada-de-sa-temos-de-mudar-a-narrativa-sobre-africa/",
-            "normalized_title": "antonio calcada de sa temos de mudar a narrativa sobre africa",
-            "normalized_description": "africa e um continente de oportunidades e todos os indicadores para ai apontam crescimento populacao muito por fazer por isso o presidente da"
-        },
-        {
-            "link": "https://pplware.sapo.pt/tutoriais/aprenda-a-programar-em-python-este-verao-parte-v/",
-            "normalized_title": "aprenda a programar em python este verao parte v",
-            "normalized_description": "atualmente sao muitas as linguagens de programacao ao dispor dos programadores e curiosos pela arte de programar no entanto segundo o ranking das"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/tech/2828289/app-com-horarios-de-missas-no-mundo-atinge-2-milhoes-de-utilizadores#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "app com horarios de missas no mundo atinge 2 milhoes de utilizadores",
-            "normalized_description": "uma aplicacao com os horarios das missas em todos os paises do mundo ultrapassou dois milhoes de descargas a poucos dias do jubileu dos missionarios"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2828362/pelo-menos-652-criancas-morreram-de-desnutricao-no-norte-da-nigeria#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "pelo menos 652 criancas morreram de desnutricao no norte da nigeria",
-            "normalized_description": "a organizacao medicos sem fronteiras msf revelou hoje que pelo menos 652 criancas morreram este ano devido a desnutricao no estado nigeriano de"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/mundo/noticia/orban-ameaca-vetar-orcamento-ue-fundos-congelados-nao-desbloqueados-2141885",
-            "normalized_title": "orban ameaca vetar orcamento da ue se fundos congelados nao forem desbloqueados",
-            "normalized_description": "a ue suspendeu milhares de milhoes de euros destinados a hungria primeiro ministro hungaro tem estado em confronto com bruxelas ha varios anos sobre"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/pais/tempo-quente-aviso-amarelo-em-14-distritos-prolongado-ate-terca-feira_a1671924",
-            "normalized_title": "tempo quente aviso amarelo em 14 distritos prolongado ate terca feira",
-            "normalized_description": "foi prolongado ate terca feira o aviso amarelo por causa do tempo quente em 14 distritos de portugal continental as temperaturas em algumas"
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/-neemias-queta-tem-a-oportunidade-da-carreira-o-que-esperar-de-25-26-para-o-poste-luso-/873076",
-            "normalized_title": "neemias queta tem a oportunidade da carreira o que esperar de 25 26 para o poste luso",
-            "normalized_description": "a alegria da conquista do 18 º titulo da nba na epoca de 2023 24 deu lugar a um periodo de incerteza e reestruturacao em boston uma grave lesao de"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/economia/menzis-segundo-dia-de-greve-dos-trabalhadores-da-antiga-groundforce_a1671925",
-            "normalized_title": "menzis segundo dia de greve dos trabalhadores da antiga groundforce",
-            "normalized_description": "na sexta feira a paralisacao dos trabalhadores da antiga groundforce a menzis levou ao cancelamento de 19 voos no aeroporto de lisboa apesar dos"
         }
     ],
     "Desporto": [
+        {
+            "link": "https://www.record.pt/internacional/paises/espanha/barcelona/detalhe/lewandowski-aprova-o-novo-colega-de-ataque-rashford-tem-muito-talento",
+            "normalized_title": "lewandowski aprova o novo colega de ataque rashford tem muito talento",
+            "normalized_description": "ingles pode estrear se pelo barcelona este domingo"
+        },
+        {
+            "link": "https://www.cmjornal.pt/desporto/futebol/detalhe/famalicao-lucra-mais-com-otavio-do-que-o-fc-porto",
+            "normalized_title": "famalicao lucra mais com otavio do que o fc porto",
+            "normalized_description": "famalicenses recebem 15 7 milhoes nas transacoes com o central quando os dragoes so encaixam 13 6 milhoes"
+        },
+        {
+            "link": "https://www.cmjornal.pt/desporto/futebol/detalhe/sporting-e-o-favorito-ao-tricampeonato",
+            "normalized_title": "sporting e o favorito ao tricampeonato",
+            "normalized_description": "estudo para o cm revela enorme preferencia pelos leoes com benfica a surgir na segunda posicao e com o fc porto bem mais atras no terceiro lugar"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/detalhe/marco-silva-elogia-investimentos-de-sporting-benfica-e-fc-porto-estes-valores-nao-eram-normais-no-nosso-futebol",
+            "normalized_title": "marco silva elogia investimentos de sporting benfica e fc porto estes valores nao eram normais no nosso futebol",
+            "normalized_description": "treinador do fulham nao aponta no entanto um favorito a conquista da liga betclic em 2025 26"
+        },
         {
             "link": "https://www.zerozero.pt/noticias/renato-paiva-vence-pela-primeira-vez-com-o-fortaleza-no-brasileirao/873540",
             "normalized_title": "renato paiva vence pela primeira vez com o fortaleza no brasileirao",
@@ -4763,6 +4588,11 @@
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/benfica-prepara-se-para-desistir-da-contratacao-de-joao-felix",
             "normalized_title": "benfica prepara se para desistir da contratacao de joao felix avancado deve rumar ao al nassr",
             "normalized_description": "exigencias do chelsea fecham a porta ao regresso"
+        },
+        {
+            "link": "https://www.record.pt/mercado/detalhe/20250726-082225-mercado-a-mexer-todos-os-rumores-e-confirmacoes",
+            "normalized_title": "mercado a mexer todos os rumores e confirmacoes",
+            "normalized_description": "acompanhe todas as movimentacoes em portugal e no estrangeiro"
         },
         {
             "link": "https://rr.pt/bola-branca/noticia/modalidades/2025/07/26/de-marchi-aliviado-por-ja-nao-ser-ciclista-da-israel-premier-tech/434147/?utm_medium=rss",
@@ -15438,34 +15268,846 @@
             "link": "https://www.record.pt/multimedia/fotogalerias/detalhe/de-rui-borges-a-paulinho-dolores-aveiro-com-sorriso-de-orelha-a-orelha-junto-a-comitiva-do-sporting",
             "normalized_title": "de rui borges a paulinho dolores aveiro com sorriso de orelha a orelha junto a comitiva do sporting",
             "normalized_description": "mae de cristiano ronaldo tirou fotografias com jogadores e equipa tecnica e nao perdeu a oportunidade de pedir autografos"
+        }
+    ],
+    "Opinião": [
+        {
+            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/20250727-000407-o-poder-da-imagem",
+            "normalized_title": "o poder da imagem",
+            "normalized_description": "se uma imagem vale mais do que mil palavras em gaza vale por todas as palavras"
         },
         {
-            "link": "https://www.record.pt/multimedia/videos/detalhe/dolores-tirou-fotos-com-jogadores-do-sporting-e-ate-recolheu-autografos-para-a-camisola-de-cristianinho",
-            "normalized_title": "dolores tirou fotos com jogadores do sporting e ate recolheu autografos para a camisola de cristianinho",
-            "normalized_description": "depois da vitoria sobre o sunderland por 1 0"
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/voos-de-minerva/detalhe/20250727-000551-faltam-professores",
+            "normalized_title": "faltam professores",
+            "normalized_description": "e urgente agir valorizando salarios e carreiras"
         },
         {
-            "link": "https://www.record.pt/mercado/detalhe/20250721-094603-mercado-a-mexer-todos-os-rumores-e-confirmacoes",
-            "normalized_title": "mercado a mexer todos os rumores e confirmacoes",
-            "normalized_description": "acompanhe todas as movimentacoes em portugal e no estrangeiro"
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/sergio-a--vitorino/detalhe/o-que-queremos",
+            "normalized_title": "o que queremos",
+            "normalized_description": "o caso demonstra algumas das coisas que vao mal na seguranca e justica"
         },
         {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/as-notas-dos-jogadores-do-sporting-frente-ao-sunderland-um-camaleao-com-solucos",
-            "normalized_title": "as notas dos jogadores do sporting frente ao sunderland um camaleao com solucos",
-            "normalized_description": "zeno debast foi o elemento em melhor plano nos leoes"
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/todos-irmaos/detalhe/dia-mundial-dos-avos-e-dos-idosos",
+            "normalized_title": "dia mundial dos avos e dos idosos",
+            "normalized_description": "uma sociedade que nao cuida dos mais velhos estara destinada a corrosao que o egoismo provoca"
         },
         {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/a-cronica-do-sporting-sunderland-1-0-leao-da-ar-de-rock-mas-ainda-desafina",
-            "normalized_title": "a cronica do sporting sunderland 1 0 leao da ar de rock mas ainda desafina",
-            "normalized_description": "rui borges esta a tentar mudar quase tudo com os mesmos jogadores chegou para ganhar ao sunderland mas vai levar tempo"
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/nacao-valente/detalhe/cegueiras",
+            "normalized_title": "cegueiras",
+            "normalized_description": "ignorar as preocupacoes dos portugueses depois da politica ruinosa do ps na imigracao seria uma cegueira e um desastre"
         },
         {
-            "link": "https://www.e-auto.pt/post/audi-abre-encomendas-do-q3-suv?utm_source=rss&utm_medium=rss&utm_campaign=audi-abre-encomendas-do-q3-suv",
-            "normalized_title": "audi abre encomendas do q3 suv",
-            "normalized_description": "mais tecnol gico digitalizado e eficiente o audi q3 suv j est dispon vel para encomenda em portugal com motoriza ß µes a gasolina the"
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/correio-de-justica/detalhe/20250727-000508-impossivel",
+            "normalized_title": "impossivel",
+            "normalized_description": "a tabela remuneratoria apresenta no topo um vencimento que sera impossivel de alcancar com os atuais estatutos da pj"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/conta-peso-e-medida/detalhe/a-estupidez",
+            "normalized_title": "a estupidez",
+            "normalized_description": "as solucoes congeminadas pelo governo e pelo chega sao estupidas"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/mil-palavras/detalhe/20250727-000901-piedade",
+            "normalized_title": "piedade",
+            "normalized_description": "o governo israelita esta a aproximar se da pratica do crime de genocidio por omissao de auxilio"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/panoptico/detalhe/o-film-da-invisibilidade-na-multidao",
+            "normalized_title": "o film da invisibilidade na multidao",
+            "normalized_description": "o episodio viral num concerto pop"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/paz-precisa-se/detalhe/macron-e-a-palestina",
+            "normalized_title": "macron e a palestina",
+            "normalized_description": "sa³ uma solua a o de dois estados vizinhos e a viver em segurana a podera trazer a paz para a regia o"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/ajuste-direto/detalhe/reabilitar-o-bdp",
+            "normalized_title": "reabilitar o bdp",
+            "normalized_description": "a lvaro tem de limpar a imagem de um cargo que por ora na o lhe da curra culo mas cadastro"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/27/opiniao/opiniao/trump-supremo-anatomia-freio-2140323",
+            "normalized_title": "trump e o supremo anatomia de um poder sem freio",
+            "normalized_description": "o uso reiterado de deliberacoes concebidas para cenarios de urgencia transforma hoje o supremo numa especie de camara de eco do executivo opiniao de"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/27/opiniao/opiniao/mulher-compreende-2141789",
+            "normalized_title": "uma mulher que compreende tudo",
+            "normalized_description": "hoje ha muitas mulheres teologas e nao so que tem dificuldade em aceitar a discriminacao que recai sobre elas na igreja opiniao de frei bento"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/27/opiniao/opiniao/novo-edificio-banco-portugal-provocacao-pobreza-2141463",
+            "normalized_title": "novo edificio para o banco de portugal e mais uma provocacao a pobreza",
+            "normalized_description": "nao saberao gestores como o dr mario centeno que as camaras municipais tem listagens enormes de familias a espera ha muitos anos de uma casa com"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/27/opiniao/opiniao/portugal-palestina-2141830",
+            "normalized_title": "de portugal e da palestina",
+            "normalized_description": "o que e que nos temos a ver com gaza aqui em portugal nao temos os nossos problemas para resolver pois e mas agora pensem comigo opiniao de ines"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/27/opiniao/opiniao/cem-candidatos-presidenciais-florescam-2141887",
+            "normalized_title": "que cem candidatos presidenciais florescam",
+            "normalized_description": "ate agora temos candidatos da sociedade partidaria e da sociedade militar falta uma candidatura da sociedade civil opiniao de pedro adao e"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/26/politica/opiniao/bom-luis-montenegro-ponha-gelo-pulsos-comece-governar-2141793",
+            "normalized_title": "e bom que luis montenegro ponha gelo nos pulsos e comece a governar",
+            "normalized_description": "ate agora luis montenegro tem optado por assumir temas de uma agenda populista radical de direita que mais do que conservadora e retrograda e"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/26/publico-brasil/opiniao/bacurau-aqui-2141106",
+            "normalized_title": "bacurau e aqui",
+            "normalized_description": "o nordeste e plural e vai muito alem do sertao com excelencia em muitos campos da modernidade e e tambem insubmisso principalmente no caso do"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/26/ciencia/opiniao/medusas-detecao-celulas-cancerosas-2141513",
+            "normalized_title": "das medusas a detecao de celulas cancerosas",
+            "normalized_description": "numa altura em que a escassez de financiamento e a mentalidade dominante privilegiam a ciencia dita aplicada e necessario chamar a atencao para a"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/26/mundo/editorial/vergonha-tempo-2141821",
+            "normalized_title": "a vergonha do nosso tempo",
+            "normalized_description": "a historia ja conheceu capitulos em que as sociedades civilizadas se habituaram ao inaceitavel gaza e hoje a imagem vivida desse abismo moral"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/um-leao-adormecido",
+            "normalized_title": "um leao adormecido",
+            "normalized_description": "leao xiv ainda nao justificou ser o homem certo para conduzir os destinos da igreja catolica"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/nacao-valente/detalhe/20250725-231303-mas-companhias",
+            "normalized_title": "mas companhias",
+            "normalized_description": "do mandatario nacional ao friso de notaveis que enfeitam a sua candidatura e tudo tralha partidaria com decadas de vicios"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/circulos-de-fogo/detalhe/ambicao",
+            "normalized_title": "ambicao",
+            "normalized_description": "a russia assumiu se como uma ameaca real aos destinos de uma europa livre e soberana"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/antena-paranoica/detalhe/a-procura-da-redencao",
+            "normalized_title": "a procura da redencao",
+            "normalized_description": "a confusao diabolica em que vivemos criou o jornalista justiceiro"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/sonia-dias/detalhe/e-tudo-uma-grande-barracada",
+            "normalized_title": "e tudo uma grande barracada",
+            "normalized_description": "a por causa de tachos como os da rtp que o chega ganha vantagem"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/coisas-do-dinheiro/detalhe/20250725-204438-pausa-nos-juros",
+            "normalized_title": "pausa nos juros",
+            "normalized_description": "ha muitas ameacas no horizonte"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/segunda-opiniao/detalhe/francisco-santo-subito",
+            "normalized_title": "francisco santo subito",
+            "normalized_description": "o estado do mundo faz sentir saudades de francisco"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/26/opiniao/opiniao/projecto-politico-observador-2141784",
+            "normalized_title": "o projecto politico do observador",
+            "normalized_description": "nao me passa pela cabeca desejar qualquer mal ou censura sobre a radio observador mas tudo isto estaria bem se houvesse transparencia politica"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/26/opiniao/opiniao/sexualidade-cidadania-2141852",
+            "normalized_title": "sexualidade e cidadania",
+            "normalized_description": "a triste curiosidade deste debate reside no facto de estas duas opinioes radicais de controlo ideologico poderem ser maioritarias na sociedade em"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/26/opiniao/opiniao/expansao-poderes-presidenciais-eua-2141786",
+            "normalized_title": "a expansao dos poderes presidenciais nos eua",
+            "normalized_description": "o supremo tribunal tem vindo a construir uma interpretacao da constituicao que alarga radicalmente os poderes do presidente opiniao de francisco"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/26/opiniao/opiniao/identitarismos-erosao-democracia-2140760",
+            "normalized_title": "identitarismos e a erosao da democracia",
+            "normalized_description": "assiste se a um enfraquecimento que parece irreversivel das estruturas intermedias da sociedade ao mesmo tempo que os velhos valores iluministas e"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/26/opiniao/opiniao/arde-2141614",
+            "normalized_title": "que fazer quando tudo arde",
+            "normalized_description": "resistir basear o pensamento em evidencia cientifica deveria ser esta a missao da escola deveria ser esta a missao de quem nos governa nao sendo"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/26/opiniao/opiniao/educacao-valores-2141630",
+            "normalized_title": "educacao e valores",
+            "normalized_description": "a escola nao se substitui a familia nem a educacao que os pais transmitem aos filhos mas tem a responsabilidade de consolidar a transmissao de"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/26/opiniao/opiniao/sexo-cidadania-2141826",
+            "normalized_title": "o sexo e a cidadania",
+            "normalized_description": "nao seria preferivel discutir o que pode ser feito para que a disciplina passe a servir para alguma coisa seria mas nao era tao giro opiniao de"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/centeno-santos-pereira-e-a-estrada-da-beira",
+            "normalized_title": "centeno santos pereira e a estrada da beira",
+            "normalized_description": "quem olha para a historia rocambolesca da nomeacao de centeno nao pode de boa fe compara la com a de alvaro santos pereira"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/movimento-perpetuo",
+            "normalized_title": "movimento perpetuo",
+            "normalized_description": "quando olho para esta fotografia recordo me de uma magnifica serie de televisao sueca que passou ha algum tempo na rtp2 um hotel a beira mar"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/assobiar-para-o-lado-nao-e-a-solucao",
+            "normalized_title": "assobiar para o lado nao e a solucao",
+            "normalized_description": "putin nao estara minimamente interessado em negociar o numero de drones produzido diariamente por moscovo podera atingir algo entre as 700 e as 1000"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/25/desporto/opiniao/tribunal-arbitral-desporto-2141671",
+            "normalized_title": "para quando tribunal arbitral do desporto",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/mais-um-dia-na-aldeia-dos-caranguejos",
+            "normalized_title": "mais um dia na aldeia dos caranguejos",
+            "normalized_description": "ainda alvaro nao aterrou em lisboa e a narrativa ja esta montada se foi escolhido por passos coelho nao tem gabarito para substituir o ronaldo das"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/25/opiniao/opiniao/adeus-liberal-2141603",
+            "normalized_title": "um adeus liberal",
+            "normalized_description": "a iniciativa liberal de hoje e uma imitacao de qualquer coisa entre o populismo fiscal e o conservadorismo disfarcado opiniao de filipe mendonca"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/25/publico-brasil/opiniao/proxima-febre-suplementos-alimentares-2141712",
+            "normalized_title": "a proxima febre em suplementos alimentares",
+            "normalized_description": "voce ja ouviu falar de posbioticos pois pode ter certeza de que em pouco tempo eles estarao em toda parte opiniao de claudia maximino"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/25/ciencia/opiniao/trocar-toalha-praia-bata-laboratorio-26-anos-descobrir-brincar-ciencia-2141548",
+            "normalized_title": "trocar a toalha de praia pela bata de laboratorio 26 anos a descobrir e brincar com a ciencia",
+            "normalized_description": "hoje a ciencia viva e muito mais do que um nome e um verdadeiro movimento social opiniao de elvira fortunato"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/cronicas-deste-mundo/detalhe/20250724-210248-leao-xiv",
+            "normalized_title": "leao xiv",
+            "normalized_description": "e de esperar que o papa valorize o papel da mulher na igreja catolica"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/joao-moniz/detalhe/estadio-de-sitio-no-benfica",
+            "normalized_title": "mudancas na luz vao ser um bico de obra",
+            "normalized_description": "os projetos anunciados para reformular a luz vao aquecer as eleicoes no clube"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/pedro-santana-lopes/detalhe/20250724-221616-a-transformacao-do-mundo",
+            "normalized_title": "a transformacao do mundo",
+            "normalized_description": "o mundo nao desperta para os grandes desafios que tem por diante"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/luisa-jeremias/detalhe/como-estragar-um-exito-com-uma-ma-decisao",
+            "normalized_title": "como estragar um exito com uma ma decisao",
+            "normalized_description": "segundas naºpcias tem personagens a mais isso distrai o espetador e tira o foco"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/a-bem-da-nocao/detalhe/amor-de-perdicao",
+            "normalized_title": "amor de perdicao",
+            "normalized_description": "e como perdoar a alguem que alem de nos encornar gosta dos coldplay"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/a-abrir/detalhe/20250724-222135-em-boas-maos",
+            "normalized_title": "em boas maos",
+            "normalized_description": "alvaro santos pereira nao vem de nenhum corredor do poder"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/nacao-valente/detalhe/20250724-235329-histeria-sexual",
+            "normalized_title": "histeria sexual",
+            "normalized_description": "essa afronta basta para despertar a furia de quem nao controla a sua ejaculacao ideologica precoce"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/detalhe/coisas-simples-e-boas-de-verao",
+            "normalized_title": "coisas simples e boas de verao",
+            "normalized_description": "um dos meus sonhos a ser um cientista do trauma alimentar"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/detalhe/reconhecimento-e-respeito",
+            "normalized_title": "reconhecimento e respeito",
+            "normalized_description": "a psp esta a viver um periodo critico mas portugal nao vive sem a psp"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/detalhe/sic-continua-a-liderar-audiencias",
+            "normalized_title": "sic continua a liderar audiencias",
+            "normalized_description": "cmtv ultrapassou a rtp 1 na grande lisboa e teve 28 entre os 50 mais vistos no cabo"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/detalhe/futebol-parado-futebol-falado",
+            "normalized_title": "futebol parado futebol falado",
+            "normalized_description": "sao meses de noticias de transferencias negocios ferias e festas"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/25/opiniao/opiniao/apagao-sexualidade-2141698",
+            "normalized_title": "o apagao da sexualidade",
+            "normalized_description": "a abordagem proposta para a disciplina de cidadania e desenvolvimento respondeu a pressoes politicas e integra se na estrategia do governo de se"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/25/opiniao/opiniao/talude-humanismo-pragmatismo-2141477",
+            "normalized_title": "talude entre o humanismo e o pragmatismo",
+            "normalized_description": "seria bom que este talude nao fosse a imagem do declive moral da nossa sociedade entre os dois pontos extremos do talude talvez a solucao esteja"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/25/opiniao/opiniao/possivel-falar-imigracao-2141011",
+            "normalized_title": "e possivel falar de imigracao",
+            "normalized_description": "temos dois discursos que nao comunicam entre si um de tipo nacionalista e nativista o outro radicalmente cosmopolita e um nao discurso do"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/25/opiniao/opiniao/ha-cancoes-nascem-caderno-ganham-vida-noutra-voz-2141621",
+            "normalized_title": "ha cancoes que nascem num caderno e ganham vida noutra voz",
+            "normalized_description": "carlos moedas ao longo dos ultimos quatro anos herdou projetos inteiros do partido socialista sobretudo na habitacao e tratou os como se fossem"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/25/opiniao/opiniao/milagre-quase-ninguem-ve-helicopteros-inem-2141609",
+            "normalized_title": "o milagre que quase ninguem ve nos helicopteros do inem",
+            "normalized_description": "nao ha margem para erros quando a missao e transportar alguem entre a vida e a morte ignorar isso quando se comenta um assunto tao complexo e omitir"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/25/opiniao/cronica/verdadeiros-anos-70-2141586",
+            "normalized_title": "os verdadeiros anos 70",
+            "normalized_description": "olho para o meu cartao de cidadao e subitamente tenho consciencia de que acabei de entrar na epoca do deve ser alguma gralha cronica de miguel"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/25/opiniao/opiniao/comem-2141704",
+            "normalized_title": "eles comem tudo",
+            "normalized_description": "nunca em 50 anos de democracia tivemos um governo tao minoritario a agir com tamanha voracidade na ocupacao do aparelho do estado e das"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-economia-narrativas-e-factos-d6fd4905",
+            "normalized_title": "economia narrativas e factos",
+            "normalized_description": "o crescimento em 2024 significou um abrandamento da economia e das exportacoes"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-a-imigracao-e-a-economia-156eba5c",
+            "normalized_title": "a imigracao e a economia",
+            "normalized_description": "espero que o governo ad prossiga a politica de regulacao equilibrada da imigracao"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-um-violento-tiro-no-pe-107d5f60",
+            "normalized_title": "um violento tiro no pe",
+            "normalized_description": "o psd acredita ter sido alcandorado ao poder numa vaga de sentimento anti imigracao e esta disposto a tudo para a cavalgar"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-nao-ha-representacao-sem-tributacao-a6e11d5b",
+            "normalized_title": "nao ha representacao sem tributacao",
+            "normalized_description": "hoje pagamos de forma pouco transparente atraves de contribuicoes nacionais com impostos europeus pagariamos de forma transparente"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-retomar-a-laicidade-nas-escolas-bcbc90fc",
+            "normalized_title": "retomar a laicidade nas escolas",
+            "normalized_description": "e fundamental que as escolas sejam locais de tolerancia e convivencia nao promovendo crencas absurdas e radicais"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-a-vertigem-da-divida-30ede337",
+            "normalized_title": "a vertigem da divida",
+            "normalized_description": "o mantra das contas certas ficou dos anos da troika mas a corrida ao credito ja voltou em forca e a divida a subir"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-polemicas-de-verao.-escalar-ou-nao-escalar--ae215ba5",
+            "normalized_title": "polemicas de verao escalar ou nao escalar",
+            "normalized_description": "quando alguem fala em acender brasas brotam do sofa cozinheiros talentosos e inesperados altamente conhecedores do churrasco"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-calisto-f9e6330a",
+            "normalized_title": "calisto",
+            "normalized_description": "para quem nao se lembra socrates foi tratado como um querubim era a criatura incensada e mandatada para transformar a patria"
+        },
+        {
+            "link": "https://expresso.pt/semanario/primeiro/editorial/2025-07-24-politicas-aos-ziguezagues-fcca6a5f",
+            "normalized_title": "politicas aos ziguezagues",
+            "normalized_description": "se ha anos que o centro politico nao se entende hoje ja nem tenta a instabilidade das politicas nao ajuda o pais"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-a-teoria-na-pratica-5ddc66e3",
+            "normalized_title": "a teoria na pratica",
+            "normalized_description": "qualquer politica publica que nao se limite ao mais basico facilitar e agilizar a construcao de habitacao publica ou privada muito provavelmente"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-um-espaco-publico-doente-9b1f0d2e",
+            "normalized_title": "um espaco publico doente",
+            "normalized_description": "aquilo a que assistimos esta semana da parte do esquerdismo nacional nao e muito diferente do que ouvimos da deputada matias"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-a-uniao-europeia-e-a-china-um-dialogo-dificil-7c51dccc",
+            "normalized_title": "a uniao europeia e a china um dialogo dificil",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-guerra-milionaria-pelo-talento-na-ia-ebf8e101",
+            "normalized_title": "guerra milionaria pelo talento na ia",
+            "normalized_description": "a loucura que esta a acontecer na ia deve se a raridade do talento que e preciso para construir os modelos superavancados"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/jose-jorge-letria/detalhe/o-horror-escrito-por-hitler",
+            "normalized_title": "o horror escrito por hitler",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/bruno-batista/detalhe/por-que-deve-vieira-voltar-ao-benfica",
+            "normalized_title": "por que deve vieira voltar ao benfica",
+            "normalized_description": "dou a resposta logo na primeira frase porque faz falta um adulto na sala"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/a-justica-esta-de-ferias-mas-a-violencia-domestica-nao",
+            "normalized_title": "a justica esta de ferias mas a violencia domestica nao",
+            "normalized_description": "ate obter nacionalidade a lei nao defende mulheres refugiadas no solo portugues e ficam no limbo da violencia ate a morte muitas vezes"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/criar-do-zero-ou-com-inteligencia-artificial-a-verdadeira-pergunta-e-outra",
+            "normalized_title": "criar do zero ou com inteligencia artificial a verdadeira pergunta e outra",
+            "normalized_description": "a ia nao diminui a criatividade amplia a assim haja formacao politica editorial e metricas de avaliacao que a balizem"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-porque-e-que-mario-centeno-irrita-tanto-uma-certa-direita--ff412f9c",
+            "normalized_title": "porque e que mario centeno irrita tanto uma certa direita",
+            "normalized_description": "mais do que irritar ou assustar politicamente centeno parece deixar certa direita tao nervosa como a esquerda fica com o nome de passos coelho so"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/24/publico-brasil/opiniao/pele-colonizador-colonizado-cultura-sincretica-2141575",
+            "normalized_title": "seja na pele de colonizador seja na de colonizado somos uma cultura sincretica",
+            "normalized_description": "na caravela da anunciacao cabem todos maes de santo padres ateus caciques tupinambas politicos madames do leblon e povo trabalhador opiniao"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-a-tirania-das-generalizacoes-o-perigo-da-injustica-coletiva-a7a71d1a",
+            "normalized_title": "a tirania das generalizacoes o perigo da injustica coletiva",
+            "normalized_description": "atacar profissoes inteiras sem provas tornou se desporto nacional numa sociedade onde a suspeicao generalizada substitui factos estamos a"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-a-transfiguracao-do-partido-socialista-e-as-infracoes-a-sua-declaracao-de-principios-a1f02e26",
+            "normalized_title": "a transfiguracao do partido socialista e as infracoes a sua declaracao de principios",
+            "normalized_description": "o ps nao pode ser um partido onde primeiro se atira se quer matar e depois se pergunta pelas razoes nao sao os outros que tem de vir prestar nos"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-o-plano-e-desmantelar-o-sns.-e-esta-a-resultar-7ca11f80",
+            "normalized_title": "o plano e desmantelar o sns e esta a resultar",
+            "normalized_description": "reformar a saude e urgente mas isso exige reforcar os quadros do sns com medicos e demais profissionais de saude nao contorna los a estrategia"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-o-apagao-iberico--um-alerta-para-um-sistema-energetico-resiliente-e-flexivel-1d8a4f5f",
+            "normalized_title": "o apagao iberico um alerta para um sistema energetico resiliente e flexivel",
+            "normalized_description": "e tempo de reformular os mercados modernizar a rede eletrica europeia e reforcar a sua capacidade para gerir o sistema energetico do futuro"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/menos-ar-e-mais-lar",
+            "normalized_title": "menos ar e mais lar",
+            "normalized_description": "e preciso colocar as infraestruturas em modo de pausa e tratar do tema da habitacao como aquilo em que se tornou uma pandemia social para a qual"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-quando-as-campanhas-de-rui-costa-e-carlos-moedas-se-cruzaram-200ea554",
+            "normalized_title": "quando as campanhas de rui costa e carlos moedas se cruzaram",
+            "normalized_description": "um autarca tem relacoes com os clubes da cidade nao se envolve nas suas campanhas fernando medina e antonio costa fizeram no por oportunismo em"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-24-testemunho-sobre-a-vergonha-que-sinto-cd54a57a",
+            "normalized_title": "testemunho sobre a vergonha que sinto",
+            "normalized_description": "singh trabalha ha dois anos e meio na mesma empresa portuguesa tem contrato desde o inicio ele e o patrao pagam mensalmente as contribuicoes a"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/o-coracao-de-leao-e-as-lagrimas-de-crocodilo",
+            "normalized_title": "o coracao de leao e as lagrimas de crocodilo",
+            "normalized_description": "para aqueles que julgam que o mundo comeca no terreiro do paco e termina no parque das nacoes ou em telheiras a pobreza boa e a pobreza abstrata"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/ricardo-coracao-e-mao-de-leao",
+            "normalized_title": "ricardo coracao e mao de leao",
+            "normalized_description": "fingir que a lei nao se aplica a todos ou que a solidariedade implica abdicar da exigencia e o caminho mais curto para o descalabro"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/24/ciencia/opiniao/arqueologia-servir-sociedade-2141489",
+            "normalized_title": "educacao patrimonial uma forma de a arqueologia servir a sociedade",
+            "normalized_description": "em territorios de menor densidade populacional onde as assimetrias no acesso a cultura ciencia e participacao civica sao mais acentuadas a"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/24/opiniao/editorial/centenosarmento-guerra-ate-fim-2141541",
+            "normalized_title": "centeno sarmento uma guerra ate ao fim",
+            "normalized_description": "quando o conselho de ministros aprovar o nome do sucessor de centeno o governador estara em frankfurt a participar na reuniao do banco central"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/bilhete-postal/detalhe/estas-criancas-a-morrer-de-fome-impoem-um-sobressalto-moral",
+            "normalized_title": "estas criancas a morrer de fome impoem um sobressalto moral",
+            "normalized_description": "por carlos rodrigues"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/quantas-mais-mortes-sao-precisas",
+            "normalized_title": "quantas mais mortes sao precisas",
+            "normalized_description": "e ignobil que alguem que procura uma restia de comida em gaza arrisque ser baleado"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/detalhe/educacao-menos-dinheiro-e-mais-sexo",
+            "normalized_title": "educacao menos dinheiro e mais sexo",
+            "normalized_description": "quando os politicos se aconselham com especialistas devem levar isso a serio e nao me parece que o tenham feito"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/corte-a-direito/detalhe/dancamos-senhor-primeiro-ministro",
+            "normalized_title": "dancamos senhor primeiro ministro",
+            "normalized_description": "finalmente luis montenegro abriu os olhos"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/a-vida-como-ela-nao-e/detalhe/bandidos-e-imigrantes",
+            "normalized_title": "bandidos e imigrantes",
+            "normalized_description": "sem gente rebelde capaz de correr riscos o sonho do sa culo xx o cinema nunca teria existido"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/jose-jorge-letria/detalhe/defender-a-obra-de-jose-afonso",
+            "normalized_title": "defender a obra de jose afonso",
+            "normalized_description": "zeca afonso foi o nosso maior criador musical e poetico de sempre"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/tania-laranjo/detalhe/20250723-234746-a-tragedia-de-gaza",
+            "normalized_title": "a tragedia de gaza",
+            "normalized_description": "israel pode justificar o que quiser mas a barbarie ficara para sempre nos livros de historia"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/joao-vaz/detalhe/ligar-o-motor-da-igualdade",
+            "normalized_title": "ligar o motor da igualdade",
+            "normalized_description": "em portugal nao e preciso inventar diferencas mas sim por a trabalhar o motor da igualdade"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/carlos-anjos/detalhe/outro-misterio",
+            "normalized_title": "outro misterio",
+            "normalized_description": "prevejo uma investigacao dificil e com resultados surpreendentes"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/francisco-moita-flores/detalhe/as-lanchas",
+            "normalized_title": "as lanchas",
+            "normalized_description": "a multiplicacao das lanchas rapidas continuara apesar dos esforcos das autoridades"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-23-portugal-em-osaka-um-dialogo-de-confianca-e-oportunidades-42eafb6e",
+            "normalized_title": "portugal em osaka um dialogo de confianca e oportunidades",
+            "normalized_description": "num contexto internacional marcado por incertezas a relacao portugal japao ganha um novo significado e um capital simbolico e diplomatico que"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/24/opiniao/opiniao/direito-existir-2141180",
+            "normalized_title": "o mesmo direito a existir",
+            "normalized_description": "nao recuperaremos a nossa autoridade moral abandonando a ucrania recupera la emos sim exigindo em gaza o que exigimos em kiev opiniao de manuel"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/24/opiniao/opiniao/fanaticos-sexo-2141546",
+            "normalized_title": "os fanaticos do sexo",
+            "normalized_description": "os que se dizem defensores da familia sao afinal os verdadeiros fanaticos do sexo obcecados em controlar quem deseja quem como onde e com que"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/24/culturaipsilon/opiniao/jose-pedro-machado-mestre-eterno-aprendiz-2141273",
+            "normalized_title": "jose pedro machado o mestre que foi eterno aprendiz",
+            "normalized_description": "nos 20 anos da morte de jose pedro machado e de elementar justica recordar a sua obra e o seu exemplo como filologo e como professor opiniao de"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/24/opiniao/opiniao/mercado-habitacao-anomalias-intervencao-estado-2141482",
+            "normalized_title": "o mercado da habitacao as anomalias e a intervencao do estado",
+            "normalized_description": "o recurso a modulos pre fabricados ou a contentores adaptados e uma solucao muito mais digna do que as barracas para dar alojamento aos mais"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/24/opiniao/opiniao/balanco-consulado-moedas-parte-ii-2141452",
+            "normalized_title": "balanco do consulado moedas parte ii",
+            "normalized_description": "por que esperam para fazer chegar ao prelo um novo pdm consentaneo com os problemas da cidade emendando a descaracterizacao reinante e devolvendo a"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/24/opiniao/cronica/mal-ar-condicionado-2141458",
+            "normalized_title": "o mal do ar condicionado",
+            "normalized_description": "o ar condicionado a bem ver serve para nao perder tempo a pensar no calor e no frio que esta serve para se poder pensar em coisas mais"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/24/opiniao/opiniao/novo-15-mes-comprar-votos-pensionistas-2141456",
+            "normalized_title": "o novo 15 º mes ou como comprar os votos dos pensionistas",
+            "normalized_description": "a oferta deste suplemento e injusta em qualquer mes do ano mas a sua antecipacao em relacao a 2024 assinala o caracter escandalosamente"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-23-investimento-em-saude-valor-para-as-pessoas-sustentabilidade-para-o-pais-6aae5850",
+            "normalized_title": "investimento em saude valor para as pessoas sustentabilidade para o pais",
+            "normalized_description": "e relevante saber que 10 dos portugueses nao adquiriram medicamentos por razoes economicas este e um alerta para a urgencia em reforcar a"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/23/culturaipsilon/opiniao/mosteiro-santa-claraanova-dois-problemas-solucao-2141296",
+            "normalized_title": "mosteiro de santa clara a nova dois problemas e uma solucao",
+            "normalized_description": "quando nomes indiscutiveis das artes e da curadoria mundiais afirmam que portugal tem um destino de arte como nenhum outro no mosteiro de santa"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/23/opiniao/opiniao/queremos-viver-sociedade-escravos-2141485",
+            "normalized_title": "queremos viver numa sociedade de escravos",
+            "normalized_description": "uma sociedade que normaliza a exclusao o medo e a exploracao e uma sociedade doente onde ninguem estara verdadeiramente livre ou seguro opiniao"
+        },
+        {
+            "link": "https://ionline.sapo.pt/2025/07/23/sexualidade-na-escola/",
+            "normalized_title": "sexualidade na escola",
+            "normalized_description": "sem educacao sexual os jovens usam menos preservativos ficam mais desprotegidos e ha maior numero de gravidezes indesejaveis o conteudo sexualidade"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/23/opiniao/opiniao/ensino-profissional-venham-20-anos-2141447",
+            "normalized_title": "ensino profissional venham outros 20 anos",
+            "normalized_description": "e urgente que o ensino profissional nao seja tratado como um subsistema mas como uma via equivalente e complementar ao ensino geral com lugar na"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/o-ranking-surpreendente-onde-quem-tem-menos-da-mais",
+            "normalized_title": "o ranking surpreendente onde quem tem menos da mais",
+            "normalized_description": "em portugal parece subsistir uma forte expectativa e crenca de que o estado deve constituir o principal garante do bem estar social"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-23-o-drone-e-a-maior-invencao-da-guerra-depois-da-bala-402c2fe3",
+            "normalized_title": "o drone e a maior invencao da guerra depois da bala",
+            "normalized_description": "como diz o operador mais famoso destes drones na ucrania darwin estamos perante a maior invencao belica desde a bala e eu acrescentaria que e uma"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-23-o-drone-e-a-maior-invencao-da-guerra-depois-da-bala-402c2fe3",
+            "normalized_title": "o drone e a maior invencao da guerra depois da bala",
+            "normalized_description": "como diz o operador mais famoso destes drones na ucrania darwin estamos perante a maior invencao belica desde a bala e eu acrescentaria que e uma"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/outro-ensaio-sobre-a-cegueira",
+            "normalized_title": "outro ensaio sobre a cegueira",
+            "normalized_description": "o jornalismo esta a suicidar se em directo a cores e tambem ao vivo o mais curioso e que enquanto cava a sua propria sepultura culpa os outros"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-23-educacao-sexual.-querem-amarrar-os-jovens-a-gravidez-indesejada-a-doenca-e-a-violencia--f1090938",
+            "normalized_title": "educacao sexual querem amarrar os jovens a gravidez indesejada a doenca e a violencia",
+            "normalized_description": "deveriamos ja ter atingido um patamar de maturidade enquanto pais em que o combate a gravidez na adolescencia a violencia domestica e no namoro"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-23-vale-a-pena-recordar-o-que-sophia-nunca-disse-57ba20c5",
+            "normalized_title": "vale a pena recordar o que sophia nunca disse",
+            "normalized_description": "um olhar mais sofisticado sobre o discurso do primeiro ministro teria permitido ver o que ele e uma sentida homenagem a jose saramago"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-23-protecionismo-de-trump-desafio-ou-oportunidade--96e64521",
+            "normalized_title": "protecionismo de trump desafio ou oportunidade",
+            "normalized_description": "portugal e a europa enfrentam um duplo desafio mitigar os impactos de curto prazo e redesenhar as suas politicas industriais comerciais e"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-23-ate-onde-esta-disposto-a-ir-luis--b4345831",
+            "normalized_title": "ate onde esta disposto a ir luis",
+            "normalized_description": "na geracao dos nossos pais os homens iam as meninas as mulheres esperavam pelo casamento na minha tinhamos informacao de emergencia quando uma"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/compotas-e-ditadores",
+            "normalized_title": "compotas e ditadores",
+            "normalized_description": "tiranetes terao muita dificuldade em compreender o gesto tao prosaico de fazer compotas de fortalecer lacos em vez de destruir a sociedade o futuro"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/portugal-nao-precisa-de-mais-turistas-precisa-de-melhor-turismo",
+            "normalized_title": "portugal nao precisa de mais turistas precisa de melhor turismo",
+            "normalized_description": "o peso excessivo do turismo na criacao de riqueza compromete a diversificacao economica levando a uma situacao semelhante ao que em economia se"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/23/publico-brasil/opiniao/desmamar-nao-desamar-processo-abre-portas-nova-etapa-relacao-mae-filho-2141382",
+            "normalized_title": "desmamar nao e desamar processo abre portas para nova etapa da relacao mae e filho",
+            "normalized_description": "a escolha por um desmame gradual respeitando tempo de mae e filho nem sempre se faz possivel sendo que o fim da amamentacao de forma repentina tem"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/23/opiniao/editorial/montenegro-numeros-2141333",
+            "normalized_title": "montenegro contra os numeros",
+            "normalized_description": "ninguem pede ao governo que governe com medo mas pede se lhe que governe com prudencia o pais ja pagou caro por politicas que confundem optimismo"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/bilhete-postal/detalhe/a-greve-no-inem-mostra-um-padrao-inaceitavel-na-saude",
+            "normalized_title": "a greve no inem mostra um padrao inaceitavel na saude",
+            "normalized_description": "por carlos rodrigues"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/o-novo-signo-do-ps",
+            "normalized_title": "o novo signo do ps",
+            "normalized_description": "carneiro tem o perfil certo para liderar o ps mas a prazo tera concorrencia de centeno"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/correio-de-justica/detalhe/quando-esperar-ja-nao-chega",
+            "normalized_title": "quando esperar ja nao chega",
+            "normalized_description": "muito ha a corrigir e a construir para mitigar o desgaste a frustracao e a perda de esperanca"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/detalhe/uma-pergunta-para-mil-milhoes",
+            "normalized_title": "uma pergunta para mil milhoes",
+            "normalized_description": "joe berardo foi acusado de burla mas chegara alguma vez a julgamento"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/correio-de-seguranca/detalhe/20250722-235110-direitos-e-deveres",
+            "normalized_title": "direitos e deveres",
+            "normalized_description": "temos consciencia de que esta do lado da tutela o onus de poder tornar a nossa profissao aliciante"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/analise-estrategica/detalhe/portugal-e-os-f-35",
+            "normalized_title": "portugal e os f 35",
+            "normalized_description": "na atualidade o f 35 ja custa menos que os avioes de 4ª geracao europeus"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/tania-laranjo/detalhe/20250722-235650-nao-chega-a-capa-de-heroi",
+            "normalized_title": "nao chega a capa de heroi",
+            "normalized_description": "nem no mar nem na politica ha vitorias de um so homem"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/23/opiniao/opiniao/diagnostico-2141384",
+            "normalized_title": "por enquanto sem diagnostico",
+            "normalized_description": "o que esta a acontecer em portugal e uma deriva fascizante muito veloz sem que para tal tenha sido necessario celebrar coligacoes ou saimos disto"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/23/opiniao/opiniao/internacionalismo-nacionalista-2141339",
+            "normalized_title": "o internacionalismo nacionalista",
+            "normalized_description": "o que esta em marcha e a constituicao de uma federacao transnacional de forcas iliberais de direita radical e extrema direita que atravessa as"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/23/opiniao/opiniao/insuportavel-histeria-imigracao-2141364",
+            "normalized_title": "a insuportavel histeria com a imigracao",
+            "normalized_description": "o que se passa a esquerda atualmente com a imigracao e sinceramente penoso de ver em pessoas pensantes opiniao de maria joao marques"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/23/opiniao/cronica/morangos-2141262",
+            "normalized_title": "os primeiros morangos",
+            "normalized_description": "andamos com as epocas todas tao antecipadas e com os peixes tao enfiados em aquarios que ja nao sabemos a quantas andamos cronica de miguel"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/23/opiniao/opiniao/tambem-sexualidade-metodo-importa-2141376",
+            "normalized_title": "tambem na sexualidade o metodo importa",
+            "normalized_description": "no essencial o que move mais uma vez o governo e a vontade de marcar o debate publico com temas artificiais opiniao de pedro adao e silva"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/22/opiniao/opiniao/mundo-ministerio-educacao-2141361",
+            "normalized_title": "o pequeno mundo do ministerio da educacao",
+            "normalized_description": "o ministro e a sua equipa acham mesmo que apenas se deve abordar estes temas com os jovens do secundario da nossa experiencia podemos concluir que"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-22-um-momento-de-oportunidade-para-impulsionar-a-era-de-energias-limpas-7f7bd8bd",
+            "normalized_title": "um momento de oportunidade para impulsionar a era de energias limpas",
+            "normalized_description": "os perigos dos combustiveis fosseis por contraste com o papel das energias limpas e a necessidade de agir para contrariar o rumo atual o desafio"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-22-o-movimento-woke-e-a-santinha-da-ladeira-a-mesma-crenca-60c500e9",
+            "normalized_title": "o movimento woke e a santinha da ladeira a mesma crenca",
+            "normalized_description": "a cultura do pensamento positivo do coaching e a cultura de cancelamento woke partilham a ideia de que as palavras tem consequencias magicas na"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/22/publico-brasil/opiniao/grito-mundo-recusa-ouvir-gaza-precisa-cessarfogo-duradouro-logo-2141291",
+            "normalized_title": "grito que o mundo se recusa a ouvir gaza precisa de um cessar fogo duradouro e logo",
+            "normalized_description": "uma das mais importantes agencias de noticias do mundo a france presse afp alerta que seus jornalistas em gaza podem morrer de fome mesmo com"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-22-salvar-vidas-de-migrantes-no-mar-fe185dbf",
+            "normalized_title": "salvar vidas de migrantes no mar",
+            "normalized_description": "a europa falhou rotundamente em parar este vergonhoso massacre de pessoas desesperadas que sabem muito bem que quando comecam as suas jornadas"
+        },
+        {
+            "link": "https://ionline.sapo.pt/2025/07/22/para-acabar-de-uma-vez-para-sempre-com-fantasias-sobre-a-tap/",
+            "normalized_title": "para acabar de uma vez para sempre com fantasias sobre a tap",
+            "normalized_description": "o modelo de privatizacao anunciado desvaloriza a tap compromete a gestao competitiva pelo privado e mantem a empresa no colete de forcas do estatuto"
+        },
+        {
+            "link": "https://ionline.sapo.pt/2025/07/22/porque-falha-portugal/",
+            "normalized_title": "porque falha portugal",
+            "normalized_description": "portugal em materia de respeito do estado pelo cidadao aproxima se muitas vezes de realidades profundamente atrasadas e subdesenvolvidas e"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-22-imigracao-ou-o-fim-da-democracia-tal-qual-a-conhecemos-b4fd37c8",
+            "normalized_title": "imigracao ou o fim da democracia tal qual a conhecemos",
+            "normalized_description": "abandonar o psd nesta refrega significa provavelmente para o ps a certidao de obito"
+        },
+        {
+            "link": "https://ionline.sapo.pt/2025/07/22/o-realismo-de-montenegro/",
+            "normalized_title": "o realismo de montenegro",
+            "normalized_description": "so e possivel reparar os erros do ps falando com o chega o conteudo o realismo de montenegro aparece primeiro em jornal i"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-22-despejo-na-favela-0e56a901",
+            "normalized_title": "despejo na favela",
+            "normalized_description": "recorro no titulo a uma musica popular do extraordinario e genial adoniram barbosa mestre do samba paulista para sublinhar algo que a ditadura do"
+        },
+        {
+            "link": "https://ionline.sapo.pt/2025/07/22/bacteriofagos-no-combate-a-resistencia-a-antibioticos/",
+            "normalized_title": "bacteriofagos no combate a resistencia a antibioticos",
+            "normalized_description": "impulsionado pelo aumento crescente das resistencias antimicrobianas a terapia fagica tem visto um renascimento no interesse no ocidente o conteudo"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-22-imigrantes-descartaveis-baixam-o-preco-do-trabalho-eda9996b",
+            "normalized_title": "imigrantes descartaveis baixam o preco do trabalho",
+            "normalized_description": "o confronto nao e sobre maior ou menor abertura a imigracao todos sabem que o pais e a europa colapsa sem imigrantes e entre ter mao de obra"
+        },
+        {
+            "link": "https://ionline.sapo.pt/2025/07/22/privatiza-nacionaliza-privatiza-outra-vez-o-tear-de-penelope-da-tap/",
+            "normalized_title": "privatiza nacionaliza privatiza outra vez o tear de penelope da tap",
+            "normalized_description": "a privatizacao da tap e uma solucao ideal talvez nao seja mas seria a unica maneira de garantir que a empresa nao fica permeavel ou pelo menos tao"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/22/publico-brasil/opiniao/imigrantes-cancer-portugal-saude-direito-nao-privilegio-2141233",
+            "normalized_title": "imigrantes com cancer em portugal saude como direito e nao como privilegio",
+            "normalized_description": "com medidas anti imigracao propostas pelo governo e aprovadas pela assembleia da republica o que acontecera com os pacientes estrangeiros em"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-22-a-europa-vale-menos-que-a-nato--90f66ecd",
+            "normalized_title": "a europa vale menos que a nato",
+            "normalized_description": "a proposta de orcamento de uniao europeia para 2028 2034 e um exercicio de aumento de poder de bruxelas aumento de receitas para as politicas de"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-22-a-especulacao-imobiliaria-esta-a-empurrar-nos-para-relacoes-f61c9111",
+            "normalized_title": "a especulacao imobiliaria esta a empurrar nos para relacoes",
+            "normalized_description": "a especulacao imobiliaria quando nao temos privilegios economicos da nos apenas duas opcoes quando queremos sair da casa dos pais viver"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-22-ja-esta--vai-demorar-muito-17fdbbe1",
+            "normalized_title": "ja esta vai demorar muito",
+            "normalized_description": "na europa a direita democratica que concorreu com o monstro perdeu para o monstro luis montenegro afirma que nao cedeu trata se da realidade"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-22-helicopteros-de-emergencia-medica-reflexoes-sobre-um-processo-desafiante-que-nasceu-com-prazos-irrealistas-324a0ec5",
+            "normalized_title": "helicopteros de emergencia medica reflexoes sobre um processo desafiante que nasceu com prazos irrealistas",
+            "normalized_description": "empresa prestadora de servicos responsavel pela candidatura da gulf medical ao concurso de helicopteros de emergencia apresenta dados para defender"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/dia-mundial-do-cerebro-tumores-cerebrais-ciencia-arte-e-vida",
+            "normalized_title": "dia mundial do cerebro tumores cerebrais ciencia arte e vida",
+            "normalized_description": "o cerebro nao e so feito de celulas e sinapses e feito de experiencias historias e afetos devemos reconhecer a importancia do investimento em"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2025-07-22-o-caso-da-astronomer-e-a-moralidade-no-panoptico-104f629a",
+            "normalized_title": "o caso da astronomer e a moralidade no panoptico",
+            "normalized_description": "ha na exposicao do outro uma forma primitiva de poder ver sem ser visto julgar sem se comprometer nomear sem ser nomeado o voyeurismo e mais"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/e-possivel-fazer-politica-de-forma-diferente",
+            "normalized_title": "e possivel fazer politica de forma diferente",
+            "normalized_description": "a campanha autarquica 3 0 representaria uma mudanca de paradigma fundamental em vez de falar para os cidadaos falaria com eles"
+        },
+        {
+            "link": "https://www.sapo.pt/opiniao/artigos/uma-nuvem-negra-no-horizonte-da-agricultura-nacional",
+            "normalized_title": "uma nuvem negra no horizonte da agricultura nacional",
+            "normalized_description": "independentemente dos argumentos para justificar o corte proposto para o orcamento da pac fica evidente que em portugal a atividade agricola"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/22/opiniao/opiniao/dancas-inuteis-2140941",
+            "normalized_title": "dancas inuteis",
+            "normalized_description": "carta de uma bailarina ao presidente do sindicado nacional do corpo de guardas prisionais em resposta as declaracoes proferidas ao publico sobre a"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/22/ciencia/opiniao/portugues-europeu-africano-asiatico-mundo-2140893",
+            "normalized_title": "sou portugues europeu africano asiatico e do mundo",
+            "normalized_description": "somos uma clara mistura de povos e culturas muitos passaram por ca e nos tambem vamos mundo fora no passado e ainda hoje os dados da onu de 2024"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/22/economia/editorial/ilusao-maior-orcamento-2141143",
+            "normalized_title": "a ilusao do maior orcamento de sempre",
+            "normalized_description": "o novo orcamento da ue cresce em volume mas encolhe em visao e em compromisso com os fundamentos da coesao europeia editorial detiago luz pedro"
+        },
+        {
+            "link": "https://www.publico.pt/2025/07/22/opiniao/opiniao/cartas-director-2141136",
+            "normalized_title": "cartas ao director",
+            "normalized_description": ""
         }
     ],
     "Mundo": [
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/donald-trump-diz-que-a-imigracao-esta-a-matar-a-europa",
+            "normalized_title": "donald trump diz que a imigracao esta a matar a europa",
+            "normalized_description": "nao vao continuar a ter a europa avisa o presidente dos estados unidos"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/20250726-234326-alyssa-treina-para-ser-a-primeira-a-pisar-marte",
+            "normalized_title": "alyssa treina para ser a primeira a pisar marte",
+            "normalized_description": "norte americana de 24 anos com vasto curriculo na area espacial prepara se para integrar a primeira missao ao planeta vermelho"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/a-minha-familia-esta-a-morrer-a-fome-fotojornalista-vencedora-do-world-press-photo-alerta-para-tragedia-em-gaza",
+            "normalized_title": "a minha familia esta a morrer a fome fotojornalista vencedora do world press photo alerta para tragedia em gaza",
+            "normalized_description": "samar elouf fotografou crianca palestiniana que ficou sem bracos apos um bombardeamento teve de ser retirada de gaza porque era um alvo"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/ataques-israelitas-matam-mais-25-pessoas-em-busca-de-alimentos",
+            "normalized_title": "ataques israelitas matam mais 25 pessoas em busca de alimentos",
+            "normalized_description": "pelo menos 25 pessoas morreram tendo a maioria sido morta a tiro"
+        },
         {
             "link": "https://rr.pt/noticia/mundo/2025/07/26/israel-sem-provas-de-hamas-roubar-ajuda-humanitaria/434149/?utm_medium=rss",
             "normalized_title": "israel sem provas de hamas roubar ajuda humanitaria",
@@ -20000,54 +20642,14 @@
             "link": "https://www.cmjornal.pt/mundo/detalhe/doenca-de-donald-trump-insuficiencia-venosa-cronica-e-condicao-benigna-e-comum",
             "normalized_title": "doenca de donald trump insuficiencia venosa cronica e condicao benigna e comum",
             "normalized_description": "pernas do presidente incharam e surgiram nodoas negras nas maos o que levou a uma avaliacao clinica"
-        },
-        {
-            "link": "https://www.cmjornal.pt/mundo/detalhe/juiz-que-esta-a-julgar-bolsonaro-bloqueia-todos-os-bens-de-um-dos-filhos-do-ex-presidente",
-            "normalized_title": "juiz que esta a julgar bolsonaro bloqueia todos os bens de um dos filhos do ex presidente",
-            "normalized_description": "decisao insere se no ambito da investigacao que moraes mandou instaurar contra jair e eduardo bolsonaro por supostos crimes de coaccao obstrucao de"
-        },
-        {
-            "link": "https://rr.pt/noticia/mundo/2025/07/22/casa-branca-exclui-wall-street-journal-de-viagem-presidencial/433566/?utm_medium=rss",
-            "normalized_title": "casa branca exclui wall street journal de viagem presidencial",
-            "normalized_description": "presidente dos estados unidos vai viajar para a escocia onde possui duas estancias turisticas de golfe para depois se encontrar com o"
-        },
-        {
-            "link": "https://rr.pt/noticia/mundo/2025/07/22/administracao-trump-divulga-registos-do-caso-martin-luther-king-apesar-de-oposicao-de-familia/433564/?utm_medium=rss",
-            "normalized_title": "administracao trump divulga registos do caso martin luther king apesar de oposicao de familia",
-            "normalized_description": "a divulgacao dos registos de vigilancia ao ativista assassinado em 1968 envolve cerca de 200 mil paginas que estavam sob sigilo judicial desde 1977"
-        },
-        {
-            "link": "https://expresso.pt/internacional/medio-oriente/guerra-israel-hamas/2025-07-21-amnistia-acusa-israel-de-violar-lei-internacional-e-matar-civis-bombardeamento-de-prisao-de-evin-em-plena-luz-do-dia-e-um-crime-de-guerra-f5f3825c",
-            "normalized_title": "amnistia acusa israel de violar lei internacional e matar civis bombardeamento de prisao de evin em plena luz do dia e um crime de guerra",
-            "normalized_description": "uma nova investigacao da amnistia internacional mostra que israel matou varios civis sem qualquer ligacao ao aparelho militar iraniano ao bombardear"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2825803/oms-denuncia-ataques-a-residencia-de-funcionarios-e-armazem-em-gaza#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "oms denuncia ataques a residencia de funcionarios e armazem em gaza",
-            "normalized_description": "a organizacao mundial de saude oms denunciou hoje ataques a residencia dos seus funcionarios e ao seu principal armazem na cidade de deir el balah"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2825800/vice-presidente-da-india-demite-se-por-razoes-de-saude#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "vice presidente da india demite se por razoes de saude",
-            "normalized_description": "o vice presidente da india jagdeep dhankhar demitiu se hoje do cargo por recomendacao medica para dar prioridade a sua saude"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2825809/jornalistas-da-afp-descrevem-situacao-desesperada-de-camaradas-em-gaza#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "jornalistas da afp descrevem situacao desesperada de camaradas em gaza",
-            "normalized_description": "a sociedade dos jornalistas sdj da agencia france press afp descreveu hoje a situacao desesperada dos seus camaradas na faixa de gaza que veio a"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2825806/donald-trump-partilha-video-falso-onde-barack-obama-e-detido#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "donald trump partilha video falso onde barack obama e detido",
-            "normalized_description": "donald trump presidente dos estados unidos partilhou um video alegadamente gerado por inteligencia artificial onde se ve barack obama a ser"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2825808/imigracao-ilegal-reino-unido-cria-regime-de-sancoes-contra-gangues#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "imigracao ilegal reino unido cria regime de sancoes contra gangues",
-            "normalized_description": "o reino unido anunciou hoje o primeiro regime de sancoes do mundo contra atividades dos gangues ligados a trafico de pessoas visando travar a"
         }
     ],
     "Sociedade": [
+        {
+            "link": "https://www.cmjornal.pt/sociedade/detalhe/calor-deixa-todo-o-pais-sob-aviso-amarelo",
+            "normalized_title": "calor deixa todo o pais sob aviso amarelo",
+            "normalized_description": "perigo de incendio rural encerra serra de sintra e respetivos monumentos"
+        },
         {
             "link": "https://rr.pt/noticia/religiao/2025/07/26/a-guerra-a-paz-e-a-jmj-nos-primeiros-1200-km-de-uma-viagem-entre-lisboa-e-roma/434145/?utm_medium=rss",
             "normalized_title": "a guerra a paz e a jmj nos primeiros 1 200 km de uma viagem entre lisboa e roma",
@@ -22694,14 +23296,59 @@
             "link": "https://tek.sapo.pt/noticias/computadores/artigos/organizacoes-estao-a-levar-as-questoes-de-ciberseguranca-mais-a-serio-a-nivel-de-tecnologia-operacional",
             "normalized_title": "organizacoes estao a levar as questoes de ciberseguranca mais a serio a nivel de tecnologia operacional",
             "normalized_description": "um relatorio da fortinet aponta que as empresas estao a levar a seguranca de ot mais a serio numa tendencia que diz ser refletida no aumento"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/tech/2825810/irao-realizou-teste-suborbital-do-satelite-qased-para-avaliar-tecnologias#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "irao realizou teste suborbital do satelite qased para avaliar tecnologias",
-            "normalized_description": "o irao realizou hoje um teste suborbital do seu satelite qased para avaliar as novas tecnologias em desenvolvimento no programa espacial do pais"
         }
     ],
     "Nacional": [
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/avancam-dois-novos-centros-de-deportacao-de-imigrantes",
+            "normalized_title": "avancam dois novos centros de deportacao de imigrantes",
+            "normalized_description": "psp prepara o lancamento de concursos publicos para centros de instalacao temporaria de imigrantes"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/reclusos-do-pcc-escapam-ao-radar-dos-servicos-prisionais",
+            "normalized_title": "reclusos do pcc escapam ao radar dos servicos prisionais",
+            "normalized_description": "omp de sao paulo acredita que ha 29 reclusos em portugal que sao membros do pcc"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/francisca-desapareceu-no-primeiro-dia-das-festas-de-tabuaco",
+            "normalized_title": "francisca desapareceu no primeiro dia das festas de tabuaco",
+            "normalized_description": "pj continua a investigar mas nao tem qualquer pista pc vai ser entregue no domingo mas ainda nao se sabe a que horas"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/gnr-combate-roubos-e-trafico-de-droga-em-zona-de-diversao-noturna-em-albufeira",
+            "normalized_title": "gnr combate roubos e trafico de droga em zona de diversao noturna em albufeira",
+            "normalized_description": "cinco pessoas foram detidas durante fiscalizacao na rua da oura apreendida droga e navalhas"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/o-meu-filho-nao-consegue-voltar-para-casa-sozinho-mae-de-homem-que-desapareceu-do-hospital-de-braga-esta-desesperada",
+            "normalized_title": "o meu filho nao consegue voltar para casa sozinho mae de homem que desapareceu do hospital de braga esta desesperada",
+            "normalized_description": "mae de paulo sergio vieira de 46 anos desespera por noticias do filho ex militar fugiu terca feira do hospital de braga"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/20250726-200804-tribunal-livra-vieira-de-divida-milionaria-ao-novo-banco",
+            "normalized_title": "tribunal livra vieira de divida milionaria ao novo banco",
+            "normalized_description": "banco reclamou o pagamento de divida 291 milhoes de euros mas o tribunal deu nega"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/filho-mais-velho-escreveu-diario-para-relatar-abusos-do-pai",
+            "normalized_title": "filho mais velho de um gestor hoteleiro de topo escreveu diario para relatar abusos do pai",
+            "normalized_description": "os textos da crianca hoje com sete anos foram descritos como muito esclarecedores por pessoas proximas da investigacao"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/motard-morre-e-filho-fica-ferido-em-colisao-na-en125-em-tavira",
+            "normalized_title": "motard morre e filho fica ferido em colisao na en125 em tavira",
+            "normalized_description": "motociclistas seguiam em motos diferentes e colidiram com carro"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/barcos-turisticos-sem-seguro-nem-meios-de-alerta",
+            "normalized_title": "barcos turisticos sem seguro nem meios de alerta",
+            "normalized_description": "acao de fiscalizacao da policia maritima deteta infracoes em varias embarcacoes e levanta 5 autos alguns por falta de certificacao de navegabilidade"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/falsos-pj-sacam-430-mil-euros-em-seis-buscas",
+            "normalized_title": "falsos pj sacam 430 mil euros em seis buscas",
+            "normalized_description": "empresarios eram escolhidos pelos sinais exteriores de riqueza acreditavam estar a ser investigados e colaboravam com os falsos inspetores que"
+        },
         {
             "link": "https://www.cmjornal.pt/portugal/detalhe/detido-o-alegado-autor-do-falso-alarme-de-bomba-em-aviao-da-sata",
             "normalized_title": "detido o alegado autor do falso alarme de bomba em aviao da sata",
@@ -28823,19 +29470,14 @@
             "link": "https://www.cmjornal.pt/politica/detalhe/luis-montenegro-diz-que-o-ps-nao-esta-habituado-a-estar-na-oposicao",
             "normalized_title": "luis montenegro diz que o ps nao esta habituado a estar na oposicao",
             "normalized_description": "primeiro ministro acusa ps de dramatizacao depois de os socialistas ameacarem romper com o governo"
-        },
-        {
-            "link": "https://rr.pt/noticia/politica/2025/07/22/gouveia-e-melo-afunda-nas-sondagens-e-esta-em-empate-tecnico-com-marques-mendes-e-seguro/433567/?utm_medium=rss",
-            "normalized_title": "gouveia e melo afunda nas sondagens e esta em empate tecnico com marques mendes e seguro",
-            "normalized_description": "candidato presidencial caiu quase 15 pontos no barometro da intercampus no espaco de quatro meses almirante esta em empate tecnico com candidato"
-        },
-        {
-            "link": "https://rr.pt/noticia/politica/2025/07/22/cds-acredita-na-redencao-do-chega-mas-precisa-de-mais-umas-provazitas/433565/?utm_medium=rss",
-            "normalized_title": "cds acredita na redencao do chega mas precisa de mais umas provazitas",
-            "normalized_description": "nuno melo diz que como democrata cristao acredita por natureza na redencao depois de luis montenegro ter dito em entrevista que o chega esta a"
         }
     ],
     "Economia": [
+        {
+            "link": "https://www.cmjornal.pt/economia/detalhe/400-milhoes-de-euros-e-mais-paineis-solares-para-evitar-apagao",
+            "normalized_title": "400 milhoes de euros e mais paineis solares para evitar apagao",
+            "normalized_description": "governo apresenta na segunda feira pacote de medidas para evitar que o pais volte a parar com colapso da rede"
+        },
         {
             "link": "https://www.noticiasaominuto.com/economia/2828532/mais-de-40-voos-cancelados-em-lisboa-devido-a-greve-na-menzies#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "mais de 40 voos cancelados em lisboa devido a greve na menzies",
@@ -34090,24 +34732,14 @@
             "link": "https://www.rtp.pt/noticias/mundo/eua-cobram-taxa-extra-de-213-euros-sobre-vistos-de-visitantes_n1670849",
             "normalized_title": "eua cobram taxa extra de 213 euros sobre vistos de visitantes",
             "normalized_description": "os estados unidos vao cobrar uma taxa adicional de 250 dolares 213 euros ao cambio atual sobre os vistos de todos os estrangeiros que entrem no"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/a-conta-da-guerra/",
-            "normalized_title": "a conta da guerra",
-            "normalized_description": "a nova nato embora vestida com os trajes do multilateralismo e cada vez mais um clube de compradores e a europa sem narrativa estrategica"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/economia/mundo/americas/detalhe/supremo-brasileiro-abre-investigacao-a-transacoes-cambiais-feitas-antes-anuncio-de-tarifas-de-trump",
-            "normalized_title": "supremo brasileiro investiga transacoes cambiais feitas antes de anuncio de tarifas de trump",
-            "normalized_description": "a decisa o foi tomada pelo magistrado alexandre de moraes depois de nota cias recentes relacionadas com a compra e venda de da³lares feitas em"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/a-primeira-pagina-do-jornal-economico-de-22-de-julho-2/",
-            "normalized_title": "a primeira pagina do jornal economico de 22 de julho",
-            "normalized_description": "subscreva a newsletter edicao da manha para receber o seu jornal economico em formato digital todos os dias as 7h00"
         }
     ],
     "Outras Notícias": [
+        {
+            "link": "https://www.cmjornal.pt/domingo/detalhe/tres-dias-depois-morreu-salazar-e-passou-a-ser-a-noticia-mais-importante",
+            "normalized_title": "tres dias depois morreu salazar e passou a ser a noticia mais importante",
+            "normalized_description": "queda de um helicoptero na guine bissau fez seis mortos e envolveu longas buscas"
+        },
         {
             "link": "https://www.publico.pt/2025/07/26/local/noticia/40-voos-cancelados-aeroporto-lisboa-devido-greve-menzies-2141918",
             "normalized_title": "mais de 40 voos cancelados no aeroporto de lisboa devido a greve na menzies",
@@ -36440,6 +37072,11 @@
         }
     ],
     "Cultura": [
+        {
+            "link": "https://www.cmjornal.pt/cultura/detalhe/concerto-de-kendrick-lamar-no-restelo-o-rapper-que-proibe-os-moshes-atua-hoje-em-lisboa",
+            "normalized_title": "concerto de kendrick lamar no restelo o rapper que proibe os moshes atua hoje em lisboa",
+            "normalized_description": "musico norte americano apresenta se hoje no estadio do restelo em lisboa com sza num concerto de tres horas"
+        },
         {
             "link": "https://www.noticiasaominuto.com/cultura/2828491/artistas-esperam-que-sines-mantenha-o-amor-pela-cultura#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "artistas esperam que sines mantenha o amor pela cultura",
@@ -39428,843 +40065,6 @@
             "link": "https://pt.ign.com/clair-obscur-expedition-33/148749/news/charlie-cox-admite-que-ainda-nao-jogou-clair-obscur-expedition-33",
             "normalized_title": "charlie cox admite que ainda nao jogou clair obscur expedition 33",
             "normalized_description": "mas esta determinado a comprar uma consola para o jogar depois de no mes passado ter admitido que se sentia uma fraude total com o sucesso de clair"
-        }
-    ],
-    "Opinião": [
-        {
-            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/20250727-000407-o-poder-da-imagem",
-            "normalized_title": "o poder da imagem",
-            "normalized_description": "se uma imagem vale mais do que mil palavras em gaza vale por todas as palavras"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/voos-de-minerva/detalhe/20250727-000551-faltam-professores",
-            "normalized_title": "faltam professores",
-            "normalized_description": "e urgente agir valorizando salarios e carreiras"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/sergio-a--vitorino/detalhe/o-que-queremos",
-            "normalized_title": "o que queremos",
-            "normalized_description": "o caso demonstra algumas das coisas que vao mal na seguranca e justica"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/todos-irmaos/detalhe/dia-mundial-dos-avos-e-dos-idosos",
-            "normalized_title": "dia mundial dos avos e dos idosos",
-            "normalized_description": "uma sociedade que nao cuida dos mais velhos estara destinada a corrosao que o egoismo provoca"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/nacao-valente/detalhe/cegueiras",
-            "normalized_title": "cegueiras",
-            "normalized_description": "ignorar as preocupacoes dos portugueses depois da politica ruinosa do ps na imigracao seria uma cegueira e um desastre"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/correio-de-justica/detalhe/20250727-000508-impossivel",
-            "normalized_title": "impossivel",
-            "normalized_description": "a tabela remuneratoria apresenta no topo um vencimento que sera impossivel de alcancar com os atuais estatutos da pj"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/conta-peso-e-medida/detalhe/a-estupidez",
-            "normalized_title": "a estupidez",
-            "normalized_description": "as solucoes congeminadas pelo governo e pelo chega sao estupidas"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/mil-palavras/detalhe/20250727-000901-piedade",
-            "normalized_title": "piedade",
-            "normalized_description": "o governo israelita esta a aproximar se da pratica do crime de genocidio por omissao de auxilio"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/panoptico/detalhe/o-film-da-invisibilidade-na-multidao",
-            "normalized_title": "o film da invisibilidade na multidao",
-            "normalized_description": "o episodio viral num concerto pop"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/paz-precisa-se/detalhe/macron-e-a-palestina",
-            "normalized_title": "macron e a palestina",
-            "normalized_description": "sa³ uma solua a o de dois estados vizinhos e a viver em segurana a podera trazer a paz para a regia o"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/ajuste-direto/detalhe/reabilitar-o-bdp",
-            "normalized_title": "reabilitar o bdp",
-            "normalized_description": "a lvaro tem de limpar a imagem de um cargo que por ora na o lhe da curra culo mas cadastro"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/politica/opiniao/bom-luis-montenegro-ponha-gelo-pulsos-comece-governar-2141793",
-            "normalized_title": "e bom que luis montenegro ponha gelo nos pulsos e comece a governar",
-            "normalized_description": "ate agora luis montenegro tem optado por assumir temas de uma agenda populista radical de direita que mais do que conservadora e retrograda e"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/publico-brasil/opiniao/bacurau-aqui-2141106",
-            "normalized_title": "bacurau e aqui",
-            "normalized_description": "o nordeste e plural e vai muito alem do sertao com excelencia em muitos campos da modernidade e e tambem insubmisso principalmente no caso do"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/ciencia/opiniao/medusas-detecao-celulas-cancerosas-2141513",
-            "normalized_title": "das medusas a detecao de celulas cancerosas",
-            "normalized_description": "numa altura em que a escassez de financiamento e a mentalidade dominante privilegiam a ciencia dita aplicada e necessario chamar a atencao para a"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/mundo/editorial/vergonha-tempo-2141821",
-            "normalized_title": "a vergonha do nosso tempo",
-            "normalized_description": "a historia ja conheceu capitulos em que as sociedades civilizadas se habituaram ao inaceitavel gaza e hoje a imagem vivida desse abismo moral"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/um-leao-adormecido",
-            "normalized_title": "um leao adormecido",
-            "normalized_description": "leao xiv ainda nao justificou ser o homem certo para conduzir os destinos da igreja catolica"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/nacao-valente/detalhe/20250725-231303-mas-companhias",
-            "normalized_title": "mas companhias",
-            "normalized_description": "do mandatario nacional ao friso de notaveis que enfeitam a sua candidatura e tudo tralha partidaria com decadas de vicios"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/circulos-de-fogo/detalhe/ambicao",
-            "normalized_title": "ambicao",
-            "normalized_description": "a russia assumiu se como uma ameaca real aos destinos de uma europa livre e soberana"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/antena-paranoica/detalhe/a-procura-da-redencao",
-            "normalized_title": "a procura da redencao",
-            "normalized_description": "a confusao diabolica em que vivemos criou o jornalista justiceiro"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/sonia-dias/detalhe/e-tudo-uma-grande-barracada",
-            "normalized_title": "e tudo uma grande barracada",
-            "normalized_description": "a por causa de tachos como os da rtp que o chega ganha vantagem"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/coisas-do-dinheiro/detalhe/20250725-204438-pausa-nos-juros",
-            "normalized_title": "pausa nos juros",
-            "normalized_description": "ha muitas ameacas no horizonte"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/segunda-opiniao/detalhe/francisco-santo-subito",
-            "normalized_title": "francisco santo subito",
-            "normalized_description": "o estado do mundo faz sentir saudades de francisco"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/opiniao/opiniao/projecto-politico-observador-2141784",
-            "normalized_title": "o projecto politico do observador",
-            "normalized_description": "nao me passa pela cabeca desejar qualquer mal ou censura sobre a radio observador mas tudo isto estaria bem se houvesse transparencia politica"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/opiniao/opiniao/sexualidade-cidadania-2141852",
-            "normalized_title": "sexualidade e cidadania",
-            "normalized_description": "a triste curiosidade deste debate reside no facto de estas duas opinioes radicais de controlo ideologico poderem ser maioritarias na sociedade em"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/opiniao/opiniao/expansao-poderes-presidenciais-eua-2141786",
-            "normalized_title": "a expansao dos poderes presidenciais nos eua",
-            "normalized_description": "o supremo tribunal tem vindo a construir uma interpretacao da constituicao que alarga radicalmente os poderes do presidente opiniao de francisco"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/opiniao/opiniao/identitarismos-erosao-democracia-2140760",
-            "normalized_title": "identitarismos e a erosao da democracia",
-            "normalized_description": "assiste se a um enfraquecimento que parece irreversivel das estruturas intermedias da sociedade ao mesmo tempo que os velhos valores iluministas e"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/opiniao/opiniao/arde-2141614",
-            "normalized_title": "que fazer quando tudo arde",
-            "normalized_description": "resistir basear o pensamento em evidencia cientifica deveria ser esta a missao da escola deveria ser esta a missao de quem nos governa nao sendo"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/opiniao/opiniao/educacao-valores-2141630",
-            "normalized_title": "educacao e valores",
-            "normalized_description": "a escola nao se substitui a familia nem a educacao que os pais transmitem aos filhos mas tem a responsabilidade de consolidar a transmissao de"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/26/opiniao/opiniao/sexo-cidadania-2141826",
-            "normalized_title": "o sexo e a cidadania",
-            "normalized_description": "nao seria preferivel discutir o que pode ser feito para que a disciplina passe a servir para alguma coisa seria mas nao era tao giro opiniao de"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/centeno-santos-pereira-e-a-estrada-da-beira",
-            "normalized_title": "centeno santos pereira e a estrada da beira",
-            "normalized_description": "quem olha para a historia rocambolesca da nomeacao de centeno nao pode de boa fe compara la com a de alvaro santos pereira"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/movimento-perpetuo",
-            "normalized_title": "movimento perpetuo",
-            "normalized_description": "quando olho para esta fotografia recordo me de uma magnifica serie de televisao sueca que passou ha algum tempo na rtp2 um hotel a beira mar"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/assobiar-para-o-lado-nao-e-a-solucao",
-            "normalized_title": "assobiar para o lado nao e a solucao",
-            "normalized_description": "putin nao estara minimamente interessado em negociar o numero de drones produzido diariamente por moscovo podera atingir algo entre as 700 e as 1000"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/25/desporto/opiniao/tribunal-arbitral-desporto-2141671",
-            "normalized_title": "para quando tribunal arbitral do desporto",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/mais-um-dia-na-aldeia-dos-caranguejos",
-            "normalized_title": "mais um dia na aldeia dos caranguejos",
-            "normalized_description": "ainda alvaro nao aterrou em lisboa e a narrativa ja esta montada se foi escolhido por passos coelho nao tem gabarito para substituir o ronaldo das"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/25/opiniao/opiniao/adeus-liberal-2141603",
-            "normalized_title": "um adeus liberal",
-            "normalized_description": "a iniciativa liberal de hoje e uma imitacao de qualquer coisa entre o populismo fiscal e o conservadorismo disfarcado opiniao de filipe mendonca"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/25/publico-brasil/opiniao/proxima-febre-suplementos-alimentares-2141712",
-            "normalized_title": "a proxima febre em suplementos alimentares",
-            "normalized_description": "voce ja ouviu falar de posbioticos pois pode ter certeza de que em pouco tempo eles estarao em toda parte opiniao de claudia maximino"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/25/ciencia/opiniao/trocar-toalha-praia-bata-laboratorio-26-anos-descobrir-brincar-ciencia-2141548",
-            "normalized_title": "trocar a toalha de praia pela bata de laboratorio 26 anos a descobrir e brincar com a ciencia",
-            "normalized_description": "hoje a ciencia viva e muito mais do que um nome e um verdadeiro movimento social opiniao de elvira fortunato"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/cronicas-deste-mundo/detalhe/20250724-210248-leao-xiv",
-            "normalized_title": "leao xiv",
-            "normalized_description": "e de esperar que o papa valorize o papel da mulher na igreja catolica"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/joao-moniz/detalhe/estadio-de-sitio-no-benfica",
-            "normalized_title": "mudancas na luz vao ser um bico de obra",
-            "normalized_description": "os projetos anunciados para reformular a luz vao aquecer as eleicoes no clube"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/pedro-santana-lopes/detalhe/20250724-221616-a-transformacao-do-mundo",
-            "normalized_title": "a transformacao do mundo",
-            "normalized_description": "o mundo nao desperta para os grandes desafios que tem por diante"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/luisa-jeremias/detalhe/como-estragar-um-exito-com-uma-ma-decisao",
-            "normalized_title": "como estragar um exito com uma ma decisao",
-            "normalized_description": "segundas naºpcias tem personagens a mais isso distrai o espetador e tira o foco"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/a-bem-da-nocao/detalhe/amor-de-perdicao",
-            "normalized_title": "amor de perdicao",
-            "normalized_description": "e como perdoar a alguem que alem de nos encornar gosta dos coldplay"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/a-abrir/detalhe/20250724-222135-em-boas-maos",
-            "normalized_title": "em boas maos",
-            "normalized_description": "alvaro santos pereira nao vem de nenhum corredor do poder"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/nacao-valente/detalhe/20250724-235329-histeria-sexual",
-            "normalized_title": "histeria sexual",
-            "normalized_description": "essa afronta basta para despertar a furia de quem nao controla a sua ejaculacao ideologica precoce"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/detalhe/coisas-simples-e-boas-de-verao",
-            "normalized_title": "coisas simples e boas de verao",
-            "normalized_description": "um dos meus sonhos a ser um cientista do trauma alimentar"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/detalhe/reconhecimento-e-respeito",
-            "normalized_title": "reconhecimento e respeito",
-            "normalized_description": "a psp esta a viver um periodo critico mas portugal nao vive sem a psp"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/detalhe/sic-continua-a-liderar-audiencias",
-            "normalized_title": "sic continua a liderar audiencias",
-            "normalized_description": "cmtv ultrapassou a rtp 1 na grande lisboa e teve 28 entre os 50 mais vistos no cabo"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/detalhe/futebol-parado-futebol-falado",
-            "normalized_title": "futebol parado futebol falado",
-            "normalized_description": "sao meses de noticias de transferencias negocios ferias e festas"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/25/opiniao/opiniao/apagao-sexualidade-2141698",
-            "normalized_title": "o apagao da sexualidade",
-            "normalized_description": "a abordagem proposta para a disciplina de cidadania e desenvolvimento respondeu a pressoes politicas e integra se na estrategia do governo de se"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/25/opiniao/opiniao/talude-humanismo-pragmatismo-2141477",
-            "normalized_title": "talude entre o humanismo e o pragmatismo",
-            "normalized_description": "seria bom que este talude nao fosse a imagem do declive moral da nossa sociedade entre os dois pontos extremos do talude talvez a solucao esteja"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/25/opiniao/opiniao/possivel-falar-imigracao-2141011",
-            "normalized_title": "e possivel falar de imigracao",
-            "normalized_description": "temos dois discursos que nao comunicam entre si um de tipo nacionalista e nativista o outro radicalmente cosmopolita e um nao discurso do"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/25/opiniao/opiniao/ha-cancoes-nascem-caderno-ganham-vida-noutra-voz-2141621",
-            "normalized_title": "ha cancoes que nascem num caderno e ganham vida noutra voz",
-            "normalized_description": "carlos moedas ao longo dos ultimos quatro anos herdou projetos inteiros do partido socialista sobretudo na habitacao e tratou os como se fossem"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/25/opiniao/opiniao/milagre-quase-ninguem-ve-helicopteros-inem-2141609",
-            "normalized_title": "o milagre que quase ninguem ve nos helicopteros do inem",
-            "normalized_description": "nao ha margem para erros quando a missao e transportar alguem entre a vida e a morte ignorar isso quando se comenta um assunto tao complexo e omitir"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/25/opiniao/cronica/verdadeiros-anos-70-2141586",
-            "normalized_title": "os verdadeiros anos 70",
-            "normalized_description": "olho para o meu cartao de cidadao e subitamente tenho consciencia de que acabei de entrar na epoca do deve ser alguma gralha cronica de miguel"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/25/opiniao/opiniao/comem-2141704",
-            "normalized_title": "eles comem tudo",
-            "normalized_description": "nunca em 50 anos de democracia tivemos um governo tao minoritario a agir com tamanha voracidade na ocupacao do aparelho do estado e das"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-economia-narrativas-e-factos-d6fd4905",
-            "normalized_title": "economia narrativas e factos",
-            "normalized_description": "o crescimento em 2024 significou um abrandamento da economia e das exportacoes"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-a-imigracao-e-a-economia-156eba5c",
-            "normalized_title": "a imigracao e a economia",
-            "normalized_description": "espero que o governo ad prossiga a politica de regulacao equilibrada da imigracao"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-um-violento-tiro-no-pe-107d5f60",
-            "normalized_title": "um violento tiro no pe",
-            "normalized_description": "o psd acredita ter sido alcandorado ao poder numa vaga de sentimento anti imigracao e esta disposto a tudo para a cavalgar"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-nao-ha-representacao-sem-tributacao-a6e11d5b",
-            "normalized_title": "nao ha representacao sem tributacao",
-            "normalized_description": "hoje pagamos de forma pouco transparente atraves de contribuicoes nacionais com impostos europeus pagariamos de forma transparente"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-retomar-a-laicidade-nas-escolas-bcbc90fc",
-            "normalized_title": "retomar a laicidade nas escolas",
-            "normalized_description": "e fundamental que as escolas sejam locais de tolerancia e convivencia nao promovendo crencas absurdas e radicais"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-a-vertigem-da-divida-30ede337",
-            "normalized_title": "a vertigem da divida",
-            "normalized_description": "o mantra das contas certas ficou dos anos da troika mas a corrida ao credito ja voltou em forca e a divida a subir"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-polemicas-de-verao.-escalar-ou-nao-escalar--ae215ba5",
-            "normalized_title": "polemicas de verao escalar ou nao escalar",
-            "normalized_description": "quando alguem fala em acender brasas brotam do sofa cozinheiros talentosos e inesperados altamente conhecedores do churrasco"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-calisto-f9e6330a",
-            "normalized_title": "calisto",
-            "normalized_description": "para quem nao se lembra socrates foi tratado como um querubim era a criatura incensada e mandatada para transformar a patria"
-        },
-        {
-            "link": "https://expresso.pt/semanario/primeiro/editorial/2025-07-24-politicas-aos-ziguezagues-fcca6a5f",
-            "normalized_title": "politicas aos ziguezagues",
-            "normalized_description": "se ha anos que o centro politico nao se entende hoje ja nem tenta a instabilidade das politicas nao ajuda o pais"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-a-teoria-na-pratica-5ddc66e3",
-            "normalized_title": "a teoria na pratica",
-            "normalized_description": "qualquer politica publica que nao se limite ao mais basico facilitar e agilizar a construcao de habitacao publica ou privada muito provavelmente"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-um-espaco-publico-doente-9b1f0d2e",
-            "normalized_title": "um espaco publico doente",
-            "normalized_description": "aquilo a que assistimos esta semana da parte do esquerdismo nacional nao e muito diferente do que ouvimos da deputada matias"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-a-uniao-europeia-e-a-china-um-dialogo-dificil-7c51dccc",
-            "normalized_title": "a uniao europeia e a china um dialogo dificil",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-guerra-milionaria-pelo-talento-na-ia-ebf8e101",
-            "normalized_title": "guerra milionaria pelo talento na ia",
-            "normalized_description": "a loucura que esta a acontecer na ia deve se a raridade do talento que e preciso para construir os modelos superavancados"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/jose-jorge-letria/detalhe/o-horror-escrito-por-hitler",
-            "normalized_title": "o horror escrito por hitler",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/bruno-batista/detalhe/por-que-deve-vieira-voltar-ao-benfica",
-            "normalized_title": "por que deve vieira voltar ao benfica",
-            "normalized_description": "dou a resposta logo na primeira frase porque faz falta um adulto na sala"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/a-justica-esta-de-ferias-mas-a-violencia-domestica-nao",
-            "normalized_title": "a justica esta de ferias mas a violencia domestica nao",
-            "normalized_description": "ate obter nacionalidade a lei nao defende mulheres refugiadas no solo portugues e ficam no limbo da violencia ate a morte muitas vezes"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/criar-do-zero-ou-com-inteligencia-artificial-a-verdadeira-pergunta-e-outra",
-            "normalized_title": "criar do zero ou com inteligencia artificial a verdadeira pergunta e outra",
-            "normalized_description": "a ia nao diminui a criatividade amplia a assim haja formacao politica editorial e metricas de avaliacao que a balizem"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-porque-e-que-mario-centeno-irrita-tanto-uma-certa-direita--ff412f9c",
-            "normalized_title": "porque e que mario centeno irrita tanto uma certa direita",
-            "normalized_description": "mais do que irritar ou assustar politicamente centeno parece deixar certa direita tao nervosa como a esquerda fica com o nome de passos coelho so"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/24/publico-brasil/opiniao/pele-colonizador-colonizado-cultura-sincretica-2141575",
-            "normalized_title": "seja na pele de colonizador seja na de colonizado somos uma cultura sincretica",
-            "normalized_description": "na caravela da anunciacao cabem todos maes de santo padres ateus caciques tupinambas politicos madames do leblon e povo trabalhador opiniao"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-a-tirania-das-generalizacoes-o-perigo-da-injustica-coletiva-a7a71d1a",
-            "normalized_title": "a tirania das generalizacoes o perigo da injustica coletiva",
-            "normalized_description": "atacar profissoes inteiras sem provas tornou se desporto nacional numa sociedade onde a suspeicao generalizada substitui factos estamos a"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-a-transfiguracao-do-partido-socialista-e-as-infracoes-a-sua-declaracao-de-principios-a1f02e26",
-            "normalized_title": "a transfiguracao do partido socialista e as infracoes a sua declaracao de principios",
-            "normalized_description": "o ps nao pode ser um partido onde primeiro se atira se quer matar e depois se pergunta pelas razoes nao sao os outros que tem de vir prestar nos"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-o-plano-e-desmantelar-o-sns.-e-esta-a-resultar-7ca11f80",
-            "normalized_title": "o plano e desmantelar o sns e esta a resultar",
-            "normalized_description": "reformar a saude e urgente mas isso exige reforcar os quadros do sns com medicos e demais profissionais de saude nao contorna los a estrategia"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-o-apagao-iberico--um-alerta-para-um-sistema-energetico-resiliente-e-flexivel-1d8a4f5f",
-            "normalized_title": "o apagao iberico um alerta para um sistema energetico resiliente e flexivel",
-            "normalized_description": "e tempo de reformular os mercados modernizar a rede eletrica europeia e reforcar a sua capacidade para gerir o sistema energetico do futuro"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/menos-ar-e-mais-lar",
-            "normalized_title": "menos ar e mais lar",
-            "normalized_description": "e preciso colocar as infraestruturas em modo de pausa e tratar do tema da habitacao como aquilo em que se tornou uma pandemia social para a qual"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-quando-as-campanhas-de-rui-costa-e-carlos-moedas-se-cruzaram-200ea554",
-            "normalized_title": "quando as campanhas de rui costa e carlos moedas se cruzaram",
-            "normalized_description": "um autarca tem relacoes com os clubes da cidade nao se envolve nas suas campanhas fernando medina e antonio costa fizeram no por oportunismo em"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-24-testemunho-sobre-a-vergonha-que-sinto-cd54a57a",
-            "normalized_title": "testemunho sobre a vergonha que sinto",
-            "normalized_description": "singh trabalha ha dois anos e meio na mesma empresa portuguesa tem contrato desde o inicio ele e o patrao pagam mensalmente as contribuicoes a"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/o-coracao-de-leao-e-as-lagrimas-de-crocodilo",
-            "normalized_title": "o coracao de leao e as lagrimas de crocodilo",
-            "normalized_description": "para aqueles que julgam que o mundo comeca no terreiro do paco e termina no parque das nacoes ou em telheiras a pobreza boa e a pobreza abstrata"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/ricardo-coracao-e-mao-de-leao",
-            "normalized_title": "ricardo coracao e mao de leao",
-            "normalized_description": "fingir que a lei nao se aplica a todos ou que a solidariedade implica abdicar da exigencia e o caminho mais curto para o descalabro"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/24/ciencia/opiniao/arqueologia-servir-sociedade-2141489",
-            "normalized_title": "educacao patrimonial uma forma de a arqueologia servir a sociedade",
-            "normalized_description": "em territorios de menor densidade populacional onde as assimetrias no acesso a cultura ciencia e participacao civica sao mais acentuadas a"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/24/opiniao/editorial/centenosarmento-guerra-ate-fim-2141541",
-            "normalized_title": "centeno sarmento uma guerra ate ao fim",
-            "normalized_description": "quando o conselho de ministros aprovar o nome do sucessor de centeno o governador estara em frankfurt a participar na reuniao do banco central"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/bilhete-postal/detalhe/estas-criancas-a-morrer-de-fome-impoem-um-sobressalto-moral",
-            "normalized_title": "estas criancas a morrer de fome impoem um sobressalto moral",
-            "normalized_description": "por carlos rodrigues"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/quantas-mais-mortes-sao-precisas",
-            "normalized_title": "quantas mais mortes sao precisas",
-            "normalized_description": "e ignobil que alguem que procura uma restia de comida em gaza arrisque ser baleado"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/detalhe/educacao-menos-dinheiro-e-mais-sexo",
-            "normalized_title": "educacao menos dinheiro e mais sexo",
-            "normalized_description": "quando os politicos se aconselham com especialistas devem levar isso a serio e nao me parece que o tenham feito"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/corte-a-direito/detalhe/dancamos-senhor-primeiro-ministro",
-            "normalized_title": "dancamos senhor primeiro ministro",
-            "normalized_description": "finalmente luis montenegro abriu os olhos"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/a-vida-como-ela-nao-e/detalhe/bandidos-e-imigrantes",
-            "normalized_title": "bandidos e imigrantes",
-            "normalized_description": "sem gente rebelde capaz de correr riscos o sonho do sa culo xx o cinema nunca teria existido"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/jose-jorge-letria/detalhe/defender-a-obra-de-jose-afonso",
-            "normalized_title": "defender a obra de jose afonso",
-            "normalized_description": "zeca afonso foi o nosso maior criador musical e poetico de sempre"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/tania-laranjo/detalhe/20250723-234746-a-tragedia-de-gaza",
-            "normalized_title": "a tragedia de gaza",
-            "normalized_description": "israel pode justificar o que quiser mas a barbarie ficara para sempre nos livros de historia"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/joao-vaz/detalhe/ligar-o-motor-da-igualdade",
-            "normalized_title": "ligar o motor da igualdade",
-            "normalized_description": "em portugal nao e preciso inventar diferencas mas sim por a trabalhar o motor da igualdade"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/carlos-anjos/detalhe/outro-misterio",
-            "normalized_title": "outro misterio",
-            "normalized_description": "prevejo uma investigacao dificil e com resultados surpreendentes"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/francisco-moita-flores/detalhe/as-lanchas",
-            "normalized_title": "as lanchas",
-            "normalized_description": "a multiplicacao das lanchas rapidas continuara apesar dos esforcos das autoridades"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-23-portugal-em-osaka-um-dialogo-de-confianca-e-oportunidades-42eafb6e",
-            "normalized_title": "portugal em osaka um dialogo de confianca e oportunidades",
-            "normalized_description": "num contexto internacional marcado por incertezas a relacao portugal japao ganha um novo significado e um capital simbolico e diplomatico que"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/24/opiniao/opiniao/direito-existir-2141180",
-            "normalized_title": "o mesmo direito a existir",
-            "normalized_description": "nao recuperaremos a nossa autoridade moral abandonando a ucrania recupera la emos sim exigindo em gaza o que exigimos em kiev opiniao de manuel"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/24/opiniao/opiniao/fanaticos-sexo-2141546",
-            "normalized_title": "os fanaticos do sexo",
-            "normalized_description": "os que se dizem defensores da familia sao afinal os verdadeiros fanaticos do sexo obcecados em controlar quem deseja quem como onde e com que"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/24/culturaipsilon/opiniao/jose-pedro-machado-mestre-eterno-aprendiz-2141273",
-            "normalized_title": "jose pedro machado o mestre que foi eterno aprendiz",
-            "normalized_description": "nos 20 anos da morte de jose pedro machado e de elementar justica recordar a sua obra e o seu exemplo como filologo e como professor opiniao de"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/24/opiniao/opiniao/mercado-habitacao-anomalias-intervencao-estado-2141482",
-            "normalized_title": "o mercado da habitacao as anomalias e a intervencao do estado",
-            "normalized_description": "o recurso a modulos pre fabricados ou a contentores adaptados e uma solucao muito mais digna do que as barracas para dar alojamento aos mais"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/24/opiniao/opiniao/balanco-consulado-moedas-parte-ii-2141452",
-            "normalized_title": "balanco do consulado moedas parte ii",
-            "normalized_description": "por que esperam para fazer chegar ao prelo um novo pdm consentaneo com os problemas da cidade emendando a descaracterizacao reinante e devolvendo a"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/24/opiniao/cronica/mal-ar-condicionado-2141458",
-            "normalized_title": "o mal do ar condicionado",
-            "normalized_description": "o ar condicionado a bem ver serve para nao perder tempo a pensar no calor e no frio que esta serve para se poder pensar em coisas mais"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/24/opiniao/opiniao/novo-15-mes-comprar-votos-pensionistas-2141456",
-            "normalized_title": "o novo 15 º mes ou como comprar os votos dos pensionistas",
-            "normalized_description": "a oferta deste suplemento e injusta em qualquer mes do ano mas a sua antecipacao em relacao a 2024 assinala o caracter escandalosamente"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-23-investimento-em-saude-valor-para-as-pessoas-sustentabilidade-para-o-pais-6aae5850",
-            "normalized_title": "investimento em saude valor para as pessoas sustentabilidade para o pais",
-            "normalized_description": "e relevante saber que 10 dos portugueses nao adquiriram medicamentos por razoes economicas este e um alerta para a urgencia em reforcar a"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/23/culturaipsilon/opiniao/mosteiro-santa-claraanova-dois-problemas-solucao-2141296",
-            "normalized_title": "mosteiro de santa clara a nova dois problemas e uma solucao",
-            "normalized_description": "quando nomes indiscutiveis das artes e da curadoria mundiais afirmam que portugal tem um destino de arte como nenhum outro no mosteiro de santa"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/23/opiniao/opiniao/queremos-viver-sociedade-escravos-2141485",
-            "normalized_title": "queremos viver numa sociedade de escravos",
-            "normalized_description": "uma sociedade que normaliza a exclusao o medo e a exploracao e uma sociedade doente onde ninguem estara verdadeiramente livre ou seguro opiniao"
-        },
-        {
-            "link": "https://ionline.sapo.pt/2025/07/23/sexualidade-na-escola/",
-            "normalized_title": "sexualidade na escola",
-            "normalized_description": "sem educacao sexual os jovens usam menos preservativos ficam mais desprotegidos e ha maior numero de gravidezes indesejaveis o conteudo sexualidade"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/23/opiniao/opiniao/ensino-profissional-venham-20-anos-2141447",
-            "normalized_title": "ensino profissional venham outros 20 anos",
-            "normalized_description": "e urgente que o ensino profissional nao seja tratado como um subsistema mas como uma via equivalente e complementar ao ensino geral com lugar na"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/o-ranking-surpreendente-onde-quem-tem-menos-da-mais",
-            "normalized_title": "o ranking surpreendente onde quem tem menos da mais",
-            "normalized_description": "em portugal parece subsistir uma forte expectativa e crenca de que o estado deve constituir o principal garante do bem estar social"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-23-o-drone-e-a-maior-invencao-da-guerra-depois-da-bala-402c2fe3",
-            "normalized_title": "o drone e a maior invencao da guerra depois da bala",
-            "normalized_description": "como diz o operador mais famoso destes drones na ucrania darwin estamos perante a maior invencao belica desde a bala e eu acrescentaria que e uma"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-23-o-drone-e-a-maior-invencao-da-guerra-depois-da-bala-402c2fe3",
-            "normalized_title": "o drone e a maior invencao da guerra depois da bala",
-            "normalized_description": "como diz o operador mais famoso destes drones na ucrania darwin estamos perante a maior invencao belica desde a bala e eu acrescentaria que e uma"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/outro-ensaio-sobre-a-cegueira",
-            "normalized_title": "outro ensaio sobre a cegueira",
-            "normalized_description": "o jornalismo esta a suicidar se em directo a cores e tambem ao vivo o mais curioso e que enquanto cava a sua propria sepultura culpa os outros"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-23-educacao-sexual.-querem-amarrar-os-jovens-a-gravidez-indesejada-a-doenca-e-a-violencia--f1090938",
-            "normalized_title": "educacao sexual querem amarrar os jovens a gravidez indesejada a doenca e a violencia",
-            "normalized_description": "deveriamos ja ter atingido um patamar de maturidade enquanto pais em que o combate a gravidez na adolescencia a violencia domestica e no namoro"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-23-vale-a-pena-recordar-o-que-sophia-nunca-disse-57ba20c5",
-            "normalized_title": "vale a pena recordar o que sophia nunca disse",
-            "normalized_description": "um olhar mais sofisticado sobre o discurso do primeiro ministro teria permitido ver o que ele e uma sentida homenagem a jose saramago"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-23-protecionismo-de-trump-desafio-ou-oportunidade--96e64521",
-            "normalized_title": "protecionismo de trump desafio ou oportunidade",
-            "normalized_description": "portugal e a europa enfrentam um duplo desafio mitigar os impactos de curto prazo e redesenhar as suas politicas industriais comerciais e"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-23-ate-onde-esta-disposto-a-ir-luis--b4345831",
-            "normalized_title": "ate onde esta disposto a ir luis",
-            "normalized_description": "na geracao dos nossos pais os homens iam as meninas as mulheres esperavam pelo casamento na minha tinhamos informacao de emergencia quando uma"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/compotas-e-ditadores",
-            "normalized_title": "compotas e ditadores",
-            "normalized_description": "tiranetes terao muita dificuldade em compreender o gesto tao prosaico de fazer compotas de fortalecer lacos em vez de destruir a sociedade o futuro"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/portugal-nao-precisa-de-mais-turistas-precisa-de-melhor-turismo",
-            "normalized_title": "portugal nao precisa de mais turistas precisa de melhor turismo",
-            "normalized_description": "o peso excessivo do turismo na criacao de riqueza compromete a diversificacao economica levando a uma situacao semelhante ao que em economia se"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/23/publico-brasil/opiniao/desmamar-nao-desamar-processo-abre-portas-nova-etapa-relacao-mae-filho-2141382",
-            "normalized_title": "desmamar nao e desamar processo abre portas para nova etapa da relacao mae e filho",
-            "normalized_description": "a escolha por um desmame gradual respeitando tempo de mae e filho nem sempre se faz possivel sendo que o fim da amamentacao de forma repentina tem"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/23/opiniao/editorial/montenegro-numeros-2141333",
-            "normalized_title": "montenegro contra os numeros",
-            "normalized_description": "ninguem pede ao governo que governe com medo mas pede se lhe que governe com prudencia o pais ja pagou caro por politicas que confundem optimismo"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/bilhete-postal/detalhe/a-greve-no-inem-mostra-um-padrao-inaceitavel-na-saude",
-            "normalized_title": "a greve no inem mostra um padrao inaceitavel na saude",
-            "normalized_description": "por carlos rodrigues"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/o-novo-signo-do-ps",
-            "normalized_title": "o novo signo do ps",
-            "normalized_description": "carneiro tem o perfil certo para liderar o ps mas a prazo tera concorrencia de centeno"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/correio-de-justica/detalhe/quando-esperar-ja-nao-chega",
-            "normalized_title": "quando esperar ja nao chega",
-            "normalized_description": "muito ha a corrigir e a construir para mitigar o desgaste a frustracao e a perda de esperanca"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/detalhe/uma-pergunta-para-mil-milhoes",
-            "normalized_title": "uma pergunta para mil milhoes",
-            "normalized_description": "joe berardo foi acusado de burla mas chegara alguma vez a julgamento"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/correio-de-seguranca/detalhe/20250722-235110-direitos-e-deveres",
-            "normalized_title": "direitos e deveres",
-            "normalized_description": "temos consciencia de que esta do lado da tutela o onus de poder tornar a nossa profissao aliciante"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/analise-estrategica/detalhe/portugal-e-os-f-35",
-            "normalized_title": "portugal e os f 35",
-            "normalized_description": "na atualidade o f 35 ja custa menos que os avioes de 4ª geracao europeus"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/tania-laranjo/detalhe/20250722-235650-nao-chega-a-capa-de-heroi",
-            "normalized_title": "nao chega a capa de heroi",
-            "normalized_description": "nem no mar nem na politica ha vitorias de um so homem"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/23/opiniao/opiniao/diagnostico-2141384",
-            "normalized_title": "por enquanto sem diagnostico",
-            "normalized_description": "o que esta a acontecer em portugal e uma deriva fascizante muito veloz sem que para tal tenha sido necessario celebrar coligacoes ou saimos disto"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/23/opiniao/opiniao/internacionalismo-nacionalista-2141339",
-            "normalized_title": "o internacionalismo nacionalista",
-            "normalized_description": "o que esta em marcha e a constituicao de uma federacao transnacional de forcas iliberais de direita radical e extrema direita que atravessa as"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/23/opiniao/opiniao/insuportavel-histeria-imigracao-2141364",
-            "normalized_title": "a insuportavel histeria com a imigracao",
-            "normalized_description": "o que se passa a esquerda atualmente com a imigracao e sinceramente penoso de ver em pessoas pensantes opiniao de maria joao marques"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/23/opiniao/cronica/morangos-2141262",
-            "normalized_title": "os primeiros morangos",
-            "normalized_description": "andamos com as epocas todas tao antecipadas e com os peixes tao enfiados em aquarios que ja nao sabemos a quantas andamos cronica de miguel"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/23/opiniao/opiniao/tambem-sexualidade-metodo-importa-2141376",
-            "normalized_title": "tambem na sexualidade o metodo importa",
-            "normalized_description": "no essencial o que move mais uma vez o governo e a vontade de marcar o debate publico com temas artificiais opiniao de pedro adao e silva"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/22/opiniao/opiniao/mundo-ministerio-educacao-2141361",
-            "normalized_title": "o pequeno mundo do ministerio da educacao",
-            "normalized_description": "o ministro e a sua equipa acham mesmo que apenas se deve abordar estes temas com os jovens do secundario da nossa experiencia podemos concluir que"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-22-um-momento-de-oportunidade-para-impulsionar-a-era-de-energias-limpas-7f7bd8bd",
-            "normalized_title": "um momento de oportunidade para impulsionar a era de energias limpas",
-            "normalized_description": "os perigos dos combustiveis fosseis por contraste com o papel das energias limpas e a necessidade de agir para contrariar o rumo atual o desafio"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-22-o-movimento-woke-e-a-santinha-da-ladeira-a-mesma-crenca-60c500e9",
-            "normalized_title": "o movimento woke e a santinha da ladeira a mesma crenca",
-            "normalized_description": "a cultura do pensamento positivo do coaching e a cultura de cancelamento woke partilham a ideia de que as palavras tem consequencias magicas na"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/22/publico-brasil/opiniao/grito-mundo-recusa-ouvir-gaza-precisa-cessarfogo-duradouro-logo-2141291",
-            "normalized_title": "grito que o mundo se recusa a ouvir gaza precisa de um cessar fogo duradouro e logo",
-            "normalized_description": "uma das mais importantes agencias de noticias do mundo a france presse afp alerta que seus jornalistas em gaza podem morrer de fome mesmo com"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-22-salvar-vidas-de-migrantes-no-mar-fe185dbf",
-            "normalized_title": "salvar vidas de migrantes no mar",
-            "normalized_description": "a europa falhou rotundamente em parar este vergonhoso massacre de pessoas desesperadas que sabem muito bem que quando comecam as suas jornadas"
-        },
-        {
-            "link": "https://ionline.sapo.pt/2025/07/22/para-acabar-de-uma-vez-para-sempre-com-fantasias-sobre-a-tap/",
-            "normalized_title": "para acabar de uma vez para sempre com fantasias sobre a tap",
-            "normalized_description": "o modelo de privatizacao anunciado desvaloriza a tap compromete a gestao competitiva pelo privado e mantem a empresa no colete de forcas do estatuto"
-        },
-        {
-            "link": "https://ionline.sapo.pt/2025/07/22/porque-falha-portugal/",
-            "normalized_title": "porque falha portugal",
-            "normalized_description": "portugal em materia de respeito do estado pelo cidadao aproxima se muitas vezes de realidades profundamente atrasadas e subdesenvolvidas e"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-22-imigracao-ou-o-fim-da-democracia-tal-qual-a-conhecemos-b4fd37c8",
-            "normalized_title": "imigracao ou o fim da democracia tal qual a conhecemos",
-            "normalized_description": "abandonar o psd nesta refrega significa provavelmente para o ps a certidao de obito"
-        },
-        {
-            "link": "https://ionline.sapo.pt/2025/07/22/o-realismo-de-montenegro/",
-            "normalized_title": "o realismo de montenegro",
-            "normalized_description": "so e possivel reparar os erros do ps falando com o chega o conteudo o realismo de montenegro aparece primeiro em jornal i"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-22-despejo-na-favela-0e56a901",
-            "normalized_title": "despejo na favela",
-            "normalized_description": "recorro no titulo a uma musica popular do extraordinario e genial adoniram barbosa mestre do samba paulista para sublinhar algo que a ditadura do"
-        },
-        {
-            "link": "https://ionline.sapo.pt/2025/07/22/bacteriofagos-no-combate-a-resistencia-a-antibioticos/",
-            "normalized_title": "bacteriofagos no combate a resistencia a antibioticos",
-            "normalized_description": "impulsionado pelo aumento crescente das resistencias antimicrobianas a terapia fagica tem visto um renascimento no interesse no ocidente o conteudo"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-22-imigrantes-descartaveis-baixam-o-preco-do-trabalho-eda9996b",
-            "normalized_title": "imigrantes descartaveis baixam o preco do trabalho",
-            "normalized_description": "o confronto nao e sobre maior ou menor abertura a imigracao todos sabem que o pais e a europa colapsa sem imigrantes e entre ter mao de obra"
-        },
-        {
-            "link": "https://ionline.sapo.pt/2025/07/22/privatiza-nacionaliza-privatiza-outra-vez-o-tear-de-penelope-da-tap/",
-            "normalized_title": "privatiza nacionaliza privatiza outra vez o tear de penelope da tap",
-            "normalized_description": "a privatizacao da tap e uma solucao ideal talvez nao seja mas seria a unica maneira de garantir que a empresa nao fica permeavel ou pelo menos tao"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/22/publico-brasil/opiniao/imigrantes-cancer-portugal-saude-direito-nao-privilegio-2141233",
-            "normalized_title": "imigrantes com cancer em portugal saude como direito e nao como privilegio",
-            "normalized_description": "com medidas anti imigracao propostas pelo governo e aprovadas pela assembleia da republica o que acontecera com os pacientes estrangeiros em"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-22-a-europa-vale-menos-que-a-nato--90f66ecd",
-            "normalized_title": "a europa vale menos que a nato",
-            "normalized_description": "a proposta de orcamento de uniao europeia para 2028 2034 e um exercicio de aumento de poder de bruxelas aumento de receitas para as politicas de"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-22-a-especulacao-imobiliaria-esta-a-empurrar-nos-para-relacoes-f61c9111",
-            "normalized_title": "a especulacao imobiliaria esta a empurrar nos para relacoes",
-            "normalized_description": "a especulacao imobiliaria quando nao temos privilegios economicos da nos apenas duas opcoes quando queremos sair da casa dos pais viver"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-22-ja-esta--vai-demorar-muito-17fdbbe1",
-            "normalized_title": "ja esta vai demorar muito",
-            "normalized_description": "na europa a direita democratica que concorreu com o monstro perdeu para o monstro luis montenegro afirma que nao cedeu trata se da realidade"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-22-helicopteros-de-emergencia-medica-reflexoes-sobre-um-processo-desafiante-que-nasceu-com-prazos-irrealistas-324a0ec5",
-            "normalized_title": "helicopteros de emergencia medica reflexoes sobre um processo desafiante que nasceu com prazos irrealistas",
-            "normalized_description": "empresa prestadora de servicos responsavel pela candidatura da gulf medical ao concurso de helicopteros de emergencia apresenta dados para defender"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/dia-mundial-do-cerebro-tumores-cerebrais-ciencia-arte-e-vida",
-            "normalized_title": "dia mundial do cerebro tumores cerebrais ciencia arte e vida",
-            "normalized_description": "o cerebro nao e so feito de celulas e sinapses e feito de experiencias historias e afetos devemos reconhecer a importancia do investimento em"
-        },
-        {
-            "link": "https://expresso.pt/opiniao/2025-07-22-o-caso-da-astronomer-e-a-moralidade-no-panoptico-104f629a",
-            "normalized_title": "o caso da astronomer e a moralidade no panoptico",
-            "normalized_description": "ha na exposicao do outro uma forma primitiva de poder ver sem ser visto julgar sem se comprometer nomear sem ser nomeado o voyeurismo e mais"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/e-possivel-fazer-politica-de-forma-diferente",
-            "normalized_title": "e possivel fazer politica de forma diferente",
-            "normalized_description": "a campanha autarquica 3 0 representaria uma mudanca de paradigma fundamental em vez de falar para os cidadaos falaria com eles"
-        },
-        {
-            "link": "https://www.sapo.pt/opiniao/artigos/uma-nuvem-negra-no-horizonte-da-agricultura-nacional",
-            "normalized_title": "uma nuvem negra no horizonte da agricultura nacional",
-            "normalized_description": "independentemente dos argumentos para justificar o corte proposto para o orcamento da pac fica evidente que em portugal a atividade agricola"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/22/opiniao/opiniao/dancas-inuteis-2140941",
-            "normalized_title": "dancas inuteis",
-            "normalized_description": "carta de uma bailarina ao presidente do sindicado nacional do corpo de guardas prisionais em resposta as declaracoes proferidas ao publico sobre a"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/22/ciencia/opiniao/portugues-europeu-africano-asiatico-mundo-2140893",
-            "normalized_title": "sou portugues europeu africano asiatico e do mundo",
-            "normalized_description": "somos uma clara mistura de povos e culturas muitos passaram por ca e nos tambem vamos mundo fora no passado e ainda hoje os dados da onu de 2024"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/22/economia/editorial/ilusao-maior-orcamento-2141143",
-            "normalized_title": "a ilusao do maior orcamento de sempre",
-            "normalized_description": "o novo orcamento da ue cresce em volume mas encolhe em visao e em compromisso com os fundamentos da coesao europeia editorial detiago luz pedro"
-        },
-        {
-            "link": "https://www.publico.pt/2025/07/22/opiniao/opiniao/cartas-director-2141136",
-            "normalized_title": "cartas ao director",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/bilhete-postal/detalhe/seguro-esta-a-seguir-um-caminho-parecido-ao-que-foi-trilhado-por-sampaio",
-            "normalized_title": "seguro esta a seguir um caminho parecido ao que foi trilhado por sampaio",
-            "normalized_description": "por carlos rodrigues"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/20250721-234315-corrida-a-tres",
-            "normalized_title": "corrida a tres",
-            "normalized_description": "o antigo almirante parece perder vantagem sempre que fala"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/manuel-maria-rodrigues/detalhe/falta-de-juizo",
-            "normalized_title": "falta de juiz o",
-            "normalized_description": "o que leva os tribunais a mostrarem tanto desprezo pela policia"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/saltos-quanticos/detalhe/portugal-a-europa-e-o-futuro",
-            "normalized_title": "portugal a europa e o futuro",
-            "normalized_description": "talvez luis montenegro concorde que esta na altura de por maos a obra em vez de estender a mao"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/blog/detalhe/20250721-193454-blog",
-            "normalized_title": "blog",
-            "normalized_description": "anda a literatura portuguesa coitada aos ombros de parolos que nao param de falar de si proprios e depois uma historia de celorico de basto deita"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/tania-laranjo/detalhe/20250721-234933-o-motorista",
-            "normalized_title": "o motorista",
-            "normalized_description": "motorista de eduardo cabrita foi o elo mais fraco e foi ele o unico culpado"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/correio-da-educacao/detalhe/um-passo-maior-que-a-perna",
-            "normalized_title": "um passo maior que a perna",
-            "normalized_description": "a leitura em papel possui um valor inestimavel"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/tempo-novo/detalhe/desagradar-a-todos",
-            "normalized_title": "desagradar a todos",
-            "normalized_description": "multiplicam se as razoes de queixa sobre o orcamento da ue"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/fernanda-cachao/detalhe/20250721-233929-politiquices",
-            "normalized_title": "politiquices",
-            "normalized_description": "a iniciativa liberal atou os sacos para nao dar espaco a luta dos gatos"
         }
     ]
 }
