@@ -32,14 +32,14 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/video/grupos-extremadireita-organizam-caca-imigrantes-murcia-20250714-121319",
-        "count": 359
+        "count": 360
     },
     {
         "category": "Expresso Fundamental",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-07-14-ultimas-noticias-de-segunda-feira-dia-14-de-julho-e75b6e2c",
-        "count": 325
+        "count": 326
     },
     {
         "category": "Palavras Cruzadas",
@@ -137,7 +137,7 @@
         "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias",
         "url": "https://www.cmjornal.pt/mais-cm/especiais/guerra-israel-hamas/detalhe/cidade-humanitaria-em-gaza-e-campo-de-concentracao-diz-ex-primeiro-ministro-israelita",
-        "count": 117
+        "count": 119
     },
     {
         "category": "Japão",
@@ -207,7 +207,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/o-homem-que-comia-tudo/2025-07-17-de-espanha-nem-bom-vento-nem-boa-comida-o-maior-conflito-entre-portugueses-e-espanhois-e-gastronomico-chama-se-azia-iberica-9a5be460",
-        "count": 63
+        "count": 64
     },
     {
         "category": "Loures",
@@ -235,7 +235,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/a-beleza-das-pequenas-coisas/2025-07-25-helena-roseta--parte-1--nas-situacoes-de-decisao-em-que-todos-tem-um-bocado-de-razao-na-duvida-estou-do-lado-dos-mais-vulneraveis-7ca4b5ec",
-        "count": 59
+        "count": 60
     },
     {
         "category": "Local",
@@ -686,17 +686,17 @@
         "count": 20
     },
     {
-        "category": "Análise",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/13/mundo/analise/regresso-entente-cordiale-2140022",
-        "count": 18
-    },
-    {
         "category": "Relações",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/impar/noticia/construcao-palavra-continua-envolta-estereotipos-genero-2140379",
+        "count": 19
+    },
+    {
+        "category": "Análise",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/13/mundo/analise/regresso-entente-cordiale-2140022",
         "count": 18
     },
     {
@@ -742,6 +742,13 @@
         "count": 14
     },
     {
+        "category": "In memoriam",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/13/mundo/noticia/mikayla-raines-19952025-menina-raposas-2139399",
+        "count": 14
+    },
+    {
         "category": "Podcast Soundbite",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -781,13 +788,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/22/azul/noticia/calor-obriga-grecia-encerrar-acropole-cinco-horas-turistas-trabalhadores-procuram-refugio-sombra-2141319",
-        "count": 13
-    },
-    {
-        "category": "In memoriam",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/13/mundo/noticia/mikayla-raines-19952025-menina-raposas-2139399",
         "count": 13
     },
     {
@@ -994,6 +994,13 @@
         "count": 7
     },
     {
+        "category": "Trabalhos de Casa",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/20/opiniao/cronica/cinco-livros-tornar-verao-livresco-2140845",
+        "count": 7
+    },
+    {
         "category": "Vinhos",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1120,13 +1127,6 @@
         "count": 6
     },
     {
-        "category": "Trabalhos de Casa",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/20/opiniao/cronica/cinco-livros-tornar-verao-livresco-2140845",
-        "count": 6
-    },
-    {
         "category": "Ípsilon",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1232,10 +1232,24 @@
         "count": 4
     },
     {
+        "category": "Eleições",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/politica/eleicoes/2025-07-17-reino-unido-diminui-idade-minima-para-votar-para-16-anos-33e3a20b",
+        "count": 4
+    },
+    {
         "category": "Elogio do Vinho",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/18/fugas/cronica/crise-douro-milhao-euros-mancha-historia-symington-2140216",
+        "count": 4
+    },
+    {
+        "category": "Ensaio",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/25/ciencia/ensaio/percepcoes-estao-quase-erradas-2141508",
         "count": 4
     },
     {
@@ -1271,6 +1285,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/19/opiniao/opiniao/psd-ve-pais-copo-vazio-oposicao-copo-cheio-2140809",
+        "count": 4
+    },
+    {
+        "category": "P2",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/20/culturaipsilon/noticia/palcos-semana-febras-fotografias-festivais-metamorfoses-2140948",
         "count": 4
     },
     {
@@ -1316,20 +1337,6 @@
         "count": 3
     },
     {
-        "category": "Eleições",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/politica/eleicoes/2025-07-17-reino-unido-diminui-idade-minima-para-votar-para-16-anos-33e3a20b",
-        "count": 3
-    },
-    {
-        "category": "Ensaio",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/25/ciencia/ensaio/percepcoes-estao-quase-erradas-2141508",
-        "count": 3
-    },
-    {
         "category": "Faro",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1348,13 +1355,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/24/sociedade/noticia/gulbenkian-dois-milhoes-euros-projectos-apoiem-jovens-nemnem-2141385",
-        "count": 3
-    },
-    {
-        "category": "P2",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/20/culturaipsilon/noticia/palcos-semana-febras-fotografias-festivais-metamorfoses-2140948",
         "count": 3
     },
     {
