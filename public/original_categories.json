@@ -88,7 +88,7 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
-        "count": 270
+        "count": 272
     },
     {
         "category": "Média",
@@ -144,7 +144,7 @@
         "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias",
         "url": "https://www.cmjornal.pt/mais-cm/especiais/guerra-israel-hamas/detalhe/cidade-humanitaria-em-gaza-e-campo-de-concentracao-diz-ex-primeiro-ministro-israelita",
-        "count": 170
+        "count": 171
     },
     {
         "category": "Mais Europa",
@@ -172,7 +172,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/revista-e/-e/2025-07-17-carvalho-ribeiro--ferreira-uma-casa-portuguesa-com-certeza-100-anos-de-historia-num-copo-de-aguardente-e255084b",
-        "count": 124
+        "count": 125
     },
     {
         "category": "Culturas",
@@ -207,7 +207,7 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/politicamente-correto/2025-07-17-o-ps-esta-a-aprender-grego-e-frances-opiniao-de-pedro-marques-lopes/?utm_source=rss&utm_medium=rss&utm_campaign=o-ps-esta-a-aprender-grego-e-frances-opiniao-de-pedro-marques-lopes",
-        "count": 95
+        "count": 96
     },
     {
         "category": "LUSA-INBOX",
@@ -231,18 +231,18 @@
         "count": 86
     },
     {
+        "category": "Em Destaque",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
+        "count": 84
+    },
+    {
         "category": "Portugal Autêntico",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/boa-cama-boa-mesa/iniciativas-e-produtos/portugal-autentico/2025-07-22-tutano-com-massa-sovada-e-torradas-um-petisco-para-corajosos-na-ilha-terceira-0f478931",
         "count": 83
-    },
-    {
-        "category": "Em Destaque",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
-        "count": 80
     },
     {
         "category": "Crónica do Observatório da Fraude",
@@ -553,6 +553,13 @@
         "count": 42
     },
     {
+        "category": "A semana",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-07-17-duas-torres-e-uma-festa-74e6b8fb",
+        "count": 41
+    },
+    {
         "category": "Assembleia da República",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -586,13 +593,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/vestigios-de-azul/2025-07-16-um-mundo-de-faz-de-conta-ou-este-imenso-palco-de-loucos/?utm_source=rss&utm_medium=rss&utm_campaign=um-mundo-de-faz-de-conta-ou-este-imenso-palco-de-loucos",
         "count": 40
-    },
-    {
-        "category": "A semana",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-07-17-duas-torres-e-uma-festa-74e6b8fb",
-        "count": 39
     },
     {
         "category": "Basquetebol",
@@ -665,17 +665,17 @@
         "count": 33
     },
     {
-        "category": "Estado da nação 2025",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/16/politica/noticia/sete-graficos-precisa-perceber-estado-nacao-2140510",
-        "count": 32
-    },
-    {
         "category": "Restaurantes",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/vicios/restaurantes/2025-07-17-leca-e-cada-vez-mais-e-o-lessa-e-um-restaurante-de-mao-cheia-a-beira-mar-8b7d6eac",
+        "count": 33
+    },
+    {
+        "category": "Estado da nação 2025",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/16/politica/noticia/sete-graficos-precisa-perceber-estado-nacao-2140510",
         "count": 32
     },
     {
@@ -784,6 +784,13 @@
         "count": 25
     },
     {
+        "category": "Análise",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/13/mundo/analise/regresso-entente-cordiale-2140022",
+        "count": 23
+    },
+    {
         "category": "Política Cultural",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -796,13 +803,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/local/noticia/jovem-desaparecido-parque-aquatico-torres-vedras-2140564",
         "count": 23
-    },
-    {
-        "category": "Análise",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/13/mundo/analise/regresso-entente-cordiale-2140022",
-        "count": 22
     },
     {
         "category": "CPLP",
@@ -851,7 +851,14 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/23/impar/entrevista/redoute-moda-decoracao-texteis-portugueses-dominam-mercado-2140132",
-        "count": 18
+        "count": 19
+    },
+    {
+        "category": "Factor X (Elas)",
+        "source": "Jornal i",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/07/17/o-apagar-do-apagao/",
+        "count": 19
     },
     {
         "category": "Donald Trump",
@@ -861,11 +868,11 @@
         "count": 18
     },
     {
-        "category": "Factor X (Elas)",
-        "source": "Jornal i",
+        "category": "Crónica de jogo",
+        "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/07/17/o-apagar-do-apagao/",
-        "count": 18
+        "url": "https://www.publico.pt/2025/07/13/desporto/cronica_de_jogo/psg-europa-chelsea-ficou-mundo-2140103",
+        "count": 17
     },
     {
         "category": "Direito de Resposta",
@@ -886,13 +893,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/18/politica/noticia/portugal-poe-causa-mobilidade-cplp-espero-envergonhe-ministro-2140695",
-        "count": 16
-    },
-    {
-        "category": "Crónica de jogo",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/13/desporto/cronica_de_jogo/psg-europa-chelsea-ficou-mundo-2140103",
         "count": 16
     },
     {
@@ -1281,6 +1281,13 @@
         "count": 6
     },
     {
+        "category": "Descodificador",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/economia/descodificador/2025-07-17-pib-a-crescer-mais-de-2--so-o-governo-acredita-94198934",
+        "count": 6
+    },
+    {
         "category": "Douro",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1372,6 +1379,13 @@
         "count": 6
     },
     {
+        "category": "Receita",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/revista/vicios/receita/2025-07-17-elotes-com-queijo-ortodoxo-uma-receita-para-dar-nova-vida-ao-milho-e-meia-hora-basta-4b92fdad",
+        "count": 6
+    },
+    {
         "category": "Sismo",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1397,13 +1411,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/25/newsletter/azul",
-        "count": 5
-    },
-    {
-        "category": "Descodificador",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/economia/descodificador/2025-07-17-pib-a-crescer-mais-de-2--so-o-governo-acredita-94198934",
         "count": 5
     },
     {
@@ -1474,13 +1481,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/15/economia/noticia/tarifas-ja-comecaram-subir-inflacao-eua-2140367",
-        "count": 5
-    },
-    {
-        "category": "Receita",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/vicios/receita/2025-07-17-elotes-com-queijo-ortodoxo-uma-receita-para-dar-nova-vida-ao-milho-e-meia-hora-basta-4b92fdad",
         "count": 5
     },
     {
@@ -1624,6 +1624,13 @@
         "count": 3
     },
     {
+        "category": "Entretenimento",
+        "source": "SAPO",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.sapo.pt/noticias/entretenimento/artigos/emergency-exit-la-fura-dels-baus-com-satori-e-eyesberg-no-boom-festival-2025",
+        "count": 3
+    },
+    {
         "category": "Faro",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1670,13 +1677,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/22/enter/noticia/youtube-remove-quase-11-mil-canais-ligados-propaganda-china-russia-2141279",
-        "count": 2
-    },
-    {
-        "category": "Entretenimento",
-        "source": "SAPO",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.sapo.pt/noticias/entretenimento/artigos/emergency-exit-la-fura-dels-baus-com-satori-e-eyesberg-no-boom-festival-2025",
         "count": 2
     },
     {
