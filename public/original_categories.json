@@ -39,14 +39,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-07-14-ultimas-noticias-de-segunda-feira-dia-14-de-julho-e75b6e2c",
-        "count": 453
+        "count": 454
     },
     {
         "category": "Palavras Cruzadas",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/jogos/palavras-cruzadas/2025-07-14-palavras-cruzadas-n-1263-35e09e20",
-        "count": 418
+        "count": 419
     },
     {
         "category": "Trabalho",
@@ -88,7 +88,7 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
-        "count": 284
+        "count": 286
     },
     {
         "category": "Média",
@@ -182,18 +182,18 @@
         "count": 118
     },
     {
+        "category": "Em Destaque",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
+        "count": 112
+    },
+    {
         "category": "O Homem Que Comia Tudo",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/o-homem-que-comia-tudo/2025-07-17-de-espanha-nem-bom-vento-nem-boa-comida-o-maior-conflito-entre-portugueses-e-espanhois-e-gastronomico-chama-se-azia-iberica-9a5be460",
         "count": 112
-    },
-    {
-        "category": "Em Destaque",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
-        "count": 108
     },
     {
         "category": "45 Graus",
@@ -329,17 +329,17 @@
         "count": 60
     },
     {
-        "category": "Local",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/20/azul/noticia/parque-eolico-arcos-valdevez-sera-atrocidade-loboiberico-2140830",
-        "count": 57
-    },
-    {
         "category": "Podcast P24",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/mundo/noticia/elon-musk-quer-criar-partido-romper-bipartidarismo-estados-unidos-tera-sucesso-2140112",
+        "count": 58
+    },
+    {
+        "category": "Local",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/20/azul/noticia/parque-eolico-arcos-valdevez-sera-atrocidade-loboiberico-2140830",
         "count": 57
     },
     {
@@ -355,6 +355,20 @@
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/internacional/palop/2025-07-21-venancio-mondlane-diz-que-recusa-de-entrada-a-humoristas-teve-motivacoes-politicas-o-gilmario-vemba-foi-meu-embaixador-b6e55a53",
         "count": 56
+    },
+    {
+        "category": "A semana",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-07-17-duas-torres-e-uma-festa-74e6b8fb",
+        "count": 55
+    },
+    {
+        "category": "Briefing",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/newsletter/despertador",
+        "count": 55
     },
     {
         "category": "Camões: 500 Anos de História e de Lenda",
@@ -376,20 +390,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/18/politica/noticia/pcp-questiona-governo-declaracao-cplp-pan-condena-posicao-executivo-2140865",
         "count": 55
-    },
-    {
-        "category": "Briefing",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/newsletter/despertador",
-        "count": 54
-    },
-    {
-        "category": "A semana",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-07-17-duas-torres-e-uma-festa-74e6b8fb",
-        "count": 53
     },
     {
         "category": "Assim Vamos Ter de Falar de Outra Maneira",
@@ -476,6 +476,13 @@
         "count": 48
     },
     {
+        "category": "Itália",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/culturaipsilon/noticia/roberto-saviano-vitorioso-chora-apos-processo-judicial-importante-vida-2140256",
+        "count": 48
+    },
+    {
         "category": "PS",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -487,13 +494,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/17/economia/noticia/ana-ouviu-67-entidades-novo-aeroporto-lisboa-governo-nada-revela-ja-2140674",
-        "count": 47
-    },
-    {
-        "category": "Itália",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/culturaipsilon/noticia/roberto-saviano-vitorioso-chora-apos-processo-judicial-importante-vida-2140256",
         "count": 47
     },
     {
@@ -532,17 +532,17 @@
         "count": 44
     },
     {
-        "category": "Cm ao Minuto",
-        "source": "Correio Da Manhã",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.cmjornal.pt/cm-ao-minuto/detalhe/medio-orkun-kokcu-deixa-benfica-e-e-reforco-do-besiktas",
-        "count": 43
-    },
-    {
         "category": "Natação",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/18/desporto/noticia/nadadora-mafalda-rosa-23-5km-aguas-abertas-mundiais-2140847",
+        "count": 44
+    },
+    {
+        "category": "Cm ao Minuto",
+        "source": "Correio Da Manhã",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.cmjornal.pt/cm-ao-minuto/detalhe/medio-orkun-kokcu-deixa-benfica-e-e-reforco-do-besiktas",
         "count": 43
     },
     {
@@ -672,6 +672,13 @@
         "count": 33
     },
     {
+        "category": "Tudo é política",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/opiniao/tudo-e-politica/2025-07-18-a-fronteira-esta-no-bolso-cronica-de-margarida-davim/?utm_source=rss&utm_medium=rss&utm_campaign=a-fronteira-esta-no-bolso-cronica-de-margarida-davim",
+        "count": 33
+    },
+    {
         "category": "Estado da nação 2025",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -683,13 +690,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/culturas/teatro--danca/2025-07-17-teatro-o-escoamento-da-vida-de-tres-irmas-de-tchekhov-cec78926",
-        "count": 32
-    },
-    {
-        "category": "Tudo é política",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/opiniao/tudo-e-politica/2025-07-18-a-fronteira-esta-no-bolso-cronica-de-margarida-davim/?utm_source=rss&utm_medium=rss&utm_campaign=a-fronteira-esta-no-bolso-cronica-de-margarida-davim",
         "count": 32
     },
     {
@@ -763,6 +763,20 @@
         "count": 26
     },
     {
+        "category": "Design",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/23/impar/entrevista/redoute-moda-decoracao-texteis-portugueses-dominam-mercado-2140132",
+        "count": 26
+    },
+    {
+        "category": "Factor X (Elas)",
+        "source": "Jornal i",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/07/17/o-apagar-do-apagao/",
+        "count": 26
+    },
+    {
         "category": "The Heart and Hustle of Portugal",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -774,20 +788,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/blitz-posto-emissor/2025-07-17-ivandro-basta-um-jantarzinho-angolano-e-o-meu-sotaque-fica-mais-solto-mas-cresci-aqui-e-sou-mais-portugues-c965c539",
-        "count": 25
-    },
-    {
-        "category": "Design",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/23/impar/entrevista/redoute-moda-decoracao-texteis-portugueses-dominam-mercado-2140132",
-        "count": 25
-    },
-    {
-        "category": "Factor X (Elas)",
-        "source": "Jornal i",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/07/17/o-apagar-do-apagao/",
         "count": 25
     },
     {
@@ -973,6 +973,13 @@
         "count": 13
     },
     {
+        "category": "Descodificador",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/economia/descodificador/2025-07-17-pib-a-crescer-mais-de-2--so-o-governo-acredita-94198934",
+        "count": 13
+    },
+    {
         "category": "História",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -991,6 +998,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/15/sociedade/noticia/restou-pide-beira-2140376",
+        "count": 13
+    },
+    {
+        "category": "Receita",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/revista/vicios/receita/2025-07-17-elotes-com-queijo-ortodoxo-uma-receita-para-dar-nova-vida-ao-milho-e-meia-hora-basta-4b92fdad",
         "count": 13
     },
     {
@@ -1015,13 +1029,6 @@
         "count": 12
     },
     {
-        "category": "Descodificador",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/economia/descodificador/2025-07-17-pib-a-crescer-mais-de-2--so-o-governo-acredita-94198934",
-        "count": 12
-    },
-    {
         "category": "Mobilidade",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1033,13 +1040,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/azul/noticia/levantada-interdicao-praias-labruge-angeiras-norte-apos-descargas-lactogal-2140247",
-        "count": 12
-    },
-    {
-        "category": "Receita",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/vicios/receita/2025-07-17-elotes-com-queijo-ortodoxo-uma-receita-para-dar-nova-vida-ao-milho-e-meia-hora-basta-4b92fdad",
         "count": 12
     },
     {
@@ -1099,6 +1099,13 @@
         "count": 10
     },
     {
+        "category": "Entretenimento",
+        "source": "SAPO",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.sapo.pt/noticias/entretenimento/artigos/emergency-exit-la-fura-dels-baus-com-satori-e-eyesberg-no-boom-festival-2025",
+        "count": 10
+    },
+    {
         "category": "Justiça climática",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1155,10 +1162,10 @@
         "count": 9
     },
     {
-        "category": "Entretenimento",
-        "source": "SAPO",
+        "category": "Conta-nos a tua ciência",
+        "source": "Público",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.sapo.pt/noticias/entretenimento/artigos/emergency-exit-la-fura-dels-baus-com-satori-e-eyesberg-no-boom-festival-2025",
+        "url": "https://www.publico.pt/2025/07/28/ciencia/noticia/ioga-telomeros-sera-conseguem-alongarse-apos-lesao-medula-espinhal-2141556",
         "count": 9
     },
     {
@@ -1194,13 +1201,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/local/noticia/artista-frances-constroi-enorme-fabrica-cartao-ajuda-comunidade-aveiro-2140476",
-        "count": 8
-    },
-    {
-        "category": "Conta-nos a tua ciência",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/28/ciencia/noticia/ioga-telomeros-sera-conseguem-alongarse-apos-lesao-medula-espinhal-2141556",
         "count": 8
     },
     {
@@ -1414,6 +1414,13 @@
         "count": 6
     },
     {
+        "category": "4 Esquinas",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/18/mundo/cronica/evangelizacoes-2140772",
+        "count": 5
+    },
+    {
         "category": "Azul",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1510,13 +1517,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/23/local/noticia/governo-escolhe-emidio-gomes-reitor-utad-liderar-metro-porto-2141506",
         "count": 5
-    },
-    {
-        "category": "4 Esquinas",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/18/mundo/cronica/evangelizacoes-2140772",
-        "count": 4
     },
     {
         "category": "Comboio",
@@ -1673,17 +1673,17 @@
         "count": 3
     },
     {
-        "category": "Desinformação",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/22/enter/noticia/youtube-remove-quase-11-mil-canais-ligados-propaganda-china-russia-2141279",
-        "count": 2
-    },
-    {
         "category": "Política científica",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/31/ciencia/noticia/despesa-investigacao-desenvolvimento-atingiu-49-mil-milhoes-euros-2024-2142384",
+        "count": 3
+    },
+    {
+        "category": "Desinformação",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/22/enter/noticia/youtube-remove-quase-11-mil-canais-ligados-propaganda-china-russia-2141279",
         "count": 2
     },
     {
