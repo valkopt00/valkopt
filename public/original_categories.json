@@ -39,14 +39,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-07-14-ultimas-noticias-de-segunda-feira-dia-14-de-julho-e75b6e2c",
-        "count": 460
+        "count": 461
     },
     {
         "category": "Palavras Cruzadas",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/jogos/palavras-cruzadas/2025-07-14-palavras-cruzadas-n-1263-35e09e20",
-        "count": 425
+        "count": 426
     },
     {
         "category": "Trabalho",
@@ -88,7 +88,7 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
-        "count": 298
+        "count": 299
     },
     {
         "category": "Média",
@@ -161,18 +161,18 @@
         "count": 153
     },
     {
-        "category": "Banca",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/economia/noticia/centro-vssarmento-choque-prejuizos-defices-2139929",
-        "count": 136
-    },
-    {
         "category": "Em Destaque",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
-        "count": 136
+        "count": 140
+    },
+    {
+        "category": "Banca",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/economia/noticia/centro-vssarmento-choque-prejuizos-defices-2139929",
+        "count": 137
     },
     {
         "category": "+E",
@@ -277,7 +277,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-07-17-duas-torres-e-uma-festa-74e6b8fb",
-        "count": 67
+        "count": 69
     },
     {
         "category": "Longevidade",
@@ -469,6 +469,13 @@
         "count": 48
     },
     {
+        "category": "Cm ao Minuto",
+        "source": "Correio Da Manhã",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.cmjornal.pt/cm-ao-minuto/detalhe/medio-orkun-kokcu-deixa-benfica-e-e-reforco-do-besiktas",
+        "count": 48
+    },
+    {
         "category": "Comissão Política",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -502,13 +509,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/impar/noticia/construcao-palavra-continua-envolta-estereotipos-genero-2140379",
         "count": 47
-    },
-    {
-        "category": "Cm ao Minuto",
-        "source": "Correio Da Manhã",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.cmjornal.pt/cm-ao-minuto/detalhe/medio-orkun-kokcu-deixa-benfica-e-e-reforco-do-besiktas",
-        "count": 46
     },
     {
         "category": "Money Money Money",
@@ -595,6 +595,13 @@
         "count": 40
     },
     {
+        "category": "Tudo é política",
+        "source": "Visão",
+        "mapped_category": "Outras Notícias",
+        "url": "https://visao.pt/opiniao/tudo-e-politica/2025-07-18-a-fronteira-esta-no-bolso-cronica-de-margarida-davim/?utm_source=rss&utm_medium=rss&utm_campaign=a-fronteira-esta-no-bolso-cronica-de-margarida-davim",
+        "count": 40
+    },
+    {
         "category": "Vestígios de Azul",
         "source": "Visão",
         "mapped_category": "Outras Notícias",
@@ -620,13 +627,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/investigacao/operacao-marques/2025-07-15-operacao-marques-socrates-regressa-ao-tribunal-para-a-quinta-sessao-do-julgamento-c4340ed9",
-        "count": 39
-    },
-    {
-        "category": "Tudo é política",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/opiniao/tudo-e-politica/2025-07-18-a-fronteira-esta-no-bolso-cronica-de-margarida-davim/?utm_source=rss&utm_medium=rss&utm_campaign=a-fronteira-esta-no-bolso-cronica-de-margarida-davim",
         "count": 39
     },
     {
@@ -672,6 +672,20 @@
         "count": 34
     },
     {
+        "category": "Design",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/23/impar/entrevista/redoute-moda-decoracao-texteis-portugueses-dominam-mercado-2140132",
+        "count": 33
+    },
+    {
+        "category": "Factor X (Elas)",
+        "source": "Jornal i",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/07/17/o-apagar-do-apagao/",
+        "count": 33
+    },
+    {
         "category": "Jogos de Poder",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -679,24 +693,10 @@
         "count": 33
     },
     {
-        "category": "Design",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/23/impar/entrevista/redoute-moda-decoracao-texteis-portugueses-dominam-mercado-2140132",
-        "count": 32
-    },
-    {
         "category": "Estado da nação 2025",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/politica/noticia/sete-graficos-precisa-perceber-estado-nacao-2140510",
-        "count": 32
-    },
-    {
-        "category": "Factor X (Elas)",
-        "source": "Jornal i",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/07/17/o-apagar-do-apagao/",
         "count": 32
     },
     {
@@ -847,6 +847,13 @@
         "count": 21
     },
     {
+        "category": "Descodificador",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/economia/descodificador/2025-07-17-pib-a-crescer-mais-de-2--so-o-governo-acredita-94198934",
+        "count": 20
+    },
+    {
         "category": "Incêndios florestais",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -854,24 +861,17 @@
         "count": 20
     },
     {
-        "category": "Açores",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/25/sociedade/noticia/turista-resgatado-montanha-pico-desrespeitou-regulamento-acesso-2141853",
-        "count": 19
-    },
-    {
-        "category": "Descodificador",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/economia/descodificador/2025-07-17-pib-a-crescer-mais-de-2--so-o-governo-acredita-94198934",
-        "count": 19
-    },
-    {
         "category": "Receita",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/vicios/receita/2025-07-17-elotes-com-queijo-ortodoxo-uma-receita-para-dar-nova-vida-ao-milho-e-meia-hora-basta-4b92fdad",
+        "count": 20
+    },
+    {
+        "category": "Açores",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/25/sociedade/noticia/turista-resgatado-montanha-pico-desrespeitou-regulamento-acesso-2141853",
         "count": 19
     },
     {
@@ -893,6 +893,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/15/sociedade/noticia/grupos-extremistas-doam-33-milhoes-euros-associacoes-portuguesas-antiaborto-2140345",
+        "count": 17
+    },
+    {
+        "category": "Entretenimento",
+        "source": "SAPO",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.sapo.pt/noticias/entretenimento/artigos/emergency-exit-la-fura-dels-baus-com-satori-e-eyesberg-no-boom-festival-2025",
         "count": 17
     },
     {
@@ -921,13 +928,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/impar/noticia/chegado-maioridade-lamine-yamal-contratou-anoes-aniversario-condenado-2140127",
-        "count": 16
-    },
-    {
-        "category": "Entretenimento",
-        "source": "SAPO",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.sapo.pt/noticias/entretenimento/artigos/emergency-exit-la-fura-dels-baus-com-satori-e-eyesberg-no-boom-festival-2025",
         "count": 16
     },
     {
@@ -1225,6 +1225,13 @@
         "count": 8
     },
     {
+        "category": "Meditação na Pastelaria",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/18/culturaipsilon/cronica/ah-ociosidade-verao-2140282",
+        "count": 8
+    },
+    {
         "category": "P2",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1243,6 +1250,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/20/opiniao/cronica/cinco-livros-tornar-verao-livresco-2140845",
+        "count": 8
+    },
+    {
+        "category": "Ípsilon",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/18/newsletter/ipsilon",
         "count": 8
     },
     {
@@ -1281,24 +1295,10 @@
         "count": 7
     },
     {
-        "category": "Meditação na Pastelaria",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/18/culturaipsilon/cronica/ah-ociosidade-verao-2140282",
-        "count": 7
-    },
-    {
         "category": "Natalidade",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/p3/noticia/quase-terco-jovens-europeus-nao-quer-filhos-2140447",
-        "count": 7
-    },
-    {
-        "category": "Ípsilon",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/18/newsletter/ipsilon",
         "count": 7
     },
     {
@@ -1645,6 +1645,13 @@
         "count": 3
     },
     {
+        "category": "Enter",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/21/enter/noticia/grave-falha-sharepoint-permite-ciberataques-globais-governos-empresas-2141124",
+        "count": 3
+    },
+    {
         "category": "Faro",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1663,6 +1670,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/24/sociedade/noticia/gulbenkian-dois-milhoes-euros-projectos-apoiem-jovens-nemnem-2141385",
+        "count": 3
+    },
+    {
+        "category": "Liga Europa Conferência",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/liga-europa-conferencia/santa-clara-joga-para-reverter-desvantagem-e-seguir-em-frente_d1673167",
         "count": 3
     },
     {
@@ -1691,20 +1705,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/22/enter/noticia/youtube-remove-quase-11-mil-canais-ligados-propaganda-china-russia-2141279",
-        "count": 2
-    },
-    {
-        "category": "Enter",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/21/enter/noticia/grave-falha-sharepoint-permite-ciberataques-globais-governos-empresas-2141124",
-        "count": 2
-    },
-    {
-        "category": "Liga Europa Conferência",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/liga-europa-conferencia/santa-clara-joga-para-reverter-desvantagem-e-seguir-em-frente_d1673167",
         "count": 2
     },
     {
