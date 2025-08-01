@@ -25,7 +25,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/video/grupos-extremadireita-organizam-caca-imigrantes-murcia-20250714-121319",
-        "count": 521
+        "count": 522
     },
     {
         "category": "Televisão",
@@ -39,14 +39,14 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-07-14-ultimas-noticias-de-segunda-feira-dia-14-de-julho-e75b6e2c",
-        "count": 466
+        "count": 467
     },
     {
         "category": "Palavras Cruzadas",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/jogos/palavras-cruzadas/2025-07-14-palavras-cruzadas-n-1263-35e09e20",
-        "count": 431
+        "count": 432
     },
     {
         "category": "Trabalho",
@@ -81,7 +81,7 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
-        "count": 304
+        "count": 305
     },
     {
         "category": "Ásia",
@@ -147,18 +147,18 @@
         "count": 175
     },
     {
+        "category": "Em Destaque",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
+        "count": 163
+    },
+    {
         "category": "Mais Europa",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/iniciativaseprodutos/mais-europa/2025-07-15-um-nariz-eletronico-para-perceber-se-a-carne-e-o-peixe-no-supermercado-estao-bons-para-consumo-e-evitar-a-sua-ida-prematura-para-o-lixo-71548117",
         "count": 163
-    },
-    {
-        "category": "Em Destaque",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
-        "count": 160
     },
     {
         "category": "Planeta",
@@ -249,7 +249,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-07-17-duas-torres-e-uma-festa-74e6b8fb",
-        "count": 75
+        "count": 76
     },
     {
         "category": "Crónica do Observatório da Fraude",
@@ -280,6 +280,13 @@
         "count": 71
     },
     {
+        "category": "A Beleza das Pequenas Coisas",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/podcasts/a-beleza-das-pequenas-coisas/2025-07-25-helena-roseta--parte-1--nas-situacoes-de-decisao-em-que-todos-tem-um-bocado-de-razao-na-duvida-estou-do-lado-dos-mais-vulneraveis-7ca4b5ec",
+        "count": 66
+    },
+    {
         "category": "Longevidade",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -292,13 +299,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/boa-cama-boa-mesa/iniciativas-e-produtos/passeio-verde/2025-07-16-desportos-de-aventura-e-mergulhos-refrescantes-celebram-verao-no-rio-tamega-b2c7b361",
         "count": 66
-    },
-    {
-        "category": "A Beleza das Pequenas Coisas",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/podcasts/a-beleza-das-pequenas-coisas/2025-07-25-helena-roseta--parte-1--nas-situacoes-de-decisao-em-que-todos-tem-um-bocado-de-razao-na-duvida-estou-do-lado-dos-mais-vulneraveis-7ca4b5ec",
-        "count": 65
     },
     {
         "category": "Inteligência artificial",
@@ -420,18 +420,18 @@
         "count": 53
     },
     {
+        "category": "Celebridades",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/17/impar/noticia/sydney-sweeney-regressa-moda-marca-lingerie-patrocinada-jeff-bezos-2140684",
+        "count": 52
+    },
+    {
         "category": "Na Linha da Frente",
         "source": "Jornal i",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/07/15/freddie-mercury-o-melhor-de-sempre/",
         "count": 52
-    },
-    {
-        "category": "Celebridades",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/17/impar/noticia/sydney-sweeney-regressa-moda-marca-lingerie-patrocinada-jeff-bezos-2140684",
-        "count": 51
     },
     {
         "category": "Edição Impressa",
@@ -504,6 +504,13 @@
         "count": 47
     },
     {
+        "category": "Natação",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/18/desporto/noticia/nadadora-mafalda-rosa-23-5km-aguas-abertas-mundiais-2140847",
+        "count": 47
+    },
+    {
         "category": "Relações",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -518,10 +525,10 @@
         "count": 46
     },
     {
-        "category": "Natação",
-        "source": "Público",
+        "category": "Tudo é política",
+        "source": "Visão",
         "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/18/desporto/noticia/nadadora-mafalda-rosa-23-5km-aguas-abertas-mundiais-2140847",
+        "url": "https://visao.pt/opiniao/tudo-e-politica/2025-07-18-a-fronteira-esta-no-bolso-cronica-de-margarida-davim/?utm_source=rss&utm_medium=rss&utm_campaign=a-fronteira-esta-no-bolso-cronica-de-margarida-davim",
         "count": 46
     },
     {
@@ -529,13 +536,6 @@
         "source": "Jornal i",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/07/18/combustiveis-baixam-na-proxima-semana/",
-        "count": 45
-    },
-    {
-        "category": "Tudo é política",
-        "source": "Visão",
-        "mapped_category": "Outras Notícias",
-        "url": "https://visao.pt/opiniao/tudo-e-politica/2025-07-18-a-fronteira-esta-no-bolso-cronica-de-margarida-davim/?utm_source=rss&utm_medium=rss&utm_campaign=a-fronteira-esta-no-bolso-cronica-de-margarida-davim",
         "count": 45
     },
     {
@@ -623,18 +623,18 @@
         "count": 39
     },
     {
+        "category": "Factor X (Elas)",
+        "source": "Jornal i",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/07/17/o-apagar-do-apagao/",
+        "count": 39
+    },
+    {
         "category": "Operação Marquês",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/investigacao/operacao-marques/2025-07-15-operacao-marques-socrates-regressa-ao-tribunal-para-a-quinta-sessao-do-julgamento-c4340ed9",
         "count": 39
-    },
-    {
-        "category": "Factor X (Elas)",
-        "source": "Jornal i",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/07/17/o-apagar-do-apagao/",
-        "count": 38
     },
     {
         "category": "Restaurantes",
@@ -774,6 +774,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/p3/noticia/movimento-body-positivity-morreu-ozempic-corpo-magro-desapareceu-2135332",
+        "count": 27
+    },
+    {
+        "category": "Receita",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/revista/vicios/receita/2025-07-17-elotes-com-queijo-ortodoxo-uma-receita-para-dar-nova-vida-ao-milho-e-meia-hora-basta-4b92fdad",
         "count": 26
     },
     {
@@ -805,18 +812,18 @@
         "count": 25
     },
     {
-        "category": "Receita",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/vicios/receita/2025-07-17-elotes-com-queijo-ortodoxo-uma-receita-para-dar-nova-vida-ao-milho-e-meia-hora-basta-4b92fdad",
-        "count": 25
-    },
-    {
         "category": "Análise",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/13/mundo/analise/regresso-entente-cordiale-2140022",
         "count": 24
+    },
+    {
+        "category": "Entretenimento",
+        "source": "SAPO",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.sapo.pt/noticias/entretenimento/artigos/emergency-exit-la-fura-dels-baus-com-satori-e-eyesberg-no-boom-festival-2025",
+        "count": 23
     },
     {
         "category": "Política Cultural",
@@ -837,13 +844,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/18/politica/noticia/portugal-oposse-inclusao-direito-palestinianos-comer-declaracao-cplp-2140693",
-        "count": 22
-    },
-    {
-        "category": "Entretenimento",
-        "source": "SAPO",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.sapo.pt/noticias/entretenimento/artigos/emergency-exit-la-fura-dels-baus-com-satori-e-eyesberg-no-boom-festival-2025",
         "count": 22
     },
     {
@@ -1015,6 +1015,13 @@
         "count": 13
     },
     {
+        "category": "Praias",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/14/azul/noticia/levantada-interdicao-praias-labruge-angeiras-norte-apos-descargas-lactogal-2140247",
+        "count": 13
+    },
+    {
         "category": "Transportes públicos",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1040,13 +1047,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/15/local/noticia/vci-passasse-jardins-ciclovias-casas-pracas-propoe-universidade-porto-2140297",
-        "count": 12
-    },
-    {
-        "category": "Praias",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/14/azul/noticia/levantada-interdicao-praias-labruge-angeiras-norte-apos-descargas-lactogal-2140247",
         "count": 12
     },
     {
@@ -1183,6 +1183,13 @@
         "count": 9
     },
     {
+        "category": "Liga Europa Conferência",
+        "source": "RTP Notícias",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.rtp.pt/noticias/liga-europa-conferencia/santa-clara-joga-para-reverter-desvantagem-e-seguir-em-frente_d1673167",
+        "count": 9
+    },
+    {
         "category": "Perguntas e respostas",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1236,13 +1243,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/21/fugas/noticia/historico-hotel-waldorf-astoria-new-york-reabre-apos-oito-anos-portas-fechadas-2141107",
-        "count": 8
-    },
-    {
-        "category": "Liga Europa Conferência",
-        "source": "RTP Notícias",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.rtp.pt/noticias/liga-europa-conferencia/santa-clara-joga-para-reverter-desvantagem-e-seguir-em-frente_d1673167",
         "count": 8
     },
     {
@@ -1701,10 +1701,24 @@
         "count": 3
     },
     {
+        "category": "Coreia do Sul",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/27/mundo/noticia/aviao-jeju-air-motor-funcionar-despenhou-investigacao-2141926",
+        "count": 2
+    },
+    {
         "category": "Desinformação",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/22/enter/noticia/youtube-remove-quase-11-mil-canais-ligados-propaganda-china-russia-2141279",
+        "count": 2
+    },
+    {
+        "category": "Moçambique",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/25/mundo/noticia/terrorista-heroi-desafio-mondlane-frelimo-segue-tribunal-voltara-ruas-2141841",
         "count": 2
     },
     {
@@ -2128,13 +2142,6 @@
         "count": 1
     },
     {
-        "category": "Coreia do Sul",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/27/mundo/noticia/aviao-jeju-air-motor-funcionar-despenhou-investigacao-2141926",
-        "count": 1
-    },
-    {
         "category": "Corrupção",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -2230,6 +2237,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/13/desporto/noticia/diogo-jota-homenagem-sentida-durante-jogo-liverpool-2140086",
+        "count": 1
+    },
+    {
+        "category": "Direcção-Geral da Saúde",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/08/01/sociedade/noticia/calor-excessivo-final-julho-levou-264-mortes-acima-esperado-2142574",
         "count": 1
     },
     {
@@ -2730,6 +2744,13 @@
         "count": 1
     },
     {
+        "category": "Maternidade",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/08/01/sociedade/noticia/milhares-pessoas-assinam-peticoes-mudancas-licencas-parentais-2142580",
+        "count": 1
+    },
+    {
         "category": "Ministério da Administração Interna",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -2762,13 +2783,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/13/impar/noticia/mosteiro-arouca-antiga-enfermaria-monjas-culto-beleza-deixou-pecado-2131466",
-        "count": 1
-    },
-    {
-        "category": "Moçambique",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/25/mundo/noticia/terrorista-heroi-desafio-mondlane-frelimo-segue-tribunal-voltara-ruas-2141841",
         "count": 1
     },
     {
