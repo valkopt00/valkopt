@@ -88,7 +88,7 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/visaose7e/capas/2025-07-16-a-visao-se7e-desta-semana-edicao-1689/?utm_source=rss&utm_medium=rss&utm_campaign=a-visao-se7e-desta-semana-edicao-1689",
-        "count": 274
+        "count": 276
     },
     {
         "category": "Média",
@@ -144,7 +144,7 @@
         "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias",
         "url": "https://www.cmjornal.pt/mais-cm/especiais/guerra-israel-hamas/detalhe/cidade-humanitaria-em-gaza-e-campo-de-concentracao-diz-ex-primeiro-ministro-israelita",
-        "count": 172
+        "count": 173
     },
     {
         "category": "Mais Europa",
@@ -165,14 +165,14 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/14/economia/noticia/centro-vssarmento-choque-prejuizos-defices-2139929",
-        "count": 127
+        "count": 129
     },
     {
         "category": "+E",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/semanario/revista-e/-e/2025-07-17-carvalho-ribeiro--ferreira-uma-casa-portuguesa-com-certeza-100-anos-de-historia-num-copo-de-aguardente-e255084b",
-        "count": 126
+        "count": 127
     },
     {
         "category": "Culturas",
@@ -207,7 +207,14 @@
         "source": "Visão",
         "mapped_category": "Outras Notícias",
         "url": "https://visao.pt/opiniao/politicamente-correto/2025-07-17-o-ps-esta-a-aprender-grego-e-frances-opiniao-de-pedro-marques-lopes/?utm_source=rss&utm_medium=rss&utm_campaign=o-ps-esta-a-aprender-grego-e-frances-opiniao-de-pedro-marques-lopes",
-        "count": 97
+        "count": 98
+    },
+    {
+        "category": "Em Destaque",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
+        "count": 92
     },
     {
         "category": "LUSA-INBOX",
@@ -221,13 +228,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/consulta-aberta/2025-07-14-ter-vivido-numa-casa-de-acolhimento-moldou-me-mas-nao-me-define.-que-nao-tenha-vergonha-quem-esta-nessa-situacao-a-culpa-nao-e-nossa-366e3e0a",
-        "count": 88
-    },
-    {
-        "category": "Em Destaque",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
         "count": 88
     },
     {
@@ -504,6 +504,13 @@
         "count": 46
     },
     {
+        "category": "A semana",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-07-17-duas-torres-e-uma-festa-74e6b8fb",
+        "count": 45
+    },
+    {
         "category": "Sem categoria",
         "source": "Jornal i",
         "mapped_category": "Outras Notícias",
@@ -523,13 +530,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/geracao-80/2025-07-17-abri-em-macau-uma-mercearia-portuguesa-produtos-tradicionais-portugueses-vendidos-la.-queria-ter-ali-uma-pausa-na-vida-estava-esgotada-2d36f9fc",
         "count": 44
-    },
-    {
-        "category": "A semana",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-07-17-duas-torres-e-uma-festa-74e6b8fb",
-        "count": 43
     },
     {
         "category": "Cm ao Minuto",
@@ -637,6 +637,13 @@
         "count": 35
     },
     {
+        "category": "Restaurantes",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/revista/vicios/restaurantes/2025-07-17-leca-e-cada-vez-mais-e-o-lessa-e-um-restaurante-de-mao-cheia-a-beira-mar-8b7d6eac",
+        "count": 35
+    },
+    {
         "category": "Cidadania",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -655,13 +662,6 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/iniciativaseprodutos/2025-07-15-video-expresso-desconectados.mp4-cd7c17b9",
-        "count": 34
-    },
-    {
-        "category": "Restaurantes",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/vicios/restaurantes/2025-07-17-leca-e-cada-vez-mais-e-o-lessa-e-um-restaurante-de-mao-cheia-a-beira-mar-8b7d6eac",
         "count": 34
     },
     {
@@ -819,6 +819,20 @@
         "count": 22
     },
     {
+        "category": "Design",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/23/impar/entrevista/redoute-moda-decoracao-texteis-portugueses-dominam-mercado-2140132",
+        "count": 21
+    },
+    {
+        "category": "Factor X (Elas)",
+        "source": "Jornal i",
+        "mapped_category": "Outras Notícias",
+        "url": "https://ionline.sapo.pt/2025/07/17/o-apagar-do-apagao/",
+        "count": 21
+    },
+    {
         "category": "INEM",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -831,20 +845,6 @@
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/20/mundo/noticia/cortes-trump-financiamento-projectos-hidricos-ameacam-milhoes-pessoas-2141025",
         "count": 21
-    },
-    {
-        "category": "Design",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/23/impar/entrevista/redoute-moda-decoracao-texteis-portugueses-dominam-mercado-2140132",
-        "count": 20
-    },
-    {
-        "category": "Factor X (Elas)",
-        "source": "Jornal i",
-        "mapped_category": "Outras Notícias",
-        "url": "https://ionline.sapo.pt/2025/07/17/o-apagar-do-apagao/",
-        "count": 20
     },
     {
         "category": "Incêndios florestais",
@@ -1176,6 +1176,13 @@
         "count": 8
     },
     {
+        "category": "Descodificador",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/economia/descodificador/2025-07-17-pib-a-crescer-mais-de-2--so-o-governo-acredita-94198934",
+        "count": 8
+    },
+    {
         "category": "Eleições",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -1194,6 +1201,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/20/culturaipsilon/noticia/palcos-semana-febras-fotografias-festivais-metamorfoses-2140948",
+        "count": 8
+    },
+    {
+        "category": "Receita",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/revista/vicios/receita/2025-07-17-elotes-com-queijo-ortodoxo-uma-receita-para-dar-nova-vida-ao-milho-e-meia-hora-basta-4b92fdad",
         "count": 8
     },
     {
@@ -1239,13 +1253,6 @@
         "count": 7
     },
     {
-        "category": "Descodificador",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/economia/descodificador/2025-07-17-pib-a-crescer-mais-de-2--so-o-governo-acredita-94198934",
-        "count": 7
-    },
-    {
         "category": "Livre de Estilo",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1257,13 +1264,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/16/p3/noticia/quase-terco-jovens-europeus-nao-quer-filhos-2140447",
-        "count": 7
-    },
-    {
-        "category": "Receita",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/revista/vicios/receita/2025-07-17-elotes-com-queijo-ortodoxo-uma-receita-para-dar-nova-vida-ao-milho-e-meia-hora-basta-4b92fdad",
         "count": 7
     },
     {
@@ -1428,6 +1428,13 @@
         "count": 5
     },
     {
+        "category": "Entretenimento",
+        "source": "SAPO",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.sapo.pt/noticias/entretenimento/artigos/emergency-exit-la-fura-dels-baus-com-satori-e-eyesberg-no-boom-festival-2025",
+        "count": 5
+    },
+    {
         "category": "Explicadores",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1530,13 +1537,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/18/fugas/cronica/crise-douro-milhao-euros-mancha-historia-symington-2140216",
-        "count": 4
-    },
-    {
-        "category": "Entretenimento",
-        "source": "SAPO",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.sapo.pt/noticias/entretenimento/artigos/emergency-exit-la-fura-dels-baus-com-satori-e-eyesberg-no-boom-festival-2025",
         "count": 4
     },
     {
