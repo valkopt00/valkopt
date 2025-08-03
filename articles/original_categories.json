@@ -32,7 +32,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-07-14-ultimas-noticias-de-segunda-feira-dia-14-de-julho-e75b6e2c",
-        "count": 574
+        "count": 575
     },
     {
         "category": "Televisão",
@@ -46,7 +46,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/21/sociedade/noticia/camara-guarda-submeteu-trabalhadora-condicoes-laborais-humilhantes-vexatorias-2140252",
-        "count": 494
+        "count": 496
     },
     {
         "category": "Palavras Cruzadas",
@@ -116,7 +116,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/17/sociedade/noticia/tac-estatua-senhora-malaga-descobre-capsula-conter-mensagem-2140627",
-        "count": 208
+        "count": 209
     },
     {
         "category": "Autarquias",
@@ -200,7 +200,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/consulta-aberta/2025-07-14-ter-vivido-numa-casa-de-acolhimento-moldou-me-mas-nao-me-define.-que-nao-tenha-vergonha-quem-esta-nessa-situacao-a-culpa-nao-e-nossa-366e3e0a",
-        "count": 112
+        "count": 113
     },
     {
         "category": "O Homem Que Comia Tudo",
@@ -291,7 +291,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/culturas/teatro--danca/2025-07-17-teatro-o-escoamento-da-vida-de-tres-irmas-de-tchekhov-cec78926",
-        "count": 74
+        "count": 75
     },
     {
         "category": "Loures",
@@ -312,7 +312,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/revista/vicios/receita/2025-07-17-elotes-com-queijo-ortodoxo-uma-receita-para-dar-nova-vida-ao-milho-e-meia-hora-basta-4b92fdad",
-        "count": 69
+        "count": 70
     },
     {
         "category": "Acesso ao Ensino Superior 2025",
@@ -672,6 +672,13 @@
         "count": 38
     },
     {
+        "category": "Análise",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/13/mundo/analise/regresso-entente-cordiale-2140022",
+        "count": 37
+    },
+    {
         "category": "Indústria",
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
@@ -679,17 +686,17 @@
         "count": 37
     },
     {
-        "category": "Análise",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/13/mundo/analise/regresso-entente-cordiale-2140022",
-        "count": 36
-    },
-    {
         "category": "A Vida e a Lei",
         "source": "Jornal i",
         "mapped_category": "Outras Notícias",
         "url": "https://ionline.sapo.pt/2025/07/15/imigracao-direitos-fundamentais-democracia-e-exploracao/",
+        "count": 35
+    },
+    {
+        "category": "Vinhos",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/16/economia/noticia/viticultores-manifestamse-regua-chamar-atencao-crise-douro-2140460",
         "count": 35
     },
     {
@@ -725,13 +732,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/31/ciencia/noticia/despesa-investigacao-desenvolvimento-atingiu-49-mil-milhoes-euros-2024-2142384",
-        "count": 34
-    },
-    {
-        "category": "Vinhos",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/16/economia/noticia/viticultores-manifestamse-regua-chamar-atencao-crise-douro-2140460",
         "count": 34
     },
     {
@@ -1015,17 +1015,17 @@
         "count": 15
     },
     {
-        "category": "Crítica Exposição",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/24/culturaipsilon/critica/sentidos-imagem-novas-obras-julia-ventura-lisboa-2141248",
-        "count": 14
-    },
-    {
         "category": "Monarquia",
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/18/impar/noticia/futuro-academico-infanta-sofia-espanha-passa-lisboa-2140821",
+        "count": 15
+    },
+    {
+        "category": "Crítica Exposição",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/24/culturaipsilon/critica/sentidos-imagem-novas-obras-julia-ventura-lisboa-2141248",
         "count": 14
     },
     {
@@ -1085,6 +1085,13 @@
         "count": 13
     },
     {
+        "category": "Ímpar",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/15/impar/noticia/loro-piana-rei-italiano-caxemira-alvo-criticas-explorar-trabalhadores-2140288",
+        "count": 13
+    },
+    {
         "category": "Competição",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1110,13 +1117,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/20/opiniao/cronica/cinco-livros-tornar-verao-livresco-2140845",
-        "count": 12
-    },
-    {
-        "category": "Ímpar",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/15/impar/noticia/loro-piana-rei-italiano-caxemira-alvo-criticas-explorar-trabalhadores-2140288",
         "count": 12
     },
     {
@@ -1159,6 +1159,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/20/politica/noticia/governo-anuncia-quintafeira-novo-governador-banco-portugal-2141044",
+        "count": 10
+    },
+    {
+        "category": "Biodiversidade",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/24/azul/noticia/aguas-quentes-podem-levar-atuns-norte-atlantico-ameacando-especie-2141572",
         "count": 10
     },
     {
@@ -1229,13 +1236,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/24/azul/noticia/guerra-agua-regressa-regadio-alqueva-governo-garante-nao-havera-aumentos-alerta-edia-2141649",
-        "count": 9
-    },
-    {
-        "category": "Biodiversidade",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/24/azul/noticia/aguas-quentes-podem-levar-atuns-norte-atlantico-ameacando-especie-2141572",
         "count": 9
     },
     {
