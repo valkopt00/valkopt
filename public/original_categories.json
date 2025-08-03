@@ -32,7 +32,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/expresso-fundamental/2025-07-14-ultimas-noticias-de-segunda-feira-dia-14-de-julho-e75b6e2c",
-        "count": 591
+        "count": 592
     },
     {
         "category": "Televisão",
@@ -46,7 +46,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/21/sociedade/noticia/camara-guarda-submeteu-trabalhadora-condicoes-laborais-humilhantes-vexatorias-2140252",
-        "count": 543
+        "count": 544
     },
     {
         "category": "Palavras Cruzadas",
@@ -116,7 +116,7 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/17/sociedade/noticia/tac-estatua-senhora-malaga-descobre-capsula-conter-mensagem-2140627",
-        "count": 225
+        "count": 226
     },
     {
         "category": "Autarquias",
@@ -140,17 +140,17 @@
         "count": 196
     },
     {
-        "category": "Em Destaque",
-        "source": "Expresso",
-        "mapped_category": "Outras Notícias",
-        "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
-        "count": 181
-    },
-    {
         "category": "Guerra Israel-Hamas",
         "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias",
         "url": "https://www.cmjornal.pt/mais-cm/especiais/guerra-israel-hamas/detalhe/cidade-humanitaria-em-gaza-e-campo-de-concentracao-diz-ex-primeiro-ministro-israelita",
+        "count": 182
+    },
+    {
+        "category": "Em Destaque",
+        "source": "Expresso",
+        "mapped_category": "Outras Notícias",
+        "url": "https://expresso.pt/semanario/primeiro/em-destaque/2025-07-17-metro-de-lisboa-mais-estacoes-mais-linhas-conflito-laboral-e-avarias-frequentes-sao-o-caderno-de-encargos-da-nova-administracao-2ff8aaa9",
         "count": 181
     },
     {
@@ -193,7 +193,7 @@
         "source": "Expresso",
         "mapped_category": "Outras Notícias",
         "url": "https://expresso.pt/podcasts/consulta-aberta/2025-07-14-ter-vivido-numa-casa-de-acolhimento-moldou-me-mas-nao-me-define.-que-nao-tenha-vergonha-quem-esta-nessa-situacao-a-culpa-nao-e-nossa-366e3e0a",
-        "count": 129
+        "count": 130
     },
     {
         "category": "Culturas",
@@ -315,6 +315,13 @@
         "count": 71
     },
     {
+        "category": "Natação",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/18/desporto/noticia/nadadora-mafalda-rosa-23-5km-aguas-abertas-mundiais-2140847",
+        "count": 68
+    },
+    {
         "category": "Acesso ao Ensino Superior 2025",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -326,13 +333,6 @@
         "source": "Correio Da Manhã",
         "mapped_category": "Outras Notícias",
         "url": "https://www.cmjornal.pt/cm-ao-minuto/detalhe/medio-orkun-kokcu-deixa-benfica-e-e-reforco-do-besiktas",
-        "count": 67
-    },
-    {
-        "category": "Natação",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/18/desporto/noticia/nadadora-mafalda-rosa-23-5km-aguas-abertas-mundiais-2140847",
         "count": 67
     },
     {
@@ -1113,6 +1113,13 @@
         "count": 12
     },
     {
+        "category": "Família Real Britânica",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/07/17/impar/noticia/palacio-buckingham-assinala-aniversario-rainha-camila-nova-fotografia-2140697",
+        "count": 12
+    },
+    {
         "category": "Mobilidade",
         "source": "Público",
         "mapped_category": "Outras Notícias",
@@ -1145,13 +1152,6 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/29/sociedade/noticia/privados-apenas-candidataram-1200-vagas-preescolar-12-mil-disponiveis-2142149",
-        "count": 11
-    },
-    {
-        "category": "Família Real Britânica",
-        "source": "Público",
-        "mapped_category": "Outras Notícias",
-        "url": "https://www.publico.pt/2025/07/17/impar/noticia/palacio-buckingham-assinala-aniversario-rainha-camila-nova-fotografia-2140697",
         "count": 11
     },
     {
@@ -3238,6 +3238,13 @@
         "source": "Público",
         "mapped_category": "Outras Notícias",
         "url": "https://www.publico.pt/2025/07/28/ciencia/noticia/livros-verao-sugestoes-david-marcal-carlos-fiolhais-2142039",
+        "count": 1
+    },
+    {
+        "category": "Poluição atmosférica",
+        "source": "Público",
+        "mapped_category": "Outras Notícias",
+        "url": "https://www.publico.pt/2025/08/03/azul/noticia/ultrapassado-limiar-concentracao-ozono-atmosfera-informa-ccdr-norte-2142770",
         "count": 1
     },
     {
