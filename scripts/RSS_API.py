@@ -1007,7 +1007,7 @@ def extract_source(data):
         if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
             source_name = data.feed.title
             source_name_lower = source_name.lower()
-            
+
             # Check for specific sources first (before any normalization)
             if "tek" in source_name_lower and "notícias" in source_name_lower:
                 return "SAPO Tek"
@@ -1019,8 +1019,8 @@ def extract_source(data):
                 return "Notícias ao Minuto"
             elif "renascença" in source_name_lower:
                 return "Renascença"
-            elif "jornal de negocios" in source_name_lower:
-                return "Jornal de Negócios"
+            elif "correio da manhã" in source_name_lower:
+                return "Correio da Manhã"
             elif source_name.upper() == "PÚBLICO":
                 return "Público"
             elif source_name == "News | Euronews RSS":
@@ -1044,6 +1044,10 @@ def extract_source(data):
                 return "Notícias ao Minuto"
             elif data.startswith("https://www.rtp.pt/"):
                 return "RTP Notícias"
+            elif data.startswith("https://www.jornaldenegocios.pt/"):
+                return "Jornal de Negócios"
+            elif data.startswith("https://www.cmjornal.pt/"):
+                return "Correio da Manhã"
             elif "tek.sapo.pt" in domain:
                 return "SAPO Tek"
 
