@@ -998,125 +998,69 @@ def clean_description(description):
     return description
 
 
-import re
-from urllib.parse import urlparse
-
 def extract_source(data):
     """
-    Extracts the source name from a feedparser object or URL string.
-    Includes debug prints to trace values.
+    Extracts the source name from a feed or URL.
+    For feed objects, uses the feed title; for URLs, attempts to parse the domain.
     """
     try:
-        # Debug: show input type
-        print(f"[DEBUG] extract_source called with data type: {type(data)}")
-
-        # FeedParser branch
         if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
-            title = data.feed.title
-            print(f"[DEBUG] raw feed title: {repr(title)}")
-            title = title.strip()
-            title_lower = title.lower()
-            print(f"[DEBUG] normalized title_lower: {repr(title_lower)}")
-            feed_link = getattr(data.feed, 'link', '')
-            print(f"[DEBUG] feed link: {repr(feed_link)}")
-
-            # Explicit feed title mappings
-            FEED_TITLE_MAP = {
-                "jornal de negocios": "Jornal de Negócios",
-                "correio da manha": "Correio da Manhã",
-                "noticias ao minuto": "Notícias ao Minuto",
-            }
-            for key, proper in FEED_TITLE_MAP.items():
-                if key in title_lower:
-                    print(f"[DEBUG] matched FEED_TITLE_MAP for key: {key}")
-                    return proper
-
-            # URL-based mappings for feeds
-            URL_PREFIX_MAP = {
-                "https://www.jornaldenegocios.pt/": "Jornal de Negócios",
-                "https://www.cmjornal.pt/": "Correio da Manhã",
-                "https://www.noticiasaominuto.com": "Notícias ao Minuto",
-                "https://www.rtp.pt/": "RTP Notícias",
-            }
-            for prefix, proper in URL_PREFIX_MAP.items():
-                if feed_link.startswith(prefix):
-                    print(f"[DEBUG] matched URL_PREFIX_MAP for prefix: {prefix}")
-                    return proper
-
-            # Legacy keyword checks
-            if "tek" in title_lower and "notícias" in title_lower:
-                print("[DEBUG] matched SAPO Tek by keywords")
+            source_name = data.feed.title
+            source_name_lower = source_name.lower()
+            
+            # Check for specific sources first (before any normalization)
+            if "tek" in source_name_lower and "notícias" in source_name_lower:
                 return "SAPO Tek"
-            if "sapo" in title_lower:
-                print("[DEBUG] matched SAPO by keyword")
+            elif "sapo" in source_name_lower:
                 return "SAPO"
-            if "rtp" in title_lower:
-                print("[DEBUG] matched RTP Notícias by keyword")
+            elif "rtp" in source_name_lower:
                 return "RTP Notícias"
-            if "renascença" in title_lower:
-                print("[DEBUG] matched Renascença by keyword")
+            elif "notícias ao minuto" in source_name_lower:
+                return "Notícias ao Minuto"
+            elif "renascença" in source_name_lower:
                 return "Renascença"
-            if title.upper() == "PÚBLICO":
-                print("[DEBUG] matched Público by exact upper title")
+            elif source_name.upper() == "PÚBLICO":
                 return "Público"
-            if title == "News | Euronews RSS":
-                print("[DEBUG] matched Euronews by exact title")
+            elif source_name == "News | Euronews RSS":
                 return "Euronews"
-            if title == "Notícias zerozero.pt":
-                print("[DEBUG] matched zerozero.pt by exact title")
+            elif source_name == "Notícias zerozero.pt":
                 return "zerozero.pt"
-            if title == "Eurogamer.pt Latest Articles Feed":
-                print("[DEBUG] matched Eurogamer by exact title")
+            elif source_name == "Eurogamer.pt Latest Articles Feed":
                 return "Eurogamer"
-            if "jornal i" in title_lower:
-                print("[DEBUG] matched Jornal i by keyword")
+            elif "jornal i" in source_name_lower:
                 return "Jornal i"
+            
+            # Normalize capitalization for other cases
+            return source_name.title()
+            
+        elif isinstance(data, str):
+            parsed = urlparse(data)
+            domain = parsed.netloc.lower().removeprefix('www.')
 
-            # Fallback normalization
-            normalized = title.title()
-            normalized = re.sub(r"\b(Da|De|Do|Dos|Das|E)\b",
-                                 lambda m: m.group(0).lower(),
-                                 normalized)
-            print(f"[DEBUG] fallback normalized: {repr(normalized)}")
-            return normalized
+            # Check for specific URLs
+            if data.startswith("https://www.noticiasaominuto.com"):
+                return "Notícias ao Minuto"
+            elif data.startswith("https://www.rtp.pt/"):
+                return "RTP Notícias"
+            elif "tek.sapo.pt" in domain:
+                return "SAPO Tek"
 
-        # URL string branch
-        if isinstance(data, str):
-            url = data.strip()
-            print(f"[DEBUG] URL input: {repr(url)}")
-            # URL prefix mapping
-            URL_PREFIX_MAP = {
-                "https://www.jornaldenegocios.pt/": "Jornal de Negócios",
-                "https://www.cmjornal.pt/": "Correio da Manhã",
-                "https://www.noticiasaominuto.com": "Notícias ao Minuto",
-                "https://www.rtp.pt/": "RTP Notícias",
-            }
-            for prefix, proper in URL_PREFIX_MAP.items():
-                if url.startswith(prefix):
-                    print(f"[DEBUG] matched URL_PREFIX_MAP in URL branch for prefix: {prefix}")
-                    return proper
-
-            # Domain parsing fallback
-            parsed = urlparse(url)
-            domain = parsed.netloc.lower()
-            print(f"[DEBUG] parsed domain raw: {repr(domain)}")
+            # Default processing for other URLs: extract domain and map if necessary
+            parsed_url = urlparse(data)
+            domain = parsed_url.netloc
             domain = re.sub(r'^www\.', '', domain)
-            domain_key = domain.split('.')[0]
-            print(f"[DEBUG] domain_key: {repr(domain_key)}")
-            DOMAIN_MAP = {
+            domain = domain.split('.')[0]
+            source_mapping = {
                 'observador': 'Observador',
                 'publico': 'Público',
                 'público': 'Público',
+                'PÚBLICO': 'Público',
+                'PUBLICO': 'Público',
                 'tek': 'SAPO Tek',
             }
-            result = DOMAIN_MAP.get(domain_key, domain_key.title())
-            print(f"[DEBUG] URL branch fallback result: {repr(result)}")
-            return result
-
+            return source_mapping.get(domain, domain)
     except Exception as e:
-        print(f"[ERROR] extracting source: {e}")
-
-    print("[DEBUG] returning Desconhecido")
+        print(f"Error extracting source: {e}")
     return "Desconhecido"
 
 async def process_articles(articles):
