@@ -1019,6 +1019,8 @@ def extract_source(data):
                 return "Notícias ao Minuto"
             elif "renascença" in source_name_lower:
                 return "Renascença"
+            elif "jornal de negocios" in source_name_lower:
+                return "Jornal de Negócios"
             elif source_name.upper() == "PÚBLICO":
                 return "Público"
             elif source_name == "News | Euronews RSS":
