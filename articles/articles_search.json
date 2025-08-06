@@ -1,6 +1,11 @@
 {
     "Multimédia": [
         {
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/6h-volta-a-portugal-em-bicicleta-comeca-hoje-com-prologo-na-maia_a1_1674446",
+            "normalized_title": "6h volta a portugal em bicicleta comeca hoje com prologo na maia",
+            "normalized_description": ""
+        },
+        {
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/5h-incendio-de-penafiel-dominado-depois-de-ter-ameacado-casas_a1_1674442",
             "normalized_title": "5h incendio de penafiel dominado depois de ter ameacado casas",
             "normalized_description": ""
@@ -1339,18 +1344,83 @@
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/7h-tres-grandes-incendios-ativos-esta-manha-em-portugal_a1_1673412",
             "normalized_title": "7h tres grandes incendios ativos esta manha em portugal",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/5h-incendio-de-ponte-da-barca-com-frente-de-fogo-muito-extensa_a1_1673399",
-            "normalized_title": "5h incendio de ponte da barca com frente de fogo muito extensa",
-            "normalized_description": ""
         }
     ],
     "Últimas": [
         {
+            "link": "https://www.noticiasaominuto.com/pais/2833559/jovem-de-17-anos-morre-em-despiste-de-motociclo-em-alenquer#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "jovem de 17 anos morre em despiste de motociclo em alenquer",
+            "normalized_description": "um jovem de 17 anos morreu na terca feira na sequencia de um despiste de motociclo em casais da foroana concelho de alenquer distrito de lisboa"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/6h-volta-a-portugal-em-bicicleta-comeca-hoje-com-prologo-na-maia_a1_1674446",
+            "normalized_title": "6h volta a portugal em bicicleta comeca hoje com prologo na maia",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/cultura/2833580/festival-sonicblast-volta-hoje-para-4-dias-de-rock-psicadelico-na-praia#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "festival sonicblast volta hoje para 4 dias de rock psicadelico na praia",
+            "normalized_description": "o festival sonicblast da hoje inicio a 13 ª edicao com uma noite de aquecimento que abre quatro dias de psicadelia musical na praia da duna dos"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2833298/nice-benfica-aguias-querem-voar-em-franca-para-confirmar-milhoes-na-luz#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "nice benfica aguias querem voar em franca para confirmar milhoes na luz",
+            "normalized_description": "o apito inicial esta marcado para as 20h00 desta quarta feira no sul de franca na allianz riviera onde se ira disputar a primeira mao da terceira"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2833583/jorge-costa-deu-entrevista-instantes-antes-da-paragem-cardiorrespiratoria#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "jorge costa deu entrevista instantes antes da paragem cardiorrespiratoria",
+            "normalized_description": "diretor de futebol do fc porto sentiu se mal ao inicio da tarde de terca feira e foi transportado de urgencia para o hospital de sao joao onde"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2833571/capotamento-de-camiao-com-ajuda-humanitaria-mata-20-na-faixa-de-gaza#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "capotamento de camiao com ajuda humanitaria mata 20 na faixa de gaza",
+            "normalized_description": "vinte pessoas morreram e dezenas ficaram feridas quando um camiao que transportava ajuda humanitaria capotou na faixa de gaza informou hoje o"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2833568/japao-deve-liderar-esforcos-globais-para-mundo-sem-armas-nucleares#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "japao deve liderar esforcos globais para mundo sem armas nucleares",
+            "normalized_description": "o primeiro ministro do japao shigeru ishiba afirmou hoje que toquio deve liderar os esforcos globais para a humanidade alcancar um mundo sem armas"
+        },
+        {
+            "link": "https://rr.pt/noticia/pais/2025/08/06/penafiel-bombeiros-ja-conseguiram-dominar-incendio-em-galegos/435240/?utm_medium=rss",
+            "normalized_title": "penafiel bombeiros ja conseguiram dominar incendio em galegos",
+            "normalized_description": "chamas foram dadas como circunscritas por volta das 05h30 evolucao do combate vai depender da intensidade do vento"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2833579/artem-nych-inicia-hoje-a-defesa-do-titulo-da-volta-a-portugal-na-maia#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "artem nych inicia hoje a defesa do titulo da volta a portugal na maia",
+            "normalized_description": "um prologo de 3 4 quilometros na maia inaugura hoje os 11 dias de competicao da volta a portugal em bicicleta e vai definir quem sera o primeiro"
+        },
+        {
+            "link": "https://www.zerozero.pt/noticias/sub-19-preparados-para-escrever-historia-no-egito/880665",
+            "normalized_title": "sub 19 preparados para escrever historia no egito",
+            "normalized_description": "esta na hora apos varios estagios de preparacao durante os ultimos meses portugal sub 19 vai dar inicio a sua caminhada no m19 ihf world"
+        },
+        {
+            "link": "https://rr.pt/especial/mundo/2025/08/06/80-anos-depois-as-memorias-de-sobreviventes-de-hiroshima-fiquei-cega-como-se-o-sol-caisse-sobre-mim/434995/?utm_medium=rss",
+            "normalized_title": "80 anos depois as memorias de sobreviventes de hiroshima fiquei cega como se o sol caisse sobre mim",
+            "normalized_description": "as 8h15 de 6 de agosto de 1945 a bomba little boy largou 64 quilos de uranio sobre a cidade japonesa de hiroshima numa explosao equivalente a um 16"
+        },
+        {
+            "link": "https://rr.pt/fotoreportagem/mundo/2025/08/06/hiroshima-80-anos-depois-como-a-bomba-atomica-dizimou-uma-cidade-e-mudou-o-mundo-num-piscar-de-olhos/435165/?utm_medium=rss",
+            "normalized_title": "hiroshima 80 anos depois como a bomba atomica dizimou uma cidade e mudou o mundo num piscar de olhos",
+            "normalized_description": "a 6 de agosto de 1945 o bombardeiro enola gay lancava sobre hiroshima a primeira bomba atomica a renascenca explica lhe a detonacao que provocou a"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/lifestyle/2833209/e-o-que-e-comida-caseira-e-congelada-para-todas-as-ocasioes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "e o que e comida caseira e congelada para todas as ocasioes",
+            "normalized_description": "podem ser guardadas no congelador para consumir quando nao tiver vontade de sujar nada da cozinha chama se e o que e esta presente em algumas lojas"
+        },
+        {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/prazos-apertados-sporting-e-liga-estarao-reunidos-para-definir-se-alvalade-tera-ou-nao-aval-para-receber-arouca",
             "normalized_title": "prazos apertados sporting e liga estarao reunidos para definir se alvalade tera ou nao aval para receber arouca",
             "normalized_description": "a pouco mais de uma semana da rececao ao arouca continua uma indefinicao em torno da possibilidade de o leao defrontar ou nao os lobos no estadio"
+        },
+        {
+            "link": "https://rr.pt/noticia/mundo/2025/08/06/medio-oriente-capotamento-de-camiao-com-ajuda-humanitaria-mata-vinte-pessoas-na-faixa-de-gaza/435239/?utm_medium=rss",
+            "normalized_title": "medio oriente capotamento de camiao com ajuda humanitaria mata vinte pessoas na faixa de gaza",
+            "normalized_description": "de acordo com as autoridades locais o camiao capotou sobre as pessoas que procuravam obter alguma comida que o veiculo transportava"
         },
         {
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/5h-incendio-de-penafiel-dominado-depois-de-ter-ameacado-casas_a1_1674442",
@@ -1561,6 +1631,11 @@
             "link": "https://www.record.pt/futebol/futebol-nacional/2--liga/p--ferreira/detalhe/oficial-matheus-martins-e-reforco-do-p-ferreira",
             "normalized_title": "oficial matheus martins e reforco do p ferreira",
             "normalized_description": "extremo chega do abc fc e assina por duas temporadas com mais uma de opcao"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2833558/incendio-em-franca-faz-2-feridos-e-destroi-8000-hectares-em-poucas-horas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "incendio em franca faz 2 feridos e destroi 8 000 hectares em poucas horas",
+            "normalized_description": "um incendio intenso na cordilheira montanhosa de corbieres no sul de franca provocou hoje dois feridos sendo um deles grave e destruiu 8 000"
         },
         {
             "link": "https://www.cmjornal.pt/opiniao/bilhete-postal/detalhe/mandar-as-ambulancias-do-inem-a-oficina-sera-uma-ciencia-oculta",
@@ -3961,314 +4036,29 @@
             "link": "https://www.noticiasaominuto.com/mundo/2833365/mais-de-500-advogados-defendem-detidos-apos-tumultos-em-angola#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "mais de 500 advogados defendem detidos apos tumultos em angola",
             "normalized_description": "mais de 500 advogados angolanos foram mobilizados para defender os cidadaos detidos na sequencia dos tumultos registados em angola anunciou hoje o"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/panathinaikos-diz-adeus-a-vagiannidis-de-forma-emotiva-um-filho-nosso",
-            "normalized_title": "panathinaikos diz adeus a vagiannidis de forma emotiva um filho nosso",
-            "normalized_description": "clube de atenas prepara se para vender o lateral direito ao sporting"
-        },
-        {
-            "link": "https://www.record.pt/modalidades/ciclismo/volta-a-portugal/detalhe/voltaarranca-esta-quarta-feira-com-muito-para-subir-e-temperaturas-elevadas",
-            "normalized_title": "volta arranca esta quarta feira com muito para subir e temperaturas elevadas",
-            "normalized_description": "maia recebe tiro de partida enquanto lisboa sera palco da consagracao"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/panathinaikos-diz-adeus-a-vagiannidis-de-forma-emotiva-um-filho-nosso",
-            "normalized_title": "panathinaikos diz adeus a vagiannidis de forma emotiva um filho nosso",
-            "normalized_description": "clube de atenas prepara se para vender o lateral direito ao sporting"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/videos/detalhe/rui-costa-recorda-grande-amigo-jorge-costa-tenho-memorias-com-ele-desde-os-17-anos",
-            "normalized_title": "rui costa recorda grande amigo jorge costa tenho memorias com ele desde os 17 anos",
-            "normalized_description": "presidente do benfica falou aos jornalistas no aeroporto humberto delgado"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/empresa-que-explorava-submersivel-titan-e-principal-responsavel-por-acidente-dizem-eua_n1674334",
-            "normalized_title": "empresa que explorava submersivel titan e principal responsavel por acidente dizem eua",
-            "normalized_description": "a guarda costeira norte americana considerou hoje a empresa oceangate como a principal responsavel pela implosao do submersivel titan no qual"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/pais/alunos-dizem-que-exame-de-portugues-obrigatorio-reduziu-candidatos-ao-superior_n1674338",
-            "normalized_title": "alunos dizem que exame de portugues obrigatorio reduziu candidatos ao superior",
-            "normalized_description": "os estudantes do ensino politecnico pedem o fim da obrigatoriedade de todos os alunos do secundario realizarem o exame nacional de portugues"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/videos/detalhe/rui-costa-recorda-grande-amigo-jorge-costa-tenho-memorias-com-ele-desde-os-17-anos",
-            "normalized_title": "rui costa recorda jorge costa amizade foi sempre muito forte entre nos dois",
-            "normalized_description": "presidente do benfica falou aos jornalistas em beja a partida do benfica para nice"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/mercados/mercados-num-minuto/detalhe/pracas-asiaticas-registam-ganhos-europa-aponta-para-abertura-em-alta",
-            "normalized_title": "petroleo continua no vermelho apesar de ameacas de sancoes de trump",
-            "normalized_description": "acompanhe aqui minuto a minuto o desempenho dos mercados desta terca feira"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/cultura/o-riso-e-a-faca-de-pedro-pinho-e-magalhaes-de-lav-diaz-no-festival-de-nova-iorque_n1674344",
-            "normalized_title": "o riso e a faca de pedro pinho e magalhaes de lav diaz no festival de nova iorque",
-            "normalized_description": "os filmes o riso e a faca do portugues pedro pinho e magalhaes do filipino lav diaz estao integrados na programacao do festival de cinema de nova"
-        },
-        {
-            "link": "https://rr.pt/noticia/pais/2025/08/05/pj-detem-no-aeroporto-de-lisboa-mulher-com-um-milhao-de-doses-de-heroina/435196/?utm_medium=rss",
-            "normalized_title": "pj detem no aeroporto de lisboa mulher com um milhao de doses de heroina",
-            "normalized_description": "a heroina apreendida foi transportada meticulosamente dissimulada na bagagem e foi transportada para lisboa desde um pais asiatico que nao e"
-        },
-        {
-            "link": "https://expresso.pt/boa-cama-boa-mesa/2025-08-05-heranca-portuguesa-e-influencia-mourisca-inspiram-novo-hotel-em-palacio-no-centro-de-tavira-33ad09df",
-            "normalized_title": "heranca portuguesa e influencia mourisca inspiram novo hotel em palacio no centro de tavira",
-            "normalized_description": "com abertura prevista para 21 de agosto o hotel palacio de tavira dotado de 36 quartos e suites recuperou um edificio historico no centro da"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2833329/corpo-degolado-e-estripado-jovem-detido-apos-crime-que-choca-franca#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "corpo degolado e estripado jovem detido apos crime que chocou franca",
-            "normalized_description": "a pequena vila de pont de metz em franca estava em choque e em stress depois de ter sido encontrado na segunda feira o corpo de um homem com a"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/o-que-mais-me-marca-e-o-extraordinario-homem-que-era-o-jorge-rui-costa-sobre-o-grande-amigo",
-            "normalized_title": "o que mais me marca e o extraordinario homem que era o jorge rui costa sobre o grande amigo",
-            "normalized_description": "presidente do benfica reagiu a morte de jorge costa"
-        },
-        {
-            "link": "https://rr.pt/artigo/lhengua-de-fuora/2025/08/05/sabe-o-que-significa-meligrana/434838/?utm_medium=rss",
-            "normalized_title": "sabe o que significa meligrana",
-            "normalized_description": "neste primeiro episodio ficamos a conhecer o significado de meligrana e descobrimos o que une um estudante de medicina a uma lingua falada no"
-        },
-        {
-            "link": "https://rr.pt/artigo/lhengua-de-fuora/2025/08/05/lingua-mirandesa-sabe-o-que-significa-meligrana/434838/?utm_medium=rss",
-            "normalized_title": "lingua mirandesa sabe o que significa meligrana",
-            "normalized_description": "neste primeiro episodio do podcast lhegua de fuora ficamos a conhecer o significado de meligrana e descobrimos o que une um estudante de medicina"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/rui-costa-lembra-extraordinario-jorge-costa-partiu-um-grande-homem-um-grande-amigo",
-            "normalized_title": "rui costa lembra extraordinario jorge costa partiu um grande homem um grande amigo",
-            "normalized_description": "presidente do benfica recorda momentos com antigo companheiro da selecao nacional"
-        },
-        {
-            "link": "https://expresso.pt/internacional/eua/2025-08-05-departamento-de-justica-dos-eua-e-intimado-por-comissao-da-camara-dos-representantes-a-apresentar-arquivos-do-caso-epstein-6422b719",
-            "normalized_title": "congresso dos eua exige acesso a documentos do departamento de justica sobre epstein",
-            "normalized_description": "apesar de esforcos de donald trump politicos dos estados unidos seguem em busca da divulgacao dos ficheiros relativos ao caso de jeffrey epstein"
-        },
-        {
-            "link": "https://www.cmjornal.pt/portugal/detalhe/incendio-ameaca-casas-em-freamunde-a42-esta-cortada",
-            "normalized_title": "incendio ameaca casas em freamunde a42 esta cortada",
-            "normalized_description": "no local estao cerca de 50 operacionais"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/2833351/proibidos-banhos-em-duas-praias-de-castro-martim-por-contaminacao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "proibidos banhos em duas praias de castro marim por contaminacao",
-            "normalized_description": "os resultados da analise a qualidade da agua balnear colhida na segunda feira revelaram valores de contaminacao microbiologica superiores ao valor"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/futebol-nacional/ex-albacete-touaizi-reforca-plantel-do-alverca_d1674349",
-            "normalized_title": "ex albacete touaizi reforca plantel do alverca",
-            "normalized_description": "o alverca anunciou a contratacao do avancado marroquino nabil touaizi que jogou nos espanhois do albacete na ultima temporada"
-        },
-        {
-            "link": "https://www.autosport.pt/ralis/wrc/wrc-ninguem-ficou-surpreendido-com-a-decisao-de-sebastien-ogier/?utm_source=rss&utm_medium=rss&utm_campaign=wrc-ninguem-ficou-surpreendido-com-a-decisao-de-sebastien-ogier",
-            "normalized_title": "wrc ninguem ficou surpreendido com a decisao de sebastien ogier",
-            "normalized_description": "sebastien ogier confirmou que ira tentar igualar o recorde de nove titulos do campeonato do mundo de ralis em 2025 apesar de ter inicialmente"
-        },
-        {
-            "link": "https://tek.sapo.pt/multimedia/artigos/governo-avanca-com-novo-regime-da-mobilidade-eletrica-o-que-vai-mudar-para-quem-tem-um-automovel-eletrico",
-            "normalized_title": "governo avanca com novo regime da mobilidade eletrica o que vai mudar para quem tem um automovel eletrico",
-            "normalized_description": "atraves do novo regime juridico da mobilidade eletrica rjme proposto pelo governo o carregamento electrico devera tornar se mais simples eliminar"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/futebol-nacional/rodrigo-mendes-deixa-torino-e-reforca-santa-clara_d1674347",
-            "normalized_title": "rodrigo mendes deixa torino e reforca santa clara",
-            "normalized_description": "o defesa central rodrigo mendes que alinhava nos italianos do torino assinou contrato com o santa clara ate 2028 anunciou hoje o clube acoriano"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/lifestyle/2833336/paragem-cardiorrespiratoria-vs-ataque-cardiaco-entenda-as-diferencas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "paragem cardiorrespiratoria vs ataque cardiaco entenda as diferencas",
-            "normalized_description": "esta terca feira 5 de agosto morreu jorge costa diretor de futebol profissional do futebol clube do porto o profissional sofreu uma paragem"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/jorge-costa-um-bicho-que-era-doido-pelo-fc-porto-e-gostava-de-culinaria",
-            "normalized_title": "jorge costa um bicho que era doido pelo fc porto e gostava de culinaria",
-            "normalized_description": "figura historica dos dragoes morreu esta terca feira depois de ter sofrido uma paragem cardiorrespiratoria no olival"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/2833346/bolsa-de-lisboa-fecha-em-baixa-numa-europa-maioritariamente-positiva#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "bolsa de lisboa fecha em baixa numa europa maioritariamente positiva",
-            "normalized_description": "a bolsa de lisboa encerrou hoje em baixa com o indice psi a recuar 0 25 para 7 710 15 pontos numa europa maioritariamente positiva"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/jorge-costa-o-capitao-batizado-de-bicho-por-fernando-couto-e-um-dos-poucos-a-ganhar-o-penta-por-inteiro",
-            "normalized_title": "jorge costa o capitao batizado de bicho por fernando couto e um dos poucos a ganhar o penta por inteiro",
-            "normalized_description": "as historias do antigo jogador falecido esta terca feira"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/nelson-recorda-jorge-costa-estava-a-ouvir-os-noticiarios-desportivos-e-ele-estava-a-acabar-de-falar",
-            "normalized_title": "nelson recorda jorge costa estava a ouvir os noticiarios desportivos e ele estava a acabar de falar",
-            "normalized_description": "ex defesa foi campeao mundial sub 20 com o antigo capitao do fc porto que morreu esta terca feira"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/liga-dos-campeoes/schjelderup-feliz-no-benfica_d1674345",
-            "normalized_title": "schjelderup feliz no benfica",
-            "normalized_description": "o extremo noruegues andreas schjelderup garante estar muito feliz no benfica e determinadao a melhorar aspetos defensivos"
-        },
-        {
-            "link": "https://rr.pt/bola-branca/noticia/porto/2025/08/05/colegas-de-quarto-durante-largos-anos-rui-costa-lamenta-a-morte-do-amigo-jorge-costa/435194/?utm_medium=rss",
-            "normalized_title": "colegas de quarto durante largos anos rui costa lamenta a morte do amigo jorge costa",
-            "normalized_description": "presidente do benfica era amigo proximo de jorge costa desde os tempos da selecao nacional"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/imagens-mostram-casas-submersas-apos-cheias-repentinas-na-india",
-            "normalized_title": "imagens mostram casas submersas apos cheias repentinas na india",
-            "normalized_description": "inundacoes provocaram a morte de quatro pessoas em uttarkashi no norte da india"
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/leah-de-oliveira-troca-estoril-praia-pelo-maritimo/880663",
-            "normalized_title": "leah de oliveira troca estoril praia pelo maritimo",
-            "normalized_description": "ha mais um reforco na madeira o maritimo anunciou a chegada de leah de oliveira para a nova temporada na liga bpi a jovem avancada de 19 anos"
-        },
-        {
-            "link": "https://rr.pt/noticia/pais/2025/08/05/ministro-da-educacao-quer-reforma-dos-servicos-em-vigor-a-partir-de-1-de-setembro/435183/?utm_medium=rss",
-            "normalized_title": "ministro da educacao quer reforma dos servicos em vigor a partir de 1 de setembro",
-            "normalized_description": "data foi apontada ao secretario geral da federacao nacional da educacao depois de reuniao fernando alexandre governante ambiciona fazer do sistema"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2833328/conversa-produtiva-zelensky-grato-a-trump-pelos-seus-esforcos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "conversa produtiva zelensky grato a trump pelos seus esforcos",
-            "normalized_description": "o presidente ucraniano volodymyr zelensky revelou ter estado a conversa com o presidente norte americano donald trump e agradeceu lhe pelos seus"
-        },
-        {
-            "link": "https://www.cmjornal.pt/sociedade/detalhe/fogos-ja-consumiram-quase-42-mil-hectares-oito-vezes-mais-do-que-em-2024",
-            "normalized_title": "fogos ja consumiram quase 42 mil hectares oito vezes mais do que em 2024",
-            "normalized_description": "valor e o mais elevado desde 2022"
-        },
-        {
-            "link": "https://expresso.pt/economia/empresas/2025-08-05-fundo-australiano-macquarie-acorda-compra-de-posicao-minoritaria-no-luz-saude-197e931d",
-            "normalized_title": "fundo australiano macquarie acorda compra de posicao minoritaria no luz saude",
-            "normalized_description": "macquarie group ultrapassou na corrida ao grupo de saude as rivais cvc capital partners plc e kkr co avanca a bloomberg negocio podera"
-        },
-        {
-            "link": "https://rr.pt/bola-branca/noticia/modalidades/2025/08/05/campeao-olimpico-evenepoel-muda-se-para-a-red-bull/435193/?utm_medium=rss",
-            "normalized_title": "campeao olimpico evenepoel muda se para a red bull",
-            "normalized_description": "o belga esteve a epoca toda na soudal quick step mas vai agora rumar a outra equipa ainda que tivesse mais um ano de contrato"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/2833342/brasileira-embraer-com-prejuizos-de-76-milhoes-no-1-semestre-do-ano#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "brasileira embraer com prejuizos de 76 milhoes no 1 º semestre do ano",
-            "normalized_description": "a brasileira embraer terceira maior fabricante de aeronaves do mundo anunciou hoje que registou prejuizos liquidos de 482 milhoes de reais 76"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/2833302/maior-feira-de-negocios-mocambicana-arranca-em-25-de-agosto#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "maior feira de negocios mocambicana arranca em 25 de agosto",
-            "normalized_description": "a feira internacional de maputo facim a maior exposicao de bens e servicos de mocambique vai decorrer de 25 a 31 de agosto com um total de 3 150"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/sp-braga-a-terrivel-noticia-da-morte-de-jorge-costa-abala-todo-o-edificio-desportivo-nacional",
-            "normalized_title": "sp braga a terrivel noticia da morte de jorge costa abala todo o edificio desportivo nacional",
-            "normalized_description": "antigo futebolista foi treinador dos arsenalistas"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/2833325/rafael-reis-admite-que-ficara-desiludido-se-nao-vencer-o-prologo-da-volta#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "rafael reis admite que ficara desiludido se nao vencer o prologo da volta",
-            "normalized_description": "rafael reis assumiu que sera uma desilusao se nao conquistar o prologo da 86 ª volta a portugal em bicicleta apos ter vencido esse curto exercicio"
-        },
-        {
-            "link": "https://rr.pt/bola-branca/noticia/modalidades/2025/08/05/afonso-eulalio-terceiro-na-primeira-etapa-da-volta-a-burgos/435192/?utm_medium=rss",
-            "normalized_title": "afonso eulalio terceiro na primeira etapa da volta a burgos",
-            "normalized_description": "e o melhor resultado do portugues desde que chegou ao world tour"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2833335/varias-renas-finlandesas-morreram-vitimas-do-calor-nos-ultimos-dias#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "varias renas finlandesas morreram vitimas do calor nos ultimos dias",
-            "normalized_description": "uma associacao finlandesa disse hoje que varias renas morreram nos ultimos dias devido a onda de calor recorde registada na finlandia nas ultimas"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/fotogalerias/detalhe/bandeiras-estandartes-e-fotografias-adeptos-homenageiam-jorge-costa-junto-ao-dragao",
-            "normalized_title": "bandeiras estandartes e fotografias adeptos homenageiam jorge costa junto ao dragao",
-            "normalized_description": "objetos ja comecaram a ser colocados no estadio"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/detalhe/maritimo-lamenta-desaparecimento-de-jorge-costa",
-            "normalized_title": "maritimo lamenta morte de jorge costa raca e empenho notaveis",
-            "normalized_description": "antigo central jogou nos madeirenses na epoca 1991 92"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/fotogalerias/detalhe/jorge-costa-o-treinador-raca-lideranca-e-sobriedade",
-            "normalized_title": "jorge costa o treinador raca lideranca e sobriedade",
-            "normalized_description": "grande figura do emblema do dragao faleceu aos 53 anos"
-        },
-        {
-            "link": "https://www.eurogamer.pt/alien-earth-ja-e-das-series-alien-mais-bem-avaliadas-de-sempre",
-            "normalized_title": "alien earth ja e das series alien mais bem avaliadas de sempre",
-            "normalized_description": "alien earth uma nova serie criada por noah hawley conquistou uma das melhores avaliacoes do universo alien no rotten tomatoes destacando se pela"
-        },
-        {
-            "link": "https://pplware.sapo.pt/gadgets/hardware/tolerancia-zero-tsmc-alega-ter-detetado-potenciais-fugas-de-segredos-comerciais/",
-            "normalized_title": "tolerancia zero tsmc alega ter detetado potenciais fugas de segredos comerciais",
-            "normalized_description": "os semicondutores ja ocupam um lugar relevante na industria tecnologica prevendo se que as empresas do setor crescam ainda mais nos proximos anos"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2833333/trump-reconhece-imigrantes-expulsos-nao-sao-facilmente-substituidos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "trump reconhece imigrantes expulsos nao sao facilmente substituidos",
-            "normalized_description": "o presidente dos estados unidos reconheceu hoje que os trabalhadores migrantes que esta a expulsar no ambito da politica de imigracao sao dificeis de"
-        },
-        {
-            "link": "https://pt.euronews.com/video/2025/08/05/noticias-do-dia-5-de-agosto-2025-noite",
-            "normalized_title": "noticias do dia 5 de agosto 2025 noite",
-            "normalized_description": "fique a par das noticias mais importantes de toda a europa e nao so a 5 de agosto de 2025 ultimas noticias noticias de ultima hora mundo"
-        },
-        {
-            "link": "https://www.e-auto.pt/post/xpeng-vence-tesla-nas-recomenda%C3%A7%C3%B5es?utm_source=rss&utm_medium=rss&utm_campaign=xpeng-vence-tesla-nas-recomendacoes",
-            "normalized_title": "xpeng vence tesla nas recomendacoes",
-            "normalized_description": "estudo da uscale empresa de consultoria e pesquisa de mercado baseada em estugarda alemanha e especializada nos temas que associamos a the post"
-        },
-        {
-            "link": "https://rr.pt/noticia/pais/2025/08/05/incendios-detido-suspeito-de-fogo-posto-no-concelho-de-amares/435190/?utm_medium=rss",
-            "normalized_title": "incendios detido suspeito de fogo posto no concelho de amares",
-            "normalized_description": "homem de 52 anos e suspeito de ser o autor de um incendio que deflagrou na tarde de segunda feira no distrito de braga"
-        },
-        {
-            "link": "https://www.e-auto.pt/post/xpeng-vence-tesla-nas-recomenda%C3%A7%C3%B5es?utm_source=rss&utm_medium=rss&utm_campaign=inquerito-xpeng-vence-tesla",
-            "normalized_title": "inquerito xpeng vence tesla",
-            "normalized_description": "estudo da uscale empresa de consultoria e pesquisa de mercado baseada em estugarda alemanha e especializada nos temas que associamos a the post"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/ukra-despede-se-do-pai-do-futebol-apostou-em-mim-indicou-me-o-caminho-e-deu-me-a-oportunidade",
-            "normalized_title": "ukra despede se do pai do futebol apostou em mim indicou me o caminho",
-            "normalized_description": "ex futebolista deixa sentida mensagem nas redes sociais"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/2833326/avs-manifesta-choque-e-profunda-consternacao-de-jorge-costa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "avs manifesta choque e profunda consternacao de jorge costa",
-            "normalized_description": "o avs reagiu hoje com choque e profunda consternacao a morte de jorge costa treinador que subiu a equipa a i liga em 2023 24 e manifestou"
-        },
-        {
-            "link": "https://pt.ign.com/marriage-story-1/149232/news/discussao-de-scarlett-johansson-e-adam-driver-em-marriage-story-usada-para-assustar-lobos-na-vida-re",
-            "normalized_title": "discussao de scarlett johansson e adam driver em marriage story usada para assustar lobos na vida real",
-            "normalized_description": "e esta a resultar duvido que a netflix tivesse isto em mente quando lancou marriage story em 2019 mas a famosa discussao entre scarlett johansson e"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/ukra-despede-se-do-pai-do-futebol-apostou-em-mim-indicou-me-o-caminho-e-deu-me-a-oportunidade",
-            "normalized_title": "ukra despede se de jorge costa foi o meu pai no futebol indicou me o caminho",
-            "normalized_description": "ex futebolista deixa sentida mensagem nas redes sociais"
-        },
-        {
-            "link": "https://www.publico.pt/2025/08/05/sociedade/noticia/mudancas-educacao-fne-comissao-internacional-vai-avaliar-reforma-2143020",
-            "normalized_title": "mudancas na educacao fne diz que comissao internacional vai avaliar reforma",
-            "normalized_description": "governo revelou a federacao nacional de educacao que vai criar uma comissao internacional para avaliar a implementacao da reforma concursos"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/mercados/bolsa/detalhe/lisboa-fecha-com-perdas-ligeiras-bcp-e-edpr-pressionam-indice",
-            "normalized_title": "lisboa fecha com perdas ligeiras bcp e edpr pressionam indice",
-            "normalized_description": "com os investidores centrados nos desenvolvimentos das tarifas e com a temporada de resultados a aproximar se do final as bolsas fecharam entre"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/sinal-alarmante-lituania-pede-ajuda-a-nato-apos-incidente-com-drone-russo_n1674337",
-            "normalized_title": "sinal alarmante lituania pede ajuda a nato apos incidente com drone russo",
-            "normalized_description": "a lituania pediu esta terca feira a nato que tome medidas imediatas para reforcar a sua defesa aerea apos revelar que um drone russo encontrado no"
-        },
-        {
-            "link": "https://rr.pt/noticia/pais/2025/08/05/incendios-autarca-de-vila-real-fala-em-danos-irreparaveis/435188/?utm_medium=rss",
-            "normalized_title": "incendios autarca de vila real fala em danos irreparaveis",
-            "normalized_description": "presidente da camara de vila real diz que area ardida e ja particularmente significava em consequencia do incendio que lavra desde sabado e atingiu o"
         }
     ],
     "Desporto": [
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2833298/nice-benfica-aguias-querem-voar-em-franca-para-confirmar-milhoes-na-luz#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "nice benfica aguias querem voar em franca para confirmar milhoes na luz",
+            "normalized_description": "o apito inicial esta marcado para as 20h00 desta quarta feira no sul de franca na allianz riviera onde se ira disputar a primeira mao da terceira"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2833583/jorge-costa-deu-entrevista-instantes-antes-da-paragem-cardiorrespiratoria#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "jorge costa deu entrevista instantes antes da paragem cardiorrespiratoria",
+            "normalized_description": "diretor de futebol do fc porto sentiu se mal ao inicio da tarde de terca feira e foi transportado de urgencia para o hospital de sao joao onde"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2833579/artem-nych-inicia-hoje-a-defesa-do-titulo-da-volta-a-portugal-na-maia#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "artem nych inicia hoje a defesa do titulo da volta a portugal na maia",
+            "normalized_description": "um prologo de 3 4 quilometros na maia inaugura hoje os 11 dias de competicao da volta a portugal em bicicleta e vai definir quem sera o primeiro"
+        },
+        {
+            "link": "https://www.zerozero.pt/noticias/sub-19-preparados-para-escrever-historia-no-egito/880665",
+            "normalized_title": "sub 19 preparados para escrever historia no egito",
+            "normalized_description": "esta na hora apos varios estagios de preparacao durante os ultimos meses portugal sub 19 vai dar inicio a sua caminhada no m19 ihf world"
+        },
         {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/prazos-apertados-sporting-e-liga-estarao-reunidos-para-definir-se-alvalade-tera-ou-nao-aval-para-receber-arouca",
             "normalized_title": "prazos apertados sporting e liga estarao reunidos para definir se alvalade tera ou nao aval para receber arouca",
@@ -13728,11 +13518,6 @@
             "link": "https://www.record.pt/futebol/futebol-nacional/supertaca/detalhe/sporting-benfica-duelo-em-5-factos",
             "normalized_title": "sporting benfica duelo em 5 factos",
             "normalized_description": "a decisao da supertaca em numeros pela goalpoint"
-        },
-        {
-            "link": "https://www.record.pt/internacional/paises/italia/torino/detalhe/franco-israel-lesiona-se-na-estreia-pelo-torino",
-            "normalized_title": "franco israel lesiona se na estreia pelo torino",
-            "normalized_description": "num desafio de preparacao com o monaco"
         }
     ],
     "Sociedade": [
@@ -15220,19 +15005,19 @@
             "link": "https://www.publico.pt/2025/08/01/sociedade/noticia/educacao-directores-preocupados-revolucao-ministerio-competencias-passam-ccdr-2142507",
             "normalized_title": "educacao directores preocupados com revolucao no ministerio e competencias que passam para as ccdr",
             "normalized_description": "comissoes de coordenacao regional vao passar a ter responsabilidades de planeamento na definicao da rede escolar da oferta formativa do ensino"
-        },
-        {
-            "link": "https://www.publico.pt/2025/08/01/sociedade/noticia/rastreio-cancro-pulmao-avanca-cascais-santo-antonio-2142509",
-            "normalized_title": "rastreio ao cancro do pulmao avanca em cascais e no santo antonio",
-            "normalized_description": "camara de cascais e a unidade local de saude de santo antonio vao ser as parceiras do projecto piloto rastreio destina se a pessoas entre os 55 e os"
-        },
-        {
-            "link": "https://www.publico.pt/2025/08/01/sociedade/noticia/emigracao-portugal-desceu-5-lista-paises-maior-proporcao-emigrantes-2141322",
-            "normalized_title": "emigracao portugal desceu para 5 º na lista de paises com maior proporcao de emigrantes",
-            "normalized_description": "quebra acentuada da emigracao para o reino unido nao levou a queda do numero global de emigrantes o que mostra que os portugueses trocaram aquele"
         }
     ],
     "Nacional": [
+        {
+            "link": "https://www.noticiasaominuto.com/pais/2833559/jovem-de-17-anos-morre-em-despiste-de-motociclo-em-alenquer#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "jovem de 17 anos morre em despiste de motociclo em alenquer",
+            "normalized_description": "um jovem de 17 anos morreu na terca feira na sequencia de um despiste de motociclo em casais da foroana concelho de alenquer distrito de lisboa"
+        },
+        {
+            "link": "https://rr.pt/noticia/pais/2025/08/06/penafiel-bombeiros-ja-conseguiram-dominar-incendio-em-galegos/435240/?utm_medium=rss",
+            "normalized_title": "penafiel bombeiros ja conseguiram dominar incendio em galegos",
+            "normalized_description": "chamas foram dadas como circunscritas por volta das 05h30 evolucao do combate vai depender da intensidade do vento"
+        },
         {
             "link": "https://www.cmjornal.pt/portugal/detalhe/bodycams-para-as-forcas-de-seguranca-desbloqueadas-apos-28-meses",
             "normalized_title": "bodycams para as forcas de seguranca desbloqueadas apos 28 meses",
@@ -19546,6 +19331,21 @@
     ],
     "Mundo": [
         {
+            "link": "https://www.noticiasaominuto.com/mundo/2833571/capotamento-de-camiao-com-ajuda-humanitaria-mata-20-na-faixa-de-gaza#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "capotamento de camiao com ajuda humanitaria mata 20 na faixa de gaza",
+            "normalized_description": "vinte pessoas morreram e dezenas ficaram feridas quando um camiao que transportava ajuda humanitaria capotou na faixa de gaza informou hoje o"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2833568/japao-deve-liderar-esforcos-globais-para-mundo-sem-armas-nucleares#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "japao deve liderar esforcos globais para mundo sem armas nucleares",
+            "normalized_description": "o primeiro ministro do japao shigeru ishiba afirmou hoje que toquio deve liderar os esforcos globais para a humanidade alcancar um mundo sem armas"
+        },
+        {
+            "link": "https://rr.pt/noticia/mundo/2025/08/06/medio-oriente-capotamento-de-camiao-com-ajuda-humanitaria-mata-vinte-pessoas-na-faixa-de-gaza/435239/?utm_medium=rss",
+            "normalized_title": "medio oriente capotamento de camiao com ajuda humanitaria mata vinte pessoas na faixa de gaza",
+            "normalized_description": "de acordo com as autoridades locais o camiao capotou sobre as pessoas que procuravam obter alguma comida que o veiculo transportava"
+        },
+        {
             "link": "https://www.cmjornal.pt/mundo/detalhe/russia-abandona-tratado-nuclear",
             "normalized_title": "russia abandona tratado nuclear",
             "normalized_description": "eua ja se tinham retirado do tratado sobre forcas nucleares intermedias em 2019"
@@ -19574,6 +19374,11 @@
             "link": "https://rr.pt/noticia/mundo/2025/08/06/trump-acusa-bancos-de-discriminacao-e-prepara-ordem-executiva-contra-encerramento-de-contas-por-motivos-politicos/435238/?utm_medium=rss",
             "normalized_title": "trump acusa bancos de discriminacao e prepara ordem executiva contra encerramento de contas por motivos politicos",
             "normalized_description": "donald trump acusou bancos norte americanos de recusarem os seus depositos por motivos politicos casa branca prepara ordem executiva para investigar"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2833558/incendio-em-franca-faz-2-feridos-e-destroi-8000-hectares-em-poucas-horas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "incendio em franca faz 2 feridos e destroi 8 000 hectares em poucas horas",
+            "normalized_description": "um incendio intenso na cordilheira montanhosa de corbieres no sul de franca provocou hoje dois feridos sendo um deles grave e destruiu 8 000"
         },
         {
             "link": "https://www.rtp.pt/noticias/mundo/executivo-trump-corta-financiamento-de-vacinas-para-covid-19-e-gripe_n1674419",
@@ -23062,6 +22867,11 @@
         }
     ],
     "Cultura": [
+        {
+            "link": "https://www.noticiasaominuto.com/cultura/2833580/festival-sonicblast-volta-hoje-para-4-dias-de-rock-psicadelico-na-praia#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "festival sonicblast volta hoje para 4 dias de rock psicadelico na praia",
+            "normalized_description": "o festival sonicblast da hoje inicio a 13 ª edicao com uma noite de aquecimento que abre quatro dias de psicadelia musical na praia da duna dos"
+        },
         {
             "link": "https://www.cmjornal.pt/cultura/detalhe/mulheres-trocam-de-corpo-outra-vez",
             "normalized_title": "um dia de doidos mulheres trocam de corpo outra vez",
@@ -28627,14 +28437,14 @@
             "link": "https://www.publico.pt/2025/08/01/publico-brasil/opiniao/grades-podem-impedir-artes-2142520",
             "normalized_title": "nem as grades podem impedir as artes",
             "normalized_description": "teatro opera danca clube de leitura em estabelecimentos prisionais sim as respostas sao tao evidentes que chega a ser dificil compreender como"
-        },
-        {
-            "link": "https://www.publico.pt/2025/08/01/opiniao/opiniao/simplificar-digitalizar-servir-melhor-2142466",
-            "normalized_title": "simplificar e digitalizar para servir melhor",
-            "normalized_description": "o governo aprovou ontem as primeiras medidas de uma reforma mais vasta e profunda que tem como objetivo essencial colocar os cidadaos e as empresas"
         }
     ],
     "Lifestyle": [
+        {
+            "link": "https://www.noticiasaominuto.com/lifestyle/2833209/e-o-que-e-comida-caseira-e-congelada-para-todas-as-ocasioes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "e o que e comida caseira e congelada para todas as ocasioes",
+            "normalized_description": "podem ser guardadas no congelador para consumir quando nao tiver vontade de sujar nada da cozinha chama se e o que e esta presente em algumas lojas"
+        },
         {
             "link": "https://www.noticiasaominuto.com/lifestyle/2833541/risco-de-morte-aumenta-em-78-devido-a-altos-niveis-de-gordura-corporal#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "risco de morte aumenta em 78 devido a altos niveis de gordura corporal",
@@ -29617,6 +29427,16 @@
         }
     ],
     "Outras Notícias": [
+        {
+            "link": "https://rr.pt/especial/mundo/2025/08/06/80-anos-depois-as-memorias-de-sobreviventes-de-hiroshima-fiquei-cega-como-se-o-sol-caisse-sobre-mim/434995/?utm_medium=rss",
+            "normalized_title": "80 anos depois as memorias de sobreviventes de hiroshima fiquei cega como se o sol caisse sobre mim",
+            "normalized_description": "as 8h15 de 6 de agosto de 1945 a bomba little boy largou 64 quilos de uranio sobre a cidade japonesa de hiroshima numa explosao equivalente a um 16"
+        },
+        {
+            "link": "https://rr.pt/fotoreportagem/mundo/2025/08/06/hiroshima-80-anos-depois-como-a-bomba-atomica-dizimou-uma-cidade-e-mudou-o-mundo-num-piscar-de-olhos/435165/?utm_medium=rss",
+            "normalized_title": "hiroshima 80 anos depois como a bomba atomica dizimou uma cidade e mudou o mundo num piscar de olhos",
+            "normalized_description": "a 6 de agosto de 1945 o bombardeiro enola gay lancava sobre hiroshima a primeira bomba atomica a renascenca explica lhe a detonacao que provocou a"
+        },
         {
             "link": "https://www.publico.pt/2025/08/05/ciencia/noticia/nasa-acelera-planos-instalar-reactor-nuclear-lua-ate-2030-2143052",
             "normalized_title": "nasa acelera planos para instalar um reactor nuclear na lua ate 2030",
@@ -31266,16 +31086,6 @@
             "link": "https://www.publico.pt/2025/08/01/ciencia/noticia/lente-digital-inteligencia-artificial-estudar-vasos-sanguineos-oculares-2141563",
             "normalized_title": "uma lente digital de inteligencia artificial para estudar vasos sanguineos oculares",
             "normalized_description": "o 3dartificialvision foi criado para ajudar os biologos e nao para os substituir permitindo lhes focar se nas questoes biologicas em vez de perder"
-        },
-        {
-            "link": "https://www.publico.pt/2025/08/01/economia/noticia/ida-banqueiros-centrais-politica-nao-levanta-preocupacoes-bce-2142167",
-            "normalized_title": "ida de banqueiros centrais para a politica nao levanta preocupacoes ao bce",
-            "normalized_description": "ex membros da administracao do banco de portugal elisa ferreira e ana paula serra tiveram de notificar o bce de novas funcoes mas a nenhuma foi"
-        },
-        {
-            "link": "https://www.publico.pt/2025/08/01/economia/noticia/centeno-obrigado-pedir-autorizacao-futuros-trabalhos-durante-dois-anos-2142147",
-            "normalized_title": "centeno obrigado a pedir autorizacao para futuros trabalhos durante dois anos",
-            "normalized_description": "dever de reporte ao bce e banco de portugal de proximas funcoes de mario centeno estende se por dois anos durante um ano e certo que nao pode estar"
         }
     ],
     "Ciência e Tech": [
