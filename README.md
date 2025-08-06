@@ -1,5 +1,5 @@
 # Branch Data - Ficheiros JSON
-Atualizado automaticamente em: 2025-08-06 04:14:41
+Atualizado automaticamente em: 2025-08-06 04:57:37
 
 ## Ficheiros disponíveis:
 - **articles.json** - Todos os artigos (compatibilidade)
