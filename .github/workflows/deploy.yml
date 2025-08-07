@@ -82,114 +82,31 @@ jobs:
             git show origin/main:public/termos_de_utilizacao.html > public/termos_de_utilizacao.html
           fi
 
-      - name: 📦 Otimizar e comprimir ficheiros JSON
-        run: |
-          echo "🔧 Aplicando compressão gzip aos ficheiros JSON..."
-          
-          cd public
-          
-          # Lista de ficheiros JSON para comprimir
-          json_files=(
-            "articles.json"
-            "articles_priority.json" 
-            "articles_secondary.json"
-            "articles_search.json"
-            "original_categories.json"
-          )
-          
-          total_original=0
-          total_compressed=0
-          
-          for file in "${json_files[@]}"; do
-            if [ -f "$file" ]; then
-              echo "📄 Processando $file..."
-              
-              # Obter tamanho original
-              original_size=$(stat -c%s "$file")
-              
-              # Minificar JSON (remover espaços desnecessários)
-              # Usar python para minificar de forma segura
-              python3 -c "
-          import json
-          import sys
-          try:
-              with open('$file', 'r', encoding='utf-8') as f:
-                  data = json.load(f)
-              with open('${file}.min', 'w', encoding='utf-8') as f:
-                  json.dump(data, f, separators=(',', ':'), ensure_ascii=False)
-              print('✅ Minificado com sucesso')
-          except Exception as e:
-              print(f'❌ Erro ao minificar: {e}')
-              # Se falhar, copiar original
-              import shutil
-              shutil.copy('$file', '${file}.min')
-          "
-              
-              # Comprimir com gzip (nível máximo)
-              gzip -9 -c "${file}.min" > "${file}.gz"
-              
-              # Substituir o original pelo comprimido
-              mv "${file}.gz" "$file"
-              
-              # Calcular tamanhos e redução
-              compressed_size=$(stat -c%s "$file")
-              reduction=$(python3 -c "print(f'{((${original_size} - ${compressed_size}) * 100) / ${original_size}:.1f}')")
-              
-              echo "   Original: $(numfmt --to=iec ${original_size})"
-              echo "   Comprimido: $(numfmt --to=iec ${compressed_size})"
-              echo "   Redução: ${reduction}%"
-              echo ""
-              
-              total_original=$((total_original + original_size))
-              total_compressed=$((total_compressed + compressed_size))
-              
-              # Cleanup
-              rm -f "${file}.min"
-            else
-              echo "⚠️ Ficheiro $file não encontrado"
-            fi
-          done
-          
-          # Estatísticas finais
-          if [ $total_original -gt 0 ]; then
-            total_reduction=$(python3 -c "print(f'{(($total_original - $total_compressed) * 100) / $total_original:.1f}')")
-            echo "📊 RESUMO TOTAL:"
-            echo "   Original: $(numfmt --to=iec $total_original)"
-            echo "   Comprimido: $(numfmt --to=iec $total_compressed)" 
-            echo "   Redução total: ${total_reduction}%"
-            echo "   Poupança: $(numfmt --to=iec $((total_original - total_compressed)))"
-          fi
+      # ✅ Netlify vai comprimir automaticamente - sem necessidade de compressão manual
 
       - name: Verificar ficheiros gerados
         run: |
           echo "📁 Ficheiros na pasta articles:"
           ls -la articles/
           echo ""
-          echo "📁 Ficheiros na pasta public (após compressão):"
+          echo "📁 Ficheiros na pasta public:"
           ls -la public/
           echo ""
-          echo "📊 Estatísticas dos ficheiros JSON comprimidos:"
+          echo "📊 Estatísticas dos ficheiros JSON (Netlify vai comprimir automaticamente):"
           cd public
           for file in *.json; do
             if [ -f "$file" ]; then
               size=$(stat -c%s "$file")
-              echo "   $file: $(numfmt --to=iec $size)"
-              
-              # Verificar se é válido gzip
-              if gzip -t "$file" 2>/dev/null; then
-                echo "     ✅ Compressão gzip válida"
-              else
-                echo "     ❌ Erro na compressão gzip"
-              fi
+              echo "   $file: $(numfmt --to=iec $size) (será comprimido ~60-70% pelo Netlify)"
             fi
           done
 
       - name: Criar README informativo
         run: |
-          echo "# Branch Data - Ficheiros JSON Comprimidos" > README.md
+          echo "# Branch Data - Ficheiros JSON" > README.md
           echo "Atualizado automaticamente em: $(date '+%Y-%m-%d %H:%M:%S')" >> README.md
           echo "" >> README.md
-          echo "## Ficheiros disponíveis (comprimidos com gzip):" >> README.md
+          echo "## Ficheiros disponíveis (comprimidos automaticamente pelo Netlify):" >> README.md
           echo "- **articles.json** - Todos os artigos (compatibilidade)" >> README.md
           echo "- **articles_priority.json** - Categorias prioritárias (Últimas, Nacional, Mundo)" >> README.md
           echo "- **articles_secondary.json** - Outras categorias" >> README.md
@@ -197,15 +114,15 @@ jobs:
           echo "- **original_categories.json** - Categorias originais mapeadas" >> README.md
           echo "" >> README.md
           echo "## ℹ️ Nota técnica:" >> README.md
-          echo "Todos os ficheiros JSON estão comprimidos com gzip para otimizar o download." >> README.md
+          echo "O Netlify comprime automaticamente os ficheiros JSON com gzip (~60-70% redução)." >> README.md
           echo "Os browsers e apps modernas descomprimem automaticamente." >> README.md
           echo "" >> README.md
-          echo "## 📊 Estatísticas atuais:" >> README.md
+          echo "## 📊 Tamanhos originais:" >> README.md
           cd public
           for file in *.json; do
             if [ -f "$file" ]; then
               size=$(stat -c%s "$file")
-              echo "- $file: $(numfmt --to=iec $size)" >> ../README.md
+              echo "- $file: $(numfmt --to=iec $size) (original)" >> ../README.md
             fi
           done
 
