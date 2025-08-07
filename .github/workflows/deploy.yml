@@ -66,11 +66,9 @@ jobs:
       - name: Garantir pasta public e copiar ficheiros JSON
         run: |
           mkdir -p public
-          # Copiar todos os ficheiros JSON gerados
+          # Copiar apenas os ficheiros JSON essenciais
           cp articles/articles.json public/
-          cp articles/articles_priority.json public/
-          cp articles/articles_secondary.json public/
-          cp articles/articles_search.json public/  # NOVO ARQUIVO
+          cp articles/articles_search.json public/
           cp articles/original_categories.json public/
           
           # Copiar ficheiros HTML estáticos da branch main (se existirem)
@@ -92,39 +90,54 @@ jobs:
           echo "📁 Ficheiros na pasta public:"
           ls -la public/
           echo ""
-          echo "📊 Estatísticas dos ficheiros JSON (Netlify vai comprimir automaticamente):"
           cd public
-          for file in *.json; do
-            if [ -f "$file" ]; then
-              size=$(stat -c%s "$file")
-              echo "   $file: $(numfmt --to=iec $size) (será comprimido ~60-70% pelo Netlify)"
-            fi
-          done
+          if [ -f "articles.json" ]; then
+            size=$(stat -c%s "articles.json")
+            echo "   ✅ articles.json: $(numfmt --to=iec $size) (todas as notícias)"
+          else
+            echo "   ❌ articles.json NÃO foi criado"
+          fi
+          
+          if [ -f "articles_search.json" ]; then
+            size=$(stat -c%s "articles_search.json")
+            echo "   ✅ articles_search.json: $(numfmt --to=iec $size) (dados de pesquisa)"
+          else
+            echo "   ❌ articles_search.json NÃO foi criado"
+          fi
+          
+          if [ -f "original_categories.json" ]; then
+            size=$(stat -c%s "original_categories.json")
+            echo "   ✅ original_categories.json: $(numfmt --to=iec $size) (mapeamento)"
+          else
+            echo "   ❌ original_categories.json NÃO foi criado"
+          fi
 
       - name: Criar README informativo
         run: |
-          echo "# Branch Data - Ficheiros JSON" > README.md
+          echo "# Branch Data - Sistema JSON Simplificado" > README.md
           echo "Atualizado automaticamente em: $(date '+%Y-%m-%d %H:%M:%S')" >> README.md
           echo "" >> README.md
-          echo "## Ficheiros disponíveis (comprimidos automaticamente pelo Netlify):" >> README.md
-          echo "- **articles.json** - Todos os artigos (compatibilidade)" >> README.md
-          echo "- **articles_priority.json** - Categorias prioritárias (Últimas, Nacional, Mundo)" >> README.md
-          echo "- **articles_secondary.json** - Outras categorias" >> README.md
-          echo "- **articles_search.json** - Versão normalizada para pesquisa" >> README.md
-          echo "- **original_categories.json** - Categorias originais mapeadas" >> README.md
+          echo "## 🎯 Arquitetura simplificada:" >> README.md
+          echo "Apenas **3 ficheiros JSON** essenciais, comprimidos automaticamente pelo Netlify (~65% redução):" >> README.md
           echo "" >> README.md
-          echo "## ℹ️ Nota técnica:" >> README.md
-          echo "O Netlify comprime automaticamente os ficheiros JSON com gzip (~60-70% redução)." >> README.md
-          echo "Os browsers e apps modernas descomprimem automaticamente." >> README.md
+          echo "### 📱 Para a app principal:" >> README.md
+          echo "- **articles.json** - Todas as categorias e artigos (ficheiro único)" >> README.md
           echo "" >> README.md
-          echo "## 📊 Tamanhos originais:" >> README.md
+          echo "### 🔍 Para funcionalidade de pesquisa:" >> README.md  
+          echo "- **articles_search.json** - Dados normalizados para pesquisa" >> README.md
+          echo "" >> README.md
+          echo "### 🗂️ Para mapeamento de categorias:" >> README.md
+          echo "- **original_categories.json** - Mapeamento de categorias originais" >> README.md
+          echo "" >> README.md
+          echo "## ⚡ Performance esperada:" >> README.md
           cd public
-          for file in *.json; do
-            if [ -f "$file" ]; then
-              size=$(stat -c%s "$file")
-              echo "- $file: $(numfmt --to=iec $size) (original)" >> ../README.md
-            fi
-          done
+          if [ -f "articles.json" ]; then
+            size=$(stat -c%s "articles.json")
+            compressed_size=$((size * 35 / 100))
+            echo "- **Carregamento inicial**: ~$(numfmt --to=iec $compressed_size) (2-4 segundos)" >> ../README.md
+            echo "- **Todas as categorias**: Disponíveis imediatamente após carregamento" >> ../README.md
+            echo "- **Zero problemas de timing**: Sem dependências entre ficheiros" >> ../README.md
+          fi
 
       - name: Commit e Push para branch `data`
         run: |

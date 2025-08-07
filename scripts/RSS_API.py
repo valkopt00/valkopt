@@ -77,7 +77,7 @@ async def get_articles():
 def export_to_json(articles):
     """
     Export processed articles to JSON, merging with existing articles.
-    Creates multiple files: priority, secondary, search, and complete.
+    Creates articles.json file.
     Removes original_category field before saving.
     """
     os.makedirs("articles", exist_ok=True)
@@ -86,43 +86,22 @@ def export_to_json(articles):
     existing_articles = load_existing_articles()
     merged_articles = merge_articles(existing_articles, articles, current_date)
     
-    # Define priority categories (lowercase for comparison)
-    priority_categories = ["Últimas", "Nacional", "Mundo"]
-    
-    # Create priority and secondary dictionaries
-    priority_articles = {}
-    secondary_articles = {}
-    
-    # Remove original_category field and split articles
+    # Remove original_category field from all articles
     for cat, articles_list in merged_articles.items():
-        # Clean articles
         for article in articles_list:
             article.pop("original_category", None)
-        
-        # Split by priority
-        if cat in priority_categories:
-            priority_articles[cat] = articles_list
-        else:
-            secondary_articles[cat] = articles_list
     
-    # Export priority articles (main file for app startup)
-    with open("articles/articles_priority.json", "w", encoding="utf-8") as f:
-        json.dump(priority_articles, f, ensure_ascii=False, indent=4)
-    
-    # Export secondary articles (loaded on demand)
-    with open("articles/articles_secondary.json", "w", encoding="utf-8") as f:
-        json.dump(secondary_articles, f, ensure_ascii=False, indent=4)
-    
-    # Keep the original full file for compatibility
+    # Export complete file
     with open("articles/articles.json", "w", encoding="utf-8") as f:
         json.dump(merged_articles, f, ensure_ascii=False, indent=4)
     
-    # Export search version (NEW)
+    # Export search version
     export_search_json(merged_articles)
     
-    print(f"✅ Exported {len(priority_articles)} priority categories to articles_priority.json")
-    print(f"✅ Exported {len(secondary_articles)} secondary categories to articles_secondary.json")
     print(f"✅ Exported complete file to articles.json")
+    print(f"✅ Total categories: {len(merged_articles)}")
+    total_articles = sum(len(articles_list) for articles_list in merged_articles.values())
+    print(f"✅ Total articles: {total_articles}")
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     """

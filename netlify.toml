@@ -5,15 +5,26 @@
   # Deploy da branch data onde estão os JSON
   base = ""
 
-# Configuração de compressão automática para ficheiros JSON
+# Configuração otimizada para sistema simplificado
 [[headers]]
-  for = "*.json"
+  for = "/articles.json"
   [headers.values]
-    # Cache de 15 minutos (ajusta conforme necessário)
-    Cache-Control = "public, max-age=900, must-revalidate"
-    # Headers para compressão automática
+    Cache-Control = "public, max-age=900, must-revalidate"  # 15min
     Vary = "Accept-Encoding"
-    # Tipo de conteúdo correto
+    Content-Type = "application/json; charset=utf-8"
+
+[[headers]]
+  for = "/articles_search.json"
+  [headers.values]
+    Cache-Control = "public, max-age=1800, must-revalidate"  # 30min - muda menos
+    Vary = "Accept-Encoding"
+    Content-Type = "application/json; charset=utf-8"
+
+[[headers]]
+  for = "/original_categories.json"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"  # 1h - raramente muda
+    Vary = "Accept-Encoding"
     Content-Type = "application/json; charset=utf-8"
     
 # Forçar compressão gzip no Netlify
