@@ -1029,6 +1029,10 @@ def extract_source(data):
                 return "Eurogamer"
             elif "jornal i" in source_name_lower:
                 return "Jornal i"
+            elif "jornal de negocios" in source_name_lower:
+                return "Jornal de Negócios"
+            elif "correio da manhã" in source_name_lower:
+                return "Correio da Manhã"
             
             # Normalize capitalization for other cases
             return source_name.title()
