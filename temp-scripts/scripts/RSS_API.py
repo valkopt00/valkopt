@@ -1007,7 +1007,6 @@ def extract_source(data):
         if hasattr(data, 'feed') and hasattr(data.feed, 'title'):
             source_name = data.feed.title
             source_name_lower = source_name.lower()
-            print(f"DEBUG: Processing feed title - original: '{source_name}', lower: '{source_name_lower}'")
 
             # Check for specific sources first (before any normalization)
             if "tek" in source_name_lower and "notícias" in source_name_lower:
@@ -1031,14 +1030,11 @@ def extract_source(data):
             elif "jornal i" in source_name_lower:
                 return "Jornal i"
             elif "jornal de negocios" in source_name_lower:
-                print(f"DEBUG: Matched 'jornal de negocios' - original: '{source_name}', lower: '{source_name_lower}'")
                 return "Jornal de Negócios"
             elif "correio da manhã" in source_name_lower:
-                print(f"DEBUG: Matched 'correio da manhã' - original: '{source_name}', lower: '{source_name_lower}'")
                 return "Correio da Manhã"
             
             # Normalize capitalization for other cases
-            print(f"DEBUG: No specific match found, using title() - will return: '{source_name.title()}'")
             return source_name.title()
             
         elif isinstance(data, str):
