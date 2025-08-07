@@ -1,20 +1,19 @@
-# Branch Data - Ficheiros JSON
-Atualizado automaticamente em: 2025-08-07 22:19:37
+# Branch Data - Sistema JSON Simplificado
+Atualizado automaticamente em: 2025-08-07 22:57:10
 
-## Ficheiros disponíveis (comprimidos automaticamente pelo Netlify):
-- **articles.json** - Todos os artigos (compatibilidade)
-- **articles_priority.json** - Categorias prioritárias (Últimas, Nacional, Mundo)
-- **articles_secondary.json** - Outras categorias
-- **articles_search.json** - Versão normalizada para pesquisa
-- **original_categories.json** - Categorias originais mapeadas
+## 🎯 Arquitetura simplificada:
+Apenas **3 ficheiros JSON** essenciais, comprimidos automaticamente pelo Netlify (~65% redução):
 
-## ℹ️ Nota técnica:
-O Netlify comprime automaticamente os ficheiros JSON com gzip (~60-70% redução).
-Os browsers e apps modernas descomprimem automaticamente.
+### 📱 Para a app principal:
+- **articles.json** - Todas as categorias e artigos (ficheiro único)
 
-## 📊 Tamanhos originais:
-- articles.json: 5.4M (original)
-- articles_priority.json: 2.1M (original)
-- articles_search.json: 3.5M (original)
-- articles_secondary.json: 3.4M (original)
-- original_categories.json: 177K (original)
+### 🔍 Para funcionalidade de pesquisa:
+- **articles_search.json** - Dados normalizados para pesquisa
+
+### 🗂️ Para mapeamento de categorias:
+- **original_categories.json** - Mapeamento de categorias originais
+
+## ⚡ Performance esperada:
+- **Carregamento inicial**: ~1.9M (2-4 segundos)
+- **Todas as categorias**: Disponíveis imediatamente após carregamento
+- **Zero problemas de timing**: Sem dependências entre ficheiros
