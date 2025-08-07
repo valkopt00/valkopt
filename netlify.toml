@@ -1,0 +1,55 @@
+[build]
+  # A tua pasta public na branch data
+  publish = "public"
+  
+  # Deploy da branch data onde estão os JSON
+  base = ""
+
+# Configuração de compressão para ficheiros JSON
+[[headers]]
+  for = "*.json"
+  [headers.values]
+    # Força compressão gzip
+    Content-Encoding = "gzip"
+    # Cache de 15 minutos (ajusta conforme necessário)
+    Cache-Control = "public, max-age=900, must-revalidate"
+    # Headers para compressão
+    Vary = "Accept-Encoding"
+    # Tipo de conteúdo correto
+    Content-Type = "application/json; charset=utf-8"
+
+# Headers de segurança gerais
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Ativar processamento automático do Netlify
+[build.processing]
+  skip_processing = false
+
+# Compressão de assets
+[build.processing.css]
+  bundle = false
+  minify = true
+
+[build.processing.js]
+  bundle = false
+  minify = true
+
+[build.processing.html]
+  pretty_urls = true
+
+# Otimizações específicas para o teu caso
+[[redirects]]
+  from = "/api/noticias"
+  to = "/noticias.json"
+  status = 200
+  headers = {Content-Encoding = "gzip"}
+
+# Configurações de compressão mais agressivas
+[build.environment]
+  NODE_VERSION = "18"
