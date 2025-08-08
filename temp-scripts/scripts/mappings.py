@@ -106,7 +106,7 @@ CATEGORY_GROUPS = {
         "Diplomacia", "EUA", "Público Brasil", "Brasil", "Israel", "Reino Unido",
         "Turquia", "Ursula von der Leyen", "América Latina", "Espanha",
         "Bósnia-Herzegovina", "Geopolítica", "França", "Nigéria", "Angola", "Ásia",
-        "China", "Guerra Israel-Hamas"
+        "China", "Guerra Israel-Hamas", "Publico-brasil"
     ],
     "Desporto": [
         "Desporto", "Futebol", "Benfica", "Sporting", "Porto",
@@ -158,7 +158,7 @@ CATEGORY_GROUPS = {
         "Direitos das crianças", "Educação", "SGIFR",  "Segunda Guerra Mundial",
         "TAP", "linha de cascais", "tuk-tuk", "verao", "Agricultura",
         "Tráfico", "Ensino", "Trabalho", "Migrações", "Religião", "Média", 
-        "Imigração", "Longevidade"
+        "Imigração", "Longevidade", "Ambiente e Território"
     ],
     "Política": [
         "Política", "Politica", "Defesa", "Presidenciais 2026",
