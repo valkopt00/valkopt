@@ -105,7 +105,8 @@ CATEGORY_GROUPS = {
         "Faixa de Gaza", "Guerra no Médio Oriente", "Alemanha",
         "Diplomacia", "EUA", "Público Brasil", "Brasil", "Israel", "Reino Unido",
         "Turquia", "Ursula von der Leyen", "América Latina", "Espanha",
-        "Bósnia-Herzegovina", "Geopolítica", "França", "Nigéria"
+        "Bósnia-Herzegovina", "Geopolítica", "França", "Nigéria", "Angola", "Ásia",
+        "China", "Guerra Israel-Hamas"
     ],
     "Desporto": [
         "Desporto", "Futebol", "Benfica", "Sporting", "Porto",
@@ -125,12 +126,12 @@ CATEGORY_GROUPS = {
         "Finanças pessoais", "Finanças públicas", "Imobiliário", "Comércio",
         "Comércio Externo", "Criptomoedas", "Guerra Comercial", "Impostos",
         "irs", "Empreendedorismo", "Poupança", "trabalho", "rendas",
-        "Finanças"
+        "Finanças", "Sistema financeiro"
     ],
     "Cultura": [
         "Cultura", "Livros", "Cinema", "Blitz", "Inimigo-publico",
         "Artes", "Música",  "Festivais de Verão", "Fotografia",
-        "Crítica"
+        "Crítica", "Televisão", "Culturas"
     ],
     "Ciência e Tech": [
         "Ciência e Tech", "Ciência & Tech", "Ciência", "Ciencia",
@@ -156,14 +157,14 @@ CATEGORY_GROUPS = {
         "Habitação", "Acessibilidade", "Arquitectura", "Conservação da natureza",
         "Direitos das crianças", "Educação", "SGIFR",  "Segunda Guerra Mundial",
         "TAP", "linha de cascais", "tuk-tuk", "verao", "Agricultura",
-        "Tráfico"
+        "Tráfico", "Ensino", "Trabalho", "Migrações", "Religião", "Média", "Imigração"
     ],
     "Política": [
         "Política", "Politica", "Defesa", "Presidenciais 2026",
         "Parlamento", "Partidos", "Crise política", "Governo",
         "Legislativas 2025", "Autárquicas 2025", "Lei da Nacionalidade",
         "Luís Filipe Menezes", "Ministério Público", "sns", "PAN",
-        "Presidente", "Bloco de Esquerda", "Iniciativa Liberal"
+        "Presidente", "Bloco de Esquerda", "Iniciativa Liberal", "Autarquias"
     ],
     "Multimédia": [
         "Multimédia", "Multimedia", "Video", "Podcasts", "Fotogaleria",
@@ -178,7 +179,7 @@ CATEGORY_GROUPS = {
         "Eixo do Mal", "Expresso da Meia-Noite", "Humor à Primeira Vista",
         "Importa-se de Repetir?", "Irritações", "No Último Episódio",
         "Alta Definição", "Elefante na Sala", "Era Uma Voz", "Facto Político",
-        "O Tal Podcast", "Guerra Fria"
+        "O Tal Podcast", "Guerra Fria", "Vídeo", "Mercado Aberto"
     ],
     "Opinião": [
         "Opinião", "Opiniao", "Colunistas", "Nota editorial",
