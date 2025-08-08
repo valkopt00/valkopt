@@ -139,7 +139,7 @@ CATEGORY_GROUPS = {
         "Exame Informática Brand studio", "Gadgets", "Internet",
         "Direto do lab", "Exame Informática", "Exameinformatica",
         "Redes_sociais", "Exame", "Facebook", "Apple", "Smartphones-tablets",
-        "Biomedicina", "Espaço", "Paleontologia"
+        "Biomedicina", "Espaço", "Paleontologia", "Inteligência artificial"
     ],
     "Sociedade": [
         "Sociedade", "Coronavírus", "Mau tempo", "Sustentabilidade",
@@ -158,7 +158,7 @@ CATEGORY_GROUPS = {
         "Direitos das crianças", "Educação", "SGIFR",  "Segunda Guerra Mundial",
         "TAP", "linha de cascais", "tuk-tuk", "verao", "Agricultura",
         "Tráfico", "Ensino", "Trabalho", "Migrações", "Religião", "Média", 
-        "Imigração", "Longevidade", "Ambiente e Território"
+        "Imigração", "Longevidade", "Ambiente e Território", "Impar", "Azul"
     ],
     "Política": [
         "Política", "Politica", "Defesa", "Presidenciais 2026",
