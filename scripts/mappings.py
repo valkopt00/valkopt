@@ -96,7 +96,7 @@ FEED_CATEGORY_MAPPER = {
 # Maps specific category names to standardized category names
 CATEGORY_GROUPS = {
     "Nacional": [
-        "Nacional", "País", "Pais", "Portugal", "Lisboa"
+        "Nacional", "País", "Pais", "Portugal", "Lisboa", "Local"
     ],
     "Mundo": [
         "Mundo", "Internacional", "União Europeia", "Guerra na Ucrânia",
@@ -117,7 +117,7 @@ CATEGORY_GROUPS = {
         "Formula1", "Auto", "Bola-branca", "Futebol feminino", "Volta à França",
         "Automobilismo", "MotoGP", "Ciclismo", "Râguebi", "Futebol internacional",
         "Clube-portugal", "Especial-de-corrida", "Futebol-nacional", "Red Bull",
-        "Ténis", "1.ª Liga", "Atletismo", "FC Porto", "Modalidade"
+        "Ténis", "1.ª Liga", "Atletismo", "FC Porto", "Modalidade", "Liga dos Campeões"
     ],
     "Economia": [
         "Economia", "Negócios", "Segurança Social", "Bolsa e Mercados",
@@ -157,7 +157,8 @@ CATEGORY_GROUPS = {
         "Habitação", "Acessibilidade", "Arquitectura", "Conservação da natureza",
         "Direitos das crianças", "Educação", "SGIFR",  "Segunda Guerra Mundial",
         "TAP", "linha de cascais", "tuk-tuk", "verao", "Agricultura",
-        "Tráfico", "Ensino", "Trabalho", "Migrações", "Religião", "Média", "Imigração"
+        "Tráfico", "Ensino", "Trabalho", "Migrações", "Religião", "Média", 
+        "Imigração", "Longevidade"
     ],
     "Política": [
         "Política", "Politica", "Defesa", "Presidenciais 2026",
@@ -194,7 +195,7 @@ CATEGORY_GROUPS = {
         "Boa Cama Boa Mesa", "Boa-cama-boa-mesa", "Vidas", "Óscares",
         "Fama", "Visaose7e", "Viagens", "Famosos", "Decoracao", "Ideias",
         "As Novas Cozinhas da Terra", "Beleza", "O gato das botas",
-        "Fugas", "Lazer"
+        "Fugas", "Lazer", "Celebridades", "Fugas"
     ],
     "Vídeojogos": [
         "Vídeojogos", "Jogos", "Record-gaming"
