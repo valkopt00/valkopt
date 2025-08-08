@@ -1217,65 +1217,66 @@ def get_feed_domain(feed_url):
 
 from urllib.parse import urlparse
 
+from urllib.parse import urlparse
+
 def map_category(feed_category, feed_url, item_link=None):
     """
     Maps the provided feed category and URL to a standardized category using predefined mappers.
-    Includes special handling for certain sources (e.g., CM Jornal, Renascença, and Sapo.pt).
+    Includes special handling for certain sources (e.g., CM Jornal, Renascença, Sapo.pt, Público, and Expresso).
     """
     if isinstance(feed_url, dict):
         feed_url = feed_url.get("url", "")
-    
-    # First, check if the feed URL is in the FEED_CATEGORY_MAPPER
-    for feed, category in FEED_CATEGORY_MAPPER.items():
-        if feed_url.startswith(feed):
-            return category
-    
-    # If not, process the feed_category using the CATEGORY_MAPPER
+
+    # --- Special cases based on the article URL (item_link) ---
+    if item_link:
+        parts = urlparse(item_link).path.strip("/").split("/")
+
+        # Público: look for three numeric segments (year/month/day) and use the next segment as category
+        if "publico.pt" in item_link:
+            for i in range(len(parts) - 3):
+                if (parts[i].isdigit() and len(parts[i]) == 4 and
+                    parts[i+1].isdigit() and len(parts[i+1]) == 2 and
+                    parts[i+2].isdigit() and len(parts[i+2]) == 2):
+                    cat = parts[i+3].lower().capitalize()
+                    return CATEGORY_MAPPER.get(cat, "Outras Notícias")
+
+        # Expresso: only override if not a supplement path (/semanario)
+        if "expresso.pt" in item_link:
+            if parts and parts[0] != "semanario":
+                cat = parts[0].lower().capitalize()
+                return CATEGORY_MAPPER.get(cat, "Outras Notícias")
+            # if it's /semanario/..., keep feed_category as provided by the feed
+
+    # --- Direct mapping by feed URL prefix (FEED_CATEGORY_MAPPER) ---
+    for feed_prefix, default_category in FEED_CATEGORY_MAPPER.items():
+        if feed_url.startswith(feed_prefix):
+            return default_category
+
+    # --- If the feed already provides a recognized category (CATEGORY_MAPPER) ---
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
-    
-    # Special case handling for Público:
-    if "publico.pt" in feed_url and item_link:
-        parts = urlparse(item_link).path.strip("/").split("/")
-        for i in range(len(parts) - 3):
-            if (parts[i].isdigit() and len(parts[i]) == 4 and 
-                parts[i+1].isdigit() and len(parts[i+1]) == 2 and
-                parts[i+2].isdigit() and len(parts[i+2]) == 2):
-                cat = parts[i+3].lower().capitalize()
-                return CATEGORY_MAPPER.get(cat, "Outras Notícias")
-    
-    # Special case handling for Expresso:
-    if "expresso.pt" in feed_url and item_link:
-        parts = urlparse(item_link).path.strip("/").split("/")
-        if parts:
-            cat = parts[0].lower().capitalize()
-            return CATEGORY_MAPPER.get(cat, "Outras Notícias")
-    
-    # Special case handling for CM Jornal
+
+    # --- CM Jornal special case ---
     if "cmjornal.pt" in feed_url and item_link:
-        parsed_url = urlparse(item_link)
-        path_parts = parsed_url.path.strip("/").split("/")
-        if path_parts:
-            cm_category = path_parts[0].lower().capitalize()
-            if cm_category in CATEGORY_MAPPER:
-                return CATEGORY_MAPPER[cm_category]
-            return "Outras Notícias"
-    
-    # Special case handling for Renascença
+        parsed = urlparse(item_link)
+        cm_parts = parsed.path.strip("/").split("/")
+        if cm_parts:
+            cm_cat = cm_parts[0].lower().capitalize()
+            return CATEGORY_MAPPER.get(cm_cat, "Outras Notícias")
+
+    # --- Renascença special case ---
     if "rr.sapo.pt" in feed_url and item_link and "/noticia/" in item_link:
         try:
-            parsed_url = urlparse(item_link)
-            path_parts = parsed_url.path.strip("/").split("/")
-            if "noticia" in path_parts:
-                index = path_parts.index("noticia")
-                if index + 1 < len(path_parts):
-                    rr_category = path_parts[index + 1].lower().capitalize()
-                    if rr_category in CATEGORY_MAPPER:
-                        return CATEGORY_MAPPER[rr_category]
-                    return rr_category
-        except (ValueError, IndexError):
+            parsed = urlparse(item_link)
+            rr_parts = parsed.path.strip("/").split("/")
+            idx = rr_parts.index("noticia")
+            if idx + 1 < len(rr_parts):
+                rr_cat = rr_parts[idx+1].lower().capitalize()
+                return CATEGORY_MAPPER.get(rr_cat, rr_cat)
+        except ValueError:
             pass
-    
+
+    # --- Fallback to "Outras Notícias" if nothing matches ---
     return "Outras Notícias"
     
 async def main():
