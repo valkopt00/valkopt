@@ -131,7 +131,7 @@ CATEGORY_GROUPS = {
     "Cultura": [
         "Cultura", "Livros", "Cinema", "Blitz", "Inimigo-publico",
         "Artes", "Música",  "Festivais de Verão", "Fotografia",
-        "Crítica", "Televisão", "Culturas"
+        "Crítica", "Televisão", "Culturas", "Culturaipsilon"
     ],
     "Ciência e Tech": [
         "Ciência e Tech", "Ciência & Tech", "Ciência", "Ciencia",
