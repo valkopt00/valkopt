@@ -1215,6 +1215,8 @@ def get_feed_domain(feed_url):
     return feed_url
 
 
+from urllib.parse import urlparse
+
 def map_category(feed_category, feed_url, item_link=None):
     """
     Maps the provided feed category and URL to a standardized category using predefined mappers.
@@ -1231,6 +1233,23 @@ def map_category(feed_category, feed_url, item_link=None):
     # If not, process the feed_category using the CATEGORY_MAPPER
     if feed_category in CATEGORY_MAPPER:
         return CATEGORY_MAPPER[feed_category]
+    
+    # Special case handling for Público:
+    if "publico.pt" in feed_url and item_link:
+        parts = urlparse(item_link).path.strip("/").split("/")
+        for i in range(len(parts) - 3):
+            if (parts[i].isdigit() and len(parts[i]) == 4 and 
+                parts[i+1].isdigit() and len(parts[i+1]) == 2 and
+                parts[i+2].isdigit() and len(parts[i+2]) == 2):
+                cat = parts[i+3].lower().capitalize()
+                return CATEGORY_MAPPER.get(cat, "Outras Notícias")
+    
+    # Special case handling for Expresso:
+    if "expresso.pt" in feed_url and item_link:
+        parts = urlparse(item_link).path.strip("/").split("/")
+        if parts:
+            cat = parts[0].lower().capitalize()
+            return CATEGORY_MAPPER.get(cat, "Outras Notícias")
     
     # Special case handling for CM Jornal
     if "cmjornal.pt" in feed_url and item_link:
