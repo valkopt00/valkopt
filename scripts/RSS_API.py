@@ -1214,11 +1214,6 @@ def get_feed_domain(feed_url):
     """
     return feed_url
 
-
-from urllib.parse import urlparse
-
-from urllib.parse import urlparse
-
 def map_category(feed_category, feed_url, item_link=None):
     """
     Maps the provided feed category and URL to a standardized category using predefined mappers.
@@ -1233,12 +1228,30 @@ def map_category(feed_category, feed_url, item_link=None):
 
         # Público: look for three numeric segments (year/month/day) and use the next segment as category
         if "publico.pt" in item_link:
+            print(f"DEBUG PÚBLICO: Processing URL: {item_link}")
+            print(f"DEBUG PÚBLICO: Parts: {parts}")
+            print(f"DEBUG PÚBLICO: Parts length: {len(parts)}")
+            print(f"DEBUG PÚBLICO: Range will be: 0 to {len(parts) - 3 - 1}")
+            
             for i in range(len(parts) - 3):
+                print(f"DEBUG PÚBLICO: Checking i={i}")
+                print(f"DEBUG PÚBLICO: parts[{i}]='{parts[i]}' (isdigit: {parts[i].isdigit()}, len: {len(parts[i])})")
+                print(f"DEBUG PÚBLICO: parts[{i+1}]='{parts[i+1]}' (isdigit: {parts[i+1].isdigit()}, len: {len(parts[i+1])})")
+                print(f"DEBUG PÚBLICO: parts[{i+2}]='{parts[i+2]}' (isdigit: {parts[i+2].isdigit()}, len: {len(parts[i+2])})")
+                
                 if (parts[i].isdigit() and len(parts[i]) == 4 and
                     parts[i+1].isdigit() and len(parts[i+1]) == 2 and
                     parts[i+2].isdigit() and len(parts[i+2]) == 2):
+                    
                     cat = parts[i+3].lower().capitalize()
-                    return CATEGORY_MAPPER.get(cat, "Outras Notícias")
+                    print(f"DEBUG PÚBLICO: ✓ Pattern matched! parts[{i+3}]='{parts[i+3]}' -> category: '{cat}'")
+                    result = CATEGORY_MAPPER.get(cat, "Outras Notícias")
+                    print(f"DEBUG PÚBLICO: Mapped '{cat}' to: '{result}'")
+                    return result
+                else:
+                    print(f"DEBUG PÚBLICO: ✗ Pattern not matched for i={i}")
+            
+            print("DEBUG PÚBLICO: No pattern matched, falling through...")
 
         # Expresso: only override if not a supplement path (/semanario)
         if "expresso.pt" in item_link:
