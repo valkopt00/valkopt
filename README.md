@@ -1,5 +1,5 @@
 # Branch Data - Sistema JSON Simplificado
-Atualizado automaticamente em: 2025-08-10 10:56:09
+Atualizado automaticamente em: 2025-08-10 11:16:12
 
 ## 🎯 Arquitetura simplificada:
 Apenas **3 ficheiros JSON** essenciais, comprimidos automaticamente pelo Netlify (~65% redução):
