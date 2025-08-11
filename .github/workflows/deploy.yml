@@ -80,6 +80,14 @@ jobs:
             git show origin/main:public/termos_de_utilizacao.html > public/termos_de_utilizacao.html
           fi
 
+          if git show origin/main:public/contacto.html > /dev/null 2>&1; then
+            git show origin/main:public/contacto.html > public/contacto.html
+          fi
+
+          if git show origin/main:public/app-ads.txt > /dev/null 2>&1; then
+            git show origin/main:public/app-ads.txt > public/app-ads.txt
+          fi
+
       # ✅ Netlify vai comprimir automaticamente - sem necessidade de compressão manual
 
       - name: Verificar ficheiros gerados
