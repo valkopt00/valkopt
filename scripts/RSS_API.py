@@ -1214,10 +1214,14 @@ def get_feed_domain(feed_url):
     """
     return feed_url
 
+from urllib.parse import urlparse
+
 def map_category(feed_category, feed_url, item_link=None):
     """
-    Maps the provided feed category and URL to a standardized category using predefined mappers.
+    Map the provided feed category and URL to a standardized category using predefined mappers.
     Includes special handling for certain sources (e.g., CM Jornal, Renascença, Sapo.pt, Público, and Expresso).
+    If URL-based special-case logic fails to produce a mapping, the function continues to try feed-based mappers
+    before falling back to the default "Outras Notícias".
     """
     if isinstance(feed_url, dict):
         feed_url = feed_url.get("url", "")
@@ -1232,32 +1236,29 @@ def map_category(feed_category, feed_url, item_link=None):
                 if (parts[i].isdigit() and len(parts[i]) == 4 and
                     parts[i+1].isdigit() and len(parts[i+1]) == 2 and
                     parts[i+2].isdigit() and len(parts[i+2]) == 2):
-                    cat = parts[i+3].lower().capitalize()
-                    # Tenta mapeamento direto primeiro
+                    cat = parts[i+3].strip().lower().capitalize()
+                    # Try direct mapping first (CATEGORY_MAPPER may be simple dict)
                     if cat in CATEGORY_MAPPER:
                         return CATEGORY_MAPPER[cat]
-                    # Tenta na estrutura invertida
-                    for main_category, category_list in CATEGORY_MAPPER.items():
-                        if isinstance(category_list, list):
-                            if cat in category_list:
-                                return main_category
-                    # Se não conseguiu mapear pela URL, NÃO retorna - deixa continuar para feed_category
+                    # Try inverted mapping (main_category: [subcategories])
+                    inv = find_category_in_mapper(cat)
+                    if inv:
+                        return inv
+                    # If not mapped by URL, do NOT return — allow feed_category mapping below.
                     break
 
         # Expresso: only override if not a supplement path (/semanario)
         if "expresso.pt" in item_link:
             if parts and parts[0] != "semanario":
-                cat = parts[0].lower().capitalize()
-                # Tenta mapeamento direto primeiro
+                cat = parts[0].strip().lower().capitalize()
+                # Try direct mapping first
                 if cat in CATEGORY_MAPPER:
                     return CATEGORY_MAPPER[cat]
-                # Tenta na estrutura invertida
-                for main_category, category_list in CATEGORY_MAPPER.items():
-                    if isinstance(category_list, list):
-                        if cat in category_list:
-                            return main_category
-                return "Outras Notícias"
-            # if it's /semanario/..., keep feed_category as provided by the feed
+                # Try inverted mapping
+                inv = find_category_in_mapper(cat)
+                if inv:
+                    return inv
+                # If not mapped by URL, do NOT return — allow feed_category mapping below.
 
     # --- Direct mapping by feed URL prefix (FEED_CATEGORY_MAPPER) ---
     for feed_prefix, default_category in FEED_CATEGORY_MAPPER.items():
@@ -1266,22 +1267,21 @@ def map_category(feed_category, feed_url, item_link=None):
 
     # --- Map feed category - handle both mapper structures ---
     if feed_category:
-        # Primeiro tenta o mapeamento direto (se CATEGORY_MAPPER for dict simples)
+        # Try direct mapping first (if CATEGORY_MAPPER is a simple dict)
         if feed_category in CATEGORY_MAPPER:
             return CATEGORY_MAPPER[feed_category]
-        
-        # Depois tenta na estrutura invertida (main_category: [subcategories])
+
+        # Then try inverted mapping (main_category: [subcategories])
+        inv = find_category_in_mapper(feed_category)
+        if inv:
+            return inv
+
+        # Case-insensitive trimmed search among subcategories
+        feed_cat_clean = feed_category.strip().lower()
         for main_category, category_list in CATEGORY_MAPPER.items():
             if isinstance(category_list, list):
-                # Procura direta (case-sensitive)
-                if feed_category in category_list:
-                    return main_category
-                
-                # Procura case-insensitive e com limpeza de espaços
-                category_clean = feed_category.strip().lower()
                 for cat in category_list:
-                    cat_clean = cat.strip().lower()
-                    if cat_clean == category_clean:
+                    if cat.strip().lower() == feed_cat_clean:
                         return main_category
 
     # --- CM Jornal special case ---
@@ -1289,7 +1289,7 @@ def map_category(feed_category, feed_url, item_link=None):
         parsed = urlparse(item_link)
         cm_parts = parsed.path.strip("/").split("/")
         if cm_parts:
-            cm_cat = cm_parts[0].lower().capitalize()
+            cm_cat = cm_parts[0].strip().lower().capitalize()
             return CATEGORY_MAPPER.get(cm_cat, "Outras Notícias")
 
     # --- Renascença special case ---
@@ -1299,28 +1299,10 @@ def map_category(feed_category, feed_url, item_link=None):
             rr_parts = parsed.path.strip("/").split("/")
             idx = rr_parts.index("noticia")
             if idx + 1 < len(rr_parts):
-                rr_cat = rr_parts[idx+1].lower().capitalize()
+                rr_cat = rr_parts[idx+1].strip().lower().capitalize()
                 return CATEGORY_MAPPER.get(rr_cat, rr_cat)
         except ValueError:
             pass
-
-    # --- Debug detalhado para Livro no Público ---
-    if feed_category == "Livro" and "publico.pt" in str(feed_url):
-        print(f"DEBUG Público-Livro:")
-        print(f"  item_link: {item_link}")
-        if item_link:
-            parts = urlparse(item_link).path.strip("/").split("/")
-            print(f"  URL parts: {parts}")
-            for i in range(len(parts) - 3):
-                if (parts[i].isdigit() and len(parts[i]) == 4 and
-                    parts[i+1].isdigit() and len(parts[i+1]) == 2 and
-                    parts[i+2].isdigit() and len(parts[i+2]) == 2):
-                    print(f"  Found date pattern at index {i}: {parts[i]}/{parts[i+1]}/{parts[i+2]}")
-                    print(f"  Next part (category): '{parts[i+3]}'")
-                    break
-        print(f"  feed_category: '{feed_category}'")
-        if 'Cultura' in CATEGORY_MAPPER:
-            print(f"  'Livro' in Cultura list: {'Livro' in CATEGORY_MAPPER['Cultura']}")
 
     # --- Debug: Log unmapped categories ---
     if feed_category:
@@ -1329,24 +1311,28 @@ def map_category(feed_category, feed_url, item_link=None):
     # --- Fallback to "Outras Notícias" if nothing matches ---
     return "Outras Notícias"
 
+
 def find_category_in_mapper(category_to_find):
     """
-    Helper function to find a category in the inverted CATEGORY_MAPPER structure.
-    CATEGORY_MAPPER format: {"Sociedade": ["Ambiente", "Animais", ...], ...}
-    Returns the main category if found, None otherwise.
+    Helper to find a category in an inverted CATEGORY_MAPPER structure.
+    CATEGORY_MAPPER format example: {"Sociedade": ["Ambiente", "Animais", ...], ...}
+    Returns the main category name if found, otherwise None.
     """
     if not category_to_find:
         return None
-    
+
+    # Direct check if someone passed a main-category name mapped to a direct value
+    if category_to_find in CATEGORY_MAPPER and not isinstance(CATEGORY_MAPPER[category_to_find], list):
+        return CATEGORY_MAPPER[category_to_find]
+
+    # Search within lists (case-insensitive)
+    category_lower = category_to_find.strip().lower()
     for main_category, category_list in CATEGORY_MAPPER.items():
-        if category_to_find in category_list:
-            return main_category
-        
-        category_lower = category_to_find.lower()
-        for cat in category_list:
-            if cat.lower() == category_lower:
-                return main_category
-    
+        if isinstance(category_list, list):
+            for cat in category_list:
+                if cat.strip().lower() == category_lower:
+                    return main_category
+
     return None
     
 async def main():
