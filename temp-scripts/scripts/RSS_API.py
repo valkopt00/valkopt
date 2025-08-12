@@ -236,9 +236,24 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                         if isinstance(feed_category, list):
                             feed_category = feed_category[0] if feed_category else ''
                     
+                    # Capture original category
                     original_category = feed_category
-                    category = map_category(feed_category, feed_domain, link)
-                    pub_date = parse_date(pub_date_str, source_url=feed_url)
+
+                    # Prefer a full feed URL if available; fallback to feed_domain
+                    _feed_url_for_map = feed_url if 'feed_url' in locals() and feed_url else feed_domain
+
+                    # Map category (use link, not guid)
+                    category = map_category(feed_category, _feed_url_for_map, link)
+
+                    # fallback if mapping failed or returned falsy
+                    if not category:
+                        category = "Outras Notícias"
+
+                    pub_date = parse_date(pub_date_str, source_url=_feed_url_for_map)
+
+                    # debug logging (remove or lower level after resolveres)
+                    print(f"[DEBUG] rss item link={link} feed_url_used={_feed_url_for_map} original_cat='{original_category}' mapped='{category}'")
+
                     
                     if pub_date:
                         # More lenient time filtering - keep articles from last 24 hours instead of 12
