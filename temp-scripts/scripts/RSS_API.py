@@ -1233,13 +1233,30 @@ def map_category(feed_category, feed_url, item_link=None):
                     parts[i+1].isdigit() and len(parts[i+1]) == 2 and
                     parts[i+2].isdigit() and len(parts[i+2]) == 2):
                     cat = parts[i+3].lower().capitalize()
-                    return CATEGORY_MAPPER.get(cat, "Outras Notícias")
+                    # Tenta mapeamento direto primeiro
+                    if cat in CATEGORY_MAPPER:
+                        return CATEGORY_MAPPER[cat]
+                    # Tenta na estrutura invertida
+                    for main_category, category_list in CATEGORY_MAPPER.items():
+                        if isinstance(category_list, list):
+                            if cat in category_list:
+                                return main_category
+                    # Se não conseguiu mapear pela URL, NÃO retorna - deixa continuar para feed_category
+                    break
 
         # Expresso: only override if not a supplement path (/semanario)
         if "expresso.pt" in item_link:
             if parts and parts[0] != "semanario":
                 cat = parts[0].lower().capitalize()
-                return CATEGORY_MAPPER.get(cat, "Outras Notícias")
+                # Tenta mapeamento direto primeiro
+                if cat in CATEGORY_MAPPER:
+                    return CATEGORY_MAPPER[cat]
+                # Tenta na estrutura invertida
+                for main_category, category_list in CATEGORY_MAPPER.items():
+                    if isinstance(category_list, list):
+                        if cat in category_list:
+                            return main_category
+                return "Outras Notícias"
             # if it's /semanario/..., keep feed_category as provided by the feed
 
     # --- Direct mapping by feed URL prefix (FEED_CATEGORY_MAPPER) ---
@@ -1287,18 +1304,23 @@ def map_category(feed_category, feed_url, item_link=None):
         except ValueError:
             pass
 
-    # --- Debug detalhado para Cinema ---
-    if feed_category == "Livro":
-        print(f"DEBUG Livro detalhado:")
-        print(f"  feed_category repr: {repr(feed_category)}")
-        print(f"  feed_category length: {len(feed_category)}")
+    # --- Debug detalhado para Livro no Público ---
+    if feed_category == "Livro" and "publico.pt" in str(feed_url):
+        print(f"DEBUG Público-Livro:")
+        print(f"  item_link: {item_link}")
+        if item_link:
+            parts = urlparse(item_link).path.strip("/").split("/")
+            print(f"  URL parts: {parts}")
+            for i in range(len(parts) - 3):
+                if (parts[i].isdigit() and len(parts[i]) == 4 and
+                    parts[i+1].isdigit() and len(parts[i+1]) == 2 and
+                    parts[i+2].isdigit() and len(parts[i+2]) == 2):
+                    print(f"  Found date pattern at index {i}: {parts[i]}/{parts[i+1]}/{parts[i+2]}")
+                    print(f"  Next part (category): '{parts[i+3]}'")
+                    break
+        print(f"  feed_category: '{feed_category}'")
         if 'Cultura' in CATEGORY_MAPPER:
-            cultura_list = CATEGORY_MAPPER['Cultura']
-            print(f"  Lista Cultura: {cultura_list}")
-            for i, cat in enumerate(cultura_list):
-                print(f"    [{i}] repr: {repr(cat)} | equal: {cat == feed_category}")
-                if "Livro" in cat or "livro" in cat.lower():
-                    print(f"         MATCH FOUND: {repr(cat)}")
+            print(f"  'Livro' in Cultura list: {'Livro' in CATEGORY_MAPPER['Cultura']}")
 
     # --- Debug: Log unmapped categories ---
     if feed_category:
