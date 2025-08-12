@@ -618,20 +618,29 @@ def is_article_within_timeframe(article_date_str, category, current_date):
         print(f"⚠️  Error parsing article date {article_date_str}: {e}")
         return False
 
+# Correções Imediatas para RSS_API.py
+# Aplicar estas mudanças no arquivo existente
+
+# 1. MANTER parse_date() como está - função já está afinada para todos os feeds
+# NÃO ALTERAR - apenas manter a função existente
+
+
+# 2. CORRIGIR merge_articles() - garantir que artigos aparecem em Últimas E categoria
 def merge_articles(existing_articles, new_articles, current_date):
     """
-    Merge new articles with existing ones, removing duplicates and expired articles.
-    
-    Args:
-        existing_articles: Dictionary of existing articles by category
-        new_articles: List of new articles to merge
-        current_date: Current datetime for timeframe filtering
-        
-    Returns:
-        Dictionary of merged articles by category
+    Merge new articles with existing ones, ensuring articles appear both
+    in their category AND in "Últimas" if within 12 hours.
     """
     merged = {}
     seen_titles = set()
+    
+    # Initialize all categories
+    all_categories = ["Últimas", "Nacional", "Mundo", "Desporto", "Economia", 
+                     "Cultura", "Ciência e Tech", "Lifestyle", "Sociedade", 
+                     "Política", "Multimédia", "Opinião", "Vídeojogos", "Outras Notícias"]
+    
+    for cat in all_categories:
+        merged[cat] = []
     
     # Combine existing and new articles
     all_articles = []
@@ -645,14 +654,14 @@ def merge_articles(existing_articles, new_articles, current_date):
     # Add new articles
     all_articles.extend(new_articles)
     
-    print(f"📊 Merging {len(all_articles)} total articles (existing + new)")
-    print(f"📊 New articles to process: {len(new_articles)}")
+    print(f"📊 Merging {len(all_articles)} total articles")
+    print(f"📊 New articles: {len(new_articles)}")
     
-    # Process all articles
     processed_count = 0
     skipped_duplicates = 0
     skipped_expired = 0
     skipped_invalid = 0
+    ultimas_count = 0
     
     for article in all_articles:
         title = article.get("title")
@@ -662,12 +671,8 @@ def merge_articles(existing_articles, new_articles, current_date):
         # Skip invalid articles
         if not all([title, category, pub_date]):
             skipped_invalid += 1
-            print(f"⚠️  Skipped invalid article: title={title}, category={category}, pubDate={pub_date}")
+            print(f"⚠️  Skipped invalid article: title={bool(title)}, category={category}, pubDate={bool(pub_date)}")
             continue
-        
-        # Initialize category if it doesn't exist
-        if category not in merged:
-            merged[category] = []
         
         # Skip duplicates - use exact title match (case insensitive)
         title_lower = title.lower().strip()
@@ -675,7 +680,16 @@ def merge_articles(existing_articles, new_articles, current_date):
             skipped_duplicates += 1
             continue
         
-        # Skip expired articles
+        # Parse article date for time checks
+        try:
+            article_date = datetime.strptime(pub_date, "%d-%m-%Y %H:%M")
+            article_date = article_date.replace(tzinfo=timezone.utc)
+        except:
+            skipped_invalid += 1
+            print(f"⚠️  Invalid date format: {pub_date}")
+            continue
+        
+        # Check if article should be kept based on category-specific retention
         if not is_article_within_timeframe(pub_date, category, current_date):
             skipped_expired += 1
             continue
@@ -683,21 +697,25 @@ def merge_articles(existing_articles, new_articles, current_date):
         # Add the title to seen titles
         seen_titles.add(title_lower)
         
-        # Add to appropriate category
+        # Initialize category if it doesn't exist
+        if category not in merged:
+            merged[category] = []
+        
+        # ALWAYS add to the article's mapped category
         merged[category].append(article)
         processed_count += 1
+        print(f"[DEBUG] Added to {category}: {title[:50]}...")
         
-        # Add recent articles to "Últimas" category as well
-        if category != "Últimas" and is_article_within_timeframe(pub_date, "Últimas", current_date):
-            if "Últimas" not in merged:
-                merged["Últimas"] = []
-            
-            # Check if article is already in Últimas
-            titles_in_ultimas = {art.get("title", "").lower().strip() for art in merged["Últimas"]}
-            if title_lower not in titles_in_ultimas:
-                merged["Últimas"].append(article)
+        # ALSO add to "Últimas" if within 12 hours (regardless of original category)
+        twelve_hours_ago = current_date - timedelta(hours=12)
+        if article_date >= twelve_hours_ago:
+            # Don't add duplicate to Últimas if it's already categorized as Últimas
+            if category != "Últimas":
+                merged["Últimas"].append(article.copy())  # Use copy to avoid reference issues
+                ultimas_count += 1
+                print(f"[DEBUG] Also added to Últimas: {title[:50]}...")
     
-    # Sort articles by date (newest first)
+    # Sort all categories by date (newest first)
     for category in merged:
         merged[category].sort(
             key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"),
@@ -706,7 +724,8 @@ def merge_articles(existing_articles, new_articles, current_date):
     
     # Print detailed summary
     print(f"📊 Processing summary:")
-    print(f"   - Processed: {processed_count}")
+    print(f"   - Total processed: {processed_count}")
+    print(f"   - Added to Últimas: {ultimas_count}")
     print(f"   - Skipped duplicates: {skipped_duplicates}")
     print(f"   - Skipped expired: {skipped_expired}")
     print(f"   - Skipped invalid: {skipped_invalid}")
@@ -725,6 +744,17 @@ def export_original_categories_to_json(articles):
     are added to the file. Also includes a count of how many times each category appears overall.
     Only increments the count for new articles that haven't been processed before.
     """
+
+    print(f"🔍 export_original_categories_to_json called with {len(articles)} articles")
+    outras_noticias_articles = [a for a in articles if a.get("category") == "Outras Notícias"]
+    print(f"🔍 Found {len(outras_noticias_articles)} articles in 'Outras Notícias' category")
+
+    # Log das primeiras categorias originais encontradas:
+    for i, article in enumerate(outras_noticias_articles[:5]):
+        orig_cat = article.get("original_category", "N/A")
+        title = article.get("title", "N/A")[:50]
+        print(f"🔍 Sample {i+1}: original_category='{orig_cat}', title='{title}...'")
+
     if not articles:
         print("No articles provided to export_original_categories_to_json")
         return False

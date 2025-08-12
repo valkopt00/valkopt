@@ -139,7 +139,8 @@ CATEGORY_GROUPS = {
         "Exame Informática Brand studio", "Gadgets", "Internet",
         "Direto do lab", "Exame Informática", "Exameinformatica",
         "Redes_sociais", "Redes sociais", "Exame", "Facebook", "Apple", "Smartphones-tablets",
-        "Biomedicina", "Espaço", "Paleontologia", "Inteligência artificial"
+        "Biomedicina", "Espaço", "Paleontologia", "Inteligência artificial",
+        "Software"
     ],
     "Sociedade": [
         "Sociedade", "Coronavírus", "Mau tempo", "Sustentabilidade",
