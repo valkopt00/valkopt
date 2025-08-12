@@ -186,7 +186,7 @@ CATEGORY_GROUPS = {
         "Opinião", "Opiniao", "Colunistas", "Nota editorial",
         "Editorial", "Linhas Direitas", "José jorge letria", "Liveblogs",
         "Artigos de Newsletter", "O Vale Era Verde", "Opinião União Europeia",
-        "Isso era uma longa conversa", "Opinião Protopia",
+        "Isso era uma longa conversa", "Opinião Protopia", "Café Central",
          "Tanto faz não é resposta"
     ],
     "Lifestyle": [
