@@ -1219,12 +1219,12 @@ def map_category(feed_category, feed_url, item_link=None):
     Maps the provided feed category and URL to a standardized category using predefined mappers.
     Includes special handling for certain sources (e.g., CM Jornal, Renascença, Sapo.pt, Público, and Expresso).
     """
-    if feed_category == "Ambiente":
-    print(f"DEBUG Ambiente: feed_url={feed_url}")
-    print(f"DEBUG: CATEGORY_MAPPER type for 'Sociedade': {type(CATEGORY_MAPPER.get('Sociedade', 'NOT_FOUND'))}")
-    
-    if 'Sociedade' in CATEGORY_MAPPER:
-        print(f"DEBUG: 'Ambiente' in Sociedade list: {'Ambiente' in CATEGORY_MAPPER['Sociedade']}")
+    if feed_category == "Cinema":
+        print(f"DEBUG Cinema: feed_url={feed_url}")
+        print(f"DEBUG: CATEGORY_MAPPER type for 'Cultura': {type(CATEGORY_MAPPER.get('Cultura', 'NOT_FOUND'))}")    
+    if 'Cultura' in CATEGORY_MAPPER:
+        print(f"DEBUG: 'Cinema' in Cultura list: {'Cinema' in CATEGORY_MAPPER['Cultura']}")
+        
     if isinstance(feed_url, dict):
         feed_url = feed_url.get("url", "")
 
