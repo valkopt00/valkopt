@@ -19,7 +19,6 @@ from dateutil import tz
 from dateutil import parser
 import unicodedata
 
-
 async def get_articles():
     """
     Main function to fetch articles from all sources and process them.
@@ -308,6 +307,13 @@ def normalize_text(text):
     
     return text
 
+NORMALIZED_SUBCATEGORY_TO_MAIN = {}
+for main_category, cat_list in CATEGORY_MAPPER.items():
+    if isinstance(cat_list, list):
+        for sub in cat_list:
+            NORMALIZED_SUBCATEGORY_TO_MAIN[normalize_text(sub)] = main_category
+    else:
+        NORMALIZED_SUBCATEGORY_TO_MAIN[normalize_text(main_category)] = cat_list
 
 def create_search_articles(articles_dict):
     """
@@ -1214,17 +1220,17 @@ def get_feed_domain(feed_url):
     """
     return feed_url
 
-from urllib.parse import urlparse
-
 def map_category(feed_category, feed_url, item_link=None):
     """
-    Map the provided feed category and URL to a standardized category using predefined mappers.
-    Includes special handling for certain sources (e.g., CM Jornal, Renascença, Sapo.pt, Público, and Expresso).
-    If URL-based special-case logic fails to produce a mapping, the function continues to try feed-based mappers
-    before falling back to the default "Outras Notícias".
+    Map the provided feed category and URL to a standardized category using
+    the CATEGORY_MAPPER and FEED_CATEGORY_MAPPER. Uses normalized lookups so
+    'Café Central' matches 'cafe central' etc. Special cases for Público and Expresso.
     """
     if isinstance(feed_url, dict):
-        feed_url = feed_url.get("url", "")
+        feed_url = feed_url.get("url", "") or ""
+
+    # normalize feed_category early
+    feed_cat_norm = normalize_text(feed_category or "")
 
     # --- Special cases based on the article URL (item_link) ---
     if item_link:
@@ -1236,104 +1242,100 @@ def map_category(feed_category, feed_url, item_link=None):
                 if (parts[i].isdigit() and len(parts[i]) == 4 and
                     parts[i+1].isdigit() and len(parts[i+1]) == 2 and
                     parts[i+2].isdigit() and len(parts[i+2]) == 2):
-                    cat = parts[i+3].strip().lower().capitalize()
-                    # Try direct mapping first (CATEGORY_MAPPER may be simple dict)
-                    if cat in CATEGORY_MAPPER:
-                        return CATEGORY_MAPPER[cat]
-                    # Try inverted mapping (main_category: [subcategories])
-                    inv = find_category_in_mapper(cat)
-                    if inv:
-                        return inv
+                    candidate = parts[i+3]
+                    mapped = find_category_in_mapper(candidate)
+                    if mapped:
+                        return mapped
+                    # also try direct keys in CATEGORY_MAPPER (normalized)
+                    for k, v in CATEGORY_MAPPER.items():
+                        if normalize_text(k) == normalize_text(candidate):
+                            return v
                     # If not mapped by URL, do NOT return — allow feed_category mapping below.
                     break
 
         # Expresso: only override if not a supplement path (/semanario)
         if "expresso.pt" in item_link:
             if parts and parts[0] != "semanario":
-                cat = parts[0].strip().lower().capitalize()
-                # Try direct mapping first
-                if cat in CATEGORY_MAPPER:
-                    return CATEGORY_MAPPER[cat]
-                # Try inverted mapping
-                inv = find_category_in_mapper(cat)
-                if inv:
-                    return inv
+                candidate = parts[0]
+                mapped = find_category_in_mapper(candidate)
+                if mapped:
+                    return mapped
+                for k, v in CATEGORY_MAPPER.items():
+                    if normalize_text(k) == normalize_text(candidate):
+                        return v
                 # If not mapped by URL, do NOT return — allow feed_category mapping below.
 
     # --- Direct mapping by feed URL prefix (FEED_CATEGORY_MAPPER) ---
     for feed_prefix, default_category in FEED_CATEGORY_MAPPER.items():
-        if feed_url.startswith(feed_prefix):
+        if (feed_url or "").startswith(feed_prefix):
+            # Try to map the default_category itself to a main category
+            mapped = find_category_in_mapper(default_category)
+            if mapped:
+                return mapped
+            # If default_category matches a key in CATEGORY_MAPPER (normalized), return its mapping
+            for k, v in CATEGORY_MAPPER.items():
+                if normalize_text(k) == normalize_text(default_category):
+                    return v
+            # otherwise return the default as a last resort
             return default_category
 
     # --- Map feed category - handle both mapper structures ---
-    if feed_category:
-        # Try direct mapping first (if CATEGORY_MAPPER is a simple dict)
-        if feed_category in CATEGORY_MAPPER:
-            return CATEGORY_MAPPER[feed_category]
+    if feed_cat_norm:
+        mapped = find_category_in_mapper(feed_cat_norm)
+        if mapped:
+            return mapped
 
-        # Then try inverted mapping (main_category: [subcategories])
-        inv = find_category_in_mapper(feed_category)
-        if inv:
-            return inv
-
-        # Case-insensitive trimmed search among subcategories
-        feed_cat_clean = feed_category.strip().lower()
-        for main_category, category_list in CATEGORY_MAPPER.items():
-            if isinstance(category_list, list):
-                for cat in category_list:
-                    if cat.strip().lower() == feed_cat_clean:
-                        return main_category
+        # check CATEGORY_MAPPER keys normalized
+        for k, v in CATEGORY_MAPPER.items():
+            if normalize_text(k) == feed_cat_norm:
+                return v
 
     # --- CM Jornal special case ---
-    if "cmjornal.pt" in feed_url and item_link:
+    if "cmjornal.pt" in (feed_url or "") and item_link:
         parsed = urlparse(item_link)
         cm_parts = parsed.path.strip("/").split("/")
         if cm_parts:
-            cm_cat = cm_parts[0].strip().lower().capitalize()
-            return CATEGORY_MAPPER.get(cm_cat, "Outras Notícias")
+            candidate = cm_parts[0]
+            mapped = find_category_in_mapper(candidate)
+            if mapped:
+                return mapped
+            for k, v in CATEGORY_MAPPER.items():
+                if normalize_text(k) == normalize_text(candidate):
+                    return v
+            return "Outras Notícias"
 
     # --- Renascença special case ---
-    if "rr.sapo.pt" in feed_url and item_link and "/noticia/" in item_link:
+    if "rr.sapo.pt" in (feed_url or "") and item_link and "/noticia/" in item_link:
         try:
             parsed = urlparse(item_link)
             rr_parts = parsed.path.strip("/").split("/")
             idx = rr_parts.index("noticia")
             if idx + 1 < len(rr_parts):
-                rr_cat = rr_parts[idx+1].strip().lower().capitalize()
-                return CATEGORY_MAPPER.get(rr_cat, rr_cat)
+                candidate = rr_parts[idx+1]
+                mapped = find_category_in_mapper(candidate)
+                if mapped:
+                    return mapped
+                for k, v in CATEGORY_MAPPER.items():
+                    if normalize_text(k) == normalize_text(candidate):
+                        return v
         except ValueError:
             pass
 
     # --- Debug: Log unmapped categories ---
     if feed_category:
-        print(f"⚠️ Unmapped category: '{feed_category}' from {feed_url}")
+        print(f"⚠️ Unmapped category: raw='{feed_category}' normalized='{feed_cat_norm}' from {feed_url}")
 
     # --- Fallback to "Outras Notícias" if nothing matches ---
     return "Outras Notícias"
 
-
 def find_category_in_mapper(category_to_find):
     """
-    Helper to find a category in an inverted CATEGORY_MAPPER structure.
-    CATEGORY_MAPPER format example: {"Sociedade": ["Ambiente", "Animais", ...], ...}
-    Returns the main category name if found, otherwise None.
+    Fast lookup using a precomputed normalized -> main_category map.
+    Returns main category or None.
     """
     if not category_to_find:
         return None
-
-    # Direct check if someone passed a main-category name mapped to a direct value
-    if category_to_find in CATEGORY_MAPPER and not isinstance(CATEGORY_MAPPER[category_to_find], list):
-        return CATEGORY_MAPPER[category_to_find]
-
-    # Search within lists (case-insensitive)
-    category_lower = category_to_find.strip().lower()
-    for main_category, category_list in CATEGORY_MAPPER.items():
-        if isinstance(category_list, list):
-            for cat in category_list:
-                if cat.strip().lower() == category_lower:
-                    return main_category
-
-    return None
+    return NORMALIZED_SUBCATEGORY_TO_MAIN.get(normalize_text(category_to_find))
     
 async def main():
     """
