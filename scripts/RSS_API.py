@@ -19,15 +19,6 @@ from dateutil import tz
 from dateutil import parser
 import unicodedata
 
-NORMALIZED_SUBCATEGORY_TO_MAIN = {}
-for main_category, cat_list in CATEGORY_MAPPER.items():
-    if isinstance(cat_list, list):
-        for sub in cat_list:
-            NORMALIZED_SUBCATEGORY_TO_MAIN[normalize_text(sub)] = main_category
-    else:
-        NORMALIZED_SUBCATEGORY_TO_MAIN[normalize_text(main_category)] = cat_list
-
-
 async def get_articles():
     """
     Main function to fetch articles from all sources and process them.
@@ -315,6 +306,14 @@ def normalize_text(text):
     text = ' '.join(text.split())
     
     return text
+
+NORMALIZED_SUBCATEGORY_TO_MAIN = {}
+for main_category, cat_list in CATEGORY_MAPPER.items():
+    if isinstance(cat_list, list):
+        for sub in cat_list:
+            NORMALIZED_SUBCATEGORY_TO_MAIN[normalize_text(sub)] = main_category
+    else:
+        NORMALIZED_SUBCATEGORY_TO_MAIN[normalize_text(main_category)] = cat_list
 
 def create_search_articles(articles_dict):
     """
