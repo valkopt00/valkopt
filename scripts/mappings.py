@@ -131,7 +131,7 @@ CATEGORY_GROUPS = {
     "Cultura": [
         "Cultura", "Livros", "Cinema", "Blitz", "Inimigo-publico",
         "Artes", "Música",  "Festivais de Verão", "Fotografia",
-        "Crítica", "Televisão", "Culturas", "Culturaipsilon"
+        "Crítica", "Televisão", "Culturas", "Culturaipsilon", "Entretenimento"
     ],
     "Ciência e Tech": [
         "Ciência e Tech", "Ciência & Tech", "Ciência", "Ciencia",
@@ -195,7 +195,7 @@ CATEGORY_GROUPS = {
         "Boa Cama Boa Mesa", "Boa-cama-boa-mesa", "Vidas", "Óscares",
         "Fama", "Visaose7e", "Viagens", "Famosos", "Decoracao", "Ideias",
         "As Novas Cozinhas da Terra", "Beleza", "O gato das botas",
-        "Fugas", "Lazer", "Celebridades", "Fugas"
+        "Fugas", "Lazer", "Celebridades", "Fugas", "Roupa"
     ],
     "Vídeojogos": [
         "Vídeojogos", "Jogos", "Record-gaming"
