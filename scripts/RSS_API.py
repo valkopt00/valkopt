@@ -1219,6 +1219,12 @@ def map_category(feed_category, feed_url, item_link=None):
     Maps the provided feed category and URL to a standardized category using predefined mappers.
     Includes special handling for certain sources (e.g., CM Jornal, Renascença, Sapo.pt, Público, and Expresso).
     """
+    if feed_category == "Ambiente":
+    print(f"DEBUG Ambiente: feed_url={feed_url}")
+    print(f"DEBUG: CATEGORY_MAPPER type for 'Sociedade': {type(CATEGORY_MAPPER.get('Sociedade', 'NOT_FOUND'))}")
+    
+    if 'Sociedade' in CATEGORY_MAPPER:
+        print(f"DEBUG: 'Ambiente' in Sociedade list: {'Ambiente' in CATEGORY_MAPPER['Sociedade']}")
     if isinstance(feed_url, dict):
         feed_url = feed_url.get("url", "")
 
@@ -1233,30 +1239,38 @@ def map_category(feed_category, feed_url, item_link=None):
                     parts[i+1].isdigit() and len(parts[i+1]) == 2 and
                     parts[i+2].isdigit() and len(parts[i+2]) == 2):
                     cat = parts[i+3].lower().capitalize()
-                    # Procura na estrutura invertida do CATEGORY_MAPPER
-                    mapped = find_category_in_mapper(cat)
-                    if mapped:
-                        return mapped
-                    # Se não mapear pela URL, continue para tentar pela feed_category
+                    return CATEGORY_MAPPER.get(cat, "Outras Notícias")
 
         # Expresso: only override if not a supplement path (/semanario)
         if "expresso.pt" in item_link:
             if parts and parts[0] != "semanario":
                 cat = parts[0].lower().capitalize()
-                mapped = find_category_in_mapper(cat)
-                if mapped:
-                    return mapped
+                return CATEGORY_MAPPER.get(cat, "Outras Notícias")
+            # if it's /semanario/..., keep feed_category as provided by the feed
 
     # --- Direct mapping by feed URL prefix (FEED_CATEGORY_MAPPER) ---
     for feed_prefix, default_category in FEED_CATEGORY_MAPPER.items():
         if feed_url.startswith(feed_prefix):
             return default_category
 
-    # --- Map feed category using the inverted CATEGORY_MAPPER structure ---
+    # --- Map feed category - handle both mapper structures ---
     if feed_category:
-        mapped = find_category_in_mapper(feed_category)
-        if mapped:
-            return mapped
+        # Primeiro tenta o mapeamento direto (se CATEGORY_MAPPER for dict simples)
+        if feed_category in CATEGORY_MAPPER:
+            return CATEGORY_MAPPER[feed_category]
+        
+        # Depois tenta na estrutura invertida (main_category: [subcategories])
+        for main_category, category_list in CATEGORY_MAPPER.items():
+            if isinstance(category_list, list):
+                # Procura direta (case-sensitive)
+                if feed_category in category_list:
+                    return main_category
+                
+                # Procura case-insensitive
+                category_lower = feed_category.lower()
+                for cat in category_list:
+                    if cat.lower() == category_lower:
+                        return main_category
 
     # --- CM Jornal special case ---
     if "cmjornal.pt" in feed_url and item_link:
@@ -1264,9 +1278,7 @@ def map_category(feed_category, feed_url, item_link=None):
         cm_parts = parsed.path.strip("/").split("/")
         if cm_parts:
             cm_cat = cm_parts[0].lower().capitalize()
-            mapped = find_category_in_mapper(cm_cat)
-            if mapped:
-                return mapped
+            return CATEGORY_MAPPER.get(cm_cat, "Outras Notícias")
 
     # --- Renascença special case ---
     if "rr.sapo.pt" in feed_url and item_link and "/noticia/" in item_link:
@@ -1276,10 +1288,7 @@ def map_category(feed_category, feed_url, item_link=None):
             idx = rr_parts.index("noticia")
             if idx + 1 < len(rr_parts):
                 rr_cat = rr_parts[idx+1].lower().capitalize()
-                mapped = find_category_in_mapper(rr_cat)
-                if mapped:
-                    return mapped
-                return rr_cat
+                return CATEGORY_MAPPER.get(rr_cat, rr_cat)
         except ValueError:
             pass
 
@@ -1290,7 +1299,6 @@ def map_category(feed_category, feed_url, item_link=None):
     # --- Fallback to "Outras Notícias" if nothing matches ---
     return "Outras Notícias"
 
-
 def find_category_in_mapper(category_to_find):
     """
     Helper function to find a category in the inverted CATEGORY_MAPPER structure.
@@ -1300,13 +1308,10 @@ def find_category_in_mapper(category_to_find):
     if not category_to_find:
         return None
     
-    # Procura em todas as listas de categorias
     for main_category, category_list in CATEGORY_MAPPER.items():
-        # Procura direta (case-sensitive)
         if category_to_find in category_list:
             return main_category
         
-        # Procura case-insensitive
         category_lower = category_to_find.lower()
         for cat in category_list:
             if cat.lower() == category_lower:
