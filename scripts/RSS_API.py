@@ -251,10 +251,6 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
 
                     pub_date = parse_date(pub_date_str, source_url=_feed_url_for_map)
 
-                    # debug logging (remove or lower level after resolveres)
-                    print(f"[DEBUG] rss item link={link} feed_url_used={_feed_url_for_map} original_cat='{original_category}' mapped='{category}'")
-
-                    
                     if pub_date:
                         # More lenient time filtering - keep articles from last 24 hours instead of 12
                         article_age = datetime.now(timezone.utc) - pub_date
@@ -618,14 +614,6 @@ def is_article_within_timeframe(article_date_str, category, current_date):
         print(f"⚠️  Error parsing article date {article_date_str}: {e}")
         return False
 
-# Correções Imediatas para RSS_API.py
-# Aplicar estas mudanças no arquivo existente
-
-# 1. MANTER parse_date() como está - função já está afinada para todos os feeds
-# NÃO ALTERAR - apenas manter a função existente
-
-
-# 2. CORRIGIR merge_articles() - garantir que artigos aparecem em Últimas E categoria
 def merge_articles(existing_articles, new_articles, current_date):
     """
     Merge new articles with existing ones, ensuring articles appear both
@@ -697,11 +685,14 @@ def merge_articles(existing_articles, new_articles, current_date):
         # Add the title to seen titles
         seen_titles.add(title_lower)
         
-        # Initialize category if it doesn't exist
-        if category not in merged:
-            merged[category] = []
+        # VALIDATE category - only allow predefined categories
+        if category not in all_categories:
+            print(f"⚠️  Invalid category '{category}' for article '{title[:50]}...', mapping to 'Outras Notícias'")
+            category = "Outras Notícias"
+            # Update the article's category
+            article["category"] = category
         
-        # ALWAYS add to the article's mapped category
+        # ALWAYS add to the article's mapped category (now guaranteed to be valid)
         merged[category].append(article)
         processed_count += 1
         print(f"[DEBUG] Added to {category}: {title[:50]}...")
@@ -711,7 +702,10 @@ def merge_articles(existing_articles, new_articles, current_date):
         if article_date >= twelve_hours_ago:
             # Don't add duplicate to Últimas if it's already categorized as Últimas
             if category != "Últimas":
-                merged["Últimas"].append(article.copy())  # Use copy to avoid reference issues
+                # Create a copy and ensure it has the right category for Últimas
+                ultimas_article = article.copy()
+                ultimas_article["category"] = "Últimas"  # Ensure consistency
+                merged["Últimas"].append(ultimas_article)
                 ultimas_count += 1
                 print(f"[DEBUG] Also added to Últimas: {title[:50]}...")
     
@@ -744,16 +738,6 @@ def export_original_categories_to_json(articles):
     are added to the file. Also includes a count of how many times each category appears overall.
     Only increments the count for new articles that haven't been processed before.
     """
-
-    print(f"🔍 export_original_categories_to_json called with {len(articles)} articles")
-    outras_noticias_articles = [a for a in articles if a.get("category") == "Outras Notícias"]
-    print(f"🔍 Found {len(outras_noticias_articles)} articles in 'Outras Notícias' category")
-
-    # Log das primeiras categorias originais encontradas:
-    for i, article in enumerate(outras_noticias_articles[:5]):
-        orig_cat = article.get("original_category", "N/A")
-        title = article.get("title", "N/A")[:50]
-        print(f"🔍 Sample {i+1}: original_category='{orig_cat}', title='{title}...'")
 
     if not articles:
         print("No articles provided to export_original_categories_to_json")
