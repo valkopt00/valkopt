@@ -695,7 +695,6 @@ def merge_articles(existing_articles, new_articles, current_date):
         # ALWAYS add to the article's mapped category (now guaranteed to be valid)
         merged[category].append(article)
         processed_count += 1
-        print(f"[DEBUG] Added to {category}: {title[:50]}...")
         
         # ALSO add to "Últimas" if within 12 hours (regardless of original category)
         twelve_hours_ago = current_date - timedelta(hours=12)
@@ -707,7 +706,6 @@ def merge_articles(existing_articles, new_articles, current_date):
                 ultimas_article["category"] = "Últimas"  # Ensure consistency
                 merged["Últimas"].append(ultimas_article)
                 ultimas_count += 1
-                print(f"[DEBUG] Also added to Últimas: {title[:50]}...")
     
     # Sort all categories by date (newest first)
     for category in merged:
