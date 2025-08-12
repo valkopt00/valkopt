@@ -1219,12 +1219,6 @@ def map_category(feed_category, feed_url, item_link=None):
     Maps the provided feed category and URL to a standardized category using predefined mappers.
     Includes special handling for certain sources (e.g., CM Jornal, Renascença, Sapo.pt, Público, and Expresso).
     """
-    if feed_category == "Cinema":
-        print(f"DEBUG Cinema: feed_url={feed_url}")
-        print(f"DEBUG: CATEGORY_MAPPER type for 'Cultura': {type(CATEGORY_MAPPER.get('Cultura', 'NOT_FOUND'))}")    
-    if 'Cultura' in CATEGORY_MAPPER:
-        print(f"DEBUG: 'Cinema' in Cultura list: {'Cinema' in CATEGORY_MAPPER['Cultura']}")
-        
     if isinstance(feed_url, dict):
         feed_url = feed_url.get("url", "")
 
@@ -1266,10 +1260,11 @@ def map_category(feed_category, feed_url, item_link=None):
                 if feed_category in category_list:
                     return main_category
                 
-                # Procura case-insensitive
-                category_lower = feed_category.lower()
+                # Procura case-insensitive e com limpeza de espaços
+                category_clean = feed_category.strip().lower()
                 for cat in category_list:
-                    if cat.lower() == category_lower:
+                    cat_clean = cat.strip().lower()
+                    if cat_clean == category_clean:
                         return main_category
 
     # --- CM Jornal special case ---
@@ -1291,6 +1286,19 @@ def map_category(feed_category, feed_url, item_link=None):
                 return CATEGORY_MAPPER.get(rr_cat, rr_cat)
         except ValueError:
             pass
+
+    # --- Debug detalhado para Cinema ---
+    if feed_category == "Cinema":
+        print(f"DEBUG Cinema detalhado:")
+        print(f"  feed_category repr: {repr(feed_category)}")
+        print(f"  feed_category length: {len(feed_category)}")
+        if 'Cultura' in CATEGORY_MAPPER:
+            cultura_list = CATEGORY_MAPPER['Cultura']
+            print(f"  Lista Cultura: {cultura_list}")
+            for i, cat in enumerate(cultura_list):
+                print(f"    [{i}] repr: {repr(cat)} | equal: {cat == feed_category}")
+                if "Cinema" in cat or "cinema" in cat.lower():
+                    print(f"         MATCH FOUND: {repr(cat)}")
 
     # --- Debug: Log unmapped categories ---
     if feed_category:
