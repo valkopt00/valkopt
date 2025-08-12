@@ -1215,7 +1215,6 @@ def get_feed_domain(feed_url):
     return feed_url
 
 def map_category(feed_category, feed_url, item_link=None):
-def map_category(feed_category, feed_url, item_link=None):
     """
     Maps the provided feed category and URL to a standardized category using predefined mappers.
     Includes special handling for certain sources (e.g., CM Jornal, Renascença, Sapo.pt, Público, and Expresso).
