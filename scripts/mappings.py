@@ -129,7 +129,7 @@ CATEGORY_GROUPS = {
         "Finanças", "Sistema financeiro"
     ],
     "Cultura": [
-        "Cultura", "Livros", "Cinema", "Blitz", "Inimigo-publico",
+        "Cultura", "Livros", "Livro", "Cinema", "Blitz", "Inimigo-publico",
         "Artes", "Música",  "Festivais de Verão", "Fotografia",
         "Crítica", "Televisão", "Culturas", "Culturaipsilon", "Entretenimento"
     ],

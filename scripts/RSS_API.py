@@ -1288,16 +1288,16 @@ def map_category(feed_category, feed_url, item_link=None):
             pass
 
     # --- Debug detalhado para Cinema ---
-    if feed_category == "Roupa":
-        print(f"DEBUG Roupa detalhado:")
+    if feed_category == "Livro":
+        print(f"DEBUG Livro detalhado:")
         print(f"  feed_category repr: {repr(feed_category)}")
         print(f"  feed_category length: {len(feed_category)}")
-        if 'Lifestyle' in CATEGORY_MAPPER:
-            lifestyle_list = CATEGORY_MAPPER['Lifestyle']
-            print(f"  Lista Lifestyle: {lifestyle_list}")
-            for i, cat in enumerate(lifestyle_list):
+        if 'Cultura' in CATEGORY_MAPPER:
+            cultura_list = CATEGORY_MAPPER['Cultura']
+            print(f"  Lista Cultura: {cultura_list}")
+            for i, cat in enumerate(cultura_list):
                 print(f"    [{i}] repr: {repr(cat)} | equal: {cat == feed_category}")
-                if "Roupa" in cat or "roupa" in cat.lower():
+                if "Livro" in cat or "livro" in cat.lower():
                     print(f"         MATCH FOUND: {repr(cat)}")
 
     # --- Debug: Log unmapped categories ---
