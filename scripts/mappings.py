@@ -140,7 +140,7 @@ CATEGORY_GROUPS = {
         "Direto do lab", "Exame Informática", "Exameinformatica",
         "Redes_sociais", "Redes sociais", "Exame", "Facebook", "Apple", "Smartphones-tablets",
         "Biomedicina", "Espaço", "Paleontologia", "Inteligência artificial",
-        "Software"
+        "Software", "Telecomunicações"
     ],
     "Sociedade": [
         "Sociedade", "Coronavírus", "Mau tempo", "Sustentabilidade",
