@@ -1,5 +1,5 @@
 # Branch Data - Sistema JSON Simplificado
-Atualizado automaticamente em: 2025-08-19 05:19:26
+Atualizado automaticamente em: 2025-08-19 05:42:50
 
 ## 🎯 Arquitetura simplificada:
 Apenas **3 ficheiros JSON** essenciais, comprimidos automaticamente pelo Netlify (~65% redução):
@@ -14,6 +14,6 @@ Apenas **3 ficheiros JSON** essenciais, comprimidos automaticamente pelo Netlify
 - **original_categories.json** - Mapeamento de categorias originais
 
 ## ⚡ Performance esperada:
-- **Carregamento inicial**: ~456K (2-4 segundos)
+- **Carregamento inicial**: ~453K (2-4 segundos)
 - **Todas as categorias**: Disponíveis imediatamente após carregamento
 - **Zero problemas de timing**: Sem dependências entre ficheiros
