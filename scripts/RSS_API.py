@@ -19,6 +19,26 @@ from dateutil import tz
 from dateutil import parser
 import unicodedata
 
+# Create normalized mapping for faster lookups
+def create_normalized_category_mappings():
+    """Create normalized mappings from the CATEGORY_MAPPER"""
+    normalized_to_main = {}
+    
+    # Handle the inverted structure from mappings.py
+    for alias, main_category in CATEGORY_MAPPER.items():
+        normalized_alias = normalize_text(alias)
+        normalized_to_main[normalized_alias] = main_category
+        
+        # Also add the main category itself
+        normalized_main = normalize_text(main_category)
+        if normalized_main not in normalized_to_main:
+            normalized_to_main[normalized_main] = main_category
+    
+    return normalized_to_main
+
+# Initialize the normalized mapping once
+NORMALIZED_SUBCATEGORY_TO_MAIN = create_normalized_category_mappings()
+
 async def get_articles():
     """
     Main function to fetch articles from all sources and process them.
@@ -54,9 +74,19 @@ async def get_articles():
                 print(f"❌ Error processing {feed_url}: {result}")
             else:
                 feed_url = RSS_FEEDS[i] if i < len(RSS_FEEDS) else "API_SOURCE"
-                print(f"⚠️  Unknown result type for {feed_url}: {type(result)}")
+                print(f"⚠️ Unknown result type for {feed_url}: {type(result)}")
 
     print(f"📊 Total articles before sorting: {len(articles)}")
+    
+    # Debug: Print category distribution before sorting
+    category_counts = {}
+    for article in articles:
+        cat = article.get("category", "Unknown")
+        category_counts[cat] = category_counts.get(cat, 0) + 1
+    
+    print("🔍 Category distribution of NEW articles:")
+    for cat, count in sorted(category_counts.items()):
+        print(f"   - {cat}: {count} articles")
     
     # Sort articles by publication date (newest first)
     articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
@@ -124,7 +154,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
             "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
         }
         
-        print(f"🔄 Processing RSS feed: {feed_url}")
+        print(f"📄 Processing RSS feed: {feed_url}")
         
         async with session.get(feed_url, headers=headers, timeout=timeout) as response:
             if response.status != 200:
@@ -154,7 +184,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                         content = content_bytes.decode('latin1', errors='replace')
             
             if not content.strip():
-                print(f"⚠️  Empty content from {feed_url}")
+                print(f"⚠️ Empty content from {feed_url}")
                 return []
                 
             # Parse the feed content
@@ -162,7 +192,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
             
             # Better error handling for feedparser
             if hasattr(feed, 'bozo') and feed.bozo:
-                print(f"⚠️  Feed parsing warning for {feed_url}: {feed.bozo_exception}")
+                print(f"⚠️ Feed parsing warning for {feed_url}: {feed.bozo_exception}")
             
             print(f"📄 Found {len(feed.entries)} entries in feed: {feed_url}")
             
@@ -239,22 +269,18 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     # Capture original category
                     original_category = feed_category
 
-                    # Prefer a full feed URL if available; fallback to feed_domain
-                    _feed_url_for_map = feed_url if 'feed_url' in locals() and feed_url else feed_domain
-
-                    # Map category (use link, not guid)
-                    category = map_category(feed_category, _feed_url_for_map, link)
+                    # Map category using the fixed function
+                    category = map_category(feed_category, feed_url, link)
 
                     # fallback if mapping failed or returned falsy
                     if not category:
                         category = "Outras Notícias"
 
-                    pub_date = parse_date(pub_date_str, source_url=_feed_url_for_map)
+                    pub_date = parse_date(pub_date_str, source_url=feed_url)
 
                     if pub_date:
-                        # More lenient time filtering - keep articles from last 24 hours instead of 12
                         article_age = datetime.now(timezone.utc) - pub_date
-                        if article_age <= timedelta(hours=24):  # Increased from 12 to 24 hours
+                        if article_age <= timedelta(hours=12):  
                             article = {
                                 "title": title,
                                 "description": description,
@@ -266,6 +292,10 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                                 "isExclusive": False,
                                 "original_category": original_category
                             }
+
+                            # Debug: Print category mapping for problematic cases
+                            if category == "Outras Notícias" and original_category:
+                                print(f"🔍 MAPPED TO 'Outras Notícias': '{original_category}' from {feed_url}")
 
                             # Add to articles based on category and date
                             articles.append(article)
@@ -317,14 +347,6 @@ def normalize_text(text):
     text = ' '.join(text.split())
     
     return text
-
-NORMALIZED_SUBCATEGORY_TO_MAIN = {}
-for main_category, cat_list in CATEGORY_MAPPER.items():
-    if isinstance(cat_list, list):
-        for sub in cat_list:
-            NORMALIZED_SUBCATEGORY_TO_MAIN[normalize_text(sub)] = main_category
-    else:
-        NORMALIZED_SUBCATEGORY_TO_MAIN[normalize_text(main_category)] = cat_list
 
 def create_search_articles(articles_dict):
     """
@@ -463,7 +485,7 @@ def parse_date(date_str, source_url=None):
             from dateutil import parser
             parsed_dt = parser.parse(date_str)
         except:
-            print(f"⚠️  Failed to parse date: {date_str}")
+            print(f"⚠️ Failed to parse date: {date_str}")
             return None
     
     # Add timezone if missing
@@ -505,7 +527,7 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
         List of processed articles or False if error occurs
     """
     try:
-        print(f"🔄 Processing API source: {api_source['url']}")
+        print(f"📄 Processing API source: {api_source['url']}")
         
         timeout = ClientTimeout(total=45)  # Increased timeout
         async with session.get(api_source["url"], headers=api_source["headers"], timeout=timeout) as response:
@@ -537,16 +559,15 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
                 feed_category = item.get("rubrica") or item.get("tag", "Últimas")
                 original_category = feed_category
                 
-                category = map_category(feed_category, source, link)
+                category = map_category(feed_category, api_source["url"], link)
                 if not category:
                     category = "Últimas"
 
                 pub_date = parse_date(pub_date_str, source_url=api_source["url"])
 
                 if pub_date:
-                    # More lenient time filtering
                     article_age = datetime.now(timezone.utc) - pub_date
-                    if article_age <= timedelta(hours=24):  # Increased from 12 to 24 hours
+                    if article_age <= timedelta(hours=12):  
                         article = {
                             "title": title,
                             "description": description,
@@ -611,13 +632,14 @@ def is_article_within_timeframe(article_date_str, category, current_date):
         else:
             return current_date - article_date <= timedelta(days=5)  
     except Exception as e:
-        print(f"⚠️  Error parsing article date {article_date_str}: {e}")
+        print(f"⚠️ Error parsing article date {article_date_str}: {e}")
         return False
 
 def merge_articles(existing_articles, new_articles, current_date):
     """
     Merge new articles with existing ones, ensuring articles appear both
     in their category AND in "Últimas" if within 12 hours.
+    Fixed to properly preserve article categories.
     """
     merged = {}
     seen_titles = set()
@@ -633,14 +655,20 @@ def merge_articles(existing_articles, new_articles, current_date):
     # Combine existing and new articles
     all_articles = []
     
-    # Add existing articles
+    # Add existing articles (preserve their existing categories)
     for category, articles in existing_articles.items():
         for article in articles:
             if isinstance(article, dict):
-                all_articles.append(article)
+                # Ensure the article keeps its original category assignment
+                article_copy = article.copy()
+                article_copy["original_assigned_category"] = category  # Track where it was stored
+                all_articles.append(article_copy)
     
     # Add new articles
-    all_articles.extend(new_articles)
+    for article in new_articles:
+        article_copy = article.copy()
+        article_copy["original_assigned_category"] = article.get("category", "Outras Notícias")
+        all_articles.append(article_copy)
     
     print(f"📊 Merging {len(all_articles)} total articles")
     print(f"📊 New articles: {len(new_articles)}")
@@ -653,13 +681,14 @@ def merge_articles(existing_articles, new_articles, current_date):
     
     for article in all_articles:
         title = article.get("title")
-        category = article.get("category")
+        category = article.get("category")  # This is the mapped category
+        original_assigned_category = article.get("original_assigned_category", category)
         pub_date = article.get("pubDate")
         
         # Skip invalid articles
         if not all([title, category, pub_date]):
             skipped_invalid += 1
-            print(f"⚠️  Skipped invalid article: title={bool(title)}, category={category}, pubDate={bool(pub_date)}")
+            print(f"⚠️ Skipped invalid article: title={bool(title)}, category={category}, pubDate={bool(pub_date)}")
             continue
         
         # Skip duplicates - use exact title match (case insensitive)
@@ -674,11 +703,12 @@ def merge_articles(existing_articles, new_articles, current_date):
             article_date = article_date.replace(tzinfo=timezone.utc)
         except:
             skipped_invalid += 1
-            print(f"⚠️  Invalid date format: {pub_date}")
+            print(f"⚠️ Invalid date format: {pub_date}")
             continue
         
         # Check if article should be kept based on category-specific retention
-        if not is_article_within_timeframe(pub_date, category, current_date):
+        # Use the original assigned category for retention logic
+        if not is_article_within_timeframe(pub_date, original_assigned_category, current_date):
             skipped_expired += 1
             continue
         
@@ -687,13 +717,15 @@ def merge_articles(existing_articles, new_articles, current_date):
         
         # VALIDATE category - only allow predefined categories
         if category not in all_categories:
-            print(f"⚠️  Invalid category '{category}' for article '{title[:50]}...', mapping to 'Outras Notícias'")
+            print(f"⚠️ Invalid category '{category}' for article '{title[:50]}...', mapping to 'Outras Notícias'")
             category = "Outras Notícias"
             # Update the article's category
             article["category"] = category
         
         # ALWAYS add to the article's mapped category (now guaranteed to be valid)
-        merged[category].append(article)
+        article_for_category = article.copy()
+        article_for_category.pop("original_assigned_category", None)  # Remove our tracking field
+        merged[category].append(article_for_category)
         processed_count += 1
         
         # ALSO add to "Últimas" if within 12 hours (regardless of original category)
@@ -704,6 +736,7 @@ def merge_articles(existing_articles, new_articles, current_date):
                 # Create a copy and ensure it has the right category for Últimas
                 ultimas_article = article.copy()
                 ultimas_article["category"] = "Últimas"  # Ensure consistency
+                ultimas_article.pop("original_assigned_category", None)  # Remove tracking field
                 merged["Últimas"].append(ultimas_article)
                 ultimas_count += 1
     
@@ -874,6 +907,7 @@ def export_original_categories_to_json(articles):
         print(f"CRITICAL ERROR in original category export: {str(e)}")
         traceback.print_exc()
         return False
+
 async def is_content_exclusive_from_url(link, session):
     """
     Checks if the content at the given URL is exclusive (e.g. behind a paywall or marked as premium).
@@ -972,8 +1006,8 @@ def fix_encoding(text):
     """
     Fix only when common double-encoding artifacts are detected.
     """
-    # Typical patterns of bad decoding: "Ã©", "Ã¡", "Ãª", "Ã£", etc.
-    if not re.search(r"[ÃÂ][©ª¢±º«°]", text):
+    # Typical patterns of bad decoding: "ÃƒÂ©", "ÃƒÂ¡", "ÃƒÂª", "ÃƒÂ£", etc.
+    if not re.search(r"[ÃƒÃ‚][Â©ÂªÂ¢Â±ÂºÂ«Â°]", text):
         return text  # Looks fine, don't touch
     
     try:
@@ -1249,9 +1283,8 @@ def get_feed_domain(feed_url):
 
 def map_category(feed_category, feed_url, item_link=None):
     """
-    Map the provided feed category and URL to a standardized category using
-    the CATEGORY_MAPPER and FEED_CATEGORY_MAPPER. Uses normalized lookups so
-    'Café Central' matches 'cafe central' etc. Special cases for Público and Expresso.
+    FIXED: Map the provided feed category and URL to a standardized category using
+    the CATEGORY_MAPPER and FEED_CATEGORY_MAPPER. Uses normalized lookups.
     """
     if isinstance(feed_url, dict):
         feed_url = feed_url.get("url", "") or ""
@@ -1268,16 +1301,12 @@ def map_category(feed_category, feed_url, item_link=None):
             for i in range(len(parts) - 3):
                 if (parts[i].isdigit() and len(parts[i]) == 4 and
                     parts[i+1].isdigit() and len(parts[i+1]) == 2 and
-                    parts[i+2].isdigit() and len(parts[i+2]) == 2):
+                    parts[i+2].isdigit() and len(parts[i+2]) == 2 and
+                    i+3 < len(parts)):
                     candidate = parts[i+3]
                     mapped = find_category_in_mapper(candidate)
                     if mapped:
                         return mapped
-                    # also try direct keys in CATEGORY_MAPPER (normalized)
-                    for k, v in CATEGORY_MAPPER.items():
-                        if normalize_text(k) == normalize_text(candidate):
-                            return v
-                    # If not mapped by URL, do NOT return — allow feed_category mapping below.
                     break
 
         # Expresso: only override if not a supplement path (/semanario)
@@ -1287,10 +1316,6 @@ def map_category(feed_category, feed_url, item_link=None):
                 mapped = find_category_in_mapper(candidate)
                 if mapped:
                     return mapped
-                for k, v in CATEGORY_MAPPER.items():
-                    if normalize_text(k) == normalize_text(candidate):
-                        return v
-                # If not mapped by URL, do NOT return — allow feed_category mapping below.
 
     # --- Direct mapping by feed URL prefix (FEED_CATEGORY_MAPPER) ---
     for feed_prefix, default_category in FEED_CATEGORY_MAPPER.items():
@@ -1299,23 +1324,18 @@ def map_category(feed_category, feed_url, item_link=None):
             mapped = find_category_in_mapper(default_category)
             if mapped:
                 return mapped
-            # If default_category matches a key in CATEGORY_MAPPER (normalized), return its mapping
-            for k, v in CATEGORY_MAPPER.items():
-                if normalize_text(k) == normalize_text(default_category):
-                    return v
-            # otherwise return the default as a last resort
-            return default_category
+            # Return the default category directly if it's valid
+            if default_category in ["Últimas", "Nacional", "Mundo", "Desporto", "Economia", 
+                                  "Cultura", "Ciência e Tech", "Lifestyle", "Sociedade", 
+                                  "Política", "Multimédia", "Opinião", "Vídeojogos"]:
+                return default_category
+            break
 
-    # --- Map feed category - handle both mapper structures ---
+    # --- Map feed category using the fixed mapper structure ---
     if feed_cat_norm:
         mapped = find_category_in_mapper(feed_cat_norm)
         if mapped:
             return mapped
-
-        # check CATEGORY_MAPPER keys normalized
-        for k, v in CATEGORY_MAPPER.items():
-            if normalize_text(k) == feed_cat_norm:
-                return v
 
     # --- CM Jornal special case ---
     if "cmjornal.pt" in (feed_url or "") and item_link:
@@ -1326,10 +1346,6 @@ def map_category(feed_category, feed_url, item_link=None):
             mapped = find_category_in_mapper(candidate)
             if mapped:
                 return mapped
-            for k, v in CATEGORY_MAPPER.items():
-                if normalize_text(k) == normalize_text(candidate):
-                    return v
-            return "Outras Notícias"
 
     # --- Renascença special case ---
     if "rr.sapo.pt" in (feed_url or "") and item_link and "/noticia/" in item_link:
@@ -1342,14 +1358,11 @@ def map_category(feed_category, feed_url, item_link=None):
                 mapped = find_category_in_mapper(candidate)
                 if mapped:
                     return mapped
-                for k, v in CATEGORY_MAPPER.items():
-                    if normalize_text(k) == normalize_text(candidate):
-                        return v
         except ValueError:
             pass
 
     # --- Debug: Log unmapped categories ---
-    if feed_category:
+    if feed_category and feed_category.strip():
         print(f"⚠️ Unmapped category: raw='{feed_category}' normalized='{feed_cat_norm}' from {feed_url}")
 
     # --- Fallback to "Outras Notícias" if nothing matches ---
@@ -1362,7 +1375,8 @@ def find_category_in_mapper(category_to_find):
     """
     if not category_to_find:
         return None
-    return NORMALIZED_SUBCATEGORY_TO_MAIN.get(normalize_text(category_to_find))
+    normalized = normalize_text(category_to_find)
+    return NORMALIZED_SUBCATEGORY_TO_MAIN.get(normalized)
     
 async def main():
     """
