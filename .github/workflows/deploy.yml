@@ -11,32 +11,42 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # ✅ OTIMIZAÇÃO 1: Checkout otimizado com fetch de ambas as branches
-      - name: Checkout otimizado do repositório
+      # ✅ OTIMIZAÇÃO 1: Checkout direto da branch data (se existir) ou main
+      - name: Checkout otimizado com tentativa de branch data
+        id: checkout_data
+        continue-on-error: true
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
-          ref: main  # Checkout explícito da main
+          ref: data  # Tentar checkout direto da branch data
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ✅ OTIMIZAÇÃO 2: Setup da branch data de forma otimizada
-      - name: Preparar branch data
+      # ✅ OTIMIZAÇÃO 2: Fallback para main se data não existir
+      - name: Checkout main se data falhou
+        if: steps.checkout_data.outcome == 'failure'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ✅ OTIMIZAÇÃO 3: Setup da branch data apenas se necessário
+      - name: Criar branch data se não existir
+        if: steps.checkout_data.outcome == 'failure'
         run: |
-          # Listar branches remotas para debug
-          echo "Branches remotas disponíveis:"
-          git branch -r
+          echo "Branch data não existe - criando branch orphan"
+          git checkout --orphan data
+          git reset --hard
+          mkdir -p articles public
           
-          # Fetch e checkout da branch data se existir
-          if git ls-remote --exit-code origin data; then
-            echo "✅ Branch data existe - fazendo fetch e checkout"
-            git fetch origin data:data
-            git checkout data
-          else
-            echo "ℹ️ Branch data não existe - criando nova branch orphan"
-            git checkout --orphan data
-            git reset --hard
-          fi
-          
+          # Criar ficheiro original_categories.json vazio
+          echo '{"categories": {}, "articles": {}}' > articles/original_categories.json
+
+      # ✅ OTIMIZAÇÃO 4: Apenas criar pastas se já estamos em data
+      - name: Preparar estrutura de pastas
+        if: steps.checkout_data.outcome == 'success'
+        run: |
+          echo "✅ Já estamos na branch data"
           mkdir -p articles public
           
           # Criar ficheiro original_categories.json vazio se não existir
