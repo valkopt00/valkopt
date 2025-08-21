@@ -130,9 +130,9 @@ CATEGORY_GROUPS = {
         "Finanças", "Sistema financeiro", "Descodificador"
     ],
     "Cultura": [
-        "Cultura", "Livros", "Livro", "Cinema", "Blitz", "Inimigo-publico",
-        "Artes", "Música",  "Festivais de Verão", "Fotografia",
-        "Crítica", "Televisão", "Culturas", "Culturaipsilon", "Entretenimento"
+        "Cultura", "Livros", "Livro", "Cinema", "Blitz", "Música", 
+        "Artes", "Festivais de Verão", "Fotografia", "Crítica",
+        "Televisão", "Culturas", "Culturaipsilon", "Entretenimento"
     ],
     "Ciência e Tech": [
         "Ciência e Tech", "Ciência & Tech", "Ciência", "Ciencia",
