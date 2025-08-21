@@ -7,7 +7,7 @@ from html import unescape
 from xml.etree.ElementTree import Element
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
-from scripts.mappings import CATEGORY_MAPPER, FEED_CATEGORY_MAPPER, API_SOURCES, RSS_FEEDS, DATE_FORMATS
+from scripts.mappings import CATEGORY_MAPPER, FEED_CATEGORY_MAPPER, API_SOURCES, RSS_FEEDS, DATE_FORMATS, IGNORE_ORIGINAL_CATS
 import feedparser
 import asyncio
 import aiohttp
@@ -817,6 +817,10 @@ def export_original_categories_to_json(articles):
                 source = article.get("source", "").strip()
                 mapped_cat = "Outras Notícias"  # We already know it maps to "Outras Notícias"
                 orig_cat = article.get("original_category", "").strip()
+
+                # Check mapping for ignored categories
+                if orig_cat in IGNORE_ORIGINAL_CATS:
+                    continue
 
                 # Only count this as a new occurrence if we haven't seen this URL before
                 if orig_cat:

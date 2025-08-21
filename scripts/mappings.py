@@ -106,7 +106,7 @@ CATEGORY_GROUPS = {
         "Diplomacia", "EUA", "Público Brasil", "Brasil", "Israel", "Reino Unido",
         "Turquia", "Ursula von der Leyen", "América Latina", "Espanha",
         "Bósnia-Herzegovina", "Geopolítica", "França", "Nigéria", "Angola", "Ásia",
-        "China", "Guerra Israel-Hamas", "Publico-brasil"
+        "China", "Guerra Israel-Hamas", "Publico-brasil", "Cabo Verde"
     ],
     "Desporto": [
         "Desporto", "Futebol", "Benfica", "Sporting", "Porto",
@@ -140,7 +140,7 @@ CATEGORY_GROUPS = {
         "Direto do lab", "Exame Informática", "Exameinformatica",
         "Redes_sociais", "Redes sociais", "Exame", "Facebook", "Apple", "Smartphones-tablets",
         "Biomedicina", "Espaço", "Paleontologia", "Inteligência artificial",
-        "Software", "Telecomunicações"
+        "Software", "Telecomunicações", "Robótica"
     ],
     "Sociedade": [
         "Sociedade", "Coronavírus", "Mau tempo", "Sustentabilidade",
@@ -188,7 +188,7 @@ CATEGORY_GROUPS = {
         "Editorial", "Linhas Direitas", "José jorge letria", "Liveblogs",
         "Artigos de Newsletter", "O Vale Era Verde", "Opinião União Europeia",
         "Isso era uma longa conversa", "Opinião Protopia", "Café Central",
-         "Tanto faz não é resposta"
+         "Tanto faz não é resposta", "Vestígios de Azul", "Diário do Governo"
     ],
     "Lifestyle": [
         "Lifestyle", "Comer e beber", "Gastronomia", "Vida",
@@ -204,6 +204,26 @@ CATEGORY_GROUPS = {
     "Outras Notícias": [
         "Outras Notícias"
     ]
+}
+
+IGNORE_ORIGINAL_CATS = {
+    "+E",
+    "Edição Impressa",
+    "Prémios do Imobiliário",
+    "Expresso Fundamental",
+    "Capas",
+    "Em Destaque",
+    "Cm ao Minuto",
+    "A semana",
+    "Expressinho",
+    "Observador",
+    "Domingo",
+    "Briefing",
+    "Enter",
+    "Relaxar",
+    "LUSA-INBOX",
+    "A Beleza das Pequenas Coisas",
+    "Análise"
 }
 
 CATEGORY_MAPPER = {
