@@ -18,15 +18,14 @@ jobs:
           fetch-depth: 1  # Apenas o último commit (reduz de 45s para ~5-8s)
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ✅ OTIMIZAÇÃO 2: Fetch seletivo apenas das branches necessárias
-      - name: Fetch branches necessárias
+      # ✅ OTIMIZAÇÃO 2: Fetch seletivo apenas da branch data
+      - name: Preparar branch data e fetch necessário
         run: |
-          # Fetch apenas a branch data (se existir) e main
-          git fetch origin data:data || echo "Branch data não existe ainda"
-          git fetch origin main:main
+          # Fetch apenas a branch data (se existir)
+          git fetch origin data || echo "Branch data não existe ainda"
           
           # Mudar para branch data
-          if git show-ref --verify --quiet refs/heads/data; then
+          if git show-ref --verify --quiet refs/remotes/origin/data; then
             git checkout data
           else
             git checkout --orphan data
@@ -55,20 +54,20 @@ jobs:
           python-version: '3.10'
           cache: 'pip'  # Cache automático do pip
 
-      # ✅ OTIMIZAÇÃO 5: Extração otimizada de scripts (usando refs locais)
+      # ✅ OTIMIZAÇÃO 5: Extração otimizada de scripts
       - name: Extrair scripts e requirements da branch main
         run: |
           mkdir -p temp-scripts/scripts/exporters
           
-          # Usar referência local main em vez de origin/main (mais rápido)
-          git show main:requirements.txt > temp-scripts/requirements.txt
-          git show main:scripts/RSS_API.py > temp-scripts/scripts/RSS_API.py
-          git show main:scripts/__init__.py > temp-scripts/scripts/__init__.py
-          git show main:scripts/mappings.py > temp-scripts/scripts/mappings.py
-          git show main:scripts/remove_articles.py > temp-scripts/scripts/remove_articles.py
-          git show main:scripts/reset_counts_with_backup.py > temp-scripts/scripts/reset_counts_with_backup.py
-          git show main:scripts/remove_duplicates.py > temp-scripts/scripts/remove_duplicates.py
-          git show main:scripts/exporters/export_original_categories.py > temp-scripts/scripts/exporters/export_original_categories.py
+          # Usar origin/main já que estamos na branch data
+          git show origin/main:requirements.txt > temp-scripts/requirements.txt
+          git show origin/main:scripts/RSS_API.py > temp-scripts/scripts/RSS_API.py
+          git show origin/main:scripts/__init__.py > temp-scripts/scripts/__init__.py
+          git show origin/main:scripts/mappings.py > temp-scripts/scripts/mappings.py
+          git show origin/main:scripts/remove_articles.py > temp-scripts/scripts/remove_articles.py
+          git show origin/main:scripts/reset_counts_with_backup.py > temp-scripts/scripts/reset_counts_with_backup.py
+          git show origin/main:scripts/remove_duplicates.py > temp-scripts/scripts/remove_duplicates.py
+          git show origin/main:scripts/exporters/export_original_categories.py > temp-scripts/scripts/exporters/export_original_categories.py
 
       # ✅ OTIMIZAÇÃO 6: Instalação de dependências com cache
       - name: Instalar dependências
@@ -92,8 +91,8 @@ jobs:
           
           # Cópia otimizada de ficheiros HTML estáticos (com verificação em batch)
           for file in "politica_de_privacidade.html" "termos_de_utilizacao.html" "contacto.html" "app-ads.txt"; do
-            if git cat-file -e main:public/$file 2>/dev/null; then
-              git show main:public/$file > public/$file
+            if git cat-file -e origin/main:public/$file 2>/dev/null; then
+              git show origin/main:public/$file > public/$file
             fi
           done
 
