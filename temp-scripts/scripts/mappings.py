@@ -118,7 +118,8 @@ CATEGORY_GROUPS = {
         "Formula1", "Auto", "Bola-branca", "Futebol feminino", "Volta à França",
         "Automobilismo", "MotoGP", "Ciclismo", "Râguebi", "Futebol internacional",
         "Clube-portugal", "Especial-de-corrida", "Futebol-nacional", "Red Bull",
-        "Ténis", "1.ª Liga", "Atletismo", "FC Porto", "Modalidade", "Liga dos Campeões"
+        "Ténis", "1.ª Liga", "Atletismo", "FC Porto", "Modalidade", "Liga dos Campeões",
+        "Basquetebol"
     ],
     "Economia": [
         "Economia", "Negócios", "Segurança Social", "Bolsa e Mercados",
@@ -161,7 +162,7 @@ CATEGORY_GROUPS = {
         "TAP", "linha de cascais", "tuk-tuk", "verao", "Agricultura",
         "Tráfico", "Ensino", "Trabalho", "Migrações", "Religião", "Média", 
         "Imigração", "Longevidade", "Ambiente e Território", "Impar", "Azul",
-        "Obituário"
+        "Obituário", "P3"
     ],
     "Política": [
         "Política", "Politica", "Defesa", "Presidenciais 2026",
@@ -191,7 +192,7 @@ CATEGORY_GROUPS = {
         "Artigos de Newsletter", "O Vale Era Verde", "Opinião União Europeia",
         "Isso era uma longa conversa", "Opinião Protopia", "Café Central",
          "Tanto faz não é resposta", "Vestígios de Azul", "Diário do Governo",
-        "Bloco de Notas"
+        "Bloco de Notas", "Newsletter", "Opinao"
     ],
     "Lifestyle": [
         "Lifestyle", "Comer e beber", "Gastronomia", "Vida",
