@@ -192,7 +192,7 @@ CATEGORY_GROUPS = {
         "Artigos de Newsletter", "O Vale Era Verde", "Opinião União Europeia",
         "Isso era uma longa conversa", "Opinião Protopia", "Café Central",
          "Tanto faz não é resposta", "Vestígios de Azul", "Diário do Governo",
-        "Bloco de Notas", "Newsletter"
+        "Bloco de Notas", "Newsletter", "Opinao"
     ],
     "Lifestyle": [
         "Lifestyle", "Comer e beber", "Gastronomia", "Vida",
