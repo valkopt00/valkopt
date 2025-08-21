@@ -11,26 +11,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # ✅ OTIMIZAÇÃO 1: Checkout shallow inicial (apenas último commit)
+      # ✅ OTIMIZAÇÃO 1: Checkout otimizado com fetch de ambas as branches
       - name: Checkout otimizado do repositório
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1  # Apenas o último commit (reduz de 45s para ~5-8s)
+          fetch-depth: 1
+          ref: main  # Checkout explícito da main
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ✅ OTIMIZAÇÃO 2: Fetch seletivo apenas da branch data
-      - name: Preparar branch data e fetch necessário
+      # ✅ OTIMIZAÇÃO 2: Setup da branch data de forma otimizada
+      - name: Preparar branch data
         run: |
-          # Fetch apenas a branch data (se existir)
-          git fetch origin data || echo "Branch data não existe ainda"
+          # Listar branches remotas para debug
+          echo "Branches remotas disponíveis:"
+          git branch -r
           
-          # Mudar para branch data
-          if git show-ref --verify --quiet refs/remotes/origin/data; then
+          # Fetch e checkout da branch data se existir
+          if git ls-remote --exit-code origin data; then
+            echo "✅ Branch data existe - fazendo fetch e checkout"
+            git fetch origin data:data
             git checkout data
           else
+            echo "ℹ️ Branch data não existe - criando nova branch orphan"
             git checkout --orphan data
             git reset --hard
           fi
+          
           mkdir -p articles public
           
           # Criar ficheiro original_categories.json vazio se não existir
