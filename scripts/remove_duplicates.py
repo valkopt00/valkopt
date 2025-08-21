@@ -4,6 +4,11 @@ import os
 # JSON file to process
 json_file = "articles/articles.json"
 
+# Check if file exists
+if not os.path.exists(json_file):
+    print(f"File {json_file} does not exist. Skipping duplicate removal.")
+    exit(0)
+
 # Load data from the JSON file
 with open(json_file, "r", encoding="utf-8") as f:
     try:
@@ -20,7 +25,6 @@ total_after = 0
 
 # Iterate over each category in the JSON
 for category, articles in list(data.items()):
-    # Only process if this entry is a list of articles
     if isinstance(articles, list):
         before_count = len(articles)
         total_before += before_count
@@ -49,8 +53,6 @@ for category, articles in list(data.items()):
 with open(json_file, "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 
-print(f"\nSummary:")
-print(f"Total articles before: {total_before}")
-print(f"Total articles after: {total_after}")
 print(f"Total duplicates removed: {total_removed}")
-print(f"File updated: {json_file}")
+if total_removed > 0:
+    print(f"File updated: {json_file}")

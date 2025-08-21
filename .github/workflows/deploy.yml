@@ -42,8 +42,9 @@ jobs:
           git show origin/main:scripts/mappings.py > temp-scripts/scripts/mappings.py
           git show origin/main:scripts/remove_articles.py > temp-scripts/scripts/remove_articles.py
           git show origin/main:scripts/reset_counts_with_backup.py > temp-scripts/scripts/reset_counts_with_backup.py
+          git show origin/main:scripts/remove_duplicates.py > temp-scripts/scripts/remove_duplicates.py
           git show origin/main:scripts/exporters/export_original_categories.py > temp-scripts/scripts/exporters/export_original_categories.py
-
+          
       - name: Configurar cache do pip
         uses: actions/cache@v3
         with:
