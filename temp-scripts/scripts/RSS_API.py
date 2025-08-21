@@ -301,6 +301,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     # fallback if mapping failed or returned falsy
                     if not category:
                         category = "Outras Notícias"
+                    print(f"DEBUG RSS: title='{title[:50]}', feed_category='{feed_category}', mapped='{category}'")
 
                     pub_date = parse_date(pub_date_str, source_url=feed_url)
 
@@ -1375,7 +1376,9 @@ def find_category_in_mapper(category_to_find):
     if not category_to_find:
         return None
     normalized = normalize_text(category_to_find)
-    return NORMALIZED_SUBCATEGORY_TO_MAIN.get(normalized)
+    result = NORMALIZED_SUBCATEGORY_TO_MAIN.get(normalized)
+    print(f"DEBUG find_category: '{category_to_find}' -> '{normalized}' -> '{result}'")
+    return result
     
 async def main():
     """
