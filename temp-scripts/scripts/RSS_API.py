@@ -693,9 +693,9 @@ def merge_articles(existing_articles, new_articles, current_date):
         
         # Skip duplicates - use exact title match (case insensitive)
         title_lower = title.lower().strip()
-        if title_lower in seen_titles:
+        """ if title_lower in seen_titles:
             skipped_duplicates += 1
-            continue
+            continue """
         
         # Parse article date for time checks
         try:
