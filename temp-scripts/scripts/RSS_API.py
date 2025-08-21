@@ -21,26 +21,26 @@ import unicodedata
 
 def normalize_text(text):
     """
-    Normaliza texto removendo acentos, convertendo para minúsculas,
-    removendo pontuação e espaços extras.
+    Normalizes text by removing accents, converting to lowercase,
+    removing punctuation and extra spaces.
     
     Args:
-        text: String a ser normalizada
+        text: String to be normalized
         
     Returns:
-        String normalizada para pesquisa
+        Normalized string for search
     """
     if not text:
         return ""
     
-    # Remove acentos (NFD decomposição + remoção de marcas diacríticas)
+    # Remove accents (NFD decomposition + removal of diacritical marks)
     text = unicodedata.normalize('NFD', text)
     text = ''.join(c for c in text if unicodedata.category(c) != 'Mn')
     
-    # Minúsculas e remove pontuação (mantém apenas letras, números e espaços)
+    # Lowercase and remove punctuation (keep only letters, numbers, and spaces)
     text = re.sub(r'[^\w\s]', ' ', text.lower())
     
-    # Remove espaços extras
+    # Remove extra spaces
     text = ' '.join(text.split())
     
     return text
@@ -350,19 +350,19 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
 
 def create_search_articles(articles_dict):
     """
-    Cria uma versão simplificada dos artigos apenas para pesquisa.
-    Contém apenas os campos normalizados e o link para mapeamento.
+    Creates a simplified version of the articles only for search.  
+    Contains only the normalized fields and the mapping link.
     
     Args:
-        articles_dict: Dicionário com categorias e artigos
+        articles_dict: Dictionary with categories and articles
         
     Returns:
-        Dicionário com artigos simplificados para pesquisa
+        Dictionary with simplified articles for search
     """
     search_articles = {}
     total_processed = 0
     
-    print("🔍 Criando versão simplificada para pesquisa...")
+    print("🔍 Creating simplified version for search...")
     
     for category, articles_list in articles_dict.items():
         if not articles_list:
@@ -376,9 +376,9 @@ def create_search_articles(articles_dict):
                 description = article.get('description', '')
                 link = article.get('link', '')
                 
-                # Apenas os campos necessários para pesquisa
+                # Only the necessary fields for search
                 search_article = {
-                    "link": link,  # Para mapeamento com articles.json
+                    "link": link,  # For mapping with articles.json
                     "normalized_title": normalize_text(title),
                     "normalized_description": normalize_text(description)
                 }
@@ -387,32 +387,32 @@ def create_search_articles(articles_dict):
                 total_processed += 1
                 
             except Exception as e:
-                print(f"❌ Erro ao processar artigo para pesquisa: {e}")
+                print(f"❌ Error processing article for search: {e}")
                 continue
     
-    print(f"✅ {total_processed} artigos simplificados para pesquisa")
+    print(f"✅ {total_processed} simplified articles for search")
     return search_articles
 
 
 def export_search_json(merged_articles):
     """
-    Exporta versão normalizada dos artigos para pesquisa.
+    Exports normalized version of articles for search.
     
     Args:
-        merged_articles: Dicionário com artigos processados
+        merged_articles: Dictionary with processed articles
     """
     try:
-        # Criar versão para pesquisa
+        # Create version for search
         search_articles = create_search_articles(merged_articles)
         
-        # Exportar articles_search.json
+        # Export articles_search.json
         with open("articles/articles_search.json", "w", encoding="utf-8") as f:
             json.dump(search_articles, f, ensure_ascii=False, indent=4)
         
-        print(f"✅ Exportado articles_search.json com {len(search_articles)} categorias")
+        print(f"✅ Exported articles_search.json with {len(search_articles)} categories")
         
     except Exception as e:
-        print(f"❌ Erro ao exportar articles_search.json: {e}")
+        print(f"❌ Error exporting articles_search.json: {e}")
 
 
 def parse_date(date_str, source_url=None):
@@ -521,7 +521,7 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
         session: aiohttp ClientSession
         api_source: Dictionary with API endpoint information
         titles_seen: Set of already seen article titles
-        last_12_hours: Datetime threshold for "Últimas" category
+        last_12_hours: Datetime threshold for "Últimas" category articles
         
     Returns:
         List of processed articles or False if error occurs
@@ -1096,7 +1096,7 @@ def extract_source(data):
                 'PUBLICO': 'Público',
                 'tek': 'SAPO Tek',
             }
-            return source_mapping.get(domain, domain)
+            source_mapping.get(domain, domain)
     except Exception as e:
         print(f"Error extracting source: {e}")
     return "Desconhecido"
@@ -1182,6 +1182,7 @@ def process_url(url: str) -> str:
         url = url.replace("https://cdn.record.pt/images/", "", 1)
     return url
 
+
 async def extract_image_url(entry, session, mapped_category=None):
     jornal_economico_logo = (
         "https://leitor.jornaleconomico.pt/assets/uploads/artigos/JE_logo.png"
@@ -1211,7 +1212,7 @@ async def extract_image_url(entry, session, mapped_category=None):
                     image_url = process_url(enc["url"])
                     break
 
-        # 3) campos image/img/post-thumbnail
+        # 3) fields image/img/post-thumbnail
         if not image_url:
             for tag in ("image", "img", "post-thumbnail"):
                 val = entry.get(tag)
@@ -1244,13 +1245,13 @@ async def extract_image_url(entry, session, mapped_category=None):
                     if img and img.get("src"):
                         image_url = process_url(img.get("src"))
 
-        # 6) scraping da página
+        # 6) webpage scraping
         if not image_url and link:
             scraped = await get_image_url_from_link(link, session)
             if scraped:
                 image_url = process_url(scraped)
 
-        # 7) fallback para Jornal Económico
+        # 7) fallback to Jornal Económico
         if not image_url and "jornaleconomico.pt" in lc_link:
             image_url = jornal_economico_logo
 
