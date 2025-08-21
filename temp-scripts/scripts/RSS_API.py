@@ -301,7 +301,6 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     # fallback if mapping failed or returned falsy
                     if not category:
                         category = "Outras Notícias"
-                    print(f"DEBUG RSS: title='{title[:50]}', feed_category='{feed_category}', mapped='{category}'")
 
                     pub_date = parse_date(pub_date_str, source_url=feed_url)
 
@@ -639,10 +638,10 @@ def merge_articles(existing_articles, new_articles, current_date):
     """
     Merge new articles with existing ones, ensuring articles appear both
     in their category AND in "Últimas" if within 12 hours.
-    Fixed to properly preserve article categories.
+    Uses link as unique identifier to avoid true duplicates.
     """
     merged = {}
-    seen_titles = set()
+    seen_links_per_category = {}  # Track links per category to avoid duplicates
     
     # Initialize all categories
     all_categories = ["Últimas", "Nacional", "Mundo", "Desporto", "Economia", 
@@ -651,27 +650,22 @@ def merge_articles(existing_articles, new_articles, current_date):
     
     for cat in all_categories:
         merged[cat] = []
+        seen_links_per_category[cat] = set()
     
     # Combine existing and new articles
     all_articles = []
     
-    # Add existing articles (preserve their existing categories)
+    # Add existing articles
     for category, articles in existing_articles.items():
         for article in articles:
             if isinstance(article, dict):
-                # Ensure the article keeps its original category assignment
-                article_copy = article.copy()
-                article_copy["original_assigned_category"] = category  # Track where it was stored
-                all_articles.append(article_copy)
+                all_articles.append(article)
     
     # Add new articles
-    for article in new_articles:
-        article_copy = article.copy()
-        article_copy["original_assigned_category"] = article.get("category", "Outras Notícias")
-        all_articles.append(article_copy)
+    all_articles.extend(new_articles)
     
-    print(f"📊 Merging {len(all_articles)} total articles")
-    print(f"📊 New articles: {len(new_articles)}")
+    print(f"Merging {len(all_articles)} total articles")
+    print(f"New articles: {len(new_articles)}")
     
     processed_count = 0
     skipped_duplicates = 0
@@ -681,21 +675,14 @@ def merge_articles(existing_articles, new_articles, current_date):
     
     for article in all_articles:
         title = article.get("title")
-        category = article.get("category")  # This is the mapped category
-        original_assigned_category = article.get("original_assigned_category", category)
+        category = article.get("category")
         pub_date = article.get("pubDate")
+        link = article.get("link", "").strip()
         
         # Skip invalid articles
-        if not all([title, category, pub_date]):
+        if not all([title, category, pub_date, link]):
             skipped_invalid += 1
-            print(f"⚠️ Skipped invalid article: title={bool(title)}, category={category}, pubDate={bool(pub_date)}")
             continue
-        
-        # Skip duplicates - use exact title match (case insensitive)
-        title_lower = title.lower().strip()
-        """ if title_lower in seen_titles:
-            skipped_duplicates += 1
-            continue """
         
         # Parse article date for time checks
         try:
@@ -703,41 +690,38 @@ def merge_articles(existing_articles, new_articles, current_date):
             article_date = article_date.replace(tzinfo=timezone.utc)
         except:
             skipped_invalid += 1
-            print(f"⚠️ Invalid date format: {pub_date}")
             continue
         
         # Check if article should be kept based on category-specific retention
-        # Use the original assigned category for retention logic
-        if not is_article_within_timeframe(pub_date, original_assigned_category, current_date):
+        if not is_article_within_timeframe(pub_date, category, current_date):
             skipped_expired += 1
             continue
         
-        # Add the title to seen titles
-        seen_titles.add(title_lower)
-        
         # VALIDATE category - only allow predefined categories
         if category not in all_categories:
-            print(f"⚠️ Invalid category '{category}' for article '{title[:50]}...', mapping to 'Outras Notícias'")
             category = "Outras Notícias"
-            # Update the article's category
             article["category"] = category
         
-        # ALWAYS add to the article's mapped category (now guaranteed to be valid)
-        article_for_category = article.copy()
-        article_for_category.pop("original_assigned_category", None)  # Remove our tracking field
-        merged[category].append(article_for_category)
+        # Check if this link already exists in this specific category
+        if link in seen_links_per_category[category]:
+            skipped_duplicates += 1
+            continue
+            
+        # Add to the article's mapped category
+        merged[category].append(article)
+        seen_links_per_category[category].add(link)
         processed_count += 1
         
-        # ALSO add to "Últimas" if within 12 hours (regardless of original category)
+        # ALSO add to "Últimas" if within 12 hours AND not already there
         twelve_hours_ago = current_date - timedelta(hours=12)
-        if article_date >= twelve_hours_ago:
-            # Don't add duplicate to Últimas if it's already categorized as Últimas
-            if category != "Últimas":
-                # Create a copy and ensure it has the right category for Últimas
+        if article_date >= twelve_hours_ago and category != "Últimas":
+            # Check if this link is already in Últimas
+            if link not in seen_links_per_category["Últimas"]:
+                # Create a copy for Últimas
                 ultimas_article = article.copy()
-                ultimas_article["category"] = "Últimas"  # Ensure consistency
-                ultimas_article.pop("original_assigned_category", None)  # Remove tracking field
+                ultimas_article["category"] = "Últimas"
                 merged["Últimas"].append(ultimas_article)
+                seen_links_per_category["Últimas"].add(link)
                 ultimas_count += 1
     
     # Sort all categories by date (newest first)
@@ -748,13 +732,13 @@ def merge_articles(existing_articles, new_articles, current_date):
         )
     
     # Print detailed summary
-    print(f"📊 Processing summary:")
+    print(f"Processing summary:")
     print(f"   - Total processed: {processed_count}")
     print(f"   - Added to Últimas: {ultimas_count}")
     print(f"   - Skipped duplicates: {skipped_duplicates}")
     print(f"   - Skipped expired: {skipped_expired}")
     print(f"   - Skipped invalid: {skipped_invalid}")
-    print(f"📂 Final categories:")
+    print(f"Final categories:")
     
     for category, articles in merged.items():
         if articles:
@@ -1375,10 +1359,7 @@ def find_category_in_mapper(category_to_find):
     """
     if not category_to_find:
         return None
-    normalized = normalize_text(category_to_find)
-    result = NORMALIZED_SUBCATEGORY_TO_MAIN.get(normalized)
-    print(f"DEBUG find_category: '{category_to_find}' -> '{normalized}' -> '{result}'")
-    return result
+    return NORMALIZED_SUBCATEGORY_TO_MAIN.get(normalize_text(category_to_find))
     
 async def main():
     """
