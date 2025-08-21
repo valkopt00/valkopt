@@ -1,28 +1,28 @@
-name: Atualizar JSON de Notícias
+name: Update News JSON
 
 on:
   schedule:
-    - cron: "*/15 * * * *"  # Executa a cada 15 minutos
+    - cron: "*/15 * * * *"  # Runs every 15 minutes
   workflow_dispatch:
 
 jobs:
   update-json-data:
-    name: Gerar e Atualizar Branch Data
+    name: Generate and Update Data Branch
     runs-on: ubuntu-latest
 
     steps:
-      # ✅ OTIMIZAÇÃO 1: Checkout direto da branch data (se existir) ou main
-      - name: Checkout otimizado com tentativa de branch data
+      # ✅ OPTIMIZATION 1: Direct checkout of data branch (if exists) or main
+      - name: Checkout data branch if exists
         id: checkout_data
         continue-on-error: true
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
-          ref: data  # Tentar checkout direto da branch data
+          ref: data
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ✅ OTIMIZAÇÃO 2: Fallback para main se data não existir
-      - name: Checkout main se data falhou
+      # ✅ OPTIMIZATION 2: Fallback to main if data doesn't exist
+      - name: Checkout main if data failed
         if: steps.checkout_data.outcome == 'failure'
         uses: actions/checkout@v4
         with:
@@ -30,32 +30,39 @@ jobs:
           ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ✅ OTIMIZAÇÃO 3: Setup da branch data apenas se necessário
-      - name: Criar branch data se não existir
+      # ✅ OPTIMIZATION 3: Fetch main branch for script extraction
+      - name: Fetch main branch for scripts
+        if: steps.checkout_data.outcome == 'success'
+        run: |
+          echo "We're on data branch, fetching main for scripts"
+          git fetch origin main
+
+      # ✅ OPTIMIZATION 4: Setup data branch only if necessary
+      - name: Create data branch if doesn't exist
         if: steps.checkout_data.outcome == 'failure'
         run: |
-          echo "Branch data não existe - criando branch orphan"
+          echo "Data branch doesn't exist - creating orphan branch"
           git checkout --orphan data
           git reset --hard
           mkdir -p articles public
           
-          # Criar ficheiro original_categories.json vazio
+          # Create empty original_categories.json file
           echo '{"categories": {}, "articles": {}}' > articles/original_categories.json
 
-      # ✅ OTIMIZAÇÃO 4: Apenas criar pastas se já estamos em data
-      - name: Preparar estrutura de pastas
+      # ✅ OPTIMIZATION 5: Only create folders if already on data
+      - name: Prepare folder structure
         if: steps.checkout_data.outcome == 'success'
         run: |
-          echo "✅ Já estamos na branch data"
+          echo "✅ Already on data branch"
           mkdir -p articles public
           
-          # Criar ficheiro original_categories.json vazio se não existir
+          # Create empty original_categories.json file if it doesn't exist
           if [ ! -f "articles/original_categories.json" ]; then
             echo '{"categories": {}, "articles": {}}' > articles/original_categories.json
           fi
 
-      # ✅ OTIMIZAÇÃO 3: Cache para dependências Python
-      - name: Configurar cache do pip
+      # ✅ OPTIMIZATION 6: Setup pip cache
+      - name: Setup pip cache
         uses: actions/cache@v3
         with:
           path: ~/.cache/pip
@@ -63,19 +70,19 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
 
-      # ✅ OTIMIZAÇÃO 4: Setup Python em paralelo com extração de scripts
-      - name: Configurar Python
+      # ✅ OPTIMIZATION 7: Setup Python with automatic cache
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-          cache: 'pip'  # Cache automático do pip
+          cache: 'pip'
 
-      # ✅ OTIMIZAÇÃO 5: Extração otimizada de scripts
-      - name: Extrair scripts e requirements da branch main
+      # ✅ OPTIMIZATION 8: Extract scripts from main branch
+      - name: Extract scripts and requirements from main branch
         run: |
           mkdir -p temp-scripts/scripts/exporters
           
-          # Usar origin/main já que estamos na branch data
+          # Use origin/main reference
           git show origin/main:requirements.txt > temp-scripts/requirements.txt
           git show origin/main:scripts/RSS_API.py > temp-scripts/scripts/RSS_API.py
           git show origin/main:scripts/__init__.py > temp-scripts/scripts/__init__.py
@@ -85,101 +92,101 @@ jobs:
           git show origin/main:scripts/remove_duplicates.py > temp-scripts/scripts/remove_duplicates.py
           git show origin/main:scripts/exporters/export_original_categories.py > temp-scripts/scripts/exporters/export_original_categories.py
 
-      # ✅ OTIMIZAÇÃO 6: Instalação de dependências com cache
-      - name: Instalar dependências
+      # ✅ OPTIMIZATION 9: Install dependencies with cache
+      - name: Install dependencies
         run: |
-          # Instalar com cache (o cache já evita reinstalações desnecessárias)
+          # Install with cache (cache already avoids unnecessary reinstallations)
           pip install -r temp-scripts/requirements.txt
 
-      - name: Executar script de atualização de JSON
+      - name: Run JSON update script
         run: |
           export PYTHONPATH=$(pwd)/temp-scripts
           python temp-scripts/scripts/RSS_API.py
 
-      # ✅ OTIMIZAÇÃO 7: Cópia otimizada de ficheiros HTML
-      - name: Garantir pasta public e copiar ficheiros JSON
+      # ✅ OPTIMIZATION 10: Optimized HTML file copying
+      - name: Ensure public folder and copy JSON files
         run: |
           mkdir -p public
-          # Copiar apenas os ficheiros JSON essenciais
+          # Copy only essential JSON files
           cp articles/articles.json public/
           cp articles/articles_search.json public/
           cp articles/original_categories.json public/
           
-          # Cópia otimizada de ficheiros HTML estáticos (com verificação em batch)
+          # Optimized copying of static HTML files (batch verification)
           for file in "politica_de_privacidade.html" "termos_de_utilizacao.html" "contacto.html" "app-ads.txt"; do
             if git cat-file -e origin/main:public/$file 2>/dev/null; then
               git show origin/main:public/$file > public/$file
             fi
           done
 
-      - name: Verificar ficheiros gerados
+      - name: Verify generated files
         run: |
-          echo "📁 Ficheiros na pasta articles:"
+          echo "📁 Files in articles folder:"
           ls -la articles/
           echo ""
-          echo "📁 Ficheiros na pasta public:"
+          echo "📁 Files in public folder:"
           ls -la public/
           echo ""
           cd public
           if [ -f "articles.json" ]; then
             size=$(stat -c%s "articles.json")
-            echo "   ✅ articles.json: $(numfmt --to=iec $size) (todas as notícias)"
+            echo "   ✅ articles.json: $(numfmt --to=iec $size) (all news)"
           else
-            echo "   ❌ articles.json NÃO foi criado"
+            echo "   ❌ articles.json was NOT created"
           fi
           
           if [ -f "articles_search.json" ]; then
             size=$(stat -c%s "articles_search.json")
-            echo "   ✅ articles_search.json: $(numfmt --to=iec $size) (dados de pesquisa)"
+            echo "   ✅ articles_search.json: $(numfmt --to=iec $size) (search data)"
           else
-            echo "   ❌ articles_search.json NÃO foi criado"
+            echo "   ❌ articles_search.json was NOT created"
           fi
           
           if [ -f "original_categories.json" ]; then
             size=$(stat -c%s "original_categories.json")
-            echo "   ✅ original_categories.json: $(numfmt --to=iec $size) (mapeamento)"
+            echo "   ✅ original_categories.json: $(numfmt --to=iec $size) (mapping)"
           else
-            echo "   ❌ original_categories.json NÃO foi criado"
+            echo "   ❌ original_categories.json was NOT created"
           fi
 
-      - name: Criar README informativo
+      - name: Create informative README
         run: |
-          echo "# Branch Data - Sistema JSON Simplificado" > README.md
-          echo "Atualizado automaticamente em: $(date '+%Y-%m-%d %H:%M:%S')" >> README.md
+          echo "# Data Branch - Simplified JSON System" > README.md
+          echo "Automatically updated at: $(date '+%Y-%m-%d %H:%M:%S')" >> README.md
           echo "" >> README.md
-          echo "## 🎯 Arquitetura simplificada:" >> README.md
-          echo "Apenas **3 ficheiros JSON** essenciais, comprimidos automaticamente pelo Netlify (~65% redução):" >> README.md
+          echo "## 🎯 Simplified architecture:" >> README.md
+          echo "Only **3 essential JSON files**, automatically compressed by Netlify (~65% reduction):" >> README.md
           echo "" >> README.md
-          echo "### 📱 Para a app principal:" >> README.md
-          echo "- **articles.json** - Todas as categorias e artigos (ficheiro único)" >> README.md
+          echo "### 📱 For main app:" >> README.md
+          echo "- **articles.json** - All categories and articles (single file)" >> README.md
           echo "" >> README.md
-          echo "### 🔍 Para funcionalidade de pesquisa:" >> README.md  
-          echo "- **articles_search.json** - Dados normalizados para pesquisa" >> README.md
+          echo "### 🔍 For search functionality:" >> README.md  
+          echo "- **articles_search.json** - Normalized data for search" >> README.md
           echo "" >> README.md
-          echo "### 🗂️ Para mapeamento de categorias:" >> README.md
-          echo "- **original_categories.json** - Mapeamento de categorias originais" >> README.md
+          echo "### 🗂️ For category mapping:" >> README.md
+          echo "- **original_categories.json** - Original category mapping" >> README.md
           echo "" >> README.md
-          echo "## ⚡ Performance esperada:" >> README.md
+          echo "## ⚡ Expected performance:" >> README.md
           cd public
           if [ -f "articles.json" ]; then
             size=$(stat -c%s "articles.json")
             compressed_size=$((size * 35 / 100))
-            echo "- **Carregamento inicial**: ~$(numfmt --to=iec $compressed_size) (2-4 segundos)" >> ../README.md
-            echo "- **Todas as categorias**: Disponíveis imediatamente após carregamento" >> ../README.md
-            echo "- **Zero problemas de timing**: Sem dependências entre ficheiros" >> ../README.md
+            echo "- **Initial loading**: ~$(numfmt --to=iec $compressed_size) (2-4 seconds)" >> ../README.md
+            echo "- **All categories**: Available immediately after loading" >> ../README.md
+            echo "- **Zero timing issues**: No dependencies between files" >> ../README.md
           fi
 
-      # ✅ OTIMIZAÇÃO 8: Commit otimizado (verificação mais eficiente)
-      - name: Commit e Push para branch data
+      # ✅ OPTIMIZATION 11: Optimized commit (more efficient verification)
+      - name: Commit and Push to data branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           
-          # Verificação otimizada de mudanças
+          # Optimized change verification
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Atualização automática dos ficheiros JSON - $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "Automatic JSON files update - $(date '+%Y-%m-%d %H:%M:%S')"
             git push origin data --force
           else
-            echo "Nenhuma mudança para commitar"
+            echo "No changes to commit"
           fi
