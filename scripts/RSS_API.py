@@ -19,6 +19,32 @@ from dateutil import tz
 from dateutil import parser
 import unicodedata
 
+def normalize_text(text):
+    """
+    Normaliza texto removendo acentos, convertendo para minúsculas,
+    removendo pontuação e espaços extras.
+    
+    Args:
+        text: String a ser normalizada
+        
+    Returns:
+        String normalizada para pesquisa
+    """
+    if not text:
+        return ""
+    
+    # Remove acentos (NFD decomposição + remoção de marcas diacríticas)
+    text = unicodedata.normalize('NFD', text)
+    text = ''.join(c for c in text if unicodedata.category(c) != 'Mn')
+    
+    # Minúsculas e remove pontuação (mantém apenas letras, números e espaços)
+    text = re.sub(r'[^\w\s]', ' ', text.lower())
+    
+    # Remove espaços extras
+    text = ' '.join(text.split())
+    
+    return text
+
 # Create normalized mapping for faster lookups
 def create_normalized_category_mappings():
     """Create normalized mappings from the CATEGORY_MAPPER"""
@@ -322,32 +348,6 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
         traceback.print_exc()
         return []
 
-def normalize_text(text):
-    """
-    Normaliza texto removendo acentos, convertendo para minúsculas,
-    removendo pontuação e espaços extras.
-    
-    Args:
-        text: String a ser normalizada
-        
-    Returns:
-        String normalizada para pesquisa
-    """
-    if not text:
-        return ""
-    
-    # Remove acentos (NFD decomposição + remoção de marcas diacríticas)
-    text = unicodedata.normalize('NFD', text)
-    text = ''.join(c for c in text if unicodedata.category(c) != 'Mn')
-    
-    # Minúsculas e remove pontuação (mantém apenas letras, números e espaços)
-    text = re.sub(r'[^\w\s]', ' ', text.lower())
-    
-    # Remove espaços extras
-    text = ' '.join(text.split())
-    
-    return text
-
 def create_search_articles(articles_dict):
     """
     Cria uma versão simplificada dos artigos apenas para pesquisa.
@@ -626,7 +626,6 @@ def is_article_within_timeframe(article_date_str, category, current_date):
         article_date = datetime.strptime(article_date_str, "%d-%m-%Y %H:%M")
         article_date = article_date.replace(tzinfo=timezone.utc)
         
-        # More generous retention periods
         if category == "Últimas":
             return current_date - article_date <= timedelta(hours=12)
         else:
