@@ -61,6 +61,7 @@ jobs:
       - name: Executar script de atualização de JSON
         run: |
           export PYTHONPATH=$(pwd)/temp-scripts
+          python temp-scripts/scripts/remove_duplicates.py
           python temp-scripts/scripts/RSS_API.py
 
       - name: Garantir pasta public e copiar ficheiros JSON

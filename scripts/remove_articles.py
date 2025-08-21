@@ -9,8 +9,6 @@ fonts_to_remove = {
 # List of JSON files to process
 json_files = [
     "articles/articles.json",
-    "articles/articles_priority.json",
-    "articles/articles_secondary.json"
 ]
 
 for file_json in json_files:
