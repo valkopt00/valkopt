@@ -201,7 +201,7 @@ CATEGORY_GROUPS = {
         "Fama", "Visaose7e", "Viagens", "Famosos", "Decoracao", "Ideias",
         "As Novas Cozinhas da Terra", "Beleza", "O gato das botas",
         "Fugas", "Lazer", "Celebridades", "Fugas", "Roupa", "Vinhos",
-        "Relaxar"
+        "Relaxar", "Sair"
     ],
     "Vídeojogos": [
         "Vídeojogos", "Jogos", "Record-gaming"
