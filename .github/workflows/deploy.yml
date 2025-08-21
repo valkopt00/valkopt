@@ -72,8 +72,8 @@ jobs:
       # ✅ OTIMIZAÇÃO 6: Instalação de dependências com cache
       - name: Instalar dependências
         run: |
-          # Instalar com cache e sem upgrade desnecessário
-          pip install --no-upgrade -r temp-scripts/requirements.txt
+          # Instalar com cache (o cache já evita reinstalações desnecessárias)
+          pip install -r temp-scripts/requirements.txt
 
       - name: Executar script de atualização de JSON
         run: |
