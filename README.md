@@ -1,19 +1,19 @@
-# Branch Data - Sistema JSON Simplificado
-Atualizado automaticamente em: 2025-08-21 15:57:30
+# Data Branch - Simplified JSON System
+Automatically updated at: 2025-08-21 16:06:19
 
-## 🎯 Arquitetura simplificada:
-Apenas **3 ficheiros JSON** essenciais, comprimidos automaticamente pelo Netlify (~65% redução):
+## 🎯 Simplified architecture:
+Only **3 essential JSON files**, automatically compressed by Netlify (~65% reduction):
 
-### 📱 Para a app principal:
-- **articles.json** - Todas as categorias e artigos (ficheiro único)
+### 📱 For main app:
+- **articles.json** - All categories and articles (single file)
 
-### 🔍 Para funcionalidade de pesquisa:
-- **articles_search.json** - Dados normalizados para pesquisa
+### 🔍 For search functionality:
+- **articles_search.json** - Normalized data for search
 
-### 🗂️ Para mapeamento de categorias:
-- **original_categories.json** - Mapeamento de categorias originais
+### 🗂️ For category mapping:
+- **original_categories.json** - Original category mapping
 
-## ⚡ Performance esperada:
-- **Carregamento inicial**: ~820K (2-4 segundos)
-- **Todas as categorias**: Disponíveis imediatamente após carregamento
-- **Zero problemas de timing**: Sem dependências entre ficheiros
+## ⚡ Expected performance:
+- **Initial loading**: ~826K (2-4 seconds)
+- **All categories**: Available immediately after loading
+- **Zero timing issues**: No dependencies between files
