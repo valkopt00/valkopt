@@ -199,7 +199,8 @@ CATEGORY_GROUPS = {
         "Boa Cama Boa Mesa", "Boa-cama-boa-mesa", "Vidas", "Óscares",
         "Fama", "Visaose7e", "Viagens", "Famosos", "Decoracao", "Ideias",
         "As Novas Cozinhas da Terra", "Beleza", "O gato das botas",
-        "Fugas", "Lazer", "Celebridades", "Fugas", "Roupa", "Vinhos"
+        "Fugas", "Lazer", "Celebridades", "Fugas", "Roupa", "Vinhos",
+        "Relaxar"
     ],
     "Vídeojogos": [
         "Vídeojogos", "Jogos", "Record-gaming"
@@ -214,9 +215,8 @@ IGNORE_ORIGINAL_CATS = {
     "Expresso Fundamental", "Capas", "Em Destaque",
     "Cm ao Minuto", "A semana", "Expressinho",
     "Observador", "Domingo", "Briefing",
-    "Enter", "Relaxar", "LUSA-INBOX",
-    "A Beleza das Pequenas Coisas", "Análise",
-    "P2 Verão"
+    "Enter", "LUSA-INBOX", "P2 Verão",
+    "A Beleza das Pequenas Coisas", "Análise"
 }
 
 CATEGORY_MAPPER = {
