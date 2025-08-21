@@ -106,7 +106,8 @@ CATEGORY_GROUPS = {
         "Diplomacia", "EUA", "Público Brasil", "Brasil", "Israel", "Reino Unido",
         "Turquia", "Ursula von der Leyen", "América Latina", "Espanha",
         "Bósnia-Herzegovina", "Geopolítica", "França", "Nigéria", "Angola", "Ásia",
-        "China", "Guerra Israel-Hamas", "Publico-brasil", "Cabo Verde"
+        "China", "Guerra Israel-Hamas", "Publico-brasil", "Cabo Verde",
+        "Aqui na América"
     ],
     "Desporto": [
         "Desporto", "Futebol", "Benfica", "Sporting", "Porto",
@@ -126,7 +127,7 @@ CATEGORY_GROUPS = {
         "Finanças pessoais", "Finanças públicas", "Imobiliário", "Comércio",
         "Comércio Externo", "Criptomoedas", "Guerra Comercial", "Impostos",
         "irs", "Empreendedorismo", "Poupança", "trabalho", "rendas",
-        "Finanças", "Sistema financeiro"
+        "Finanças", "Sistema financeiro", "Descodificador"
     ],
     "Cultura": [
         "Cultura", "Livros", "Livro", "Cinema", "Blitz", "Inimigo-publico",
@@ -159,7 +160,8 @@ CATEGORY_GROUPS = {
         "Direitos das crianças", "Educação", "SGIFR",  "Segunda Guerra Mundial",
         "TAP", "linha de cascais", "tuk-tuk", "verao", "Agricultura",
         "Tráfico", "Ensino", "Trabalho", "Migrações", "Religião", "Média", 
-        "Imigração", "Longevidade", "Ambiente e Território", "Impar", "Azul"
+        "Imigração", "Longevidade", "Ambiente e Território", "Impar", "Azul",
+        "Obituário"
     ],
     "Política": [
         "Política", "Politica", "Defesa", "Presidenciais 2026",
@@ -188,7 +190,8 @@ CATEGORY_GROUPS = {
         "Editorial", "Linhas Direitas", "José jorge letria", "Liveblogs",
         "Artigos de Newsletter", "O Vale Era Verde", "Opinião União Europeia",
         "Isso era uma longa conversa", "Opinião Protopia", "Café Central",
-         "Tanto faz não é resposta", "Vestígios de Azul", "Diário do Governo"
+         "Tanto faz não é resposta", "Vestígios de Azul", "Diário do Governo",
+        "Bloco de Notas"
     ],
     "Lifestyle": [
         "Lifestyle", "Comer e beber", "Gastronomia", "Vida",
@@ -196,7 +199,7 @@ CATEGORY_GROUPS = {
         "Boa Cama Boa Mesa", "Boa-cama-boa-mesa", "Vidas", "Óscares",
         "Fama", "Visaose7e", "Viagens", "Famosos", "Decoracao", "Ideias",
         "As Novas Cozinhas da Terra", "Beleza", "O gato das botas",
-        "Fugas", "Lazer", "Celebridades", "Fugas", "Roupa"
+        "Fugas", "Lazer", "Celebridades", "Fugas", "Roupa", "Vinhos"
     ],
     "Vídeojogos": [
         "Vídeojogos", "Jogos", "Record-gaming"
@@ -207,23 +210,13 @@ CATEGORY_GROUPS = {
 }
 
 IGNORE_ORIGINAL_CATS = {
-    "+E",
-    "Edição Impressa",
-    "Prémios do Imobiliário",
-    "Expresso Fundamental",
-    "Capas",
-    "Em Destaque",
-    "Cm ao Minuto",
-    "A semana",
-    "Expressinho",
-    "Observador",
-    "Domingo",
-    "Briefing",
-    "Enter",
-    "Relaxar",
-    "LUSA-INBOX",
-    "A Beleza das Pequenas Coisas",
-    "Análise"
+    "+E", "Edição Impressa", "Prémios do Imobiliário",
+    "Expresso Fundamental", "Capas", "Em Destaque",
+    "Cm ao Minuto", "A semana", "Expressinho",
+    "Observador", "Domingo", "Briefing",
+    "Enter", "Relaxar", "LUSA-INBOX",
+    "A Beleza das Pequenas Coisas", "Análise",
+    "P2 Verão"
 }
 
 CATEGORY_MAPPER = {
