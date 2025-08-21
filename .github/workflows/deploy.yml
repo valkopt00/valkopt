@@ -44,7 +44,7 @@ jobs:
           git show origin/main:scripts/reset_counts_with_backup.py > temp-scripts/scripts/reset_counts_with_backup.py
           git show origin/main:scripts/remove_duplicates.py > temp-scripts/scripts/remove_duplicates.py
           git show origin/main:scripts/exporters/export_original_categories.py > temp-scripts/scripts/exporters/export_original_categories.py
-          
+
       - name: Configurar cache do pip
         uses: actions/cache@v3
         with:
@@ -62,7 +62,6 @@ jobs:
       - name: Executar script de atualização de JSON
         run: |
           export PYTHONPATH=$(pwd)/temp-scripts
-          python temp-scripts/scripts/remove_duplicates.py
           python temp-scripts/scripts/RSS_API.py
 
       - name: Garantir pasta public e copiar ficheiros JSON
