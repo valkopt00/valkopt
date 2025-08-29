@@ -1,9 +1,54 @@
 {
     "Últimas": [
         {
+            "link": "https://jornaleconomico.sapo.pt/noticias/wall-street-arranca-em-leve-baixa-8/",
+            "normalized_title": "wall street arranca em leve baixa",
+            "normalized_description": "segundo o analista de mercados do millenium ramiro loureiro wall street arranca em leve baixa enquanto se aguardam por indicadores da universidade"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/pais/area-ardida-na-peneda-geres-vai-ser-alvo-de-recuperacao-e-renaturalizacao_a1680073",
+            "normalized_title": "area ardida na peneda geres vai ser alvo de recuperacao e renaturalizacao",
+            "normalized_description": "a area ardida do parque nacional da peneda geres vai ser alvo de recuperacao e renaturalizacao dos ecossistemas da fauna e flora e dos sistemas das"
+        },
+        {
+            "link": "https://www.zerozero.pt/noticias/luis-freire-queremos-ser-campeoes-/902447",
+            "normalized_title": "luis freire queremos ser campeoes",
+            "normalized_description": "a dias do primeiro estagio e jogos no comando da selecao sub 21 luis freire falou aos jornalistas apos o anuncio da convocatoria o treinador nao"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/2--liga/farense/detalhe/assane-ndiaye-reforca-farense-por-emprestimo-do-estrela-da-amadora",
+            "normalized_title": "assane ndiaye reforca farense por emprestimo do estrela da amadora",
+            "normalized_description": "sem espaco nos tricolores medio muda se para o algarve"
+        },
+        {
+            "link": "https://jornaleconomico.sapo.pt/noticias/inflacao-nos-eua-inalterada-nos-26-aponta-para-corte-das-taxas-de-juro-pela-fed/",
+            "normalized_title": "inflacao nos eua inalterada nos 2 6 aponta para corte das taxas de juro pela fed",
+            "normalized_description": "a fed utiliza o indice de precos pce como a sua principal ferramenta de previsao pelo que os dados hoje publicados sustentam a possibilidade de"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/futebol-nacional/diego-duarte-aponta-ao-triunfo-do-avs-diante-do-famalicao_d1680072",
+            "normalized_title": "diego duarte aponta ao triunfo do avs diante do famalicao",
+            "normalized_description": "o avancado paraguaio diego duarte disse hoje esperar que o avs transforme o empate em braga no primeiro triunfo do campeonato diante do famalicao"
+        },
+        {
+            "link": "https://www.eurogamer.pt/ridley-scott-recusou-terminator-3",
+            "normalized_title": "ridley scott recusou terminator 3",
+            "normalized_description": "ridley scott revelou que recusou a proposta para realizar terminator 3 mesmo que esse trabalho representasse imenso dinheiro ler mais"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/selecao-nacional/mora-e-quenda-de-regresso-aos-sub-21-na-convocatoria-de-estreia-de-luis-freire_d1680071",
+            "normalized_title": "mora e quenda de regresso aos sub 21 na convocatoria de estreia de luis freire",
+            "normalized_description": "os regressos de rodrigo mora fc porto e geovany quenda sporting sao os destaques da convocatoria de estreia do selecionador nacional de futebol"
+        },
+        {
             "link": "https://www.noticiasaominuto.com/lifestyle/2845269/o-movimento-dos-seus-olhos-pode-indicar-problemas-de-memoria#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "o movimento dos seus olhos pode indicar problemas de memoria",
             "normalized_description": "um novo estudo sugere que mudancas subtis na maneira como os nossos olhos exploram o mundo podem ser usadas para identificar problemas de memoria e"
+        },
+        {
+            "link": "https://pt.ign.com/metal-gear-solid-delta-snake-eater/150001/news/metal-gear-solid-delta-snake-eater-recebeu-o-seu-primeiro-hotfix",
+            "normalized_title": "metal gear solid delta snake eater recebeu o seu primeiro hotfix",
+            "normalized_description": "mudancas na selva apos varios relatos de problemas de performance a konami lancou o primeiro hotfix para metal gear solid delta snake eater a"
         },
         {
             "link": "https://www.rtp.pt/noticias/futebol-nacional/vasco-seabra-promete-arouca-com-vontade-competir-contra-o-vitoria-de-guimaraes_d1680070",
@@ -16,6 +61,16 @@
             "normalized_description": "uma idosa de 88 anos concretizou o sonho de se aventurar numa torre de queda livre com 100 metros de altura no parque de diversoes beto carrero"
         },
         {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/detalhe/ja-ha-bilhetes-para-o-benfica-real-madrid-por-10-mil-euros-pode-ficar-atras-do-banco",
+            "normalized_title": "ja ha bilhetes para o benfica real madrid por 10 mil euros pode ficar atras do banco",
+            "normalized_description": "encarnados tem feito alertas para compras foras dos canais oficiais"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/detido-suspeito-de-atear-17-fogos-em-ponte-da-barca",
+            "normalized_title": "detido suspeito de atear 17 fogos em ponte da barca",
+            "normalized_description": "ignicoes aconteceram entre 15 de junho de 2024 e 10 de julho deste ano"
+        },
+        {
             "link": "https://www.rtp.pt/noticias/pais/detido-suspeito-de-atear-17-fogos-em-ponte-da-barca_n1680067",
             "normalized_title": "detido suspeito de atear 17 fogos em ponte da barca",
             "normalized_description": "um homem foi detido por suspeita de ter ateado pelo menos 17 incendios florestais em lavradas ponte da barca entre 15 de junho de 2024 e 10 de"
@@ -24,6 +79,11 @@
             "link": "https://pt.euronews.com/video/2025/08/29/manifestantes-acusam-castela-e-leao-de-ma-gestao-de-incendios-mortais",
             "normalized_title": "manifestantes acusam castela e leao de ma gestao de incendios mortais",
             "normalized_description": "manifestantes e bombeiros reuniram se na sexta feira em frente ao parlamento de castela e leao em valladolid acusando o governo regional de ma"
+        },
+        {
+            "link": "https://rr.pt/noticia/pais/2025/08/29/naufragio-no-atlantico-forca-aerea-resgata-11-pessoas-em-alto-mar/437849/?utm_medium=rss",
+            "normalized_title": "naufragio no atlantico forca aerea resgata 11 pessoas em alto mar",
+            "normalized_description": "pesqueiro onde seguiam 11 tripulantes de nacionalidade espanhola e indonesia naufragou a 457 km dos acores mas intervencao rapida da forca aerea"
         },
         {
             "link": "https://pplware.sapo.pt/microsoft/suporte-nao-oficial-alarga-vida-ao-office-2016-e-2019-para-la-da-microsoft/",
@@ -74,6 +134,11 @@
             "link": "https://www.rtp.pt/noticias/mundo/angola-quer-investir-mais-de-400-me-na-construcao-de-escolas-ate-2028_n1680060",
             "normalized_title": "angola quer investir mais de 400 me na construcao de escolas ate 2028",
             "normalized_description": "o presidente angolano anunciou esta sexta feira que o governo preve mobilizar 500 milhoes de dolares 424 4 milhoes de euros ao longo dos proximos"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/trump-retira-protecao-policial-a-ex-vice-presidente-dos-eua-kamala-harris",
+            "normalized_title": "trump retira protecao policial a ex vice presidente dos eua kamala harris",
+            "normalized_description": "desde que regressou ao poder em janeiro trump retirou protecao tambem aos antigos membros seniores da administracao democrata de joe biden"
         },
         {
             "link": "https://rr.pt/noticia/vida/2025/08/29/julia-roberts-estreia-se-em-veneza-e-rejeita-criticas-de-que-novo-filme-atrasa-causa-feminista/437841/?utm_medium=rss",
@@ -311,6 +376,11 @@
             "normalized_description": "em atualizacao"
         },
         {
+            "link": "https://rr.pt/bola-branca/noticia/porto/2025/08/29/farioli-confirma-samu-e-pica-sporting-preparamos-todos-os-cenarios-ate-jogar-com-dez/437846/?utm_medium=rss",
+            "normalized_title": "farioli confirma samu e pica sporting preparamos todos os cenarios ate jogar com dez",
+            "normalized_description": "em atualizacao"
+        },
+        {
             "link": "https://visao.pt/atualidade/desporto/2025-08-29-mourinho-soma-e-segue-mais-de-e100-milhoes-em-indemnizacoes-ao-setimo-despedimento/?utm_source=rss&utm_medium=rss&utm_campaign=mourinho-soma-e-segue-mais-de-e100-milhoes-em-indemnizacoes-ao-setimo-despedimento",
             "normalized_title": "mourinho soma e segue mais de 100 milhoes em indemnizacoes ao setimo despedimento",
             "normalized_description": "treinador portugues foi demitido na sequencia da eliminacao da liga dos campeoes e de declaracoes que nao terao caido bem junto dos dirigentes do"
@@ -371,6 +441,11 @@
             "normalized_description": "os ministros dos negocios estrangeiros da uniao europeia estao definitivamente convencidos de que a russia nao quer a paz os chefes da diplomacia"
         },
         {
+            "link": "https://www.rtp.pt/noticias/mundo/ministros-europeus-convencidos-que-putin-nao-quer-a-paz_v1680043",
+            "normalized_title": "ministros europeus convencidos que putin nao quer a paz",
+            "normalized_description": "os ministros dos negocios estrangeiros da uniao europeia estao definitivamente convencidos de que a russia nao quer a paz os chefes da diplomacia"
+        },
+        {
             "link": "https://www.rtp.pt/noticias/economia/polopique-fecha-portas-e-manda-280-para-o-desemprego_v1680041",
             "normalized_title": "polopique fecha portas e manda 280 para o desemprego",
             "normalized_description": "um dos maiores grupos texteis do norte prepara se para despedir cerca de 280 trabalhadores com sede em santo tirso a polopique decidiu encerrar"
@@ -379,6 +454,11 @@
             "link": "https://www.rtp.pt/noticias/mundo/apos-ataque-de-moscovo-servicos-de-seguranca-de-kiev-prosseguem-buscas_v1680040",
             "normalized_title": "apos ataque de moscovo servicos de seguranca de kiev prosseguem buscas",
             "normalized_description": "a russia atingiu um navio ucraniano no rio danubio que acabou por se afundar kiev ainda nao confirmou este ataque que sucede um dia depois do"
+        },
+        {
+            "link": "https://www.publico.pt/2025/08/29/edicoes-publico/opiniao/camoes-oficial-identidade-2145379",
+            "normalized_title": "camoes oficial da identidade",
+            "normalized_description": ""
         },
         {
             "link": "https://www.record.pt/multimedia/videos/detalhe/rui-borges-conto-com-esgaio-e-matheus-reis-para-ja",
@@ -416,6 +496,11 @@
             "normalized_description": "ja ha imagens do novo volvo xc70 e um suv que se destaca na gama por ser o hibrido plug in com maior autonomia eletrica que a marca ja concebeu e"
         },
         {
+            "link": "https://www.publico.pt/2025/08/29/edicoes-publico/opiniao/paixao-paisagem-2145385",
+            "normalized_title": "paixao e paisagem",
+            "normalized_description": ""
+        },
+        {
             "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/ha-que-realcar-a-ausencia-de-rodrigo-mora-luis-pedro-sousa-comenta-convocados-para-qualificacao-do-mundial-2026",
             "normalized_title": "ha que reala ar a ausaªncia de rodrigo mora lua s pedro sousa comenta convocados para qualificaa a o do mundial 2026",
             "normalized_description": "luis pedro sousa chefe de redacao do record comenta as escolhas de roberto martinez para os dois jogos de apuramento para o mundial 2026"
@@ -444,6 +529,11 @@
             "link": "https://expresso.pt/internacional/eua/2025-08-29-trump-da-novo-brilho-dourado-a-sala-oval-decoracao-polemica-usou-materiais-de-baixo-custo-71c666b7",
             "normalized_title": "trump da novo brilho dourado a sala oval decoracao polemica usou materiais de baixo custo",
             "normalized_description": "a remodelacao da sala oval pela administracao donald trump trouxe apontamentos dourados e polemica ha fortes semelhancas entre os paineis"
+        },
+        {
+            "link": "https://www.publico.pt/2025/08/29/p3/noticia/egipto-prende-dezenas-adolescentes-tiktokers-repressao-redes-sociais-2145386",
+            "normalized_title": "egipto prende dezenas de adolescentes tiktokers em repressao as redes sociais",
+            "normalized_description": "as dezenas de detencoes baseiam se num artigo que criminaliza a violacao de quaisquer dos principios ou valores familiares da sociedade egipcia"
         },
         {
             "link": "https://www.noticiasaominuto.com/desporto/2845230/georgiy-sudakov-ja-chegou-a-portugal-para-reforcar-o-benfica#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
@@ -583,6 +673,11 @@
         {
             "link": "https://rr.pt/bola-branca/noticia/sporting/2025/08/29/rui-borges-descarta-trio-para-o-classico-e-assume-um-bocadinho-de-favoritismo/437816/?utm_medium=rss",
             "normalized_title": "rui borges descarta trio para o classico e assume um bocadinho de favoritismo",
+            "normalized_description": "o treinador do sporting salienta que a rececao de sabado ao fc porto nao dita nada nem poe nada em causa e acredita que samu sera titular pelos"
+        },
+        {
+            "link": "https://rr.pt/bola-branca/noticia/sporting/2025/08/29/rui-borges-descarta-trio-para-o-fc-porto-e-assume-um-bocadinho-de-favoritismo/437816/?utm_medium=rss",
+            "normalized_title": "rui borges descarta trio para o fc porto e assume um bocadinho de favoritismo",
             "normalized_description": "o treinador do sporting salienta que a rececao de sabado ao fc porto nao dita nada nem poe nada em causa e acredita que samu sera titular pelos"
         },
         {
@@ -756,6 +851,11 @@
             "normalized_description": "a estrategia nacional de educacao para a cidadania hoje publicada em diario da republica clarifica conteudos que devem ser ensinados nas escolas"
         },
         {
+            "link": "https://www.jornaldenegocios.pt/empresas/detalhe/alentejo-estupefacto-e-em-choque-com-apoio-do-governo-a-viticultores-do-douro",
+            "normalized_title": "alentejo estupefacto e em choque com apoio do governo a viticultores do douro",
+            "normalized_description": "apesar de evidentemente em nome do alentejo expressar total solidariedade para com o douro e com a situacao dificil que os viticultores dessa"
+        },
+        {
             "link": "https://www.rtp.pt/noticias/economia/costa-ouve-lideres-da-ue-sobre-guerra-orcamento-e-comercio-em-tour-europeia_n1680016",
             "normalized_title": "costa ouve lideres da ue sobre guerra orcamento e comercio em tour europeia",
             "normalized_description": "o presidente do conselho europeu antonio costa vai deslocar se aos estados membros da ue nas tres primeiras semanas de setembro para ouvir os"
@@ -849,6 +949,11 @@
             "link": "https://www.noticiasaominuto.com/mundo/2845187/pelo-menos-49-pessoas-morreram-num-naufragio-na-costa-da-mauritania#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "pelo menos 49 pessoas morreram num naufragio na costa da mauritania",
             "normalized_description": "pelo menos 49 pessoas morreram e centenas estao desaparecidas depois do naufragio de uma embarcacao que transportava migrantes ao largo da costa da"
+        },
+        {
+            "link": "https://www.publico.pt/2025/08/29/impar/noticia/mundo-passou-taylor-swift-ficou-noiva-2145368",
+            "normalized_title": "porque e que o mundo se passou quando taylor swift ficou noiva",
+            "normalized_description": "cenas semelhantes ocorreram em todo o pais na verdade no mundo na terca feira quando taylor swift anunciou que estava noiva da estrela da nfl"
         },
         {
             "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/video-mostra-homens-a-disparar-contra-um-predio-em-lisboa",
@@ -1224,6 +1329,11 @@
             "link": "https://www.jornaldenegocios.pt/empresas/turismo---lazer/detalhe/proveitos-do-alojamento-turistico-sobem-8-4-para-3-88-mil-milhoes-ate-julho",
             "normalized_title": "proveitos do alojamento turistico sobem 8 4 para 3 88 mil milhoes ate julho",
             "normalized_description": "numa analise apenas ao mes de julho o setor do alojamento turistico registou 3 4 milhoes de hospedes 4 3 e 9 4 milhoes de dormidas 3 5"
+        },
+        {
+            "link": "https://www.publico.pt/2025/08/29/politica/noticia/carneiro-marcelo-marques-mendes-deram-puxao-orelhas-governo-2145373",
+            "normalized_title": "carneiro diz que marcelo e marques mendes deram puxao de orelhas ao governo",
+            "normalized_description": "o lider socialista tem percorrido a en2 e aproveitado para deixar varios reparos ao executivo de luis montenegro no mais recente destaca as"
         },
         {
             "link": "https://www.rtp.pt/noticias/pais/circulacao-ferroviaria-retomada-na-linha-de-cascais-apos-atropelamento-mortal_n1680002",
@@ -1959,6 +2069,11 @@
             "link": "https://www.noticiasaominuto.com/pais/2845120/naufragio-ao-largo-dos-acores-11-pescadores-resgatados-de-barco-espanhol#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "naufragio ao largo dos acores 11 pescadores resgatados de barco espanhol",
             "normalized_description": "um barco de pesca galego naufragou a 150 milhas do arquipelago dos acores os 11 tripulantes que seguiam a bordo da embarcacao foram resgatados mas"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2845116/chris-froome-operado-com-sucesso-a-lesoes-sofridas-em-queda#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "chris froome operado com sucesso a lesoes sofridas em queda",
+            "normalized_description": "o ciclista britanico chris froome quatro vezes vencedor da volta a franca foi operado com sucesso as lesoes sofridas num grave acidente durante um"
         },
         {
             "link": "https://www.cmjornal.pt/cmtv/programas/entretenimento/noite-das-estrelas/detalhe/espero-que-a-relacao-de-resultado-duarte-siopa-sobre-noivado-de-moura-caetano-e-luiza-abreu",
@@ -3913,9 +4028,24 @@
     ],
     "Nacional": [
         {
+            "link": "https://www.rtp.pt/noticias/pais/area-ardida-na-peneda-geres-vai-ser-alvo-de-recuperacao-e-renaturalizacao_a1680073",
+            "normalized_title": "area ardida na peneda geres vai ser alvo de recuperacao e renaturalizacao",
+            "normalized_description": "a area ardida do parque nacional da peneda geres vai ser alvo de recuperacao e renaturalizacao dos ecossistemas da fauna e flora e dos sistemas das"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/detido-suspeito-de-atear-17-fogos-em-ponte-da-barca",
+            "normalized_title": "detido suspeito de atear 17 fogos em ponte da barca",
+            "normalized_description": "ignicoes aconteceram entre 15 de junho de 2024 e 10 de julho deste ano"
+        },
+        {
             "link": "https://www.rtp.pt/noticias/pais/detido-suspeito-de-atear-17-fogos-em-ponte-da-barca_n1680067",
             "normalized_title": "detido suspeito de atear 17 fogos em ponte da barca",
             "normalized_description": "um homem foi detido por suspeita de ter ateado pelo menos 17 incendios florestais em lavradas ponte da barca entre 15 de junho de 2024 e 10 de"
+        },
+        {
+            "link": "https://rr.pt/noticia/pais/2025/08/29/naufragio-no-atlantico-forca-aerea-resgata-11-pessoas-em-alto-mar/437849/?utm_medium=rss",
+            "normalized_title": "naufragio no atlantico forca aerea resgata 11 pessoas em alto mar",
+            "normalized_description": "pesqueiro onde seguiam 11 tripulantes de nacionalidade espanhola e indonesia naufragou a 457 km dos acores mas intervencao rapida da forca aerea"
         },
         {
             "link": "https://www.noticiasaominuto.com/pais/2845262/homem-detido-por-suspeitas-de-pelo-menos-17-incendios-em-ponte-da-barca#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
@@ -8350,6 +8480,11 @@
             "normalized_description": "o presidente angolano anunciou esta sexta feira que o governo preve mobilizar 500 milhoes de dolares 424 4 milhoes de euros ao longo dos proximos"
         },
         {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/trump-retira-protecao-policial-a-ex-vice-presidente-dos-eua-kamala-harris",
+            "normalized_title": "trump retira protecao policial a ex vice presidente dos eua kamala harris",
+            "normalized_description": "desde que regressou ao poder em janeiro trump retirou protecao tambem aos antigos membros seniores da administracao democrata de joe biden"
+        },
+        {
             "link": "https://expresso.pt/internacional/eua/2025-08-29-trump-revoga-protecao-dos-servicos-secretos-a-kamala-harris-5d9bc0d5",
             "normalized_title": "trump revoga protecao dos servicos secretos a kamala harris",
             "normalized_description": "a decisao surge a poucas semanas do lancamento das memorias de harris 107 dias previsto para 23 de setembro"
@@ -8396,6 +8531,11 @@
         },
         {
             "link": "https://www.rtp.pt/noticias/guerra-na-ucrania/ministros-europeus-convencidos-que-putin-nao-quer-a-paz_v1680043",
+            "normalized_title": "ministros europeus convencidos que putin nao quer a paz",
+            "normalized_description": "os ministros dos negocios estrangeiros da uniao europeia estao definitivamente convencidos de que a russia nao quer a paz os chefes da diplomacia"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/ministros-europeus-convencidos-que-putin-nao-quer-a-paz_v1680043",
             "normalized_title": "ministros europeus convencidos que putin nao quer a paz",
             "normalized_description": "os ministros dos negocios estrangeiros da uniao europeia estao definitivamente convencidos de que a russia nao quer a paz os chefes da diplomacia"
         },
@@ -13763,33 +13903,38 @@
             "link": "https://expresso.pt/internacional/europa/espanha/2025-08-24-onda-de-calor-em-espanha-foi-a-mais-intensa-de-sempre-e-hectares-ardidos-nos-incendios-atingiram-recorde-anual-a71556ab",
             "normalized_title": "onda de calor em espanha foi a mais intensa de sempre e hectares ardidos nos incendios atingiram recorde anual",
             "normalized_description": "a onda de calor que se sentiu durante 16 dias no pais superou a de julho de 2022 que tinha sido a mais intensa ate entao o pior dos fogos"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/lider-supremo-iraniano-acusa-eua-de-quererem-pais-obediente_n1678895",
-            "normalized_title": "lider supremo iraniano acusa eua de quererem pais obediente",
-            "normalized_description": "o lider supremo iraniano ali khamenei afirmou hoje que os estados unidos querem um irao obediente que aceite as suas exigencias garantindo que o"
-        },
-        {
-            "link": "https://www.cmjornal.pt/mundo/detalhe/crocodilos-mataram-seis-pessoas-de-janeiro-a-julho-no-centro-de-mocambique",
-            "normalized_title": "crocodilos mataram seis pessoas de janeiro a julho no centro de mocambique",
-            "normalized_description": "segundo o diretor dos servicos distritais de atividades economicas crocodilos atacam nas margens do rio zambeze durante atividades de agricultura e"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/israel-volta-a-intensificar-ataques-no-norte-de-gaza_v1678894",
-            "normalized_title": "israel volta a intensificar ataques no norte de gaza",
-            "normalized_description": "63 palestinianos morreram nos ultimos dias alguns deles enquanto tentavam obter ajuda humanitaria na ultima madrugada israel voltou a"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/dia-da-ucrania-zelensky-homenageia-soldados-mortos-em-combate_v1678893",
-            "normalized_title": "dia da ucrania zelensky homenageia soldados mortos em combate",
-            "normalized_description": "zelensky destaca o valor de paz segura e justa no dia da independencia da ucrania o presidente ucraniano prometeu que o pais nunca renunciara a"
         }
     ],
     "Desporto": [
         {
+            "link": "https://www.zerozero.pt/noticias/luis-freire-queremos-ser-campeoes-/902447",
+            "normalized_title": "luis freire queremos ser campeoes",
+            "normalized_description": "a dias do primeiro estagio e jogos no comando da selecao sub 21 luis freire falou aos jornalistas apos o anuncio da convocatoria o treinador nao"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/2--liga/farense/detalhe/assane-ndiaye-reforca-farense-por-emprestimo-do-estrela-da-amadora",
+            "normalized_title": "assane ndiaye reforca farense por emprestimo do estrela da amadora",
+            "normalized_description": "sem espaco nos tricolores medio muda se para o algarve"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/futebol-nacional/diego-duarte-aponta-ao-triunfo-do-avs-diante-do-famalicao_d1680072",
+            "normalized_title": "diego duarte aponta ao triunfo do avs diante do famalicao",
+            "normalized_description": "o avancado paraguaio diego duarte disse hoje esperar que o avs transforme o empate em braga no primeiro triunfo do campeonato diante do famalicao"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/selecao-nacional/mora-e-quenda-de-regresso-aos-sub-21-na-convocatoria-de-estreia-de-luis-freire_d1680071",
+            "normalized_title": "mora e quenda de regresso aos sub 21 na convocatoria de estreia de luis freire",
+            "normalized_description": "os regressos de rodrigo mora fc porto e geovany quenda sporting sao os destaques da convocatoria de estreia do selecionador nacional de futebol"
+        },
+        {
             "link": "https://www.rtp.pt/noticias/futebol-nacional/vasco-seabra-promete-arouca-com-vontade-competir-contra-o-vitoria-de-guimaraes_d1680070",
             "normalized_title": "vasco seabra promete arouca com vontade competir contra o vitoria de guimaraes",
             "normalized_description": "o tecnico do arouca destacou o ambiente do estadio d afonso henriques mas garantiu um arouca preparado para o jogo frente ao vitoria de guimaraes"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/detalhe/ja-ha-bilhetes-para-o-benfica-real-madrid-por-10-mil-euros-pode-ficar-atras-do-banco",
+            "normalized_title": "ja ha bilhetes para o benfica real madrid por 10 mil euros pode ficar atras do banco",
+            "normalized_description": "encarnados tem feito alertas para compras foras dos canais oficiais"
         },
         {
             "link": "https://www.noticiasaominuto.com/auto/2845233/ford-manda-recolher-mais-de-105-mil-mustangs-nos-eua#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
@@ -13892,6 +14037,11 @@
             "normalized_description": "em atualizacao"
         },
         {
+            "link": "https://rr.pt/bola-branca/noticia/porto/2025/08/29/farioli-confirma-samu-e-pica-sporting-preparamos-todos-os-cenarios-ate-jogar-com-dez/437846/?utm_medium=rss",
+            "normalized_title": "farioli confirma samu e pica sporting preparamos todos os cenarios ate jogar com dez",
+            "normalized_description": "em atualizacao"
+        },
+        {
             "link": "https://visao.pt/atualidade/desporto/2025-08-29-mourinho-soma-e-segue-mais-de-e100-milhoes-em-indemnizacoes-ao-setimo-despedimento/?utm_source=rss&utm_medium=rss&utm_campaign=mourinho-soma-e-segue-mais-de-e100-milhoes-em-indemnizacoes-ao-setimo-despedimento",
             "normalized_title": "mourinho soma e segue mais de 100 milhoes em indemnizacoes ao setimo despedimento",
             "normalized_description": "treinador portugues foi demitido na sequencia da eliminacao da liga dos campeoes e de declaracoes que nao terao caido bem junto dos dirigentes do"
@@ -13959,6 +14109,11 @@
         {
             "link": "https://rr.pt/bola-branca/noticia/sporting/2025/08/29/rui-borges-descarta-trio-para-o-classico-e-assume-um-bocadinho-de-favoritismo/437816/?utm_medium=rss",
             "normalized_title": "rui borges descarta trio para o classico e assume um bocadinho de favoritismo",
+            "normalized_description": "o treinador do sporting salienta que a rececao de sabado ao fc porto nao dita nada nem poe nada em causa e acredita que samu sera titular pelos"
+        },
+        {
+            "link": "https://rr.pt/bola-branca/noticia/sporting/2025/08/29/rui-borges-descarta-trio-para-o-fc-porto-e-assume-um-bocadinho-de-favoritismo/437816/?utm_medium=rss",
+            "normalized_title": "rui borges descarta trio para o fc porto e assume um bocadinho de favoritismo",
             "normalized_description": "o treinador do sporting salienta que a rececao de sabado ao fc porto nao dita nada nem poe nada em causa e acredita que samu sera titular pelos"
         },
         {
@@ -14295,6 +14450,11 @@
             "link": "https://www.noticiasaominuto.com/desporto/2845110/oficial-abdu-conte-regressa-a-portugal-para-reforcar-casa-pia#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "oficial abdu conte regressa a portugal para reforcar casa pia",
             "normalized_description": "o casa pia oficializou hoje a contratacao do defesa esquerdo abdu conte que pertencia aos franceses do troyes reforcando o posto que estava mais"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2845116/chris-froome-operado-com-sucesso-a-lesoes-sofridas-em-queda#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "chris froome operado com sucesso a lesoes sofridas em queda",
+            "normalized_description": "o ciclista britanico chris froome quatro vezes vencedor da volta a franca foi operado com sucesso as lesoes sofridas num grave acidente durante um"
         },
         {
             "link": "https://www.publico.pt/2025/08/29/desporto/noticia/acompanhe-aqui-sorteio-liga-europa-2145369",
@@ -24055,34 +24215,19 @@
             "link": "https://www.noticiasaominuto.com/desporto/2842688/ruben-amorim-esfrega-as-maos-united-prestes-a-contratar-guarda-redes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "ruben amorim esfrega as maos united prestes a contratar guarda redes",
             "normalized_description": "senne lammens e o novo desejo dos red devils e ficou de fora este domingo da partida frente ao kv mechelen serao tres os milhoes que vao atrasando"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/desporto/sporting-nacional-da-madeira-expulsao-de-pablo-ruan-decidiu-o-desfecho-do-jogo_v1678898",
-            "normalized_title": "sporting nacional da madeira expulsao de pablo ruan decidiu o desfecho do jogo",
-            "normalized_description": "o treinador do nacional tiago margarido diz que a expulsao de pablo ruan decidiu o desfecho do jogo do lado do sporting rui borges considera"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/italianos-dao-conta-de-reuniao-entre-diretor-desportivo-do-milan-empresario-de-harder-e-allegri",
-            "normalized_title": "italianos dao conta de reuniao entre diretor desportivo do milan empresario de harder e allegri",
-            "normalized_description": "na sequencia da derrota frente a cremonese na jornada inaugural da serie a"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/desporto/benfica-venceu-o-tondela-por-3-0_v1678897",
-            "normalized_title": "benfica venceu o tondela por 3 0",
-            "normalized_description": "os encarnados continuam sem sofrer golos no campeonato tanto bruno lage como ivo vieira consideram que o benfica mereceu ganhar"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/auto/2842677/miguel-oliveira-voa-para-a-melhor-classificacao-ano-no-gp-da-hungria#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "miguel oliveira voa para a melhor classificacao ano no gp da hungria",
-            "normalized_description": "piloto portugues partiu do 19 º lugar e acabou no 12 º na sequencia de uma corrida marcada por um arranque acidentado que culminou nas quedas de"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/desporto/mundiais-de-canoagem-prata-para-joao-ribeiro-e-messias-baptista_v1678896",
-            "normalized_title": "mundiais de canoagem prata para joao ribeiro e messias baptista",
-            "normalized_description": "os canoistas joao ribeiro e messias baptista sagraram se vice campeoes do mundo em k2 500 metros nos mundiais de milao uma dupla da hungria foi mais"
         }
     ],
     "Economia": [
+        {
+            "link": "https://jornaleconomico.sapo.pt/noticias/wall-street-arranca-em-leve-baixa-8/",
+            "normalized_title": "wall street arranca em leve baixa",
+            "normalized_description": "segundo o analista de mercados do millenium ramiro loureiro wall street arranca em leve baixa enquanto se aguardam por indicadores da universidade"
+        },
+        {
+            "link": "https://jornaleconomico.sapo.pt/noticias/inflacao-nos-eua-inalterada-nos-26-aponta-para-corte-das-taxas-de-juro-pela-fed/",
+            "normalized_title": "inflacao nos eua inalterada nos 2 6 aponta para corte das taxas de juro pela fed",
+            "normalized_description": "a fed utiliza o indice de precos pce como a sua principal ferramenta de previsao pelo que os dados hoje publicados sustentam a possibilidade de"
+        },
         {
             "link": "https://jornaleconomico.sapo.pt/noticias/angola-quer-investir-mais-de-400-milhoes-de-euros-na-construcao-de-escolas-ate-2028/",
             "normalized_title": "angola quer investir mais de 400 milhoes de euros na construcao de escolas ate 2028",
@@ -24217,6 +24362,11 @@
             "link": "https://www.jornaldenegocios.pt/economia/detalhe/costa-ouve-lideres-da-ue-sobre-guerra-orcamento-e-comercio-em-tour-europeia",
             "normalized_title": "costa ouve lideres da ue sobre guerra orcamento e comercio em tour europeia",
             "normalized_description": "depois de no outono do ano passado ter realizado uma visita semelhante antes de iniciar funcoes como presidente do conselho europeu o antigo"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/empresas/detalhe/alentejo-estupefacto-e-em-choque-com-apoio-do-governo-a-viticultores-do-douro",
+            "normalized_title": "alentejo estupefacto e em choque com apoio do governo a viticultores do douro",
+            "normalized_description": "apesar de evidentemente em nome do alentejo expressar total solidariedade para com o douro e com a situacao dificil que os viticultores dessa"
         },
         {
             "link": "https://www.rtp.pt/noticias/economia/costa-ouve-lideres-da-ue-sobre-guerra-orcamento-e-comercio-em-tour-europeia_n1680016",
@@ -29437,11 +29587,6 @@
             "link": "https://jornaleconomico.sapo.pt/noticias/universidade-do-minho-tem-quatro-cursos-com-nota-de-entrada-acima-dos-17-valores/",
             "normalized_title": "universidade do minho tem quatro cursos com nota de entrada acima dos 17 valores",
             "normalized_description": "engenharia aeroespacial 188 5 medicina 183 5 direito 173 3 e arquitetura 172 8 sao os cursos com nota mais alta de entrada na uminho mais"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/certidao-de-registo-predial-acelera-indemnizacoes-alerta-bastonario-dos-notarios/",
-            "normalized_title": "certidao de registo predial acelera indemnizacoes alerta bastonario dos notarios",
-            "normalized_description": "jorge batista da silva disse na cnn que a certidao do registo predial e um instrumento fundamental para garantir maior fluidez nos processos de"
         }
     ],
     "Cultura": [
@@ -30299,11 +30444,6 @@
             "link": "https://observador.pt/2025/08/24/morreu-luis-lucas-ator-e-fundador-do-teatro-a-comuna/",
             "normalized_title": "morreu o ator luis lucas fundador d a comuna",
             "normalized_description": "ator morreu este domingo aos 73 anos vitima de um enfarte deixa um legado inestimavel para o teatro o cinema e a televisao em portugal refere"
-        },
-        {
-            "link": "https://expresso.pt/blitz/2025-08-24-festival-ca-vilar-de-mouros-confirma-regresso-em-2026-e-anuncia-a-primeira-banda-faadaf85",
-            "normalized_title": "festival ca vilar de mouros confirma regresso em 2026 e anuncia a primeira banda",
-            "normalized_description": "o decano dos festivais de musica em portugal que terminou a sua edicao de 2025 na noite de sabado projetou a sua edicao do proximo ano com uma"
         }
     ],
     "Ciência e Tech": [
@@ -32852,6 +32992,16 @@
     ],
     "Sociedade": [
         {
+            "link": "https://www.publico.pt/2025/08/29/p3/noticia/egipto-prende-dezenas-adolescentes-tiktokers-repressao-redes-sociais-2145386",
+            "normalized_title": "egipto prende dezenas de adolescentes tiktokers em repressao as redes sociais",
+            "normalized_description": "as dezenas de detencoes baseiam se num artigo que criminaliza a violacao de quaisquer dos principios ou valores familiares da sociedade egipcia"
+        },
+        {
+            "link": "https://www.publico.pt/2025/08/29/impar/noticia/mundo-passou-taylor-swift-ficou-noiva-2145368",
+            "normalized_title": "porque e que o mundo se passou quando taylor swift ficou noiva",
+            "normalized_description": "cenas semelhantes ocorreram em todo o pais na verdade no mundo na terca feira quando taylor swift anunciou que estava noiva da estrela da nfl"
+        },
+        {
             "link": "https://observador.pt/2025/08/29/caso-de-violencia-domestica-na-madeira-agressor-pode-vir-a-aguardar-julgamento-em-prisao-domiciliaria/",
             "normalized_title": "madeira agressor podera ficar em prisao domiciliaria",
             "normalized_description": "juiza decretou prisao preventiva como medida de coacao ao homem de 35 anos acusado de dois crimes de violencia domestica agravados foi tambem pedido"
@@ -34655,16 +34805,6 @@
             "link": "https://www.cmjornal.pt/sociedade/detalhe/universidades-esperam-que-candidatos-a-2-fase-seja-mais-elevado",
             "normalized_title": "universidades esperam que candidatos a 2 ª fase seja mais elevado",
             "normalized_description": "ficaram colocados 43 899 estudantes na 1 ª fase do concurso nacional de acesso ao ensino superior o que corresponde a uma diminuicao de 12 1 em"
-        },
-        {
-            "link": "https://www.publico.pt/2025/08/24/sociedade/noticia/despiste-faz-cinco-mortos-monchique-2144820",
-            "normalized_title": "despiste faz cinco mortos em monchique",
-            "normalized_description": "as vitimas foram encontradas carbonizadas dentro da viatura"
-        },
-        {
-            "link": "https://www.cmjornal.pt/sociedade/detalhe/sindicato-defende-incentivos-a-fixacao-de-alunos-no-interior",
-            "normalized_title": "sindicato defende incentivos a fixacao de alunos no interior",
-            "normalized_description": "lider sindical refere que uma das causas para diminuicao dos alunos podera estar relacionada com o aumento dos precos das casas registado nos ultimos"
         }
     ],
     "Política": [
@@ -34717,6 +34857,11 @@
             "link": "https://www.noticiasaominuto.com/politica/2845157/ativo-sovietico-marcelo-tem-razao-mas-mostrou-falta-de-controlo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "ativo sovietico marcelo tem razao mas mostrou falta de controlo",
             "normalized_description": "o politologo jose adelino maltez considerou em declaracoes ao noticias ao minuto que marcelo rebelo de sousa demonstrou falta de controlo ao dizer"
+        },
+        {
+            "link": "https://www.publico.pt/2025/08/29/politica/noticia/carneiro-marcelo-marques-mendes-deram-puxao-orelhas-governo-2145373",
+            "normalized_title": "carneiro diz que marcelo e marques mendes deram puxao de orelhas ao governo",
+            "normalized_description": "o lider socialista tem percorrido a en2 e aproveitado para deixar varios reparos ao executivo de luis montenegro no mais recente destaca as"
         },
         {
             "link": "https://www.rtp.pt/noticias/politica/carneiro-diz-que-marcelo-e-marques-mendes-deram-puxao-de-orelhas-ao-governo_n1680000",
@@ -38414,29 +38559,19 @@
             "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/fui-esquecido-habitante-de-castelo-novo-relata-falta-de-meios-no-combate-ao-fogo-que-atingiu-o-fundao",
             "normalized_title": "fui esquecido habitante de castelo novo relata falta de meios no combate ao fogo que atingiu o fundao",
             "normalized_description": "populacao relata situacao de caos e refere que incendio foi controlado com a ajuda dos moradores"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/spacex-lanca-33-missao-de-reabastecimento-para-a-estacao-espacial-internacional",
-            "normalized_title": "spacex lanca 33 ª missao de reabastecimento para a estacao espacial internacional",
-            "normalized_description": "a capsula dragon descolou no domingo de cabo canaveral na florida rumo a estacao espacial internacional com mantimentos e equipamentos cientificos"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/pescador-paraguaio-salvo-apos-dias-desaparecido-na-patagonia-chilena",
-            "normalized_title": "pescador paraguaio salvo apos dias desaparecido na patagonia chilena",
-            "normalized_description": "o pescador juan casco foi encontrado com vida pela marinha chilena em costas rochosas no sul da patagonia no chile depois de dias desaparecido as"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/israelitas-voltam-as-ruas-de-telavive-para-exigir-cessar-fogo-e-acordo-pela-libertacao-dos-refens",
-            "normalized_title": "israelitas voltam as ruas de telavive para exigir cessar fogo e acordo pela libertacao dos refens",
-            "normalized_description": "milhares de pessoas manifestaram se este sabado em telavive mantendo a pressao sobre o governo israelita para negociar um cessar fogo com o hamas"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/centenas-de-pessoas-protestam-no-reino-unido-contra-o-alojamento-dos-requerentes-de-asilo",
-            "normalized_title": "centenas de pessoas protestam no reino unido contra o alojamento dos requerentes de asilo",
-            "normalized_description": "populacao saiu este sabado as ruas de varias cidades britanicas incluindo liverpool e bristol para contestarem a utilizacao de hoteis para"
         }
     ],
     "Opinião": [
+        {
+            "link": "https://www.publico.pt/2025/08/29/edicoes-publico/opiniao/camoes-oficial-identidade-2145379",
+            "normalized_title": "camoes oficial da identidade",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.publico.pt/2025/08/29/edicoes-publico/opiniao/paixao-paisagem-2145385",
+            "normalized_title": "paixao e paisagem",
+            "normalized_description": ""
+        },
         {
             "link": "https://www.publico.pt/2025/08/29/opiniao/opiniao/crise-douro-2145370",
             "normalized_title": "a crise no douro",
@@ -39284,6 +39419,16 @@
         }
     ],
     "Vídeojogos": [
+        {
+            "link": "https://www.eurogamer.pt/ridley-scott-recusou-terminator-3",
+            "normalized_title": "ridley scott recusou terminator 3",
+            "normalized_description": "ridley scott revelou que recusou a proposta para realizar terminator 3 mesmo que esse trabalho representasse imenso dinheiro ler mais"
+        },
+        {
+            "link": "https://pt.ign.com/metal-gear-solid-delta-snake-eater/150001/news/metal-gear-solid-delta-snake-eater-recebeu-o-seu-primeiro-hotfix",
+            "normalized_title": "metal gear solid delta snake eater recebeu o seu primeiro hotfix",
+            "normalized_description": "mudancas na selva apos varios relatos de problemas de performance a konami lancou o primeiro hotfix para metal gear solid delta snake eater a"
+        },
         {
             "link": "https://www.eurogamer.pt/call-of-duty-podera-chegar-aos-cinemas",
             "normalized_title": "call of duty podera chegar aos cinemas",
