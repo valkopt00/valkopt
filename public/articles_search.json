@@ -1,6 +1,51 @@
 {
     "Últimas": [
         {
+            "link": "https://pt.euronews.com/2025/08/30/governo-portugues-diz-nao-ter-responsabilidade-de-proteger-flotilha-humanitaria-em-direcao",
+            "normalized_title": "governo portugues diz nao ter responsabilidade de proteger flotilha humanitaria em direcao a gaza",
+            "normalized_description": "o ministerio dos negocios estrangeiros esclareceu este sabado que o governo nao tem qualquer responsabilidade na protecao da deputada mariana"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2845772/quatro-mortos-em-tiroteio-numa-prisao-do-equador-policia-investiga#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "quatro mortos em tiroteio numa prisao do equador policia investiga",
+            "normalized_description": "um tiroteio numa prisao em turi cuenca no sul do equador fez na sexta feira quatro mortos entre os reclusos tendo sido aberta uma investigacao"
+        },
+        {
+            "link": "https://www.record.pt/modalidades/ciclismo/vuelta/detalhe/juan-ayuso-deve-estar-de-saida-da-uae-para-rumar-a-lidl-trek",
+            "normalized_title": "juan ayuso deve estar de saida da uae para rumar a lidl trek",
+            "normalized_description": "jovem espanhol de 22 anos tera ja tudo acertado"
+        },
+        {
+            "link": "https://www.record.pt/modalidades/tenis/us-open/detalhe/vergonhoso-gesto-no-us-open-adepto-rouba-bone-que-majchrzak-tinha-dado-a-crianca",
+            "normalized_title": "vergonhoso gesto no us open adepto rouba bone que majchrzak tinha dado a crianca",
+            "normalized_description": "polaco pediu ajuda e ja encontrou o seu fa"
+        },
+        {
+            "link": "https://www.record.pt/modalidades/andebol/detalhe/fc-porto-perde-de-novo-para-o-barcelona-e-falha-final-da-supertaca-iberica-de-andebol",
+            "normalized_title": "fc porto perde de novo para o barcelona e falha final da supertaca iberica",
+            "normalized_description": "ian barrufet com sete golos foi o melhor marcador dos blaugrana enquanto mamadou diocou com seis foi o principal artilheiro dos azuis e brancos"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/pais/2845768/condolencias-marcelo-lamenta-morte-do-almirante-saldanha-lopes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "condolencias marcelo lamenta morte do almirante saldanha lopes",
+            "normalized_description": "o presidente da republica marcelo rebelo de sousa lamentou hoje a morte do almirante jose saldanha lopes ex chefe do estado maior da armada que"
+        },
+        {
+            "link": "https://www.cmjornal.pt/sociedade/detalhe/marcelo-lamenta-morte-do-almirante-saldanha-lopes-ex-chefe-do-estado-maior-da-armada",
+            "normalized_title": "marcelo lamenta morte do almirante saldanha lopes ex chefe do estado maior da armada",
+            "normalized_description": "particularmente relevante foi a sua intervencao no resgate de civis na guine bissau em 1998 considerou o presidente da republica"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/buracos-frente-ao-palco-ferem-quatro-na-feira-de-sao-mateus",
+            "normalized_title": "buracos em frente ao palco ferem quatro pessoas na feira de sao mateus",
+            "normalized_description": "peritagem identificou tres pecas danificadas que foram ja substituidas e por isso os concertos vao continuar"
+        },
+        {
+            "link": "https://www.record.pt/internacional/paises/alemanha/detalhe/atencao-benfica-bayer-leverkusen-continua-sem-vencer-na-bundesliga",
+            "normalized_title": "atencao benfica bayer leverkusen continua sem vencer na bundesliga",
+            "normalized_description": "eintracht frankfurt vence fora o hoffenheim e mantem arranque perfeito na bundesliga"
+        },
+        {
             "link": "https://rr.pt/bola-branca/noticia/futebol-nacional/2025/08/30/nacional-ganha-ao-casa-pia/437939/?utm_medium=rss",
             "normalized_title": "nacional ganha ao casa pia",
             "normalized_description": "partida teve dois golos veja o resumo do jogo"
@@ -14,6 +59,11 @@
             "link": "https://rr.pt/noticia/pais/2025/08/30/incendio-e-afundamento-de-embarcacao-de-30-metros-em-cascais-alvo-de-investigacao/437938/?utm_medium=rss",
             "normalized_title": "incendio e afundamento de embarcacao de 30 metros em cascais alvo de investigacao",
             "normalized_description": "o barco afundou se na ultima noite na marina de cascais apos um incendio que deflagrou a bordo ninguem ficou ferido"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/empresas/industria/detalhe/martifer-ganha-fachada-de-hotel-de-luxo-de-robert-de-niro-em-madrid",
+            "normalized_title": "martifer ganha fachada de hotel de luxo de robert de niro em madrid",
+            "normalized_description": "o grupo que esta sob opa da visabeira ganhou um contrato de dois milhoes de euros para executar a fachada do nobu hotel madrid um dos 44 hoteis da"
         },
         {
             "link": "https://www.rtp.pt/noticias/futebol-internacional/penalti-de-bruno-fernandes-da-primeiro-triunfo-ao-manchester-united_d1680258",
@@ -413,6 +463,11 @@
         {
             "link": "https://www.zerozero.pt/noticias/em-casa-a-historia-e-outra/904005",
             "normalized_title": "em casa a historia e outra",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.zerozero.pt/noticias/feirense-volta-a-brilhar-em-casa-e-bate-o-leixoes/904005",
+            "normalized_title": "feirense volta a brilhar em casa e bate o leixoes",
             "normalized_description": ""
         },
         {
@@ -3339,14 +3394,19 @@
             "link": "https://expresso.pt/internacional/eua/2025-08-30-juiza-federal-dos-eua-bloqueia-deportacoes-imediatas-por-contrariarem-processo-legal-9358f590",
             "normalized_title": "justica norte americana bloqueia deportacoes imediatas",
             "normalized_description": "segundo a juiza as medidas aprovadas por trump estao a priorizar a velocidade e correm o risto de levar a deportacao de pessoas por engano algo"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/sudakov-ja-esta-e-carlos-alvarez-e-o-proximo",
-            "normalized_title": "sudakov ja esta e carlos alvarez e o proximo",
-            "normalized_description": "ucraniano aterrou ontem em lisboa e deve ser oficializado hoje ao mesmo tempo que aceleram as negociacoes pelo extremo espanhol"
         }
     ],
     "Nacional": [
+        {
+            "link": "https://www.noticiasaominuto.com/pais/2845768/condolencias-marcelo-lamenta-morte-do-almirante-saldanha-lopes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "condolencias marcelo lamenta morte do almirante saldanha lopes",
+            "normalized_description": "o presidente da republica marcelo rebelo de sousa lamentou hoje a morte do almirante jose saldanha lopes ex chefe do estado maior da armada que"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/buracos-frente-ao-palco-ferem-quatro-na-feira-de-sao-mateus",
+            "normalized_title": "buracos em frente ao palco ferem quatro pessoas na feira de sao mateus",
+            "normalized_description": "peritagem identificou tres pecas danificadas que foram ja substituidas e por isso os concertos vao continuar"
+        },
         {
             "link": "https://rr.pt/noticia/pais/2025/08/30/incendio-e-afundamento-de-embarcacao-de-30-metros-em-cascais-alvo-de-investigacao/437938/?utm_medium=rss",
             "normalized_title": "incendio e afundamento de embarcacao de 30 metros em cascais alvo de investigacao",
@@ -7739,6 +7799,11 @@
         }
     ],
     "Mundo": [
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2845772/quatro-mortos-em-tiroteio-numa-prisao-do-equador-policia-investiga#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "quatro mortos em tiroteio numa prisao do equador policia investiga",
+            "normalized_description": "um tiroteio numa prisao em turi cuenca no sul do equador fez na sexta feira quatro mortos entre os reclusos tendo sido aberta uma investigacao"
+        },
         {
             "link": "https://expresso.pt/internacional/medio-oriente/guerra-israel-hamas/2025-08-30-primeiro-ministro-e-outros-ministros-do-iemen-mortos-em-ataque-israelita-telavive-enfraquece-hutis-do-eixo-de-resistencia-71e24cd8",
             "normalized_title": "primeiro ministro e outros ministros do iemen mortos em ataque israelita telavive enfraquece hutis do eixo de resistencia",
@@ -13368,14 +13433,29 @@
             "link": "https://www.noticiasaominuto.com/mundo/2843157/presidente-polaco-veta-apoios-a-ucranianos-desempregados-e-starlink#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "presidente polaco veta apoios a ucranianos desempregados e starlink",
             "normalized_description": "o novo presidente polaco karol nawrocki vetou hoje uma lei que previa o prolongamento dos apoios aos ucranianos desempregados no pais ate marco de"
-        },
-        {
-            "link": "https://www.cmjornal.pt/mundo/detalhe/marinha-francesa-chega-a-ilha-cabo-verdiana-de-sao-vicente-para-apoiar-apos-tempestade",
-            "normalized_title": "marinha francesa chega a ilha cabo verdiana de sao vicente para apoiar apos tempestade",
-            "normalized_description": "tempestade que assolou a ilha provocou nove mortos equipas de emergencia continuam a trabalhar para avaliar os danos causados pelas chuvas intensas"
         }
     ],
     "Desporto": [
+        {
+            "link": "https://www.record.pt/modalidades/ciclismo/vuelta/detalhe/juan-ayuso-deve-estar-de-saida-da-uae-para-rumar-a-lidl-trek",
+            "normalized_title": "juan ayuso deve estar de saida da uae para rumar a lidl trek",
+            "normalized_description": "jovem espanhol de 22 anos tera ja tudo acertado"
+        },
+        {
+            "link": "https://www.record.pt/modalidades/tenis/us-open/detalhe/vergonhoso-gesto-no-us-open-adepto-rouba-bone-que-majchrzak-tinha-dado-a-crianca",
+            "normalized_title": "vergonhoso gesto no us open adepto rouba bone que majchrzak tinha dado a crianca",
+            "normalized_description": "polaco pediu ajuda e ja encontrou o seu fa"
+        },
+        {
+            "link": "https://www.record.pt/modalidades/andebol/detalhe/fc-porto-perde-de-novo-para-o-barcelona-e-falha-final-da-supertaca-iberica-de-andebol",
+            "normalized_title": "fc porto perde de novo para o barcelona e falha final da supertaca iberica",
+            "normalized_description": "ian barrufet com sete golos foi o melhor marcador dos blaugrana enquanto mamadou diocou com seis foi o principal artilheiro dos azuis e brancos"
+        },
+        {
+            "link": "https://www.record.pt/internacional/paises/alemanha/detalhe/atencao-benfica-bayer-leverkusen-continua-sem-vencer-na-bundesliga",
+            "normalized_title": "atencao benfica bayer leverkusen continua sem vencer na bundesliga",
+            "normalized_description": "eintracht frankfurt vence fora o hoffenheim e mantem arranque perfeito na bundesliga"
+        },
         {
             "link": "https://rr.pt/bola-branca/noticia/futebol-nacional/2025/08/30/nacional-ganha-ao-casa-pia/437939/?utm_medium=rss",
             "normalized_title": "nacional ganha ao casa pia",
@@ -13589,6 +13669,11 @@
         {
             "link": "https://www.zerozero.pt/noticias/em-casa-a-historia-e-outra/904005",
             "normalized_title": "em casa a historia e outra",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.zerozero.pt/noticias/feirense-volta-a-brilhar-em-casa-e-bate-o-leixoes/904005",
+            "normalized_title": "feirense volta a brilhar em casa e bate o leixoes",
             "normalized_description": ""
         },
         {
@@ -23825,34 +23910,14 @@
             "link": "https://www.noticiasaominuto.com/desporto/2843153/bruno-lage-agarrado-a-aursnes-na-preparacao-para-o-fenerbahce#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "bruno lage agarrado a aursnes na preparacao para o fenerbahce",
             "normalized_description": "confira a fotogaleria do treino do benfica nas instalacoes do benfica campus no seixal aursnes de 29 anos tem sido um dos destaques dos"
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/baixa-sonante-no-benfica-andreia-norton-perde-toda-a-temporada-de-2025-26/898237",
-            "normalized_title": "baixa sonante no benfica andreia norton perde toda a temporada de 2025 26",
-            "normalized_description": "o benfica anunciou esta segunda feira que andreia norton sera submetida a uma intervencao cirurgica ao joelho direito devido a uma lesao condral e a"
-        },
-        {
-            "link": "https://observador.pt/2025/08/25/depois-da-multa-joao-apanhou-um-susto-mas-saiu-intacto-gaudu-bate-pedersen-ao-sprint-vingegaard-segura-lideranca-portugues-sobe-a-11-o/",
-            "normalized_title": "depois da multa joao apanhou um susto no dia de gaudu",
-            "normalized_description": "david gaudu bateu pedersen na chegada a subir em ceres vingegaard aguentou camisola vermelha com o terceiro lugar na etapa joao almeida e ayuso"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-feminino/detalhe/andreia-norton-vai-ser-operada-e-arrisca-nao-jogar-esta-epoca",
-            "normalized_title": "andreia norton vai ser operada e arrisca nao jogar esta epoca",
-            "normalized_description": "benfica emite comunicado"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/trabzonspor-prepara-se-para-fazer-oferta-por-um-medio-do-fc-porto-diz-a-imprensa-turca",
-            "normalized_title": "trabzonspor prepara se para fazer oferta por um medio do fc porto diz a imprensa turca",
-            "normalized_description": "stephen eustaquio e o desejado e a proposta andara pelos 8 milhoes de euros"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/nacional/detalhe/leo-santos-recorda-golo-ao-sporting-fiquei-muito-feliz-e-para-isso-que-trabalho-no-dia-a-dia",
-            "normalized_title": "leo santos recorda golo ao sporting fiquei muito feliz e para isso que trabalho no dia a dia",
-            "normalized_description": "defesa central brasileiro do nacional acredita que a equipa vai melhorar"
         }
     ],
     "Economia": [
+        {
+            "link": "https://www.jornaldenegocios.pt/empresas/industria/detalhe/martifer-ganha-fachada-de-hotel-de-luxo-de-robert-de-niro-em-madrid",
+            "normalized_title": "martifer ganha fachada de hotel de luxo de robert de niro em madrid",
+            "normalized_description": "o grupo que esta sob opa da visabeira ganhou um contrato de dois milhoes de euros para executar a fachada do nobu hotel madrid um dos 44 hoteis da"
+        },
         {
             "link": "https://jornaleconomico.sapo.pt/noticias/agente-krasnov-as-teorias-sobre-trump-o-kgb-e-a-russia/",
             "normalized_title": "agente krasnov as teorias sobre trump o kgb e a russia",
@@ -29207,16 +29272,6 @@
             "link": "https://www.jornaldenegocios.pt/economia/detalhe/presidente-polaco-veta-apoios-a-ucranianos-desempregados-e-gastos-com-starlink",
             "normalized_title": "presidente polaco veta apoios a ucranianos desempregados e gastos com starlink",
             "normalized_description": "os subsidios que tinham sido aprovados no parlamento devem ser reservados apenas aos ucranianos empenhados em trabalhar na polonia justificou aos"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/acoes-da-puma-disparam-com-noticia-sobre-familia-pinault-estar-a-estudar-venda-de-participacao-de-29/",
-            "normalized_title": "acoes da puma disparam com noticia sobre familia pinault estar a estudar venda de participacao de 29",
-            "normalized_description": "as acoes da puma que perderam mais de 60 do seu valor nos ultimos dois anos chegaram a subir 18 ao longo da sessao desta segunda feira agora"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/mercados/bolsa/detalhe/familia-edp-derruba-lisboa",
-            "normalized_title": "familia edp derruba lisboa",
-            "normalized_description": "a bolsa portuguesa acompanhou a maioria das congeneres europeias e fechou no vermelho a primeira sessao da semana o setor das utilities foi o mais"
         }
     ],
     "Cultura": [
@@ -32588,14 +32643,14 @@
             "link": "https://www.publico.pt/2025/08/25/fugas/noticia/terca-dia-brincar-classicos-2144885",
             "normalized_title": "o que fazer terca e dia de brincar com classicos",
             "normalized_description": "casablanca na tela do cine society uma experiencia com amalia o museu do brincar o fio mental da urze teatro uma exposicao sobre o japao e outra"
-        },
-        {
-            "link": "https://www.cmjornal.pt/vidas/ultimas/detalhe/neto-de-pinto-da-costa-lanca-livro-e-defende-memoria-do-ex-presidente-do-fc-porto",
-            "normalized_title": "neto de pinto da costa lanca livro e defende memoria do ex presidente do fc porto",
-            "normalized_description": "nuno pinto da costa anuncia o lancamento de azul depois do fim numa clara continuacao do livro publicado pelo avo meses antes da sua morte"
         }
     ],
     "Sociedade": [
+        {
+            "link": "https://www.cmjornal.pt/sociedade/detalhe/marcelo-lamenta-morte-do-almirante-saldanha-lopes-ex-chefe-do-estado-maior-da-armada",
+            "normalized_title": "marcelo lamenta morte do almirante saldanha lopes ex chefe do estado maior da armada",
+            "normalized_description": "particularmente relevante foi a sua intervencao no resgate de civis na guine bissau em 1998 considerou o presidente da republica"
+        },
         {
             "link": "https://www.cmjornal.pt/sociedade/detalhe/douro-internacional-exige-medidas-celeres-para-compensar-prejuizos-provocados-pelo-fogo",
             "normalized_title": "douro internacional exige medidas celeres para compensar prejuizos provocados pelo fogo",
@@ -34285,16 +34340,6 @@
             "link": "https://www.cmjornal.pt/sociedade/detalhe/europa-e-regiao-do-mediterraneo-com-seca-recorde-no-inicio-de-agosto",
             "normalized_title": "europa e regiao do mediterraneo com seca recorde no inicio de agosto",
             "normalized_description": "portugal espanha e italia apenas afetados pela seca a nivel local enquanto reino unido e franca foram afetados em mais de 60 do territorio revela"
-        },
-        {
-            "link": "https://expresso.pt/sociedade/2025-08-25-e-uma-preocupacao-e-e-o-caminho-errado-metade-das-32-instituicoes-de-ensino-superior-perdeu-mais-de-20-de-alunos-625dce70",
-            "normalized_title": "e uma preocupacao e e o caminho errado metade das 32 instituicoes de ensino superior perdeu mais de 20 de alunos",
-            "normalized_description": "nesta 1ª fase de acesso ao ensino superior foram colocados menos 6 mil alunos do que no ano passado afetando praticamente todas as instituicoes ha"
-        },
-        {
-            "link": "https://www.cmjornal.pt/sociedade/detalhe/primeira-fase-de-acesso-ao-ensino-superior-nada-teve-de-habitual",
-            "normalized_title": "primeira fase de acesso ao ensino superior nada teve de habitual",
-            "normalized_description": "associacao academica de coimbra apela ao ministro da educacao ciencia e inovacao para que reflita sobre o que considera ser um cenario negativo para"
         }
     ],
     "Política": [
@@ -38269,21 +38314,6 @@
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/17h-mais-criancas-a-chumbar-ou-a-abandonar-a-escola-no-2o-ciclo_a1_1679119",
             "normalized_title": "17h mais criancas a chumbar ou a abandonar a escola no 2º ciclo",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/esta-pessoa-e-tua-companheira-chris-martins-brinca-com-pedido-de-casamento-durante-concerto-dos-coldplay",
-            "normalized_title": "esta pessoa a tua companheira chris martin brinca com pedido de casamento durante concerto dos coldplay",
-            "normalized_description": "um fa dos coldplay levou um cartaz a dizer que queria fazer o pedido de casamento durante o espeta culo da banda em wembley londres na"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/o-governo-nao-tem-uma-visao-para-o-desenvolvimento-do-nosso-pais-jose-luis-carneiro-deixa-criticas-ao-psd",
-            "normalized_title": "o governo na o tem uma visa o para o desenvolvimento do nosso paa s josa lua s carneiro deixa cra ticas ao psd",
-            "normalized_description": "o lider do partido socialista acusa o governo de apresentar medidas avulso"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/16h-ctt-suspendem-envio-postal-de-bens-para-os-eua_a1_1679116",
-            "normalized_title": "16h ctt suspendem envio postal de bens para os eua",
-            "normalized_description": ""
         }
     ],
     "Opinião": [
@@ -39973,11 +40003,6 @@
             "link": "https://pt.ign.com/fortnite/149857/news/10a-temporada-de-fortnite-festival-arranca-amanha-com-gorillaz",
             "normalized_title": "10ª temporada de fortnite festival arranca amanha com gorillaz",
             "normalized_description": "ritmo animado a decima temporada de fortnite festival arranca amanha e os gorillaz foram os escolhidos como cabeca de cartaz do evento a epic games"
-        },
-        {
-            "link": "https://www.eurogamer.pt/rumor-resident-evil-code-veronica-remake-sera-semi-mundo-aberto",
-            "normalized_title": "rumor resident evil code veronica remake sera semi mundo aberto",
-            "normalized_description": "ao revelar resident evil requiem oito meses antes do lancamento em fevereiro de 2026 a capcom mostrou que consegue produzir jogos de grande escala"
         }
     ],
     "Outras Notícias": [
