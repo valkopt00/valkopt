@@ -96,7 +96,7 @@ FEED_CATEGORY_MAPPER = {
 # Maps specific category names to standardized category names
 CATEGORY_GROUPS = {
     "Nacional": [
-        "Nacional", "País", "Pais", "Portugal", "Lisboa", "Local". "Açores"
+        "Nacional", "País", "Pais", "Portugal", "Lisboa", "Local", "Açores"
     ],
     "Mundo": [
         "Mundo", "Internacional", "União Europeia", "Guerra na Ucrânia",
