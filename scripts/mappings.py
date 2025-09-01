@@ -218,7 +218,8 @@ IGNORE_ORIGINAL_CATS = {
     "Cm ao Minuto", "A semana", "Expressinho",
     "Observador", "Domingo", "Briefing",
     "Enter", "LUSA-INBOX", "P2 Verão",
-    "A Beleza das Pequenas Coisas", "Análise"
+    "A Beleza das Pequenas Coisas", "Análise",
+    "Altos & Baixos"
 }
 
 CATEGORY_MAPPER = {
