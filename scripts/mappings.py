@@ -189,12 +189,12 @@ CATEGORY_GROUPS = {
         "O Tal Podcast", "Guerra Fria", "Vídeo", "Mercado Aberto"
     ],
     "Opinião": [
-        "Opinião", "Opiniao", "Colunistas", "Nota editorial",
+        "Opinião", "Opiniao", "opiniao", "Opinao", "opinao", "Colunistas", "Nota editorial",
         "Editorial", "Linhas Direitas", "José jorge letria", "Liveblogs",
         "Artigos de Newsletter", "O Vale Era Verde", "Opinião União Europeia",
         "Isso era uma longa conversa", "Opinião Protopia", "Café Central",
          "Tanto faz não é resposta", "Vestígios de Azul", "Diário do Governo",
-        "Bloco de Notas", "Newsletter", "Opinao"
+        "Bloco de Notas", "Newsletter", "Análise"
     ],
     "Lifestyle": [
         "Lifestyle", "Comer e beber", "Gastronomia", "Vida",
@@ -218,8 +218,8 @@ IGNORE_ORIGINAL_CATS = {
     "Expresso Fundamental", "Capas", "Em Destaque",
     "Cm ao Minuto", "A semana", "Expressinho",
     "Observador", "Domingo", "Briefing",
-    "Enter", "LUSA-INBOX", "P2 Verão",
-    "A Beleza das Pequenas Coisas", "Análise",
+    "LUSA-INBOX", "P2 Verão",
+    "A Beleza das Pequenas Coisas",
     "Altos & Baixos", "Última Hora"
 }
 
