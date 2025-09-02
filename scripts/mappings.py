@@ -143,7 +143,7 @@ CATEGORY_GROUPS = {
         "Redes_sociais", "Redes sociais", "Exame", "Facebook", "Apple", "Smartphones-tablets",
         "Biomedicina", "Espaço", "Paleontologia", "Inteligência artificial",
         "Software", "Telecomunicações", "Robótica", "Cibersegurança", "Android",
-        "Bluetooth", "Smartphones"
+        "Bluetooth", "Smartphones", "enter"
     ],
     "Sociedade": [
         "Sociedade", "Coronavírus", "Mau tempo", "Sustentabilidade",
