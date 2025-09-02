@@ -220,7 +220,7 @@ IGNORE_ORIGINAL_CATS = {
     "Observador", "Domingo", "Briefing",
     "Enter", "LUSA-INBOX", "P2 Verão",
     "A Beleza das Pequenas Coisas", "Análise",
-    "Altos & Baixos"
+    "Altos & Baixos", "Última Hora"
 }
 
 CATEGORY_MAPPER = {
