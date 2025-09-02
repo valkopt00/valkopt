@@ -119,7 +119,7 @@ CATEGORY_GROUPS = {
         "Automobilismo", "MotoGP", "Ciclismo", "Râguebi", "Futebol internacional",
         "Clube-portugal", "Especial-de-corrida", "Futebol-nacional", "Red Bull",
         "Ténis", "1.ª Liga", "Atletismo", "FC Porto", "Modalidade", "Liga dos Campeões",
-        "Basquetebol", "Andebol", "Motos"
+        "Basquetebol", "Andebol", "Motos", "Mundial 2026"
     ],
     "Economia": [
         "Economia", "Negócios", "Segurança Social", "Bolsa e Mercados",
@@ -163,7 +163,8 @@ CATEGORY_GROUPS = {
         "TAP", "linha de cascais", "tuk-tuk", "verao", "Agricultura",
         "Tráfico", "Ensino", "Trabalho", "Migrações", "Religião", "Média", 
         "Imigração", "Longevidade", "Ambiente e Território", "Impar", "Azul",
-        "Obituário", "P3", "Especial Regresso às Aulas", "Tribuna"
+        "Obituário", "P3", "Especial Regresso às Aulas", "Tribuna",
+        "VISÃO Saúde"
     ],
     "Política": [
         "Política", "Politica", "Defesa", "Presidenciais 2026",
