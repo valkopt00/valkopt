@@ -1307,6 +1307,7 @@ def categorize_with_ai(title, description, item_link=""):
 
 Título: {title}
 Descrição: {description}
+URL do artigo: {item_link}
 
 Categorias disponíveis: {', '.join(categories)}
 
