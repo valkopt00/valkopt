@@ -1332,10 +1332,6 @@ Resposta esperada (EXACT): <Nome da categoria>
         "explanations or other sentences."
     )
 
-    # Debug: log prompt (apenas nos logs do runner — remove em produção se preferir)
-    print("DEBUG: Prompt being sent to model:")
-    print(prompt)
-
     try:
         response = GROQ_CLIENT.chat.completions.create(
             model="llama-3.1-8b-instant",
