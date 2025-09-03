@@ -18,6 +18,27 @@ import os
 from dateutil import tz
 from dateutil import parser
 import unicodedata
+import groq
+from groq import Groq
+
+# Initialize Groq client
+GROQ_CLIENT = None
+
+def initialize_groq_client():
+    """Initialize Groq client with API key"""
+    global GROQ_CLIENT
+    try:
+        # Try environment variable first
+        api_key = os.getenv('GROQ_API_KEY')
+        if not api_key:
+            print("⚠️ GROQ_API_KEY not found - AI classification disabled")
+            return False
+        GROQ_CLIENT = Groq(api_key=api_key)
+        print("✅ Groq client initialized successfully")
+        return True
+    except Exception as e:
+        print(f"❌ Error initializing Groq client: {e}")
+        return False
 
 def normalize_text(text):
     """
@@ -296,7 +317,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     original_category = feed_category
 
                     # Map category using the fixed function
-                    category = map_category(feed_category, feed_url, link)
+                    category = map_category(feed_category, feed_url, link, title, description)
 
                     # fallback if mapping failed or returned falsy
                     if not category:
@@ -558,8 +579,8 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
                 # Capture original category before mapping
                 feed_category = item.get("rubrica") or item.get("tag", "Últimas")
                 original_category = feed_category
-                
-                category = map_category(feed_category, api_source["url"], link)
+                # Map category using the fixed function
+                category = map_category(feed_category, api_source["url"], link, title, description)
                 if not category:
                     category = "Últimas"
 
@@ -1270,7 +1291,55 @@ def get_feed_domain(feed_url):
     """
     return feed_url
 
-def map_category(feed_category, feed_url, item_link=None):
+def categorize_with_ai(title, description):
+    """
+    Classify article using AI based on title and description
+    """
+    if not GROQ_CLIENT:
+        return None
+        
+    # Available categories from your CATEGORY_GROUPS
+    categories = ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", 
+                  "Ciência e Tech", "Política", "Sociedade", "Lifestyle", 
+                  "Multimédia", "Opinião", "Vídeojogos"]
+    
+    prompt = f"""Analisa este título e descrição de notícia portuguesa e classifica na categoria mais adequada.
+
+Título: {title}
+Descrição: {description}
+
+Categorias disponíveis: {', '.join(categories)}
+
+Regras:
+- Responde APENAS com o nome exato da categoria
+- Se não tiveres certeza, escolhe a mais próxima
+- Para tecnologia/ciência usa "Ciência e Tech"
+- Para saúde/educação/questões sociais usa "Sociedade"
+
+Categoria:"""
+
+    try:
+        response = GROQ_CLIENT.chat.completions.create(
+            model="llama-3.1-8b-instant",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.1,
+            max_tokens=50
+        )
+        
+        ai_category = response.choices[0].message.content.strip()
+        
+        # Validate AI response is a valid category
+        if ai_category in categories:
+            return ai_category
+        else:
+            print(f"⚠️ AI returned invalid category: {ai_category}")
+            return None
+            
+    except Exception as e:
+        print(f"❌ AI classification error: {e}")
+        return None
+
+def map_category(feed_category, feed_url, item_link=None, title="", description=""):
     """
     FIXED: Map the provided feed category and URL to a standardized category using
     the CATEGORY_MAPPER and FEED_CATEGORY_MAPPER. Uses normalized lookups.
@@ -1362,6 +1431,15 @@ def map_category(feed_category, feed_url, item_link=None):
     if feed_category and feed_category.strip():
         print(f"⚠️ Unmapped category: raw='{feed_category}' normalized='{feed_cat_norm}' from {feed_url}")
 
+    # --- AI Classification for unmapped articles ---
+    if GROQ_CLIENT and feed_category and feed_category.strip():
+        # Get title and description for AI classification
+        # Note: This requires passing additional parameters to map_category
+        ai_category = categorize_with_ai(title="", description="")  # Will be filled by caller
+        if ai_category:
+            print(f"🤖 AI classified '{feed_category}' as '{ai_category}'")
+            return ai_category
+
     # --- Fallback to "Outras Notícias" if nothing matches ---
     return "Outras Notícias"
 
@@ -1378,6 +1456,12 @@ async def main():
     """
     Main asynchronous entry point to fetch and process articles.
     """
+    # Initialize Groq client
+    if initialize_groq_client():
+        print("✅ Groq AI client initialized")
+    else:
+        print("⚠️ Groq AI client not available - will use fallback categorization")
+    
     await get_articles()
 
 
