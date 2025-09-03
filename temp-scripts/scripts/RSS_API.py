@@ -1294,70 +1294,58 @@ def get_feed_domain(feed_url):
 def categorize_with_ai(title, description, item_link=""):
     """
     Classify article using AI based on title and description + URL.
-    Mudanças:
-      - System role para forçar formato de saída estrita
-      - Log do prompt/response para debug
-      - Tentativa de extrair categoria se a resposta contiver mais texto
+    Enhanced with better error handling and logging.
     """
     if not GROQ_CLIENT:
+        print(f"❌ AI: Client not initialized")
         return None
         
     categories = ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", 
                   "Ciência e Tech", "Política", "Sociedade", "Lifestyle", 
                   "Multimédia", "Opinião", "Vídeojogos"]
 
-    # user prompt (uma única vez, com URL incluída)
-    prompt = f"""Analisa este título e descrição de notícia portuguesa e classifica na categoria mais adequada.
-
-Título: {title}
+    # Shorter, cleaner prompt
+    prompt = f"""Título: {title}
 Descrição: {description}
-URL do artigo: {item_link}
+URL: {item_link}
 
-Categorias disponíveis: {', '.join(categories)}
+Categoriza esta notícia portuguesa numa das seguintes categorias:
+{', '.join(categories)}
 
-Regras:
-- Responde APENAS com o nome exato da categoria (uma das opções acima), sem pontuação, explicações ou texto adicional.
-- Se não tiveres certeza, responde "Outras Notícias".
-- Para tecnologia/ciência usa "Ciência e Tech".
-- Para saúde/educação/questões sociais usa "Sociedade".
-
-Resposta esperada (EXACT): <Nome da categoria>
-"""
-
-    # system instruction forte para forçar formato
-    system_content = (
-        "You are a strict category classifier. Given the user's input, output EXACTLY ONE of the "
-        "following category names, nothing else: " + ", ".join(categories) +
-        ". If you are unsure, output exactly: Outras Notícias. Do NOT ask for more info, do NOT output "
-        "explanations or other sentences."
-    )
+Responde APENAS com o nome exato da categoria."""
 
     try:
         response = GROQ_CLIENT.chat.completions.create(
             model="llama-3.1-8b-instant",
             messages=[
-                {"role": "system", "content": system_content},
+                {"role": "system", "content": "You are a news categorizer. Output only the exact category name from the provided list."},
                 {"role": "user", "content": prompt}
             ],
             temperature=0.1,
-            max_tokens=50
+            max_tokens=20
         )
 
         ai_raw = response.choices[0].message.content.strip()
         
+        # Log the AI response for debugging
+        print(f"🤖 AI Response: '{ai_raw}' for title: '{title[:30]}...'")
+        
+        # Exact match first
         if ai_raw in categories:
             return ai_raw
 
+        # Partial match as fallback
         lower = ai_raw.lower()
         for c in categories:
             if c.lower() in lower:
+                print(f"🤖 AI Partial match: '{ai_raw}' -> '{c}'")
                 return c
 
-        print(f"⚠️ AI returned invalid category: {ai_raw}")
+        print(f"⚠️ AI returned unknown category: '{ai_raw}'")
         return None
 
     except Exception as e:
-        print(f"❌ AI classification error: {e}")
+        print(f"❌ AI Error: {type(e).__name__}: {e}")
         return None
 
 def map_category(feed_category, feed_url, item_link=None, title="", description=""):
@@ -1433,6 +1421,92 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
             mapped = find_category_in_mapper(candidate)
             if mapped:
                 return mapped
+def map_category(feed_category, feed_url, item_link=None, title="", description=""):
+    """
+    FIXED: Map the provided feed category and URL to a standardized category using
+    the CATEGORY_MAPPER and FEED_CATEGORY_MAPPER. Uses normalized lookups.
+    Enhanced with better AI integration and logging.
+    """
+    if isinstance(feed_url, dict):
+        feed_url = feed_url.get("url", "") or ""
+
+    # normalize feed_category early
+    feed_cat_norm = normalize_text(feed_category or "")
+    
+    # Create short URL for logging
+    short_url = item_link[:50] + "..." if item_link and len(item_link) > 50 else (item_link or feed_url or "")
+
+    print(f"🔍 Mapping: '{feed_category}' -> '{feed_cat_norm}' | {short_url}")
+
+    # --- Special cases based on the article URL (item_link) ---
+    if item_link:
+        parts = urlparse(item_link).path.strip("/").split("/")
+
+        # Público: look for three numeric segments (year/month/day) and use the next segment as category
+        if "publico.pt" in item_link:
+            for i in range(len(parts) - 3):
+                if (parts[i].isdigit() and len(parts[i]) == 4 and
+                    parts[i+1].isdigit() and len(parts[i+1]) == 2 and
+                    parts[i+2].isdigit() and len(parts[i+2]) == 2 and
+                    i+3 < len(parts)):
+                    candidate = parts[i+3]
+                    mapped = find_category_in_mapper(candidate)
+                    if mapped:
+                        print(f"✅ Público URL mapping: '{candidate}' -> '{mapped}'")
+                        return mapped
+                    break
+
+        # Expresso: only override if not a supplement path (/semanario)
+        if "expresso.pt" in item_link:
+            if parts and parts[0] != "semanario":
+                candidate = parts[0]
+                mapped = find_category_in_mapper(candidate)
+                if mapped:
+                    print(f"✅ Expresso URL mapping: '{candidate}' -> '{mapped}'")
+                    return mapped
+
+        # Visão: use the first segment after the domain
+        if "visao.pt" in item_link:
+            if parts and parts[0]:
+                candidate = parts[0]
+                mapped = find_category_in_mapper(candidate)
+                if mapped:
+                    print(f"✅ Visão URL mapping: '{candidate}' -> '{mapped}'")
+                    return mapped
+
+    # --- Direct mapping by feed URL prefix (FEED_CATEGORY_MAPPER) ---
+    for feed_prefix, default_category in FEED_CATEGORY_MAPPER.items():
+        if (feed_url or "").startswith(feed_prefix):
+            # Try to map the default_category itself to a main category
+            mapped = find_category_in_mapper(default_category)
+            if mapped:
+                print(f"✅ Feed URL mapping: '{default_category}' -> '{mapped}'")
+                return mapped
+            # Return the default category directly if it's valid
+            if default_category in ["Últimas", "Nacional", "Mundo", "Desporto", "Economia", 
+                                  "Cultura", "Ciência e Tech", "Lifestyle", "Sociedade", 
+                                  "Política", "Multimédia", "Opinião", "Vídeojogos"]:
+                print(f"✅ Direct feed mapping: '{default_category}'")
+                return default_category
+            break
+
+    # --- Map feed category using the fixed mapper structure ---
+    if feed_cat_norm:
+        mapped = find_category_in_mapper(feed_cat_norm)
+        if mapped:
+            print(f"✅ Category mapping: '{feed_category}' -> '{mapped}'")
+            return mapped
+
+    # --- CM Jornal special case ---
+    if "cmjornal.pt" in (feed_url or "") and item_link:
+        parsed = urlparse(item_link)
+        cm_parts = parsed.path.strip("/").split("/")
+        if cm_parts:
+            candidate = cm_parts[0]
+            mapped = find_category_in_mapper(candidate)
+            if mapped:
+                print(f"✅ CM Jornal URL mapping: '{candidate}' -> '{mapped}'")
+                return mapped
 
     # --- Renascença special case ---
     if "rr.sapo.pt" in (feed_url or "") and item_link and "/noticia/" in item_link:
@@ -1444,25 +1518,41 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
                 candidate = rr_parts[idx+1]
                 mapped = find_category_in_mapper(candidate)
                 if mapped:
+                    print(f"✅ Renascença URL mapping: '{candidate}' -> '{mapped}'")
                     return mapped
         except ValueError:
             pass
 
-    # --- Debug: Log unmapped categories ---
-    if feed_category and feed_category.strip():
-        print(f"⚠️ Unmapped category: raw='{feed_category}' normalized='{feed_cat_norm}' from {feed_url}")
-
     # --- AI Classification for unmapped articles ---
-    if GROQ_CLIENT and feed_category and feed_category.strip():
-
-        ai_category = categorize_with_ai(title=title, description=description, item_link=item_link)
+    # Call AI if we have content (title/description) regardless of feed_category
+    if GROQ_CLIENT and (title or description):
+        print(f"🤖 Calling AI for unmapped article: '{title[:50]}...'")
+        
+        ai_category = categorize_with_ai(
+            title=title or "Sem título", 
+            description=description or "Sem descrição", 
+            item_link=item_link or ""
+        )
 
         if ai_category:
-            print(f"🤖 AI classified '{feed_category}' as '{ai_category}' for {item_link or feed_url}")
+            print(f"🤖 AI SUCCESS: '{feed_category or 'no-category'}' -> '{ai_category}' | {short_url}")
             return ai_category
+        else:
+            print(f"🤖 AI FAILED: Could not classify '{title[:30]}...' | {short_url}")
+    else:
+        if not GROQ_CLIENT:
+            print(f"❌ AI not available")
+        else:
+            print(f"❌ No title/description for AI: title={bool(title)}, desc={bool(description)}")
 
+    # --- Debug: Log unmapped categories ---
+    if feed_category and feed_category.strip():
+        print(f"⚠️ UNMAPPED: raw='{feed_category}' normalized='{feed_cat_norm}' | {short_url}")
+    else:
+        print(f"⚠️ NO CATEGORY: empty feed_category | {short_url}")
 
-    # --- Fallback to "Outras Notícias" if nothing matches ---
+    # --- Fallback to "Outras Notícias" ---
+    print(f"💔 FALLBACK to 'Outras Notícias' | {short_url}")
     return "Outras Notícias"
 
 def find_category_in_mapper(category_to_find):
