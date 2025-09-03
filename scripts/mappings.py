@@ -119,7 +119,7 @@ CATEGORY_GROUPS = {
         "Automobilismo", "MotoGP", "Ciclismo", "Râguebi", "Futebol internacional",
         "Clube-portugal", "Especial-de-corrida", "Futebol-nacional", "Red Bull",
         "Ténis", "1.ª Liga", "Atletismo", "FC Porto", "Modalidade", "Liga dos Campeões",
-        "Basquetebol", "Andebol", "Motos", "Mundial 2026"
+        "Basquetebol", "Andebol", "Motos", "Mundial 2026", "Futsal"
     ],
     "Economia": [
         "Economia", "Negócios", "Segurança Social", "Bolsa e Mercados",
@@ -164,14 +164,15 @@ CATEGORY_GROUPS = {
         "Tráfico", "Ensino", "Trabalho", "Migrações", "Religião", "Média", 
         "Imigração", "Longevidade", "Ambiente e Território", "Impar", "Azul",
         "Obituário", "P3", "Especial Regresso às Aulas", "Tribuna",
-        "VISÃO Saúde"
+        "VISÃO Saúde", "Operação Marquês"
     ],
     "Política": [
         "Política", "Politica", "Defesa", "Presidenciais 2026",
         "Parlamento", "Partidos", "Crise política", "Governo",
         "Legislativas 2025", "Autárquicas 2025", "Lei da Nacionalidade",
         "Luís Filipe Menezes", "Ministério Público", "sns", "PAN",
-        "Presidente", "Bloco de Esquerda", "Iniciativa Liberal", "Autarquias"
+        "Presidente", "Bloco de Esquerda", "Iniciativa Liberal", "Autarquias",
+        "Orçamento do Estado"
     ],
     "Multimédia": [
         "Multimédia", "Multimedia", "Video", "Podcasts", "Fotogaleria",
@@ -218,9 +219,9 @@ IGNORE_ORIGINAL_CATS = {
     "Expresso Fundamental", "Capas", "Em Destaque",
     "Cm ao Minuto", "A semana", "Expressinho",
     "Observador", "Domingo", "Briefing",
-    "LUSA-INBOX", "P2 Verão",
+    "LUSA-INBOX", "P2 Verão", "Última Hora",
     "A Beleza das Pequenas Coisas",
-    "Altos & Baixos", "Última Hora"
+    "Altos & Baixos", "Conteúdo patrocinado"
 }
 
 CATEGORY_MAPPER = {
