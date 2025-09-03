@@ -1460,13 +1460,7 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
 
     # --- AI Classification for unmapped articles ---
     if GROQ_CLIENT and feed_category and feed_category.strip():
-        # DEBUG: mostra exatamente o que vamos enviar para a AI
-        print("DEBUG: Calling AI classifier with:")
-        print(f"  title: '{title}'")
-        print(f"  description: '{description}'")
-        print(f"  item_link: '{item_link}'")
 
-        # chama a AI passando os valores correctos (antes estava vazio)
         ai_category = categorize_with_ai(title=title, description=description, item_link=item_link)
 
         if ai_category:
