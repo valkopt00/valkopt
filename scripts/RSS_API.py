@@ -1433,11 +1433,6 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
     # normalize feed_category early
     feed_cat_norm = normalize_text(feed_category or "")
     
-    # Create short URL for logging
-    short_url = item_link[:50] + "..." if item_link and len(item_link) > 50 else (item_link or feed_url or "")
-
-    print(f"🔍 Mapping: '{feed_category}' -> '{feed_cat_norm}' | {short_url}")
-
     # --- Special cases based on the article URL (item_link) ---
     if item_link:
         parts = urlparse(item_link).path.strip("/").split("/")
@@ -1452,7 +1447,6 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
                     candidate = parts[i+3]
                     mapped = find_category_in_mapper(candidate)
                     if mapped:
-                        print(f"✅ Público URL mapping: '{candidate}' -> '{mapped}'")
                         return mapped
                     break
 
@@ -1462,7 +1456,6 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
                 candidate = parts[0]
                 mapped = find_category_in_mapper(candidate)
                 if mapped:
-                    print(f"✅ Expresso URL mapping: '{candidate}' -> '{mapped}'")
                     return mapped
 
         # Visão: use the first segment after the domain
@@ -1471,7 +1464,6 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
                 candidate = parts[0]
                 mapped = find_category_in_mapper(candidate)
                 if mapped:
-                    print(f"✅ Visão URL mapping: '{candidate}' -> '{mapped}'")
                     return mapped
 
     # --- Direct mapping by feed URL prefix (FEED_CATEGORY_MAPPER) ---
@@ -1480,13 +1472,11 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
             # Try to map the default_category itself to a main category
             mapped = find_category_in_mapper(default_category)
             if mapped:
-                print(f"✅ Feed URL mapping: '{default_category}' -> '{mapped}'")
                 return mapped
             # Return the default category directly if it's valid
             if default_category in ["Últimas", "Nacional", "Mundo", "Desporto", "Economia", 
                                   "Cultura", "Ciência e Tech", "Lifestyle", "Sociedade", 
                                   "Política", "Multimédia", "Opinião", "Vídeojogos"]:
-                print(f"✅ Direct feed mapping: '{default_category}'")
                 return default_category
             break
 
@@ -1494,7 +1484,6 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
     if feed_cat_norm:
         mapped = find_category_in_mapper(feed_cat_norm)
         if mapped:
-            print(f"✅ Category mapping: '{feed_category}' -> '{mapped}'")
             return mapped
 
     # --- CM Jornal special case ---
@@ -1505,7 +1494,6 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
             candidate = cm_parts[0]
             mapped = find_category_in_mapper(candidate)
             if mapped:
-                print(f"✅ CM Jornal URL mapping: '{candidate}' -> '{mapped}'")
                 return mapped
 
     # --- Renascença special case ---
@@ -1518,7 +1506,6 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
                 candidate = rr_parts[idx+1]
                 mapped = find_category_in_mapper(candidate)
                 if mapped:
-                    print(f"✅ Renascença URL mapping: '{candidate}' -> '{mapped}'")
                     return mapped
         except ValueError:
             pass
@@ -1535,10 +1522,10 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
         )
 
         if ai_category:
-            print(f"🤖 AI SUCCESS: '{feed_category or 'no-category'}' -> '{ai_category}' | {short_url}")
+            print(f"🤖 AI SUCCESS: '{feed_category or 'no-category'}' -> '{ai_category}' | {item_link}")
             return ai_category
         else:
-            print(f"🤖 AI FAILED: Could not classify '{title[:30]}...' | {short_url}")
+            print(f"🤖 AI FAILED: Could not classify '{title[:30]}...' | {item_link}")
     else:
         if not GROQ_CLIENT:
             print(f"❌ AI not available")
@@ -1547,12 +1534,12 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
 
     # --- Debug: Log unmapped categories ---
     if feed_category and feed_category.strip():
-        print(f"⚠️ UNMAPPED: raw='{feed_category}' normalized='{feed_cat_norm}' | {short_url}")
+        print(f"⚠️ UNMAPPED: raw='{feed_category}' normalized='{feed_cat_norm}' | {item_link}")
     else:
-        print(f"⚠️ NO CATEGORY: empty feed_category | {short_url}")
+        print(f"⚠️ NO CATEGORY: empty feed_category | {item_link}")
 
     # --- Fallback to "Outras Notícias" ---
-    print(f"💔 FALLBACK to 'Outras Notícias' | {short_url}")
+    print(f"💔 FALLBACK to 'Outras Notícias' | {item_link}")
     return "Outras Notícias"
 
 def find_category_in_mapper(category_to_find):
