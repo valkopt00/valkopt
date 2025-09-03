@@ -220,7 +220,7 @@ IGNORE_ORIGINAL_CATS = {
     "Cm ao Minuto", "A semana", "Expressinho",
     "Observador", "Domingo", "Briefing",
     "LUSA-INBOX", "P2 Verão", "Última Hora",
-    "A Beleza das Pequenas Coisas",
+    "A Beleza das Pequenas Coisas", "Oficina i",
     "Altos & Baixos", "Conteúdo patrocinado"
 }
 
