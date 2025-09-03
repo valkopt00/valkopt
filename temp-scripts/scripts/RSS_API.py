@@ -1291,7 +1291,7 @@ def get_feed_domain(feed_url):
     """
     return feed_url
 
-def categorize_with_ai(title, description):
+def categorize_with_ai(title, description, item_link=""):
     """
     Classify article using AI based on title and description
     """
@@ -1312,11 +1312,14 @@ Categorias disponíveis: {', '.join(categories)}
 
 Regras:
 - Responde APENAS com o nome exato da categoria
-- Se não tiveres certeza, escolhe a mais próxima
+- Se não tiveres certeza, escolhe "Outras Notícias"
 - Para tecnologia/ciência usa "Ciência e Tech"
 - Para saúde/educação/questões sociais usa "Sociedade"
+- Se a categoria original do feed não fizer sentido, baseia-te no conteúdo real da notícia
 
 Categoria:"""
+    
+    prompt += f"\nURL do artigo: {item_link}"
 
     try:
         response = GROQ_CLIENT.chat.completions.create(
