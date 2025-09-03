@@ -221,7 +221,8 @@ IGNORE_ORIGINAL_CATS = {
     "Observador", "Domingo", "Briefing",
     "LUSA-INBOX", "P2 Verão", "Última Hora",
     "A Beleza das Pequenas Coisas", "Oficina i",
-    "Altos & Baixos", "Conteúdo patrocinado"
+    "Altos & Baixos", "Conteúdo patrocinado",
+    "Sem categoria"
 }
 
 CATEGORY_MAPPER = {
