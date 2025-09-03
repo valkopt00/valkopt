@@ -1375,6 +1375,14 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
                 if mapped:
                     return mapped
 
+        # Visão: use the first segment after the domain
+        if "visao.pt" in item_link:
+            if parts and parts[0]:
+                candidate = parts[0]
+                mapped = find_category_in_mapper(candidate)
+                if mapped:
+                    return mapped
+
     # --- Direct mapping by feed URL prefix (FEED_CATEGORY_MAPPER) ---
     for feed_prefix, default_category in FEED_CATEGORY_MAPPER.items():
         if (feed_url or "").startswith(feed_prefix):

@@ -96,7 +96,7 @@ FEED_CATEGORY_MAPPER = {
 # Maps specific category names to standardized category names
 CATEGORY_GROUPS = {
     "Nacional": [
-        "Nacional", "País", "Pais", "Portugal", "Lisboa", "Local"
+        "Nacional", "País", "Pais", "Portugal", "Lisboa", "Local", "Açores"
     ],
     "Mundo": [
         "Mundo", "Internacional", "União Europeia", "Guerra na Ucrânia",
@@ -118,7 +118,8 @@ CATEGORY_GROUPS = {
         "Formula1", "Auto", "Bola-branca", "Futebol feminino", "Volta à França",
         "Automobilismo", "MotoGP", "Ciclismo", "Râguebi", "Futebol internacional",
         "Clube-portugal", "Especial-de-corrida", "Futebol-nacional", "Red Bull",
-        "Ténis", "1.ª Liga", "Atletismo", "FC Porto", "Modalidade", "Liga dos Campeões"
+        "Ténis", "1.ª Liga", "Atletismo", "FC Porto", "Modalidade", "Liga dos Campeões",
+        "Basquetebol", "Andebol", "Motos", "Mundial 2026", "Futsal"
     ],
     "Economia": [
         "Economia", "Negócios", "Segurança Social", "Bolsa e Mercados",
@@ -141,7 +142,8 @@ CATEGORY_GROUPS = {
         "Direto do lab", "Exame Informática", "Exameinformatica",
         "Redes_sociais", "Redes sociais", "Exame", "Facebook", "Apple", "Smartphones-tablets",
         "Biomedicina", "Espaço", "Paleontologia", "Inteligência artificial",
-        "Software", "Telecomunicações", "Robótica"
+        "Software", "Telecomunicações", "Robótica", "Cibersegurança", "Android",
+        "Bluetooth", "Smartphones", "enter"
     ],
     "Sociedade": [
         "Sociedade", "Coronavírus", "Mau tempo", "Sustentabilidade",
@@ -161,14 +163,16 @@ CATEGORY_GROUPS = {
         "TAP", "linha de cascais", "tuk-tuk", "verao", "Agricultura",
         "Tráfico", "Ensino", "Trabalho", "Migrações", "Religião", "Média", 
         "Imigração", "Longevidade", "Ambiente e Território", "Impar", "Azul",
-        "Obituário"
+        "Obituário", "P3", "Especial Regresso às Aulas", "Tribuna",
+        "VISÃO Saúde", "Operação Marquês"
     ],
     "Política": [
         "Política", "Politica", "Defesa", "Presidenciais 2026",
         "Parlamento", "Partidos", "Crise política", "Governo",
         "Legislativas 2025", "Autárquicas 2025", "Lei da Nacionalidade",
         "Luís Filipe Menezes", "Ministério Público", "sns", "PAN",
-        "Presidente", "Bloco de Esquerda", "Iniciativa Liberal", "Autarquias"
+        "Presidente", "Bloco de Esquerda", "Iniciativa Liberal", "Autarquias",
+        "Orçamento do Estado"
     ],
     "Multimédia": [
         "Multimédia", "Multimedia", "Video", "Podcasts", "Fotogaleria",
@@ -186,12 +190,12 @@ CATEGORY_GROUPS = {
         "O Tal Podcast", "Guerra Fria", "Vídeo", "Mercado Aberto"
     ],
     "Opinião": [
-        "Opinião", "Opiniao", "Colunistas", "Nota editorial",
+        "Opinião", "Opiniao", "opiniao", "Opinao", "opinao", "Colunistas", "Nota editorial",
         "Editorial", "Linhas Direitas", "José jorge letria", "Liveblogs",
         "Artigos de Newsletter", "O Vale Era Verde", "Opinião União Europeia",
         "Isso era uma longa conversa", "Opinião Protopia", "Café Central",
          "Tanto faz não é resposta", "Vestígios de Azul", "Diário do Governo",
-        "Bloco de Notas"
+        "Bloco de Notas", "Newsletter", "Análise"
     ],
     "Lifestyle": [
         "Lifestyle", "Comer e beber", "Gastronomia", "Vida",
@@ -200,7 +204,7 @@ CATEGORY_GROUPS = {
         "Fama", "Visaose7e", "Viagens", "Famosos", "Decoracao", "Ideias",
         "As Novas Cozinhas da Terra", "Beleza", "O gato das botas",
         "Fugas", "Lazer", "Celebridades", "Fugas", "Roupa", "Vinhos",
-        "Relaxar"
+        "Relaxar", "Sair"
     ],
     "Vídeojogos": [
         "Vídeojogos", "Jogos", "Record-gaming"
@@ -215,8 +219,10 @@ IGNORE_ORIGINAL_CATS = {
     "Expresso Fundamental", "Capas", "Em Destaque",
     "Cm ao Minuto", "A semana", "Expressinho",
     "Observador", "Domingo", "Briefing",
-    "Enter", "LUSA-INBOX", "P2 Verão",
-    "A Beleza das Pequenas Coisas", "Análise"
+    "LUSA-INBOX", "P2 Verão", "Última Hora",
+    "A Beleza das Pequenas Coisas", "Oficina i",
+    "Altos & Baixos", "Conteúdo patrocinado",
+    "Sem categoria"
 }
 
 CATEGORY_MAPPER = {
