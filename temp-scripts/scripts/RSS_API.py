@@ -1437,7 +1437,7 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
         # Note: This requires passing additional parameters to map_category
         ai_category = categorize_with_ai(title="", description="")  # Will be filled by caller
         if ai_category:
-            print(f"🤖 AI classified '{feed_category}' as '{ai_category}'")
+            print(f"🤖 AI classified '{feed_category}' as '{ai_category}' for {item_link}")
             return ai_category
 
     # --- Fallback to "Outras Notícias" if nothing matches ---
