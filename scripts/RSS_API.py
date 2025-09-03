@@ -1293,16 +1293,20 @@ def get_feed_domain(feed_url):
 
 def categorize_with_ai(title, description, item_link=""):
     """
-    Classify article using AI based on title and description
+    Classify article using AI based on title and description + URL.
+    Mudanças:
+      - System role para forçar formato de saída estrita
+      - Log do prompt/response para debug
+      - Tentativa de extrair categoria se a resposta contiver mais texto
     """
     if not GROQ_CLIENT:
         return None
         
-    # Available categories from your CATEGORY_GROUPS
     categories = ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", 
                   "Ciência e Tech", "Política", "Sociedade", "Lifestyle", 
                   "Multimédia", "Opinião", "Vídeojogos"]
-    
+
+    # user prompt (uma única vez, com URL incluída)
     prompt = f"""Analisa este título e descrição de notícia portuguesa e classifica na categoria mais adequada.
 
 Título: {title}
@@ -1312,33 +1316,56 @@ URL do artigo: {item_link}
 Categorias disponíveis: {', '.join(categories)}
 
 Regras:
-- Responde APENAS com o nome exato da categoria
-- Se não tiveres certeza, escolhe "Outras Notícias"
-- Para tecnologia/ciência usa "Ciência e Tech"
-- Para saúde/educação/questões sociais usa "Sociedade"
-- Se a categoria original do feed não fizer sentido, baseia-te no conteúdo real da notícia
+- Responde APENAS com o nome exato da categoria (uma das opções acima), sem pontuação, explicações ou texto adicional.
+- Se não tiveres certeza, responde "Outras Notícias".
+- Para tecnologia/ciência usa "Ciência e Tech".
+- Para saúde/educação/questões sociais usa "Sociedade".
 
-Categoria:"""
-    
-    prompt += f"\nURL do artigo: {item_link}"
+Resposta esperada (EXACT): <Nome da categoria>
+"""
+
+    # system instruction forte para forçar formato
+    system_content = (
+        "You are a strict category classifier. Given the user's input, output EXACTLY ONE of the "
+        "following category names, nothing else: " + ", ".join(categories) +
+        ". If you are unsure, output exactly: Outras Notícias. Do NOT ask for more info, do NOT output "
+        "explanations or other sentences."
+    )
+
+    # Debug: log prompt (apenas nos logs do runner — remove em produção se preferir)
+    print("DEBUG: Prompt being sent to model:")
+    print(prompt)
 
     try:
         response = GROQ_CLIENT.chat.completions.create(
             model="llama-3.1-8b-instant",
-            messages=[{"role": "user", "content": prompt}],
+            messages=[
+                {"role": "system", "content": system_content},
+                {"role": "user", "content": prompt}
+            ],
             temperature=0.1,
             max_tokens=50
         )
-        
-        ai_category = response.choices[0].message.content.strip()
-        
-        # Validate AI response is a valid category
-        if ai_category in categories:
-            return ai_category
-        else:
-            print(f"⚠️ AI returned invalid category: {ai_category}")
-            return None
-            
+
+        ai_raw = response.choices[0].message.content.strip()
+        print("DEBUG: Raw AI response:")
+        print(ai_raw)
+
+        # 1) Se a resposta for exactamente uma categoria válida, devolve-a
+        if ai_raw in categories:
+            return ai_raw
+
+        # 2) Tenta extrair a categoria do texto (casos como "Categoria: Nacional" ou "-> Nacional")
+        lower = ai_raw.lower()
+        for c in categories:
+            if c.lower() in lower:
+                # devolve versão exacta do nome da categoria
+                return c
+
+        # 3) Se nada bater, regista e devolve None (ou Outras Notícias conforme preferires)
+        print(f"⚠️ AI returned invalid category: {ai_raw}")
+        return None
+
     except Exception as e:
         print(f"❌ AI classification error: {e}")
         return None
