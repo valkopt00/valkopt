@@ -102,6 +102,8 @@ jobs:
         run: |
           export PYTHONPATH=$(pwd)/temp-scripts
           python temp-scripts/scripts/RSS_API.py
+          env:
+            GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
 
       # ✅ OPTIMIZATION 10: Optimized HTML file copying
       - name: Ensure public folder and copy JSON files
