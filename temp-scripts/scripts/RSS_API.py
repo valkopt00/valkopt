@@ -1344,21 +1344,15 @@ Resposta esperada (EXACT): <Nome da categoria>
         )
 
         ai_raw = response.choices[0].message.content.strip()
-        print("DEBUG: Raw AI response:")
-        print(ai_raw)
-
-        # 1) Se a resposta for exactamente uma categoria válida, devolve-a
+        
         if ai_raw in categories:
             return ai_raw
 
-        # 2) Tenta extrair a categoria do texto (casos como "Categoria: Nacional" ou "-> Nacional")
         lower = ai_raw.lower()
         for c in categories:
             if c.lower() in lower:
-                # devolve versão exacta do nome da categoria
                 return c
 
-        # 3) Se nada bater, regista e devolve None (ou Outras Notícias conforme preferires)
         print(f"⚠️ AI returned invalid category: {ai_raw}")
         return None
 
