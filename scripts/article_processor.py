@@ -6,7 +6,7 @@ import aiohttp
 from aiohttp import ClientTimeout
 from bs4 import BeautifulSoup
 
-from scripts import utils
+from scripts.utils import process_url
 
 async def extract_image_url(entry, session, mapped_category=None):
     jornal_economico_logo = (
@@ -27,14 +27,14 @@ async def extract_image_url(entry, session, mapped_category=None):
             for m in entry.media_content:
                 url = m.get("url")
                 if url:
-                    image_url = utils.process_url(url)
+                    image_url = process_url(url)
                     break
 
         # 2) enclosures
         if not image_url and hasattr(entry, "enclosures"):
             for enc in entry.enclosures:
                 if enc.get("url") and enc.get("type", "").startswith("image/"):
-                    image_url = utils.process_url(enc["url"])
+                    image_url = process_url(enc["url"])
                     break
 
         # 3) fields image/img/post-thumbnail
@@ -42,10 +42,10 @@ async def extract_image_url(entry, session, mapped_category=None):
             for tag in ("image", "img", "post-thumbnail"):
                 val = entry.get(tag)
                 if isinstance(val, dict) and val.get("url"):
-                    image_url = utils.process_url(val["url"])
+                    image_url = process_url(val["url"])
                     break
                 elif isinstance(val, str) and val.strip().startswith("http"):
-                    image_url = utils.process_url(val)
+                    image_url = process_url(val)
                     break
 
         # 4) content HTML
@@ -54,7 +54,7 @@ async def extract_image_url(entry, session, mapped_category=None):
                 html = block.get("value", "")
                 m = re.search(r'<img[^>]+src="([^"]+)"', html)
                 if m:
-                    image_url = utils.process_url(m.group(1))
+                    image_url = process_url(m.group(1))
                     break
 
         # 5) description/summary HTML
@@ -63,18 +63,18 @@ async def extract_image_url(entry, session, mapped_category=None):
             if desc:
                 m = re.search(r'<img[^>]+src="([^"]+)"', desc)
                 if m:
-                    image_url = utils.process_url(m.group(1))
+                    image_url = process_url(m.group(1))
                 else:
                     soup = BeautifulSoup(desc, "html.parser")
                     img = soup.find("img")
                     if img and img.get("src"):
-                        image_url = utils.process_url(img.get("src"))
+                        image_url = process_url(img.get("src"))
 
         # 6) webpage scraping
         if not image_url and link:
             scraped = await get_image_url_from_link(link, session)
             if scraped:
-                image_url = utils.process_url(scraped)
+                image_url = process_url(scraped)
 
         # 7) fallback to Jornal Económico
         if not image_url and "jornaleconomico.pt" in lc_link:
@@ -230,12 +230,11 @@ async def process_article(article, session):
     Processes a single article by checking if its content is exclusive and by extracting the image URL if missing.
     """
     link = article['link']
-    is_exclusive = await article_processor.is_content_exclusive_from_url(link, session)
+    is_exclusive = await is_content_exclusive_from_url(link, session)  # CORRIGIDO: removido article_processor.
     article['isExclusive'] = is_exclusive
     if not article['image']:
         image_url = await get_image_url_from_link(link, session)
         article['image'] = image_url
-
 
 async def process_articles(articles):
     """
@@ -244,6 +243,6 @@ async def process_articles(articles):
     tasks = []
     async with aiohttp.ClientSession() as session:
         for article in articles:
-            task = asyncio.create_task(article_processor.process_article(article, session))
+            task = asyncio.create_task(process_article(article, session))  # CORRIGIDO: removido article_processor.
             tasks.append(task)
         await asyncio.gather(*tasks)

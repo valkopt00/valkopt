@@ -1,11 +1,15 @@
 from urllib.parse import urlparse
 
-from scripts import utils, ai_classifier
+from scripts import utils
 from scripts.mappings import FEED_CATEGORY_MAPPER, CATEGORY_MAPPER
 
-# Create normalized mapping for faster lookups
+# Global variable to hold normalized mappings
+NORMALIZED_SUBCATEGORY_TO_MAIN = {}
+
 def create_normalized_category_mappings():
     """Create normalized mappings from the CATEGORY_MAPPER"""
+    global NORMALIZED_SUBCATEGORY_TO_MAIN
+    
     normalized_to_main = {}
     
     # Handle the inverted structure from mappings.py
@@ -18,6 +22,7 @@ def create_normalized_category_mappings():
         if normalized_main not in normalized_to_main:
             normalized_to_main[normalized_main] = main_category
     
+    NORMALIZED_SUBCATEGORY_TO_MAIN = normalized_to_main
     return normalized_to_main
 
 def map_category(feed_category, feed_url, item_link=None, title="", description=""):
@@ -26,6 +31,10 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
     the CATEGORY_MAPPER and FEED_CATEGORY_MAPPER. Uses normalized lookups.
     Enhanced with better AI integration and logging.
     """
+    # Ensure normalized mappings are initialized
+    if not NORMALIZED_SUBCATEGORY_TO_MAIN:
+        create_normalized_category_mappings()
+    
     if isinstance(feed_url, dict):
         feed_url = feed_url.get("url", "") or ""
 
@@ -130,17 +139,23 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
     if (title or description):
         print(f"🤖 Calling AI for unmapped article: '{title}'")
         
-        ai_category = ai_classifier.categorize_with_ai(
-            title=title or "Sem título", 
-            description=description or "Sem descrição", 
-            item_link=item_link or ""
-        )
+        try:
+            from scripts import ai_classifier
+            ai_category = ai_classifier.categorize_with_ai(
+                title=title or "Sem título", 
+                description=description or "Sem descrição", 
+                item_link=item_link or ""
+            )
 
-        if ai_category:
-            print(f"🤖 AI SUCCESS: '{feed_category or 'no-category'}' -> '{ai_category}' | {item_link}")
-            return ai_category
-        else:
-            print(f"🤖 AI FAILED: Could not classify '{title}...' | {item_link}")
+            if ai_category:
+                print(f"🤖 AI SUCCESS: '{feed_category or 'no-category'}' -> '{ai_category}' | {item_link}")
+                return ai_category
+            else:
+                print(f"🤖 AI FAILED: Could not classify '{title}...' | {item_link}")
+        except ImportError:
+            print("⚠️ AI classifier not available, skipping AI classification")
+        except Exception as e:
+            print(f"⚠️ Error in AI classification: {e}")
    
     # --- Debug: Log unmapped categories ---
     if feed_category and feed_category.strip():
@@ -149,7 +164,7 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
         print(f"⚠️ NO CATEGORY: empty feed_category | {item_link}")
 
     # --- Fallback to "Outras Notícias" ---
-    print(f"💔 FALLBACK to 'Outras Notícias' | {item_link}")
+    print(f"💡 FALLBACK to 'Outras Notícias' | {item_link}")
     return "Outras Notícias"
 
 def find_category_in_mapper(category_to_find):
@@ -159,4 +174,9 @@ def find_category_in_mapper(category_to_find):
     """
     if not category_to_find:
         return None
+    
+    # Ensure mappings are initialized
+    if not NORMALIZED_SUBCATEGORY_TO_MAIN:
+        create_normalized_category_mappings()
+        
     return NORMALIZED_SUBCATEGORY_TO_MAIN.get(utils.normalize_text(category_to_find))

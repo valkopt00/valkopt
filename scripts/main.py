@@ -83,6 +83,10 @@ async def main():
     """
     Main asynchronous entry point to fetch and process articles.
     """
+    # Initialize normalized category mappings
+    create_normalized_category_mappings()
+    print("✅ Category mappings initialized")
+    
     # Initialize AI classifier
     ai_available = setup_ai_classifier()
     if ai_available:
