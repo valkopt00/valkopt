@@ -84,9 +84,10 @@ jobs:
           
           # Use origin/main reference
           git show origin/main:requirements.txt > temp-scripts/requirements.txt
-          git show origin/main:scripts/RSS_API.py > temp-scripts/scripts/RSS_API.py
+          git show origin/main:scripts/main.py > temp-scripts/scripts/main.py
           git show origin/main:scripts/__init__.py > temp-scripts/scripts/__init__.py
           git show origin/main:scripts/mappings.py > temp-scripts/scripts/mappings.py
+          git show origin/main:scripts/utils.py > temp-scripts/scripts/utils.py
           git show origin/main:scripts/ai_classifier.py > temp-scripts/scripts/ai_classifier.py
           git show origin/main:scripts/remove_articles.py > temp-scripts/scripts/remove_articles.py
           git show origin/main:scripts/reset_counts_with_backup.py > temp-scripts/scripts/reset_counts_with_backup.py
@@ -104,7 +105,7 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           export PYTHONPATH=$(pwd)/temp-scripts
-          python temp-scripts/scripts/RSS_API.py
+          python temp-scripts/scripts/main.py
 
 
       # ✅ OPTIMIZATION 10: Optimized HTML file copying
