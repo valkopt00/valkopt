@@ -1,16 +1,17 @@
 import asyncio
+from datetime import datetime, timedelta, timezone
 import chardet
 import traceback
 from html import unescape
 from urllib.parse import urlparse
 
-import aiohttp
 import feedparser
 from aiohttp import ClientTimeout
 from bs4 import BeautifulSoup
 from dateutil import parser, tz
 
 from scripts import utils
+from scripts import category_mapper
 from scripts.mappings import IGNORE_ORIGINAL_CATS
 from scripts.category_mapper import map_category
 from scripts import article_processor  # Adicionar esta importação

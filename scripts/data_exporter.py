@@ -1,8 +1,11 @@
 import json
 import os
 from datetime import datetime, timezone, timedelta
+import traceback
 
 from scripts import utils
+from article_merger import load_existing_articles, merge_articles
+from scripts.mappings import IGNORE_ORIGINAL_CATS
 
 def export_to_json(articles):
     """

@@ -1,6 +1,7 @@
 from urllib.parse import urlparse
 
 from scripts import utils, ai_classifier
+from scripts.main import NORMALIZED_SUBCATEGORY_TO_MAIN
 from scripts.mappings import IGNORE_ORIGINAL_CATS, FEED_CATEGORY_MAPPER, CATEGORY_MAPPER
 
 # Create normalized mapping for faster lookups
