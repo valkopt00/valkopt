@@ -140,7 +140,7 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
         print(f"🤖 Calling AI for unmapped article: '{title}'")
         
         try:
-            from scripts import ai_classifier
+            from scripts.processors import ai_classifier
             ai_category = ai_classifier.categorize_with_ai(
                 title=title or "Sem título", 
                 description=description or "Sem descrição", 
