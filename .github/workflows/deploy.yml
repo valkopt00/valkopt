@@ -81,7 +81,11 @@ jobs:
       - name: Extract scripts and requirements from main branch
         run: |
           mkdir -p temp-scripts/scripts/exporters
-          
+          mkdir -p temp-scripts/scripts/core
+          mkdir -p temp-scripts/scripts/removals
+          mkdir -p temp-scripts/scripts/processor
+          mkdir -p temp-scripts/scripts/mappers
+
           # Use origin/main reference
           git show origin/main:requirements.txt > temp-scripts/requirements.txt
           git show origin/main:scripts/core/main.py > temp-scripts/scripts/core/main.py
