@@ -88,7 +88,12 @@ jobs:
           git show origin/main:scripts/__init__.py > temp-scripts/scripts/__init__.py
           git show origin/main:scripts/mappings.py > temp-scripts/scripts/mappings.py
           git show origin/main:scripts/utils.py > temp-scripts/scripts/utils.py
+          git show origin/main:scripts/article_processor.py > temp-scripts/scripts/article_processor.py
+          git show origin/main:scripts/feed_processor.py > temp-scripts/scripts/feed_processor.py
           git show origin/main:scripts/ai_classifier.py > temp-scripts/scripts/ai_classifier.py
+          git show origin/main:scripts/article_merger.py > temp-scripts/scripts/article_merger.py
+          git show origin/main:scripts/category_mapper.py > temp-scripts/scripts/category_mapper.py
+          git show origin/main:scripts/data_exporter.py > temp-scripts/scripts/data_exporter.py
           git show origin/main:scripts/remove_articles.py > temp-scripts/scripts/remove_articles.py
           git show origin/main:scripts/reset_counts_with_backup.py > temp-scripts/scripts/reset_counts_with_backup.py
           git show origin/main:scripts/remove_duplicates.py > temp-scripts/scripts/remove_duplicates.py
