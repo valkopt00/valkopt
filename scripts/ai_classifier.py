@@ -1,7 +1,6 @@
 import json
 import os
 from datetime import datetime, timedelta, timezone
-import groq
 from groq import Groq
 
 # Constantes
@@ -102,7 +101,6 @@ def categorize_with_ai(title, description, item_link=""):
             cached_result = None
             
         if cached_result:
-            print(f"📋 Cache HIT: Using cached result '{cached_result}' for {item_link}")
             return cached_result
         
     categories = ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", 
