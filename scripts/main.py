@@ -1,6 +1,8 @@
 import asyncio
 from datetime import datetime, timedelta, timezone
 
+import aiohttp
+
 from scripts.article_merger import load_existing_articles, merge_articles
 from scripts.article_processor import process_articles
 from scripts.category_mapper import create_normalized_category_mappings
@@ -65,7 +67,7 @@ async def get_articles():
     articles.sort(key=lambda x: datetime.strptime(x["pubDate"], "%d-%m-%Y %H:%M"), reverse=True)
     
     # Process articles for additional metadata (exclusive content flags, images)
-    await article_processor.process_articles(articles)
+    await process_articles(articles)
     
     # Export original categories before removing the field
     success = export_original_categories_to_json(articles)

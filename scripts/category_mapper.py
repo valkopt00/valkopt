@@ -1,6 +1,6 @@
 from urllib.parse import urlparse
 
-from scripts import utils
+from scripts import utils, ai_classifier
 from scripts.mappings import IGNORE_ORIGINAL_CATS, FEED_CATEGORY_MAPPER, CATEGORY_MAPPER
 
 # Create normalized mapping for faster lookups
@@ -130,7 +130,7 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
     if (title or description):
         print(f"🤖 Calling AI for unmapped article: '{title}'")
         
-        ai_category = categorize_with_ai(
+        ai_category = ai_classifier.categorize_with_ai(
             title=title or "Sem título", 
             description=description or "Sem descrição", 
             item_link=item_link or ""
