@@ -34,11 +34,11 @@ def create_normalized_category_mappings():
     
     # Handle the inverted structure from mappings.py
     for alias, main_category in CATEGORY_MAPPER.items():
-        normalized_alias = normalize_text(alias)
+        normalized_alias = utils.normalize_text(alias)
         normalized_to_main[normalized_alias] = main_category
         
         # Also add the main category itself
-        normalized_main = normalize_text(main_category)
+        normalized_main = utils.normalize_text(main_category)
         if normalized_main not in normalized_to_main:
             normalized_to_main[normalized_main] = main_category
     
@@ -207,7 +207,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
             if "publico.pt" in feed_url or "PublicoRSS" in feed_url:
                 print(f"📰 Found {len(feed.entries)} entries in Público feed")
             
-            feed_domain = get_feed_domain(feed_url)
+            feed_domain = utils.get_feed_domain(feed_url)
             articles = []
             processed_count = 0
             skipped_count = 0
@@ -216,7 +216,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
             for entry in feed.entries:
                 try:
                     # Extract and clean title
-                    title = clean_title(entry.get('title', '').strip())
+                    title = utils.clean_title(entry.get('title', '').strip())
                     if not title:
                         skipped_count += 1
                         continue
@@ -232,13 +232,13 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     
                     # Extract other article metadata
                     description = entry.get('summary', '') or entry.get('description', '')
-                    description = clean_description(description.strip())
+                    description = utils.clean_description(description.strip())
                     pub_date_str = (
                         entry.get('published', '') or
                         entry.get('pubDate', '') or
                         entry.get('updated', '')
                     )
-                    source = extract_source(feed)
+                    source = utils.extract_source(feed)
 
                     link = entry.get('link', '').strip()
                     
@@ -284,7 +284,7 @@ async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
                     if not category:
                         category = "Outras Notícias"
 
-                    pub_date = parse_date(pub_date_str, source_url=feed_url)
+                    pub_date = utils.parse_date(pub_date_str, source_url=feed_url)
 
                     if pub_date:
                         article_age = datetime.now(timezone.utc) - pub_date
@@ -361,8 +361,8 @@ def create_search_articles(articles_dict):
                 # Only the necessary fields for search
                 search_article = {
                     "link": link,  # For mapping with articles.json
-                    "normalized_title": normalize_text(title),
-                    "normalized_description": normalize_text(description)
+                    "normalized_title": utils.normalize_text(title),
+                    "normalized_description": utils.normalize_text(description)
                 }
                 
                 search_articles[category].append(search_article)
@@ -429,15 +429,15 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
             skipped_count = 0
             
             for item in articles_list:
-                title = clean_title(item.get("titulo") or item.get("title", "Sem título"))
+                title = utils.clean_title(item.get("titulo") or item.get("title", "Sem título"))
                 if title in titles_seen:
                     skipped_count += 1
                     continue
                 titles_seen.add(title)
-                description = clean_description(item.get("descricao") or item.get("lead", ""))
+                description = utils.clean_description(item.get("descricao") or item.get("lead", ""))
                 pub_date_str = item.get("data") or item.get("publish_date", "")
                 link = item.get("url", "")
-                source = extract_source(link)
+                source = utils.extract_source(link)
                 image_url = item.get("multimediaPrincipal") or item.get("image", "")
                 
                 # Capture original category before mapping
@@ -448,7 +448,7 @@ async def process_api_source(session, api_source, titles_seen, last_12_hours):
                 if not category:
                     category = "Últimas"
 
-                pub_date = parse_date(pub_date_str, source_url=api_source["url"])
+                pub_date = utils.parse_date(pub_date_str, source_url=api_source["url"])
 
                 if pub_date:
                     article_age = datetime.now(timezone.utc) - pub_date
@@ -964,14 +964,14 @@ async def extract_image_url(entry, session, mapped_category=None):
             for m in entry.media_content:
                 url = m.get("url")
                 if url:
-                    image_url = process_url(url)
+                    image_url = utils.process_url(url)
                     break
 
         # 2) enclosures
         if not image_url and hasattr(entry, "enclosures"):
             for enc in entry.enclosures:
                 if enc.get("url") and enc.get("type", "").startswith("image/"):
-                    image_url = process_url(enc["url"])
+                    image_url = utils.process_url(enc["url"])
                     break
 
         # 3) fields image/img/post-thumbnail
@@ -979,10 +979,10 @@ async def extract_image_url(entry, session, mapped_category=None):
             for tag in ("image", "img", "post-thumbnail"):
                 val = entry.get(tag)
                 if isinstance(val, dict) and val.get("url"):
-                    image_url = process_url(val["url"])
+                    image_url = utils.process_url(val["url"])
                     break
                 elif isinstance(val, str) and val.strip().startswith("http"):
-                    image_url = process_url(val)
+                    image_url = utils.process_url(val)
                     break
 
         # 4) content HTML
@@ -991,7 +991,7 @@ async def extract_image_url(entry, session, mapped_category=None):
                 html = block.get("value", "")
                 m = re.search(r'<img[^>]+src="([^"]+)"', html)
                 if m:
-                    image_url = process_url(m.group(1))
+                    image_url = utils.process_url(m.group(1))
                     break
 
         # 5) description/summary HTML
@@ -1000,18 +1000,18 @@ async def extract_image_url(entry, session, mapped_category=None):
             if desc:
                 m = re.search(r'<img[^>]+src="([^"]+)"', desc)
                 if m:
-                    image_url = process_url(m.group(1))
+                    image_url = utils.process_url(m.group(1))
                 else:
                     soup = BeautifulSoup(desc, "html.parser")
                     img = soup.find("img")
                     if img and img.get("src"):
-                        image_url = process_url(img.get("src"))
+                        image_url = utils.process_url(img.get("src"))
 
         # 6) webpage scraping
         if not image_url and link:
             scraped = await get_image_url_from_link(link, session)
             if scraped:
-                image_url = process_url(scraped)
+                image_url = utils.process_url(scraped)
 
         # 7) fallback to Jornal Económico
         if not image_url and "jornaleconomico.pt" in lc_link:
@@ -1036,7 +1036,7 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
         feed_url = feed_url.get("url", "") or ""
 
     # normalize feed_category early
-    feed_cat_norm = normalize_text(feed_category or "")
+    feed_cat_norm = utils.normalize_text(feed_category or "")
     
     # --- Special cases based on the article URL (item_link) ---
     if item_link:
@@ -1165,7 +1165,7 @@ def find_category_in_mapper(category_to_find):
     """
     if not category_to_find:
         return None
-    return NORMALIZED_SUBCATEGORY_TO_MAIN.get(normalize_text(category_to_find))
+    return NORMALIZED_SUBCATEGORY_TO_MAIN.get(utils.normalize_text(category_to_find))
     
 async def main():
     """
