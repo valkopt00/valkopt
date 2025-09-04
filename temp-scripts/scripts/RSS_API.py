@@ -12,33 +12,14 @@ import feedparser
 import asyncio
 import aiohttp
 from aiohttp import ClientTimeout
+from scripts.ai_classifier import categorize_with_ai, setup_ai_classifier
 import chardet
 import traceback
 import os
 from dateutil import tz
 from dateutil import parser
 import unicodedata
-import groq
-from groq import Groq
 
-# Initialize Groq client
-GROQ_CLIENT = None
-
-def initialize_groq_client():
-    """Initialize Groq client with API key"""
-    global GROQ_CLIENT
-    try:
-        # Try environment variable first
-        api_key = os.getenv('GROQ_API_KEY')
-        if not api_key:
-            print("⚠️ GROQ_API_KEY not found - AI classification disabled")
-            return False
-        GROQ_CLIENT = Groq(api_key=api_key)
-        print("✅ Groq client initialized successfully")
-        return True
-    except Exception as e:
-        print(f"❌ Error initializing Groq client: {e}")
-        return False
 
 def normalize_text(text):
     """
@@ -1291,86 +1272,6 @@ def get_feed_domain(feed_url):
     """
     return feed_url
 
-def categorize_with_ai(title, description, item_link=""):
-    """
-    Classify article using AI based on title and description + URL.
-    Mudanças:
-      - System role para forçar formato de saída estrita
-      - Log do prompt/response para debug
-      - Tentativa de extrair categoria se a resposta contiver mais texto
-    """
-    if not GROQ_CLIENT:
-        return None
-        
-    categories = ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", 
-                  "Ciência e Tech", "Política", "Sociedade", "Lifestyle", 
-                  "Multimédia", "Opinião", "Vídeojogos"]
-
-    # user prompt (uma única vez, com URL incluída)
-    prompt = f"""Analisa este título e descrição de notícia portuguesa e classifica na categoria mais adequada.
-
-    Título: {title}
-    Descrição: {description}
-    URL do artigo: {item_link}
-
-    Categorias disponíveis: {', '.join(categories)}
-
-    Regras:
-    - Responde APENAS com o nome exato da categoria (uma das opções acima), sem pontuação, explicações ou texto adicional.
-    - Se não tiveres certeza, responde "Outras Notícias".
-    - Para a categoria "Política", apenas política de Portugal. Política internacional usa "Mundo". 
-
-    - "Mundo": Notícias internacionais, conflitos externos, política externa, eventos fora de Portugal
-    - "Desporto": Futebol, outros desportos, competições, atletas, clubes desportivos
-    - "Economia": Mercados financeiros, empresas, inflação, PIB, impostos, salários, emprego, negócios
-    - "Cultura": Arte, música, cinema, teatro, literatura, festivais, património cultural
-    - "Ciência e Tech": Tecnologia, investigação científica, inovação, startups tech, IA, ciência
-    - "Política": Eleições, partidos políticos, parlamento, governo (quando foco político específico)
-    - "Sociedade": Saúde, educação, direitos sociais, ambiente, segurança pública, justiça
-    - "Lifestyle": Moda, gastronomia, viagens, bem-estar, tendências, vida pessoal
-    - "Multimédia": Conteúdo visual/áudio específico, galeria de fotos, vídeos especiais
-    - "Opinião": Artigos de opinião, editoriais, colunas, comentários
-    - "Vídeojogos": Gaming, indústria dos jogos, eSports, consolas
-
-    Resposta esperada (EXACT): <Nome da categoria>
-    """
-
-    # system instruction forte para forçar formato
-    system_content = (
-        "You are a strict category classifier. Given the user's input, output EXACTLY ONE of the "
-        "following category names, nothing else: " + ", ".join(categories) +
-        ". If you are unsure, output exactly: Outras Notícias. Do NOT ask for more info, do NOT output "
-        "explanations or other sentences."
-    )
-
-    try:
-        response = GROQ_CLIENT.chat.completions.create(
-            model="llama-3.1-8b-instant",
-            messages=[
-                {"role": "system", "content": system_content},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.1,
-            max_tokens=50
-        )
-
-        ai_raw = response.choices[0].message.content.strip()
-        
-        if ai_raw in categories:
-            return ai_raw
-
-        lower = ai_raw.lower()
-        for c in categories:
-            if c.lower() in lower:
-                return c
-
-        print(f"⚠️ AI returned invalid category: {ai_raw}")
-        return None
-
-    except Exception as e:
-        print(f"❌ AI classification error: {e}")
-        return None
-
 def map_category(feed_category, feed_url, item_link=None, title="", description=""):
     """
     FIXED: Map the provided feed category and URL to a standardized category using
@@ -1478,7 +1379,7 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
 
     # --- AI Classification for unmapped articles ---
     # Call AI if we have content (title/description) regardless of feed_category
-    if GROQ_CLIENT and (title or description):
+    if (title or description):
         print(f"🤖 Calling AI for unmapped article: '{title}'")
         
         ai_category = categorize_with_ai(
@@ -1492,12 +1393,7 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
             return ai_category
         else:
             print(f"🤖 AI FAILED: Could not classify '{title}...' | {item_link}")
-    else:
-        if not GROQ_CLIENT:
-            print(f"❌ AI not available")
-        else:
-            print(f"❌ No title/description for AI: title={bool(title)}, desc={bool(description)}")
-
+   
     # --- Debug: Log unmapped categories ---
     if feed_category and feed_category.strip():
         print(f"⚠️ UNMAPPED: raw='{feed_category}' normalized='{feed_cat_norm}' | {item_link}")
@@ -1521,14 +1417,14 @@ async def main():
     """
     Main asynchronous entry point to fetch and process articles.
     """
-    # Initialize Groq client
-    if initialize_groq_client():
-        print("✅ Groq AI client initialized")
+    # Initialize AI classifier
+    ai_available = setup_ai_classifier()
+    if ai_available:
+        print("✅ AI classification ready")
     else:
-        print("⚠️ Groq AI client not available - will use fallback categorization")
+        print("⚠️ AI classification not available - will use fallback categorization")
     
     await get_articles()
-
 
 if __name__ == "__main__":
     # Run the main async function when the script is executed directly
