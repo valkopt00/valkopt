@@ -92,10 +92,10 @@ jobs:
           git show origin/main:scripts/__init__.py > temp-scripts/scripts/__init__.py
           git show origin/main:scripts/mappers/mappings.py > temp-scripts/scripts/mappers/mappings.py
           git show origin/main:scripts/core/utils.py > temp-scripts/scripts/core/utils.py
-          git show origin/main:scripts/processor/article_processor.py > temp-scripts/scripts/processor/article_processor.py
-          git show origin/main:scripts/processor/feed_processor.py > temp-scripts/scripts/processor/feed_processor.py
-          git show origin/main:scripts/processor/ai_classifier.py > temp-scripts/scripts/processor/ai_classifier.py
-          git show origin/main:scripts/processor/article_merger.py > temp-scripts/scripts/processor/article_merger.py
+          git show origin/main:scripts/processors/article_processor.py > temp-scripts/scripts/processors/article_processor.py
+          git show origin/main:scripts/processors/feed_processor.py > temp-scripts/scripts/processors/feed_processor.py
+          git show origin/main:scripts/processors/ai_classifier.py > temp-scripts/scripts/processors/ai_classifier.py
+          git show origin/main:scripts/processors/article_merger.py > temp-scripts/scripts/processors/article_merger.py
           git show origin/main:scripts/mappers/category_mapper.py > temp-scripts/scripts/mappers/category_mapper.py
           git show origin/main:scripts/exporters/data_exporter.py > temp-scripts/scripts/exporters/data_exporter.py
           git show origin/main:scripts/removals/remove_articles.py > temp-scripts/scripts/removals/remove_articles.py
