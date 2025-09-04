@@ -5,7 +5,7 @@ from html import unescape
 from urllib.parse import urlparse
 from dateutil import parser, tz
 
-from scripts.mappings import DATE_FORMATS
+from scripts.mappers.mappings import DATE_FORMATS
 
 # Normalize text
 def normalize_text(text):

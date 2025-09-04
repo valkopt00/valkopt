@@ -6,7 +6,7 @@ import aiohttp
 from aiohttp import ClientTimeout
 from bs4 import BeautifulSoup
 
-from scripts.utils import process_url
+from scripts.core.utils import process_url
 
 async def extract_image_url(entry, session, mapped_category=None):
     jornal_economico_logo = (

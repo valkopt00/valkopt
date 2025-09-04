@@ -10,9 +10,9 @@ from aiohttp import ClientTimeout
 from bs4 import BeautifulSoup
 from dateutil import parser, tz
 
-from scripts import utils
-from scripts import category_mapper
-from scripts.mappings import IGNORE_ORIGINAL_CATS
+from scripts.core import utils
+from scripts.mappers import category_mapper
+from scripts.mappers.mappings import IGNORE_ORIGINAL_CATS
 from scripts import article_processor 
 
 

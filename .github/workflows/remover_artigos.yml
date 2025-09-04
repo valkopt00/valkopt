@@ -32,9 +32,9 @@ jobs:
         run: |
           mkdir -p temp-scripts/scripts
           git show origin/main:requirements.txt               > temp-scripts/requirements.txt
-          git show origin/main:scripts/remove_articles.py     > temp-scripts/scripts/remove_articles.py
+          git show origin/main:scripts/removals/remove_articles.py     > temp-scripts/scripts/removals/remove_articles.py
           git show origin/main:scripts/__init__.py            > temp-scripts/scripts/__init__.py
-          git show origin/main:scripts/mappings.py            > temp-scripts/scripts/mappings.py
+          git show origin/main:scripts/mappers/mappings.py            > temp-scripts/scripts/mappers/mappings.py
 
       - name: Configurar cache do pip
         uses: actions/cache@v3
@@ -53,12 +53,12 @@ jobs:
       - name: Executar script remove_articles.py
         run: |
           export PYTHONPATH=$(pwd)/temp-scripts
-          python temp-scripts/scripts/remove_articles.py
+          python temp-scripts/scripts/removals/remove_articles.py
 
       - name: Copiar JSONs atualizados para public
         run: |
           # Assegura que artigos atualizados estão em articles/
-          cp articles/articles.json articles/articles_priority.json articles/articles_secondary.json public/
+          cp articles/articles.json public/
 
       - name: Criar README informativo
         run: |

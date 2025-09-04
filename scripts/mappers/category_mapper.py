@@ -1,7 +1,7 @@
 from urllib.parse import urlparse
 
-from scripts import utils
-from scripts.mappings import FEED_CATEGORY_MAPPER, CATEGORY_MAPPER
+from scripts.core import utils
+from scripts.mappers.mappings import FEED_CATEGORY_MAPPER, CATEGORY_MAPPER
 
 # Global variable to hold normalized mappings
 NORMALIZED_SUBCATEGORY_TO_MAIN = {}
