@@ -1,26 +1,32 @@
-import requests
-import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta, timezone
-import json
-import re
-from html import unescape
-from xml.etree.ElementTree import Element
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse
-from scripts.mappings import CATEGORY_MAPPER, FEED_CATEGORY_MAPPER, API_SOURCES, RSS_FEEDS, DATE_FORMATS, IGNORE_ORIGINAL_CATS
-import feedparser
 import asyncio
-import aiohttp
-from aiohttp import ClientTimeout
-from scripts.ai_classifier import categorize_with_ai, setup_ai_classifier
 import chardet
-import traceback
+import json
 import os
-from dateutil import tz
-from dateutil import parser
+import re
+import traceback
 import unicodedata
+from datetime import datetime, timedelta, timezone
+from html import unescape
+from urllib.parse import urlparse
+
+import aiohttp
+import feedparser
+from aiohttp import ClientTimeout
+from bs4 import BeautifulSoup
+from dateutil import parser, tz
+
+from scripts.ai_classifier import categorize_with_ai, setup_ai_classifier
+from scripts.mappings import (
+    API_SOURCES,
+    CATEGORY_MAPPER,
+    DATE_FORMATS,
+    FEED_CATEGORY_MAPPER,
+    IGNORE_ORIGINAL_CATS,
+    RSS_FEEDS,
+)
 
 
+# Normalize text
 def normalize_text(text):
     """
     Normalizes text by removing accents, converting to lowercase,
@@ -484,7 +490,6 @@ def parse_date(date_str, source_url=None):
     # If all formats fail, try a more flexible approach
     if parsed_dt is None:
         try:
-            from dateutil import parser
             parsed_dt = parser.parse(date_str)
         except:
             print(f"⚠️ Failed to parse date: {date_str}")
@@ -492,12 +497,10 @@ def parse_date(date_str, source_url=None):
     
     # Add timezone if missing
     if parsed_dt.tzinfo is None:
-        from dateutil import tz
         portugal_tz = tz.gettz('Europe/Lisbon')
         parsed_dt = parsed_dt.replace(tzinfo=portugal_tz)
     
     # Convert to Portugal timezone FIRST, then apply any specific corrections
-    from dateutil import tz
     portugal_tz = tz.gettz('Europe/Lisbon')
     
     parsed_dt = parsed_dt.astimezone(portugal_tz)
