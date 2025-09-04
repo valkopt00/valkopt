@@ -1446,7 +1446,7 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
             if mapped:
                 return mapped
 
-    # --- Renascença special case ---
+    # --- Renascença rr.sapo.pt special case ---
     if "rr.sapo.pt" in (feed_url or "") and item_link and "/noticia/" in item_link:
         try:
             parsed = urlparse(item_link)
@@ -1459,11 +1459,27 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
                     return mapped
         except ValueError:
             pass
+        
+    # --- Renascença rr.pt special case ---
+    if "rr.pt" in (feed_url or "") and item_link:
+        try:
+            parsed = urlparse(item_link)
+            rr_parts = parsed.path.strip("/").split("/")
+            
+            # Para URLs como: /artigo/casa-comum/2025/... ou /especial/pais/2025/...
+            if len(rr_parts) >= 2:
+                candidate = rr_parts[1]  # segunda posição após rr.pt
+                mapped = find_category_in_mapper(candidate)
+                if mapped:
+                    return mapped
+                    
+        except (ValueError, IndexError):
+            pass
 
     # --- AI Classification for unmapped articles ---
     # Call AI if we have content (title/description) regardless of feed_category
     if GROQ_CLIENT and (title or description):
-        print(f"🤖 Calling AI for unmapped article: '{title[:50]}...'")
+        print(f"🤖 Calling AI for unmapped article: '{title}...'")
         
         ai_category = categorize_with_ai(
             title=title or "Sem título", 
@@ -1475,7 +1491,7 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
             print(f"🤖 AI SUCCESS: '{feed_category or 'no-category'}' -> '{ai_category}' | {item_link}")
             return ai_category
         else:
-            print(f"🤖 AI FAILED: Could not classify '{title[:30]}...' | {item_link}")
+            print(f"🤖 AI FAILED: Could not classify '{title}...' | {item_link}")
     else:
         if not GROQ_CLIENT:
             print(f"❌ AI not available")
