@@ -1,5 +1,5 @@
 import asyncio
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from scripts.article_merger import load_existing_articles, merge_articles
 from scripts.article_processor import process_articles
