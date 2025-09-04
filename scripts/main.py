@@ -15,7 +15,7 @@ from aiohttp import ClientTimeout
 from bs4 import BeautifulSoup
 from dateutil import parser, tz
 
-from . import utils
+from scripts import utils
 from scripts.ai_classifier import categorize_with_ai, setup_ai_classifier
 from scripts.mappings import (
     API_SOURCES,
