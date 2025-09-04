@@ -1466,13 +1466,9 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
             parsed = urlparse(item_link)
             rr_parts = parsed.path.strip("/").split("/")
             
-            # Para URLs como: /artigo/casa-comum/2025/... ou /especial/pais/2025/...
             if len(rr_parts) >= 2:
                 candidate = rr_parts[1] # second segment
-                print(f"🔍 RR.PT extracted candidate: '{candidate}'")  # DEBUG
-
                 mapped = find_category_in_mapper(candidate)
-                print(f"🔍 RR.PT mapping result: '{candidate}' -> '{mapped}'")
 
                 if mapped:
                     return mapped

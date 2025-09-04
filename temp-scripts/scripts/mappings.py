@@ -187,7 +187,7 @@ CATEGORY_GROUPS = {
         "Eixo do Mal", "Expresso da Meia-Noite", "Humor à Primeira Vista",
         "Importa-se de Repetir?", "Irritações", "No Último Episódio",
         "Alta Definição", "Elefante na Sala", "Era Uma Voz", "Facto Político",
-        "O Tal Podcast", "Guerra Fria", "Vídeo", "Mercado Aberto"
+        "O Tal Podcast", "Guerra Fria", "Vídeo", "Mercado Aberto", "Casa-comum"
     ],
     "Opinião": [
         "Opinião", "Opiniao", "opiniao", "Opinao", "opinao", "Colunistas", "Nota editorial",
