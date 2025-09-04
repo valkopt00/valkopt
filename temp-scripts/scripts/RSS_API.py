@@ -1306,13 +1306,20 @@ def categorize_with_ai(title, description, item_link=""):
 
     # Shorter, cleaner prompt
     prompt = f"""Título: {title}
-Descrição: {description}
-URL: {item_link}
+    Descrição: {description}
+    URL: {item_link}
 
-Categoriza esta notícia portuguesa numa das seguintes categorias:
-{', '.join(categories)}
+    Categoriza esta notícia portuguesa numa das seguintes categorias:
+    {', '.join(categories)}
 
-Responde APENAS com o nome exato da categoria."""
+    Regras:
+    - Responde APENAS com o nome exato da categoria (uma das opções acima), sem pontuação, explicações ou texto adicional.
+    - Se não tiveres certeza, responde "Outras Notícias".
+    - Para tecnologia/ciência usa "Ciência e Tech".
+    - Para saúde/educação/questões sociais usa "Sociedade".
+    - Para a categoria "Política" apenas notícias políticas portuguesas.
+
+    Responde APENAS com o nome exato da categoria."""
 
     try:
         response = GROQ_CLIENT.chat.completions.create(
@@ -1328,7 +1335,7 @@ Responde APENAS com o nome exato da categoria."""
         ai_raw = response.choices[0].message.content.strip()
         
         # Log the AI response for debugging
-        print(f"🤖 AI Response: '{ai_raw}' for title: '{title[:30]}...'")
+        print(f"🤖 AI Response: '{ai_raw}' for title: '{title}'")
         
         # Exact match first
         if ai_raw in categories:
@@ -1348,79 +1355,6 @@ Responde APENAS com o nome exato da categoria."""
         print(f"❌ AI Error: {type(e).__name__}: {e}")
         return None
 
-def map_category(feed_category, feed_url, item_link=None, title="", description=""):
-    """
-    FIXED: Map the provided feed category and URL to a standardized category using
-    the CATEGORY_MAPPER and FEED_CATEGORY_MAPPER. Uses normalized lookups.
-    """
-    if isinstance(feed_url, dict):
-        feed_url = feed_url.get("url", "") or ""
-
-    # normalize feed_category early
-    feed_cat_norm = normalize_text(feed_category or "")
-
-    # --- Special cases based on the article URL (item_link) ---
-    if item_link:
-        parts = urlparse(item_link).path.strip("/").split("/")
-
-        # Público: look for three numeric segments (year/month/day) and use the next segment as category
-        if "publico.pt" in item_link:
-            for i in range(len(parts) - 3):
-                if (parts[i].isdigit() and len(parts[i]) == 4 and
-                    parts[i+1].isdigit() and len(parts[i+1]) == 2 and
-                    parts[i+2].isdigit() and len(parts[i+2]) == 2 and
-                    i+3 < len(parts)):
-                    candidate = parts[i+3]
-                    mapped = find_category_in_mapper(candidate)
-                    if mapped:
-                        return mapped
-                    break
-
-        # Expresso: only override if not a supplement path (/semanario)
-        if "expresso.pt" in item_link:
-            if parts and parts[0] != "semanario":
-                candidate = parts[0]
-                mapped = find_category_in_mapper(candidate)
-                if mapped:
-                    return mapped
-
-        # Visão: use the first segment after the domain
-        if "visao.pt" in item_link:
-            if parts and parts[0]:
-                candidate = parts[0]
-                mapped = find_category_in_mapper(candidate)
-                if mapped:
-                    return mapped
-
-    # --- Direct mapping by feed URL prefix (FEED_CATEGORY_MAPPER) ---
-    for feed_prefix, default_category in FEED_CATEGORY_MAPPER.items():
-        if (feed_url or "").startswith(feed_prefix):
-            # Try to map the default_category itself to a main category
-            mapped = find_category_in_mapper(default_category)
-            if mapped:
-                return mapped
-            # Return the default category directly if it's valid
-            if default_category in ["Últimas", "Nacional", "Mundo", "Desporto", "Economia", 
-                                  "Cultura", "Ciência e Tech", "Lifestyle", "Sociedade", 
-                                  "Política", "Multimédia", "Opinião", "Vídeojogos"]:
-                return default_category
-            break
-
-    # --- Map feed category using the fixed mapper structure ---
-    if feed_cat_norm:
-        mapped = find_category_in_mapper(feed_cat_norm)
-        if mapped:
-            return mapped
-
-    # --- CM Jornal special case ---
-    if "cmjornal.pt" in (feed_url or "") and item_link:
-        parsed = urlparse(item_link)
-        cm_parts = parsed.path.strip("/").split("/")
-        if cm_parts:
-            candidate = cm_parts[0]
-            mapped = find_category_in_mapper(candidate)
-            if mapped:
-                return mapped
 def map_category(feed_category, feed_url, item_link=None, title="", description=""):
     """
     FIXED: Map the provided feed category and URL to a standardized category using
