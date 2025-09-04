@@ -1462,19 +1462,19 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
         
     # --- Renascença rr.pt special case ---
     if "rr.pt" in (feed_url or "") and item_link:
-    try:
-        parsed = urlparse(item_link)
-        rr_parts = parsed.path.strip("/").split("/")
-        
-        # Para URLs como: /artigo/casa-comum/2025/... ou /especial/pais/2025/...
-        if len(rr_parts) >= 2:
-            candidate = rr_parts[1]  # segunda posição após rr.pt
-            mapped = find_category_in_mapper(candidate)
-            if mapped:
-                return mapped
-                
-    except (ValueError, IndexError):
-        pass
+        try:
+            parsed = urlparse(item_link)
+            rr_parts = parsed.path.strip("/").split("/")
+            
+            # Para URLs como: /artigo/casa-comum/2025/... ou /especial/pais/2025/...
+            if len(rr_parts) >= 2:
+                candidate = rr_parts[1]  # segunda posição após rr.pt
+                mapped = find_category_in_mapper(candidate)
+                if mapped:
+                    return mapped
+                    
+        except (ValueError, IndexError):
+            pass
 
     # --- AI Classification for unmapped articles ---
     # Call AI if we have content (title/description) regardless of feed_category
