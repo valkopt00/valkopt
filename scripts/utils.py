@@ -5,7 +5,11 @@ from html import unescape
 from urllib.parse import urlparse
 from dateutil import parser, tz
 
+from scripts.category_mapper import create_normalized_category_mappings
 from scripts.mappings import DATE_FORMATS
+
+# Initialize the normalized mapping once
+NORMALIZED_SUBCATEGORY_TO_MAIN = create_normalized_category_mappings()
 
 # Normalize text
 def normalize_text(text):

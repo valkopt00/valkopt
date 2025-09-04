@@ -15,9 +15,6 @@ from scripts.feed_processor import process_rss_feed, process_api_source
 from scripts.ai_classifier import categorize_with_ai, setup_ai_classifier
 from scripts.mappings import RSS_FEEDS, API_SOURCES
 
-# Initialize the normalized mapping once
-NORMALIZED_SUBCATEGORY_TO_MAIN = create_normalized_category_mappings()
-
 async def get_articles():
     """
     Main function to fetch articles from all sources and process them.
