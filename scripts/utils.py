@@ -5,11 +5,7 @@ from html import unescape
 from urllib.parse import urlparse
 from dateutil import parser, tz
 
-from scripts.category_mapper import create_normalized_category_mappings
 from scripts.mappings import DATE_FORMATS
-
-# Initialize the normalized mapping once
-NORMALIZED_SUBCATEGORY_TO_MAIN = create_normalized_category_mappings()
 
 # Normalize text
 def normalize_text(text):
@@ -42,8 +38,8 @@ def fix_encoding(text):
     """
     Fix only when common double-encoding artifacts are detected.
     """
-    # Typical patterns of bad decoding: "ÃƒÂ©", "ÃƒÂ¡", "ÃƒÂª", "ÃƒÂ£", etc.
-    if not re.search(r"[ÃƒÃ‚][Â©ÂªÂ¢Â±ÂºÂ«Â°]", text):
+    # Typical patterns of bad decoding: "ÃƒÆ'Ã‚Â©", "ÃƒÆ'Ã‚Â¡", "ÃƒÆ'Ã‚Âª", "ÃƒÆ'Ã‚Â£", etc.
+    if not re.search(r"[ÃƒÆ'Ãƒâ€š][Ã‚Â©Ã‚ÂªÃ‚Â¢Ã‚Â±Ã‚ÂºÃ‚Â«Ã‚Â°]", text):
         return text  # Looks fine, don't touch
     
     try:
@@ -144,7 +140,7 @@ def extract_source(data):
                 'PUBLICO': 'Público',
                 'tek': 'SAPO Tek',
             }
-            source_mapping.get(domain, domain)
+            return source_mapping.get(domain, domain)
     except Exception as e:
         print(f"Error extracting source: {e}")
     return "Desconhecido"
@@ -218,7 +214,7 @@ def parse_date(date_str, source_url=None):
         try:
             parsed_dt = parser.parse(date_str)
         except:
-            print(f"⚠️ Failed to parse date: {date_str}")
+            print(f"Warning: Failed to parse date: {date_str}")
             return None
     
     # Add timezone if missing
