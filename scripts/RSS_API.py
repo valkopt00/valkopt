@@ -12,7 +12,7 @@ import feedparser
 import asyncio
 import aiohttp
 from aiohttp import ClientTimeout
-from scripts.ai_classifier import categorize_with_ai, setup_ai_classifier
+from ai_classifier import categorize_with_ai, setup_ai_classifier
 import chardet
 import traceback
 import os
