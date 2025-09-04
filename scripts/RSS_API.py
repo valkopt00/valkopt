@@ -1461,7 +1461,7 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
             pass
         
     # --- Renascença rr.pt special case ---
-    if "rr.pt" in (feed_url or "") and item_link:
+    if "rr.pt" in item_link:
         try:
             parsed = urlparse(item_link)
             rr_parts = parsed.path.strip("/").split("/")
@@ -1473,7 +1473,7 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
 
                 mapped = find_category_in_mapper(candidate)
                 print(f"🔍 RR.PT mapping result: '{candidate}' -> '{mapped}'")
-                
+
                 if mapped:
                     return mapped
                     
@@ -1483,7 +1483,7 @@ def map_category(feed_category, feed_url, item_link=None, title="", description=
     # --- AI Classification for unmapped articles ---
     # Call AI if we have content (title/description) regardless of feed_category
     if GROQ_CLIENT and (title or description):
-        print(f"🤖 Calling AI for unmapped article: '{title}...'")
+        print(f"🤖 Calling AI for unmapped article: '{title}'")
         
         ai_category = categorize_with_ai(
             title=title or "Sem título", 
