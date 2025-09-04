@@ -3,8 +3,6 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 import json
 import re
-import sys
-import pathlib
 from html import unescape
 from xml.etree.ElementTree import Element
 from bs4 import BeautifulSoup
@@ -14,8 +12,6 @@ import feedparser
 import asyncio
 import aiohttp
 from aiohttp import ClientTimeout
-root = pathlib.Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(root))
 from scripts.ai_classifier import categorize_with_ai, setup_ai_classifier
 import chardet
 import traceback

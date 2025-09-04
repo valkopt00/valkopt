@@ -87,6 +87,7 @@ jobs:
           git show origin/main:scripts/RSS_API.py > temp-scripts/scripts/RSS_API.py
           git show origin/main:scripts/__init__.py > temp-scripts/scripts/__init__.py
           git show origin/main:scripts/mappings.py > temp-scripts/scripts/mappings.py
+          git show origin/main:scripts/ai_classifier.py > temp-scripts/scripts/ai_classifier.py
           git show origin/main:scripts/remove_articles.py > temp-scripts/scripts/remove_articles.py
           git show origin/main:scripts/reset_counts_with_backup.py > temp-scripts/scripts/reset_counts_with_backup.py
           git show origin/main:scripts/remove_duplicates.py > temp-scripts/scripts/remove_duplicates.py
