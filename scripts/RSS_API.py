@@ -1318,9 +1318,19 @@ def categorize_with_ai(title, description, item_link=""):
     Regras:
     - Responde APENAS com o nome exato da categoria (uma das opções acima), sem pontuação, explicações ou texto adicional.
     - Se não tiveres certeza, responde "Outras Notícias".
-    - Para tecnologia/ciência usa "Ciência e Tech".
-    - Para saúde/educação/questões sociais usa "Sociedade".
     - Para a categoria "Política", apenas política de Portugal. Política internacional usa "Mundo". 
+
+    - "Mundo": Notícias internacionais, conflitos externos, política externa, eventos fora de Portugal
+    - "Desporto": Futebol, outros desportos, competições, atletas, clubes desportivos
+    - "Economia": Mercados financeiros, empresas, inflação, PIB, impostos, salários, emprego, negócios
+    - "Cultura": Arte, música, cinema, teatro, literatura, festivais, património cultural
+    - "Ciência e Tech": Tecnologia, investigação científica, inovação, startups tech, IA, ciência
+    - "Política": Eleições, partidos políticos, parlamento, governo (quando foco político específico)
+    - "Sociedade": Saúde, educação, direitos sociais, ambiente, segurança pública, justiça
+    - "Lifestyle": Moda, gastronomia, viagens, bem-estar, tendências, vida pessoal
+    - "Multimédia": Conteúdo visual/áudio específico, galeria de fotos, vídeos especiais
+    - "Opinião": Artigos de opinião, editoriais, colunas, comentários
+    - "Vídeojogos": Gaming, indústria dos jogos, eSports, consolas
 
     Resposta esperada (EXACT): <Nome da categoria>
     """
