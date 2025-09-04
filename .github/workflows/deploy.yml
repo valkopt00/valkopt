@@ -83,7 +83,7 @@ jobs:
           mkdir -p temp-scripts/scripts/exporters
           mkdir -p temp-scripts/scripts/core
           mkdir -p temp-scripts/scripts/removals
-          mkdir -p temp-scripts/scripts/processor
+          mkdir -p temp-scripts/scripts/processors
           mkdir -p temp-scripts/scripts/mappers
 
           # Use origin/main reference
