@@ -1,7 +1,11 @@
 import asyncio
 from datetime import datetime, timedelta, timezone
+from html import unescape
+from urllib.parse import urlparse
 
 import aiohttp
+import feedparser
+from aiohttp import ClientTimeout
 
 from scripts.article_merger import load_existing_articles, merge_articles
 from scripts.article_processor import process_articles
