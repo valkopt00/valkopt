@@ -1,7 +1,7 @@
 from urllib.parse import urlparse
 
 from scripts import utils
-from scripts.mappings import IGNORE_ORIGINAL_CATS, FEED_CATEGORY_MAPPER
+from scripts.mappings import IGNORE_ORIGINAL_CATS, FEED_CATEGORY_MAPPER, CATEGORY_MAPPER
 
 # Create normalized mapping for faster lookups
 def create_normalized_category_mappings():
