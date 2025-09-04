@@ -12,7 +12,9 @@ import feedparser
 import asyncio
 import aiohttp
 from aiohttp import ClientTimeout
-from .ai_classifier import categorize_with_ai, setup_ai_classifier
+root = pathlib.Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(root))
+from scripts.ai_classifier import categorize_with_ai, setup_ai_classifier
 import chardet
 import traceback
 import os
