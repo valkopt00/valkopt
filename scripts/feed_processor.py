@@ -13,6 +13,8 @@ from dateutil import parser, tz
 from scripts import utils
 from scripts.mappings import IGNORE_ORIGINAL_CATS
 from scripts.category_mapper import map_category
+from scripts import article_processor  # Adicionar esta importação
+
 
 async def process_rss_feed(session, feed_url, titles_seen, last_12_hours):
     """
