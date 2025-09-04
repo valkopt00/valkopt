@@ -3,16 +3,16 @@ from datetime import datetime, timedelta, timezone
 from html import unescape
 from urllib.parse import urlparse
 
-import aiohttp
-import feedparser
-from aiohttp import ClientTimeout
+import aiohttp # type: ignore
+import feedparser # type: ignore
+from aiohttp import ClientTimeout # type: ignore
 
 from scripts.processors.article_merger import load_existing_articles, merge_articles
-from scripts.article_processor import process_articles
+from scripts.processors.article_processor import process_articles
 from scripts.mappers.category_mapper import create_normalized_category_mappings
 from scripts.exporters.data_exporter import export_to_json, export_search_json, export_original_categories_to_json
-from scripts.feed_processor import process_rss_feed, process_api_source
-from scripts.ai_classifier import categorize_with_ai, setup_ai_classifier
+from scripts.processors.feed_processor import process_rss_feed, process_api_source
+from scripts.processors.ai_classifier import categorize_with_ai, setup_ai_classifier
 from scripts.mappers.mappings import RSS_FEEDS, API_SOURCES
 
 async def get_articles():
