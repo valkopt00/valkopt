@@ -119,18 +119,18 @@ URL: {item_link}
 CATEGORIAS VÁLIDAS: {', '.join(categories)}
 
 CRITÉRIOS DE CLASSIFICAÇÃO:
-• Nacional: Eventos, políticas e assuntos nacionais de Portugal (exceto quando há foco político específico)
-• Mundo: Notícias internacionais, conflitos globais, diplomacia, eventos fora de Portugal
-• Desporto: Futebol, modalidades, competições, atletas, clubes, resultados desportivos
-• Economia: Mercados, empresas, PIB, inflação, emprego, negócios, finanças, impostos
-• Cultura: Arte, música, cinema, literatura, teatro, festivais, património, entretenimento cultural
-• Ciência e Tech: Tecnologia, investigação científica, inovação, startups, IA, descobertas científicas
-• Política: Governo português, parlamento, eleições, partidos políticos nacionais
-• Sociedade: Saúde, educação, ambiente, justiça, direitos sociais, segurança pública
-• Lifestyle: Moda, gastronomia, viagens, bem-estar, tendências, vida pessoal, famosos
-• Multimédia: Conteúdo visual/áudio específico, podcasts, vídeos, fotogalerias
-• Opinião: Editoriais, colunas de opinião, artigos de comentário, análises pessoais
-• Vídeojogos: Gaming, indústria dos jogos, eSports, consolas, jogos digitais
+• Nacional: Eventos, políticas e assuntos nacionais de Portugal (exceto quando há foco político ou económico específico)
+• Mundo: Notícias internacionais, conflitos globais, diplomacia (não comercial), eventos fora de Portugal
+• Desporto: Futebol, modalidades, competições, atletas, clubes, resultados desportivos, transferências
+• Economia: Mercados, empresas, PIB, inflação, emprego, negócios, finanças, impostos, acordos comerciais, comércio internacional, tarifas, proteccionismo, Mercosul, importações/exportações, agricultura (aspecto comercial), turismo (impacto económico), imobiliário, banca, seguros
+• Cultura: Arte, música, cinema, literatura, teatro, festivais, património, entretenimento cultural, museus
+• Ciência e Tech: Tecnologia, investigação científica, inovação, startups tech, IA, descobertas científicas, medicina, saúde (investigação)
+• Política: Governo português, parlamento, eleições, partidos políticos nacionais, leis portuguesas, ministros (ações políticas)
+• Sociedade: Saúde pública, educação, ambiente (não comercial), justiça, direitos sociais, segurança pública, criminalidade, acidentes, meteorologia, incêndios
+• Lifestyle: Moda, gastronomia, viagens (experiências), bem-estar pessoal, tendências, vida pessoal, famosos, realeza
+• Multimédia: Conteúdo visual/áudio específico, podcasts, vídeos, fotogalerias, streaming
+• Opinião: Editoriais, colunas de opinião, artigos de comentário, análises pessoais, cartas ao diretor
+• Vídeojogos: Gaming, indústria dos jogos, eSports, consolas, jogos digitais, streamers de jogos
 
 PISTAS DO URL:
 • Analisa o path do URL para identificar secções temáticas (ex: /desporto/, /economia/, /cultura/)
@@ -143,6 +143,19 @@ INSTRUÇÕES:
 - Se incerto, responde "Outras Notícias"
 - Política internacional = "Mundo", não "Política"
 - Considera o contexto português na classificação
+
+CASOS ESPECIAIS:
+- Acordos UE-Mercosul, tratados comerciais = "Economia"
+- Ministros falando sobre economia/negócios = "Economia" 
+- Saúde pública, hospitais, SNS = "Sociedade"
+- Investigação médica, novos tratamentos = "Ciência e Tech"
+- Empresas tech, startups = "Economia" (exceto inovação científica)
+- Crimes, tribunais, polícia = "Sociedade"
+- Mudanças climáticas (aspecto ambiental) = "Sociedade"
+- Mudanças climáticas (impacto económico) = "Economia"
+- Futebol + negócios (transferências, salários) = "Desporto"
+- Turismo (experiências) = "Lifestyle"  
+- Turismo (números, receitas) = "Economia"
 
 Categoria:"""
 
