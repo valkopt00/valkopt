@@ -79,8 +79,8 @@ def cleanup_ai_cache():
 
 def categorize_with_ai(title, description, item_link=""):
     """
-    Classify article using AI based on title and description + URL.
-    Com cache persistente para evitar processamento duplicado.
+    Classify article using AI based on title, description, and URL.
+    With persistent cache to avoid duplicate processing.
     """
     global AI_PROCESSED_CACHE
     
@@ -89,7 +89,7 @@ def categorize_with_ai(title, description, item_link=""):
     
     cache_key = item_link.strip()
     
-    # Verificar cache
+    # Check cache first
     if cache_key in AI_PROCESSED_CACHE:
         cached_entry = AI_PROCESSED_CACHE[cache_key]
         
@@ -103,45 +103,60 @@ def categorize_with_ai(title, description, item_link=""):
         if cached_result:
             print(f"📋 Cache HIT: Using cached result '{cached_result}' for {item_link}")
             return cached_result
-        
+    
     categories = ["Nacional", "Mundo", "Desporto", "Economia", "Cultura", 
                   "Ciência e Tech", "Política", "Sociedade", "Lifestyle", 
                   "Multimédia", "Opinião", "Vídeojogos"]
 
-    prompt = f"""Analisa este título e descrição de notícia portuguesa e classifica na categoria mais adequada.
+    # Improved prompt with URL analysis
+    prompt = f"""Classifica esta notícia portuguesa numa das categorias disponíveis.
 
-    Título: {title}
-    Descrição: {description}
-    URL do artigo: {item_link}
+ARTIGO:
+Título: {title}
+Descrição: {description}
+URL: {item_link}
 
-    Categorias disponíveis: {', '.join(categories)}
+CATEGORIAS VÁLIDAS: {', '.join(categories)}
 
-    Regras:
-    - Responde APENAS com o nome exato da categoria (uma das opções acima), sem pontuação, explicações ou texto adicional.
-    - Se não tiveres certeza, responde "Outras Notícias".
-    - Para a categoria "Política", apenas política de Portugal. Política internacional usa "Mundo". 
+CRITÉRIOS DE CLASSIFICAÇÃO:
+• Nacional: Eventos, políticas e assuntos nacionais de Portugal (exceto quando há foco político específico)
+• Mundo: Notícias internacionais, conflitos globais, diplomacia, eventos fora de Portugal
+• Desporto: Futebol, modalidades, competições, atletas, clubes, resultados desportivos
+• Economia: Mercados, empresas, PIB, inflação, emprego, negócios, finanças, impostos
+• Cultura: Arte, música, cinema, literatura, teatro, festivais, património, entretenimento cultural
+• Ciência e Tech: Tecnologia, investigação científica, inovação, startups, IA, descobertas científicas
+• Política: Governo português, parlamento, eleições, partidos políticos nacionais
+• Sociedade: Saúde, educação, ambiente, justiça, direitos sociais, segurança pública
+• Lifestyle: Moda, gastronomia, viagens, bem-estar, tendências, vida pessoal, famosos
+• Multimédia: Conteúdo visual/áudio específico, podcasts, vídeos, fotogalerias
+• Opinião: Editoriais, colunas de opinião, artigos de comentário, análises pessoais
+• Vídeojogos: Gaming, indústria dos jogos, eSports, consolas, jogos digitais
 
-    - "Mundo": Notícias internacionais, conflitos externos, política externa, eventos fora de Portugal
-    - "Desporto": Futebol, outros desportos, competições, atletas, clubes desportivos
-    - "Economia": Mercados financeiros, empresas, inflação, PIB, impostos, salários, emprego, negócios
-    - "Cultura": Arte, música, cinema, teatro, literatura, festivais, património cultural
-    - "Ciência e Tech": Tecnologia, investigação científica, inovação, startups tech, IA, ciência
-    - "Política": Eleições, partidos políticos, parlamento, governo (quando foco político específico)
-    - "Sociedade": Saúde, educação, direitos sociais, ambiente, segurança pública, justiça
-    - "Lifestyle": Moda, gastronomia, viagens, bem-estar, tendências, vida pessoal
-    - "Multimédia": Conteúdo visual/áudio específico, galeria de fotos, vídeos especiais
-    - "Opinião": Artigos de opinião, editoriais, colunas, comentários
-    - "Vídeojogos": Gaming, indústria dos jogos, eSports, consolas
+PISTAS DO URL:
+• Analisa o path do URL para identificar secções temáticas (ex: /desporto/, /economia/, /cultura/)
+• Sites especializados: zerozero.pt, autosport.pt = Desporto; pplware.sapo.pt, tek.sapo.pt = Ciência e Tech
+• Secções de opinião: /opiniao/, /editorial/, /coluna/ = Opinião
+• Política internacional em sites portugueses = "Mundo", não "Política"
 
-    Resposta esperada (EXACT): <Nome da categoria>
-    """
+INSTRUÇÕES:
+- Responde APENAS com o nome exato da categoria
+- Se incerto, responde "Outras Notícias"
+- Política internacional = "Mundo", não "Política"
+- Considera o contexto português na classificação
 
-    system_content = (
-        "You are a strict category classifier. Given the user's input, output EXACTLY ONE of the "
-        "following category names, nothing else: " + ", ".join(categories) +
-        ". If you are unsure, output exactly: Outras Notícias. Do NOT ask for more info, do NOT output "
-        "explanations or other sentences."
-    )
+Categoria:"""
+
+    system_content = f"""You are a Portuguese news categorization system. Analyze the title, description, and URL provided and classify into ONE of these exact categories: {', '.join(categories)}.
+
+Rules:
+- Output ONLY the exact category name, nothing else
+- If uncertain, output exactly: "Outras Notícias"  
+- Do not provide explanations or additional text
+- Consider Portuguese context for all classifications
+- Use URL path clues (e.g., /desporto/, /economia/, domain specialization)
+- Political news about other countries = "Mundo", not "Política"
+
+You must respond with exactly one category name."""
 
     try:
         response = GROQ_CLIENT.chat.completions.create(
@@ -150,43 +165,90 @@ def categorize_with_ai(title, description, item_link=""):
                 {"role": "system", "content": system_content},
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.1,
-            max_tokens=50
+            temperature=0.0,  # More deterministic for classification
+            max_tokens=20,    # Reduced - only need one word
+            top_p=0.1        # More focused on most likely responses
         )
 
         ai_raw = response.choices[0].message.content.strip()
         
-        if ai_raw in categories:
+        # Clean possible extra formatting
+        ai_clean = ai_raw.replace("Categoria:", "").replace("**", "").replace("*", "").strip()
+        
+        # Exact match first
+        if ai_clean in categories:
             cache_entry = {
-                "category": ai_raw,
+                "category": ai_clean,
                 "timestamp": datetime.now(timezone.utc).isoformat(),
-                "title": title[:100] + "..." if len(title) > 100 else title
+                "title": title[:100] + "..." if len(title) > 100 else title,
+                "confidence": "exact"
             }
             AI_PROCESSED_CACHE[cache_key] = cache_entry
             save_ai_cache(AI_PROCESSED_CACHE)
             
-            print(f"🤖 AI SUCCESS & CACHED: '{ai_raw}' for {item_link}")
-            return ai_raw
-
-        lower = ai_raw.lower()
-        for c in categories:
-            if c.lower() in lower:
+            print(f"🤖 AI SUCCESS & CACHED (exact): '{ai_clean}' for {item_link}")
+            return ai_clean
+        
+        # Case-insensitive check as fallback
+        lower_clean = ai_clean.lower()
+        for category in categories:
+            if category.lower() == lower_clean:
                 cache_entry = {
-                    "category": c,
+                    "category": category,
                     "timestamp": datetime.now(timezone.utc).isoformat(),
-                    "title": title[:100] + "..." if len(title) > 100 else title
+                    "title": title[:100] + "..." if len(title) > 100 else title,
+                    "confidence": "case_insensitive"
                 }
                 AI_PROCESSED_CACHE[cache_key] = cache_entry
                 save_ai_cache(AI_PROCESSED_CACHE)
                 
-                print(f"🤖 AI SUCCESS & CACHED: '{c}' for {item_link}")
-                return c
-
-        print(f"⚠️ AI returned invalid category: {ai_raw}")
+                print(f"🤖 AI SUCCESS & CACHED (case fix): '{category}' for {item_link}")
+                return category
+        
+        # Partial match as last resort (more restrictive)
+        for category in categories:
+            if len(ai_clean) > 3 and category.lower() in lower_clean and len(lower_clean) < len(category) + 5:
+                cache_entry = {
+                    "category": category,
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
+                    "title": title[:100] + "..." if len(title) > 100 else title,
+                    "confidence": "partial"
+                }
+                AI_PROCESSED_CACHE[cache_key] = cache_entry
+                save_ai_cache(AI_PROCESSED_CACHE)
+                
+                print(f"🤖 AI SUCCESS & CACHED (partial): '{category}' from '{ai_clean}' for {item_link}")
+                return category
+        
+        # If we reach here, invalid response
+        print(f"⚠️ AI returned invalid category: '{ai_raw}' -> cleaned: '{ai_clean}'")
+        
+        # Cache failure to avoid unnecessary retry
+        cache_entry = {
+            "category": None,
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "title": title[:100] + "..." if len(title) > 100 else title,
+            "raw_response": ai_raw,
+            "confidence": "failed"
+        }
+        AI_PROCESSED_CACHE[cache_key] = cache_entry
+        save_ai_cache(AI_PROCESSED_CACHE)
+        
         return None
 
     except Exception as e:
         print(f"❌ AI classification error: {e}")
+        # Cache error to avoid immediate retry
+        cache_entry = {
+            "category": None,
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "title": title[:100] + "..." if len(title) > 100 else title,
+            "error": str(e),
+            "confidence": "error"
+        }
+        AI_PROCESSED_CACHE[cache_key] = cache_entry
+        save_ai_cache(AI_PROCESSED_CACHE)
+        
         return None
 
 def setup_ai_classifier():
