@@ -199,7 +199,7 @@ You must respond with exactly one category name."""
             AI_PROCESSED_CACHE[cache_key] = cache_entry
             save_ai_cache(AI_PROCESSED_CACHE)
             
-            print(f"🤖 AI SUCCESS & CACHED (exact): '{ai_clean}' for {item_link}")
+            print(f"🤖 AI CATEGORIZED & CACHED (exact): '{ai_clean}' for {item_link}")
             return ai_clean
         
         # Case-insensitive check as fallback
