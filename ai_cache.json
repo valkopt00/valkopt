@@ -1109,7 +1109,7 @@
     },
     "https://magg.sapo.pt/magg-lab/artigos/regresso-as-aulas-pepco": {
         "category": null,
-        "timestamp": "2025-09-07T21:37:38.225407+00:00",
+        "timestamp": "2025-09-07T21:50:32.310111+00:00",
         "title": "30 soluções para um regresso às aulas económico e sem complicações",
         "raw_response": "Educação",
         "confidence": "failed"
@@ -1274,6 +1274,24 @@
         "category": "Política",
         "timestamp": "2025-09-07T21:37:44.165062+00:00",
         "title": "Alexandra Leitão responde a Moedas: \"Não trouxe respostas, não apresentou soluções e não anunciou um...",
+        "confidence": "exact"
+    },
+    "https://tvc.sapo.pt/2025/09/07/rodrigo-afonso-vence-o-25-o-grande-premio-alves-barbosa-com-final-emocionante-no-castelo-de-montemor-o-velho/": {
+        "category": "Desporto",
+        "timestamp": "2025-09-07T21:50:38.123513+00:00",
+        "title": "Rodrigo Afonso vence o 25.º Grande Prémio Alves Barbosa com final emocionante no Castelo de Montemor...",
+        "confidence": "exact"
+    },
+    "https://cidadehoje.sapo.pt/reformados-recebem-extra-partir-desta-segunda-feira/": {
+        "category": "Economia",
+        "timestamp": "2025-09-07T21:50:42.249168+00:00",
+        "title": "Reformados recebem ‘extra’ partir desta segunda-feira",
+        "confidence": "exact"
+    },
+    "https://desportivotransmontano.sapo.pt/noticias/esquecimento-insolito-atrasa-jogo-da-divisao-de-honra-da-afvr/": {
+        "category": "Desporto",
+        "timestamp": "2025-09-07T21:50:43.661662+00:00",
+        "title": "Esquecimento insólito atrasa jogo da Divisão de Honra da AFVR",
         "confidence": "exact"
     }
 }
