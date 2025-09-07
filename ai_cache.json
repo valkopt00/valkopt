@@ -1109,7 +1109,7 @@
     },
     "https://magg.sapo.pt/magg-lab/artigos/regresso-as-aulas-pepco": {
         "category": null,
-        "timestamp": "2025-09-07T22:31:59.828894+00:00",
+        "timestamp": "2025-09-07T22:50:06.752970+00:00",
         "title": "30 soluções para um regresso às aulas económico e sem complicações",
         "raw_response": "Educação",
         "confidence": "failed"
@@ -1308,7 +1308,7 @@
     },
     "https://maisbeiras.sapo.pt/nelas%f0%9d%97%a7%f0%9d%97%bf%f0%9d%97%ae%f0%9d%97%b1%f0%9d%97%b6%f0%9d%97%b0%f0%9d%97%ae%f0%9d%97%bc-%f0%9d%97%b2-%f0%9d%97%96%f0%9d%98%82%f0%9d%97%b9%f0%9d%98%81%f0%9d%98%82%f0%9d%97%bf%f0%9d%97%ae": {
         "category": null,
-        "timestamp": "2025-09-07T22:32:10.476578+00:00",
+        "timestamp": "2025-09-07T22:50:24.027259+00:00",
         "title": "NELAS:𝗧𝗿𝗮𝗱𝗶𝗰𝗮𝗼 𝗲 𝗖𝘂𝗹𝘁𝘂𝗿𝗮 𝗣𝗼𝗽𝘂𝗹𝗮𝗿 𝗺𝗮𝗿𝗰𝗮𝗺 𝗮 𝗙𝗲𝗶𝗿𝗮 𝗱𝗼 𝗩𝗶𝗻𝗵𝗼 𝗱𝗼 𝗗𝗮𝗼 𝗰𝗼𝗺 𝗮 𝗥𝗲𝗰𝗿𝗶𝗰𝗮𝗼 𝗘𝘁𝗻𝗼𝗴𝗿𝗮𝗳𝗶𝗰𝗮 𝗱𝗮𝘀 𝗩𝗶𝗻𝗱𝗶...",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -1353,6 +1353,24 @@
         "category": "Política",
         "timestamp": "2025-09-07T22:32:04.499443+00:00",
         "title": "A lista do PS candidata a  Nogueira do Cravo liderada por Gaspar Almeida",
+        "confidence": "exact"
+    },
+    "https://www.rtp.pt/noticias/selecoes/espanha-e-belgica-goleiam-em-dia-historico-para-memphis-depay_d1681980": {
+        "category": "Desporto",
+        "timestamp": "2025-09-07T22:49:46.317999+00:00",
+        "title": "Espanha e Bélgica goleiam em dia histórico para Memphis Depay",
+        "confidence": "exact"
+    },
+    "/artigo/jose-milhazes-eu-fico-surpreendido-com-aquelas-pessoas-que-acham-que-putin-quer-mesmo-a-paz-68be07c1640a792560fb6e12": {
+        "category": "Opinião",
+        "timestamp": "2025-09-07T22:50:11.277289+00:00",
+        "title": "José Milhazes: ”Eu fico surpreendido com aquelas pessoas que acham que Putin quer mesmo a paz\"",
+        "confidence": "exact"
+    },
+    "https://correiodeazemeis.sapo.pt/noticias/manuel-relelo-ad-volta-a-candidatar-se-com-lista-renova": {
+        "category": "Política",
+        "timestamp": "2025-09-07T22:50:13.542799+00:00",
+        "title": "Manuel Relelo (AD) apresenta-se novamente a eleições com lista renovada",
         "confidence": "exact"
     }
 }
