@@ -1109,7 +1109,7 @@
     },
     "https://magg.sapo.pt/magg-lab/artigos/regresso-as-aulas-pepco": {
         "category": null,
-        "timestamp": "2025-09-07T22:50:06.752970+00:00",
+        "timestamp": "2025-09-07T23:14:37.738991+00:00",
         "title": "30 soluções para um regresso às aulas económico e sem complicações",
         "raw_response": "Educação",
         "confidence": "failed"
@@ -1308,7 +1308,7 @@
     },
     "https://maisbeiras.sapo.pt/nelas%f0%9d%97%a7%f0%9d%97%bf%f0%9d%97%ae%f0%9d%97%b1%f0%9d%97%b6%f0%9d%97%b0%f0%9d%97%ae%f0%9d%97%bc-%f0%9d%97%b2-%f0%9d%97%96%f0%9d%98%82%f0%9d%97%b9%f0%9d%98%81%f0%9d%98%82%f0%9d%97%bf%f0%9d%97%ae": {
         "category": null,
-        "timestamp": "2025-09-07T22:50:24.027259+00:00",
+        "timestamp": "2025-09-07T23:14:58.233616+00:00",
         "title": "NELAS:𝗧𝗿𝗮𝗱𝗶𝗰𝗮𝗼 𝗲 𝗖𝘂𝗹𝘁𝘂𝗿𝗮 𝗣𝗼𝗽𝘂𝗹𝗮𝗿 𝗺𝗮𝗿𝗰𝗮𝗺 𝗮 𝗙𝗲𝗶𝗿𝗮 𝗱𝗼 𝗩𝗶𝗻𝗵𝗼 𝗱𝗼 𝗗𝗮𝗼 𝗰𝗼𝗺 𝗮 𝗥𝗲𝗰𝗿𝗶𝗰𝗮𝗼 𝗘𝘁𝗻𝗼𝗴𝗿𝗮𝗳𝗶𝗰𝗮 𝗱𝗮𝘀 𝗩𝗶𝗻𝗱𝗶...",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -1371,6 +1371,30 @@
         "category": "Política",
         "timestamp": "2025-09-07T22:50:13.542799+00:00",
         "title": "Manuel Relelo (AD) apresenta-se novamente a eleições com lista renovada",
+        "confidence": "exact"
+    },
+    "/artigo/ha-cinco-escolas-de-negocios-portuguesas-com-mestrados-de-gestao-entre-os-melhores-do-mundo-uma-esta-no-top-5-e-alcanca-a-melhor-classificacao-de-sempre-68be0f3f640a792560019ab9": {
+        "category": "Economia",
+        "timestamp": "2025-09-07T23:14:42.450017+00:00",
+        "title": "Há cinco escolas de negócios portuguesas com mestrados de Gestão entre os melhores do mundo. Uma est...",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/cinco-escolas-de-negocios-portuguesas-tem-os-mestrados-em-gestao-entre-os-melhores-do-mundo-pelo-financial-times/": {
+        "category": "Economia",
+        "timestamp": "2025-09-07T23:14:44.703397+00:00",
+        "title": "Cinco escolas de negócios portuguesas têm os Mestrados em Gestão entre os melhores do mundo pelo Fin...",
+        "confidence": "exact"
+    },
+    "https://21tv.sapo.pt/2025/09/07/14-a-quinzena-gastronomica-da-aguardente-doc-lourinha-inscricoes-abertas-para-restauracao/": {
+        "category": "Cultura",
+        "timestamp": "2025-09-07T23:14:45.834700+00:00",
+        "title": "14.ª Quinzena Gastronómica da Aguardente DOC Lourinhã: inscrições abertas para restauração",
+        "confidence": "exact"
+    },
+    "https://correiodeazemeis.sapo.pt/noticias/a-lista-da-cdu-candidata-junta-de-freguesia-de-nogueira-do-cravo": {
+        "category": "Política",
+        "timestamp": "2025-09-07T23:14:49.008582+00:00",
+        "title": "A lista da CDU candidata Junta de Freguesia de Nogueira do Cravo",
         "confidence": "exact"
     }
 }
