@@ -1109,7 +1109,7 @@
     },
     "https://magg.sapo.pt/magg-lab/artigos/regresso-as-aulas-pepco": {
         "category": null,
-        "timestamp": "2025-09-08T01:20:17.843215+00:00",
+        "timestamp": "2025-09-08T02:51:30.568698+00:00",
         "title": "30 soluções para um regresso às aulas económico e sem complicações",
         "raw_response": "Educação",
         "confidence": "failed"
@@ -1431,6 +1431,67 @@
         "category": "Política",
         "timestamp": "2025-09-08T01:20:33.032082+00:00",
         "title": "PS faz avançar a equipa mais jovem em Ossela",
+        "confidence": "exact"
+    },
+    "https://correiodeazemeis.sapo.pt/noticias/a-lista-liderada-por-jose-terra-ad-candidata-a-sao-martinho-da-gandara": {
+        "category": "Política",
+        "timestamp": "2025-09-08T02:51:36.057484+00:00",
+        "title": "A lista liderada por José Terra (AD) candidata a São Martinho da Gândara",
+        "confidence": "exact"
+    },
+    "https://correiodeazemeis.sapo.pt/noticias/a-lista-de-regina-frias-ad-candidata-a-freguesia-de-sao-roque": {
+        "category": "Política",
+        "timestamp": "2025-09-08T02:51:37.378704+00:00",
+        "title": "A lista de Regina Frias (AD) candidata à freguesia de São Roque",
+        "confidence": "exact"
+    },
+    "https://correiodeazemeis.sapo.pt/noticias/ps-aposta-na-continuidade-em-sao-roque": {
+        "category": "Política",
+        "timestamp": "2025-09-08T02:51:38.659073+00:00",
+        "title": "PS aposta na continuidade em São Roque",
+        "confidence": "exact"
+    },
+    "/artigo/o-touro-enraivecido-68be2e58640a79256012917d": {
+        "category": null,
+        "timestamp": "2025-09-08T02:51:39.055661+00:00",
+        "title": "O touro enraivecido",
+        "raw_response": "Outras Notícias",
+        "confidence": "failed"
+    },
+    "https://jornaleconomico.sapo.pt/noticias/a-conversa-sobre-ia-acabou/": {
+        "category": "Opinião",
+        "timestamp": "2025-09-08T02:51:45.342981+00:00",
+        "title": "A conversa sobre IA acabou?",
+        "confidence": "exact"
+    },
+    "https://jornaleconomico.sapo.pt/noticias/em-setembro-celebramos-a-agricultura-portuguesa-inovadora-competitiva-e-sustentavel/": {
+        "category": "Economia",
+        "timestamp": "2025-09-08T02:51:53.211488+00:00",
+        "title": "Em setembro, celebramos a Agricultura portuguesa: inovadora, competitiva e sustentável",
+        "confidence": "exact"
+    },
+    "https://jornaleconomico.sapo.pt/noticias/mestrado-em-gestao-da-faculdade-de-economia-do-porto-sobe-oito-lugares-no-ranking-do-ft/": {
+        "category": "Economia",
+        "timestamp": "2025-09-08T02:52:05.732395+00:00",
+        "title": "Mestrado em gestão da Faculdade de Economia do Porto sobe oito lugares no ranking do FT",
+        "confidence": "exact"
+    },
+    "https://jornaleconomico.sapo.pt/noticias/portugal-consolida-presenca-entre-as-melhores-escolas-de-gestao-no-ranking-mundial-do-financial-times/": {
+        "category": "Economia",
+        "timestamp": "2025-09-08T02:52:17.671272+00:00",
+        "title": "Portugal consolida presença entre as melhores escolas de gestão no ranking mundial do Financial Time...",
+        "confidence": "exact"
+    },
+    "https://jornaleconomico.sapo.pt/noticias/a-primeira-pagina-do-jornal-economico-de-8-de-setembro/": {
+        "category": "Multimédia",
+        "timestamp": "2025-09-08T02:52:30.467469+00:00",
+        "title": "A primeira página do Jornal Económico de 8 de setembro",
+        "confidence": "exact"
+    },
+    "https://jornaleconomico.sapo.pt/noticias/financial-times-considera-mestrado-em-gestao-da-catolica-o-30-o-melhor-do-mundo/": {
+        "category": "Economia",
+        "timestamp": "2025-09-08T02:52:42.612468+00:00",
+        "title": "Financial Times considera Mestrado em Gestão da Católica o 30.º melhor do mundo",
         "confidence": "exact"
     }
 }
