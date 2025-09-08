@@ -1109,7 +1109,7 @@
     },
     "https://magg.sapo.pt/magg-lab/artigos/regresso-as-aulas-pepco": {
         "category": null,
-        "timestamp": "2025-09-08T02:51:30.568698+00:00",
+        "timestamp": "2025-09-08T03:37:35.620877+00:00",
         "title": "30 soluções para um regresso às aulas económico e sem complicações",
         "raw_response": "Educação",
         "confidence": "failed"
@@ -1453,7 +1453,7 @@
     },
     "/artigo/o-touro-enraivecido-68be2e58640a79256012917d": {
         "category": null,
-        "timestamp": "2025-09-08T02:51:39.055661+00:00",
+        "timestamp": "2025-09-08T03:37:46.659099+00:00",
         "title": "O touro enraivecido",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -1492,6 +1492,18 @@
         "category": "Economia",
         "timestamp": "2025-09-08T02:52:42.612468+00:00",
         "title": "Financial Times considera Mestrado em Gestão da Católica o 30.º melhor do mundo",
+        "confidence": "exact"
+    },
+    "https://correiodeazemeis.sapo.pt/noticias/a-lista-liderada-por-oscar-oliveira-pcp-candidata-a-junta-de-freguesia-de-sao-martinho-da-gandara": {
+        "category": "Política",
+        "timestamp": "2025-09-08T03:37:42.241473+00:00",
+        "title": "A lista liderada por Óscar Oliveira (PCP) candidata à Junta de Freguesia de São Martinho da Gândara",
+        "confidence": "exact"
+    },
+    "https://correiodeazemeis.sapo.pt/noticias/fernando-lopes-ps-lidera-lista-para-novo-ciclo-politico-em-sao-martinho-da-gandara": {
+        "category": "Política",
+        "timestamp": "2025-09-08T03:37:43.899660+00:00",
+        "title": "Fernando Lopes (PS) lidera lista para novo ciclo político em São Martinho da Gândara",
         "confidence": "exact"
     }
 }
