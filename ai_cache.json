@@ -1109,7 +1109,7 @@
     },
     "https://magg.sapo.pt/magg-lab/artigos/regresso-as-aulas-pepco": {
         "category": null,
-        "timestamp": "2025-09-08T04:53:30.270071+00:00",
+        "timestamp": "2025-09-08T05:17:29.020322+00:00",
         "title": "30 soluções para um regresso às aulas económico e sem complicações",
         "raw_response": "Educação",
         "confidence": "failed"
@@ -1453,7 +1453,7 @@
     },
     "/artigo/o-touro-enraivecido-68be2e58640a79256012917d": {
         "category": null,
-        "timestamp": "2025-09-08T04:53:38.282956+00:00",
+        "timestamp": "2025-09-08T05:17:45.302136+00:00",
         "title": "O touro enraivecido",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -1510,6 +1510,24 @@
         "category": "Política",
         "timestamp": "2025-09-08T04:43:10.096787+00:00",
         "title": "​A UE e a América Latina",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/depois-de-fim-de-semana-chuvoso-o-que-esperar-dos-proximos-dias-saiba-o-que-vao-dizer-os-termometros-na-sua-cidade/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-08T05:17:35.573101+00:00",
+        "title": "Depois de fim de semana chuvoso, o que esperar dos próximos dias? Saiba o que vão dizer os termómetr...",
+        "confidence": "exact"
+    },
+    "https://greensavers.sapo.pt/zoologico-britanico-despede-se-de-amado-rinoceronte-manyara-que-lutava-contra-doenca-prolongada/": {
+        "category": "Mundo",
+        "timestamp": "2025-09-08T05:17:37.680295+00:00",
+        "title": "Zoológico britânico despede-se de “amado” rinoceronte Manyara que lutava contra doença prolongada",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/pensoes-chegam-hoje-com-suplemento-especial-do-governo-saiba-quanto-vai-receber-a-mais/": {
+        "category": "Nacional",
+        "timestamp": "2025-09-08T05:17:38.978104+00:00",
+        "title": "Pensões chegam hoje com suplemento especial do Governo: saiba quanto vai receber a mais",
         "confidence": "exact"
     }
 }
