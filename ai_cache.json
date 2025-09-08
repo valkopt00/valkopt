@@ -1109,7 +1109,7 @@
     },
     "https://magg.sapo.pt/magg-lab/artigos/regresso-as-aulas-pepco": {
         "category": null,
-        "timestamp": "2025-09-08T05:17:29.020322+00:00",
+        "timestamp": "2025-09-08T05:40:41.696521+00:00",
         "title": "30 soluções para um regresso às aulas económico e sem complicações",
         "raw_response": "Educação",
         "confidence": "failed"
@@ -1453,7 +1453,7 @@
     },
     "/artigo/o-touro-enraivecido-68be2e58640a79256012917d": {
         "category": null,
-        "timestamp": "2025-09-08T05:17:45.302136+00:00",
+        "timestamp": "2025-09-08T05:40:53.971753+00:00",
         "title": "O touro enraivecido",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -1528,6 +1528,30 @@
         "category": "Nacional",
         "timestamp": "2025-09-08T05:17:38.978104+00:00",
         "title": "Pensões chegam hoje com suplemento especial do Governo: saiba quanto vai receber a mais",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/convidado/2025/09/08/cristaos-na-politica/438891/?utm_medium=rss": {
+        "category": "Opinião",
+        "timestamp": "2025-09-08T05:40:26.184619+00:00",
+        "title": "Cristãos na política",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/convidado/2025/09/08/a-catolica-e-o-imperativo-da-renovacao-do-ensino-superior/438889/?utm_medium=rss": {
+        "category": "Opinião",
+        "timestamp": "2025-09-08T05:40:26.574499+00:00",
+        "title": "A Católica e o imperativo da renovação do Ensino Superior",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/em-atraso-desde-julho-devolucao-de-propinas-sera-efetuada-no-final-desta-semana/": {
+        "category": "Economia",
+        "timestamp": "2025-09-08T05:40:46.387374+00:00",
+        "title": "Em atraso desde julho: devolução de propinas será efetuada no final desta semana",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/entre-nuvens-cinzentas-da-falta-de-professores-e-protestos-a-vista-novo-ano-letivo-sera-muito-complicado-avisam-diretores-e-sindicatos/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-08T05:40:47.141919+00:00",
+        "title": "Entre “nuvens cinzentas” da falta de professores e protestos à vista: Novo ano letivo será “muito co...",
         "confidence": "exact"
     }
 }
