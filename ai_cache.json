@@ -1109,7 +1109,7 @@
     },
     "https://magg.sapo.pt/magg-lab/artigos/regresso-as-aulas-pepco": {
         "category": null,
-        "timestamp": "2025-09-08T06:27:08.143574+00:00",
+        "timestamp": "2025-09-08T06:50:55.259873+00:00",
         "title": "30 soluções para um regresso às aulas económico e sem complicações",
         "raw_response": "Educação",
         "confidence": "failed"
@@ -1642,6 +1642,48 @@
         "category": "Política",
         "timestamp": "2025-09-08T06:28:59.456165+00:00",
         "title": "Carneiro acusa Moedas de \"fuga para a frente\" e insultar socialistas",
+        "confidence": "exact"
+    },
+    "https://sapo.pt/artigo/o-touro-enraivecido-68be2e58640a79256012917d": {
+        "category": "Desporto",
+        "timestamp": "2025-09-08T06:50:41.057690+00:00",
+        "title": "O touro enraivecido",
+        "confidence": "exact"
+    },
+    "https://sapo.pt/artigo/prevista-greve-parcial-no-metro-de-lisboa-nos-dias-9-e-11-de-setembro-68be71fbe59b2129dff78e3f": {
+        "category": "Nacional",
+        "timestamp": "2025-09-08T06:50:47.701634+00:00",
+        "title": "Prevista greve parcial no Metro de Lisboa nos dias 9 e 11 de setembro",
+        "confidence": "exact"
+    },
+    "https://noticiasdosorraia.sapo.pt/derrota-molhada-no-acerto-de-calendario-do-samora-correia/": {
+        "category": "Desporto",
+        "timestamp": "2025-09-08T06:51:01.039402+00:00",
+        "title": "Derrota molhada no acerto de calendário do Samora Correia",
+        "confidence": "exact"
+    },
+    "/artigo/ceu-limpo-vento-e-ligeiras-descidas-de-temperatura-saiba-o-tempo-para-hoje-68be7972e59b2129dffc2f43": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-08T06:51:01.398190+00:00",
+        "title": "Céu limpo, vento e ligeiras descidas de temperatura. Saiba o tempo para hoje",
+        "confidence": "exact"
+    },
+    "https://greensavers.sapo.pt/sudao-mocambique-manifesta-solidariedade-em-desastre-natural-com-mil-mortos/": {
+        "category": "Mundo",
+        "timestamp": "2025-09-08T06:51:03.524188+00:00",
+        "title": "Sudão: Moçambique manifesta solidariedade em desastre natural com mil mortos",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/nao-seja-surpreendido-na-estrada-veja-a-lista-de-locais-onde-vao-estar-os-radares-da-psp-esta-semana/": {
+        "category": "Nacional",
+        "timestamp": "2025-09-08T06:51:04.954829+00:00",
+        "title": "Não seja surpreendido na estrada: veja a lista de locais onde vão estar os radares da PSP esta seman...",
+        "confidence": "exact"
+    },
+    "/artigo/os-governos-ocidentais-sao-cumplices-e-o-portugues-e-um-deles-ativista-portugues-miguel-duarte-fala-a-partir-de-um-barco-para-gaza-68be7982e921ed555c0226b2": {
+        "category": "Política",
+        "timestamp": "2025-09-08T06:51:17.640566+00:00",
+        "title": "“Os governos ocidentais são cúmplices e o português é um deles”. Ativista português Miguel Duarte fa...",
         "confidence": "exact"
     }
 }
