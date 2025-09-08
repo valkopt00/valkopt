@@ -1109,7 +1109,7 @@
     },
     "https://magg.sapo.pt/magg-lab/artigos/regresso-as-aulas-pepco": {
         "category": null,
-        "timestamp": "2025-09-08T05:40:41.696521+00:00",
+        "timestamp": "2025-09-08T05:50:25.370176+00:00",
         "title": "30 soluções para um regresso às aulas económico e sem complicações",
         "raw_response": "Educação",
         "confidence": "failed"
@@ -1453,7 +1453,7 @@
     },
     "/artigo/o-touro-enraivecido-68be2e58640a79256012917d": {
         "category": null,
-        "timestamp": "2025-09-08T05:40:53.971753+00:00",
+        "timestamp": "2025-09-08T05:50:42.746287+00:00",
         "title": "O touro enraivecido",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -1552,6 +1552,18 @@
         "category": "Sociedade",
         "timestamp": "2025-09-08T05:40:47.141919+00:00",
         "title": "Entre “nuvens cinzentas” da falta de professores e protestos à vista: Novo ano letivo será “muito co...",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/combustiveis-gasolina-95-sobe-hoje-15-centimos-litro-gasoleo-ainda-mais-saiba-onde-estao-os-postos-mais-baratos-do-pais/": {
+        "category": "Economia",
+        "timestamp": "2025-09-08T05:50:32.371688+00:00",
+        "title": "Combustíveis: gasolina 95 sobe hoje 1,5 cêntimos/litro, gasóleo ainda mais. Saiba onde estão os post...",
+        "confidence": "exact"
+    },
+    "/artigo/mtv-video-music-awards-arranca-com-vitoria-de-lady-gaga-no-premio-de-artista-do-ano-68be6b46e59b2129dff39a00": {
+        "category": "Multimédia",
+        "timestamp": "2025-09-08T05:50:33.333705+00:00",
+        "title": "MTV Video Music Awards arranca com vitória de Lady Gaga no prémio de artista do ano",
         "confidence": "exact"
     }
 }
