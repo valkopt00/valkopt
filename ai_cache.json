@@ -3571,7 +3571,7 @@
     },
     "/artigo/moedas-ao-ar-68bf7498185ba36e5d1e513e": {
         "category": null,
-        "timestamp": "2025-09-09T04:52:45.954767+00:00",
+        "timestamp": "2025-09-09T05:16:45.067322+00:00",
         "title": "Moedas ao ar",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -3616,6 +3616,36 @@
         "category": "Ciência e Tech",
         "timestamp": "2025-09-09T01:18:11.578224+00:00",
         "title": "Planeta semelhante à Terra a 40 anos-luz com sinais de atmosfera",
+        "confidence": "exact"
+    },
+    "https://rr.pt/fotoreportagem/renascenca-reportagem/2025/09/09/a-vergonha-vai-se-perdendo-aos-poucos-ainda-sao-residuais-mas-ha-cada-vez-mais-homens-cuidadores/439017/?utm_medium=rss": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-09T05:16:15.370201+00:00",
+        "title": "\"A vergonha vai-se perdendo aos poucos.\" Ainda são residuais, mas há cada vez mais homens cuidadores",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/ribeiro-cristovao/2025/09/09/em-budapeste-vai-ser-mais-dificil/439066/?utm_medium=rss": {
+        "category": "Opinião",
+        "timestamp": "2025-09-09T05:16:15.758056+00:00",
+        "title": "Em Budapeste vai ser mais difícil",
+        "confidence": "exact"
+    },
+    "https://greensavers.sapo.pt/tubaroes-e-raias-estao-a-desaparecer-a-um-ritmo-preocupante-nas-seicheles/": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-09T05:16:38.795396+00:00",
+        "title": "Tubarões e raias estão a desaparecer a um “ritmo preocupante” nas Seicheles",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/vai-andar-de-metro-em-lisboa-atencao-hoje-ha-greve-e-sem-servicos-minimos/": {
+        "category": "Nacional",
+        "timestamp": "2025-09-09T05:16:40.474828+00:00",
+        "title": "Vai andar de Metro em Lisboa? Atenção, hoje há greve e sem serviços mínimos",
+        "confidence": "exact"
+    },
+    "https://odigital.sapo.pt/santiago-do-cacem-recebe-exposicao-retrospetiva-de-alfredo-moreira-da-silva/": {
+        "category": "Cultura",
+        "timestamp": "2025-09-09T05:16:44.074787+00:00",
+        "title": "Santiago do Cacém recebe exposição retrospetiva de Alfredo Moreira da Silva",
         "confidence": "exact"
     }
 }
