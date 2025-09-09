@@ -3571,7 +3571,7 @@
     },
     "/artigo/moedas-ao-ar-68bf7498185ba36e5d1e513e": {
         "category": null,
-        "timestamp": "2025-09-09T05:16:45.067322+00:00",
+        "timestamp": "2025-09-09T05:39:56.312818+00:00",
         "title": "Moedas ao ar",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -3646,6 +3646,18 @@
         "category": "Cultura",
         "timestamp": "2025-09-09T05:16:44.074787+00:00",
         "title": "Santiago do Cacém recebe exposição retrospetiva de Alfredo Moreira da Silva",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/cinto-me-vivo-gnr-e-psp-reforcam-fiscalizacao-nas-estradas-a-partir-de-hoje-saiba-em-que-locais-2/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-09T05:39:49.922495+00:00",
+        "title": "“Cinto-me vivo”: GNR e PSP reforçam fiscalização nas estradas a partir de hoje. Saiba em que locais",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/carro-que-salvou-a-autoeuropa-e-hoje-oficialmente-apresentado-nova-geracao-do-volkswagen-t-roc-e-um-hibrido-redesenhado-made-in-palmela/": {
+        "category": "Desporto",
+        "timestamp": "2025-09-09T05:39:50.725435+00:00",
+        "title": "Carro que salvou a Autoeuropa é hoje oficialmente apresentado. Nova geração do Volkswagen T-Roc é um...",
         "confidence": "exact"
     }
 }
