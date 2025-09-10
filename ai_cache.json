@@ -7919,7 +7919,7 @@
     },
     "/artigo/no-slug-68c17367a5e00d94cd285464": {
         "category": null,
-        "timestamp": "2025-09-10T14:40:42.071135+00:00",
+        "timestamp": "2025-09-10T14:50:33.119172+00:00",
         "title": "A pequena percentagem",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -8282,6 +8282,18 @@
         "category": "Mundo",
         "timestamp": "2025-09-10T14:43:04.687902+00:00",
         "title": "Ataque à Polónia estava a ser planeado desde julho? Uso de cartões SIM nos drones russos indica que ...",
+        "confidence": "exact"
+    },
+    "https://sol.sapo.pt/2025/09/10/da-cidade-que-temos-a-cidade-que-queremos-15-medidas-da-cdu-para-lisboa/": {
+        "category": "Política",
+        "timestamp": "2025-09-10T14:50:41.734931+00:00",
+        "title": "‘Da cidade que temos à cidade que queremos’ – 15 medidas da CDU para Lisboa",
+        "confidence": "exact"
+    },
+    "https://greensavers.sapo.pt/pelo-menos-13-mortos-em-inundacoes-na-ilha-indonesia-de-bali-e-zonas-proximas/": {
+        "category": "Mundo",
+        "timestamp": "2025-09-10T14:50:42.708572+00:00",
+        "title": "Pelo menos 13 mortos em inundações na ilha indonésia de Bali e zonas próximas",
         "confidence": "exact"
     }
 }
