@@ -7889,7 +7889,7 @@
     },
     "/artigo/no-slug-68c17367a5e00d94cd285464": {
         "category": null,
-        "timestamp": "2025-09-10T23:39:51.230598+00:00",
+        "timestamp": "2025-09-10T23:50:20.877542+00:00",
         "title": "A pequena percentagem",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -9350,6 +9350,30 @@
         "category": "Mundo",
         "timestamp": "2025-09-10T23:28:54.790834+00:00",
         "title": "\"Lá vamos nós\": Donald Trump reage à invasão de drones russos na Polónia com mensagem enigmática",
+        "confidence": "exact"
+    },
+    "/artigo/biden-e-obama-lamentam-morte-de-ativista-charlie-kirk-em-tiroteio-68c20d07025a3612d4888e37": {
+        "category": "Mundo",
+        "timestamp": "2025-09-10T23:50:26.829817+00:00",
+        "title": "Biden e Obama lamentam morte de ativista Charlie Kirk em tiroteio",
+        "confidence": "exact"
+    },
+    "https://mundialfm.sapo.pt/comunicado-da-camara-de-vila-nova-de-poiares-esclarece-polemica-sobre-cartaz-eleitoral-durante-a-poiartes/": {
+        "category": "Política",
+        "timestamp": "2025-09-10T23:50:28.175029+00:00",
+        "title": "Comunicado da Câmara de Vila Nova de Poiares esclarece polémica sobre cartaz eleitoral durante a Poi...",
+        "confidence": "exact"
+    },
+    "/artigo/aima-emite-800-vistos-para-trabalhadores-estrangeiros-no-setor-agricola-68c209f8c3ffba762c49f6c5": {
+        "category": "Economia",
+        "timestamp": "2025-09-10T23:50:28.545854+00:00",
+        "title": "AIMA emite 800 vistos para trabalhadores estrangeiros no setor agrícola",
+        "confidence": "exact"
+    },
+    "/artigo/de-jfk-a-luther-king-a-longa-lista-de-assassinatos-politicos-nos-estados-unidos-68c20a7ac3ffba762c4a176a": {
+        "category": "Política",
+        "timestamp": "2025-09-10T23:50:29.058919+00:00",
+        "title": "De JFK a Luther King: a longa lista de assassinatos políticos nos Estados Unidos",
         "confidence": "exact"
     }
 }
