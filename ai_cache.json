@@ -7907,7 +7907,7 @@
     },
     "/artigo/no-slug-68c17367a5e00d94cd285464": {
         "category": null,
-        "timestamp": "2025-09-10T18:24:11.244213+00:00",
+        "timestamp": "2025-09-10T18:47:11.920027+00:00",
         "title": "A pequena percentagem",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -9056,6 +9056,54 @@
         "category": "Economia",
         "timestamp": "2025-09-10T18:26:42.129714+00:00",
         "title": "Crédito Agrícola anuncia medidas extraordinárias de apoio às vítimas dos incêndios",
+        "confidence": "exact"
+    },
+    "https://www.publico.pt/2025/09/10/edicoes-publico/noticia/pas-deux-sombra-manif-2146723": {
+        "category": "Cultura",
+        "timestamp": "2025-09-10T18:47:05.659202+00:00",
+        "title": "Pas de deux à sombra da manif",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/10/aima-atribui-800-vistos-a-trabalhadores-agricolas-atraves-de-protocolo-de-migracao-regulada/": {
+        "category": "Economia",
+        "timestamp": "2025-09-10T18:47:20.728660+00:00",
+        "title": "AIMA atribui 800 vistos a trabalhadores agrícolas através de protocolo de migração regulada",
+        "confidence": "exact"
+    },
+    "/artigo/protestos-block-everything-paralisam-franca-quase-300-detencoes-68c1c44bc3ffba762c25321d": {
+        "category": "Mundo",
+        "timestamp": "2025-09-10T18:47:21.321650+00:00",
+        "title": "Protestos “Block Everything” paralisam França: quase 300 detenções",
+        "confidence": "exact"
+    },
+    "https://sustentix.sapo.pt/salamandras-em-guerra-quando-o-calor-transforma-riachos-em-ringues-de-boxe/": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-10T18:47:22.144047+00:00",
+        "title": "Salamandras em guerra: Quando o calor transforma riachos em ringues de boxe",
+        "confidence": "exact"
+    },
+    "/artigo/elon-musk-ja-nao-e-o-homem-mais-rico-do-mundo-ha-um-novo-rei-no-trono-da-fortuna-68c1c3f28bb55c4ffd4a339d": {
+        "category": "Economia",
+        "timestamp": "2025-09-10T18:47:22.516594+00:00",
+        "title": "Elon Musk já não é o homem mais rico do mundo: há um novo rei no 'Trono da Fortuna'",
+        "confidence": "exact"
+    },
+    "https://hrportugal.sapo.pt/a-prevencao-do-suicidio-e-possivel-e-a-investigacao-cientifica-que-o-garante-ordem-dos-psicologos-lanca-factsheet-com-recomendacoes-estrategicas/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-10T18:47:29.919276+00:00",
+        "title": "A prevenção do suicídio é possível. É a investigação científica que o garante. Ordem dos Psicólogos ...",
+        "confidence": "exact"
+    },
+    "https://sol.sapo.pt/2025/09/10/percecoes/": {
+        "category": "Lifestyle",
+        "timestamp": "2025-09-10T18:47:41.712212+00:00",
+        "title": "Perceções",
+        "confidence": "exact"
+    },
+    "https://noticiasdosorraia.sapo.pt/camara-de-benavente-alerta-proprietarios-para-limpeza-urgente-de-linhas-de-agua-e-prevencao-de-inundacoes/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-10T18:47:53.912051+00:00",
+        "title": "Câmara de Benavente alerta proprietários para limpeza urgente de linhas de água e prevenção de inund...",
         "confidence": "exact"
     }
 }
