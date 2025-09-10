@@ -7895,7 +7895,7 @@
     },
     "/artigo/no-slug-68c17367a5e00d94cd285464": {
         "category": null,
-        "timestamp": "2025-09-10T19:50:38.367228+00:00",
+        "timestamp": "2025-09-10T20:18:25.174229+00:00",
         "title": "A pequena percentagem",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -9230,6 +9230,30 @@
         "category": "Mundo",
         "timestamp": "2025-09-10T19:50:49.068731+00:00",
         "title": "Ativista pró-Trump baleado no pescoço durante discurso no Utah",
+        "confidence": "exact"
+    },
+    "https://hrportugal.sapo.pt/costuma-fazer-scroll-no-linkedin-cuidado-pode-provocar-inseguranca-sindrome-do-impostor-e-burnout/": {
+        "category": "Lifestyle",
+        "timestamp": "2025-09-10T20:18:33.041230+00:00",
+        "title": "Costuma fazer scroll no LinkedIn? Cuidado, pode provocar insegurança, síndrome do impostor e burnout",
+        "confidence": "exact"
+    },
+    "/artigo/charlie-kirk-ativista-pro-trump-foi-baleado-num-evento-na-universidade-de-utah-valley-68c1d8cd025a3612d46fbbbc": {
+        "category": "Mundo",
+        "timestamp": "2025-09-10T20:18:33.529794+00:00",
+        "title": "Charlie Kirk, ativista pró-Trump, foi baleado num evento na Universidade de Utah Valley",
+        "confidence": "exact"
+    },
+    "https://cidadehoje.sapo.pt/camara-de-famalicao-estuda-construcao-de-casas-de-banho-no-parque-de-sincaes/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-10T20:18:37.179253+00:00",
+        "title": "Câmara de Famalicão estuda construção de casas de banho no Parque de Sinçães",
+        "confidence": "exact"
+    },
+    "/artigo/aima-emitiu-800-vistos-para-trabalhadores-agricolas-presidente-do-aima-faz-balanco-positivo-do-protocolo-para-a-migracao-laboral-regulada-68c1d7fb8bb55c4ffd576b95": {
+        "category": "Política",
+        "timestamp": "2025-09-10T20:18:37.673566+00:00",
+        "title": "AIMA emitiu 800 vistos para trabalhadores agrícolas. Presidente do AIMA faz balanço positivo do prot...",
         "confidence": "exact"
     }
 }
