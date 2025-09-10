@@ -7895,7 +7895,7 @@
     },
     "/artigo/no-slug-68c17367a5e00d94cd285464": {
         "category": null,
-        "timestamp": "2025-09-10T22:50:30.103074+00:00",
+        "timestamp": "2025-09-10T23:15:19.135725+00:00",
         "title": "A pequena percentagem",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -9326,6 +9326,24 @@
         "category": "Mundo",
         "timestamp": "2025-09-10T22:32:40.395213+00:00",
         "title": "Também temos \"um 11 de setembro\", diz Netanyahu, comparando operação no Catar ao ataque às torres gé...",
+        "confidence": "exact"
+    },
+    "https://www.rtp.pt/noticias/hoquei/portugal-goleado-pela-espanha-por-8-1-no-europeu-feminino-de-hoquei-em-patins_d1682806": {
+        "category": "Desporto",
+        "timestamp": "2025-09-10T23:15:12.430688+00:00",
+        "title": "Portugal goleado pela Espanha por 8-1 no Europeu feminino de hóquei em patins",
+        "confidence": "exact"
+    },
+    "https://jornaleconomico.sapo.pt/noticias/zelensky-lamenta-falta-de-acao-do-ocidente-perante-drones-russos-na-polonia/": {
+        "category": "Mundo",
+        "timestamp": "2025-09-10T23:15:17.656211+00:00",
+        "title": "Zelensky lamenta “falta de ação” do Ocidente perante drones russos na Polónia",
+        "confidence": "exact"
+    },
+    "/artigo/quem-era-charlie-kirk-o-aliado-de-trump-que-era-um-fenomeno-nas-redes-sociais-68c202dd8bb55c4ffd6c74d4": {
+        "category": "Mundo",
+        "timestamp": "2025-09-10T23:15:25.005682+00:00",
+        "title": "Quem era Charlie Kirk? O aliado de Trump que era um fenómeno nas redes sociais",
         "confidence": "exact"
     }
 }
