@@ -7895,7 +7895,7 @@
     },
     "/artigo/no-slug-68c17367a5e00d94cd285464": {
         "category": null,
-        "timestamp": "2025-09-10T20:18:25.174229+00:00",
+        "timestamp": "2025-09-10T20:39:12.668992+00:00",
         "title": "A pequena percentagem",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -9254,6 +9254,12 @@
         "category": "Política",
         "timestamp": "2025-09-10T20:18:37.673566+00:00",
         "title": "AIMA emitiu 800 vistos para trabalhadores agrícolas. Presidente do AIMA faz balanço positivo do prot...",
+        "confidence": "exact"
+    },
+    "https://sol.sapo.pt/2025/09/10/polonia-invoca-artigo-4o-da-nato-apos-violacao-do-espaco-aereo-por-drones-russos/": {
+        "category": "Mundo",
+        "timestamp": "2025-09-10T20:39:19.789539+00:00",
+        "title": "Polónia invoca artigo 4º da NATO após violação do espaço aéreo por drones russos",
         "confidence": "exact"
     }
 }
