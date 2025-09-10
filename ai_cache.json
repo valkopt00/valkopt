@@ -7919,7 +7919,7 @@
     },
     "/artigo/no-slug-68c17367a5e00d94cd285464": {
         "category": null,
-        "timestamp": "2025-09-10T16:45:33.437680+00:00",
+        "timestamp": "2025-09-10T16:55:27.526288+00:00",
         "title": "A pequena percentagem",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -8720,6 +8720,36 @@
         "category": "Desporto",
         "timestamp": "2025-09-10T16:46:33.726878+00:00",
         "title": "Mercado of Sport’s: Atlético Clube Travanca define plantel para a nova temporada",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/10/edp-renovaveis-vende-portefolio-eolico-em-franca-e-belgica-por-200-milhoes/": {
+        "category": "Economia",
+        "timestamp": "2025-09-10T16:55:34.752843+00:00",
+        "title": "EDP Renováveis vende portefólio eólico em França e Bélgica por 200 milhões",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/edp-renovaveis-conclui-venda-de-ativos-eolicos-em-franca-e-belgica-avaliados-em-200-milhoes-de-euros/": {
+        "category": "Economia",
+        "timestamp": "2025-09-10T16:55:35.734952+00:00",
+        "title": "EDP Renováveis conclui venda de ativos eólicos em França e Bélgica avaliados em 200 milhões de euros",
+        "confidence": "exact"
+    },
+    "https://cidadehoje.sapo.pt/famalicao-desfolhada-tradicional-na-casa-do-artista-amador/": {
+        "category": "Cultura",
+        "timestamp": "2025-09-10T16:55:39.852442+00:00",
+        "title": "Famalicão: Desfolhada tradicional na Casa do Artista Amador",
+        "confidence": "exact"
+    },
+    "https://estacaodiariajornal.sapo.pt/viseu-festival-shortfilms-for-a-new-age-regressa-no-fim-de-semana/": {
+        "category": "Cultura",
+        "timestamp": "2025-09-10T16:55:41.164482+00:00",
+        "title": "Viseu: Festival Shortfilms for a New Age regressa no fim-de-semana",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/10/quartel-das-esquadras-em-almeida-vai-ser-transformado-num-hotel/": {
+        "category": "Economia",
+        "timestamp": "2025-09-10T16:55:42.013247+00:00",
+        "title": "Quartel das Esquadras, em Almeida, vai ser transformado num hotel",
         "confidence": "exact"
     }
 }
