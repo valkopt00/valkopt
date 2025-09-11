@@ -9481,7 +9481,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T21:14:43.888747+00:00",
+        "timestamp": "2025-09-11T21:27:54.645357+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12419,31 +12419,29 @@
         "confidence": "exact"
     },
     "https://maisbeiras.sapo.pt/fundao-recebe-teatro-teoria-king-kong": {
-        "category": null,
-        "timestamp": "2025-09-11T21:15:21.155286+00:00",
+        "category": "Cultura",
+        "timestamp": "2025-09-11T21:28:22.629247+00:00",
         "title": "Fundão recebe teatro “Teoria King Kong”",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499565, Requested 1041. Please try again in 1m44.5762s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
+        "confidence": "exact"
     },
     "https://maisbeiras.sapo.pt/covilha-projeto-jovem-de-vigilancia-na-serra-da-estrela-foi-um-sucesso": {
-        "category": null,
-        "timestamp": "2025-09-11T21:15:23.147674+00:00",
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T21:28:24.912285+00:00",
         "title": "Covilhã: projeto jovem de vigilância na Serra da Estrela foi um sucesso",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499553, Requested 1054. Please try again in 1m44.8186s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
+        "confidence": "exact"
     },
     "https://odigital.sapo.pt/arrancou-a-feira-de-setembro-em-moura-uma-feira-que-mantem-aquilo-que-e-identitario-c-fotos/": {
         "category": null,
-        "timestamp": "2025-09-11T21:15:26.278520+00:00",
+        "timestamp": "2025-09-11T21:28:26.683197+00:00",
         "title": "Arrancou a Feira de Setembro em Moura: uma feira que «mantém aquilo que é identitário» (c/fotos)",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499535, Requested 1066. Please try again in 1m43.7622s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499828, Requested 1066. Please try again in 2m34.4582s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://maisbeiras.sapo.pt/pinhel-recebe-festa-em-honra-da-nossa-senhora-de-fatima": {
         "category": null,
-        "timestamp": "2025-09-11T21:15:28.930302+00:00",
+        "timestamp": "2025-09-11T21:28:29.229770+00:00",
         "title": "Pinhel recebe Festa em honra da Nossa Senhora de Fátima",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499520, Requested 1060. Please try again in 1m40.0744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499814, Requested 1060. Please try again in 2m30.857399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://eco.sapo.pt/2025/09/11/pilotos-afastam-responsabilidade-por-eventual-insucesso-da-privatizacao-da-azores-airlines/": {
@@ -12451,6 +12449,19 @@
         "timestamp": "2025-09-11T21:15:29.299756+00:00",
         "title": "Pilotos afastam responsabilidade por eventual insucesso da privatização da Azores Airlines",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499517, Requested 1059. Please try again in 1m39.5306s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://odigital.sapo.pt/esta-confirmada-a-abertura-da-segunda-loja-mercadona-no-alentejo-em-2026-em-beja/": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T21:28:11.155000+00:00",
+        "title": "Está confirmada a abertura da segunda loja Mercadona no Alentejo em 2026, em Beja",
+        "confidence": "exact"
+    },
+    "/artigo/rui-moreira-nao-sera-a-presidencia-da-republica-nao-houve-um-grande-entusiamo-68c33cb7d4671fc1d65fc9cb": {
+        "category": null,
+        "timestamp": "2025-09-11T21:28:29.317346+00:00",
+        "title": "Rui Moreira não será à Presidência da República: \"Não houve um grande entusiamo\"",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499813, Requested 1059. Please try again in 2m30.611599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     }
 }
