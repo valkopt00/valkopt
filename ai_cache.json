@@ -9481,7 +9481,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T21:50:34.460276+00:00",
+        "timestamp": "2025-09-11T22:15:39.115397+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12474,5 +12474,82 @@
         "timestamp": "2025-09-11T21:38:58.426618+00:00",
         "title": "Irão diz que existe material nuclear debaixo das instalações destruídas por Israel",
         "confidence": "exact"
+    },
+    "/artigo/ventura-admite-lapso-com-hamburgueres-mas-volta-a-confundir-viagens-de-marcelo-68c302f0d2b5f22c4b91b44c": {
+        "category": "Política",
+        "timestamp": "2025-09-11T22:15:38.580832+00:00",
+        "title": "Ventura admite lapso com hambúrgueres, mas volta a confundir viagens de Marcelo",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/semanario/primeiro/em-destaque/2025-09-11-tap.-cateringpor-faz-despedimento-coletivo-22f57a0b": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T22:15:40.052383+00:00",
+        "title": "TAP. Cateringpor faz despedimento coletivo",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/semanario/primeiro/em-destaque/2025-09-11-dona-do-novo-banco-protagoniza-primeira-emissao-de-obrigacoes-da-defesa-na-euronext-dfd85e84": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T22:15:45.644527+00:00",
+        "title": "Dona do Novo Banco protagoniza primeira emissão de obrigações da Defesa na Euronext",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/semanario/primeiro/em-destaque/2025-09-11-futebol.-slb-com-melhor-resultado-em-cinco-anos-10dbd515": {
+        "category": "Desporto",
+        "timestamp": "2025-09-11T22:15:46.217670+00:00",
+        "title": "Futebol. SLB com melhor resultado em cinco anos",
+        "confidence": "exact"
+    },
+    "https://magg.sapo.pt/magg-lab/artigos/barbie-the-fashion-collection": {
+        "category": "Lifestyle",
+        "timestamp": "2025-09-11T22:15:49.695752+00:00",
+        "title": "Uma coleção que desfila pela história da moda, com peças icónicas recriadas em detalhe",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/semanario/ideias": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T22:16:01.358877+00:00",
+        "title": "IDEIAS: Ninguém sabe de que terra é",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-09-11-o-artigo-a-seguir-e-o-elefante-em-franca-61f2f1b7": {
+        "category": null,
+        "timestamp": "2025-09-11T22:16:13.128642+00:00",
+        "title": "O artigo a seguir e o elefante em França",
+        "raw_response": "Outras Notícias",
+        "confidence": "failed"
+    },
+    "https://expresso.pt/semanario/primeiro/em-destaque/2025-09-11-joao-almeida-a-40-segundos-da-lideranca-da-vuelta-8b71da7a": {
+        "category": "Desporto",
+        "timestamp": "2025-09-11T22:16:24.723135+00:00",
+        "title": "João Almeida a 40 segundos da liderança da Vuelta",
+        "confidence": "exact"
+    },
+    "/artigo/eleitores-querem-mais-do-poder-local-68c346570e9d7127e2c3517f": {
+        "category": null,
+        "timestamp": "2025-09-11T22:16:26.384684+00:00",
+        "title": "Eleitores querem mais do poder local",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499798, Requested 1035. Please try again in 2m23.8536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://odigital.sapo.pt/caminhada-noturna-abre-festas-dos-capuchos-com-meio-milhar-de-pessoas-nao-ha-melhor-forma-de-comecar-c-fotos/": {
+        "category": null,
+        "timestamp": "2025-09-11T22:16:29.822077+00:00",
+        "title": "Caminhada noturna abre Festas dos Capuchos em Vila Viçosa com meio milhar de pessoas: «Não há melhor...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499778, Requested 1078. Please try again in 2m27.833s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/andre-ventura-devera-ser-candidato-a-belem-68c343890e9d7127e2c2fb7d": {
+        "category": null,
+        "timestamp": "2025-09-11T22:16:29.935642+00:00",
+        "title": "André Ventura deverá ser candidato a Belém",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499777, Requested 1040. Please try again in 2m21.1516s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://eco.sapo.pt/2025/09/11/rui-moreira-fora-da-corrida-a-belem/": {
+        "category": null,
+        "timestamp": "2025-09-11T22:16:33.778749+00:00",
+        "title": "Rui Moreira fora da corrida a Belém",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499755, Requested 1038. Please try again in 2m16.960999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
     }
 }
