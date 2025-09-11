@@ -9493,7 +9493,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T17:50:36.988384+00:00",
+        "timestamp": "2025-09-11T18:20:10.763456+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -11993,16 +11993,16 @@
     },
     "/artigo/politicas-de-combate-a-lavagem-de-dinheiro-encontram-travao-na-suica-em-nome-da-competitividade-68c30783d2b5f22c4b925d91": {
         "category": null,
-        "timestamp": "2025-09-11T17:50:46.877346+00:00",
+        "timestamp": "2025-09-11T18:20:50.372277+00:00",
         "title": "Políticas de combate à lavagem de dinheiro encontram travão na Suíça em nome da competitividade",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500092, Requested 1068. Please try again in 3m20.4686s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499385, Requested 1068. Please try again in 1m18.208s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "/artigo/como-e-que-a-inteligencia-artificial-tornou-larry-ellison-o-homem-mais-rico-do-mundo-68c307828497fe9ef62f0675": {
         "category": null,
-        "timestamp": "2025-09-11T17:50:46.973311+00:00",
+        "timestamp": "2025-09-11T18:20:50.471004+00:00",
         "title": "Como é que a inteligência artificial tornou Larry Ellison o homem mais rico do mundo?",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500091, Requested 1062. Please try again in 3m19.320799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499385, Requested 1062. Please try again in 1m17.0752s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://maisbeiras.sapo.pt/mercado-of-sports-academico-de-viseu-futebol-clube-o-plantel-sub-23-conta-com-a-presenca-de-tres-novos-reforcos": {
@@ -12047,16 +12047,93 @@
     },
     "https://eco.sapo.pt/2025/09/11/albania-anuncia-ministra-desenvolvida-por-inteligencia-artificial/": {
         "category": null,
-        "timestamp": "2025-09-11T17:50:45.435445+00:00",
+        "timestamp": "2025-09-11T18:20:49.224782+00:00",
         "title": "Albânia anuncia ministra desenvolvida por inteligência artificial",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500100, Requested 1052. Please try again in 3m19.1348s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499392, Requested 1052. Please try again in 1m16.5932s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://sustentix.sapo.pt/treze-associacoes-juntam-se-para-exigir-fim-imediato-dos-voos-noturnos-em-lisboa/": {
         "category": null,
-        "timestamp": "2025-09-11T17:50:46.767725+00:00",
+        "timestamp": "2025-09-11T18:20:50.267556+00:00",
         "title": "Treze associações juntam-se para exigir fim imediato dos voos noturnos em Lisboa",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500092, Requested 1059. Please try again in 3m19.0074s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499386, Requested 1059. Please try again in 1m16.7598s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://sapo.pt/artigo/novo-primeiro-ministro-frances-sebastien-lecornu-promete-rutura-profunda-com-a-politica-do-passado-68c30064e182fd564351c259": {
+        "category": "Mundo",
+        "timestamp": "2025-09-11T18:20:09.070730+00:00",
+        "title": "Novo primeiro-ministro francês, Sébastien Lecornu, promete “rutura profunda” com a política do passa...",
+        "confidence": "exact"
+    },
+    "https://radiosines.sapo.pt/noticias/colisao-provoca-tres-feridos-na-en-120-1-no-concelho-de-sines": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T18:20:18.562601+00:00",
+        "title": "Colisão provoca três feridos na EN 120-1 no concelho de Sines",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/11/supervisor-vai-aumentar-taxas-sobre-os-seguros-de-vida-e-fundos-de-pensoes/": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T18:20:19.277681+00:00",
+        "title": "Supervisor vai aumentar taxas sobre os seguros de Vida e fundos de pensões",
+        "confidence": "exact"
+    },
+    "https://www.dnoticias.pt/2025/9/11/462472-marcelo-lembra-11-de-setembro-e-defende-multilateralismo/": {
+        "category": "Política",
+        "timestamp": "2025-09-11T18:20:20.022320+00:00",
+        "title": "Marcelo lembra 11 de Setembro e defende multilateralismo",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/11/igf-diz-ter-alguma-magoa-por-estar-fora-de-suplementos-remuneratorios-das-financas/": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T18:20:20.782052+00:00",
+        "title": "IGF diz ter “alguma mágoa” por estar fora de suplementos remuneratórios das Finanças",
+        "confidence": "exact"
+    },
+    "https://www.dnoticias.pt/2025/9/11/462471-jpp-quer-usar-terrenos-municipais-predios-devolutos-e-patrimonio-publico-para-habitacao/": {
+        "category": "Política",
+        "timestamp": "2025-09-11T18:20:34.148415+00:00",
+        "title": "JPP quer usar terrenos municipais, prédios devolutos e património público para habitação",
+        "confidence": "exact"
+    },
+    "https://odigital.sapo.pt/motociclistas-vao-plantar-arvores-no-les-a-les-off-road-2025/": {
+        "category": "Desporto",
+        "timestamp": "2025-09-11T18:20:45.635717+00:00",
+        "title": "Motociclistas vão plantar árvores no Lés-a-Lés Off-Road 2025",
+        "confidence": "exact"
+    },
+    "/artigo/fbi-oferece-recompensa-de-100-mil-dolares-por-informacoes-sobre-assassinato-de-charlie-kirk-68c30c120e9d7127e2bacaa9": {
+        "category": null,
+        "timestamp": "2025-09-11T18:20:45.747684+00:00",
+        "title": "FBI oferece recompensa de 100 mil dólares por informações sobre assassinato de Charlie Kirk",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499412, Requested 1066. Please try again in 1m22.4884s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://eco.sapo.pt/2025/09/11/cgtp-exige-salario-minimo-de-1-050-euros-em-2026/": {
+        "category": null,
+        "timestamp": "2025-09-11T18:20:46.054196+00:00",
+        "title": "CGTP exige salário mínimo de 1.050 euros em 2026",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499410, Requested 1037. Please try again in 1m17.1712s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://jornaldoave.sapo.pt/edicao-papel-no308-do-jornal-do-ave/": {
+        "category": null,
+        "timestamp": "2025-09-11T18:20:47.294827+00:00",
+        "title": "Edição papel nº308 do Jornal do Ave",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499403, Requested 1037. Please try again in 1m15.9322s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://beiraaltatv.sapo.pt/nova-sede-da-protecao-civil-na-guarda-pronta-ate-dezembro-vai-acolher-cerca-de-20-colaboradores/": {
+        "category": null,
+        "timestamp": "2025-09-11T18:20:48.283395+00:00",
+        "title": "Nova sede da Proteção Civil na Guarda pronta até dezembro vai acolher cerca de 20 colaboradores",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499397, Requested 1066. Please try again in 1m19.9524s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://hrportugal.sapo.pt/genero-personalidade-superacao-de-lideradas-a-lideres-parte-ii/": {
+        "category": null,
+        "timestamp": "2025-09-11T18:20:49.003329+00:00",
+        "title": "Género, Personalidade, Superação – de lideradas a líderes (parte II)",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499393, Requested 1020. Please try again in 1m11.285599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     }
 }
