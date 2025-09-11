@@ -9481,7 +9481,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T20:37:22.926600+00:00",
+        "timestamp": "2025-09-11T20:50:34.799985+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12354,11 +12354,10 @@
         "confidence": "exact"
     },
     "/artigo/lisboa-esta-um-caos-muito-pior-em-qualidade-de-vida-alem-da-crise-do-elevador-da-gloria-e-sobre-isto-que-os-eleitores-devem-meditar-68c326f4d4671fc1d65c54c1": {
-        "category": null,
-        "timestamp": "2025-09-11T20:37:47.128769+00:00",
+        "category": "Política",
+        "timestamp": "2025-09-11T20:50:49.013986+00:00",
         "title": "“Lisboa está um caos, muito pior em qualidade de vida”: além da crise do Elevador da Glória, é sobre...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499276, Requested 1091. Please try again in 1m3.347599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
+        "confidence": "exact"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2025-09-11-moreira-fora-da-corrida-a-belem-462f5a15": {
         "category": "Política",
@@ -12376,6 +12375,12 @@
         "category": "Desporto",
         "timestamp": "2025-09-11T20:37:41.188993+00:00",
         "title": "Município de Paredes aprova voto de louvor para campeões da Europa de hóquei em patins",
+        "confidence": "exact"
+    },
+    "/artigo/rui-moreira-nao-sera-candidato-a-presidente-da-republica-68c332a2d4671fc1d65d944a": {
+        "category": "Política",
+        "timestamp": "2025-09-11T20:50:42.931957+00:00",
+        "title": "Rui Moreira não será candidato a Presidente da República",
         "confidence": "exact"
     }
 }
