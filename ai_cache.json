@@ -9481,7 +9481,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T22:15:39.115397+00:00",
+        "timestamp": "2025-09-11T22:38:12.765553+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12513,7 +12513,7 @@
     },
     "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-09-11-o-artigo-a-seguir-e-o-elefante-em-franca-61f2f1b7": {
         "category": null,
-        "timestamp": "2025-09-11T22:16:13.128642+00:00",
+        "timestamp": "2025-09-11T22:38:20.944594+00:00",
         "title": "O artigo a seguir e o elefante em França",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12533,16 +12533,16 @@
     },
     "https://odigital.sapo.pt/caminhada-noturna-abre-festas-dos-capuchos-com-meio-milhar-de-pessoas-nao-ha-melhor-forma-de-comecar-c-fotos/": {
         "category": null,
-        "timestamp": "2025-09-11T22:16:29.822077+00:00",
+        "timestamp": "2025-09-11T22:38:31.929099+00:00",
         "title": "Caminhada noturna abre Festas dos Capuchos em Vila Viçosa com meio milhar de pessoas: «Não há melhor...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499778, Requested 1078. Please try again in 2m27.833s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499385, Requested 1078. Please try again in 1m19.8952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "/artigo/andre-ventura-devera-ser-candidato-a-belem-68c343890e9d7127e2c2fb7d": {
         "category": null,
-        "timestamp": "2025-09-11T22:16:29.935642+00:00",
+        "timestamp": "2025-09-11T22:38:32.010180+00:00",
         "title": "André Ventura deverá ser candidato a Belém",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499777, Requested 1040. Please try again in 2m21.1516s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499384, Requested 1040. Please try again in 1m13.245799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://eco.sapo.pt/2025/09/11/rui-moreira-fora-da-corrida-a-belem/": {
@@ -12551,5 +12551,29 @@
         "title": "Rui Moreira fora da corrida a Belém",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499755, Requested 1038. Please try again in 2m16.960999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
+    },
+    "https://sapo.pt/artigo/eleitores-querem-mais-do-poder-local-68c346570e9d7127e2c3517f": {
+        "category": "Política",
+        "timestamp": "2025-09-11T22:38:08.231044+00:00",
+        "title": "Eleitores querem mais do poder local",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/hora-da-verdade/2025/09/11/jose-luis-carneiro-candidatos-com-acordos-com-o-chega-perderao-a-confianca-politica-do-ps/439525/?utm_medium=rss": {
+        "category": "Política",
+        "timestamp": "2025-09-11T22:38:09.531097+00:00",
+        "title": "José Luís Carneiro: \"Candidatos com acordos com o Chega perderão a confiança política do PS\"",
+        "confidence": "exact"
+    },
+    "/artigo/menor-detido-por-pornografia-infantil-e-abuso-sexual-de-criancas-em-flagrante-delito-68c34bd18497fe9ef637f225": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T22:38:26.630224+00:00",
+        "title": "Menor detido por pornografia infantil e abuso sexual de crianças em flagrante delito",
+        "confidence": "exact"
+    },
+    "https://www.dnoticias.pt/2025/9/11/462493-ministro-polaco-diz-que-trump-precisa-de-compreender-que-putin-esta-a-gozar-com-ele/": {
+        "category": "Mundo",
+        "timestamp": "2025-09-11T22:38:28.186894+00:00",
+        "title": "Ministro polaco diz que Trump precisa de compreender que Putin está a gozar com ele",
+        "confidence": "exact"
     }
 }
