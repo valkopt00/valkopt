@@ -7889,7 +7889,7 @@
     },
     "/artigo/no-slug-68c17367a5e00d94cd285464": {
         "category": null,
-        "timestamp": "2025-09-11T05:39:25.612980+00:00",
+        "timestamp": "2025-09-11T05:50:30.836066+00:00",
         "title": "A pequena percentagem",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -9378,7 +9378,7 @@
     },
     "/artigo/a-candidata-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T05:39:38.558179+00:00",
+        "timestamp": "2025-09-11T05:50:43.681771+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -9447,6 +9447,12 @@
         "category": "Nacional",
         "timestamp": "2025-09-11T05:39:34.483176+00:00",
         "title": "Metro de Lisboa volta à greve parcial",
+        "confidence": "exact"
+    },
+    "https://sustentix.sapo.pt/libelulas-sobreviveram-a-asteroides-mas-podem-nao-resistir-as-alteracoes-climaticas-e-incendios-florestais/": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-11T05:50:37.563114+00:00",
+        "title": "Libélulas sobreviveram a asteroides — mas podem não resistir às alterações climáticas e incêndios fl...",
         "confidence": "exact"
     }
 }
