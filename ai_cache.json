@@ -9481,7 +9481,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T22:50:21.367315+00:00",
+        "timestamp": "2025-09-11T23:15:47.577215+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12513,7 +12513,7 @@
     },
     "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-09-11-o-artigo-a-seguir-e-o-elefante-em-franca-61f2f1b7": {
         "category": null,
-        "timestamp": "2025-09-11T22:50:28.170319+00:00",
+        "timestamp": "2025-09-11T23:15:55.097897+00:00",
         "title": "O artigo a seguir e o elefante em França",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12580,5 +12580,56 @@
         "timestamp": "2025-09-11T22:50:18.429791+00:00",
         "title": "\"Portugal não pode negar o alargamento. O que pode é precaver-se\"",
         "confidence": "exact"
+    },
+    "/artigo/em-angola-perdi-uma-irma-quando-a-minha-mae-comecou-a-trabalhar-ca-um-senhor-disse-lhe-estive-com-a-sua-maria-jose-era-ela-estava-em-pedras-salgadas-68c282a8ce664a0185a10a51": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T23:15:46.450007+00:00",
+        "title": "“Em Angola, perdi uma irmã. Quando a minha mãe veio, um senhor disse-lhe: ‘Estive com a sua Maria Jo...",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/12/cascais-campea-de-alunos-no-privado-e-castro-verde-nos-salarios-pais-a-lupa-em-novo-estudo/": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T23:16:01.906365+00:00",
+        "title": "Cascais campeã de alunos no privado e Castro Verde nos salários. País à lupa em novo estudo",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/eleicoes-autarquicas-que-pais-vai-dentro-de-um-mes-a-votos-conheca-portugal-em-sete-campos-fundamentais/": {
+        "category": "Nacional",
+        "timestamp": "2025-09-11T23:16:03.935732+00:00",
+        "title": "Eleições autárquicas: que país vai dentro de um mês a votos? Conheça Portugal em sete campos fundame...",
+        "confidence": "exact"
+    },
+    "/artigo/eua-ameacam-retaliar-apos-condenacao-de-jair-bolsonaro-que-classificam-como-caca-as-bruxas-68c3550c0e9d7127e2c57c65": {
+        "category": "Mundo",
+        "timestamp": "2025-09-11T23:16:04.432215+00:00",
+        "title": "EUA ameaçam retaliar após condenação de Jair Bolsonaro, que classificam como “caça às bruxas”",
+        "confidence": "exact"
+    },
+    "/artigo/ucrania-principais-batalhas-na-linha-da-frente-ocorrem-em-pokrovsk-68c3548ed4671fc1d66325bb": {
+        "category": "Mundo",
+        "timestamp": "2025-09-11T23:16:13.784745+00:00",
+        "title": "Ucrânia? Principais batalhas na linha da frente ocorrem em Pokrovsk",
+        "confidence": "exact"
+    },
+    "/artigo/academia-naval-dos-eua-encerrada-apos-ameaca-68c3542ed2b5f22c4b9c5201": {
+        "category": null,
+        "timestamp": "2025-09-11T23:16:13.850313+00:00",
+        "title": "Academia Naval dos EUA encerrada após ameaça",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499702, Requested 1041. Please try again in 2m8.3244s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://www.dnoticias.pt/2025/9/11/462501-trump-insatisfeito-com-intrusao-de-drones-na-polonia-e-admite-erro-da-russia/": {
+        "category": null,
+        "timestamp": "2025-09-11T23:16:14.441666+00:00",
+        "title": "Trump insatisfeito com intrusão de 'drones' na Polónia e admite \"erro\" da Rússia",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499699, Requested 1062. Please try again in 2m11.3682s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://www.dnoticias.pt/2025/9/11/462500-supremo-tribunal-federal-do-brasil-condena-bolsonaro-a-27-anos-e-3-meses-de-prisao/": {
+        "category": null,
+        "timestamp": "2025-09-11T23:16:14.885231+00:00",
+        "title": "Supremo Tribunal Federal do Brasil condena Bolsonaro a 27 anos e 3 meses de prisão",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499696, Requested 1048. Please try again in 2m8.5s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
     }
 }
