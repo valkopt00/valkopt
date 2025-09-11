@@ -9493,7 +9493,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T13:13:26.167949+00:00",
+        "timestamp": "2025-09-11T13:34:08.199329+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -11028,5 +11028,79 @@
         "timestamp": "2025-09-11T13:15:40.336134+00:00",
         "title": "PS apresenta mais mulheres candidatas do que PSD e MAI às Juntas de Freguesia",
         "confidence": "exact"
+    },
+    "/artigo/irlanda-ameaca-abandonar-eurovisao-se-israel-participar-em-2026-68c2c8bb1cbddc8f9d2185a3": {
+        "category": "Mundo",
+        "timestamp": "2025-09-11T13:34:03.686505+00:00",
+        "title": "Irlanda ameaça abandonar Eurovisão se Israel participar em 2026",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/watch-party/2025/09/11/diogo-morgado-conta-como-o-cinema-e-o-seu-lugar-dos-sonhos/439451/?utm_medium=rss": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T13:34:05.262994+00:00",
+        "title": "Diogo Morgado conta como o cinema é o seu \"Lugar dos Sonhos\"",
+        "confidence": "exact"
+    },
+    "https://jornaldoave.sapo.pt/concerto-ao-nascer-do-sol-abre-fim-de-semana-do-festival-cidnay-vale-do-ave/": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T13:34:18.682621+00:00",
+        "title": "Concerto ao nascer do sol abre fim de semana do Festival Cidnay Vale do Ave",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/regresso-as-aulas-estes-sao-os-direitos-que-os-pais-precisam-conhecer/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T13:34:20.236538+00:00",
+        "title": "Regresso às aulas: estes são os direitos que os pais precisam conhecer",
+        "confidence": "exact"
+    },
+    "https://sol.sapo.pt/2025/09/11/camara-cria-equipa-especial-para-estudar-sistema-tecnologico-do-futuro-elevador-da-gloria/": {
+        "category": "Política",
+        "timestamp": "2025-09-11T13:34:22.599965+00:00",
+        "title": "Câmara cria equipa especial para estudar sistema tecnológico do futuro elevador da Glória",
+        "confidence": "exact"
+    },
+    "/artigo/ministerio-publico-alerta-para-burla-com-recurso-ao-cartao-continente-68c2cc3349aff0fd306d211a": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T13:34:27.216578+00:00",
+        "title": "Ministério Público alerta para burla com recurso ao Cartão Continente",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/?p=670160": {
+        "category": "Nacional",
+        "timestamp": "2025-09-11T13:34:39.996618+00:00",
+        "title": "Montenegro diz que imagem de Portugal “melhorou muito nos últimos anos”",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/sonae-arauco-investe-8-me-na-reciclagem-de-paineis-mdf-em-mangualde/": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T13:34:52.180158+00:00",
+        "title": "Sonae Arauco investe 8 M€ na reciclagem de painéis MDF em Mangualde",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/bei-vai-financiar-empresas-com-17-500-me-para-apoios-a-eficiencia-energetica/": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T13:35:04.352659+00:00",
+        "title": "BEI vai financiar empresas com 17.500 M€ para apoios à eficiência energética",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/acidente-elevador-camara-de-lisboa-constituiu-equipa-de-missao-para-estudar-novo-sistema-tecnologico/": {
+        "category": null,
+        "timestamp": "2025-09-11T13:35:04.831878+00:00",
+        "title": "Acidente/Elevador: Câmara de Lisboa constituiu equipa de missão para estudar novo sistema tecnológic...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499284, Requested 1071. Please try again in 1m1.202599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://radioaltoave.sapo.pt/filipe-de-oliveira-apresenta-programa-eleitoral-em-vieira-do-minho-com-presenca-de-jose-luis-carneiro/": {
+        "category": "Política",
+        "timestamp": "2025-09-11T13:36:08.845120+00:00",
+        "title": "Filipe de Oliveira apresenta Programa Eleitoral em Vieira do Minho com presença de José Luís Carneir...",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/11/loreal-abre-32-vagas-para-estagios-candidaturas-ate-2-de-novembro/": {
+        "category": null,
+        "timestamp": "2025-09-11T13:36:09.401602+00:00",
+        "title": "L’Oréal abre 32 vagas para estágios. Candidaturas até 2 de novembro",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500139, Requested 1055. Please try again in 3m26.458399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
     }
 }
