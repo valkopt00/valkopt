@@ -9493,7 +9493,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T17:40:12.183198+00:00",
+        "timestamp": "2025-09-11T17:50:36.988384+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -11932,37 +11932,37 @@
     },
     "https://www.dnoticias.pt/2025/9/11/462469-queimada-nao-autorizada-mobilizou-bombeiros-do-funchal/": {
         "category": null,
-        "timestamp": "2025-09-11T17:40:27.373214+00:00",
+        "timestamp": "2025-09-11T17:50:55.538230+00:00",
         "title": "Queimada não autorizada mobilizou bombeiros do Funchal",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500060, Requested 1038. Please try again in 3m9.747799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500041, Requested 1038. Please try again in 3m6.6076s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://valsousatv.sapo.pt/2025/09/11/castelo-de-paiva-recebe-o-vira-fest-encontro-de-projetos-de-educacao-musical/": {
         "category": null,
-        "timestamp": "2025-09-11T17:40:33.132070+00:00",
+        "timestamp": "2025-09-11T17:50:57.213338+00:00",
         "title": "Castelo de Paiva recebe o Vira Fest – Encontro de Projetos de Educação Musical",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500026, Requested 1061. Please try again in 3m7.9622s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500032, Requested 1061. Please try again in 3m8.909s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://eco.sapo.pt/2025/09/11/24-jovens-comecam-estagio-de-12-meses-na-meo/": {
         "category": null,
-        "timestamp": "2025-09-11T17:40:33.346209+00:00",
+        "timestamp": "2025-09-11T17:50:57.558371+00:00",
         "title": "24 jovens começam estágio de 12 meses na Meo",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500025, Requested 1043. Please try again in 3m4.6388s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500030, Requested 1043. Please try again in 3m5.4516s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://maisbeiras.sapo.pt/final-do-campeonato-do-mundo-de-motonautica-f2-volta-a-disputar-se-em-vila-velha-de-rodao": {
         "category": null,
-        "timestamp": "2025-09-11T17:40:35.395430+00:00",
+        "timestamp": "2025-09-11T17:50:59.870188+00:00",
         "title": "Final do Campeonato do Mundo de Motonáutica F2 volta a disputar-se em Vila Velha de Ródão",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500013, Requested 1063. Please try again in 3m6.0448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500016, Requested 1063. Please try again in 3m6.5976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://correiodeazemeis.sapo.pt/noticias/ps-lanca-jornal-de-campanha-por-todos": {
         "category": null,
-        "timestamp": "2025-09-11T17:40:36.866820+00:00",
+        "timestamp": "2025-09-11T17:51:01.588679+00:00",
         "title": "PS lança jornal de campanha “Por Todos”",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500005, Requested 1036. Please try again in 2m59.913199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500006, Requested 1036. Please try again in 3m0.213s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://greensavers.sapo.pt/sovena-reforca-aposta-na-descarbonizacao-com-novas-instalacoes-fotovoltaicas/": {
@@ -11993,44 +11993,70 @@
     },
     "/artigo/politicas-de-combate-a-lavagem-de-dinheiro-encontram-travao-na-suica-em-nome-da-competitividade-68c30783d2b5f22c4b925d91": {
         "category": null,
-        "timestamp": "2025-09-11T17:40:20.295093+00:00",
+        "timestamp": "2025-09-11T17:50:46.877346+00:00",
         "title": "Políticas de combate à lavagem de dinheiro encontram travão na Suíça em nome da competitividade",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500101, Requested 1068. Please try again in 3m22.0128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500092, Requested 1068. Please try again in 3m20.4686s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "/artigo/como-e-que-a-inteligencia-artificial-tornou-larry-ellison-o-homem-mais-rico-do-mundo-68c307828497fe9ef62f0675": {
         "category": null,
-        "timestamp": "2025-09-11T17:40:20.371798+00:00",
+        "timestamp": "2025-09-11T17:50:46.973311+00:00",
         "title": "Como é que a inteligência artificial tornou Larry Ellison o homem mais rico do mundo?",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500100, Requested 1062. Please try again in 3m20.895s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500091, Requested 1062. Please try again in 3m19.320799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://maisbeiras.sapo.pt/mercado-of-sports-academico-de-viseu-futebol-clube-o-plantel-sub-23-conta-com-a-presenca-de-tres-novos-reforcos": {
         "category": null,
-        "timestamp": "2025-09-11T17:40:22.482072+00:00",
+        "timestamp": "2025-09-11T17:50:50.382980+00:00",
         "title": "Mercado of Sport’s: Académico de Viseu Futebol Clube – O plantel sub-23 conta com a presença de três...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500088, Requested 1075. Please try again in 3m21.0334s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500071, Requested 1075. Please try again in 3m18.162199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://www.dnoticias.pt/2025/9/11/462470-acidente-na-via-rapida-congestiona-transito/": {
         "category": null,
-        "timestamp": "2025-09-11T17:40:22.969921+00:00",
+        "timestamp": "2025-09-11T17:50:51.321202+00:00",
         "title": "Acidente na via rápida congestiona trânsito",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500085, Requested 1033. Please try again in 3m13.2848s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500066, Requested 1033. Please try again in 3m9.961599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://pmemagazine.sapo.pt/leadership-summit-portugal-traz-novas-regras-para-politica-ia-e-humanidade/": {
         "category": null,
-        "timestamp": "2025-09-11T17:40:25.967848+00:00",
+        "timestamp": "2025-09-11T17:50:54.346955+00:00",
         "title": "Leadership Summit Portugal traz novas regras para política, IA e humanidade",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500068, Requested 1050. Please try again in 3m13.2584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500048, Requested 1050. Please try again in 3m9.8742s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "/artigo/marco-rodrigues-tenho-4-filhos-e-grande-parte-da-minha-playlist-e-musica-do-spiderman-do-capitao-america-depois-o-outro-quer-o-hulk-68c307830e9d7127e2ba298f": {
         "category": null,
-        "timestamp": "2025-09-11T17:40:26.289062+00:00",
+        "timestamp": "2025-09-11T17:50:54.783450+00:00",
         "title": "Marco Rodrigues: “Tenho 4 filhos e grande parte da minha playlist é música do Spiderman, do Capitão ...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500066, Requested 1088. Please try again in 3m19.471799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500046, Requested 1088. Please try again in 3m16.0026s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/semanario/primeiro/em-destaque/2025-09-11-trocar-fogao-a-gas-por-placa-eletrica-so-compensa-com-subsidio-do-e-lar-6393c216": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T17:50:13.859569+00:00",
+        "title": "Trocar fogão a gás por placa elétrica só compensa com subsídio do E-Lar",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/explicador-renascenca/2025/09/11/onde-se-vive-mais-na-uniao-europeia-mulheres-vivem-mais-anos-que-homens/439488/?utm_medium=rss": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-11T17:50:19.331267+00:00",
+        "title": "Onde se vive mais na União Europeia? Mulheres vivem mais anos que homens?",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/11/albania-anuncia-ministra-desenvolvida-por-inteligencia-artificial/": {
+        "category": null,
+        "timestamp": "2025-09-11T17:50:45.435445+00:00",
+        "title": "Albânia anuncia ministra desenvolvida por inteligência artificial",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500100, Requested 1052. Please try again in 3m19.1348s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://sustentix.sapo.pt/treze-associacoes-juntam-se-para-exigir-fim-imediato-dos-voos-noturnos-em-lisboa/": {
+        "category": null,
+        "timestamp": "2025-09-11T17:50:46.767725+00:00",
+        "title": "Treze associações juntam-se para exigir fim imediato dos voos noturnos em Lisboa",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500092, Requested 1059. Please try again in 3m19.0074s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     }
 }
