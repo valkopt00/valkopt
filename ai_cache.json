@@ -9493,7 +9493,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T16:51:31.266962+00:00",
+        "timestamp": "2025-09-11T17:14:00.924827+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -11807,11 +11807,10 @@
         "confidence": "exact"
     },
     "https://sapo.pt/artigo/mundiais-atletismo-o-calendario-e-o-horario-dos-portugueses-no-japao-68c2fcecd4671fc1d6569d44": {
-        "category": null,
-        "timestamp": "2025-09-11T16:51:39.423934+00:00",
+        "category": "Desporto",
+        "timestamp": "2025-09-11T17:14:08.887797+00:00",
         "title": "Mundiais Atletismo: o calendário e o horário dos portugueses no Japão",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500139, Requested 1059. Please try again in 3m27.177399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
+        "confidence": "exact"
     },
     "https://www.dnoticias.pt/2025/9/11/462463-presidente-da-republica-portuguesa-condecorou-apavt/": {
         "category": null,
@@ -11832,6 +11831,79 @@
         "timestamp": "2025-09-11T16:51:49.315802+00:00",
         "title": "Governo aprova Contratos-Programa no valor total de 70 mil euros",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500071, Requested 1053. Please try again in 3m14.3628s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://correiodeazemeis.sapo.pt/noticias/socialistas-querem-o-tri-em-fajoes": {
+        "category": "Política",
+        "timestamp": "2025-09-11T17:14:12.980338+00:00",
+        "title": "Socialistas querem o ‘tri’ em Fajões",
+        "confidence": "exact"
+    },
+    "/artigo/novo-primeiro-ministro-frances-sebastien-lecornu-promete-rutura-profunda-com-a-politica-do-passado-68c30064e182fd564351c259": {
+        "category": "Mundo",
+        "timestamp": "2025-09-11T17:14:13.562295+00:00",
+        "title": "Novo primeiro-ministro francês, Sébastien Lecornu, promete “rutura profunda” com a política do passa...",
+        "confidence": "exact"
+    },
+    "https://odigital.sapo.pt/funcionarios-da-universidade-de-evora-contra-regime-juridico-reunem-se-com-partidos/": {
+        "category": "Política",
+        "timestamp": "2025-09-11T17:14:16.606234+00:00",
+        "title": "Funcionários da Universidade de Évora contra regime jurídico reúnem-se com partidos",
+        "confidence": "exact"
+    },
+    "https://radiosines.sapo.pt/noticias/mostra-de-artes-de-rua-comeca-hoje-e-decorre-ate-domingo-em-sines": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T17:14:18.346244+00:00",
+        "title": "Mostra de Artes de Rua começa hoje e decorre até domingo em Sines",
+        "confidence": "exact"
+    },
+    "https://correiodeazemeis.sapo.pt/noticias/tudo-farei-para-melhorar-a-vida-das-nossas-gentes": {
+        "category": null,
+        "timestamp": "2025-09-11T17:14:19.329941+00:00",
+        "title": "“Tudo farei para melhorar a vida das nossas gentes”",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499523, Requested 1048. Please try again in 1m38.5478s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://www.dnoticias.pt/2025/9/11/462467-alunos-da-madeira-levam-inovacao-social-a-final-nacional-do-apps-for-good/": {
+        "category": null,
+        "timestamp": "2025-09-11T17:14:19.843728+00:00",
+        "title": "Alunos da Madeira levam inovação social à final nacional do Apps for Good",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499520, Requested 1059. Please try again in 1m39.9336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/de-por-dentro-do-chega-a-manda-msg-qd-chegares-os-lancamentos-da-penguin-random-house-para-o-final-de-2025-68c2ffe60e9d7127e2b9198c": {
+        "category": null,
+        "timestamp": "2025-09-11T17:14:19.925553+00:00",
+        "title": "De “Por dentro do Chega” a “Manda msg qd chegares”: Os lançamentos da Penguin Random House para o fi...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499519, Requested 1075. Please try again in 1m42.6174s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://noticiasdosorraia.sapo.pt/alunos-de-santarem-finalistas-da-11a-edicao-do-apps-for-good-com-duas-aplicacoes-inovadoras/": {
+        "category": null,
+        "timestamp": "2025-09-11T17:14:21.365465+00:00",
+        "title": "Alunos de Santarém finalistas da 11ª edição do Apps for Good com duas aplicações inovadoras",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499511, Requested 1066. Please try again in 1m39.6352s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://eco.sapo.pt/2025/09/11/martifer-convoca-ag-extraordinaria-para-aprovar-distribuicao-de-quatro-milhoes-de-reservas-antes-da-opa/": {
+        "category": null,
+        "timestamp": "2025-09-11T17:14:21.819719+00:00",
+        "title": "Martifer convoca AG extraordinária para aprovar distribuição de quatro milhões de reservas antes da ...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499508, Requested 1071. Please try again in 1m40.0342s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://diariodistrito.sapo.pt/jovens-agridem-homem-com-brutalidade-por-causa-de-um-cigarro-em-beja/": {
+        "category": null,
+        "timestamp": "2025-09-11T17:14:23.842141+00:00",
+        "title": "Jovens agridem homem com brutalidade por causa de um cigarro em Beja",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499497, Requested 1031. Please try again in 1m31.1032s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://www.dnoticias.pt/2025/9/11/462466-curso-efa-do-imaculado-afirma-se-como-uma-referencia/": {
+        "category": null,
+        "timestamp": "2025-09-11T17:14:24.561805+00:00",
+        "title": "Curso EFA do Imaculado afirma-se como uma referência",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499493, Requested 1049. Please try again in 1m33.4886s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     }
 }
