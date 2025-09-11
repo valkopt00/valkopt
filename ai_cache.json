@@ -9493,7 +9493,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T16:41:30.633285+00:00",
+        "timestamp": "2025-09-11T16:51:31.266962+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -11775,23 +11775,63 @@
     },
     "https://hrportugal.sapo.pt/quer-optimizar-os-custos-na-sua-empesa-sem-comprometer-a-inovacao-siga-estas-estrategias/": {
         "category": null,
-        "timestamp": "2025-09-11T16:41:47.511382+00:00",
+        "timestamp": "2025-09-11T16:51:44.691759+00:00",
         "title": "Quer optimizar os custos na sua empesa sem comprometer a inovação? Siga estas estratégias",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499915, Requested 1052. Please try again in 2m46.9826s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500098, Requested 1052. Please try again in 3m18.814s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://diariodabairrada.sapo.pt/2025/09/11/asae-fiscaliza-praticas-comerciais-desleais-em-vinho-de-mesa/": {
         "category": null,
-        "timestamp": "2025-09-11T16:41:48.453109+00:00",
+        "timestamp": "2025-09-11T16:51:47.181568+00:00",
         "title": "ASAE fiscaliza práticas comerciais desleais em vinho de mesa",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499909, Requested 1050. Please try again in 2m45.688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500084, Requested 1050. Please try again in 3m15.982399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://eco.sapo.pt/2025/09/11/remax-patrocina-16-clubes-da-primeira-liga-de-futebol/": {
         "category": null,
-        "timestamp": "2025-09-11T16:41:48.622266+00:00",
+        "timestamp": "2025-09-11T16:51:48.378948+00:00",
         "title": "Remax patrocina 16 clubes da primeira liga de futebol",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499908, Requested 1047. Please try again in 2m45.0006s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500077, Requested 1047. Please try again in 3m14.260999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://sapo.pt/artigo/superman-regressa-ao-cinema-em-2027-super-heroi-e-lex-luthor-vao-ser-aliados-diz-o-realizador-james-gunn-68c2fa4e5ea8763b0db4601b": {
+        "category": "Multimédia",
+        "timestamp": "2025-09-11T16:51:35.425543+00:00",
+        "title": "\"Superman\" regressa ao cinema em 2027. Super-herói e Lex Luthor vão ser aliados, diz o realizador Ja...",
+        "confidence": "exact"
+    },
+    "https://sapo.pt/artigo/miguel-chevalier-apresenta-splash-no-ccb-sete-serigrafias-ineditas-que-fundem-cor-e-energia-digital-68c2fc0dd4671fc1d65677d3": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T16:51:36.135486+00:00",
+        "title": "Miguel Chevalier apresenta “Splash” no CCB: sete serigrafias inéditas que fundem cor e energia digit...",
+        "confidence": "exact"
+    },
+    "https://sapo.pt/artigo/mundiais-atletismo-o-calendario-e-o-horario-dos-portugueses-no-japao-68c2fcecd4671fc1d6569d44": {
+        "category": null,
+        "timestamp": "2025-09-11T16:51:39.423934+00:00",
+        "title": "Mundiais Atletismo: o calendário e o horário dos portugueses no Japão",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500139, Requested 1059. Please try again in 3m27.177399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://www.dnoticias.pt/2025/9/11/462463-presidente-da-republica-portuguesa-condecorou-apavt/": {
+        "category": null,
+        "timestamp": "2025-09-11T16:51:46.004898+00:00",
+        "title": "Presidente da República Portuguesa condecorou APAVT",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500090, Requested 1047. Please try again in 3m16.645s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://www.dnoticias.pt/2025/9/11/462462-hasteada-bandeira-vermelha-na-zona-do-clube-naval-do-funchal-e-canical/": {
+        "category": null,
+        "timestamp": "2025-09-11T16:51:48.103940+00:00",
+        "title": "Hasteada bandeira vermelha na zona do Clube Naval do Funchal e Caniçal",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500078, Requested 1037. Please try again in 3m12.815s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://www.dnoticias.pt/2025/9/11/462461-governo-aprova-contratos-programa-no-valor-total-de-70-mil-euros/": {
+        "category": null,
+        "timestamp": "2025-09-11T16:51:49.315802+00:00",
+        "title": "Governo aprova Contratos-Programa no valor total de 70 mil euros",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500071, Requested 1053. Please try again in 3m14.3628s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     }
 }
