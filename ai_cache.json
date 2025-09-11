@@ -7889,7 +7889,7 @@
     },
     "/artigo/no-slug-68c17367a5e00d94cd285464": {
         "category": null,
-        "timestamp": "2025-09-11T04:51:34.185004+00:00",
+        "timestamp": "2025-09-11T05:17:03.880970+00:00",
         "title": "A pequena percentagem",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -9378,7 +9378,7 @@
     },
     "/artigo/a-candidata-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T04:51:43.717956+00:00",
+        "timestamp": "2025-09-11T05:17:16.927618+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -9417,6 +9417,18 @@
         "category": "Desporto",
         "timestamp": "2025-09-11T03:47:32.659196+00:00",
         "title": "Portugal goleado pela Espanha por 8-1 no Europeu feminino de hóquei em patins",
+        "confidence": "exact"
+    },
+    "https://greensavers.sapo.pt/investigadores-do-piep-vao-desenvolver-isolamento-termico-para-o-novo-observatorio-europeu-do-universo/": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-11T05:17:12.499079+00:00",
+        "title": "Investigadores do PIEP vão desenvolver isolamento térmico para o novo observatório europeu do Univer...",
+        "confidence": "exact"
+    },
+    "https://odigital.sapo.pt/feira-do-livro-em-beja-com-mais-de-100-autores-e-mediadores-de-leitura/": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T05:17:16.474445+00:00",
+        "title": "Feira do Livro em Beja com mais de 100 autores e mediadores de leitura",
         "confidence": "exact"
     }
 }
