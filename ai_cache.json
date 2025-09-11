@@ -9499,7 +9499,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T08:44:30.813768+00:00",
+        "timestamp": "2025-09-11T08:55:13.049819+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -10066,6 +10066,36 @@
         "category": "Mundo",
         "timestamp": "2025-09-11T08:47:04.691525+00:00",
         "title": "SADC pede que Moçambique adira a instrumentos para facilitar comércio regional",
+        "confidence": "exact"
+    },
+    "/artigo/trabalhadores-da-cultura-e-audiovisual-anunciam-greve-nacional-a-20-de-setembro-68c28a754933765026bf8754": {
+        "category": "Política",
+        "timestamp": "2025-09-11T08:55:13.564421+00:00",
+        "title": "Trabalhadores da cultura e audiovisual anunciam greve nacional a 20 de setembro",
+        "confidence": "exact"
+    },
+    "/artigo/bilionarios-fortuna-de-larry-ellison-cresce-110-mil-milhoes-e-desafia-lideranca-de-musk-68c28c4ac3ffba762c6be11a": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T08:55:24.090649+00:00",
+        "title": "Bilionários: Fortuna de Larry Ellison cresce 110 mil milhões e desafia liderança de Musk",
+        "confidence": "exact"
+    },
+    "https://pmemagazine.sapo.pt/familias-preveem-gastar-200e-em-compras-online-para-o-regresso-as-aulas/": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T08:55:28.203904+00:00",
+        "title": "Famílias preveem gastar 200€ em compras online para o regresso às aulas",
+        "confidence": "exact"
+    },
+    "https://hrportugal.sapo.pt/uma-empresa-com-politicas-restritas-quanto-ao-uso-de-ia-pode-despedir-um-colaborador-por-usa-la/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T08:55:29.654428+00:00",
+        "title": "Uma empresa com políticas restritas quanto ao uso de IA pode despedir um colaborador por usá-la?",
+        "confidence": "exact"
+    },
+    "https://sustentix.sapo.pt/novo-metodo-de-datacao-por-laser-para-ovos-de-dinossauro-ajudam-a-determinar-quando-foram-postos/": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-11T08:55:30.439776+00:00",
+        "title": "Novo método de datação por laser para ovos de dinossauro ajudam a determinar quando foram postos",
         "confidence": "exact"
     }
 }
