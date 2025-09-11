@@ -9499,7 +9499,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T09:38:25.567000+00:00",
+        "timestamp": "2025-09-11T09:50:34.085591+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -10294,6 +10294,43 @@
         "category": "Economia",
         "timestamp": "2025-09-11T09:40:41.340054+00:00",
         "title": "Castro Almeida atribui quebra nas exportações a “meses atípicos” devido às tarifas dos EUA",
+        "confidence": "exact"
+    },
+    "/artigo/o-saldo-da-conta-corrente-de-angola-encolhe-45-4-no-segundo-trimestre-68c2997dce664a0185b2acf1": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T09:50:41.852284+00:00",
+        "title": "O saldo da conta corrente de Angola encolhe 45,4% no segundo trimestre",
+        "confidence": "exact"
+    },
+    "https://desportivotransmontano.sapo.pt/noticias/rui-borges-eleito-melhor-treinador-da-liga-apos-temporada-historica-no-sporting/": {
+        "category": "Desporto",
+        "timestamp": "2025-09-11T09:50:43.816935+00:00",
+        "title": "Rui Borges eleito melhor treinador da Liga após temporada histórica no Sporting",
+        "confidence": "exact"
+    },
+    "https://hrportugal.sapo.pt/apenas-quatro-em-cada-10-estudantes-em-portugal-conclui-licenciatura-em-tres-anos/": {
+        "category": null,
+        "timestamp": "2025-09-11T09:50:44.534040+00:00",
+        "title": "Apenas quatro em cada 10 estudantes em Portugal conclui licenciatura em três anos",
+        "raw_response": "Educação",
+        "confidence": "failed"
+    },
+    "https://diariocriminal.sapo.pt/2025/09/11/mulher-detida-por-burla-ola-pai-ola-mae/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T09:50:46.167395+00:00",
+        "title": "Mulher detida por burla “Olá pai, Olá mãe”",
+        "confidence": "exact"
+    },
+    "https://centrotv.sapo.pt/foi-ha-40-anos-o-maior-acidente-ferroviario-ocorrido-em-portugal-na-linha-da-beira-alta-em-alcafache/": {
+        "category": "Nacional",
+        "timestamp": "2025-09-11T09:50:47.566043+00:00",
+        "title": "Foi há 40 anos o maior acidente ferroviário ocorrido em Portugal na Linha da Beira Alta em Alcafache",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/barometros/xliii-barometro-luis-mergulhao-omnicom-media-group/": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T09:51:14.628107+00:00",
+        "title": "XLIII BARÓMETRO: Luís Mergulhão, Omnicom Media Group",
         "confidence": "exact"
     }
 }
