@@ -9487,10 +9487,10 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T19:12:51.186892+00:00",
+        "timestamp": "2025-09-11T19:24:50.929206+00:00",
         "title": "A Candidata",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499726, Requested 989. Please try again in 2m3.4292s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
+        "raw_response": "Outras Notícias",
+        "confidence": "failed"
     },
     "https://sapo.pt/artigo/mochilas-prontas-roupas-a-medida-e-compras-sem-stresse-o-regresso-as-aulas-comeca-aqui-68bf068b1bcaeb9ec66ba1d5": {
         "category": "Lifestyle",
@@ -12047,11 +12047,10 @@
         "confidence": "error"
     },
     "https://sustentix.sapo.pt/treze-associacoes-juntam-se-para-exigir-fim-imediato-dos-voos-noturnos-em-lisboa/": {
-        "category": null,
-        "timestamp": "2025-09-11T19:12:53.745307+00:00",
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T19:24:54.374177+00:00",
         "title": "Treze associações juntam-se para exigir fim imediato dos voos noturnos em Lisboa",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499711, Requested 1059. Please try again in 2m12.9662s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
+        "confidence": "exact"
     },
     "https://sapo.pt/artigo/novo-primeiro-ministro-frances-sebastien-lecornu-promete-rutura-profunda-com-a-politica-do-passado-68c30064e182fd564351c259": {
         "category": "Mundo",
@@ -12179,16 +12178,16 @@
     },
     "https://jornaldoave.sapo.pt/nimenrix-incluida-no-plano-municipal-de-apoio-a-vacinacao-infantil/": {
         "category": null,
-        "timestamp": "2025-09-11T19:13:05.244745+00:00",
+        "timestamp": "2025-09-11T19:25:36.344513+00:00",
         "title": "Nimenrix incluída no Plano Municipal de Apoio à Vacinação Infantil",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499644, Requested 1053. Please try again in 2m0.433399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500120, Requested 1053. Please try again in 3m22.8438s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "/artigo/moedas-precisa-de-excitar-o-seu-eleitorado-para-que-nao-fuja-como-aconteceu-com-fernando-medina-ha-4-anos-68c318bfd4671fc1d65a4a18": {
         "category": null,
-        "timestamp": "2025-09-11T19:13:05.316227+00:00",
+        "timestamp": "2025-09-11T19:25:36.418781+00:00",
         "title": "“Moedas precisa de excitar o seu eleitorado para que nao fuja como aconteceu com Fernando Medina há ...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499644, Requested 1074. Please try again in 2m3.9952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500120, Requested 1074. Please try again in 3m26.3996s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e/-e/2025-09-11-e-no-entanto-elas-movem-se-a-vida-secreta-das-estatuas-que-mudam-de-sitio-cd94f052": {
@@ -12222,45 +12221,50 @@
         "confidence": "exact"
     },
     "/artigo/jair-bolsonaro-condenado-por-golpe-de-estado-68c31e8c0e9d7127e2bdbd09": {
-        "category": null,
-        "timestamp": "2025-09-11T19:12:58.495098+00:00",
+        "category": "Mundo",
+        "timestamp": "2025-09-11T19:25:29.064721+00:00",
         "title": "Jair Bolsonaro condenado por golpe de Estado",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499684, Requested 1028. Please try again in 2m2.8654s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
+        "confidence": "exact"
     },
     "/artigo/apple-perde-142-mil-milhoes-bce-mantem-juros-e-governo-tenta-consenso-laboral-68c31ccde182fd564355d6ef": {
         "category": null,
-        "timestamp": "2025-09-11T19:12:58.570874+00:00",
+        "timestamp": "2025-09-11T19:25:29.142787+00:00",
         "title": "Apple perde 142 mil milhões, BCE mantém juros e Governo tenta consenso laboral",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499683, Requested 1057. Please try again in 2m7.800599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500162, Requested 1057. Please try again in 3m30.737s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://odigital.sapo.pt/campeonato-nacional-de-todo-o-terreno-ruma-ao-alentejo-com-baja-tt-sharish-gin/": {
         "category": null,
-        "timestamp": "2025-09-11T19:13:01.380990+00:00",
+        "timestamp": "2025-09-11T19:25:32.501660+00:00",
         "title": "Campeonato Nacional de Todo-o-Terreno ruma ao Alentejo com Baja TT Sharish Gin",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499667, Requested 1055. Please try again in 2m4.646999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500143, Requested 1055. Please try again in 3m27.0324s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://noticiasdosorraia.sapo.pt/tenta-atropelar-militar-da-gnr-em-alpiarca-para-fugir-a-operacao-stop/": {
         "category": null,
-        "timestamp": "2025-09-11T19:13:03.236475+00:00",
+        "timestamp": "2025-09-11T19:25:34.440412+00:00",
         "title": "Tenta atropelar militar da GNR em Alpiarça para fugir a operação Stop",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499656, Requested 1055. Please try again in 2m2.785s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500131, Requested 1055. Please try again in 3m25.093399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "/artigo/supremo-do-brasil-condena-jair-bolsonaro-por-organizacao-criminosa-68c31ac9d2b5f22c4b951a5a": {
         "category": null,
-        "timestamp": "2025-09-11T19:13:03.293824+00:00",
+        "timestamp": "2025-09-11T19:25:34.530706+00:00",
         "title": "Supremo do Brasil condena Jair Bolsonaro por organização criminosa",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499656, Requested 1032. Please try again in 1m58.7546s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500131, Requested 1032. Please try again in 3m21.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://sol.sapo.pt/2025/09/11/os-problemas-do-mundo-rural/": {
         "category": null,
-        "timestamp": "2025-09-11T19:13:06.664765+00:00",
+        "timestamp": "2025-09-11T19:25:38.047824+00:00",
         "title": "Os problemas do mundo rural",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499636, Requested 1020. Please try again in 1m53.306999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500111, Requested 1020. Please try again in 3m15.440399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
+    },
+    "/artigo/diella-e-a-primeira-ministra-gerada-por-ia-do-mundo-e-promete-ajudar-a-acabar-com-a-corrupcao-na-albania-68c3205ce182fd56435651ae": {
+        "category": "Mundo",
+        "timestamp": "2025-09-11T19:25:01.291324+00:00",
+        "title": "Diella é a primeira ministra gerada por IA do mundo e promete ajudar a acabar com a corrupção na Alb...",
+        "confidence": "exact"
     }
 }
