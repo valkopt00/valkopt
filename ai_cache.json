@@ -9493,7 +9493,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T16:20:59.533464+00:00",
+        "timestamp": "2025-09-11T16:41:30.633285+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -11741,6 +11741,57 @@
         "timestamp": "2025-09-11T16:21:57.920495+00:00",
         "title": "ASAE instaura dois processos de contraordenação devido a práticas comerciais desleais em vinhos de m...",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499475, Requested 1076. Please try again in 1m35.1938s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://executivedigest.sapo.pt/noticias/propagandistas-de-putin-ironizam-com-resposta-da-nato-aos-drones-russos-que-invadiram-espaco-aereo-da-polonia/": {
+        "category": "Mundo",
+        "timestamp": "2025-09-11T16:41:28.121616+00:00",
+        "title": "Propagandistas de Putin ironizam com resposta da NATO aos drones russos que invadiram espaço aéreo d...",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/11/fabrica-do-ingles-em-silves-reabre-museu-da-cortica-e-um-boutique-hotel/": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T16:41:38.581654+00:00",
+        "title": "Fábrica do Inglês em Silves reabre Museu da Cortiça e um ‘boutique’ hotel",
+        "confidence": "exact"
+    },
+    "https://odigital.sapo.pt/alandroal-municipio-distingue-alunos-com-premios-de-merito-escolar-2024-25/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T16:41:45.178249+00:00",
+        "title": "Alandroal: Município distingue alunos com prémios de Mérito Escolar 2024/25",
+        "confidence": "exact"
+    },
+    "/artigo/crime-no-centro-ismaili-relacao-recusou-substituir-prisao-preventiva-por-internamento-psiquiatrico-do-condenado-68c2f7c12671aa6ce292ef15": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T16:41:45.541182+00:00",
+        "title": "Crime no Centro Ismaili: Relação recusou substituir prisão preventiva por internamento psiquiátrico ...",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/11/igf-tem-de-controlar-acessos-a-edificios-publicos-mas-so-tem-um-engenheiro-que-tambem-e-diretor/": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T16:41:46.525760+00:00",
+        "title": "IGF tem de controlar acessos a edifícios públicos, mas só tem um engenheiro (que também é diretor)",
+        "confidence": "exact"
+    },
+    "https://hrportugal.sapo.pt/quer-optimizar-os-custos-na-sua-empesa-sem-comprometer-a-inovacao-siga-estas-estrategias/": {
+        "category": null,
+        "timestamp": "2025-09-11T16:41:47.511382+00:00",
+        "title": "Quer optimizar os custos na sua empesa sem comprometer a inovação? Siga estas estratégias",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499915, Requested 1052. Please try again in 2m46.9826s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://diariodabairrada.sapo.pt/2025/09/11/asae-fiscaliza-praticas-comerciais-desleais-em-vinho-de-mesa/": {
+        "category": null,
+        "timestamp": "2025-09-11T16:41:48.453109+00:00",
+        "title": "ASAE fiscaliza práticas comerciais desleais em vinho de mesa",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499909, Requested 1050. Please try again in 2m45.688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://eco.sapo.pt/2025/09/11/remax-patrocina-16-clubes-da-primeira-liga-de-futebol/": {
+        "category": null,
+        "timestamp": "2025-09-11T16:41:48.622266+00:00",
+        "title": "Remax patrocina 16 clubes da primeira liga de futebol",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499908, Requested 1047. Please try again in 2m45.0006s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     }
 }
