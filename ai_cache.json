@@ -9487,10 +9487,10 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T18:44:25.652147+00:00",
+        "timestamp": "2025-09-11T18:54:16.315161+00:00",
         "title": "A Candidata",
-        "raw_response": "Outras Notícias",
-        "confidence": "failed"
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499973, Requested 989. Please try again in 2m46.118s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
     },
     "https://sapo.pt/artigo/mochilas-prontas-roupas-a-medida-e-compras-sem-stresse-o-regresso-as-aulas-comeca-aqui-68bf068b1bcaeb9ec66ba1d5": {
         "category": "Lifestyle",
@@ -12158,5 +12158,37 @@
         "timestamp": "2025-09-11T18:44:49.921273+00:00",
         "title": "Moderação de conteúdo online privilegia factores económicos em vez de segurança",
         "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/carris-lanca-na-sexta-feira-carreira-alternativa-ao-ascensor-da-gloria": {
+        "category": "Nacional",
+        "timestamp": "2025-09-11T18:54:00.201218+00:00",
+        "title": "Carris lança na sexta-feira carreira alternativa ao ascensor da Glória",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/jogo-de-palavra-as-entrevistas-de-rui-miguel-tovar/2025/09/11/jogo-de-palavra-com-helder-cristovao/439493/?utm_medium=rss": {
+        "category": "Desporto",
+        "timestamp": "2025-09-11T18:54:05.338004+00:00",
+        "title": "Jogo de Palavra com Hélder Cristóvão",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/jogo-de-palavra-as-entrevistas-de-rui-miguel-tovar/2025/09/11/helder-cristovao-o-caniggia-e-porreiro-so-nao-podiamos-molhar-lhe-o-cabelo/439492/?utm_medium=rss": {
+        "category": "Desporto",
+        "timestamp": "2025-09-11T18:54:07.905092+00:00",
+        "title": "Hélder Cristóvão. “O Caniggia é porreiro, só não podíamos molhar-lhe o cabelo”",
+        "confidence": "exact"
+    },
+    "https://jornaldoave.sapo.pt/nimenrix-incluida-no-plano-municipal-de-apoio-a-vacinacao-infantil/": {
+        "category": null,
+        "timestamp": "2025-09-11T18:54:33.538183+00:00",
+        "title": "Nimenrix incluída no Plano Municipal de Apoio à Vacinação Infantil",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499862, Requested 1053. Please try again in 2m38.0664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/moedas-precisa-de-excitar-o-seu-eleitorado-para-que-nao-fuja-como-aconteceu-com-fernando-medina-ha-4-anos-68c318bfd4671fc1d65a4a18": {
+        "category": null,
+        "timestamp": "2025-09-11T18:54:33.609305+00:00",
+        "title": "“Moedas precisa de excitar o seu eleitorado para que nao fuja como aconteceu com Fernando Medina há ...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499862, Requested 1074. Please try again in 2m41.625199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
     }
 }
