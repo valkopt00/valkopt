@@ -9481,7 +9481,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T21:38:43.267618+00:00",
+        "timestamp": "2025-09-11T21:50:34.460276+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12431,11 +12431,10 @@
         "confidence": "exact"
     },
     "https://odigital.sapo.pt/arrancou-a-feira-de-setembro-em-moura-uma-feira-que-mantem-aquilo-que-e-identitario-c-fotos/": {
-        "category": null,
-        "timestamp": "2025-09-11T21:39:14.880987+00:00",
+        "category": "Cultura",
+        "timestamp": "2025-09-11T21:51:01.239249+00:00",
         "title": "Arrancou a Feira de Setembro em Moura: uma feira que «mantém aquilo que é identitário» (c/fotos)",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499616, Requested 1066. Please try again in 1m57.8116s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
+        "confidence": "exact"
     },
     "https://maisbeiras.sapo.pt/pinhel-recebe-festa-em-honra-da-nossa-senhora-de-fatima": {
         "category": null,
