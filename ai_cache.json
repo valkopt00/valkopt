@@ -1,10 +1,4 @@
 {
-    "https://www.rtp.pt/noticias/hoquei/final-europeu-hoquei-portugal-franca_d1681810": {
-        "category": "Desporto",
-        "timestamp": "2025-09-06T19:49:56.982685+00:00",
-        "title": "Final Europeu Hóquei. Portugal - França",
-        "confidence": "exact"
-    },
     "https://www.cmjornal.pt/domingo/detalhe/dois-anos-de-guerra-o-inferno-de-gaza-na-primeira-pessoa": {
         "category": "Cultura",
         "timestamp": "2025-09-07T01:21:26.245013+00:00",
@@ -9487,7 +9481,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T19:36:50.351513+00:00",
+        "timestamp": "2025-09-11T19:50:31.921511+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12228,30 +12222,30 @@
     },
     "/artigo/apple-perde-142-mil-milhoes-bce-mantem-juros-e-governo-tenta-consenso-laboral-68c31ccde182fd564355d6ef": {
         "category": null,
-        "timestamp": "2025-09-11T19:37:29.675631+00:00",
+        "timestamp": "2025-09-11T19:50:42.158137+00:00",
         "title": "Apple perde 142 mil milhões, BCE mantém juros e Governo tenta consenso laboral",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499579, Requested 1057. Please try again in 1m49.8564s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499798, Requested 1057. Please try again in 2m27.6452s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://odigital.sapo.pt/campeonato-nacional-de-todo-o-terreno-ruma-ao-alentejo-com-baja-tt-sharish-gin/": {
         "category": null,
-        "timestamp": "2025-09-11T19:37:32.251414+00:00",
+        "timestamp": "2025-09-11T19:50:45.981210+00:00",
         "title": "Campeonato Nacional de Todo-o-Terreno ruma ao Alentejo com Baja TT Sharish Gin",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499564, Requested 1055. Please try again in 1m46.9328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499776, Requested 1055. Please try again in 2m23.4816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://noticiasdosorraia.sapo.pt/tenta-atropelar-militar-da-gnr-em-alpiarca-para-fugir-a-operacao-stop/": {
         "category": null,
-        "timestamp": "2025-09-11T19:37:33.680917+00:00",
+        "timestamp": "2025-09-11T19:50:47.412134+00:00",
         "title": "Tenta atropelar militar da GNR em Alpiarça para fugir a operação Stop",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499556, Requested 1055. Please try again in 1m45.498799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499768, Requested 1055. Please try again in 2m22.0466s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "/artigo/supremo-do-brasil-condena-jair-bolsonaro-por-organizacao-criminosa-68c31ac9d2b5f22c4b951a5a": {
         "category": null,
-        "timestamp": "2025-09-11T19:37:33.774097+00:00",
+        "timestamp": "2025-09-11T19:50:47.506600+00:00",
         "title": "Supremo do Brasil condena Jair Bolsonaro por organização criminosa",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499555, Requested 1032. Please try again in 1m41.4324s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499767, Requested 1032. Please try again in 2m17.9832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://sol.sapo.pt/2025/09/11/os-problemas-do-mundo-rural/": {
@@ -12281,9 +12275,34 @@
     },
     "https://eco.sapo.pt/2025/09/11/ja-ha-maioria-para-condenar-bolsonaro-por-golpe-de-estado/": {
         "category": null,
-        "timestamp": "2025-09-11T19:37:29.579884+00:00",
+        "timestamp": "2025-09-11T19:50:42.073364+00:00",
         "title": "Já há maioria para condenar Bolsonaro por golpe de Estado",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499580, Requested 1047. Please try again in 1m48.2204s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499798, Requested 1047. Please try again in 2m26.000199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/eurodreams-conheca-aqui-a-chave-que-lhe-pode-valer-cerca-de-20-mil-euros-mensais-68c3256be182fd5643570b8e": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T19:50:38.955609+00:00",
+        "title": "Eurodreams: conheça aqui a chave que lhe pode valer cerca de 20 mil euros mensais",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/11/corrida-solidaria-multicare-vitality-regressa-ao-jamor/": {
+        "category": "Desporto",
+        "timestamp": "2025-09-11T19:50:39.883962+00:00",
+        "title": "Corrida solidária Multicare Vitality regressa ao Jamor",
+        "confidence": "exact"
+    },
+    "https://www.dnoticias.pt/2025/9/11/462475-mano-a-mano-e-orquestra-de-jazz-do-funchal-tocam-em-lisboa/": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T19:50:40.513760+00:00",
+        "title": "Mano a Mano e Orquestra de Jazz do Funchal tocam em Lisboa",
+        "confidence": "exact"
+    },
+    "/artigo/moedas-desnorteado-sem-saber-o-que-fazer-por-causa-da-tragedia-em-lisboa-partiu-para-o-ataque-e-cedeu-a-pressao-68c323658497fe9ef632b5e0": {
+        "category": null,
+        "timestamp": "2025-09-11T19:50:40.616704+00:00",
+        "title": "Moedas “desnorteado, sem saber o que fazer” por causa da tragédia em Lisboa “partiu para o ataque e ...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499807, Requested 1080. Please try again in 2m33.1686s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     }
 }
