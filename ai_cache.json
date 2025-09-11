@@ -9493,7 +9493,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T11:13:39.205631+00:00",
+        "timestamp": "2025-09-11T11:26:38.369097+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -10673,6 +10673,54 @@
         "category": "Economia",
         "timestamp": "2025-09-11T11:16:19.921244+00:00",
         "title": "Nuek e Visa lançam nova geração de pagamentos digitais para frotas",
+        "confidence": "exact"
+    },
+    "https://jornaldoave.sapo.pt/entrevista-a-patricia-pereira-candidata-do-movimento-independente-agrela-primeiro-a-agrela/": {
+        "category": "Política",
+        "timestamp": "2025-09-11T11:26:47.792512+00:00",
+        "title": "Entrevista a Patrícia Pereira – Candidata do Movimento Independente Agrela Primeiro à Agrela",
+        "confidence": "exact"
+    },
+    "/artigo/tinhamos-clubes-de-tiro-nas-escolas-rfk-jr-associa-tiroteios-em-escolas-a-antidepressivos-e-redes-sociais-68c2af5f7dc95677aa9a7788": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T11:26:48.166380+00:00",
+        "title": "\"Tínhamos clubes de tiro nas escolas\": RFK Jr. associa tiroteios em escolas a antidepressivos e rede...",
+        "confidence": "exact"
+    },
+    "/artigo/lidl-gera-1-450-milhoes-de-euros-para-a-economia-atraves-das-exportacoes-68c2ae53c3d907e5f88120f7": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T11:26:49.024683+00:00",
+        "title": "Lidl gera 1.450 milhões de euros para a economia através das exportações",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/11/fuga-de-sucata-industriais-portugueses-do-aluminio-querem-taxar-exportacoes/": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T11:26:49.519981+00:00",
+        "title": "Fuga de sucata. Industriais portugueses do alumínio querem taxar exportações",
+        "confidence": "exact"
+    },
+    "/artigo/detido-no-reino-unido-suspeito-de-roubo-a-ourivesaria-em-sintra-ocorrido-ha-12-anos-68c2aed07dc95677aa99efc7": {
+        "category": "Nacional",
+        "timestamp": "2025-09-11T11:26:50.959079+00:00",
+        "title": "Detido no Reino Unido suspeito de roubo a ourivesaria em Sintra ocorrido há 12 anos",
+        "confidence": "exact"
+    },
+    "https://greensavers.sapo.pt/florestas-marinhas-no-norte-de-portugal-aliadas-no-combate-as-mudancas-climaticas/": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-11T11:27:03.668191+00:00",
+        "title": "Florestas marinhas no Norte de Portugal aliadas no combate às mudanças climáticas",
+        "confidence": "exact"
+    },
+    "https://noticiasdevilareal.sapo.pt/documentario-sobre-entrudo-de-lazarim-distinguido-em-festival-internacional/": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T11:27:15.093230+00:00",
+        "title": "Documentário sobre Entrudo de Lazarim distinguido em festival internacional",
+        "confidence": "exact"
+    },
+    "https://noticiasdosorraia.sapo.pt/servico-de-financas-passa-a-atender-na-loja-do-municipe-de-vila-franca-de-xira-a-partir-de-15-de-setembro/": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T11:27:29.000908+00:00",
+        "title": "Serviço de Finanças passa a atender na Loja do Munícipe de Vila Franca de Xira a partir de 15 de set...",
         "confidence": "exact"
     }
 }
