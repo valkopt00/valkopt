@@ -9493,7 +9493,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T13:34:08.199329+00:00",
+        "timestamp": "2025-09-11T13:50:03.686760+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -11101,6 +11101,66 @@
         "timestamp": "2025-09-11T13:36:09.401602+00:00",
         "title": "L’Oréal abre 32 vagas para estágios. Candidaturas até 2 de novembro",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500139, Requested 1055. Please try again in 3m26.458399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://www.publico.pt/2025/09/11/terroir/noticia/branco-bairradino-agricultor-excelente-2146785": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T13:49:57.871941+00:00",
+        "title": "Branco bairradino de agricultor. Excelente!",
+        "confidence": "exact"
+    },
+    "/artigo/hisense-avanca-com-oferta-de-bilhetes-para-o-mundial-2026-na-compra-da-nova-tv-rgb-miniled-68c2d2a6c3d907e5f89bf175": {
+        "category": "Multimédia",
+        "timestamp": "2025-09-11T13:50:09.819857+00:00",
+        "title": "Hisense avança com oferta de bilhetes para o Mundial 2026 na compra da nova TV RGB miniLED",
+        "confidence": "exact"
+    },
+    "https://diariocriminal.sapo.pt/2025/09/11/homem-detido-por-conduzir-em-estado-de-embriaguez-3/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T13:50:12.004095+00:00",
+        "title": "Homem detido por conduzir em estado de embriaguez",
+        "confidence": "exact"
+    },
+    "https://hrportugal.sapo.pt/escassez-de-mao-de-obra-esta-a-travar-o-crescimento-deste-sector-na-europa/": {
+        "category": null,
+        "timestamp": "2025-09-11T13:50:12.817564+00:00",
+        "title": "Escassez de mão-de-obra está a travar o crescimento deste sector na Europa",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500097, Requested 1033. Please try again in 3m15.315999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://cidadehoje.sapo.pt/famalicao-tiago-edgar-reis-e-daniel-silva-em-luta-no-t3/": {
+        "category": null,
+        "timestamp": "2025-09-11T13:50:16.143544+00:00",
+        "title": "Famalicão: Tiago, Edgar Reis e Daniel Silva em luta no T3",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500078, Requested 1020. Please try again in 3m9.759599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://executivedigest.sapo.pt/motores/sabe-qual-e-o-top-3-das-nacionalidades-dos-visitantes-em-portugal-este-verao-e-quais-as-cidades-mais-procuradas/": {
+        "category": null,
+        "timestamp": "2025-09-11T13:50:17.087603+00:00",
+        "title": "Sabe qual é o top 3 das nacionalidades dos visitantes em Portugal este verão? E quais as cidades mai...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500072, Requested 1078. Please try again in 3m18.825s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/joao-costa-provoca-andre-ventura-se-o-pr-for-aos-camaroes-nao-e-a-um-festival-de-marisco-68c2d1c549aff0fd30719ea8": {
+        "category": null,
+        "timestamp": "2025-09-11T13:50:17.144500+00:00",
+        "title": "João Costa provoca André Ventura: \"Se o PR for aos Camarões, não é a um festival de marisco\"",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500072, Requested 1064. Please try again in 3m16.3518s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://greensavers.sapo.pt/projeto-que-alia-musica-e-sustentabilidade-ambiental-marca-inicio-de-evora-2027/": {
+        "category": null,
+        "timestamp": "2025-09-11T13:50:17.521841+00:00",
+        "title": "Projeto que alia música e sustentabilidade ambiental marca início de Évora 2027",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500070, Requested 1060. Please try again in 3m15.283599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://odigital.sapo.pt/embaixada-da-ucrania-reconhece-apoio-humanitario-da-fundacao-eugenio-de-almeida/": {
+        "category": null,
+        "timestamp": "2025-09-11T13:50:24.542944+00:00",
+        "title": "Embaixada da Ucrânia reconhece apoio humanitário da Fundação Eugénio de Almeida",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500029, Requested 1057. Please try again in 3m7.7382s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     }
 }
