@@ -7889,7 +7889,7 @@
     },
     "/artigo/no-slug-68c17367a5e00d94cd285464": {
         "category": null,
-        "timestamp": "2025-09-11T02:44:54.349992+00:00",
+        "timestamp": "2025-09-11T03:24:02.687428+00:00",
         "title": "A pequena percentagem",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -9378,7 +9378,7 @@
     },
     "/artigo/a-candidata-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T02:45:00.650160+00:00",
+        "timestamp": "2025-09-11T03:24:10.654585+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -9405,6 +9405,12 @@
         "category": "Política",
         "timestamp": "2025-09-11T01:17:17.090494+00:00",
         "title": "Kamala Harris critica recandidatura de \"cansado\" Biden em novo livro",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/ventura-confunde-evento-de-cidadania-que-homenageia-portugal-com-festa-de-hamburgueres": {
+        "category": "Política",
+        "timestamp": "2025-09-11T03:23:58.121925+00:00",
+        "title": "Ventura confunde evento de cidadania que homenageia Portugal com festa de hambúrgueres",
         "confidence": "exact"
     }
 }
