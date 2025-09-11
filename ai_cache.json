@@ -9481,7 +9481,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T19:50:31.921511+00:00",
+        "timestamp": "2025-09-11T20:16:03.049350+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12275,9 +12275,9 @@
     },
     "https://eco.sapo.pt/2025/09/11/ja-ha-maioria-para-condenar-bolsonaro-por-golpe-de-estado/": {
         "category": null,
-        "timestamp": "2025-09-11T19:50:42.073364+00:00",
+        "timestamp": "2025-09-11T20:16:31.711426+00:00",
         "title": "Já há maioria para condenar Bolsonaro por golpe de Estado",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499798, Requested 1047. Please try again in 2m26.000199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499423, Requested 1047. Please try again in 1m21.2008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "/artigo/eurodreams-conheca-aqui-a-chave-que-lhe-pode-valer-cerca-de-20-mil-euros-mensais-68c3256be182fd5643570b8e": {
@@ -12303,6 +12303,63 @@
         "timestamp": "2025-09-11T19:50:40.616704+00:00",
         "title": "Moedas “desnorteado, sem saber o que fazer” por causa da tragédia em Lisboa “partiu para o ataque e ...",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499807, Requested 1080. Please try again in 2m33.1686s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://www.rtp.pt/noticias/lusa/direcao-de-escola-demite-se-apos-virem-a-publico-denuncias-de-alegados-abusos-por-professores_n1683058": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T20:15:54.542214+00:00",
+        "title": "Direção de escola demite-se após virem a público denúncias de alegados abusos por professores",
+        "confidence": "exact"
+    },
+    "https://sapo.pt/artigo/gabinete-de-jorge-coelho-sabia-de-problemas-na-ponte-de-entre-os-rios-afirma-ex-autarca-de-castelo-de-paiva-68c327fad4671fc1d65c6d3f": {
+        "category": "Política",
+        "timestamp": "2025-09-11T20:15:59.284368+00:00",
+        "title": "Gabinete de Jorge Coelho sabia de problemas na ponte de Entre-os-Rios, afirma ex-autarca de Castelo ...",
+        "confidence": "exact"
+    },
+    "https://sapo.pt/artigo/eurodreams-conheca-aqui-a-chave-que-lhe-pode-valer-cerca-de-20-mil-euros-mensais-68c3256be182fd5643570b8e": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T20:16:07.385702+00:00",
+        "title": "Eurodreams: conheça aqui a chave que lhe pode valer cerca de 20 mil euros mensais",
+        "confidence": "exact"
+    },
+    "https://sapo.pt/artigo/moedas-desnorteado-sem-saber-o-que-fazer-por-causa-da-tragedia-em-lisboa-partiu-para-o-ataque-e-cedeu-a-pressao-68c323658497fe9ef632b5e0": {
+        "category": "Política",
+        "timestamp": "2025-09-11T20:16:10.415112+00:00",
+        "title": "Moedas “desnorteado, sem saber o que fazer” por causa da tragédia em Lisboa “partiu para o ataque e ...",
+        "confidence": "exact"
+    },
+    "/artigo/transportes-intermunicipais-de-coimbra-so-tem-passe-intermodal-em-2026-68c32acf0e9d7127e2bf46d0": {
+        "category": "Nacional",
+        "timestamp": "2025-09-11T20:16:15.152118+00:00",
+        "title": "Transportes intermunicipais de Coimbra só tem passe intermodal em 2026",
+        "confidence": "exact"
+    },
+    "https://hrportugal.sapo.pt/como-garantir-que-nao-fica-viciado-no-chatgpt-evitando-perder-capacidade-intelectual/": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-11T20:16:20.289853+00:00",
+        "title": "Como garantir que não fica viciado no ChatGPT (evitando perder capacidade intelectual)",
+        "confidence": "exact"
+    },
+    "https://odigital.sapo.pt/montado-de-sobro-do-alentejo-inspira-novas-historias-de-banda-desenhada/": {
+        "category": null,
+        "timestamp": "2025-09-11T20:16:27.783181+00:00",
+        "title": "Montado de sobro do Alentejo inspira novas histórias de banda desenhada",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499446, Requested 1054. Please try again in 1m26.3364s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/franca-mobiliza-tres-cacas-para-protecao-do-espaco-aereo-polaco-68c32b08e182fd564357baad": {
+        "category": null,
+        "timestamp": "2025-09-11T20:16:27.865256+00:00",
+        "title": "França mobiliza três caças para proteção do espaço aéreo polaco",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499446, Requested 1054. Please try again in 1m26.2564s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/lisboa-esta-um-caos-muito-pior-em-qualidade-de-vida-alem-da-crise-do-elevador-da-gloria-e-sobre-isto-que-os-eleitores-devem-meditar-68c326f4d4671fc1d65c54c1": {
+        "category": null,
+        "timestamp": "2025-09-11T20:16:27.944888+00:00",
+        "title": "“Lisboa está um caos, muito pior em qualidade de vida”: além da crise do Elevador da Glória, é sobre...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499445, Requested 1091. Please try again in 1m32.569s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     }
 }
