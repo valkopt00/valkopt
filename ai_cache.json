@@ -9481,7 +9481,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T23:15:47.577215+00:00",
+        "timestamp": "2025-09-11T23:36:10.867354+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12513,7 +12513,7 @@
     },
     "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-09-11-o-artigo-a-seguir-e-o-elefante-em-franca-61f2f1b7": {
         "category": null,
-        "timestamp": "2025-09-11T23:15:55.097897+00:00",
+        "timestamp": "2025-09-11T23:36:21.258793+00:00",
         "title": "O artigo a seguir e o elefante em França",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12613,9 +12613,9 @@
     },
     "/artigo/academia-naval-dos-eua-encerrada-apos-ameaca-68c3542ed2b5f22c4b9c5201": {
         "category": null,
-        "timestamp": "2025-09-11T23:16:13.850313+00:00",
+        "timestamp": "2025-09-11T23:36:29.224803+00:00",
         "title": "Academia Naval dos EUA encerrada após ameaça",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499702, Requested 1041. Please try again in 2m8.3244s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499903, Requested 1041. Please try again in 2m43.0756s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://www.dnoticias.pt/2025/9/11/462501-trump-insatisfeito-com-intrusao-de-drones-na-polonia-e-admite-erro-da-russia/": {
@@ -12630,6 +12630,37 @@
         "timestamp": "2025-09-11T23:16:14.885231+00:00",
         "title": "Supremo Tribunal Federal do Brasil condena Bolsonaro a 27 anos e 3 meses de prisão",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499696, Requested 1048. Please try again in 2m8.5s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/substituicao-do-cabo-pode-estar-na-origem-do-acidente-no-elevador-da-gloria-68c3591c8497fe9ef639aa99": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T23:36:22.972421+00:00",
+        "title": "Substituição do cabo pode estar na origem do acidente no Elevador da Glória",
+        "confidence": "exact"
+    },
+    "/artigo/este-lugar-pertence-nos-netanyahu-afirma-que-nao-havera-estado-palestiniano-68c3591dd4671fc1d6639721": {
+        "category": "Política",
+        "timestamp": "2025-09-11T23:36:24.380625+00:00",
+        "title": "\"Este lugar pertence-nos\": Netanyahu afirma que \"não haverá Estado palestiniano\"",
+        "confidence": "exact"
+    },
+    "https://sol.sapo.pt/2025/09/12/ventura-vai-avancar-para-belem/": {
+        "category": "Política",
+        "timestamp": "2025-09-11T23:36:26.117868+00:00",
+        "title": "Ventura vai avançar para Belém",
+        "confidence": "exact"
+    },
+    "/artigo/direcao-da-ace-escola-de-artes-demite-se-apos-denuncias-de-assedio-sexual-contra-antonio-capelo-68c35818d2b5f22c4b9cbff6": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T23:36:26.931593+00:00",
+        "title": "Direção da ACE Escola de Artes demite-se após denúncias de assédio sexual contra António Capelo",
+        "confidence": "exact"
+    },
+    "https://jornaleconomico.sapo.pt/noticias/castro-verde-com-2-479-euros-e-o-municipio-com-o-salario-mais-elevado/": {
+        "category": null,
+        "timestamp": "2025-09-11T23:36:28.004371+00:00",
+        "title": "Castro Verde com 2.479 euros é o município com o salário mais elevado",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499910, Requested 1056. Please try again in 2m46.8866s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     }
 }
