@@ -9493,7 +9493,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T14:17:05.676158+00:00",
+        "timestamp": "2025-09-11T14:40:48.633955+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -11245,6 +11245,106 @@
         "timestamp": "2025-09-11T14:18:01.509426+00:00",
         "title": "Homem detido por conduzir em estado de embriaguez",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500117, Requested 1041. Please try again in 3m20.152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://rr.pt/artigo/visto-de-fora/2025/09/11/drones-russos-na-polonia-e-um-teste-a-reacao-da-nato-e-e-para-levar-muito-a-serio/439458/?utm_medium=rss": {
+        "category": "Mundo",
+        "timestamp": "2025-09-11T14:40:44.239956+00:00",
+        "title": "Drones russos na Polónia? \"É um teste à reação da NATO... e é para levar muito a sério\"",
+        "confidence": "exact"
+    },
+    "https://tvc.sapo.pt/2025/09/11/anadia-municipio-promove-encontro-de-educacao/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T14:40:56.109417+00:00",
+        "title": "Anadia: Município promove “Encontro de Educação”",
+        "confidence": "exact"
+    },
+    "https://centrotv.sapo.pt/camara-municipal-da-lousa-assinou-contratos-programa-de-desenvolvimento-desportivo/": {
+        "category": "Desporto",
+        "timestamp": "2025-09-11T14:40:58.881785+00:00",
+        "title": "Câmara Municipal da Lousã assinou contratos programa de desenvolvimento desportivo",
+        "confidence": "exact"
+    },
+    "https://greensavers.sapo.pt/jardim-zoologico-propoe-as-escolas-uma-forma-diferente-de-comecar-as-aulas-aprender-ao-ar-livre/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T14:40:59.651027+00:00",
+        "title": "Jardim Zoológico propõe às escolas uma forma diferente de começar as aulas: aprender ao ar livre",
+        "confidence": "exact"
+    },
+    "https://sustentix.sapo.pt/ferramenta-inovadora-ajuda-a-monitorizar-e-melhorar-tratamentos-contra-incendios-florestais/": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-11T14:41:01.427449+00:00",
+        "title": "Ferramenta inovadora ajuda a monitorizar e melhorar tratamentos contra incêndios florestais",
+        "confidence": "exact"
+    },
+    "/artigo/novas-regras-permitem-ao-cliente-retomar-credito-malparado-vendido-pelo-banco-68c2dd7049aff0fd307b3ffb": {
+        "category": null,
+        "timestamp": "2025-09-11T14:41:01.519850+00:00",
+        "title": "Novas regras permitem ao cliente retomar crédito malparado vendido pelo banco",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499398, Requested 1058. Please try again in 1m18.7158s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://odigital.sapo.pt/costa-alentejana-conta-com-novo-hotel-de-quatro-estrelas-com-chancela-hilton/": {
+        "category": null,
+        "timestamp": "2025-09-11T14:41:12.243308+00:00",
+        "title": "Costa alentejana conta com novo hotel de quatro estrelas com chancela Hilton",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499336, Requested 1055. Please try again in 1m7.4634s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://jornaleconomico.sapo.pt/noticias/crescimento-do-pib-esta-abaixo-da-ambicao-do-governo-diz-miranda-sarmento/": {
+        "category": null,
+        "timestamp": "2025-09-11T14:41:13.756332+00:00",
+        "title": "Crescimento do PIB está abaixo da “ambição” do Governo, diz Miranda Sarmento",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499327, Requested 1061. Please try again in 1m6.990199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/cinco-pessoas-retiradas-de-apartamento-em-chamas-no-concelho-de-vila-nova-de-gaia-68c2dced7dc95677aabd7c1f": {
+        "category": null,
+        "timestamp": "2025-09-11T14:41:13.829559+00:00",
+        "title": "Cinco pessoas retiradas de apartamento em chamas no concelho de Vila Nova de Gaia",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499327, Requested 1058. Please try again in 1m6.3968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://radiosines.sapo.pt/noticias/bp-ultimate-rally-raid-portugal-regressa-a-grandola-com-contas-do-titulo-ainda-em-aberto": {
+        "category": null,
+        "timestamp": "2025-09-11T14:41:15.553228+00:00",
+        "title": "Bp Ultimate Rally Raid Portugal regressa a Grândola com contas do título ainda em    aberto",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499317, Requested 1066. Please try again in 1m6.0672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://eco.sapo.pt/2025/09/11/gestao-politica-da-efacec-volta-ao-parlamento-mesmo-sem-comissao-de-inquerito/": {
+        "category": null,
+        "timestamp": "2025-09-11T14:41:16.107100+00:00",
+        "title": "Gestão política da Efacec volta ao Parlamento, mesmo sem comissão de inquérito",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499314, Requested 1059. Please try again in 1m4.2906s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://desportivotransmontano.sapo.pt/noticias/rampa-do-castelo-desafia-ciclistas-em-vila-pouca-de-aguiar/": {
+        "category": null,
+        "timestamp": "2025-09-11T14:41:17.380605+00:00",
+        "title": "Rampa do Castelo desafia ciclistas em Vila Pouca de Aguiar",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499306, Requested 1052. Please try again in 1m1.808999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://executivedigest.sapo.pt/sapo-internacional/russia-inicia-grande-exercicio-de-treino-nuclear-na-bielorrussia-48-horas-depois-de-violar-espaco-aereo-da-polonia/": {
+        "category": null,
+        "timestamp": "2025-09-11T14:41:18.278200+00:00",
+        "title": "Rússia inicia grande exercício de treino nuclear na Bielorrússia 48 horas depois de violar espaço aé...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499301, Requested 1082. Please try again in 1m6.095s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://diariocriminal.sapo.pt/2025/09/11/freixo-de-espada-a-cinta-pulseira-eletronica-por-violencia-domestica/": {
+        "category": null,
+        "timestamp": "2025-09-11T14:41:19.341944+00:00",
+        "title": "Freixo de Espada à Cinta: Pulseira eletrónica por violência doméstica",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499295, Requested 1058. Please try again in 1m0.893799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://hrportugal.sapo.pt/startup-nacional-promove-encontro-entre-empreendedores-portugueses-e-investidores-internacionais-no-porto/": {
+        "category": null,
+        "timestamp": "2025-09-11T14:41:20.266681+00:00",
+        "title": "Startup nacional promove encontro entre empreendedores portugueses e investidores internacionais, no...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499290, Requested 1070. Please try again in 1m2.0434s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     }
 }
