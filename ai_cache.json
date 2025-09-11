@@ -9493,7 +9493,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T15:49:59.332566+00:00",
+        "timestamp": "2025-09-11T16:20:59.533464+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -11602,6 +11602,145 @@
         "timestamp": "2025-09-11T15:50:18.938073+00:00",
         "title": "Centro de Artes de Sines apresente \"Um Drama de Cozinha para um País Fascista\" (com áudio)",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499672, Requested 1063. Please try again in 2m6.8568s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://sapo.pt/artigo/mais-de-quatro-mil-atores-e-realizadores-internacionais-subscrevem-boicote-a-organizacoes-de-cinema-de-israel-68c2ed241a2a523ab7cec5f0": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T16:20:58.401088+00:00",
+        "title": "Mais de quatro mil atores e realizadores internacionais subscrevem boicote a organizações de cinema ...",
+        "confidence": "exact"
+    },
+    "https://magg.sapo.pt/magg-lab/artigos/campari": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T16:21:06.802423+00:00",
+        "title": "Autêntico no sabor, lendário no estilo o aperitivo que eleva qualquer encontro!",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/zona-euro-continua-num-bom-lugar-e-processo-desinflacionario-acabou-diz-lagarde/": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T16:21:09.403013+00:00",
+        "title": "Zona euro continua num bom lugar e processo desinflacionário acabou, diz Lagarde",
+        "confidence": "exact"
+    },
+    "https://www.tvesposende.com/zendensino-com-novos-desafios/": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T16:21:13.468340+00:00",
+        "title": "Zendensino com Novos Desafios",
+        "confidence": "exact"
+    },
+    "https://diariocriminal.sapo.pt/2025/09/11/asae-fiscaliza-praticas-comerciais-desleais-em-vinho-de-mesa/": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T16:21:15.046233+00:00",
+        "title": "ASAE fiscaliza práticas comerciais desleais em vinho de mesa",
+        "confidence": "exact"
+    },
+    "https://greenefact.sapo.pt/descodificador/kite-for-the-ocean-velejar-em-defesa-dos-oceanos/": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T16:21:21.714640+00:00",
+        "title": "Kite for the Ocean: velejar em defesa dos oceanos",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/11/igcp-analisa-emissao-de-defence-bonds/": {
+        "category": "Economia",
+        "timestamp": "2025-09-11T16:21:33.440791+00:00",
+        "title": "IGCP analisa emissão de ‘defence bonds’",
+        "confidence": "exact"
+    },
+    "https://cidadehoje.sapo.pt/famalicao-pedro-bondo-avisa-o-sporting-estamos-a-trabalhar-para-ganhar-o-jogo/": {
+        "category": "Desporto",
+        "timestamp": "2025-09-11T16:21:45.876445+00:00",
+        "title": "Famalicão: Pedro Bondo avisa o Sporting: «estamos a trabalhar para ganhar o jogo»",
+        "confidence": "exact"
+    },
+    "/artigo/lideres-africanos-pedem-aos-paises-ricos-financiamento-climatico-urgente-68c2f3b05ea8763b0db138c6": {
+        "category": null,
+        "timestamp": "2025-09-11T16:21:45.993962+00:00",
+        "title": "Líderes africanos pedem aos países ricos financiamento climático urgente",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499544, Requested 1057. Please try again in 1m43.8336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://eco.sapo.pt/2025/09/11/activobank-chega-a-televisao-com-a-coming-soon-e-bumba-na-fofinha/": {
+        "category": null,
+        "timestamp": "2025-09-11T16:21:46.319324+00:00",
+        "title": "ActivoBank chega à televisão com a Coming Soon e Bumba na Fofinha",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499543, Requested 1052. Please try again in 1m42.649599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://executivedigest.sapo.pt/bs-world/albania-torna-se-o-primeiro-pais-do-mundo-com-ministro-criado-com-ia/": {
+        "category": null,
+        "timestamp": "2025-09-11T16:21:47.133048+00:00",
+        "title": "Albânia torna-se o primeiro país do mundo com ministro criado com IA",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499538, Requested 1056. Please try again in 1m42.5238s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://eco.sapo.pt/2025/09/11/literacia-mediatica-deve-ir-alem-da-desinformacao-defende-investigador-do-iscte/": {
+        "category": null,
+        "timestamp": "2025-09-11T16:21:47.462852+00:00",
+        "title": "Literacia mediática deve ir além da desinformação, defende investigador do ISCTE",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499536, Requested 1053. Please try again in 1m41.6794s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/campanha-de-phishing-usa-indevidamente-nome-e-imagem-do-continente-para-roubo-de-dados-bancarios-68c2f3135ea8763b0db0933a": {
+        "category": null,
+        "timestamp": "2025-09-11T16:21:47.583665+00:00",
+        "title": "Campanha de phishing usa indevidamente nome e imagem do Continente para roubo de dados bancários",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499535, Requested 1067. Please try again in 1m43.9816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://greensavers.sapo.pt/porto-de-lisboa-marca-presenca-na-seatrade-europe-com-projetos-pioneiros-de-sustentabilidade/": {
+        "category": null,
+        "timestamp": "2025-09-11T16:21:48.321457+00:00",
+        "title": "Porto de Lisboa marca presença na Seatrade Europe com projetos pioneiros de sustentabilidade",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499531, Requested 1065. Please try again in 1m42.892s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://radioboanova.sapo.pt/candidatura-juntos-no-rumo-certo-do-ps-apresentada-no-proximo-domingo/": {
+        "category": null,
+        "timestamp": "2025-09-11T16:21:48.924485+00:00",
+        "title": "Candidatura “Juntos no Rumo Certo” do PS apresentada no próximo domingo",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499527, Requested 1056. Please try again in 1m40.7308s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://radiosines.sapo.pt/noticias/bombeiros-de-odemira-presentes-na-procissao-em-honra-da-nossa-senhora-da-piedade": {
+        "category": null,
+        "timestamp": "2025-09-11T16:21:50.408127+00:00",
+        "title": "Bombeiros de Odemira presentes na procissão em honra da Nossa Senhora da Piedade",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499519, Requested 1061. Please try again in 1m40.1208s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://odigital.sapo.pt/projeto-que-alia-musica-e-sustentabilidade-ambiental-marca-inicio-de-evora-2027/": {
+        "category": null,
+        "timestamp": "2025-09-11T16:21:57.261621+00:00",
+        "title": "Projeto que alia música e sustentabilidade ambiental marca início de Évora 2027",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499479, Requested 1059. Please try again in 1m32.9132s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/fundo-soberano-de-angola-supera-media-global-e-encerra-2024-com-retorno-de-8-68c2f22d57f9fb4848b1e697": {
+        "category": null,
+        "timestamp": "2025-09-11T16:21:57.348637+00:00",
+        "title": "Fundo Soberano de Angola supera média global e encerra 2024 com retorno de 8%",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499479, Requested 1056. Please try again in 1m32.3038s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/angolanos-dizem-que-nivel-de-desemprego-aumentou-nos-ultimos-12-meses-ine-68c2f1aa1a2a523ab7d27117": {
+        "category": null,
+        "timestamp": "2025-09-11T16:21:57.426145+00:00",
+        "title": "Angolanos dizem que nível de desemprego aumentou nos últimos 12 meses – INE",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499478, Requested 1056. Please try again in 1m32.2288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/notas-danificadas-o-banco-de-portugal-pode-devolver-o-valor-68c2f1a06e3aaa3606eebfb0": {
+        "category": null,
+        "timestamp": "2025-09-11T16:21:57.545041+00:00",
+        "title": "Notas danificadas? O Banco de Portugal pode devolver o valor",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499478, Requested 1049. Please try again in 1m30.9022s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://executivedigest.sapo.pt/portugal-vendas/asae-instaura-dois-processos-de-contraordenacao-devido-a-praticas-comerciais-desleais-em-vinhos-de-mesa/": {
+        "category": null,
+        "timestamp": "2025-09-11T16:21:57.920495+00:00",
+        "title": "ASAE instaura dois processos de contraordenação devido a práticas comerciais desleais em vinhos de m...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499475, Requested 1076. Please try again in 1m35.1938s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     }
 }
