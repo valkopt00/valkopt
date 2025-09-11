@@ -9493,7 +9493,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T13:50:03.686760+00:00",
+        "timestamp": "2025-09-11T14:17:05.676158+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -11161,6 +11161,90 @@
         "timestamp": "2025-09-11T13:50:24.542944+00:00",
         "title": "Embaixada da Ucrânia reconhece apoio humanitário da Fundação Eugénio de Almeida",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500029, Requested 1057. Please try again in 3m7.7382s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://estacaodiariajornal.sapo.pt/lamego-mais-um-premio-internacional-para-o-diabo-do-entrudo/": {
+        "category": "Cultura",
+        "timestamp": "2025-09-11T14:17:12.503546+00:00",
+        "title": "Lamego: Mais um prémio internacional para ‘O Diabo do Entrudo’",
+        "confidence": "exact"
+    },
+    "https://greensavers.sapo.pt/cientistas-confirmam-que-este-e-o-animal-com-mais-cromossomas-e-tentam-perceber-como-isso-aconteceu/": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-11T14:17:13.173385+00:00",
+        "title": "Cientistas confirmam que este é o animal com mais cromossomas e tentam perceber como isso aconteceu",
+        "confidence": "exact"
+    },
+    "https://tvc.sapo.pt/2025/09/11/camara-municipal-de-cantanhede-remodela-unidades-de-saude-de-bolho-e-sepins/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-11T14:17:14.484123+00:00",
+        "title": "Câmara Municipal de Cantanhede remodela Unidades de Saúde de Bolho e Sepins",
+        "confidence": "exact"
+    },
+    "https://centrotv.sapo.pt/jose-francisco-rolo-faz-apresentacao-publica-da-candidatura-juntos-no-rumo-certo/": {
+        "category": "Política",
+        "timestamp": "2025-09-11T14:17:15.898088+00:00",
+        "title": "José Francisco Rolo faz apresentação pública da candidatura “Juntos no Rumo Certo”",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/portugal-perde-uma-posicao-na-classificacao-na-categoria-de-estado-de-direito/": {
+        "category": "Política",
+        "timestamp": "2025-09-11T14:17:18.054828+00:00",
+        "title": "Portugal perde uma posição na classificação na categoria de Estado de Direito",
+        "confidence": "exact"
+    },
+    "https://sustentix.sapo.pt/vaca-angel-ve-uma-bolsa-feita-com-o-seu-proprio-couro-e-a-primeira-vez-que-um-animal-vivo-o-consegue-fazer/": {
+        "category": "Lifestyle",
+        "timestamp": "2025-09-11T14:17:29.650347+00:00",
+        "title": "Vaca “Angel” vê uma bolsa feita com o seu próprio couro. É a primeira vez que um animal vivo o conse...",
+        "confidence": "exact"
+    },
+    "https://odigital.sapo.pt/alentejo-acolhe-cerimonia-internacional-dos-seven-stars-luxury-awards/": {
+        "category": "Lifestyle",
+        "timestamp": "2025-09-11T14:17:56.028929+00:00",
+        "title": "Alentejo acolhe cerimónia internacional dos Seven Stars Luxury Awards",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/11/telles-assessora-transferencia-internacional-de-joelson-fernandes-do-hatayspor-para-o-gil-vicente/": {
+        "category": null,
+        "timestamp": "2025-09-11T14:17:56.453028+00:00",
+        "title": "TELLES assessora transferência internacional de Joelson Fernandes do Hatayspor para o Gil Vicente",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500146, Requested 1056. Please try again in 3m27.803s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/herdeiros-de-certificados-de-aforro-da-serie-a-vao-poder-receber-premio-em-dinheiro-68c2d65549aff0fd30754b1a": {
+        "category": null,
+        "timestamp": "2025-09-11T14:17:56.539952+00:00",
+        "title": "Herdeiros de certificados de aforro da série A vão poder receber prémio em dinheiro",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500146, Requested 1061. Please try again in 3m28.585s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://cidadehoje.sapo.pt/famalicao-grande-orgao-de-tubos-da-igreja-de-bairro-e-inaugurado-no-domingo/": {
+        "category": null,
+        "timestamp": "2025-09-11T14:17:59.495603+00:00",
+        "title": "Famalicão: Grande órgão de tubos da igreja de Bairro é inaugurado no domingo",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500128, Requested 1025. Please try again in 3m19.3992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://executivedigest.sapo.pt/portugal-vendas/ventura-acusa-marcelo-de-ir-a-festival-de-hamburgueres-que-na-verdade-e-festa-dos-cidadaos-em-berlim/": {
+        "category": null,
+        "timestamp": "2025-09-11T14:18:00.195037+00:00",
+        "title": "Ventura acusa Marcelo de ir a festival de hambúrgueres que na verdade é Festa dos Cidadãos em Berlim",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500124, Requested 1074. Please try again in 3m27.1674s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://executivedigest.sapo.pt/portugal-vendas/relatorio-salienta-morte-de-odair-moniz-como-sinal-de-inseguranca-em-portugal/": {
+        "category": null,
+        "timestamp": "2025-09-11T14:18:00.442986+00:00",
+        "title": "Relatório salienta morte de Odair Moniz como sinal de insegurança em Portugal",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500123, Requested 1063. Please try again in 3m25.0326s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://mundialfm.sapo.pt/homem-detido-por-conduzir-em-estado-de-embriaguez-2/": {
+        "category": null,
+        "timestamp": "2025-09-11T14:18:01.509426+00:00",
+        "title": "Homem detido por conduzir em estado de embriaguez",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500117, Requested 1041. Please try again in 3m20.152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     }
 }
