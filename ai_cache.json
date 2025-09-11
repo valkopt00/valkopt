@@ -9481,7 +9481,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-11T22:38:12.765553+00:00",
+        "timestamp": "2025-09-11T22:50:21.367315+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12513,7 +12513,7 @@
     },
     "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-09-11-o-artigo-a-seguir-e-o-elefante-em-franca-61f2f1b7": {
         "category": null,
-        "timestamp": "2025-09-11T22:38:20.944594+00:00",
+        "timestamp": "2025-09-11T22:50:28.170319+00:00",
         "title": "O artigo a seguir e o elefante em França",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12532,17 +12532,16 @@
         "confidence": "error"
     },
     "https://odigital.sapo.pt/caminhada-noturna-abre-festas-dos-capuchos-com-meio-milhar-de-pessoas-nao-ha-melhor-forma-de-comecar-c-fotos/": {
-        "category": null,
-        "timestamp": "2025-09-11T22:38:31.929099+00:00",
+        "category": "Cultura",
+        "timestamp": "2025-09-11T22:50:34.290675+00:00",
         "title": "Caminhada noturna abre Festas dos Capuchos em Vila Viçosa com meio milhar de pessoas: «Não há melhor...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499385, Requested 1078. Please try again in 1m19.8952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
+        "confidence": "exact"
     },
     "/artigo/andre-ventura-devera-ser-candidato-a-belem-68c343890e9d7127e2c2fb7d": {
         "category": null,
-        "timestamp": "2025-09-11T22:38:32.010180+00:00",
+        "timestamp": "2025-09-11T22:50:34.377139+00:00",
         "title": "André Ventura deverá ser candidato a Belém",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499384, Requested 1040. Please try again in 1m13.245799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500037, Requested 1040. Please try again in 3m6.1934s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://eco.sapo.pt/2025/09/11/rui-moreira-fora-da-corrida-a-belem/": {
@@ -12574,6 +12573,12 @@
         "category": "Mundo",
         "timestamp": "2025-09-11T22:38:28.186894+00:00",
         "title": "Ministro polaco diz que Trump precisa de compreender que Putin está a gozar com ele",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/euranet/2025/09/11/portugal-nao-pode-negar-o-alargamento-o-que-pode-e-precaver-se/439529/?utm_medium=rss": {
+        "category": "Política",
+        "timestamp": "2025-09-11T22:50:18.429791+00:00",
+        "title": "\"Portugal não pode negar o alargamento. O que pode é precaver-se\"",
         "confidence": "exact"
     }
 }
