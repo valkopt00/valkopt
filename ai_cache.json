@@ -14326,5 +14326,86 @@
         "title": "Governo palestiniano pede ajuda internacional face a operação israelita na Cisjordânia",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500137, Requested 1062. Please try again in 3m27.209s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
+    },
+    "https://sapo.pt/artigo/governo-dos-eua-processa-uber-por-discriminacao-contra-pessoas-com-deficiencia-68c405498497fe9ef64c4af6": {
+        "category": "Mundo",
+        "timestamp": "2025-09-12T11:50:15.038095+00:00",
+        "title": "Governo dos EUA processa Uber por discriminação contra pessoas com deficiência",
+        "confidence": "exact"
+    },
+    "/artigo/almada-esta-perto-de-ter-o-seu-unicornio-68c40643d4671fc1d67508cf": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-12T11:50:42.386467+00:00",
+        "title": "Almada está perto de ter o seu “unicórnio”?",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/12/telles-assessora-transferencia-de-lukebakio-do-sevilla-fc-para-o-benfica/": {
+        "category": "Desporto",
+        "timestamp": "2025-09-12T11:50:43.215276+00:00",
+        "title": "Telles assessora transferência de Lukebakio do Sevilla FC para o Benfica",
+        "confidence": "exact"
+    },
+    "https://radiocastelobranco.sapo.pt/conversa-sobre-rodas-10-09-2025/": {
+        "category": null,
+        "timestamp": "2025-09-12T11:50:44.576230+00:00",
+        "title": "Conversa Sobre Rodas – 10-09-2025",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499516, Requested 999. Please try again in 1m28.8346s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://radiocastelobranco.sapo.pt/castelo-branco-associa-se-a-semana-europeia-da-mobilidade/": {
+        "category": null,
+        "timestamp": "2025-09-12T11:50:45.015836+00:00",
+        "title": "Castelo Branco associa-se à Semana Europeia da Mobilidade",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499513, Requested 1049. Please try again in 1m37.0346s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://www.dnoticias.pt/2025/9/12/462546-psp-controlou-mais-de-61-mil-viaturas-por-radar-nos-ultimos-12-meses-na-madeira/": {
+        "category": null,
+        "timestamp": "2025-09-12T11:50:46.206652+00:00",
+        "title": "PSP controlou mais de 61 mil viaturas por radar nos últimos 12 meses na Madeira",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499506, Requested 1062. Please try again in 1m38.089999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://radiocastelobranco.sapo.pt/appacdm-de-castelo-branco-representada-nos-summer-games-2025-em-aveiro/": {
+        "category": null,
+        "timestamp": "2025-09-12T11:50:46.817160+00:00",
+        "title": "APPACDM de Castelo Branco representada nos Summer Games 2025 em Aveiro",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499503, Requested 1054. Please try again in 1m36.1036s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://www.dnoticias.pt/2025/9/12/462545-jpp-defende-plano-integrado-para-a-politica-de-habitacao/": {
+        "category": null,
+        "timestamp": "2025-09-12T11:50:47.694559+00:00",
+        "title": "JPP defende plano integrado para a política de habitação",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499498, Requested 1051. Please try again in 1m34.7012s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://www.rcangra.pt/noticia.php?id=2832": {
+        "category": null,
+        "timestamp": "2025-09-12T11:50:50.867521+00:00",
+        "title": "Entronizações Alcatra e Verdelho este sábado em Angra do Heroísmo",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499479, Requested 1039. Please try again in 1m29.4546s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://mundialfm.sapo.pt/mealhada-colocacao-de-desfibrilhadores-nos-recintos-desportivos/": {
+        "category": null,
+        "timestamp": "2025-09-12T11:50:52.117942+00:00",
+        "title": "Mealhada: Colocação de desfibrilhadores nos recintos desportivos",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499472, Requested 1048. Please try again in 1m29.7588s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://eco.sapo.pt/2025/09/12/governo-quer-concluir-inventario-dos-imoveis-do-estado-ate-ao-final-de-2026/": {
+        "category": null,
+        "timestamp": "2025-09-12T11:50:52.513018+00:00",
+        "title": "Governo quer concluir inventário dos imóveis do Estado até ao final de 2026",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499470, Requested 1058. Please try again in 1m31.091799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://www.dnoticias.pt/2025/9/12/462544-taca-da-madeira-de-orientacao-no-porto-moniz-com-56-equipas-inscritas/": {
+        "category": null,
+        "timestamp": "2025-09-12T11:50:55.677840+00:00",
+        "title": "Taça da Madeira de Orientação no Porto Moniz com 56 equipas inscritas",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499451, Requested 1059. Please try again in 1m28.0996s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
     }
 }
