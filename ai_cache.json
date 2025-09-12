@@ -9475,7 +9475,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-12T02:34:40.409521+00:00",
+        "timestamp": "2025-09-12T03:17:09.440966+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12507,7 +12507,7 @@
     },
     "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-09-11-o-artigo-a-seguir-e-o-elefante-em-franca-61f2f1b7": {
         "category": null,
-        "timestamp": "2025-09-12T02:34:48.606513+00:00",
+        "timestamp": "2025-09-12T03:17:16.822440+00:00",
         "title": "O artigo a seguir e o elefante em França",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12703,6 +12703,12 @@
         "category": "Política",
         "timestamp": "2025-09-12T01:14:19.739091+00:00",
         "title": "Filho de Bolsonaro chama \"farsa\" a julgamento e promete \"lutar até ao fim\"",
+        "confidence": "exact"
+    },
+    "https://www.dnoticias.pt/2025/9/12/462495-iberia-com-novos-destinos-e-mais-voos-para-o-brasil-na-temporada-de-inverno/": {
+        "category": "Economia",
+        "timestamp": "2025-09-12T03:17:24.116112+00:00",
+        "title": "Iberia com novos destinos e mais voos para o Brasil na temporada de Inverno",
         "confidence": "exact"
     }
 }
