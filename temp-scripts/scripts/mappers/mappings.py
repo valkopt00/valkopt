@@ -20,7 +20,7 @@ RSS_FEEDS = [
     "https://pt.ign.com/feed.xml",
     "https://lusometeo.com/feed/",
     "https://tek.sapo.pt/rss",
-    "https://www.sapo.pt/rss",
+    # "https://www.sapo.pt/rss",
     "https://caras.pt/feed/"
 ]
 
