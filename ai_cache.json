@@ -9475,7 +9475,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-12T04:40:15.351554+00:00",
+        "timestamp": "2025-09-12T04:50:25.457700+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12507,7 +12507,7 @@
     },
     "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-09-11-o-artigo-a-seguir-e-o-elefante-em-franca-61f2f1b7": {
         "category": null,
-        "timestamp": "2025-09-12T04:40:24.292479+00:00",
+        "timestamp": "2025-09-12T04:50:36.666412+00:00",
         "title": "O artigo a seguir e o elefante em França",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12709,6 +12709,18 @@
         "category": "Economia",
         "timestamp": "2025-09-12T03:17:24.116112+00:00",
         "title": "Iberia com novos destinos e mais voos para o Brasil na temporada de Inverno",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/francisco-sarsfield-cabral/2025/09/12/franca-em-ebulicao/439537/?utm_medium=rss": {
+        "category": "Mundo",
+        "timestamp": "2025-09-12T04:50:21.378732+00:00",
+        "title": "​França em ebulição",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/ribeiro-cristovao/2025/09/12/regressa-a-liga-e-os-seus-problemas/439538/?utm_medium=rss": {
+        "category": "Desporto",
+        "timestamp": "2025-09-12T04:50:22.397880+00:00",
+        "title": "Regressa a Liga e os seus problemas",
         "confidence": "exact"
     }
 }
