@@ -9475,7 +9475,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-12T08:44:15.335325+00:00",
+        "timestamp": "2025-09-12T08:54:43.561879+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -13394,5 +13394,79 @@
         "timestamp": "2025-09-12T08:47:17.989714+00:00",
         "title": "Secretário de Estado mantém-se sócio de empresa com imóvel de luxo na Golegã não declarado à Entidad...",
         "confidence": "exact"
+    },
+    "https://ionline.sapo.pt/2025/09/12/o-eterno-problema-do-carrossel-do-iva-sem-solucao-a-vista/": {
+        "category": "Economia",
+        "timestamp": "2025-09-12T08:54:40.009367+00:00",
+        "title": "O eterno problema do Carrossel do IVA sem solução à vista",
+        "confidence": "exact"
+    },
+    "https://centrotv.sapo.pt/homem-detido-para-cumprir-quatro-anos-de-prisao-efetiva-em-caldas-da-rainha/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-12T08:54:51.456429+00:00",
+        "title": "Homem detido para cumprir quatro anos de prisão efetiva em Caldas da Rainha",
+        "confidence": "exact"
+    },
+    "https://correiodeazemeis.sapo.pt/noticias/merche-romero-e-carolina-torres-no-cartaz": {
+        "category": "Cultura",
+        "timestamp": "2025-09-12T08:54:53.327719+00:00",
+        "title": "Merche Romero e Carolina Torres no cartaz",
+        "confidence": "exact"
+    },
+    "https://radiosines.sapo.pt/noticias/cristovao-carvalho-chega-a-sines-para-esclarecer-benfiquistas": {
+        "category": null,
+        "timestamp": "2025-09-12T08:54:54.637028+00:00",
+        "title": "Cristóvão Carvalho chega a Sines para esclarecer Benfiquistas",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499968, Requested 1052. Please try again in 2m56.1556s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://maisbeiras.sapo.pt/sabugal-muralhas-com-historia-2025-2": {
+        "category": null,
+        "timestamp": "2025-09-12T08:54:57.404153+00:00",
+        "title": "Sabugal: Muralhas com História 2025",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499952, Requested 1038. Please try again in 2m50.9684s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://www.dnoticias.pt/2025/9/12/462520-menino-ferido-num-joelho-apos-queda-em-aula-de-educacao-fisica/": {
+        "category": null,
+        "timestamp": "2025-09-12T08:54:57.853066+00:00",
+        "title": "Menino ferido num joelho após queda em aula de educação física",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499949, Requested 1043. Please try again in 2m51.3834s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://rcaguiarense.sapo.pt/o-novo-ano-letivo-ja-arrancou-em-vila-pouca-de-aguiar/": {
+        "category": null,
+        "timestamp": "2025-09-12T08:54:58.654164+00:00",
+        "title": "O novo ano letivo já arrancou em Vila Pouca de Aguiar",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499945, Requested 1046. Please try again in 2m51.1028s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://executivedigest.sapo.pt/portugal-vendas/elevador-da-gloria-mudanca-para-cabo-com-nucleo-em-fibra-pode-ter-dado-origem-a-tragedia/": {
+        "category": null,
+        "timestamp": "2025-09-12T08:54:59.057632+00:00",
+        "title": "Elevador da Glória: mudança para cabo com “núcleo em fibra” pode ter dado origem à tragédia",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499942, Requested 1071. Please try again in 2m55.019799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://executivedigest.sapo.pt/bs-world/maximo-historico-chega-passa-ad-e-lidera-intencoes-de-votos-pela-primeira-vez/": {
+        "category": null,
+        "timestamp": "2025-09-12T08:54:59.311431+00:00",
+        "title": "Máximo histórico: Chega passa AD e lidera intenções de votos pela primeira vez",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499941, Requested 1062. Please try again in 2m53.2076s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://executivedigest.sapo.pt/noticias/ser-lider-e-uma-funcao-muito-elastica-mario-barros-do-grupo-ingka/": {
+        "category": null,
+        "timestamp": "2025-09-12T08:54:59.566096+00:00",
+        "title": "“Ser líder é uma função muito elástica” Mário Barros, do Grupo Ingka",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499939, Requested 1057. Please try again in 2m52.0896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://hrportugal.sapo.pt/depois-dos-despedimentos-gigante-tecnologica-volta-atras-e-define-nova-politica-de-regresso-ao-escritorio/": {
+        "category": null,
+        "timestamp": "2025-09-12T08:55:00.292454+00:00",
+        "title": "Depois dos despedimentos, gigante tecnológica volta atrás e define nova política de regresso ao escr...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499935, Requested 1072. Please try again in 2m53.9586s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
     }
 }
