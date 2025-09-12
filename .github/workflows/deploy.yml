@@ -114,7 +114,7 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           export PYTHONPATH=$(pwd)/temp-scripts
-          python temp-scripts/scripts/removals/remove_articles.py
+          # python temp-scripts/scripts/removals/remove_articles.py
           python temp-scripts/scripts/core/main.py
 
 
