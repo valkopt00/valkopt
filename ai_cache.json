@@ -9475,7 +9475,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-12T05:38:52.333955+00:00",
+        "timestamp": "2025-09-12T05:49:59.699413+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12507,7 +12507,7 @@
     },
     "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-09-11-o-artigo-a-seguir-e-o-elefante-em-franca-61f2f1b7": {
         "category": null,
-        "timestamp": "2025-09-12T05:38:59.922765+00:00",
+        "timestamp": "2025-09-12T05:50:13.627200+00:00",
         "title": "O artigo a seguir e o elefante em França",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -12751,6 +12751,24 @@
         "category": "Nacional",
         "timestamp": "2025-09-12T05:39:07.655548+00:00",
         "title": "Qual é o concelho mais jovem do país? E o mais pequeno? Um retrato de Portugal em sete temas essenci...",
+        "confidence": "exact"
+    },
+    "https://greensavers.sapo.pt/pan-defende-projeto-de-10-milhoes-de-euros-para-identificar-e-detetar-incendios-de-forma-precoce/": {
+        "category": "Política",
+        "timestamp": "2025-09-12T05:50:15.945094+00:00",
+        "title": "PAN defende projeto de 10 milhões de euros para  identificar e detetar incêndios de forma precoce",
+        "confidence": "exact"
+    },
+    "https://sustentix.sapo.pt/o-polvo-sabe-sempre-qual-e-o-melhor-braco-a-usar-cada-braco-sua-tarefa/": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-12T05:50:17.853249+00:00",
+        "title": "O polvo sabe sempre qual é o melhor braço a usar. Cada braço, sua tarefa!",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/portugal-vendas/verao-esta-de-regresso-a-partir-deste-fim-de-semana-saiba-quando-e-onde-fara-mais-calor/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-12T05:50:20.597513+00:00",
+        "title": "Verão está de regresso a partir deste fim de semana: saiba quando e onde fará mais calor",
         "confidence": "exact"
     }
 }
