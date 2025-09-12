@@ -14407,5 +14407,77 @@
         "title": "Taça da Madeira de Orientação no Porto Moniz com 56 equipas inscritas",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499451, Requested 1059. Please try again in 1m28.0996s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
+    },
+    "https://hrportugal.sapo.pt/cgtp-in-reivindica-aumento-salarial-de-15-e-salario-minimo-de-1050-euros-ja-em-janeiro/": {
+        "category": "Política",
+        "timestamp": "2025-09-12T12:34:00.425043+00:00",
+        "title": "CGTP-IN reivindica aumento salarial de 15% e salário mínimo de 1050 euros já em Janeiro",
+        "confidence": "exact"
+    },
+    "/artigo/tribunal-de-justica-da-uniao-europeia-reconhece-direitos-de-investidores-com-processos-contra-banco-popular-68c4103c8497fe9ef64e4ebd": {
+        "category": "Política",
+        "timestamp": "2025-09-12T12:34:00.951756+00:00",
+        "title": "Tribunal de Justiça da União Europeia reconhece direitos de investidores com processos contra Banco ...",
+        "confidence": "exact"
+    },
+    "https://odigital.sapo.pt/transito-cortado-na-en2-em-mora-devido-a-colisao-com-tres-vitimas-em-avaliacao/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-12T12:34:04.318864+00:00",
+        "title": "Trânsito cortado na EN2 em Mora devido a colisão com três vítimas em avaliação",
+        "confidence": "exact"
+    },
+    "/artigo/colisao-de-buracos-negros-confirma-previsoes-de-einstein-e-hawking-68c40fadd4671fc1d676aafa": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-12T12:34:04.714012+00:00",
+        "title": "Colisão de buracos negros confirma previsões de Einstein e Hawking",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/noticias/explicador-de-collor-de-melo-a-bolsonaro-presidentes-do-brasil-nao-saem-da-malha-da-justica/": {
+        "category": "Política",
+        "timestamp": "2025-09-12T12:34:06.139090+00:00",
+        "title": "Explicador. De Collor de Melo a Bolsonaro: presidentes do Brasil não saem da malha da Justiça",
+        "confidence": "exact"
+    },
+    "https://www.dnoticias.pt/2025/9/12/462551-semana-tematica-vinhos-e-artesanato-da-madeira-de-22-a-26-de-setembro/": {
+        "category": "Cultura",
+        "timestamp": "2025-09-12T12:34:14.511574+00:00",
+        "title": "Semana temática 'Vinhos e Artesanato da Madeira' de 22 a 26 de Setembro",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/12/revisores-fazem-contas-a-ia-e-supervisao-em-congresso-no-porto/": {
+        "category": "Economia",
+        "timestamp": "2025-09-12T12:34:26.218795+00:00",
+        "title": "Revisores fazem contas à IA e supervisão em Congresso no Porto",
+        "confidence": "exact"
+    },
+    "/artigo/a-fintech-sueca-klarna-lanca-ipo-em-nova-iorque-e-deixa-de-ser-um-unicornio-68c40caed2b5f22c4bafca83": {
+        "category": "Economia",
+        "timestamp": "2025-09-12T12:34:38.432608+00:00",
+        "title": "A fintech sueca Klarna lança IPO em Nova Iorque e deixa de ser um unicórnio",
+        "confidence": "exact"
+    },
+    "https://www.dnoticias.pt/2025/9/12/462550-chega-apresenta-equipa-candidata-a-sao-vicente-com-experiencia-competencia-e-compromisso/": {
+        "category": "Política",
+        "timestamp": "2025-09-12T12:34:51.322845+00:00",
+        "title": "Chega apresenta equipa candidata a São Vicente com \"experiência, competência e compromisso\"",
+        "confidence": "exact"
+    },
+    "https://odigital.sapo.pt/beja-abertas-candidaturas-a-microcredenciais-em-enfermagem-no-ipbeja/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-12T12:35:02.404499+00:00",
+        "title": "Beja: Abertas candidaturas a microcredenciais em enfermagem no IPBeja",
+        "confidence": "exact"
+    },
+    "https://maisbeiras.sapo.pt/instituto-politecnico-de-viseu-lid-laboratorio-de-investigacao-e-desenvolvimento": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-12T12:35:15.562592+00:00",
+        "title": "Instituto Politécnico de Viseu: LID – Laboratório de Investigação e Desenvolvimento",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/bs-world/acidente-elevador-moedas-pede-que-nao-se-tirem-conclusoes-precipitadas/": {
+        "category": "Política",
+        "timestamp": "2025-09-12T12:35:29.007549+00:00",
+        "title": "Acidente/Elevador: Moedas pede que “não se tirem conclusões precipitadas”",
+        "confidence": "exact"
     }
 }
