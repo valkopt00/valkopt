@@ -14479,5 +14479,128 @@
         "timestamp": "2025-09-12T12:35:29.007549+00:00",
         "title": "Acidente/Elevador: Moedas pede que “não se tirem conclusões precipitadas”",
         "confidence": "exact"
+    },
+    "https://www.rtp.pt/noticias/rtpeuropa-comissao-europeia/dmytro-tuzhanskyi-conselheiro-politico-do-ministerio-dos-negocios-estrangeiros-da-ucrania-vladimir-putin-quer-destruir-a-ucrania-por-dentro_v1683141": {
+        "category": "Mundo",
+        "timestamp": "2025-09-12T13:06:08.995581+00:00",
+        "title": "Dmytro Tuzhanskyi, conselheiro político do Ministério dos Negócios Estrangeiros da Ucrânia: \"Vladimi...",
+        "confidence": "exact"
+    },
+    "https://odigital.sapo.pt/projeto-de-lactoturismo-quer-dar-a-conhecer-todo-o-processo-de-fabrico-dos-queijos-em-reg-de-monsaraz/": {
+        "category": "Cultura",
+        "timestamp": "2025-09-12T13:06:40.025218+00:00",
+        "title": "Projeto de lactoturismo quer dar a «conhecer» todo o processo de «fabrico dos queijos» em Reg. de Mo...",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/12/armani-vai-vender-para-ja-15-da-marca-a-grande-grupo-de-luxo/": {
+        "category": "Economia",
+        "timestamp": "2025-09-12T13:06:42.491610+00:00",
+        "title": "Armani vai vender (para já) 15% da marca a grande grupo de luxo",
+        "confidence": "exact"
+    },
+    "https://maisbeiras.sapo.pt/iv-jornadas-iniciais-de-formacao-af-castelo-branco-programa-definido-e-inscricoes-abertas": {
+        "category": "Desporto",
+        "timestamp": "2025-09-12T13:06:45.786776+00:00",
+        "title": "IV Jornadas Iniciais de Formação AF Castelo Branco: Programa definido e inscrições abertas",
+        "confidence": "exact"
+    },
+    "/artigo/sete-detidos-em-leiria-por-trafico-de-crack-dois-ficam-em-prisao-preventiva-68c4159de182fd5643732b51": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-12T13:06:46.667571+00:00",
+        "title": "Sete detidos em Leiria por tráfico de crack: dois ficam em prisão preventiva",
+        "confidence": "exact"
+    },
+    "/artigo/bolsonaro-condenado-o-que-se-segue-agora-68c41556d4671fc1d677a0ad": {
+        "category": "Política",
+        "timestamp": "2025-09-12T13:06:47.782187+00:00",
+        "title": "Bolsonaro condenado: o que se segue agora?",
+        "confidence": "exact"
+    },
+    "https://eco.sapo.pt/2025/09/12/moedas-nao-quer-especular-mas-decisao-ha-seis-anos-pode-ter-tido-impacto-no-elevador-da-gloria/": {
+        "category": "Economia",
+        "timestamp": "2025-09-12T13:06:53.379518+00:00",
+        "title": "Moedas “não quer especular”, mas “decisão há seis anos pode ter tido impacto” no elevador da Glória",
+        "confidence": "exact"
+    },
+    "https://hrportugal.sapo.pt/aulas-arrancam-ainda-sem-todos-os-professores-colocados/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-12T13:07:05.774369+00:00",
+        "title": "Aulas arrancam ainda sem todos os professores colocados",
+        "confidence": "exact"
+    },
+    "https://azemeisnet.sapo.pt/vai-surgir-um-novo-ginasio-de-uma-cadeia-multinacional-no-centro-de-oliveira-de-azemeis/": {
+        "category": "Desporto",
+        "timestamp": "2025-09-12T13:07:19.838995+00:00",
+        "title": "Vai surgir um novo ginásio de uma cadeia multinacional no centro de Oliveira de Azeméis",
+        "confidence": "exact"
+    },
+    "https://noticiasdeagueda.sapo.pt/2025/09/12/uniao-desportiva-mourisquense-apresenta-planteis-de-juniores-e-seniores-em-jogos-de-preparacao/": {
+        "category": "Desporto",
+        "timestamp": "2025-09-12T13:07:29.805932+00:00",
+        "title": "União Desportiva Mourisquense apresenta plantéis de juniores e seniores em jogos de preparação",
+        "confidence": "exact"
+    },
+    "https://www.dnoticias.pt/2025/9/12/462554-chega-quer-recuperacao-das-casas-devolutas-na-ribeira-brava/": {
+        "category": null,
+        "timestamp": "2025-09-12T13:07:30.850989+00:00",
+        "title": "Chega quer recuperação das casas devolutas na Ribeira Brava",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499862, Requested 1050. Please try again in 2m37.5854s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://jornaleconomico.sapo.pt/noticias/fusoes-e-aquisicoes-em-portugal-movimentam-55-mil-milhoes-ate-agosto-menos-39/": {
+        "category": null,
+        "timestamp": "2025-09-12T13:07:31.952684+00:00",
+        "title": "Fusões e Aquisições em Portugal movimentam 5,5 mil milhões até agosto menos 39%",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499856, Requested 1063. Please try again in 2m38.7288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://sol.sapo.pt/2025/09/12/elevadores-presos-por-um-fio/": {
+        "category": null,
+        "timestamp": "2025-09-12T13:07:33.226037+00:00",
+        "title": "Elevadores. Presos por um fio",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499849, Requested 1030. Please try again in 2m31.7534s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/macron-no-fim-da-linha-uma-morte-chocante-nos-eua-e-o-mercado-a-castigar-a-apple-na-semana-em-que-o-sapo-renasce-nao-perca-o-sapod-68c412db8497fe9ef64ee299": {
+        "category": null,
+        "timestamp": "2025-09-12T13:07:33.336792+00:00",
+        "title": "Macron no fim da linha, uma morte chocante nos EUA e o mercado a castigar a Apple, na semana em que ...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499848, Requested 1086. Please try again in 2m41.3252s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://maisbeiras.sapo.pt/viseu-inscricoes-abertas-para-o-s4-congress-2025-14-e-15-de-outubro": {
+        "category": null,
+        "timestamp": "2025-09-12T13:07:35.916028+00:00",
+        "title": "Viseu: Inscrições abertas para o S4 Congress 2025 – 14 e 15 de outubro",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499833, Requested 1054. Please try again in 2m33.2116s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://jornaleconomico.sapo.pt/noticias/stec-acusa-cgd-de-continuar-a-violar-direito-ao-teletrabalho-em-parentalidade-caixa-diz-que-estao-180-nesse-regime/": {
+        "category": null,
+        "timestamp": "2025-09-12T13:07:36.470247+00:00",
+        "title": "STEC acusa CGD de “continuar” a violar direito ao teletrabalho em parentalidade. Caixa diz que estão...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499830, Requested 1081. Please try again in 2m37.3302s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "/artigo/trump-diz-haver-elevado-grau-de-certeza-de-que-suspeito-do-homicidio-de-charlie-kirk-esta-detido-68c410b1d2b5f22c4bb0ae8a": {
+        "category": null,
+        "timestamp": "2025-09-12T13:07:36.581127+00:00",
+        "title": "Trump diz haver “elevado grau de certeza” de que suspeito do homicídio de Charlie Kirk está detido",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499829, Requested 1068. Please try again in 2m34.966799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://noticiasdosorraia.sapo.pt/ultima-hora-acidente-grave-corta-en2-em-mora/": {
+        "category": null,
+        "timestamp": "2025-09-12T13:07:38.233026+00:00",
+        "title": "ÚLTIMA HORA – Acidente grave corta EN2  em Mora",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499820, Requested 1041. Please try again in 2m28.6482s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
+    },
+    "https://eco.sapo.pt/2025/09/12/estado-avalia-interessados-nos-casinos-de-espinho-povoa-e-algarve-atrasar-concurso-seria-risco-para-calendario-de-concessoes/": {
+        "category": null,
+        "timestamp": "2025-09-12T13:07:39.527488+00:00",
+        "title": "Estado avalia interessados nos casinos de Espinho, Póvoa e Algarve. Atrasar concurso seria “risco” p...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499812, Requested 1084. Please try again in 2m34.784599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+        "confidence": "error"
     }
 }
