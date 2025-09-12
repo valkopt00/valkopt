@@ -1,46 +1,4 @@
 {
-    "https://amiranda.pt/pele/artigos/de-um-boost-ao-seu-verao-chegou-o-novo-creme-corporal-para-uma-pele-firme-tonificada-e-irresistivel": {
-        "category": "Lifestyle",
-        "timestamp": "2025-09-07T15:14:27.927182+00:00",
-        "title": "O segredo para uma pele com atitude? Firmeza, hidratação e um toque irresistível",
-        "confidence": "exact"
-    },
-    "https://amiranda.pt/pele/artigos/ola-patches-adeus-borbulhas-conheca-a-novidade-que-promete-uma-solucao-eficaz-e-discreta-em-apenas-3-horas": {
-        "category": "Lifestyle",
-        "timestamp": "2025-09-07T15:14:30.698053+00:00",
-        "title": "Imperfeições? Conheça esta resolução rápida, eficaz e quase invisível",
-        "confidence": "exact"
-    },
-    "https://executivedigest.sapo.pt/noticias/tem-alguma-destas-cassetes-guardadas-se-as-vender-pode-ganhar-dinheiro-suficiente-para-comprar-uma-casa/": {
-        "category": "Cultura",
-        "timestamp": "2025-09-07T15:14:33.538723+00:00",
-        "title": "Tem alguma destas cassetes guardadas? Se as vender pode ganhar dinheiro suficiente para comprar uma ...",
-        "confidence": "exact"
-    },
-    "https://odigital.sapo.pt/cubo-integro-investe-22-milhoes-em-campo-maior-e-cria-80-empregos/": {
-        "category": "Economia",
-        "timestamp": "2025-09-07T15:14:38.382419+00:00",
-        "title": "Cubo Íntegro investe 22 milhões em Campo Maior e cria 80 empregos",
-        "confidence": "exact"
-    },
-    "/artigo/pavilhao-de-portugal-na-expo-2025-osaka-pode-ganhar-varios-premios-esta-nomeado-em-cinco-categorias-68bd9df9a456a71ca4aced65": {
-        "category": "Cultura",
-        "timestamp": "2025-09-07T15:14:39.564622+00:00",
-        "title": "Pavilhão de Portugal na Expo 2025 Osaka pode ganhar vários prémios. Está nomeado em cinco categorias",
-        "confidence": "exact"
-    },
-    "https://correiodeazemeis.sapo.pt/noticias/leandro-silva-chega-e-o-mais-novo-do-candidatos-a-lideranca-de-uma-freguesia": {
-        "category": "Política",
-        "timestamp": "2025-09-07T15:14:42.037611+00:00",
-        "title": "Leandro Silva (Chega) é o mais novo do candidatos à liderança de uma freguesia",
-        "confidence": "exact"
-    },
-    "https://sol.sapo.pt/2025/09/07/nao-sou-federalista-mas/": {
-        "category": "Opinião",
-        "timestamp": "2025-09-07T15:14:53.057557+00:00",
-        "title": "Não sou federalista, mas…",
-        "confidence": "exact"
-    },
     "https://centrotv.sapo.pt/jovem-de-26-anos-morre-em-acidente-de-viacao-2/": {
         "category": "Sociedade",
         "timestamp": "2025-09-07T15:28:57.657850+00:00",
@@ -14361,5 +14319,11 @@
         "title": "Espumantes da Casa de Santar Vinha dos Amores repetem Ouro no Concurso Vinho do Dão",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500097, Requested 1059. Please try again in 3m19.7732s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
+    },
+    "https://www.publico.pt/2025/09/12/terroir/reportagem/unica-adega-cooperativa-algarve-sai-edificio-historico-futuro-incerto-2146697": {
+        "category": "Cultura",
+        "timestamp": "2025-09-12T15:20:46.269501+00:00",
+        "title": "A Única, adega cooperativa do Algarve, sai de edifício histórico para futuro incerto",
+        "confidence": "exact"
     }
 }
