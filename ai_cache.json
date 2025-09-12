@@ -9475,7 +9475,7 @@
     },
     "/artigo/no-slug-68c2121949337650269da0ae": {
         "category": null,
-        "timestamp": "2025-09-12T07:36:50.962356+00:00",
+        "timestamp": "2025-09-12T07:49:59.550529+00:00",
         "title": "A Candidata",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -13111,6 +13111,60 @@
         "category": "Ciência e Tech",
         "timestamp": "2025-09-12T07:38:48.994785+00:00",
         "title": "O novo ADN do talento: qual é a importância dos perfis tecnológicos?",
+        "confidence": "exact"
+    },
+    "https://jornaleconomico.sapo.pt/noticias/27-anos-e-3-meses-de-prisao-jair-bolsonaro-condenado-por-tentativa-de-golpe-de-estado/": {
+        "category": "Política",
+        "timestamp": "2025-09-12T07:50:10.744994+00:00",
+        "title": "27 anos e 3 meses de prisão: Jair Bolsonaro condenado por tentativa de golpe de Estado",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/sapo-internacional/fbi-divulga-video-de-suspeito-de-homicidio-do-ativista-da-direita-radical-americana/": {
+        "category": "Mundo",
+        "timestamp": "2025-09-12T07:50:12.714014+00:00",
+        "title": "FBI divulga vídeo de suspeito de homicídio do ativista da direita radical americana",
+        "confidence": "exact"
+    },
+    "https://executivedigest.sapo.pt/portugal-vendas/psp-registou-2-521-furtos-a-casas-no-primeiro-semestre-menos-do-que-em-2024/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-12T07:50:13.382716+00:00",
+        "title": "PSP registou 2.521 furtos a casas no primeiro semestre, menos do que em 2024",
+        "confidence": "exact"
+    },
+    "https://noticiasdeagueda.sapo.pt/2025/09/12/pj-detem-tres-suspeitos-de-sequestro-em-agueda-vitima-esteve-tres-dias-fechada-num-sotao-em-leiria/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-12T07:50:15.748314+00:00",
+        "title": "PJ detém três suspeitos de sequestro em Águeda: vítima esteve três dias fechada num sótão em Leiria",
+        "confidence": "exact"
+    },
+    "https://sustentix.sapo.pt/numero-de-pessoas-com-100-ou-mais-chega-quase-aos-100-mil-no-japao/": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-12T07:50:16.935213+00:00",
+        "title": "Número de pessoas com 100 ou mais chega quase aos 100 mil no Japão",
+        "confidence": "exact"
+    },
+    "https://www.dnoticias.pt/2025/9/12/462511-acidente-na-avenida-cidade-nova/": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-12T07:50:24.654570+00:00",
+        "title": "Acidente na Avenida Cidade Nova",
+        "confidence": "exact"
+    },
+    "https://canalalentejo.sapo.pt/ventura-acusa-marcelo-de-ir-a-festival-de-hamburgueres-mas-tratava-se-da-festa-dos-cidadaos/": {
+        "category": "Política",
+        "timestamp": "2025-09-12T07:50:37.094308+00:00",
+        "title": "Ventura acusa Marcelo de ir a festival de “hambúrgueres” mas tratava-se da “Festa dos Cidadãos”",
+        "confidence": "exact"
+    },
+    "https://jornaleconomico.sapo.pt/noticias/bolsa-de-lisboa-abre-no-verde-em-linha-com-europa-15/": {
+        "category": "Economia",
+        "timestamp": "2025-09-12T07:50:53.884969+00:00",
+        "title": "Bolsa de Lisboa abre no verde em linha com Europa",
+        "confidence": "exact"
+    },
+    "https://jornaleconomico.sapo.pt/noticias/sporting-sad-ve-lucro-crescer-66-para-20-milhoes-de-euros-na-epoca-2024-25/": {
+        "category": "Economia",
+        "timestamp": "2025-09-12T07:51:03.003005+00:00",
+        "title": "Sporting SAD vê lucro crescer 66% para 20 milhões de euros na época 2024/25",
         "confidence": "exact"
     }
 }
