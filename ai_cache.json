@@ -6,24 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://www.rtp.pt/noticias/hoquei/portugal-goleado-pela-espanha-por-8-1-no-europeu-feminino-de-hoquei-em-patins_d1682806": {
-        "category": "Desporto",
-        "timestamp": "2025-09-10T23:15:12.430688+00:00",
-        "title": "Portugal goleado pela Espanha por 8-1 no Europeu feminino de hóquei em patins",
-        "confidence": "exact"
-    },
-    "https://jornaleconomico.sapo.pt/noticias/zelensky-lamenta-falta-de-acao-do-ocidente-perante-drones-russos-na-polonia/": {
-        "category": "Mundo",
-        "timestamp": "2025-09-10T23:15:17.656211+00:00",
-        "title": "Zelensky lamenta “falta de ação” do Ocidente perante drones russos na Polónia",
-        "confidence": "exact"
-    },
-    "/artigo/quem-era-charlie-kirk-o-aliado-de-trump-que-era-um-fenomeno-nas-redes-sociais-68c202dd8bb55c4ffd6c74d4": {
-        "category": "Mundo",
-        "timestamp": "2025-09-10T23:15:25.005682+00:00",
-        "title": "Quem era Charlie Kirk? O aliado de Trump que era um fenómeno nas redes sociais",
-        "confidence": "exact"
-    },
     "/artigo/reino-unido-e-ucrania-unem-se-para-desenvolver-equipamento-militar-avancado-68c207f0ce664a01858084f0": {
         "category": "Mundo",
         "timestamp": "2025-09-10T23:28:54.052647+00:00",
@@ -5734,6 +5716,12 @@
         "category": "Desporto",
         "timestamp": "2025-09-15T22:52:20.735040+00:00",
         "title": "A classe de Pote e o impacto de Suárez, o início perfeito do FC Porto e as dúvidas na Luz",
+        "confidence": "exact"
+    },
+    "https://rr.pt/bola-branca/artigo/tertulia-bola-branca/2025/09/15/a-categoria-de-pote-e-o-impacto-de-suarez-o-inicio-perfeito-do-fc-porto-e-as-duvidas-na-luz/439952/?utm_medium=rss": {
+        "category": "Desporto",
+        "timestamp": "2025-09-15T23:18:01.600111+00:00",
+        "title": "A categoria de Pote e o impacto de Suárez, o início perfeito do FC Porto e as dúvidas na Luz",
         "confidence": "exact"
     }
 }
