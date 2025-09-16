@@ -12,49 +12,6 @@
         "title": "Como é que a inteligência artificial tornou Larry Ellison o homem mais rico do mundo?",
         "confidence": "exact"
     },
-    "https://eco.sapo.pt/2025/09/11/ja-ha-maioria-para-condenar-bolsonaro-por-golpe-de-estado/": {
-        "category": null,
-        "timestamp": "2025-09-11T20:16:31.711426+00:00",
-        "title": "Já há maioria para condenar Bolsonaro por golpe de Estado",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499423, Requested 1047. Please try again in 1m21.2008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://www.rtp.pt/noticias/lusa/direcao-de-escola-demite-se-apos-virem-a-publico-denuncias-de-alegados-abusos-por-professores_n1683058": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-11T20:15:54.542214+00:00",
-        "title": "Direção de escola demite-se após virem a público denúncias de alegados abusos por professores",
-        "confidence": "exact"
-    },
-    "https://sapo.pt/artigo/gabinete-de-jorge-coelho-sabia-de-problemas-na-ponte-de-entre-os-rios-afirma-ex-autarca-de-castelo-de-paiva-68c327fad4671fc1d65c6d3f": {
-        "category": "Política",
-        "timestamp": "2025-09-11T20:15:59.284368+00:00",
-        "title": "Gabinete de Jorge Coelho sabia de problemas na ponte de Entre-os-Rios, afirma ex-autarca de Castelo ...",
-        "confidence": "exact"
-    },
-    "https://sapo.pt/artigo/eurodreams-conheca-aqui-a-chave-que-lhe-pode-valer-cerca-de-20-mil-euros-mensais-68c3256be182fd5643570b8e": {
-        "category": "Economia",
-        "timestamp": "2025-09-11T20:16:07.385702+00:00",
-        "title": "Eurodreams: conheça aqui a chave que lhe pode valer cerca de 20 mil euros mensais",
-        "confidence": "exact"
-    },
-    "https://sapo.pt/artigo/moedas-desnorteado-sem-saber-o-que-fazer-por-causa-da-tragedia-em-lisboa-partiu-para-o-ataque-e-cedeu-a-pressao-68c323658497fe9ef632b5e0": {
-        "category": "Política",
-        "timestamp": "2025-09-11T20:16:10.415112+00:00",
-        "title": "Moedas “desnorteado, sem saber o que fazer” por causa da tragédia em Lisboa “partiu para o ataque e ...",
-        "confidence": "exact"
-    },
-    "/artigo/transportes-intermunicipais-de-coimbra-so-tem-passe-intermodal-em-2026-68c32acf0e9d7127e2bf46d0": {
-        "category": "Nacional",
-        "timestamp": "2025-09-11T20:16:15.152118+00:00",
-        "title": "Transportes intermunicipais de Coimbra só tem passe intermodal em 2026",
-        "confidence": "exact"
-    },
-    "https://hrportugal.sapo.pt/como-garantir-que-nao-fica-viciado-no-chatgpt-evitando-perder-capacidade-intelectual/": {
-        "category": "Ciência e Tech",
-        "timestamp": "2025-09-11T20:16:20.289853+00:00",
-        "title": "Como garantir que não fica viciado no ChatGPT (evitando perder capacidade intelectual)",
-        "confidence": "exact"
-    },
     "https://odigital.sapo.pt/montado-de-sobro-do-alentejo-inspira-novas-historias-de-banda-desenhada/": {
         "category": "Cultura",
         "timestamp": "2025-09-11T20:37:46.653706+00:00",
@@ -2807,6 +2764,12 @@
         "category": "Ciência e Tech",
         "timestamp": "2025-09-16T19:16:46.885796+00:00",
         "title": "“A ideologia fornece um guião para viver e soluções simples para problemas complexos. Obriga a pensa...",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/da-capa-a-contracapa/2025/09/16/porque-ha-desigualdades-no-acesso-a-saude-em-portugal/440075/?utm_medium=rss": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-16T20:22:44.034941+00:00",
+        "title": "Porque há desigualdades no acesso à saúde em Portugal?",
         "confidence": "exact"
     }
 }
