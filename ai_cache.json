@@ -1,47 +1,4 @@
 {
-    "/artigo/no-slug-68c17367a5e00d94cd285464": {
-        "category": null,
-        "timestamp": "2025-09-11T06:25:59.939970+00:00",
-        "title": "A pequena percentagem",
-        "raw_response": "Outras Notícias",
-        "confidence": "failed"
-    },
-    "https://rr.pt/especial/hora-da-verdade/2025/09/11/carneiro-ameaca-recorrer-a-marcelo-para-travar-lei-laboral-e-desafia-governo-no-oe-tem-de-decidir-se-quer-ficar-no-colo-do-chega/439342/?utm_medium=rss": {
-        "category": "Política",
-        "timestamp": "2025-09-11T06:25:55.662644+00:00",
-        "title": "Carneiro ameaça recorrer a Marcelo para travar lei laboral e desafia Governo no OE: \"Tem de decidir ...",
-        "confidence": "exact"
-    },
-    "/artigo/a-trend-micro-questiona-as-informacoes-publicadas-nos-boletins-de-vulnerabilidades-por-facilitar-a-criacao-de-exploits-por-meio-da-ia-68c267434933765026adb7a4": {
-        "category": "Ciência e Tech",
-        "timestamp": "2025-09-11T06:26:08.476520+00:00",
-        "title": "A Trend Micro questiona as informações publicadas nos boletins de vulnerabilidades por facilitar a c...",
-        "confidence": "exact"
-    },
-    "https://eco.sapo.pt/2025/09/11/5-coisas-que-vao-marcar-o-dia-1844/": {
-        "category": "Economia",
-        "timestamp": "2025-09-11T06:26:09.269322+00:00",
-        "title": "5 coisas que vão marcar o dia",
-        "confidence": "exact"
-    },
-    "https://greensavers.sapo.pt/padroes-migratorios-erraticos-destes-morcegos-tornam-nos-mais-vulneraveis-a-colisoes-com-turbinas-eolicas/": {
-        "category": "Ciência e Tech",
-        "timestamp": "2025-09-11T06:26:10.604380+00:00",
-        "title": "Padrões migratórios erráticos destes morcegos tornam-nos mais vulneráveis a colisões com turbinas eó...",
-        "confidence": "exact"
-    },
-    "https://sustentix.sapo.pt/uma-das-maiores-esmeraldas-do-brasil-vai-a-leilao-este-mes-com-uma-licitacao-inicial-de-175-milhoes-de-euros/": {
-        "category": "Economia",
-        "timestamp": "2025-09-11T06:26:11.437869+00:00",
-        "title": "Uma das maiores esmeraldas do Brasil vai a leilão este mês com uma licitação inicial de 17,5 milhões...",
-        "confidence": "exact"
-    },
-    "https://jornaleconomico.sapo.pt/noticias/nao-mexe-bce-devera-manter-juros-com-franca-debaixo-de-pressao/": {
-        "category": "Economia",
-        "timestamp": "2025-09-11T06:26:20.799902+00:00",
-        "title": "Não mexe: BCE deverá manter juros com França debaixo de pressão",
-        "confidence": "exact"
-    },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/psp-registou-130-situacoes-de-bullying-e-21-de-cyberbullying-nas-escolas-no-ultimo-ano-letivo": {
         "category": "Sociedade",
         "timestamp": "2025-09-11T06:48:34.904973+00:00",
@@ -5613,6 +5570,12 @@
         "category": "Cultura",
         "timestamp": "2025-09-16T05:41:07.939264+00:00",
         "title": "“Quando sentimos dor, temos de continuar”. Caminhos de Santiago batem recordes e podem vir a ser Pat...",
+        "confidence": "exact"
+    },
+    "https://rr.pt/fotoreportagem/renascenca-reportagem/2025/09/16/quando-sentimos-dor-temos-de-continuar-caminhos-de-santiago-batem-recordes/439895/?utm_medium=rss": {
+        "category": "Cultura",
+        "timestamp": "2025-09-16T06:32:00.227395+00:00",
+        "title": "“Quando sentimos dor, temos de continuar”. Caminhos de Santiago batem recordes",
         "confidence": "exact"
     }
 }
