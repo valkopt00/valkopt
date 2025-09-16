@@ -6,55 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://www.dnoticias.pt/2025/9/11/462469-queimada-nao-autorizada-mobilizou-bombeiros-do-funchal/": {
-        "category": null,
-        "timestamp": "2025-09-11T17:50:55.538230+00:00",
-        "title": "Queimada não autorizada mobilizou bombeiros do Funchal",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500041, Requested 1038. Please try again in 3m6.6076s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://valsousatv.sapo.pt/2025/09/11/castelo-de-paiva-recebe-o-vira-fest-encontro-de-projetos-de-educacao-musical/": {
-        "category": null,
-        "timestamp": "2025-09-11T17:50:57.213338+00:00",
-        "title": "Castelo de Paiva recebe o Vira Fest – Encontro de Projetos de Educação Musical",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500032, Requested 1061. Please try again in 3m8.909s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://eco.sapo.pt/2025/09/11/24-jovens-comecam-estagio-de-12-meses-na-meo/": {
-        "category": null,
-        "timestamp": "2025-09-11T17:50:57.558371+00:00",
-        "title": "24 jovens começam estágio de 12 meses na Meo",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500030, Requested 1043. Please try again in 3m5.4516s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://maisbeiras.sapo.pt/final-do-campeonato-do-mundo-de-motonautica-f2-volta-a-disputar-se-em-vila-velha-de-rodao": {
-        "category": null,
-        "timestamp": "2025-09-11T17:50:59.870188+00:00",
-        "title": "Final do Campeonato do Mundo de Motonáutica F2 volta a disputar-se em Vila Velha de Ródão",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500016, Requested 1063. Please try again in 3m6.5976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://correiodeazemeis.sapo.pt/noticias/ps-lanca-jornal-de-campanha-por-todos": {
-        "category": null,
-        "timestamp": "2025-09-11T17:51:01.588679+00:00",
-        "title": "PS lança jornal de campanha “Por Todos”",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500006, Requested 1036. Please try again in 3m0.213s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://greensavers.sapo.pt/sovena-reforca-aposta-na-descarbonizacao-com-novas-instalacoes-fotovoltaicas/": {
-        "category": null,
-        "timestamp": "2025-09-11T17:40:37.700794+00:00",
-        "title": "Sovena reforça aposta na descarbonização com novas instalações fotovoltaicas",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500000, Requested 1056. Please try again in 3m2.531199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://hrportugal.sapo.pt/lisbon-marriott-hotel-volta-a-promover-campanha-you-eat-we-give-vai-apoiar-o-centro-de-apoio-ao-sem-abrigo-2/": {
-        "category": null,
-        "timestamp": "2025-09-11T17:40:39.206342+00:00",
-        "title": "Lisbon Marriott Hotel volta a promover campanha “You Eat, We Give”. Vai apoiar o Centro de Apoio ao ...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499992, Requested 1074. Please try again in 3m4.1346s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
     "/artigo/politicas-de-combate-a-lavagem-de-dinheiro-encontram-travao-na-suica-em-nome-da-competitividade-68c30783d2b5f22c4b925d91": {
         "category": null,
         "timestamp": "2025-09-11T18:20:50.372277+00:00",
@@ -66,46 +17,6 @@
         "category": "Ciência e Tech",
         "timestamp": "2025-09-11T21:14:43.530991+00:00",
         "title": "Como é que a inteligência artificial tornou Larry Ellison o homem mais rico do mundo?",
-        "confidence": "exact"
-    },
-    "https://maisbeiras.sapo.pt/mercado-of-sports-academico-de-viseu-futebol-clube-o-plantel-sub-23-conta-com-a-presenca-de-tres-novos-reforcos": {
-        "category": null,
-        "timestamp": "2025-09-11T17:50:50.382980+00:00",
-        "title": "Mercado of Sport’s: Académico de Viseu Futebol Clube – O plantel sub-23 conta com a presença de três...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500071, Requested 1075. Please try again in 3m18.162199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://www.dnoticias.pt/2025/9/11/462470-acidente-na-via-rapida-congestiona-transito/": {
-        "category": null,
-        "timestamp": "2025-09-11T17:50:51.321202+00:00",
-        "title": "Acidente na via rápida congestiona trânsito",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500066, Requested 1033. Please try again in 3m9.961599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://pmemagazine.sapo.pt/leadership-summit-portugal-traz-novas-regras-para-politica-ia-e-humanidade/": {
-        "category": null,
-        "timestamp": "2025-09-11T17:50:54.346955+00:00",
-        "title": "Leadership Summit Portugal traz novas regras para política, IA e humanidade",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500048, Requested 1050. Please try again in 3m9.8742s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "/artigo/marco-rodrigues-tenho-4-filhos-e-grande-parte-da-minha-playlist-e-musica-do-spiderman-do-capitao-america-depois-o-outro-quer-o-hulk-68c307830e9d7127e2ba298f": {
-        "category": null,
-        "timestamp": "2025-09-11T17:50:54.783450+00:00",
-        "title": "Marco Rodrigues: “Tenho 4 filhos e grande parte da minha playlist é música do Spiderman, do Capitão ...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500046, Requested 1088. Please try again in 3m16.0026s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2025-09-11-trocar-fogao-a-gas-por-placa-eletrica-so-compensa-com-subsidio-do-e-lar-6393c216": {
-        "category": "Economia",
-        "timestamp": "2025-09-11T17:50:13.859569+00:00",
-        "title": "Trocar fogão a gás por placa elétrica só compensa com subsídio do E-Lar",
-        "confidence": "exact"
-    },
-    "https://rr.pt/artigo/explicador-renascenca/2025/09/11/onde-se-vive-mais-na-uniao-europeia-mulheres-vivem-mais-anos-que-homens/439488/?utm_medium=rss": {
-        "category": "Ciência e Tech",
-        "timestamp": "2025-09-11T17:50:19.331267+00:00",
-        "title": "Onde se vive mais na União Europeia? Mulheres vivem mais anos que homens?",
         "confidence": "exact"
     },
     "https://eco.sapo.pt/2025/09/11/albania-anuncia-ministra-desenvolvida-por-inteligencia-artificial/": {
@@ -3156,6 +3067,12 @@
         "category": "Desporto",
         "timestamp": "2025-09-16T17:40:01.264549+00:00",
         "title": "🔴 Ouça o relato da Champions em direto. Benfica-Qarabag",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/explicador-renascenca/2025/09/16/como-funcionava-o-esquema-de-burla-online-que-lesou-milhares-de-vitimas-suecas/440048/?utm_medium=rss": {
+        "category": "Sociedade",
+        "timestamp": "2025-09-16T17:52:05.123678+00:00",
+        "title": "Como funcionava o esquema de burla online que lesou milhares de vítimas suecas?",
         "confidence": "exact"
     }
 }
