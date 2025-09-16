@@ -12,32 +12,6 @@
         "title": "Como é que a inteligência artificial tornou Larry Ellison o homem mais rico do mundo?",
         "confidence": "exact"
     },
-    "https://sustentix.sapo.pt/treze-associacoes-juntam-se-para-exigir-fim-imediato-dos-voos-noturnos-em-lisboa/": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-11T19:24:54.374177+00:00",
-        "title": "Treze associações juntam-se para exigir fim imediato dos voos noturnos em Lisboa",
-        "confidence": "exact"
-    },
-    "https://jornaldoave.sapo.pt/nimenrix-incluida-no-plano-municipal-de-apoio-a-vacinacao-infantil/": {
-        "category": null,
-        "timestamp": "2025-09-11T19:37:34.846908+00:00",
-        "title": "Nimenrix incluída no Plano Municipal de Apoio à Vacinação Infantil",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499549, Requested 1053. Please try again in 1m43.9892s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "/artigo/moedas-precisa-de-excitar-o-seu-eleitorado-para-que-nao-fuja-como-aconteceu-com-fernando-medina-ha-4-anos-68c318bfd4671fc1d65a4a18": {
-        "category": null,
-        "timestamp": "2025-09-11T19:37:34.937496+00:00",
-        "title": "“Moedas precisa de excitar o seu eleitorado para que nao fuja como aconteceu com Fernando Medina há ...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499549, Requested 1074. Please try again in 1m47.533s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "/artigo/jair-bolsonaro-condenado-por-golpe-de-estado-68c31e8c0e9d7127e2bdbd09": {
-        "category": "Mundo",
-        "timestamp": "2025-09-11T19:25:29.064721+00:00",
-        "title": "Jair Bolsonaro condenado por golpe de Estado",
-        "confidence": "exact"
-    },
     "/artigo/apple-perde-142-mil-milhoes-bce-mantem-juros-e-governo-tenta-consenso-laboral-68c31ccde182fd564355d6ef": {
         "category": null,
         "timestamp": "2025-09-11T19:50:42.158137+00:00",
@@ -65,31 +39,6 @@
         "title": "Supremo do Brasil condena Jair Bolsonaro por organização criminosa",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499767, Requested 1032. Please try again in 2m17.9832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
-    },
-    "https://sol.sapo.pt/2025/09/11/os-problemas-do-mundo-rural/": {
-        "category": null,
-        "timestamp": "2025-09-11T19:25:38.047824+00:00",
-        "title": "Os problemas do mundo rural",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500111, Requested 1020. Please try again in 3m15.440399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "/artigo/diella-e-a-primeira-ministra-gerada-por-ia-do-mundo-e-promete-ajudar-a-acabar-com-a-corrupcao-na-albania-68c3205ce182fd56435651ae": {
-        "category": "Mundo",
-        "timestamp": "2025-09-11T19:25:01.291324+00:00",
-        "title": "Diella é a primeira ministra gerada por IA do mundo e promete ajudar a acabar com a corrupção na Alb...",
-        "confidence": "exact"
-    },
-    "https://www.dnoticias.pt/2025/9/11/462465-conheca-a-chave-vencedora-do-eurodreams-desta-quinta-feira/": {
-        "category": "Desporto",
-        "timestamp": "2025-09-11T19:37:28.060499+00:00",
-        "title": "Conheça a chave vencedora do Eurodreams desta quinta-feira",
-        "confidence": "exact"
-    },
-    "https://www.dnoticias.pt/2025/9/11/462474-jazz-madeirense-em-destaque-nas-festas-na-rua-em-lisboa/": {
-        "category": "Cultura",
-        "timestamp": "2025-09-11T19:37:29.282316+00:00",
-        "title": "Jazz madeirense em destaque nas Festas na Rua em Lisboa",
-        "confidence": "exact"
     },
     "https://eco.sapo.pt/2025/09/11/ja-ha-maioria-para-condenar-bolsonaro-por-golpe-de-estado/": {
         "category": null,
