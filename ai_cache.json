@@ -13,25 +13,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://jornaleconomico.sapo.pt/noticias/castro-verde-com-2-479-euros-e-o-municipio-com-o-salario-mais-elevado/": {
-        "category": null,
-        "timestamp": "2025-09-11T23:50:37.380965+00:00",
-        "title": "Castro Verde com 2.479 euros é o município com o salário mais elevado",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499801, Requested 1056. Please try again in 2m28.0082s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "/artigo/donald-trump-denuncia-caca-as-bruxas-contra-jair-bolsonaro-e-compara-com-sua-propria-situacao-nos-eua-68c35da38497fe9ef63a3a65": {
-        "category": "Mundo",
-        "timestamp": "2025-09-11T23:50:34.433432+00:00",
-        "title": "Donald Trump denuncia “caça às bruxas” contra Jair Bolsonaro e compara com sua própria situação nos ...",
-        "confidence": "exact"
-    },
-    "https://sustentix.sapo.pt/cabo-verde-lanca-plano-para-mobilizar-recursos-e-enfrentar-alteracoes-climaticas/": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-11T23:50:35.221248+00:00",
-        "title": "Cabo Verde lança plano para mobilizar recursos e enfrentar alterações climáticas",
-        "confidence": "exact"
-    },
     "/artigo/lula-diz-que-bolsonaro-tentou-dar-um-golpe-no-brasil-68c35c1ee182fd56435e9189": {
         "category": "Mundo",
         "timestamp": "2025-09-12T01:14:27.760340+00:00",
