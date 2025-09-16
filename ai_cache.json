@@ -13,24 +13,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://greensavers.sapo.pt/homem-detido-suspeito-de-incendio-florestal/": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-11T05:39:33.279375+00:00",
-        "title": "Homem detido suspeito de incêndio florestal",
-        "confidence": "exact"
-    },
-    "https://sustentix.sapo.pt/fossil-antigo-lanca-luz-sobre-tuatara/": {
-        "category": "Ciência e Tech",
-        "timestamp": "2025-09-11T05:39:34.077179+00:00",
-        "title": "Fóssil antigo lança luz sobre tuatara",
-        "confidence": "exact"
-    },
-    "/artigo/metro-de-lisboa-volta-a-greve-parcial-68c25f218bb55c4ffd806de5": {
-        "category": "Nacional",
-        "timestamp": "2025-09-11T05:39:34.483176+00:00",
-        "title": "Metro de Lisboa volta à greve parcial",
-        "confidence": "exact"
-    },
     "https://sustentix.sapo.pt/libelulas-sobreviveram-a-asteroides-mas-podem-nao-resistir-as-alteracoes-climaticas-e-incendios-florestais/": {
         "category": "Ciência e Tech",
         "timestamp": "2025-09-11T05:50:37.563114+00:00",
@@ -5638,6 +5620,12 @@
         "category": "Desporto",
         "timestamp": "2025-09-15T23:18:01.600111+00:00",
         "title": "A categoria de Pote e o impacto de Suárez, o início perfeito do FC Porto e as dúvidas na Luz",
+        "confidence": "exact"
+    },
+    "https://rr.pt/fotoreportagem/renascenca-reportagem/2025/09/16/quando-sentimos-dor-temos-de-continuar-caminhos-de-santiago-batem-recordes-e-podem-vir-a-ser-patrimonio-da-unesco/439895/?utm_medium=rss": {
+        "category": "Cultura",
+        "timestamp": "2025-09-16T05:41:07.939264+00:00",
+        "title": "“Quando sentimos dor, temos de continuar”. Caminhos de Santiago batem recordes e podem vir a ser Pat...",
         "confidence": "exact"
     }
 }
