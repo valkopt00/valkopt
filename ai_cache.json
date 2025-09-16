@@ -6,90 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://hrportugal.sapo.pt/quer-optimizar-os-custos-na-sua-empesa-sem-comprometer-a-inovacao-siga-estas-estrategias/": {
-        "category": null,
-        "timestamp": "2025-09-11T16:51:44.691759+00:00",
-        "title": "Quer optimizar os custos na sua empesa sem comprometer a inovação? Siga estas estratégias",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500098, Requested 1052. Please try again in 3m18.814s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://diariodabairrada.sapo.pt/2025/09/11/asae-fiscaliza-praticas-comerciais-desleais-em-vinho-de-mesa/": {
-        "category": null,
-        "timestamp": "2025-09-11T16:51:47.181568+00:00",
-        "title": "ASAE fiscaliza práticas comerciais desleais em vinho de mesa",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500084, Requested 1050. Please try again in 3m15.982399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://eco.sapo.pt/2025/09/11/remax-patrocina-16-clubes-da-primeira-liga-de-futebol/": {
-        "category": null,
-        "timestamp": "2025-09-11T16:51:48.378948+00:00",
-        "title": "Remax patrocina 16 clubes da primeira liga de futebol",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500077, Requested 1047. Please try again in 3m14.260999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://sapo.pt/artigo/superman-regressa-ao-cinema-em-2027-super-heroi-e-lex-luthor-vao-ser-aliados-diz-o-realizador-james-gunn-68c2fa4e5ea8763b0db4601b": {
-        "category": "Multimédia",
-        "timestamp": "2025-09-11T16:51:35.425543+00:00",
-        "title": "\"Superman\" regressa ao cinema em 2027. Super-herói e Lex Luthor vão ser aliados, diz o realizador Ja...",
-        "confidence": "exact"
-    },
-    "https://sapo.pt/artigo/miguel-chevalier-apresenta-splash-no-ccb-sete-serigrafias-ineditas-que-fundem-cor-e-energia-digital-68c2fc0dd4671fc1d65677d3": {
-        "category": "Cultura",
-        "timestamp": "2025-09-11T16:51:36.135486+00:00",
-        "title": "Miguel Chevalier apresenta “Splash” no CCB: sete serigrafias inéditas que fundem cor e energia digit...",
-        "confidence": "exact"
-    },
-    "https://sapo.pt/artigo/mundiais-atletismo-o-calendario-e-o-horario-dos-portugueses-no-japao-68c2fcecd4671fc1d6569d44": {
-        "category": "Desporto",
-        "timestamp": "2025-09-11T17:14:08.887797+00:00",
-        "title": "Mundiais Atletismo: o calendário e o horário dos portugueses no Japão",
-        "confidence": "exact"
-    },
-    "https://www.dnoticias.pt/2025/9/11/462463-presidente-da-republica-portuguesa-condecorou-apavt/": {
-        "category": null,
-        "timestamp": "2025-09-11T16:51:46.004898+00:00",
-        "title": "Presidente da República Portuguesa condecorou APAVT",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500090, Requested 1047. Please try again in 3m16.645s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://www.dnoticias.pt/2025/9/11/462462-hasteada-bandeira-vermelha-na-zona-do-clube-naval-do-funchal-e-canical/": {
-        "category": null,
-        "timestamp": "2025-09-11T16:51:48.103940+00:00",
-        "title": "Hasteada bandeira vermelha na zona do Clube Naval do Funchal e Caniçal",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500078, Requested 1037. Please try again in 3m12.815s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://www.dnoticias.pt/2025/9/11/462461-governo-aprova-contratos-programa-no-valor-total-de-70-mil-euros/": {
-        "category": null,
-        "timestamp": "2025-09-11T16:51:49.315802+00:00",
-        "title": "Governo aprova Contratos-Programa no valor total de 70 mil euros",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500071, Requested 1053. Please try again in 3m14.3628s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://correiodeazemeis.sapo.pt/noticias/socialistas-querem-o-tri-em-fajoes": {
-        "category": "Política",
-        "timestamp": "2025-09-11T17:14:12.980338+00:00",
-        "title": "Socialistas querem o ‘tri’ em Fajões",
-        "confidence": "exact"
-    },
-    "/artigo/novo-primeiro-ministro-frances-sebastien-lecornu-promete-rutura-profunda-com-a-politica-do-passado-68c30064e182fd564351c259": {
-        "category": "Mundo",
-        "timestamp": "2025-09-11T17:14:13.562295+00:00",
-        "title": "Novo primeiro-ministro francês, Sébastien Lecornu, promete “rutura profunda” com a política do passa...",
-        "confidence": "exact"
-    },
-    "https://odigital.sapo.pt/funcionarios-da-universidade-de-evora-contra-regime-juridico-reunem-se-com-partidos/": {
-        "category": "Política",
-        "timestamp": "2025-09-11T17:14:16.606234+00:00",
-        "title": "Funcionários da Universidade de Évora contra regime jurídico reúnem-se com partidos",
-        "confidence": "exact"
-    },
-    "https://radiosines.sapo.pt/noticias/mostra-de-artes-de-rua-comeca-hoje-e-decorre-ate-domingo-em-sines": {
-        "category": "Cultura",
-        "timestamp": "2025-09-11T17:14:18.346244+00:00",
-        "title": "Mostra de Artes de Rua começa hoje e decorre até domingo em Sines",
-        "confidence": "exact"
-    },
     "https://correiodeazemeis.sapo.pt/noticias/tudo-farei-para-melhorar-a-vida-das-nossas-gentes": {
         "category": null,
         "timestamp": "2025-09-11T17:30:56.938807+00:00",
@@ -116,27 +32,6 @@
         "timestamp": "2025-09-11T17:30:59.863126+00:00",
         "title": "Alunos de Santarém finalistas da 11ª edição do Apps for Good com duas aplicações inovadoras",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499741, Requested 1066. Please try again in 2m19.3034s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://eco.sapo.pt/2025/09/11/martifer-convoca-ag-extraordinaria-para-aprovar-distribuicao-de-quatro-milhoes-de-reservas-antes-da-opa/": {
-        "category": null,
-        "timestamp": "2025-09-11T17:14:21.819719+00:00",
-        "title": "Martifer convoca AG extraordinária para aprovar distribuição de quatro milhões de reservas antes da ...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499508, Requested 1071. Please try again in 1m40.0342s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://diariodistrito.sapo.pt/jovens-agridem-homem-com-brutalidade-por-causa-de-um-cigarro-em-beja/": {
-        "category": null,
-        "timestamp": "2025-09-11T17:14:23.842141+00:00",
-        "title": "Jovens agridem homem com brutalidade por causa de um cigarro em Beja",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499497, Requested 1031. Please try again in 1m31.1032s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://www.dnoticias.pt/2025/9/11/462466-curso-efa-do-imaculado-afirma-se-como-uma-referencia/": {
-        "category": null,
-        "timestamp": "2025-09-11T17:14:24.561805+00:00",
-        "title": "Curso EFA do Imaculado afirma-se como uma referência",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499493, Requested 1049. Please try again in 1m33.4886s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/gnr-e-bombeiros-resgatam-duas-mulheres-presas-em-trilho-na-arrabida": {
