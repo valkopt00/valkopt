@@ -18,24 +18,6 @@
         "title": "Treze associações juntam-se para exigir fim imediato dos voos noturnos em Lisboa",
         "confidence": "exact"
     },
-    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/carris-lanca-na-sexta-feira-carreira-alternativa-ao-ascensor-da-gloria": {
-        "category": "Nacional",
-        "timestamp": "2025-09-11T18:54:00.201218+00:00",
-        "title": "Carris lança na sexta-feira carreira alternativa ao ascensor da Glória",
-        "confidence": "exact"
-    },
-    "https://rr.pt/artigo/jogo-de-palavra-as-entrevistas-de-rui-miguel-tovar/2025/09/11/jogo-de-palavra-com-helder-cristovao/439493/?utm_medium=rss": {
-        "category": "Desporto",
-        "timestamp": "2025-09-11T18:54:05.338004+00:00",
-        "title": "Jogo de Palavra com Hélder Cristóvão",
-        "confidence": "exact"
-    },
-    "https://rr.pt/artigo/jogo-de-palavra-as-entrevistas-de-rui-miguel-tovar/2025/09/11/helder-cristovao-o-caniggia-e-porreiro-so-nao-podiamos-molhar-lhe-o-cabelo/439492/?utm_medium=rss": {
-        "category": "Desporto",
-        "timestamp": "2025-09-11T18:54:07.905092+00:00",
-        "title": "Hélder Cristóvão. “O Caniggia é porreiro, só não podíamos molhar-lhe o cabelo”",
-        "confidence": "exact"
-    },
     "https://jornaldoave.sapo.pt/nimenrix-incluida-no-plano-municipal-de-apoio-a-vacinacao-infantil/": {
         "category": null,
         "timestamp": "2025-09-11T19:37:34.846908+00:00",
@@ -49,36 +31,6 @@
         "title": "“Moedas precisa de excitar o seu eleitorado para que nao fuja como aconteceu com Fernando Medina há ...",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499549, Requested 1074. Please try again in 1m47.533s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
-    },
-    "https://expresso.pt/semanario/revista-e/-e/2025-09-11-e-no-entanto-elas-movem-se-a-vida-secreta-das-estatuas-que-mudam-de-sitio-cd94f052": {
-        "category": "Cultura",
-        "timestamp": "2025-09-11T19:12:40.740048+00:00",
-        "title": "E no entanto elas movem-se: a vida secreta das estátuas que mudam de sítio",
-        "confidence": "exact"
-    },
-    "https://sapo.pt/artigo/supremo-tribunal-federal-tem-maioria-para-condenar-bolsonaro-por-organizacao-criminosa-68c31cce0e9d7127e2bd6bb9": {
-        "category": "Política",
-        "timestamp": "2025-09-11T19:12:45.458796+00:00",
-        "title": "Supremo Tribunal Federal tem maioria para condenar Bolsonaro por organização criminosa",
-        "confidence": "exact"
-    },
-    "https://sapo.pt/artigo/fbi-oferece-recompensa-de-100-mil-dolares-por-informacoes-sobre-assassinato-de-charlie-kirk-68c30c120e9d7127e2bacaa9": {
-        "category": "Mundo",
-        "timestamp": "2025-09-11T19:12:47.591635+00:00",
-        "title": "FBI oferece recompensa de 100 mil dólares por informações sobre assassinato de Charlie Kirk",
-        "confidence": "exact"
-    },
-    "https://sapo.pt/artigo/marcelo-promulga-diploma-para-abrir-concurso-extraordinario-para-a-colocacao-de-professores-em-zonas-carenciadas-68c31aa3d4671fc1d65aa703": {
-        "category": "Política",
-        "timestamp": "2025-09-11T19:12:48.542137+00:00",
-        "title": "Marcelo promulga diploma para abrir concurso extraordinário para a colocação de professores em zonas...",
-        "confidence": "exact"
-    },
-    "https://sapo.pt/artigo/duas-pessoas-detidas-no-crono-da-volta-a-espanha-apos-protestos-contra-israel-reducao-da-etapa-prejudicou-joao-almeida-68c3112a8497fe9ef63068f1": {
-        "category": "Desporto",
-        "timestamp": "2025-09-11T19:12:49.527369+00:00",
-        "title": "Duas pessoas detidas no crono da Volta a Espanha após protestos contra Israel. Redução da etapa prej...",
-        "confidence": "exact"
     },
     "/artigo/jair-bolsonaro-condenado-por-golpe-de-estado-68c31e8c0e9d7127e2bdbd09": {
         "category": "Mundo",
@@ -2953,6 +2905,12 @@
         "category": "Sociedade",
         "timestamp": "2025-09-16T17:52:05.123678+00:00",
         "title": "Como funcionava o esquema de burla online que lesou milhares de vítimas suecas?",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/semanario/revista-e/-e/2025-09-16-a-ideologia-fornece-um-guiao-para-viver-e-solucoes-simples-para-problemas-complexos.-obriga-a-pensar-em-termos-de-preto-e-branco-d5262240": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-09-16T19:16:46.885796+00:00",
+        "title": "“A ideologia fornece um guião para viver e soluções simples para problemas complexos. Obriga a pensa...",
         "confidence": "exact"
     }
 }
