@@ -6,36 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://sapo.pt/artigo/o-fabuloso-destino-de-amelie-regressa-aos-cinemas-portugueses-em-outubro-68c2cca449aff0fd306d996d": {
-        "category": "Cultura",
-        "timestamp": "2025-09-11T15:38:26.626143+00:00",
-        "title": "\"O Fabuloso Destino de Amélie\" regressa aos cinemas portugueses em outubro",
-        "confidence": "exact"
-    },
-    "https://sapo.pt/artigo/seis-anos-depois-matthew-mcconaughey-regressa-com-filme-urgente-sobre-os-incendios-na-california-68c2af5d7dc95677aa9a758d": {
-        "category": "Cultura",
-        "timestamp": "2025-09-11T15:38:27.627610+00:00",
-        "title": "Seis anos depois, Matthew McConaughey regressa com filme \"urgente\" sobre os incêndios na Califórnia",
-        "confidence": "exact"
-    },
-    "https://rr.pt/bola-branca/fotoreportagem/modalidades/2025/09/11/um-lanche-com-a-avo-e-a-tia-de-joao-almeida-ate-parece-que-me-sai-o-coracao-pelas-unhas/439454/?utm_medium=rss": {
-        "category": "Desporto",
-        "timestamp": "2025-09-11T15:38:30.374353+00:00",
-        "title": "Um lanche com a avó e a tia de João Almeida: “Até parece que me sai o coração pelas unhas”",
-        "confidence": "exact"
-    },
-    "/artigo/cancro-da-cabeca-e-pescoco-mais-de-metade-dos-casos-continuam-a-ser-diagnosticados-tarde-68c2ebeb2671aa6ce2890b0d": {
-        "category": "Ciência e Tech",
-        "timestamp": "2025-09-11T15:38:31.890641+00:00",
-        "title": "Cancro da cabeça e pescoço: mais de metade dos casos continuam a ser diagnosticados tarde",
-        "confidence": "exact"
-    },
-    "https://cidadehoje.sapo.pt/lista-a-candidata-a-af-braga-denuncia-interferencias-politicas-nas-eleicoes/": {
-        "category": "Política",
-        "timestamp": "2025-09-11T15:38:35.700043+00:00",
-        "title": "Lista A, candidata à AF Braga, denúncia interferências políticas nas eleições",
-        "confidence": "exact"
-    },
     "https://tvc.sapo.pt/2025/09/11/aberto-concurso-para-construcao-da-ligacao-da-variante-a-en222-a-a32-entre-castelo-de-paiva-e-canedo/": {
         "category": null,
         "timestamp": "2025-09-11T15:50:23.155414+00:00",
@@ -55,69 +25,6 @@
         "timestamp": "2025-09-11T15:50:25.030117+00:00",
         "title": "Montado de sobro do Alentejo inspira novas histórias de banda desenhada",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499636, Requested 1055. Please try again in 1m59.3864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://tvc.sapo.pt/2025/09/11/piscinas-municipais-cobertas-de-gouveia-reabrem-a-15-de-setembro/": {
-        "category": null,
-        "timestamp": "2025-09-11T15:38:39.176912+00:00",
-        "title": "Piscinas Municipais Cobertas de Gouveia reabrem a 15 de setembro",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500089, Requested 1049. Please try again in 3m16.7942s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://noticiasdosorraia.sapo.pt/ministro-da-agricultura-quer-acelerar-investimentos-no-tejo-para-reforcar-agricultura-e-turismo/": {
-        "category": null,
-        "timestamp": "2025-09-11T15:38:40.710004+00:00",
-        "title": "Ministro da Agricultura quer acelerar investimentos no Tejo para reforçar agricultura e turismo",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500080, Requested 1068. Please try again in 3m18.5464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://estacaodiariajornal.sapo.pt/futebol-nomeados-os-arbitros-para-a-jornada-5-nas-competicoes-profissionais/": {
-        "category": null,
-        "timestamp": "2025-09-11T15:38:42.123229+00:00",
-        "title": "Futebol: Nomeados os árbitros para a jornada 5 nas competições profissionais",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500072, Requested 1058. Please try again in 3m15.416399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://maisbeiras.sapo.pt/castelo-branco-municipio-homenageia-campeao-nacional-de-boccia": {
-        "category": null,
-        "timestamp": "2025-09-11T15:38:44.311056+00:00",
-        "title": "Castelo Branco: Município homenageia Campeão Nacional de Boccia",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500060, Requested 1050. Please try again in 3m11.833s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://odigital.sapo.pt/gnr-investiga-agressoes-de-grupo-que-causaram-ferido-grave-em-vaiamonte-monforte/": {
-        "category": null,
-        "timestamp": "2025-09-11T15:38:48.145476+00:00",
-        "title": "GNR investiga agressões de grupo que causaram ferido grave em Vaiamonte (Monforte)",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500037, Requested 1058. Please try again in 3m9.3814s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://eco.sapo.pt/2025/09/11/nacionalgest-compra-mediadora-de-seguros-jns-nas-caldas-da-rainha/": {
-        "category": null,
-        "timestamp": "2025-09-11T15:38:48.463608+00:00",
-        "title": "NacionalGest compra mediadora de seguros JNS nas Caldas da Rainha",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500036, Requested 1051. Please try again in 3m7.8528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://executivedigest.sapo.pt/portugal-vendas/cuidadores-informais-e-pessoas-com-deficiencia-portal-da-queixa-recebe-varias-denuncias-sobre-cortes-nos-apoios-sociais/": {
-        "category": null,
-        "timestamp": "2025-09-11T15:38:49.241439+00:00",
-        "title": "Cuidadores informais e pessoas com deficiência: ‘Portal da Queixa’ recebe várias denúncias sobre cor...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500031, Requested 1084. Please try again in 3m12.7772s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://eco.sapo.pt/2025/09/11/trabalhadores-dos-impostos-pedem-fim-das-quotas-e-revisao-urgente-das-avaliacoes-no-fisco/": {
-        "category": null,
-        "timestamp": "2025-09-11T15:38:49.411771+00:00",
-        "title": "Trabalhadores dos impostos pedem fim das quotas e revisão “urgente” das avaliações no Fisco",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500030, Requested 1066. Please try again in 3m9.4968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "/artigo/ia-democratica-como-angola-esta-a-levar-a-inteligencia-artificial-para-telefones-basicos-68c2e57c1cbddc8f9d393e9b": {
-        "category": null,
-        "timestamp": "2025-09-11T15:38:49.472901+00:00",
-        "title": "IA Democrática: Como Angola está a levar a inteligência artificial para telefones básicos",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500030, Requested 1063. Please try again in 3m8.920399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://rr.pt/bola-branca/fotoreportagem/modalidades/2025/09/11/fomos-lanchar-com-a-avo-de-joao-almeida-durante-uma-etapa-ate-parece-que-me-sai-o-coracao-pelas-unhas/439454/?utm_medium=rss": {
