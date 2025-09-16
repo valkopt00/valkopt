@@ -6,48 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "/artigo/como-e-que-a-inteligencia-artificial-tornou-larry-ellison-o-homem-mais-rico-do-mundo-68c307828497fe9ef62f0675": {
-        "category": "Ciência e Tech",
-        "timestamp": "2025-09-11T21:14:43.530991+00:00",
-        "title": "Como é que a inteligência artificial tornou Larry Ellison o homem mais rico do mundo?",
-        "confidence": "exact"
-    },
-    "https://sapo.pt/artigo/rui-moreira-nao-sera-candidato-a-presidente-da-republica-68c332a2d4671fc1d65d944a": {
-        "category": "Política",
-        "timestamp": "2025-09-11T21:14:41.779805+00:00",
-        "title": "Rui Moreira não será candidato a Presidente da República",
-        "confidence": "exact"
-    },
-    "https://diariodistrito.sapo.pt/carris-cria-carreira-51e-apos-acidente-no-elevador-da-gloria/": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-11T21:14:54.015759+00:00",
-        "title": "Carris cria carreira 51E após acidente no Elevador da Glória",
-        "confidence": "exact"
-    },
-    "https://maisbeiras.sapo.pt/fundao-castelejo-celebra-santa-luzia": {
-        "category": "Cultura",
-        "timestamp": "2025-09-11T21:14:57.356342+00:00",
-        "title": "Fundão: Castelejo celebra Santa Luzia",
-        "confidence": "exact"
-    },
-    "https://maisbeiras.sapo.pt/guarda-tmg-recebe-concerto-do-buba-espinho-este-sabado": {
-        "category": "Cultura",
-        "timestamp": "2025-09-11T21:14:59.492449+00:00",
-        "title": "Guarda: TMG recebe concerto do Buba Espinho este sábado",
-        "confidence": "exact"
-    },
-    "https://jornaleconomico.sapo.pt/noticias/rui-moreira-nao-vai-se-candidato-a-belem/": {
-        "category": "Política",
-        "timestamp": "2025-09-11T21:15:04.928844+00:00",
-        "title": "Rui Moreira não vai se candidato a Belém",
-        "confidence": "exact"
-    },
-    "/artigo/tragedia-na-ponte-entre-os-rios-nao-dava-para-passar-um-veiculo-ligeiro-e-um-pesado-nao-tenho-duvidas-que-o-gabinete-do-ministro-sabia-68c33598d2b5f22c4b982797": {
-        "category": "Nacional",
-        "timestamp": "2025-09-11T21:15:17.893617+00:00",
-        "title": "Tragédia na ponte Entre-os-rios: \"Não dava para passar um veículo ligeiro e um pesado. Não tenho dúv...",
-        "confidence": "exact"
-    },
     "https://maisbeiras.sapo.pt/fundao-recebe-teatro-teoria-king-kong": {
         "category": "Cultura",
         "timestamp": "2025-09-11T21:28:22.629247+00:00",
@@ -71,13 +29,6 @@
         "timestamp": "2025-09-11T21:39:17.446750+00:00",
         "title": "Pinhel recebe Festa em honra da Nossa Senhora de Fátima",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499601, Requested 1060. Please try again in 1m54.207799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://eco.sapo.pt/2025/09/11/pilotos-afastam-responsabilidade-por-eventual-insucesso-da-privatizacao-da-azores-airlines/": {
-        "category": null,
-        "timestamp": "2025-09-11T21:15:29.299756+00:00",
-        "title": "Pilotos afastam responsabilidade por eventual insucesso da privatização da Azores Airlines",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499517, Requested 1059. Please try again in 1m39.5306s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://odigital.sapo.pt/esta-confirmada-a-abertura-da-segunda-loja-mercadona-no-alentejo-em-2026-em-beja/": {
@@ -2728,6 +2679,12 @@
         "category": "Sociedade",
         "timestamp": "2025-09-16T20:22:44.034941+00:00",
         "title": "Porque há desigualdades no acesso à saúde em Portugal?",
+        "confidence": "exact"
+    },
+    "https://rr.pt/bola-branca/especial/benfica/2025/09/16/benfica-2-3-qarabag-recorde-o-filme-da-derrota-encarnada-na-champions/440040/?utm_medium=rss": {
+        "category": "Desporto",
+        "timestamp": "2025-09-16T21:18:29.953565+00:00",
+        "title": "Benfica 2-3 Qarabag. Recorde o filme da derrota encarnada na Champions",
         "confidence": "exact"
     }
 }
