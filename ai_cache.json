@@ -18,63 +18,6 @@
         "title": "Treze associações juntam-se para exigir fim imediato dos voos noturnos em Lisboa",
         "confidence": "exact"
     },
-    "/artigo/fbi-oferece-recompensa-de-100-mil-dolares-por-informacoes-sobre-assassinato-de-charlie-kirk-68c30c120e9d7127e2bacaa9": {
-        "category": "Mundo",
-        "timestamp": "2025-09-11T18:44:58.363647+00:00",
-        "title": "FBI oferece recompensa de 100 mil dólares por informações sobre assassinato de Charlie Kirk",
-        "confidence": "exact"
-    },
-    "https://eco.sapo.pt/2025/09/11/cgtp-exige-salario-minimo-de-1-050-euros-em-2026/": {
-        "category": null,
-        "timestamp": "2025-09-11T18:44:58.736649+00:00",
-        "title": "CGTP exige salário mínimo de 1.050 euros em 2026",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499469, Requested 1037. Please try again in 1m27.4254s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://jornaldoave.sapo.pt/edicao-papel-no308-do-jornal-do-ave/": {
-        "category": null,
-        "timestamp": "2025-09-11T18:45:00.166400+00:00",
-        "title": "Edição papel nº308 do Jornal do Ave",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499461, Requested 1037. Please try again in 1m25.979399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://beiraaltatv.sapo.pt/nova-sede-da-protecao-civil-na-guarda-pronta-ate-dezembro-vai-acolher-cerca-de-20-colaboradores/": {
-        "category": null,
-        "timestamp": "2025-09-11T18:45:01.681454+00:00",
-        "title": "Nova sede da Proteção Civil na Guarda pronta até dezembro vai acolher cerca de 20 colaboradores",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499452, Requested 1066. Please try again in 1m29.4866s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://sapo.pt/artigo/como-e-que-a-inteligencia-artificial-tornou-larry-ellison-o-homem-mais-rico-do-mundo-68c307828497fe9ef62f0675": {
-        "category": "Ciência e Tech",
-        "timestamp": "2025-09-11T18:44:22.808403+00:00",
-        "title": "Como é que a inteligência artificial tornou Larry Ellison o homem mais rico do mundo?",
-        "confidence": "exact"
-    },
-    "/artigo/setembro-dourado-cancro-pediatrico-informacao-e-o-papel-das-fundacoes-68c317320e9d7127e2bc7b68": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-11T18:44:35.435556+00:00",
-        "title": "Setembro Dourado: cancro pediátrico, informação e o papel das fundações",
-        "confidence": "exact"
-    },
-    "https://eco.sapo.pt/2025/09/11/lucro-do-sporting-dispara-66-para-20-milhoes-de-euros/": {
-        "category": "Economia",
-        "timestamp": "2025-09-11T18:44:36.164945+00:00",
-        "title": "Lucro do Sporting dispara 66% para 20 milhões de euros",
-        "confidence": "exact"
-    },
-    "https://noticiasdosorraia.sapo.pt/cgtp-in-exige-aumento-salarial-de-15-e-salario-minimo-de-1-050-euros-em-2026/": {
-        "category": "Política",
-        "timestamp": "2025-09-11T18:44:38.319154+00:00",
-        "title": "CGTP-IN exige aumento salarial de 15% e salário mínimo de 1.050 euros em 2026",
-        "confidence": "exact"
-    },
-    "https://hrportugal.sapo.pt/moderacao-de-conteudo-online-privilegia-factores-economicos-em-vez-de-seguranca/": {
-        "category": "Economia",
-        "timestamp": "2025-09-11T18:44:49.921273+00:00",
-        "title": "Moderação de conteúdo online privilegia factores económicos em vez de segurança",
-        "confidence": "exact"
-    },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/carris-lanca-na-sexta-feira-carreira-alternativa-ao-ascensor-da-gloria": {
         "category": "Nacional",
         "timestamp": "2025-09-11T18:54:00.201218+00:00",
