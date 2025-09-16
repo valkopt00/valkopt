@@ -6,36 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://rr.pt/artigo/visto-de-fora/2025/09/11/drones-russos-na-polonia-e-um-teste-a-reacao-da-nato-e-e-para-levar-muito-a-serio/439458/?utm_medium=rss": {
-        "category": "Mundo",
-        "timestamp": "2025-09-11T14:40:44.239956+00:00",
-        "title": "Drones russos na Polónia? \"É um teste à reação da NATO... e é para levar muito a sério\"",
-        "confidence": "exact"
-    },
-    "https://tvc.sapo.pt/2025/09/11/anadia-municipio-promove-encontro-de-educacao/": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-11T14:40:56.109417+00:00",
-        "title": "Anadia: Município promove “Encontro de Educação”",
-        "confidence": "exact"
-    },
-    "https://centrotv.sapo.pt/camara-municipal-da-lousa-assinou-contratos-programa-de-desenvolvimento-desportivo/": {
-        "category": "Desporto",
-        "timestamp": "2025-09-11T14:40:58.881785+00:00",
-        "title": "Câmara Municipal da Lousã assinou contratos programa de desenvolvimento desportivo",
-        "confidence": "exact"
-    },
-    "https://greensavers.sapo.pt/jardim-zoologico-propoe-as-escolas-uma-forma-diferente-de-comecar-as-aulas-aprender-ao-ar-livre/": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-11T14:40:59.651027+00:00",
-        "title": "Jardim Zoológico propõe às escolas uma forma diferente de começar as aulas: aprender ao ar livre",
-        "confidence": "exact"
-    },
-    "https://sustentix.sapo.pt/ferramenta-inovadora-ajuda-a-monitorizar-e-melhorar-tratamentos-contra-incendios-florestais/": {
-        "category": "Ciência e Tech",
-        "timestamp": "2025-09-11T14:41:01.427449+00:00",
-        "title": "Ferramenta inovadora ajuda a monitorizar e melhorar tratamentos contra incêndios florestais",
-        "confidence": "exact"
-    },
     "/artigo/novas-regras-permitem-ao-cliente-retomar-credito-malparado-vendido-pelo-banco-68c2dd7049aff0fd307b3ffb": {
         "category": null,
         "timestamp": "2025-09-11T14:50:32.709508+00:00",
@@ -69,41 +39,6 @@
         "timestamp": "2025-09-11T14:50:40.572143+00:00",
         "title": "Bp Ultimate Rally Raid Portugal regressa a Grândola com contas do título ainda em    aberto",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499663, Requested 1066. Please try again in 2m5.8836s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://eco.sapo.pt/2025/09/11/gestao-politica-da-efacec-volta-ao-parlamento-mesmo-sem-comissao-de-inquerito/": {
-        "category": null,
-        "timestamp": "2025-09-11T14:41:16.107100+00:00",
-        "title": "Gestão política da Efacec volta ao Parlamento, mesmo sem comissão de inquérito",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499314, Requested 1059. Please try again in 1m4.2906s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://desportivotransmontano.sapo.pt/noticias/rampa-do-castelo-desafia-ciclistas-em-vila-pouca-de-aguiar/": {
-        "category": null,
-        "timestamp": "2025-09-11T14:41:17.380605+00:00",
-        "title": "Rampa do Castelo desafia ciclistas em Vila Pouca de Aguiar",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499306, Requested 1052. Please try again in 1m1.808999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://executivedigest.sapo.pt/sapo-internacional/russia-inicia-grande-exercicio-de-treino-nuclear-na-bielorrussia-48-horas-depois-de-violar-espaco-aereo-da-polonia/": {
-        "category": null,
-        "timestamp": "2025-09-11T14:41:18.278200+00:00",
-        "title": "Rússia inicia grande exercício de treino nuclear na Bielorrússia 48 horas depois de violar espaço aé...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499301, Requested 1082. Please try again in 1m6.095s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://diariocriminal.sapo.pt/2025/09/11/freixo-de-espada-a-cinta-pulseira-eletronica-por-violencia-domestica/": {
-        "category": null,
-        "timestamp": "2025-09-11T14:41:19.341944+00:00",
-        "title": "Freixo de Espada à Cinta: Pulseira eletrónica por violência doméstica",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499295, Requested 1058. Please try again in 1m0.893799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://hrportugal.sapo.pt/startup-nacional-promove-encontro-entre-empreendedores-portugueses-e-investidores-internacionais-no-porto/": {
-        "category": null,
-        "timestamp": "2025-09-11T14:41:20.266681+00:00",
-        "title": "Startup nacional promove encontro entre empreendedores portugueses e investidores internacionais, no...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499290, Requested 1070. Please try again in 1m2.0434s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://rr.pt/artigo/novas-cronicas-da-idade-midia/2025/09/11/a-desgraca-da-gloria/439457/?utm_medium=rss": {
