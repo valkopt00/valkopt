@@ -6,18 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://maisbeiras.sapo.pt/fundao-recebe-teatro-teoria-king-kong": {
-        "category": "Cultura",
-        "timestamp": "2025-09-11T21:28:22.629247+00:00",
-        "title": "Fundão recebe teatro “Teoria King Kong”",
-        "confidence": "exact"
-    },
-    "https://maisbeiras.sapo.pt/covilha-projeto-jovem-de-vigilancia-na-serra-da-estrela-foi-um-sucesso": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-11T21:28:24.912285+00:00",
-        "title": "Covilhã: projeto jovem de vigilância na Serra da Estrela foi um sucesso",
-        "confidence": "exact"
-    },
     "https://odigital.sapo.pt/arrancou-a-feira-de-setembro-em-moura-uma-feira-que-mantem-aquilo-que-e-identitario-c-fotos/": {
         "category": "Cultura",
         "timestamp": "2025-09-11T21:51:01.239249+00:00",
@@ -29,19 +17,6 @@
         "timestamp": "2025-09-11T21:39:17.446750+00:00",
         "title": "Pinhel recebe Festa em honra da Nossa Senhora de Fátima",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499601, Requested 1060. Please try again in 1m54.207799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://odigital.sapo.pt/esta-confirmada-a-abertura-da-segunda-loja-mercadona-no-alentejo-em-2026-em-beja/": {
-        "category": "Economia",
-        "timestamp": "2025-09-11T21:28:11.155000+00:00",
-        "title": "Está confirmada a abertura da segunda loja Mercadona no Alentejo em 2026, em Beja",
-        "confidence": "exact"
-    },
-    "/artigo/rui-moreira-nao-sera-a-presidencia-da-republica-nao-houve-um-grande-entusiamo-68c33cb7d4671fc1d65fc9cb": {
-        "category": null,
-        "timestamp": "2025-09-11T21:28:29.317346+00:00",
-        "title": "Rui Moreira não será à Presidência da República: \"Não houve um grande entusiamo\"",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499813, Requested 1059. Please try again in 2m30.611599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://magg.sapo.pt/preview/?p=338336&post_type=post&preview=true": {
