@@ -6,31 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://odigital.sapo.pt/arrancou-a-feira-de-setembro-em-moura-uma-feira-que-mantem-aquilo-que-e-identitario-c-fotos/": {
-        "category": "Cultura",
-        "timestamp": "2025-09-11T21:51:01.239249+00:00",
-        "title": "Arrancou a Feira de Setembro em Moura: uma feira que «mantém aquilo que é identitário» (c/fotos)",
-        "confidence": "exact"
-    },
-    "https://maisbeiras.sapo.pt/pinhel-recebe-festa-em-honra-da-nossa-senhora-de-fatima": {
-        "category": null,
-        "timestamp": "2025-09-11T21:39:17.446750+00:00",
-        "title": "Pinhel recebe Festa em honra da Nossa Senhora de Fátima",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499601, Requested 1060. Please try again in 1m54.207799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://magg.sapo.pt/preview/?p=338336&post_type=post&preview=true": {
-        "category": "Cultura",
-        "timestamp": "2025-09-11T21:38:51.778058+00:00",
-        "title": "Uma coleção que desfila pela história da moda, com peças icónicas recriadas em detalhe",
-        "confidence": "exact"
-    },
-    "https://www.dnoticias.pt/2025/9/11/462485-irao-diz-que-existe-material-nuclear-debaixo-das-instalacoes-destruidas-por-israel/": {
-        "category": "Mundo",
-        "timestamp": "2025-09-11T21:38:58.426618+00:00",
-        "title": "Irão diz que existe material nuclear debaixo das instalações destruídas por Israel",
-        "confidence": "exact"
-    },
     "/artigo/ventura-admite-lapso-com-hamburgueres-mas-volta-a-confundir-viagens-de-marcelo-68c302f0d2b5f22c4b91b44c": {
         "category": "Política",
         "timestamp": "2025-09-11T22:15:38.580832+00:00",
