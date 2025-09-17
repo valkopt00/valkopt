@@ -6,186 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://ionline.sapo.pt/2025/09/12/o-eterno-problema-do-carrossel-do-iva-sem-solucao-a-vista/": {
-        "category": "Economia",
-        "timestamp": "2025-09-12T08:54:40.009367+00:00",
-        "title": "O eterno problema do Carrossel do IVA sem solução à vista",
-        "confidence": "exact"
-    },
-    "https://centrotv.sapo.pt/homem-detido-para-cumprir-quatro-anos-de-prisao-efetiva-em-caldas-da-rainha/": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-12T08:54:51.456429+00:00",
-        "title": "Homem detido para cumprir quatro anos de prisão efetiva em Caldas da Rainha",
-        "confidence": "exact"
-    },
-    "https://correiodeazemeis.sapo.pt/noticias/merche-romero-e-carolina-torres-no-cartaz": {
-        "category": "Cultura",
-        "timestamp": "2025-09-12T08:54:53.327719+00:00",
-        "title": "Merche Romero e Carolina Torres no cartaz",
-        "confidence": "exact"
-    },
-    "https://radiosines.sapo.pt/noticias/cristovao-carvalho-chega-a-sines-para-esclarecer-benfiquistas": {
-        "category": null,
-        "timestamp": "2025-09-12T08:54:54.637028+00:00",
-        "title": "Cristóvão Carvalho chega a Sines para esclarecer Benfiquistas",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499968, Requested 1052. Please try again in 2m56.1556s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://maisbeiras.sapo.pt/sabugal-muralhas-com-historia-2025-2": {
-        "category": null,
-        "timestamp": "2025-09-12T08:54:57.404153+00:00",
-        "title": "Sabugal: Muralhas com História 2025",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499952, Requested 1038. Please try again in 2m50.9684s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://www.dnoticias.pt/2025/9/12/462520-menino-ferido-num-joelho-apos-queda-em-aula-de-educacao-fisica/": {
-        "category": null,
-        "timestamp": "2025-09-12T08:54:57.853066+00:00",
-        "title": "Menino ferido num joelho após queda em aula de educação física",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499949, Requested 1043. Please try again in 2m51.3834s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://rcaguiarense.sapo.pt/o-novo-ano-letivo-ja-arrancou-em-vila-pouca-de-aguiar/": {
-        "category": null,
-        "timestamp": "2025-09-12T08:54:58.654164+00:00",
-        "title": "O novo ano letivo já arrancou em Vila Pouca de Aguiar",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499945, Requested 1046. Please try again in 2m51.1028s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://executivedigest.sapo.pt/portugal-vendas/elevador-da-gloria-mudanca-para-cabo-com-nucleo-em-fibra-pode-ter-dado-origem-a-tragedia/": {
-        "category": null,
-        "timestamp": "2025-09-12T08:54:59.057632+00:00",
-        "title": "Elevador da Glória: mudança para cabo com “núcleo em fibra” pode ter dado origem à tragédia",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499942, Requested 1071. Please try again in 2m55.019799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://executivedigest.sapo.pt/bs-world/maximo-historico-chega-passa-ad-e-lidera-intencoes-de-votos-pela-primeira-vez/": {
-        "category": null,
-        "timestamp": "2025-09-12T08:54:59.311431+00:00",
-        "title": "Máximo histórico: Chega passa AD e lidera intenções de votos pela primeira vez",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499941, Requested 1062. Please try again in 2m53.2076s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://executivedigest.sapo.pt/noticias/ser-lider-e-uma-funcao-muito-elastica-mario-barros-do-grupo-ingka/": {
-        "category": null,
-        "timestamp": "2025-09-12T08:54:59.566096+00:00",
-        "title": "“Ser líder é uma função muito elástica” Mário Barros, do Grupo Ingka",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499939, Requested 1057. Please try again in 2m52.0896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://hrportugal.sapo.pt/depois-dos-despedimentos-gigante-tecnologica-volta-atras-e-define-nova-politica-de-regresso-ao-escritorio/": {
-        "category": null,
-        "timestamp": "2025-09-12T08:55:00.292454+00:00",
-        "title": "Depois dos despedimentos, gigante tecnológica volta atrás e define nova política de regresso ao escr...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499935, Requested 1072. Please try again in 2m53.9586s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://radioboanova.sapo.pt/regiao-menor-detido-por-pornografia-infantil-e-abuso-sexual-de-criancas/": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-12T09:17:22.977060+00:00",
-        "title": "Região: Menor detido por pornografia infantil e abuso sexual de crianças",
-        "confidence": "exact"
-    },
-    "/artigo/tres-pessoas-detidas-em-agueda-por-rapto-e-trafico-de-droga-68c3e2cb8497fe9ef647a390": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-12T09:17:24.010074+00:00",
-        "title": "Três pessoas detidas em Águeda por rapto e tráfico de droga",
-        "confidence": "exact"
-    },
-    "https://correiodeazemeis.sapo.pt/noticias/percentagens-de-execucao-baixissimas": {
-        "category": "Política",
-        "timestamp": "2025-09-12T09:17:27.071086+00:00",
-        "title": "Percentagens de execução baixíssimas",
-        "confidence": "exact"
-    },
-    "https://executivedigest.sapo.pt/opiniao/entre-a-retencao-e-a-coercao-como-o-planeamento-inteligente-pode-salvar-o-sns/": {
-        "category": "Opinião",
-        "timestamp": "2025-09-12T09:17:28.055866+00:00",
-        "title": "Entre a retenção e a coerção: como o planeamento inteligente pode salvar o SNS",
-        "confidence": "exact"
-    },
-    "https://greensavers.sapo.pt/faz-teletrabalho-quanto-pode-aumentar-a-sua-fatura-de-eletricidade/": {
-        "category": "Economia",
-        "timestamp": "2025-09-12T09:17:29.341187+00:00",
-        "title": "Faz teletrabalho: quanto pode aumentar a sua fatura de eletricidade?",
-        "confidence": "exact"
-    },
-    "https://www.dnoticias.pt/2025/9/12/462521-elsa-fernandes-sai-dos-orgaos-sociais-da-cooperativa-atlantidomus/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:17:29.555276+00:00",
-        "title": "Elsa Fernandes sai dos órgãos sociais da cooperativa Atlantidomus",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499330, Requested 1035. Please try again in 1m3.0318s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://correiodeazemeis.sapo.pt/noticias/a-junta-tem-de-ouvir-primeiro-a-populacao-antes-de-decidir": {
-        "category": null,
-        "timestamp": "2025-09-12T09:17:30.488705+00:00",
-        "title": "“A Junta tem de ouvir primeiro a população antes de decidir”",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499325, Requested 1046. Please try again in 1m3.998599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://odigital.sapo.pt/psp-de-evora-apreende-43-doses-de-haxixe-e-detem-tres-homens/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:17:32.781004+00:00",
-        "title": "PSP de Évora apreende 43 doses de haxixe e detém três homens",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499312, Requested 1050. Please try again in 1m2.398799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://executivedigest.sapo.pt/revista-risco/a-geracao-z-dos-jovens-traders-do-fascinio-a-ilusao-do-dinheiro-facil/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:17:33.201623+00:00",
-        "title": "A geração Z dos jovens traders: do fascínio à ilusão do dinheiro fácil",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499309, Requested 1059. Please try again in 1m3.531s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "/artigo/o-4-maior-artista-do-seculo-xxi-chega-a-lisboa-post-malone-no-restelo-68c3e205e182fd56436ba323": {
-        "category": null,
-        "timestamp": "2025-09-12T09:17:33.277672+00:00",
-        "title": "O 4.º maior artista do século XXI chega a Lisboa: Post Malone no Restelo",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499309, Requested 1055. Please try again in 1m2.765799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://sustentix.sapo.pt/plantas-invasoras-estao-a-transformar-os-tropicos-e-a-vida-das-comunidades-locais/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:17:34.424122+00:00",
-        "title": "Plantas invasoras estão a transformar os trópicos e a vida das comunidades locais",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499302, Requested 1053. Please try again in 1m1.2732s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://eco.sapo.pt/2025/09/12/microsoft-obrigada-por-lei-a-manter-teams-fora-do-office-na-uniao-europeia/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:17:34.652174+00:00",
-        "title": "Microsoft obrigada por lei a manter Teams fora do Office na União Europeia",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499301, Requested 1056. Please try again in 1m1.564599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "/artigo/associacao-convida-passageiros-do-metro-a-experimentar-o-que-e-uma-enxaqueca-68c3e17c0e9d7127e2d27fa0": {
-        "category": null,
-        "timestamp": "2025-09-12T09:17:34.723898+00:00",
-        "title": "Associação convida passageiros do Metro a experimentar o que é uma enxaqueca",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499300, Requested 1059. Please try again in 1m2.010999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://radioboanova.sapo.pt/regiao-asae-fiscaliza-praticas-comerciais-desleais-em-vinho-de-mesa/": {
-        "category": "Economia",
-        "timestamp": "2025-09-12T09:18:35.860811+00:00",
-        "title": "Região: ASAE fiscaliza práticas comerciais desleais em vinho de mesa",
-        "confidence": "exact"
-    },
-    "https://correiodeazemeis.sapo.pt/noticias/young-fashion-footwear-ii-encerra-as-portas-sem-aviso-previo": {
-        "category": null,
-        "timestamp": "2025-09-12T09:18:37.150543+00:00",
-        "title": "Young Fashion Footwear II encerra as portas sem aviso prévio",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500150, Requested 1047. Please try again in 3m26.934s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://executivedigest.sapo.pt/noticias/sobem-ou-descem-veja-aqui-o-que-vai-acontecer-aos-combustiveis-na-proxima-semana-e-onde-estao-os-postos-mais-baratos/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:18:37.857162+00:00",
-        "title": "Sobem ou descem? Veja aqui o que vai acontecer aos combustíveis na próxima semana (e onde estão os p...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500146, Requested 1057. Please try again in 3m27.954999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
     "https://viral.sapo.pt/artigos/cancro-do-cerebro-david-pires/": {
         "category": "Sociedade",
         "timestamp": "2025-09-12T09:37:55.304518+00:00",
@@ -1727,6 +1547,12 @@
         "category": "Nacional",
         "timestamp": "2025-09-17T07:39:11.901940+00:00",
         "title": "Christian Brueckner sai em liberdade. Está relacionado com o caso Maddie?",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/ribeiro-cristovao/2025/09/17/aconteceu-o-que-parecia-inevitavel/440131/?utm_medium=rss": {
+        "category": "Política",
+        "timestamp": "2025-09-17T09:22:17.860349+00:00",
+        "title": "Aconteceu o que parecia inevitável",
         "confidence": "exact"
     }
 }
