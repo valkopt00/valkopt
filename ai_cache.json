@@ -6,30 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://viral.sapo.pt/artigos/cancro-do-cerebro-david-pires/": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-12T09:37:55.304518+00:00",
-        "title": "O cancro do cérebro ficou “vincado” em David Pires. Fundou uma associação que quer apoiar outros doe...",
-        "confidence": "exact"
-    },
-    "/artigo/assistir-a-series-estrangeiras-pode-custar-a-vida-na-coreia-do-norte-68c3e82fe182fd56436c8f75": {
-        "category": "Mundo",
-        "timestamp": "2025-09-12T09:37:57.475644+00:00",
-        "title": "Assistir a séries estrangeiras pode custar a vida na Coreia do Norte",
-        "confidence": "exact"
-    },
-    "https://odigital.sapo.pt/homem-preso-em-cuba-por-agredir-companheira/": {
-        "category": "Mundo",
-        "timestamp": "2025-09-12T09:38:01.678453+00:00",
-        "title": "Homem preso em Cuba por agredir companheira",
-        "confidence": "exact"
-    },
-    "https://desportivotransmontano.sapo.pt/noticias/afvr-campeonato-de-futsal-senior-masculino-arranca-com-16-equipas-e-tres-estreias/": {
-        "category": "Desporto",
-        "timestamp": "2025-09-12T09:38:03.197993+00:00",
-        "title": "AFVR: Campeonato de Futsal Sénior Masculino arranca com 16 equipas e três estreias",
-        "confidence": "exact"
-    },
     "/artigo/ricardo-pais-vivi-na-ideia-de-que-nao-era-amado-uma-forma-de-inflacionar-a-autoestima-convencido-de-que-era-especial-cagancas-68c3e79ed4671fc1d6710276": {
         "category": null,
         "timestamp": "2025-09-12T09:50:41.038868+00:00",
@@ -105,41 +81,6 @@
         "timestamp": "2025-09-12T09:50:50.795542+00:00",
         "title": "Microsoft evita multa da Comissão Europeia separando Teams de outros programas",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499758, Requested 1064. Please try again in 2m21.8784s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://www.dnoticias.pt/2025/9/12/462525-rui-marques-defende-mais-incentivos-a-natalidade/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:38:15.417810+00:00",
-        "title": "Rui Marques defende mais incentivos à natalidade",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499357, Requested 1032. Please try again in 1m7.090199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://www.dnoticias.pt/2025/9/12/462524-chega-quer-mais-dinheiro-para-compensar-bombeiros-voluntarios/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:38:16.097139+00:00",
-        "title": "Chega quer mais dinheiro para compensar Bombeiros Voluntários",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499353, Requested 1051. Please try again in 1m9.695399999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://executivedigest.sapo.pt/noticias/psi-em-baixa-com-mota-engil-e-edp-renovaveis-a-descerem-155-e-115/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:38:16.466396+00:00",
-        "title": "PSI em baixa com Mota-Engil e EDP Renováveis a descerem 1,55% e 1,15%",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499351, Requested 1054. Please try again in 1m9.8438s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://estacaodiariajornal.sapo.pt/futebol-tondela-transfere-miro-por-2-me-e-rescinde-com-talocha/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:38:17.370870+00:00",
-        "title": "Futebol: Tondela transfere Miro por 2 ME e rescinde com Talocha",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499345, Requested 1050. Please try again in 1m8.2476s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://correiodeazemeis.sapo.pt/noticias/livre-para-mudar-responsavel-para-cuidar": {
-        "category": null,
-        "timestamp": "2025-09-12T09:38:19.470393+00:00",
-        "title": "“LIVRE para mudar, responsável para cuidar”",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499333, Requested 1044. Please try again in 1m5.1128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://executivedigest.sapo.pt/opiniao/como-a-participacao-ativa-transforma-politicas-publicas/": {
@@ -1553,6 +1494,12 @@
         "category": "Política",
         "timestamp": "2025-09-17T09:22:17.860349+00:00",
         "title": "Aconteceu o que parecia inevitável",
+        "confidence": "exact"
+    },
+    "https://ionline.sapo.pt/2025/09/17/pais-inclinado-lisboa-acelera-porto-trava-e-o-pais-perde-coesao/": {
+        "category": "Economia",
+        "timestamp": "2025-09-17T09:41:29.389700+00:00",
+        "title": "País inclinado: Lisboa acelera, Porto trava e o país perde coesão",
         "confidence": "exact"
     }
 }
