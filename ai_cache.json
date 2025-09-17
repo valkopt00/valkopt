@@ -6,36 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://sapo.pt/artigo/substituicao-do-cabo-pode-estar-na-origem-do-acidente-no-elevador-da-gloria-68c3591c8497fe9ef639aa99": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-12T10:40:20.792906+00:00",
-        "title": "Substituição do cabo pode estar na origem do acidente no Elevador da Glória",
-        "confidence": "exact"
-    },
-    "https://sapo.pt/artigo/no-palacio-chiado-o-chef-andre-pinto-serve-cozinha-portuguesa-com-uma-pitada-de-influencias-internacionais-68c3eebad2b5f22c4bab584f": {
-        "category": "Cultura",
-        "timestamp": "2025-09-12T10:40:34.309379+00:00",
-        "title": "No Palácio Chiado, o chef André Pinto serve cozinha portuguesa com uma pitada de influências interna...",
-        "confidence": "exact"
-    },
-    "https://sapo.pt/artigo/a-casa-de-bonecas-da-gabby-o-filme-ganhe-convites-para-as-antestreias-68c03073185ba36e5d7d6a5f": {
-        "category": "Multimédia",
-        "timestamp": "2025-09-12T10:40:37.315721+00:00",
-        "title": "\"A Casa de Bonecas da Gabby – O Filme\": ganhe convites para as antestreias",
-        "confidence": "exact"
-    },
-    "https://tvc.sapo.pt/2025/09/12/ovar-teatro-com-identidade-local-chuva-pasmada-estreia-amanha-no-cao/": {
-        "category": "Cultura",
-        "timestamp": "2025-09-12T10:40:38.739688+00:00",
-        "title": "Ovar: Teatro com identidade local: “Chuva Pasmada” estreia amanhã no CAO",
-        "confidence": "exact"
-    },
-    "/artigo/amazon-convida-start-up-portuguesa-para-desenvolver-tecnologia-na-area-climatica-foi-escolhida-entre-mais-de-550-candidaturas-68c3f6550e9d7127e2d510de": {
-        "category": "Ciência e Tech",
-        "timestamp": "2025-09-12T10:40:39.123198+00:00",
-        "title": "Amazon convida start-up portuguesa para desenvolver tecnologia na área climática. Foi escolhida entr...",
-        "confidence": "exact"
-    },
     "https://odigital.sapo.pt/baixo-alentejo-comunidade-intermunicipal-vai-instalar-novos-abrigos-de-passageiros/": {
         "category": null,
         "timestamp": "2025-09-12T10:50:35.847823+00:00",
@@ -69,69 +39,6 @@
         "timestamp": "2025-09-12T10:50:39.387612+00:00",
         "title": "Campeonato do Mundo de Fórmula 2 de Motonáutica regressa ao Douro",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499614, Requested 1054. Please try again in 1m55.336199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://radiocastelobranco.sapo.pt/sedentarismo-ameaca-saude-e-desenvolvimento-das-criancas/": {
-        "category": null,
-        "timestamp": "2025-09-12T10:40:47.120627+00:00",
-        "title": "Sedentarismo ameaça saúde e desenvolvimento das crianças",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499504, Requested 1050. Please try again in 1m35.682s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://radiocastelobranco.sapo.pt/municipio-de-castelo-branco-tinha-53-342-pessoas-no-final-de-2024/": {
-        "category": null,
-        "timestamp": "2025-09-12T10:40:47.348534+00:00",
-        "title": "Município de Castelo Branco tinha 53.342 pessoas, no final de 2024",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499503, Requested 1054. Please try again in 1m36.1462s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://diariocriminal.sapo.pt/2025/09/12/homem-detido-por-roubo-agravado-em-vn-gaia/": {
-        "category": null,
-        "timestamp": "2025-09-12T10:40:48.217178+00:00",
-        "title": "Homem detido por roubo agravado em VN Gaia",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499498, Requested 1042. Please try again in 1m33.204599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://hrportugal.sapo.pt/sap-nomeia-nova-presidente-regional-para-a-europa-medio-oriente-e-africa/": {
-        "category": null,
-        "timestamp": "2025-09-12T10:40:48.925766+00:00",
-        "title": "SAP nomeia nova presidente regional para a Europa, Médio Oriente e África",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499494, Requested 1056. Please try again in 1m34.913799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "/artigo/mais-de-21-mil-vitimas-de-violencia-domestica-em-seis-meses-queixas-aumentam-26-68c3f44bd4671fc1d672824f": {
-        "category": null,
-        "timestamp": "2025-09-12T10:40:49.003082+00:00",
-        "title": "Mais de 21 mil vítimas de violência doméstica em seis meses, queixas aumentam 26%",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499493, Requested 1049. Please try again in 1m33.6272s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://estacaodiariajornal.sapo.pt/autarquicas2025-ps-prioriza-16-areas-de-intervencao-para-viseu/": {
-        "category": null,
-        "timestamp": "2025-09-12T10:40:49.919834+00:00",
-        "title": "Autárquicas2025: PS prioriza 16 áreas de intervenção para Viseu",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499488, Requested 1052. Please try again in 1m33.2416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://eco.sapo.pt/opiniao/prosa-do-vento-que-passa/": {
-        "category": null,
-        "timestamp": "2025-09-12T10:40:50.182211+00:00",
-        "title": "Prosa do vento que passa",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499486, Requested 1019. Please try again in 1m27.263199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "/artigo/da-inteligencia-artificial-a-inteligencia-companheira-68c3f3cc0e9d7127e2d4d096": {
-        "category": null,
-        "timestamp": "2025-09-12T10:40:50.258775+00:00",
-        "title": "Da inteligência artificial à inteligência companheira",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499486, Requested 1047. Please try again in 1m32.0246s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://www.dnoticias.pt/2025/9/12/462532-jpp-acusa-psd-de-grave-bloqueio-a-transparencia-e-a-fiscalizacao-democratica/": {
-        "category": null,
-        "timestamp": "2025-09-12T10:40:50.623691+00:00",
-        "title": "JPP acusa PSD de \"grave bloqueio à transparência e à fiscalização democrática\"",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499484, Requested 1062. Please try again in 1m34.2556s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://cidadehoje.sapo.pt/famalicao-colisao-entre-dois-veiculos-na-n204-brufe/": {
