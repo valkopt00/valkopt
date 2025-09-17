@@ -6,115 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "/artigo/ricardo-pais-vivi-na-ideia-de-que-nao-era-amado-uma-forma-de-inflacionar-a-autoestima-convencido-de-que-era-especial-cagancas-68c3e79ed4671fc1d6710276": {
-        "category": null,
-        "timestamp": "2025-09-12T09:50:41.038868+00:00",
-        "title": "Ricardo Pais: “Vivi na ideia de que não era amado. Uma forma de inflacionar a autoestima, convencido...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499814, Requested 1084. Please try again in 2m35.0914s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "/artigo/nova-embaixadora-da-ue-promete-reforcar-cooperacao-com-as-autoridades-cabo-verdianas-68c3e79fd4671fc1d6710340": {
-        "category": null,
-        "timestamp": "2025-09-12T09:50:41.134635+00:00",
-        "title": "Nova embaixadora da UE promete reforçar cooperação com as autoridades cabo-verdianas",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499813, Requested 1060. Please try again in 2m30.8482s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "/artigo/certificacao-reforca-uso-de-camaras-de-videovigilancia-no-controlo-do-trafego-urbano-68c3e71f8497fe9ef6483e4a": {
-        "category": null,
-        "timestamp": "2025-09-12T09:50:41.219247+00:00",
-        "title": "Certificação reforça uso de câmaras de videovigilância no controlo do tráfego urbano",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499813, Requested 1063. Please try again in 2m31.2836s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://cidadehoje.sapo.pt/famalicao-paulo-cunha-pede-respeito-e-que-os-candidatos-facam-campanhas-limpas/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:50:43.991430+00:00",
-        "title": "Famalicão: Paulo Cunha pede respeito e que os candidatos «façam campanhas limpas»",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499797, Requested 1032. Please try again in 2m23.1538s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://www.dnoticias.pt/2025/9/12/462526-ps-propoe-caminho-agricola-entre-o-caramanchao-e-o-parque-empresarial-de-machico/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:50:44.754334+00:00",
-        "title": "PS propõe caminho agrícola entre o Caramanchão e o Parque Empresarial de Machico",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499793, Requested 1062. Please try again in 2m27.5728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "/artigo/homem-cacador-da-idade-da-pedra-era-o-unico-que-usava-ferramenta-para-cacar-estudo-desafia-estereotipo-68c3e79fd4671fc1d67103c6": {
-        "category": null,
-        "timestamp": "2025-09-12T09:50:44.833292+00:00",
-        "title": "'Homem caçador' da Idade da Pedra era o único que usava ferramenta para caçar? Estudo desafia estere...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499792, Requested 1068. Please try again in 2m28.5316s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://maisbeiras.sapo.pt/tondela-desporto-em-grande-na-ficton": {
-        "category": null,
-        "timestamp": "2025-09-12T09:50:46.856186+00:00",
-        "title": "Tondela: Desporto em grande na FICTON",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499780, Requested 1035. Please try again in 2m20.8052s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://executivedigest.sapo.pt/noticias/cronologia-o-processo-de-bolsonaro-condenado-por-tentativa-de-golpe-de-estado-no-brasil/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:50:47.224737+00:00",
-        "title": "Cronologia: O processo de Bolsonaro, condenado por tentativa de golpe de Estado no Brasil",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499778, Requested 1066. Please try again in 2m25.794s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://odigital.sapo.pt/gnr-detem-individuo-em-elvas-sem-documentos-apos-atravessar-a-a6-a-pe/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:50:48.870787+00:00",
-        "title": "GNR detém individuo em Elvas sem documentos após atravessar a A6 a pé",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499769, Requested 1051. Please try again in 2m21.555999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://cidadehoje.sapo.pt/preco-dos-combustiveis-mantem-se-na-proxima-semana/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:50:50.436874+00:00",
-        "title": "Preço dos combustíveis mantêm-se na próxima semana",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499760, Requested 1011. Please try again in 2m13.077s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://executivedigest.sapo.pt/sapo-tecnologia/microsoft-evita-multa-da-comissao-europeia-separando-teams-de-outros-programas/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:50:50.795542+00:00",
-        "title": "Microsoft evita multa da Comissão Europeia separando Teams de outros programas",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499758, Requested 1064. Please try again in 2m21.8784s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://executivedigest.sapo.pt/opiniao/como-a-participacao-ativa-transforma-politicas-publicas/": {
-        "category": "Opinião",
-        "timestamp": "2025-09-12T09:50:33.744784+00:00",
-        "title": "Como a participação ativa transforma políticas públicas",
-        "confidence": "exact"
-    },
-    "/artigo/justica-brasileira-condena-ex-presidente-jair-bolsonaro-a-27-anos-de-prisao-em-regime-fechado-68c3ea270e9d7127e2d398f8": {
-        "category": "Mundo",
-        "timestamp": "2025-09-12T09:50:34.166591+00:00",
-        "title": "Justiça brasileira condena ex-presidente Jair Bolsonaro a 27 anos de prisão em regime fechado",
-        "confidence": "exact"
-    },
-    "https://greensavers.sapo.pt/algarve-autoridades-fiscalizam-observacao-de-cetaceos/": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-12T09:50:35.771379+00:00",
-        "title": "Algarve: Autoridades fiscalizam observação de cetáceos",
-        "confidence": "exact"
-    },
-    "https://executivedigest.sapo.pt/portugal-vendas/quatro-queixas-por-hora-mais-de-100-por-dia-denuncias-por-violencia-domestica-aumentam-quase-26-no-primeiro-semestre-de-2025/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:50:36.135346+00:00",
-        "title": "Quatro queixas por hora, mais de 100 por dia: denúncias por violência doméstica aumentam quase 26% n...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499842, Requested 1087. Please try again in 2m40.5138s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://odigital.sapo.pt/moura-recebe-xutos-pontapes-esta-sexta-feira-na-feira-de-setembro/": {
-        "category": null,
-        "timestamp": "2025-09-12T09:50:38.545338+00:00",
-        "title": "Moura recebe Xutos & Pontapés esta sexta-feira na Feira de Setembro",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499828, Requested 1050. Please try again in 2m31.7102s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
     "https://www.rtp.pt/noticias/rtpeuropa-comissao-europeia/primeira-edicao-do-enlargmentcemp-em-lviv_v1683137": {
         "category": "Mundo",
         "timestamp": "2025-09-12T10:17:50.386542+00:00",
@@ -1500,6 +1391,12 @@
         "category": "Economia",
         "timestamp": "2025-09-17T09:41:29.389700+00:00",
         "title": "País inclinado: Lisboa acelera, Porto trava e o país perde coesão",
+        "confidence": "exact"
+    },
+    "https://www.publico.pt/2025/09/17/edicoes-publico/noticia/nova-edicao-revista-singular-publico-20-setembro-2144349": {
+        "category": "Cultura",
+        "timestamp": "2025-09-17T09:53:19.634238+00:00",
+        "title": "Nova edição da revista Singular com o PÚBLICO de 20 de Setembro",
         "confidence": "exact"
     }
 }
