@@ -1,46 +1,4 @@
 {
-    "https://www.rtp.pt/noticias/lusa/rangel-diz-que-chamada-de-embaixador-russo-e-protesto-formal-concertado-na-uniao-europeia_n1683151": {
-        "category": "Política",
-        "timestamp": "2025-09-12T11:13:42.816845+00:00",
-        "title": "Rangel diz que chamada de embaixador russo é \"protesto formal\" concertado na União Europeia",
-        "confidence": "exact"
-    },
-    "https://henricartoon.sapo.pt/hamburguer-ventura-3687281": {
-        "category": "Multimédia",
-        "timestamp": "2025-09-12T11:13:55.142199+00:00",
-        "title": "Hambúrguer Ventura",
-        "confidence": "exact"
-    },
-    "https://noticiasdosorraia.sapo.pt/picadeiro-coberto-reforca-centro-de-alto-rendimento-da-golega/": {
-        "category": "Desporto",
-        "timestamp": "2025-09-12T11:14:08.074358+00:00",
-        "title": "Picadeiro coberto reforça Centro de Alto Rendimento da Golegã",
-        "confidence": "exact"
-    },
-    "https://executivedigest.sapo.pt/noticias/regresso-as-aulas-encarregados-de-educacao-preferem-ensino-presencial-82-e-a-escola-publica-79-revela-estudo/": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-12T11:14:09.324074+00:00",
-        "title": "Regresso às Aulas: encarregados de educação preferem ensino presencial (82%) e a escola pública (79%...",
-        "confidence": "exact"
-    },
-    "https://diariocriminal.sapo.pt/2025/09/12/elvas-detido-por-entrada-e-permanencia-ilegal-em-territorio-nacional/": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-12T11:14:10.594769+00:00",
-        "title": "Elvas: Detido por entrada e permanência ilegal em território nacional",
-        "confidence": "exact"
-    },
-    "/artigo/meo-e-fundacao-meo-juntam-se-a-mirabilis-para-combater-dependencia-digital-em-criancas-e-jovens-68c3fee10e9d7127e2d66738": {
-        "category": "Sociedade",
-        "timestamp": "2025-09-12T11:14:11.074545+00:00",
-        "title": "MEO e Fundação MEO juntam-se à Mirabilis para combater dependência digital em crianças e jovens",
-        "confidence": "exact"
-    },
-    "/artigo/elevador-da-gloria-moedas-diz-que-nao-quer-especular-mas-decisoes-tomadas-ha-seis-anos-podem-ter-tido-influencia-68c3fe748497fe9ef64b5d78": {
-        "category": "Nacional",
-        "timestamp": "2025-09-12T11:14:12.333615+00:00",
-        "title": "Elevador da Glória: Moedas diz que não quer \"especular\", mas decisões tomadas há seis anos \"podem te...",
-        "confidence": "exact"
-    },
     "https://diariocriminal.sapo.pt/2025/09/12/santarem-arguido-por-furto-de-veiculo/": {
         "category": null,
         "timestamp": "2025-09-12T11:28:00.010163+00:00",
@@ -81,69 +39,6 @@
         "timestamp": "2025-09-12T11:28:03.162591+00:00",
         "title": "Sertã: Detida por cultivo e tráfico de estupefacientes",
         "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500087, Requested 1046. Please try again in 3m15.858999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://centrotv.sapo.pt/regiao-de-coimbra-certificada-como-estacao-nautica/": {
-        "category": null,
-        "timestamp": "2025-09-12T11:14:16.751051+00:00",
-        "title": "Região de Coimbra certificada como Estação Náutica",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499975, Requested 1044. Please try again in 2m55.983199999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://executivedigest.sapo.pt/noticias/mudancas-no-codigo-do-trabalho-empresas-podem-recorrer-a-ferramentas-de-gestao-para-lidar-com-maior-flexibilidade-laboral/": {
-        "category": null,
-        "timestamp": "2025-09-12T11:14:17.118502+00:00",
-        "title": "Mudanças no Código do Trabalho: Empresas podem recorrer a ferramentas de gestão para lidar com maior...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499973, Requested 1085. Please try again in 3m2.701s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://maisbeiras.sapo.pt/praca-das-autarquicas-entrevista-a-cristiano-conduto-candidato-a-camara-municipal-de-meda-pelo-patido-chega": {
-        "category": null,
-        "timestamp": "2025-09-12T11:14:19.402767+00:00",
-        "title": "Praça das Autárquicas: Entrevista a Cristiano Conduto, candidato à Câmara Municipal de Mêda pelo Pat...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499960, Requested 1074. Please try again in 2m58.5152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://eco.sapo.pt/opiniao/novo-paradigma-do-ouro-alcancara-4000-dolares-este-ano/": {
-        "category": null,
-        "timestamp": "2025-09-12T11:14:19.643080+00:00",
-        "title": "Novo paradigma do ouro: alcançará 4000 dólares este ano?",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499958, Requested 1047. Please try again in 2m53.6096s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://eco.sapo.pt/2025/09/12/autorizacoes-de-residencia-emitidas-na-uniao-europeia-caem-83-ucrania-lidera/": {
-        "category": null,
-        "timestamp": "2025-09-12T11:14:19.866048+00:00",
-        "title": "Autorizações de residência emitidas na União Europeia caem 8,3%. Ucrânia lidera",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499957, Requested 1060. Please try again in 2m55.654s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://www.dnoticias.pt/2025/9/12/462534-sempre-que-chegarem-a-escola-terao-professores/": {
-        "category": null,
-        "timestamp": "2025-09-12T11:14:20.703872+00:00",
-        "title": "\"Sempre que chegarem à escola terão professores\"",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499952, Requested 1030. Please try again in 2m49.611s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://www.dnoticias.pt/2025/9/12/462538-cruzeiro-de-leonardo-jardim-nas-meias-finais-da-taca-do-brasil/": {
-        "category": null,
-        "timestamp": "2025-09-12T11:14:21.484630+00:00",
-        "title": "Cruzeiro, de Leonardo Jardim, nas meias-finais da Taça do Brasil",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499948, Requested 1053. Please try again in 2m52.8054s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://executivedigest.sapo.pt/revista-risco/jeronimo-martins-e-a-melhor-empresa-portuguesa-no-ranking-time-de-2025-nvidia-lidera-a-nivel-mundial/": {
-        "category": null,
-        "timestamp": "2025-09-12T11:14:21.861621+00:00",
-        "title": "Jerónimo Martins é a melhor empresa portuguesa no ranking ‘TIME’ de 2025: NVIDIA lidera a nível mund...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499945, Requested 1074. Please try again in 2m56.0572s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-        "confidence": "error"
-    },
-    "https://sustentix.sapo.pt/cocktails-inovadores-criados-na-eshte-conquistam-premio-na-maior-competicao-nacional-de-empreendedorismo/": {
-        "category": null,
-        "timestamp": "2025-09-12T11:14:22.759270+00:00",
-        "title": "Cocktails inovadores criados na ESHTE conquistam prémio na maior competição nacional de empreendedor...",
-        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01k4831bkyetvvkry1d9j2qfqn` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499940, Requested 1071. Please try again in 2m54.6398s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
         "confidence": "error"
     },
     "https://hrportugal.sapo.pt/emprego-em-hotelaria-cresceu-quase-10-entre-maio-e-agosto-sao-estas-as-funcoes-mais-procuradas/": {
@@ -1068,6 +963,12 @@
         "category": "Cultura",
         "timestamp": "2025-09-17T09:53:19.634238+00:00",
         "title": "Nova edição da revista Singular com o PÚBLICO de 20 de Setembro",
+        "confidence": "exact"
+    },
+    "https://rr.pt/bola-branca/especial/futebol-nacional/2025/09/17/quem-te-viu-e-quem-te-ve-foi-ha-50-anos-que-o-boavista-se-estreou-na-europa/440059/?utm_medium=rss": {
+        "category": "Desporto",
+        "timestamp": "2025-09-17T11:16:52.531283+00:00",
+        "title": "Quem te viu e quem te vê. Foi há 50 anos que o Boavista se estreou na Europa",
         "confidence": "exact"
     }
 }
