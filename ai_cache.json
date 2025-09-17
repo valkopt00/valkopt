@@ -13,12 +13,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "/artigo/quem-sao-os-condenados-pela-tentativa-de-golpe-no-brasil-penas-vao-de-27-anos-de-prisao-ate-dois-em-regime-aberto-68c3a59a0e9d7127e2cbdc37": {
-        "category": "Mundo",
-        "timestamp": "2025-09-12T05:16:35.946665+00:00",
-        "title": "Quem são os condenados pela tentativa de golpe no Brasil? Penas vão de 27 anos de prisão até dois em...",
-        "confidence": "exact"
-    },
     "https://greensavers.sapo.pt/area-ardida-global-cai-26-entre-2002-e-2021-mas-numero-de-pessoas-expostas-aumenta-cientistas-falam-de-paradoxo/": {
         "category": "Ciência e Tech",
         "timestamp": "2025-09-12T05:39:04.670347+00:00",
@@ -2388,6 +2382,18 @@
         "category": "Desporto",
         "timestamp": "2025-09-16T21:18:29.953565+00:00",
         "title": "Benfica 2-3 Qarabag. Recorde o filme da derrota encarnada na Champions",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/francisco-sarsfield-cabral/2025/09/17/depois-de-bolsonaro/440098/?utm_medium=rss": {
+        "category": "Opinião",
+        "timestamp": "2025-09-17T05:20:26.088125+00:00",
+        "title": "​Depois de Bolsonaro",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/ribeiro-cristovao/2025/09/17/apagou-se-a-luz/440099/?utm_medium=rss": {
+        "category": "Nacional",
+        "timestamp": "2025-09-17T05:20:26.402550+00:00",
+        "title": "Apagou-se a Luz",
         "confidence": "exact"
     }
 }
