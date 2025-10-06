@@ -1,10 +1,4 @@
 {
-    "https://www.publico.pt/2025/10/01/edicoes-publico/noticia/futuro-agua-desafios-solucoes-mudancas-mentalidade-2149261": {
-        "category": "Ciência e Tech",
-        "timestamp": "2025-10-01T18:30:47.433341+00:00",
-        "title": "O futuro da água: desafios, soluções e mudanças de mentalidade",
-        "confidence": "exact"
-    },
     "https://visao.pt/visao_verde/2025-10-01-uma-mae-chimpanze-educa-os-filhos-tal-como-uma-mae-humana-devia-educar-os-seus-os-ensinamentos-de-jane-goodall-numa-entrevista-a-visao/?utm_source=rss&utm_medium=rss&utm_campaign=uma-mae-chimpanze-educa-os-filhos-tal-como-uma-mae-humana-devia-educar-os-seus-os-ensinamentos-de-jane-goodall-numa-entrevista-a-visao": {
         "category": "Cultura",
         "timestamp": "2025-10-01T18:54:57.446995+00:00",
@@ -448,5 +442,26 @@
         "timestamp": "2025-10-06T17:52:23.844232+00:00",
         "title": "Mourinho devia ter arriscado no clássico? Sporting em queda? Veja a Tertúlia Bola Branca às 19h",
         "confidence": "exact"
+    },
+    "https://www.rtp.pt/noticias/autarquicas-2025-vamos-a-votos/andre-ventura-fala-numa-onda-de-vitoria-do-chega-por-todo-o-pais_a1688881": {
+        "category": null,
+        "timestamp": "2025-10-06T18:31:27.558874+00:00",
+        "title": "André Ventura fala numa \"onda de vitória do Chega por todo o país\"",
+        "error": "Error code: 503 - {'error': {'message': 'llama-3.1-8b-instant is currently over capacity. Please try again and back off exponentially. Visit https://groqstatus.com to see if there is an active incident.', 'type': 'internal_server_error'}}",
+        "confidence": "error"
+    },
+    "https://www.rtp.pt/noticias/autarquicas-2025/porto-moniz-e-funchal_a1688762": {
+        "category": null,
+        "timestamp": "2025-10-06T18:31:33.672074+00:00",
+        "title": "Porto Moniz e Funchal",
+        "error": "Error code: 503 - {'error': {'message': 'llama-3.1-8b-instant is currently over capacity. Please try again and back off exponentially. Visit https://groqstatus.com to see if there is an active incident.', 'type': 'internal_server_error'}}",
+        "confidence": "error"
+    },
+    "https://rr.pt/bola-branca/artigo/tertulia-bola-branca/2025/10/06/tertulia-bola-branca-mourinho-devia-ter-arriscado-no-classico-sporting-em-queda/442685/?utm_medium=rss": {
+        "category": null,
+        "timestamp": "2025-10-06T18:31:42.520307+00:00",
+        "title": "🔴 Tertúlia Bola Branca: Mourinho devia ter arriscado no clássico? Sporting em queda?",
+        "error": "Error code: 503 - {'error': {'message': 'llama-3.1-8b-instant is currently over capacity. Please try again and back off exponentially. Visit https://groqstatus.com to see if there is an active incident.', 'type': 'internal_server_error'}}",
+        "confidence": "error"
     }
 }
