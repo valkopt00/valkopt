@@ -1,6 +1,16 @@
 {
     "Últimas": [
         {
+            "link": "https://www.rtp.pt/noticias/mundo/zelensky-afirma-a-lideres-europeus-que-seguranca-de-kiev-e-da-europa-e-prioridade_n1692010",
+            "normalized_title": "zelensky afirma a lideres europeus que seguranca de kiev e da europa e prioridade",
+            "normalized_description": "o presidente ucraniano volodymyr zelensky transmitiu aos lideres europeus e da nato os resultados da sua reuniao com donald trump afirmando estar"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/trump-considera-interessante-a-ideia-russa-de-um-tunel-a-ligar-ao-alasca",
+            "normalized_title": "trump considera interessante a ideia russa de um tunel a ligar ao alasca",
+            "normalized_description": "emissario de vladimir putin para as questoes economicas nas relacoes internacionais mencionou na rede social x um projeto de ponte entre o alasca e"
+        },
+        {
             "link": "https://www.rtp.pt/noticias/pais/caso-mitha-ribeiro-vemtura-nao-comenta-criticas-de-ex-deputado_v1692013",
             "normalized_title": "caso mitha ribeiro vemtura nao comenta criticas de ex deputado",
             "normalized_description": "andre ventura diz ninguem pode ficar ressentido por ser excluido de lugares e a reacao do presidente do chega a desfiliacao de gabriel mitha ribeiro"
@@ -16,9 +26,54 @@
             "normalized_description": "piloto espanhol tem 0 9 segundos de vantagem sobre o norte irlandes kris meeke"
         },
         {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/bernardo-ribeiro/detalhe/varandas-mudou-a-face-do-sporting",
+            "normalized_title": "varandas mudou a face do sporting",
+            "normalized_description": "agora os leaµes ata sa o acusados de controlar o futebol portuguaªs quem diria"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/seguranca-e-o-debate-ao-lado",
+            "normalized_title": "seguranca e o debate ao lado",
+            "normalized_description": "trafico de droga e hoje o grande problema da seguranca e nao a imigracao"
+        },
+        {
             "link": "https://www.rtp.pt/noticias/mundo/cessar-fogo-em-gaza-busca-pelos-19-refens-mortos-continua-no-enclace_v1692011",
             "normalized_title": "cessar fogo em gaza busca pelos 19 refens mortos continua no enclace",
             "normalized_description": "a onu diz que o cessar fogo em gaza abriu uma janela de oportunidade para a entrega de ajuda humanitaria mas avisa que vai levar tempo a acabar com"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/coisas-do-dinheiro/detalhe/prestacao-cara",
+            "normalized_title": "prestacao cara",
+            "normalized_description": "vale a pena renegociar com os bancos se paga mais de 3"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/nacao-valente/detalhe/20251017-231444-nem-os-pardais",
+            "normalized_title": "nem os pardais",
+            "normalized_description": "antonio costa alimentou na descendencia a crenca pueril de que o futuro do partido estava a esquerda"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/joao-moniz/detalhe/farioli-e-o-teste-do-algodao",
+            "normalized_title": "farioli e o teste do algodao",
+            "normalized_description": "a diferenca nos resultados entre o italiano e vitor bruno nas primeiras oito jornadas e curta"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/antena-paranoica/detalhe/parecemos-tontinhos",
+            "normalized_title": "parecemos tontinhos",
+            "normalized_description": "continuamos a ser porta para entrada de ilegais na ue"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/sonia-dias/detalhe/os-nao-menos-importantes-premios-nobel",
+            "normalized_title": "os nao menos importantes premios nobel",
+            "normalized_description": "donald trump e um forte candidato aos premios ig nobel"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/segunda-opiniao/detalhe/a-desuniao-faz-a-forca",
+            "normalized_title": "a desuniao faz a forca",
+            "normalized_description": "estas manifestacoes no ps nao parecem de pluralismo saudavel"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/a-partir-das-imagens/detalhe/acidentes-e-dedicatoria",
+            "normalized_title": "acidentes e dedicatoria",
+            "normalized_description": "ha uma terrivel mortandade em curso nas estradas portuguesas nas cidades e fora delas"
         },
         {
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/0h-ps-quer-prazos-mais-curtos-para-se-obter-naturalizacao-e-residencia-em-portugal_a1_1692009",
@@ -144,6 +199,11 @@
             "link": "https://rr.pt/bola-branca/noticia/especial-de-corrida/2025/10/17/verstappen-sai-na-frente-para-a-corrida-sprint-em-austin/444292/?utm_medium=rss",
             "normalized_title": "verstappen sai na frente para a corrida sprint em austin",
             "normalized_description": "o gp formula 1 dos eua realiza se as 20h00 de domingo"
+        },
+        {
+            "link": "https://www.autosport.pt/formula1/f1/gp-eua-max-verstappen-entusiasmado-para-amanha/?utm_source=rss&utm_medium=rss&utm_campaign=gp-eua-max-verstappen-entusiasmado-para-amanha",
+            "normalized_title": "gp eua max verstappen entusiasmado para amanha",
+            "normalized_description": "max verstappen voltou a fazer das suas na qualificacao para a corrida sprint guardou o melhor para o fim e fez a pole deixou atras de si a"
         },
         {
             "link": "https://rr.pt/noticia/politica/2025/10/17/burca-proibida-receio-que-isto-parta-sobretudo-de-uma-discriminacao/444289/?utm_medium=rss",
@@ -5169,111 +5229,6 @@
             "link": "https://www.publico.pt/2025/10/17/mundo/noticia/john-bolton-exconselheiro-trump-acusado-partilhar-informacao-classificada-2151189",
             "normalized_title": "john bolton ex conselheiro de trump foi acusado de partilhar informacao classificada",
             "normalized_description": "bolton tera partilhado algumas notas com informacoes retiradas de reunioes governamentais encontros com lideres estrangeiros e dos servicos"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/industria-precos-na-producao-desceram-37-em-setembro/",
-            "normalized_title": "industria precos na producao desceram 3 7 em setembro",
-            "normalized_description": "segundo o ine esta descida reflete a reducao dos precos dos bens intermedios da energia e dos bens de consumo que tiveram descidas de 4 6 6 8 e"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/2872523/arteta-revela-conversa-com-gyokeres-e-garante-se-assim-nao-for#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "arteta revela conversa com gyokeres e garante se assim nao for",
-            "normalized_description": "treinador espanhol mantem total confianca nas capacidades do goleador sueco que o arsenal foi buscar ao sporting e garante nao estar preocupado com a"
-        },
-        {
-            "link": "https://www.cmjornal.pt/economia/detalhe/juros-da-casa-voltam-a-cair-em-setembro-para-3-228",
-            "normalized_title": "juros da casa voltam a cair em setembro para 3 228",
-            "normalized_description": "a prestacao media fixou se em 393 euros um euro menos que no mes anterior pela primeira vez desde maio de 2023 os juros representam menos de 50"
-        },
-        {
-            "link": "https://tek.sapo.pt/noticias/internet/artigos/portugueses-preferem-instagram-para-seguir-marcas-adoram-promocoes-e-videos",
-            "normalized_title": "portugueses preferem instagram para seguir marcas adoram promocoes e videos",
-            "normalized_description": "um estudo da marktest revela que o instagram e a rede social onde os portugueses mais gostam de ver conteudos de marcas com conta peso e medida as"
-        },
-        {
-            "link": "https://rr.pt/noticia/politica/2025/10/17/mais-de-15-mil-eleitores-usaram-voto-antecipado-nas-autarquicas/444193/?utm_medium=rss",
-            "normalized_title": "mais de 15 mil eleitores usaram voto antecipado nas autarquicas",
-            "normalized_description": "mais de 10 mil pessoas votaram antecipadamente nas eleicoes por motivos profissionais alem de mais de dois mil presos mais de 600 doentes e quase"
-        },
-        {
-            "link": "https://expresso.pt/boa-cama-boa-mesa/2025-10-17-loriga-mertola-e-vila-nogueira-de-azeitao-distinguidas-com-o-premio-melhor-aldeia-turistica-2025-25f49909",
-            "normalized_title": "loriga mertola e vila nogueira de azeitao distinguidas com o premio melhor aldeia turistica 2025",
-            "normalized_description": "valido por tres anos o selo best tourism village visa premiar os melhores destinos rurais do mundo a distincao de melhor aldeia turistica 2025"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2872536/quase-oito-em-cada-10-pobres-expostos-a-impacto-das-alteracoes-climaticas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "quase oito em cada 10 pobres expostos a impacto das alteracoes climaticas",
-            "normalized_description": "quase oito em cada 10 pobres de todo o mundo ou cerca de 900 milhoes de pessoas estao diretamente expostos a riscos climaticos agravados pelo"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/2872532/enfermeiros-em-greve-manifestam-se-contra-proposta-de-acordo-coletivo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "enfermeiros em greve manifestam se contra proposta de acordo coletivo",
-            "normalized_description": "cerca de 100 enfermeiros estao hoje concentrados junto ao ministerio da saude em lisboa em protesto contra a proposta de acordo coletivo de"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/rui-costa-o-benfica-ja-esteve-na-lama-ha-quatro-anos-e-ninguem-ca-quis-por-os-pes",
-            "normalized_title": "rui costa o benfica ja esteve na lama ha quatro anos e ninguem ca quis por os pes",
-            "normalized_description": "presidente e candidato nas eleicoes de dia 25 em entrevista a radio renascenca"
-        },
-        {
-            "link": "https://rr.pt/noticia/religiao/2025/10/17/percentagem-mundial-de-catolicos-aumentou-informa-vaticano/444192/?utm_medium=rss",
-            "normalized_title": "percentagem mundial de catolicos aumentou informa vaticano",
-            "normalized_description": "relatorio indica que o aumento de catolicos foi mais acentuado em africa e na america como nos anos anteriores agencia fides apresentou"
-        },
-        {
-            "link": "https://www.record.pt/modalidades/tenis/detalhe/20251017-114819-frederico-silva-e-henrique-rocha-falham-final-de-pares-do-torneio-de-tenis-de-shenzhen",
-            "normalized_title": "frederico silva e henrique rocha falham final de pares do torneio de tenis de shenzhen",
-            "normalized_description": "ao perderem em dois sets com o norte americano nathaniel lammons e o neerlandes jean julien rojer"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/tech/2872529/pinterest-permite-aos-utilizadores-filtrar-conteudo-criado-com-ia#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "pinterest permite aos utilizadores filtrar conteudo criado com ia",
-            "normalized_description": "a rede social pinterest permite aos utilizadores filtrar conteudo gerado por inteligencia artificial ia na plataforma respondendo a preocupacoes"
-        },
-        {
-            "link": "https://www.record.pt/internacional/paises/espanha/barcelona/detalhe/ha-um-motivo-pelo-qual-lamine-yamal-deixou-de-dar-autografos",
-            "normalized_title": "ha um motivo pelo qual lamine yamal deixou de dar autografos",
-            "normalized_description": "barceloma compreendeu situacao"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/2872515/detido-cadastrado-violento-que-tentou-matar-homem-no-montijo-ha-2-anos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "detido cadastrado violento que tentou matar homem no montijo ha 2 anos",
-            "normalized_description": "a pj deteve um homem de 35 anos e nacionalidade estrangeira no montijo por suspeitas de uma tentativa de homicidio ocorrida em 2023 em causa"
-        },
-        {
-            "link": "https://www.publico.pt/2025/10/17/sociedade/noticia/loja-cidadao-virtual-arranca-100-servicos-combater-filas-interminaveis-2151186",
-            "normalized_title": "loja de cidadao virtual arranca com mais de 100 servicos para combater filas interminaveis",
-            "normalized_description": "ate 2030 governo quer que totalidade dos servicos possa ser feita de forma digital lojas fisicas vao ter horarios alargados"
-        },
-        {
-            "link": "https://www.publico.pt/2025/10/17/politica/noticia/duarte-cordeiro-nao-afasta-lideranca-ps-deixa-avisos-carneiro-apoia-seguro-2151187",
-            "normalized_title": "duarte cordeiro nao afasta lideranca do ps deixa avisos a carneiro e apoia seguro",
-            "normalized_description": "o antigo governante entende que os resultados do partido nas autarquicas nao permitem a leitura positiva feita pelo actual lider do ps e diz que"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/mercados/bolsa/detalhe/acoes-da-novo-nordisk-tombam-quase-7-depois-de-trump-falar-em-ozempic-a-150-dolares",
-            "normalized_title": "acoes da novo nordisk tombam quase 7 depois de trump falar em ozempic a 150 dolares",
-            "normalized_description": "tambem as acoes da norte americana eli lilly que produz igualmente medicamentos que resultam na perda de peso estao a cair 4 antes da abertura do"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/2872527/marinha-resgata-tripulante-de-navio-mercante-ao-largo-de-aveiro#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "marinha resgata tripulante de navio mercante ao largo de aveiro",
-            "normalized_description": "a marinha coordenou hoje de madrugada o resgate de um homem de 36 anos que seguia a bordo de um navio mercante que navegava ao largo de aveiro"
-        },
-        {
-            "link": "https://www.cmjornal.pt/economia/detalhe/eurostat-confirma-inflacao-de-2-2-na-zona-euro-em-setembro-portugal-teve-uma-das-taxas-mais-baixas",
-            "normalized_title": "eurostat confirma inflacao de 2 2 na zona euro em setembro portugal teve uma das taxas mais baixas",
-            "normalized_description": "e a primeira aceleracao desde junho"
-        },
-        {
-            "link": "https://www.eurogamer.pt/ex-diretor-de-call-of-duty-esta-preocupado-com-a-serie-nas-maos-da-microsoft",
-            "normalized_title": "ex diretor de call of duty esta preocupado com a serie nas maos da microsoft",
-            "normalized_description": "glen schofield antigo diretor da serie call of duty na sledgehammer games disse que esta bastante preocupado com o futuro do jogo agora que a"
-        },
-        {
-            "link": "https://pt.ign.com/silent-hill-2-remake/151498/news/remake-de-silent-hill-2-ja-vendeu-25-milhoes-de-unidades",
-            "normalized_title": "remake de silent hill 2 ja vendeu 2 5 milhoes de unidades",
-            "normalized_description": "franquia de silent hill ja vendeu 10 milhoes cerca de um ano apos o seu lancamento o remake de silent hill 2 continua a ser um sucesso para a"
         }
     ],
     "Nacional": [
@@ -9291,14 +9246,19 @@
             "link": "https://www.publico.pt/2025/10/13/local/noticia/pizarro-nao-conseguiu-porto-terceira-oposicao-podese-trabalhar-2150572",
             "normalized_title": "assumo inteiramente a derrota pizarro nao conseguiu o porto a terceira tentativa",
             "normalized_description": "o socialista nao venceu as eleicoes mas consegue duplicar o numero de vereadores na camara de tres passa para seis os mesmos que tera pedro"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/2869450/autarquicas-chega-ganha-camara-de-entroncamento-ao-ps#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "autarquicas chega ganha camara de entroncamento ao ps",
-            "normalized_description": "o chega venceu as eleicoes autarquicas de hoje no entroncamento no distrito de santarem municipio que era governada pelo ps segundo os dados"
         }
     ],
     "Mundo": [
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/zelensky-afirma-a-lideres-europeus-que-seguranca-de-kiev-e-da-europa-e-prioridade_n1692010",
+            "normalized_title": "zelensky afirma a lideres europeus que seguranca de kiev e da europa e prioridade",
+            "normalized_description": "o presidente ucraniano volodymyr zelensky transmitiu aos lideres europeus e da nato os resultados da sua reuniao com donald trump afirmando estar"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/trump-considera-interessante-a-ideia-russa-de-um-tunel-a-ligar-ao-alasca",
+            "normalized_title": "trump considera interessante a ideia russa de um tunel a ligar ao alasca",
+            "normalized_description": "emissario de vladimir putin para as questoes economicas nas relacoes internacionais mencionou na rede social x um projeto de ponte entre o alasca e"
+        },
         {
             "link": "https://www.rtp.pt/noticias/mundo/cessar-fogo-em-gaza-busca-pelos-19-refens-mortos-continua-no-enclace_v1692011",
             "normalized_title": "cessar fogo em gaza busca pelos 19 refens mortos continua no enclace",
@@ -16388,11 +16348,6 @@
             "link": "https://observador.pt/2025/10/12/franca-sebastien-lecornu-apresenta-composicao-do-governo-com-missao-de-fornecer-orcamento-ate-ao-final-do-ano/",
             "normalized_title": "franca lecornu apresenta composicao do governo",
             "normalized_description": "o recem reconduzido primeiro ministro frances apresentou a lista de ministros que compoem o seu governo com a missao de fornecer um orcamento ate ao"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2869487/trump-avisa-russia-de-eventual-envio-de-misseis-se-guerra-nao-for-resolvida#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "trump avisa russia de eventual envio de misseis se guerra nao for resolvida",
-            "normalized_description": "o presidente norte americano donald trump avisou hoje a russia que podera enviar misseis de longo alcance tomahawk para a ucrania se moscovo nao"
         }
     ],
     "Desporto": [
@@ -16430,6 +16385,11 @@
             "link": "https://rr.pt/bola-branca/noticia/especial-de-corrida/2025/10/17/verstappen-sai-na-frente-para-a-corrida-sprint-em-austin/444292/?utm_medium=rss",
             "normalized_title": "verstappen sai na frente para a corrida sprint em austin",
             "normalized_description": "o gp formula 1 dos eua realiza se as 20h00 de domingo"
+        },
+        {
+            "link": "https://www.autosport.pt/formula1/f1/gp-eua-max-verstappen-entusiasmado-para-amanha/?utm_source=rss&utm_medium=rss&utm_campaign=gp-eua-max-verstappen-entusiasmado-para-amanha",
+            "normalized_title": "gp eua max verstappen entusiasmado para amanha",
+            "normalized_description": "max verstappen voltou a fazer das suas na qualificacao para a corrida sprint guardou o melhor para o fim e fez a pole deixou atras de si a"
         },
         {
             "link": "https://www.record.pt/modalidades/motores/ralis/detalhe/federacao-de-motociclismo-emite-nota-de-pesar-pela-morte-de-jorge-brandao-partiu-a-fazer-o-que-mais-amava",
@@ -26460,36 +26420,6 @@
             "link": "https://www.rtp.pt/noticias/selecao-nacional/gana-e-o-21o-qualificado-para-a-fase-final_d1690601",
             "normalized_title": "gana e o 21 º qualificado para a fase final",
             "normalized_description": "o gana qualificou se hoje pela quarta vez para um campeonato do mundo de futebol ao conquistar o grupo i de qualificacao africana para o mundial2026"
-        },
-        {
-            "link": "https://www.record.pt/fora-de-campo/detalhe/mariana-mortagua-reconhece-resultado-modesto-do-be-mas-faz-balanco-positivo-das-coligacoes",
-            "normalized_title": "mariana mortagua reconhece resultado modesto do be mas faz balanco positivo das coligacoes",
-            "normalized_description": "lider bloquista analisa resultados previos"
-        },
-        {
-            "link": "https://www.record.pt/fora-de-campo/detalhe/autarquicas-antiga-ministra-ana-abrunhosa-vence-em-coimbra-pela-coligacao-ps-livre-pan",
-            "normalized_title": "autarquicas antiga ministra ana abrunhosa vence em coimbra pela coligacao ps livre pan",
-            "normalized_description": "destronando jose manuel silva da coligacao juntos somos coimbra"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/selecao-nacional/rafael-leao-falha-duelo-de-terca-feira-com-a-hungria_d1690600",
-            "normalized_title": "rafael leao falha duelo de terca feira com a hungria",
-            "normalized_description": "rafael leao vai falhar o encontro de terca feira de portugal frente a hungria de apuramento para o mundial2026 depois de ter sido dispensado do"
-        },
-        {
-            "link": "https://www.record.pt/fora-de-campo/detalhe/autarquicas-ps-ganha-faro-ao-psd-sem-maioria-absoluta",
-            "normalized_title": "autarquicas ps ganha faro ao psd sem maioria absoluta",
-            "normalized_description": "socialistas ganham municipio que e atualmente presidido pelo psd"
-        },
-        {
-            "link": "https://www.record.pt/fora-de-campo/detalhe/paulo-raimundo-reconhece-resultado-negativo-da-cdu",
-            "normalized_title": "paulo raimundo reconhece resultado negativo da cdu",
-            "normalized_description": "lider dos comunistas assume que coligacao ambicionava mais"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/2869455/sergio-conceicao-protagonizou-momento-caricato-e-ate-benzema-se-riu#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "sergio conceicao protagonizou momento caricato e ate benzema se riu",
-            "normalized_description": "treino do al ittihad voltou a ser palco de um curioso momento a envolver sergio conceicao em jeddah poucos dias apos ter chegado a acordo com o"
         }
     ],
     "Economia": [
@@ -33032,16 +32962,6 @@
             "link": "https://jornaleconomico.sapo.pt/noticias/madeira-psd-cds-pp-vence-em-tres-municipios-e-psd-leva-camara-de-lobos-e-calheta/",
             "normalized_title": "madeira psd cds pp vence em tres municipios e psd leva camara de lobos e calheta",
             "normalized_description": "a coligacao psd cds pp venceu na ribeira brava ponta do sol e porto santo"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/economia/detalhe/antiga-ministra-ana-abrunhosa-vence-em-coimbra-pela-coligacao-ps-livre-pan",
-            "normalized_title": "antiga ministra ana abrunhosa vence em coimbra pela coligacao ps livre pan",
-            "normalized_description": "a nova presidente da autarquia apontou a habitacao como grande aposta da coligacao e prometeu combater as terriveis assimetrias de coimbra"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/os-resultados-apontam-para-reducao-da-expressao-eleitoral-da-cdu-diz-paulo-raimundo/",
-            "normalized_title": "os resultados apontam para reducao da expressao eleitoral da cdu diz paulo raimundo",
-            "normalized_description": "os resultados apontam para reducao da expressao eleitoral da cdu seja na votacao nos mandatos seja no numero de municipios em que e a forca"
         }
     ],
     "Cultura": [
@@ -43987,101 +43907,6 @@
             "link": "https://www.cmjornal.pt/mais-cm/especiais/autarquicas-2025/detalhe/luisa-salgueiro-feliz-por-ganhar-tudo-o-que-havia-para-ganhar-em-matosinhos",
             "normalized_title": "luisa salgueiro feliz por ganhar tudo o que havia para ganhar em matosinhos",
             "normalized_description": "enquanto a autarca que vai assumir o seu terceiro e ultimo mandato discursava gritava se na sala vitoria vitoria vitoria"
-        },
-        {
-            "link": "https://expresso.pt/politica/eleicoes/autarquicas-2025/2025-10-12-isto-agora-e-nosso-ps-vence-em-viseu-o-antigo-cavaquistao-4220ebf3",
-            "normalized_title": "isto agora e nosso ps vence em viseu o antigo cavaquistao",
-            "normalized_description": "fernando ruas em silencio apos uma derrota inesperada e efusao socialista a todos o ps venceu na capital do cavaquistao e a mudanca foi celebrada"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/politica/2869472/marco-almeida-psdilpan-assume-vitoria-em-sintra#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "marco almeida psd il pan assume vitoria em sintra",
-            "normalized_description": "o cabeca de lista do psd il pan a camara de sintra marco almeida assumiu hoje a vitoria nas eleicoes autarquicas ficando a frente da candidata do"
-        },
-        {
-            "link": "https://www.cmjornal.pt/mais-cm/especiais/autarquicas-2025/detalhe/chega-ganha-em-albufeira-e-acaba-com-dominio-do-psd-no-concelho",
-            "normalized_title": "chega ganha em albufeira e acaba com dominio do psd no concelho",
-            "normalized_description": "vitoria de rui cristina em albufeira marca a entrada do chega no poder autarquico do distrito de faro"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/politica/2869498/ana-abrunhosa-vence-em-coimbra-pela-coligacao-pslivrepan#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "ana abrunhosa vence em coimbra pela coligacao ps livre pan",
-            "normalized_description": "a antiga ministra ana abrunhosa venceu hoje as eleicoes para a camara de coimbra pela coligacao avancar coimbra ps livre pan destronando jose"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/nuno-melo-afirma-que-cds-supera-todos-os-momentos-dificeis_v1690597",
-            "normalized_title": "nuno melo afirma que cds supera todos os momentos dificeis",
-            "normalized_description": "nuno melo afirma que o cds pp conquistou camaras em listas proprias e foi fundamental para vitorias do centro de direita em camaras da ad"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/politica/2869493/chega-ganha-em-albufeira-e-acaba-com-dominio-do-psd-no-concelho#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "chega ganha em albufeira e acaba com dominio do psd no concelho",
-            "normalized_description": "o chega conquistou hoje a camara de albufeira no distrito de faro ao vencer as eleicoes autarquicas no municipio com 40 51 dos votos destronando"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/albuquerque-reclama-vitoria-do-psdmadeira-na-regiao-vencendo-seis-concelhos_n1690581",
-            "normalized_title": "albuquerque reclama vitoria do psd madeira na regiao vencendo seis concelhos",
-            "normalized_description": "o lider do psd madeira miguel albuquerque congratulou se com a vitoria do partido na regiao nas eleicoes autarquicas de hoje indicando que venceu"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/psdcds-ppppm-tira-ps-da-camara-de-caminha-e-quer-fazer-o-que-nao-foi-feito_n1690580",
-            "normalized_title": "psd cds pp ppm tira ps da camara de caminha e quer fazer o que nao foi feito",
-            "normalized_description": "a nova presidente da camara de caminha liliana silva psd cds pp ppm que conquistou a autarquia ao ps disse hoje a lusa que espera fazer o que"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/psdcds-pp-conquista-vitoria-historica-em-guimaraes-apos-36-anos-ps_n1690577",
-            "normalized_title": "psd cds pp conquista vitoria historica em guimaraes apos 36 anos ps",
-            "normalized_description": "a coligacao juntos por guimaraes psd cds pp venceu hoje as eleicoes autarquicas retirando o poder ao ps que governou nos ultimos 36 anos com o"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/presidente-eleito-por-movimento-em-vila-nova-de-poiares-pos-se-a-caminho-de-fatima_n1690578",
-            "normalized_title": "presidente eleito por movimento em vila nova de poiares pos se a caminho de fatima",
-            "normalized_description": "o presidente eleito da camara de vila nova de poiares que conquistou o municipio ao ps pelo movimento poiares a serio psr celebrou a vitoria com"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/psd-conquista-camara-da-batalha-com-maioria-absoluta_n1690579",
-            "normalized_title": "psd conquista camara da batalha com maioria absoluta",
-            "normalized_description": "o psd venceu as eleicoes autarquicas de hoje na batalha distrito de leiria conquistando a presidencia da camara ao movimento de independentes"
-        },
-        {
-            "link": "https://www.cmjornal.pt/mais-cm/especiais/autarquicas-2025/detalhe/cdu-conquista-sines-ao-fim-de-12-anos-de-lideranca-ps",
-            "normalized_title": "cdu conquista sines ao fim de 12 anos de lideranca ps",
-            "normalized_description": "alvaro dos santos bejinha foi eleito presidente da camara municipal"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/ps-tira-camara-de-grandola-a-cdu_n1690569",
-            "normalized_title": "ps tira camara de grandola a cdu",
-            "normalized_description": "o ps venceu as eleicoes autarquicas de hoje na camara municipal de grandola que era liderada pela cdu quando estao apurados os resultados nas"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/pcp-pev-ganha-a-camara-de-mora-ao-ps_n1690567",
-            "normalized_title": "pcp pev ganha a camara de mora ao ps",
-            "normalized_description": "a cdu pcp pev venceu as eleicoes autarquicas de hoje em mora distrito de evora conquistando esta camara ao ps quando estao apurados os"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/psd-com-coligacoes-tem-80-camaras-mais-quatro-do-que-ps-as-22_n1690566",
-            "normalized_title": "psd com coligacoes tem 80 camaras mais quatro do que ps as 22",
-            "normalized_description": "o psd incluindo as coligacoes com cds il ppm e mpt era a forca com mais presidentes de camara eleitos 80 nas autarquicas de hoje de acordo com"
-        },
-        {
-            "link": "https://www.cmjornal.pt/mais-cm/especiais/autarquicas-2025/detalhe/mortagua-fala-em-resultado-modesto-para-o-bloco-de-esquerda-e-diz-que-ausencia-nao-prejudicou-campanha",
-            "normalized_title": "mortagua fala em resultado modesto para o bloco de esquerda e diz que ausencia nao prejudicou campanha",
-            "normalized_description": "a lider do bloco de esquerda falou num resultado modesto para o bloco de esquerda na noite de eleicoes autarquicas de este domingo e referiu ainda"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/politica/2869470/albuquerque-reclama-vitoria-do-psdmadeira-na-regiao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "albuquerque reclama vitoria do psd madeira na regiao",
-            "normalized_description": "o lider do psd madeira miguel albuquerque congratulou se com a vitoria do partido na regiao nas eleicoes autarquicas de hoje indicando que venceu"
-        },
-        {
-            "link": "https://www.cmjornal.pt/mais-cm/especiais/autarquicas-2025/detalhe/ps-retira-camara-de-alcacer-do-sal-a-cdu",
-            "normalized_title": "ps retira camara de alcacer do sal a cdu",
-            "normalized_description": "de acordo com os resultados provisorios o ps venceu com 50 64 dos votos seguido pela cdu"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/psd-ganha-com-maioria-absoluta-camara-de-almodovar-ao-ps_n1690590",
-            "normalized_title": "psd ganha com maioria absoluta camara de almodovar ao ps",
-            "normalized_description": "o psd venceu com maioria absoluta a camara municipal de almodovar distrito de beja nas eleicoes autarquicas de hoje afastando o ps da lideranca"
         }
     ],
     "Multimédia": [
@@ -46287,6 +46112,51 @@
         }
     ],
     "Opinião": [
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/bernardo-ribeiro/detalhe/varandas-mudou-a-face-do-sporting",
+            "normalized_title": "varandas mudou a face do sporting",
+            "normalized_description": "agora os leaµes ata sa o acusados de controlar o futebol portuguaªs quem diria"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/seguranca-e-o-debate-ao-lado",
+            "normalized_title": "seguranca e o debate ao lado",
+            "normalized_description": "trafico de droga e hoje o grande problema da seguranca e nao a imigracao"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/coisas-do-dinheiro/detalhe/prestacao-cara",
+            "normalized_title": "prestacao cara",
+            "normalized_description": "vale a pena renegociar com os bancos se paga mais de 3"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/nacao-valente/detalhe/20251017-231444-nem-os-pardais",
+            "normalized_title": "nem os pardais",
+            "normalized_description": "antonio costa alimentou na descendencia a crenca pueril de que o futuro do partido estava a esquerda"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/joao-moniz/detalhe/farioli-e-o-teste-do-algodao",
+            "normalized_title": "farioli e o teste do algodao",
+            "normalized_description": "a diferenca nos resultados entre o italiano e vitor bruno nas primeiras oito jornadas e curta"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/antena-paranoica/detalhe/parecemos-tontinhos",
+            "normalized_title": "parecemos tontinhos",
+            "normalized_description": "continuamos a ser porta para entrada de ilegais na ue"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/sonia-dias/detalhe/os-nao-menos-importantes-premios-nobel",
+            "normalized_title": "os nao menos importantes premios nobel",
+            "normalized_description": "donald trump e um forte candidato aos premios ig nobel"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/segunda-opiniao/detalhe/a-desuniao-faz-a-forca",
+            "normalized_title": "a desuniao faz a forca",
+            "normalized_description": "estas manifestacoes no ps nao parecem de pluralismo saudavel"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/a-partir-das-imagens/detalhe/acidentes-e-dedicatoria",
+            "normalized_title": "acidentes e dedicatoria",
+            "normalized_description": "ha uma terrivel mortandade em curso nas estradas portuguesas nas cidades e fora delas"
+        },
         {
             "link": "https://www.publico.pt/2025/10/17/opiniao/opiniao/aceitavel-proibir-uso-burqa-espaco-publico-sim-2151295",
             "normalized_title": "e aceitavel proibir o uso de burqa no espaco publico sim",
