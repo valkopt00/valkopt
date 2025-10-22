@@ -6,12 +6,6 @@
         "raw_response": "Educação",
         "confidence": "failed"
     },
-    "https://rr.pt/especial/igreja-e-liberdade/2025/10/17/quando-o-cardeal-cerejeira-incentivou-os-jovens-a-contornar-a-censura/444089/?utm_medium=rss": {
-        "category": "Cultura",
-        "timestamp": "2025-10-17T05:52:46.872046+00:00",
-        "title": "Quando o cardeal Cerejeira incentivou os jovens a contornar a censura",
-        "confidence": "exact"
-    },
     "https://rr.pt/bola-branca/especial/benfica/2025/10/17/rui-costa-campanhas-sujas-se-calhar-noronha-lopes-esta-a-falar-para-ele-proprio/444108/?utm_medium=rss": {
         "category": "Desporto",
         "timestamp": "2025-10-17T06:55:07.292452+00:00",
@@ -538,6 +532,12 @@
         "category": "Desporto",
         "timestamp": "2025-10-22T05:43:08.054580+00:00",
         "title": "Ontem aconteceu o pior. E hoje como será?",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/francisco-pinto-balsemao--1937-2025-/2025-10-22-balsemao-o-politico-respeitadissimo-que-conduziu-portugal-a-plenitude-do-regime-democratico-e-se-inquietou-com-o-futuro-4f8b40e1": {
+        "category": "Política",
+        "timestamp": "2025-10-22T05:54:46.094674+00:00",
+        "title": "Balsemão, o político \"respeitadíssimo\" que conduziu Portugal à \"plenitude do regime democrático\" e s...",
         "confidence": "exact"
     }
 }
