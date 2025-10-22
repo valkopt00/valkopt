@@ -1,11 +1,4 @@
 {
-    "https://expresso.pt/semanario/especial-oe2026/2025-10-16-educacao.-mais-verbas-para-valorizar-a-carreira-502016cc": {
-        "category": null,
-        "timestamp": "2025-10-17T14:22:02.624488+00:00",
-        "title": "Educação. Mais verbas para “valorizar a carreira”",
-        "raw_response": "Educação",
-        "confidence": "failed"
-    },
     "https://ionline.sapo.pt/2025/10/07/lisboa-detetado-caso-de-tuberculose-pulmonar-em-hotel/": {
         "category": "Sociedade",
         "timestamp": "2025-10-17T17:39:53.108186+00:00",
@@ -532,6 +525,18 @@
         "category": "Política",
         "timestamp": "2025-10-22T11:52:25.687648+00:00",
         "title": "António Costa: “Balsemão era um homem de uma enorme afabilidade, foi sempre muito fácil dialogar com...",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/francisco-pinto-balsemao--1937-2025-/2025-10-22-expresso-convida-leitores-a-homenagear-francisco-pinto-balsemao-d23cfa61": {
+        "category": "Cultura",
+        "timestamp": "2025-10-22T14:24:51.918833+00:00",
+        "title": "Expresso convida leitores a homenagear Francisco Pinto Balsemão",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/francisco-pinto-balsemao--1937-2025-/2025-10-22-obrigada-francisco-pinto-balsemao-09d31de0": {
+        "category": "Opinião",
+        "timestamp": "2025-10-22T14:24:54.950406+00:00",
+        "title": "Obrigada, Francisco Pinto Balsemão",
         "confidence": "exact"
     }
 }
