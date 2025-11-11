@@ -1,10 +1,4 @@
 {
-    "https://www.cmjornal.pt/cm-interativo/reportagens-interativas/detalhe/isto-e-o-bangladesh": {
-        "category": "Mundo",
-        "timestamp": "2025-11-06T09:29:30.908892+00:00",
-        "title": "Isto é o Bangladesh",
-        "confidence": "exact"
-    },
     "https://expresso.pt/revista-de-imprensa/2025-11-06-legionela-numero-de-casos-em-portugal-no-ano-passado-foi-o-mais-alto-da-ultima-decada-637f9eec": {
         "category": "Sociedade",
         "timestamp": "2025-11-06T10:25:23.265771+00:00",
@@ -921,6 +915,12 @@
         "category": "Política",
         "timestamp": "2025-11-11T09:25:39.505606+00:00",
         "title": "Falta de funcionários atrasa “Empresa na Hora”: afinal, processos podem demorar meses",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/cop30/detalhe/greenpeace-avisa-que-abandono-rural-agrava-incendios-em-portugal-e-espanha": {
+        "category": "Sociedade",
+        "timestamp": "2025-11-11T09:43:48.910726+00:00",
+        "title": "Greenpeace avisa que abandono rural agrava incêndios em Portugal e Espanha",
         "confidence": "exact"
     }
 }
