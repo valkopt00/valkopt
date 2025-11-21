@@ -707,5 +707,41 @@
         "title": "Portugal deve apostar em grandes centrais solares?",
         "raw_response": "Energia",
         "confidence": "failed"
+    },
+    "https://expresso.pt/semanario/economia": {
+        "category": "Economia",
+        "timestamp": "2025-11-21T01:45:51.435341+00:00",
+        "title": "A 1ª página do Expresso Economia",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/semanario/ideias": {
+        "category": "Opinião",
+        "timestamp": "2025-11-21T01:45:51.562636+00:00",
+        "title": "IDEIAS: A nova ordem mundial, na era da IA e numa Europa em declínio",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/semanario/primeiro": {
+        "category": "Nacional",
+        "timestamp": "2025-11-21T01:45:51.694195+00:00",
+        "title": "A primeira página do Expresso",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/semanario/revista-e": {
+        "category": "Cultura",
+        "timestamp": "2025-11-21T01:45:51.874120+00:00",
+        "title": "\"O poder da cultura não é apenas simbólico\", Margarida Balseiro Lopes, na revista E",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/luis-marques-mendes-mantem-lideranca-e-cotrim-passa-seguro": {
+        "category": "Política",
+        "timestamp": "2025-11-21T01:45:53.198332+00:00",
+        "title": "Luís Marques Mendes mantém liderança e Cotrim passa Seguro",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/euranet/2025/11/21/cop30-pode-terminar-sem-acordo-admite-negociadora-portuguesa-do-parlamento-europeu/448740/?utm_medium=rss": {
+        "category": "Política",
+        "timestamp": "2025-11-21T01:46:02.452860+00:00",
+        "title": "\"COP30 pode terminar sem acordo\", admite negociadora portuguesa do Parlamento Europeu",
+        "confidence": "exact"
     }
 }
