@@ -1,10 +1,4 @@
 {
-    "https://www.rtp.pt/noticias/jornais-de-desporto/18h30-edicao-fernando-eurico_a1699865": {
-        "category": "Desporto",
-        "timestamp": "2025-11-22T18:49:18.467886+00:00",
-        "title": "18h30 Edição Fernando Eurico",
-        "confidence": "exact"
-    },
     "https://www.cmjornal.pt/mais-cm/especiais/cop30/detalhe/plenario-da-cop30-interrompido-apos-objecoes-dos-paises-latino-americanos": {
         "category": "Mundo",
         "timestamp": "2025-11-22T19:51:57.789359+00:00",
@@ -729,6 +723,12 @@
         "category": "Desporto",
         "timestamp": "2025-11-27T18:31:29.347034+00:00",
         "title": "Portugal vence Áustria e sagra-se campeão do mundo de sub-17",
+        "confidence": "exact"
+    },
+    "https://www.publico.pt/2025/11/27/terroir/noticia/viniportugal-quer-atingir-1200-milhoes-euros-exportacoes-vinho-ate-2030-2156308": {
+        "category": "Economia",
+        "timestamp": "2025-11-27T18:54:59.100038+00:00",
+        "title": "ViniPortugal quer atingir os 1200 milhões de euros em exportações de vinho até 2030",
         "confidence": "exact"
     }
 }
