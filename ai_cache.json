@@ -757,9 +757,27 @@
     },
     "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-11-27-os-patos-tambem-voam-e-as-guerras-na-ucrania-e-das-flores-96d6c184": {
         "category": null,
-        "timestamp": "2025-11-27T23:20:35.771104+00:00",
+        "timestamp": "2025-11-27T23:40:00.651073+00:00",
         "title": "Os patos também voam e as guerras, na Ucrânia e das flores",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
+    },
+    "https://expresso.pt/expressinho/2025-11-27-a-magia-da-ciencia--8e37d720": {
+        "category": "Ciência e Tech",
+        "timestamp": "2025-11-27T23:39:56.137587+00:00",
+        "title": "A magia da ciência",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/jogo-de-palavra-as-entrevistas-de-rui-miguel-tovar/2025/11/27/jogo-de-palavra-com-luis-martins/449704/?utm_medium=rss": {
+        "category": "Desporto",
+        "timestamp": "2025-11-27T23:40:03.755121+00:00",
+        "title": "Jogo de Palavra com Luís Martins",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/jogo-de-palavra-as-entrevistas-de-rui-miguel-tovar/2025/11/27/luis-martins-apanhei-o-arshavin-no-zenit-a-ler-memorial-do-convento-do-jose-saramago/449701/?utm_medium=rss": {
+        "category": "Desporto",
+        "timestamp": "2025-11-27T23:40:04.579943+00:00",
+        "title": "Luís Martins. \"Apanhei o Arshavin no Zenit a ler 'Memorial do Convento', do José Saramago\"",
+        "confidence": "exact"
     }
 }
