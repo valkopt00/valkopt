@@ -757,7 +757,7 @@
     },
     "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-11-27-os-patos-tambem-voam-e-as-guerras-na-ucrania-e-das-flores-96d6c184": {
         "category": null,
-        "timestamp": "2025-11-27T23:51:59.696909+00:00",
+        "timestamp": "2025-11-28T01:45:43.268723+00:00",
         "title": "Os patos também voam e as guerras, na Ucrânia e das flores",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -820,6 +820,12 @@
         "category": "Economia",
         "timestamp": "2025-11-27T23:52:37.059906+00:00",
         "title": "Aviação, saúde, agricultura e buscas nos Altos e Baixos da Economia",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/expressinho/2025-11-28-historia-de-portugal-91c44bc1": {
+        "category": "Cultura",
+        "timestamp": "2025-11-28T01:45:37.956833+00:00",
+        "title": "História de Portugal",
         "confidence": "exact"
     }
 }
