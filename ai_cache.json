@@ -1,10 +1,4 @@
 {
-    "https://www.cmjornal.pt/mais-cm/especiais/cop30/detalhe/cop30-termina-com-avanco-no-financiamento-e-bloqueio-nos-combustiveis-fosseis": {
-        "category": "Política",
-        "timestamp": "2025-11-23T08:27:35.234945+00:00",
-        "title": "COP30 termina com avanço no financiamento e bloqueio nos combustíveis fósseis",
-        "confidence": "exact"
-    },
     "https://www.petsandcompany.pt/mundo-animal/detalhe/esta-com-duvidas-sobre-ter-peixes-como-animais-de-estimacao-aqui-estao-5-vantagens-em-ter-um-aquario": {
         "category": "Lifestyle",
         "timestamp": "2025-11-23T10:41:49.649393+00:00",
@@ -727,7 +721,7 @@
     },
     "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-11-27-os-patos-tambem-voam-e-as-guerras-na-ucrania-e-das-flores-96d6c184": {
         "category": null,
-        "timestamp": "2025-11-28T07:53:29.589210+00:00",
+        "timestamp": "2025-11-28T08:31:38.172463+00:00",
         "title": "Os patos também voam e as guerras, na Ucrânia e das flores",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -808,6 +802,12 @@
         "category": "Desporto",
         "timestamp": "2025-11-28T07:41:56.070513+00:00",
         "title": "Os Sub-17 no topo do Mundo",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/francisco-sarsfield-cabral/2025/11/28/trump-e-a-russia/449731/?utm_medium=rss": {
+        "category": "Mundo",
+        "timestamp": "2025-11-28T08:31:33.568552+00:00",
+        "title": "Trump e a Rússia",
         "confidence": "exact"
     }
 }
