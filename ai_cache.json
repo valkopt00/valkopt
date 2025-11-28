@@ -721,7 +721,7 @@
     },
     "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2025-11-27-os-patos-tambem-voam-e-as-guerras-na-ucrania-e-das-flores-96d6c184": {
         "category": null,
-        "timestamp": "2025-11-28T09:44:18.751030+00:00",
+        "timestamp": "2025-11-28T09:55:53.203231+00:00",
         "title": "Os patos também voam e as guerras, na Ucrânia e das flores",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -808,6 +808,12 @@
         "category": "Mundo",
         "timestamp": "2025-11-28T08:31:33.568552+00:00",
         "title": "Trump e a Rússia",
+        "confidence": "exact"
+    },
+    "https://www.petsandcompany.pt/pets/detalhe/houve-mais-um-cao-eletrocutado-em-lisboa-ja-e-o-4-so-neste-mes-de-novembro": {
+        "category": "Sociedade",
+        "timestamp": "2025-11-28T09:55:46.566424+00:00",
+        "title": "Houve mais um cão eletrocutado em Lisboa. Já é o 4.º só neste mês de novembro",
         "confidence": "exact"
     }
 }
