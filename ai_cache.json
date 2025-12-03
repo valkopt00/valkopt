@@ -6,12 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://rr.pt/especial/duvidas-publicas/2025/11/28/ugt-admite-transtorno-mas-greve-tem-que-causar-dano/449691/?utm_medium=rss": {
-        "category": "Política",
-        "timestamp": "2025-11-28T06:37:08.928608+00:00",
-        "title": "UGT admite \"transtorno\", mas greve \"tem que causar dano\"",
-        "confidence": "exact"
-    },
     "https://rr.pt/artigo/ribeiro-cristovao/2025/11/28/os-sub-17-no-topo-do-mundo/449727/?utm_medium=rss": {
         "category": "Desporto",
         "timestamp": "2025-11-28T07:41:56.070513+00:00",
@@ -448,6 +442,12 @@
         "category": "Desporto",
         "timestamp": "2025-12-03T06:36:08.029589+00:00",
         "title": "​O fim da linha para Rui Patrício",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/francisco-sarsfield-cabral/2025/12/03/o-papa-na-turquia-e-no-libano/450235/?utm_medium=rss": {
+        "category": "Mundo",
+        "timestamp": "2025-12-03T06:59:43.568654+00:00",
+        "title": "​O Papa na Turquia e no Líbano",
         "confidence": "exact"
     }
 }
