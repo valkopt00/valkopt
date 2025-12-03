@@ -6,12 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://rr.pt/artigo/francisco-sarsfield-cabral/2025/11/28/trump-e-a-russia/449731/?utm_medium=rss": {
-        "category": "Mundo",
-        "timestamp": "2025-11-28T08:31:33.568552+00:00",
-        "title": "Trump e a Rússia",
-        "confidence": "exact"
-    },
     "https://www.petsandcompany.pt/pets/detalhe/houve-mais-um-cao-eletrocutado-em-lisboa-ja-e-o-4-so-neste-mes-de-novembro": {
         "category": "Sociedade",
         "timestamp": "2025-11-28T09:55:46.566424+00:00",
@@ -442,6 +436,12 @@
         "category": "Mundo",
         "timestamp": "2025-12-03T06:59:43.568654+00:00",
         "title": "​O Papa na Turquia e no Líbano",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/explicador-renascenca/2025/12/03/apoios-do-e-lar-regressam-a-11-de-dezembro-o-que-e-preciso-para-concorrer/450244/?utm_medium=rss": {
+        "category": "Nacional",
+        "timestamp": "2025-12-03T08:32:54.067614+00:00",
+        "title": "Apoios do E-Lar regressam a 11 de dezembro. O que é preciso para concorrer?",
         "confidence": "exact"
     }
 }
