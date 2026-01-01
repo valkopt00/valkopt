@@ -1,6 +1,11 @@
 {
     "Últimas": [
         {
+            "link": "https://www.jornaldenegocios.pt/empresas/tecnologias/detalhe/gigante-dos-chips-tsmc-consegue-licenca-para-importar-equipamentos-para-a-china",
+            "normalized_title": "gigante dos chips tsmc consegue licenca para importar equipamentos para a china",
+            "normalized_description": "tambem as tecnologicas samsung e sk hynix receberam a mesma autorizacao por parte dos eua"
+        },
+        {
             "link": "https://observador.pt/especiais/do-setor-textil-aos-call-centers-despedir-em-grupo-e-facil-mas-contestacao-dos-trabalhadores-pode-mudar-com-o-pacote-laboral/",
             "normalized_title": "a subida dos faceis despedimentos coletivos",
             "normalized_description": "especialistas indicam taxas aduaneiras dos eua e a inteligencia artificial como causas possiveis para o aumento dos despedimentos coletivos que ate"
@@ -16,9 +21,19 @@
             "normalized_description": "a crescente onda de conteudo gerado por inteligencia artificial ia esta a transformar as redes sociais de forma irreversivel face a esta"
         },
         {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/rui-borges-identifica-diferencas-no-sporting-com-e-sem-gyokeres-esta-epoca-damos-preponderancia-a-mais-jogadores",
+            "normalized_title": "rui borges identifica diferencas no sporting com e sem gyokeres esta epoca damos preponderancia a mais jogadores",
+            "normalized_description": "tecnico sublinha que o avancado sueco hoje no arsenal marcou uma epoca de sporting e do campeonato portugues mas luis suarez e ioannidis estao"
+        },
+        {
             "link": "https://www.cmjornal.pt/portugal/detalhe/20260101-212818-carloto-cotta-quebra-o-silencio-pela-primeira-vez-apos-acusacao-de-violacao-veja-agora-na-cmtv",
             "normalized_title": "carloto cotta quebra o silencio pela primeira vez apos acusacao de violacao veja agora na cmtv",
             "normalized_description": "ator acusado e absolvido de varios crimes entre eles sequestro e violacao afirma ter a vida destruida"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/rui-borges-lembra-discurso-no-balneario-do-sporting-fui-um-bocadinho-mais-agressivo-para-acordar-a-malta",
+            "normalized_title": "rui borges lembra discurso no balneario do sporting fui um bocadinho mais agressivo para acordar a malta",
+            "normalized_description": "em entrevista a televisao do clube tecnico lembrou momentos chave desde que assumiu a lideranca do sporting"
         },
         {
             "link": "https://www.noticiasaominuto.com/desporto/2912361/luuk-de-jong-voltou-a-pisar-relvado-do-dragao-e-nao-passou-despercebido#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
@@ -2854,36 +2869,6 @@
             "link": "https://www.rtp.pt/noticias/mundo/zohran-mamdani-tomou-posse-a-meia-noite_v1707218",
             "normalized_title": "zohran mamdani tomou posse a meia noite",
             "normalized_description": "nova iorque deu as boas vindas ao ano novo com um novo presidente da camara zohran mamdani tomou posse a meia noite a cerimonia conduzida pela"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2912197/pequim-acusa-presidente-de-taiwan-de-promover-a-confrontacao-delirios#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "pequim acusa presidente de taiwan de promover a confrontacao delirios",
-            "normalized_description": "a china acusou hoje o presidente de taiwan william lai de promover o confronto entre as duas partes reafirmando a sua oposicao a qualquer"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/2912193/consumidores-podem-a-partir-de-hoje-alterar-tarifa-da-luz-a-qualquer-momento#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "consumidores podem a partir de hoje alterar tarifa da luz a qualquer momento",
-            "normalized_description": "os consumidores domesticos podem a partir de hoje alterar a qualquer momento a sua tarifa da luz escolhendo entre a simples bi horaria e"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/videos/detalhe/miguel-queiroz-liga-portuguesa-esta-a-evoluir-e-mais-competitiva",
-            "normalized_title": "miguel queiroz liga portuguesa esta a evoluir e mais competitiva",
-            "normalized_description": "capitao do fc porto e da selecao nacional e o primeiro convidado do podcast dois para um"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/pais/rtp-acompanhou-patrulha-de-transito-da-psp-na-primeira-noite-do-ano_v1707215",
-            "normalized_title": "rtp acompanhou patrulha de transito da psp na primeira noite do ano",
-            "normalized_description": "os festejos da passagem de ano levam a um maior numero de acidentes nas estradas sobretudo devido ao consumo excessivo de alcool e as distracoes"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260101-094420-varios-mortos-em-explosao-num-bar-na-suica-na-madrugada-de-ano-novo-estariam-mais-de-100-pessoas-no-estabelecimento",
-            "normalized_title": "varios mortos em explosao num bar na suica na madrugada de ano novo estariam mais de 100 pessoas no estabelecimento",
-            "normalized_description": "autoridades estimam dezenas de mortos mas ainda nao foram adiantados numeros concretos"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/mensagem-de-seguro-com-enfase-na-esperanca_v1707213",
-            "normalized_title": "mensagem de seguro com enfase na esperanca",
-            "normalized_description": "antonio jose seguro diz esperar que 2026 traga um pais que funcione a palavra esperanca marca a mensagem de ano novo"
         }
     ],
     "Nacional": [
@@ -9863,14 +9848,19 @@
             "link": "https://expresso.pt/internacional/2025-12-27-conselho-de-seguranca-da-onu-marca-sessao-urgente-apos-israel-reconhecer-somalilandia--al-shabaab-diz-que-vai-lutar-contra-0f278cc5",
             "normalized_title": "conselho de seguranca da onu marca sessao urgente apos israel reconhecer somalilandia al shabaab diz que vai lutar contra",
             "normalized_description": "o conselho de seguranca das nacoes unidas realiza na segunda feira uma sessao urgente apos o reconhecimento da somalilandia por parte de israel"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/lideres-europeus-garantem-total-apoio-a-ucrania-antes-de-reuniao-com-trump_n1706583",
-            "normalized_title": "lideres europeus garantem total apoio a ucrania antes de reuniao com trump",
-            "normalized_description": "os recentes ataques russos contra kiev mostram que a russia nao quer acabar com a guerra declarou zelensky este sabado depois ouviu dos aliados"
         }
     ],
     "Desporto": [
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/rui-borges-identifica-diferencas-no-sporting-com-e-sem-gyokeres-esta-epoca-damos-preponderancia-a-mais-jogadores",
+            "normalized_title": "rui borges identifica diferencas no sporting com e sem gyokeres esta epoca damos preponderancia a mais jogadores",
+            "normalized_description": "tecnico sublinha que o avancado sueco hoje no arsenal marcou uma epoca de sporting e do campeonato portugues mas luis suarez e ioannidis estao"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/rui-borges-lembra-discurso-no-balneario-do-sporting-fui-um-bocadinho-mais-agressivo-para-acordar-a-malta",
+            "normalized_title": "rui borges lembra discurso no balneario do sporting fui um bocadinho mais agressivo para acordar a malta",
+            "normalized_description": "em entrevista a televisao do clube tecnico lembrou momentos chave desde que assumiu a lideranca do sporting"
+        },
         {
             "link": "https://www.noticiasaominuto.com/desporto/2912361/luuk-de-jong-voltou-a-pisar-relvado-do-dragao-e-nao-passou-despercebido#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "luuk de jong voltou a pisar relvado do dragao e nao passou despercebido",
@@ -17130,24 +17120,14 @@
             "link": "https://www.noticiasaominuto.com/desporto/2910364/nigeria-carimba-oitavos-senegal-adia-apuramento-e-benim-sonha-na-can2025#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "nigeria carimba oitavos senegal adia apuramento e benim sonha na can2025",
             "normalized_description": "em mais um dia de competicao na taca das nacoes africanas ficou se a conhecer mais um apurado para os oitavos de final da prova com a nigeria a"
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/estoril-praia-4-0-fc-alverca-ao-minuto/1013582",
-            "normalized_title": "estoril praia 4 0 fc alverca ao minuto",
-            "normalized_description": "golo estoril praia bastien meupiyou marca na propria baliza outra vez acompanhe aqui o estoril praia x fc alverca em direto e ao minuto com todas"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/2910363/liverpool-mostra-bastidores-da-visita-dos-filhos-de-diogo-jota#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "liverpool mostra bastidores da visita dos filhos de diogo jota",
-            "normalized_description": "liverpool recebeu este sabado a familia de diogo jota alvo de homenagem no jogo dos reds em casa diante do wolverhampton para a ronda 18 da"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/barreiro-de-volta-para-furar-a-pedreira-de-braga-o-que-dizem-os-numeros",
-            "normalized_title": "barreiro de volta para furar a pedreira de braga o que dizem os numeros",
-            "normalized_description": "medios destaca se nas acoes nas areas adversarias"
         }
     ],
     "Economia": [
+        {
+            "link": "https://www.jornaldenegocios.pt/empresas/tecnologias/detalhe/gigante-dos-chips-tsmc-consegue-licenca-para-importar-equipamentos-para-a-china",
+            "normalized_title": "gigante dos chips tsmc consegue licenca para importar equipamentos para a china",
+            "normalized_description": "tambem as tecnologicas samsung e sk hynix receberam a mesma autorizacao por parte dos eua"
+        },
         {
             "link": "https://observador.pt/especiais/do-setor-textil-aos-call-centers-despedir-em-grupo-e-facil-mas-contestacao-dos-trabalhadores-pode-mudar-com-o-pacote-laboral/",
             "normalized_title": "a subida dos faceis despedimentos coletivos",
