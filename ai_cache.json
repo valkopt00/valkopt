@@ -595,7 +595,7 @@
     },
     "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2026-01-01-jogar-xadrez-e-jogar-no-totobola-a016126b": {
         "category": null,
-        "timestamp": "2026-01-02T08:59:46.483486+00:00",
+        "timestamp": "2026-01-02T09:34:33.965664+00:00",
         "title": "Jogar xadrez e jogar no totobola",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -652,6 +652,18 @@
         "category": "Política",
         "timestamp": "2026-01-02T08:59:34.538538+00:00",
         "title": "Corrida a Belém: campanha oficial arranca no domingo com recorde de 11 candidatos",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/revista-de-imprensa/2026-01-02-salario-de-christine-lagarde-e-50-superior-ao-divulgado-pelo-bce-016aada6": {
+        "category": "Economia",
+        "timestamp": "2026-01-02T09:34:12.697303+00:00",
+        "title": "Salário de Christine Lagarde é 50% superior ao divulgado pelo BCE",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/candidatos-presidenciais-em-frente-a-frente-no-debate-da-radio": {
+        "category": "Política",
+        "timestamp": "2026-01-02T09:34:13.140630+00:00",
+        "title": "Candidatos presidenciais em frente a frente no Debate da Rádio",
         "confidence": "exact"
     }
 }
