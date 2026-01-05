@@ -1,6 +1,446 @@
 {
     "Últimas": [
         {
+            "link": "https://www.zerozero.pt/noticias/foi-formado-no-real-madrid-marcou-pela-equipa-principal-e-e-reforco-do-arouca/1020223",
+            "normalized_title": "foi formado no real madrid marcou pela equipa principal e e reforco do arouca",
+            "normalized_description": "o arouca anunciou na manha desta segunda feira a contratacao do defesa central javi sanchez o espanhol de 28 anos chegou a portugal a custo"
+        },
+        {
+            "link": "https://jornaleconomico.sapo.pt/noticias/bolsa-de-lisboa-cai-no-vermelho-com-a-sonae-a-liderar-as-perdas/",
+            "normalized_title": "bolsa de lisboa cai no vermelho com a sonae a liderar as perdas",
+            "normalized_description": "as maiores descidas na bolsa portuguesa vao para a sonae que cai 1 22 para os 1 61 euros seguida pela corticeira amorim que desce 1 03 para os"
+        },
+        {
+            "link": "http://pt.euronews.com/2026/01/05/fortes-tempestades-de-neve-atingem-bosnia-servia-e-croacia",
+            "normalized_title": "fortes tempestades de neve atingem bosnia servia e croacia",
+            "normalized_description": "a capital bosnia sarajevo chegou a estar sob 70 centimetros de neve o que obrigou ao corte de varias estradas tempestade obrigou tambem ao"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/20260105-120003-em-direto-siga-a-conferencia-de-rui-borges-de-antevisao-ao-jogo-com-o-v-guimaraes",
+            "normalized_title": "a saida de amorim a pergunta que so se faz ao treinador do sporting e o que pode dar luis guilherme a antevisao de rui borges",
+            "normalized_description": "sporting v guimaraes das meias finais da allianz cup marcado para esta terca feira 20h"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/quinze-motoristas-detidos-em-barcelona-por-transportarem-migrantes-ilegais",
+            "normalized_title": "quinze motoristas detidos em barcelona por transportarem migrantes ilegais",
+            "normalized_description": "os imigrantes pagavam entre 20 e 400 euros para viajar sem documentos sem bilhete ou com bilhete em nome de outra pessoa"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/homem-detido-por-tentar-invadir-a-casa-do-vice-presidente-jd-vance",
+            "normalized_title": "homem detido por tentar invadir a casa do vice presidente jd vance",
+            "normalized_description": "pelo menos o vidro de uma janela foi partido governante nao se encontrava no local"
+        },
+        {
+            "link": "http://pt.euronews.com/2026/01/05/cabo-de-fibra-otica-danificado-ao-largo-da-costa-da-letonia-no-baltico",
+            "normalized_title": "cabo de fibra otica danificado ao largo da costa da letonia no baltico",
+            "normalized_description": "um cabo de fibra otica foi danificado no mar baltico as autoridades da letonia abordaram a tripulacao de um navio que realizava manobras na zona mas"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/pais/2913918/acidentes-rodoviarios-no-periodo-de-natal-e-ano-novo-causaram-38-mortes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "acidentes rodoviarios no periodo de natal e ano novo causaram 38 mortes",
+            "normalized_description": "trinta e oito pessoas morreram em acidentes rodoviarios entre 18 de dezembro de 2025 e 04 de janeiro de 2026 segundo o balanco final da operacao de"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/governo-de-transicao-da-guine-bissau-afirma-que-carta-sobre-detidos-politicos-e-falsa",
+            "normalized_title": "governo de transicao da guine bissau afirma que carta sobre detidos politicos e falsa",
+            "normalized_description": "de acordo com a carta do chefe da diplomacia do governo de transicao guineense os tres teriam afirmado que so sairao da prisao caso o cidadao"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/maduro-ja-saiu-da-prisao-e-seguiu-para-tribunal-em-nova-iorque",
+            "normalized_title": "maduro ja saiu da prisao e seguiu para tribunal em nova iorque",
+            "normalized_description": "o presidente venezuelano nicolas maduro vai ser julgado no tribunal federal de manhattan no estado norte americano de nova iorque por"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/tech/2913920/microsoft-vai-deixar-de-atualizar-um-das-versoes-do-windows-11#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "microsoft vai deixar de atualizar um das versoes do windows 11",
+            "normalized_description": "a empresa deixara oficialmente de atualizar a versao windows 11 se desenvolvida para escolas e estudantes do ensino primario esta versao do sistema"
+        },
+        {
+            "link": "https://www.cmjornal.pt/sociedade/detalhe/dois-em-cada-tres-portugueses-ja-utilizam-ferramentas-de-inteligencia-artificial",
+            "normalized_title": "dois em cada tres portugueses ja utilizam ferramentas de inteligencia artificial",
+            "normalized_description": "percentagem de inquiridos que utiliza ia aumentou de forma significativa com destaque para adultos entre os 18 e os 34 anos"
+        },
+        {
+            "link": "http://pt.euronews.com/video/2026/01/05/estados-unidos-ia-domina-a-ces-2026-em-las-vegas",
+            "normalized_title": "estados unidos ia domina a ces 2026 em las vegas",
+            "normalized_description": "ces 2026 em las vegas destaca ia em aparelhos do dia a dia de robos que aprendem a utensilios de cozinha inteligentes com 4 000 expositores e"
+        },
+        {
+            "link": "https://tek.sapo.pt/mobile/equipamentos/artigos/samsung-quer-vender-800-milhoes-de-equipamentos-com-ia-em-2026-e-mostra-alguns",
+            "normalized_title": "samsung quer vender 800 milhoes de equipamentos com ia em 2026 e mostra alguns",
+            "normalized_description": "na ces a samsung faz por estes dias desfilar algumas das suas principais apostas para 2026 um ano em que quer por inteligencia artificial em quase"
+        },
+        {
+            "link": "https://www.cmjornal.pt/politica/detalhe/gouveia-e-melo-acusa-primeiro-ministro-de-tentar-condicionar-escolha-do-futuro-presidente",
+            "normalized_title": "gouveia e melo acusa primeiro ministro de tentar condicionar escolha do futuro presidente",
+            "normalized_description": "salientou que o proximo chefe de estado nao pode ser nem marioneta nem oposicao ao governo"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/maduro-a-caminho-do-tribunal-em-nova-iorque-veja-as-imagens",
+            "normalized_title": "maduro a caminho do tribunal em nova iorque veja as imagens",
+            "normalized_description": "nicolas maduro ja deixou o centro de detencao em brooklyn e esta a caminho do tribunal federal de manhattan em nova iorque nos eua esta"
+        },
+        {
+            "link": "https://www.cmjornal.pt/politica/detalhe/cotrim-de-figueiredo-diz-que-apelo-ao-voto-de-montenegro-em-marques-mendes-mostra-preocupacao",
+            "normalized_title": "cotrim de figueiredo diz que apelo ao voto de montenegro em marques mendes mostra preocupacao",
+            "normalized_description": "joao cotrim de figueiredo considerou que montenegro ja percebeu que marques mendes e um candidato que nao consegue sequer mobilizar o proprio"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/acidentes-rodoviarios-na-epoca-festiva-de-natal-e-ano-novo-causaram-38-mortes",
+            "normalized_title": "acidentes rodoviarios na epoca festiva de natal e ano novo causaram 38 mortes",
+            "normalized_description": "psp e gnr registaram em 18 dias um total de 6 083 acidentes dos quais resultaram 38 mortos 127 feridos graves e 1 643 ligeiros"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2913913/pedro-neto-leva-gary-neville-ao-desespero-nunca-sera-eden-hazard#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "pedro neto leva gary neville ao desespero nunca sera eden hazard",
+            "normalized_description": "gary neville assume ter ficado desesperado como o raio depois de ter assistido a exibicao assinada por pedro neto no empate a uma bola entre o"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/estagio-do-fc-porto-no-algarve-inclui-teste-com-o-farense",
+            "normalized_title": "estagio do fc porto no algarve inclui teste com o farense",
+            "normalized_description": "jogo de preparacao agendado para sexta feira o ultimo dia do periodo de preparacao"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260105-123636-incendio-em-predio-causa-um-morto-e-31-desalojados-em-alcobaca",
+            "normalized_title": "incendio em predio causa um morto e 31 desalojados em alcobaca",
+            "normalized_description": "o fogo de causas ainda desconhecidas foi combatido ate cerca das 03 00 desta segunda feira e nao afetou os predios vizinhos"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/auto/2913912/dakar-2026-al-attiyah-assume-lideranca-num-dia-com-top-5-portugues#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "dakar 2026 al attiyah assume lideranca num dia com top 5 portugues",
+            "normalized_description": "na segunda etapa do dakar 2026 realizada esta segunda feira 5 de janeiro seth quintero venceu mas nasser al attiyah assumiu a lideranca da"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/politica/2913910/apelo-ao-voto-de-montenegro-em-marques-mendes-preocupacao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "apelo ao voto de montenegro em marques mendes preocupacao",
+            "normalized_description": "o candidato presidencial joao cotrim de figueiredo considerou hoje que o apelo ao voto do presidente do psd e primeiro ministro luis montenegro em"
+        },
+        {
+            "link": "https://www.cmjornal.pt/sociedade/detalhe/fenprof-alerta-para-agravamento-da-falta-de-professores-e-exige-revisao-da-carreira",
+            "normalized_title": "fenprof alerta para agravamento da falta de professores e exige revisao da carreira",
+            "normalized_description": "o secretario geral francisco goncalves responsabiliza o ministerio da educacao por nao avancar com medidas concretas"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/tech/2913906/estudo-dois-em-cada-tres-portugueses-ja-utilizam-ferramentas-de-ia#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "estudo dois em cada tres portugueses ja utilizam ferramentas de ia",
+            "normalized_description": "cerca de dois em cada tres portugueses 67 utilizam ferramentas de inteligencia artificial ia pelo menos uma vez por mes representando um"
+        },
+        {
+            "link": "https://pt.ign.com/avengers-doomsday/153702/news/simu-liu-confirma-shang-chi-2-e-regresso-em-avengers-secret-wars",
+            "normalized_title": "simu liu confirma shang chi 2 e regresso em avengers secret wars",
+            "normalized_description": "apesar do longo hiato desde 2021 o ator insiste que a sequela e uma realidade e confirma a sua sobrevivencia aos eventos de avengers doomsday o"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2913883/amorim-agudiza-milhoes-em-indemnizacoes-quanto-ja-gastou-o-united#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "ruben amorim agudiza milhoes em indemnizacoes quanto ja gastou o united",
+            "normalized_description": "ruben amorim prepara se para receber mais de 11 milhoes de euros depois de ser despedido e da continuidade a longa lista de treinadores que recebem"
+        },
+        {
+            "link": "https://expresso.pt/internacional/america-latina/venezuela/2026-01-05-falamos-sobre-a-gronelandia-daqui-a-20-dias-trump-insiste-no-interesse-pela-anexacao-do-territorio-dinamarques-78382b67",
+            "normalized_title": "falamos sobre a gronelandia daqui a 20 dias trump insiste no interesse pela anexacao do territorio dinamarques",
+            "normalized_description": "o presidente norte americano argumenta que os eua precisam da gronelandia do ponto de vista da seguranca nacional"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260105-122914-psp-e-gnr-registam-35-mortes-nas-estradas-em-17-dias-da-operacao-festas-em-seguranca",
+            "normalized_title": "psp e gnr registam 35 mortes nas estradas em 17 dias da operacao festas em seguranca",
+            "normalized_description": "mais de duas mil pessoas foram detidas no natal e ano novo"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/HenriqueRaposo/2026-01-05-borboto-f69ffe83",
+            "normalized_title": "borboto",
+            "normalized_description": "se queres ser mesmo ecologico larga a tinta que atiras aos quadros e poe la no corpo couro nos pes e queijo de ovelha cabrito mel e castanhas na"
+        },
+        {
+            "link": "https://www.record.pt/multimedia/videos/detalhe/pedro-sousa-ruben-amorim-apanhou-um-comboio-a-vapor-e-esqueceu-se-que-podia-apanhar-um-tgv",
+            "normalized_title": "pedro sousa ruben amorim apanhou um comboio a vapor e esqueceu se que podia apanhar um tgv",
+            "normalized_description": "reacao a saida do treinador do manchester united"
+        },
+        {
+            "link": "https://jornaleconomico.sapo.pt/noticias/investidores-apostam-em-empresas-de-armas-com-regresso-da-doutrina-monroe/",
+            "normalized_title": "investidores apostam em empresas de armas com regresso da doutrina monroe",
+            "normalized_description": "cotadas europeias da defesa estao a disparar depois do derrube do governo da venezuela e do regresso de uns eua mais intervencionistas"
+        },
+        {
+            "link": "https://www.publico.pt/2026/01/05/economia/noticia/jovens-ja-usaram-626-milhoes-euros-garantia-estado-comprar-casa-2160100",
+            "normalized_title": "jovens ja usaram 626 milhoes de euros da garantia do estado para comprar casa",
+            "normalized_description": "ate novembro foram celebrados 22 9 mil contratos de credito a habitacao num total de 4 5 mil milhoes de euros"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/uniao-europeia-avisa-que-gronelandia-nao-e-pedaco-de-terra-a-venda",
+            "normalized_title": "uniao europeia avisa que gronelandia nao e pedaco de terra a venda",
+            "normalized_description": "trump voltou a cobicar o territorio autonomo da dinamarca"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/mercados/materias-primas/petroleo/detalhe/trump-quer-big-oil-na-venezuela-chevron-na-dianteira-dispara-7",
+            "normalized_title": "trump quer big oil na venezuela chevron na dianteira dispara 7",
+            "normalized_description": "grandes empresas do setor lideram os ganhos no pre mercado das bolsas norte americanas chevron e vista como a melhor posicionada por ja ter"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2913888/streamer-espanhol-morre-em-direto-cumpria-desafio-com-alcool-e-drogas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "streamer espanhol morre em direto cumpria desafio com alcool e drogas",
+            "normalized_description": "sergio jimenez de 37 anos foi encontrado morto pelo irmao durante uma transmissao ao vivo no seu quarto em barcelona o homem estaria a cumprir um"
+        },
+        {
+            "link": "https://www.record.pt/multimedia/fotogalerias/detalhe/luis-guilherme-e-mais-novidades-as-imagens-do-treino-do-sporting-antes-das-meias-finais-da-allianz-cup",
+            "normalized_title": "luis guilherme e mais novidades as imagens do treino do sporting antes das meias finais da allianz cup",
+            "normalized_description": "extremo brasileiro realizou o primeiro treino"
+        },
+        {
+            "link": "http://pt.euronews.com/2026/01/05/tribunal-de-paris-condena-dez-pessoas-por-ciberbullying-contra-a-primeira-dama-francesa-br",
+            "normalized_title": "tribunal de paris condena dez pessoas por ciberbullying contra a primeira dama francesa brigitte macron",
+            "normalized_description": "um tribunal de paris condenou dez pessoas por ciberbullying contra a mulher do presidente frances emmanuel macron com falsas alegacoes sobre a sua"
+        },
+        {
+            "link": "https://www.cmjornal.pt/economia/detalhe/mais-de-metade-da-garantia-do-estado-para-jovens-utilizada-ate-novembro",
+            "normalized_title": "mais de metade da garantia do estado para jovens utilizada ate novembro",
+            "normalized_description": "no total sao 626 milhoes de euros ao abrigo desta garantia num acumulado de 22 933 contratos com um valor de 4 544 milhoes de euros desde o inicio"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/quem-e-o-juiz-que-vai-presidir-ao-julgamento-de-nicolas-maduro",
+            "normalized_title": "quem e o juiz que vai presidir ao julgamento de nicolas maduro",
+            "normalized_description": "alvin hellerstein de 92 anos comeca esta segunda feira a julgar o presidente da venezuela e a mulher num tribunal em nova iorque ja teve em maos"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/tech/2913900/rumor-indica-que-asus-nao-lancara-novos-telemoveis-em-2026#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "rumor indica que asus nao lancara novos telemoveis em 2026",
+            "normalized_description": "a asus tera deixado a indicacao a empresas distribuidoras em taiwan que nao planeia lancar novos telemoveis em 2026 o ultimo telemovel da asus foi"
+        },
+        {
+            "link": "https://expresso.pt/boa-cama-boa-mesa/2025-12-30-alojamento-rural-junto-a-serra-da-estrela-renova-se-para-resistir-ao-impacto-das-alteracoes-climaticas-600e28a1",
+            "normalized_title": "alojamento rural junto a serra da estrela renova se para resistir ao impacto das alteracoes climaticas",
+            "normalized_description": "devido ao fogo e as tempestades os novos telhados do chao do rio turismo de aldeia sao agora inspirados nos chales de montanha em norme da"
+        },
+        {
+            "link": "https://observador.pt/especiais/catarina-martins-devia-quase-100-mil-e-tem-140-mil-euros/",
+            "normalized_title": "catarina martins devia quase 100 mil e tem 140 mil euros",
+            "normalized_description": "ex coordenadora do bloco conseguiu enorme salto nos rendimentos com entrada na vida politica em 2009 durante os ultimos 15 anos comunicou a ligacao"
+        },
+        {
+            "link": "http://pt.euronews.com/2026/01/05/ministerio-publico-grego-abre-investigacao-sobre-falha-que-causou-o-caos-nos-aeroportos",
+            "normalized_title": "ministerio publico grego abre investigacao a falha que causou caos nos aeroportos",
+            "normalized_description": "ainda estao a ser investigadas as causas do apagao mas ha dois cenarios em cima da mesa problema tecnico ou um ataque informatico"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2913878/noivo-e-3-sobrinhas-morrem-em-acidente-de-helicoptero-antes-de-casamento#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "noivo e 3 sobrinhas morrem em acidente de helicoptero antes de casamento",
+            "normalized_description": "helicoptero embateu numa corda e o piloto perdeu o controlo os quatro nao sobreviveram a queda as jovens tinha entre 21 e 23 anos"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/fc-porto-reata-negociacoes-por-oskar-pietuszewski",
+            "normalized_title": "fc porto reata negociacoes por oskar pietuszewski",
+            "normalized_description": "dragoes nao desistem do extremo de 17 anos do jagiellonia"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/economia/2913890/credito-a-habitacao-prestacao-da-casa-sobe-este-mes-saiba-para-quem#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "credito a habitacao prestacao da casa sobe este mes saiba para quem",
+            "normalized_description": "o novo ano arranca com a prestacao da casa a subir para creditos com taxa variavel a tres e seis meses a maioria dos contratos de emprestimos a"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/incendio-deflagra-em-edificio-em-alcochete",
+            "normalized_title": "incendio deflagra em edificio em alcochete",
+            "normalized_description": "alerta para a ocorrencia foi dado as 11h14"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2913894/neve-paralisa-transportes-em-amesterdao-ha-cerca-de-500-voos-cancelados#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "neve paralisa transportes em amesterdao ha cerca de 500 voos cancelados",
+            "normalized_description": "a neve e o gelo ja levaram ao cancelamento de centenas de voos e comboios bem como ao condicionamento do transito nas estradas em amesterdao os"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/a-tensao-crescente-e-os-dois-ultimos-empates-luis-pedro-sousa-analisa-despedimento-de-ruben-amorim-do-manchester-united",
+            "normalized_title": "a tensao crescente e os dois ultimos empates luis pedro sousa analisa despedimento de ruben amorim do manchester united",
+            "normalized_description": "lua s pedro sousa chefe de redaa a o de record analisa o despedimento de ruben amorim do manchester united anunciada esta segunda feira"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260105-121224-droga-do-riso-inunda-festas-nos-bairros-conheca-os-perigos",
+            "normalized_title": "droga do riso inunda festas nos bairros conheca os perigos",
+            "normalized_description": "em setembro de 2022 o gas entrou na lista de substancias psicoativas o que significa que a venda em espacos de diversao noturna ou internet foi"
+        },
+        {
+            "link": "https://www.autosport.pt/todooterreno/dakar/dakar-etapa-2-nasser-al-attiyah-lider-joao-ferreira-sobe-para-6o/?utm_source=rss&utm_medium=rss&utm_campaign=dakar-etapa-2-nasser-al-attiyah-lider-joao-ferreira-sobe-para-6o",
+            "normalized_title": "dakar etapa 2 nasser al attiyah lider joao ferreira sobe para sexto",
+            "normalized_description": "seth quintero andrew short toyota hilux gr toyota gazoo racing venceram a etapa 2 do dakar numa tirada que quase so deu toyota henk lategan"
+        },
+        {
+            "link": "https://expresso.pt/internacional/uniao-europeia/2026-01-05-gronelandia-nao-e-um-pedaco-de-terra-a-venda-ue-endurece-discurso-contra-pretensoes-americanas-44672e05",
+            "normalized_title": "gronelandia nao e um pedaco de terra a venda ue endurece discurso contra pretensoes americanas",
+            "normalized_description": "as tensoes entre os estados unidos e a dinamarca foram reativadas pelo anuncio norte americano sobre a nomeacao de um enviado especial para este"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/economia/2913896/trabalhadores-que-ficam-nas-empresas-sao-principal-motor-dos-salarios#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "trabalhadores que ficam nas empresas sao principal motor dos salarios",
+            "normalized_description": "a conclusao e de um estudo do banco de portugal bdp que revela que a estabilidade no emprego e o principal motor dos salarios em"
+        },
+        {
+            "link": "https://www.publico.pt/2026/01/05/p3/cronica/democracia-precisa-jovens-mesa-2159647",
+            "normalized_title": "a democracia precisa de mais jovens a mesa",
+            "normalized_description": "portugal vive uma contradicao curiosa celebramos a juventude como simbolo de inovacao mas sistematicamente ela esta sub representada nos centros de"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2913880/mourinho-trabalha-com-9-dores-da-cabeca-na-vespera-do-benfica-sp-braga#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "mourinho trabalha com 9 dores da cabeca na vespera do benfica sp braga",
+            "normalized_description": "samuel soares joshua wynder alexander bah nuno felix joao veloso enzo barrenechea bruma e dodi lukebakio sao baixas certas para jose mourinho"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/auto/2913881/byd-defende-que-inovacao-e-essencial-no-setor-automovel#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "byd defende que inovacao e essencial no setor automovel",
+            "normalized_description": "a inovacao deve ser o caminho para os construtores automoveis e o que defende o gestor geral de marca do grupo e relacoes publicas da byd li"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/pais/2913867/colegios-privados-de-ensino-especial-exigem-reforco-de-verbas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "colegios privados de ensino especial exigem reforco de verbas",
+            "normalized_description": "pais professores diretores funcionarios e familiares de alunos de colegios privados de ensino especial estao a manifestar se hoje em lisboa para"
+        },
+        {
+            "link": "https://www.record.pt/multimedia/videos/detalhe/a-tensao-crescente-e-os-dois-ultimos-empates-luis-pedro-sousa-analisa-despedimento-de-ruben-amorim-do-man-united",
+            "normalized_title": "a tensao crescente e os dois ultimos empates luis pedro sousa analisa despedimento de ruben amorim do man united",
+            "normalized_description": "chefe de redacao de record analisa saida do treinador portugues"
+        },
+        {
+            "link": "https://www.record.pt/internacional/paises/inglaterra/detalhe/a-era-amorim-no-manchester-united-chega-ao-fim-um-sonho-tornado-em-pesadelo",
+            "normalized_title": "a era amorim no manchester united chega ao fim um sonho tornado em pesadelo",
+            "normalized_description": "recorde os 14 meses conturbados que o treinador portugues passou em old trafford"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/sata-tem-ate-ao-fim-do-ano-para-concluir-venda-da-azores-airlines",
+            "normalized_title": "bruxelas da mais tempo a sata tavares tem ate ao fim do ano para fechar compra da azores airlines",
+            "normalized_description": "o grupo de aviacao acoriano tem de vender uma posicao maioritaria na azores airlines ate 31 de dezembro de 2026 com o unico grupo a apresentar uma"
+        },
+        {
+            "link": "http://pt.euronews.com/2026/01/05/primeiro-ministro-da-gronelandia-diz-basta-apos-a-ultima-ameaca-de-trump",
+            "normalized_title": "primeiro ministro da gronelandia diz basta apos a ultima ameaca de trump",
+            "normalized_description": "o primeiro ministro da gronelandia jens frederik nielsen rejeitou firmemente os repetidos comentarios do presidente dos eua donald trump sobre a"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260105-120632-militares-das-forcas-armadas-ganham-menos-que-todos-os-policias",
+            "normalized_title": "militares das forcas armadas ganham menos que todos os policias",
+            "normalized_description": "forcas armadas perderam 11 mil militares um terco do efetivo desde 2011 guarda prisional e psp tambem sao menos"
+        },
+        {
+            "link": "https://pt.ign.com/league-of-legends/153701/news/league-of-legends-ficou-offline-porque-a-riot-games-esqueceu-se-de-renovar-uma-licenca",
+            "normalized_title": "league of legends ficou offline porque a riot games esqueceu se de renovar uma licenca",
+            "normalized_description": "quem nunca tentaste jogar league of legends e nao conseguiste uma licenca digital com dez anos expirou este fim de semana e deixou o moba da riot"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2913865/em-direto-rui-borges-faz-a-antevisao-ao-duelo-contra-o-vitoria-sc#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "em direto rui borges faz a antevisao ao duelo contra o vitoria sc",
+            "normalized_description": "treinador do sporting marca presenca ao inicio da tarde desta segunda feira na conferencia de imprensa de antevisao ao jogo diante do vitoria sc a"
+        },
+        {
+            "link": "https://www.record.pt/multimedia/videos/detalhe/petroleo-venezuelano-e-dificil-de-trabalhar-especialista-analisa-industria-apos-detencao-de-maduro",
+            "normalized_title": "petroleo venezuelano e dificil de trabalhar especialista analisa industria apos detencao de maduro",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.publico.pt/2026/01/05/desporto/analise/analise-arbitragem-golo-irregular-barcelos-amarelo-correcto-bednarek-2160099",
+            "normalized_title": "golo irregular em barcelos e amarelo correcto a bednarek",
+            "normalized_description": "analise de arbitragem ao gil vicente sporting analise de pedro henriques"
+        },
+        {
+            "link": "http://pt.euronews.com/video/2026/01/05/chuva-de-ursinhos-dos-hershey-bears-angaria-81-796-peluches-para-instituicoes-de-caridade",
+            "normalized_title": "chuva de ursinhos dos hershey bears angaria 81 796 peluches para instituicoes de caridade locais",
+            "normalized_description": "adeptos dos hershey bears atiraram 81 796 peluches ao gelo numa acao solidaria interrompendo o jogo hershey venceu 5 2 com apoios a mais de 60"
+        },
+        {
+            "link": "http://pt.euronews.com/2026/01/05/ataques-noturnos-russos-matam-pelo-menos-uma-pessoa-em-kiev",
+            "normalized_title": "ataques noturnos russos matam pelo menos uma pessoa em kiev",
+            "normalized_description": "pelo menos uma pessoa foi morta depois de a russia ter lancado uma barragem de drones e misseis durante a noite contra kiev e a regiao de chernihiv"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/lifestyle/2913812/bolsos-bem-cheios-tres-signos-que-vao-ganhar-muito-dinheiro-esta-semana#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "bolsos bem cheios tres signos que vao ganhar muito dinheiro esta semana",
+            "normalized_description": "que bela forma de comecar o ano ha tres signos que vao ganhar muito dinheiro esta semana so tem de agir da melhor forma que os astros tratam do"
+        },
+        {
+            "link": "https://www.record.pt/multimedia/videos/detalhe/bernardo-ribeiro-ruben-amorim-nunca-caiu-no-goto-dos-comentadores-ingleses",
+            "normalized_title": "bernardo ribeiro ruben amorim nunca caiu no goto dos comentadores ingleses",
+            "normalized_description": "diretor de record analisa saida do treinador portugues do man united"
+        },
+        {
+            "link": "https://expresso.pt/blitz/2026-01-05-lizzo-mostra-corpo-muito-mais-magro-em-biquini-0e805b1f",
+            "normalized_title": "lizzo mostra corpo muito mais magro em biquini",
+            "normalized_description": "a artista norte americana partilhou imagens da transformacao fisica que atravessa"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/economia/detalhe/frases-que-marcaram-o-ano-que-terminou",
+            "normalized_title": "frases que marcaram o ano que terminou",
+            "normalized_description": "as palavras sa o as impressaµes digitais que permitem escrever a hista³ria de um tempo que ja passou o que se disse em 2025 ajuda a perceber a"
+        },
+        {
+            "link": "https://pplware.sapo.pt/internet/starlink-oferece-acesso-gratuito-a-internet-na-venezuela-apos-operacao-dos-eua/",
+            "normalized_title": "starlink oferece acesso gratuito a internet na venezuela apos operacao dos eua",
+            "normalized_description": "concebida para fornecer internet de alta velocidade e baixa latencia em todo mundo a starlink esta a oferecer o servico aos utilizadores na"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/tech/2913879/apos-captura-de-maduro-spacex-vai-oferecer-internet-na-venezuela#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "apos captura de maduro spacex vai oferecer internet na venezuela",
+            "normalized_description": "ainda que so um numero limitado de pessoas tenha acesso a rede de internet via satelite da starlink no territorio a medida da spacex destina se a"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2913877/venezuela-franca-condena-metodo-americano-para-derrubar-maduro#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "venezuela franca condena metodo americano para derrubar maduro",
+            "normalized_description": "defendemos o direito internacional e a liberdade dos povos declarou emmanuel macron de acordo com a porta voz maud bregeon durante uma conferencia"
+        },
+        {
+            "link": "https://www.zerozero.pt/noticias/sporting-prepara-taca-da-liga-com-uma-novidade-e-varios-jovens-integrados/1020203",
+            "normalized_title": "sporting prepara taca da liga com uma novidade e varios jovens integrados",
+            "normalized_description": "depois do empate frente ao gil vicente para o campeonato o sporting prepara agora o embate com o vitoria sc a contar para as meias finais da taca"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2913875/choque-e-sismo-no-united-despedimento-de-amorim-corre-mundo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "choque e sismo no united despedimento de amorim corre mundo",
+            "normalized_description": "imprensa internacional destacou esta segunda feira o despedimento de ruben amorim do cargo de treinador do manchester united palavras fortes do"
+        },
+        {
+            "link": "https://jornaleconomico.sapo.pt/noticias/ronda-de-avaliacoes-ao-rating-de-portugal-arranca-com-dbrs-a-16-de-janeiro/",
+            "normalized_title": "ronda de avaliacoes ao rating de portugal arranca com dbrs a 16 de janeiro",
+            "normalized_description": "a primeira agencia de notacao financeira a avaliar portugal sera entao a dbrs ja no dia 16 de janeiro que atualmente tem uma avaliacao de a"
+        },
+        {
+            "link": "http://pt.euronews.com/2026/01/05/carro-da-bolt-cai-ao-rio-na-polonia-apos-manobras-perigosas-do-motorista",
+            "normalized_title": "carro da bolt cai ao rio na polonia apos manobras perigosas do motorista",
+            "normalized_description": "um carro que pertencia a empresa de transportes bolt caiu ao rio em wrocław o condutor conseguiu abandonar a viatura antes desta se afundar e nao"
+        },
+        {
+            "link": "https://jornaleconomico.sapo.pt/noticias/metade-do-montante-total-atribuido-pelo-estado-no-ambito-da-garantia-pessoal-para-jovens-foi-atingido-em-novembro/",
+            "normalized_title": "metade do montante total atribuido pelo estado no ambito da garantia pessoal para jovens foi atingido em novembro",
+            "normalized_description": "em novembro foram celebrados 2 5 mil contratos de credito a habitacao propria e permanente com garantia do estado num total de 522 milhoes de euros"
+        },
+        {
+            "link": "https://www.eurogamer.pt/rtx-3060-poderao-voltar-para-enfrentar-a-crise",
+            "normalized_title": "rtx 3060 poderao voltar para enfrentar a crise",
+            "normalized_description": "o ano de 2026 podera ficar marcado por um regresso a 2021 com a nvidia a trazer de volta a sua linha de graficas geforce rtx 3060 para ajudar a"
+        },
+        {
+            "link": "https://www.zerozero.pt/transfers.php",
+            "normalized_title": "kairat prestes a perder duas referencias",
+            "normalized_description": "fontes do cazaquistao escrevem que orazov e tursagulov duas das principais pecas do kairat ha varios anos nao vao renovar contrato tendo emblemas"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2913850/espanha-acorda-coberta-de-neve-eis-as-imagens-que-chegam-do-pais-vizinho#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "espanha acorda coberta de neve eis as imagens que chegam do pais vizinho",
+            "normalized_description": "a vaga de frio que esta a atingir a peninsula iberica cobriu de um manto branco varias localidades de espanha de madrid e nao so onde nao nevava"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2913873/manchester-united-um-sonho-que-virou-pesadelo-para-ruben-amorim#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "manchester united um sonho que virou pesadelo para ruben amorim",
+            "normalized_description": "ruben amorim assumiu ha 14 meses o sonho de treinar o manchester united mas a passagem por old trafford tornou se um pesadelo que hoje terminou"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/luis-guilherme-ja-treinou-no-sporting-e-juntou-se-aos-cinco-reforcos-da-equipa-b",
+            "normalized_title": "luis guilherme ja treinou no sporting e juntou se aos cinco reforcos da equipa b",
+            "normalized_description": "extremo surgiu risonho e esteve sempre junto a hjulmand e matheus reis"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/multimedia/negocios-tv/detalhe/manifestantes-protestam-em-frente-a-prisao-onde-maduro-esta-detido-em-nova-iorque",
+            "normalized_title": "manifestantes protestam em frente a prisao onde maduro esta detido em nova iorque",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://pt.ign.com/nintendo-switch-2/153685/feature/o-que-podemos-esperar-da-nintendo-em-2026",
+            "normalized_title": "o que podemos esperar da nintendo em 2026",
+            "normalized_description": "super mario pokemon e possiveis surpresas de zelda e luigi de pokemon a celebracao dos 40 anos de zelda passando por novos exclusivos e adaptacoes"
+        },
+        {
             "link": "https://www.noticiasaominuto.com/mundo/2913827/inferno-na-terra-a-prisao-onde-nicolas-maduro-esta-detido#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "inferno na terra a prisao onde nicolas maduro esta detido",
             "normalized_description": "nicolas maduro o presidente deposto da venezuela esta detido numa prisao de brooklyn descrita como um inferno na terra e uma tragedia em curso a"
@@ -11,6 +451,11 @@
             "normalized_description": "merche romero reagiu atraves das redes sociais a morte do irmao oscar romero que partiu aos 52 anos a apresentadora mostrou estar devastada com a"
         },
         {
+            "link": "https://rr.pt/bola-branca/noticia/porto/2026/01/05/algarve-recebe-o-estagio-do-fc-porto-e-as-familias-podem-acompanhar/454025/?utm_medium=rss",
+            "normalized_title": "algarve recebe o estagio do fc porto e as familias podem acompanhar",
+            "normalized_description": "com a eliminacao na taca da liga na fase de grupos os dragoes vao aproveitar a paragem para a competicao para fazer um estagio em almancil ate"
+        },
+        {
             "link": "https://jornaleconomico.sapo.pt/noticias/governador-do-banco-do-japao-garante-que-ira-continuar-a-subir-juros/",
             "normalized_title": "governador do banco do japao garante que ira continuar a subir juros",
             "normalized_description": "kazuo ueda governador do boj destacou a recuperacao contida do pais no ano passado projetando que a economia continue a resistir este ano e que"
@@ -19,6 +464,11 @@
             "link": "https://www.noticiasaominuto.com/mundo/2913828/nike-esgota-fato-de-treino-que-maduro-vestia-quando-foi-capturado#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "cinzento maduro fato de treino de maduro assiste a pico de vendas",
             "normalized_description": "fato de treino cinza que custa quase 120 euros esta esgotado em varios tamanhos"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/empresas/banca---financas/detalhe/habitacao-jovens-ja-usaram-mais-de-metade-da-garantia-publica",
+            "normalized_title": "habitacao jovens ja usaram mais de metade da garantia publica",
+            "normalized_description": "ate ao final de novembro os emprestimos com garantia do estado para compra de casa atingiam 52 8 da dotacao da medida"
         },
         {
             "link": "https://www.noticiasaominuto.com/mundo/2913871/duas-pessoas-morreram-em-derrocada-de-edificio-na-faixa-de-gaza#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
@@ -39,6 +489,11 @@
             "link": "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/tap-tem-de-vender-participacao-da-cateringpor-e-handling-ate-30-de-junho",
             "normalized_title": "tap tem de vender participacao da cateringpor e handling ate 30 de junho",
             "normalized_description": "bruxelas decidiu dar mais tempo para que a tap consiga vender dois dos seus ativos no ambito do plano de reestruturacao assinado em 2021 posicao na"
+        },
+        {
+            "link": "https://www.autosport.pt/formula1/f1/f1-zhou-guanyu-sera-piloto-de-reserva-da-cadillac/?utm_source=rss&utm_medium=rss&utm_campaign=f1-zhou-guanyu-sera-piloto-de-reserva-da-cadillac",
+            "normalized_title": "f1 zhou guanyu sera piloto de reserva da cadillac",
+            "normalized_description": "zhou guanyu vai manter se como piloto de reserva em 2026 agora ao servico da cadillac formula 1 team depois de ter sido anunciada a sua saida da"
         },
         {
             "link": "https://www.publico.pt/2026/01/05/local/noticia/arrancam-hoje-sete-novas-linhas-autocarros-unir-area-metropolitana-porto-2160097",
@@ -131,9 +586,19 @@
             "normalized_description": "a capitania do porto do funchal emitiu hoje um aviso de mau tempo para a orla costeira da madeira estando em vigor avisos de agitacao maritima e"
         },
         {
+            "link": "https://expresso.pt/sociedade/2026-01-05-ex-dirigente-do-chega-comeca-a-ser-julgado-por-prostituicao-de-menores-no-final-de-janeiro-63087bbd",
+            "normalized_title": "ex dirigente do chega comeca a ser julgado por prostituicao de menores no final de janeiro",
+            "normalized_description": "o inicio do julgamento de nuno pardal ribeiro foi marcado para 26 de janeiro no tribunal de sintra o ex dirigente do chega vai responder por dois"
+        },
+        {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/benfica-afina-estrategia-para-a-meia-final-da-allianz-cup-siga-em-direto",
             "normalized_title": "benfica afina estrategia para a meia final da allianz cup siga em direto",
             "normalized_description": "encarnados defrontam sp braga na quarta feira as 20h30 em leiria"
+        },
+        {
+            "link": "https://www.autosport.pt/formula1/f1/f1-antigo-chefe-da-estrategia-da-red-bull-inicia-funcoes-na-mclaren/?utm_source=rss&utm_medium=rss&utm_campaign=f1-antigo-chefe-da-estrategia-da-red-bull-inicia-funcoes-na-mclaren",
+            "normalized_title": "f1 antigo chefe da estrategia da red bull inicia funcoes na mclaren",
+            "normalized_description": "a formula 1 regressa ao trabalho apos a pausa de inverno com uma mudanca relevante nos bastidores will courtenay antigo responsavel pela estrategia"
         },
         {
             "link": "https://www.noticiasaominuto.com/tech/2913862/as-melhores-fotos-captadas-a-partir-da-estacao-espacial-em-2025#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
@@ -161,6 +626,11 @@
             "normalized_description": "uma analise de imagens de satelite feita pelas nacoes unidas estima 317 quilometros quadrados km2 de terrenos inundados nas provincias mocambicanas"
         },
         {
+            "link": "https://rr.pt/bola-branca/noticia/sporting/2026/01/05/rui-borges-temos-muitos-jogadores-em-sobrecarga-entramos-em-situacao-de-red-line/454027/?utm_medium=rss",
+            "normalized_title": "rui borges temos muitos jogadores em sobrecarga entramos em situacao de red line",
+            "normalized_description": "treinador do sporting espera um jogo dificil frente ao vitoria de guimaraes na meia final da taca da liga uma equipa a fazer um belissimo campeonato"
+        },
+        {
             "link": "https://www.noticiasaominuto.com/politica/2913858/catarina-martins-distancia-se-de-herdeiros-de-passos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "marques mendes seguro ventura e cotrim herdeiros de passos",
             "normalized_description": "a candidata presidencial catarina martins considerou hoje que mendes seguro ventura e cotrim sao herdeiros de passos coelho e recordando o periodo"
@@ -171,9 +641,29 @@
             "normalized_description": "nao ha segundas oportunidades o relancamento do shooter de portais nao teve a explosao esperada na steam mas o estudio 1047 games garante que a"
         },
         {
+            "link": "https://rr.pt/bola-branca/noticia/futebol-nacional/2026/01/05/fc-porto-faz-a-melhor-primeira-volta-da-historia-da-i-liga-veja-os-destaques-das-17-jornadas/453986/?utm_medium=rss",
+            "normalized_title": "fc porto faz a melhor primeira volta da historia da i liga veja os destaques das 17 jornadas",
+            "normalized_description": "esta praticamente concluida a primeira metade do campeonato pavlidis e o melhor marcador ate agora mas o benfica esta longe da lideranca historica"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/nicolas-maduro-esta-a-deixar-o-centro-de-detencao-em-brooklyn_n1707937",
+            "normalized_title": "nicolas maduro esta a deixar o centro de detencao em brooklyn",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/12h-venezuela-china-pede-aos-eua-para-respeitar-direito-internacional_a1_1707936",
+            "normalized_title": "12h venezuela china pede aos eua para respeitar direito internacional",
+            "normalized_description": ""
+        },
+        {
             "link": "https://expresso.pt/economia/financas-pessoais/2026-01-05-certificados-de-aforro-em-papel-podem-ser-convertidos-para-formato-digital-ate-2029-f8606f6d",
             "normalized_title": "certificados de aforro em papel podem ser convertidos para formato digital ate 2029",
             "normalized_description": "se a conversao nao for realizada ate ao fim do prazo os certificados sao automaticamente amortizados e o respetivo valor calculado a data da"
+        },
+        {
+            "link": "https://observador.pt/2026/01/05/o-fim-de-stranger-things-e-o-nosso-mundo-ao-contrario-sem-estes-garotos/",
+            "normalized_title": "stranger things e o mundo ao contrario sem estes garotos",
+            "normalized_description": "nove anos depois terminou ha umas quantas falhas a apontar a este final mas nunca nenhum final seria livre de macula contas feitas uma belissima"
         },
         {
             "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/lider-da-oposicao-na-venezuela-fala-em-momento-historico-e-pede-libertacao-de-presos-politicos-apos-captura-de-maduro",
@@ -201,6 +691,16 @@
             "normalized_description": "a spacex reagiu aos cortes de comunicacoes em caracas isentando de pagamentos as contas activas no pais a medida aplica se a quem ja possui o"
         },
         {
+            "link": "https://rr.pt/noticia/economia/2026/01/05/juros-da-divida-de-portugal-caem-a-dois-a-cinco-e-a-10-anos/454024/?utm_medium=rss",
+            "normalized_title": "juros da divida de portugal caem a dois a cinco e a 10 anos",
+            "normalized_description": "juros portugueses alinhados com os de espanha grecia e italia"
+        },
+        {
+            "link": "https://rr.pt/noticia/religiao/2026/01/05/santuario-de-fatima-aprofunda-devocao-dos-primeiros-sabados/454023/?utm_medium=rss",
+            "normalized_title": "santuario de fatima aprofunda devocao dos primeiros sabados",
+            "normalized_description": "celebracoes mantem a estrutura habitual mas destacam as aparicoes de pontevedra e o seu conteudo teologico e espiritual"
+        },
+        {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/v--guimaraes/detalhe/gustavo-silva-volta-aos-treinos-do-v-guimaraes-na-vespera-do-jogo-com-o-sporting",
             "normalized_title": "gustavo silva volta aos treinos do v guimaraes na vespera do jogo com o sporting",
             "normalized_description": "presenca do avancado no encontro da allianz cup ainda nao e no entanto uma garantia"
@@ -214,6 +714,11 @@
             "link": "http://pt.euronews.com/2026/01/05/repressao-no-irao-ja-matou-pelo-menos-15-pessoas",
             "normalized_title": "repressao no irao ja matou pelo menos 15 pessoas",
             "normalized_description": "em resposta as ameacas de intervencao do presidente norte americano donald trump o regime iraniano fez um cartaz que mostra caixoes envolvidos nas"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/pais/a-gronelandia-nao-e-um-pedaco-de-terra-que-esteja-a-venda_n1707935",
+            "normalized_title": "a gronelandia nao e um pedaco de terra que esteja a venda",
+            "normalized_description": ""
         },
         {
             "link": "https://www.cmjornal.pt/vidas/ultimas/detalhe/almirante-gouveia-e-melo-revela-detalhes-chocantes-da-vida-a-bordo-de-um-submarino-individuo-nu-no-periscopio",
@@ -244,6 +749,11 @@
             "link": "https://www.cmjornal.pt/mundo/detalhe/paquistao-e-china-pedem-aos-talibas-desmantelamento-de-grupos-terroristas",
             "normalized_title": "paquistao e china pedem aos talibas desmantelamento de grupos terroristas",
             "normalized_description": "ambos os paises querem impedir que o territorio afegao seja utilizado para colocar em risco paises terceiros"
+        },
+        {
+            "link": "https://www.autosport.pt/velocidade/noah-monteiro-a-esperanca-portuguesa-que-brilha-na-formula-4-rumo-a-f1/?utm_source=rss&utm_medium=rss&utm_campaign=noah-monteiro-a-esperanca-portuguesa-que-brilha-na-formula-4-rumo-a-f1",
+            "normalized_title": "noah monteiro a esperanca portuguesa que brilha na formula 4 rumo a f1",
+            "normalized_description": "noah monteiro completou uma temporada impressionante na formula 4 espanhola em 2025 conquistando 97 pontos 8º lugar na classificacao geral e"
         },
         {
             "link": "https://www.record.pt/multimedia/videos/detalhe/chegar-e-trabalhar-luis-guilherme-ja-treina-com-o-sporting",
@@ -321,6 +831,11 @@
             "normalized_description": "lista final dos candidatos admitidos foi homologada a 22 de dezembro e sera publicada em diario da republica adiantou a administracao central do"
         },
         {
+            "link": "https://www.noticiasaominuto.com/mundo/2913844/paquistao-e-china-pedem-aos-talibas-desmantelamento-de-grupos-terroristas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "paquistao e china pedem aos talibas desmantelamento de grupos terroristas",
+            "normalized_description": "o paquistao e a china aumentaram hoje a pressao diplomatica sobre o governo afegao exigindo que o regime taliba adote medidas urgentes visiveis e"
+        },
+        {
             "link": "https://www.record.pt/multimedia/videos/mercado-record-by-esc-online/detalhe/mercado-record-amorim-despedido-do-united-com-portugues-a-espreita-e-sporting-sobe-parada-por-faye",
             "normalized_title": "mercado record amorim despedido do united com portugues a espreita e sporting sobe parada por faye",
             "normalized_description": "tudo o que se passa na janela de transferencias"
@@ -384,6 +899,11 @@
             "link": "https://www.noticiasaominuto.com/desporto/2913833/fim-de-ciclo-em-manchester-o-que-se-segue-para-ruben-amorim#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "fim de ciclo em manchester o que se segue para ruben amorim",
             "normalized_description": "treinador portugues nao resistiu ao clima de tensao com a direcao do manchester united e foi despedido esta segunda feira ha clubes em inglaterra"
+        },
+        {
+            "link": "http://pt.euronews.com/video/2026/01/05/noticias-do-dia-5-de-janeiro-2026-tarde",
+            "normalized_title": "noticias do dia 5 de janeiro 2026 tarde",
+            "normalized_description": "fique a par das noticias mais importantes de toda a europa e nao so a 5 de janeiro de 2026 ultimas noticias noticias de ultima hora mundo"
         },
         {
             "link": "https://visao.pt/opiniao/ponto-de-vista/2026-01-05-trump-petroleo-e-poder-a-venezuela-e-a-erosao-da-ordem-internacional/?utm_source=rss&utm_medium=rss&utm_campaign=trump-petroleo-e-poder-a-venezuela-e-a-erosao-da-ordem-internacional",
@@ -476,12 +996,22 @@
             "normalized_description": "o presidente dos estados unidos admitiu que o ataque denunciado pelo kremlin nao tem fundamento depois de inicialmente ter acreditado nas acusacoes"
         },
         {
+            "link": "https://rr.pt/noticia/politica/2026/01/05/voto-antecipado-tudo-o-que-precisa-de-saber-para-votar-antes-de-18-de-janeiro/454018/?utm_medium=rss",
+            "normalized_title": "voto antecipado tudo o que precisa de saber para votar antes de 18 de janeiro",
+            "normalized_description": "as inscricoes para o voto em mobilidade decorrem ate 8 de janeiro"
+        },
+        {
             "link": "https://pt.ign.com/hollow-knight-silksong/153696/news/hollow-knight-silksong-conquista-o-jogo-do-ano-dos-steam-awards-2025",
             "normalized_title": "hollow knight silksong conquista o jogo do ano dos steam awards 2025",
             "normalized_description": "confere aqui a lista completa a comunidade da steam falou alto e bom som apos anos de espera e milhoes de votos a sequela do team cherry leva para"
         },
         {
             "link": "https://www.rtp.pt/noticias/mundo/10-pessoas-condenadas-em-tribunal-por-assedio-online-a-brigitte-macron_n1707927",
+            "normalized_title": "10 pessoas condenadas por assedio online a brigitte macron",
+            "normalized_description": "foram consideradas culpadas por ciberbullying o tribunal condenou os arguidos por espalharem alegacoes falsas sobre o genero e sexualidade da mulher"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/10-pessoas-condenadas-por-assedio-online-a-brigitte-macron_n1707927",
             "normalized_title": "10 pessoas condenadas por assedio online a brigitte macron",
             "normalized_description": "foram consideradas culpadas por ciberbullying o tribunal condenou os arguidos por espalharem alegacoes falsas sobre o genero e sexualidade da mulher"
         },
@@ -549,6 +1079,11 @@
             "link": "https://www.record.pt/internacional/paises/inglaterra/detalhe/o-curioso-comunicado-com-que-man-united-anunciou-saida-de-amorim-horas-depois-de-explosiva-conferencia",
             "normalized_title": "o curioso comunicado com que man united anunciou saida de amorim horas depois de explosiva conferencia",
             "normalized_description": "treinador portugues atirou em varias frentes apos o empate com o leeds"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/economia/2913835/taxa-euribor-sobe-a-tres-e-a-12-meses-e-desce-a-seis-meses#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "taxa euribor sobe a tres e a 12 meses e desce a seis meses",
+            "normalized_description": "a taxa euribor subiu hoje a tres e a 12 meses e desceu a seis meses em relacao a sexta feira"
         },
         {
             "link": "https://www.zerozero.pt/noticias/miguel-fale-regressa-a-portugal-pelas-portas-do-pacos-de-ferreira/1020104",
@@ -1014,6 +1549,11 @@
             "link": "https://expresso.pt/blitz/2026-01-05-todos-os-concertos-marcados-para-2026-em-portugal-53436cea",
             "normalized_title": "todos os concertos marcados para 2026 em portugal",
             "normalized_description": "tudo o que precisa de saber sobre os concertos e festivais marcados para os proximos meses uma agenda sempre em atualizacao"
+        },
+        {
+            "link": "https://rr.pt/noticia/pais/2026/01/05/queda-de-veiculo-no-rio-vouga-provoca-um-morto/453997/?utm_medium=rss",
+            "normalized_title": "queda de veiculo no rio vouga provoca um morto",
+            "normalized_description": "vitima tinha 18 anos despiste aconteceu ao fim da tarde de domingo mas o corpo so foi encontrado de madrugada"
         },
         {
             "link": "https://www.eurogamer.pt/avatar-fogo-e-cinza-chega-aos-1-mil-milhoes-nas-bilheteiras",
@@ -1966,6 +2506,11 @@
             "normalized_description": "o central de 22 anos esta totalmente recuperado do problema ligamentar no joelho esquerdo contraido a 22 de outubro na champions frente ao marselha"
         },
         {
+            "link": "https://observador.pt/liveblogs/ataque-russo-a-kiev-causa-dois-mortos/",
+            "normalized_title": "ataque russo a kiev causa dois mortos",
+            "normalized_description": "a russia atacou a capital da ucrania durante a noite causando dois mortes de acordo com as autoridades ucranianas sao as primeiras mortes ligadas"
+        },
+        {
             "link": "https://jornaleconomico.sapo.pt/noticias/tres-grandes-ja-desafiam-valorizacoes-das-big5/",
             "normalized_title": "tres grandes ja desafiam valorizacoes das big5",
             "normalized_description": "o sporting cp ja tinha a equipa mais valiosa fora dos cinco principais campeonatos da europa mas agora leoes e dragoes ja superam a avaliacao de"
@@ -2604,129 +3149,29 @@
             "link": "https://www.record.pt/multimedia/videos/detalhe/eu-quero-o-porto-campeao-dragoes-recebidos-em-clima-de-euforia-apos-melhor-primeira-volta-da-historia",
             "normalized_title": "eu quero o porto campeao dragoes recebidos em clima de euforia apos melhor primeira volta da historia",
             "normalized_description": "na viagem de regresso na sequencia da vitoria nos acores frente ao santa clara"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2913710/presidente-interina-da-venezuela-reuniu-primeiro-conselho-de-ministros#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "presidente interina da venezuela reuniu primeiro conselho de ministros",
-            "normalized_description": "a presidente interina da venezuela delcy rodriguez reuniu no domingo o primeiro conselho de ministros depois da captura de nicolas maduro pelos"
-        },
-        {
-            "link": "https://www.publico.pt/2026/01/05/mundo/noticia/eva-schloss-sobrevivente-holocausto-enteada-pai-anne-frank-morreu-96-anos-2160064",
-            "normalized_title": "eva schloss sobrevivente do holocausto e enteada do pai de anne frank morreu aos 96 anos",
-            "normalized_description": "pouco depois da libertacao de auschwitz eva schloss seguiu para londres para estudar mae ficou em amesterdao acabando por se casar com otto frank"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/avs-sad/detalhe/avs-sad-registou-a-pior-primeira-volta-do-milenio",
-            "normalized_title": "avs sad registou a pior primeira volta do milenio",
-            "normalized_description": "avenses tambem sao a unica equipa que nunca venceu um jogo"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/videos/detalhe/octavio-machado-e-as-palavras-de-mourinho-uma-declaracao-maldosa-que-demonstra-muita-confusao-naquela-cabeca",
-            "normalized_title": "octavio machado e as palavras de mourinho uma declaracao maldosa que demonstra muita confusao naquela cabeca",
-            "normalized_description": "comentador da cmtv reage as declaracoes do tecnico do benfica"
-        },
-        {
-            "link": "https://observador.pt/2026/01/05/trump-avisa-delcy-rodriguez-que-vai-pagar-preco-muito-alto-e-insiste-que-gronelandia-e-essencial-aos-eua/",
-            "normalized_title": "trump ameaca delcy e diz que eua precisam da gronelandia",
-            "normalized_description": "trump avisa que lider venezuelana vai pagar um preco muito alto se nao fizer o que esta certo presidente dos eua reafirma interesse na gronelandia e"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/os-riscos-da-acao-dos-eua",
-            "normalized_title": "os riscos da acao dos eua",
-            "normalized_description": "a acao dos eua arrisca causar uma fragmentacao inimaginavel da sociedade venezuelana"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/01h-presidente-venezuelana-interina-convoca-conselho-ministros_a1_1707847",
-            "normalized_title": "01h presidente venezuelana interina convoca conselho ministros",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/detalhe/a-cronica-do-alverca-famalicao-1-0-drama-ribatejano-tem-novo-autor",
-            "normalized_title": "a cronica do alverca famalicao 1 0 drama ribatejano tem novo autor",
-            "normalized_description": "assim como ha um mes alverca vence com golo de penalti nos descontos agora de chiquinho"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/videos/detalhe/apito-record-vermelho-e-golo-em-barcelos-penaltis-na-luz-quem-foi-beneficiado",
-            "normalized_title": "apito record vermelho e golo em barcelos penaltis na luz quem foi beneficiado",
-            "normalized_description": "jorge faustino e marco ferreira analisam as polemicas de gil vicente sporting benfica estoril e santa clara fc porto"
-        },
-        {
-            "link": "https://www.record.pt/internacional/competicoes-de-selecoes/can/detalhe/mocambique-quer-fazer-mais-historia-mesmo-com-a-nigeria-pela-frente",
-            "normalized_title": "mocambique quer fazer mais historia mesmo com a nigeria pela frente",
-            "normalized_description": "mambas nunca tinham ganho um jogo na can e agora sonham com o apuramento para os quartos de final"
-        },
-        {
-            "link": "https://observador.pt/2026/01/05/pela-primeira-vez-desde-que-chegou-a-manchester-ruben-amorim-esticou-a-corda-agora-ou-sai-ou-ganha-forca/",
-            "normalized_title": "ruben esticou a corda agora ou sai ou ganha forca",
-            "normalized_description": "portugues deu murro na mesa na conferencia apos empate em leeds reforcou que era manager pediu para que outros departamentos fizessem o seu"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2913709/morreu-eva-schloss-sobrevivente-do-holocausto-e-meia-irma-de-anne-frank#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "morreu eva schloss sobrevivente do holocausto e meia irma de anne frank",
-            "normalized_description": "a fotografa e autora austriaca eva schloss sobrevivente do holocausto e meia irma de anne frank morreu no sabado aos 96 anos em londres anunciou"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/riscos-para-2026/",
-            "normalized_title": "riscos para 2026",
-            "normalized_description": "o cenario central para 2026 e relativamente benigno o problema e a constelacao de riscos sobretudo externos que se desenha no horizonte"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/parar-o-relogio-com-as-maos/",
-            "normalized_title": "parar o relogio com as maos",
-            "normalized_description": "a europa continuara a liderar pela norma mas talvez precise cada vez mais de aprender com quem lidera pelo incentivo pela visao estrategica e"
-        },
-        {
-            "link": "https://expresso.pt/internacional/guerra-na-ucrania/2026-01-05-ucrania-garante-que-so-faltam-detalhes-para-finalizar-proposta-de-paz-com-os-eua-e-a-europa-efcf012f",
-            "normalized_title": "ucrania garante que so faltam detalhes para finalizar proposta de paz com os eua e a europa",
-            "normalized_description": "a maior parte das posicoes 90 do plano de paz ja foram acordadas estamos a trabalhar nos detalhes garante o secretario do conselho de seguranca"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/2913703/ambiente-ferveu-arbitro-agarrou-luis-rocha-e-central-reagiu-desta-forma#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "ambiente ferveu arbitro agarrou luis rocha e central reagiu desta forma",
-            "normalized_description": "tudo aconteceu em cima da meia hora do jogo deste domingo entre o santa clara e o fc porto claudio pereira agarrou o braco do jogador dos acorianos"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/2913708/joao-cancelo-perto-de-regressar-a-italia-pela-porta-do-inter#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "joao cancelo perto de regressar a italia pela porta do inter",
-            "normalized_description": "joao cancelo e uma oportunidade que estamos a analisar estamos em fase de negociacoes referiu giuseppe marotta presidente do inter em declaracoes"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/politica/2913706/santarem-tem-sido-espelho-dos-resultados-em-50-anos-eleicoes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "santarem tem sido espelho dos resultados em 50 anos eleicoes",
-            "normalized_description": "o distrito de santarem tem sido um espelho da votacao global em eleicoes presidenciais de acordo com dados revelados hoje pela pordata que"
-        },
-        {
-            "link": "https://www.autosport.pt/todooterreno/dakar/dakar-etapa-1-martin-prokop-destaca-se-com-o-ford-raptor-t1/?utm_source=rss&utm_medium=rss&utm_campaign=dakar-etapa-1-martin-prokop-destaca-se-com-o-ford-raptor-t1",
-            "normalized_title": "dakar etapa 1 martin prokop destaca se com o ford raptor t1",
-            "normalized_description": "o checo martin prokop iniciou o rali dakar 2026 com uma das melhores prestacoes do dia na categoria ultimate ao terminar a etapa 1 na terceira"
-        },
-        {
-            "link": "https://www.autosport.pt/todooterreno/dakar/dakar-etapa-1-yazeed-al-rajhi-tropeca-no-primeiro-obstaculo/?utm_source=rss&utm_medium=rss&utm_campaign=dakar-etapa-1-yazeed-al-rajhi-tropeca-no-primeiro-obstaculo",
-            "normalized_title": "dakar etapa 1 yazeed al rajhi tropeca no primeiro obstaculo",
-            "normalized_description": "o atual vencedor em titulo do dakar na categoria automoveis tinha terminado em sexto lugar no prologo em linha com a sua habitual discricao na"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/a-primeira-pagina-do-jornal-economico-de-5-de-janeiro/",
-            "normalized_title": "a primeira pagina do jornal economico de 5 de janeiro",
-            "normalized_description": "subscreva a newsletter edicao da manha para receber o seu jornal economico em formato digital todos os dias as 7h00"
-        },
-        {
-            "link": "https://www.autosport.pt/todooterreno/dakar/dakar-etapa-1-rokas-baciuska-faz-historia-ao-vencer-com-o-novo-defender/?utm_source=rss&utm_medium=rss&utm_campaign=dakar-etapa-1-rokas-baciuska-faz-historia-ao-vencer-com-o-novo-defender",
-            "normalized_title": "dakar etapa 1 rokas baciuska faz historia ao vencer com o novo defender",
-            "normalized_description": "o lituano rokas baciuska acompanhado pelo copiloto espanhol oriol vidal venceu a primeira etapa do rali dakar 2026 na categoria stock ao volante"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2913702/estados-latino-americanos-e-caribenhos-sem-consenso-sobre-venezuela#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "estados latino americanos e caribenhos sem consenso sobre venezuela",
-            "normalized_description": "uma reuniao da comunidade de estados latino americanos e caribenhos celac sobre a intervencao dos estados unidos eua na venezuela terminou hoje"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/allianz-cup/detalhe/proenca-deseja-boa-sorte-a-reinaldo-teixeira-na-organizacao-da-final-four-da-allianz-cup",
-            "normalized_title": "proenca deseja boa sorte a reinaldo teixeira na organizacao da final four da allianz cup",
-            "normalized_description": "atraves de uma mensagem nas redes sociais"
         }
     ],
     "Nacional": [
+        {
+            "link": "https://www.noticiasaominuto.com/pais/2913918/acidentes-rodoviarios-no-periodo-de-natal-e-ano-novo-causaram-38-mortes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "acidentes rodoviarios no periodo de natal e ano novo causaram 38 mortes",
+            "normalized_description": "trinta e oito pessoas morreram em acidentes rodoviarios entre 18 de dezembro de 2025 e 04 de janeiro de 2026 segundo o balanco final da operacao de"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/acidentes-rodoviarios-na-epoca-festiva-de-natal-e-ano-novo-causaram-38-mortes",
+            "normalized_title": "acidentes rodoviarios na epoca festiva de natal e ano novo causaram 38 mortes",
+            "normalized_description": "psp e gnr registaram em 18 dias um total de 6 083 acidentes dos quais resultaram 38 mortos 127 feridos graves e 1 643 ligeiros"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/incendio-deflagra-em-edificio-em-alcochete",
+            "normalized_title": "incendio deflagra em edificio em alcochete",
+            "normalized_description": "alerta para a ocorrencia foi dado as 11h14"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/pais/2913867/colegios-privados-de-ensino-especial-exigem-reforco-de-verbas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "colegios privados de ensino especial exigem reforco de verbas",
+            "normalized_description": "pais professores diretores funcionarios e familiares de alunos de colegios privados de ensino especial estao a manifestar se hoje em lisboa para"
+        },
         {
             "link": "https://www.publico.pt/2026/01/05/local/noticia/arrancam-hoje-sete-novas-linhas-autocarros-unir-area-metropolitana-porto-2160097",
             "normalized_title": "arrancam hoje sete novas linhas de autocarros da unir na area metropolitana do porto",
@@ -2736,6 +3181,11 @@
             "link": "https://www.noticiasaominuto.com/pais/2913821/capitania-do-funchal-emite-aviso-de-mau-tempo-para-o-mar-da-madeira#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "capitania do funchal emite aviso de mau tempo para o mar da madeira",
             "normalized_description": "a capitania do porto do funchal emitiu hoje um aviso de mau tempo para a orla costeira da madeira estando em vigor avisos de agitacao maritima e"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/pais/a-gronelandia-nao-e-um-pedaco-de-terra-que-esteja-a-venda_n1707935",
+            "normalized_title": "a gronelandia nao e um pedaco de terra que esteja a venda",
+            "normalized_description": ""
         },
         {
             "link": "https://www.cmjornal.pt/portugal/detalhe/bebe-de-57-dias-vitima-de-morte-subita-em-bairro-de-camarate",
@@ -2801,6 +3251,11 @@
             "link": "https://rr.pt/noticia/pais/2026/01/05/mais-mortos-e-mais-acidentes-na-operacao-policia-sempre-presente/454001/?utm_medium=rss",
             "normalized_title": "mais mortos e mais acidentes na operacao policia sempre presente",
             "normalized_description": "aumento da sinistralidade rodoviaria marca periodo festivo com mais cinco vitimas mortais e um acrescimo de 244 acidentes face a 2024"
+        },
+        {
+            "link": "https://rr.pt/noticia/pais/2026/01/05/queda-de-veiculo-no-rio-vouga-provoca-um-morto/453997/?utm_medium=rss",
+            "normalized_title": "queda de veiculo no rio vouga provoca um morto",
+            "normalized_description": "vitima tinha 18 anos despiste aconteceu ao fim da tarde de domingo mas o corpo so foi encontrado de madrugada"
         },
         {
             "link": "https://www.noticiasaominuto.com/pais/2913763/portuguesa-entre-os-mortos-de-bar-na-suica-quem-era-fany-magalhaes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
@@ -4806,24 +5261,69 @@
             "link": "https://www.noticiasaominuto.com/pais/2911965/santuario-de-nossa-senhora-da-paz-integra-rota-dos-santuarios#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "santuario de nossa senhora da paz integra rota dos santuarios",
             "normalized_description": "o santuario de nossa senhora da paz em vila franca do campo nos acores integra a partir de janeiro a rota dos santuarios marianos de portugal"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/2911953/sindicato-anuncia-greve-nacional-da-saude-durante-todo-o-ano-de-2026#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "sindicato anuncia greve nacional da saude durante todo o ano de 2026",
-            "normalized_description": "o sindicato nacional dos trabalhadores dos servicos e de entidades com fins publicos anunciou hoje uma greve nacional de todos os trabalhadores da"
-        },
-        {
-            "link": "https://rr.pt/noticia/pais/2025/12/31/ano-novo-mau-tempo-nao-cancela-fogo-de-artificio-na-madeira-a-meia-noite/453524/?utm_medium=rss",
-            "normalized_title": "ano novo mau tempo nao cancela fogo de artificio na madeira a meia noite",
-            "normalized_description": "a animacao prevista para a praca do povo sera antecipada para as 22h30 sendo cancelado o espetaculo tina turner show"
-        },
-        {
-            "link": "https://www.cmjornal.pt/portugal/detalhe/homem-resgatado-apos-cair-numa-falesia-no-cabo-espichel-enquanto-praticava-pesca-ludica",
-            "normalized_title": "homem resgatado apos queda em falesia no cabo espichel",
-            "normalized_description": "vitima praticava pesca ludica foi transportada para uma unidade hospitalar"
         }
     ],
     "Mundo": [
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/quinze-motoristas-detidos-em-barcelona-por-transportarem-migrantes-ilegais",
+            "normalized_title": "quinze motoristas detidos em barcelona por transportarem migrantes ilegais",
+            "normalized_description": "os imigrantes pagavam entre 20 e 400 euros para viajar sem documentos sem bilhete ou com bilhete em nome de outra pessoa"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/homem-detido-por-tentar-invadir-a-casa-do-vice-presidente-jd-vance",
+            "normalized_title": "homem detido por tentar invadir a casa do vice presidente jd vance",
+            "normalized_description": "pelo menos o vidro de uma janela foi partido governante nao se encontrava no local"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/governo-de-transicao-da-guine-bissau-afirma-que-carta-sobre-detidos-politicos-e-falsa",
+            "normalized_title": "governo de transicao da guine bissau afirma que carta sobre detidos politicos e falsa",
+            "normalized_description": "de acordo com a carta do chefe da diplomacia do governo de transicao guineense os tres teriam afirmado que so sairao da prisao caso o cidadao"
+        },
+        {
+            "link": "https://expresso.pt/internacional/america-latina/venezuela/2026-01-05-falamos-sobre-a-gronelandia-daqui-a-20-dias-trump-insiste-no-interesse-pela-anexacao-do-territorio-dinamarques-78382b67",
+            "normalized_title": "falamos sobre a gronelandia daqui a 20 dias trump insiste no interesse pela anexacao do territorio dinamarques",
+            "normalized_description": "o presidente norte americano argumenta que os eua precisam da gronelandia do ponto de vista da seguranca nacional"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/uniao-europeia-avisa-que-gronelandia-nao-e-pedaco-de-terra-a-venda",
+            "normalized_title": "uniao europeia avisa que gronelandia nao e pedaco de terra a venda",
+            "normalized_description": "trump voltou a cobicar o territorio autonomo da dinamarca"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2913888/streamer-espanhol-morre-em-direto-cumpria-desafio-com-alcool-e-drogas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "streamer espanhol morre em direto cumpria desafio com alcool e drogas",
+            "normalized_description": "sergio jimenez de 37 anos foi encontrado morto pelo irmao durante uma transmissao ao vivo no seu quarto em barcelona o homem estaria a cumprir um"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/quem-e-o-juiz-que-vai-presidir-ao-julgamento-de-nicolas-maduro",
+            "normalized_title": "quem e o juiz que vai presidir ao julgamento de nicolas maduro",
+            "normalized_description": "alvin hellerstein de 92 anos comeca esta segunda feira a julgar o presidente da venezuela e a mulher num tribunal em nova iorque ja teve em maos"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2913878/noivo-e-3-sobrinhas-morrem-em-acidente-de-helicoptero-antes-de-casamento#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "noivo e 3 sobrinhas morrem em acidente de helicoptero antes de casamento",
+            "normalized_description": "helicoptero embateu numa corda e o piloto perdeu o controlo os quatro nao sobreviveram a queda as jovens tinha entre 21 e 23 anos"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2913894/neve-paralisa-transportes-em-amesterdao-ha-cerca-de-500-voos-cancelados#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "neve paralisa transportes em amesterdao ha cerca de 500 voos cancelados",
+            "normalized_description": "a neve e o gelo ja levaram ao cancelamento de centenas de voos e comboios bem como ao condicionamento do transito nas estradas em amesterdao os"
+        },
+        {
+            "link": "https://expresso.pt/internacional/uniao-europeia/2026-01-05-gronelandia-nao-e-um-pedaco-de-terra-a-venda-ue-endurece-discurso-contra-pretensoes-americanas-44672e05",
+            "normalized_title": "gronelandia nao e um pedaco de terra a venda ue endurece discurso contra pretensoes americanas",
+            "normalized_description": "as tensoes entre os estados unidos e a dinamarca foram reativadas pelo anuncio norte americano sobre a nomeacao de um enviado especial para este"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2913877/venezuela-franca-condena-metodo-americano-para-derrubar-maduro#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "venezuela franca condena metodo americano para derrubar maduro",
+            "normalized_description": "defendemos o direito internacional e a liberdade dos povos declarou emmanuel macron de acordo com a porta voz maud bregeon durante uma conferencia"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/2913850/espanha-acorda-coberta-de-neve-eis-as-imagens-que-chegam-do-pais-vizinho#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "espanha acorda coberta de neve eis as imagens que chegam do pais vizinho",
+            "normalized_description": "a vaga de frio que esta a atingir a peninsula iberica cobriu de um manto branco varias localidades de espanha de madrid e nao so onde nao nevava"
+        },
         {
             "link": "https://www.noticiasaominuto.com/mundo/2913827/inferno-na-terra-a-prisao-onde-nicolas-maduro-esta-detido#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "inferno na terra a prisao onde nicolas maduro esta detido",
@@ -4855,6 +5355,11 @@
             "normalized_description": "uma analise de imagens de satelite feita pelas nacoes unidas estima 317 quilometros quadrados km2 de terrenos inundados nas provincias mocambicanas"
         },
         {
+            "link": "https://www.rtp.pt/noticias/mundo/nicolas-maduro-esta-a-deixar-o-centro-de-detencao-em-brooklyn_n1707937",
+            "normalized_title": "nicolas maduro esta a deixar o centro de detencao em brooklyn",
+            "normalized_description": ""
+        },
+        {
             "link": "https://www.cmjornal.pt/mundo/detalhe/queda-de-neve-interrompe-trafego-aereo-rodoviario-e-ferroviario-em-amesterdao-cancelados-quase-500-voos-esta-manha",
             "normalized_title": "queda de neve interrompe trafego aereo rodoviario e ferroviario em amesterdao cancelados quase 500 voos esta manha",
             "normalized_description": "neve ja tinha provocado o cancelamento diario de centenas de voos desde sexta feira neste mesmo aeroporto"
@@ -4880,6 +5385,11 @@
             "normalized_description": "o chefe do poder judicial do irao ordenou hoje atuacao firme contra manifestantes violentos no nono dia de protestos no pais embora tenha"
         },
         {
+            "link": "https://www.noticiasaominuto.com/mundo/2913844/paquistao-e-china-pedem-aos-talibas-desmantelamento-de-grupos-terroristas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "paquistao e china pedem aos talibas desmantelamento de grupos terroristas",
+            "normalized_description": "o paquistao e a china aumentaram hoje a pressao diplomatica sobre o governo afegao exigindo que o regime taliba adote medidas urgentes visiveis e"
+        },
+        {
             "link": "https://www.noticiasaominuto.com/mundo/2913832/passagem-de-rafah-entre-gaza-e-egito-deve-abrir-na-proxima-semana#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "passagem de rafah entre gaza e egito deve abrir na proxima semana",
             "normalized_description": "a passagem fronteirica de rafah que liga a faixa de gaza ao egito vai reabrir na proxima semana nos dois sentidos no ambito do acordo de paz entre"
@@ -4896,6 +5406,11 @@
         },
         {
             "link": "https://www.rtp.pt/noticias/mundo/10-pessoas-condenadas-em-tribunal-por-assedio-online-a-brigitte-macron_n1707927",
+            "normalized_title": "10 pessoas condenadas por assedio online a brigitte macron",
+            "normalized_description": "foram consideradas culpadas por ciberbullying o tribunal condenou os arguidos por espalharem alegacoes falsas sobre o genero e sexualidade da mulher"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/10-pessoas-condenadas-por-assedio-online-a-brigitte-macron_n1707927",
             "normalized_title": "10 pessoas condenadas por assedio online a brigitte macron",
             "normalized_description": "foram consideradas culpadas por ciberbullying o tribunal condenou os arguidos por espalharem alegacoes falsas sobre o genero e sexualidade da mulher"
         },
@@ -5188,6 +5703,11 @@
             "link": "https://rr.pt/noticia/mundo/2026/01/05/venezuela-presidente-interina-oferece-cooperacao-aos-eua/453975/?utm_medium=rss",
             "normalized_title": "venezuela presidente interina oferece cooperacao aos eua",
             "normalized_description": "presidente interino emite declaracao nas redes sociais em tom mais conciliatorio enquanto trump pondera novas acoes militares caso a venezuela nao"
+        },
+        {
+            "link": "https://observador.pt/liveblogs/ataque-russo-a-kiev-causa-dois-mortos/",
+            "normalized_title": "ataque russo a kiev causa dois mortos",
+            "normalized_description": "a russia atacou a capital da ucrania durante a noite causando dois mortes de acordo com as autoridades ucranianas sao as primeiras mortes ligadas"
         },
         {
             "link": "https://www.cmjornal.pt/cm-ao-minuto/detalhe/ativistas-reivindicam-autoria-de-sabotagem-de-rede-eletrica-de-berlim-45-mil-casas-ficaram-sem-eletricidade",
@@ -9893,54 +10413,134 @@
             "link": "https://expresso.pt/internacional/2025-12-31-na-asia-ja-e-2026-acompanhe-a-chegada-do-novo-ano-por-todo-o-mundo-5576be25",
             "normalized_title": "na asia ja e 2026 acompanhe a chegada do novo ano por todo o mundo",
             "normalized_description": "quiribati foi o primeiro pais a receber o novo ano mas outros de maior dimensao seguem se nas horas seguintes veja aqui imagens de varias partes do"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/papa-leao-xiv-faz-tradicional-apelo-a-paz_v1707103",
-            "normalized_title": "papa leao xiv faz tradicional apelo a paz",
-            "normalized_description": "na ultima audiencia geral do ano o papa pediu aos fieis para agradecerem tudo o que tiveram no passado nesta mensagem para 2026 leao xiv convidou"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/ataque-a-casa-de-putin-russia-mantem-acusacao-contra-kiev_v1707101",
-            "normalized_title": "ataque a casa de putin russia mantem acusacao contra kiev",
-            "normalized_description": "a russia continua a acusar a ucrania de ter atacado a casa de vladimir putin esta manha mostrou os destrocos de drones abatidos no local kiev"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2911954/ataque-a-residencia-de-putin-distracao-deliberada-por-parte-de-moscovo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "ataque a residencia de putin distracao deliberada por parte de moscovo",
-            "normalized_description": "para a alta representante da uniao europeia para a politica externa moscovo pretende frustrar o progresso real para a paz entre a ucrania e os seus"
-        },
-        {
-            "link": "https://rr.pt/noticia/mundo/2025/12/31/ue-acusa-kremlin-de-criar-distracao-deliberada-com-alegado-ataque-a-residencia-de-putin/453523/?utm_medium=rss",
-            "normalized_title": "ue acusa kremlin de criar distracao deliberada com alegado ataque a residencia de putin",
-            "normalized_description": "o exercito russo reiterou as suas acusacoes de que a ucrania atacou com drones uma residencia do presidente vladimir putin"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2900775/do-papa-a-desporto-e-politica-2025-foi-ano-de-fortes-despedidas-recorde#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "papa pdc diogo jota balsemao 2025 foi ano de despedidas recorde",
-            "normalized_description": "do desporto a politica das artes a musica passando tambem pela moda recorde as personalidades a quem dissemos o ultimo adeus durante este ano"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/mundo-ja-comecou-a-entrar-no-novo-ano_v1707088",
-            "normalized_title": "mundo ja comecou a entrar no novo ano",
-            "normalized_description": "a nova zelandia ja esta em 2026 a sky tower de auckland foi palco de um espetaculo de fogo de artificio com a duracao de cinco minutos e lancado de"
-        },
-        {
-            "link": "https://www.publico.pt/2025/12/31/mundo/reportagem/medida-guerra-ucrania-arrasta-sociedade-russa-desfazerse-2159721",
-            "normalized_title": "a medida que a guerra na ucrania se arrasta a sociedade russa esta a desfazer se",
-            "normalized_description": "o kremlin apresenta o pais como forte unido e num caminho inevitavel para a vitoria mas a medida que as negociacoes de paz se prolongam a"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/2911947/ceu-no-iowa-ficou-a-cor-de-rosa-e-meteorologia-e-a-culpada-ora-veja#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "ceu no iowa ficou a cor de rosa e meteorologia e a culpada ora veja",
-            "normalized_description": "os ceus do iowa ficaram a cor de rosa no domingo tendo varios utilizadores partilhado imagens nas redes sociais imprensa explica que se deve a"
-        },
-        {
-            "link": "https://expresso.pt/internacional/medio-oriente/guerra-israel-hamas/2025-12-31-ran-gvili-o-ultimo-refem-israelita-em-gaza-que-foi-heroi-no-kibbutz-de-alumim-65df6393",
-            "normalized_title": "ran gvili o ultimo refem israelita em gaza que foi heroi no kibbutz de alumim",
-            "normalized_description": "na faixa de gaza chegaram a estar 251 refens levados de israel a 7 de outubro de 2023 hoje resta apenas um a familia faz de tudo para que ran"
         }
     ],
     "Desporto": [
+        {
+            "link": "https://www.zerozero.pt/noticias/foi-formado-no-real-madrid-marcou-pela-equipa-principal-e-e-reforco-do-arouca/1020223",
+            "normalized_title": "foi formado no real madrid marcou pela equipa principal e e reforco do arouca",
+            "normalized_description": "o arouca anunciou na manha desta segunda feira a contratacao do defesa central javi sanchez o espanhol de 28 anos chegou a portugal a custo"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/20260105-120003-em-direto-siga-a-conferencia-de-rui-borges-de-antevisao-ao-jogo-com-o-v-guimaraes",
+            "normalized_title": "a saida de amorim a pergunta que so se faz ao treinador do sporting e o que pode dar luis guilherme a antevisao de rui borges",
+            "normalized_description": "sporting v guimaraes das meias finais da allianz cup marcado para esta terca feira 20h"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2913913/pedro-neto-leva-gary-neville-ao-desespero-nunca-sera-eden-hazard#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "pedro neto leva gary neville ao desespero nunca sera eden hazard",
+            "normalized_description": "gary neville assume ter ficado desesperado como o raio depois de ter assistido a exibicao assinada por pedro neto no empate a uma bola entre o"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/estagio-do-fc-porto-no-algarve-inclui-teste-com-o-farense",
+            "normalized_title": "estagio do fc porto no algarve inclui teste com o farense",
+            "normalized_description": "jogo de preparacao agendado para sexta feira o ultimo dia do periodo de preparacao"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/auto/2913912/dakar-2026-al-attiyah-assume-lideranca-num-dia-com-top-5-portugues#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "dakar 2026 al attiyah assume lideranca num dia com top 5 portugues",
+            "normalized_description": "na segunda etapa do dakar 2026 realizada esta segunda feira 5 de janeiro seth quintero venceu mas nasser al attiyah assumiu a lideranca da"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2913883/amorim-agudiza-milhoes-em-indemnizacoes-quanto-ja-gastou-o-united#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "ruben amorim agudiza milhoes em indemnizacoes quanto ja gastou o united",
+            "normalized_description": "ruben amorim prepara se para receber mais de 11 milhoes de euros depois de ser despedido e da continuidade a longa lista de treinadores que recebem"
+        },
+        {
+            "link": "https://www.record.pt/multimedia/videos/detalhe/pedro-sousa-ruben-amorim-apanhou-um-comboio-a-vapor-e-esqueceu-se-que-podia-apanhar-um-tgv",
+            "normalized_title": "pedro sousa ruben amorim apanhou um comboio a vapor e esqueceu se que podia apanhar um tgv",
+            "normalized_description": "reacao a saida do treinador do manchester united"
+        },
+        {
+            "link": "https://www.record.pt/multimedia/fotogalerias/detalhe/luis-guilherme-e-mais-novidades-as-imagens-do-treino-do-sporting-antes-das-meias-finais-da-allianz-cup",
+            "normalized_title": "luis guilherme e mais novidades as imagens do treino do sporting antes das meias finais da allianz cup",
+            "normalized_description": "extremo brasileiro realizou o primeiro treino"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/fc-porto-reata-negociacoes-por-oskar-pietuszewski",
+            "normalized_title": "fc porto reata negociacoes por oskar pietuszewski",
+            "normalized_description": "dragoes nao desistem do extremo de 17 anos do jagiellonia"
+        },
+        {
+            "link": "https://www.autosport.pt/todooterreno/dakar/dakar-etapa-2-nasser-al-attiyah-lider-joao-ferreira-sobe-para-6o/?utm_source=rss&utm_medium=rss&utm_campaign=dakar-etapa-2-nasser-al-attiyah-lider-joao-ferreira-sobe-para-6o",
+            "normalized_title": "dakar etapa 2 nasser al attiyah lider joao ferreira sobe para sexto",
+            "normalized_description": "seth quintero andrew short toyota hilux gr toyota gazoo racing venceram a etapa 2 do dakar numa tirada que quase so deu toyota henk lategan"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2913880/mourinho-trabalha-com-9-dores-da-cabeca-na-vespera-do-benfica-sp-braga#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "mourinho trabalha com 9 dores da cabeca na vespera do benfica sp braga",
+            "normalized_description": "samuel soares joshua wynder alexander bah nuno felix joao veloso enzo barrenechea bruma e dodi lukebakio sao baixas certas para jose mourinho"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/auto/2913881/byd-defende-que-inovacao-e-essencial-no-setor-automovel#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "byd defende que inovacao e essencial no setor automovel",
+            "normalized_description": "a inovacao deve ser o caminho para os construtores automoveis e o que defende o gestor geral de marca do grupo e relacoes publicas da byd li"
+        },
+        {
+            "link": "https://www.record.pt/multimedia/videos/detalhe/a-tensao-crescente-e-os-dois-ultimos-empates-luis-pedro-sousa-analisa-despedimento-de-ruben-amorim-do-man-united",
+            "normalized_title": "a tensao crescente e os dois ultimos empates luis pedro sousa analisa despedimento de ruben amorim do man united",
+            "normalized_description": "chefe de redacao de record analisa saida do treinador portugues"
+        },
+        {
+            "link": "https://www.record.pt/internacional/paises/inglaterra/detalhe/a-era-amorim-no-manchester-united-chega-ao-fim-um-sonho-tornado-em-pesadelo",
+            "normalized_title": "a era amorim no manchester united chega ao fim um sonho tornado em pesadelo",
+            "normalized_description": "recorde os 14 meses conturbados que o treinador portugues passou em old trafford"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2913865/em-direto-rui-borges-faz-a-antevisao-ao-duelo-contra-o-vitoria-sc#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "em direto rui borges faz a antevisao ao duelo contra o vitoria sc",
+            "normalized_description": "treinador do sporting marca presenca ao inicio da tarde desta segunda feira na conferencia de imprensa de antevisao ao jogo diante do vitoria sc a"
+        },
+        {
+            "link": "https://www.record.pt/multimedia/videos/detalhe/petroleo-venezuelano-e-dificil-de-trabalhar-especialista-analisa-industria-apos-detencao-de-maduro",
+            "normalized_title": "petroleo venezuelano e dificil de trabalhar especialista analisa industria apos detencao de maduro",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.publico.pt/2026/01/05/desporto/analise/analise-arbitragem-golo-irregular-barcelos-amarelo-correcto-bednarek-2160099",
+            "normalized_title": "golo irregular em barcelos e amarelo correcto a bednarek",
+            "normalized_description": "analise de arbitragem ao gil vicente sporting analise de pedro henriques"
+        },
+        {
+            "link": "https://www.record.pt/multimedia/videos/detalhe/bernardo-ribeiro-ruben-amorim-nunca-caiu-no-goto-dos-comentadores-ingleses",
+            "normalized_title": "bernardo ribeiro ruben amorim nunca caiu no goto dos comentadores ingleses",
+            "normalized_description": "diretor de record analisa saida do treinador portugues do man united"
+        },
+        {
+            "link": "https://www.zerozero.pt/noticias/sporting-prepara-taca-da-liga-com-uma-novidade-e-varios-jovens-integrados/1020203",
+            "normalized_title": "sporting prepara taca da liga com uma novidade e varios jovens integrados",
+            "normalized_description": "depois do empate frente ao gil vicente para o campeonato o sporting prepara agora o embate com o vitoria sc a contar para as meias finais da taca"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2913875/choque-e-sismo-no-united-despedimento-de-amorim-corre-mundo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "choque e sismo no united despedimento de amorim corre mundo",
+            "normalized_description": "imprensa internacional destacou esta segunda feira o despedimento de ruben amorim do cargo de treinador do manchester united palavras fortes do"
+        },
+        {
+            "link": "https://www.zerozero.pt/transfers.php",
+            "normalized_title": "kairat prestes a perder duas referencias",
+            "normalized_description": "fontes do cazaquistao escrevem que orazov e tursagulov duas das principais pecas do kairat ha varios anos nao vao renovar contrato tendo emblemas"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/2913873/manchester-united-um-sonho-que-virou-pesadelo-para-ruben-amorim#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "manchester united um sonho que virou pesadelo para ruben amorim",
+            "normalized_description": "ruben amorim assumiu ha 14 meses o sonho de treinar o manchester united mas a passagem por old trafford tornou se um pesadelo que hoje terminou"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/luis-guilherme-ja-treinou-no-sporting-e-juntou-se-aos-cinco-reforcos-da-equipa-b",
+            "normalized_title": "luis guilherme ja treinou no sporting e juntou se aos cinco reforcos da equipa b",
+            "normalized_description": "extremo surgiu risonho e esteve sempre junto a hjulmand e matheus reis"
+        },
+        {
+            "link": "https://rr.pt/bola-branca/noticia/porto/2026/01/05/algarve-recebe-o-estagio-do-fc-porto-e-as-familias-podem-acompanhar/454025/?utm_medium=rss",
+            "normalized_title": "algarve recebe o estagio do fc porto e as familias podem acompanhar",
+            "normalized_description": "com a eliminacao na taca da liga na fase de grupos os dragoes vao aproveitar a paragem para a competicao para fazer um estagio em almancil ate"
+        },
+        {
+            "link": "https://www.autosport.pt/formula1/f1/f1-zhou-guanyu-sera-piloto-de-reserva-da-cadillac/?utm_source=rss&utm_medium=rss&utm_campaign=f1-zhou-guanyu-sera-piloto-de-reserva-da-cadillac",
+            "normalized_title": "f1 zhou guanyu sera piloto de reserva da cadillac",
+            "normalized_description": "zhou guanyu vai manter se como piloto de reserva em 2026 agora ao servico da cadillac formula 1 team depois de ter sido anunciada a sua saida da"
+        },
         {
             "link": "https://www.record.pt/internacional/paises/inglaterra/detalhe/os-bastidores-da-reuniao-tensa-com-jason-wilcox-que-tera-sido-o-fim-da-linha-para-amorim-no-man-united",
             "normalized_title": "os bastidores da reuniao tensa com jason wilcox que tera sido o fim da linha para amorim no man united",
@@ -9957,9 +10557,24 @@
             "normalized_description": "encarnados defrontam sp braga na quarta feira as 20h30 em leiria"
         },
         {
+            "link": "https://www.autosport.pt/formula1/f1/f1-antigo-chefe-da-estrategia-da-red-bull-inicia-funcoes-na-mclaren/?utm_source=rss&utm_medium=rss&utm_campaign=f1-antigo-chefe-da-estrategia-da-red-bull-inicia-funcoes-na-mclaren",
+            "normalized_title": "f1 antigo chefe da estrategia da red bull inicia funcoes na mclaren",
+            "normalized_description": "a formula 1 regressa ao trabalho apos a pausa de inverno com uma mudanca relevante nos bastidores will courtenay antigo responsavel pela estrategia"
+        },
+        {
             "link": "https://www.noticiasaominuto.com/desporto/2913859/ferdinand-faz-revelacao-apos-amorim-ser-despedido-parecia-depressivo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "ferdinand faz revelacao apos amorim ser despedido parecia depressivo",
             "normalized_description": "antigo jogador do manchester united garantiu ter detetado mudancas no comportamento de ruben amorim nas recentes visitas a carrington o centro de"
+        },
+        {
+            "link": "https://rr.pt/bola-branca/noticia/sporting/2026/01/05/rui-borges-temos-muitos-jogadores-em-sobrecarga-entramos-em-situacao-de-red-line/454027/?utm_medium=rss",
+            "normalized_title": "rui borges temos muitos jogadores em sobrecarga entramos em situacao de red line",
+            "normalized_description": "treinador do sporting espera um jogo dificil frente ao vitoria de guimaraes na meia final da taca da liga uma equipa a fazer um belissimo campeonato"
+        },
+        {
+            "link": "https://rr.pt/bola-branca/noticia/futebol-nacional/2026/01/05/fc-porto-faz-a-melhor-primeira-volta-da-historia-da-i-liga-veja-os-destaques-das-17-jornadas/453986/?utm_medium=rss",
+            "normalized_title": "fc porto faz a melhor primeira volta da historia da i liga veja os destaques das 17 jornadas",
+            "normalized_description": "esta praticamente concluida a primeira metade do campeonato pavlidis e o melhor marcador ate agora mas o benfica esta longe da lideranca historica"
         },
         {
             "link": "https://www.noticiasaominuto.com/auto/2913857/autonomia-insuficiente-caros-mitos-sobre-eletricos-desfeitos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
@@ -9970,6 +10585,11 @@
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/v--guimaraes/detalhe/gustavo-silva-volta-aos-treinos-do-v-guimaraes-na-vespera-do-jogo-com-o-sporting",
             "normalized_title": "gustavo silva volta aos treinos do v guimaraes na vespera do jogo com o sporting",
             "normalized_description": "presenca do avancado no encontro da allianz cup ainda nao e no entanto uma garantia"
+        },
+        {
+            "link": "https://www.autosport.pt/velocidade/noah-monteiro-a-esperanca-portuguesa-que-brilha-na-formula-4-rumo-a-f1/?utm_source=rss&utm_medium=rss&utm_campaign=noah-monteiro-a-esperanca-portuguesa-que-brilha-na-formula-4-rumo-a-f1",
+            "normalized_title": "noah monteiro a esperanca portuguesa que brilha na formula 4 rumo a f1",
+            "normalized_description": "noah monteiro completou uma temporada impressionante na formula 4 espanhola em 2025 conquistando 97 pontos 8º lugar na classificacao geral e"
         },
         {
             "link": "https://www.record.pt/multimedia/videos/detalhe/chegar-e-trabalhar-luis-guilherme-ja-treina-com-o-sporting",
@@ -18435,88 +19055,78 @@
             "link": "https://www.zerozero.pt/noticias/o-que-mudou-na-i-liga-em-2025-/1016530",
             "normalized_title": "o que mudou na i liga em 2025",
             "normalized_description": "no ultimo dia de 2025 e tempo de retrospetiva sobre o ultimo ano na liga portugal betclic quem melhorou quem piorou e como esta a competicao uma"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/videos/detalhe/miguel-queiroz-jogo-mais-marcante-da-carreira-adversario-que-gostaria-que-fosse-colega-e-os-dois-sonhos-para-o-pos-carreira",
-            "normalized_title": "miguel queiroz jogo mais marcante da carreira adversario que gostaria que fosse colega e os dois sonhos para o pos carreira",
-            "normalized_description": "capitao do fc porto e da selecao nacional e o primeiro convidado do podcast dois para um"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/2--liga/torreense/detalhe/vitor-martins-de-saida-do-torreense",
-            "normalized_title": "vitor martins de saida do torreense",
-            "normalized_description": "emblema de torres vedras averbou cinco derrotas e uma vitoria nos ultimos seis jogos"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/detalhe/reinaldo-teixeira-perspetiva-2026-de-transformacao-para-melhor-no-futebol-profissional",
-            "normalized_title": "reinaldo teixeira perspetiva 2026 de transformacao para melhor no futebol profissional",
-            "normalized_description": "presidente da liga pediu ainda que as rivalidades sejam honradas com desportivismo"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/2911957/vi-jose-mourinho-fazer-cristiano-ronaldo-chorar-no-balneario#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "vi jose mourinho fazer cristiano ronaldo chorar no balneario",
-            "normalized_description": "luka modric foi orientado por jose mourinho agora treinador do benfica no real madrid e nao esquece o dia em que o viu a fazer cristiano ronaldo"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/videos/detalhe/hjulmand-tivemos-um-desempenho-muito-bom-este-ano-e-todos-podem-ver-o-espirito-da-equipa",
-            "normalized_title": "hjulmand tivemos um desempenho muito bom este ano e todos podem ver o espirito da equipa",
-            "normalized_description": "capitao do sporting elogia rendimento em 2025 e ainda a uniao do grupo"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/2911952/presidente-da-liga-perspetiva-2026-de-transformacao-para-melhorar-futebol#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "presidente da liga perspetiva 2026 de transformacao para melhorar futebol",
-            "normalized_description": "o presidente da liga de clubes disse hoje acreditar que 2026 sera o ano da transformacao para melhor da industria do futebol profissional portugues"
-        },
-        {
-            "link": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/neemias-queta-marca-12-pontos-no-triunfo-dos-boston-celtics-frente-aos-utah-jazz",
-            "normalized_title": "neemias queta marca 12 pontos no triunfo dos boston celtics frente aos utah jazz",
-            "normalized_description": "vitoria por 129 119"
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/modric-vi-mourinho-fazer-chorar-cristiano-ronaldo-/1016514",
-            "normalized_title": "modric vi mourinho fazer chorar cristiano ronaldo",
-            "normalized_description": "grande figura do real madrid dos ultimos 13 anos luka modric continua a espalhar magia agora no futebol italiano e no ac milan aos 40 anos o"
-        },
-        {
-            "link": "https://rr.pt/bola-branca/especial/futebol-internacional/2025/12/31/bernardo-tavares-e-a-vida-pelo-mundo-fora-o-meu-novo-clube-e-um-cemiterio-de-treinadores/453519/?utm_medium=rss",
-            "normalized_title": "bernardo tavares e a vida pelo mundo fora o meu novo clube e um cemiterio de treinadores",
-            "normalized_description": "o tecnico de 45 anos esta ha cinco naquele pais asiatico em janeiro assume o persebaya surabaya onde sera o quarto treinador desta epoca"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/2911950/benfica-chega-aos-22-milhoes-de-euros-por-batagov-diz-se-na-turquia#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "benfica chega aos 22 milhoes de euros por batagov diz se na turquia",
-            "normalized_description": "benfica tera feito chegar ao trabzonspor uma proposta concreta de 22 milhoes de euros pelo passe de arseniy batagov internacional ucraniano que"
-        },
-        {
-            "link": "https://www.autosport.pt/formula1/f1/f1-regresso-de-daniel-ricciardo-a-competicao-pode-acontecer-num-contexto-bem-diferente/?utm_source=rss&utm_medium=rss&utm_campaign=f1-regresso-de-daniel-ricciardo-a-competicao-pode-acontecer-num-contexto-bem-diferente",
-            "normalized_title": "f1 regresso de daniel ricciardo a competicao pode acontecer num contexto bem diferente",
-            "normalized_description": "o australiano afastado da f1 desde 2024 e atualmente em funcoes como embaixador global da ford revelou ter comichao para regressar as corridas"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/videos/detalhe/hjulmand-apos-receber-premio-artur-agostinho-e-uma-grande-honra-para-mim",
-            "normalized_title": "hjulmand apos receber premio artur agostinho e uma grande honra para mim",
-            "normalized_description": "capitao do sporting distinguido pelo nosso jornal depois do seu desempenho em 2025"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/auto/2911948/stop-junto-a-semaforo-verde-sabe-como-agir#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "stop junto a semaforo verde sabe como agir",
-            "normalized_description": "o semaforo verde permite avancar o stop manda parar se as duas sinalizacoes estiverem no mesmo local como deve agir esta e uma duvida que pode"
-        },
-        {
-            "link": "https://www.record.pt/internacional/paises/espanha/real-madrid/detalhe/modric-vi-jose-mourinho-fazer-chorar-cristiano-ronaldo",
-            "normalized_title": "modric vi jose mourinho fazer chorar cristiano ronaldo",
-            "normalized_description": "medio do milan conta episodio ocorrido no real madrid para demonstrar como o treinador era direto mas honesto com os seus jogadores"
-        },
-        {
-            "link": "https://www.autosport.pt/todooterreno/dakar/rui-carneiro-e-fausto-mota-regressam-ao-dakar-com-ambicao-reforcada/?utm_source=rss&utm_medium=rss&utm_campaign=rui-carneiro-e-fausto-mota-regressam-ao-dakar-com-ambicao-reforcada",
-            "normalized_title": "rui carneiro e fausto mota regressam ao dakar com ambicao reforcada",
-            "normalized_description": "o piloto portugues rui carneiro regressa ao rali dakar em 2026 determinado a completar a prova mais exigente do mundo ao lado do experiente"
         }
     ],
     "Economia": [
         {
+            "link": "https://jornaleconomico.sapo.pt/noticias/bolsa-de-lisboa-cai-no-vermelho-com-a-sonae-a-liderar-as-perdas/",
+            "normalized_title": "bolsa de lisboa cai no vermelho com a sonae a liderar as perdas",
+            "normalized_description": "as maiores descidas na bolsa portuguesa vao para a sonae que cai 1 22 para os 1 61 euros seguida pela corticeira amorim que desce 1 03 para os"
+        },
+        {
+            "link": "https://jornaleconomico.sapo.pt/noticias/investidores-apostam-em-empresas-de-armas-com-regresso-da-doutrina-monroe/",
+            "normalized_title": "investidores apostam em empresas de armas com regresso da doutrina monroe",
+            "normalized_description": "cotadas europeias da defesa estao a disparar depois do derrube do governo da venezuela e do regresso de uns eua mais intervencionistas"
+        },
+        {
+            "link": "https://www.publico.pt/2026/01/05/economia/noticia/jovens-ja-usaram-626-milhoes-euros-garantia-estado-comprar-casa-2160100",
+            "normalized_title": "jovens ja usaram 626 milhoes de euros da garantia do estado para comprar casa",
+            "normalized_description": "ate novembro foram celebrados 22 9 mil contratos de credito a habitacao num total de 4 5 mil milhoes de euros"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/mercados/materias-primas/petroleo/detalhe/trump-quer-big-oil-na-venezuela-chevron-na-dianteira-dispara-7",
+            "normalized_title": "trump quer big oil na venezuela chevron na dianteira dispara 7",
+            "normalized_description": "grandes empresas do setor lideram os ganhos no pre mercado das bolsas norte americanas chevron e vista como a melhor posicionada por ja ter"
+        },
+        {
+            "link": "https://www.cmjornal.pt/economia/detalhe/mais-de-metade-da-garantia-do-estado-para-jovens-utilizada-ate-novembro",
+            "normalized_title": "mais de metade da garantia do estado para jovens utilizada ate novembro",
+            "normalized_description": "no total sao 626 milhoes de euros ao abrigo desta garantia num acumulado de 22 933 contratos com um valor de 4 544 milhoes de euros desde o inicio"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/economia/2913890/credito-a-habitacao-prestacao-da-casa-sobe-este-mes-saiba-para-quem#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "credito a habitacao prestacao da casa sobe este mes saiba para quem",
+            "normalized_description": "o novo ano arranca com a prestacao da casa a subir para creditos com taxa variavel a tres e seis meses a maioria dos contratos de emprestimos a"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/economia/2913896/trabalhadores-que-ficam-nas-empresas-sao-principal-motor-dos-salarios#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "trabalhadores que ficam nas empresas sao principal motor dos salarios",
+            "normalized_description": "a conclusao e de um estudo do banco de portugal bdp que revela que a estabilidade no emprego e o principal motor dos salarios em"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/sata-tem-ate-ao-fim-do-ano-para-concluir-venda-da-azores-airlines",
+            "normalized_title": "bruxelas da mais tempo a sata tavares tem ate ao fim do ano para fechar compra da azores airlines",
+            "normalized_description": "o grupo de aviacao acoriano tem de vender uma posicao maioritaria na azores airlines ate 31 de dezembro de 2026 com o unico grupo a apresentar uma"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/economia/detalhe/frases-que-marcaram-o-ano-que-terminou",
+            "normalized_title": "frases que marcaram o ano que terminou",
+            "normalized_description": "as palavras sa o as impressaµes digitais que permitem escrever a hista³ria de um tempo que ja passou o que se disse em 2025 ajuda a perceber a"
+        },
+        {
+            "link": "https://jornaleconomico.sapo.pt/noticias/ronda-de-avaliacoes-ao-rating-de-portugal-arranca-com-dbrs-a-16-de-janeiro/",
+            "normalized_title": "ronda de avaliacoes ao rating de portugal arranca com dbrs a 16 de janeiro",
+            "normalized_description": "a primeira agencia de notacao financeira a avaliar portugal sera entao a dbrs ja no dia 16 de janeiro que atualmente tem uma avaliacao de a"
+        },
+        {
+            "link": "https://jornaleconomico.sapo.pt/noticias/metade-do-montante-total-atribuido-pelo-estado-no-ambito-da-garantia-pessoal-para-jovens-foi-atingido-em-novembro/",
+            "normalized_title": "metade do montante total atribuido pelo estado no ambito da garantia pessoal para jovens foi atingido em novembro",
+            "normalized_description": "em novembro foram celebrados 2 5 mil contratos de credito a habitacao propria e permanente com garantia do estado num total de 522 milhoes de euros"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/multimedia/negocios-tv/detalhe/manifestantes-protestam-em-frente-a-prisao-onde-maduro-esta-detido-em-nova-iorque",
+            "normalized_title": "manifestantes protestam em frente a prisao onde maduro esta detido em nova iorque",
+            "normalized_description": ""
+        },
+        {
             "link": "https://jornaleconomico.sapo.pt/noticias/governador-do-banco-do-japao-garante-que-ira-continuar-a-subir-juros/",
             "normalized_title": "governador do banco do japao garante que ira continuar a subir juros",
             "normalized_description": "kazuo ueda governador do boj destacou a recuperacao contida do pais no ano passado projetando que a economia continue a resistir este ano e que"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/empresas/banca---financas/detalhe/habitacao-jovens-ja-usaram-mais-de-metade-da-garantia-publica",
+            "normalized_title": "habitacao jovens ja usaram mais de metade da garantia publica",
+            "normalized_description": "ate ao final de novembro os emprestimos com garantia do estado para compra de casa atingiam 52 8 da dotacao da medida"
         },
         {
             "link": "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/tap-tem-de-vender-participacao-da-cateringpor-e-handling-ate-30-de-junho",
@@ -18547,6 +19157,11 @@
             "link": "https://expresso.pt/economia/financas-pessoais/2026-01-05-certificados-de-aforro-em-papel-podem-ser-convertidos-para-formato-digital-ate-2029-f8606f6d",
             "normalized_title": "certificados de aforro em papel podem ser convertidos para formato digital ate 2029",
             "normalized_description": "se a conversao nao for realizada ate ao fim do prazo os certificados sao automaticamente amortizados e o respetivo valor calculado a data da"
+        },
+        {
+            "link": "https://rr.pt/noticia/economia/2026/01/05/juros-da-divida-de-portugal-caem-a-dois-a-cinco-e-a-10-anos/454024/?utm_medium=rss",
+            "normalized_title": "juros da divida de portugal caem a dois a cinco e a 10 anos",
+            "normalized_description": "juros portugueses alinhados com os de espanha grecia e italia"
         },
         {
             "link": "https://www.cmjornal.pt/economia/detalhe/20260105-111955-taxa-euribor-sobe-a-tres-e-a-12-meses-e-desce-a-seis-meses",
@@ -18632,6 +19247,11 @@
             "link": "https://www.noticiasaominuto.com/economia/2913512/estao-ai-os-saldos-e-promocoes-mas-atencao-as-regras-saiba-tudo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "estao ai os saldos e promocoes mas atencao as regras saiba tudo",
             "normalized_description": "deco proteste alerta que um comerciante so pode fazer saldos promocoes ou reducoes de preco se praticar um desconto sobre o preco mais baixo a que o"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/economia/2913835/taxa-euribor-sobe-a-tres-e-a-12-meses-e-desce-a-seis-meses#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "taxa euribor sobe a tres e a 12 meses e desce a seis meses",
+            "normalized_description": "a taxa euribor subiu hoje a tres e a 12 meses e desceu a seis meses em relacao a sexta feira"
         },
         {
             "link": "https://www.jornaldenegocios.pt/empresas/turismo---lazer/detalhe/programa-para-atrair-eventos-para-portugal-com-75-milhoes-ate-final-de-2028",
@@ -21137,53 +21757,23 @@
             "link": "https://www.rtp.pt/noticias/economia/bolsa-de-lisboa-fechou-inalterada-mas-valorizou-29-em-2025_n1707102",
             "normalized_title": "bolsa de lisboa fechou inalterada mas valorizou 29 em 2025",
             "normalized_description": "a bolsa de lisboa fechou a ultima sessao de 2025 na linha de agua com o indice de referencia inalterado mas no conjunto do ano valorizou cerca de"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/psi-segue-em-queda-numa-europa-mista/",
-            "normalized_title": "psi segue em queda numa europa mista",
-            "normalized_description": "como e habitual o dia e marcado pelo fraco flow empresarial e baixo volume de negocios"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/economia/carneiro-quer-saber-se-governo-tem-plano-de-contingencia-para-aeroportos_n1707100",
-            "normalized_title": "carneiro quer saber se governo tem plano de contingencia para aeroportos",
-            "normalized_description": "o secretario geral do ps jose luis carneiro instou hoje o governo a esclarecer se elaborou ou nao um plano de contingencia para os aeroportos para"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/economia/porto-do-funchal-com-11-navios-de-cruzeiro-e-um-veleiro-na-passagem-de-ano_n1707086",
-            "normalized_title": "porto do funchal com 11 navios de cruzeiro e um veleiro na passagem de ano",
-            "normalized_description": "o porto do funchal recebe hoje 11 navios de cruzeiro e um veleiro para assistirem ao espetaculo de fogo de artificio que assinala a passagem de ano"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/opiniao/detalhe/a-fadiga-da-mudanca-quando-tudo-passa-a-ser-estrategico",
-            "normalized_title": "a fadiga da mudanca quando tudo passa a ser estrategico",
-            "normalized_description": "continuamos a confundir estrategia com controlo e planeamento com seguranca esquecemo nos de algo essencial a estrategia serve para ajudar a"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/mercados/mercados-num-minuto/detalhe/20251231-122659-taxa-euribor-sobe-a-tres-meses-e-desce-a-seis-e-12-meses",
-            "normalized_title": "taxa euribor sobe a tres meses e desce a seis e 12 meses",
-            "normalized_description": "acompanhe ao minuto a evolucao dos mercados nesta quarta feira ultimo dia do ano"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/sem-forca-militar-bloquear-petroleo-nao-basta-para-maduro-cair-dizem-analistas/",
-            "normalized_title": "sem forca militar bloquear petroleo nao basta para maduro cair dizem analistas",
-            "normalized_description": "cerco ao setor petrolifero e preludio para guerra nao ferramenta de diplomacia afirma ex funcionario do governo americano petroleiros que iriam a"
-        },
-        {
-            "link": "https://expresso.pt/economia/2025-12-31-inflacao-recua-para-23-em-2025-com-a-energia-a-conter-o-impacto-dos-precos-dos-alimentos-1b345616",
-            "normalized_title": "inflacao recua para 2 3 em 2025 com a energia a conter o impacto dos precos dos alimentos",
-            "normalized_description": "inflacao media anual baixou 0 1 pontos percentuais face a 2024 no indicador que inclui os gastos dos turistas verifica se um aumento no mes de"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/2911944/proveitos-do-alojamento-turistico-crescem-2-1-para-393-5-milhoes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "proveitos do alojamento turistico crescem 2 1 para 393 5 milhoes",
-            "normalized_description": "o alojamento turistico teve proveitos de 393 5 milhoes de euros em novembro uma subida homologa de 2 1 avancou hoje o instituto nacional de"
         }
     ],
     "Cultura": [
         {
+            "link": "https://expresso.pt/blitz/2026-01-05-lizzo-mostra-corpo-muito-mais-magro-em-biquini-0e805b1f",
+            "normalized_title": "lizzo mostra corpo muito mais magro em biquini",
+            "normalized_description": "a artista norte americana partilhou imagens da transformacao fisica que atravessa"
+        },
+        {
             "link": "https://www.publico.pt/2026/01/05/culturaipsilon/noticia/humberto-podem-roubarnos-tempo-podem-roubarnos-atencao-nao-roubam-cancao-2159592",
             "normalized_title": "humberto podem roubar nos o tempo podem roubar nos a atencao mas nao nos roubam a cancao",
             "normalized_description": "mau teatro e um album de pop em queda e musica de intervencao e um album de amor e politica e o album em que descobrimos o cantor que existe em"
+        },
+        {
+            "link": "https://observador.pt/2026/01/05/o-fim-de-stranger-things-e-o-nosso-mundo-ao-contrario-sem-estes-garotos/",
+            "normalized_title": "stranger things e o mundo ao contrario sem estes garotos",
+            "normalized_description": "nove anos depois terminou ha umas quantas falhas a apontar a este final mas nunca nenhum final seria livre de macula contas feitas uma belissima"
         },
         {
             "link": "https://expresso.pt/blitz/2026-01-05-bill-callahan-revelou-que-lhe-foi-diagnosticado-um-cancro-nao-sabia-se-iria-viver-ou-morrer-1f75446d",
@@ -21794,24 +22384,39 @@
             "link": "https://www.rtp.pt/noticias/cultura/memoria-da-rtp-das-passagens-de-ano-de-outros-tempos_v1707112",
             "normalized_title": "memoria da rtp das passagens de ano de outros tempos",
             "normalized_description": "o arquivo mostra nos as tradicoes que se perderam e as que se mantem na ultima noite do ano"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/cultura/ewtwetewtewtwetwet_v1707099",
-            "normalized_title": "ewtwetewtewtwetwet",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://expresso.pt/blitz/2025-12-31-a-melhor-musica-que-ouvimos-em-2025-a-playlist-de-lia-pereira-55741423",
-            "normalized_title": "a melhor musica que ouvimos em 2025 a playlist de lia pereira",
-            "normalized_description": "muitas cancoes em portugues de ambas as margens do atlantico historias sem palavras intervencao com as letras todas cartas de amor e alguma"
-        },
-        {
-            "link": "https://observador.pt/2025/12/31/a-criada-sydney-sweeney-tem-bons-jeans-mas-uma-ma-patroa/",
-            "normalized_title": "sydney sweeney tem bons jeans mas uma ma patroa",
-            "normalized_description": "sydney sweeney e amanda seyfried sao empregada e patroa em a criada um thriller psicologico corriqueiro que se torna trashy e estapafurdio demais"
         }
     ],
     "Ciência e Tech": [
+        {
+            "link": "https://www.noticiasaominuto.com/tech/2913920/microsoft-vai-deixar-de-atualizar-um-das-versoes-do-windows-11#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "microsoft vai deixar de atualizar um das versoes do windows 11",
+            "normalized_description": "a empresa deixara oficialmente de atualizar a versao windows 11 se desenvolvida para escolas e estudantes do ensino primario esta versao do sistema"
+        },
+        {
+            "link": "https://tek.sapo.pt/mobile/equipamentos/artigos/samsung-quer-vender-800-milhoes-de-equipamentos-com-ia-em-2026-e-mostra-alguns",
+            "normalized_title": "samsung quer vender 800 milhoes de equipamentos com ia em 2026 e mostra alguns",
+            "normalized_description": "na ces a samsung faz por estes dias desfilar algumas das suas principais apostas para 2026 um ano em que quer por inteligencia artificial em quase"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/tech/2913906/estudo-dois-em-cada-tres-portugueses-ja-utilizam-ferramentas-de-ia#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "estudo dois em cada tres portugueses ja utilizam ferramentas de ia",
+            "normalized_description": "cerca de dois em cada tres portugueses 67 utilizam ferramentas de inteligencia artificial ia pelo menos uma vez por mes representando um"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/tech/2913900/rumor-indica-que-asus-nao-lancara-novos-telemoveis-em-2026#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "rumor indica que asus nao lancara novos telemoveis em 2026",
+            "normalized_description": "a asus tera deixado a indicacao a empresas distribuidoras em taiwan que nao planeia lancar novos telemoveis em 2026 o ultimo telemovel da asus foi"
+        },
+        {
+            "link": "https://pplware.sapo.pt/internet/starlink-oferece-acesso-gratuito-a-internet-na-venezuela-apos-operacao-dos-eua/",
+            "normalized_title": "starlink oferece acesso gratuito a internet na venezuela apos operacao dos eua",
+            "normalized_description": "concebida para fornecer internet de alta velocidade e baixa latencia em todo mundo a starlink esta a oferecer o servico aos utilizadores na"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/tech/2913879/apos-captura-de-maduro-spacex-vai-oferecer-internet-na-venezuela#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "apos captura de maduro spacex vai oferecer internet na venezuela",
+            "normalized_description": "ainda que so um numero limitado de pessoas tenha acesso a rede de internet via satelite da starlink no territorio a medida da spacex destina se a"
+        },
         {
             "link": "https://www.publico.pt/2026/01/05/ciencia/noticia/porcos-instalaramse-ilhas-pacifico-juntamente-viajantes-humanos-2160074",
             "normalized_title": "porcos instalaram se nas ilhas do pacifico juntamente com primeiros viajantes humanos",
@@ -22716,19 +23321,19 @@
             "link": "https://pplware.sapo.pt/motores/multas-nos-parques-de-estacionamento-dos-centros-comerciais/",
             "normalized_title": "multas nos parques de estacionamento dos centros comerciais",
             "normalized_description": "os parques de estacionamento dos centros comerciais sao frequentemente vistos como sendo espacos privados levando muitos condutores a acreditar"
-        },
-        {
-            "link": "https://tek.sapo.pt/noticias/internet/artigos/as-historias-nao-contadas-de-tres-decadas-de-internet-em-portugal",
-            "normalized_title": "as historias nao contadas de tres decadas de internet em portugal",
-            "normalized_description": "como foram as primeiras ligacoes a internet em portugal e que equipamentos eram usados para aceder a www a memoria dos primeiros anos de internet"
-        },
-        {
-            "link": "https://pplware.sapo.pt/pplware/passatempos/passatempo-de-ano-novo-temos-mais-dois-jlab-go-pods-anc-para-oferecer/",
-            "normalized_title": "passatempo de ano novo temos mais dois jlab go pods anc para oferecer",
-            "normalized_description": "para terminar 2025 em beleza temos mais dois jlab go pods anc para oferecer aos dois leitores mais sortudos um na elegante versao lilas e outro no"
         }
     ],
     "Lifestyle": [
+        {
+            "link": "https://expresso.pt/boa-cama-boa-mesa/2025-12-30-alojamento-rural-junto-a-serra-da-estrela-renova-se-para-resistir-ao-impacto-das-alteracoes-climaticas-600e28a1",
+            "normalized_title": "alojamento rural junto a serra da estrela renova se para resistir ao impacto das alteracoes climaticas",
+            "normalized_description": "devido ao fogo e as tempestades os novos telhados do chao do rio turismo de aldeia sao agora inspirados nos chales de montanha em norme da"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/lifestyle/2913812/bolsos-bem-cheios-tres-signos-que-vao-ganhar-muito-dinheiro-esta-semana#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "bolsos bem cheios tres signos que vao ganhar muito dinheiro esta semana",
+            "normalized_description": "que bela forma de comecar o ano ha tres signos que vao ganhar muito dinheiro esta semana so tem de agir da melhor forma que os astros tratam do"
+        },
         {
             "link": "https://www.noticiasaominuto.com/fama/2913869/merche-romero-reage-a-morte-do-irmao-e-revela-detalhes-do-funeral#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "merche romero reage a morte do irmao e revela detalhes do funeral",
@@ -23698,31 +24303,31 @@
             "link": "https://www.noticiasaominuto.com/fama/2911940/abel-xavier-de-luto-pela-morte-do-pai-inspiracao-para-todos-nos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "abel xavier de luto pela morte do pai inspiracao para todos nos",
             "normalized_description": "o antigo futebolista abel xavier esta de luto pela morte do pai a noticia foi partilhada pelo proprio nas redes sociais onde lamentou a perda com"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/lifestyle/2911919/adeus-produtos-agressivos-na-pele-eis-o-desmaquilhante-natural#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "adeus produtos agressivos na pele eis o desmaquilhante natural",
-            "normalized_description": "assim que terminar o desmaquilhante tradicional que tem em casa substitua o por este que provavelmente tambem ja tera em casa o oleo de coco e"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/fama/2911943/a-amorosa-mensagem-de-parabens-de-cristiano-ronaldo-para-a-mae#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "a amorosa mensagem de parabens de cristiano ronaldo para a mae",
-            "normalized_description": "dolores aveiro completa esta quarta feira 31 de dezembro 71 anos de vida a data especial foi assinalada publicamente por cristiano ronaldo que"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/lifestyle/2911928/maricura-9-cores-de-verniz-que-vao-fazer-sucesso-no-proximo-ano#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "manicura 9 cores de verniz que vao fazer sucesso no proximo ano",
-            "normalized_description": "sabe quais as cores de verniz que vao ser tendencia em 2026 alguns especialistas apontam os tons que irao fazer sucesso ao longo dos proximos meses"
-        },
-        {
-            "link": "https://www.cmjornal.pt/vidas/ultimas/detalhe/sofia-ribeiro-expoe-mas-condicoes-e-atendimento-em-hotel-em-cabo-verde-nao-vou-voltar-a-por-os-pes",
-            "normalized_title": "nao vou voltar a por os pes sofia ribeiro expoe mas condicoes e atendimento em hotel em cabo verde",
-            "normalized_description": "o que deveria ser uma estadia de descanso transformou se numa situacao de grande frustracao"
         }
     ],
     "Sociedade": [
         {
+            "link": "https://www.cmjornal.pt/sociedade/detalhe/dois-em-cada-tres-portugueses-ja-utilizam-ferramentas-de-inteligencia-artificial",
+            "normalized_title": "dois em cada tres portugueses ja utilizam ferramentas de inteligencia artificial",
+            "normalized_description": "percentagem de inquiridos que utiliza ia aumentou de forma significativa com destaque para adultos entre os 18 e os 34 anos"
+        },
+        {
+            "link": "https://www.cmjornal.pt/sociedade/detalhe/fenprof-alerta-para-agravamento-da-falta-de-professores-e-exige-revisao-da-carreira",
+            "normalized_title": "fenprof alerta para agravamento da falta de professores e exige revisao da carreira",
+            "normalized_description": "o secretario geral francisco goncalves responsabiliza o ministerio da educacao por nao avancar com medidas concretas"
+        },
+        {
+            "link": "https://www.publico.pt/2026/01/05/p3/cronica/democracia-precisa-jovens-mesa-2159647",
+            "normalized_title": "a democracia precisa de mais jovens a mesa",
+            "normalized_description": "portugal vive uma contradicao curiosa celebramos a juventude como simbolo de inovacao mas sistematicamente ela esta sub representada nos centros de"
+        },
+        {
             "link": "https://expresso.pt/sociedade/2026-01-04-ex-dirigente-do-chega-comeca-a-ser-julgado-por-prostituicao-de-menores-no-final-de-janeiro-63087bbd",
+            "normalized_title": "ex dirigente do chega comeca a ser julgado por prostituicao de menores no final de janeiro",
+            "normalized_description": "o inicio do julgamento de nuno pardal ribeiro foi marcado para 26 de janeiro no tribunal de sintra o ex dirigente do chega vai responder por dois"
+        },
+        {
+            "link": "https://expresso.pt/sociedade/2026-01-05-ex-dirigente-do-chega-comeca-a-ser-julgado-por-prostituicao-de-menores-no-final-de-janeiro-63087bbd",
             "normalized_title": "ex dirigente do chega comeca a ser julgado por prostituicao de menores no final de janeiro",
             "normalized_description": "o inicio do julgamento de nuno pardal ribeiro foi marcado para 26 de janeiro no tribunal de sintra o ex dirigente do chega vai responder por dois"
         },
@@ -23730,6 +24335,11 @@
             "link": "https://observador.pt/2026/01/05/saude-do-novo-advogado-de-socrates-coloca-em-risco-o-regresso-das-sessoes-de-julgamento/",
             "normalized_title": "saude de advogado pode levar a novo adiamento do julgamento",
             "normalized_description": "jose preto informou o tribunal de que foi internado no hospital no final de dezembro e que ainda nao tem previsao de alta o julgamento ja foi"
+        },
+        {
+            "link": "https://rr.pt/noticia/religiao/2026/01/05/santuario-de-fatima-aprofunda-devocao-dos-primeiros-sabados/454023/?utm_medium=rss",
+            "normalized_title": "santuario de fatima aprofunda devocao dos primeiros sabados",
+            "normalized_description": "celebracoes mantem a estrutura habitual mas destacam as aparicoes de pontevedra e o seu conteudo teologico e espiritual"
         },
         {
             "link": "https://expresso.pt/sociedade/meteorologia/2026-01-05-tempo-em-portugal-frio-intenso-vento-forte-e-possibilidade-de-neve-na-semana-de-reis-4d17f622",
@@ -24955,19 +25565,29 @@
             "link": "https://www.cmjornal.pt/sociedade/clima/detalhe/vai-passar-passagem-de-ano-na-madeira-atencao-capitania-do-funchal-emite-aviso-de-mau-tempo",
             "normalized_title": "vai passar a passagem de ano na madeira atencao capitania do funchal emite aviso de mau tempo",
             "normalized_description": "aviso com base nas previsoes do instituto portugues do mar e da atmosfera ipma vai estar em vigor ate as 06 00 de quinta feira"
-        },
-        {
-            "link": "https://www.publico.pt/2025/12/31/impar/noticia/in-memoriam-pessoas-impares-morreram-2025-2159694",
-            "normalized_title": "in memoriam pessoas impares que morreram em 2025",
-            "normalized_description": "um recordatorio de ilustres do papa francisco a maria teresa horta pinto da costa nuno guerreiro diogo jota clara pinto correia anita"
-        },
-        {
-            "link": "https://www.petsandcompany.pt/saude/detalhe/quanto-mais-claro-o-pelo-maior-o-risco-como-reconhecer-e-prevenir-o-cancro-de-pele-em-caes-e-gatos",
-            "normalized_title": "quanto mais claro o pelo maior o risco como reconhecer e prevenir o cancro de pele em caes e gatos",
-            "normalized_description": "infelizmente o cancro de pele em caes e gatos e mais frequente do que se pensa"
         }
     ],
     "Política": [
+        {
+            "link": "https://www.cmjornal.pt/politica/detalhe/gouveia-e-melo-acusa-primeiro-ministro-de-tentar-condicionar-escolha-do-futuro-presidente",
+            "normalized_title": "gouveia e melo acusa primeiro ministro de tentar condicionar escolha do futuro presidente",
+            "normalized_description": "salientou que o proximo chefe de estado nao pode ser nem marioneta nem oposicao ao governo"
+        },
+        {
+            "link": "https://www.cmjornal.pt/politica/detalhe/cotrim-de-figueiredo-diz-que-apelo-ao-voto-de-montenegro-em-marques-mendes-mostra-preocupacao",
+            "normalized_title": "cotrim de figueiredo diz que apelo ao voto de montenegro em marques mendes mostra preocupacao",
+            "normalized_description": "joao cotrim de figueiredo considerou que montenegro ja percebeu que marques mendes e um candidato que nao consegue sequer mobilizar o proprio"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/politica/2913910/apelo-ao-voto-de-montenegro-em-marques-mendes-preocupacao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "apelo ao voto de montenegro em marques mendes preocupacao",
+            "normalized_description": "o candidato presidencial joao cotrim de figueiredo considerou hoje que o apelo ao voto do presidente do psd e primeiro ministro luis montenegro em"
+        },
+        {
+            "link": "https://observador.pt/especiais/catarina-martins-devia-quase-100-mil-e-tem-140-mil-euros/",
+            "normalized_title": "catarina martins devia quase 100 mil e tem 140 mil euros",
+            "normalized_description": "ex coordenadora do bloco conseguiu enorme salto nos rendimentos com entrada na vida politica em 2009 durante os ultimos 15 anos comunicou a ligacao"
+        },
         {
             "link": "https://www.noticiasaominuto.com/politica/2913858/catarina-martins-distancia-se-de-herdeiros-de-passos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "marques mendes seguro ventura e cotrim herdeiros de passos",
@@ -24977,6 +25597,11 @@
             "link": "https://www.noticiasaominuto.com/politica/2913854/trump-quer-tornar-se-xerife-a-escala-mundial#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "trump quer tornar se xerife a escala mundial",
             "normalized_description": "um artigo de opiniao assinado por joaquim jorge biologo e fundador do clube dos pensadores"
+        },
+        {
+            "link": "https://rr.pt/noticia/politica/2026/01/05/voto-antecipado-tudo-o-que-precisa-de-saber-para-votar-antes-de-18-de-janeiro/454018/?utm_medium=rss",
+            "normalized_title": "voto antecipado tudo o que precisa de saber para votar antes de 18 de janeiro",
+            "normalized_description": "as inscricoes para o voto em mobilidade decorrem ate 8 de janeiro"
         },
         {
             "link": "https://www.rtp.pt/noticias/politica/catarina-martins-distancia-se-de-herdeiros-de-passos_n1707922",
@@ -27207,54 +27832,44 @@
             "link": "https://www.noticiasaominuto.com/politica/2911964/mendes-considera-que-governo-agiu-bem-mas-tarde-sobre-fronteiras#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "mendes considera que governo agiu bem mas tarde sobre fronteiras",
             "normalized_description": "o candidato presidencial luis marques mendes considerou hoje que o governo agiu bem mas tarde ao suspender o novo sistema europeu de controlo de"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/carneiro-acusa-governo-de-exonerar-administracoes-hospitalares-por-razoes-politicas_n1707098",
-            "normalized_title": "carneiro acusa governo de exonerar administracoes hospitalares por razoes politicas",
-            "normalized_description": "o secretario geral do ps jose luis carneiro manifestou hoje repudio pelas recentes noticias de exoneracoes de administracoes hospitalares acusando"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/aeroporto-carneiro-acusa-governo-de-incompetencia_v1707095",
-            "normalized_title": "aeroporto carneiro acusa governo de incompetencia",
-            "normalized_description": "jose luis carneiro acusa o governo de impreparacao e incompetencia por causa do caos no aeroporto"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/marques-mendes-faz-votos-de-experiencia-paz-e-saude-em-2026_n1707087",
-            "normalized_title": "marques mendes faz votos de experiencia paz e saude em 2026",
-            "normalized_description": "o candidato presidencial luis marques mendes fez hoje votos de experiencia paz e saude em 2026 manifestando o desejo de que seja o ano do fim da"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/controlo-de-fronteiras-entra-na-campanha_v1707094",
-            "normalized_title": "controlo de fronteiras entra na campanha",
-            "normalized_description": "o controlo de fronteiras tambem marcou a campanha presidencial destaque tambem para o apelo de seguro ao voto util a esquerda"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/governo-afastou-a-administradora-do-sao-jose_v1707093",
-            "normalized_title": "governo afastou a administradora do sao jose",
-            "normalized_description": "o governo afastou a administradora do sao jose em lisboa as administracoes dos hospitais de coimbra e de tras os montes e alto douro tambem vao ser"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/bruxelas-aponta-deficiencias-graves-na-seguranca-do-aeroporto-de-lisboa_v1707092",
-            "normalized_title": "bruxelas aponta deficiencias graves na seguranca do aeroporto de lisboa",
-            "normalized_description": "a comissao europeia fez uma inspecao surpresa ao aeroporto de lisboa e identificou deficiencias graves no controlo de seguranca alertas que levaram"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/bruxelas-aponta-deficiencias-graves-na-seguranca-do-aeroporto-de-lisboa_v1707092",
-            "normalized_title": "bruxelas aponta deficiencias graves na seguranca do aeroporto de lisboa",
-            "normalized_description": "a comissao europeia fez uma inspecao surpresa ao aeroporto de lisboa e identificou deficiencias graves no controlo de seguranca alertas que levaram"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/eleicoes-presidenciais-2026/mendes-considera-que-governo-agiu-bem-mas-tarde-sobre-controlo-de-fronteiras_n1707083",
-            "normalized_title": "mendes considera que governo agiu bem mas tarde sobre controlo de fronteiras",
-            "normalized_description": "o candidato presidencial luis marques mendes considerou hoje que o governo agiu bem mas tarde ao suspender o novo sistema europeu de controlo de"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/mendes-considera-que-governo-agiu-bem-mas-tarde-sobre-controlo-de-fronteiras_n1707083",
-            "normalized_title": "mendes considera que governo agiu bem mas tarde sobre controlo de fronteiras",
-            "normalized_description": "o candidato presidencial luis marques mendes considerou hoje que o governo agiu bem mas tarde ao suspender o novo sistema europeu de controlo de"
         }
     ],
     "Multimédia": [
+        {
+            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/maduro-ja-saiu-da-prisao-e-seguiu-para-tribunal-em-nova-iorque",
+            "normalized_title": "maduro ja saiu da prisao e seguiu para tribunal em nova iorque",
+            "normalized_description": "o presidente venezuelano nicolas maduro vai ser julgado no tribunal federal de manhattan no estado norte americano de nova iorque por"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/maduro-a-caminho-do-tribunal-em-nova-iorque-veja-as-imagens",
+            "normalized_title": "maduro a caminho do tribunal em nova iorque veja as imagens",
+            "normalized_description": "nicolas maduro ja deixou o centro de detencao em brooklyn e esta a caminho do tribunal federal de manhattan em nova iorque nos eua esta"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260105-123636-incendio-em-predio-causa-um-morto-e-31-desalojados-em-alcobaca",
+            "normalized_title": "incendio em predio causa um morto e 31 desalojados em alcobaca",
+            "normalized_description": "o fogo de causas ainda desconhecidas foi combatido ate cerca das 03 00 desta segunda feira e nao afetou os predios vizinhos"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260105-122914-psp-e-gnr-registam-35-mortes-nas-estradas-em-17-dias-da-operacao-festas-em-seguranca",
+            "normalized_title": "psp e gnr registam 35 mortes nas estradas em 17 dias da operacao festas em seguranca",
+            "normalized_description": "mais de duas mil pessoas foram detidas no natal e ano novo"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/a-tensao-crescente-e-os-dois-ultimos-empates-luis-pedro-sousa-analisa-despedimento-de-ruben-amorim-do-manchester-united",
+            "normalized_title": "a tensao crescente e os dois ultimos empates luis pedro sousa analisa despedimento de ruben amorim do manchester united",
+            "normalized_description": "lua s pedro sousa chefe de redaa a o de record analisa o despedimento de ruben amorim do manchester united anunciada esta segunda feira"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260105-121224-droga-do-riso-inunda-festas-nos-bairros-conheca-os-perigos",
+            "normalized_title": "droga do riso inunda festas nos bairros conheca os perigos",
+            "normalized_description": "em setembro de 2022 o gas entrou na lista de substancias psicoativas o que significa que a venda em espacos de diversao noturna ou internet foi"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260105-120632-militares-das-forcas-armadas-ganham-menos-que-todos-os-policias",
+            "normalized_title": "militares das forcas armadas ganham menos que todos os policias",
+            "normalized_description": "forcas armadas perderam 11 mil militares um terco do efetivo desde 2011 guarda prisional e psp tambem sao menos"
+        },
         {
             "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260105-114236-seguro-apela-ao-voto-da-esquerda-para-evitar-segunda-volta-com-escolha-limitada",
             "normalized_title": "seguro apela ao voto da esquerda para evitar segunda volta com escolha limitada",
@@ -27274,6 +27889,11 @@
             "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/abusa-da-enteada-enquanto-tem-sexo-com-a-mae-da-menina-julgamento-em-coimbra-anulado-volta-a-estaca-zero",
             "normalized_title": "abusa da enteada enquanto tem sexo com a mae da menina julgamento em coimbra anulado volta a estaca zero",
             "normalized_description": "crianca era inicialmente obrigada a assistir a relacoes sexuais e mais tarde forcada a participar arguido foi condenado a 10 anos de cadeia mas o"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/12h-venezuela-china-pede-aos-eua-para-respeitar-direito-internacional_a1_1707936",
+            "normalized_title": "12h venezuela china pede aos eua para respeitar direito internacional",
+            "normalized_description": ""
         },
         {
             "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/lider-da-oposicao-na-venezuela-fala-em-momento-historico-e-pede-libertacao-de-presos-politicos-apos-captura-de-maduro",
@@ -28969,49 +29589,14 @@
             "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/gnr-continua-a-realizar-operacao-natal-e-ano-novo-por-todo-o-pais",
             "normalized_title": "gnr continua a realizar operacao natal e ano novo por todo o pais",
             "normalized_description": "militares que realizam a acao de fiscalizacao e sensibilizacao alertam para as medidas de seguranca necessarias no ultimo dia do ano"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/portugueses-escolhem-o-marisco-como-parte-da-refeicao-no-ultimo-dia-do-ano",
-            "normalized_title": "portugueses escolhem o marisco como parte da refeicao no ultimo dia do ano",
-            "normalized_description": "procura por parte dos clientes aumenta nesta epoca festiva"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/13h-ceus-de-sydney-ja-estao-iluminados-pelo-fogo-de-artificio_a1_1707090",
-            "normalized_title": "13h ceus de sydney ja estao iluminados pelo fogo de artificio",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://observador.pt/2025/12/31/o-regresso-de-trump-o-funeral-do-papa-francisco-e-o-apagao-que-afetou-portugal-o-ano-de-2025-em-180-imagens/",
-            "normalized_title": "fotogaleria o ano de 2025 em 180 imagens",
-            "normalized_description": "o ano ficou marcado pelo regresso de trump a presidencia dos eua pelo funeral do papa francisco e pelo apagao no sul da europa veja as imagens dos"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/hoteis-na-serra-da-estrela-esgotados-para-a-passagem-de-ano",
-            "normalized_title": "hoteis na serra da estrela esgotados para a passagem de ano",
-            "normalized_description": "montanha coberta de neve atrai milhares de pessoas reservas de alojamento foram rapidamente preenchidas"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/netanyahu-estou-muito-grato-ao-presidente-trump-pelo-apoio-que-nos-da",
-            "normalized_title": "netanyahu estou muito grato ao presidente trump pelo apoio que nos da",
-            "normalized_description": "o primeiro ministro israelita benjamin netanyahu elogiou a relacao e apoio do presidente dos eua donald trump numa entrevista dada esta"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-desporto/12h30m-edicao-valter-madureira_a1_1707085",
-            "normalized_title": "12h30m edicao valter madureira",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-desporto/12h30m-edicao-valter-medeiros_a1_1707084",
-            "normalized_title": "12h30m edicao valter medeiros",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20251231-115741-assaltam-posto-de-combustivel-a-mao-armada-na-benedita",
-            "normalized_title": "assaltam posto de combustivel a mao armada na benedita",
-            "normalized_description": "grupo de tres suspeitos fugiu de automovel pj investiga"
         }
     ],
     "Opinião": [
+        {
+            "link": "https://expresso.pt/opiniao/HenriqueRaposo/2026-01-05-borboto-f69ffe83",
+            "normalized_title": "borboto",
+            "normalized_description": "se queres ser mesmo ecologico larga a tinta que atiras aos quadros e poe la no corpo couro nos pes e queijo de ovelha cabrito mel e castanhas na"
+        },
         {
             "link": "https://visao.pt/opiniao/ponto-de-vista/2026-01-05-trump-petroleo-e-poder-a-venezuela-e-a-erosao-da-ordem-internacional/?utm_source=rss&utm_medium=rss&utm_campaign=trump-petroleo-e-poder-a-venezuela-e-a-erosao-da-ordem-internacional",
             "normalized_title": "trump petroleo e poder a venezuela e a erosao da ordem internacional",
@@ -29494,6 +30079,26 @@
         }
     ],
     "Vídeojogos": [
+        {
+            "link": "https://pt.ign.com/avengers-doomsday/153702/news/simu-liu-confirma-shang-chi-2-e-regresso-em-avengers-secret-wars",
+            "normalized_title": "simu liu confirma shang chi 2 e regresso em avengers secret wars",
+            "normalized_description": "apesar do longo hiato desde 2021 o ator insiste que a sequela e uma realidade e confirma a sua sobrevivencia aos eventos de avengers doomsday o"
+        },
+        {
+            "link": "https://pt.ign.com/league-of-legends/153701/news/league-of-legends-ficou-offline-porque-a-riot-games-esqueceu-se-de-renovar-uma-licenca",
+            "normalized_title": "league of legends ficou offline porque a riot games esqueceu se de renovar uma licenca",
+            "normalized_description": "quem nunca tentaste jogar league of legends e nao conseguiste uma licenca digital com dez anos expirou este fim de semana e deixou o moba da riot"
+        },
+        {
+            "link": "https://www.eurogamer.pt/rtx-3060-poderao-voltar-para-enfrentar-a-crise",
+            "normalized_title": "rtx 3060 poderao voltar para enfrentar a crise",
+            "normalized_description": "o ano de 2026 podera ficar marcado por um regresso a 2021 com a nvidia a trazer de volta a sua linha de graficas geforce rtx 3060 para ajudar a"
+        },
+        {
+            "link": "https://pt.ign.com/nintendo-switch-2/153685/feature/o-que-podemos-esperar-da-nintendo-em-2026",
+            "normalized_title": "o que podemos esperar da nintendo em 2026",
+            "normalized_description": "super mario pokemon e possiveis surpresas de zelda e luigi de pokemon a celebracao dos 40 anos de zelda passando por novos exclusivos e adaptacoes"
+        },
         {
             "link": "https://www.eurogamer.pt/stranger-things-quase-imitou-star-wars-com-vecna",
             "normalized_title": "stranger things quase imitou star wars com vecna",
