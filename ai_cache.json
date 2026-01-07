@@ -6,18 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://expresso.pt/revista-de-imprensa/2026-01-02-salario-de-christine-lagarde-e-50-superior-ao-divulgado-pelo-bce-016aada6": {
-        "category": "Economia",
-        "timestamp": "2026-01-02T09:34:12.697303+00:00",
-        "title": "Salário de Christine Lagarde é 50% superior ao divulgado pelo BCE",
-        "confidence": "exact"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/candidatos-presidenciais-em-frente-a-frente-no-debate-da-radio": {
-        "category": "Política",
-        "timestamp": "2026-01-02T09:34:13.140630+00:00",
-        "title": "Candidatos presidenciais em frente a frente no Debate da Rádio",
-        "confidence": "exact"
-    },
     "https://rr.pt/noticia//2026/01/02/o-que-deve-um-presidente-fazer-veja-em-direto-o-debate-da-radio/453648/?utm_medium=rss": {
         "category": "Política",
         "timestamp": "2026-01-02T09:54:36.577590+00:00",
@@ -802,6 +790,12 @@
         "category": "Economia",
         "timestamp": "2026-01-07T08:35:29.551290+00:00",
         "title": "Habitação. Preços de casas subiram tanto que absorveram benefício fiscal para jovens?",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/neve-afeta-aeroportos-de-paris-com-cancelamentos-de-voos-incluindo-em-portugal": {
+        "category": "Nacional",
+        "timestamp": "2026-01-07T09:42:38.400988+00:00",
+        "title": "Neve afeta aeroportos de Paris com cancelamentos de voos incluindo em Portugal",
         "confidence": "exact"
     }
 }
