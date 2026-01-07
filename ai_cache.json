@@ -6,12 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://rr.pt/artigo/explicador-renascenca/2026/01/02/que-reformas-na-saude-travou-marcelo-porque/453632/?utm_medium=rss": {
-        "category": "Sociedade",
-        "timestamp": "2026-01-02T08:32:43.141735+00:00",
-        "title": "Que reformas na Saúde travou Marcelo? Porquê?",
-        "confidence": "exact"
-    },
     "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/o-perfil-dos-11-candidatos-na-corrida-a-presidencia-da-republica": {
         "category": "Política",
         "timestamp": "2026-01-02T08:59:34.315446+00:00",
@@ -814,6 +808,12 @@
         "category": "Mundo",
         "timestamp": "2026-01-07T07:38:36.685324+00:00",
         "title": "Taiwan e a China",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/explicador-renascenca/2026/01/07/habitacao-precos-de-casas-subiram-tanto-que-absorveram-beneficio-fiscal-para-jovens/454275/?utm_medium=rss": {
+        "category": "Economia",
+        "timestamp": "2026-01-07T08:35:29.551290+00:00",
+        "title": "Habitação. Preços de casas subiram tanto que absorveram benefício fiscal para jovens?",
         "confidence": "exact"
     }
 }
