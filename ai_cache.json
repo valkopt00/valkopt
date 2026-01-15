@@ -1393,7 +1393,7 @@
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-01-15T23:24:38.221069+00:00",
+        "timestamp": "2026-01-15T23:43:28.654485+00:00",
         "title": "Tudo sobre a captura relâmpago de Nicolás Maduro, na revista E",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -1450,6 +1450,24 @@
         "category": "Nacional",
         "timestamp": "2026-01-15T23:25:58.882781+00:00",
         "title": "Campanha à mesa e em todo o lado",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/cotrim-avisa-que-campanha-suja-e-feita-de-insinuacoes-e-de-ruido-nao-vai-funcionar": {
+        "category": "Política",
+        "timestamp": "2026-01-15T23:43:29.262638+00:00",
+        "title": "Cotrim avisa que \"campanha suja e feita de insinuações e de ruído\" não vai funcionar",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/seguro-toma-boa-nota-de-afirmacao-de-jorge-pinto-e-diz-que-todos-os-votos-vem-a-tempo": {
+        "category": "Política",
+        "timestamp": "2026-01-15T23:43:29.478490+00:00",
+        "title": "Seguro toma \"boa nota\" de afirmação de Jorge Pinto e diz que todos os votos vêm a tempo",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/ex-presidente-da-il-rui-rocha-garante-que-nunca-recebeu-qualquer-queixa-contra-cotrim": {
+        "category": "Política",
+        "timestamp": "2026-01-15T23:43:29.705972+00:00",
+        "title": "Ex-presidente da IL Rui Rocha garante que nunca recebeu qualquer queixa contra Cotrim",
         "confidence": "exact"
     }
 }
