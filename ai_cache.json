@@ -1393,7 +1393,7 @@
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-01-15T23:54:33.787240+00:00",
+        "timestamp": "2026-01-16T01:58:19.171071+00:00",
         "title": "Tudo sobre a captura relâmpago de Nicolás Maduro, na revista E",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -1468,6 +1468,24 @@
         "category": "Política",
         "timestamp": "2026-01-15T23:43:29.705972+00:00",
         "title": "Ex-presidente da IL Rui Rocha garante que nunca recebeu qualquer queixa contra Cotrim",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/andre-ventura-faz-43-anos-vestido-de-camuflado-e-pede-um-desejo": {
+        "category": "Política",
+        "timestamp": "2026-01-16T01:58:20.336098+00:00",
+        "title": "André Ventura faz 43 anos vestido de camuflado e pede um desejo",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/eleicoes-presidenciais-cmtv-prepara-noite-especial-com-megaoperacao": {
+        "category": "Política",
+        "timestamp": "2026-01-16T01:58:20.538317+00:00",
+        "title": "Eleições presidenciais: CMTV prepara noite especial com megaoperação",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/gouveia-e-melo-faz-pausa-na-campanha-para-almocar-com-o-amigo-mario-ferreira": {
+        "category": "Política",
+        "timestamp": "2026-01-16T01:58:20.751341+00:00",
+        "title": "Gouveia e Melo faz pausa na campanha para almoçar com o amigo Mário Ferreira",
         "confidence": "exact"
     }
 }
