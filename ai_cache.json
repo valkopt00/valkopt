@@ -1339,7 +1339,7 @@
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-01-16T09:00:34.872531+00:00",
+        "timestamp": "2026-01-16T09:41:44.721824+00:00",
         "title": "Tudo sobre a captura relâmpago de Nicolás Maduro, na revista E",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -1468,6 +1468,12 @@
         "category": "Política",
         "timestamp": "2026-01-16T09:00:36.003349+00:00",
         "title": "Domingo de Eleições Presidenciais com frio e sol por quase todo o País",
+        "confidence": "exact"
+    },
+    "https://www.petsandcompany.pt/pets/detalhe/suplementos-snacks-e-higiene-oral-o-que-esta-a-mudar-nas-escolhas-dos-tutores-nos-cuidados-com-os-patudos": {
+        "category": "Sociedade",
+        "timestamp": "2026-01-16T09:41:46.061126+00:00",
+        "title": "Suplementos, snacks e higiene oral. O que está a mudar nas escolhas dos tutores nos cuidados com os ...",
         "confidence": "exact"
     }
 }
