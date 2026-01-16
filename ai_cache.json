@@ -1303,7 +1303,7 @@
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-01-16T12:54:30.070590+00:00",
+        "timestamp": "2026-01-16T13:40:27.439136+00:00",
         "title": "Tudo sobre a captura relâmpago de Nicolás Maduro, na revista E",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
@@ -1498,6 +1498,48 @@
         "category": "Mundo",
         "timestamp": "2026-01-16T12:54:43.604292+00:00",
         "title": "Casa Pia violou regras da UE por fazer negócio com clube ligado ao Kremlin?",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/catarina-martins-diz-que-candidatos-sem-projeto-para-o-pais-nem-se-deviam-ter-candidatado": {
+        "category": "Política",
+        "timestamp": "2026-01-16T13:39:48.166228+00:00",
+        "title": "Catarina Martins diz que candidatos sem projeto para o País nem se deviam ter candidatado",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/gouveia-e-melo-adverte-para-vitoria-de-ventura-com-apoio-da-il-e-liberdade-de-voto-no-psd": {
+        "category": "Política",
+        "timestamp": "2026-01-16T13:39:48.388641+00:00",
+        "title": "Gouveia e Melo adverte para vitória de Ventura com apoio da IL e liberdade de voto no PSD",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/cotrim-figueiredo-assinala-que-e-inutil-votar-gouveia-e-melo-marques-mendes-e-ventura": {
+        "category": "Política",
+        "timestamp": "2026-01-16T13:39:48.593423+00:00",
+        "title": "Cotrim Figueiredo assinala que é inútil votar Gouveia e Melo, Marques Mendes e Ventura",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/na-reta-final-da-campanha-antonio-filipe-bebe-ginjinha-na-moita-e-diz-que-ha-boas-praticas-do-atual-presidente-a-manter": {
+        "category": "Política",
+        "timestamp": "2026-01-16T13:39:48.782188+00:00",
+        "title": "Na reta final da campanha, António Filipe bebe ginjinha na Moita e diz que há boas práticas do atual...",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/seguro-diz-que-a-vida-nao-e-dificil-para-o-presidente-e-dificil-para-os-portugueses": {
+        "category": "Política",
+        "timestamp": "2026-01-16T13:39:51.003915+00:00",
+        "title": "Seguro diz que \"a vida não é difícil para o Presidente, é difícil para os portugueses\"",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/mendes-diz-que-seguro-e-um-pouco-passivo-e-proximo-presidente-tem-de-ser-mais-ativo-e-interventivo": {
+        "category": "Política",
+        "timestamp": "2026-01-16T13:40:03.263589+00:00",
+        "title": "Mendes diz que Seguro é \"um pouco passivo\" e próximo Presidente tem de ser \"mais ativo e interventiv...",
+        "confidence": "exact"
+    },
+    "https://www.rtp.pt/noticias/liga-europa-conferencia/fiorentina-finalista-vencida-duas-vezes-defronta-jagiellonia-no-play-off_d1710708": {
+        "category": "Desporto",
+        "timestamp": "2026-01-16T13:40:16.241052+00:00",
+        "title": "Fiorentina, finalista vencida duas vezes, defronta Jagiellonia no play-off",
         "confidence": "exact"
     }
 }
