@@ -1,76 +1,10 @@
 {
-    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/jorge-pinto-nega-ter-apelado-ao-voto-em-seguro-e-fala-em-lapalissada": {
-        "category": "Política",
-        "timestamp": "2026-01-15T23:24:35.000897+00:00",
-        "title": "Jorge Pinto nega ter apelado ao voto em Seguro e fala em \"lapalissada\"",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-01-15-habitacao.-garantia-jovem-com-mais-426-milhoes-em-2026-c138fb31": {
-        "category": "Economia",
-        "timestamp": "2026-01-15T23:24:35.640514+00:00",
-        "title": "Habitação. Garantia Jovem com mais €426 milhões em 2026",
-        "confidence": "exact"
-    },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
         "timestamp": "2026-01-16T15:33:24.738972+00:00",
         "title": "Tudo sobre a captura relâmpago de Nicolás Maduro, na revista E",
         "raw_response": "Outras Notícias",
         "confidence": "failed"
-    },
-    "https://expresso.pt/semanario/ideias": {
-        "category": "Opinião",
-        "timestamp": "2026-01-15T23:24:38.360616+00:00",
-        "title": "IDEIAS: O IVA aos 40 anos",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/semanario/economia": {
-        "category": "Economia",
-        "timestamp": "2026-01-15T23:24:38.522016+00:00",
-        "title": "A 1ª página do Expresso Economia",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/semanario/primeiro": {
-        "category": "Nacional",
-        "timestamp": "2026-01-15T23:24:45.756434+00:00",
-        "title": "A primeira página do Expresso",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-01-15-fafe-ou-torreense-irao-ao-jamor-08bda1f6": {
-        "category": "Desporto",
-        "timestamp": "2026-01-15T23:24:57.869615+00:00",
-        "title": "Fafe ou Torreense irão ao Jamor",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-01-15-igrejas-unidas-para-ajudar-europa-em-crise-23a248a1": {
-        "category": "Nacional",
-        "timestamp": "2026-01-15T23:25:10.180297+00:00",
-        "title": "Igrejas unidas para ajudar Europa em crise",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-01-15-europeus-mandam-tropas-para-gronelandia-9cb13a2a": {
-        "category": "Mundo",
-        "timestamp": "2026-01-15T23:25:22.555963+00:00",
-        "title": "Europeus mandam tropas para Gronelândia",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-01-15-trabalho.-presidenciais-condicionam-agenda-d945ba8b": {
-        "category": "Política",
-        "timestamp": "2026-01-15T23:25:34.666767+00:00",
-        "title": "Trabalho. Presidenciais condicionam agenda",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/semanario/revista-e/-e/2026-01-15-da-africa-do-sul-a-timor-as-missoes-mais-especiais-do-navio-nrp-afonso-de-albuquerque-7f6932cb": {
-        "category": "Nacional",
-        "timestamp": "2026-01-15T23:25:46.722822+00:00",
-        "title": "Da África do Sul a Timor: as missões mais especiais do navio NRP Afonso de Albuquerque",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/semanario/primeiro/gente/2026-01-15-campanha-a-mesa-e-em-todo-o-lado-da357be3": {
-        "category": "Nacional",
-        "timestamp": "2026-01-15T23:25:58.882781+00:00",
-        "title": "Campanha à mesa e em todo o lado",
-        "confidence": "exact"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/cotrim-avisa-que-campanha-suja-e-feita-de-insinuacoes-e-de-ruido-nao-vai-funcionar": {
         "category": "Política",
@@ -1078,6 +1012,12 @@
         "category": "Desporto",
         "timestamp": "2026-01-20T22:26:42.945990+00:00",
         "title": "🔴 Sporting 2-1 PSG. Acompanhe as reações após o encontro",
+        "confidence": "exact"
+    },
+    "https://rr.pt/bola-branca/especial/sporting/2026/01/20/recorde-o-que-aconteceu-no-sporting-2-1-psg-da-champions/456073/?utm_medium=rss": {
+        "category": "Desporto",
+        "timestamp": "2026-01-20T23:26:06.000187+00:00",
+        "title": "Recorde o que aconteceu no Sporting 2-1 PSG da Champions",
         "confidence": "exact"
     }
 }
