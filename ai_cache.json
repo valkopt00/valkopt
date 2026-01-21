@@ -6,48 +6,6 @@
         "raw_response": "Outras Notícias",
         "confidence": "failed"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/catarina-martins-diz-que-candidatos-sem-projeto-para-o-pais-nem-se-deviam-ter-candidatado": {
-        "category": "Política",
-        "timestamp": "2026-01-16T13:39:48.166228+00:00",
-        "title": "Catarina Martins diz que candidatos sem projeto para o País nem se deviam ter candidatado",
-        "confidence": "exact"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/gouveia-e-melo-adverte-para-vitoria-de-ventura-com-apoio-da-il-e-liberdade-de-voto-no-psd": {
-        "category": "Política",
-        "timestamp": "2026-01-16T13:39:48.388641+00:00",
-        "title": "Gouveia e Melo adverte para vitória de Ventura com apoio da IL e liberdade de voto no PSD",
-        "confidence": "exact"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/cotrim-figueiredo-assinala-que-e-inutil-votar-gouveia-e-melo-marques-mendes-e-ventura": {
-        "category": "Política",
-        "timestamp": "2026-01-16T13:39:48.593423+00:00",
-        "title": "Cotrim Figueiredo assinala que é inútil votar Gouveia e Melo, Marques Mendes e Ventura",
-        "confidence": "exact"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/na-reta-final-da-campanha-antonio-filipe-bebe-ginjinha-na-moita-e-diz-que-ha-boas-praticas-do-atual-presidente-a-manter": {
-        "category": "Política",
-        "timestamp": "2026-01-16T13:39:48.782188+00:00",
-        "title": "Na reta final da campanha, António Filipe bebe ginjinha na Moita e diz que há boas práticas do atual...",
-        "confidence": "exact"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/seguro-diz-que-a-vida-nao-e-dificil-para-o-presidente-e-dificil-para-os-portugueses": {
-        "category": "Política",
-        "timestamp": "2026-01-16T13:39:51.003915+00:00",
-        "title": "Seguro diz que \"a vida não é difícil para o Presidente, é difícil para os portugueses\"",
-        "confidence": "exact"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/mendes-diz-que-seguro-e-um-pouco-passivo-e-proximo-presidente-tem-de-ser-mais-ativo-e-interventivo": {
-        "category": "Política",
-        "timestamp": "2026-01-16T13:40:03.263589+00:00",
-        "title": "Mendes diz que Seguro é \"um pouco passivo\" e próximo Presidente tem de ser \"mais ativo e interventiv...",
-        "confidence": "exact"
-    },
-    "https://www.rtp.pt/noticias/liga-europa-conferencia/fiorentina-finalista-vencida-duas-vezes-defronta-jagiellonia-no-play-off_d1710708": {
-        "category": "Desporto",
-        "timestamp": "2026-01-16T13:40:16.241052+00:00",
-        "title": "Fiorentina, finalista vencida duas vezes, defronta Jagiellonia no play-off",
-        "confidence": "exact"
-    },
     "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/seguro-apela-ao-voto-util-de-moderados-e-progressistas-para-evitar-desperdicio": {
         "category": "Política",
         "timestamp": "2026-01-16T14:58:22.186218+00:00",
@@ -922,6 +880,24 @@
         "category": "Nacional",
         "timestamp": "2026-01-21T12:56:31.071504+00:00",
         "title": "Falta apurar quatro consulados. Veja todos os resultados das presidenciais",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/curtas/2026-01-21-video-marcelo-nao-ha-portugueses-puros-ha-portugueses-diversos-na-sua-riqueza-cultural-cbb04b69": {
+        "category": "Cultura",
+        "timestamp": "2026-01-21T13:50:40.869117+00:00",
+        "title": "Marcelo: “Não há portugueses puros, há portugueses diversos, na sua riqueza cultural”",
+        "confidence": "exact"
+    },
+    "https://rr.pt/artigo/negocios-com-impacto/2026/01/21/alugar-vestidos-ou-roupa-de-ski-rent-a-char-promete-conveniencia-e-sustentabilidade/456169/?utm_medium=rss": {
+        "category": "Lifestyle",
+        "timestamp": "2026-01-21T13:50:44.892119+00:00",
+        "title": "Alugar vestidos ou roupa de ski. Rent-a-Char promete conveniência e sustentabilidade",
+        "confidence": "exact"
+    },
+    "https://rr.pt/bola-branca/especial/modalidades/2026/01/21/andavamos-a-dizer-que-a-dinamarca-um-dia-tinha-de-perder-areia-o-triunfo-historico-e-aquela-rosca/456148/?utm_medium=rss": {
+        "category": "Desporto",
+        "timestamp": "2026-01-21T13:50:45.063149+00:00",
+        "title": "\"Andávamos a dizer que a Dinamarca um dia tinha de perder\": Areia, o triunfo histórico e aquela rosc...",
         "confidence": "exact"
     }
 }
