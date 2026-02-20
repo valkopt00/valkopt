@@ -1,10 +1,4 @@
 {
-    "https://www.rtp.pt/noticias/lusa/caudal-do-rio-mondego-com-descida-significativa-em-montemor-o-velho_n1719288": {
-        "category": "Sociedade",
-        "timestamp": "2026-02-15T13:50:04.773529+00:00",
-        "title": "Caudal do rio Mondego com descida significativa em Montemor-o-Velho",
-        "confidence": "exact"
-    },
     "https://www.cmjornal.pt/mais-cm/especiais/eleicoes-presidenciais-2026/detalhe/eleitores-foram-a-urnas-em-alcacer-do-sal-por-dever-civico-apesar-de-o-presidente-ja-estar-eleito": {
         "category": "Política",
         "timestamp": "2026-02-15T15:58:58.395527+00:00",
@@ -591,6 +585,12 @@
         "category": "Sociedade",
         "timestamp": "2026-02-20T13:05:04.757168+00:00",
         "title": "Incêndio em apartamento de Cascais faz sete feridos",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/tempestades/2026-02-20-sul-do-pais-tem-agua-para-dois-a-tres-anos-diz-apa-9dcc5562": {
+        "category": "Nacional",
+        "timestamp": "2026-02-20T14:05:52.919061+00:00",
+        "title": "Sul do país tem água para dois a três anos, diz APA",
         "confidence": "exact"
     }
 }
