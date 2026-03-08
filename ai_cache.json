@@ -1,22 +1,4 @@
 {
-    "https://www.rtp.pt/noticias/lusa/mais-de-30-voos-cancelados-no-aeroporto-da-madeira_n1723009": {
-        "category": "Sociedade",
-        "timestamp": "2026-03-03T07:30:46.311837+00:00",
-        "title": "Mais de 30 voos cancelados no Aeroporto da Madeira",
-        "confidence": "exact"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/israel-anuncia-operacao-militar-no-sul-do-libano": {
-        "category": "Mundo",
-        "timestamp": "2026-03-03T07:30:49.673676+00:00",
-        "title": "Israel anuncia operação militar no sul do Líbano",
-        "confidence": "exact"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/trump-avisa-que-ataque-do-irao-a-embaixada-em-riade-tera-resposta": {
-        "category": "Mundo",
-        "timestamp": "2026-03-03T07:30:49.999083+00:00",
-        "title": "Trump avisa que ataque do Irão a embaixada em Riade terá resposta",
-        "confidence": "exact"
-    },
     "https://www.rtp.pt/noticias/taca-de-portugal/taca-portugal-sporting-e-fc-porto-no-primeiro-round-pela-final-da-competicao_d1723026": {
         "category": "Desporto",
         "timestamp": "2026-03-03T08:22:07.792411+00:00",
@@ -1125,6 +1107,12 @@
         "category": "Nacional",
         "timestamp": "2026-03-08T07:01:31.272458+00:00",
         "title": "Portugueses ciganos. Quatro vidas que mostram que o futuro pode ser diferente",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/pelo-menos-quatro-mortos-em-ataque-de-israel-contra-hotel-em-beirute": {
+        "category": "Mundo",
+        "timestamp": "2026-03-08T07:44:52.750592+00:00",
+        "title": "Pelo menos quatro mortos em ataque de Israel contra hotel em Beirute",
         "confidence": "exact"
     }
 }
