@@ -1,16 +1,4 @@
 {
-    "https://www.cmjornal.pt/mais-cm/especiais/europa-viva/detalhe/comissaria-portuguesa-quer-revolucionar-pensoes-dos-portugueses-e-dos-europeus": {
-        "category": "Política",
-        "timestamp": "2026-04-04T13:16:18.658248+00:00",
-        "title": "Comissária portuguesa quer revolucionar pensões dos portugueses e dos europeus",
-        "confidence": "exact"
-    },
-    "https://www.petsandcompany.pt/pets/detalhe/um-verdadeiro-milagre-cadela-molly-sobrevive-a-queda-de-55-metros-e-e-resgatada-na-nova-zelandia-veja-o-video": {
-        "category": "Multimédia",
-        "timestamp": "2026-04-04T13:16:18.840300+00:00",
-        "title": "Um verdadeiro milagre! Cadela Molly sobrevive a queda de 55 metros e é resgatada na Nova Zelândia. V...",
-        "confidence": "exact"
-    },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/portugal-e-outros-quatro-paises-querem-imposto-sobre-lucros-extraordinarios-de-energeticas": {
         "category": "Política",
         "timestamp": "2026-04-04T14:52:47.081505+00:00",
@@ -637,7 +625,7 @@
     },
     "https://expresso.pt/emprego/2026-04-09-prova-desenvolve-competencias-de-estrategia-e-gestao-6fa73a08": {
         "category": null,
-        "timestamp": "2026-04-09T12:04:42.758584+00:00",
+        "timestamp": "2026-04-09T14:14:46.168005+00:00",
         "title": "Prova desenvolve competências de estratégia e gestão",
         "raw_response": "Educação",
         "confidence": "failed"
@@ -670,6 +658,18 @@
         "category": "Mundo",
         "timestamp": "2026-04-09T12:04:43.580782+00:00",
         "title": "Comissários europeus reúnem-se segunda-feira para avaliar situação no Médio Oriente e impacto na UE",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/iranianos-saem-a-rua-para-assinalar-40-dia-de-luto-pela-morte-de-ali-khamenei": {
+        "category": "Mundo",
+        "timestamp": "2026-04-09T14:14:46.377250+00:00",
+        "title": "Iranianos saem à rua para assinalar 40.º dia de luto pela morte de Ali Khamenei",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/defesa-nacional/2026-04-09-seguro-promete-atencao-permanente-aos-antigos-combatentes-e-diz-que-nao-aceitara-que-sejam-um-tema-de-arquivo-4ee26f8e": {
+        "category": "Política",
+        "timestamp": "2026-04-09T14:14:46.947268+00:00",
+        "title": "Seguro promete atenção permanente aos antigos combatentes e diz que não aceitará que sejam “um tema ...",
         "confidence": "exact"
     }
 }
