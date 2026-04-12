@@ -1,6 +1,476 @@
 {
     "Últimas": [
         {
+            "title": "Bruno Zhu do outro lado do espelho",
+            "description": "A exposição “Belas Artes” é, antes de mais, uma pergunta em aberto: quem tem o poder de nomear as coisas? E como encarar uma proposta que não tem...",
+            "image": "https://jornaleconomico.sapo.pt/wp-content/uploads/2026/04/sala-das-cores-©-Pedro-Pina-1024x576.jpg",
+            "source": "Jornal Económico",
+            "pubDate": "12-04-2026 17:35",
+            "category": "Últimas",
+            "link": "https://jornaleconomico.sapo.pt/noticias/bruno-zhu-do-outro-lado-do-espelho/",
+            "isExclusive": false
+        },
+        {
+            "title": "Gabriel Albuquerque sagra-se vice-campeão europeu de trampolim individual",
+            "description": "O ginasta português Gabriel Albuquerque conquistou hoje, em Portimão, a medalha de prata em trampolim individual masculino sénior no 30.º Campeonato...",
+            "image": "https://cdn-images.rtp.pt/icm/noticias/images/34/34288248c01c1b26482f1891b0df1ece?w=350&amp;q=50&amp;rect=0,242,2048,1123&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 17:34",
+            "category": "Últimas",
+            "link": "https://www.rtp.pt/noticias/outras-modalidades/gabriel-albuquerque-sagra-se-vice-campeao-europeu-de-trampolim-individual_d1733384",
+            "isExclusive": false
+        },
+        {
+            "title": "Entra em vigor o tratado de amizade e cooperação Portugal-França: em que consiste?",
+            "description": "O Tratado do Porto foi assinado durante a visita oficial de Emmanuel Macron a Portugal, em fevereiro do ano passado, e prevê a cooperação em várias...",
+            "image": "https://images.euronews.com/articles/stories/09/71/88/90/696x392_cmsv2_803a9868-5997-5f94-9ef7-1c987be0fc2f-9718890.jpg",
+            "source": "Euronews",
+            "pubDate": "12-04-2026 17:33",
+            "category": "Últimas",
+            "link": "http://pt.euronews.com/2026/04/12/entra-em-vigor-o-tratado-de-amizade-e-cooperacao-portugal-franca-em-que-consiste",
+            "isExclusive": false
+        },
+        {
+            "title": "I Liga. SL Benfica - CD Nacional",
+            "description": "O Benfica recebe o Nacional este domingo, no Estádio da Luz, em Lisboa, a partir das 18:00, num encontro com arbitragem de Fábio Veríssimo, da...",
+            "image": "https://cdn-images.rtp.pt/icm/noticias/images/92/92b2059223c410007ced43f394baf7cb?w=350&amp;q=50&amp;rect=0,110,2937,1610&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 17:31",
+            "category": "Últimas",
+            "link": "https://www.rtp.pt/noticias/desporto/i-liga-sl-benfica-cd-nacional_e1733358",
+            "isExclusive": false
+        },
+        {
+            "title": "PSP nega agressões mas investiga denúncia de bastonadas a menor na Amadora",
+            "description": "Mãe de rapaz usa Facebook para acusar PSP de violência. Polícia interveio devido a furto de bicicleta em Lisboa.",
+            "image": "https://cdn.cmjornal.pt/images/2022-03/img_932x621uu2022-03-26-18-36-39-1134374.jpg",
+            "source": "Correio da Manhã",
+            "pubDate": "12-04-2026 17:30",
+            "category": "Últimas",
+            "link": "https://www.cmjornal.pt/portugal/detalhe/psp-nega-agressoes-mas-investiga-denuncia-de-bastonadas-a-menor-na-amadora",
+            "isExclusive": false
+        },
+        {
+            "title": "I Liga. SC Braga - FC Arouca",
+            "description": "Sporting de Braga, quarto classificado, com 49 pontos (e menos um jogo), e Arouca, 10.º, com 32, defrontam-se este domingo, no Estádio Municipal de...",
+            "image": "https://cdn-images.rtp.pt/icm/noticias/images/24/24416ba4ce4417d4e2652d356336ff82?w=350&amp;q=50&amp;rect=0,0,626,343&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 17:30",
+            "category": "Últimas",
+            "link": "https://www.rtp.pt/noticias/desporto/i-liga-sc-braga-fc-arouca_e1733356",
+            "isExclusive": false
+        },
+        {
+            "title": "5 coisas que o Linux consegue fazer e o Windows 11 não",
+            "description": "Durante décadas, o Windows manteve-se como o sistema operativo predominante em computadores pessoais e portáteis. Contudo, essa liderança não implica...",
+            "image": "https://pplware.sapo.pt/wp-content/uploads/2026/04/linux_windows.webp",
+            "source": "Pplware",
+            "pubDate": "12-04-2026 17:30",
+            "category": "Últimas",
+            "link": "https://pplware.sapo.pt/linux/5-coisas-que-o-linux-consegue-fazer-e-o-windows-11-nao/",
+            "isExclusive": false
+        },
+        {
+            "title": "E tudo o vento... marcou. Alverca vence e afunda Casa Pia na tabela",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69dbc53c4af72.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoxMDgwLCJjcm9wSGVpZ2h0Ijo2MDgsImNyb3BYIjoxMTYsImNyb3BZIjo0NTZ9LCJwb3J0cmFpdCI6eyJjcm9wV2lkdGgiOjQ4OCwiY3JvcEhlaWdodCI6ODY4LCJjcm9wWCI6MjM4LCJjcm9wWSI6NDUxfX0=",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:29",
+            "category": "Últimas",
+            "link": "https://www.noticiasaominuto.com/desporto/2971290/e-tudo-o-vento-marcou-alverca-vence-e-afunda-casa-pia-na-tabela#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "O Leixões x UD Oliveirense foi assim...",
+            "description": "O árbitro apita para o final da partida Acompanhe aqui o Leixões x UD Oliveirense em direto e ao minuto, com todas as estatísticas e as curiosidades...",
+            "image": "https://www.zerozero.pt/img/noticias/645/imgS620I1092645T20260412143433.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 17:28",
+            "category": "Últimas",
+            "link": "https://www.zerozero.pt/noticias/o-leixoes-x-ud-oliveirense-foi-assim-/1092645",
+            "isExclusive": false
+        },
+        {
+            "title": "O FC Alverca x Casa Pia AC foi assim...",
+            "description": "O árbitro apita para o final da partida Acompanhe aqui o FC Alverca x Casa Pia AC em direto e ao minuto, com todas as estatísticas e as curiosidades...",
+            "image": "https://www.zerozero.pt/img/noticias/641/imgS620I1092641T20260412142801.png",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 17:28",
+            "category": "Últimas",
+            "link": "https://www.zerozero.pt/noticias/o-fc-alverca-x-casa-pia-ac-foi-assim-/1092641",
+            "isExclusive": false
+        },
+        {
+            "title": "Trump diz que Reino Unido ajudará na desminagem do Estreito de Ormuz",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69dbc804155b5.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTA2LCJjcm9wSGVpZ2h0IjoxNDEwLCJjcm9wWCI6NTQsImNyb3BZIjo1NH0sInBvcnRyYWl0Ijp7ImNyb3BXaWR0aCI6OTYwLCJjcm9wSGVpZ2h0IjoxNzA2LCJjcm9wWCI6OTA1LCJjcm9wWSI6MH19",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:28",
+            "category": "Últimas",
+            "link": "https://www.noticiasaominuto.com/mundo/2971289/trump-diz-que-reino-unido-ajudara-na-desminagem-do-estreito-de-ormuz#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Sp. Braga-Arouca, em direto",
+            "description": "Siga todas as incidências do encontro da 29.ª jornada da Liga Betclic",
+            "image": "https://cdn.record.pt/images/2025-12/img_920x518uu2025-12-27-21-05-25-2411499.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:22",
+            "category": "Últimas",
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/detalhe/20260412-142617-sp-braga-arouca-em-direto",
+            "isExclusive": false
+        },
+        {
+            "title": "O golo tardio (e polémico) que deixou o Marítimo a um ponto da subida",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69dbc6c529b32.webp",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:22",
+            "category": "Últimas",
+            "link": "https://www.noticiasaominuto.com/desporto/2971277/o-golo-tardio-e-polemico-que-deixou-o-maritimo-a-um-ponto-da-subida#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Revolução no onze do Sp. Braga e com novidades até no banco",
+            "description": "Carlos Vicens muda 7 jogadores em relação ao jogo do Betis, três deles de forma forçada",
+            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-08-21-26-11-2431877.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:21",
+            "category": "Últimas",
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sp--braga/detalhe/revolucao-no-onze-do-sp-braga-e-com-novidades-ate-no-banco",
+            "isExclusive": false
+        },
+        {
+            "title": "Diogo Narciso chega isolado para vencer a Clássica de Viana do Castelo",
+            "description": "Ciclista da Credibom-LA Alúminios-Marcos Car ganha após integrar a fuga",
+            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-12-17-16-39-2432604.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:20",
+            "category": "Últimas",
+            "link": "https://www.record.pt/modalidades/ciclismo/detalhe/diogo-narciso-chega-isolado-para-vencer-a-classica-de-viana-do-castelo",
+            "isExclusive": false
+        },
+        {
+            "title": "Lamborghini Super Trofeo, Paul Ricard: Miguel Cristóvão estreia-se com dois quartos lugares na Pro-Am",
+            "description": "Miguel Cristóvão fez uma entrada sólida no Lamborghini Super Trofeo Europe, na ronda inaugural disputada em Paul Ricard. Ao volante do Lamborghini...",
+            "image": "https://images.autosport.pt/2026/04/miguel-cristovao-1.jpg",
+            "source": "Autosport",
+            "pubDate": "12-04-2026 17:20",
+            "category": "Últimas",
+            "link": "https://www.autosport.pt/velocidade/lamborghini-super-trofeo-paul-ricard-miguel-cristovao-estreia-se-com-dois-quartos-lugares-na-pro-am/?utm_source=rss&utm_medium=rss&utm_campaign=lamborghini-super-trofeo-paul-ricard-miguel-cristovao-estreia-se-com-dois-quartos-lugares-na-pro-am",
+            "isExclusive": false
+        },
+        {
+            "title": "Trump ameaça impor tarifas de 50% à China caso preste apoio militar a Teerão",
+            "description": "Trump deverá deslocar-se a Pequim de 14 a 15 de maio, onde se reunirá com o seu homólogo chinês, Xi Jinping.",
+            "image": "https://cdn.jornaldenegocios.pt/images/2026-04/img_900x560uu2026-04-08-08-50-52-521686.jpg",
+            "source": "Jornal de Negócios",
+            "pubDate": "12-04-2026 17:20",
+            "category": "Últimas",
+            "link": "https://www.jornaldenegocios.pt/economia/mundo/detalhe/trump-ameaca-impor-tarifas-de-50-a-china-caso-preste-apoio-militar-a-teerao",
+            "isExclusive": true
+        },
+        {
+            "title": "Erro de Neuville entrega vitória no Rali da Croácia a Katsuta",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/46915069.webp",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:20",
+            "category": "Últimas",
+            "link": "https://www.noticiasaominuto.com/auto/2971284/erro-de-neuville-entrega-vitoria-no-rali-da-croacia-a-katsuta#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Guerra faz disparar reservas nos hotéis: no Algarve aumentos atingem 30%",
+            "description": "À semelhança de Espanha e Grécia, Portugal está a beneficiar do desvio de turistas que optam por destinos mais seguros devido à guerra no Irão....",
+            "image": "https://images.impresa.pt/expresso/2026-04-08-lb-turistas-lx-01-06-17-0030_t.jpg-15eefcd9/1.91x1/mw-1200?outputFormat=jpeg",
+            "source": "Expresso",
+            "pubDate": "12-04-2026 17:19",
+            "category": "Últimas",
+            "link": "https://expresso.pt/economia/economia_turismo/2026-04-12-guerra-faz-disparar-reservas-nos-hoteis-no-algarve-aumentos-atingem-30-5e6dba0c",
+            "isExclusive": true
+        },
+        {
+            "title": "SC Braga x FC Arouca ao minuto",
+            "description": "Onze do FC Arouca: Jakub Vinarcik, Tiago Esgaio, Javi Sánchez, Bas Kuipers, Jose Fontán, Pablo Gozálbez, Lee Hyunju, Taichi Fukui, Espen van Ee,...",
+            "image": "https://www.zerozero.pt/img/noticias/730/imgS620I1092730T20260412171816.png",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 17:18",
+            "category": "Últimas",
+            "link": "https://www.zerozero.pt/noticias/sc-braga-x-fc-arouca-ao-minuto/1092730",
+            "isExclusive": false
+        },
+        {
+            "title": "Joana Pontes 17.ª na maratona dos mundial de marcha atlética no Brasil",
+            "description": "A portuguesa Joana Pontes, de 26 anos, terminou hoje no 17.º lugar na maratona feminina do Mundial de Marcha Atlética de seleções, em Brasília, numa...",
+            "image": "https://cdn-images.rtp.pt/noticias/images/rtp-deporto_default.png?w=350&amp;q=50&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 17:16",
+            "category": "Últimas",
+            "link": "https://www.rtp.pt/noticias/outras-modalidades/joana-pontes-17a-na-maratona-dos-mundial-de-marcha-atletica-no-brasil_d1733380",
+            "isExclusive": false
+        },
+        {
+            "title": "Erro de Neuville na última especial entrega vitória no Rali da Croácia a Katsuta",
+            "description": "O piloto japonês Takamoto Katsuta (Toyota Yaris) venceu hoje o Rali da Croácia, quarta ronda da temporada, depois de o belga Thierry Neuville...",
+            "image": "https://cdn-images.rtp.pt/icm/noticias/images/ff/ffbfb0faa6d9cfb0103efc6ad14242fd?w=350&amp;q=50&amp;rect=0,47,1024,561&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 17:16",
+            "category": "Últimas",
+            "link": "https://www.rtp.pt/noticias/motores/erro-de-neuville-na-ultima-especial-entrega-vitoria-no-rali-da-croacia-a-katsuta_d1733379",
+            "isExclusive": false
+        },
+        {
+            "title": "Sporting supera susto e ultrapassa FC Porto rumo ao segundo lugar",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69dbc1e007190.webp",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:16",
+            "category": "Últimas",
+            "link": "https://www.noticiasaominuto.com/desporto/2971281/sporting-supera-susto-e-ultrapassa-fc-porto-rumo-ao-segundo-lugar#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "17h- Donald Trump ameaça China caso preste apoio militar a Teerão",
+            "description": "",
+            "image": "https://cdn-images.rtp.pt/noticias/images/antena1_default.png?w=350&amp;q=50&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 17:15",
+            "category": "Últimas",
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/17h-donald-trump-ameaca-china-caso-preste-apoio-militar-a-teerao_a1_1733378",
+            "isExclusive": false
+        },
+        {
+            "title": "Chuvas provocam caos e destruição em Angola, Benguela é a provincias mais atingida",
+            "description": "Chuvas torrenciais voltaram a atingir Angola no fim de semana, provocando inundações e duas vítimas mortais já confirmadas, com destaque para a...",
+            "image": "https://cdn-images.rtp.pt/noticias/images/default_rtpnoticias.png?w=350&amp;q=50&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 17:13",
+            "category": "Últimas",
+            "link": "https://www.rtp.pt/noticias/mundo/chuvas-provocam-caos-e-destruicao-em-angola-benguela-e-a-provincias-mais-atingida_n1733376",
+            "isExclusive": false
+        },
+        {
+            "title": "Presidente da República felicita Vasco Peso pelo título europeu de tumbling",
+            "description": "Vasco Peso passou à final ao qualificar-se com o primeiro lugar, com um total de 56.600 pontos, superando o atual campeão mundial, o azeri Mikhail...",
+            "image": "https://cdn.cmjornal.pt/images/2026-04/img_932x621uu2026-04-12-17-11-59-2278093.jpg",
+            "source": "Correio da Manhã",
+            "pubDate": "12-04-2026 17:12",
+            "category": "Últimas",
+            "link": "https://www.cmjornal.pt/desporto/modalidades/detalhe/presidente-da-republica-felicita-vasco-peso-pelo-titulo-europeu-de-tumbling",
+            "isExclusive": false
+        },
+        {
+            "title": "Escândalo. HC Turquel denuncia \"agressões injustificáveis\" do CD Póvoa",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69dbc3b01e5dc.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoxMDgwLCJjcm9wSGVpZ2h0Ijo2MDgsImNyb3BYIjowLCJjcm9wWSI6MTI0fSwicG9ydHJhaXQiOnsiY3JvcFdpZHRoIjo0OTcsImNyb3BIZWlnaHQiOjg4NCwiY3JvcFgiOjMwOSwiY3JvcFkiOjIwfX0=",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:10",
+            "category": "Últimas",
+            "link": "https://www.noticiasaominuto.com/desporto/2971286/escandalo-hc-turquel-denuncia-agressoes-injustificaveis-do-cd-povoa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Arouca joga em Braga sem guarda-redes suplente",
+            "description": "Arruabarrena cumpre castigo, João Valido lesionou-se e será Vinarcik a defender a baliza na Pedreira",
+            "image": "https://cdn.record.pt/images/2025-05/img_920x518uu2025-05-13-00-41-05-2362303.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:08",
+            "category": "Últimas",
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/arouca/detalhe/arouca-joga-em-braga-sem-guarda-redes-suplente",
+            "isExclusive": false
+        },
+        {
+            "title": "Federico Coletta sela vitória do Benfica diante do Leixões",
+            "description": "Águias resolvem antes do intervalo e sobem ao 4.º posto, embora à condição",
+            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-12-17-05-55-2432598.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:08",
+            "category": "Últimas",
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-revelacao/detalhe/federico-coletta-sela-vitoria-do-benfica-diante-do-leixoes",
+            "isExclusive": false
+        },
+        {
+            "title": "Irão: Guarda Revolucionária ameaça inimigos com “turbilhão mortal” no Estreito de Ormuz",
+            "description": "“Todo o tráfego […] está completamente sob o controlo das forças armadas”, garantiu o comando naval da Guarda Revolucionária, na mesma mensagem.",
+            "image": "https://jornaleconomico.sapo.pt/wp-content/uploads/2026/03/estreito-de-ormuz-1-1024x736.jpg",
+            "source": "Jornal Económico",
+            "pubDate": "12-04-2026 17:08",
+            "category": "Últimas",
+            "link": "https://jornaleconomico.sapo.pt/noticias/irao-guarda-revolucionaria-ameaca-inimigos-com-turbilhao-mortal-no-estreito-de-ormuz/",
+            "isExclusive": false
+        },
+        {
+            "title": "Guarda Revolucionária ameaça inimigos com \"turbilhão mortal\" em Ormuz",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69bf9c5d43f41.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoxODEwLCJjcm9wSGVpZ2h0IjoxMDE4LCJjcm9wWCI6LTEsImNyb3BZIjo2fX0=",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:04",
+            "category": "Últimas",
+            "link": "https://www.noticiasaominuto.com/mundo/2971280/guarda-revolucionaria-ameaca-inimigos-com-turbilhao-mortal-em-ormuz#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Nem Bolt corria tão rápido aos 18 anos: Gout Gout voa para um incrível recorde mundial Sub-20 nos 200m",
+            "description": "Australiano baixou dos 20 segundos e fixou marca incrível para um 'miúdo'",
+            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-12-16-57-10-2432595.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:02",
+            "category": "Últimas",
+            "link": "https://www.record.pt/multimedia/videos/detalhe/nem-bolt-corria-tao-rapido-aos-18-anos-gout-gout-voa-para-um-incrivel-recorde-mundial-sub-20-nos-200m",
+            "isExclusive": false
+        },
+        {
+            "title": "Chermiti bisa na chuva de golos do Rangers",
+            "description": "Triunfo por 6-3 diante do Falkirk aplica pressão sobre o líder Hearts",
+            "image": "https://cdn.record.pt/images/2026-03/img_920x518uu2026-03-01-13-26-03-2424256.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:02",
+            "category": "Últimas",
+            "link": "https://www.record.pt/internacional/detalhe/chermiti-bisa-na-chuva-de-golos-do-rangers",
+            "isExclusive": false
+        },
+        {
+            "title": "Marítimo-Portimonense, 1-0: madeirenses vencem com golo ao cair do pano e estão muito perto da subida",
+            "description": "Simo Bouzaidi fez de penálti o único golo do jogo aos 90'+11",
+            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-12-17-01-22-2432596.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:02",
+            "category": "Últimas",
+            "link": "https://www.record.pt/futebol/detalhe/maritimo-portimonense-0-1-madeirenses-vencem-com-golo-ao-cair-do-pano-e-estao-muito-perto-da-subida",
+            "isExclusive": false
+        },
+        {
+            "title": "ELMS, Barcelona: Algarve Pro Racing e José Cautela vencem na jornada inaugural",
+            "description": "A abertura da temporada 2026 da European Le Mans Series em Barcelona não podia ter tido um início mais dramático. Mas a seguir ao drama, veio a...",
+            "image": null,
+            "source": "Autosport",
+            "pubDate": "12-04-2026 17:02",
+            "category": "Últimas",
+            "link": "https://www.autosport.pt/velocidade/elms/elms-barcelona-algarve-pro-racing-e-jose-cautela-vencem-na-jornada-inaugural/?utm_source=rss&utm_medium=rss&utm_campaign=elms-barcelona-algarve-pro-racing-e-jose-cautela-vencem-na-jornada-inaugural",
+            "isExclusive": false
+        },
+        {
+            "title": "Participação nas eleições hungaras atinge 66% pelas 15h00",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/46917001.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYyLCJjcm9wSGVpZ2h0IjoxNDQxLCJjcm9wWCI6LTEsImNyb3BZIjo1OH0sInBvcnRyYWl0Ijp7ImNyb3BXaWR0aCI6OTYwLCJjcm9wSGVpZ2h0IjoxNzA3LCJjcm9wWCI6MTAyNCwiY3JvcFkiOjB9fQ==",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:02",
+            "category": "Últimas",
+            "link": "https://www.noticiasaominuto.com/mundo/2971282/participacao-nas-eleicoes-hungaras-atinge-66-pelas-15h00#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "\"Não me importo se o meu namorado se envolver com outras, até gosto\"",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69d79ddcb6723.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYwLCJjcm9wSGVpZ2h0IjoxNDQwLCJjcm9wWCI6MCwiY3JvcFkiOjIyMX0sInBvcnRyYWl0Ijp7ImNyb3BXaWR0aCI6MjE2MCwiY3JvcEhlaWdodCI6Mzg0MCwiY3JvcFgiOjE3MSwiY3JvcFkiOjB9fQ==",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:01",
+            "category": "Últimas",
+            "link": "https://www.noticiasaominuto.com/fama/2969766/nao-me-importo-se-o-meu-namorado-se-envolver-com-outras-ate-gosto#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "“A Arte da Guerra”: Médio Oriente: “A União Europeia foi de uma cobardia imensa”",
+            "description": "Entre os assuntos que merecem palavras duras e os assuntos que deviam merecer palavras duras, a União Europeia, igual a si própria, portou-se com a...",
+            "image": "https://jornaleconomico.sapo.pt/wp-content/uploads/2026/02/antonio-costa-ursula-von-der-leyen.png",
+            "source": "Jornal Económico",
+            "pubDate": "12-04-2026 17:00",
+            "category": "Últimas",
+            "link": "https://jornaleconomico.sapo.pt/noticias/a-arte-da-guerra-medio-oriente-a-uniao-europeia-foi-de-uma-cobardia-imensa/",
+            "isExclusive": false
+        },
+        {
+            "title": "Jogo cai “40 milhÃµes” com guerra no IrÃ£o",
+            "description": "Depois de, em 2025, os portugueses terem apostado o segundo maior valor de sempre nos Jogos da Santa Casa, em 2026, com o rendimento disponível...",
+            "image": "https://cdn.jornaldenegocios.pt/images/2026-04/img_900x560uu2026-04-10-17-11-59-521874.jpg",
+            "source": "Jornal de Negócios",
+            "pubDate": "12-04-2026 17:00",
+            "category": "Últimas",
+            "link": "https://www.jornaldenegocios.pt/empresas/detalhe/jogo-cai-40-milhoes-com-guerra-no-irao",
+            "isExclusive": true
+        },
+        {
+            "title": "Notícias do dia | 12 de abril 2026 - Noite",
+            "description": "Fique a par das notícias mais importantes de toda a Europa e não só, a 12 de abril de 2026 - últimas notícias, notícias de última hora, mundo,...",
+            "image": "https://images.euronews.com/articles/stories/09/71/92/22/696x392_cmsv2_5b247a2d-0e1d-506d-9381-b52fe7e3506f-9719222.jpg",
+            "source": "Euronews",
+            "pubDate": "12-04-2026 17:00",
+            "category": "Últimas",
+            "link": "http://pt.euronews.com/video/2026/04/12/noticias-do-dia-12-de-abril-2026-noite",
+            "isExclusive": false
+        },
+        {
+            "title": "Vida de mãe com Mom Life Simulator",
+            "description": "Há mães cuja vida daria um autêntico filme… ou melhor um verdadeiro jogo de computador. Bem, parece que os RioverseGames pensaram nisso mesmo e é...",
+            "image": "https://pplware.sapo.pt/wp-content/uploads/2026/04/MomLife_4.jpg",
+            "source": "Pplware",
+            "pubDate": "12-04-2026 17:00",
+            "category": "Últimas",
+            "link": "https://pplware.sapo.pt/jogos/vida-de-mae-com-mom-life-simulator/",
+            "isExclusive": false
+        },
+        {
+            "title": "Truque caseiro para remover manchas e odores de chichi (eficazmente)",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69d52b1d486db.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYwLCJjcm9wSGVpZ2h0IjoxNDQwLCJjcm9wWCI6MSwiY3JvcFkiOjB9fQ==",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:00",
+            "category": "Últimas",
+            "link": "https://www.noticiasaominuto.com/lifestyle/2968563/truque-caseiro-para-remover-manchas-e-odores-de-chichi-eficazmente#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Benfica-Nacional. Mourinho faz três alterações na equipa",
+            "description": "Depois do empate em Rio Maior frente ao Casa Pia, o nono no Campeonato, Benfica tenta voltar aos triunfos na receção ao Nacional para não descolar...",
+            "image": "https://bordalo.observador.pt/v2/rs:fill:900/c:1334:1334:nowe:333:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2026/03/07171936/46616239.jpg",
+            "source": "Observador",
+            "pubDate": "12-04-2026 17:00",
+            "category": "Últimas",
+            "link": "https://observador.pt/liveblogs/benfica-nacional-aguias-tentam-regressar-aos-triunfos-na-liga-apos-deslize-com-casa-pia/",
+            "isExclusive": false
+        },
+        {
+            "title": "Nottingham Forest empata com Aston Villa antes de receber o FC Porto",
+            "description": "Equipa treinada por Vítor Pereira, recebe o FC Porto na quinta-feira, em partida da segunda mão dos quartos de final da Liga Europa de 2025/26.",
+            "image": "https://cdn.cmjornal.pt/images/2026-04/img_932x621uu2026-04-12-16-57-30-2278091.jpg",
+            "source": "Correio da Manhã",
+            "pubDate": "12-04-2026 16:58",
+            "category": "Últimas",
+            "link": "https://www.cmjornal.pt/desporto/futebol/detalhe/nottingham-forest-empata-com-aston-villa-antes-de-receber-o-fc-porto",
+            "isExclusive": false
+        },
+        {
+            "title": "Ponta Delgada com projeto gratuito que proporciona cuidados de bem-estar à população",
+            "description": "Projeto está articulado com o Gabinete Municipal de Saúde e Bem-Estar, que assegura atendimento presencial, mediante agendamento.",
+            "image": "https://cdn.cmjornal.pt/images/2014-10/img_932x621uu2014-10-11-14-06-00-410515.jpg",
+            "source": "Correio da Manhã",
+            "pubDate": "12-04-2026 16:55",
+            "category": "Últimas",
+            "link": "https://www.cmjornal.pt/sociedade/detalhe/ponta-delgada-com-projeto-gratuito-que-proporciona-cuidados-de-bem-estar-a-populacao",
+            "isExclusive": false
+        },
+        {
+            "title": "Adesão às urnas bate recorde na Hungria: a quatro horas do fecho, 66% dos eleitores já tinha votado",
+            "description": "Urnas ficam abertas até às 18:00 de Lisboa (19:00 em Budapeste). Os 66% de húngaros que votaram até às 15:00 locais são o registo mais alto no país",
+            "image": "https://images.impresa.pt/expresso/2026-04-12-pol---46916568.jpg-4e2d99a3/1.91x1/mw-1200?outputFormat=jpeg",
+            "source": "Expresso",
+            "pubDate": "12-04-2026 16:54",
+            "category": "Últimas",
+            "link": "https://expresso.pt/uniao-europeia/2026-04-12-adesao-as-urnas-bate-recorde-na-hungria-a-quatro-horas-do-fecho-66-dos-eleitores-ja-tinha-votado-4c1944bc",
+            "isExclusive": true
+        },
+        {
+            "title": "Este professor britânico diz que não suporta cães. E isso está a dificultar a sua vida amorosa",
+            "description": "Noah Gabriel Martin, um professor de filosofia britânico, não gosta de cães. O problema? Esta preferência tornou-se o maior obstáculo na sua busca...",
+            "image": "https://cdn.cmjornal.pt/images/2026-04/img_932x621uu2026-04-12-16-51-51-2278090.png",
+            "source": "Correio da Manhã",
+            "pubDate": "12-04-2026 16:53",
+            "category": "Últimas",
+            "link": "https://www.petsandcompany.pt/pets/detalhe/este-professor-britanico-diz-que-nao-suporta-caes-e-isso-esta-a-dificultar-a-sua-vida-amorosa",
+            "isExclusive": false
+        },
+        {
             "title": "Destituição de um presidente inapto foi prevista a pensar em Trump, destaca ex-diretor da CIA",
             "description": "John Brennan, que chefiou a CIA entre março de 2013 e janeiro de 2017, juntou-se ao coro de personalidades norte-americanas que consideram que Donald...",
             "image": "https://jornaleconomico.sapo.pt/wp-content/uploads/2025/07/donald-trump-1-e1755104677762.jpg",
@@ -21,6 +491,16 @@
             "isExclusive": false
         },
         {
+            "title": "Benfica x Nacional ao minuto: conheça os onzes!",
+            "description": "Onze do Nacional: Kaique Pereira , Alan Nuñez, Zé Vitor, Léo Santos, José Gomes, Igor Liziero, Matheus Dias, Chiheb Labidi, Daniel Júnior, Jesús...",
+            "image": "https://www.zerozero.pt/img/noticias/720/imgS620I1092720T20260412164939.png",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 16:50",
+            "category": "Últimas",
+            "link": "https://www.zerozero.pt/noticias/benfica-x-nacional-ao-minuto-conheca-os-onzes-/1092720",
+            "isExclusive": false
+        },
+        {
             "title": "Sanjoanense conquista Taça Europeia feminina de hóquei em patins",
             "description": "A Sanjoanense conquistou hoje a Taça Europeia feminina de hóquei em patins, ao vencer por 5-1 as espanholas do Voltregà, na final da competição...",
             "image": "https://cdn-images.rtp.pt/icm/noticias/images/96/968be85100682837753e2032be3ce2c9?w=350&amp;q=50&amp;rect=0,16,1350,740&amp;auto=format",
@@ -28,6 +508,26 @@
             "pubDate": "12-04-2026 16:49",
             "category": "Últimas",
             "link": "https://www.rtp.pt/noticias/lusa/sanjoanense-conquista-taca-europeia-feminina-de-hoquei-em-patins_d1733368",
+            "isExclusive": false
+        },
+        {
+            "title": "Sanjoanense conquista Taça Europeia feminina de hóquei em patins",
+            "description": "A Sanjoanense conquistou hoje a Taça Europeia feminina de hóquei em patins, ao vencer por 5-1 as espanholas do Voltregà, na final da competição...",
+            "image": "https://cdn-images.rtp.pt/icm/noticias/images/96/968be85100682837753e2032be3ce2c9?w=350&amp;q=50&amp;rect=0,16,1350,740&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 16:49",
+            "category": "Últimas",
+            "link": "https://www.rtp.pt/noticias/outras-modalidades/sanjoanense-conquista-taca-europeia-feminina-de-hoquei-em-patins_d1733368",
+            "isExclusive": false
+        },
+        {
+            "title": "Líder Marítimo vence com golo ao 'cair do pano' e está perto da subida",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69dbbec9b06a0.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoxNDQwLCJjcm9wSGVpZ2h0Ijo4MTAsImNyb3BYIjowLCJjcm9wWSI6Mzg2fX0=",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 16:49",
+            "category": "Últimas",
+            "link": "https://www.noticiasaominuto.com/desporto/2971275/lider-maritimo-vence-com-golo-ao-cair-do-pano-e-esta-perto-da-subida#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "isExclusive": false
         },
         {
@@ -58,6 +558,16 @@
             "pubDate": "12-04-2026 16:46",
             "category": "Últimas",
             "link": "https://observador.pt/2026/04/12/21-horas-e-o-desacordo-continua-nos-principais-pontos-estreito-de-ormuz-programa-nuclear-e-descongelamento-de-ativos/",
+            "isExclusive": false
+        },
+        {
+            "title": "O onze do Benfica para o jogo com o Nacional",
+            "description": "Consulte as opções iniciais de José Mourinho e Tiago Margarido",
+            "image": "https://cdn.record.pt/images/2025-12/img_920x518uu2025-12-28-10-47-23-2411568.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 16:46",
+            "category": "Últimas",
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/20260412-164650-o-onze-do-benfica-para-o-jogo-com-o-nacional",
             "isExclusive": false
         },
         {
@@ -171,6 +681,16 @@
             "isExclusive": false
         },
         {
+            "title": "Catarina Nunes e Sofia Correia sagram-se vice-campeãs da Europa em trampolim sincronizado",
+            "description": "Prova a decorrer em Portimão",
+            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-12-16-31-12-2432589.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 16:32",
+            "category": "Últimas",
+            "link": "https://www.record.pt/modalidades/ginastica/detalhe/catarina-nunes-e-sofia-correia-sagram-se-vice-campeas-da-europa-em-trampolim-sincronizado",
+            "isExclusive": false
+        },
+        {
             "title": "Trump ameaça impor tarifas de 50% à China caso dê apoio militar a Teerão",
             "description": "",
             "image": "https://media-manager.noticiasaominuto.com/1920/46915514.webp",
@@ -208,6 +728,16 @@
             "pubDate": "12-04-2026 16:30",
             "category": "Últimas",
             "link": "http://pt.euronews.com/video/2026/04/12/hungria-orban-e-magyar-votam-em-eleicoes-decisivas-sob-olhar-atento-da-ue",
+            "isExclusive": false
+        },
+        {
+            "title": "Vasco Peso sagra-se campeão europeu em tumbling sénior",
+            "description": "Prova a decorrer em Portimão",
+            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-12-16-28-45-2432588.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 16:29",
+            "category": "Últimas",
+            "link": "https://www.record.pt/modalidades/ginastica/detalhe/vasco-peso-sagra-se-campeao-europeu-em-tumbling-senior",
             "isExclusive": false
         },
         {
@@ -291,6 +821,16 @@
             "isExclusive": false
         },
         {
+            "title": "Reviravolta à boleia do vento",
+            "description": "",
+            "image": "https://www.zerozero.pt/img/noticias/696/imgS620I1092696T20260412173109.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 16:21",
+            "category": "Últimas",
+            "link": "https://www.zerozero.pt/noticias/reviravolta-a-boleia-do-vento/1092696",
+            "isExclusive": false
+        },
+        {
             "title": "Titulares do Sporting na Reboleira realizam treino de recuperação antes da folga",
             "description": "Plantel regressa ao trabalho na terça-feira de manhã",
             "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-05-22-06-58-2431332.png",
@@ -311,6 +851,16 @@
             "isExclusive": false
         },
         {
+            "title": "Leixões vence e convence e deixa Oliveirense cada vez mais em perigo",
+            "description": "",
+            "image": "https://www.zerozero.pt/img/noticias/695/imgS620I1092695T20260412161901.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 16:19",
+            "category": "Últimas",
+            "link": "https://www.zerozero.pt/noticias/leixoes-vence-e-convence-e-deixa-oliveirense-cada-vez-mais-em-perigo/1092695",
+            "isExclusive": false
+        },
+        {
             "title": "\"Eu poderia aniquilar o Irão num dia. Poderia aniquilá-lo numa hora\"",
             "description": "",
             "image": "https://media-manager.noticiasaominuto.com/1920/naom_69c154f26bbba.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYyLCJjcm9wSGVpZ2h0IjoxNDQxLCJjcm9wWCI6LTEsImNyb3BZIjoyMTN9fQ==",
@@ -328,6 +878,16 @@
             "pubDate": "12-04-2026 16:17",
             "category": "Últimas",
             "link": "https://expresso.pt/justica/2026-04-12-ferraris-bentleys-maseratis-mansoes-mais-de-5-mil-milhoes-apreendidos-a-criminosos-em-dois-anos-f22ce20c",
+            "isExclusive": true
+        },
+        {
+            "title": "Ferraris, Bentleys, Maseratis, mansões: mais de €5 mil milhões apreendidos a criminosos em dois anos",
+            "description": "Mais de cinco mil milhões de euros foram recuperados pelo Ministério Público a criminosos, entre 2023 e 2025. Entre os bens estão carros topo de gama...",
+            "image": "https://images.impresa.pt/expresso/2026-04-12-gettyimages-1792753763.jpg-a71b0c71/1.91x1/mw-1200?outputFormat=jpeg",
+            "source": "Expresso",
+            "pubDate": "12-04-2026 16:17",
+            "category": "Últimas",
+            "link": "https://expresso.pt/justica/2026-04-12-video-ferraris-bentleys-maseratis-mansoes-mais-de-5-mil-milhoes-apreendidos-a-criminosos-em-dois-anos-f22ce20c",
             "isExclusive": true
         },
         {
@@ -428,6 +988,16 @@
             "pubDate": "12-04-2026 16:08",
             "category": "Últimas",
             "link": "https://www.record.pt/futebol/futebol-nacional/2--liga/fc-porto-b/detalhe/joao-brandao-e-a-evolucao-do-fc-porto-b-queremos-trazer-coisas-novas",
+            "isExclusive": false
+        },
+        {
+            "title": "Conforto na tabela: Paredes goleia SC Braga B",
+            "description": "",
+            "image": "https://www.zerozero.pt/img/noticias/690/imgS620I1092690T20260412170044.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 16:07",
+            "category": "Últimas",
+            "link": "https://www.zerozero.pt/noticias/conforto-na-tabela-paredes-goleia-sc-braga-b/1092690",
             "isExclusive": false
         },
         {
@@ -571,6 +1141,16 @@
             "isExclusive": false
         },
         {
+            "title": "AD Marco resiste reduzido a dez, mas complica contas da manutenção",
+            "description": "",
+            "image": "https://www.zerozero.pt/img/noticias/673/imgS620I1092673T20260412171107.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 15:53",
+            "category": "Últimas",
+            "link": "https://www.zerozero.pt/noticias/ad-marco-resiste-reduzido-a-dez-mas-complica-contas-da-manutencao/1092673",
+            "isExclusive": false
+        },
+        {
             "title": "Amora FC x Caldas SC - Resumo, Destaques e Crónica do Jogo",
             "description": "",
             "image": "https://www.zerozero.pt/img/noticias/668/imgS620I1092668T20260412155102.jpg",
@@ -578,6 +1158,16 @@
             "pubDate": "12-04-2026 15:51",
             "category": "Últimas",
             "link": "https://www.zerozero.pt/noticias/amora-fc-x-caldas-sc-resumo-destaques-e-cronica-do-jogo/1092668",
+            "isExclusive": false
+        },
+        {
+            "title": "Bis de Gonçalo Chaves garante triunfo ao Caldas SC fora de portas",
+            "description": "",
+            "image": "https://www.zerozero.pt/img/noticias/668/imgS620I1092668T20260412171950.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 15:51",
+            "category": "Últimas",
+            "link": "https://www.zerozero.pt/noticias/-i-bis-i-de-goncalo-chaves-garante-triunfo-ao-caldas-sc-fora-de-portas/1092668",
             "isExclusive": false
         },
         {
@@ -598,6 +1188,16 @@
             "pubDate": "12-04-2026 15:49",
             "category": "Últimas",
             "link": "https://www.zerozero.pt/noticias/sc-covilha-x-atletico-cp-resumo-destaques-e-cronica-do-jogo/1092664",
+            "isExclusive": false
+        },
+        {
+            "title": "Em plena Serra da Covilhã, respiram-se ares ainda mais tranquilos",
+            "description": "",
+            "image": "https://www.zerozero.pt/img/noticias/664/imgS620I1092664T20260412170133.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 15:49",
+            "category": "Últimas",
+            "link": "https://www.zerozero.pt/noticias/em-plena-serra-da-covilha-respiram-se-ares-ainda-mais-tranquilos/1092664",
             "isExclusive": false
         },
         {
@@ -862,6 +1462,16 @@
         },
         {
             "title": "Pelo menos cinco mortos e 25 feridos em ataque de Israel no sul do Líbano",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69d24b972431c.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNDczLCJjcm9wSGVpZ2h0IjoxMzkxLCJjcm9wWCI6NDUsImNyb3BZIjo5NX0sInBvcnRyYWl0Ijp7ImNyb3BXaWR0aCI6OTYwLCJjcm9wSGVpZ2h0IjoxNzA3LCJjcm9wWCI6ODg0LCJjcm9wWSI6MH19",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 15:22",
+            "category": "Últimas",
+            "link": "https://www.noticiasaominuto.com/mundo/2971246/pelo-menos-cinco-mortos-e-25-feridos-em-ataque-de-israel-no-sul-do-libano#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Pelo menos cinco mortos e 25 feridos em ataque de Israel no sul do Líbano",
             "description": "Pelo menos cinco pessoas morreram e outras 25 ficaram feridas hoje num ataque de Israel à cidade de Qana, no sul do Líbano, anunciou o Centro de...",
             "image": "https://cdn-images.rtp.pt/noticias/images/default_rtpnoticias.png?w=350&amp;q=50&amp;auto=format",
             "source": "RTP Notícias",
@@ -898,6 +1508,16 @@
             "pubDate": "12-04-2026 15:19",
             "category": "Últimas",
             "link": "https://www.rtp.pt/noticias/desporto/i-liga-alverca-casa-pia_e1733339",
+            "isExclusive": false
+        },
+        {
+            "title": "UE continua a acreditar na diplomacia para resolver conflito no Irão",
+            "description": "As declarações de Anouar El Anouni à AFP ocorreram após o fracasso das negociações entre os Estados Unidos e o Irão, em Islamabad.",
+            "image": "https://jornaleconomico.sapo.pt/wp-content/uploads/2022/09/bruxelas-e1499946677477.jpg",
+            "source": "Jornal Económico",
+            "pubDate": "12-04-2026 15:19",
+            "category": "Últimas",
+            "link": "https://jornaleconomico.sapo.pt/noticias/ue-continua-a-acreditar-na-diplomacia-para-resolver-conflito-no-irao/",
             "isExclusive": false
         },
         {
@@ -1598,6 +2218,16 @@
             "pubDate": "12-04-2026 14:02",
             "category": "Últimas",
             "link": "https://www.zerozero.pt/noticias/maritimo-x-portimonense-ao-minuto/1092613",
+            "isExclusive": false
+        },
+        {
+            "title": "RTP lamenta morte de \"figura incontornável\" da televisão portuguesa",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_561d761c051ad.webp",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 14:02",
+            "category": "Últimas",
+            "link": "https://www.noticiasaominuto.com/pais/2971228/rtp-lamenta-morte-de-figura-incontornavel-da-televisao-portuguesa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "isExclusive": false
         },
         {
@@ -5259,49 +5889,19 @@
             "category": "Últimas",
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/rui-borges-foi-obrigado-a-gerir-jogadores-fresneda-alarma",
             "isExclusive": false
-        },
-        {
-            "title": "4h Irão culpa EUA pela interrupção das negociações",
-            "description": "",
-            "image": "https://cdn-images.rtp.pt/noticias/images/antena1_default.png?w=350&amp;q=50&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "12-04-2026 04:34",
-            "category": "Últimas",
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/4h-irao-culpa-eua-pela-interrupcao-das-negociacoes_a1_1733256",
-            "isExclusive": false
-        },
-        {
-            "title": "3h EUA e Irão interrompem negociações de paz",
-            "description": "",
-            "image": "https://cdn-images.rtp.pt/noticias/images/antena1_default.png?w=350&amp;q=50&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "12-04-2026 04:32",
-            "category": "Últimas",
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/3h-eua-e-irao-interrompem-negociacoes-de-paz_a1_1733255",
-            "isExclusive": false
-        },
-        {
-            "title": "2h Trump desvaloriza resultado das negociações com o Irão",
-            "description": "",
-            "image": "https://cdn-images.rtp.pt/noticias/images/antena1_default.png?w=350&amp;q=50&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "12-04-2026 04:31",
-            "category": "Últimas",
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/2h-trump-desvaloriza-resultado-das-negociacoes-com-o-irao_a1_1733254",
-            "isExclusive": false
-        },
-        {
-            "title": "Cartas ao director",
-            "description": "",
-            "image": "https://static.publicocdn.com/files/site/assets/img/social/default-preview.png?share=1&o=BarraFacebook_Publico.png",
-            "source": "Público",
-            "pubDate": "12-04-2026 04:20",
-            "category": "Últimas",
-            "link": "https://www.publico.pt/2026/04/12/opiniao/opiniao/cartas-director-2170851",
-            "isExclusive": false
         }
     ],
     "Nacional": [
+        {
+            "title": "PSP nega agressões mas investiga denúncia de bastonadas a menor na Amadora",
+            "description": "Mãe de rapaz usa Facebook para acusar PSP de violência. Polícia interveio devido a furto de bicicleta em Lisboa.",
+            "image": "https://cdn.cmjornal.pt/images/2022-03/img_932x621uu2022-03-26-18-36-39-1134374.jpg",
+            "source": "Correio da Manhã",
+            "pubDate": "12-04-2026 17:30",
+            "category": "Nacional",
+            "link": "https://www.cmjornal.pt/portugal/detalhe/psp-nega-agressoes-mas-investiga-denuncia-de-bastonadas-a-menor-na-amadora",
+            "isExclusive": false
+        },
         {
             "title": "AFS destaca pioneirismo da pedagoga que integrou intercâmbio nos EUA",
             "description": "",
@@ -5390,6 +5990,16 @@
             "pubDate": "12-04-2026 14:08",
             "category": "Nacional",
             "link": "https://www.noticiasaominuto.com/pais/2971231/diretor-do-hospital-de-santo-antonio-tera-recebido-milhares-por-cirurgias#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "RTP lamenta morte de \"figura incontornável\" da televisão portuguesa",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_561d761c051ad.webp",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 14:02",
+            "category": "Nacional",
+            "link": "https://www.noticiasaominuto.com/pais/2971228/rtp-lamenta-morte-de-figura-incontornavel-da-televisao-portuguesa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "isExclusive": false
         },
         {
@@ -10651,109 +11261,59 @@
             "category": "Nacional",
             "link": "https://www.noticiasaominuto.com/pais/2968471/179-de-9227-candidaturas-a-apoios-a-reconstrucao-de-casas-foram-pagas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "isExclusive": false
-        },
-        {
-            "title": "Pena suspensa para ex-guarda condenado por corrupção passiva",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/44017968.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYwLCJjcm9wSGVpZ2h0IjoxNDQwLCJjcm9wWCI6MCwiY3JvcFkiOjczfX0=",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:35",
-            "category": "Nacional",
-            "link": "https://www.noticiasaominuto.com/pais/2968551/pena-suspensa-para-ex-guarda-condenado-por-corrupcao-passiva#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "Cascais vai ter até ao final do ano balcões para pedir receitas e marcar consultas",
-            "description": "Prevê-se que os balcões estejam disponíveis nas quatro freguesias do concelho: Alcabideche, São Domingos de Rana, Cascais e Estoril e Carcavelos e...",
-            "image": "https://imagens.publico.pt/imagens.aspx/2079775?tp=UH&db=IMAGENS&type=JPG&share=1&o=BarraFacebook_Publico.png",
-            "source": "Público",
-            "pubDate": "07-04-2026 16:31",
-            "category": "Nacional",
-            "link": "https://www.publico.pt/2026/04/07/local/noticia/cascais-vai-ate-final-ano-balcoes-pedir-receitas-marcar-consultas-2170481",
-            "isExclusive": false
-        },
-        {
-            "title": "Advogado burlão é arguido em mais dois processos",
-            "description": "Paulo Nobre Saraiva, de 57 anos, já condenado a pena suspensa, enfrenta alegações por abuso de confiança.",
-            "image": "https://cdn.cmjornal.pt/images/2026-04/img_932x621uu2026-04-07-14-38-36-2277049.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "07-04-2026 16:24",
-            "category": "Nacional",
-            "link": "https://www.cmjornal.pt/portugal/detalhe/advogado-burlao-e-arguido-em-mais-dois-processos",
-            "isExclusive": false
-        },
-        {
-            "title": "Base das Lajes? \"Recusas há sempre, mas não vamos pôr isso nos jornais\"",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/46888402.webp?crop_params=eyJwb3J0cmFpdCI6eyJjcm9wV2lkdGgiOjk2MSwiY3JvcEhlaWdodCI6MTcwOCwiY3JvcFgiOjU2NiwiY3JvcFkiOjB9LCJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyMTU3LCJjcm9wSGVpZ2h0IjoxMjEzLCJjcm9wWCI6MCwiY3JvcFkiOjEzfX0=",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:24",
-            "category": "Nacional",
-            "link": "https://www.noticiasaominuto.com/pais/2968537/base-das-lajes-recusas-ha-sempre-mas-nao-vamos-por-isso-nos-jornais#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "Rangel diz que Governo tem razões para acreditar que uso da Base das Lajes está a ser respeitado",
-            "description": "O ministro dos Negócios Estrangeiros afirmou hoje que o Governo português tem razões para acreditar que o acordo de utilização da Base das Lajes...",
-            "image": "https://cdn-images.rtp.pt/icm/noticias/images/6e/6ead0ab024dfd3747cc1bfa9fba12bd4?w=350&amp;q=50&amp;rect=0,0,1499,822&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "07-04-2026 16:23",
-            "category": "Nacional",
-            "link": "https://www.rtp.pt/noticias/pais/rangel-diz-que-governo-tem-razoes-para-acreditar-que-uso-da-base-das-lajes-esta-a-ser-respeitado_n1732035",
-            "isExclusive": false
-        },
-        {
-            "title": "Autocarros urbanos de Viana do Castelo deixam de ser gratuitos na segunda-feira",
-            "description": "Serviço TUViana foi lançado em Setembro com viagens gratuitas, entrando agora na fase de cobrança de bilhetes. Passe mensal geral custará 20 euros e...",
-            "image": "https://imagens.publico.pt/imagens.aspx/2079777?tp=UH&db=IMAGENS&type=JPG&share=1&o=BarraFacebook_Publico.png",
-            "source": "Público",
-            "pubDate": "07-04-2026 16:23",
-            "category": "Nacional",
-            "link": "https://www.publico.pt/2026/04/07/local/noticia/autocarros-urbanos-viana-castelo-deixam-gratuitos-segundafeira-2170482",
-            "isExclusive": false
-        },
-        {
-            "title": "Quase 30 mil pessoas assinam petição contra legalização de terapias de conversão",
-            "description": "Quase 30 mil pessoas já assinaram uma petição contra a legalização de terapias de conversão de identidade de género, para contrariar uma outra pela...",
-            "image": "https://cdn-images.rtp.pt/icm/noticias/images/32/328407fd30e9646d8b61035ed7a46d67?w=350&amp;q=50&amp;rect=0,104,1000,548&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "07-04-2026 16:21",
-            "category": "Nacional",
-            "link": "https://www.rtp.pt/noticias/pais/quase-30-mil-pessoas-assinam-peticao-contra-legalizacao-de-terapias-de-conversao_n1732033",
-            "isExclusive": false
-        },
-        {
-            "title": "Número de mortes na estrada quadruplicou no período da Páscoa",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/40724553.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYwLCJjcm9wSGVpZ2h0IjoxNDQwLCJjcm9wWCI6MCwiY3JvcFkiOjI1OX19",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:19",
-            "category": "Nacional",
-            "link": "https://www.noticiasaominuto.com/pais/2968539/numero-de-mortes-na-estrada-quadruplicou-no-periodo-da-pascoa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "\"Todos desejamos que não aconteça nenhuma catástrofe no verão\"",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/46886629.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYwLCJjcm9wSGVpZ2h0IjoxNDQwLCJjcm9wWCI6MCwiY3JvcFkiOjI1Nn19",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:04",
-            "category": "Nacional",
-            "link": "https://www.noticiasaominuto.com/pais/2968520/todos-desejamos-que-nao-aconteca-nenhuma-catastrofe-no-verao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "Constituição da República Portuguesa traduzida para língua mirandesa",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69ce66ba89f95.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoxNjAwLCJjcm9wSGVpZ2h0Ijo5MDAsImNyb3BYIjowLCJjcm9wWSI6MjJ9LCJwb3J0cmFpdCI6eyJjcm9wV2lkdGgiOjYwMCwiY3JvcEhlaWdodCI6MTA2NywiY3JvcFgiOjczMywiY3JvcFkiOjB9fQ==",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 15:59",
-            "category": "Nacional",
-            "link": "https://www.noticiasaominuto.com/pais/2968509/constituicao-da-republica-portuguesa-traduzida-para-lingua-mirandesa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
         }
     ],
     "Mundo": [
+        {
+            "title": "Trump diz que Reino Unido ajudará na desminagem do Estreito de Ormuz",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69dbc804155b5.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTA2LCJjcm9wSGVpZ2h0IjoxNDEwLCJjcm9wWCI6NTQsImNyb3BZIjo1NH0sInBvcnRyYWl0Ijp7ImNyb3BXaWR0aCI6OTYwLCJjcm9wSGVpZ2h0IjoxNzA2LCJjcm9wWCI6OTA1LCJjcm9wWSI6MH19",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:28",
+            "category": "Mundo",
+            "link": "https://www.noticiasaominuto.com/mundo/2971289/trump-diz-que-reino-unido-ajudara-na-desminagem-do-estreito-de-ormuz#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Chuvas provocam caos e destruição em Angola, Benguela é a provincias mais atingida",
+            "description": "Chuvas torrenciais voltaram a atingir Angola no fim de semana, provocando inundações e duas vítimas mortais já confirmadas, com destaque para a...",
+            "image": "https://cdn-images.rtp.pt/noticias/images/default_rtpnoticias.png?w=350&amp;q=50&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 17:13",
+            "category": "Mundo",
+            "link": "https://www.rtp.pt/noticias/mundo/chuvas-provocam-caos-e-destruicao-em-angola-benguela-e-a-provincias-mais-atingida_n1733376",
+            "isExclusive": false
+        },
+        {
+            "title": "Guarda Revolucionária ameaça inimigos com \"turbilhão mortal\" em Ormuz",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69bf9c5d43f41.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoxODEwLCJjcm9wSGVpZ2h0IjoxMDE4LCJjcm9wWCI6LTEsImNyb3BZIjo2fX0=",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:04",
+            "category": "Mundo",
+            "link": "https://www.noticiasaominuto.com/mundo/2971280/guarda-revolucionaria-ameaca-inimigos-com-turbilhao-mortal-em-ormuz#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Participação nas eleições hungaras atinge 66% pelas 15h00",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/46917001.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYyLCJjcm9wSGVpZ2h0IjoxNDQxLCJjcm9wWCI6LTEsImNyb3BZIjo1OH0sInBvcnRyYWl0Ijp7ImNyb3BXaWR0aCI6OTYwLCJjcm9wSGVpZ2h0IjoxNzA3LCJjcm9wWCI6MTAyNCwiY3JvcFkiOjB9fQ==",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:02",
+            "category": "Mundo",
+            "link": "https://www.noticiasaominuto.com/mundo/2971282/participacao-nas-eleicoes-hungaras-atinge-66-pelas-15h00#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Adesão às urnas bate recorde na Hungria: a quatro horas do fecho, 66% dos eleitores já tinha votado",
+            "description": "Urnas ficam abertas até às 18:00 de Lisboa (19:00 em Budapeste). Os 66% de húngaros que votaram até às 15:00 locais são o registo mais alto no país",
+            "image": "https://images.impresa.pt/expresso/2026-04-12-pol---46916568.jpg-4e2d99a3/1.91x1/mw-1200?outputFormat=jpeg",
+            "source": "Expresso",
+            "pubDate": "12-04-2026 16:54",
+            "category": "Mundo",
+            "link": "https://expresso.pt/uniao-europeia/2026-04-12-adesao-as-urnas-bate-recorde-na-hungria-a-quatro-horas-do-fecho-66-dos-eleitores-ja-tinha-votado-4c1944bc",
+            "isExclusive": true
+        },
         {
             "title": "21 horas depois, pontos de discórdia de EUA e Irão continuam",
             "description": "Os pontos de discórdia entre EUA e Irão continuam: Estreito de Ormuz, programa nuclear e descongelamento de bens. Trump acredita que Irão vai voltar...",
@@ -10872,6 +11432,16 @@
             "pubDate": "12-04-2026 15:22",
             "category": "Mundo",
             "link": "https://www.rtp.pt/noticias/mundo/trump-anuncia-que-os-estados-unidos-vao-impor-um-bloqueio-naval-ao-estreito-de-ormuz_e1733265",
+            "isExclusive": false
+        },
+        {
+            "title": "Pelo menos cinco mortos e 25 feridos em ataque de Israel no sul do Líbano",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69d24b972431c.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNDczLCJjcm9wSGVpZ2h0IjoxMzkxLCJjcm9wWCI6NDUsImNyb3BZIjo5NX0sInBvcnRyYWl0Ijp7ImNyb3BXaWR0aCI6OTYwLCJjcm9wSGVpZ2h0IjoxNzA3LCJjcm9wWCI6ODg0LCJjcm9wWSI6MH19",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 15:22",
+            "category": "Mundo",
+            "link": "https://www.noticiasaominuto.com/mundo/2971246/pelo-menos-cinco-mortos-e-25-feridos-em-ataque-de-israel-no-sul-do-libano#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "isExclusive": false
         },
         {
@@ -20823,149 +21393,269 @@
             "category": "Mundo",
             "link": "https://expresso.pt/internacional/2026-04-07-rangel-assinala-quatro-anos-do-massacre-em-bucha-em-conversa-com-homologo-ucraniano-32f423d9",
             "isExclusive": true
-        },
-        {
-            "title": "Netanyahu confirma ataques israelitas a pelo menos oito pontes iranianas",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69032df17f2c5.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYwLCJjcm9wSGVpZ2h0IjoxNDQwLCJjcm9wWCI6MCwiY3JvcFkiOi0xfX0=",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:43",
-            "category": "Mundo",
-            "link": "https://www.noticiasaominuto.com/mundo/2968518/netanyahu-confirma-ataques-israelitas-a-pelo-menos-oito-pontes-iranianas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "Julgamento de \"braço direito\" de Pedro Sánchez arrancou hoje",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69d525806f39f.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYwLCJjcm9wSGVpZ2h0IjoxNDQwLCJjcm9wWCI6MCwiY3JvcFkiOjExOH0sInBvcnRyYWl0Ijp7ImNyb3BXaWR0aCI6OTYxLCJjcm9wSGVpZ2h0IjoxNzA4LCJjcm9wWCI6Njg4LCJjcm9wWSI6LTF9fQ==",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:40",
-            "category": "Mundo",
-            "link": "https://www.noticiasaominuto.com/mundo/2968542/julgamento-de-braco-direito-de-pedro-sanchez-arrancou-hoje#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "Novos bombardeamentos contra centro petrolífero iraniano",
-            "description": "Exército israelita avisado esta terça-feira de manhã os iranianos para evitarem andar de comboio até às 21h00 locais, sob pena de colocarem a vida em...",
-            "image": "https://cdn.cmjornal.pt/images/2017-08/img_932x621uu2017-08-22-08-30-00-660664.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "07-04-2026 16:38",
-            "category": "Mundo",
-            "link": "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/novos-bombardeamentos-contra-centro-petrolifero-iraniano",
-            "isExclusive": false
-        },
-        {
-            "title": "Irão: Macron anuncia regresso a França de dois cidadãos detidos em Teerão",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69aa93a66a646.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNDk3LCJjcm9wSGVpZ2h0IjoxNDA0LCJjcm9wWCI6MCwiY3JvcFkiOjE5NH19",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:38",
-            "category": "Mundo",
-            "link": "https://www.noticiasaominuto.com/mundo/2968530/irao-macron-anuncia-regresso-a-franca-de-dois-cidadaos-detidos-em-teerao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "Irão: Itália insiste que cumpre tratados e \"não está em guerra\"",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_6638f61176dae.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyMzU4LCJjcm9wSGVpZ2h0IjoxMzI2LCJjcm9wWCI6MjAzLCJjcm9wWSI6Mjc0fSwicG9ydHJhaXQiOnsiY3JvcFdpZHRoIjo3NjcsImNyb3BIZWlnaHQiOjEzNjQsImNyb3BYIjoxMTY2LCJjcm9wWSI6MzI2fX0=",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:37",
-            "category": "Mundo",
-            "link": "https://www.noticiasaominuto.com/mundo/2968547/irao-italia-insiste-que-cumpre-tratados-e-nao-esta-em-guerra#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "Teerão diz ter atacado complexo petroquímico saudita",
-            "description": "Complexo localizado em Al Jubail, na Arábia Saudita, e associado a empresas como a ExxonMobil, foi atingido em ataques precisos.",
-            "image": "https://cdn.cmjornal.pt/images/2017-08/img_932x621uu2017-08-22-08-30-00-660663.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "07-04-2026 16:33",
-            "category": "Mundo",
-            "link": "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/teerao-diz-ter-atacado-complexo-petroquimico-saudita",
-            "isExclusive": false
-        },
-        {
-            "title": "Rússia está a receber \"enorme quantidade\" de pedidos de energia devido ao conflito no Médio Oriente",
-            "description": "Porta-voz do Presidente Vladimir Putin explicou em conferência de imprensa que Moscovo estava a negociar o fornecimento de hidrocarbonetos para...",
-            "image": "https://cdn.cmjornal.pt/images/2017-07/img_932x621uu2017-07-26-10-44-00-652641.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "07-04-2026 16:32",
-            "category": "Mundo",
-            "link": "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/russia-esta-a-receber-enorme-quantidade-de-pedidos-de-energia-devido-ao-conflito-no-medio-oriente",
-            "isExclusive": false
-        },
-        {
-            "title": "Qatar alerta para situação quase \"fora de controlo\" devido a ofensiva EUA-Israel ao Irão",
-            "description": "O Qatar alertou hoje que a situação no Médio Oriente está quase fora de controlo, horas antes de expirar o ultimato de Washington ao Irão para...",
-            "image": "https://cdn-images.rtp.pt/noticias/images/default_rtpnoticias.png?w=350&amp;q=50&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "07-04-2026 16:25",
-            "category": "Mundo",
-            "link": "https://www.rtp.pt/noticias/mundo/qatar-alerta-para-situacao-quase-fora-de-controlo-devido-a-ofensiva-eua-israel-ao-irao_n1732013",
-            "isExclusive": false
-        },
-        {
-            "title": "“Crise atual é mais grave do que as de 1973, 1979 e 2022 juntas”, alerta Agência Internacional de Energia. Ultimato de Trump está por horas",
-            "description": "Com a perda potencial do dobro do petróleo bruto em relação ao mês anterior, o mundo enfrenta um “abril negro”, adverte ainda o diretor executivo da...",
-            "image": "https://images.impresa.pt/expresso/2026-03-20-fatih-birol-10bb4d4a/1.91x1/mw-1200?outputFormat=jpeg",
-            "source": "Expresso",
-            "pubDate": "07-04-2026 16:25",
-            "category": "Mundo",
-            "link": "https://expresso.pt/medio-oriente/conflito/2026-04-07-crise-atual-e-mais-grave-do-que-as-de-1973-1979-e-2022-juntas-alerta-agencia-internacional-de-energia.-ultimato-de-trump-esta-por-horas-2262cb1a",
-            "isExclusive": true
-        },
-        {
-            "title": "JD Vance defende \"diplomacia sustentada\" para acabar a guerra",
-            "description": "O vice-presidente dos Estados Unidos, JD Vance, defendeu hoje a necessidade de uma diplomacia sustentada para terminar a guerra na Ucrânia, enquanto...",
-            "image": "https://cdn-images.rtp.pt/noticias/images/default_rtpnoticias.png?w=350&amp;q=50&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "07-04-2026 16:24",
-            "category": "Mundo",
-            "link": "https://www.rtp.pt/noticias/mundo/jd-vance-defende-diplomacia-sustentada-para-acabar-a-guerra_n1732016",
-            "isExclusive": false
-        },
-        {
-            "title": "Enxame de abelhas na turbina atrasa voo da American Airlines. Há vídeos",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69d51c2ad1adf.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjozOTYsImNyb3BIZWlnaHQiOjIyMywiY3JvcFgiOjIsImNyb3BZIjoyOTl9LCJwb3J0cmFpdCI6eyJjcm9wV2lkdGgiOjMwNiwiY3JvcEhlaWdodCI6NTQ1LCJjcm9wWCI6NSwiY3JvcFkiOjExM319",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:14",
-            "category": "Mundo",
-            "link": "https://www.noticiasaominuto.com/mundo/2968522/enxame-de-abelhas-na-turbina-atrasa-voo-da-american-airlines-ha-videos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "Violet Gibson: A mulher que tentou matar Mussolini (e o atingiu no nariz)",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69d519f90ece1.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjo1MjksImNyb3BIZWlnaHQiOjI5NywiY3JvcFgiOjU1LCJjcm9wWSI6MjY3fSwicG9ydHJhaXQiOnsiY3JvcFdpZHRoIjoyNTIsImNyb3BIZWlnaHQiOjQ0OCwiY3JvcFgiOjMzNCwiY3JvcFkiOjIwNH19",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:13",
-            "category": "Mundo",
-            "link": "https://www.noticiasaominuto.com/mundo/2968507/violet-gibson-a-mulher-que-tentou-matar-mussolini-e-o-atingiu-no-nariz#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "Publicação na qual Trump ameaçou destruir “nação inteira de animais” é verdadeira? Não",
-            "description": "Apesar de Donald Trump já ter feito ameaças semelhantes nas redes, a suposta publicação partilhada no X é falsa, não havendo qualquer registo desta...",
-            "image": "https://imagens.publico.pt/imagens.aspx/2079722?tp=UH&db=IMAGENS&type=JPG&share=1&o=BarraFacebook_ProvaDosFactos.png",
-            "source": "Público",
-            "pubDate": "07-04-2026 16:01",
-            "category": "Mundo",
-            "link": "https://www.publico.pt/2026/04/07/mundo/noticia/publicacao-trump-ameacou-destruir-nacao-inteira-animais-verdadeira-nao-2170456",
-            "isExclusive": false
-        },
-        {
-            "title": "Ataques aéreos israelitas ao Líbano já mataram 1.530 pessoas",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/46876698.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYwLCJjcm9wSGVpZ2h0IjoxNDQwLCJjcm9wWCI6MCwiY3JvcFkiOjI1OH19",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 15:57",
-            "category": "Mundo",
-            "link": "https://www.noticiasaominuto.com/mundo/2968516/ataques-aereos-israelitas-ao-libano-ja-mataram-1530-pessoas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
         }
     ],
     "Desporto": [
+        {
+            "title": "Gabriel Albuquerque sagra-se vice-campeão europeu de trampolim individual",
+            "description": "O ginasta português Gabriel Albuquerque conquistou hoje, em Portimão, a medalha de prata em trampolim individual masculino sénior no 30.º Campeonato...",
+            "image": "https://cdn-images.rtp.pt/icm/noticias/images/34/34288248c01c1b26482f1891b0df1ece?w=350&amp;q=50&amp;rect=0,242,2048,1123&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 17:34",
+            "category": "Desporto",
+            "link": "https://www.rtp.pt/noticias/outras-modalidades/gabriel-albuquerque-sagra-se-vice-campeao-europeu-de-trampolim-individual_d1733384",
+            "isExclusive": false
+        },
+        {
+            "title": "I Liga. SL Benfica - CD Nacional",
+            "description": "O Benfica recebe o Nacional este domingo, no Estádio da Luz, em Lisboa, a partir das 18:00, num encontro com arbitragem de Fábio Veríssimo, da...",
+            "image": "https://cdn-images.rtp.pt/icm/noticias/images/92/92b2059223c410007ced43f394baf7cb?w=350&amp;q=50&amp;rect=0,110,2937,1610&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 17:31",
+            "category": "Desporto",
+            "link": "https://www.rtp.pt/noticias/desporto/i-liga-sl-benfica-cd-nacional_e1733358",
+            "isExclusive": false
+        },
+        {
+            "title": "I Liga. SC Braga - FC Arouca",
+            "description": "Sporting de Braga, quarto classificado, com 49 pontos (e menos um jogo), e Arouca, 10.º, com 32, defrontam-se este domingo, no Estádio Municipal de...",
+            "image": "https://cdn-images.rtp.pt/icm/noticias/images/24/24416ba4ce4417d4e2652d356336ff82?w=350&amp;q=50&amp;rect=0,0,626,343&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 17:30",
+            "category": "Desporto",
+            "link": "https://www.rtp.pt/noticias/desporto/i-liga-sc-braga-fc-arouca_e1733356",
+            "isExclusive": false
+        },
+        {
+            "title": "E tudo o vento... marcou. Alverca vence e afunda Casa Pia na tabela",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69dbc53c4af72.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoxMDgwLCJjcm9wSGVpZ2h0Ijo2MDgsImNyb3BYIjoxMTYsImNyb3BZIjo0NTZ9LCJwb3J0cmFpdCI6eyJjcm9wV2lkdGgiOjQ4OCwiY3JvcEhlaWdodCI6ODY4LCJjcm9wWCI6MjM4LCJjcm9wWSI6NDUxfX0=",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:29",
+            "category": "Desporto",
+            "link": "https://www.noticiasaominuto.com/desporto/2971290/e-tudo-o-vento-marcou-alverca-vence-e-afunda-casa-pia-na-tabela#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "O Leixões x UD Oliveirense foi assim...",
+            "description": "O árbitro apita para o final da partida Acompanhe aqui o Leixões x UD Oliveirense em direto e ao minuto, com todas as estatísticas e as curiosidades...",
+            "image": "https://www.zerozero.pt/img/noticias/645/imgS620I1092645T20260412143433.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 17:28",
+            "category": "Desporto",
+            "link": "https://www.zerozero.pt/noticias/o-leixoes-x-ud-oliveirense-foi-assim-/1092645",
+            "isExclusive": false
+        },
+        {
+            "title": "O FC Alverca x Casa Pia AC foi assim...",
+            "description": "O árbitro apita para o final da partida Acompanhe aqui o FC Alverca x Casa Pia AC em direto e ao minuto, com todas as estatísticas e as curiosidades...",
+            "image": "https://www.zerozero.pt/img/noticias/641/imgS620I1092641T20260412142801.png",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 17:28",
+            "category": "Desporto",
+            "link": "https://www.zerozero.pt/noticias/o-fc-alverca-x-casa-pia-ac-foi-assim-/1092641",
+            "isExclusive": false
+        },
+        {
+            "title": "Sp. Braga-Arouca, em direto",
+            "description": "Siga todas as incidências do encontro da 29.ª jornada da Liga Betclic",
+            "image": "https://cdn.record.pt/images/2025-12/img_920x518uu2025-12-27-21-05-25-2411499.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:22",
+            "category": "Desporto",
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/detalhe/20260412-142617-sp-braga-arouca-em-direto",
+            "isExclusive": false
+        },
+        {
+            "title": "O golo tardio (e polémico) que deixou o Marítimo a um ponto da subida",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69dbc6c529b32.webp",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:22",
+            "category": "Desporto",
+            "link": "https://www.noticiasaominuto.com/desporto/2971277/o-golo-tardio-e-polemico-que-deixou-o-maritimo-a-um-ponto-da-subida#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Revolução no onze do Sp. Braga e com novidades até no banco",
+            "description": "Carlos Vicens muda 7 jogadores em relação ao jogo do Betis, três deles de forma forçada",
+            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-08-21-26-11-2431877.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:21",
+            "category": "Desporto",
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sp--braga/detalhe/revolucao-no-onze-do-sp-braga-e-com-novidades-ate-no-banco",
+            "isExclusive": false
+        },
+        {
+            "title": "Diogo Narciso chega isolado para vencer a Clássica de Viana do Castelo",
+            "description": "Ciclista da Credibom-LA Alúminios-Marcos Car ganha após integrar a fuga",
+            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-12-17-16-39-2432604.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:20",
+            "category": "Desporto",
+            "link": "https://www.record.pt/modalidades/ciclismo/detalhe/diogo-narciso-chega-isolado-para-vencer-a-classica-de-viana-do-castelo",
+            "isExclusive": false
+        },
+        {
+            "title": "Lamborghini Super Trofeo, Paul Ricard: Miguel Cristóvão estreia-se com dois quartos lugares na Pro-Am",
+            "description": "Miguel Cristóvão fez uma entrada sólida no Lamborghini Super Trofeo Europe, na ronda inaugural disputada em Paul Ricard. Ao volante do Lamborghini...",
+            "image": "https://images.autosport.pt/2026/04/miguel-cristovao-1.jpg",
+            "source": "Autosport",
+            "pubDate": "12-04-2026 17:20",
+            "category": "Desporto",
+            "link": "https://www.autosport.pt/velocidade/lamborghini-super-trofeo-paul-ricard-miguel-cristovao-estreia-se-com-dois-quartos-lugares-na-pro-am/?utm_source=rss&utm_medium=rss&utm_campaign=lamborghini-super-trofeo-paul-ricard-miguel-cristovao-estreia-se-com-dois-quartos-lugares-na-pro-am",
+            "isExclusive": false
+        },
+        {
+            "title": "Erro de Neuville entrega vitória no Rali da Croácia a Katsuta",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/46915069.webp",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:20",
+            "category": "Desporto",
+            "link": "https://www.noticiasaominuto.com/auto/2971284/erro-de-neuville-entrega-vitoria-no-rali-da-croacia-a-katsuta#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "SC Braga x FC Arouca ao minuto",
+            "description": "Onze do FC Arouca: Jakub Vinarcik, Tiago Esgaio, Javi Sánchez, Bas Kuipers, Jose Fontán, Pablo Gozálbez, Lee Hyunju, Taichi Fukui, Espen van Ee,...",
+            "image": "https://www.zerozero.pt/img/noticias/730/imgS620I1092730T20260412171816.png",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 17:18",
+            "category": "Desporto",
+            "link": "https://www.zerozero.pt/noticias/sc-braga-x-fc-arouca-ao-minuto/1092730",
+            "isExclusive": false
+        },
+        {
+            "title": "Joana Pontes 17.ª na maratona dos mundial de marcha atlética no Brasil",
+            "description": "A portuguesa Joana Pontes, de 26 anos, terminou hoje no 17.º lugar na maratona feminina do Mundial de Marcha Atlética de seleções, em Brasília, numa...",
+            "image": "https://cdn-images.rtp.pt/noticias/images/rtp-deporto_default.png?w=350&amp;q=50&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 17:16",
+            "category": "Desporto",
+            "link": "https://www.rtp.pt/noticias/outras-modalidades/joana-pontes-17a-na-maratona-dos-mundial-de-marcha-atletica-no-brasil_d1733380",
+            "isExclusive": false
+        },
+        {
+            "title": "Erro de Neuville na última especial entrega vitória no Rali da Croácia a Katsuta",
+            "description": "O piloto japonês Takamoto Katsuta (Toyota Yaris) venceu hoje o Rali da Croácia, quarta ronda da temporada, depois de o belga Thierry Neuville...",
+            "image": "https://cdn-images.rtp.pt/icm/noticias/images/ff/ffbfb0faa6d9cfb0103efc6ad14242fd?w=350&amp;q=50&amp;rect=0,47,1024,561&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 17:16",
+            "category": "Desporto",
+            "link": "https://www.rtp.pt/noticias/motores/erro-de-neuville-na-ultima-especial-entrega-vitoria-no-rali-da-croacia-a-katsuta_d1733379",
+            "isExclusive": false
+        },
+        {
+            "title": "Sporting supera susto e ultrapassa FC Porto rumo ao segundo lugar",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69dbc1e007190.webp",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:16",
+            "category": "Desporto",
+            "link": "https://www.noticiasaominuto.com/desporto/2971281/sporting-supera-susto-e-ultrapassa-fc-porto-rumo-ao-segundo-lugar#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Presidente da República felicita Vasco Peso pelo título europeu de tumbling",
+            "description": "Vasco Peso passou à final ao qualificar-se com o primeiro lugar, com um total de 56.600 pontos, superando o atual campeão mundial, o azeri Mikhail...",
+            "image": "https://cdn.cmjornal.pt/images/2026-04/img_932x621uu2026-04-12-17-11-59-2278093.jpg",
+            "source": "Correio da Manhã",
+            "pubDate": "12-04-2026 17:12",
+            "category": "Desporto",
+            "link": "https://www.cmjornal.pt/desporto/modalidades/detalhe/presidente-da-republica-felicita-vasco-peso-pelo-titulo-europeu-de-tumbling",
+            "isExclusive": false
+        },
+        {
+            "title": "Escândalo. HC Turquel denuncia \"agressões injustificáveis\" do CD Póvoa",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69dbc3b01e5dc.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoxMDgwLCJjcm9wSGVpZ2h0Ijo2MDgsImNyb3BYIjowLCJjcm9wWSI6MTI0fSwicG9ydHJhaXQiOnsiY3JvcFdpZHRoIjo0OTcsImNyb3BIZWlnaHQiOjg4NCwiY3JvcFgiOjMwOSwiY3JvcFkiOjIwfX0=",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:10",
+            "category": "Desporto",
+            "link": "https://www.noticiasaominuto.com/desporto/2971286/escandalo-hc-turquel-denuncia-agressoes-injustificaveis-do-cd-povoa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Arouca joga em Braga sem guarda-redes suplente",
+            "description": "Arruabarrena cumpre castigo, João Valido lesionou-se e será Vinarcik a defender a baliza na Pedreira",
+            "image": "https://cdn.record.pt/images/2025-05/img_920x518uu2025-05-13-00-41-05-2362303.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:08",
+            "category": "Desporto",
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/arouca/detalhe/arouca-joga-em-braga-sem-guarda-redes-suplente",
+            "isExclusive": false
+        },
+        {
+            "title": "Federico Coletta sela vitória do Benfica diante do Leixões",
+            "description": "Águias resolvem antes do intervalo e sobem ao 4.º posto, embora à condição",
+            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-12-17-05-55-2432598.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:08",
+            "category": "Desporto",
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-revelacao/detalhe/federico-coletta-sela-vitoria-do-benfica-diante-do-leixoes",
+            "isExclusive": false
+        },
+        {
+            "title": "Nem Bolt corria tão rápido aos 18 anos: Gout Gout voa para um incrível recorde mundial Sub-20 nos 200m",
+            "description": "Australiano baixou dos 20 segundos e fixou marca incrível para um 'miúdo'",
+            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-12-16-57-10-2432595.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:02",
+            "category": "Desporto",
+            "link": "https://www.record.pt/multimedia/videos/detalhe/nem-bolt-corria-tao-rapido-aos-18-anos-gout-gout-voa-para-um-incrivel-recorde-mundial-sub-20-nos-200m",
+            "isExclusive": false
+        },
+        {
+            "title": "Chermiti bisa na chuva de golos do Rangers",
+            "description": "Triunfo por 6-3 diante do Falkirk aplica pressão sobre o líder Hearts",
+            "image": "https://cdn.record.pt/images/2026-03/img_920x518uu2026-03-01-13-26-03-2424256.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:02",
+            "category": "Desporto",
+            "link": "https://www.record.pt/internacional/detalhe/chermiti-bisa-na-chuva-de-golos-do-rangers",
+            "isExclusive": false
+        },
+        {
+            "title": "Marítimo-Portimonense, 1-0: madeirenses vencem com golo ao cair do pano e estão muito perto da subida",
+            "description": "Simo Bouzaidi fez de penálti o único golo do jogo aos 90'+11",
+            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-12-17-01-22-2432596.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 17:02",
+            "category": "Desporto",
+            "link": "https://www.record.pt/futebol/detalhe/maritimo-portimonense-0-1-madeirenses-vencem-com-golo-ao-cair-do-pano-e-estao-muito-perto-da-subida",
+            "isExclusive": false
+        },
+        {
+            "title": "ELMS, Barcelona: Algarve Pro Racing e José Cautela vencem na jornada inaugural",
+            "description": "A abertura da temporada 2026 da European Le Mans Series em Barcelona não podia ter tido um início mais dramático. Mas a seguir ao drama, veio a...",
+            "image": null,
+            "source": "Autosport",
+            "pubDate": "12-04-2026 17:02",
+            "category": "Desporto",
+            "link": "https://www.autosport.pt/velocidade/elms/elms-barcelona-algarve-pro-racing-e-jose-cautela-vencem-na-jornada-inaugural/?utm_source=rss&utm_medium=rss&utm_campaign=elms-barcelona-algarve-pro-racing-e-jose-cautela-vencem-na-jornada-inaugural",
+            "isExclusive": false
+        },
+        {
+            "title": "Benfica-Nacional. Mourinho faz três alterações na equipa",
+            "description": "Depois do empate em Rio Maior frente ao Casa Pia, o nono no Campeonato, Benfica tenta voltar aos triunfos na receção ao Nacional para não descolar...",
+            "image": "https://bordalo.observador.pt/v2/rs:fill:900/c:1334:1334:nowe:333:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2026/03/07171936/46616239.jpg",
+            "source": "Observador",
+            "pubDate": "12-04-2026 17:00",
+            "category": "Desporto",
+            "link": "https://observador.pt/liveblogs/benfica-nacional-aguias-tentam-regressar-aos-triunfos-na-liga-apos-deslize-com-casa-pia/",
+            "isExclusive": false
+        },
+        {
+            "title": "Nottingham Forest empata com Aston Villa antes de receber o FC Porto",
+            "description": "Equipa treinada por Vítor Pereira, recebe o FC Porto na quinta-feira, em partida da segunda mão dos quartos de final da Liga Europa de 2025/26.",
+            "image": "https://cdn.cmjornal.pt/images/2026-04/img_932x621uu2026-04-12-16-57-30-2278091.jpg",
+            "source": "Correio da Manhã",
+            "pubDate": "12-04-2026 16:58",
+            "category": "Desporto",
+            "link": "https://www.cmjornal.pt/desporto/futebol/detalhe/nottingham-forest-empata-com-aston-villa-antes-de-receber-o-fc-porto",
+            "isExclusive": false
+        },
         {
             "title": "Benfica x Nacional ao minuto",
             "description": "Onze do Nacional: Kaique Pereira , Alan Nuñez, Zé Vitor, Léo Santos, José Gomes, Igor Liziero, Matheus Dias, Chiheb Labidi, Daniel Júnior, Jesús...",
@@ -20977,6 +21667,16 @@
             "isExclusive": false
         },
         {
+            "title": "Benfica x Nacional ao minuto: conheça os onzes!",
+            "description": "Onze do Nacional: Kaique Pereira , Alan Nuñez, Zé Vitor, Léo Santos, José Gomes, Igor Liziero, Matheus Dias, Chiheb Labidi, Daniel Júnior, Jesús...",
+            "image": "https://www.zerozero.pt/img/noticias/720/imgS620I1092720T20260412164939.png",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 16:50",
+            "category": "Desporto",
+            "link": "https://www.zerozero.pt/noticias/benfica-x-nacional-ao-minuto-conheca-os-onzes-/1092720",
+            "isExclusive": false
+        },
+        {
             "title": "Sanjoanense conquista Taça Europeia feminina de hóquei em patins",
             "description": "A Sanjoanense conquistou hoje a Taça Europeia feminina de hóquei em patins, ao vencer por 5-1 as espanholas do Voltregà, na final da competição...",
             "image": "https://cdn-images.rtp.pt/icm/noticias/images/96/968be85100682837753e2032be3ce2c9?w=350&amp;q=50&amp;rect=0,16,1350,740&amp;auto=format",
@@ -20984,6 +21684,26 @@
             "pubDate": "12-04-2026 16:49",
             "category": "Desporto",
             "link": "https://www.rtp.pt/noticias/lusa/sanjoanense-conquista-taca-europeia-feminina-de-hoquei-em-patins_d1733368",
+            "isExclusive": false
+        },
+        {
+            "title": "Sanjoanense conquista Taça Europeia feminina de hóquei em patins",
+            "description": "A Sanjoanense conquistou hoje a Taça Europeia feminina de hóquei em patins, ao vencer por 5-1 as espanholas do Voltregà, na final da competição...",
+            "image": "https://cdn-images.rtp.pt/icm/noticias/images/96/968be85100682837753e2032be3ce2c9?w=350&amp;q=50&amp;rect=0,16,1350,740&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 16:49",
+            "category": "Desporto",
+            "link": "https://www.rtp.pt/noticias/outras-modalidades/sanjoanense-conquista-taca-europeia-feminina-de-hoquei-em-patins_d1733368",
+            "isExclusive": false
+        },
+        {
+            "title": "Líder Marítimo vence com golo ao 'cair do pano' e está perto da subida",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69dbbec9b06a0.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoxNDQwLCJjcm9wSGVpZ2h0Ijo4MTAsImNyb3BYIjowLCJjcm9wWSI6Mzg2fX0=",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 16:49",
+            "category": "Desporto",
+            "link": "https://www.noticiasaominuto.com/desporto/2971275/lider-maritimo-vence-com-golo-ao-cair-do-pano-e-esta-perto-da-subida#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "isExclusive": false
         },
         {
@@ -21004,6 +21724,16 @@
             "pubDate": "12-04-2026 16:46",
             "category": "Desporto",
             "link": "https://www.noticiasaominuto.com/desporto/2971252/revolucao-a-mourinho-os-onzes-iniciais-para-o-benfica-nacional#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "O onze do Benfica para o jogo com o Nacional",
+            "description": "Consulte as opções iniciais de José Mourinho e Tiago Margarido",
+            "image": "https://cdn.record.pt/images/2025-12/img_920x518uu2025-12-28-10-47-23-2411568.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 16:46",
+            "category": "Desporto",
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/20260412-164650-o-onze-do-benfica-para-o-jogo-com-o-nacional",
             "isExclusive": false
         },
         {
@@ -21067,6 +21797,16 @@
             "isExclusive": false
         },
         {
+            "title": "Catarina Nunes e Sofia Correia sagram-se vice-campeãs da Europa em trampolim sincronizado",
+            "description": "Prova a decorrer em Portimão",
+            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-12-16-31-12-2432589.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 16:32",
+            "category": "Desporto",
+            "link": "https://www.record.pt/modalidades/ginastica/detalhe/catarina-nunes-e-sofia-correia-sagram-se-vice-campeas-da-europa-em-trampolim-sincronizado",
+            "isExclusive": false
+        },
+        {
             "title": "Treino da Seleção Feminina já contou com Raquel Ferreira",
             "description": "Médio do Torreense foi a grande novidade este domingo",
             "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-11-17-25-17-2432394.png",
@@ -21074,6 +21814,16 @@
             "pubDate": "12-04-2026 16:30",
             "category": "Desporto",
             "link": "https://www.record.pt/futebol/selecao-feminina/detalhe/treino-da-selecao-feminina-ja-contou-com-raquel-ferreira",
+            "isExclusive": false
+        },
+        {
+            "title": "Vasco Peso sagra-se campeão europeu em tumbling sénior",
+            "description": "Prova a decorrer em Portimão",
+            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-12-16-28-45-2432588.jpg",
+            "source": "Record",
+            "pubDate": "12-04-2026 16:29",
+            "category": "Desporto",
+            "link": "https://www.record.pt/modalidades/ginastica/detalhe/vasco-peso-sagra-se-campeao-europeu-em-tumbling-senior",
             "isExclusive": false
         },
         {
@@ -21117,6 +21867,16 @@
             "isExclusive": false
         },
         {
+            "title": "Reviravolta à boleia do vento",
+            "description": "",
+            "image": "https://www.zerozero.pt/img/noticias/696/imgS620I1092696T20260412173109.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 16:21",
+            "category": "Desporto",
+            "link": "https://www.zerozero.pt/noticias/reviravolta-a-boleia-do-vento/1092696",
+            "isExclusive": false
+        },
+        {
             "title": "Titulares do Sporting na Reboleira realizam treino de recuperação antes da folga",
             "description": "Plantel regressa ao trabalho na terça-feira de manhã",
             "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-05-22-06-58-2431332.png",
@@ -21124,6 +21884,16 @@
             "pubDate": "12-04-2026 16:19",
             "category": "Desporto",
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/titulares-do-sporting-na-reboleira-realizam-treino-de-recuperacao-antes-da-folga",
+            "isExclusive": false
+        },
+        {
+            "title": "Leixões vence e convence e deixa Oliveirense cada vez mais em perigo",
+            "description": "",
+            "image": "https://www.zerozero.pt/img/noticias/695/imgS620I1092695T20260412161901.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 16:19",
+            "category": "Desporto",
+            "link": "https://www.zerozero.pt/noticias/leixoes-vence-e-convence-e-deixa-oliveirense-cada-vez-mais-em-perigo/1092695",
             "isExclusive": false
         },
         {
@@ -21164,6 +21934,16 @@
             "pubDate": "12-04-2026 16:08",
             "category": "Desporto",
             "link": "https://www.record.pt/futebol/futebol-nacional/2--liga/fc-porto-b/detalhe/joao-brandao-e-a-evolucao-do-fc-porto-b-queremos-trazer-coisas-novas",
+            "isExclusive": false
+        },
+        {
+            "title": "Conforto na tabela: Paredes goleia SC Braga B",
+            "description": "",
+            "image": "https://www.zerozero.pt/img/noticias/690/imgS620I1092690T20260412170044.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 16:07",
+            "category": "Desporto",
+            "link": "https://www.zerozero.pt/noticias/conforto-na-tabela-paredes-goleia-sc-braga-b/1092690",
             "isExclusive": false
         },
         {
@@ -21257,6 +22037,16 @@
             "isExclusive": false
         },
         {
+            "title": "AD Marco resiste reduzido a dez, mas complica contas da manutenção",
+            "description": "",
+            "image": "https://www.zerozero.pt/img/noticias/673/imgS620I1092673T20260412171107.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 15:53",
+            "category": "Desporto",
+            "link": "https://www.zerozero.pt/noticias/ad-marco-resiste-reduzido-a-dez-mas-complica-contas-da-manutencao/1092673",
+            "isExclusive": false
+        },
+        {
             "title": "Amora FC x Caldas SC - Resumo, Destaques e Crónica do Jogo",
             "description": "",
             "image": "https://www.zerozero.pt/img/noticias/668/imgS620I1092668T20260412155102.jpg",
@@ -21264,6 +22054,16 @@
             "pubDate": "12-04-2026 15:51",
             "category": "Desporto",
             "link": "https://www.zerozero.pt/noticias/amora-fc-x-caldas-sc-resumo-destaques-e-cronica-do-jogo/1092668",
+            "isExclusive": false
+        },
+        {
+            "title": "Bis de Gonçalo Chaves garante triunfo ao Caldas SC fora de portas",
+            "description": "",
+            "image": "https://www.zerozero.pt/img/noticias/668/imgS620I1092668T20260412171950.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 15:51",
+            "category": "Desporto",
+            "link": "https://www.zerozero.pt/noticias/-i-bis-i-de-goncalo-chaves-garante-triunfo-ao-caldas-sc-fora-de-portas/1092668",
             "isExclusive": false
         },
         {
@@ -21284,6 +22084,16 @@
             "pubDate": "12-04-2026 15:49",
             "category": "Desporto",
             "link": "https://www.zerozero.pt/noticias/sc-covilha-x-atletico-cp-resumo-destaques-e-cronica-do-jogo/1092664",
+            "isExclusive": false
+        },
+        {
+            "title": "Em plena Serra da Covilhã, respiram-se ares ainda mais tranquilos",
+            "description": "",
+            "image": "https://www.zerozero.pt/img/noticias/664/imgS620I1092664T20260412170133.jpg",
+            "source": "zerozero.pt",
+            "pubDate": "12-04-2026 15:49",
+            "category": "Desporto",
+            "link": "https://www.zerozero.pt/noticias/em-plena-serra-da-covilha-respiram-se-ares-ainda-mais-tranquilos/1092664",
             "isExclusive": false
         },
         {
@@ -39945,99 +40755,69 @@
             "category": "Desporto",
             "link": "https://www.record.pt/internacional/paises/brasil/detalhe/vinicius-junior-troca-as-chuteiras-pelos-chinelos-e-com-homenagem-ao-futebol-de-rua",
             "isExclusive": false
-        },
-        {
-            "title": "Volta ao País Basco: Paul Seixas volta a arrasar e vence segunda etapa",
-            "description": "Jovem francês  consolida liderança na corrida do World Tour",
-            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-07-16-47-48-2431589.png",
-            "source": "Record",
-            "pubDate": "07-04-2026 16:43",
-            "category": "Desporto",
-            "link": "https://www.record.pt/modalidades/ciclismo/detalhe/volta-ao-pais-basco-paul-seixas-volta-a-arrasar-e-vence-segunda-etapa",
-            "isExclusive": false
-        },
-        {
-            "title": "Anthony Correia conquista o prémio de melhor defesa pelo segundo mês consecutivo",
-            "description": "Central do Ac. Viseu distinguido como o melhor defesa de março da 2.ª Liga",
-            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-07-16-32-27-2431588.jpg",
-            "source": "Record",
-            "pubDate": "07-04-2026 16:41",
-            "category": "Desporto",
-            "link": "https://www.record.pt/futebol/futebol-nacional/2--liga/ac--viseu/detalhe/anthony-correia-conquista-o-premio-de-melhor-defesa-pelo-segundo-mes-consecutivo",
-            "isExclusive": false
-        },
-        {
-            "title": "Neerlandeses revelam interesse do Benfica e de Mourinho em Wout Weghorst",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69d51fb54576e.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYwLCJjcm9wSGVpZ2h0IjoxNDQwLCJjcm9wWCI6MCwiY3JvcFkiOjExfSwicG9ydHJhaXQiOnsiY3JvcFdpZHRoIjo5NTcsImNyb3BIZWlnaHQiOjE3MDEsImNyb3BYIjo4MDYsImNyb3BZIjowfX0=",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:33",
-            "category": "Desporto",
-            "link": "https://www.noticiasaominuto.com/desporto/2968545/neerlandeses-revelam-interesse-do-benfica-e-de-mourinho-em-wout-weghorst#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "FC Porto conquistou a LGSP Intercontinental Youth Cup",
-            "description": "Dragões venceram o Sp. Braga na final do torneio destinado a equipas sub-12",
-            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-07-16-15-25-2431585.jpg",
-            "source": "Record",
-            "pubDate": "07-04-2026 16:20",
-            "category": "Desporto",
-            "link": "https://www.record.pt/futebol/detalhe/fc-porto-venceu-a-lgsp-intercontinental-youth-cup",
-            "isExclusive": false
-        },
-        {
-            "title": "José Gomes: «Jogadores do Benfica vão querer dar uma resposta»",
-            "description": "Lateral-esquerdo dos madeirenses confia, todavia, na sua equipa e acredita que vai discutir resultado na Luz",
-            "image": "https://cdn.record.pt/images/2026-02/img_920x518uu2026-02-22-19-07-31-2423147.jpg",
-            "source": "Record",
-            "pubDate": "07-04-2026 16:19",
-            "category": "Desporto",
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/nacional/detalhe/jose-gomes-jogadores-do-benfica-vao-querer-dar-uma-resposta",
-            "isExclusive": false
-        },
-        {
-            "title": "F1 regressa a Nürburgring para teste com a Pirelli",
-            "description": "Mercedes e McLaren vão participar num teste de pneus da Pirelli no Nürburgring, nos dias 14 e 15 de abril, marcando o regresso da Fórmula 1 ao...",
-            "image": "https://images.autosport.pt/2026/03/kimi-antonelli-mercedes-japao-1-868x579.jpg",
-            "source": "Autosport",
-            "pubDate": "07-04-2026 16:11",
-            "category": "Desporto",
-            "link": "https://www.autosport.pt/formula1/f1/f1-regressa-a-nurburgring-para-teste-com-a-pirelli/?utm_source=rss&utm_medium=rss&utm_campaign=f1-regressa-a-nurburgring-para-teste-com-a-pirelli",
-            "isExclusive": false
-        },
-        {
-            "title": "Ricardo Brandão renova com o FC Porto até 2029",
-            "description": "Jovem pivô de 21 anos assume ser um momento muito especial na ainda curta carreira",
-            "image": "https://cdn.record.pt/images/2026-04/img_920x518uu2026-04-07-16-09-44-2431584.png",
-            "source": "Record",
-            "pubDate": "07-04-2026 16:10",
-            "category": "Desporto",
-            "link": "https://www.record.pt/modalidades/andebol/detalhe/ricardo-brandao-renova-com-o-fc-porto-ate-2029",
-            "isExclusive": false
-        },
-        {
-            "title": "FC Porto tremeu e os dados dão razão a Mourinho: a tabela final da I Liga aos olhos do Predictor",
-            "description": "Chegou ao fim mais uma jornada da Liga Portugal Betclic 2025/26 e o zerozero volta a olhar - como tem sido habitual - para as hipóteses apresentadas...",
-            "image": "https://www.zerozero.pt/img/noticias/584/imgS620I1089584T20260407135747.jpg",
-            "source": "zerozero.pt",
-            "pubDate": "07-04-2026 16:06",
-            "category": "Desporto",
-            "link": "https://www.zerozero.pt/noticias/fc-porto-tremeu-e-os-dados-dao-razao-a-mourinho-a-tabela-final-da-i-liga-aos-olhos-do-i-predictor-i-/1089584",
-            "isExclusive": false
-        },
-        {
-            "title": "Oficial: Ricardo Brandão renova até 2029 com o FC Porto",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/44726797.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYwLCJjcm9wSGVpZ2h0IjoxNDQwLCJjcm9wWCI6MCwiY3JvcFkiOjQyfSwicG9ydHJhaXQiOnsiY3JvcFdpZHRoIjo5NDEsImNyb3BIZWlnaHQiOjE2NzMsImNyb3BYIjo3NDAsImNyb3BZIjowfX0=",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:05",
-            "category": "Desporto",
-            "link": "https://www.noticiasaominuto.com/desporto/2968511/oficial-ricardo-brandao-renova-ate-2029-com-o-fc-porto#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
         }
     ],
     "Economia": [
+        {
+            "title": "Bruno Zhu do outro lado do espelho",
+            "description": "A exposição “Belas Artes” é, antes de mais, uma pergunta em aberto: quem tem o poder de nomear as coisas? E como encarar uma proposta que não tem...",
+            "image": "https://jornaleconomico.sapo.pt/wp-content/uploads/2026/04/sala-das-cores-©-Pedro-Pina-1024x576.jpg",
+            "source": "Jornal Económico",
+            "pubDate": "12-04-2026 17:35",
+            "category": "Economia",
+            "link": "https://jornaleconomico.sapo.pt/noticias/bruno-zhu-do-outro-lado-do-espelho/",
+            "isExclusive": false
+        },
+        {
+            "title": "Trump ameaça impor tarifas de 50% à China caso preste apoio militar a Teerão",
+            "description": "Trump deverá deslocar-se a Pequim de 14 a 15 de maio, onde se reunirá com o seu homólogo chinês, Xi Jinping.",
+            "image": "https://cdn.jornaldenegocios.pt/images/2026-04/img_900x560uu2026-04-08-08-50-52-521686.jpg",
+            "source": "Jornal de Negócios",
+            "pubDate": "12-04-2026 17:20",
+            "category": "Economia",
+            "link": "https://www.jornaldenegocios.pt/economia/mundo/detalhe/trump-ameaca-impor-tarifas-de-50-a-china-caso-preste-apoio-militar-a-teerao",
+            "isExclusive": true
+        },
+        {
+            "title": "Guerra faz disparar reservas nos hotéis: no Algarve aumentos atingem 30%",
+            "description": "À semelhança de Espanha e Grécia, Portugal está a beneficiar do desvio de turistas que optam por destinos mais seguros devido à guerra no Irão....",
+            "image": "https://images.impresa.pt/expresso/2026-04-08-lb-turistas-lx-01-06-17-0030_t.jpg-15eefcd9/1.91x1/mw-1200?outputFormat=jpeg",
+            "source": "Expresso",
+            "pubDate": "12-04-2026 17:19",
+            "category": "Economia",
+            "link": "https://expresso.pt/economia/economia_turismo/2026-04-12-guerra-faz-disparar-reservas-nos-hoteis-no-algarve-aumentos-atingem-30-5e6dba0c",
+            "isExclusive": true
+        },
+        {
+            "title": "Irão: Guarda Revolucionária ameaça inimigos com “turbilhão mortal” no Estreito de Ormuz",
+            "description": "“Todo o tráfego […] está completamente sob o controlo das forças armadas”, garantiu o comando naval da Guarda Revolucionária, na mesma mensagem.",
+            "image": "https://jornaleconomico.sapo.pt/wp-content/uploads/2026/03/estreito-de-ormuz-1-1024x736.jpg",
+            "source": "Jornal Económico",
+            "pubDate": "12-04-2026 17:08",
+            "category": "Economia",
+            "link": "https://jornaleconomico.sapo.pt/noticias/irao-guarda-revolucionaria-ameaca-inimigos-com-turbilhao-mortal-no-estreito-de-ormuz/",
+            "isExclusive": false
+        },
+        {
+            "title": "“A Arte da Guerra”: Médio Oriente: “A União Europeia foi de uma cobardia imensa”",
+            "description": "Entre os assuntos que merecem palavras duras e os assuntos que deviam merecer palavras duras, a União Europeia, igual a si própria, portou-se com a...",
+            "image": "https://jornaleconomico.sapo.pt/wp-content/uploads/2026/02/antonio-costa-ursula-von-der-leyen.png",
+            "source": "Jornal Económico",
+            "pubDate": "12-04-2026 17:00",
+            "category": "Economia",
+            "link": "https://jornaleconomico.sapo.pt/noticias/a-arte-da-guerra-medio-oriente-a-uniao-europeia-foi-de-uma-cobardia-imensa/",
+            "isExclusive": false
+        },
+        {
+            "title": "Jogo cai “40 milhÃµes” com guerra no IrÃ£o",
+            "description": "Depois de, em 2025, os portugueses terem apostado o segundo maior valor de sempre nos Jogos da Santa Casa, em 2026, com o rendimento disponível...",
+            "image": "https://cdn.jornaldenegocios.pt/images/2026-04/img_900x560uu2026-04-10-17-11-59-521874.jpg",
+            "source": "Jornal de Negócios",
+            "pubDate": "12-04-2026 17:00",
+            "category": "Economia",
+            "link": "https://www.jornaldenegocios.pt/empresas/detalhe/jogo-cai-40-milhoes-com-guerra-no-irao",
+            "isExclusive": true
+        },
         {
             "title": "Destituição de um presidente inapto foi prevista a pensar em Trump, destaca ex-diretor da CIA",
             "description": "John Brennan, que chefiou a CIA entre março de 2013 e janeiro de 2017, juntou-se ao coro de personalidades norte-americanas que consideram que Donald...",
@@ -40106,6 +40886,16 @@
             "pubDate": "12-04-2026 15:22",
             "category": "Economia",
             "link": "https://jornaleconomico.sapo.pt/noticias/putin-diz-se-disponivel-para-mediar-conflito-em-conversa-com-homologo-iraniano/",
+            "isExclusive": false
+        },
+        {
+            "title": "UE continua a acreditar na diplomacia para resolver conflito no Irão",
+            "description": "As declarações de Anouar El Anouni à AFP ocorreram após o fracasso das negociações entre os Estados Unidos e o Irão, em Islamabad.",
+            "image": "https://jornaleconomico.sapo.pt/wp-content/uploads/2022/09/bruxelas-e1499946677477.jpg",
+            "source": "Jornal Económico",
+            "pubDate": "12-04-2026 15:19",
+            "category": "Economia",
+            "link": "https://jornaleconomico.sapo.pt/noticias/ue-continua-a-acreditar-na-diplomacia-para-resolver-conflito-no-irao/",
             "isExclusive": false
         },
         {
@@ -49507,96 +50297,6 @@
             "category": "Economia",
             "link": "https://jornaleconomico.sapo.pt/noticias/decisoes-judiciais-sobre-divida-da-azul-cabem-ao-estado-e-nao-a-tap-garante-ministro/",
             "isExclusive": false
-        },
-        {
-            "title": "Governo quer continuar a cortar no ISP, semana após semana: até a um mínimo de 15 cêntimos por litro no diesel e 20 cêntimos na gasolina",
-            "description": "Com os preços dos combustíveis a ameaçarem novas subidas nas próximas semanas, o Governo quer continuar a poder cortar a taxa de ISP que recai sobre...",
-            "image": "https://images.impresa.pt/expresso/2026-04-07-gettyimages-2265164531.jpg-034bbf06/1.91x1/mw-1200?outputFormat=jpeg",
-            "source": "Expresso",
-            "pubDate": "07-04-2026 16:44",
-            "category": "Economia",
-            "link": "https://expresso.pt/economia/economia_energia/2026-04-07-governo-quer-continuar-a-cortar-no-isp-semana-apos-semana-ate-a-um-minimo-de-15-centimos-por-litro-no-diesel-e-20-centimos-na-gasolina-09e18a21",
-            "isExclusive": true
-        },
-        {
-            "title": "Governo vai voltar a prolongar licenças de handling",
-            "description": "Após preocupações levantadas pelas companhias aéreas e as próprias infraestruturas em relação à indefinição do processo no handling, até por a troca...",
-            "image": "https://cdn.jornaldenegocios.pt/images/2025-04/img_900x560uu2025-04-04-22-41-59-498980.jpg",
-            "source": "Jornal de Negócios",
-            "pubDate": "07-04-2026 16:42",
-            "category": "Economia",
-            "link": "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/governo-vai-voltar-a-prolongar-licencas-de-handling",
-            "isExclusive": true
-        },
-        {
-            "title": "Irão: Governo tem razões para acreditar que uso da Base das Lajes está a ser respeitado, diz Rangel",
-            "description": "Segundo o ministro, desde 15 de fevereiro, 13 dias antes do início da ofensiva aérea israelo-americana contra a República Islâmica, foram registadas...",
-            "image": "https://jornaleconomico.sapo.pt/wp-content/uploads/2022/04/DOC.20211123.34835964.cmb_20211123_342563-scaled-e1637692406285.jpg",
-            "source": "Jornal Económico",
-            "pubDate": "07-04-2026 16:40",
-            "category": "Economia",
-            "link": "https://jornaleconomico.sapo.pt/noticias/irao-governo-tem-razoes-para-acreditar-que-uso-da-base-das-lajes-esta-a-ser-respeitado-diz-rangel/",
-            "isExclusive": false
-        },
-        {
-            "title": "Angola. Visita papal traz água e luz para locais de celebração de missas",
-            "description": "O Presidente angolano autorizou obras emergenciais para eletricidade e abastecimento de água no valor de 3,56 mil milhões de kwanzas (3,38 milhões de...",
-            "image": "https://cdn-images.rtp.pt/icm/noticias/images/59/59fc293f16b5b88dbac14857928dc7a1?w=350&amp;q=50&amp;rect=0,23,1370,751&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "07-04-2026 16:36",
-            "category": "Economia",
-            "link": "https://www.rtp.pt/noticias/economia/angola-visita-papal-traz-agua-e-luz-para-locais-de-celebracao-de-missas_n1732031",
-            "isExclusive": false
-        },
-        {
-            "title": "Cento e setenta e nove de 9.227 candidaturas a apoios à reconstrução de casas em Leiria foram pagas",
-            "description": "As candidaturas a apoios para reconstrução de casas danificadas pelo mau tempo no concelho de Leiria pagas são 179 de um total de 9.227 entradas,...",
-            "image": "https://cdn-images.rtp.pt/noticias/images/default_rtpnoticias.png?w=350&amp;q=50&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "07-04-2026 16:30",
-            "category": "Economia",
-            "link": "https://www.rtp.pt/noticias/economia/cento-e-setenta-e-nove-de-9227-candidaturas-a-apoios-a-reconstrucao-de-casas-em-leiria-foram-pagas_n1732011",
-            "isExclusive": false
-        },
-        {
-            "title": "Católica Porto Teen Academy está de volta em julho",
-            "description": "A academia de verão da Universidade Católica Portuguesa, no Porto, dirigida a estudantes do ensino secundário, está de regresso. Os participantes são...",
-            "image": "https://jornaleconomico.sapo.pt/wp-content/uploads/2016/09/Catolica-Porto.jpg",
-            "source": "Jornal Económico",
-            "pubDate": "07-04-2026 16:18",
-            "category": "Economia",
-            "link": "https://jornaleconomico.sapo.pt/noticias/catolica-porto-teen-academy-esta-de-volta-em-julho/",
-            "isExclusive": false
-        },
-        {
-            "title": "Pinto Luz garante que “nÃ£o vai haver atrasos” no troÃ§o da alta velocidade Porto-OiÃ£",
-            "description": "Apesar do “chumbo” de alteraÃ§Ãµes propostas pelo consÃ³rcio liderado pela Mota-Engil, designadamente Ã  localizaÃ§Ã£o da estaÃ§Ã£o em Gaia, o...",
-            "image": "https://cdn.jornaldenegocios.pt/images/2026-01/img_900x560uu2026-01-09-09-46-20-516031.jpg",
-            "source": "Jornal de Negócios",
-            "pubDate": "07-04-2026 16:10",
-            "category": "Economia",
-            "link": "https://www.jornaldenegocios.pt/empresas/transportes/detalhe/pinto-luz-garante-que-nao-vai-haver-atrasos-no-troco-da-alta-velocidade-porto-oia",
-            "isExclusive": true
-        },
-        {
-            "title": "PSD quer eleição única para o Tribunal Constitucional em maio",
-            "description": "As eleições para o Tribunal Constituicional não deviam ser fatiadas. Entendemos, os três grupos parlamentares, que as eleições para o Tribunal...",
-            "image": "https://jornaleconomico.sapo.pt/wp-content/uploads/2021/07/39602465312_4afff70350_k-e1516412640732.jpg",
-            "source": "Jornal Económico",
-            "pubDate": "07-04-2026 16:06",
-            "category": "Economia",
-            "link": "https://jornaleconomico.sapo.pt/noticias/psd-quer-eleicao-unica-para-o-tribunal-constitucional-em-maio/",
-            "isExclusive": false
-        },
-        {
-            "title": "Pressão financeira e redes sociais afetam saúde mental dos portugueses",
-            "description": "Um em cada quatro portugueses admite gastar dinheiro para aliviar o stress, e quase metade da Geração Z sente impactos negativos na saúde mental...",
-            "image": "https://jornaleconomico.sapo.pt/wp-content/uploads/2022/05/economia-dinheiro-euro.png",
-            "source": "Jornal Económico",
-            "pubDate": "07-04-2026 16:02",
-            "category": "Economia",
-            "link": "https://jornaleconomico.sapo.pt/noticias/pressao-financeira-e-redes-sociais-afetam-saude-mental-dos-portugueses/",
-            "isExclusive": false
         }
     ],
     "Cultura": [
@@ -51699,39 +52399,29 @@
             "category": "Cultura",
             "link": "https://www.noticiasaominuto.com/cultura/2968275/indielisboa-acolhe-retratos-filmados-de-salazar-gisberta-e-nao-so#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "isExclusive": false
-        },
-        {
-            "title": "“Tenho uma média de 12 a 15 horas de ecrã no telemóvel. Se até a mim isto faz mal, em crianças e jovens já tem de ser tratado como vício”",
-            "description": "Mais recente convidado do Posto Emissor, Agir abordou o processo movido contra a Meta e a Google, nos Estados Unidos, e que resultou numa condenação...",
-            "image": "https://images.impresa.pt/expresso/2026-04-02-_rc00724ritacarmo.jpg-d54010d1/1.91x1/mw-1200?outputFormat=jpeg",
-            "source": "Expresso",
-            "pubDate": "07-04-2026 16:43",
-            "category": "Cultura",
-            "link": "https://expresso.pt/blitz/2026-04-07-tenho-uma-media-de-12-a-15-horas-de-ecra-no-telemovel.-se-ate-a-mim-isto-faz-mal-em-criancas-e-jovens-ja-tem-de-ser-tratado-como-vicio-354d35bb",
-            "isExclusive": true
-        },
-        {
-            "title": "Constituição da República Portuguesa traduzida para língua mirandesa",
-            "description": "A Constituição da República Portuguesa tem uma versão em mirandês, numa tradução da responsabilidade da Associaçon de Lhéngua i Cultura Mirandesa...",
-            "image": "https://cdn-images.rtp.pt/icm/noticias/images/37/371cd1d47dd736c6346c6ccecdb9e5af?w=350&amp;q=50&amp;rect=0,71,1370,751&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "07-04-2026 16:27",
-            "category": "Cultura",
-            "link": "https://www.rtp.pt/noticias/cultura/constituicao-da-republica-portuguesa-traduzida-para-lingua-mirandesa_n1732027",
-            "isExclusive": false
-        },
-        {
-            "title": "Governo britânico barra entrada de Kanye West no país",
-            "description": "O rapper mostrou-se disposto a reunir com membros da comunidade judaica britânica antes dos concertos para sanar anteriores atos anti-semitas....",
-            "image": "https://bordalo.observador.pt/v2/rs:fill:900/c:2000:1259:nowe:0:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2022/10/10044312/29143564.jpg",
-            "source": "Observador",
-            "pubDate": "07-04-2026 15:59",
-            "category": "Cultura",
-            "link": "https://observador.pt/2026/04/07/governo-britanico-proibe-kanye-west-de-entrar-no-reino-unido-devido-a-atos-de-anti-semitismo-festival-wireless-foi-cancelado/",
-            "isExclusive": false
         }
     ],
     "Ciência e Tech": [
+        {
+            "title": "5 coisas que o Linux consegue fazer e o Windows 11 não",
+            "description": "Durante décadas, o Windows manteve-se como o sistema operativo predominante em computadores pessoais e portáteis. Contudo, essa liderança não implica...",
+            "image": "https://pplware.sapo.pt/wp-content/uploads/2026/04/linux_windows.webp",
+            "source": "Pplware",
+            "pubDate": "12-04-2026 17:30",
+            "category": "Ciência e Tech",
+            "link": "https://pplware.sapo.pt/linux/5-coisas-que-o-linux-consegue-fazer-e-o-windows-11-nao/",
+            "isExclusive": false
+        },
+        {
+            "title": "Vida de mãe com Mom Life Simulator",
+            "description": "Há mães cuja vida daria um autêntico filme… ou melhor um verdadeiro jogo de computador. Bem, parece que os RioverseGames pensaram nisso mesmo e é...",
+            "image": "https://pplware.sapo.pt/wp-content/uploads/2026/04/MomLife_4.jpg",
+            "source": "Pplware",
+            "pubDate": "12-04-2026 17:00",
+            "category": "Ciência e Tech",
+            "link": "https://pplware.sapo.pt/jogos/vida-de-mae-com-mom-life-simulator/",
+            "isExclusive": false
+        },
         {
             "title": "Exercício, organização e jogos para desafiar a mente entre as melhores apps da semana para Android e iOS",
             "description": "Para o ajudar a dar mais “energia” à coleção de apps que tem no smartphone, a equipa do TEK Notícias reuniu algumas das melhores propostas das lojas...",
@@ -54341,19 +55031,39 @@
             "category": "Ciência e Tech",
             "link": "https://tek.sapo.pt/noticias/ciencia/artigos/imagens-do-por-da-terra-eclipses-espaciais-e-novas-crateras-depois-de-um-dia-de-recordes/",
             "isExclusive": false
-        },
-        {
-            "title": "Apple enfrenta processo judicial por alegada utilização ilegal de vídeos do YouTube",
-            "description": "A Apple encontra-se no centro de uma nova polémica judicial após ter sido alvo de uma ação coletiva movida por 3 criadores de conteúdo do YouTube. O...",
-            "image": "https://pplware.sapo.pt/wp-content/uploads/2025/10/apple_logo_empresa_1.jpg",
-            "source": "Pplware",
-            "pubDate": "07-04-2026 16:00",
-            "category": "Ciência e Tech",
-            "link": "https://pplware.sapo.pt/apple/apple-enfrenta-processo-judicial-por-alegada-utilizacao-ilegal-de-videos-do-youtube/",
-            "isExclusive": false
         }
     ],
     "Lifestyle": [
+        {
+            "title": "\"Não me importo se o meu namorado se envolver com outras, até gosto\"",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69d79ddcb6723.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYwLCJjcm9wSGVpZ2h0IjoxNDQwLCJjcm9wWCI6MCwiY3JvcFkiOjIyMX0sInBvcnRyYWl0Ijp7ImNyb3BXaWR0aCI6MjE2MCwiY3JvcEhlaWdodCI6Mzg0MCwiY3JvcFgiOjE3MSwiY3JvcFkiOjB9fQ==",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:01",
+            "category": "Lifestyle",
+            "link": "https://www.noticiasaominuto.com/fama/2969766/nao-me-importo-se-o-meu-namorado-se-envolver-com-outras-ate-gosto#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Truque caseiro para remover manchas e odores de chichi (eficazmente)",
+            "description": "",
+            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69d52b1d486db.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYwLCJjcm9wSGVpZ2h0IjoxNDQwLCJjcm9wWCI6MSwiY3JvcFkiOjB9fQ==",
+            "source": "Notícias ao Minuto",
+            "pubDate": "12-04-2026 17:00",
+            "category": "Lifestyle",
+            "link": "https://www.noticiasaominuto.com/lifestyle/2968563/truque-caseiro-para-remover-manchas-e-odores-de-chichi-eficazmente#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "isExclusive": false
+        },
+        {
+            "title": "Este professor britânico diz que não suporta cães. E isso está a dificultar a sua vida amorosa",
+            "description": "Noah Gabriel Martin, um professor de filosofia britânico, não gosta de cães. O problema? Esta preferência tornou-se o maior obstáculo na sua busca...",
+            "image": "https://cdn.cmjornal.pt/images/2026-04/img_932x621uu2026-04-12-16-51-51-2278090.png",
+            "source": "Correio da Manhã",
+            "pubDate": "12-04-2026 16:53",
+            "category": "Lifestyle",
+            "link": "https://www.petsandcompany.pt/pets/detalhe/este-professor-britanico-diz-que-nao-suporta-caes-e-isso-esta-a-dificultar-a-sua-vida-amorosa",
+            "isExclusive": false
+        },
         {
             "title": "Livro polémico expõe alegada vida dupla de Felipe VI e relações secretas com homens",
             "description": "Nova obra revela detalhes chocantes sobre a intimidade do rei de Espanha.",
@@ -57423,39 +58133,19 @@
             "category": "Lifestyle",
             "link": "https://expresso.pt/boa-cama-boa-mesa/viagens-hoteis/roteiros-escapadinhas/2026-04-07-conheca-tomar-a-cidade-templaria-que-acolhe-a-presidencia-aberta-de-antonio-jose-seguro-0db39b1a",
             "isExclusive": true
-        },
-        {
-            "title": "Keanu Reeves e namorada Alexandra Grant unidos em evento",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69d513ccbe0da.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoxOTMxLCJjcm9wSGVpZ2h0IjoxMDg2LCJjcm9wWCI6NDAsImNyb3BZIjoxMzF9fQ==",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:40",
-            "category": "Lifestyle",
-            "link": "https://www.noticiasaominuto.com/fama/2968510/keanu-reeves-e-namorada-alexandra-grant-unidos-em-evento#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "Caracóis secos e danificados? O cabelo pode precisar destes 7 nutrientes",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69d512361ce85.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYyLCJjcm9wSGVpZ2h0IjoxNDQxLCJjcm9wWCI6LTEsImNyb3BZIjo2MX19",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:21",
-            "category": "Lifestyle",
-            "link": "https://www.noticiasaominuto.com/lifestyle/2968463/caracois-secos-e-danificados-o-cabelo-pode-precisar-destes-7-nutrientes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "Gio Party & Pasta: O novo restaurante onde os jantares viram festas",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_69d511e7327c8.webp",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:10",
-            "category": "Lifestyle",
-            "link": "https://www.noticiasaominuto.com/lifestyle/2968487/gio-party-pasta-o-novo-restaurante-onde-os-jantares-viram-festas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
         }
     ],
     "Sociedade": [
+        {
+            "title": "Ponta Delgada com projeto gratuito que proporciona cuidados de bem-estar à população",
+            "description": "Projeto está articulado com o Gabinete Municipal de Saúde e Bem-Estar, que assegura atendimento presencial, mediante agendamento.",
+            "image": "https://cdn.cmjornal.pt/images/2014-10/img_932x621uu2014-10-11-14-06-00-410515.jpg",
+            "source": "Correio da Manhã",
+            "pubDate": "12-04-2026 16:55",
+            "category": "Sociedade",
+            "link": "https://www.cmjornal.pt/sociedade/detalhe/ponta-delgada-com-projeto-gratuito-que-proporciona-cuidados-de-bem-estar-a-populacao",
+            "isExclusive": false
+        },
         {
             "title": "Ferraris, Bentleys, Maseratis, mansões: mais de €5 mil milhões apreendidos a criminosos em dois anos",
             "description": "Mais de cinco mil milhões de euros foram recuperados pelo Ministério Público a criminosos, entre 2023 e 2025. Entre os bens estão carros topo de gama...",
@@ -57464,6 +58154,16 @@
             "pubDate": "12-04-2026 16:17",
             "category": "Sociedade",
             "link": "https://expresso.pt/justica/2026-04-12-ferraris-bentleys-maseratis-mansoes-mais-de-5-mil-milhoes-apreendidos-a-criminosos-em-dois-anos-f22ce20c",
+            "isExclusive": true
+        },
+        {
+            "title": "Ferraris, Bentleys, Maseratis, mansões: mais de €5 mil milhões apreendidos a criminosos em dois anos",
+            "description": "Mais de cinco mil milhões de euros foram recuperados pelo Ministério Público a criminosos, entre 2023 e 2025. Entre os bens estão carros topo de gama...",
+            "image": "https://images.impresa.pt/expresso/2026-04-12-gettyimages-1792753763.jpg-a71b0c71/1.91x1/mw-1200?outputFormat=jpeg",
+            "source": "Expresso",
+            "pubDate": "12-04-2026 16:17",
+            "category": "Sociedade",
+            "link": "https://expresso.pt/justica/2026-04-12-video-ferraris-bentleys-maseratis-mansoes-mais-de-5-mil-milhoes-apreendidos-a-criminosos-em-dois-anos-f22ce20c",
             "isExclusive": true
         },
         {
@@ -60845,66 +61545,6 @@
             "category": "Sociedade",
             "link": "https://www.cmjornal.pt/sociedade/detalhe/diretora-geral-da-saude-alerta-para-perigos-da-desinformacao-no-setor",
             "isExclusive": false
-        },
-        {
-            "title": "Sande Silva afasta “mito do fogo posto” e diz que é preciso mexer nas instituições",
-            "description": "“Quanto mais arde, mais a terra é abandonada”, afirma o especialista, ouvido no Parlamento, e “quanto mais é abandonada, maior é a probabilidade de...",
-            "image": "https://imagens.publico.pt/imagens.aspx/2079771?tp=UH&db=IMAGENS&type=JPG&share=1&o=BarraFacebook_Azul.png",
-            "source": "Público",
-            "pubDate": "07-04-2026 16:41",
-            "category": "Sociedade",
-            "link": "https://www.publico.pt/2026/04/07/azul/noticia/sande-silva-afasta-mito-fogo-posto-preciso-mexer-instituicoes-2170420",
-            "isExclusive": false
-        },
-        {
-            "title": "Relógio da Torre dos Clérigos no Porto está parado",
-            "description": "Ao relógio falta uma peça que, por ser antiga, precisa de ser feita à medida",
-            "image": "https://images.impresa.pt/expresso/2026-01-16-torre-dos-clerigos-porto.jpg-2140a04d/1.91x1/mw-1200?outputFormat=jpeg",
-            "source": "Expresso",
-            "pubDate": "07-04-2026 16:37",
-            "category": "Sociedade",
-            "link": "https://expresso.pt/sociedade/2026-04-07-relogio-da-torre-dos-clerigos-no-porto-esta-parado-a43412da",
-            "isExclusive": true
-        },
-        {
-            "title": "Jornalistas do Expresso vencem Prémio Jornalismo em Saúde APIFARMA/Clube de Jornalistas com trabalho sobre desigualdades na mortalidade",
-            "description": "O trabalho Mortalidade chega a ser o dobro entre concelhos aborda desigualdades regionais na saúde, pondo em relevo as diferenças na probabilidade de...",
-            "image": "https://images.impresa.pt/expresso/2025-11-20-gettyimages-1160037261.jpg-b16d7c28/1.91x1/mw-1200?outputFormat=jpeg",
-            "source": "Expresso",
-            "pubDate": "07-04-2026 16:32",
-            "category": "Sociedade",
-            "link": "https://expresso.pt/sociedade/2026-04-07-jornalistas-do-expresso-vencem-premio-jornalismo-em-saude-apifarma-clube-de-jornalistas-com-trabalho-sobre-desigualdades-na-mortalidade-daa94973",
-            "isExclusive": true
-        },
-        {
-            "title": "Internamentos sociais: medidas propostas não chegam para responder ao envelhecimento",
-            "description": "Vice-presidente da União das Misericórdias Portuguesas diz que “soluções provisórias” propostas pelo PS não irão resolver a questão e insistiu que...",
-            "image": "https://imagens.publico.pt/imagens.aspx/2079762?tp=UH&db=IMAGENS&type=JPG&share=1&o=BarraFacebook_Publico.png",
-            "source": "Público",
-            "pubDate": "07-04-2026 16:05",
-            "category": "Sociedade",
-            "link": "https://www.publico.pt/2026/04/07/sociedade/noticia/internamentos-sociais-medidas-propostas-nao-chegam-responder-envelhecimento-2170471",
-            "isExclusive": false
-        },
-        {
-            "title": "Há quem acorde mais tarde do que nós? Um mapa com dados curiosos",
-            "description": "Perguntas com resposta nos números O conteúdo Há quem acorde mais tarde do que nós? Um mapa com dados curiosos aparece primeiro em Visão.",
-            "image": "https://images.trustinnews.pt/uploads/sites/5/2019/10/predisposicao-para-acordar-cedo-e-muito-mais-genetica-do-que-se-pensava-e-diminui-probabilidade-de-depressao-2.jpeg",
-            "source": "Visão",
-            "pubDate": "07-04-2026 16:00",
-            "category": "Sociedade",
-            "link": "https://visao.pt/atualidade/visao-dos-factos/2026-04-07-ha-quem-acorde-mais-tarde-do-que-nos-um-mapa-com-dados-curiosos/?utm_source=rss&utm_medium=rss&utm_campaign=ha-quem-acorde-mais-tarde-do-que-nos-um-mapa-com-dados-curiosos",
-            "isExclusive": false
-        },
-        {
-            "title": "Trabalho sobre imunidade publicado na VISÃO vence prémio de jornalismo em Saúde e pode agora lê-lo aqui",
-            "description": "A jornalista Sónia Calheiros assina o trabalho agora premiado O conteúdo Trabalho sobre imunidade publicado na VISÃO vence prémio de jornalismo em...",
-            "image": "https://images.trustinnews.pt/uploads/sites/5/2026/04/260407_V_1696_horizontal-600x315.jpg",
-            "source": "Visão",
-            "pubDate": "07-04-2026 15:58",
-            "category": "Sociedade",
-            "link": "https://visao.pt/atualidade/sociedade/2026-04-07-trabalho-sobre-imunidade-publicado-na-visao-vence-premio-de-jornalismo-em-saude-e-pode-agora-le-lo-aqui/?utm_source=rss&utm_medium=rss&utm_campaign=trabalho-sobre-imunidade-publicado-na-visao-vence-premio-de-jornalismo-em-saude-e-pode-agora-le-lo-aqui",
-            "isExclusive": false
         }
     ],
     "Política": [
@@ -63907,99 +64547,19 @@
             "category": "Política",
             "link": "https://expresso.pt/parlamento/2026-04-07-nao-sou-irredutivel-em-nada-ventura-diz-que-ps-tem-excesso-de-presenca-nos-orgaos-externos-mas-nao-poe-de-parte-entendimento-a9178279",
             "isExclusive": true
-        },
-        {
-            "title": "Ventura diz que há acordo para dois juízes do Tribunal Constitucional indicados pelo PSD e um pelo Chega",
-            "description": "De acordo com o líder do Chega, o nome do quarto juiz ainda está a ser negociado para o caso de o presidente José João Abrantes sair do TC.",
-            "image": "https://cdn.cmjornal.pt/images/2025-11/img_932x621uu2026-03-31-19-11-18-2246865.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "07-04-2026 16:25",
-            "category": "Política",
-            "link": "https://www.cmjornal.pt/politica/detalhe/ventura-diz-que-ha-acordo-para-dois-juizes-do-tribunal-constitucional-indicados-pelo-psd-e-um-pelo-chega",
-            "isExclusive": false
-        },
-        {
-            "title": "\"Todos desejamos que não aconteça nenhuma catástrofe no verão\": Seguro chama à atenção para limpeza de caminhos florestais",
-            "description": "Chefe do Estado mostrou-se satisfeito por, neste momento, haver trabalhos em curso.",
-            "image": "https://cdn.cmjornal.pt/images/2026-04/img_932x621uu2026-04-07-16-20-13-2277083.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "07-04-2026 16:21",
-            "category": "Política",
-            "link": "https://www.cmjornal.pt/politica/detalhe/todos-desejamos-que-nao-aconteca-nenhuma-catastrofe-no-verao-seguro-chama-a-atencao-para-limpeza-de-caminhos-florestais",
-            "isExclusive": false
-        },
-        {
-            "title": "Seguro quer \"menos palavras e mais ação\" para que os apoios depois do mau tempo cheguem rápido",
-            "description": "Presidente da República referiu também que existe um trabalho de informação e de esclarecimento que deve ser feito, em relação aos apoios.",
-            "image": "https://cdn.cmjornal.pt/images/2026-03/img_932x621uu2026-03-28-16-25-40-2275268.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "07-04-2026 16:18",
-            "category": "Política",
-            "link": "https://www.cmjornal.pt/politica/detalhe/seguro-quer-menos-palavras-e-mais-acao-para-que-os-apoios-depois-do-mau-tempo-cheguem-rapido",
-            "isExclusive": false
-        },
-        {
-            "title": "Indicação do Chega ao TC? \"Alcançado e materializado\", diz Ventura",
-            "description": "",
-            "image": "https://media-manager.noticiasaominuto.com/1920/naom_686ee4b9744a6.webp?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYwLCJjcm9wSGVpZ2h0IjoxNDQwLCJjcm9wWCI6MCwiY3JvcFkiOjI2N30sInBvcnRyYWl0Ijp7ImNyb3BXaWR0aCI6OTYxLCJjcm9wSGVpZ2h0IjoxNzA4LCJjcm9wWCI6Nzc2LCJjcm9wWSI6MH19",
-            "source": "Notícias ao Minuto",
-            "pubDate": "07-04-2026 16:17",
-            "category": "Política",
-            "link": "https://www.noticiasaominuto.com/politica/2968529/indicacao-do-chega-ao-tc-alcancado-e-materializado-diz-ventura#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "isExclusive": false
-        },
-        {
-            "title": "PS quer que Governo estude modelos de recrutamento voluntário para as Forças Armadas",
-            "description": "O Chega também entregou um projecto no qual recomenda ao Governo que o Dia da Defesa Nacional dure pelo menos cinco dias úteis e permita a “inspecção...",
-            "image": "https://imagens.publico.pt/imagens.aspx/2079768?tp=UH&db=IMAGENS&type=JPG&share=1&o=BarraFacebook_Publico.png",
-            "source": "Público",
-            "pubDate": "07-04-2026 16:12",
-            "category": "Política",
-            "link": "https://www.publico.pt/2026/04/07/politica/noticia/ps-quer-governo-estude-modelos-recrutamento-voluntario-forcas-armadas-2170472",
-            "isExclusive": false
-        },
-        {
-            "title": "Carneiro insiste no IVA zero para cabaz alimentar e diz que resistência do Governo “é errada”",
-            "description": "Apesar da pressão da oposição, o executivo tem afastado a implementação do IVA zero num cabaz de alimentos essenciais e prefere ir agindo “de forma...",
-            "image": "https://imagens.publico.pt/imagens.aspx/2079714?tp=UH&db=IMAGENS&type=JPG&share=1&o=BarraFacebook_Publico.png",
-            "source": "Público",
-            "pubDate": "07-04-2026 16:09",
-            "category": "Política",
-            "link": "https://www.publico.pt/2026/04/07/politica/noticia/carneiro-insiste-iva-zero-cabaz-alimentar-resistencia-governo-errada-2170449",
-            "isExclusive": false
-        },
-        {
-            "title": "PSD propõe Pedro Duarte para o Conselho de Estado em lista com o Chega, que inclui Ventura e Pacheco Amorim",
-            "description": "Presidentes das câmaras de Lisboa e Porto ficam no órgão de aconselhamento do Presidente. Leonor Beleza mantém-se como conselheira, mas agora em...",
-            "image": "https://images.impresa.pt/expresso/2025-11-11-tomada-de-posse-de-carlos-moedas-como-presidente-da-camara-municipal-de-lisboa-52ee874f/1.91x1/mw-1200?outputFormat=jpeg",
-            "source": "Expresso",
-            "pubDate": "07-04-2026 16:07",
-            "category": "Política",
-            "link": "https://expresso.pt/parlamento/2026-04-07-psd-propoe-pedro-duarte-para-o-conselho-de-estado-em-lista-com-o-chega-que-inclui-ventura-e-pacheco-amorim-7c5209ff",
-            "isExclusive": true
-        },
-        {
-            "title": "PSD diz haver entendimento com PS e Chega para \"eleição conjunta\" de quatro juízes do TC",
-            "description": "O líder parlamentar do PSD afirmou hoje que existe um entendimento a três, com PS e Chega, para a eleição de quatro juízes do Tribunal...",
-            "image": "https://cdn-images.rtp.pt/icm/noticias/images/e9/e9ff9a125b17fa009528242c0e5be024?w=350&amp;q=50&amp;rect=0,0,1499,822&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "07-04-2026 16:04",
-            "category": "Política",
-            "link": "https://www.rtp.pt/noticias/politica/psd-diz-haver-entendimento-com-ps-e-chega-para-eleicao-conjunta-de-quatro-juizes-do-tc_n1732030",
-            "isExclusive": false
-        },
-        {
-            "title": "PSD indica Beleza, Moedas e Pedro Duarte para Conselho de Estado em lista conjunta com Chega",
-            "description": "O PSD vai indicar para o Conselho de Estado a sua primeira vice-presidente, Leonor Beleza, o autarca Carlos Moedas e o ex-ministro Pedro Duarte, numa...",
-            "image": "https://cdn-images.rtp.pt/icm/noticias/images/58/58f829696d2c43e2db345dd7b4a217af?w=350&amp;q=50&amp;rect=0,0,1499,822&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "07-04-2026 15:59",
-            "category": "Política",
-            "link": "https://www.rtp.pt/noticias/politica/psd-indica-beleza-moedas-e-pedro-duarte-para-conselho-de-estado-em-lista-conjunta-com-chega_n1732025",
-            "isExclusive": false
         }
     ],
     "Multimédia": [
+        {
+            "title": "17h- Donald Trump ameaça China caso preste apoio militar a Teerão",
+            "description": "",
+            "image": "https://cdn-images.rtp.pt/noticias/images/antena1_default.png?w=350&amp;q=50&amp;auto=format",
+            "source": "RTP Notícias",
+            "pubDate": "12-04-2026 17:15",
+            "category": "Multimédia",
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/17h-donald-trump-ameaca-china-caso-preste-apoio-militar-a-teerao_a1_1733378",
+            "isExclusive": false
+        },
         {
             "title": "16h- Guarda Revolucionária Iraniana ameaça aprisionar os inimigos no estreito de Ormuz",
             "description": "",
@@ -67829,96 +68389,6 @@
             "category": "Multimédia",
             "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260407-165914-condutora-nao-se-apercebe-de-obras-na-estrada-e-deixa-que-carro-caia-em-buraco-em-albergaria-a-velha",
             "isExclusive": false
-        },
-        {
-            "title": "Reveladas novas imagens do tiroteio em frente ao consulado de Israel em Istambul",
-            "description": "Três homens envolveram-se num tiroteio com a polícia em frente ao consulado de Israel em Istambul, Turquia, esta terça-feira. As autoridades estão a...",
-            "image": "https://cdn.cmjornal.pt/images/2026-04/img_932x621uu2026-04-07-16-38-30-2277087.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "07-04-2026 16:41",
-            "category": "Multimédia",
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/reveladas-novas-imagens-do-tiroteio-em-frente-ao-consulado-de-israel-em-istambul",
-            "isExclusive": false
-        },
-        {
-            "title": "Perde 18 mil euros em burla com nome de António Lobo Antunes",
-            "description": "Homem apresentou denúncia na Polícia Judiciária, relatando perdas após investimento em criptomoedas.",
-            "image": "https://cdn.cmjornal.pt/images/2022-06/img_932x621uu2022-06-16-21-41-16-1159856.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "07-04-2026 16:28",
-            "category": "Multimédia",
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260407-162824-perde-18-mil-euros-em-burla-com-nome-de-antonio-lobo-antunes",
-            "isExclusive": false
-        },
-        {
-            "title": "Loja de roupa assaltada pela sexta vez no Marco de Canaveses",
-            "description": "Assaltos têm sido frequentes na região.",
-            "image": "https://cdn.cmjornal.pt/images/2021-04/img_932x621uu2021-04-22-12-59-24-1031834.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "07-04-2026 16:24",
-            "category": "Multimédia",
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/loja-de-roupa-assaltada-pela-sexta-vez-no-marco-de-canaveses",
-            "isExclusive": false
-        },
-        {
-            "title": "16h Acidentes: \"Vamos ser muito implacáveis com o que se está a passar!\" afirma Ministro da Adminstração Interna",
-            "description": "",
-            "image": "https://cdn-images.rtp.pt/noticias/images/antena1_default.png?w=350&amp;q=50&amp;auto=format",
-            "source": "RTP Notícias",
-            "pubDate": "07-04-2026 16:23",
-            "category": "Multimédia",
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/16h-acidentes-vamos-ser-muito-implacaveis-com-o-que-se-esta-a-passar-afirma-ministro-da-adminstracao-interna_a1_1732036",
-            "isExclusive": false
-        },
-        {
-            "title": "Manuel Rodrigues alerta que produtos ilegais e perigosos chegam pelos correios como as notas falsas vindas da China",
-            "description": "Comentador da CMTV elogia trabalho da Polícia Judiciária e da Autoridade Tributária na prevenção da circulação destas contrafações.",
-            "image": "https://cdn.cmjornal.pt/images/2026-04/img_932x621uu2026-04-07-15-57-44-2277078.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "07-04-2026 16:22",
-            "category": "Multimédia",
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/manuel-rodrigues-alerta-que-produtos-ilegais-e-perigosos-chegam-pelos-correios-como-as-notas-falsas-vindas-da-china",
-            "isExclusive": false
-        },
-        {
-            "title": "Teto de aeroporto na Indonésia desaba após chuvas intensas",
-            "description": "Parte do teto do Aeroporto Internacional Soekarno-Hatta, na Indonésia, desabou, esta segunda-feira, após dias de chuvas intensas.",
-            "image": "https://cdn.cmjornal.pt/images/2026-04/img_932x621uu2026-04-07-16-19-48-2277082.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "07-04-2026 16:21",
-            "category": "Multimédia",
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/teto-de-aeroporto-na-indonesia-desaba-apos-chuvas-intensas",
-            "isExclusive": false
-        },
-        {
-            "title": "Pesadelo sem fim! Restaurante de Ljubomir completamente destruído em incêndio",
-            "description": "O gastrobar mexicano Carnal sofreu uma destruição total, anunciou a equipa do chef.",
-            "image": "https://cdn.cmjornal.pt/images/2024-03/img_932x621uu2024-03-12-11-47-51-1596914.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "07-04-2026 16:19",
-            "category": "Multimédia",
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260407-161948-pesadelo-sem-fim-restaurante-de-ljubomir-completamente-destruido-em-incendio",
-            "isExclusive": false
-        },
-        {
-            "title": "Jéssica Athayde nega ter feito procedimentos estéticos às bochechas",
-            "description": "Comentadores do ‘OlÃ¡, Bom Dia!’ falam sobre as cirurgias plÃ¡sticas da atriz que assume publicamente ter botox e silicone.",
-            "image": "https://cdn.cmjornal.pt/images/2026-04/img_932x621uu2026-04-07-16-15-38-2277081.jpg",
-            "source": "Correio da Manhã",
-            "pubDate": "07-04-2026 16:16",
-            "category": "Multimédia",
-            "link": "https://www.cmjornal.pt/cmtv/programas/entretenimento/ola-bom-dia/detalhe/jessica-athayde-nega-ter-feito-procedimentos-esteticos-as-bochechas",
-            "isExclusive": false
-        },
-        {
-            "title": "Presidência Aberta e as primeiras ações de Seguro Presidente",
-            "description": "Em funções há sensivelmente um mês, António José Seguro, como prometido em campanha, deu início à sua primeira Presidência Aberta. Com foco nas...",
-            "image": "https://images.impresa.pt/expresso/2025-06-10-1920x1280_linhas_vermelhas_jun_2025.png-a80771dc/1.91x1/mw-1200?outputFormat=jpeg",
-            "source": "Expresso",
-            "pubDate": "07-04-2026 16:00",
-            "category": "Multimédia",
-            "link": "https://expresso.pt/podcasts/linhas-vermelhas/2026-04-07-presidencia-aberta-e-as-primeiras-acoes-de-seguro-presidente-a3d784b4",
-            "isExclusive": true
         }
     ],
     "Opinião": [
@@ -69561,26 +70031,6 @@
             "category": "Opinião",
             "link": "https://expresso.pt/opiniao/2026-04-07-read-my-lipso-ps-cedeu-ao-psd-e-ao-chega-34abd3a8",
             "isExclusive": true
-        },
-        {
-            "title": "Um Presidente encurralado apesar do \"exército mais poderoso do mundo\"",
-            "description": "",
-            "image": "https://www.publico.pt/site-2022/assets/img/newsletters/omundodehoje.png",
-            "source": "Público",
-            "pubDate": "07-04-2026 16:02",
-            "category": "Opinião",
-            "link": "https://www.publico.pt/2026/04/07/newsletter/mundo-hoje",
-            "isExclusive": false
-        },
-        {
-            "title": "A lição das catástrofes é a diversidade energética",
-            "description": "“A disponibilidade de energia para o consumo só pode ser garantida se houver investimento na salvaguarda de uma diversidade de soluções...",
-            "image": "https://images.impresa.pt/expresso/2025-06-13-jaime-braga_autor.png-cec36972/1.91x1/mw-1200?outputFormat=jpeg",
-            "source": "Expresso",
-            "pubDate": "07-04-2026 16:00",
-            "category": "Opinião",
-            "link": "https://expresso.pt/opiniao/2026-04-07-a-licao-das-catastrofes-e-a-diversidade-energetica-b08fcf15",
-            "isExclusive": true
         }
     ],
     "Vídeojogos": [
@@ -70972,36 +71422,6 @@
             "pubDate": "07-04-2026 16:50",
             "category": "Vídeojogos",
             "link": "https://www.eurogamer.pt/ja-ninguem-consegue-comprar-videojogos-como-o-gaming-se-tornou-num-luxo-insustentavel",
-            "isExclusive": false
-        },
-        {
-            "title": "Starfield na PlayStation 5 Pro - Gameplay do modo Enhanced Graphics",
-            "description": "O enorme RPG espacial da Bethesda aterrou finalmente nas consolas PlayStation 5. Vê aqui as primeiras imagens de Starfield a correr na PS5 Pro,...",
-            "image": "https://sm.ign.com/ign_pt/video/s/starfield-/starfield-on-ps5-pro-enhanced-graphics-mode-gameplay_6u73.jpg",
-            "source": "Ign Portugal",
-            "pubDate": "07-04-2026 16:15",
-            "category": "Vídeojogos",
-            "link": "https://pt.ign.com/starfield/156727/video/starfield-na-playstation-5-pro-gameplay-do-modo-enhanced-graphics",
-            "isExclusive": false
-        },
-        {
-            "title": "Zombuds - Primeiras Imagens",
-            "description": "",
-            "image": "https://sm.ign.com/ign_pt/gallery/z/zombuds-fi/zombuds-first-screenshots_6y3h.jpg",
-            "source": "Ign Portugal",
-            "pubDate": "07-04-2026 16:07",
-            "category": "Vídeojogos",
-            "link": "https://pt.ign.com/zombuds/156724/gallery/zombuds-primeiras-imagens",
-            "isExclusive": false
-        },
-        {
-            "title": "Zombuds: O simulador onde usas zombies para criar um império de narcóticos",
-            "description": "O objetivo é produzir medicamentos, drogas e substâncias bizarras para lucrar. Descobre Zombuds, um simulador de negócios em mundo aberto onde podes...",
-            "image": "https://sm.ign.com/ign_pt/news/z/zombuds-a-/zombuds-a-post-apocalyptic-drug-tycoon-business-sim-announce_fnkm.jpg",
-            "source": "Ign Portugal",
-            "pubDate": "07-04-2026 16:07",
-            "category": "Vídeojogos",
-            "link": "https://pt.ign.com/zombuds/156722/news/zombuds-anuncio-simulador-negocios-zombies-apocalipse",
             "isExclusive": false
         }
     ],
