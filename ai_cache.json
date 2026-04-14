@@ -6,18 +6,6 @@
         "raw_response": "Educação",
         "confidence": "failed"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/iranianos-saem-a-rua-para-assinalar-40-dia-de-luto-pela-morte-de-ali-khamenei": {
-        "category": "Mundo",
-        "timestamp": "2026-04-09T14:14:46.377250+00:00",
-        "title": "Iranianos saem à rua para assinalar 40.º dia de luto pela morte de Ali Khamenei",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/defesa-nacional/2026-04-09-seguro-promete-atencao-permanente-aos-antigos-combatentes-e-diz-que-nao-aceitara-que-sejam-um-tema-de-arquivo-4ee26f8e": {
-        "category": "Política",
-        "timestamp": "2026-04-09T14:14:46.947268+00:00",
-        "title": "Seguro promete atenção permanente aos antigos combatentes e diz que não aceitará que sejam “um tema ...",
-        "confidence": "exact"
-    },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/fmi-diz-que-crise-causada-pelo-conflito-no-medio-oriente-sera-grande-global-e-assimetrica": {
         "category": "Mundo",
         "timestamp": "2026-04-09T15:56:45.375284+00:00",
@@ -719,6 +707,12 @@
         "category": "Lifestyle",
         "timestamp": "2026-04-14T12:46:36.381074+00:00",
         "title": "Os brancos Vale Mercê são perfeitos para a cozinha do Gentleman",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/partidos-politicos/2026-04-14-il-quer-empenho-na-governacao-ao-inves-de-foco-na-propaganda-1e63948a": {
+        "category": "Política",
+        "timestamp": "2026-04-14T14:51:30.868226+00:00",
+        "title": "IL quer “empenho” na governação ao invés de foco na propaganda",
         "confidence": "exact"
     }
 }
