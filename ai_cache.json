@@ -6,12 +6,6 @@
         "raw_response": "Educação",
         "confidence": "failed"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/comissarios-europeus-reunem-se-segunda-feira-para-avaliar-situacao-no-medio-oriente-e-impacto-na-ue": {
-        "category": "Mundo",
-        "timestamp": "2026-04-09T12:04:43.580782+00:00",
-        "title": "Comissários europeus reúnem-se segunda-feira para avaliar situação no Médio Oriente e impacto na UE",
-        "confidence": "exact"
-    },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/iranianos-saem-a-rua-para-assinalar-40-dia-de-luto-pela-morte-de-ali-khamenei": {
         "category": "Mundo",
         "timestamp": "2026-04-09T14:14:46.377250+00:00",
@@ -719,6 +713,12 @@
         "category": "Política",
         "timestamp": "2026-04-14T11:37:21.842039+00:00",
         "title": "Países voluntários vão discutir missão defensiva em Ormuz na sexta-feira",
+        "confidence": "exact"
+    },
+    "https://www.publico.pt/2026/04/14/edicoes-publico/noticia/brancos-vale-merce-sao-perfeitos-cozinha-gentleman-2171082": {
+        "category": "Lifestyle",
+        "timestamp": "2026-04-14T12:46:36.381074+00:00",
+        "title": "Os brancos Vale Mercê são perfeitos para a cozinha do Gentleman",
         "confidence": "exact"
     }
 }
