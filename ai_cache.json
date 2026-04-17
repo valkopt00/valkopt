@@ -1,11 +1,4 @@
 {
-    "https://www.publico.pt/2026/04/12/edicoes-publico/noticia/pessoa-existe-2170852": {
-        "category": null,
-        "timestamp": "2026-04-12T19:08:47.625998+00:00",
-        "title": "Pessoa Existe?",
-        "raw_response": "Outras Notícias",
-        "confidence": "failed"
-    },
     "https://expresso.pt/semanario/revista-e/-e/2026-04-12-quem-e-e-o-que-defende-peter-magyar-o-antigo-pupilo-que-arredou-orban-do-poder-0b034c44": {
         "category": "Política",
         "timestamp": "2026-04-12T20:40:17.841096+00:00",
@@ -790,6 +783,24 @@
         "category": "Nacional",
         "timestamp": "2026-04-17T18:06:03.017822+00:00",
         "title": "Ministério Público arquiva naufrágio ao largo da Marinha Grande que fez seis mortos",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/presidencia-republica/2026-04-17-conselho-de-estado-pede-maior-preparacao-do-pais-e-quer-maior-protecao-de-infraestruturas-criticas-3ef4ff3b": {
+        "category": "Política",
+        "timestamp": "2026-04-17T19:32:08.483214+00:00",
+        "title": "Conselho de Estado pede maior \"preparação do país\" e quer maior proteção de \"infraestruturas crítica...",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/partidos-politicos/2026-04-17-ventura-pede-celeridade-ao-constitucional-sobre-perda-de-nacionalidade-ps-e-forca-de-bloqueio-77d0512f": {
+        "category": "Política",
+        "timestamp": "2026-04-17T19:32:08.741719+00:00",
+        "title": "Ventura pede celeridade ao Constitucional sobre perda de nacionalidade: PS é \"força de bloqueio\"",
+        "confidence": "exact"
+    },
+    "https://www.publico.pt/2026/04/17/edicoes-publico/noticia/shakespeare-reinventado-gianni-luca-2171663": {
+        "category": "Cultura",
+        "timestamp": "2026-04-17T19:32:14.715009+00:00",
+        "title": "Shakespeare reinventado por Gianni De Luca",
         "confidence": "exact"
     }
 }
