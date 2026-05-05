@@ -1,46 +1,4 @@
 {
-    "https://expresso.pt/semanario/revista-e": {
-        "category": "Multimédia",
-        "timestamp": "2026-04-30T22:09:42.555188+00:00",
-        "title": "Com quantos drones se faz um unicórnio português, para ler na revista E",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/semanario/economia": {
-        "category": "Economia",
-        "timestamp": "2026-04-30T22:09:42.857772+00:00",
-        "title": "A 1ª página do Expresso Economia",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/semanario/ideias": {
-        "category": "Cultura",
-        "timestamp": "2026-04-30T22:09:43.111574+00:00",
-        "title": "IDEIAS: Um admirável Golfo novo",
-        "confidence": "exact"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/trump-ameaca-retirar-tropas-de-espanha-e-italia-devido-a-postura-na-guerra": {
-        "category": "Mundo",
-        "timestamp": "2026-04-30T22:09:43.366887+00:00",
-        "title": "Trump ameaça retirar tropas de Espanha e Itália devido à postura na guerra",
-        "confidence": "exact"
-    },
-    "https://www.rtp.pt/noticias/opiniao/nuno-silva-e-ana-augusto/execucao-do-prr-e-football-leaks_1738167": {
-        "category": "Opinião",
-        "timestamp": "2026-04-30T22:09:44.030622+00:00",
-        "title": "Execução do PRR e Football Leaks",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-04-30-expresso.-redacao-muda-se-para-leiria-uma-semana-67399a89": {
-        "category": "Nacional",
-        "timestamp": "2026-04-30T22:09:55.183973+00:00",
-        "title": "Expresso. Redação muda-se para Leiria uma semana",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/semanario/revista-e/-e/2026-04-30-da-igreja-a-imigracao-o-jogo-duplo-de-giorgia-meloni-6ff8cb64": {
-        "category": "Política",
-        "timestamp": "2026-04-30T22:10:07.600283+00:00",
-        "title": "Da igreja à imigração: o jogo duplo de Giorgia Meloni",
-        "confidence": "exact"
-    },
     "https://expresso.pt/semanario/primeiro": {
         "category": "Nacional",
         "timestamp": "2026-04-30T23:10:21.461845+00:00",
@@ -573,6 +531,18 @@
         "category": "Opinião",
         "timestamp": "2026-05-05T21:43:15.905117+00:00",
         "title": "Polícias detidos em Lisboa por tortura e os esforços para atrair jovens para as Forças Armadas",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/defesa-nacional/2026-05-05-dois-militares-feridos-apos-salto-de-paraquedas-durante-curso-de-formacao-em-tancos-35bf3649": {
+        "category": "Nacional",
+        "timestamp": "2026-05-05T22:39:12.786942+00:00",
+        "title": "Dois militares feridos após salto de paraquedas durante curso de formação em Tancos",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/partidos-politicos/2026-05-05-passos-considera-absurda-proposta-do-chega-de-baixar-idade-da-reforma-nem-os-socialistas-tem-coragem-c1f78745": {
+        "category": "Política",
+        "timestamp": "2026-05-05T22:39:14.635222+00:00",
+        "title": "Passos considera absurda proposta do Chega de baixar idade da reforma: \"Nem os socialistas têm corag...",
         "confidence": "exact"
     }
 }
