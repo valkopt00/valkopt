@@ -1,16 +1,4 @@
 {
-    "https://www.rtp.pt/noticias/taca-de-portugal/bis-de-caroline-moller-da-terceira-taca-de-portugal-feminina-ao-benfica_d1741856": {
-        "category": "Desporto",
-        "timestamp": "2026-05-17T20:56:18.578588+00:00",
-        "title": "`Bis` de Caroline Moller dá terceira Taça de Portugal feminina ao Benfica",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/partidos-politicos/2026-05-17-um-partido-em-debate-existencial-o-congresso-do-cds-em-32-imagens-3fbca6b4": {
-        "category": "Política",
-        "timestamp": "2026-05-17T21:58:51.608470+00:00",
-        "title": "Um partido em debate existencial: o Congresso do CDS em 32 imagens",
-        "confidence": "exact"
-    },
     "https://www.cmjornal.pt/mais-cm/direito-de-resposta/detalhe/direito-de-resposta-da-biometrid": {
         "category": "Política",
         "timestamp": "2026-05-18T04:42:22.412423+00:00",
@@ -711,6 +699,12 @@
         "category": "Mundo",
         "timestamp": "2026-05-22T19:14:26.662878+00:00",
         "title": "Kiev nega ter bombardeado residência universitária em Lugansk",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/donald-trump-vai-faltar-ao-casamento-do-filho-amor-pelos-eua-nao-me-permite-estar-presente": {
+        "category": "Mundo",
+        "timestamp": "2026-05-22T22:09:44.923754+00:00",
+        "title": "Donald Trump vai faltar ao casamento do filho: \"Amor pelos EUA não me permite estar presente\"",
         "confidence": "exact"
     }
 }
