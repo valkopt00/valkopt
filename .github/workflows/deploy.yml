@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # ✅ OPTIMIZATION 1: Direct checkout of data branch (if exists) or main
+      # ✅ 1: Direct checkout of data branch (if exists) or main
       - name: Checkout data branch if exists
         id: checkout_data
         continue-on-error: true
@@ -21,7 +21,7 @@ jobs:
           ref: data
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ✅ OPTIMIZATION 2: Fallback to main if data doesn't exist
+      # ✅ 2: Fallback to main if data doesn't exist
       - name: Checkout main if data failed
         if: steps.checkout_data.outcome == 'failure'
         uses: actions/checkout@v4
@@ -30,14 +30,14 @@ jobs:
           ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ✅ OPTIMIZATION 3: Fetch main branch for script extraction
+      # ✅ 3: Fetch main branch for script extraction
       - name: Fetch main branch for scripts
         if: steps.checkout_data.outcome == 'success'
         run: |
           echo "We're on data branch, fetching main for scripts"
           git fetch origin main
 
-      # ✅ OPTIMIZATION 4: Setup data branch only if necessary
+      # ✅ 4: Setup data branch only if necessary
       - name: Create data branch if doesn't exist
         if: steps.checkout_data.outcome == 'failure'
         run: |
@@ -49,7 +49,7 @@ jobs:
           # Create empty original_categories.json file
           echo '{"categories": {}, "articles": {}}' > articles/original_categories.json
 
-      # ✅ OPTIMIZATION 5: Only create folders if already on data
+      # ✅ 5: Only create folders if already on data
       - name: Prepare folder structure
         if: steps.checkout_data.outcome == 'success'
         run: |
@@ -61,7 +61,7 @@ jobs:
             echo '{"categories": {}, "articles": {}}' > articles/original_categories.json
           fi
 
-      # ✅ OPTIMIZATION 6: Setup pip cache
+      # ✅ 6: Setup pip cache
       - name: Setup pip cache
         uses: actions/cache@v3
         with:
@@ -70,14 +70,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
 
-      # ✅ OPTIMIZATION 7: Setup Python with automatic cache
+      # ✅ 7: Setup Python with automatic cache
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
           cache: 'pip'
 
-      # ✅ OPTIMIZATION 8: Extract scripts from main branch
+      # ✅ 8: Extract scripts from main branch
       - name: Extract scripts and requirements from main branch
         run: |
           mkdir -p temp-scripts/scripts/exporters
@@ -103,7 +103,7 @@ jobs:
           git show origin/main:scripts/removals/remove_duplicates.py > temp-scripts/scripts/removals/remove_duplicates.py
           git show origin/main:scripts/exporters/export_original_categories.py > temp-scripts/scripts/exporters/export_original_categories.py
 
-      # ✅ OPTIMIZATION 9: Install dependencies with cache
+      # ✅ 9: Install dependencies with cache
       - name: Install dependencies
         run: |
           # Install with cache (cache already avoids unnecessary reinstallations)
@@ -118,7 +118,7 @@ jobs:
           python temp-scripts/scripts/core/main.py
 
 
-      # ✅ OPTIMIZATION 10: Optimized HTML file copying
+      # ✅ 10: Optimized HTML file copying
       - name: Ensure public folder and copy JSON files
         run: |
           mkdir -p public
@@ -191,7 +191,7 @@ jobs:
             echo "- **Zero timing issues**: No dependencies between files" >> ../README.md
           fi
 
-      # ✅ OPTIMIZATION 11: Optimized commit (more efficient verification)
+      # ✅ 11: Optimized commit (more efficient verification)
       - name: Commit and Push to data branch
         run: |
           git config user.name "github-actions[bot]"
