@@ -61,23 +61,7 @@ jobs:
             echo '{"categories": {}, "articles": {}}' > articles/original_categories.json
           fi
 
-      # ✅ 6: Setup pip cache
-      - name: Setup pip cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      # ✅ 7: Setup Python with automatic cache
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-          cache: 'pip'
-
-      # ✅ 8: Extract scripts from main branch
+      # ✅ 6: Extract scripts from main branch
       - name: Extract scripts and requirements from main branch
         run: |
           mkdir -p temp-scripts/scripts/exporters
@@ -103,6 +87,22 @@ jobs:
           git show origin/main:scripts/removals/remove_duplicates.py > temp-scripts/scripts/removals/remove_duplicates.py
           git show origin/main:scripts/exporters/export_original_categories.py > temp-scripts/scripts/exporters/export_original_categories.py
 
+      # ✅ 7: Setup pip cache
+      - name: Setup pip cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # ✅ 8: Setup Python with automatic cache
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      
       # ✅ 9: Install dependencies with cache
       - name: Install dependencies
         run: |
