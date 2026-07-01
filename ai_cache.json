@@ -1,10 +1,4 @@
 {
-    "https://expresso.pt/partidos-politicos/2026-06-26-rui-tavares-deixa-a-lideranca-do-livre-jorge-pinto-passa-a-numero-2-c99ed7f3": {
-        "category": "Política",
-        "timestamp": "2026-06-26T09:45:43.202862+00:00",
-        "title": "Rui Tavares deixa a liderança do Livre, Jorge Pinto passa a número 2",
-        "confidence": "exact"
-    },
     "https://expresso.pt/venezuela/2026-06-26-sismos-na-venezuela-novo-balanco-aponta-para-235-mortos-e-4300-feridos-e60ba3a7": {
         "category": "Mundo",
         "timestamp": "2026-06-26T10:15:43.217056+00:00",
@@ -783,6 +777,12 @@
         "category": "Mundo",
         "timestamp": "2026-07-01T07:45:52.492606+00:00",
         "title": "Quatro polícias detidos por roubar dinheiro em zonas afetadas após sismos na Venezuela",
+        "confidence": "exact"
+    },
+    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/barrica-se-em-casa-e-ameaca-atear-fogo-a-habitacao-em-espinho-homem-foi-detido": {
+        "category": "Sociedade",
+        "timestamp": "2026-07-01T09:45:50.850837+00:00",
+        "title": "Barrica-se em casa e ameaça atear fogo à habitação em Espinho. Homem foi detido",
         "confidence": "exact"
     }
 }
