@@ -1,16 +1,4 @@
 {
-    "https://www.rtp.pt/noticias/diario-do-mundial/diario-do-mundial-018_a1_1752395": {
-        "category": "Desporto",
-        "timestamp": "2026-07-09T17:01:16.066769+00:00",
-        "title": "Diário do Mundial #018",
-        "confidence": "exact"
-    },
-    "https://expresso.pt/poder-local/2026-07-09-agua-em-almada-ministra-do-ambiente-aponta-duas-a-tres-semanas-para-reposicao-total-autarca-culpa-aumento-imprevisivel-do-consumo-fbeb3dda": {
-        "category": "Sociedade",
-        "timestamp": "2026-07-09T17:01:16.229051+00:00",
-        "title": "Água em Almada: ministra do Ambiente aponta “duas a três semanas” para reposição total, autarca culp...",
-        "confidence": "exact"
-    },
     "https://expresso.pt/expressinho/2026-07-09-ja-sabes-usar-o-sistema-volta--ve-o-que-esta-em-jogo-2310c35f": {
         "category": "Sociedade",
         "timestamp": "2026-07-09T17:15:43.768781+00:00",
@@ -885,6 +873,12 @@
         "category": "Política",
         "timestamp": "2026-07-14T16:45:45.605868+00:00",
         "title": "Ministra do Ambiente responsabiliza câmara e SMAS pela crise da água em Almada",
+        "confidence": "exact"
+    },
+    "https://expresso.pt/guerra-ucrania/2026-07-14-um-exercito-de-robos-esta-a-transformar-a-guerra-terrestre-na-ucrania-844d7593": {
+        "category": "Ciência e Tech",
+        "timestamp": "2026-07-14T17:01:28.021721+00:00",
+        "title": "Um exército de robôs está a transformar a guerra terrestre na Ucrânia",
         "confidence": "exact"
     }
 }
