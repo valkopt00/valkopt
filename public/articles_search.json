@@ -1,6 +1,16 @@
 {
     "Últimas": [
         {
+            "link": "https://www.cmjornal.pt/sociedade/detalhe/cinco-feridos-em-acidente-na-marinha-grande-casal-e-bebe-em-estado-grave",
+            "normalized_title": "cinco feridos em acidente na marinha grande casal e bebe em estado grave",
+            "normalized_description": "em atualizacao"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/economia/detalhe/centenas-de-pessoas-marcham-em-setubal-contra-privatizacao-de-praias-da-arrabida",
+            "normalized_title": "centenas de pessoas marcham em setubal contra privatizacao de praias da arrabida",
+            "normalized_description": ""
+        },
+        {
             "link": "https://www.zerozero.pt/noticias/palhinha-deixa-porta-aberta-ao-benfica-hei-de-voltar-a-casa/1159259",
             "normalized_title": "palhinha deixa porta aberta ao benfica hei de voltar a casa",
             "normalized_description": "continua a novela da transferencia de joao palhinha a saida para a alemanha onde ira regressar aos treinos do bayern munique o medio internacional"
@@ -9,6 +19,11 @@
             "link": "https://visao.pt/opiniao/inventario-do-eclipse/2026-07-19-inventario-do-eclipse-eclipse-de-consciencias-pela-escritora-gabriela-ruivo/?utm_source=rss&utm_medium=rss&utm_campaign=inventario-do-eclipse-eclipse-de-consciencias-pela-escritora-gabriela-ruivo",
             "normalized_title": "inventario do eclipse eclipse de consciencias pela escritora gabriela ruivo",
             "normalized_description": "aqueles que de olho sempre atento e dedo em riste se apressam a gritar indignados mas esta ideia e minha olha o que lhe fizeste eclipsou se"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/surpresa-antes-do-teste-do-sporting-frente-ao-estrasburgo",
+            "normalized_title": "surpresa antes do teste do sporting frente ao estrasburgo",
+            "normalized_description": "rui borges contou com uma novidade no treino deste domingo"
         },
         {
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/15h-carneiro-desafia-governo-a-reunir-com-o-crup_a1_1754471",
@@ -2079,11 +2094,6 @@
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/revolucao-na-patente-de-capitao-sporting-de-caras-novas-criar-problema-para-rui-borges-resolver",
             "normalized_title": "revolucao na patente de capitao sporting de caras novas criar problema para rui borges resolver",
             "normalized_description": "hjulmand saiu trincao idem matheus reis ja la vai e ate daniel braganca pode ter destino tracado goncalo inacio deve subir na hierarquia mas"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/02h-governo-pede-desculpas-pelos-atrasos-na-correcao-dos-exames_a1_1754410",
-            "normalized_title": "02h governo pede desculpas pelos atrasos na correcao dos exames",
-            "normalized_description": ""
         }
     ],
     "Nacional": [
@@ -5711,16 +5721,6 @@
             "link": "https://www.noticiasaominuto.com/pais/3021249/papa-nomeia-vitorino-soares-como-novo-bispo-do-algarve-apos-renuncia#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "papa nomeia vitorino soares como novo bispo do algarve apos renuncia",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/pais/reciclagem-de-embalagens-cresce-apenas-1-com-portugal-a-arriscar-falhar-metas-europeias_n1753277",
-            "normalized_title": "reciclagem de embalagens cresce apenas 1 com portugal a arriscar falhar metas europeias",
-            "normalized_description": "os portugueses estao a reagir ao apelo feito para uma maior consciencializacao no que diz respeito a separacao do lixo e reciclagem ainda assim"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/pais/numero-da-seguranca-social-passa-a-ser-atribuido-automaticamente-a-migrantes_v1753298",
-            "normalized_title": "numero da seguranca social passa a ser atribuido automaticamente a migrantes",
-            "normalized_description": "os imigrantes vao ter acesso automatico ao numero da seguranca social sem terem de se deslocar a um balcao do servico"
         }
     ],
     "Mundo": [
@@ -10553,21 +10553,6 @@
             "link": "https://www.noticiasaominuto.com/mundo/3021273/ue-e-reino-unido-assinam-acordo-absolutamente-historico-de-gibraltar#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "ue e reino unido assinam acordo absolutamente historico de gibraltar",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3021246/petroleiro-noruegues-atingido-ao-largo-da-costa-de-oma#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "petroleiro noruegues atingido ao largo da costa de oma",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://expresso.pt/internacional/brasil/2026-07-14-lula-da-silva-critica-selecao-brasileira-e-sugere-robos-a-carlo-ancelotti-para-ganhar-o-proximo-mundial-606a760c",
-            "normalized_title": "lula da silva critica selecao brasileira e sugere robos a carlo ancelotti para ganhar o proximo mundial",
-            "normalized_description": "depois da eliminacao do brasil nos oitavos de final lula da silva apontou o dedo aos jogadores que nao regressaram ao pais com a selecao lamentando"
-        },
-        {
-            "link": "https://www.cmjornal.pt/mundo/detalhe/varios-mortos-em-incendio-num-predio-em-construcao-no-centro-de-bruxelas",
-            "normalized_title": "varios mortos em incendio num predio em construcao no centro de bruxelas",
-            "normalized_description": "numero exato de vitimas ainda nao foi confirmado oficialmente pelas autoridades"
         }
     ],
     "Desporto": [
@@ -10575,6 +10560,11 @@
             "link": "https://www.zerozero.pt/noticias/palhinha-deixa-porta-aberta-ao-benfica-hei-de-voltar-a-casa/1159259",
             "normalized_title": "palhinha deixa porta aberta ao benfica hei de voltar a casa",
             "normalized_description": "continua a novela da transferencia de joao palhinha a saida para a alemanha onde ira regressar aos treinos do bayern munique o medio internacional"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/surpresa-antes-do-teste-do-sporting-frente-ao-estrasburgo",
+            "normalized_title": "surpresa antes do teste do sporting frente ao estrasburgo",
+            "normalized_description": "rui borges contou com uma novidade no treino deste domingo"
         },
         {
             "link": "https://www.record.pt/modalidades/tenis/detalhe/andrey-rublev-conquista-titulo-em-bastad",
@@ -20030,29 +20020,14 @@
             "link": "https://www.noticiasaominuto.com/auto/3021270/ferrari-foi-criticada-pelo-seu-eletrico-e-gostou-fiquei-satisfeito#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "ferrari foi criticada pelo seu eletrico e gostou fiquei satisfeito",
             "normalized_description": ""
-        },
-        {
-            "link": "https://tribuna.expresso.pt/mundial-2026/2026-07-14-lula-da-silva-critica-selecao-brasileira-e-sugere-robos-a-carlo-ancelotti-para-ganhar-o-proximo-mundial-0fdc7d17",
-            "normalized_title": "lula da silva critica selecao brasileira e sugere robos a carlo ancelotti para ganhar o proximo mundial",
-            "normalized_description": "depois da eliminacao do brasil nos oitavos de final lula da silva apontou o dedo aos jogadores que nao regressaram ao pais com a selecao lamentando"
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/dia-34-que-o-mundo-nunca-te-esqueca-jayden-adams/1156873",
-            "normalized_title": "dia 34 que o mundo nunca te esqueca jayden adams",
-            "normalized_description": "o campeonato do mundo pode ser uma competicao curta a nivel de tempo mas a verdade e que acaba por ser riquissima em termos de historias"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-feminino/detalhe/insolito-clube-holandes-contrata-guarda-redes-por-causa-de-videos-no-tiktok",
-            "normalized_title": "insolito clube holandes contrata guarda redes por causa de videos no tiktok",
-            "normalized_description": "fleur jansen van rosendaal rumou ao excelsior da segunda divisao"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/3021263/bomba-em-espanha-real-madrid-quer-barcelona-sem-titulos-de-2001-a-2018#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "bomba em espanha real madrid quer barcelona sem titulos de 2001 a 2018",
-            "normalized_description": ""
         }
     ],
     "Economia": [
+        {
+            "link": "https://www.jornaldenegocios.pt/economia/detalhe/centenas-de-pessoas-marcham-em-setubal-contra-privatizacao-de-praias-da-arrabida",
+            "normalized_title": "centenas de pessoas marcham em setubal contra privatizacao de praias da arrabida",
+            "normalized_description": ""
+        },
         {
             "link": "https://jornaleconomico.sapo.pt/noticias/irlanda-assume-debate-sobre-orcamento-da-uniao-europeia/",
             "normalized_title": "irlanda assume debate sobre orcamento da uniao europeia",
@@ -24937,26 +24912,6 @@
             "link": "https://www.noticiasaominuto.com/economia/3021247/cgtp-diz-que-reforma-do-governo-vai-provocar-nova-escalada-nas-rendas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "cgtp diz que reforma do governo vai provocar nova escalada nas rendas",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/empresas/detalhe/lucro-do-goldman-sachs-sobe-45-ate-junho-para-quase-11-milhoes",
-            "normalized_title": "lucro do goldman sachs alcanca 45 ate junho para quase 11 mil milhoes",
-            "normalized_description": "o banco indicou hoje que tanto o lucro por acao como as receitas atingiram valores recorde"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/empresas/detalhe/lucros-do-citigroup-sobem-45-no-2-trimestre-para-mais-de-cinco-milhoes",
-            "normalized_title": "lucros do citigroup sobem 45 no 2 º trimestre para mais de cinco mil milhoes",
-            "normalized_description": "a presidente executiva do citigroup jane fraser apontou que este foi o melhor trimestre do citi em 10 anos"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/aeroportos-receberam-115-mil-passageiros-por-dia-em-maio-chegadas-do-brasil-disparam",
-            "normalized_title": "aeroportos receberam 115 mil passageiros por dia em maio chegadas do brasil disparam",
-            "normalized_description": "os aeroportos nacionais continuam a atingir maximos historicos chegaram mais 2 7 mil turistas por dia em maio do que no ano passado com o"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/3021266/lucros-do-citigroup-sobem-45-no-2-trimestre-para-5096-milhoes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "lucros do citigroup sobem 45 no 2 º trimestre para 5 096 milhoes",
-            "normalized_description": ""
         }
     ],
     "Cultura": [
@@ -27461,11 +27416,6 @@
             "link": "https://pplware.sapo.pt/informacao/samsung-apagara-dados-de-saude-a-quem-se-recusar-treinar-a-ia/",
             "normalized_title": "samsung apagara dados de saude a quem se recusar treinar a sua ia",
             "normalized_description": "a samsung acaba de implementar uma medida que vai trazer problemas a muitos utilizadores anunciou que o samsung health liga agora a sincronizacao"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/tech/3021268/dificuldade-em-ver-o-ecra-quando-esta-na-rua-estas-4-dicas-vao-ajudar#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "dificuldade em ver o ecra quando esta na rua estas 4 dicas vao ajudar",
-            "normalized_description": ""
         }
     ],
     "Lifestyle": [
@@ -28761,6 +28711,11 @@
         }
     ],
     "Sociedade": [
+        {
+            "link": "https://www.cmjornal.pt/sociedade/detalhe/cinco-feridos-em-acidente-na-marinha-grande-casal-e-bebe-em-estado-grave",
+            "normalized_title": "cinco feridos em acidente na marinha grande casal e bebe em estado grave",
+            "normalized_description": "em atualizacao"
+        },
         {
             "link": "https://www.cmjornal.pt/sociedade/detalhe/centenas-de-pessoas-marcham-em-setubal-contra-privatizacao-de-praias-e-acessos-da-arrabida",
             "normalized_title": "centenas de pessoas marcham em setubal contra privatizacao de praias e acessos da arrabida",
@@ -30800,16 +30755,6 @@
             "link": "https://expresso.pt/educacao/2026-07-14-video-dia-d-para-os-professores-termina-esta-terca-feira-o-prazo-para-classificacao-dos-exames-22a4f060",
             "normalized_title": "dia d para os professores termina hoje o prazo para classificacao dos exames nacionais",
             "normalized_description": "o ministro da educacao anunciou esta segunda feira que 92 dos exames nacionais do ensino secundario estao corrigidos e garante que os alunos terao"
-        },
-        {
-            "link": "https://www.cmjornal.pt/sociedade/detalhe/professores-convocados-para-classificar-exames-nacionais-a-poucas-horas-do-fim-do-prazo-da-correcao",
-            "normalized_title": "professores convocados para classificar exames nacionais a poucas horas do fim do prazo para a correcao",
-            "normalized_description": "no dia em que os mais de 300 mil exames tem de estar classificados a missao escola publica defendeu que o ministerio deveria prolongar novamente a"
-        },
-        {
-            "link": "https://www.publico.pt/2026/07/14/sociedade/noticia/reservas-sangue-baixa-instituto-apela-dadiva-durante-ferias-2181630",
-            "normalized_title": "reservas de sangue em baixa instituto apela a dadiva antes ou durante as ferias",
-            "normalized_description": "o apelo a dadiva e feito para todos os grupos sanguineos com maior urgencia para os grupos a a o e o"
         }
     ],
     "Política": [
@@ -36693,11 +36638,6 @@
             "link": "https://www.eurogamer.pt/halo-remake-pronto-para-o-lancamento",
             "normalized_title": "halo remake pronto para o lancamento",
             "normalized_description": "a xbox e a halo studios estao prontas para apresentar ao mundo uma nova era da famosa serie halo com a chegada do remake da campanha do primeiro"
-        },
-        {
-            "link": "https://pt.ign.com/helldivers-ii/160040/helldivers-2-trailer-oficial-da-campanha-lightning-intercept",
-            "normalized_title": "helldivers 2 trailer oficial da campanha lightning intercept",
-            "normalized_description": "fica a par de todos os detalhes da tua nova missao neste mais recente trailer de helldivers 2 o jogo de tiros de acao e aventura na terceira pessoa"
         }
     ]
 }
