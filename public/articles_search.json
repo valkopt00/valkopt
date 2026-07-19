@@ -1,6 +1,11 @@
 {
     "Últimas": [
         {
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/01h-pautas-completas-garante-o-eduqa_a1_1754407",
+            "normalized_title": "01h pautas completas garante o eduqa",
+            "normalized_description": ""
+        },
+        {
             "link": "https://www.cmjornal.pt/vidas/detalhe/andrew-tate-e-irmao-detidos-novamente-em-miami",
             "normalized_title": "andrew tate e irmao detidos novamente em miami",
             "normalized_description": "dupla ja tinha sido detida em 2022 acusados de participar de esquemas para aliciar mulheres para exploracao sexual"
@@ -159,6 +164,11 @@
             "link": "https://www.record.pt/internacional/competicoes-de-selecoes/mundial/mundial-2026/detalhe/a-cronica-do-franca-inglaterra-4-6-loucura-bronzeada",
             "normalized_title": "a cronica do franca inglaterra 4 6 loucura bronzeada",
             "normalized_description": "arraso ingles e epica reacao francesa numa grande historia contada por dez golos"
+        },
+        {
+            "link": "https://jornaleconomico.sapo.pt/noticias/chinesa-moonshot-ai-desafia-openai-com-novo-modelo-de-ia-de-codigo-aberto/",
+            "normalized_title": "chinesa moonshot ai desafia openai com novo modelo de ia de codigo aberto",
+            "normalized_description": "a tecnologica referiu que o modelo foi projetado para tarefas complexas de programacao trabalho intelectual e raciocinio e ja esta disponivel"
         },
         {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/estoril/detalhe/vasco-matos-e-a-pre-epoca-do-estoril-equipa-esta-adquirir-rapidamente-ideias-e-processo",
@@ -3029,51 +3039,6 @@
             "link": "https://observador.pt/especiais/a-relacao-de-pai-e-filho-com-platini-a-provocacao-a-ronaldo-e-as-suspeitas-de-corrupcao-blatter-o-mais-polemico-presidente-da-fifa/",
             "normalized_title": "platini a provocacao a ronaldo e as suspeitas de corrupcao",
             "normalized_description": "levou o mundial a novos continentes imitou ronaldo em palco e defendeu calcoes justos para o futebol feminino sepp blatter acabou por abandonar o"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/lei-dos-tvde-taxistas-manifestam-indignacao-e-repudio/",
-            "normalized_title": "lei dos tvde taxistas manifestam indignacao e repudio",
-            "normalized_description": "a associacao nacional taxis unidos de portugal antup denuncia o que considera submissao do poder politico as multinacionais"
-        },
-        {
-            "link": "https://www.eurogamer.pt/xbox-series-xs-recebem-a-maior-atualizacao-de-2026-com-12-novas-funcionalidades",
-            "normalized_title": "xbox series x s recebem a maior atualizacao de 2026 com 12 novas funcionalidades",
-            "normalized_description": "a microsoft lancou a maior atualizacao do ano para a xbox series x s incluindo um total de doze novas funcionalidades nas consolas nao ha nenhuma"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/3023585/mentiras-seguido-pelo-benfica-ibrahima-ba-rompe-com-o-strasbourg#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "mentiras seguido pelo benfica ibrahima ba rompe com o strasbourg",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/12h-ordem-dos-medicos-elogia-contratacao-de-mais-medicos-de-familia_a1_1754311",
-            "normalized_title": "12h ordem dos medicos elogia contratacao de mais medicos de familia",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3023575/menina-torna-se-viral-ao-falar-sobre-morte-da-mae-ela-esta-a-ver-me#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "menina torna se viral ao falar sobre morte da mae ela esta a ver me",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.record.pt/internacional/competicoes-de-selecoes/mundial/mundial-2026/argentina/detalhe/scaloni-quer-a-melhor-versao-da-argentina-na-final-do-mundial-quando-a-bola-comeca-a-rolar",
-            "normalized_title": "scaloni quer a melhor versao da argentina na final do mundial quando a bola comeca a rolar",
-            "normalized_description": "selecionador elogia espanha adversaria do derradeiro jogo do campeonato do mundo"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/da-diferenca-dos-33-no-salario-a-verdade-sobre-os-exames-empresario-de-ibrahima-ba-explode-contra-o-estrasburgo",
-            "normalized_title": "da diferenca dos 33 no salario a verdade sobre os exames empresario de ibrahima ba explode contra o estrasburgo",
-            "normalized_description": "alioune seck publicou um longo comunicado nas redes sociais"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3023568/preventiva-para-traficante-que-vendia-droga-a-janela-de-casa-em-sintra#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "preventiva para traficante que vendia droga a janela de casa em sintra",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.publico.pt/2026/07/18/economia/noticia/associacao-sector-taxi-contesta-revisao-chamada-lei-tvde-2182195",
-            "normalized_title": "associacao do sector do taxi contesta revisao da chamada lei dos tvde",
-            "normalized_description": "taxis poderao ser registados para a actividade de tvde desde que cumpram os requisitos aplicaveis aos veiculos afectos a esta actividade"
         }
     ],
     "Nacional": [
@@ -12098,31 +12063,6 @@
             "link": "https://www.cmjornal.pt/mundo/detalhe/30-adultos-e-29-menores-detidos-por-incendios-em-franca",
             "normalized_title": "30 adultos e 29 menores detidos por incendios em franca",
             "normalized_description": "sete pessoas estao atualmente em prisao preventiva aguardando julgamento"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3020984/reino-unido-quer-mudar-lei-para-deportar-lider-de-rede-de-trafico#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "reino unido quer mudar lei para deportar lider de rede de trafico",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3020983/trump-recomenda-que-a-irma-de-lindsey-graham-complete-o-mandato-deste#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "trump recomenda que a irma de lindsey graham complete o mandato deste",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/pete-hegseth-quer-identificar-e-processar-autores-de-fugas-de-informacao_n1753158",
-            "normalized_title": "pete hegseth quer identificar e processar autores de fugas de informacao",
-            "normalized_description": "o secretario da guerra norte americano pete hegseth anunciou a criacao de um grupo de trabalho com o departamento da justica para identificar e"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3020982/30-adultos-e-29-menores-detidos-por-incendios-em-franca#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "30 adultos e 29 menores detidos por incendios em franca",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/mais-cm/especiais/guerra-na-ucrania/detalhe/forca-multinacional-de-apoio-a-ucrania-comeca-treino-em-paises-vizinhos-nos-proximos-meses",
-            "normalized_title": "forca multinacional de apoio a ucrania comeca treino em paises vizinhos nos proximos meses",
-            "normalized_description": "inforcao foi esta segunda feira avancada pelo presidente frances emmanuel macron"
         }
     ],
     "Desporto": [
@@ -21430,16 +21370,6 @@
             "link": "https://www.record.pt/internacional/competicoes-de-selecoes/mundial/mundial-2026/detalhe/luis-de-la-fuente-desvaloriza-favoritismo-atribuido-por-deschamps-a-espanha-nao-significa-nada",
             "normalized_title": "luis de la fuente desvaloriza favoritismo atribuido por deschamps a espanha nao significa nada",
             "normalized_description": "selecionador espanhol fez a antevisao ao jogo com a franca das meias finais do mundial 2026 terca feira 20h00"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/3020981/de-la-fuente-rejeita-favoritismo-atribuido-por-deschamps-nao-e-nada#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "de la fuente rejeita favoritismo atribuido por deschamps nao e nada",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/mais-cm/especiais/mundial-2026/detalhe/noruega-recebida-por-cerca-de-90-mil-pessoas-em-oslo-apos-ser-eliminada-do-mundial",
-            "normalized_title": "noruega recebida por cerca de 90 mil pessoas em oslo apos ser eliminada do mundial",
-            "normalized_description": "o principe herdeiro haakon juntou se ao momento marcando o ritmo com um tambor"
         }
     ],
     "Economia": [
@@ -21457,6 +21387,11 @@
             "link": "https://jornaleconomico.sapo.pt/noticias/dissidente-e-artista-cubano-otero-alcantara-deixou-havana-para-estados-unidos/",
             "normalized_title": "dissidente e artista cubano otero alcantara deixou havana para estados unidos",
             "normalized_description": "apos cinco anos de prisao injusta o artista cubano luis manuel otero alcantara foi finalmente libertado embora em troca da sua saida definitiva da"
+        },
+        {
+            "link": "https://jornaleconomico.sapo.pt/noticias/chinesa-moonshot-ai-desafia-openai-com-novo-modelo-de-ia-de-codigo-aberto/",
+            "normalized_title": "chinesa moonshot ai desafia openai com novo modelo de ia de codigo aberto",
+            "normalized_description": "a tecnologica referiu que o modelo foi projetado para tarefas complexas de programacao trabalho intelectual e raciocinio e ja esta disponivel"
         },
         {
             "link": "https://www.noticiasaominuto.com/economia/3023630/camara-de-paris-aprova-duplicacao-da-taxa-sobre-habitacoes-devolutas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
@@ -32805,11 +32740,6 @@
             "link": "https://www.cmjornal.pt/sociedade/detalhe/proprietario-tenta-recuperar-casa-ocupada-em-vila-nova-de-gaia",
             "normalized_title": "proprietario tenta recuperar casa ocupada em vila nova de gaia",
             "normalized_description": "potencial compradora transmitia imagem de uma pessoa seria cujo marido tinha um negocio de diamantes"
-        },
-        {
-            "link": "https://www.cmjornal.pt/sociedade/detalhe/praia-acoriana-dos-mosteiros-reabre-a-banhos-apos-contaminacao",
-            "normalized_title": "praia acoriana dos mosteiros reabre a banhos apos contaminacao",
-            "normalized_description": "praia esteve interdita desde exta feira 11"
         }
     ],
     "Política": [
@@ -34802,19 +34732,14 @@
             "link": "https://www.cmjornal.pt/politica/detalhe/jornalista-acusa-filho-do-ministro-luis-neves-de-intimidacao",
             "normalized_title": "jornalista acusa filho do ministro luis neves de intimidacao",
             "normalized_description": "felicia cabrita acusa filho de luis neves de a ter encostado com o carro quando ela circulava numa estrada em odemira"
-        },
-        {
-            "link": "https://www.cmjornal.pt/politica/detalhe/pcp-critica-subordinacao-de-portugal-na-cimeira-da-nato",
-            "normalized_title": "pcp critica subordinacao de portugal na cimeira da nato",
-            "normalized_description": "comunistas dizem que governo agiu de modo contrario aos interesses do povo e do pais"
-        },
-        {
-            "link": "https://www.cmjornal.pt/politica/detalhe/governo-vai-corrigir-despacho-que-visa-medicos-das-unidades-de-avc",
-            "normalized_title": "governo vai corrigir despacho que visa medicos das unidades de avc",
-            "normalized_description": "correcao surge apos alertas de varias associacoes e da ordem dos medicos"
         }
     ],
     "Multimédia": [
+        {
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/01h-pautas-completas-garante-o-eduqa_a1_1754407",
+            "normalized_title": "01h pautas completas garante o eduqa",
+            "normalized_description": ""
+        },
         {
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/00h-notas-todas-validadas-podem-ser-afixadas-este-domingo_a1_1754404",
             "normalized_title": "00h notas todas validadas podem ser afixadas este domingo",
@@ -37024,11 +36949,6 @@
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/01h-taxas-na-passagem-do-estreiro-de-ormuz_a1_1753167",
             "normalized_title": "01h taxas na passagem do estreiro de ormuz",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/0h-pela-3a-noite-consecutiva-os-eua-atacam-o-irao_a1_1753161",
-            "normalized_title": "0h pela 3ª noite consecutiva os eua atacam o irao",
-            "normalized_description": ""
         }
     ],
     "Opinião": [
@@ -38006,46 +37926,6 @@
             "link": "https://www.cmjornal.pt/opiniao/bilhete-postal/detalhe/chega-o-estado-da-nacao-com-os-animos-politicos-exaltados-e-sem-palavras-do-meio",
             "normalized_title": "chega o estado da nacao com os animos politicos exaltados e sem palavras do meio",
             "normalized_description": "por carlos rodrigues"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/angustia-nos-exames",
-            "normalized_title": "angustia nos exames",
-            "normalized_description": "ministerio da educacao revelou amadorismo no processo dos exames"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/tania-laranjo/detalhe/onde-estao-as-contrapartidas",
-            "normalized_title": "onde estao as contrapartidas",
-            "normalized_description": "sou suspeita porque conheco luis neves ha mais de 20 anos por isso mesmo custa me acreditar que se vendesse por uns tostoes"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/correio-da-educacao/detalhe/os-negocios-dos-exames",
-            "normalized_title": "os negocios dos exames",
-            "normalized_description": "a transicao digital serviu para desmantelar a administracao educativa o seu capital humano e de conhecimento"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/blog/detalhe/20260713-191513-blog",
-            "normalized_title": "blog",
-            "normalized_description": "o cenario mais grave para o executivo seria que a maioria se desfizesse por dentro"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/fernanda-cachao/detalhe/meter-agua",
-            "normalized_title": "meter agua",
-            "normalized_description": "a gestao de um recurso vital pelos copinhos da administracao local"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/manuel-maria-rodrigues/detalhe/guerra-na-estrada",
-            "normalized_title": "guerra na estrada",
-            "normalized_description": "nao precisamos de misseis nem drones nos tratamos no nosso autoexterminio"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/tempo-novo/detalhe/ia-pelo-bem",
-            "normalized_title": "ia pelo bem",
-            "normalized_description": "portugal deve ter um envolvimento ativo nesta discussao"
-        },
-        {
-            "link": "https://www.cmjornal.pt/opiniao/colunistas/saltos-quanticos/detalhe/o-ministro-chumbado",
-            "normalized_title": "o ministro chumbado",
-            "normalized_description": "a chamada transicao digital tem se feito atraves de contratos sucessivos com empresas"
         }
     ],
     "Vídeojogos": [
