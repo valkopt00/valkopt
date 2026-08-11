@@ -1,6 +1,21 @@
 {
     "Últimas": [
         {
+            "link": "https://jornaleconomico.sapo.pt/noticias/nvidia-junta-se-a-seis-instituicoes-para-investir-mais-de-500-mil-milhoes-na-expansao-da-infraestrutura-de-ia/",
+            "normalized_title": "nvidia junta se a seis instituicoes para investir mais de 500 mil milhoes em infraestrutura de ia",
+            "normalized_description": "a nvidia juntou se a apollo blackrock blackstone brookfield goldman sachs e kkr para estabelecer plataformas independentes de financiamento de"
+        },
+        {
+            "link": "https://expresso.pt/eua/2026-08-11-trump-recomenda-reducao-do-numero-de-vacinas-para-cirancas-e-administracao-separada-da-triplice-viral-5b6a55fb",
+            "normalized_title": "trump recomenda reducao do numero de vacinas para cirancas e administracao separada da triplice viral",
+            "normalized_description": "donald trump assinou uma ordem executiva que reduz de 18 para 11 o numero de vacinas infantis recomendadas e propoe separar as tomas da vacina vaspr"
+        },
+        {
+            "link": "https://expresso.pt/internacional/2026-08-11-da-gronelandia-a-portugal-como-os-paises-se-preparam-para-o-eclipse-solar-de-uma-vida-1b379aac",
+            "normalized_title": "da gronelandia a portugal como os paises se preparam para o eclipse solar de uma vida",
+            "normalized_description": "mais pessoas mais transito mais pressao em areas que nao estao habituadas a um fluxo tao grande de movimento entre restricoes a circulacao e"
+        },
+        {
             "link": "https://www.zerozero.pt/noticias/paciencia-foi-o-primeiro-a-i-bisar-i-em-26-27-se-estiver-bem-pode-voltar-a-selecao/1172171",
             "normalized_title": "paciencia foi o primeiro a bisar em 26 27 se estiver bem pode voltar a selecao",
             "normalized_description": "goncalo paciencia foi protagonista na jornada inaugural da liga portugal betclic ao marcar dois golos pelo santa clara frente ao nacional com"
@@ -16,9 +31,39 @@
             "normalized_description": "ha crise que ameaca tornar os equipamentos eletronicos mais caros a escassez de memorias ram impulsionada pela procura dos centros de dados de ia"
         },
         {
+            "link": "https://www.jornaldenegocios.pt/economia/mundo/africa/detalhe/radar-africa-americanos-apostam-na-rdc-com-a-ajuda-da-mota-engil",
+            "normalized_title": "radar africa americanos apostam na rdc com a ajuda da mota engil",
+            "normalized_description": "os estados unidos tem empresas como a atlas park e a kobold metals a fazer o mapeamento das riquezas minerais da republica democratica do congo com"
+        },
+        {
+            "link": "https://www.cmjornal.pt/sociedade/clima/detalhe/calor-vai-atingir-nove-distritos-ate-quinta-feira",
+            "normalized_title": "calor vai atingir nove distritos ate quinta feira",
+            "normalized_description": "temperaturas maximas vao oscilar entre os 25 graus celsius em viana do castelo e no porto e os 36 graus em braganca castelo branco evora e beja"
+        },
+        {
+            "link": "https://www.cmjornal.pt/desporto/futebol/detalhe/grupo-de-assaltantes-colombianos-fixado-em-espanha-tem-na-mira-estrelas-de-futebol",
+            "normalized_title": "grupo de assaltantes colombianos fixado em espanha tem na mira estrelas de futebol",
+            "normalized_description": "metodo utilizado pelo grupo e semelhante em todos os assaltos deniz gul jogador do fc porto foi o ultimo alvo"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mais-cm/especiais/guerra-na-ucrania/detalhe/ataque-com-missil-russo-atinge-hospital-pediatrico-em-kiev",
+            "normalized_title": "ataque com missil russo atinge hospital pediatrico em kiev",
+            "normalized_description": "autoridades ucranianas dao conta de janelas do edificio danificadas e canalizacoes de gas"
+        },
+        {
             "link": "https://www.rtp.pt/noticias/pais/protecao-civil-pede-comportamentos-adequados-para-prevenir-incendios-durante-eclipse_n1758802",
             "normalized_title": "protecao civil pede comportamentos adequados para prevenir incendios durante eclipse",
             "normalized_description": "o parque natural de montesinho que estara na quarta feira em risco maximo de incendio vai atrair muitos visitantes para a observacao do eclipse as"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/fc-porto-envia-mensagem-de-forca-e-coragem-ao-povo-colombiano",
+            "normalized_title": "fc porto envia mensagem de forca e coragem ao povo colombiano",
+            "normalized_description": "pais sul americano foi afetado por um sismo de 7 4 na escala de richter"
+        },
+        {
+            "link": "https://www.record.pt/fora-de-campo/detalhe/ha-20-trabalhadores-na-rtp-a-ganhar-mais-que-o-presidente",
+            "normalized_title": "ha 20 trabalhadores na rtp a ganhar mais do que o presidente",
+            "normalized_description": "auditoria da igf detetou salarios de cerca de 18 mil euros o que corresponde a 220 da remuneracao de nicolau santos"
         },
         {
             "link": "https://expresso.pt/guerra-ucrania/2026-08-11-ataques-russos-a-zaporijia-matam-pelo-menos-cinco-pessoas-kiev-tambem-foi-atingida-e4f7b79f",
@@ -659,6 +704,11 @@
             "link": "https://www.rtp.pt/noticias/mundo/mais-de-160-mortos-confirmados-apos-sismo-de-magnitude-74-na-colombia_n1758789",
             "normalized_title": "mais de 160 mortos confirmados apos sismo de magnitude 7 4 na colombia",
             "normalized_description": "os esforcos de resgate no oeste da colombia entraram esta terca feira no segundo dia enquanto as equipas de emergencia trabalham no meio de"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/socorristas-percorrem-escombros-confirmados-mais-de-160-mortos-apos-sismo-na-colombia_n1758789",
+            "normalized_title": "socorristas percorrem escombros confirmados mais de 160 mortos apos sismo na colombia",
+            "normalized_description": "o sismo de magnitude 7 4 atingiu a regiao produtora de cafe da colombia na madrugada de segunda feira matando pelo menos 164 pessoas"
         },
         {
             "link": "https://www.noticiasaominuto.com/mundo/3034864/exercito-israelita-bombardeia-colinas-no-sul-do-libano#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
@@ -2049,101 +2099,6 @@
             "link": "https://www.zerozero.pt/noticias/santa-clara-x-nacional-ao-minuto-ultima-partida-da-1-jornada/1171921",
             "normalized_title": "santa clara x nacional ao minuto ultima partida da 1ª jornada",
             "normalized_description": "comecou a partida em sao miguel acompanhe aqui o santa clara x nacional em direto e ao minuto com todas as estatisticas e as curiosidades mais"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3034775/torre-da-catedral-de-manizales-colapsa-apos-terramoto-eis-o-video#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "torre da catedral de manizales colapsa apos terramoto eis o video",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3034781/russia-exclui-unico-partido-antiguerra-das-eleicoes-legislativas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "russia exclui unico partido antiguerra das eleicoes legislativas",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.publico.pt/2026/08/10/impar/cronica/mulher-arde-2184615",
-            "normalized_title": "o que fazer quando uma mulher arde",
-            "normalized_description": "a resposta logica ao titulo e socorro a mas como se aconteceu na intimidade do lar mulheres espancadas humilhadas queimadas assassinadas"
-        },
-        {
-            "link": "https://www.publico.pt/2026/08/10/p3/cronica/homem-olhos-2184421",
-            "normalized_title": "o homem sem olhos",
-            "normalized_description": "era pleno dia num parque um jardim vulgar da cidade eu lia o homem sem qualidades de musil quando um homem sem olhos veio sentar se ao meu lado"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3034777/seguro-olhar-para-o-vale-do-coa-e-contemplar-a-humanidade#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "seguro olhar para o vale do coa e contemplar a humanidade",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3034772/irao-trump-exige-compensacao-de-teerao-por-decadas-de-ataques-iranianos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "irao trump exige compensacao de teerao por decadas de ataques iranianos",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/tech/3034616/galaxy-z-fold8-submetido-a-teste-de-resistencia-sera-que-sobreviveu#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "galaxy z fold8 submetido a teste de resistencia sera que sobreviveu",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/sociedade/detalhe/sera-que-tambem-podera-haver-um-eclipse-na-sua-carteira-veja-a-chave-do-eurodreams",
-            "normalized_title": "sera que tambem podera haver um eclipse na sua carteira veja a chave do eurodreams",
-            "normalized_description": "sorteios realizam se a segunda e quinta feira"
-        },
-        {
-            "link": "https://www.record.pt/internacional/detalhe/al-sadd-vai-apresentar-proposta-a-david-alaba",
-            "normalized_title": "al sadd vai apresentar proposta a david alaba",
-            "normalized_description": "emblema do qatar interessado no central austriaco"
-        },
-        {
-            "link": "https://www.record.pt/internacional/paises/inglaterra/detalhe/hojbjerg-rejeita-transferencia-para-o-newcastle",
-            "normalized_title": "hojbjerg rejeita transferencia para o newcastle",
-            "normalized_description": "ingleses ja tinham chegado a acordo com marselha"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/mulher-baleada-junto-a-hotel-na-baixa-de-lisboa-suspeitos-em-fuga",
-            "normalized_title": "mulher baleada junto a hotel na baixa de lisboa suspeitos em fuga",
-            "normalized_description": "dois individuos sao conhecidos por vender droga e crimes de burla naquela zona"
-        },
-        {
-            "link": "https://www.record.pt/internacional/paises/inglaterra/detalhe/nile-ranger-lembra-confusao-com-townsend-cuspiu-na-minha-massa",
-            "normalized_title": "nile ranger lembra confusa o com townsend a cuspiu na minha massa a",
-            "normalized_description": "antigo futebolista ingles revela cena de pancadaria na selecao sub 19"
-        },
-        {
-            "link": "https://www.record.pt/opiniao/detalhe/futebol-e-de-todos",
-            "normalized_title": "futebol e de todos",
-            "normalized_description": "visao e engenho"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/outras-modalidades/volta-iuri-e-rui-ja-pensam-em-losangeles2028-nos-dois-anos-do-ouro-olimpico_d1758733",
-            "normalized_title": "volta iuri e rui ja pensam em losangeles2028 nos dois anos do ouro olimpico",
-            "normalized_description": "os ciclistas iuri leitao e rui oliveira afirmaram hoje o objetivo de marcarem presenca nos jogos olimpicos losangeles2028 atraves da fase de"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/futebol-nacional/bancada-interditada-na-rececao-do-casa-pia-ao-benfica-por-utilizacao-de-pirotecnia_d1758732",
-            "normalized_title": "bancada interditada na rececao do casa pia ao benfica por utilizacao de pirotecnia",
-            "normalized_description": "a bancada poente do estadio municipal de rio maior habitualmente destinada aos associados do casa pia em jogos da i liga estara interditada na"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3034766/segunda-feira-de-sonho-eis-a-chave-vencedora-do-eurodreams-de-hoje#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "segunda feira de sonho eis a chave vencedora do eurodreams de hoje",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/economia/mundo/americas/detalhe/trump-responde-ao-irao-so-ha-acordo-se-eua-forem-compensados-por-danos",
-            "normalized_title": "trump responde ao irao so ha acordo se eua forem compensados por danos",
-            "normalized_description": "depois de o regime de teera o ter reiterado que quer ser compensado pelos estragos causados pelos bombardeamentos norte americanos o presidente dos"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/futebol-nacional/estrela-da-amadora-anuncia-contratacao-do-medio-espanhol-joan-jordan-ao-sevilha_d1758731",
-            "normalized_title": "estrela da amadora anuncia contratacao do medio espanhol joan jordan ao sevilha",
-            "normalized_description": "o estrela da amadora da i liga portuguesa de futebol anunciou hoje a contratacao do medio espanhol joan jordan que jogava no sevilha da primeira"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/futebol-nacional/estrela-da-amadora-contrata-medio-espanhol-joan-jordan-ao-sevilha_d1758731",
-            "normalized_title": "estrela da amadora contrata medio espanhol joan jordan ao sevilha",
-            "normalized_description": "o estrela da amadora da i liga portuguesa de futebol anunciou hoje a contratacao do medio espanhol joan jordan que jogava no sevilha da primeira"
         }
     ],
     "Nacional": [
@@ -5111,24 +5066,24 @@
             "link": "https://www.cmjornal.pt/portugal/detalhe/assalto-a-casa-em-lisboa-rende-mais-de-meio-milhao-de-euros-em-dinheiro-ouro-e-joias",
             "normalized_title": "assalto a casa em lisboa rende mais de meio milhao de euros em dinheiro ouro e joias",
             "normalized_description": "ao que tudo indica os assaltantes terao utilizado o metodo de chave falsa para entrar na residencia"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3032813/operacao-da-pj-manchada-por-morte-de-detido-em-cela-o-que-se-passou#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "operacao da pj manchada por morte de detido em cela o que se passou",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3032830/cerca-de-30-concelhos-do-interior-norte-e-centro-e-algarve-em-perigo-maximo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "cerca de 30 concelhos do interior norte e centro e algarve em perigo maximo",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3032821/servicos-hospitalares-conflito-de-interesses-igas-e-sns-investigam#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "servicos hospitalares conflito de interesses igas e sns investigam",
-            "normalized_description": ""
         }
     ],
     "Mundo": [
+        {
+            "link": "https://expresso.pt/eua/2026-08-11-trump-recomenda-reducao-do-numero-de-vacinas-para-cirancas-e-administracao-separada-da-triplice-viral-5b6a55fb",
+            "normalized_title": "trump recomenda reducao do numero de vacinas para cirancas e administracao separada da triplice viral",
+            "normalized_description": "donald trump assinou uma ordem executiva que reduz de 18 para 11 o numero de vacinas infantis recomendadas e propoe separar as tomas da vacina vaspr"
+        },
+        {
+            "link": "https://expresso.pt/internacional/2026-08-11-da-gronelandia-a-portugal-como-os-paises-se-preparam-para-o-eclipse-solar-de-uma-vida-1b379aac",
+            "normalized_title": "da gronelandia a portugal como os paises se preparam para o eclipse solar de uma vida",
+            "normalized_description": "mais pessoas mais transito mais pressao em areas que nao estao habituadas a um fluxo tao grande de movimento entre restricoes a circulacao e"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mais-cm/especiais/guerra-na-ucrania/detalhe/ataque-com-missil-russo-atinge-hospital-pediatrico-em-kiev",
+            "normalized_title": "ataque com missil russo atinge hospital pediatrico em kiev",
+            "normalized_description": "autoridades ucranianas dao conta de janelas do edificio danificadas e canalizacoes de gas"
+        },
         {
             "link": "https://expresso.pt/guerra-ucrania/2026-08-11-ataques-russos-a-zaporijia-matam-pelo-menos-cinco-pessoas-kiev-tambem-foi-atingida-e4f7b79f",
             "normalized_title": "ataques russos a zaporijia matam pelo menos cinco pessoas kiev tambem foi atingida",
@@ -5238,6 +5193,11 @@
             "link": "https://www.rtp.pt/noticias/mundo/mais-de-160-mortos-confirmados-apos-sismo-de-magnitude-74-na-colombia_n1758789",
             "normalized_title": "mais de 160 mortos confirmados apos sismo de magnitude 7 4 na colombia",
             "normalized_description": "os esforcos de resgate no oeste da colombia entraram esta terca feira no segundo dia enquanto as equipas de emergencia trabalham no meio de"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/socorristas-percorrem-escombros-confirmados-mais-de-160-mortos-apos-sismo-na-colombia_n1758789",
+            "normalized_title": "socorristas percorrem escombros confirmados mais de 160 mortos apos sismo na colombia",
+            "normalized_description": "o sismo de magnitude 7 4 atingiu a regiao produtora de cafe da colombia na madrugada de segunda feira matando pelo menos 164 pessoas"
         },
         {
             "link": "https://www.noticiasaominuto.com/mundo/3034864/exercito-israelita-bombardeia-colinas-no-sul-do-libano#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
@@ -9168,41 +9128,6 @@
             "link": "https://www.noticiasaominuto.com/mundo/3032829/taiwan-arranca-com-manobras-militares-para-responder-a-eventual-invasao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "taiwan arranca com manobras militares para responder a eventual invasao",
             "normalized_description": ""
-        },
-        {
-            "link": "https://expresso.pt/america-central-caraibas/2026-08-06-erupcao-do-vulcao-fuego-na-guatemala-chega-ao-fim-e-habitantes-regressam-a-casa-f2aa5111",
-            "normalized_title": "erupcao do vulcao fuego na guatemala chega ao fim e habitantes regressam a casa",
-            "normalized_description": "vulcao fuego entrou em erupcao na segunda feira e esteve em atividade durante 50 horas no pico da erupcao expeliu torrentes de lava e colunas de"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/tensao-washington-teerao-trump-prefere-acordo-a-escalada-militar_v1757957",
-            "normalized_title": "tensao washington teerao trump prefere acordo a escalada militar",
-            "normalized_description": "donald trump quer replicar no irao o modelo aplicado na venezuela"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/ucrania-confirma-quebra-no-envio-de-misseis-balisticos-dos-aliados_v1757956",
-            "normalized_title": "ucrania confirma quebra no envio de misseis balisticos dos aliados",
-            "normalized_description": "com a defesa do pais sob pressao devido a intensidade dos ataques russos a ucrania confirma uma reducao drastica no envio de misseis balisticos por"
-        },
-        {
-            "link": "https://expresso.pt/uniao-europeia/2026-08-06-vinte-e-dois-contra-cinco-ceuta-foi-a-ultima-gota-numa-europa-que-tende-a-mudar-e-nao-esta-alinhada-com-sanchez-af9c4bb7",
-            "normalized_title": "vinte e dois contra cinco ceuta foi a ultima gota numa europa que tende a mudar e nao esta alinhada com sanchez",
-            "normalized_description": "e pouco provavel que o impacto da crise de ceuta se traduza em novas regras de controlo de imigracao antes de o pacto para as migracoes comecar a"
-        },
-        {
-            "link": "https://expresso.pt/uniao-europeia/2026-08-06-vinte-e-dois-contra-cinco-ceuta-foi-a-ultima-gota-numa-europa-que-tende-a-mudar-e-nao-esta-alinhada-com-sanchez-af9c4bb7-1",
-            "normalized_title": "vinte e dois contra cinco ceuta foi a ultima gota numa europa que tende a mudar e nao esta alinhada com sanchez",
-            "normalized_description": "e pouco provavel que o impacto da crise de ceuta se traduza em novas regras de controlo de imigracao antes de o pacto para as migracoes comecar a"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/ataque-ucraniano-a-russia-com-numero-recorde-de-drones_n1757949",
-            "normalized_title": "ataque ucraniano a russia com numero recorde de drones",
-            "normalized_description": "a ucrania realizou hoje ataques na russia com mais de 600 drones a maior ofensiva que o pais alguma vez realizou com engenhos nao tripulados"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/gaza-netanyahu-recusa-retirada-faseada_v1757954",
-            "normalized_title": "gaza netanyahu recusa retirada faseada",
-            "normalized_description": "braco de ferro entre estados unidos e israel pelo futuro de gaza"
         }
     ],
     "Desporto": [
@@ -9210,6 +9135,21 @@
             "link": "https://www.zerozero.pt/noticias/paciencia-foi-o-primeiro-a-i-bisar-i-em-26-27-se-estiver-bem-pode-voltar-a-selecao/1172171",
             "normalized_title": "paciencia foi o primeiro a bisar em 26 27 se estiver bem pode voltar a selecao",
             "normalized_description": "goncalo paciencia foi protagonista na jornada inaugural da liga portugal betclic ao marcar dois golos pelo santa clara frente ao nacional com"
+        },
+        {
+            "link": "https://www.cmjornal.pt/desporto/futebol/detalhe/grupo-de-assaltantes-colombianos-fixado-em-espanha-tem-na-mira-estrelas-de-futebol",
+            "normalized_title": "grupo de assaltantes colombianos fixado em espanha tem na mira estrelas de futebol",
+            "normalized_description": "metodo utilizado pelo grupo e semelhante em todos os assaltos deniz gul jogador do fc porto foi o ultimo alvo"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/fc-porto-envia-mensagem-de-forca-e-coragem-ao-povo-colombiano",
+            "normalized_title": "fc porto envia mensagem de forca e coragem ao povo colombiano",
+            "normalized_description": "pais sul americano foi afetado por um sismo de 7 4 na escala de richter"
+        },
+        {
+            "link": "https://www.record.pt/fora-de-campo/detalhe/ha-20-trabalhadores-na-rtp-a-ganhar-mais-que-o-presidente",
+            "normalized_title": "ha 20 trabalhadores na rtp a ganhar mais do que o presidente",
+            "normalized_description": "auditoria da igf detetou salarios de cerca de 18 mil euros o que corresponde a 220 da remuneracao de nicolau santos"
         },
         {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/dragoes-voltam-ao-ataque-apontar-o-dedo-ao-fc-porto-apos-um-triunfo-sem-macula-so-revela-desespero",
@@ -18615,39 +18555,19 @@
             "link": "https://www.noticiasaominuto.com/desporto/3032820/bayern-munique-desbloqueia-novela-irankunda-prestes-a-reforcar-sporting#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "bayern munique poe fim a novela irankunda prestes a reforcar sporting",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.record.pt/internacional/detalhe/australia-concede-cidadania-a-duas-futebolistas-iranianas-que-se-recusaram-a-cantar-o-hino",
-            "normalized_title": "australia concede cidadania a duas futebolistas iranianas que se recusaram a cantar o hino",
-            "normalized_description": "fatemeh pasandideh e atefeh ramezanisadeh tiveram acao de protesto em jogo da taca asiatica"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/bruma-e-tiago-gouveia-afastados",
-            "normalized_title": "bruma e tiago gouveia afastados",
-            "normalized_description": "extremos fora do grupo de trabalho do benfica"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/detalhe/gnr-registou-cerca-de-1-500-incidentes-desportivos-na-epoca-2025-2026",
-            "normalized_title": "gnr registou cerca de 1 500 incidentes desportivos na epoca 2025 2026",
-            "normalized_description": "maioria das ocorrencias registadas no futebol"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/auto/3021194/insetos-colados-ao-carro-podem-ser-um-problema-maior-do-que-pensa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "insetos colados ao carro podem ser um problema maior do que pensa",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/desporto/volta-a-portugal-apenas-quatro-segundos-separam-a-lideranca_v1757953",
-            "normalized_title": "volta a portugal apenas quatro segundos separam a lideranca",
-            "normalized_description": "separados por apenas quatro segundos os homens da frente deixam a camisola amarela em aberto"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/3032418/do-benfica-para-o-sporting-em-busca-do-ouro-nel-luta-contra-fama-leonina#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "do benfica para o sporting em busca do ouro nel luta contra fama leonina",
-            "normalized_description": ""
         }
     ],
     "Economia": [
+        {
+            "link": "https://jornaleconomico.sapo.pt/noticias/nvidia-junta-se-a-seis-instituicoes-para-investir-mais-de-500-mil-milhoes-na-expansao-da-infraestrutura-de-ia/",
+            "normalized_title": "nvidia junta se a seis instituicoes para investir mais de 500 mil milhoes em infraestrutura de ia",
+            "normalized_description": "a nvidia juntou se a apollo blackrock blackstone brookfield goldman sachs e kkr para estabelecer plataformas independentes de financiamento de"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/economia/mundo/africa/detalhe/radar-africa-americanos-apostam-na-rdc-com-a-ajuda-da-mota-engil",
+            "normalized_title": "radar africa americanos apostam na rdc com a ajuda da mota engil",
+            "normalized_description": "os estados unidos tem empresas como a atlas park e a kobold metals a fazer o mapeamento das riquezas minerais da republica democratica do congo com"
+        },
         {
             "link": "https://www.noticiasaominuto.com/economia/3034907/escalada-do-petroleo-prossegue-brent-esta-a-negociar-acima-de-89-dolares#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "escalada do petroleo prossegue brent esta a negociar acima de 89 dolares",
@@ -22142,21 +22062,6 @@
             "link": "https://www.noticiasaominuto.com/economia/3032485/gerir-o-seu-orcamento-familiar-e-um-desafio-dicas-para-a-regra-503020#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "gerir o seu orcamento familiar e um desafio dicas para a regra 50 30 20",
             "normalized_description": ""
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/china-intensifica-cobranca-retroativa-de-impostos-sobre-patrimonio-no-estrangeiro/",
-            "normalized_title": "china intensifica cobranca retroativa de impostos sobre patrimonio no estrangeiro",
-            "normalized_description": "segundo o jornal britanico financial times que cita responsaveis estrangeiros banqueiros chineses e gestores de patrimonios familiares family"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/bolsa-de-lisboa-abre-a-liderar-ganhos-europeus/",
-            "normalized_title": "bolsa de lisboa abre a liderar ganhos europeus",
-            "normalized_description": "as maiores subidas na bolsa portuguesa vao para a ren que valoriza 1 58 para os 3 54 euros seguida pelos ctt que avancam 1 20 para os 6 35 euros"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/mercados/mercados-num-minuto/detalhe/bolsas-asiaticas-tambem-sofrem-travao-indica-da-coreia-do-sul-cai-mais-de-4",
-            "normalized_title": "bolsas asiaticas tambem sofrem travao indica da coreia do sul cai mais de 4",
-            "normalized_description": "acompanhe ao minuto a evolucao dos mercados desta quinta feira"
         }
     ],
     "Cultura": [
@@ -24131,16 +24036,6 @@
             "link": "https://pplware.sapo.pt/smartphones-tablets/android/fim-de-uma-era-no-android-google-assistant-vai-desaparecer-e-ja-tem-data-marcada/",
             "normalized_title": "fim de uma era no android google assistant vai desaparecer e ja tem data marcada",
             "normalized_description": "o ecossistema android prepara se para uma das maiores transformacoes dos ultimos anos a google definiu a data limite para o encerramento do classico"
-        },
-        {
-            "link": "https://tek.sapo.pt/extras/site-do-dia/artigos/justdeleteme-o-site-que-mostra-como-apagar-a-sua-conta-em-qualquer-servico-e-o-nivel-de-dificuldade-do-processo/",
-            "normalized_title": "justdeleteme o site que mostra como apagar a sua conta em qualquer servico e o nivel de dificuldade do processo",
-            "normalized_description": "com um directorio de centenas de servicos online ordenados por dificuldade de eliminacao de conta o justdeleteme e a ferramenta indispensavel para"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/tech/3032567/o-que-e-um-ataque-de-spoofing-como-detetar-e-formas-de-se-proteger#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "o que e um ataque de spoofing como detetar e formas de se proteger",
-            "normalized_description": ""
         }
     ],
     "Lifestyle": [
@@ -25293,14 +25188,14 @@
             "link": "https://www.noticiasaominuto.com/lifestyle/3032834/eclipse-encontrou-em-casa-uns-oculos-de-1999-ainda-sao-seguros#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "eclipse encontrou em casa uns oculos de 1999 ainda sao seguros",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/fama/3032818/marco-costa-e-a-familia-de-ferias-no-algarve-a-vida-passa-depressa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "marco costa e a familia de ferias no algarve a vida passa depressa",
-            "normalized_description": ""
         }
     ],
     "Sociedade": [
+        {
+            "link": "https://www.cmjornal.pt/sociedade/clima/detalhe/calor-vai-atingir-nove-distritos-ate-quinta-feira",
+            "normalized_title": "calor vai atingir nove distritos ate quinta feira",
+            "normalized_description": "temperaturas maximas vao oscilar entre os 25 graus celsius em viana do castelo e no porto e os 36 graus em braganca castelo branco evora e beja"
+        },
         {
             "link": "https://expresso.pt/incendios/2026-08-11-incendios-20-concelhos-do-interior-norte-e-centro-e-algarve-sob-perigo-maximo-bc9870e4",
             "normalized_title": "incendios 20 concelhos do interior norte e centro e algarve sob perigo maximo",
@@ -27140,16 +27035,6 @@
             "link": "https://expresso.pt/meteorologia/2026-08-06-de-braganca-a-faro-cerca-de-30-concelhos-em-risco-maximo-de-incendio-5d9795ac",
             "normalized_title": "de braganca a faro cerca de 30 concelhos em risco maximo de incendio",
             "normalized_description": "temperatura ira subir esta quinta feira com vento mais intenso na faixa costeira a sul do cabo raso castelo branco atinge os 38 graus sendo a"
-        },
-        {
-            "link": "https://www.cmjornal.pt/sociedade/detalhe/alegado-conflito-de-interesses-nos-servicos-hospitalares-anulou-negocios-de-milhoes",
-            "normalized_title": "alegado conflito de interesses nos servicos hospitalares anulou negocios de milhoes",
-            "normalized_description": "dirigente dos servicos hospitalares assinava contratos milionarios dos dois lados da mesa e a sobreposicao de funcoes levou a declaracao de nulidade"
-        },
-        {
-            "link": "https://expresso.pt/sociedade/2026-08-06-de-salazar-a-25-de-abril-os-60-anos-da-ponte-sobre-o-tejo-73a03c4b",
-            "normalized_title": "de salazar a 25 de abril os 60 anos da ponte sobre o tejo",
-            "normalized_description": "inaugurada num sabado quente de agosto de 1966 a ponte 25 de abril celebra esta quinta feira o seu 60 º aniversario dos primeiros esbocos em"
         }
     ],
     "Política": [
