@@ -532,5 +532,12 @@
         "timestamp": "2026-08-17T08:15:50.097552+00:00",
         "title": "As más notícias são notícia",
         "confidence": "exact"
+    },
+    "https://expresso.pt/guerra-ucrania/2026-08-17-ataque-ucraniano-a-regiao-fronteirica-russa-faz-seis-mortos-e-quatro-feridos-e904d8b6": {
+        "category": null,
+        "timestamp": "2026-08-17T08:45:54.524422+00:00",
+        "title": "Ataque ucraniano a região fronteiriça russa faz seis mortos e quatro feridos",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
     }
 }
