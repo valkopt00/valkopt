@@ -481,14 +481,14 @@
     },
     "https://expresso.pt/empresas-negocios/2026-08-18-conflito-familiar-ameaca-transacao-de-125-mil-milhoes-nos-lakers-familia-buss-dividida-sobre-venda-a-ex-presidente-da-disney-fcc846f5": {
         "category": null,
-        "timestamp": "2026-08-18T19:31:06.216147+00:00",
+        "timestamp": "2026-08-18T19:45:51.192683+00:00",
         "title": "Conflito familiar ameaça transação de 12,5 mil milhões nos Lakers: família Buss dividida sobre venda...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-08-18-ucrania-lanca-ataque-com-620-drones-contra-moscovo-e-faz-tres-feridos-9581eb8b": {
         "category": null,
-        "timestamp": "2026-08-18T19:31:04.866646+00:00",
+        "timestamp": "2026-08-18T19:45:49.575129+00:00",
         "title": "Ucrânia lança ataque com 620 drones contra Moscovo e faz três feridos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -502,7 +502,7 @@
     },
     "https://expresso.pt/italia/2026-08-18-morte-tragica-no-vulcao-etna-raio-mata-turista-norte-americano-de-30-anos-em-zona-restrita-ffa24c6c": {
         "category": null,
-        "timestamp": "2026-08-18T19:31:04.774665+00:00",
+        "timestamp": "2026-08-18T19:45:49.544445+00:00",
         "title": "Morte trágica no vulcão Etna: raio mata turista norte-americano de 30 anos em zona restrita",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -523,7 +523,7 @@
     },
     "https://expresso.pt/cheias-inundacoes/2026-08-18-pelo-menos-13-mortos-apos-inundacoes-no-japao-bf291419": {
         "category": null,
-        "timestamp": "2026-08-18T19:31:03.962571+00:00",
+        "timestamp": "2026-08-18T19:45:47.366968+00:00",
         "title": "Pelo menos 13 mortos após inundações no Japão",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -551,8 +551,15 @@
     },
     "https://expresso.pt/partidos-politicos/2026-08-18-um-ataque-sem-precedentes-esquerda-critica-estudo-e-nega-problemas-de-sustentabilidade-da-seguranca-social-72f8058e": {
         "category": null,
-        "timestamp": "2026-08-18T19:31:04.416595+00:00",
+        "timestamp": "2026-08-18T19:45:48.446658+00:00",
         "title": "Um “ataque sem precedentes”: esquerda critica estudo e nega problemas de sustentabilidade da Seguran...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/presidencia-republica/2026-08-18-seguro-promulgou-lei-das-burcas-rosto-destapado-e-dimensao-estruturante-da-confianca-social-5ea65332": {
+        "category": null,
+        "timestamp": "2026-08-18T19:45:48.476506+00:00",
+        "title": "Seguro promulgou 'lei das burcas': rosto destapado é \"dimensão estruturante da confiança social\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
