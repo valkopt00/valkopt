@@ -488,7 +488,7 @@
     },
     "https://expresso.pt/italia/2026-08-17-tera-a-formula-da-coca-cola-nascido-em-florenca--15e55ba9": {
         "category": null,
-        "timestamp": "2026-08-18T08:01:23.215959+00:00",
+        "timestamp": "2026-08-18T08:15:54.170043+00:00",
         "title": "Terá a fórmula da Coca-Cola nascido em Florença?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -502,7 +502,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-08-17-e-a-mulher-mais-rica-da-russia.-o-seu-imperio-empresarial-esta-a-desfazer-se-9460a71b": {
         "category": null,
-        "timestamp": "2026-08-18T08:01:22.936819+00:00",
+        "timestamp": "2026-08-18T08:15:53.853007+00:00",
         "title": "É a mulher mais rica da Rússia. O seu império empresarial está a desfazer-se",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -530,7 +530,7 @@
     },
     "https://expresso.pt/japao/2026-08-17-russia-chama-embaixador-japones-apos-contestacao-a-visita-de-putin-as-curilas-268cc5ad": {
         "category": null,
-        "timestamp": "2026-08-18T08:01:22.883563+00:00",
+        "timestamp": "2026-08-18T08:15:53.765021+00:00",
         "title": "Rússia chama embaixador japonês após contestação à visita de Putin às Curilas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -551,7 +551,7 @@
     },
     "https://www.rtp.pt/noticias/lusa/mais-de-1000-operacionais-combatiam-quatro-grandes-incendios-pelas-2300_n1760028": {
         "category": null,
-        "timestamp": "2026-08-18T08:01:22.773884+00:00",
+        "timestamp": "2026-08-18T08:15:53.487951+00:00",
         "title": "Mais de 1.000 operacionais combatiam quatro grandes incêndios pelas 23:00",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -565,15 +565,22 @@
     },
     "https://expresso.pt/empresas-negocios/2026-08-18-conflito-familiar-ameaca-transacao-de-125-mil-milhoes-nos-lakers-familia-buss-dividida-sobre-venda-a-ex-presidente-da-disney-fcc846f5": {
         "category": null,
-        "timestamp": "2026-08-18T08:01:21.606855+00:00",
+        "timestamp": "2026-08-18T08:15:53.209837+00:00",
         "title": "Conflito familiar ameaça transação de 12,5 mil milhões nos Lakers: família Buss dividida sobre venda...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-08-18-ucrania-lanca-ataque-com-620-drones-contra-moscovo-e-faz-tres-feridos-9581eb8b": {
         "category": null,
-        "timestamp": "2026-08-18T08:01:22.679621+00:00",
+        "timestamp": "2026-08-18T08:15:51.908391+00:00",
         "title": "Ucrânia lança ataque com 620 drones contra Moscovo e faz três feridos",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/instituto-de-medicina-legal-da-colombia-recebeu-304-corpos-de-vitimas": {
+        "category": null,
+        "timestamp": "2026-08-18T08:15:52.229401+00:00",
+        "title": "Instituto de Medicina Legal da Colômbia recebeu 304 corpos de vítimas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
