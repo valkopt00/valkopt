@@ -479,21 +479,21 @@
     },
     "https://expresso.pt/partidos-politicos/2026-08-18-um-ataque-sem-precedentes-esquerda-critica-estudo-e-nega-problemas-de-sustentabilidade-da-seguranca-social-72f8058e": {
         "category": null,
-        "timestamp": "2026-08-19T10:31:09.974962+00:00",
+        "timestamp": "2026-08-19T10:45:49.532522+00:00",
         "title": "Um “ataque sem precedentes”: esquerda critica estudo e nega problemas de sustentabilidade da Seguran...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/presidencia-republica/2026-08-18-seguro-promulgou-lei-das-burcas-rosto-destapado-e-dimensao-estruturante-da-confianca-social-5ea65332": {
         "category": null,
-        "timestamp": "2026-08-19T10:31:10.022128+00:00",
+        "timestamp": "2026-08-19T10:45:49.582205+00:00",
         "title": "Seguro promulgou 'lei das burcas': rosto destapado é \"dimensão estruturante da confiança social\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/privacidade-dados/2026-08-18-google-oferece-86-milhoes-de-euros-pelos-dados-da-spirit-airlines-para-treinar-modelos-de-ia-b4d9ef16": {
         "category": null,
-        "timestamp": "2026-08-19T10:31:09.923461+00:00",
+        "timestamp": "2026-08-19T10:45:49.480059+00:00",
         "title": "Google oferece 8,6 milhões de euros pelos dados da Spirit Airlines, para treinar modelos de IA",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -521,15 +521,22 @@
     },
     "https://expresso.pt/partidos-politicos/2026-08-19-video-andre-ventura-vamos-ser-francos-o-ps-ja-sabe-que-vai-viabilizar-o-orcamento-ja-sabe-que-tem-de-ser-a-muleta-deste-governo-d37ae1cc": {
         "category": null,
-        "timestamp": "2026-08-19T10:31:07.942573+00:00",
+        "timestamp": "2026-08-19T10:45:47.537949+00:00",
         "title": "André Ventura: “Vamos ser francos: o PS já sabe que vai viabilizar o Orçamento, já sabe que tem de s...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-08-19-ex-ministro-da-defesa-ucraniano-desafia-zelensky-e-pede-eleicoes-apesar-de-guerra-com-a-russia-f06b28af": {
         "category": null,
-        "timestamp": "2026-08-19T10:31:07.896421+00:00",
+        "timestamp": "2026-08-19T10:45:47.489412+00:00",
         "title": "Ex-ministro da Defesa ucraniano desafia Zelensky e pede eleições, apesar de guerra com a Rússia",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/guerra-ucrania/2026-08-19-russia-lancou-mais-de-mil-ataques-contra-zaporijia-num-dia-ucrania-atinge-paragem-de-autocarro-perto-da-central-nuclear-71cd01ba": {
+        "category": null,
+        "timestamp": "2026-08-19T10:45:48.942450+00:00",
+        "title": "Rússia lançou mais de mil ataques contra Zaporíjia num dia, Ucrânia atinge paragem de autocarro pert...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
