@@ -439,21 +439,21 @@
     },
     "https://visao.pt/edicao-impressa/2026-08-19-edicao-1746/?utm_source=rss&utm_medium=rss&utm_campaign=edicao-1746": {
         "category": null,
-        "timestamp": "2026-08-20T09:01:07.207035+00:00",
+        "timestamp": "2026-08-20T09:15:48.758484+00:00",
         "title": "Edição 1746",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/custo-vida/2026-08-19-ha-um-ano-que-os-precos-dos-alimentos-estao-a-subir-acima-da-media-da-zona-euro-15bcdd32": {
         "category": null,
-        "timestamp": "2026-08-20T09:01:08.151545+00:00",
+        "timestamp": "2026-08-20T09:15:50.343192+00:00",
         "title": "Há um ano que os preços dos alimentos estão a subir acima da média da zona euro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/america-central-caraibas/cuba/2026-08-19-bloqueio-agrava-crise-humanitaria-cuba-e-o-simbolo-mais-importante-para-restabelecer-o-dominio-dos-eua-sobre-todo-o-hemisferio-4c7275b5": {
         "category": null,
-        "timestamp": "2026-08-20T09:01:08.098937+00:00",
+        "timestamp": "2026-08-20T09:15:50.263501+00:00",
         "title": "Bloqueio agrava crise humanitária: “Cuba é o símbolo mais importante para restabelecer o domínio dos...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -467,7 +467,7 @@
     },
     "https://expresso.pt/automoveis/2026-08-19-abarth-eletrico-o-escorpiao-mostra-a-sua-raca-b3ac0cdd": {
         "category": null,
-        "timestamp": "2026-08-20T09:01:08.002686+00:00",
+        "timestamp": "2026-08-20T09:15:49.860517+00:00",
         "title": "Abarth Elétrico: o escorpião mostra a sua raça",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -481,7 +481,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-08-19-ventura-lanca-a-descida-da-idade-da-reforma-para-discussao-do-orcamento-e-agita-fantasma-das-eleicoes-77dcc287": {
         "category": null,
-        "timestamp": "2026-08-20T09:01:08.050429+00:00",
+        "timestamp": "2026-08-20T09:15:49.929050+00:00",
         "title": "Ventura lança a descida da idade da reforma para discussão do Orçamento e agita fantasma das eleiçõe...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -509,8 +509,22 @@
     },
     "https://expresso.pt/expressinho/2026-08-20-gabriel-guimaraes-matematica-crochet-e-muito-talento-f59bc0db": {
         "category": null,
-        "timestamp": "2026-08-20T09:01:06.478536+00:00",
+        "timestamp": "2026-08-20T09:15:47.055122+00:00",
         "title": "Gabriel Guimarães: Matemática, crochet e muito talento!",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/cmr/podcasts/crime-e-castigo/detalhe/nova-ameaca-a-caminho-da-terra": {
+        "category": null,
+        "timestamp": "2026-08-20T09:15:49.081169+00:00",
+        "title": "Nova ameaça a caminho da Terra",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/guerra-ucrania/2026-08-20-ataque-russo-a-regiao-de-kiev-faz-pelo-menos-13-mortos-e-40-feridos-b9fadcd9": {
+        "category": null,
+        "timestamp": "2026-08-20T09:15:49.750832+00:00",
+        "title": "Ataque russo à região de Kiev faz pelo menos 13 mortos e 40 feridos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
