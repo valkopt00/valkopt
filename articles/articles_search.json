@@ -1,6 +1,31 @@
 {
     "Últimas": [
         {
+            "link": "https://www.zerozero.pt/noticias/eljif-elmas-reforca-meio-campo-da-atalanta/1180640",
+            "normalized_title": "eljif elmas reforca meio campo da atalanta",
+            "normalized_description": "a atalanta garantiu a contratacao do medio eljif elmas para a proxima temporada o jogador de 26 anos chega por emprestimo do leipzig com opcao de"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/3039995/armada-espanhola-encaminha-vitoria-da-uniao-de-leiria-em-matosinhos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "armada espanhola encaminha vitoria da uniao de leiria em matosinhos",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/iranianos-queixam-se-da-perda-de-poder-de-compra_v1760960",
+            "normalized_title": "iranianos queixam se da perda de poder de compra",
+            "normalized_description": "os precos dispararam no irao apos o anuncio dos estados unidos de impor ao pais a pressao economica mais dura da historia"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/operacao-conjunta-da-judiciaria-e-autoridades-espanholas-apreende-150-quilos-de-cocaina",
+            "normalized_title": "operacao conjunta da judiciaria e autoridades espanholas apreende 150 quilos de cocaina escondidos em polpa de fruta",
+            "normalized_description": "operacao resultou na detencao de um cidadao estrangeiro por trafico de estupefacientes e na apreensao de 150 quilos de cocaina que se encontrava"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/economia/impostos/irs/detalhe/fisco-alerta-para-chamadas-telefonicas-fraudulentas-sobre-declaracao-de-irs",
+            "normalized_title": "fisco alerta para chamadas telefonicas fraudulentas sobre declaracao de irs",
+            "normalized_description": "as chamadas fazem parte de uma campanha de vishing em que a pedido aos destinata rios destas chamadas que carreguem numa determinada tecla para"
+        },
+        {
             "link": "https://www.noticiasaominuto.com/mundo/3039992/coreia-do-norte-acusa-japao-de-preparar-guerra-de-agressao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "coreia do norte acusa japao de preparar guerra de agressao",
             "normalized_description": ""
@@ -9,6 +34,11 @@
             "link": "https://www.rtp.pt/noticias/mundo/trump-insiste-que-estreito-de-ormuz-e-territorio-norte-americano_v1760959",
             "normalized_title": "trump insiste que estreito de ormuz e territorio norte americano",
             "normalized_description": "o presidente dos estados unidos prepara uma ofensiva economica total contra o irao mas ja recebeu a recusa de cooperacao por parte da china o maior"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/economia/politica/detalhe/unico-deputado-do-bloco-de-esquerda-substituido-por-andreia-galvao-em-setembro",
+            "normalized_title": "unico deputado do bloco de esquerda substituido por andreia galvao em setembro",
+            "normalized_description": "fabian figueiredo vai suspender o mandato entre 1 e 30 de setembro sendo substituido por andreia galvao que ja havia substituido no parlamento a"
         },
         {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/arouca/detalhe/vasco-seabra-ja-se-falou-em-momentos-criticos-do-fc-porto-e-nunca-deixaram-de-ganhar",
@@ -1684,14 +1714,14 @@
             "link": "https://www.record.pt/opiniao/cronistas/rita-pedroso/detalhe/deus-la-liga-e-um-calippo",
             "normalized_title": "deus la liga e um calippo",
             "normalized_description": "sair a jogar"
-        },
-        {
-            "link": "https://www.record.pt/modalidades/golfe/detalhe/daniel-rodrigues-e-ricardo-melo-gouveia-falham-cut-no-nexo-championship",
-            "normalized_title": "daniel rodrigues e ricardo melo gouveia falham cut no nexo championship",
-            "normalized_description": "golfistas portugueses ficam pelo caminho na escocia"
         }
     ],
     "Nacional": [
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/operacao-conjunta-da-judiciaria-e-autoridades-espanholas-apreende-150-quilos-de-cocaina",
+            "normalized_title": "operacao conjunta da judiciaria e autoridades espanholas apreende 150 quilos de cocaina escondidos em polpa de fruta",
+            "normalized_description": "operacao resultou na detencao de um cidadao estrangeiro por trafico de estupefacientes e na apreensao de 150 quilos de cocaina que se encontrava"
+        },
         {
             "link": "https://www.noticiasaominuto.com/pais/3039991/apreendidos-4200-litros-de-combustivel-em-armazem-em-alcochete#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "apreendidos 4 200 litros de combustivel em armazem em alcochete",
@@ -5184,6 +5214,11 @@
         }
     ],
     "Mundo": [
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/iranianos-queixam-se-da-perda-de-poder-de-compra_v1760960",
+            "normalized_title": "iranianos queixam se da perda de poder de compra",
+            "normalized_description": "os precos dispararam no irao apos o anuncio dos estados unidos de impor ao pais a pressao economica mais dura da historia"
+        },
         {
             "link": "https://www.noticiasaominuto.com/mundo/3039992/coreia-do-norte-acusa-japao-de-preparar-guerra-de-agressao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "coreia do norte acusa japao de preparar guerra de agressao",
@@ -9643,24 +9678,19 @@
             "link": "https://observador.pt/2026/08/17/passividade-quase-absoluta-presidente-de-ceuta-da-30-dias-ao-governo-de-sanchez-para-resolver-crise-migratoria/",
             "normalized_title": "ceuta da 30 dias a sanchez para resolver crise migratoria",
             "normalized_description": "juan vivas acusa executivo central de passividade absoluta apos entrada em massa de migrantes em ceuta e ameaca levar caso ao supremo e ao"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3037585/irao-diz-estar-proximo-de-acordo-com-oma-sobre-estreito-de-ormuz#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "irao diz estar proximo de acordo com oma sobre estreito de ormuz",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3037577/turista-aventurou-se-em-zona-restrita-do-etna-e-morreu-atingido-por-raio#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "turista aventurou se em zona restrita do etna e morreu atingido por raio",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/o-povo-nao-vai-desistir-ceuta-ameaca-recorrer-a-justica-se-madrid-nao-resolver-a-crise-em-30-dias_n1759945",
-            "normalized_title": "o povo nao vai desistir ceuta ameaca recorrer a justica se madrid nao resolver a crise em 30 dias",
-            "normalized_description": "o presidente de ceuta endureceu a sua retorica e teceu duras criticas ao governo de pedro sanchez que acusou de passividade e de estar a tentar"
         }
     ],
     "Desporto": [
+        {
+            "link": "https://www.zerozero.pt/noticias/eljif-elmas-reforca-meio-campo-da-atalanta/1180640",
+            "normalized_title": "eljif elmas reforca meio campo da atalanta",
+            "normalized_description": "a atalanta garantiu a contratacao do medio eljif elmas para a proxima temporada o jogador de 26 anos chega por emprestimo do leipzig com opcao de"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/3039995/armada-espanhola-encaminha-vitoria-da-uniao-de-leiria-em-matosinhos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "armada espanhola encaminha vitoria da uniao de leiria em matosinhos",
+            "normalized_description": ""
+        },
         {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/arouca/detalhe/vasco-seabra-ja-se-falou-em-momentos-criticos-do-fc-porto-e-nunca-deixaram-de-ganhar",
             "normalized_title": "vasco seabra ja se falou em momentos criticos do fc porto e nunca deixaram de ganhar",
@@ -17760,29 +17790,19 @@
             "link": "https://www.record.pt/modalidades/ciclismo/detalhe/lesao-na-clavicula-afasta-vingegaard-do-resto-da-temporada-incluindo-mundiais-de-estrada",
             "normalized_title": "lesao na clavicula afasta vingegaard do resto da temporada incluindo mundiais de estrada",
             "normalized_description": "ciclista dinamarques lesionou se no tour prova do qual teve mesmo de desistir"
-        },
-        {
-            "link": "https://www.autosport.pt/velocidade/cpv-is-temporada-2026-com-indicadores-muito-positivos/",
-            "normalized_title": "cpv is temporada 2026 com indicadores muito positivos",
-            "normalized_description": "os tres campeonatos do supercars endurance iberian supercars campeonato de portugal de velocidade e campeonato de espana de supercars chegaram a"
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/sergio-busquets-regressa-ao-barcelona-para-iniciar-a-carreira-de-treinador/1177160",
-            "normalized_title": "sergio busquets regressa ao barcelona para iniciar a carreira de treinador",
-            "normalized_description": "depois de ter pendurado as chuteiras em dezembro do ano passado sergio busquets tem agora um novo desafio no mundo do futebol o lendario jogador do"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/um-dos-principais-interessados-em-trubin-ja-contratou-outro-guarda-redes",
-            "normalized_title": "um dos principais interessados em trubin ja contratou outro guarda redes",
-            "normalized_description": "juventus garantiu guglielmo vicario por emprestimo do tottenham"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/auto/3037560/em-espanha-pedidos-de-assistencia-em-estrada-disparam-apos-eclipse#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "em espanha pedidos de assistencia em estrada disparam apos eclipse",
-            "normalized_description": ""
         }
     ],
     "Economia": [
+        {
+            "link": "https://www.jornaldenegocios.pt/economia/impostos/irs/detalhe/fisco-alerta-para-chamadas-telefonicas-fraudulentas-sobre-declaracao-de-irs",
+            "normalized_title": "fisco alerta para chamadas telefonicas fraudulentas sobre declaracao de irs",
+            "normalized_description": "as chamadas fazem parte de uma campanha de vishing em que a pedido aos destinata rios destas chamadas que carreguem numa determinada tecla para"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/economia/politica/detalhe/unico-deputado-do-bloco-de-esquerda-substituido-por-andreia-galvao-em-setembro",
+            "normalized_title": "unico deputado do bloco de esquerda substituido por andreia galvao em setembro",
+            "normalized_description": "fabian figueiredo vai suspender o mandato entre 1 e 30 de setembro sendo substituido por andreia galvao que ja havia substituido no parlamento a"
+        },
         {
             "link": "https://www.noticiasaominuto.com/economia/3039993/fisco-alerta-para-chamadas-telefonicas-fraudulentas-sobre-irs#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "fisco alerta para chamadas telefonicas fraudulentas sobre irs",
@@ -21957,36 +21977,6 @@
             "link": "https://www.rtp.pt/noticias/economia/jeronimo-martins-visabeira-e-bb-ii-notificam-concorrencia-sobre-compra-da-rduz_n1759951",
             "normalized_title": "jeronimo martins visabeira e b b ii notificam concorrencia sobre compra da rduz",
             "normalized_description": "o grupo jeronimo martins a visabeira e a b b ii notificaram a autoridade da concorrencia adc sobre a aquisicao do controlo conjunto da rduz"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/mercados/analise-tecnica/detalhe/imf-inflacao-dos-eua-abrandou-em-julho",
-            "normalized_title": "imf inflaa a o dos eua abrandou em julho",
-            "normalized_description": "inflacao dos eua abrandou em julho economia do reino unido cresceu em junho petroleo atinge maximos de 14 dias ouro renova maximos de dez semanas"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/3037587/prr-governo-anuncia-mais-de-28000-casas-entregues-as-familias#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "prr governo anuncia mais de 28 000 casas entregues as familias",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/40-milhoes-de-dolares-primeiro-carro-eletrico-da-ferrari-bate-recorde-em-leilao/",
-            "normalized_title": "40 milhoes de dolares primeiro carro eletrico da ferrari bate recorde em leilao",
-            "normalized_description": "em 2025 um ferrari daytona sp3 personalizado tinha sido vendido por 26 milhoes de dolares 22 4 milhoes de euros na altura o valor mais alto pago"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/3037582/jeronimo-martins-visabeira-e-b-b-ii-notificam-adc-sobre-compra-da-rduz#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "jeronimo martins visabeira e b b ii notificam adc sobre compra da rduz",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/3037574/receita-da-anthropic-deve-ter-subido-pelo-menos-14-vezes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "receita da anthropic deve ter subido pelo menos 14 vezes",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/empresas/construcao/detalhe/mota-engil-vai-construir-central-de-ciclo-combinado-no-mexico-e-quer-levar-duro-felguera",
-            "normalized_title": "mota engil vai construir central de ciclo combinado no mexico e quer levar duro felguera",
-            "normalized_description": "a empresa espanhola que viu aprovado em junho o plano de reestruturacao convocou uma assembleia geral para 18 de setembro para que seja votada a"
         }
     ],
     "Cultura": [
@@ -24066,11 +24056,6 @@
             "link": "https://tek.sapo.pt/noticias/internet/artigos/governos-sob-ameaca-com-ataques-para-roubar-dados-ia-e-ransomware-dao-novas-armas-aos-atacantes/",
             "normalized_title": "governos sob ameaca com ataques para roubar dados ia e ransomware dao novas armas aos atacantes",
             "normalized_description": "entre roubo de dados de contribuintes acesso a informacao sobre beneficiarios e ciberataques com recurso a inteligencia artificial tres novos"
-        },
-        {
-            "link": "https://pplware.sapo.pt/gadgets/gadgets-como-iphone-e-ps5-estao-cada-vez-mais-caros-o-que-deve-saber-antes-de-comprar/",
-            "normalized_title": "gadgets como iphone e ps5 estao cada vez mais caros o que deve saber antes de comprar",
-            "normalized_description": "a corrida a inteligencia artificial ia esta a ter um efeito colateral inesperado no bolso dos consumidores com os precos de tablets consolas e"
         }
     ],
     "Lifestyle": [
@@ -27170,16 +27155,6 @@
             "link": "https://www.cmjornal.pt/sociedade/detalhe/preco-eficiente-sobe-para-1984-euros-na-gasolina-e-2102-euros-no-gasoleo",
             "normalized_title": "preco eficiente sobe para 1984 euros na gasolina e 2102 euros no gasoleo",
             "normalized_description": "informacao avancada esta segunda feira pela entidade reguladora dos servicos energeticos"
-        },
-        {
-            "link": "https://expresso.pt/seguranca/2026-08-17-morte-de-ciclista-na-volta-a-portugal-psp-esclarece-que-video-viral-nao-tem-relacao-com-a-tragedia-ba980c44",
-            "normalized_title": "morte de ciclista na volta a portugal psp esclarece que video viral nao tem relacao com a tragedia",
-            "normalized_description": "video de agente da psp em braga nao esta relacionado com tragedia que matou finlay tarling policia repudia associacao entre video de regulacao de"
-        },
-        {
-            "link": "https://www.cmjornal.pt/sociedade/detalhe/iniciadas-ultimas-obras-complementares-a-variante-de-arruda-dos-vinhos",
-            "normalized_title": "iniciadas ultimas obras complementares a variante de arruda dos vinhos",
-            "normalized_description": "empreitada inclui a construcao de infraestruturas de circulacao pedonal como passeios e passadeiras e de drenagem pluvial na estrada nacional en"
         }
     ],
     "Política": [
@@ -29934,16 +29909,6 @@
             "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260817-131937-dois-mortos-e-quatro-feridos-em-acidente-em-vila-flor-ic5-esta-cortado",
             "normalized_title": "dois mortos e quatro feridos em acidente em vila flor ic5 esta cortado",
             "normalized_description": "alerta foi dado as autoridades pelas 10h18"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-desporto/12h30-benfica-sem-margem-para-errar-com-casa-pia_a1_1759953",
-            "normalized_title": "12h30 benfica sem margem para errar com casa pia",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/mais-de-200-operacionais-combatem-incendio-em-boticas",
-            "normalized_title": "mais de 200 operacionais combatem incendio em boticas",
-            "normalized_description": "um incendio deflagrou este domingo numa zona de mato em ardaos em boticas vila real"
         }
     ],
     "Opinião": [
@@ -32435,11 +32400,6 @@
             "link": "https://expresso.pt/guerra-ucrania/2026-08-17-banco-de-desenvolvimento-da-russia-despediu-economista-chefe-apos-este-prever-derrota-na-guerra-de-desgaste-na-ucrania-e-crise-social-44a31d91",
             "normalized_title": "banco de desenvolvimento da russia despediu economista chefe apos este prever derrota na guerra de desgaste na ucrania e crise social",
             "normalized_description": "andrey klepach estava no cargo desde 2014 num discurso proferido em maio e agora tornado publico defendeu nao venceremos esta guerra de desgaste"
-        },
-        {
-            "link": "https://expresso.pt/empresas-negocios/2026-08-17-pure-planet-controlada-pela-jeronimo-martins-visabeira-e-bb-ii-avanca-para-a-compra-da-rduz-26c705c4",
-            "normalized_title": "pure planet controlada pela jeronimo martins visabeira e b b ii avanca para a compra da rduz",
-            "normalized_description": "rduz empresa de vila do conde e detida pela familia benta carlos benta e o diretor geral pure planet quer passar a dominar a totalidade do capital"
         }
     ]
 }
