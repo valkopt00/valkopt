@@ -34,13 +34,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/presidencia-republica/2026-08-18-seguro-promulgou-lei-das-burcas-rosto-destapadado-e-dimensao-estruturante-da-confianca-social-5ea65332": {
-        "category": null,
-        "timestamp": "2026-08-18T19:31:04.485605+00:00",
-        "title": "Seguro promulgou 'lei das burcas': rosto destapadado é \"dimensão estruturante da confiança social\"",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/partidos-politicos/2026-08-18-um-ataque-sem-precedentes-esquerda-critica-estudo-e-nega-problemas-de-sustentabilidade-da-seguranca-social-72f8058e": {
         "category": null,
         "timestamp": "2026-08-19T14:31:07.788232+00:00",
@@ -645,7 +638,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-08-22-como-a-portuguesa-dune-bleue-se-afirmou-no-minho-e-ja-calca-12-marcas-de-meias-6b1fa584": {
         "category": null,
-        "timestamp": "2026-08-23T19:31:03.500850+00:00",
+        "timestamp": "2026-08-23T19:45:51.213995+00:00",
         "title": "Como a portuguesa Dune Bleue se afirmou no Minho e já calça 12 marcas de meias",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -680,7 +673,7 @@
     },
     "https://expresso.pt/presidencia-republica/2026-08-23-pr-espera-celeridade-nas-investigacoes-ao-ministro-da-administracao-interna-5cdfcef1": {
         "category": null,
-        "timestamp": "2026-08-23T19:31:03.428711+00:00",
+        "timestamp": "2026-08-23T19:45:51.150696+00:00",
         "title": "PR espera celeridade nas investigações ao ministro da Administração Interna",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -722,15 +715,22 @@
     },
     "https://visao.pt/entrevista-sem-agenda/2026-08-23-os-homens-tem-a-sua-propria-voz-individual-as-mulheres-estao-sempre-agrupadas-para-nos-chegarmos-vivas-a-noite-ja-e-um-feito-entao-escrever-sempre-foi-uma-arte-perfeita-para-nos/?utm_source=rss&utm_medium=rss&utm_campaign=os-homens-tem-a-sua-propria-voz-individual-as-mulheres-estao-sempre-agrupadas-para-nos-chegarmos-vivas-a-noite-ja-e-um-feito-entao-escrever-sempre-foi-uma-arte-perfeita-para-nos": {
         "category": null,
-        "timestamp": "2026-08-23T19:31:05.264404+00:00",
+        "timestamp": "2026-08-23T19:45:52.144875+00:00",
         "title": "“Os homens têm a sua própria voz, individual. As mulheres estão sempre agrupadas. Para nós, chegarmo...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-08-23-de-spin-off-universitaria-a-150-trabalhadores-a-empresa-que-poe-os-dados-a-decidir-7120945a": {
         "category": null,
-        "timestamp": "2026-08-23T19:31:03.367562+00:00",
+        "timestamp": "2026-08-23T19:45:51.081167+00:00",
         "title": "De spin-off universitária a 150 trabalhadores: a empresa que põe os dados a decidir",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/semanario/revista-e/-e/2026-08-23-entrevista-com-peter-chermayeff-que-projetou-o-oceanario-de-lisboa-o-impacto-que-lisboa-tem-em-todo-o-mundo-e-enorme-d9dddd89": {
+        "category": null,
+        "timestamp": "2026-08-23T19:45:52.260603+00:00",
+        "title": "Entrevista com Peter Chermayeff, que projetou o Oceanário de Lisboa: “O impacto que Lisboa tem em to...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
