@@ -589,14 +589,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-08-21-chega-quer-rever-fator-de-sustentabilidade-da-seguranca-social-para-descer-idade-da-reforma-bbee31de": {
         "category": null,
-        "timestamp": "2026-08-23T12:31:03.733450+00:00",
+        "timestamp": "2026-08-23T12:45:52.872798+00:00",
         "title": "Chega quer rever fator de sustentabilidade da Segurança Social para descer idade da reforma",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-08-21-carneiro-pede-mais-esclarecimentos-sobre-casos-de-luis-neves-pode-estar-em-causa-crime-de-peculato-de-uso-7379aee2": {
         "category": null,
-        "timestamp": "2026-08-23T12:31:03.789496+00:00",
+        "timestamp": "2026-08-23T12:45:52.901408+00:00",
         "title": "Carneiro pede mais esclarecimentos sobre casos de Luís Neves: pode estar em causa \"crime de peculato...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -617,14 +617,14 @@
     },
     "https://expresso.pt/lusa/2026-08-22-apos-colapso-de-negociacoes-eua-impoem-tarifas-de-50-a-produtos-canadianos-da89dff3": {
         "category": null,
-        "timestamp": "2026-08-23T12:31:03.675466+00:00",
+        "timestamp": "2026-08-23T12:45:52.842339+00:00",
         "title": "Após colapso de negociações, EUA impõem tarifas de 50% a produtos canadianos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-08-22-fabian-figueiredo-suspende-mandato-de-deputado-andreia-galvao-volta-ao-parlamento-37ec52ca": {
         "category": null,
-        "timestamp": "2026-08-23T12:31:03.560407+00:00",
+        "timestamp": "2026-08-23T12:45:52.780520+00:00",
         "title": "Fabian Figueiredo suspende mandato de deputado, Andreia Galvão volta ao Parlamento",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -638,7 +638,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-08-22-ataques-com-misseis-em-kiev-e-no-sul-da-ucrania-causaram-cinco-mortos-2cacf908": {
         "category": null,
-        "timestamp": "2026-08-23T12:31:03.617491+00:00",
+        "timestamp": "2026-08-23T12:45:52.809648+00:00",
         "title": "Ataques com mísseis em Kiev e no sul da Ucrânia causaram cinco mortos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -673,7 +673,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-08-22-como-a-portuguesa-dune-bleue-se-afirmou-no-minho-e-ja-calca-12-marcas-de-meias-6b1fa584": {
         "category": null,
-        "timestamp": "2026-08-23T12:31:03.500427+00:00",
+        "timestamp": "2026-08-23T12:45:52.750068+00:00",
         "title": "Como a portuguesa Dune Bleue se afirmou no Minho e já calça 12 marcas de meias",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -703,6 +703,13 @@
         "category": null,
         "timestamp": "2026-08-23T06:15:53.734812+00:00",
         "title": "Salazar: Quem era o presidente do conselho?",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/presidencia-republica/2026-08-23-pr-espera-celeridade-nas-investigacoes-ao-ministro-da-administracao-interna-5cdfcef1": {
+        "category": null,
+        "timestamp": "2026-08-23T12:45:54.714256+00:00",
+        "title": "PR espera celeridade nas investigações ao ministro da Administração Interna",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
