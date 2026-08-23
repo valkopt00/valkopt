@@ -20,13 +20,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/cheias-inundacoes/2026-08-18-inundacoes-no-japao-provocam-pelo-menos-13-mortos-bf291419": {
-        "category": null,
-        "timestamp": "2026-08-18T18:15:57.306376+00:00",
-        "title": "Inundações no Japão provocam pelo menos 13 mortos",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/cheias-inundacoes/2026-08-18-pelo-menos-13-mortos-apos-inundacoes-no-japao-bf291419": {
         "category": null,
         "timestamp": "2026-08-19T09:15:50.884828+00:00",
@@ -603,7 +596,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-08-22-fabian-figueiredo-suspende-mandato-de-deputado-andreia-galvao-volta-ao-parlamento-37ec52ca": {
         "category": null,
-        "timestamp": "2026-08-23T18:15:55.925314+00:00",
+        "timestamp": "2026-08-23T18:30:59.982377+00:00",
         "title": "Fabian Figueiredo suspende mandato de deputado, Andreia Galvão volta ao Parlamento",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -652,7 +645,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-08-22-como-a-portuguesa-dune-bleue-se-afirmou-no-minho-e-ja-calca-12-marcas-de-meias-6b1fa584": {
         "category": null,
-        "timestamp": "2026-08-23T18:15:55.594925+00:00",
+        "timestamp": "2026-08-23T18:30:59.918008+00:00",
         "title": "Como a portuguesa Dune Bleue se afirmou no Minho e já calça 12 marcas de meias",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -687,14 +680,14 @@
     },
     "https://expresso.pt/presidencia-republica/2026-08-23-pr-espera-celeridade-nas-investigacoes-ao-ministro-da-administracao-interna-5cdfcef1": {
         "category": null,
-        "timestamp": "2026-08-23T18:15:55.238639+00:00",
+        "timestamp": "2026-08-23T18:30:59.859028+00:00",
         "title": "PR espera celeridade nas investigações ao ministro da Administração Interna",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/lusa/portugal-soma-nova-derrota-no-europeu-feminino-de-voleibol-ao-perder-com-belgica_d1761105": {
         "category": null,
-        "timestamp": "2026-08-23T18:15:56.407995+00:00",
+        "timestamp": "2026-08-23T18:31:00.405866+00:00",
         "title": "Portugal soma nova derrota no Europeu feminino de voleibol ao perder com Bélgica",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -708,35 +701,35 @@
     },
     "https://www.cmjornal.pt/domingo/detalhe/julio-machado-vaz-as-ferias-sao-um-desafio-para-o-casal-uma-boa-comunicacao-e-sempre-a-melhor-solucao": {
         "category": null,
-        "timestamp": "2026-08-23T18:15:57.679880+00:00",
+        "timestamp": "2026-08-23T18:31:02.180138+00:00",
         "title": "Júlio Machado Vaz: \"As férias são um desafio para o casal? A solução é sempre uma boa comunicação\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/domingo/detalhe/o-assassino-do-zodiaco-um-ilustre-desconhecido-que-gostava-de-brincar-com-a-policia": {
         "category": null,
-        "timestamp": "2026-08-23T18:15:57.823691+00:00",
+        "timestamp": "2026-08-23T18:31:02.243187+00:00",
         "title": "“O Assassino do ZodÃ­aco”: Um ilustre desconhecido que gostava de brincar com a polÃ­cia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/domingo/detalhe/prospetiva-estrategica-quando-a-tecnologia-ajuda-a-antecipar-o-que-ai-vem": {
         "category": null,
-        "timestamp": "2026-08-23T18:15:57.965334+00:00",
+        "timestamp": "2026-08-23T18:31:02.314587+00:00",
         "title": "Prospetiva estratégica: Quando a tecnologia ajuda a antecipar o que aí vem",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://visao.pt/entrevista-sem-agenda/2026-08-23-os-homens-tem-a-sua-propria-voz-individual-as-mulheres-estao-sempre-agrupadas-para-nos-chegarmos-vivas-a-noite-ja-e-um-feito-entao-escrever-sempre-foi-uma-arte-perfeita-para-nos/?utm_source=rss&utm_medium=rss&utm_campaign=os-homens-tem-a-sua-propria-voz-individual-as-mulheres-estao-sempre-agrupadas-para-nos-chegarmos-vivas-a-noite-ja-e-um-feito-entao-escrever-sempre-foi-uma-arte-perfeita-para-nos": {
         "category": null,
-        "timestamp": "2026-08-23T18:15:57.339635+00:00",
+        "timestamp": "2026-08-23T18:31:00.277246+00:00",
         "title": "“Os homens têm a sua própria voz, individual. As mulheres estão sempre agrupadas. Para nós, chegarmo...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-08-23-de-spin-off-universitaria-a-150-trabalhadores-a-empresa-que-poe-os-dados-a-decidir-7120945a": {
         "category": null,
-        "timestamp": "2026-08-23T18:15:57.507180+00:00",
+        "timestamp": "2026-08-23T18:31:01.602885+00:00",
         "title": "De spin-off universitária a 150 trabalhadores: a empresa que põe os dados a decidir",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
