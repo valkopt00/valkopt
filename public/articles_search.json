@@ -1,6 +1,81 @@
 {
     "Últimas": [
         {
+            "link": "https://www.rtp.pt/noticias/mundo/detido-adolescente-suspeito-de-planear-ataque-terrorista-na-noruega_n1761761",
+            "normalized_title": "detido adolescente suspeito de planear ataque terrorista na noruega",
+            "normalized_description": "a policia norueguesa anunciou a detencao de um jovem de 16 anos suspeito de planear um ataque terrorista que segundo os meios de comunicacao social"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/trump-declara-emergencia-nacional-para-rede-eletrica-em-medida-que-visa-a-china_n1761762",
+            "normalized_title": "trump declara emergencia nacional para rede eletrica em medida que visa a china",
+            "normalized_description": "o presidente norte americano donald trump declarou na quarta feira o estado de emergencia nacional para a rede eletrica proibindo a compra e"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/tribunal-russo-ordena-detencao-de-jornalista-alemao-por-suposta-incitacao-ao-odio_n1761764",
+            "normalized_title": "tribunal russo ordena detencao de jornalista alemao por suposta incitacao ao odio",
+            "normalized_description": "um tribunal de moscovo emitiu um mandado de busca e detencao para um jornalista alemao acusado de alegado crime de incitamento ao odio pelo qual"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/exercito-dos-eua-destina-quase-dois-mil-milhoes-de-euros-para-construcao-de-pequenos-reatores-nucleares",
+            "normalized_title": "exercito dos eua destina quase dois mil milhoes de euros para construcao de pequenos reatores nucleares",
+            "normalized_description": "os 20 reatores nucleares irao fornecer energia a cinco instalacoes militares nos estados unidos"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/detido-adolescente-suspeito-de-planear-ataque-terrorista-contra-creche-na-noruega",
+            "normalized_title": "detido adolescente suspeito de planear ataque terrorista contra creche na noruega",
+            "normalized_description": "foi aberta uma investigacao por preparacao de um ato terrorista"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/um-morto-e-12-feridos-em-atropelamento-no-noroeste-de-franca",
+            "normalized_title": "um morto e 12 feridos em atropelamento no noroeste de franca",
+            "normalized_description": "veiculo de cor preta abalroou varias pessoas perto de uma paragem de transporte publico quatro dos feridos estao e estado grave"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/crime-reacao-ou-paralisia",
+            "normalized_title": "crime reacao ou paralisia",
+            "normalized_description": "transformar cada crime num colapso do estado e uma manipulacao"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/visao-global/detalhe/caspio-e-caucaso-a-geografia-cobra-portagem",
+            "normalized_title": "caspio e caucaso a geografia cobra portagem",
+            "normalized_description": "como sempre todos defendem a livre circulacao desde que possam controlar a estrada a tarifa e o mapa"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/tania-laranjo/detalhe/jovens-que-sao-o-futuro-do-pais",
+            "normalized_title": "jovens que sao o futuro do pais",
+            "normalized_description": "que nunca deixem de acreditar e que possam um dia ajudar a construir o pais que todos desejamos"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/jose-jorge-letria/detalhe/a-inteligencia-artificial-e-o-poder",
+            "normalized_title": "a inteligencia artificial e o poder",
+            "normalized_description": "a inteligencia artificial tem uma indisfarcavel sede de poder"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/corte-a-direito/detalhe/criancas-a-mudar-de-sexo",
+            "normalized_title": "criancas a mudar de sexo",
+            "normalized_description": "vamos parar de usar os menores como ferramentas ideologicas com vista a lucros eleitorais futuros"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/guerra-e-paz/detalhe/desfazer-aliancas",
+            "normalized_title": "desfazer aliancas",
+            "normalized_description": "guerra comercial ao canada prejudica as empresas americanas e penaliza os eleitores americanos"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/francisco-moita-flores/detalhe/a-chacina",
+            "normalized_title": "a chacina",
+            "normalized_description": "a vida vale bem mais do que a loucura de um instante"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/joao-vaz/detalhe/turismo-de-copos-e-despauterio",
+            "normalized_title": "turismo de copos e despauterio",
+            "normalized_description": "por enquanto as correntes sao propicias a cada vez mais visitantes"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/carlos-anjos/detalhe/gang-do-rolex",
+            "normalized_title": "gang do rolex",
+            "normalized_description": "tem de atuar depressa para evitar um sentimento de inseguranca"
+        },
+        {
             "link": "https://observador.pt/2026/08/27/julgamento-do-alegado-mentor-dos-ataques-do-11-de-setembro-marcado-para-2028/",
             "normalized_title": "julgamento do mentor do 11 de setembro marcado para 2028",
             "normalized_description": "khalid sheikh mohammed encontra se detido na base militar dos eua em guantanamo desde 2006 e acusado de orquestrar o plano para abater avioes"
@@ -4749,156 +4824,6 @@
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sp--braga/detalhe/quatro-baixas-e-um-regresso-no-treino-do-sp-braga-para-a-derradeira-valsa-com-o-austria-viena",
             "normalized_title": "quatro baixas e um regresso no treino do sp braga para a derradeira valsa com o austria viena",
             "normalized_description": "arsenalistas preparam 2 ª mao do playoff da liga conferencia"
-        },
-        {
-            "link": "https://www.autosport.pt/ralis/tom-fowler-toyota-o-nosso-objetivo-e-superar-o-nosso-proprio-carro-e-a-nossa-referencia/",
-            "normalized_title": "tom fowler toyota o nosso objetivo e superar o nosso proprio carro e a nossa referencia",
-            "normalized_description": "a toyota ja realizou mais de 5 000 quilometros de testes em asfalto e terra com ott tanak campeao do mundo de 2019 e atual piloto de testes da"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/2--liga/vizela/detalhe/oficial-hristo-ivanov-transferido-para-lechia-gdansk",
-            "normalized_title": "oficial hristo ivanov transferido para lechia gdansk",
-            "normalized_description": "medio bulgaro de 25 anos deixa o vizela e vai prosseguir a carreira a polonia"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/mercados/criptoativos/detalhe/revolut-lanca-stablecoin-indexada-ao-euro-em-tres-paises-portugal-e-um-dos-escolhidos",
-            "normalized_title": "revolut lanca stablecoin indexada ao euro em tres paises portugal e um dos escolhidos",
-            "normalized_description": "a eurr vai ser emitida pela bridge que conta com uma licenca mica emitida no luxemburgo alem de portugal a dinamarca e a polonia foram os outros"
-        },
-        {
-            "link": "https://expresso.pt/economia/economia_imobiliario/2026-08-26-avaliacao-bancaria-da-habitacao-soma-novo-recorde-mas-ritmo-de-crescimento-volta-a-abrandar-04ac2a56",
-            "normalized_title": "avaliacao bancaria da habitacao soma novo recorde mas ritmo de crescimento volta a abrandar",
-            "normalized_description": "em julho o valor mediano com que os bancos avaliaram as casas era 15 2 mais elevado do que em julho de 2025 chegando aos 2240 por metro quadrado"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3041554/jovem-autista-vai-a-festival-sozinho-e-tem-a-melhor-semana-da-sua-vida#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "jovem autista vai a festival sozinho e tem a melhor semana da sua vida",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/auto/3041589/a-maquina-de-333-cv-com-que-palhinha-entrou-no-benfica-campus#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "a maquina de 333 cv com que palhinha entrou no benfica campus",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.autosport.pt/formula1/lando-norris-ainda-vai-a-tempo-de-lutar-pelo-titulo-da-formula-1/",
-            "normalized_title": "lando norris ainda vai a tempo de lutar pelo titulo da formula 1",
-            "normalized_description": "lando norris somou 56 pontos nas duas ultimas corridas face aos 38 de kimi antonelli mas sao ainda 83 os pontos que tem de atraso para o italiano da"
-        },
-        {
-            "link": "https://www.publico.pt/2026/08/26/sociedade/noticia/ladra-oferecese-pagar-homem-queria-abusar-2186141",
-            "normalized_title": "ladra oferece se para pagar a homem de quem queria abusar",
-            "normalized_description": "mulher de 55 anos roubou duas vitimas em evora forcou sem sucesso o homem a manter consigo relacoes sexuais a troco de dinheiro descreve"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/mota-engil-vai-assinar-contrato-para-ferrovia-mineira-no-congo/",
-            "normalized_title": "mota engil vai assinar contrato para ferrovia mineira no congo",
-            "normalized_description": "este acordo que ainda nao esta concluido podera ser financiado com ate mil milhoes de dolares 857 mil milhoes de euros dos estados unidos e abrange"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/avaliacao-bancaria-da-habitacao-bate-recorde-de-2240-eurosm2-em-julho_n1761591",
-            "normalized_title": "avaliacao bancaria da habitacao bate recorde de 2 240 euros m2 em julho",
-            "normalized_description": "o valor mediano de avaliacao bancaria na habitacao atingiu um novo maximo historico de 2 240 euros por metro quadrado em julho mais 12 euros do que"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/economia/avaliacao-bancaria-da-habitacao-bate-recorde-de-2240-eurosm2-em-julho_n1761591",
-            "normalized_title": "avaliacao bancaria da habitacao bate recorde de 2 240 euros m2 em julho",
-            "normalized_description": "o valor mediano de avaliacao bancaria na habitacao atingiu um novo maximo historico de 2 240 euros por metro quadrado em julho mais 12 euros do que"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3041581/be-apela-a-psd-que-ponha-a-mao-na-consciencia-e-retire-iniciativa-sobre-identidade-de-genero#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "identidade de genero be apela a psd que ponha a mao na consciencia",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3041574/zelensky-recebe-cadela-como-presente-de-terence-crawford-solidariedade#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "zelensky recebe cadela como presente de terence crawford solidariedade",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.autosport.pt/ralis/sebastien-ogier-regressa-no-paraguai/",
-            "normalized_title": "sebastien ogier regressa no paraguai",
-            "normalized_description": "sebastien ogier esta de volta ao campeonato do mundo de ralis no ueno rally del paraguay apos o despiste sofrido quando liderava o rali da"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/investimento-direto-estrangeiro-em-portugal-atingiu-67-mil-milhoes-de-euros-no-primeiro-semestre-e-pesa-71-do-pib/",
-            "normalized_title": "investimento direto estrangeiro em portugal atingiu 6 7 mil milhoes no primeiro semestre e pesa 71 do pib",
-            "normalized_description": "de acordo com a nota de informacao estatistica o investimento realizado no capital de entidades portuguesas ascendeu a 6 0 mil milhoes de euros dos"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/como-o-sporting-convenceu-zekri-das-reunioes-a-distancia-aos-exemplos-de-figuras-da-ultima-decada",
-            "normalized_title": "como o sporting convenceu zekri das reunioes a distancia aos exemplos de figuras da ultima decada",
-            "normalized_description": "clube de alvalade garantiu a contrataa a o do lateral do mechelen por 3 m mais 1 m em objetivos ganhando a corrida a dois hista³ricos holandeses"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/tech/3041587/palpites-de-ia-oura-visada-em-acao-coletiva-por-publicidade-enganosa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "palpites de ia oura visada em acao coletiva por publicidade enganosa",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/mundo/detalhe/principal-suspeito-do-desaparecimento-de-maddie-mccann-regressa-a-tribunal-para-julgamento-por-violacao",
-            "normalized_title": "principal suspeito do desaparecimento de maddie mccann regressa a tribunal para julgamento por violacao",
-            "normalized_description": "christian brueckner ja cumpriu pena pela violacao de uma mulher norte americana em portugal em 2005"
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/italia-1-0-portugal-ao-minuto/1183494",
-            "normalized_title": "italia 1 0 portugal ao minuto",
-            "normalized_description": "golo italia marca acompanhe aqui o italia x portugal em direto e ao minuto com todas as estatisticas e as curiosidades mais interessantes"
-        },
-        {
-            "link": "https://www.record.pt/internacional/paises/inglaterra/man--city/detalhe/oficial-bouaddi-apresentado-no-manchester-city-ao-lado-de-hugo-viana",
-            "normalized_title": "oficial bouaddi apresentado no manchester city ao lado de hugo viana",
-            "normalized_description": "medio marroquino chega do lille num negocio que pode chegar aos 100 milhoes de euros"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3041586/irao-brent-abaixo-dos-86-dolares-pela-primeira-vez-em-duas-semanas-apos-queda-de-3#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "irao brent abaixo dos 86 dolares pela primeira vez em duas semanas",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://pt.ign.com/lego/161596/lego-super-mario-sets-minifiguras",
-            "normalized_title": "lego super mario sets minifiguras",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://pt.ign.com/lego/161595/lego-revela-a-primeira-gama-de-sets-minifiguras-de-super-mario",
-            "normalized_title": "lego revela a primeira gama de sets minifiguras de super mario",
-            "normalized_description": "toad luigi bowser ha de tudo a lego leva finalmente super mario para o formato de minifigura oito novos conjuntos do castelo do bowser aos"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/11h-chega-nao-retira-diploma-sobre-idemtidade-de-genero_a1_1761593",
-            "normalized_title": "11h chega nao retira diploma sobre idemtidade de genero",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3041575/pelo-menos-oito-pessoas-morreram-apos-enchente-repentina-no-nepal#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "pelo menos oito pessoas morreram apos enchente repentina no nepal",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/3041579/metro-de-lisboa-e-sindicatos-com-entendimento-para-revisao-parcial-do-acordo-de-empresa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "metro de lisboa ha entendimento na revisao parcial do acordo de empresa",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/economia/conjuntura/detalhe/investimento-direto-estrangeiro-recupera-para-6-7-mil-milhoes-no-primeiro-semestre",
-            "normalized_title": "investimento direto estrangeiro recupera para 6 7 mil milhoes no primeiro semestre",
-            "normalized_description": "ate junho os investidores estrangeiros transferiram mais dinheiro para a economia portuguesa face ao ano passado altura em que se verificou uma"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/joao-palhinha-ja-chegou-ao-seixal-e-vai-ser-apresentado-no-benfica-hoje",
-            "normalized_title": "joao palhinha ja chegou ao seixal e vai ser apresentado no benfica hoje",
-            "normalized_description": "medio foi ao benfica campus numa altura em que a equipa treina"
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/nilton-varela-sai-da-belgica-e-e-reforco-do-maritimo/1183576",
-            "normalized_title": "nilton varela sai da belgica e e reforco do maritimo",
-            "normalized_description": "o maritimo anunciou esta quarta feira o 15º reforco para a epoca 26 27 nilton varela 25 anos deixou os belgas do beerschot va e passa a estar a"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3041577/detido-um-segundo-suspeito-por-cumplicidade-no-ataque-com-espada-na-suecia#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "detido segundo suspeito por cumplicidade no ataque com espada na suecia",
-            "normalized_description": ""
         }
     ],
     "Nacional": [
@@ -7749,6 +7674,36 @@
         }
     ],
     "Mundo": [
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/detido-adolescente-suspeito-de-planear-ataque-terrorista-na-noruega_n1761761",
+            "normalized_title": "detido adolescente suspeito de planear ataque terrorista na noruega",
+            "normalized_description": "a policia norueguesa anunciou a detencao de um jovem de 16 anos suspeito de planear um ataque terrorista que segundo os meios de comunicacao social"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/trump-declara-emergencia-nacional-para-rede-eletrica-em-medida-que-visa-a-china_n1761762",
+            "normalized_title": "trump declara emergencia nacional para rede eletrica em medida que visa a china",
+            "normalized_description": "o presidente norte americano donald trump declarou na quarta feira o estado de emergencia nacional para a rede eletrica proibindo a compra e"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/tribunal-russo-ordena-detencao-de-jornalista-alemao-por-suposta-incitacao-ao-odio_n1761764",
+            "normalized_title": "tribunal russo ordena detencao de jornalista alemao por suposta incitacao ao odio",
+            "normalized_description": "um tribunal de moscovo emitiu um mandado de busca e detencao para um jornalista alemao acusado de alegado crime de incitamento ao odio pelo qual"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/exercito-dos-eua-destina-quase-dois-mil-milhoes-de-euros-para-construcao-de-pequenos-reatores-nucleares",
+            "normalized_title": "exercito dos eua destina quase dois mil milhoes de euros para construcao de pequenos reatores nucleares",
+            "normalized_description": "os 20 reatores nucleares irao fornecer energia a cinco instalacoes militares nos estados unidos"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/detido-adolescente-suspeito-de-planear-ataque-terrorista-contra-creche-na-noruega",
+            "normalized_title": "detido adolescente suspeito de planear ataque terrorista contra creche na noruega",
+            "normalized_description": "foi aberta uma investigacao por preparacao de um ato terrorista"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/um-morto-e-12-feridos-em-atropelamento-no-noroeste-de-franca",
+            "normalized_title": "um morto e 12 feridos em atropelamento no noroeste de franca",
+            "normalized_description": "veiculo de cor preta abalroou varias pessoas perto de uma paragem de transporte publico quatro dos feridos estao e estado grave"
+        },
         {
             "link": "https://observador.pt/2026/08/27/julgamento-do-alegado-mentor-dos-ataques-do-11-de-setembro-marcado-para-2028/",
             "normalized_title": "julgamento do mentor do 11 de setembro marcado para 2028",
@@ -12172,21 +12127,6 @@
         {
             "link": "https://www.noticiasaominuto.com/mundo/3039905/tres-pessoas-resgatadas-incluindo-bebe-de-barco-avariado-em-terragona#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "tres pessoas resgatadas incluindo bebe de barco avariado em terragona",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3039907/plano-de-israel-para-colonatos-na-cisjordania-e-inaceitavel#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "plano de israel para colonatos na cisjordania e inaceitavel",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/mundo/detalhe/numero-de-mortos-no-sismo-na-colombia-sobe-para-321",
-            "normalized_title": "numero de mortos no sismo na colombia sobe para 321",
-            "normalized_description": "registam se ainda 4 595 feridos e 257 desaparecidos enquanto 364 pessoas foram resgatadas"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3039903/calor-tera-causado-mais-de-30-mil-mortes-em-excesso-na-europa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "calor tera causado mais de 30 mil mortes em excesso na europa",
             "normalized_description": ""
         }
     ],
@@ -21420,11 +21360,6 @@
             "link": "https://www.record.pt/futebol/futebol-nacional/2--liga/detalhe/tondela-academica-0-2-briosa-confirma-bom-arranque-com-terceiro-triunfo",
             "normalized_title": "tondela academica 0 2 briosa confirma bom arranque com terceiro triunfo",
             "normalized_description": "beiroes tentaram reagir na 2 ª parte mas acabaram a jogar com 9 devido as expulsoes de canizares e cicero"
-        },
-        {
-            "link": "https://www.record.pt/internacional/detalhe/boca-juniors-lanca-insolita-lei-anti-tiktoker-clube-proibe-criacao-de-conteudos-durante-os-seus-jogos",
-            "normalized_title": "boca juniors lanca insolita lei anti tiktoker clube proibe criacao de conteudos durante os seus jogos",
-            "normalized_description": "ideia e clara o estadio e as bancadas sao para apoiar e nao para estar agarrado ao telemovel"
         }
     ],
     "Economia": [
@@ -24932,16 +24867,6 @@
             "link": "https://jornaleconomico.sapo.pt/noticias/clientes-da-vloz-nova-plataforma-portuguesa-de-tvde-podem-escolher-quem-os-transporta/",
             "normalized_title": "clientes da vloz nova plataforma portuguesa de tvde podem escolher quem os transporta",
             "normalized_description": "passageiros nas areas de lisboa porto e setubal ja podem escolher quem os transporta e criar lista de favoritos a vloz foi desenvolvida de raiz"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/tribunal-de-contas-deteta-irregularidades-em-contratos-de-credito-e-aquisicoes-a-eleitos-locais/",
-            "normalized_title": "tribunal de contas deteta irregularidades em contratos de credito e aquisicoes a eleitos locais",
-            "normalized_description": "o tribunal de contas tdc aprovou recentemente dois relatorios de auditoria de apuramento de responsabilidade financeira arf que apontam violacoes"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/governo-aprovou-lei-para-acabar-com-a-entrega-repetida-de-documentos-no-estado/",
-            "normalized_title": "governo aprovou lei para acabar com a entrega repetida de documentos no estado",
-            "normalized_description": "a plataforma iap passa a ser de utilizacao obrigatoria entre entidades publicas poupando tempo e burocracia a cidadaos e empresas"
         }
     ],
     "Cultura": [
@@ -31877,6 +31802,51 @@
         }
     ],
     "Opinião": [
+        {
+            "link": "https://www.cmjornal.pt/opiniao/nota-editorial/detalhe/crime-reacao-ou-paralisia",
+            "normalized_title": "crime reacao ou paralisia",
+            "normalized_description": "transformar cada crime num colapso do estado e uma manipulacao"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/visao-global/detalhe/caspio-e-caucaso-a-geografia-cobra-portagem",
+            "normalized_title": "caspio e caucaso a geografia cobra portagem",
+            "normalized_description": "como sempre todos defendem a livre circulacao desde que possam controlar a estrada a tarifa e o mapa"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/tania-laranjo/detalhe/jovens-que-sao-o-futuro-do-pais",
+            "normalized_title": "jovens que sao o futuro do pais",
+            "normalized_description": "que nunca deixem de acreditar e que possam um dia ajudar a construir o pais que todos desejamos"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/jose-jorge-letria/detalhe/a-inteligencia-artificial-e-o-poder",
+            "normalized_title": "a inteligencia artificial e o poder",
+            "normalized_description": "a inteligencia artificial tem uma indisfarcavel sede de poder"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/corte-a-direito/detalhe/criancas-a-mudar-de-sexo",
+            "normalized_title": "criancas a mudar de sexo",
+            "normalized_description": "vamos parar de usar os menores como ferramentas ideologicas com vista a lucros eleitorais futuros"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/guerra-e-paz/detalhe/desfazer-aliancas",
+            "normalized_title": "desfazer aliancas",
+            "normalized_description": "guerra comercial ao canada prejudica as empresas americanas e penaliza os eleitores americanos"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/francisco-moita-flores/detalhe/a-chacina",
+            "normalized_title": "a chacina",
+            "normalized_description": "a vida vale bem mais do que a loucura de um instante"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/joao-vaz/detalhe/turismo-de-copos-e-despauterio",
+            "normalized_title": "turismo de copos e despauterio",
+            "normalized_description": "por enquanto as correntes sao propicias a cada vez mais visitantes"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/carlos-anjos/detalhe/gang-do-rolex",
+            "normalized_title": "gang do rolex",
+            "normalized_description": "tem de atuar depressa para evitar um sentimento de inseguranca"
+        },
         {
             "link": "https://www.publico.pt/2026/08/27/opiniao/cronica/aqui-primos-2186143",
             "normalized_title": "aqui somos todos primos",
