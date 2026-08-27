@@ -568,21 +568,21 @@
     },
     "https://expresso.pt/receitas/2026-08-26-receitas-a-graca-escondida-das-alfaces-77515629": {
         "category": null,
-        "timestamp": "2026-08-27T10:15:58.803319+00:00",
+        "timestamp": "2026-08-27T10:31:13.927064+00:00",
         "title": "Receitas: A graça escondida das alfaces",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/belgica/2026-08-26-onda-de-tiroteios-em-bruxelas-ministro-admite-que-o-pais-se-encontra-em-situacao-de-emergencia-nacional-ed81ed12": {
         "category": null,
-        "timestamp": "2026-08-27T10:15:58.757138+00:00",
+        "timestamp": "2026-08-27T10:31:13.891825+00:00",
         "title": "Onda de tiroteios em Bruxelas: ministro admite que o país se encontra em situação de \"emergência nac...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-08-26-zelensky-reforca-defesa-em-donetsk-com-oficiais-do-antigo-batalhao-azov-020143a9": {
         "category": null,
-        "timestamp": "2026-08-27T10:15:58.707660+00:00",
+        "timestamp": "2026-08-27T10:31:13.856850+00:00",
         "title": "Zelensky reforça defesa em Donetsk com oficiais do antigo batalhão Azov",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -596,7 +596,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-08-27-mota-engil-com-lucro-recorde-no-primeiro-semestre-e-carteira-de-encomendas-em-maximo-historico-128feee2": {
         "category": null,
-        "timestamp": "2026-08-27T10:15:57.328986+00:00",
+        "timestamp": "2026-08-27T10:31:11.622454+00:00",
         "title": "Mota-Engil com lucro recorde no primeiro semestre e carteira de encomendas em máximo histórico",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -610,8 +610,15 @@
     },
     "https://expresso.pt/japao/2026-08-27-japao-morre-aos-97-anos-yayoi-kusama-icone-da-arte-japonesa-38f05891": {
         "category": null,
-        "timestamp": "2026-08-27T10:15:57.284043+00:00",
+        "timestamp": "2026-08-27T10:31:11.591562+00:00",
         "title": "Japão: Morre aos 97 anos Yayoi Kusama, ícone da arte japonesa",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/expressinho/2026-08-27-palavras-com-asas-a-mesa-3af58425": {
+        "category": null,
+        "timestamp": "2026-08-27T10:31:12.763985+00:00",
+        "title": "Palavras com asas: À mesa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
