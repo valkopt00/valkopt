@@ -62,13 +62,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/omi-pede-solucoes-praticas-para-restabelecer-navegacao-no-estreito-de-ormuz": {
-        "category": null,
-        "timestamp": "2026-08-28T15:01:19.840145+00:00",
-        "title": "OMI pede \"soluções práticas\" para restabelecer navegação no estreito de Ormuz",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/partidos-politicos/2026-08-28-orcamento-a-meio-caminho-governo-ja-garantiu-duas-das-condicoes-de-carneiro-ff0f9876": {
         "category": null,
         "timestamp": "2026-08-29T19:15:53.478094+00:00",
@@ -617,7 +610,7 @@
     },
     "https://expresso.pt/venezuela/2026-09-01-aeroporto-de-caracas-retoma-operacoes-dois-meses-depois-do-sismo-70abe6e4": {
         "category": null,
-        "timestamp": "2026-09-02T14:46:00.463194+00:00",
+        "timestamp": "2026-09-02T15:01:33.913762+00:00",
         "title": "Aeroporto de Caracas retoma operações dois meses depois do sismo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -638,14 +631,14 @@
     },
     "https://expresso.pt/construcao/2026-09-02-reabilitacao-urbana-perdeu-forca-em-julho-d557fce3": {
         "category": null,
-        "timestamp": "2026-09-02T14:45:59.470775+00:00",
+        "timestamp": "2026-09-02T15:01:31.779779+00:00",
         "title": "Reabilitação urbana perdeu força em julho",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-02-russia-ataca-ucrania-com-misseis-e-drones-pelo-setimo-dia-conscutivo-7210e104": {
         "category": null,
-        "timestamp": "2026-09-02T14:45:59.386181+00:00",
+        "timestamp": "2026-09-02T15:01:31.733961+00:00",
         "title": "Rússia ataca Ucrânia com mísseis e drones pelo sétimo dia conscutivo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -659,14 +652,14 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-02-zelensky-avisa-companhias-aereas-que-sobrevoar-a-russia-sera-perigoso-devido-aos-drones-ucranianos-putin-diz-que-e-terrorismo-503eb8cd": {
         "category": null,
-        "timestamp": "2026-09-02T14:45:59.293863+00:00",
+        "timestamp": "2026-09-02T15:01:31.680255+00:00",
         "title": "Zelensky avisa companhias aéreas que sobrevoar a Rússia será perigoso devido aos drones ucranianos, ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-09-02-novos-creditos-a-habitacao-batem-recorde-de-23-mil-milhoes-em-julho-155a458f": {
         "category": null,
-        "timestamp": "2026-09-02T14:45:59.201968+00:00",
+        "timestamp": "2026-09-02T15:01:31.621213+00:00",
         "title": "Novos créditos à habitação batem recorde de €2,3 mil milhões em julho",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -680,7 +673,7 @@
     },
     "https://expresso.pt/restaurantes/2026-09-02-restaurantes-como-dominar-animais-com-criatividade-numa-cozinha-familiar-mas-autoral-758c8bea": {
         "category": null,
-        "timestamp": "2026-09-02T14:45:59.012950+00:00",
+        "timestamp": "2026-09-02T15:01:31.521198+00:00",
         "title": "Restaurantes: Como dominar animais com criatividade, numa cozinha familiar mas autoral",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -708,42 +701,42 @@
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-09-02-familias-reforcam-poupanca-em-julho-com-137-mil-milhoes-aplicados-em-novos-depositos-149767da": {
         "category": null,
-        "timestamp": "2026-09-02T14:45:59.116011+00:00",
+        "timestamp": "2026-09-02T15:01:31.571252+00:00",
         "title": "Famílias reforçam poupança em julho, com €13,7 mil milhões aplicados em novos depósitos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-02-ataque-de-drone-em-leipzig-ue-fala-em-terrorismo-de-moscovo-nato-em-imprudencia-varios-paises-ja-convocaram-diplomatas-russos-2bb30461": {
         "category": null,
-        "timestamp": "2026-09-02T14:45:58.841852+00:00",
+        "timestamp": "2026-09-02T15:01:31.418949+00:00",
         "title": "Ataque de drone em Leipzig: UE fala em “terrorismo” de Moscovo, NATO em “imprudência”, vários países...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/municipios-querem-celere-identificacao-de-obras-que-precisam-de-financiamento-apos-prr": {
         "category": null,
-        "timestamp": "2026-09-02T14:15:53.780248+00:00",
+        "timestamp": "2026-09-02T15:01:31.187610+00:00",
         "title": "Municípios querem célere identificação de obras que precisam de financiamento após PRR",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.petsandcompany.pt/pets/detalhe/os-animais-de-companhia-estao-a-ganhar-mais-espaco-nas-compras-dos-portugueses-diz-o-estudo-petpulse": {
         "category": null,
-        "timestamp": "2026-09-02T14:46:00.194901+00:00",
+        "timestamp": "2026-09-02T15:01:31.142252+00:00",
         "title": "Os animais de companhia estão a ganhar mais espaço nas compras dos portugueses, diz o estudo PetPuls...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-02-mocao-de-censura-nao-foi-apresentada-mas-ja-esta-chumbada-nao-sera-pelo-ps-que-havera-crise-politica-diz-jose-luis-carneiro-569ca3d6": {
         "category": null,
-        "timestamp": "2026-09-02T14:45:58.927606+00:00",
+        "timestamp": "2026-09-02T15:01:31.477456+00:00",
         "title": "Moção de censura não foi apresentada, mas já está chumbada: \"Não será pelo PS que haverá crise polít...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cmr/podcasts/teoria-do-caos/detalhe/a-xenofobia-em-portugal-o-caso-da-comunidade-brasileira": {
         "category": null,
-        "timestamp": "2026-09-02T14:46:00.105445+00:00",
+        "timestamp": "2026-09-02T15:01:31.087402+00:00",
         "title": "A xenofobia em Portugal - o caso da comunidade brasileira",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
