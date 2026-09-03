@@ -69,24 +69,10 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/guerra-ucrania/2026-08-29-ataque-com-drone-russo-a-deposito-de-explosivos-ucraniano-provoca-incendio-e-explosoes-e-obriga-a-retirada-de-200-pessoas-0159a2c6": {
-        "category": null,
-        "timestamp": "2026-08-29T12:31:10.659483+00:00",
-        "title": "Ataque com drone russo a depósito de explosivos ucraniano provoca incêndio e explosões e obriga à re...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/partidos-politicos/2026-08-29-morreu-narana-coissoro-antigo-deputado-do-cds-6766c862": {
         "category": null,
         "timestamp": "2026-08-31T06:01:23.690668+00:00",
         "title": "Morreu Narana Coissoró, antigo deputado do CDS",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/guerra-ucrania/2026-08-29-pelo-menos-27-mortos-e-42-feridos-apos-ataque-russo-contra-deposito-de-explosivos-nos-arredores-de-kiev-0159a2c6": {
-        "category": null,
-        "timestamp": "2026-08-29T12:31:12.551839+00:00",
-        "title": "Pelo menos 27 mortos e 42 feridos após ataque russo contra depósito de explosivos nos arredores de K...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -834,14 +820,14 @@
     },
     "https://expresso.pt/empresas-negocios/2026-09-03-tesla-lidera-vendas-de-carros-eletricos-em-portugal-mas-a-byd-ja-esta-em-terceiro-lugar-f6e932f6": {
         "category": null,
-        "timestamp": "2026-09-03T12:31:08.878942+00:00",
+        "timestamp": "2026-09-03T12:45:51.381290+00:00",
         "title": "Tesla lidera vendas de carros elétricos em Portugal, mas a BYD já está em terceiro lugar",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-03-russia-ataca-cidade-portuaria-de-odessa-pela-segunda-noite-consecutiva-e-faz-17-feridos-d6e2d26e": {
         "category": null,
-        "timestamp": "2026-09-03T12:31:08.822925+00:00",
+        "timestamp": "2026-09-03T12:45:51.302668+00:00",
         "title": "Rússia ataca cidade portuária de Odessa pela segunda noite consecutiva e faz 17 feridos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -855,29 +841,43 @@
     },
     "https://expresso.pt/expressinho/2026-09-03-como-sobreviver-aos-trabalhos-de-grupo--3623db2a": {
         "category": null,
-        "timestamp": "2026-09-03T12:31:08.649569+00:00",
+        "timestamp": "2026-09-03T12:45:50.705902+00:00",
         "title": "Como sobreviver aos trabalhos de grupo?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/expressinho/2026-09-03-um-misterio-matematico-com-87-anos-teve-uma-nova-pista-0684bfe7": {
         "category": null,
-        "timestamp": "2026-09-03T12:31:08.708155+00:00",
+        "timestamp": "2026-09-03T12:45:51.139139+00:00",
         "title": "Um mistério Matemático com 87 anos teve uma nova pista!",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/criancas-internet/2026-09-03-nova-iorque-proibe-ia-generativa-a-alunos-ate-ao-8-ano-7c1fdd80": {
         "category": null,
-        "timestamp": "2026-09-03T12:31:08.763646+00:00",
+        "timestamp": "2026-09-03T12:45:51.217563+00:00",
         "title": "Nova Iorque proíbe IA generativa a alunos até ao 8º ano",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-03-quando-o-pcp-desaparecer-o-avante-ainda-vai-ser-maior-a-festa-que-ultrapassa-o-partido-faz-50-anos-44c60f0a": {
         "category": null,
-        "timestamp": "2026-09-03T12:31:09.406206+00:00",
+        "timestamp": "2026-09-03T12:45:53.097760+00:00",
         "title": "\"Quando o PCP desaparecer, o 'Avante' ainda vai ser maior\": a festa que ultrapassa o partido faz 50 ...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/empresas-negocios/2026-09-03-fabrica-da-stellantis-em-mangualde-produz-o-veiculo-numero-2-milhoes-e1ad0358": {
+        "category": null,
+        "timestamp": "2026-09-03T12:45:52.849649+00:00",
+        "title": "Fábrica da Stellantis em Mangualde produz o veículo número 2 milhões",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/cmr/podcasts/crime-e-castigo/detalhe/como-vai-acabar-a-guerra-entre-ventura-e-luis-neves": {
+        "category": null,
+        "timestamp": "2026-09-03T12:45:53.024220+00:00",
+        "title": "Como vai acabar a ‘guerra’ entre Ventura e LuÃ­s Neves?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
