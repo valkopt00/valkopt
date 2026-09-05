@@ -76,13 +76,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/secretario-do-tesouro-dos-eua-pretende-que-novas-sancoes-conduzam-teerao-ao-dialogo": {
-        "category": null,
-        "timestamp": "2026-08-31T23:31:14.075951+00:00",
-        "title": "Secretário do Tesouro dos EUA pretende que novas sanções conduzam Teerão ao diálogo",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/confirmado-novo-sistema-planetario-com-um-mundo-potencialmente-habitavel": {
         "category": null,
         "timestamp": "2026-09-01T00:31:08.700403+00:00",
@@ -883,7 +876,7 @@
     },
     "https://expresso.pt/italia/2026-09-04-meloni-celebra-recorde-de-longevidade-no-governo-oposicao-fala-em-quatro-anos-desperdicados-b72b4eae": {
         "category": null,
-        "timestamp": "2026-09-05T23:31:10.101459+00:00",
+        "timestamp": "2026-09-05T23:45:49.762852+00:00",
         "title": "Meloni celebra recorde de longevidade no governo, oposição fala em \"quatro anos desperdiçados\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -904,14 +897,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-04-ps-acusa-governo-de-lucrar-com-combustiveis-e-pcp-pede-mais-intervencao-nos-precos-f0fa6f40": {
         "category": null,
-        "timestamp": "2026-09-05T23:31:10.017830+00:00",
+        "timestamp": "2026-09-05T23:45:49.704442+00:00",
         "title": "PS acusa Governo de lucrar com combustíveis e PCP pede mais intervenção nos preços",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-04-trump-anuncia-proposta-para-acabar-com-a-guerra-enviados-vao-reunir-se-com-putin-e-zelensky-1b81bbee": {
         "category": null,
-        "timestamp": "2026-09-05T23:31:09.927177+00:00",
+        "timestamp": "2026-09-05T23:45:49.655438+00:00",
         "title": "Trump anuncia \"proposta para acabar com a guerra\": enviados vão reunir-se com Putin e Zelensky",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -925,14 +918,14 @@
     },
     "https://visao.pt/na-primeira-pessoa/2026-09-05-na-primeira-pessoa-o-meu-filho-nunca-saiu-de-casa-mesmo-assim-encontraram-no/?utm_source=rss&utm_medium=rss&utm_campaign=na-primeira-pessoa-o-meu-filho-nunca-saiu-de-casa-mesmo-assim-encontraram-no": {
         "category": null,
-        "timestamp": "2026-09-05T23:31:11.758225+00:00",
+        "timestamp": "2026-09-05T23:45:50.402935+00:00",
         "title": "Na primeira pessoa: “O meu filho nunca saiu de casa. Mesmo assim, encontraram-no”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/palop/mocambique/2026-09-05-um-morto-e-dois-mil-deslocados-em-ataque-a-acampamento-turistico-de-carlos-queiroz-em-mocambique-9b4915cd": {
         "category": null,
-        "timestamp": "2026-09-05T23:31:09.852225+00:00",
+        "timestamp": "2026-09-05T23:45:49.594896+00:00",
         "title": "Um morto e dois mil deslocados em ataque a acampamento turístico de Carlos Queiroz em Moçambique",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -946,7 +939,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-05-enviados-dos-eua-em-moscovo-putin-anuncia-cessar-fogo-de-tres-dias-para-permitir-negociacoes-em-kiev-4cc0e411": {
         "category": null,
-        "timestamp": "2026-09-05T23:31:09.783916+00:00",
+        "timestamp": "2026-09-05T23:45:49.550203+00:00",
         "title": "Enviados dos EUA em Moscovo: Putin anuncia cessar-fogo de três dias para permitir negociações em Kie...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -967,28 +960,28 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-05-kiev-e-moscovo-suspendem-ataques-durante-negociacoes-com-enviados-de-trump-b1e30c87": {
         "category": null,
-        "timestamp": "2026-09-05T23:31:09.518545+00:00",
+        "timestamp": "2026-09-05T23:45:49.443780+00:00",
         "title": "Kiev e Moscovo suspendem ataques durante negociações com enviados de Trump",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-05-pcp-ja-decidiu-voto-na-mocao-do-chega-mas-raimundo-recusa-condicionar-a-festa-do-avante-era-so-o-que-faltava-9d4977cd": {
         "category": null,
-        "timestamp": "2026-09-05T23:31:09.673262+00:00",
+        "timestamp": "2026-09-05T23:45:49.502403+00:00",
         "title": "PCP já decidiu voto na moção do Chega, mas Raimundo recusa condicionar a Festa do Avante: \"Era só o ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-05-hugo-soares-acusa-jose-luis-carneiro-de-viver-no-passado-e-rejeita-corte-do-iva-nos-combustiveis-c568d5c8": {
         "category": null,
-        "timestamp": "2026-09-05T23:31:09.441260+00:00",
+        "timestamp": "2026-09-05T23:45:49.381372+00:00",
         "title": "Hugo Soares acusa José Luís Carneiro de viver \"no passado\" e rejeita corte do IVA nos combustíveis",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-05-ventura-acusa-oposicao-de-esquizofrenia-de-coragem-por-rejeitar-mocao-do-chega-affba5cd": {
         "category": null,
-        "timestamp": "2026-09-05T23:31:09.370975+00:00",
+        "timestamp": "2026-09-05T23:45:49.333746+00:00",
         "title": "Ventura acusa oposição de “esquizofrenia de coragem” por rejeitar moção do Chega",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
