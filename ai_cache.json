@@ -1,18 +1,4 @@
 {
-    "https://expresso.pt/partidos-politicos/2026-08-30-bloco-de-esquerda-propoe-travao-caixa-e-quer-duplicar-imposto-mortagua-5fee823c": {
-        "category": null,
-        "timestamp": "2026-08-31T16:31:12.285289+00:00",
-        "title": "Bloco de Esquerda propõe \"Travão Caixa\" e quer duplicar \"imposto Mortágua\"",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/partidos-politicos/2026-08-30-lider-do-ps-acusa-montenegro-de-tentar-branquear-caos-nos-exames-nacionais-5511879f": {
-        "category": null,
-        "timestamp": "2026-08-31T16:31:12.228804+00:00",
-        "title": "Líder do PS acusa Montenegro de tentar branquear \"caos\" nos exames nacionais",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/as-vindimas-sao-noticia_1762454": {
         "category": null,
         "timestamp": "2026-08-31T16:45:54.973512+00:00",
@@ -59,13 +45,6 @@
         "category": null,
         "timestamp": "2026-09-01T10:45:54.264450+00:00",
         "title": "Putin quer aprofundar cooperação com a China e tornar permanente regime de isenção de vistos",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/prisao-preventiva-para-jovem-que-matou-namorado-da-mae-na-maia": {
-        "category": null,
-        "timestamp": "2026-08-31T16:31:14.235456+00:00",
-        "title": "Prisão preventiva para jovem que matou namorado da mãe na Maia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -918,14 +897,14 @@
     },
     "https://expresso.pt/poder-local/2026-09-04-ex-presidente-de-gaia-eduardo-vitor-rodrigues-absolvido-de-prevaricacao-e-peculato-fb817056": {
         "category": null,
-        "timestamp": "2026-09-05T16:31:03.150609+00:00",
+        "timestamp": "2026-09-05T16:45:49.403714+00:00",
         "title": "Ex-presidente de Gaia Eduardo Vítor Rodrigues absolvido de prevaricação e peculato",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/italia/2026-09-04-meloni-celebra-recorde-de-longevidade-no-governo-oposicao-fala-em-quatro-anos-desperdicados-b72b4eae": {
         "category": null,
-        "timestamp": "2026-09-05T16:31:03.085198+00:00",
+        "timestamp": "2026-09-05T16:45:49.284435+00:00",
         "title": "Meloni celebra recorde de longevidade no governo, oposição fala em \"quatro anos desperdiçados\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -946,14 +925,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-04-ps-acusa-governo-de-lucrar-com-combustiveis-e-pcp-pede-mais-intervencao-nos-precos-f0fa6f40": {
         "category": null,
-        "timestamp": "2026-09-05T16:31:03.019397+00:00",
+        "timestamp": "2026-09-05T16:45:49.198749+00:00",
         "title": "PS acusa Governo de lucrar com combustíveis e PCP pede mais intervenção nos preços",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-04-trump-anuncia-proposta-para-acabar-com-a-guerra-enviados-vao-reunir-se-com-putin-e-zelensky-1b81bbee": {
         "category": null,
-        "timestamp": "2026-09-05T16:31:02.951645+00:00",
+        "timestamp": "2026-09-05T16:45:49.129900+00:00",
         "title": "Trump anuncia \"proposta para acabar com a guerra\": enviados vão reunir-se com Putin e Zelensky",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -967,14 +946,14 @@
     },
     "https://visao.pt/na-primeira-pessoa/2026-09-05-na-primeira-pessoa-o-meu-filho-nunca-saiu-de-casa-mesmo-assim-encontraram-no/?utm_source=rss&utm_medium=rss&utm_campaign=na-primeira-pessoa-o-meu-filho-nunca-saiu-de-casa-mesmo-assim-encontraram-no": {
         "category": null,
-        "timestamp": "2026-09-05T16:31:04.846822+00:00",
+        "timestamp": "2026-09-05T16:45:51.462866+00:00",
         "title": "Na primeira pessoa: “O meu filho nunca saiu de casa. Mesmo assim, encontraram-no”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/palop/mocambique/2026-09-05-um-morto-e-dois-mil-deslocados-em-ataque-a-acampamento-turistico-de-carlos-queiroz-em-mocambique-9b4915cd": {
         "category": null,
-        "timestamp": "2026-09-05T16:31:02.884070+00:00",
+        "timestamp": "2026-09-05T16:45:49.048001+00:00",
         "title": "Um morto e dois mil deslocados em ataque a acampamento turístico de Carlos Queiroz em Moçambique",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -988,7 +967,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-05-enviados-dos-eua-em-moscovo-putin-anuncia-cessar-fogo-de-tres-dias-para-permitir-negociacoes-em-kiev-4cc0e411": {
         "category": null,
-        "timestamp": "2026-09-05T16:31:02.818777+00:00",
+        "timestamp": "2026-09-05T16:45:48.996770+00:00",
         "title": "Enviados dos EUA em Moscovo: Putin anuncia cessar-fogo de três dias para permitir negociações em Kie...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
