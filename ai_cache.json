@@ -62,13 +62,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/partidos-politicos/2026-09-02-mocao-de-censura-nao-foi-apresentada-mas-ja-esta-chumbada-nao-sera-pelo-ps-que-havera-crise-politica-diz-jose-luis-carneiro-569ca3d6-1": {
-        "category": null,
-        "timestamp": "2026-09-02T14:15:52.217217+00:00",
-        "title": "Moção de censura não foi apresentada, mas já está chumbada: \"Não será pelo PS que haverá crise polít...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/financas-pessoais-poupanca/2026-09-02-familias-reforcam-poupanca-em-julho-com-137-mil-milhoes-aplicados-em-novos-depositos-149767da": {
         "category": null,
         "timestamp": "2026-09-03T08:15:58.077402+00:00",
@@ -834,7 +827,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-06-delegacao-de-trump-sai-muito-encorajada-das-negociacoes-com-zelensky-mas-nao-revela-avancos-nas-negociacoes-f893201f": {
         "category": null,
-        "timestamp": "2026-09-07T14:01:22.624354+00:00",
+        "timestamp": "2026-09-07T14:15:55.600794+00:00",
         "title": "Delegação de Trump sai “muito encorajada” das negociações com Zelensky, mas não revela avanços nas n...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -862,7 +855,7 @@
     },
     "https://visao.pt/entrevista-sem-agenda/2026-09-06-o-vinho-esta-tao-intrinsecamente-ligado-a-humanidade-e-a-civilizacao-que-merece-a-nossa-atencao-plena/?utm_source=rss&utm_medium=rss&utm_campaign=o-vinho-esta-tao-intrinsecamente-ligado-a-humanidade-e-a-civilizacao-que-merece-a-nossa-atencao-plena": {
         "category": null,
-        "timestamp": "2026-09-07T14:01:22.047935+00:00",
+        "timestamp": "2026-09-07T14:15:54.539249+00:00",
         "title": "“O vinho está tão intrinsecamente ligado à Humanidade e à civilização que merece a nossa atenção ple...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -876,21 +869,21 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-06-andre-ventura-felicita-afd-pela-vitoria-historica-nas-eleicoes-na-saxonia-anhalt-86eaa47a": {
         "category": null,
-        "timestamp": "2026-09-07T14:01:22.525129+00:00",
+        "timestamp": "2026-09-07T14:15:55.496561+00:00",
         "title": "André Ventura felicita AfD pela “vitória histórica” nas eleições na Saxónia-Anhalt",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-06-e-a-politica-do-governo-que-merece-censura-raimundo-ve-em-montenegro-um-problema-maior-do-que-em-luis-neves-96217603": {
         "category": null,
-        "timestamp": "2026-09-07T14:01:22.431447+00:00",
+        "timestamp": "2026-09-07T14:15:55.406353+00:00",
         "title": "\"É a política do Governo que merece censura\": Raimundo vê em Montenegro um problema maior do que em ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-06-tres-dias-de-festa-comunista-com-um-socialista-a-mistura-9bb019e6": {
         "category": null,
-        "timestamp": "2026-09-07T14:01:22.275443+00:00",
+        "timestamp": "2026-09-07T14:15:55.310190+00:00",
         "title": "Três dias de festa comunista com um socialista à mistura",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -904,21 +897,21 @@
     },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/quiosques-lugares-de-encontro-em-extincao_1763810": {
         "category": null,
-        "timestamp": "2026-09-07T14:01:21.875924+00:00",
+        "timestamp": "2026-09-07T14:15:55.093623+00:00",
         "title": "Quiosques: lugares de encontro em extinção",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-09-07-morreu-nuno-cardoso-ex-presidente-da-camara-do-porto-0cbdab42": {
         "category": null,
-        "timestamp": "2026-09-07T14:01:20.169275+00:00",
+        "timestamp": "2026-09-07T14:15:53.712566+00:00",
         "title": "Morreu Nuno Cardoso, ex-presidente da Câmara do Porto",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-09-07-volkswagen-vende-fabrica-no-norte-da-alemanha-que-sera-reconvertida-para-armamento-0cc8e8b6": {
         "category": null,
-        "timestamp": "2026-09-07T14:01:20.093994+00:00",
+        "timestamp": "2026-09-07T14:15:53.617077+00:00",
         "title": "Volkswagen vende fábrica no norte da Alemanha que será reconvertida para armamento",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
