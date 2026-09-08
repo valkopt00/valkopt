@@ -90,13 +90,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/poder-local/2026-09-03-opacidade-desresponsabilizacao-e-incompetencia-partidos-insistem-em-responsabilidades-politicas-no-caso-do-elevador-da-gloria-c4cc9fc0": {
-        "category": null,
-        "timestamp": "2026-09-03T19:01:17.516330+00:00",
-        "title": "“Opacidade, desresponsabilização e incompetência”: Partidos insistem em responsabilidades políticas ...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/poder-local/2026-09-03-opacidade-e-incompetencia-toda-a-oposicao-exige-responsabilidades-a-moedas-no-elevador-da-gloria-c4cc9fc0": {
         "category": null,
         "timestamp": "2026-09-03T22:01:22.061598+00:00",
@@ -673,7 +666,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-08-russia-lanca-ataques-aereos-a-kiev-e-atinge-varios-edificios-apos-fim-do-cessar-fogo-de-tres-dias-a7640a55": {
         "category": null,
-        "timestamp": "2026-09-08T19:01:15.839966+00:00",
+        "timestamp": "2026-09-08T19:15:52.840959+00:00",
         "title": "Rússia retoma ataques a Kiev após trégua de três dias durante visita de emissários de Trump",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -687,14 +680,14 @@
     },
     "https://expresso.pt/construcao/2026-09-08-custo-de-construcao-de-casas-desacelerou-em-julho-ca68ce54": {
         "category": null,
-        "timestamp": "2026-09-08T19:01:15.796077+00:00",
+        "timestamp": "2026-09-08T19:15:52.764531+00:00",
         "title": "Custo de construção de casas desacelerou em julho",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-08-video-ataques-russos-provocam-explosoes-e-deixam-dois-mortos-em-kiev-2ecd7cc0": {
         "category": null,
-        "timestamp": "2026-09-08T19:01:15.737149+00:00",
+        "timestamp": "2026-09-08T19:15:52.701408+00:00",
         "title": "Ataques russos provocam explosões e deixam dois mortos em Kiev",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -708,14 +701,14 @@
     },
     "https://expresso.pt/design/2026-09-08-design-da-importancia-das-casas-dos-artistas-e-o-caso-de-lourdes-castro-b735e241-1": {
         "category": null,
-        "timestamp": "2026-09-08T19:01:15.683235+00:00",
+        "timestamp": "2026-09-08T19:15:52.627298+00:00",
         "title": "Design: da importância das casas dos artistas, e o caso de Lourdes Castro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-08-zelensky-espera-retomar-negociacoes-entre-ucrania-russia-e-estados-unidos-ainda-em-setembro-e970cabd": {
         "category": null,
-        "timestamp": "2026-09-08T19:01:15.599552+00:00",
+        "timestamp": "2026-09-08T19:15:52.538410+00:00",
         "title": "Zelensky espera retomar negociações entre Ucrânia, Rússia e Estados Unidos ainda em setembro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -729,8 +722,15 @@
     },
     "https://expresso.pt/direitos-digitais/2026-09-08-obrigada-a-cumprir-a-legislacao-europeia-google-diz-que-mudancas-vao-reduzir-a-qualidade-de-servico-d892aaff": {
         "category": null,
-        "timestamp": "2026-09-08T19:01:15.550090+00:00",
+        "timestamp": "2026-09-08T19:15:52.474550+00:00",
         "title": "Obrigada a cumprir a legislação europeia, Google diz que mudanças \"vão reduzir a qualidade de serviç...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/financas-pessoais-poupanca/2026-09-08-irs-baixa-ate-ao-sexto-escalao-em-novembro.-o-que-muda-nos-salarios-pensoes-e-imposto-de-2026-d2cf6897": {
+        "category": null,
+        "timestamp": "2026-09-08T19:15:54.352918+00:00",
+        "title": "IRS baixa até ao sexto escalão em novembro. O que muda nos salários, pensões e imposto de 2026",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
