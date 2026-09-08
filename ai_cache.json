@@ -722,7 +722,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-07-uma-vitoria-que-da-esperanca-a-europa-chega-celebra-afd-de-quem-se-manteve-proximo-nos-momentos-mais-dificeis-a7e6ffab": {
         "category": null,
-        "timestamp": "2026-09-08T11:01:18.590401+00:00",
+        "timestamp": "2026-09-08T11:15:56.137117+00:00",
         "title": "“Uma vitória que dá esperança à Europa”: Chega celebra AfD, de quem se manteve próximo nos momentos ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -743,14 +743,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-07-ps-vai-abster-se-na-mocao-de-censura-ao-governo-5a845b55": {
         "category": null,
-        "timestamp": "2026-09-08T11:01:18.493795+00:00",
+        "timestamp": "2026-09-08T11:15:56.039782+00:00",
         "title": "PS vai abster-se na moção de censura ao Governo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-07-procurador-geral-ucraniano-demite-se-apos-acusacoes-de-corrupcao-b0fc6f3a": {
         "category": null,
-        "timestamp": "2026-09-08T11:01:18.534249+00:00",
+        "timestamp": "2026-09-08T11:15:56.087774+00:00",
         "title": "Procurador-geral ucraniano demite-se após acusações de corrupção",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -764,15 +764,22 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-08-russia-lanca-ataques-aereos-a-kiev-e-atinge-varios-edificios-apos-fim-do-cessar-fogo-de-tres-dias-a7640a55": {
         "category": null,
-        "timestamp": "2026-09-08T11:01:17.048986+00:00",
+        "timestamp": "2026-09-08T11:15:55.451655+00:00",
         "title": "Rússia retoma ataques a Kiev após trégua de três dias durante visita de emissários de Trump",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.publico.pt/2026/09/08/infografia/sabem-alunos-15-anos-veja-situa-portugal-face-paises-910": {
         "category": null,
-        "timestamp": "2026-09-08T11:01:19.855668+00:00",
+        "timestamp": "2026-09-08T11:15:55.833223+00:00",
         "title": "O que sabem os alunos de 15 anos? Veja como se situa Portugal face aos outros países",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/construcao/2026-09-08-custo-de-construcao-de-casas-desacelerou-em-julho-ca68ce54": {
+        "category": null,
+        "timestamp": "2026-09-08T11:15:57.972042+00:00",
+        "title": "Custo de construção de casas desacelerou em julho",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
