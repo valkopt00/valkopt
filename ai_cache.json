@@ -1,11 +1,4 @@
 {
-    "https://www.rtp.pt/noticias/opiniao/nuno-silva-e-ana-augusto/rentree-politica-a-todo-o-vapor_1763288": {
-        "category": null,
-        "timestamp": "2026-09-04T13:01:15.039384+00:00",
-        "title": "Rentrée política a todo o vapor",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
         "timestamp": "2026-09-04T16:01:19.712745+00:00",
@@ -59,20 +52,6 @@
         "category": null,
         "timestamp": "2026-09-04T14:01:22.138519+00:00",
         "title": "Um ministro popular, um Presidente pacífico e uma oficial da Marinha protetora",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/partidos-politicos/2026-09-03-carneiro-e-a-viabilizacao-do-oe2027-garantias-so-do-primeiro-ministro-c3b2dd1e": {
-        "category": null,
-        "timestamp": "2026-09-04T13:01:17.083464+00:00",
-        "title": "Carneiro e a viabilização do OE2027: garantias só do primeiro-ministro",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/revista-e/-e/2026-09-03-sete-dias-depois-de-partir-dos-acores-dino-estava-sem-leme-e-a-navegar-na-direcao-errada-uma-odisseia-no-atlantico-norte-ef51a445": {
-        "category": null,
-        "timestamp": "2026-09-04T13:01:17.139096+00:00",
-        "title": "Sete dias depois de partir dos Açores, Dino estava sem leme e a navegar na direção errada: uma odiss...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -547,14 +526,14 @@
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-09-08-irs-baixa-ate-ao-sexto-escalao-em-novembro.-o-que-muda-nos-salarios-pensoes-e-imposto-de-2026-d2cf6897": {
         "category": null,
-        "timestamp": "2026-09-09T13:01:16.169326+00:00",
+        "timestamp": "2026-09-09T13:16:02.070641+00:00",
         "title": "IRS baixa até ao sexto escalão em novembro. O que muda nos salários, pensões e imposto de 2026",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/health-parliament-portugal/2026-09-08-politicas-publicas-o-que-faz-uma-ideia-avancar--cb814ada": {
         "category": null,
-        "timestamp": "2026-09-09T13:01:16.082302+00:00",
+        "timestamp": "2026-09-09T13:16:02.023819+00:00",
         "title": "Políticas públicas: o que faz uma ideia avançar?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -568,7 +547,7 @@
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-09-08-luis-neves-como-a-entrada-na-politica-destruiu-a-imagem-perfeita-criada-ao-longo-de-tres-decadas-na-policia-judiciaria-62894511": {
         "category": null,
-        "timestamp": "2026-09-09T13:01:16.008174+00:00",
+        "timestamp": "2026-09-09T13:16:01.974396+00:00",
         "title": "Luís Neves: como a entrada na política destruiu a imagem perfeita criada ao longo de três décadas na...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -596,7 +575,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-09-ataques-ucranianos-na-russia-fazem-pelo-menos-quatro-mortos-incluindo-uma-crianca-de1f780a": {
         "category": null,
-        "timestamp": "2026-09-09T13:01:14.734775+00:00",
+        "timestamp": "2026-09-09T13:16:00.615182+00:00",
         "title": "Ataques ucranianos na Rússia fazem pelo menos quatro mortos, incluindo uma criança",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -610,7 +589,7 @@
     },
     "https://expresso.pt/restaurantes/2026-09-09-restaurantes-a-cozinha-turca-vive-em-odivelas-02c3418d-1": {
         "category": null,
-        "timestamp": "2026-09-09T13:01:14.668394+00:00",
+        "timestamp": "2026-09-09T13:16:00.561667+00:00",
         "title": "Restaurantes: a cozinha turca vive em Odivelas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
