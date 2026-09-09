@@ -41,13 +41,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/brasil-uma-eleicao-em-varias-frentes_1763343": {
-        "category": null,
-        "timestamp": "2026-09-04T15:31:05.805407+00:00",
-        "title": "Brasil: uma eleição em várias frentes",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/guerra-ucrania/2026-09-04-enviados-de-trump-vao-a-moscovo-no-fim-de-semana-e-depois-a-kiev-52e06614": {
         "category": null,
         "timestamp": "2026-09-05T08:15:51.207313+00:00",
@@ -94,13 +87,6 @@
         "category": null,
         "timestamp": "2026-09-05T16:15:51.964240+00:00",
         "title": "Centros de cultura ou de informações? A 'Casa Russa' de Berlim vai fechar e a de Lisboa já cessou at...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.petsandcompany.pt/pets/detalhe/de-barriga-para-cima-enrolado-ou-de-lado-afinal-o-que-significa-a-posicao-em-que-o-seu-cao-dorme": {
-        "category": null,
-        "timestamp": "2026-09-04T15:31:06.751367+00:00",
-        "title": "De barriga para cima, enrolado ou de lado. Afinal, o que significa a posição em que o seu cão dorme?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -554,7 +540,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-09-ataques-ucranianos-na-russia-fazem-pelo-menos-quatro-mortos-incluindo-uma-crianca-de1f780a": {
         "category": null,
-        "timestamp": "2026-09-09T15:16:05.683200+00:00",
+        "timestamp": "2026-09-09T15:31:16.965977+00:00",
         "title": "Ataques ucranianos na Rússia fazem pelo menos quatro mortos, incluindo uma criança",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -568,15 +554,22 @@
     },
     "https://expresso.pt/restaurantes/2026-09-09-restaurantes-a-cozinha-turca-vive-em-odivelas-02c3418d-1": {
         "category": null,
-        "timestamp": "2026-09-09T15:16:05.594240+00:00",
+        "timestamp": "2026-09-09T15:31:16.900601+00:00",
         "title": "Restaurantes: a cozinha turca vive em Odivelas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cmr/podcasts/teoria-do-caos/detalhe/a-luta-pela-igualdade-de-genero-num-mundo-radicalizado": {
         "category": null,
-        "timestamp": "2026-09-09T15:16:06.048812+00:00",
+        "timestamp": "2026-09-09T15:31:17.196706+00:00",
         "title": "A luta pela igualdade de género num mundo radicalizado",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/exposicoes/2026-09-09-quando-o-mnaa-vai-ao-mnac-o-encontro-entre-dois-museus-irmaos-que-cresceram-separados-26548f9b": {
+        "category": null,
+        "timestamp": "2026-09-09T15:31:17.822543+00:00",
+        "title": "Quando o MNAA vai ao MNAC: o encontro entre dois museus irmãos que cresceram separados",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
