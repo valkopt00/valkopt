@@ -104,13 +104,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/opiniao/mundo/brasil-uma-eleicao-em-varias-frentes_1763343": {
-        "category": null,
-        "timestamp": "2026-09-04T09:31:12.997370+00:00",
-        "title": "Brasil: uma eleição em várias frentes",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/brasil-uma-eleicao-em-varias-frentes_1763343": {
         "category": null,
         "timestamp": "2026-09-04T15:31:05.805407+00:00",
@@ -568,21 +561,21 @@
     },
     "https://expresso.pt/direitos-digitais/2026-09-08-obrigada-a-cumprir-a-legislacao-europeia-google-diz-que-mudancas-vao-reduzir-a-qualidade-de-servico-d892aaff": {
         "category": null,
-        "timestamp": "2026-09-09T09:31:11.264379+00:00",
+        "timestamp": "2026-09-09T09:45:59.109459+00:00",
         "title": "Obrigada a cumprir a legislação europeia, Google diz que mudanças \"vão reduzir a qualidade de serviç...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-09-08-irs-baixa-ate-ao-sexto-escalao-em-novembro.-o-que-muda-nos-salarios-pensoes-e-imposto-de-2026-d2cf6897": {
         "category": null,
-        "timestamp": "2026-09-09T09:31:11.186880+00:00",
+        "timestamp": "2026-09-09T09:45:58.930205+00:00",
         "title": "IRS baixa até ao sexto escalão em novembro. O que muda nos salários, pensões e imposto de 2026",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/health-parliament-portugal/2026-09-08-politicas-publicas-o-que-faz-uma-ideia-avancar--cb814ada": {
         "category": null,
-        "timestamp": "2026-09-09T09:31:11.129558+00:00",
+        "timestamp": "2026-09-09T09:45:58.846246+00:00",
         "title": "Políticas públicas: o que faz uma ideia avançar?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -596,14 +589,14 @@
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-09-08-luis-neves-como-a-entrada-na-politica-destruiu-a-imagem-perfeita-criada-ao-longo-de-tres-decadas-na-policia-judiciaria-62894511": {
         "category": null,
-        "timestamp": "2026-09-09T09:31:10.991337+00:00",
+        "timestamp": "2026-09-09T09:45:58.752300+00:00",
         "title": "Luís Neves: como a entrada na política destruiu a imagem perfeita criada ao longo de três décadas na...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-08-trump-pede-a-putin-o-fim-da-guerra-presidente-russo-nega-planos-hostis-contra-a-europa-5dd41260": {
         "category": null,
-        "timestamp": "2026-09-09T09:31:11.225630+00:00",
+        "timestamp": "2026-09-09T09:45:59.017786+00:00",
         "title": "Trump pede a Putin o fim da guerra, presidente russo nega \"planos hostis\" contra a Europa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -624,7 +617,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-09-ataques-ucranianos-na-russia-fazem-pelo-menos-quatro-mortos-incluindo-uma-crianca-de1f780a": {
         "category": null,
-        "timestamp": "2026-09-09T09:31:09.917767+00:00",
+        "timestamp": "2026-09-09T09:45:57.393012+00:00",
         "title": "Ataques ucranianos na Rússia fazem pelo menos quatro mortos, incluindo uma criança",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
