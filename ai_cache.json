@@ -1,18 +1,4 @@
 {
-    "https://expresso.pt/guerra-ucrania/2026-09-04-um-morto-e-dois-feridos-em-ataque-russo-contra-odessa-no-sul-da-ucrania-9b46f2cf": {
-        "category": null,
-        "timestamp": "2026-09-05T11:01:22.244185+00:00",
-        "title": "Um morto e dois feridos em ataque russo contra Odessa, no sul da Ucrânia",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/empresas-negocios/2026-09-04-volkswagen-sobe-mais-de-6-na-bolsa-com-aprovacao-do-plano-de-reestruturacao-4f7b617b": {
-        "category": null,
-        "timestamp": "2026-09-05T11:01:22.162349+00:00",
-        "title": "Volkswagen sobe mais de 6% na bolsa com aprovação do plano de reestruturação",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/empresas-negocios/2026-09-04-volkswagen-plano-de-corte-de-100-mil-empregos-nao-belisca-autoeuropa-mas-ha-fabricas-na-alemanha-a-fechar-e-chineses-estao-a-espreita-895e3e50": {
         "category": null,
         "timestamp": "2026-09-05T16:15:52.012329+00:00",
@@ -498,21 +484,21 @@
     },
     "https://expresso.pt/administracao-publica/2026-09-09-presidencia-da-aicep-volta-a-rodar-ana-casaca-assume-o-cargo-5a472556": {
         "category": null,
-        "timestamp": "2026-09-10T10:46:04.233111+00:00",
+        "timestamp": "2026-09-10T11:01:28.013646+00:00",
         "title": "Presidência da AICEP volta a rodar: Ana Casaca assume o cargo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-09-aviao-que-levava-zelensky-para-oslo-quase-atingido-por-drone-0ac04891": {
         "category": null,
-        "timestamp": "2026-09-10T10:46:03.764231+00:00",
+        "timestamp": "2026-09-10T11:01:27.453583+00:00",
         "title": "Avião que levava Zelensky para Oslo \"quase atingido\" por drone",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-09-09-porsche-vende-participacoes-na-bugatti-rimac-e-no-grupo-rimac-por-mil-milhoes-de-euros-899bb5f0": {
         "category": null,
-        "timestamp": "2026-09-10T10:46:03.687914+00:00",
+        "timestamp": "2026-09-10T11:01:27.381509+00:00",
         "title": "Porsche vende participações na Bugatti Rimac e no Grupo Rimac por mil milhões de euros",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -533,22 +519,29 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-10-carneiro-acusa-governo-de-dar-com-uma-mao-e-retirar-com-as-duas-apos-anuncio-da-extensao-do-apoio-ao-gasoleo-agricola-4b333ffa": {
         "category": null,
-        "timestamp": "2026-09-10T10:46:00.973663+00:00",
+        "timestamp": "2026-09-10T11:01:24.633422+00:00",
         "title": "Carneiro acusa Governo de “dar com uma mão e retirar com as duas\" após anúncio da extensão do apoio ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-09-10-huawei-xiaomi-e-apple-aceleram-corrida-aos-smartphones-dobraveis-1ef23a41": {
         "category": null,
-        "timestamp": "2026-09-10T10:46:00.918418+00:00",
+        "timestamp": "2026-09-10T11:01:24.564714+00:00",
         "title": "Huawei, Xiaomi e Apple aceleram corrida aos 'smartphones' dobráveis",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/custo-vida/2026-09-10-gasoleo-acelera-inflacao-para-33-em-agosto-6f6c3db9": {
         "category": null,
-        "timestamp": "2026-09-10T10:46:01.474254+00:00",
+        "timestamp": "2026-09-10T11:01:26.236701+00:00",
         "title": "Gasóleo acelera inflação para 3,3% em agosto",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/expressinho/2026-09-10-noticias-do-mundo-dos-dinossauros--vindas-de-portugal--9e69176c": {
+        "category": null,
+        "timestamp": "2026-09-10T11:01:26.166063+00:00",
+        "title": "Notícias do mundo dos dinossauros (vindas de Portugal!)",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
