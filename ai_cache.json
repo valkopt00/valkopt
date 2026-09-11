@@ -701,7 +701,7 @@
     },
     "https://expresso.pt/expressinho/2026-09-10-onde-estava-no-11-de-setembro--historias-de-um-dia-que-apanhou-o-mundo-de-surpresa-c64ad764": {
         "category": null,
-        "timestamp": "2026-09-11T17:46:09.340545+00:00",
+        "timestamp": "2026-09-11T18:01:22.682126+00:00",
         "title": "\"Onde estava no 11 de setembro?\" Histórias de um dia que apanhou o mundo de surpresa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -799,7 +799,7 @@
     },
     "https://expresso.pt/nato/2026-09-11-aliados-da-nato-evitam-plano-russo-de-sabotagem-de-cabo-submarino-0a793532": {
         "category": null,
-        "timestamp": "2026-09-11T17:46:09.029085+00:00",
+        "timestamp": "2026-09-11T18:01:22.242550+00:00",
         "title": "Aliados da NATO evitam plano russo de sabotagem de cabo submarino",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -813,7 +813,7 @@
     },
     "https://expresso.pt/health-parliament-portugal/2026-09-11-saude-da-proposta-a-implementacao-de-politicas-publicas-e5b971f1": {
         "category": null,
-        "timestamp": "2026-09-11T17:46:08.968257+00:00",
+        "timestamp": "2026-09-11T18:01:21.901996+00:00",
         "title": "Saúde: da proposta à implementação de políticas públicas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -890,22 +890,36 @@
     },
     "https://expresso.pt/defesa-nacional/2026-09-11-defesa-diz-que-afinal-megaemprestimo-militar-nao-tem-de-ser-votado-no-parlamento-f756a942": {
         "category": null,
-        "timestamp": "2026-09-11T17:46:09.439678+00:00",
+        "timestamp": "2026-09-11T18:01:21.833398+00:00",
         "title": "Defesa diz que, afinal, megaempréstimo militar não tem de ser votado no Parlamento",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/houthis-do-iemen-reclamam-controlo-da-costa-ocidental-do-iemen": {
         "category": null,
-        "timestamp": "2026-09-11T17:46:07.710197+00:00",
+        "timestamp": "2026-09-11T18:01:22.401434+00:00",
         "title": "Houthis do Iémen reclamam controlo da costa ocidental do Iémen",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/rtpeuropa-portugal/lousa-acolheu-8a-edicao-da-escola-de-verao-da-comissao-europeia-o-summer-cemp_v1764884": {
         "category": null,
-        "timestamp": "2026-09-11T17:46:07.320234+00:00",
+        "timestamp": "2026-09-11T18:01:20.941906+00:00",
         "title": "Lousã acolheu 8ª edição da escola de verão da Comissão Europeia, o Summer CEmp",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.rtp.pt/noticias/rtpeuropa/maria-luis-albuquerque-comissaria-europeia-a-literacia-financeira-e-uma-competencia-basica-idealmente-introduzida-no-sistema-de-ensino_v1764885": {
+        "category": null,
+        "timestamp": "2026-09-11T18:01:20.876125+00:00",
+        "title": "Maria Luís Albuquerque, Comissária Europeia: \"A literacia financeira é uma competência básica, ideal...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/receitas/2026-09-11-receitas-a-doce-sofisticacao-do-satin-de-alperces-d802f780": {
+        "category": null,
+        "timestamp": "2026-09-11T18:01:21.771190+00:00",
+        "title": "Receitas: A doce sofisticação do satin de alperces",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
