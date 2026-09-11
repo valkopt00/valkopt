@@ -1,18 +1,4 @@
 {
-    "https://expresso.pt/palop/mocambique/2026-09-05-um-morto-e-dois-mil-deslocados-em-ataque-a-acampamento-turistico-de-carlos-queiroz-em-mocambique-9b4915cd": {
-        "category": null,
-        "timestamp": "2026-09-06T23:01:17.482048+00:00",
-        "title": "Um morto e dois mil deslocados em ataque a acampamento turístico de Carlos Queiroz em Moçambique",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/guerra-ucrania/2026-09-05-enviados-dos-eua-em-moscovo-putin-anuncia-cessar-fogo-de-tres-dias-para-permitir-negociacoes-em-kiev-4cc0e411": {
-        "category": null,
-        "timestamp": "2026-09-06T23:01:17.431682+00:00",
-        "title": "Enviados dos EUA em Moscovo: Putin anuncia cessar-fogo de três dias para permitir negociações em Kie...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/guerra-ucrania/2026-09-05-kiev-e-moscovo-suspendem-ataques-durante-negociacoes-com-enviados-de-trump-b1e30c87": {
         "category": null,
         "timestamp": "2026-09-07T07:15:58.254686+00:00",
@@ -94,13 +80,6 @@
         "category": null,
         "timestamp": "2026-09-07T17:01:13.111807+00:00",
         "title": "Três dias de festa comunista com um socialista à mistura",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/irao-ameaca-criar-nova-zona-interdita-no-estreito-de-ormuz-nos-proximos-dias": {
-        "category": null,
-        "timestamp": "2026-09-06T23:01:18.135359+00:00",
-        "title": "Irão ameaça criar nova \"zona interdita\" no estreito de Ormuz nos próximos dias",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -771,7 +750,7 @@
     },
     "https://expresso.pt/nato/2026-09-11-aliados-da-nato-evitam-plano-russo-de-sabotagem-de-cabo-submarino-0a793532": {
         "category": null,
-        "timestamp": "2026-09-11T23:01:17.333229+00:00",
+        "timestamp": "2026-09-11T23:15:51.139534+00:00",
         "title": "Aliados da NATO evitam plano russo de sabotagem de cabo submarino",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -785,7 +764,7 @@
     },
     "https://expresso.pt/health-parliament-portugal/2026-09-11-saude-da-proposta-a-implementacao-de-politicas-publicas-e5b971f1": {
         "category": null,
-        "timestamp": "2026-09-11T23:01:17.209024+00:00",
+        "timestamp": "2026-09-11T23:15:51.024849+00:00",
         "title": "Saúde: da proposta à implementação de políticas públicas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -862,7 +841,7 @@
     },
     "https://expresso.pt/defesa-nacional/2026-09-11-defesa-diz-que-afinal-megaemprestimo-militar-nao-tem-de-ser-votado-no-parlamento-f756a942": {
         "category": null,
-        "timestamp": "2026-09-11T23:01:16.767587+00:00",
+        "timestamp": "2026-09-11T23:15:48.857803+00:00",
         "title": "Defesa diz que, afinal, megaempréstimo militar não tem de ser votado no Parlamento",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -890,7 +869,7 @@
     },
     "https://expresso.pt/receitas/2026-09-11-receitas-a-doce-sofisticacao-do-satin-de-alperces-d802f780": {
         "category": null,
-        "timestamp": "2026-09-11T23:01:16.720388+00:00",
+        "timestamp": "2026-09-11T23:15:48.806713+00:00",
         "title": "Receitas: A doce sofisticação do satin de alperces",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -904,14 +883,14 @@
     },
     "https://www.rtp.pt/noticias/futebol-de-praia/portugal-perde-com-espanha-e-falha-meias-da-liga-europeia-de-futebol-de-praia_d1764880": {
         "category": null,
-        "timestamp": "2026-09-11T23:01:18.550092+00:00",
+        "timestamp": "2026-09-11T23:15:49.287813+00:00",
         "title": "Portugal perde com Espanha e falha meias da Liga Europeia de futebol de praia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/trump-recusou-pedidos-sauditas-para-atacar-houthis": {
         "category": null,
-        "timestamp": "2026-09-11T23:01:18.295627+00:00",
+        "timestamp": "2026-09-11T23:15:50.552052+00:00",
         "title": "Trump recusou pedidos sauditas para atacar Houthis",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -932,7 +911,7 @@
     },
     "https://expresso.pt/italia/2026-09-11-morreu-emma-bonino-a-mulher-que-fez-do-aborto-uma-batalha-politica-em-italia-76842623": {
         "category": null,
-        "timestamp": "2026-09-11T23:01:17.276194+00:00",
+        "timestamp": "2026-09-11T23:15:51.085107+00:00",
         "title": "Morreu Emma Bonino, a mulher que fez do aborto uma batalha política em Itália",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
