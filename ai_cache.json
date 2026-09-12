@@ -27,13 +27,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/quiosques-lugares-de-encontro-em-extincao_1763810": {
-        "category": null,
-        "timestamp": "2026-09-07T16:01:22.118135+00:00",
-        "title": "Quiosques: lugares de encontro em extinção",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/poder-local/2026-09-07-morreu-nuno-cardoso-ex-presidente-da-camara-do-porto-0cbdab42": {
         "category": null,
         "timestamp": "2026-09-08T06:31:04.665795+00:00",
@@ -778,7 +771,7 @@
     },
     "https://expresso.pt/defesa-nacional/2026-09-11-defesa-diz-que-afinal-megaemprestimo-militar-nao-tem-de-ser-votado-no-parlamento-f756a942": {
         "category": null,
-        "timestamp": "2026-09-12T16:01:16.849175+00:00",
+        "timestamp": "2026-09-12T16:15:50.677501+00:00",
         "title": "Defesa diz que, afinal, megaempréstimo militar não tem de ser votado no Parlamento",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -806,7 +799,7 @@
     },
     "https://expresso.pt/receitas/2026-09-11-receitas-a-doce-sofisticacao-do-satin-de-alperces-d802f780": {
         "category": null,
-        "timestamp": "2026-09-12T16:01:16.802438+00:00",
+        "timestamp": "2026-09-12T16:15:50.603723+00:00",
         "title": "Receitas: A doce sofisticação do satin de alperces",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -862,35 +855,35 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-12-descida-do-iva-nos-combustiveis-e-alimentacao-carneiro-diz-que-o-chega-quer-enganar-os-portugueses-cdf667b0": {
         "category": null,
-        "timestamp": "2026-09-12T16:01:16.753061+00:00",
+        "timestamp": "2026-09-12T16:15:50.551026+00:00",
         "title": "Descida do IVA nos combustíveis e alimentação: Carneiro diz que o Chega quer “enganar os portugueses...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/russia/2026-09-12-putin-defende-alargamento-do-conselho-de-seguranca-da-onu-durante-cimeira-dos-brics-96c8f341": {
         "category": null,
-        "timestamp": "2026-09-12T16:01:16.708259+00:00",
+        "timestamp": "2026-09-12T16:15:50.248725+00:00",
         "title": "Putin defende alargamento do Conselho de Segurança da ONU durante cimeira dos BRICS",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-12-livre-acusa-governo-de-arrogancia-e-de-esvaziar-trabalho-parlamentar-ba06c848": {
         "category": null,
-        "timestamp": "2026-09-12T16:01:16.659613+00:00",
+        "timestamp": "2026-09-12T16:15:50.202490+00:00",
         "title": "Livre acusa Governo de arrogância e de \"esvaziar\" trabalho parlamentar",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-12-carneiro-defende-reforco-financeiro-das-camaras-com-receitas-das-energias-renovaveis-cd1fe1c5-1": {
         "category": null,
-        "timestamp": "2026-09-12T16:01:16.614357+00:00",
+        "timestamp": "2026-09-12T16:15:50.157577+00:00",
         "title": "Carneiro defende reforço financeiro das câmaras com receitas das energias renováveis",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/custo-vida/2026-09-12-video-manifestantes-protestam-contra-aumento-dos-combustiveis-e-marcham-ate-casa-de-luis-montenegro-f4f3c078": {
         "category": null,
-        "timestamp": "2026-09-12T16:01:16.542933+00:00",
+        "timestamp": "2026-09-12T16:15:50.105339+00:00",
         "title": "Manifestantes protestam contra aumento dos combustíveis e marcham até casa de Luís Montenegro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
