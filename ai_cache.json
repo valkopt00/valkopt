@@ -785,21 +785,21 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-13-eua-dizem-que-putin-e-zelensky-estao-muito-empenhados-em-encontrar-uma-solucao-para-a-paz-mas-kremlin-rejeita-reuniao-na-cimeira-do-g20-2cbaa7cf": {
         "category": null,
-        "timestamp": "2026-09-14T10:31:16.874857+00:00",
+        "timestamp": "2026-09-14T10:46:07.124742+00:00",
         "title": "EUA dizem que Putin e Zelensky estão ”muito empenhados” em encontrar uma solução para a paz, mas Kre...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-13-ps-acusa-chega-de-ajudar-o-governo-com-medidas-sobre-o-iva-dos-combustiveis-e-alimentos-63d27135": {
         "category": null,
-        "timestamp": "2026-09-14T10:31:16.831341+00:00",
+        "timestamp": "2026-09-14T10:46:07.078557+00:00",
         "title": "PS acusa Chega de ajudar o Governo com medidas sobre o IVA dos combustíveis e alimentos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-13-trump-manda-zelensky-parar-ataques-a-infraestruturas-de-gasoleo-da-russia-8f007980": {
         "category": null,
-        "timestamp": "2026-09-14T10:31:16.738345+00:00",
+        "timestamp": "2026-09-14T10:46:06.992507+00:00",
         "title": "Trump manda Zelensky parar ataques a infraestruturas de gasóleo da Rússia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -813,7 +813,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-13-orcamento-para-2027-livre-quer-passe-de-mobilidade-nacional-e-reforcar-abono-de-familia-9337377c": {
         "category": null,
-        "timestamp": "2026-09-14T10:31:16.783728+00:00",
+        "timestamp": "2026-09-14T10:46:07.035104+00:00",
         "title": "Orçamento para 2027: Livre quer passe de mobilidade nacional e reforçar abono de família",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -834,14 +834,14 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-13-donald-tusk-diz-que-escalada-do-conflito-na-ucrania-pode-afetar-polonia-24b08486": {
         "category": null,
-        "timestamp": "2026-09-14T10:31:16.693907+00:00",
+        "timestamp": "2026-09-14T10:46:06.948031+00:00",
         "title": "Donald Tusk diz que escalada do conflito na Ucrânia pode afetar Polónia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://visao.pt/entrevista-sem-agenda/2026-09-13-as-mulheres-sao-maioritarias-na-entrada-no-ensino-superior-e-a-seguir-nas-carreiras-de-investigacao-mas-depois-ha-uma-perda-evidente-do-talento-feminino/?utm_source=rss&utm_medium=rss&utm_campaign=as-mulheres-sao-maioritarias-na-entrada-no-ensino-superior-e-a-seguir-nas-carreiras-de-investigacao-mas-depois-ha-uma-perda-evidente-do-talento-feminino": {
         "category": null,
-        "timestamp": "2026-09-14T10:31:16.149168+00:00",
+        "timestamp": "2026-09-14T10:46:05.281194+00:00",
         "title": "“As mulheres são maioritárias na entrada no Ensino Superior e, a seguir, nas carreiras de investigaç...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -862,7 +862,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-13-engano-diz-carneiro-mentira-acusa-ventura-quem-e-que-esta-a-dizer-verdade-sobre-iva-e-combustiveis--4bbe2eec": {
         "category": null,
-        "timestamp": "2026-09-14T10:31:16.649352+00:00",
+        "timestamp": "2026-09-14T10:46:06.901219+00:00",
         "title": "\"Engano\", diz Carneiro, \"mentira\", acusa Ventura: quem é que está a dizer verdade sobre IVA e combus...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -904,15 +904,22 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-09-14-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-23/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-23": {
         "category": null,
-        "timestamp": "2026-09-14T10:31:16.106203+00:00",
+        "timestamp": "2026-09-14T10:46:05.237726+00:00",
         "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/a-noticia-que-se-repete-e-um-problema-que-nao-acaba_1765255": {
         "category": null,
-        "timestamp": "2026-09-14T10:31:14.793988+00:00",
+        "timestamp": "2026-09-14T10:46:05.413523+00:00",
         "title": "A notícia que se repete e um problema que não acaba",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/financas-pessoais-poupanca/2026-09-14-refeicoes-companhia-e-cuidados-solteiros-dinamizam-economia-da-solidao-na-china-4c265754": {
+        "category": null,
+        "timestamp": "2026-09-14T10:46:06.658480+00:00",
+        "title": "Refeições, companhia e cuidados: solteiros dinamizam \"economia da solidão\" na China",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
