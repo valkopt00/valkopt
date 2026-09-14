@@ -13,13 +13,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/cmr/podcasts/teoria-do-caos/detalhe/a-luta-pela-igualdade-de-genero-num-mundo-radicalizado": {
-        "category": null,
-        "timestamp": "2026-09-09T15:31:17.196706+00:00",
-        "title": "A luta pela igualdade de género num mundo radicalizado",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/exposicoes/2026-09-09-quando-o-mnaa-vai-ao-mnac-o-encontro-entre-dois-museus-irmaos-que-cresceram-separados-26548f9b": {
         "category": null,
         "timestamp": "2026-09-10T08:31:15.025348+00:00",
@@ -799,7 +792,7 @@
     },
     "https://visao.pt/entrevista-sem-agenda/2026-09-13-as-mulheres-sao-maioritarias-na-entrada-no-ensino-superior-e-a-seguir-nas-carreiras-de-investigacao-mas-depois-ha-uma-perda-evidente-do-talento-feminino/?utm_source=rss&utm_medium=rss&utm_campaign=as-mulheres-sao-maioritarias-na-entrada-no-ensino-superior-e-a-seguir-nas-carreiras-de-investigacao-mas-depois-ha-uma-perda-evidente-do-talento-feminino": {
         "category": null,
-        "timestamp": "2026-09-14T15:31:18.777011+00:00",
+        "timestamp": "2026-09-14T15:45:53.380985+00:00",
         "title": "“As mulheres são maioritárias na entrada no Ensino Superior e, a seguir, nas carreiras de investigaç...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -862,7 +855,7 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-09-14-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-23/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-23": {
         "category": null,
-        "timestamp": "2026-09-14T15:31:18.704468+00:00",
+        "timestamp": "2026-09-14T15:45:53.318085+00:00",
         "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -876,14 +869,14 @@
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-09-14-refeicoes-companhia-e-cuidados-solteiros-dinamizam-economia-da-solidao-na-china-4c265754": {
         "category": null,
-        "timestamp": "2026-09-14T15:31:17.247389+00:00",
+        "timestamp": "2026-09-14T15:45:52.788602+00:00",
         "title": "Refeições, companhia e cuidados: solteiros dinamizam \"economia da solidão\" na China",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-09-14-stephan-sturm-abandona-presidencia-da-hugo-boss-na-sequencia-da-opa-do-frasers-group-3b2cb912": {
         "category": null,
-        "timestamp": "2026-09-14T15:31:17.200565+00:00",
+        "timestamp": "2026-09-14T15:45:52.739303+00:00",
         "title": "Stephan Sturm abandona presidência da Hugo Boss na sequência da OPA do Frasers Group",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -897,7 +890,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-14-il-acusa-governo-de-nao-avancar-com-reformas-partido-luta-contra-maioria-dos-empatas--em-que-se-incluem-chega-e-ps--911b6fcd": {
         "category": null,
-        "timestamp": "2026-09-14T15:31:17.153389+00:00",
+        "timestamp": "2026-09-14T15:45:52.525834+00:00",
         "title": "IL acusa Governo de não avançar com reformas: partido luta contra ”maioria dos empatas” (em que se i...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -918,8 +911,15 @@
     },
     "https://expresso.pt/empresas-negocios/2026-09-14-nam-abre-fabrica-em-odivelas-e-triplica-producao-de-cogumelos-feitos-a-partir-de-borras-de-cafe-f521e13a": {
         "category": null,
-        "timestamp": "2026-09-14T15:31:17.387387+00:00",
+        "timestamp": "2026-09-14T15:45:52.464900+00:00",
         "title": "Nãm abre fábrica em Odivelas e triplica produção de cogumelos feitos a partir de borras de café",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/partidos-politicos/2026-09-14-carneiro-admite-comissao-de-inquerito-sobre-acumular-de-problemas-na-educacao-6674d720": {
+        "category": null,
+        "timestamp": "2026-09-14T15:45:54.844617+00:00",
+        "title": "Carneiro admite comissão de inquérito sobre acumular de problemas na Educação",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
