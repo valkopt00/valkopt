@@ -34,13 +34,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/cmr/podcasts/crime-e-castigo/detalhe/lindsay-a-mulher-que-matou-os-tres-filhos-culpada-ou-inocente": {
-        "category": null,
-        "timestamp": "2026-09-10T12:15:59.805532+00:00",
-        "title": "Lindsay, a mulher que matou os três filhos. Culpada ou inocente?",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/empresas-negocios/2026-09-10-mercado-iberico-vai-aquecer-com-fusoes-e-aquisicoes-8e8ece84": {
         "category": null,
         "timestamp": "2026-09-10T22:01:26.773856+00:00",
@@ -897,14 +890,14 @@
     },
     "https://expresso.pt/russia/2026-09-14-mesmo-com-a-nova-ponte-russia-coreia-do-norte-das-duas-coreias-a-do-sul-continua-a-ser-o-parceiro-de-negocios-mais-importante-152f7557": {
         "category": null,
-        "timestamp": "2026-09-15T12:15:54.548540+00:00",
+        "timestamp": "2026-09-15T12:31:11.020948+00:00",
         "title": "Mesmo com a nova ponte Rússia-Coreia do Norte, “das duas Coreias, a do Sul continua a ser o parceiro...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-14-muitissimo-satisfeita-com-aviso-de-passos-mariana-leitao-insiste-que-e-urgente-reformar-o-pais-8190c60f": {
         "category": null,
-        "timestamp": "2026-09-15T12:15:54.485199+00:00",
+        "timestamp": "2026-09-15T12:31:10.404327+00:00",
         "title": "\"Muitíssimo satisfeita\" com aviso de Passos, Mariana Leitão insiste que é \"urgente\" reformar o país",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -925,14 +918,14 @@
     },
     "https://www.rtp.pt/noticias/rtpeuropa-comissao-europeia/federica-mogherini-antiga-alta-representante-da-ue-este-e-o-mundo-mais-perigoso-em-que-ja-vivemos_v1765501": {
         "category": null,
-        "timestamp": "2026-09-15T12:15:52.702634+00:00",
+        "timestamp": "2026-09-15T12:31:08.255402+00:00",
         "title": "Federica Mogherini, antiga Alta Representante da UE: \"Este é o mundo mais perigoso em que já vivemos...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/administracao-publica/2026-09-15-fesap-defende-que-mesmo-que-o-salario-minimo-no-estado-subisse-para-1030-em-2027-seria-curto-64e3788b": {
         "category": null,
-        "timestamp": "2026-09-15T12:15:52.619916+00:00",
+        "timestamp": "2026-09-15T12:31:07.764692+00:00",
         "title": "Fesap defende que mesmo que o salário mínimo no Estado subisse para €1030 em 2027 seria \"curto\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -946,29 +939,36 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-15-mario-centeno-e-paulo-mota-pinto-na-conferencia-inaugural-do-novo-think-tank-de-esquerda-df298abb": {
         "category": null,
-        "timestamp": "2026-09-15T12:15:52.530681+00:00",
+        "timestamp": "2026-09-15T12:31:07.456533+00:00",
         "title": "Mário Centeno e Paulo Mota Pinto na conferência inaugural do novo think tank de esquerda",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-15-assalto-ao-gabinete-parlamento-recebeu-pedidos-para-ventura-e-dois-deputados-testemunharem-7d5bc139": {
         "category": null,
-        "timestamp": "2026-09-15T12:15:52.574106+00:00",
+        "timestamp": "2026-09-15T12:31:07.587494+00:00",
         "title": "Assalto ao gabinete: Parlamento recebeu pedidos para Ventura e dois deputados testemunharem",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-15-dinamarca-acusa-russia-de-disparar-dois-sinalizadores-contra-helicoptero-no-mar-baltico-54ce592d": {
         "category": null,
-        "timestamp": "2026-09-15T12:15:52.483313+00:00",
+        "timestamp": "2026-09-15T12:31:07.390883+00:00",
         "title": "Dinamarca acusa Rússia de disparar dois sinalizadores contra helicóptero no mar Báltico",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/qatar-alerta-que-encerramento-do-estreito-de-bab-el-mandeb-sera-catastrofico": {
         "category": null,
-        "timestamp": "2026-09-15T12:15:54.187645+00:00",
+        "timestamp": "2026-09-15T12:31:09.643524+00:00",
         "title": "Qatar alerta que encerramento do estreito de Bab el-Mandeb será \"catastrófico\"",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/partidos-politicos/2026-09-15-mariana-leitao-ataca-governo-por-falso-pais-das-maravilhas-e-ignorar-estudo-sobre-pensoes-encomendou-a-verdade-e-decidiu-nao-a-usar-cb218950": {
+        "category": null,
+        "timestamp": "2026-09-15T12:31:08.932933+00:00",
+        "title": "Mariana Leitão ataca Governo por falso \"país das maravilhas\" e ignorar estudo sobre pensões: \"Encome...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
