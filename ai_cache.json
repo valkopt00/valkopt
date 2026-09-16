@@ -27,27 +27,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/semanario/revista-e/-e/2026-09-10-entrevista-de-vida-a-pedro-penim-ha-10-anos-estavamos-num-sitio-mais-promissor-da-sociedade-portuguesa-66f59fb1": {
-        "category": null,
-        "timestamp": "2026-09-11T15:16:01.666087+00:00",
-        "title": "Entrevista de vida a Pedro Penim: “Há 10 anos estávamos num sítio mais promissor da sociedade portug...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/inovacao-e-produtividade/2026-09-10-oli-a-empresa-portuguesa-que-forjou-a-dupla-descarga-do-autoclismo-4572b79b": {
-        "category": null,
-        "timestamp": "2026-09-11T15:16:01.714327+00:00",
-        "title": "OLI, a empresa portuguesa que forjou a dupla descarga do autoclismo",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2026-09-10-homenagem-ao-carniceiro-dos-balcas-41c9e9b9": {
-        "category": null,
-        "timestamp": "2026-09-11T15:16:02.011353+00:00",
-        "title": "Homenagem ao “Carniceiro dos Balcãs”",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/guerra-ucrania/2026-09-10-ataques-russos-fazem-pelo-menos-sete-mortos-e-mais-de-70-feridos-no-leste-da-ucrania-7b25943b": {
         "category": null,
         "timestamp": "2026-09-11T16:45:58.133506+00:00",
@@ -73,13 +52,6 @@
         "category": null,
         "timestamp": "2026-09-12T12:15:59.447867+00:00",
         "title": "Saúde: da proposta à implementação de políticas públicas",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/11-de-setembro--25-anos/detalhe/nova-iorque-divulga-170-mil-paginas-sobre-qualidade-do-ar-apos-ataques-do-11-de-setembro": {
-        "category": null,
-        "timestamp": "2026-09-11T15:16:01.216725+00:00",
-        "title": "Nova Iorque divulga 170 mil páginas sobre qualidade do ar após ataques do 11 de Setembro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -736,7 +708,7 @@
     },
     "https://expresso.pt/presidencia-republica/2026-09-15-seguro-pede-coragem-para-pacto-na-saude-nao-podemos-fazer-nada-sozinhos-00a56ec1": {
         "category": null,
-        "timestamp": "2026-09-16T15:16:01.706837+00:00",
+        "timestamp": "2026-09-16T15:31:14.579445+00:00",
         "title": "Seguro pede \"coragem\" para Pacto na Saúde: \"Não podemos fazer nada sozinhos\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -750,7 +722,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-15-consultor-de-seguro-acredita-que-medidas-da-il-que-visam-a-concentracao-de-empresas-terao-apoio-presidencial-5b642218": {
         "category": null,
-        "timestamp": "2026-09-16T15:16:01.674281+00:00",
+        "timestamp": "2026-09-16T15:31:14.521705+00:00",
         "title": "Consultor de Seguro vê convergências entre Presidente e a IL na economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -792,7 +764,7 @@
     },
     "https://expresso.pt/restaurantes/2026-09-16-restaurantes-soube-me-a-pouco-receber-tanto-nesta-tasca-de-alvalade-64f3ec58": {
         "category": null,
-        "timestamp": "2026-09-16T15:16:00.194758+00:00",
+        "timestamp": "2026-09-16T15:31:13.138394+00:00",
         "title": "Restaurantes: Soube-me a pouco receber tanto nesta 'tasca' de Alvalade",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -808,6 +780,13 @@
         "category": null,
         "timestamp": "2026-09-16T14:01:25.613524+00:00",
         "title": "Houthis dizem ter atacado instalação petrolífera da Aramco na Arábia Saudita",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/cmr/podcasts/teoria-do-caos/detalhe/fake-news-e-desinformacao-riscos-para-o-jornalismo-e-a-democracia": {
+        "category": null,
+        "timestamp": "2026-09-16T15:31:14.696709+00:00",
+        "title": "Fake News e Desinformação - riscos para o jornalismo e a democracia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
