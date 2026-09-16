@@ -673,7 +673,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-15-consultor-de-seguro-acredita-que-medidas-da-il-que-visam-a-concentracao-de-empresas-terao-apoio-presidencial-5b642218": {
         "category": null,
-        "timestamp": "2026-09-16T17:01:21.506708+00:00",
+        "timestamp": "2026-09-16T17:15:53.181334+00:00",
         "title": "Consultor de Seguro vê convergências entre Presidente e a IL na economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -715,7 +715,7 @@
     },
     "https://expresso.pt/restaurantes/2026-09-16-restaurantes-soube-me-a-pouco-receber-tanto-nesta-tasca-de-alvalade-64f3ec58": {
         "category": null,
-        "timestamp": "2026-09-16T17:01:21.150208+00:00",
+        "timestamp": "2026-09-16T17:15:52.038321+00:00",
         "title": "Restaurantes: Soube-me a pouco receber tanto nesta 'tasca' de Alvalade",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -743,8 +743,15 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-16-drone-abatido-pela-nato-na-lituania-era-de-fabrico-russo-e-tinha-como-alvo-a-ucrania-41c1bbed": {
         "category": null,
-        "timestamp": "2026-09-16T17:01:21.942178+00:00",
+        "timestamp": "2026-09-16T17:15:52.860878+00:00",
         "title": "Drone abatido pela NATO na Lituânia era de fabrico russo e tinha como alvo a Ucrânia",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/onu-pede-acesso-urgente-de-maquinaria-pesada-a-gaza-apos-derrocada-de-edificio-que-matou-21-pessoas": {
+        "category": null,
+        "timestamp": "2026-09-16T17:15:51.794983+00:00",
+        "title": "ONU pede acesso urgente de maquinaria pesada a Gaza após derrocada de edifício que matou 21 pessoas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
