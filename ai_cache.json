@@ -1,39 +1,4 @@
 {
-    "https://expresso.pt/semanario/revista-e": {
-        "category": null,
-        "timestamp": "2026-09-11T16:45:58.195998+00:00",
-        "title": "Luís Neves: de polícia incómodo a ministro acossado, na Revista E",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/primeiro": {
-        "category": null,
-        "timestamp": "2026-09-11T16:45:58.258475+00:00",
-        "title": "A primeira página do Expresso",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/ideias": {
-        "category": null,
-        "timestamp": "2026-09-11T16:45:58.327556+00:00",
-        "title": "IDEIAS: O jiadismo depois das Torres Gémeas",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/economia": {
-        "category": null,
-        "timestamp": "2026-09-11T16:45:58.391377+00:00",
-        "title": "A 1ª página do Expresso Economia",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/guerra-ucrania/2026-09-10-ataques-russos-fazem-pelo-menos-sete-mortos-e-mais-de-70-feridos-no-leste-da-ucrania-7b25943b": {
-        "category": null,
-        "timestamp": "2026-09-11T16:45:58.133506+00:00",
-        "title": "Ataques russos fazem pelo menos sete mortos e mais de 70 feridos no leste da Ucrânia",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/expressinho/2026-09-10-onde-estava-no-11-de-setembro--historias-de-um-dia-que-apanhou-o-mundo-de-surpresa-c64ad764": {
         "category": null,
         "timestamp": "2026-09-11T18:01:22.682126+00:00",
@@ -52,13 +17,6 @@
         "category": null,
         "timestamp": "2026-09-12T12:15:59.447867+00:00",
         "title": "Saúde: da proposta à implementação de políticas públicas",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.publico.pt/2026/09/11/edicoes-publico/noticia/musica-classica-viva-recomendase-2187722": {
-        "category": null,
-        "timestamp": "2026-09-11T16:45:56.783297+00:00",
-        "title": "A música clássica está viva, e recomenda-se",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -715,7 +673,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-15-consultor-de-seguro-acredita-que-medidas-da-il-que-visam-a-concentracao-de-empresas-terao-apoio-presidencial-5b642218": {
         "category": null,
-        "timestamp": "2026-09-16T16:45:55.430662+00:00",
+        "timestamp": "2026-09-16T17:01:21.506708+00:00",
         "title": "Consultor de Seguro vê convergências entre Presidente e a IL na economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -757,7 +715,7 @@
     },
     "https://expresso.pt/restaurantes/2026-09-16-restaurantes-soube-me-a-pouco-receber-tanto-nesta-tasca-de-alvalade-64f3ec58": {
         "category": null,
-        "timestamp": "2026-09-16T16:45:54.963991+00:00",
+        "timestamp": "2026-09-16T17:01:21.150208+00:00",
         "title": "Restaurantes: Soube-me a pouco receber tanto nesta 'tasca' de Alvalade",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -778,14 +736,14 @@
     },
     "https://www.cmjornal.pt/cmr/podcasts/teoria-do-caos/detalhe/fake-news-e-desinformacao-riscos-para-o-jornalismo-e-a-democracia": {
         "category": null,
-        "timestamp": "2026-09-16T16:45:54.872659+00:00",
+        "timestamp": "2026-09-16T17:01:20.434442+00:00",
         "title": "Fake News e Desinformação - riscos para o jornalismo e a democracia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-16-drone-abatido-pela-nato-na-lituania-era-de-fabrico-russo-e-tinha-como-alvo-a-ucrania-41c1bbed": {
         "category": null,
-        "timestamp": "2026-09-16T16:45:55.078792+00:00",
+        "timestamp": "2026-09-16T17:01:21.942178+00:00",
         "title": "Drone abatido pela NATO na Lituânia era de fabrico russo e tinha como alvo a Ucrânia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
