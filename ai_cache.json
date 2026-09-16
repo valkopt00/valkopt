@@ -48,27 +48,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-09-10-bce-sobe-juros-com-novo-aumento-ja-no-horizonte-57b6d7b4": {
-        "category": null,
-        "timestamp": "2026-09-11T13:01:27.215260+00:00",
-        "title": "BCE sobe juros, com novo aumento já no horizonte",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/empresas-negocios/2026-09-10-como-a-portuguesa-equator-estendeu-o-seu-negocio-as-ilhas-fiji-467c90ed": {
-        "category": null,
-        "timestamp": "2026-09-11T13:01:27.088281+00:00",
-        "title": "Como a portuguesa Equator estendeu o seu negócio às ilhas Fiji",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/defesa-nacional/2026-09-10-melo-leva-megaemprestimo-da-defesa-ao-parlamento-d067c2e6": {
-        "category": null,
-        "timestamp": "2026-09-11T13:01:27.129480+00:00",
-        "title": "Melo leva megaempréstimo da Defesa ao Parlamento",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/guerra-ucrania/2026-09-10-ataques-russos-fazem-pelo-menos-sete-mortos-e-mais-de-70-feridos-no-leste-da-ucrania-7b25943b": {
         "category": null,
         "timestamp": "2026-09-11T16:45:58.133506+00:00",
@@ -90,24 +69,10 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/custo-vida/2026-09-10-ha-tres-anos-que-os-precos-nao-subiam-tanto-b7011845": {
-        "category": null,
-        "timestamp": "2026-09-11T13:01:27.173609+00:00",
-        "title": "Há três anos que os preços não subiam tanto",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/nato/2026-09-11-aliados-da-nato-evitam-plano-russo-de-sabotagem-de-cabo-submarino-0a793532": {
         "category": null,
         "timestamp": "2026-09-12T09:31:05.269549+00:00",
         "title": "Aliados da NATO evitam plano russo de sabotagem de cabo submarino",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/paises-do-golfo-devem-reunir-se-com-irao-sobre-acordo-de-navegacao": {
-        "category": null,
-        "timestamp": "2026-09-11T13:01:25.624429+00:00",
-        "title": "Países do Golfo devem reunir-se com Irão sobre acordo de navegação",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -750,7 +715,7 @@
     },
     "https://expresso.pt/poder-local/2026-09-15-carlos-moedas-quer-acabar-com-o-sistema-volta-em-lisboa-066f22c1": {
         "category": null,
-        "timestamp": "2026-09-16T13:01:24.251858+00:00",
+        "timestamp": "2026-09-16T13:15:52.815713+00:00",
         "title": "Carlos Moedas quer acabar com o sistema Volta em Lisboa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -764,7 +729,7 @@
     },
     "https://expresso.pt/conselho-europeu/2026-09-15-montenegro-apoia-costa-para-2-mandato-no-conselho-europeu--e-ja-ha-outros-apoios-no-ppe--bf4a0cc2": {
         "category": null,
-        "timestamp": "2026-09-16T13:01:24.122328+00:00",
+        "timestamp": "2026-09-16T13:15:52.586727+00:00",
         "title": "Montenegro apoia Costa para 2º mandato no Conselho Europeu (e já há outros apoios no PPE)",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -778,14 +743,14 @@
     },
     "https://expresso.pt/empresas-negocios/2026-09-15-meo-afasta-fragilidade-da-infraestrutura-no-incidente-desta-semana-anacom-aponta-para-ataque-cibernetico-7eeae19d": {
         "category": null,
-        "timestamp": "2026-09-16T13:01:24.188169+00:00",
+        "timestamp": "2026-09-16T13:15:52.748196+00:00",
         "title": "Meo afasta fragilidade da infraestrutura no incidente desta semana: Anacom aponta para ataque cibern...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/presidencia-republica/2026-09-15-seguro-pede-coragem-para-pacto-na-saude-nao-podemos-fazer-nada-sozinhos-00a56ec1": {
         "category": null,
-        "timestamp": "2026-09-16T13:01:24.059610+00:00",
+        "timestamp": "2026-09-16T13:15:52.507365+00:00",
         "title": "Seguro pede \"coragem\" para Pacto na Saúde: \"Não podemos fazer nada sozinhos\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -799,7 +764,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-15-consultor-de-seguro-acredita-que-medidas-da-il-que-visam-a-concentracao-de-empresas-terao-apoio-presidencial-5b642218": {
         "category": null,
-        "timestamp": "2026-09-16T13:01:23.991957+00:00",
+        "timestamp": "2026-09-16T13:15:52.430244+00:00",
         "title": "Consultor de Seguro vê convergências entre Presidente e a IL na economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -841,7 +806,7 @@
     },
     "https://expresso.pt/restaurantes/2026-09-16-restaurantes-soube-me-a-pouco-receber-tanto-nesta-tasca-de-alvalade-64f3ec58": {
         "category": null,
-        "timestamp": "2026-09-16T13:01:22.459008+00:00",
+        "timestamp": "2026-09-16T13:15:51.868276+00:00",
         "title": "Restaurantes: Soube-me a pouco receber tanto nesta 'tasca' de Alvalade",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -855,7 +820,7 @@
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/houthis-dizem-ter-atacado-instalacao-petrolifera-da-aramco-na-arabia-saudita": {
         "category": null,
-        "timestamp": "2026-09-16T13:01:23.299748+00:00",
+        "timestamp": "2026-09-16T13:15:54.027239+00:00",
         "title": "Houthis dizem ter atacado instalação petrolífera da Aramco na Arábia Saudita",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
