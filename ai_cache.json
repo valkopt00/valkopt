@@ -736,42 +736,42 @@
     },
     "https://expresso.pt/semanario/ideias": {
         "category": null,
-        "timestamp": "2026-09-18T14:01:35.411688+00:00",
+        "timestamp": "2026-09-18T14:15:48.477870+00:00",
         "title": "IDEIAS: O que fazer à beira do abismo?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro": {
         "category": null,
-        "timestamp": "2026-09-18T14:01:35.458853+00:00",
+        "timestamp": "2026-09-18T14:15:48.549435+00:00",
         "title": "A primeira página do Expresso",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/economia": {
         "category": null,
-        "timestamp": "2026-09-18T14:01:35.542256+00:00",
+        "timestamp": "2026-09-18T14:15:48.638265+00:00",
         "title": "A 1ª página do Expresso Economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-09-18T14:01:35.640263+00:00",
+        "timestamp": "2026-09-18T14:15:48.685891+00:00",
         "title": "José Condessa, o novo galã, na Revista E",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/altos--baixos/2026-09-17-saude-mental-farmaceuticas-refrigeracao-e-distribuicao-nos-altos-e-baixos-da-economia-ea004c9b": {
         "category": null,
-        "timestamp": "2026-09-18T14:01:35.964493+00:00",
+        "timestamp": "2026-09-18T14:15:51.595228+00:00",
         "title": "Saúde mental, farmacêuticas, refrigeração e distribuição nos Altos e Baixos da Economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-09-17-gol-lanca-voo-entre-lisboa-e-rio-sem-favoritos-na-privatizacao-diz-se-do-lado-da-tap-d7cf2029": {
         "category": null,
-        "timestamp": "2026-09-18T14:01:36.013183+00:00",
+        "timestamp": "2026-09-18T14:15:51.683318+00:00",
         "title": "Gol lança voo entre Lisboa e Rio: sem favoritos na privatização diz-se do lado da TAP",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -792,14 +792,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-17-il-esconde-liberal-e-vira-se-para-a-classe-media-com-foco-nas-reformas-b69e5102": {
         "category": null,
-        "timestamp": "2026-09-18T14:01:36.104560+00:00",
+        "timestamp": "2026-09-18T14:15:51.836310+00:00",
         "title": "IL ‘esconde’ liberal e vira-se para a classe média com foco nas reformas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/defesa-nacional/2026-09-17-acordo-para-megaemprestimo-assinado-este-mes-sem-ir-ao-parlamento-919834fa": {
         "category": null,
-        "timestamp": "2026-09-18T14:01:36.056323+00:00",
+        "timestamp": "2026-09-18T14:15:51.771507+00:00",
         "title": "Acordo para megaempréstimo assinado este mês, sem ir ao Parlamento",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -876,7 +876,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-09-18-alegado-acordo-secreto-entre-dona-da-louis-vuitton-e-gestor-de-fortuna-de-herdeiro-da-hermes-sob-investigacao-eac20b88": {
         "category": null,
-        "timestamp": "2026-09-18T14:01:35.358571+00:00",
+        "timestamp": "2026-09-18T14:15:48.396028+00:00",
         "title": "Alegado acordo secreto entre dona da Louis Vuitton e gestor de fortuna de herdeiro da Hermès sob inv...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -890,15 +890,22 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-09-18-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-24/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-24": {
         "category": null,
-        "timestamp": "2026-09-18T14:01:36.988609+00:00",
+        "timestamp": "2026-09-18T14:15:51.975169+00:00",
         "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-09-18-juros-na-habitacao-voltam-a-subir-e-ja-representam-50-da-prestacao-mensal-0b14451c": {
         "category": null,
-        "timestamp": "2026-09-18T14:01:35.315869+00:00",
+        "timestamp": "2026-09-18T14:15:48.299265+00:00",
         "title": "Juros na habitação voltam a subir e já representam 50% da prestação mensal",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/guerra-ucrania/2026-09-18-zelensky-lanca-c8-para-reforcar-cooperacao-entre-paises-dos-carpatos-a2d5ca8d": {
+        "category": null,
+        "timestamp": "2026-09-18T14:15:48.840813+00:00",
+        "title": "Zelensky lança C8 para reforçar cooperação entre países dos Cárpatos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
