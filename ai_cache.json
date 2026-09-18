@@ -62,13 +62,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/domingo/detalhe/josef-fritzl-o-monstro-de-amstetten": {
-        "category": null,
-        "timestamp": "2026-09-13T08:15:53.106150+00:00",
-        "title": "Josef Fritzl: \"O Monstro de Amstetten\"",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/guerra-ucrania/2026-09-13-eua-dizem-que-putin-e-zelensky-estao-muito-empenhados-em-encontrar-uma-solucao-para-a-paz-mas-kremlin-rejeita-reuniao-na-cimeira-do-g20-2cbaa7cf": {
         "category": null,
         "timestamp": "2026-09-14T12:16:01.784862+00:00",
@@ -757,70 +750,70 @@
     },
     "https://expresso.pt/semanario/ideias": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:53.528453+00:00",
+        "timestamp": "2026-09-18T08:31:14.598205+00:00",
         "title": "IDEIAS: O que fazer à beira do abismo?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:53.585767+00:00",
+        "timestamp": "2026-09-18T08:31:14.655119+00:00",
         "title": "A primeira página do Expresso",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/economia": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:53.639725+00:00",
+        "timestamp": "2026-09-18T08:31:14.691940+00:00",
         "title": "A 1ª página do Expresso Economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:53.696741+00:00",
+        "timestamp": "2026-09-18T08:31:14.728028+00:00",
         "title": "José Condessa, o novo galã, na Revista E",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/altos--baixos/2026-09-17-saude-mental-farmaceuticas-refrigeracao-e-distribuicao-nos-altos-e-baixos-da-economia-ea004c9b": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:55.391853+00:00",
+        "timestamp": "2026-09-18T08:31:15.277091+00:00",
         "title": "Saúde mental, farmacêuticas, refrigeração e distribuição nos Altos e Baixos da Economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-09-17-gol-lanca-voo-entre-lisboa-e-rio-sem-favoritos-na-privatizacao-diz-se-do-lado-da-tap-d7cf2029": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:55.436577+00:00",
+        "timestamp": "2026-09-18T08:31:15.312481+00:00",
         "title": "Gol lança voo entre Lisboa e Rio: sem favoritos na privatização diz-se do lado da TAP",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/exposicoes/2026-09-17-exposicoes-a-poetica-do-movimento-e-da-errancia-de-rui-calcada-bastos-4631a1f0": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:55.521540+00:00",
+        "timestamp": "2026-09-18T08:31:15.351056+00:00",
         "title": "Exposições: A poética do movimento e da errância de Rui Calçada Bastos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/altos--baixos/2026-09-17-o-benfica-a-europa-os-taxis-e-os-combustiveis-fosseis-7eef10bd": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:55.891572+00:00",
+        "timestamp": "2026-09-18T08:31:16.853311+00:00",
         "title": "O Benfica, a Europa, os táxis e os combustíveis fósseis",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-17-il-esconde-liberal-e-vira-se-para-a-classe-media-com-foco-nas-reformas-b69e5102": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:56.200380+00:00",
+        "timestamp": "2026-09-18T08:31:16.912390+00:00",
         "title": "IL ‘esconde’ liberal e vira-se para a classe média com foco nas reformas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/defesa-nacional/2026-09-17-acordo-para-megaemprestimo-assinado-este-mes-sem-ir-ao-parlamento-919834fa": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:56.259089+00:00",
+        "timestamp": "2026-09-18T08:31:17.051952+00:00",
         "title": "Acordo para megaempréstimo assinado este mês, sem ir ao Parlamento",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -834,42 +827,42 @@
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-09-17-medicos-esperam-ha-tres-meses-para-receber-incentivos-prometidos-pelo-governo-e6db4a72": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:56.309130+00:00",
+        "timestamp": "2026-09-18T08:31:17.194728+00:00",
         "title": "Médicos esperam há três meses para receber incentivos prometidos pelo Governo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-09-17-alerta.-conta-poupanca-de-agua-esta-a-esgotar-se-906cf9cb": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:56.367255+00:00",
+        "timestamp": "2026-09-18T08:31:17.271084+00:00",
         "title": "Alerta. ‘Conta-poupança’ de água está a esgotar-se",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-09-17-eurostat.-estrangeiros-a-viver-na-pobreza-sao-27-694b7756": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:56.427625+00:00",
+        "timestamp": "2026-09-18T08:31:17.310111+00:00",
         "title": "Eurostat. Estrangeiros a viver na pobreza são 27%",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2026-09-17-fim-do-mundo-fim-do-volta-e-outros-fins-24419d7f": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:56.487879+00:00",
+        "timestamp": "2026-09-18T08:31:17.367789+00:00",
         "title": "Fim do mundo, fim do Volta e outros fins",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/presidencia-republica/2026-09-17-pacto-da-saude-seguro-acelera-missao-de-adalberto-campos-fernandes-38d93e70": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:57.215196+00:00",
+        "timestamp": "2026-09-18T08:31:18.501698+00:00",
         "title": "Pacto da Saúde: Seguro acelera missão de Adalberto Campos Fernandes",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-09-17-casticais-da-baixela-germain-a-venda-em-paris-e86dbef2": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:57.272832+00:00",
+        "timestamp": "2026-09-18T08:31:18.559589+00:00",
         "title": "Castiçais da baixela Germain à venda em Paris",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -897,14 +890,14 @@
     },
     "https://expresso.pt/empresas-negocios/2026-09-18-alegado-acordo-secreto-entre-dona-da-louis-vuitton-e-gestor-de-fortuna-de-herdeiro-da-hermes-sob-investigacao-eac20b88": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:55.698653+00:00",
+        "timestamp": "2026-09-18T08:31:16.721724+00:00",
         "title": "Alegado acordo secreto entre dona da Louis Vuitton e gestor de fortuna de herdeiro da Hermès sob inv...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/ia-uma-corrida-dificil-de-travar_1766239": {
         "category": null,
-        "timestamp": "2026-09-18T08:15:53.803926+00:00",
+        "timestamp": "2026-09-18T08:31:15.222103+00:00",
         "title": "IA: uma corrida difícil de travar",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
