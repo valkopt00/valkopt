@@ -687,7 +687,7 @@
     },
     "https://expresso.pt/defesa-nacional/2026-09-19-chefe-do-estado-maior-das-forcas-armadas-afasta-polemicas-sobre-megaemprestimo-da-defesa-e-compra-de-fragatas-e4604e1a": {
         "category": null,
-        "timestamp": "2026-09-20T14:01:20.399768+00:00",
+        "timestamp": "2026-09-20T14:15:59.003984+00:00",
         "title": "Chefe do Estado Maior das Forças Armadas afasta polémicas sobre megaempréstimo da Defesa e compra de...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -750,15 +750,22 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-20-videos-estranhos-voltam-a-aumentar-o-alerta-em-narva-cidade-na-estonia-de-onde-e-possivel-ler-mensagens-de-propaganda-russa-5c82d3ac": {
         "category": null,
-        "timestamp": "2026-09-20T14:01:20.335452+00:00",
+        "timestamp": "2026-09-20T14:15:58.934817+00:00",
         "title": "Vídeos estranhos voltam a aumentar o alerta em Narva, cidade na Estónia de onde é possível ler mensa...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/domingo/detalhe/marrocos-esta-a-levar-a-cabo-uma-limpeza-etnica-silenciosa": {
         "category": null,
-        "timestamp": "2026-09-20T14:01:22.274312+00:00",
+        "timestamp": "2026-09-20T14:15:59.606596+00:00",
         "title": "\"Marrocos está a levar a cabo uma limpeza étnica silenciosa\", diz ativista saarauí",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/economia-do-irao-contrai-10-apos-o-inicio-da-guerra": {
+        "category": null,
+        "timestamp": "2026-09-20T14:15:59.536606+00:00",
+        "title": "Economia do Irão contrai 10% após o início da guerra",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
