@@ -6,13 +6,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/empresas-negocios/2026-09-14-nam-abre-fabrica-em-odivelas-e-triplica-producao-de-cogumelos-feitos-a-partir-de-borras-de-cafe-f521e13a": {
-        "category": null,
-        "timestamp": "2026-09-15T09:01:26.252594+00:00",
-        "title": "Nãm abre fábrica em Odivelas e triplica produção de cogumelos feitos a partir de borras de café",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/partidos-politicos/2026-09-14-carneiro-admite-comissao-de-inquerito-sobre-acumular-de-problemas-na-educacao-6674d720": {
         "category": null,
         "timestamp": "2026-09-15T10:31:08.694198+00:00",
@@ -708,14 +701,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-18-ventura-insiste-em-inquerito-a-luis-neves-e-acredita-que-a-terceira-sera-de-vez-e8ddf64f": {
         "category": null,
-        "timestamp": "2026-09-20T09:01:15.587993+00:00",
+        "timestamp": "2026-09-20T09:15:54.540787+00:00",
         "title": "Ventura insiste em inquérito a Luís Neves e acredita que à terceira será de vez",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-18-ataque-de-drone-atinge-central-nuclear-de-kursk-e-aiea-apela-a-contencao-militar-2565efdd": {
         "category": null,
-        "timestamp": "2026-09-20T09:01:15.540590+00:00",
+        "timestamp": "2026-09-20T09:15:54.479988+00:00",
         "title": "Ataque de drone atinge central nuclear de Kursk e AIEA apela à contenção militar",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -736,7 +729,7 @@
     },
     "https://expresso.pt/media-comunicacao/2026-09-18-sindicato-dos-jornalistas-desafia-redacoes-a-boicotar-declaracoes-de-montenegro-sem-perguntas-ee34b25b": {
         "category": null,
-        "timestamp": "2026-09-20T09:01:15.495002+00:00",
+        "timestamp": "2026-09-20T09:15:54.422923+00:00",
         "title": "Sindicato dos Jornalistas desafia redações a boicotar declarações de Montenegro sem perguntas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -750,7 +743,7 @@
     },
     "https://expresso.pt/presidencia-republica/2026-09-18-ao-lado-de-alegre-seguro-apela-a-leitura-como-antidoto-numa-sociedade-que-muitos-teimam-em-deslacar-afa5eed2": {
         "category": null,
-        "timestamp": "2026-09-20T09:01:15.445802+00:00",
+        "timestamp": "2026-09-20T09:15:54.362758+00:00",
         "title": "Ao lado de Alegre, Seguro apela à leitura como \"antídoto\" numa \"sociedade que muitos teimam em desla...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -764,7 +757,7 @@
     },
     "https://expresso.pt/defesa-nacional/2026-09-19-chefe-do-estado-maior-das-forcas-armadas-afasta-polemicas-sobre-megaemprestimo-da-defesa-e-compra-de-fragatas-e4604e1a": {
         "category": null,
-        "timestamp": "2026-09-20T09:01:15.398563+00:00",
+        "timestamp": "2026-09-20T09:15:54.296805+00:00",
         "title": "Chefe do Estado Maior das Forças Armadas afasta polémicas sobre megaempréstimo da Defesa e compra de...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -813,8 +806,15 @@
     },
     "https://www.cmjornal.pt/mais-cm/especiais/sismos-na-venezuela/detalhe/pirmeiros-contentores-com-ajuda-humanitaria-recolhida-em-portugal-chegam-a-la-guaira": {
         "category": null,
-        "timestamp": "2026-09-20T09:01:17.766245+00:00",
+        "timestamp": "2026-09-20T09:15:56.967903+00:00",
         "title": "Pirmeiros contentores com ajuda humanitária recolhida em Portugal chegam a La Guaira",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/cmr/programas/horoscopo-tia-maya/detalhe/20260918-185334-de-carneiro-a-virgem-maya-revela-horoscopos-desta-semana": {
+        "category": null,
+        "timestamp": "2026-09-20T09:15:56.601821+00:00",
+        "title": "De Carneiro a Virgem: Maya revela horóscopos desta semana",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
