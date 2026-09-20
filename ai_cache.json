@@ -1,18 +1,4 @@
 {
-    "https://expresso.pt/russia/2026-09-14-mesmo-com-a-nova-ponte-russia-coreia-do-norte-das-duas-coreias-a-do-sul-continua-a-ser-o-parceiro-de-negocios-mais-importante-152f7557": {
-        "category": null,
-        "timestamp": "2026-09-15T16:01:25.253053+00:00",
-        "title": "Mesmo com a nova ponte Rússia-Coreia do Norte, “das duas Coreias, a do Sul continua a ser o parceiro...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/partidos-politicos/2026-09-14-muitissimo-satisfeita-com-aviso-de-passos-mariana-leitao-insiste-que-e-urgente-reformar-o-pais-8190c60f": {
-        "category": null,
-        "timestamp": "2026-09-15T16:01:25.157919+00:00",
-        "title": "\"Muitíssimo satisfeita\" com aviso de Passos, Mariana Leitão insiste que é \"urgente\" reformar o país",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/administracao-publica/2026-09-15-fesap-defende-que-mesmo-que-o-salario-minimo-no-estado-subisse-para-1030-em-2027-seria-curto-64e3788b": {
         "category": null,
         "timestamp": "2026-09-15T19:15:55.860593+00:00",
@@ -687,7 +673,7 @@
     },
     "https://expresso.pt/defesa-nacional/2026-09-19-chefe-do-estado-maior-das-forcas-armadas-afasta-polemicas-sobre-megaemprestimo-da-defesa-e-compra-de-fragatas-e4604e1a": {
         "category": null,
-        "timestamp": "2026-09-20T16:01:18.831135+00:00",
+        "timestamp": "2026-09-20T16:15:52.783471+00:00",
         "title": "Chefe do Estado Maior das Forças Armadas afasta polémicas sobre megaempréstimo da Defesa e compra de...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -750,7 +736,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-20-videos-estranhos-voltam-a-aumentar-o-alerta-em-narva-cidade-na-estonia-de-onde-e-possivel-ler-mensagens-de-propaganda-russa-5c82d3ac": {
         "category": null,
-        "timestamp": "2026-09-20T16:01:18.757527+00:00",
+        "timestamp": "2026-09-20T16:15:52.684979+00:00",
         "title": "Vídeos estranhos voltam a aumentar o alerta em Narva, cidade na Estónia de onde é possível ler mensa...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -766,6 +752,34 @@
         "category": null,
         "timestamp": "2026-09-20T14:31:11.694103+00:00",
         "title": "Economia do Irão contrai 10% após o início da guerra",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/domingo/detalhe/marcelo-caetano-o-ultimo-chefe-do-governo-do-estado-novo": {
+        "category": null,
+        "timestamp": "2026-09-20T16:15:54.376863+00:00",
+        "title": "Marcelo Caetano: O último chefe do Governo do Estado Novo",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/domingo/detalhe/we-the-people": {
+        "category": null,
+        "timestamp": "2026-09-20T16:15:54.511317+00:00",
+        "title": "'We the People'",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/domingo/detalhe/a-inveja-impede-portugal-de-progredir-diz-jose-eduardo-franco": {
+        "category": null,
+        "timestamp": "2026-09-20T16:15:54.587760+00:00",
+        "title": "\"A inveja impede Portugal de progredir\", diz José Eduardo Franco",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/domingo/detalhe/a-estreia-do-ecra-dobravel-e-a-integracao-de-ia-definem-a-nova-geracao-apple": {
+        "category": null,
+        "timestamp": "2026-09-20T16:15:54.631500+00:00",
+        "title": "A estreia do ecrã dobrável e a integração de IA definem a nova geração Apple",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
