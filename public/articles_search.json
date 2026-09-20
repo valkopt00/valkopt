@@ -1,9 +1,79 @@
 {
     "Últimas": [
         {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/detalhe/a-cronica-do-fc-porto-benfica-a-forca-do-campeao-em-duelo-de-gigantes",
+            "normalized_title": "a cronica do fc porto benfica a forca do campeao em duelo de gigantes",
+            "normalized_description": "dragoes agiram como um cirurgiao qualificado resistiram e foram precisos na hora de dar os golpes"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/bilhete-postal/detalhe/sabemos-pouco-do-negocio-da-ren-a-nao-ser-quem-paga-facil-somos-nos",
+            "normalized_title": "sabemos pouco do negocio da ren a nao ser quem paga facil somos nos",
+            "normalized_description": "por carlos rodrigues"
+        },
+        {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/nacional/detalhe/dois-jogos-treino-na-agenda",
             "normalized_title": "dois jogos treino na agenda",
             "normalized_description": "alexandre santos aproveita paragem para implementar as suas ideias"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/dialogos-com-incerteza/detalhe/o-ceu-ou-o-inferno",
+            "normalized_title": "o ceu ou o inferno",
+            "normalized_description": "o futuro nao esta escrito pelos algoritmos euma escolha humana"
+        },
+        {
+            "link": "https://www.cmjornal.pt/cultura/detalhe/teatro-lisboa-ve-a-ilha-do-tesouro",
+            "normalized_title": "teatro lisboa ve a ilha do tesouro",
+            "normalized_description": "producao da companhia de teatro gato escaldado esta em cena na academia de santo amaro ate dia 27 de setembro"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/mal-por-mal/detalhe/inaceutavel",
+            "normalized_title": "inaceutavel",
+            "normalized_description": "para resolver o caos na cidade uns serao deportados outros entrarao no espaco schengen"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/blog/detalhe/20260920-152111-blog",
+            "normalized_title": "blog",
+            "normalized_description": "aqui nao houve protestos do feminismo politico porque enfim"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/tire-a-senha/detalhe/o-bolso-amigo",
+            "normalized_title": "o bolso amigo",
+            "normalized_description": "nao podemos aceitar que a amizade sirva de lavandaria"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/peso-e-medida/detalhe/um-reforco-com-prazo-de-validade",
+            "normalized_title": "um reforco com prazo de validade",
+            "normalized_description": "fiscalizacao esta dependente de um corpo envelhecido e sobrecarregado"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/a-abrir/detalhe/o-elogio-da-prudencia",
+            "normalized_title": "o elogio da prudencia",
+            "normalized_description": "ninguem sabe se estamos a meio da crise no fim ou no principio"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/nosso-mundo/detalhe/xi-visita-trump-em-treguas",
+            "normalized_title": "xi visita trump em treguas",
+            "normalized_description": "o objetivo e prolongar as treguas e manter canais de comunicacao"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/rui-pedro-vieira/detalhe/a-educacao-que-da-erros-leva-ma-nota",
+            "normalized_title": "a educacao que da erros leva ma nota",
+            "normalized_description": "inauguracao de escola foi cancelada porque escola meteu agua literalmente"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/justica-com-direitos/detalhe/em-casa-quem-ganha-menos",
+            "normalized_title": "em casa quem ganha menos",
+            "normalized_description": "quem larga o emprego quando a escola fecha a meio do dia"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/correio-direto/detalhe/sonhos-e-ilusoes",
+            "normalized_title": "sonhos e ilusoes",
+            "normalized_description": "os adeptos da bola nao sao tao tolerantes como os eleitores"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/00h-ataque-de-retaliacao-da-russia-a-ucrania-esta-noite_a1_1766707",
+            "normalized_title": "00h ataque de retaliacao da russia a ucrania esta noite",
+            "normalized_description": ""
         },
         {
             "link": "https://www.record.pt/futebol/futebol-nacional/taca-de-portugal/detalhe/a-cronica-do-cinfaes-leixoes-0-4-averso-a-surpresa",
@@ -304,6 +374,11 @@
             "link": "https://www.publico.pt/2026/09/20/desporto/noticia/francesco-farioli-hoje-nao-estranhas-2188735",
             "normalized_title": "francesco farioli hoje nao houve coisas estranhas",
             "normalized_description": "fc porto venceu o benfica no classico deste domingo por 3 1 tecnico italiano enaltece espirito do grupo lider isolado do campeonato"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/mercados/detalhe/presidente-da-apfipp-alteracoes-a-reformas-tem-de-ter-apoio-politico-muito-grande",
+            "normalized_title": "presidente da apfipp alteraa aµes a reformas taªm de ter apoio pola tico muito grande",
+            "normalized_description": "apesar de considerar que o cena rio atual na o a assustador joa o pratas alerta que a situaa a o da segurana a social vai piorar ainda assim o"
         },
         {
             "link": "https://www.record.pt/multimedia/fotogalerias/detalhe/troca-de-palavras-entre-bednarek-e-marco-silva-e-palhinha-e-borja-picados-tensao-na-reta-final-do-fc-porto-benfica",
@@ -3134,56 +3209,6 @@
             "link": "https://www.zerozero.pt/noticias/internacional-ingles-atropelado-por-carrinho-de-manutencao/1209989",
             "normalized_title": "internacional ingles atropelado por carrinho de manutencao",
             "normalized_description": "ex tottenham e internacional ingles andros townsend viveu mais um dia insolito de futebol na tailandia antes do duelo entre pattani e prachuap a"
-        },
-        {
-            "link": "https://expresso.pt/blitz/2026-09-20-retirei-o-palco-b-porque-tive-medo-do-que-poderia-acontecer-se-ficasse-ali-no-meio-as-mudancas-que-ed-sheeran-teve-de-fazer-na-digressao-6ca24d04",
-            "normalized_title": "retirei o palco b porque tive medo do que poderia acontecer se ficasse ali no meio as mudancas que ed sheeran teve de fazer na digressao",
-            "normalized_description": "depois do abandono da banda que o acompanhava ed sheeran teve de recrutar novos musicos por razoes de seguranca o palco secundario do espectaculo"
-        },
-        {
-            "link": "https://www.cmjornal.pt/mundo/detalhe/vitoria-de-lula-ira-aproximar-brasil-da-china-e-triunfo-de-flavio-direcionar-pais-para-os-eua",
-            "normalized_title": "vitoria de lula ira aproximar brasil da china e triunfo de flavio direcionar pais para os eua",
-            "normalized_description": "eleicoes presidenciais brasileiras que se realizam em outubro vao colocar frente a frente dois projetos de politica externa"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/11h-ucrania-ataca-moscovo_a1_1766600",
-            "normalized_title": "11h ucrania ataca moscovo",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/fc-porto-inicia-a-sua-caminhada-no-futsal-vai-ser-a-segunda-maior-modalidade-do-clube/1210093",
-            "normalized_title": "fc porto inicia a sua caminhada no futsal vai ser a segunda maior modalidade do clube",
-            "normalized_description": "19 de setembro de 2026 e um dia que vai estar marcado na historia do fc porto a equipa de futsal realizou o primeiro jogo oficial que terminou com"
-        },
-        {
-            "link": "https://expresso.pt/sociedade/2026-09-20-tempos-de-espera-nas-urgencias-voltam-a-subir-quase-nove-horas-no-hospital-amadora-sintra-20dda9df",
-            "normalized_title": "tempos de espera nas urgencias voltam a subir quase nove horas no hospital amadora sintra",
-            "normalized_description": "nos concelhos servidos pelo amadora sintra ha cerca de 240 mil utentes sem medico de familia tempo de espera no hospital de portimao estava esta"
-        },
-        {
-            "link": "https://www.record.pt/internacional/detalhe/vanderson-substitui-wesley-na-convocatoria-do-brasil",
-            "normalized_title": "vanderson substitui wesley na convocatoria do brasil",
-            "normalized_description": "carlo ancelotti trocou de lateral direito para os particulares contra a australia e a india"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/russos-fazem-fila-em-belgrado-para-votar-nas-eleicoes-parlamentares-da-russia",
-            "normalized_title": "russos fazem fila em belgrado para votar nas eleicoes parlamentares da russia",
-            "normalized_description": "dezenas de cidadaos russos residentes em belgrado na servia votaram este domingo nas eleicoes parlamentares da russia a saida das urnas varios"
-        },
-        {
-            "link": "https://www.publico.pt/2026/09/20/mundo/noticia/assassinam-tiro-jornalista-candidata-governadora-peru-2188695",
-            "normalized_title": "assassinada a tiro uma jornalista e candidata a governadora no peru",
-            "normalized_description": "susy aponte polo conhecida por china polo foi morta durante um acto de campanha na cidade de caraz policia prendeu o presumivel homicida a"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/videos/detalhe/naval-chama-paulo-bento-e-mostra-lance-de-golo-polemico-do-felgueiras-com-a-mao-andebol",
-            "normalized_title": "naval chama paulo bento e mostra lance de golo polemico do felgueiras com a mao andebol",
-            "normalized_description": "equipa da figueira da foz protesta primeiro golo da equipa da 2 ª liga no jogo da taca de portugal"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3054396/pelo-menos-20-mortos-em-ataque-jihadista-em-ilha-do-lago-chade#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "pelo menos 20 mortos em ataque jihadista em ilha do lago chade",
-            "normalized_description": ""
         }
     ],
     "Nacional": [
@@ -6205,11 +6230,6 @@
         {
             "link": "https://www.noticiasaominuto.com/pais/3052069/incendios-fogos-em-alvito-da-beira-portel-e-mirandela-mobilizam-mais-de-1100-operacionais#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "fogos em alvito da beira portel e mirandela mobilizam 1 100 operacionais",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3052062/drones-divirta-se-sem-colocar-em-causa-a-vida-de-ninguem-alerta-gnr#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "drones divirta se sem colocar em causa a vida de ninguem alerta gnr",
             "normalized_description": ""
         }
     ],
@@ -10828,19 +10848,14 @@
             "link": "https://www.noticiasaominuto.com/mundo/3052063/merz-cancela-ida-a-nova-iorque-para-participar-na-assembleia-geral-da-onu#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "merz cancela ida a nova iorque para participar na assembleia geral da onu",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3052061/trump-atribui-atentado-sofridoem-2024-aconspiracao-dos-democratas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "trump atribui atentado sofrido em 2024 a conspiracao dos democratas",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3052060/governo-frances-cria-verba-orcamental-para-combate-a-violencia-sexista-e-sexual#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "franca cria verba orcamental para combate a violencia sexista e sexual",
-            "normalized_description": ""
         }
     ],
     "Desporto": [
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/detalhe/a-cronica-do-fc-porto-benfica-a-forca-do-campeao-em-duelo-de-gigantes",
+            "normalized_title": "a cronica do fc porto benfica a forca do campeao em duelo de gigantes",
+            "normalized_description": "dragoes agiram como um cirurgiao qualificado resistiram e foram precisos na hora de dar os golpes"
+        },
         {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/nacional/detalhe/dois-jogos-treino-na-agenda",
             "normalized_title": "dois jogos treino na agenda",
@@ -20150,16 +20165,6 @@
             "link": "https://www.record.pt/multimedia/videos/detalhe/nuno-dias-recusa-comodismo-quem-se-habitua-a-ganhar-ja-nao-quer-perder",
             "normalized_title": "nuno dias recusa comodismo quem se habitua a ganhar ja nao quer perder",
             "normalized_description": "declaracoes do treinador do sporting no media day da liga placard"
-        },
-        {
-            "link": "https://www.cmjornal.pt/desporto/futebol/detalhe/pedro-goncalves-estreia-se-a-marcar-pela-fiorentina-na-taca-de-italia",
-            "normalized_title": "pedro goncalves estreia se a marcar pela fiorentina na taca de italia",
-            "normalized_description": "clube que o portugues representa venceu o pisa por 3 0 com golos de mateo pellegrino 40 wilfried gnonto 71 e do ex sporting 90 2"
-        },
-        {
-            "link": "https://www.record.pt/modalidades/surf/detalhe/trio-portugues-avanca-no-qs6000-de-saquarema",
-            "normalized_title": "trio portugues avanca no qs6000 de saquarema",
-            "normalized_description": "armada lusa sofreu duas baixas no segundo dia da prova brasileira"
         }
     ],
     "Economia": [
@@ -20192,6 +20197,11 @@
             "link": "https://www.jornaldenegocios.pt/opiniao/editorial/celso-filipe/detalhe/um-equivoco-esclarecedor",
             "normalized_title": "um equivoco esclarecedor",
             "normalized_description": "o turismo de saude e praticado por pessoas com poder de compra e nao por aquelas que a presidente do conselho de administracao do amadora sintra"
+        },
+        {
+            "link": "https://www.jornaldenegocios.pt/mercados/detalhe/presidente-da-apfipp-alteracoes-a-reformas-tem-de-ter-apoio-politico-muito-grande",
+            "normalized_title": "presidente da apfipp alteraa aµes a reformas taªm de ter apoio pola tico muito grande",
+            "normalized_description": "apesar de considerar que o cena rio atual na o a assustador joa o pratas alerta que a situaa a o da segurana a social vai piorar ainda assim o"
         },
         {
             "link": "https://www.jornaldenegocios.pt/opiniao/detalhe/a-transicao-energetica-faz-se-em-comunidade",
@@ -24667,19 +24677,14 @@
             "link": "https://www.jornaldenegocios.pt/empresas/tecnologias/detalhe/openai-pondera-avancar-para-ronda-de-financiamento-com-avaliacao-de-1-2-bilioes-de-dolares",
             "normalized_title": "openai pondera avancar para ronda de financiamento com avaliacao de 1 2 bilioes de dolares",
             "normalized_description": "o financial times avanca que a dona do chatgpt manteve conversacoes com investidores para uma nova ronda de financiamento que avalia a empresa em"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/economia/detalhe/cavaco-considera-que-ha-ruido-excessivo-contrario-aos-interesses-do-pais",
-            "normalized_title": "cavaco considera que ha ruido excessivo contrario aos interesses do pais",
-            "normalized_description": "nao quero acrescentar nada a todo o ruido politico que anda por ai que eu penso que nao serve os interesses do pais declarou o antigo chefe de"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/pwc-assessora-bison-bank-na-fusao-com-bison-digital-assets/",
-            "normalized_title": "pwc assessora bison bank na fusao com bison digital assets",
-            "normalized_description": "o apoio foi prestado pelas equipas de risk regulation ifrs e tax e abrangeu o enquadramento regulatorio contabilistico e fiscal associado a"
         }
     ],
     "Cultura": [
+        {
+            "link": "https://www.cmjornal.pt/cultura/detalhe/teatro-lisboa-ve-a-ilha-do-tesouro",
+            "normalized_title": "teatro lisboa ve a ilha do tesouro",
+            "normalized_description": "producao da companhia de teatro gato escaldado esta em cena na academia de santo amaro ate dia 27 de setembro"
+        },
         {
             "link": "https://www.rtp.pt/noticias/cultura/festa-do-livro-presidente-da-republica-ouviu-queixas-sobre-educacao_v1766693",
             "normalized_title": "festa do livro presidente da republica ouviu queixas sobre educacao",
@@ -29555,11 +29560,6 @@
             "link": "https://www.cmjornal.pt/sociedade/detalhe/trabalhos-preparatorios-da-linha-de-alta-velocidade-porto-oia-arrancam-ainda-no-mes-de-setembro",
             "normalized_title": "trabalhos preparatorios da linha de alta velocidade porto oia arrancam ainda no mes de setembro",
             "normalized_description": "trabalhos preparatorios arrancam com montagem do estaleiro das pontes do rio largo e do rio vouga seguindo se em outubro as primeiras escavacoes"
-        },
-        {
-            "link": "https://expresso.pt/seguranca/2026-09-15-detidos-tres-suspeitos-do-tiroteio-que-atingiu-turista-na-baixa-de-lisboa-6b2f6d84",
-            "normalized_title": "detidos tres suspeitos do tiroteio que atingiu turista na baixa de lisboa",
-            "normalized_description": "mais de um mes apos o desacato na baixa de lisboa que deixou uma turista sueca ferida por uma bala perdida a policia judiciaria deteve tres"
         }
     ],
     "Política": [
@@ -31182,14 +31182,14 @@
             "link": "https://expresso.pt/parlamento/2026-09-15-il-quer-licenca-parental-de-oito-meses-paga-a-100-e-preciso-mais-seguranca-para-ter-filhos-23088f64",
             "normalized_title": "e preciso mais seguranca para ter filhos liberais querem licenca parental ate aos oito meses paga a 100",
             "normalized_description": "proposta dos liberais preve mais tempo para os pais partido quer o alargamento ate aos oito meses da licenca paga a 100 se for partilhada entre"
-        },
-        {
-            "link": "https://www.publico.pt/2026/09/16/politica/noticia/aumento-combustiveis-montenegro-nao-vai-nada-2188195",
-            "normalized_title": "aumento dos combustiveis montenegro nao vai fazer nada",
-            "normalized_description": "o governo esta a demorar a reagir a uma escala de precos nos combustiveis que nao tem fim a vista"
         }
     ],
     "Multimédia": [
+        {
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/00h-ataque-de-retaliacao-da-russia-a-ucrania-esta-noite_a1_1766707",
+            "normalized_title": "00h ataque de retaliacao da russia a ucrania esta noite",
+            "normalized_description": ""
+        },
         {
             "link": "https://expresso.pt/podcasts/guerra-fria/2026-09-20-trump-encontra-se-com-zelensky-em-nova-iorque-nato-publica-plano-secreto-de-guerra-e-macron-reune-le-pen-num-bunker-171ea142",
             "normalized_title": "trump encontra se com zelensky em nova iorque nato publica plano secreto de guerra e macron reune le pen num bunker",
@@ -32959,19 +32959,64 @@
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/0h-so-falta-o-voto-a-favor-do-ps-para-realizacao-de-comissao-parlamentar-de-inquerito-a-correcao-dos-exames-nacionais_a1_1765699",
             "normalized_title": "0h so falta o voto a favor do ps para realizacao de comissao parlamentar de inquerito a correcao dos exames nacionais",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/23h-perto-de-mil-alunos-que-nao-tinham-escola-atribuida-foram-colocados-entre-ontem-e-hoje_a1_1765693",
-            "normalized_title": "23h perto de mil alunos que nao tinham escola atribuida foram colocados entre ontem e hoje",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/22h-ministerio-da-educacao-divulga-o-numero-de-alunos-colocados-que-nao-tinham-escola-atribuida-no-arranque-do-ano-letivo_a1_1765692",
-            "normalized_title": "22h ministerio da educacao divulga o numero de alunos colocados que nao tinham escola atribuida no arranque do ano letivo",
-            "normalized_description": ""
         }
     ],
     "Opinião": [
+        {
+            "link": "https://www.cmjornal.pt/opiniao/bilhete-postal/detalhe/sabemos-pouco-do-negocio-da-ren-a-nao-ser-quem-paga-facil-somos-nos",
+            "normalized_title": "sabemos pouco do negocio da ren a nao ser quem paga facil somos nos",
+            "normalized_description": "por carlos rodrigues"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/dialogos-com-incerteza/detalhe/o-ceu-ou-o-inferno",
+            "normalized_title": "o ceu ou o inferno",
+            "normalized_description": "o futuro nao esta escrito pelos algoritmos euma escolha humana"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/mal-por-mal/detalhe/inaceutavel",
+            "normalized_title": "inaceutavel",
+            "normalized_description": "para resolver o caos na cidade uns serao deportados outros entrarao no espaco schengen"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/blog/detalhe/20260920-152111-blog",
+            "normalized_title": "blog",
+            "normalized_description": "aqui nao houve protestos do feminismo politico porque enfim"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/tire-a-senha/detalhe/o-bolso-amigo",
+            "normalized_title": "o bolso amigo",
+            "normalized_description": "nao podemos aceitar que a amizade sirva de lavandaria"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/peso-e-medida/detalhe/um-reforco-com-prazo-de-validade",
+            "normalized_title": "um reforco com prazo de validade",
+            "normalized_description": "fiscalizacao esta dependente de um corpo envelhecido e sobrecarregado"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/a-abrir/detalhe/o-elogio-da-prudencia",
+            "normalized_title": "o elogio da prudencia",
+            "normalized_description": "ninguem sabe se estamos a meio da crise no fim ou no principio"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/nosso-mundo/detalhe/xi-visita-trump-em-treguas",
+            "normalized_title": "xi visita trump em treguas",
+            "normalized_description": "o objetivo e prolongar as treguas e manter canais de comunicacao"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/rui-pedro-vieira/detalhe/a-educacao-que-da-erros-leva-ma-nota",
+            "normalized_title": "a educacao que da erros leva ma nota",
+            "normalized_description": "inauguracao de escola foi cancelada porque escola meteu agua literalmente"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/justica-com-direitos/detalhe/em-casa-quem-ganha-menos",
+            "normalized_title": "em casa quem ganha menos",
+            "normalized_description": "quem larga o emprego quando a escola fecha a meio do dia"
+        },
+        {
+            "link": "https://www.cmjornal.pt/opiniao/colunistas/correio-direto/detalhe/sonhos-e-ilusoes",
+            "normalized_title": "sonhos e ilusoes",
+            "normalized_description": "os adeptos da bola nao sao tao tolerantes como os eleitores"
+        },
         {
             "link": "https://www.publico.pt/2026/09/20/opiniao/editorial/novos-extremos-2188732",
             "normalized_title": "os novos extremos",
