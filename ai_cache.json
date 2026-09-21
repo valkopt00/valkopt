@@ -589,7 +589,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-20-zelensky-anuncia-encontro-com-trump-em-nova-iorque-que-pode-mudar-muita-coisa-df5ae7fd": {
         "category": null,
-        "timestamp": "2026-09-21T17:15:59.773131+00:00",
+        "timestamp": "2026-09-21T17:31:17.601386+00:00",
         "title": "Zelensky anuncia encontro com Trump em Nova Iorque que \"pode mudar muita coisa\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -624,14 +624,14 @@
     },
     "https://expresso.pt/russia/2026-09-21-russia-unida-de-putin-perto-de-garantir-ampla-maioria-na-duma-1fe53fc7": {
         "category": null,
-        "timestamp": "2026-09-21T17:15:59.185210+00:00",
+        "timestamp": "2026-09-21T17:31:16.979936+00:00",
         "title": "Rússia Unida de Putin perto de garantir ampla maioria na Duma",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/russia/2026-09-21-servicos-de-informacoes-europeus-alertam-para-a-possibilidade-de-ataque-russo-a-nato-85f24423": {
         "category": null,
-        "timestamp": "2026-09-21T17:15:59.059723+00:00",
+        "timestamp": "2026-09-21T17:31:16.900526+00:00",
         "title": "Serviços de informações europeus alertam para a possibilidade de ataque russo à NATO",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -652,15 +652,22 @@
     },
     "https://www.publico.pt/2026/09/21/edicoes-publico/noticia/bd-nacional-regressa-coleccao-novela-grafica-armacao-2188813": {
         "category": null,
-        "timestamp": "2026-09-21T17:15:58.997049+00:00",
+        "timestamp": "2026-09-21T17:31:16.298898+00:00",
         "title": "A BD nacional regressa à colecção “Novela Gráfica” com “A Armação”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/eua-dizem-que-sancoes-vao-paralisar-companhias-aereas-iranianas": {
         "category": null,
-        "timestamp": "2026-09-21T17:15:58.499438+00:00",
+        "timestamp": "2026-09-21T17:31:16.392356+00:00",
         "title": "EUA dizem que sanções vão paralisar companhias aéreas iranianas",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/russia/2026-09-21-russia-unida-de-putin-bate-recorde-mas-a-historia-destas-eleicoes-esta-no-partido-que-o-kremlin-nao-deixou-concorrer-6e61e2f0": {
+        "category": null,
+        "timestamp": "2026-09-21T17:31:17.265262+00:00",
+        "title": "Rússia Unida de Putin bate recorde, mas a história destas eleições está no partido que o Kremlin não...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
