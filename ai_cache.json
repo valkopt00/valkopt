@@ -34,13 +34,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/semanario/revista-e/-e/2026-09-17-grande-entrevista-a-jose-condessa-tenho-medo-de-me-deslumbrar-com-o-sucesso-8784491e": {
-        "category": null,
-        "timestamp": "2026-09-17T11:15:53.395527+00:00",
-        "title": "Grande entrevista a José Condessa: “Tenho medo de me deslumbrar com o sucesso”",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/empresas-negocios/2026-09-17-autonomos-eletricos-e-a-hidrogenio-eis-os-camioes-do-futuro-61aa861f": {
         "category": null,
         "timestamp": "2026-09-17T11:45:56.450523+00:00",
@@ -652,35 +645,35 @@
     },
     "https://expresso.pt/media-comunicacao/2026-09-21-com-imbroglio-juridico-sem-fim-a-vista-diretor-da-visao-pede-clarificacao-em-assembleia-de-credores-0434b6ca": {
         "category": null,
-        "timestamp": "2026-09-22T11:01:21.658181+00:00",
+        "timestamp": "2026-09-22T11:16:00.817728+00:00",
         "title": "Com imbróglio jurídico sem fim à vista, diretor da \"Visão\" pede clarificação em assembleia de credor...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/saude-publica/2026-09-21-sns-reorganizacao-das-urgencias-durara-um-ano-diz-ministra-da-saude-d8969a69": {
         "category": null,
-        "timestamp": "2026-09-22T11:01:21.622184+00:00",
+        "timestamp": "2026-09-22T11:16:00.756637+00:00",
         "title": "SNS: reorganização das urgências durará um ano, diz ministra da Saúde",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-09-21-trump-quis-calar-os-media-e-sem-cobertura-de-imprensa-acabou-mudo-em-evento-oficial-veja-o-video-e742f064": {
         "category": null,
-        "timestamp": "2026-09-22T11:01:21.580694+00:00",
+        "timestamp": "2026-09-22T11:16:00.687865+00:00",
         "title": "Trump quis calar os media e, sem cobertura de imprensa, acabou ‘mudo’ em evento oficial: veja o víde...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/direitos-digitais/2026-09-21-leao-xiv-pede-que-inteligencia-artificial-seja-orientada-pela-sabedoria-e-pela-solidariedade-4fc1e543": {
         "category": null,
-        "timestamp": "2026-09-22T11:01:21.547450+00:00",
+        "timestamp": "2026-09-22T11:16:00.614105+00:00",
         "title": "Leão XIV pede que inteligência artificial seja orientada \"pela sabedoria e pela solidariedade\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-21-antigo-lider-do-chega-madeira-corta-com-ventura-e-passa-a-deputado-independente-94ace98e": {
         "category": null,
-        "timestamp": "2026-09-22T11:01:21.510964+00:00",
+        "timestamp": "2026-09-22T11:16:00.564088+00:00",
         "title": "Antigo líder do Chega-Madeira corta com Ventura e passa a deputado independente",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -708,8 +701,22 @@
     },
     "https://www.rtp.pt/noticias/ligadasnacoes/decano-jesus-comanda-portugal-na-defesa-do-titulo-na-liga-das-nacoes_d1766941": {
         "category": null,
-        "timestamp": "2026-09-22T11:01:19.742001+00:00",
+        "timestamp": "2026-09-22T11:15:58.617765+00:00",
         "title": "`Decano` Jesus comanda Portugal na defesa do título na Liga das Nações",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/onu-preve-230-mil-deslocados-no-iemen-e-mais-de-10-mil-refugiados-no-djibuti": {
+        "category": null,
+        "timestamp": "2026-09-22T11:15:59.486308+00:00",
+        "title": "ONU prevê 230 mil deslocados no Iémen e mais de 10 mil refugiados no Djibuti",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/irao-compara-acusacoes-dos-eua-sobre-aumento-de-precos-a-hitler": {
+        "category": null,
+        "timestamp": "2026-09-22T11:15:59.818581+00:00",
+        "title": "Irão compara acusações dos EUA sobre aumento de preços a Hitler",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
