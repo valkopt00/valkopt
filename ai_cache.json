@@ -603,7 +603,7 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-09-22-cartoon-um-simbalino-especial-em-homenagem-a-jorge-palma-por-jose-antonio-fundo/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-especial-em-homenagem-a-jorge-palma-por-jose-antonio-fundo": {
         "category": null,
-        "timestamp": "2026-09-22T22:15:58.482765+00:00",
+        "timestamp": "2026-09-22T22:31:07.743361+00:00",
         "title": "Cartoon: Um Simbalino especial (em homenagem a Jorge Palma), por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -617,15 +617,22 @@
     },
     "https://expresso.pt/empresas-negocios/2026-09-22-queda-capilar-adicao-e-menopausa-novo-nordisk-tenta-reinventar-se-87720f39": {
         "category": null,
-        "timestamp": "2026-09-22T22:15:57.367475+00:00",
+        "timestamp": "2026-09-22T22:31:06.198901+00:00",
         "title": "Queda capilar, adição e menopausa: Novo Nordisk tenta reinventar-se",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/defesa-nacional/2026-09-22-fragatas-nuno-melo-revela-detalhes-o-maior-negocio-de-sempre-na-defesa-com-310-milhoes-em-misseis-9e32f64c": {
         "category": null,
-        "timestamp": "2026-09-22T22:15:57.333409+00:00",
+        "timestamp": "2026-09-22T22:31:05.862153+00:00",
         "title": "Fragatas: Nuno Melo revela detalhes o maior negócio de sempre na Defesa, com €310 milhões em mísseis",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/defesa-nacional/2026-09-22-fragatas-nuno-melo-revela-detalhes-do-maior-negocio-de-sempre-na-defesa-com-310-milhoes-em-misseis-9e32f64c": {
+        "category": null,
+        "timestamp": "2026-09-22T22:31:06.330572+00:00",
+        "title": "Fragatas: Nuno Melo revela detalhes do maior negócio de sempre na Defesa, com €310 milhões em míssei...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
