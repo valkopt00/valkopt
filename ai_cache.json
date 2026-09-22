@@ -34,13 +34,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/ligadasnacoes/klopp-convoca-44-jogadores-para-a-liga-das-nacoes_d1766036": {
-        "category": null,
-        "timestamp": "2026-09-17T18:31:11.827046+00:00",
-        "title": "Klopp convoca 44 jogadores para a Liga das Nações",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/expressinho/2026-09-17-ja-vou-para-o-5.-ano-7459b8ed": {
         "category": null,
         "timestamp": "2026-09-17T21:45:50.446543+00:00",
@@ -666,7 +659,7 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-09-22-cartoon-um-simbalino-especial-em-homenagem-a-jorge-palma-por-jose-antonio-fundo/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-especial-em-homenagem-a-jorge-palma-por-jose-antonio-fundo": {
         "category": null,
-        "timestamp": "2026-09-22T18:31:11.979652+00:00",
+        "timestamp": "2026-09-22T18:46:03.166606+00:00",
         "title": "Cartoon: Um Simbalino especial (em homenagem a Jorge Palma), por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -680,7 +673,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-09-22-queda-capilar-adicao-e-menopausa-novo-nordisk-tenta-reinventar-se-87720f39": {
         "category": null,
-        "timestamp": "2026-09-22T18:31:12.198884+00:00",
+        "timestamp": "2026-09-22T18:46:03.383239+00:00",
         "title": "Queda capilar, adição e menopausa: Novo Nordisk tenta reinventar-se",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
