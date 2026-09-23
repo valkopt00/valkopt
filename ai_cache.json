@@ -69,13 +69,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-09-17-medicos-esperam-ha-tres-meses-para-receber-incentivos-prometidos-pelo-governo-e6db4a72": {
-        "category": null,
-        "timestamp": "2026-09-18T08:45:51.683209+00:00",
-        "title": "Médicos esperam há três meses para receber incentivos prometidos pelo Governo",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-09-17-alerta.-conta-poupanca-de-agua-esta-a-esgotar-se-906cf9cb": {
         "category": null,
         "timestamp": "2026-09-18T10:31:11.952486+00:00",
@@ -94,20 +87,6 @@
         "category": null,
         "timestamp": "2026-09-18T10:31:12.088941+00:00",
         "title": "Fim do mundo, fim do Volta e outros fins",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/presidencia-republica/2026-09-17-pacto-da-saude-seguro-acelera-missao-de-adalberto-campos-fernandes-38d93e70": {
-        "category": null,
-        "timestamp": "2026-09-18T08:45:52.549975+00:00",
-        "title": "Pacto da Saúde: Seguro acelera missão de Adalberto Campos Fernandes",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-09-17-casticais-da-baixela-germain-a-venda-em-paris-e86dbef2": {
-        "category": null,
-        "timestamp": "2026-09-18T08:45:52.625695+00:00",
-        "title": "Castiçais da baixela Germain à venda em Paris",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -540,7 +519,7 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-09-22-cartoon-um-simbalino-especial-em-homenagem-a-jorge-palma-por-jose-antonio-fundo/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-especial-em-homenagem-a-jorge-palma-por-jose-antonio-fundo": {
         "category": null,
-        "timestamp": "2026-09-23T08:31:10.507055+00:00",
+        "timestamp": "2026-09-23T08:45:55.686900+00:00",
         "title": "Cartoon: Um Simbalino especial (em homenagem a Jorge Palma), por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -554,7 +533,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-09-22-queda-capilar-adicao-e-menopausa-novo-nordisk-tenta-reinventar-se-87720f39": {
         "category": null,
-        "timestamp": "2026-09-23T08:31:09.643650+00:00",
+        "timestamp": "2026-09-23T08:45:54.313540+00:00",
         "title": "Queda capilar, adição e menopausa: Novo Nordisk tenta reinventar-se",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -568,7 +547,7 @@
     },
     "https://expresso.pt/defesa-nacional/2026-09-22-fragatas-nuno-melo-revela-detalhes-do-maior-negocio-de-sempre-na-defesa-com-310-milhoes-em-misseis-9e32f64c": {
         "category": null,
-        "timestamp": "2026-09-23T08:31:09.602751+00:00",
+        "timestamp": "2026-09-23T08:45:54.248737+00:00",
         "title": "Fragatas: Nuno Melo revela detalhes do maior negócio de sempre na Defesa, com €310 milhões em míssei...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -582,35 +561,35 @@
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/trump-usa-discurso-na-onu-para-fazer-ultimato-ao-irao": {
         "category": null,
-        "timestamp": "2026-09-23T08:16:01.099786+00:00",
+        "timestamp": "2026-09-23T08:45:55.055296+00:00",
         "title": "Trump usa discurso na ONU para fazer ultimato ao Irão",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-09-23-savannah-dona-do-projeto-de-litio-do-barroso-capta-31-milhoes-no-seu-maior-aumento-de-capital-de-sempre-5c3ff51f": {
         "category": null,
-        "timestamp": "2026-09-23T08:31:09.561949+00:00",
+        "timestamp": "2026-09-23T08:45:54.136840+00:00",
         "title": "Savannah, dona do projeto de lítio do Barroso, capta €31 milhões no seu maior aumento de capital de ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-23-zelensky-espera-por-fim-a-guerra-na-ucrania-antes-do-inverno-e-conta-com-ajuda-de-trump-daf613e9": {
         "category": null,
-        "timestamp": "2026-09-23T08:31:09.521956+00:00",
+        "timestamp": "2026-09-23T08:45:54.071895+00:00",
         "title": "Zelensky espera pôr fim à guerra na Ucrânia antes do inverno e conta com ajuda de Trump",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/sismos-na-venezuela/detalhe/vitimas-dos-sismos-na-venezuela-agradecem-apoio-portugues-mas-necessidades-persistem": {
         "category": null,
-        "timestamp": "2026-09-23T08:31:10.627858+00:00",
+        "timestamp": "2026-09-23T08:45:54.993602+00:00",
         "title": "Vítimas dos sismos na Venezuela agradecem apoio português, mas necessidades persistem",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/direitos-igualdade/2026-09-23-lei-das-burcas-entra-esta-quarta-feira-em-vigor-e-preve-multas-ate-tres-mil-euros-c567e477": {
         "category": null,
-        "timestamp": "2026-09-23T08:31:10.701856+00:00",
+        "timestamp": "2026-09-23T08:45:54.010272+00:00",
         "title": "“Lei das burcas” entra esta quarta-feira em vigor e prevê multas até três mil euros",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
