@@ -1,46 +1,4 @@
 {
-    "https://expresso.pt/semanario/ideias": {
-        "category": null,
-        "timestamp": "2026-09-18T18:01:27.428854+00:00",
-        "title": "IDEIAS: O que fazer à beira do abismo?",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/primeiro": {
-        "category": null,
-        "timestamp": "2026-09-18T18:01:27.490889+00:00",
-        "title": "A primeira página do Expresso",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/economia": {
-        "category": null,
-        "timestamp": "2026-09-18T18:01:27.550128+00:00",
-        "title": "A 1ª página do Expresso Economia",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/revista-e": {
-        "category": null,
-        "timestamp": "2026-09-18T18:01:27.643671+00:00",
-        "title": "José Condessa, o novo galã, na Revista E",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/primeiro/em-destaque/altos--baixos/2026-09-17-saude-mental-farmaceuticas-refrigeracao-e-distribuicao-nos-altos-e-baixos-da-economia-ea004c9b": {
-        "category": null,
-        "timestamp": "2026-09-18T18:01:27.969410+00:00",
-        "title": "Saúde mental, farmacêuticas, refrigeração e distribuição nos Altos e Baixos da Economia",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-09-17-gol-lanca-voo-entre-lisboa-e-rio-sem-favoritos-na-privatizacao-diz-se-do-lado-da-tap-d7cf2029": {
-        "category": null,
-        "timestamp": "2026-09-18T18:01:28.022107+00:00",
-        "title": "Gol lança voo entre Lisboa e Rio: sem favoritos na privatização diz-se do lado da TAP",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/empresas-negocios/2026-09-18-alegado-acordo-secreto-entre-dona-da-louis-vuitton-e-gestor-de-fortuna-de-herdeiro-da-hermes-sob-investigacao-eac20b88": {
         "category": null,
         "timestamp": "2026-09-18T22:31:11.855277+00:00",
@@ -463,7 +421,7 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-09-22-cartoon-um-simbalino-especial-em-homenagem-a-jorge-palma-por-jose-antonio-fundo/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-especial-em-homenagem-a-jorge-palma-por-jose-antonio-fundo": {
         "category": null,
-        "timestamp": "2026-09-23T18:01:24.288560+00:00",
+        "timestamp": "2026-09-23T18:16:00.442289+00:00",
         "title": "Cartoon: Um Simbalino especial (em homenagem a Jorge Palma), por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -533,14 +491,14 @@
     },
     "https://expresso.pt/direitos-igualdade/2026-09-23-lei-das-burcas-entra-esta-quarta-feira-em-vigor-e-preve-multas-ate-tres-mil-euros-c567e477": {
         "category": null,
-        "timestamp": "2026-09-23T18:01:25.248097+00:00",
+        "timestamp": "2026-09-23T18:16:00.532473+00:00",
         "title": "“Lei das burcas” entra esta quarta-feira em vigor e prevê multas até três mil euros",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/premios-do-imobiliario/2026-09-23-este-galardao-e-um-selo-de-qualidade-para-quem-atua-neste-sector-0a5297f1": {
         "category": null,
-        "timestamp": "2026-09-23T18:01:23.731405+00:00",
+        "timestamp": "2026-09-23T18:15:58.674476+00:00",
         "title": "“Este galardão é um selo de qualidade para quem atua neste sector”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -561,14 +519,14 @@
     },
     "https://expresso.pt/administracao-publica/2026-09-23-dono-da-zara-estava-confortavel-na-ren-so-venderam-porque-se-tratava-de-um-pedido-do-estado-portugues-71595ca7": {
         "category": null,
-        "timestamp": "2026-09-23T18:01:23.664098+00:00",
+        "timestamp": "2026-09-23T18:15:58.609145+00:00",
         "title": "Dono da Zara estava confortável na REN, \"só venderam porque se tratava de um pedido do Estado portug...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/polonia/2026-09-23-polonia-denuncia-incursao-de-helicoptero-russo-junto-a-kaliningrado-373a407b": {
         "category": null,
-        "timestamp": "2026-09-23T18:01:23.597595+00:00",
+        "timestamp": "2026-09-23T18:15:58.516289+00:00",
         "title": "Polónia denuncia incursão de helicóptero russo junto a Kaliningrado",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -596,8 +554,15 @@
     },
     "https://expresso.pt/presidencia-republica/2026-09-23-de-visita-ao-vaticano-seguro-tem-um-desejo-que-leao-xiv-aceite-o-convite-para-visitar-portugal-2f0a7e23": {
         "category": null,
-        "timestamp": "2026-09-23T18:01:25.087160+00:00",
+        "timestamp": "2026-09-23T18:16:00.336027+00:00",
         "title": "De visita ao Vaticano, Seguro tem um \"desejo\": que Leão XIV aceite o convite para visitar Portugal",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.rtp.pt/noticias/ligadasnacoes/jorge-jesus-um-bocadao-ansioso-com-a-estreia-cr7-admite-ficar-no-banco_d1767297": {
+        "category": null,
+        "timestamp": "2026-09-23T18:15:59.205112+00:00",
+        "title": "Jorge Jesus \"um bocadão\" ansioso com a estreia, CR7 admite ficar no banco",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
