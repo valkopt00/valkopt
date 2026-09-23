@@ -519,14 +519,14 @@
     },
     "https://expresso.pt/administracao-publica/2026-09-23-dono-da-zara-estava-confortavel-na-ren-so-venderam-porque-se-tratava-de-um-pedido-do-estado-portugues-71595ca7": {
         "category": null,
-        "timestamp": "2026-09-23T19:31:14.130943+00:00",
+        "timestamp": "2026-09-23T19:45:58.497695+00:00",
         "title": "Dono da Zara estava confortável na REN, \"só venderam porque se tratava de um pedido do Estado portug...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/polonia/2026-09-23-polonia-denuncia-incursao-de-helicoptero-russo-junto-a-kaliningrado-373a407b": {
         "category": null,
-        "timestamp": "2026-09-23T19:31:14.076442+00:00",
+        "timestamp": "2026-09-23T19:45:58.453893+00:00",
         "title": "Polónia denuncia incursão de helicóptero russo junto a Kaliningrado",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -554,29 +554,36 @@
     },
     "https://expresso.pt/presidencia-republica/2026-09-23-de-visita-ao-vaticano-seguro-tem-um-desejo-que-leao-xiv-aceite-o-convite-para-visitar-portugal-2f0a7e23": {
         "category": null,
-        "timestamp": "2026-09-23T19:31:14.012702+00:00",
+        "timestamp": "2026-09-23T19:45:58.393763+00:00",
         "title": "De visita ao Vaticano, Seguro tem um \"desejo\": que Leão XIV aceite o convite para visitar Portugal",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/ligadasnacoes/jorge-jesus-um-bocadao-ansioso-com-a-estreia-cr7-admite-ficar-no-banco_d1767297": {
         "category": null,
-        "timestamp": "2026-09-23T19:31:15.790640+00:00",
+        "timestamp": "2026-09-23T19:45:58.582592+00:00",
         "title": "Jorge Jesus \"um bocadão\" ansioso com a estreia, CR7 admite ficar no banco",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/filho-do-embaixador-de-israel-nos-eua-ferido-gravemente-em-ataque-na-cisjordania": {
         "category": null,
-        "timestamp": "2026-09-23T19:15:54.373808+00:00",
+        "timestamp": "2026-09-23T19:46:00.757469+00:00",
         "title": "Filho do embaixador de Israel nos EUA ferido gravemente em ataque na Cisjordânia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/pelo-menos-um-marinheiro-indiano-morto-em-novo-ataque-no-estreito-de-ormuz": {
         "category": null,
-        "timestamp": "2026-09-23T19:15:54.325513+00:00",
+        "timestamp": "2026-09-23T19:46:00.706239+00:00",
         "title": "Pelo menos um marinheiro indiano morto em novo ataque no estreito de Ormuz",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/defesa-nacional/2026-09-23-exercito-desenvolve-rede-movel-propria-para-garantir-comunicacoes-em-catastrofes-490304d9": {
+        "category": null,
+        "timestamp": "2026-09-23T19:46:00.531983+00:00",
+        "title": "Exército desenvolve rede móvel própria para garantir comunicações em catástrofes",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
