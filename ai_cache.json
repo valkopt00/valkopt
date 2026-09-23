@@ -69,27 +69,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-09-17-alerta.-conta-poupanca-de-agua-esta-a-esgotar-se-906cf9cb": {
-        "category": null,
-        "timestamp": "2026-09-18T10:31:11.952486+00:00",
-        "title": "Alerta. ‘Conta-poupança’ de água está a esgotar-se",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-09-17-eurostat.-estrangeiros-a-viver-na-pobreza-sao-27-694b7756": {
-        "category": null,
-        "timestamp": "2026-09-18T10:31:12.028774+00:00",
-        "title": "Eurostat. Estrangeiros a viver na pobreza são 27%",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2026-09-17-fim-do-mundo-fim-do-volta-e-outros-fins-24419d7f": {
-        "category": null,
-        "timestamp": "2026-09-18T10:31:12.088941+00:00",
-        "title": "Fim do mundo, fim do Volta e outros fins",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/empresas-negocios/2026-09-18-alegado-acordo-secreto-entre-dona-da-louis-vuitton-e-gestor-de-fortuna-de-herdeiro-da-hermes-sob-investigacao-eac20b88": {
         "category": null,
         "timestamp": "2026-09-18T22:31:11.855277+00:00",
@@ -519,7 +498,7 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-09-22-cartoon-um-simbalino-especial-em-homenagem-a-jorge-palma-por-jose-antonio-fundo/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-especial-em-homenagem-a-jorge-palma-por-jose-antonio-fundo": {
         "category": null,
-        "timestamp": "2026-09-23T10:31:09.765723+00:00",
+        "timestamp": "2026-09-23T10:45:53.681674+00:00",
         "title": "Cartoon: Um Simbalino especial (em homenagem a Jorge Palma), por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -533,7 +512,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-09-22-queda-capilar-adicao-e-menopausa-novo-nordisk-tenta-reinventar-se-87720f39": {
         "category": null,
-        "timestamp": "2026-09-23T10:31:08.041750+00:00",
+        "timestamp": "2026-09-23T10:45:52.422568+00:00",
         "title": "Queda capilar, adição e menopausa: Novo Nordisk tenta reinventar-se",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -547,7 +526,7 @@
     },
     "https://expresso.pt/defesa-nacional/2026-09-22-fragatas-nuno-melo-revela-detalhes-do-maior-negocio-de-sempre-na-defesa-com-310-milhoes-em-misseis-9e32f64c": {
         "category": null,
-        "timestamp": "2026-09-23T10:31:07.984441+00:00",
+        "timestamp": "2026-09-23T10:45:52.375946+00:00",
         "title": "Fragatas: Nuno Melo revela detalhes do maior negócio de sempre na Defesa, com €310 milhões em míssei...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -568,14 +547,14 @@
     },
     "https://expresso.pt/empresas-negocios/2026-09-23-savannah-dona-do-projeto-de-litio-do-barroso-capta-31-milhoes-no-seu-maior-aumento-de-capital-de-sempre-5c3ff51f": {
         "category": null,
-        "timestamp": "2026-09-23T10:31:07.922984+00:00",
+        "timestamp": "2026-09-23T10:45:52.332539+00:00",
         "title": "Savannah, dona do projeto de lítio do Barroso, capta €31 milhões no seu maior aumento de capital de ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-23-zelensky-espera-por-fim-a-guerra-na-ucrania-antes-do-inverno-e-conta-com-ajuda-de-trump-daf613e9": {
         "category": null,
-        "timestamp": "2026-09-23T10:31:07.832381+00:00",
+        "timestamp": "2026-09-23T10:45:52.285621+00:00",
         "title": "Zelensky espera pôr fim à guerra na Ucrânia antes do inverno e conta com ajuda de Trump",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -589,14 +568,14 @@
     },
     "https://expresso.pt/direitos-igualdade/2026-09-23-lei-das-burcas-entra-esta-quarta-feira-em-vigor-e-preve-multas-ate-tres-mil-euros-c567e477": {
         "category": null,
-        "timestamp": "2026-09-23T10:31:07.530250+00:00",
+        "timestamp": "2026-09-23T10:45:52.237115+00:00",
         "title": "“Lei das burcas” entra esta quarta-feira em vigor e prevê multas até três mil euros",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/premios-do-imobiliario/2026-09-23-este-galardao-e-um-selo-de-qualidade-para-quem-atua-neste-sector-0a5297f1": {
         "category": null,
-        "timestamp": "2026-09-23T10:31:07.473558+00:00",
+        "timestamp": "2026-09-23T10:45:52.194738+00:00",
         "title": "“Este galardão é um selo de qualidade para quem atua neste sector”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
