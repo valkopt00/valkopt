@@ -757,21 +757,21 @@
     },
     "https://expresso.pt/expressinho/2026-09-24-queres-viajar-ate-aos-dias-medievais--invade-o-castelo-e69e7e14": {
         "category": null,
-        "timestamp": "2026-09-25T15:45:55.970153+00:00",
+        "timestamp": "2026-09-25T16:01:20.056179+00:00",
         "title": "Queres viajar até aos Dias Medievais? Invade o Castelo!",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/um-papa-em-franca-com-uma-agenda-sensivel_1767658": {
         "category": null,
-        "timestamp": "2026-09-25T15:45:54.930883+00:00",
+        "timestamp": "2026-09-25T16:01:18.719128+00:00",
         "title": "Um Papa em França com uma agenda sensível",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://visao.pt/conteudopatrocinado/2026-09-25-a-sua-empresa-usa-ia-uma-decisao-errada-pode-valer-milhoes-em-multas/?utm_source=rss&utm_medium=rss&utm_campaign=a-sua-empresa-usa-ia-uma-decisao-errada-pode-valer-milhoes-em-multas": {
         "category": null,
-        "timestamp": "2026-09-25T15:45:55.702347+00:00",
+        "timestamp": "2026-09-25T16:01:19.116567+00:00",
         "title": "A sua empresa usa IA? Uma decisão errada pode valer milhões em multas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -792,29 +792,36 @@
     },
     "https://expresso.pt/nato/2026-09-25-dinamarca-alerta-nato-para-eventuais-ataques-da-russia-b3494363": {
         "category": null,
-        "timestamp": "2026-09-25T15:45:55.613756+00:00",
+        "timestamp": "2026-09-25T16:01:19.319820+00:00",
         "title": "Dinamarca alerta NATO para eventuais ataques da Rússia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-25-depois-de-meses-de-negociacao-eua-autorizam-ucrania-a-produzir-misseis-patriot-2bdfb5eb": {
         "category": null,
-        "timestamp": "2026-09-25T15:45:55.566890+00:00",
+        "timestamp": "2026-09-25T16:01:19.245397+00:00",
         "title": "EUA autorizam Ucrânia a produzir mísseis Patriot",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-25-depois-do-impasse-washington-propoe-nova-reuniao-a-tres-entre-russia-ucrania-e-eua-c2a97c65": {
         "category": null,
-        "timestamp": "2026-09-25T15:45:55.517732+00:00",
+        "timestamp": "2026-09-25T16:01:19.186041+00:00",
         "title": "Washington propõe nova reunião a três entre Rússia, Ucrânia e EUA",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/defesa-nacional/2026-09-25-governo-aprova-acordo-de-emprestimo-safe-com-a-comissao-europeia-a2e22903": {
         "category": null,
-        "timestamp": "2026-09-25T15:45:55.912975+00:00",
+        "timestamp": "2026-09-25T16:01:19.993597+00:00",
         "title": "Governo aprova acordo de empréstimo SAFE com a Comissão Europeia",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/presidencia-republica/2026-09-25-seguro-diz-continuar-a-ter-confianca-na-pj-e-espera-por-resultados-da-investigacao-16b1ecd4": {
+        "category": null,
+        "timestamp": "2026-09-25T16:01:20.250974+00:00",
+        "title": "Seguro diz continuar a ter confiança na PJ e espera por resultados da investigação",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
