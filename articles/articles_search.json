@@ -1,6 +1,21 @@
 {
     "Últimas": [
         {
+            "link": "https://www.record.pt/futebol/futebol-nacional/iniciados/detalhe/sporting-da-a-volta-ao-marcador-frente-ao-anca",
+            "normalized_title": "sporting da a volta ao marcador frente ao anca",
+            "normalized_description": "malam dafe martim vaz e francisco silva fizeram os golos dos leoes"
+        },
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/psp-fecha-bares-em-operacao-de-fiscalizacao-na-zona-da-movida-do-porto-associacao-questiona-legitimidade-da-acao",
+            "normalized_title": "psp fecha bares em operacao de fiscalizacao na zona da movida do porto associacao questiona legitimidade da acao",
+            "normalized_description": "associacao de bares anunciou que vai solicitar esclarecimentos formais sobre a operacao de fiscalizacao"
+        },
+        {
+            "link": "https://www.record.pt/modalidades/ciclismo/detalhe/surreal-eslovaquia-vai-correr-mundial-com-massagista-que-deixou-de-correr-em-2017",
+            "normalized_title": "surreal eslovaquia vai correr mundial com massagista que nao compete desde 2017",
+            "normalized_description": "convocados ficaram indisponiveis para a corrida deste domingo e solucao insolita tem como objetivo evitar a despromocao"
+        },
+        {
             "link": "https://www.noticiasaominuto.com/pais/3057887/en251-reabre-apos-acidente-com-3-carros-ha-3-feridos-2-deles-graves#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "en251 reabre apos acidente com 3 carros ha 3 feridos 2 deles graves",
             "normalized_description": ""
@@ -29,6 +44,11 @@
             "link": "https://www.noticiasaominuto.com/tech/3057884/openai-revela-que-agentes-de-ia-interagiram-com-sites-do-governo-dos-eua#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "openai revela que agentes de ia interagiram com sites do governo dos eua",
             "normalized_description": ""
+        },
+        {
+            "link": "https://expresso.pt/ia-inteligencia-artificial/2026-09-26-openai-revela-que-agentes-de-ia-interagiram-com-sites-do-governo-dos-estados-unidos-e2f77f30",
+            "normalized_title": "openai revela que agentes de ia interagiram com sites do governo dos estados unidos",
+            "normalized_description": "os modelos de ia da empresa dona do chatgpt acederam a informacoes publicamente disponiveis em dois sites operados pelo regulador de mercados"
         },
         {
             "link": "https://www.record.pt/multimedia/videos/detalhe/vai-uma-imperial-e-um-shot-jogo-de-lendas-entre-werder-bremen-e-real-madrid-teve-uma-pausa-para-hidratacao-especial",
@@ -3024,74 +3044,14 @@
             "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260926-103240-fenprof-admite-avancar-com-queixa-contra-ministro-da-educacao-por-declaracoes-insultuosas",
             "normalized_title": "fenprof admite avancar com queixa contra ministro da educacao por declaracoes insultuosas",
             "normalized_description": "fernando alexandre acusou esta sexta feira a fenprof de tudo ter feito para que corresse mal o processo de classificacao digital dos exames nacionais"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/3057321/do-imposto-do-carro-ao-pingo-doce-as-noticias-preferidas-da-semana#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "do imposto do carro ao pingo doce as noticias preferidas da semana",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://expresso.pt/blitz/entrevistas/2026-09-26-entrevista-a-joey-santiago-dos-pixies-talvez-os-fas-nao-gostem-de-ouvir-isto-mas-os-pixies-sao-um-emprego-28400d5e",
-            "normalized_title": "entrevista a joey santiago dos pixies talvez os fas nao gostem de ouvir isto mas os pixies sao um emprego",
-            "normalized_description": "no mesmo mes em que os pixies reeditaram versoes remasterizadas de bossanova 2 trompe le monde dois dos maiores discos de uma carreira aclamada"
-        },
-        {
-            "link": "https://www.cmjornal.pt/desporto/modalidades/detalhe/motogp-marquez-acelera-para-a-historia",
-            "normalized_title": "motogp marquez acelera para a historia",
-            "normalized_description": "piloto da ducati que luta pelo titulo com jorge martin pode superar rossi e igualar os oito titulos de giacomo agostini"
-        },
-        {
-            "link": "https://www.cmjornal.pt/desporto/futebol/detalhe/vitor-paneira-sou-um-bocado-talhado-para-trabalhos-dificeis",
-            "normalized_title": "vitor paneira sou um bocado talhado para trabalhos dificeis",
-            "normalized_description": "tentar recuperar o pacos de ferreira e o novo projeto do treinador vitor paneira"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3057737/casa-branca-exclui-cnn-de-viagem-de-trump-em-nova-restricao-aos-media#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "casa branca exclui cnn de viagem de trump em nova restricao aos media",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.record.pt/fora-de-campo/detalhe/90-em-9-minutos-a-revolucao-dos-carros-eletricos-vem-da-china",
-            "normalized_title": "90 em 9 minutos a revolucao dos carros eletricos vem da china",
-            "normalized_description": "varias empresas prometem baterias e carros com carregamentos ultra rapidos que devem chegar a europa ainda este ano"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260926-102833-procurador-geral-da-republica-nega-mau-ambiente-com-policia-judiciaria-devido-a-buscas",
-            "normalized_title": "procurador geral da republica nega mau ambiente com policia judiciaria devido a buscas",
-            "normalized_description": "confrontado sobre qual o resultado destas buscas amadeu guerra apenas disse que o processo esta em segredo de justica e por isso nao ia adiantar"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/seis-embarcacoes-encontradas-em-tres-dias-e-milhares-de-litros-de-combustivel-apreendidos",
-            "normalized_title": "seis embarcacoes encontradas em tres dias e milhares de litros de combustivel apreendidos",
-            "normalized_description": "aparecimentos comecaram em aljezur passaram por alvor e o caso mais recente deu se na fuseta"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/20260926-102441-gnr-agredido-por-trio-que-tentava-invadir-habitacao-na-lousa",
-            "normalized_title": "gnr agredido por trio que tentava invadir habitacao na lousa",
-            "normalized_description": "trio de suspeitos foi levado para para o posto da gnr da lousa para conclusao das diligencias"
-        },
-        {
-            "link": "https://expresso.pt/blitz/2026-09-26-pearl-jam-apresentam-baterista-novo-ebaa909f",
-            "normalized_title": "pearl jam apresentam baterista novo",
-            "normalized_description": "os pearl jam atuaram num festival na california esta sexta feira com abe laboriel jr baterista que podera ser o substituto de matt cameron que"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/incendio-em-odemira-obriga-a-retirada-de-20-pessoas-e-deixa-dois-bombeiros-feridos",
-            "normalized_title": "incendio em odemira obriga a retirada de 20 pessoas e deixa dois bombeiros feridos",
-            "normalized_description": "chamas foram combatidas por 420 operacionais apoiados por 141 veiculos e sete meios aereos"
-        },
-        {
-            "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/marcha-lenta-de-camioes-e-buzinao-contra-o-aumento-do-preco-dos-combustiveis",
-            "normalized_title": "marcha lenta de camioes e buzinao contra o aumento do preco dos combustiveis",
-            "normalized_description": "empresarios fizeram o trajeto desde paredes ate coimbra em cerca de cinco horas"
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/trubin-nao-pode-ser-permitido-a-russia-jogar-contra-outras-equipas/1215814",
-            "normalized_title": "trubin nao pode ser permitido a russia jogar contra outras equipas",
-            "normalized_description": "anatoliy trubin guarda redes do benfica que esta ao servico da selecao ucraniana defendeu que a russia nao pode ser reintegrada pela fifa e pela"
         }
     ],
     "Nacional": [
+        {
+            "link": "https://www.cmjornal.pt/portugal/detalhe/psp-fecha-bares-em-operacao-de-fiscalizacao-na-zona-da-movida-do-porto-associacao-questiona-legitimidade-da-acao",
+            "normalized_title": "psp fecha bares em operacao de fiscalizacao na zona da movida do porto associacao questiona legitimidade da acao",
+            "normalized_description": "associacao de bares anunciou que vai solicitar esclarecimentos formais sobre a operacao de fiscalizacao"
+        },
         {
             "link": "https://www.noticiasaominuto.com/pais/3057887/en251-reabre-apos-acidente-com-3-carros-ha-3-feridos-2-deles-graves#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "en251 reabre apos acidente com 3 carros ha 3 feridos 2 deles graves",
@@ -6766,11 +6726,6 @@
             "link": "https://www.cmjornal.pt/portugal/detalhe/buscas-por-homem-de-64-anos-desaparecido-em-aveiro-continuam-de-madrugada",
             "normalized_title": "buscas por homem de 64 anos desaparecido em aveiro continuam de madrugada",
             "normalized_description": "homem estava institucionalizado numa instituicao na freguesia de requeixo"
-        },
-        {
-            "link": "https://www.cmjornal.pt/portugal/detalhe/bebe-gravemente-ferido-apos-ser-queimado-com-cafe-durante-festa-de-familia-em-montalegre",
-            "normalized_title": "bebe gravemente ferido apos ser queimado com cafe durante festa de familia em montalegre",
-            "normalized_description": "crianca foi helitransportada para o hospital sao joao no porto"
         }
     ],
     "Mundo": [
@@ -11446,6 +11401,16 @@
         }
     ],
     "Desporto": [
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/iniciados/detalhe/sporting-da-a-volta-ao-marcador-frente-ao-anca",
+            "normalized_title": "sporting da a volta ao marcador frente ao anca",
+            "normalized_description": "malam dafe martim vaz e francisco silva fizeram os golos dos leoes"
+        },
+        {
+            "link": "https://www.record.pt/modalidades/ciclismo/detalhe/surreal-eslovaquia-vai-correr-mundial-com-massagista-que-deixou-de-correr-em-2017",
+            "normalized_title": "surreal eslovaquia vai correr mundial com massagista que nao compete desde 2017",
+            "normalized_description": "convocados ficaram indisponiveis para a corrida deste domingo e solucao insolita tem como objetivo evitar a despromocao"
+        },
         {
             "link": "https://www.record.pt/internacional/competicoes-de-selecoes/liga-das-nacoes/detalhe/internacional-irlandes-decide-nao-defrontar-israel-matar-inocentes-e-errado",
             "normalized_title": "internacional irlandes decide nao defrontar israel matar inocentes e errado",
@@ -20345,26 +20310,6 @@
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/rugido-leonino-vai-entregar-quatro-galardoes-no-minho-saiba-quem-sao-os-ex-sporting-premiados",
             "normalized_title": "rugido leonino vai entregar quatro galardoes no minho saiba quem sao os ex sporting premiados",
             "normalized_description": "evento que se realiza a 18 de outubro em vila verde promete muita animacao"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/videos/detalhe/jorge-jesus-emocionou-se-ao-falar-da-familia-ao-receber-premio-prestigio-nos-portugal-football-globes",
-            "normalized_title": "jorge jesus emocionou se ao falar da familia ao receber premio prestigio nos portugal football globes",
-            "normalized_description": "selecionador nacional emocionou se no inicio do discurso"
-        },
-        {
-            "link": "https://www.record.pt/multimedia/fotogalerias/detalhe/todos-os-vencedores-dos-portugal-football-globes",
-            "normalized_title": "todos os vencedores dos portugal football globes",
-            "normalized_description": "segunda edicao premiaram os melhores da epoca 2025 26"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/3055129/kiwior-recorda-o-duelo-com-haaland-quando-ele-corre-na-tua-direcao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "kiwior recorda o duelo com haaland quando ele corre na tua direcao",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.record.pt/opiniao/detalhe/excelencia-que-projeta-portugal",
-            "normalized_title": "excelencia que projeta portugal",
-            "normalized_description": "visao e engenho"
         }
     ],
     "Economia": [
@@ -27503,6 +27448,11 @@
             "normalized_description": ""
         },
         {
+            "link": "https://expresso.pt/ia-inteligencia-artificial/2026-09-26-openai-revela-que-agentes-de-ia-interagiram-com-sites-do-governo-dos-estados-unidos-e2f77f30",
+            "normalized_title": "openai revela que agentes de ia interagiram com sites do governo dos estados unidos",
+            "normalized_description": "os modelos de ia da empresa dona do chatgpt acederam a informacoes publicamente disponiveis em dois sites operados pelo regulador de mercados"
+        },
+        {
             "link": "https://pplware.sapo.pt/motores/5-motos-eletricas-a-venda-em-portugal-que-chegam-aos-288-km-de-autonomia/",
             "normalized_title": "5 motos eletricas a venda em portugal que chegam aos 288 km de autonomia",
             "normalized_description": "quem ainda acha que a mobilidade eletrica e uma conversa exclusiva do mundo automovel talvez precise de espreitar um concessionario de duas rodas as"
@@ -28886,11 +28836,6 @@
             "link": "https://www.noticiasaominuto.com/tech/3054925/interessado-no-iphone-18-pro-veja-o-derradeiro-teste-de-resistencia#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "interessado no iphone 18 pro veja o derradeiro teste de resistencia",
             "normalized_description": ""
-        },
-        {
-            "link": "https://pplware.sapo.pt/ciencia/tres-robos-da-nasa-vao-chegar-a-lua-e-decidir-sozinhos-como-explorar-o-terreno/",
-            "normalized_title": "tres robos da nasa vao chegar a lua e decidir sozinhos como explorar o terreno",
-            "normalized_description": "a nasa prepara a missao cadre que vai colocar tres pequenos rovers autonomos na lua para explorar o terreno comunicar entre si e tomar decisoes sem"
         }
     ],
     "Lifestyle": [
@@ -31910,11 +31855,6 @@
             "link": "https://www.cmjornal.pt/sociedade/detalhe/tecnicos-de-migracao-criticam-saida-de-presidente-da-aima-quando-e-necessaria-estabilidade",
             "normalized_title": "tecnicos de migracao criticam saida de presidente da aima quando e necessaria estabilidade",
             "normalized_description": "estrutura sindical adianta que a aima precisa de estabilidade de meios e de uma lideranca com conhecimento do setor"
-        },
-        {
-            "link": "https://www.publico.pt/2026/09/21/sociedade/noticia/tecnicos-criticam-saida-presidente-aima-necessaria-estabilidade-2188855",
-            "normalized_title": "tecnicos criticam saida de presidente da aima quando e necessaria estabilidade",
-            "normalized_description": "saida de pedro portugal gaspar foi conhecida nesta segunda feira"
         }
     ],
     "Política": [
@@ -35539,11 +35479,6 @@
             "link": "https://www.cmjornal.pt/tv-media/detalhe/paramount-chega-a-acordo-com-grupo-de-estados-dos-eua-para-avancar-com-fusao-com-warner",
             "normalized_title": "paramount chega a acordo com grupo de estados dos eua para avancar com fusao com warner",
             "normalized_description": "paramount conseguiu adquirir a warner depois da batalha pela compra do gigante de hollywood na sequencia da decisao da netflix de nao prosseguir com"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/21h-ministra-do-ambiente-ha-uma-diminuicao-do-uso-dos-carros-por-causa-do-preco-dos-combustiveis_a1_1766883",
-            "normalized_title": "21h ministra do ambiente ha uma diminuicao do uso dos carros por causa do preco dos combustiveis",
-            "normalized_description": ""
         }
     ],
     "Opinião": [
@@ -37925,11 +37860,6 @@
             "link": "https://expresso.pt/direitos-digitais/2026-09-21-leao-xiv-pede-que-inteligencia-artificial-seja-orientada-pela-sabedoria-e-pela-solidariedade-4fc1e543",
             "normalized_title": "leao xiv pede que inteligencia artificial seja orientada pela sabedoria e pela solidariedade",
             "normalized_description": "o papa defende que o desenvolvimento destes sistemas deve proteger a dignidade humana e reforcar a uniao entre as pessoas em vez de aprofundar"
-        },
-        {
-            "link": "https://expresso.pt/curtas/2026-09-21-trump-quis-calar-os-media-e-sem-cobertura-de-imprensa-acabou-mudo-em-evento-oficial-veja-o-video-e742f064",
-            "normalized_title": "trump quis calar os media e sem cobertura de imprensa acabou mudo em evento oficial veja o video",
-            "normalized_description": "a cnn foi banida da casa branca e a cbs a nbc a abc e a fox decidiram deixar de cobrir as atividades de donald trump como gesto de solidariedade"
         }
     ]
 }
