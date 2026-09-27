@@ -785,7 +785,7 @@
     },
     "https://expresso.pt/america-central-caraibas/cuba/2026-09-26-cuba-esta-aberta-a-relacoes-comerciais-e-de-negocios-com-empresas-dos-eua-924f5716": {
         "category": null,
-        "timestamp": "2026-09-27T11:15:56.933914+00:00",
+        "timestamp": "2026-09-27T11:31:13.268858+00:00",
         "title": "Cuba está aberta a relações comerciais e de negócios com empresas dos EUA",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -799,14 +799,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-26-ventura-critica-trump-na-guerra-contra-o-irao-nao-e-muito-justo-que-um-pais-inicie-uma-guerra-e-os-outros-tenham-de-arcar-com-os-custos-4c0632a1": {
         "category": null,
-        "timestamp": "2026-09-27T11:15:56.843759+00:00",
+        "timestamp": "2026-09-27T11:31:13.185359+00:00",
         "title": "Ventura critica Trump na guerra contra o Irão: “Não é muito justo que um país inicie uma guerra e os...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-26-trump-insta-zelensky-e-putin-a-porem-fim-a-guerra-na-ucrania-antes-do-inverno-a009b8d6": {
         "category": null,
-        "timestamp": "2026-09-27T11:15:56.888823+00:00",
+        "timestamp": "2026-09-27T11:31:13.224846+00:00",
         "title": "Trump insta Zelensky e Putin a porem fim à guerra na Ucrânia antes do inverno",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -841,8 +841,15 @@
     },
     "https://www.cmjornal.pt/domingo/detalhe/hernan-payaguaje-os-governos-veem-os-povos-indigenas-como-um-obstaculo-ao-desenvolvimento": {
         "category": null,
-        "timestamp": "2026-09-27T11:16:00.135003+00:00",
+        "timestamp": "2026-09-27T11:31:13.657349+00:00",
         "title": "Hernán Payaguaje: \"Os governos veem os povos indígenas como um obstáculo ao desenvolvimento\"",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://observador.pt/especiais/nao-tenho-a-mais-pequena-duvida-de-que-as-eleicoes-de-2029-serao-ganhas-pela-ad-e-com-maioria-absoluta/": {
+        "category": null,
+        "timestamp": "2026-09-27T11:31:13.462456+00:00",
+        "title": "\"As eleições de 2029 serão ganhas pela AD e com maioria\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
