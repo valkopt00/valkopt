@@ -41,13 +41,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://observador.pt/programas/emissao-especial/cada-historia-cada-album-e-50-anos-de-jorge-palma/": {
-        "category": null,
-        "timestamp": "2026-09-22T08:01:19.529609+00:00",
-        "title": "Cada história, cada álbum e 50 anos de Jorge Palma",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/macron-fala-de-discussao-muito-construtiva-com-trump-sobre-ormuz-e-ucrania": {
         "category": null,
         "timestamp": "2026-09-22T08:31:17.753956+00:00",
@@ -694,7 +687,7 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-09-25-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-25/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-25": {
         "category": null,
-        "timestamp": "2026-09-27T08:01:17.578341+00:00",
+        "timestamp": "2026-09-27T08:15:50.934733+00:00",
         "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -806,7 +799,7 @@
     },
     "https://expresso.pt/america-central-caraibas/cuba/2026-09-26-cuba-esta-aberta-a-relacoes-comerciais-e-de-negocios-com-empresas-dos-eua-924f5716": {
         "category": null,
-        "timestamp": "2026-09-27T08:01:17.914255+00:00",
+        "timestamp": "2026-09-27T08:15:50.832990+00:00",
         "title": "Cuba está aberta a relações comerciais e de negócios com empresas dos EUA",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -820,14 +813,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-26-ventura-critica-trump-na-guerra-contra-o-irao-nao-e-muito-justo-que-um-pais-inicie-uma-guerra-e-os-outros-tenham-de-arcar-com-os-custos-4c0632a1": {
         "category": null,
-        "timestamp": "2026-09-27T08:01:17.723845+00:00",
+        "timestamp": "2026-09-27T08:15:50.720117+00:00",
         "title": "Ventura critica Trump na guerra contra o Irão: “Não é muito justo que um país inicie uma guerra e os...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-26-trump-insta-zelensky-e-putin-a-porem-fim-a-guerra-na-ucrania-antes-do-inverno-a009b8d6": {
         "category": null,
-        "timestamp": "2026-09-27T08:01:17.821136+00:00",
+        "timestamp": "2026-09-27T08:15:50.777248+00:00",
         "title": "Trump insta Zelensky e Putin a porem fim à guerra na Ucrânia antes do inverno",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
