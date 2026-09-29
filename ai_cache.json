@@ -6,24 +6,10 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/defesa-nacional/2026-09-23-exercito-desenvolve-rede-movel-propria-para-garantir-comunicacoes-em-catastrofes-490304d9": {
-        "category": null,
-        "timestamp": "2026-09-24T11:31:13.289960+00:00",
-        "title": "Exército desenvolve rede móvel própria para garantir comunicações em catástrofes",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/defesa-nacional/2026-09-23-patrice-caine-ceo-da-thales-a-decisao-de-matar-deve-ser-humana-e-nao-da-inteligencia-artificial-ab693f33": {
         "category": null,
         "timestamp": "2026-09-24T13:01:32.059479+00:00",
         "title": "CEO de gigante europeu da defesa: “A decisão de matar deve ser humana” e não da Inteligência Artific...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/revista-e/-e/2026-09-23-aipocalypse-now-precisamos-de-um-controlo-na-ia-como-nas-armas-nucleares-na-guerra-fria-b1cd639d": {
-        "category": null,
-        "timestamp": "2026-09-24T11:31:13.211249+00:00",
-        "title": "AIpocalypse Now: precisamos de um controlo na IA como nas armas nucleares na Guerra Fria",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -750,7 +736,7 @@
     },
     "https://expresso.pt/palop/mocambique/2026-09-28-a-totalenergies-diz-em-publico-que-salvou-2500-pessoas-mas-nos-documentos-admite-que-25-mil-ficaram-a-porta-alex-perry-em-entrevista-ea835b08": {
         "category": null,
-        "timestamp": "2026-09-29T11:31:07.043846+00:00",
+        "timestamp": "2026-09-29T11:45:58.579753+00:00",
         "title": "Alex Perry: “Não quero que morram crianças africanas para eu poder aquecer a minha casa”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -785,7 +771,7 @@
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-09-29-serie-antiga-dos-certificados-de-aforro-rende-quase-50-mais-do-que-a-atual-veja-as-simulacoes-beb615ea": {
         "category": null,
-        "timestamp": "2026-09-29T11:31:05.824985+00:00",
+        "timestamp": "2026-09-29T11:45:57.433807+00:00",
         "title": "Série antiga dos Certificados de Aforro rende quase 50% mais do que a atual: veja as simulações",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -806,8 +792,15 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-29-nato-pede-reforco-do-apoio-a-ucrania-perante-alegados-atos-de-sabotagem-russos-5c3a12ae": {
         "category": null,
-        "timestamp": "2026-09-29T11:31:05.765924+00:00",
+        "timestamp": "2026-09-29T11:45:57.393768+00:00",
         "title": "NATO pede reforço do apoio à Ucrânia perante alegados atos de sabotagem russos",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/poder-local/2026-09-29-castro-almeida-descentralizar-bem-nao-diminui-o-estado-torna-o-mais-capaz-d20f592a": {
+        "category": null,
+        "timestamp": "2026-09-29T11:45:58.081673+00:00",
+        "title": "Castro Almeida: “Descentralizar bem não diminui o Estado, torna-o mais capaz”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
