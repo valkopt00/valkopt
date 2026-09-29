@@ -1,25 +1,4 @@
 {
-    "https://visao.pt/simbalinos-a-sexta/2026-09-22-cartoon-um-simbalino-especial-em-homenagem-a-jorge-palma-por-jose-antonio-fundo/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-especial-em-homenagem-a-jorge-palma-por-jose-antonio-fundo": {
-        "category": null,
-        "timestamp": "2026-09-24T16:15:54.239669+00:00",
-        "title": "Cartoon: Um Simbalino especial (em homenagem a Jorge Palma), por José António Fundo",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/subida-dos-juros/2026-09-24-acoes-em-alta-apesar-da-turbulencia-no-medio-oriente-14c4fe44": {
-        "category": null,
-        "timestamp": "2026-09-24T16:15:54.140540+00:00",
-        "title": "Ações em alta apesar da turbulência no Médio Oriente",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/inovacao-e-produtividade/2026-09-24-transportes-estadios-hospitais-e-fabricas-a-tecnologia-da-wavecom-anda-por-ai-f4c48036": {
-        "category": null,
-        "timestamp": "2026-09-24T16:15:53.488090+00:00",
-        "title": "Como a tecnologia da Wavecom localiza doentes, trabalhadores e autocarros",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/design/2026-09-24-ia-nao-e-uma-ferramenta-senhores-e-uma-nova-especie-89e90a6c-1": {
         "category": null,
         "timestamp": "2026-09-24T17:45:54.454567+00:00",
@@ -59,13 +38,6 @@
         "category": null,
         "timestamp": "2026-09-24T22:15:52.948700+00:00",
         "title": "Teatro: No meio do mundo, longe de tudo, surge um retrato da humanidade",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/administracao-publica/2026-09-24-conselho-das-financas-publicas-esta-mais-otimista-com-economia-nacional-mas-alerta-que-melhoria-nao-e-estrutural-1e4c2f1a": {
-        "category": null,
-        "timestamp": "2026-09-24T16:15:53.015803+00:00",
-        "title": "Conselho das Finanças Públicas está mais otimista com economia nacional, mas alerta que melhoria não...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -736,7 +708,7 @@
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-09-29-serie-antiga-dos-certificados-de-aforro-rende-quase-50-mais-do-que-a-atual-veja-as-simulacoes-beb615ea": {
         "category": null,
-        "timestamp": "2026-09-29T16:15:54.619931+00:00",
+        "timestamp": "2026-09-29T16:31:11.748326+00:00",
         "title": "Série antiga dos Certificados de Aforro rende quase 50% mais do que a atual: veja as simulações",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -757,14 +729,14 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-29-nato-pede-reforco-do-apoio-a-ucrania-perante-alegados-atos-de-sabotagem-russos-5c3a12ae": {
         "category": null,
-        "timestamp": "2026-09-29T16:15:52.363519+00:00",
+        "timestamp": "2026-09-29T16:31:11.167834+00:00",
         "title": "NATO pede reforço do apoio à Ucrânia perante alegados atos de sabotagem russos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-09-29-castro-almeida-descentralizar-bem-nao-diminui-o-estado-torna-o-mais-capaz-d20f592a": {
         "category": null,
-        "timestamp": "2026-09-29T16:15:52.318121+00:00",
+        "timestamp": "2026-09-29T16:31:11.097090+00:00",
         "title": "Castro Almeida: “Descentralizar bem não diminui o Estado, torna-o mais capaz”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -778,22 +750,29 @@
     },
     "https://expresso.pt/inovacao-e-produtividade/2026-09-29-a-dicotomia-entre-estado-e-mercados-e-uma-dicotomia-de-gente-preguicosa-69a564d8": {
         "category": null,
-        "timestamp": "2026-09-29T16:15:52.275150+00:00",
+        "timestamp": "2026-09-29T16:31:10.998245+00:00",
         "title": "“A dicotomia entre Estado e mercados é uma dicotomia de gente preguiçosa”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/russia/2026-09-29-seis-mortos-na-queda-de-aviao-militar-russo-durante-voo-de-treino-53eafe18": {
         "category": null,
-        "timestamp": "2026-09-29T16:15:52.231276+00:00",
+        "timestamp": "2026-09-29T16:31:10.922756+00:00",
         "title": "Seis mortos na queda de avião militar russo durante voo de treino",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cmr/podcasts/doa-a-quem-doer/detalhe/mulher-que-acreditava-ter-uma-relacao-amorosa-com-cantor-ze-amaro-e-burlada-em-150-mil-euros": {
         "category": null,
-        "timestamp": "2026-09-29T16:15:54.314958+00:00",
+        "timestamp": "2026-09-29T16:31:12.615609+00:00",
         "title": "Mulher que acreditava ter uma relação amorosa com cantor Zé Amaro é burlada em 150 mil euros",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/partidos-politicos/2026-09-29-trata-se-da-justica-a-fazer-o-seu-trabalho-diz-carneiro-sobre-caso-das-gemeas-c20151d2": {
+        "category": null,
+        "timestamp": "2026-09-29T16:31:11.439651+00:00",
+        "title": "\"Trata-se da justiça a fazer o seu trabalho\", diz Carneiro sobre caso das gémeas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
