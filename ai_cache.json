@@ -62,13 +62,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/cnn-autorizada-a-regressar-a-casa-branca-apos-ordem-do-tribunal": {
-        "category": null,
-        "timestamp": "2026-09-24T16:31:17.322597+00:00",
-        "title": "CNN autorizada a regressar à Casa Branca após ordem do tribunal",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.rtp.pt/noticias/hoquei/portugal-confiante-para-o-mundial-de-hoquei-em-patins-apos-estagio-positivo_d1767529": {
         "category": null,
         "timestamp": "2026-09-25T05:45:52.312331+00:00",
@@ -708,7 +701,7 @@
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-09-29-serie-antiga-dos-certificados-de-aforro-rende-quase-50-mais-do-que-a-atual-veja-as-simulacoes-beb615ea": {
         "category": null,
-        "timestamp": "2026-09-29T16:31:11.748326+00:00",
+        "timestamp": "2026-09-29T16:45:54.748343+00:00",
         "title": "Série antiga dos Certificados de Aforro rende quase 50% mais do que a atual: veja as simulações",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -729,14 +722,14 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-29-nato-pede-reforco-do-apoio-a-ucrania-perante-alegados-atos-de-sabotagem-russos-5c3a12ae": {
         "category": null,
-        "timestamp": "2026-09-29T16:31:11.167834+00:00",
+        "timestamp": "2026-09-29T16:45:54.410823+00:00",
         "title": "NATO pede reforço do apoio à Ucrânia perante alegados atos de sabotagem russos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-09-29-castro-almeida-descentralizar-bem-nao-diminui-o-estado-torna-o-mais-capaz-d20f592a": {
         "category": null,
-        "timestamp": "2026-09-29T16:31:11.097090+00:00",
+        "timestamp": "2026-09-29T16:45:54.367278+00:00",
         "title": "Castro Almeida: “Descentralizar bem não diminui o Estado, torna-o mais capaz”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -750,29 +743,43 @@
     },
     "https://expresso.pt/inovacao-e-produtividade/2026-09-29-a-dicotomia-entre-estado-e-mercados-e-uma-dicotomia-de-gente-preguicosa-69a564d8": {
         "category": null,
-        "timestamp": "2026-09-29T16:31:10.998245+00:00",
+        "timestamp": "2026-09-29T16:45:54.327139+00:00",
         "title": "“A dicotomia entre Estado e mercados é uma dicotomia de gente preguiçosa”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/russia/2026-09-29-seis-mortos-na-queda-de-aviao-militar-russo-durante-voo-de-treino-53eafe18": {
         "category": null,
-        "timestamp": "2026-09-29T16:31:10.922756+00:00",
+        "timestamp": "2026-09-29T16:45:54.289874+00:00",
         "title": "Seis mortos na queda de avião militar russo durante voo de treino",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cmr/podcasts/doa-a-quem-doer/detalhe/mulher-que-acreditava-ter-uma-relacao-amorosa-com-cantor-ze-amaro-e-burlada-em-150-mil-euros": {
         "category": null,
-        "timestamp": "2026-09-29T16:31:12.615609+00:00",
+        "timestamp": "2026-09-29T16:45:55.937642+00:00",
         "title": "Mulher que acreditava ter uma relação amorosa com cantor Zé Amaro é burlada em 150 mil euros",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-29-trata-se-da-justica-a-fazer-o-seu-trabalho-diz-carneiro-sobre-caso-das-gemeas-c20151d2": {
         "category": null,
-        "timestamp": "2026-09-29T16:31:11.439651+00:00",
+        "timestamp": "2026-09-29T16:45:54.882628+00:00",
         "title": "\"Trata-se da justiça a fazer o seu trabalho\", diz Carneiro sobre caso das gémeas",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/partidos-politicos/2026-09-29-esquerda-avisa-que-oe2027-nao-pode-ser-orcamento-expediente-e-lamenta-falta-de-medidas-para-responder-ao-aumento-do-custo-de-vida-8a8facef": {
+        "category": null,
+        "timestamp": "2026-09-29T16:45:54.807044+00:00",
+        "title": "Esquerda avisa que OE2027 não pode ser \"orçamento expediente” e lamenta falta de medidas para respon...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/defesa-nacional/2026-09-29-psd-chega-e-cds-chumbam-subcomissao-sobre-emprestimos-safe-proposta-pelo-ps-60d9c345": {
+        "category": null,
+        "timestamp": "2026-09-29T16:45:54.846853+00:00",
+        "title": "PSD, Chega e CDS chumbam subcomissão sobre empréstimos SAFE proposta pelo PS",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
