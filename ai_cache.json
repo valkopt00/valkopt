@@ -48,13 +48,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.petsandcompany.pt/mundo-animal/detalhe/pequeno-malhado-e-muito-raro-saiba-mais-sobre-o-felino-que-a-ciencia-so-agora-descobriu": {
-        "category": null,
-        "timestamp": "2026-09-24T13:45:55.896283+00:00",
-        "title": "Pequeno, malhado e muito raro. Saiba mais sobre o felino que a ciência só agora descobriu",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/expressinho/2026-09-24-missao-da-semana-vamos-a-caca-dos-graos-magicos-9e689c5d": {
         "category": null,
         "timestamp": "2026-09-24T21:31:14.108934+00:00",
@@ -750,7 +743,7 @@
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-09-29-serie-antiga-dos-certificados-de-aforro-rende-quase-50-mais-do-que-a-atual-veja-as-simulacoes-beb615ea": {
         "category": null,
-        "timestamp": "2026-09-29T13:45:55.273593+00:00",
+        "timestamp": "2026-09-29T14:01:20.377688+00:00",
         "title": "Série antiga dos Certificados de Aforro rende quase 50% mais do que a atual: veja as simulações",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -771,14 +764,14 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-29-nato-pede-reforco-do-apoio-a-ucrania-perante-alegados-atos-de-sabotagem-russos-5c3a12ae": {
         "category": null,
-        "timestamp": "2026-09-29T13:45:53.683534+00:00",
+        "timestamp": "2026-09-29T14:01:20.001928+00:00",
         "title": "NATO pede reforço do apoio à Ucrânia perante alegados atos de sabotagem russos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-09-29-castro-almeida-descentralizar-bem-nao-diminui-o-estado-torna-o-mais-capaz-d20f592a": {
         "category": null,
-        "timestamp": "2026-09-29T13:45:53.309196+00:00",
+        "timestamp": "2026-09-29T14:01:19.933456+00:00",
         "title": "Castro Almeida: “Descentralizar bem não diminui o Estado, torna-o mais capaz”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -787,6 +780,13 @@
         "category": null,
         "timestamp": "2026-09-29T12:45:58.846911+00:00",
         "title": "Greve em França: incêndios e milhares nas ruas",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/inovacao-e-produtividade/2026-09-29-a-dicotomia-entre-estado-e-mercados-e-uma-dicotomia-de-gente-preguicosa-69a564d8": {
+        "category": null,
+        "timestamp": "2026-09-29T14:01:20.446725+00:00",
+        "title": "“A dicotomia entre Estado e mercados é uma dicotomia de gente preguiçosa”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
