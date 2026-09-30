@@ -41,20 +41,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-09-24-primeiro-ministro-foi-a-bolsa-de-nova-iorque-para-atrair-investidores-norte-americanos-6c54a684": {
-        "category": null,
-        "timestamp": "2026-09-25T12:31:11.938204+00:00",
-        "title": "Primeiro-ministro foi à Bolsa de Nova Iorque para atrair investidores norte-americanos",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/subida-dos-juros/2026-09-24-como-navegar-em-mare-de-juros-altos--05c5213c": {
-        "category": null,
-        "timestamp": "2026-09-25T12:31:12.005065+00:00",
-        "title": "Como navegar em maré de juros altos?",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/expressinho/2026-09-24-queres-viajar-ate-aos-dias-medievais--invade-o-castelo-e69e7e14": {
         "category": null,
         "timestamp": "2026-09-25T22:15:50.258291+00:00",
@@ -631,7 +617,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-29-montenegro-da-o-sinal-que-carneiro-pediu-contamos-com-o-ps-para-acertar-connosco-evolucoes-importantes-do-texto-constitucional-55688255": {
         "category": null,
-        "timestamp": "2026-09-30T12:16:06.379114+00:00",
+        "timestamp": "2026-09-30T12:31:28.926570+00:00",
         "title": "Montenegro dá o sinal que Carneiro pediu: \"Contamos com o PS para acertar connosco evoluções importa...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -645,14 +631,14 @@
     },
     "https://expresso.pt/empresas-negocios/2026-09-30-lince-capital-investe-em-negocio-de-saude-que-tem-cristiano-ronaldo-como-acionista-643da78c": {
         "category": null,
-        "timestamp": "2026-09-30T12:16:06.029595+00:00",
+        "timestamp": "2026-09-30T12:31:28.676551+00:00",
         "title": "Lince Capital investe em negócio de saúde que tem Cristiano Ronaldo como acionista",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/marrocos/2026-09-30-marrocos-vai-ter-uma-primeira-ministra-pela-primeira-vez-na-historia-do-pais-22cf169c": {
         "category": null,
-        "timestamp": "2026-09-30T12:16:04.162545+00:00",
+        "timestamp": "2026-09-30T12:31:26.396270+00:00",
         "title": "Marrocos vai ter uma primeira-ministra pela primeira vez na história do país",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -666,36 +652,43 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-30-ataques-aereos-russos-causam-pelo-menos-dois-mortos-e-quatro-feridos-em-kiev-ad69c490": {
         "category": null,
-        "timestamp": "2026-09-30T12:16:04.108585+00:00",
+        "timestamp": "2026-09-30T12:31:26.349918+00:00",
         "title": "Ataques aéreos russos causam pelo menos dois mortos e quatro feridos em Kiev",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-09-30-maioria-das-herancas-de-certificados-de-aforro-que-estao-pendentes-permanecem-a-espera-das-proprias-familias-d44cf331": {
         "category": null,
-        "timestamp": "2026-09-30T12:16:04.053821+00:00",
+        "timestamp": "2026-09-30T12:31:26.183897+00:00",
         "title": "Maioria das heranças de Certificados de Aforro que estão pendentes permanecem à espera das próprias ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/restaurantes/2026-09-30-restaurantes-casar-mesa-e-familia-numa-nova-velha-tasca-em-alcantara-33201db6": {
         "category": null,
-        "timestamp": "2026-09-30T12:16:03.996151+00:00",
+        "timestamp": "2026-09-30T12:31:26.138968+00:00",
         "title": "Restaurantes: Casar mesa e família numa nova velha 'tasca' em Alcântara",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-30-depois-de-musk-cortar-o-starlink-a-russia-putin-acelera-sistema-rival-proprio-que-pode-reduzir-vantagem-da-ucrania-e2afdb66": {
         "category": null,
-        "timestamp": "2026-09-30T12:16:03.927333+00:00",
+        "timestamp": "2026-09-30T12:31:26.094711+00:00",
         "title": "Depois de Musk cortar o Starlink à Rússia, Putin acelera sistema rival próprio que pode reduzir vant...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/homem-de-24-anos-encontrado-morto-em-casa-em-beja": {
         "category": null,
-        "timestamp": "2026-09-30T12:16:04.830327+00:00",
+        "timestamp": "2026-09-30T12:31:28.519236+00:00",
         "title": "Homem de 24 anos encontrado morto em casa em Beja",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.rtp.pt/noticias/rali-de-portugal/viseu-diz-nao-ao-rali-de-portugal-com-exclusao-no-mundial-em-2027_d1768623": {
+        "category": null,
+        "timestamp": "2026-09-30T12:31:26.483441+00:00",
+        "title": "Viseu diz \"não\" ao Rali de Portugal com exclusão no Mundial em 2027",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
