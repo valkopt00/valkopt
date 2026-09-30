@@ -645,21 +645,21 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-29-chega-e-ps-atacam-novo-regime-de-arrendamento-e-empurram-governo-para-a-especialidade-d7cfcd3d": {
         "category": null,
-        "timestamp": "2026-09-30T10:45:54.353666+00:00",
+        "timestamp": "2026-09-30T11:01:24.664803+00:00",
         "title": "Chega e PS atacam novo regime de arrendamento e empurram Governo para a especialidade",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-29-pacto-para-a-saude-adalberto-apela-a-conversa-serena-e-entendimento-com-partidos-despidos-de-casaco-partidario-1d178919": {
         "category": null,
-        "timestamp": "2026-09-30T10:45:54.493437+00:00",
+        "timestamp": "2026-09-30T11:01:24.886555+00:00",
         "title": "Pacto para a Saúde: Adalberto apela a \"conversa serena\" e \"entendimento\" com partidos despidos de \"c...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-29-montenegro-da-o-sinal-que-carneiro-pediu-contamos-com-o-ps-para-acertar-connosco-evolucoes-importantes-do-texto-constitucional-55688255": {
         "category": null,
-        "timestamp": "2026-09-30T10:45:54.276596+00:00",
+        "timestamp": "2026-09-30T11:01:24.593700+00:00",
         "title": "Montenegro dá o sinal que Carneiro pediu: \"Contamos com o PS para acertar connosco evoluções importa...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -673,14 +673,14 @@
     },
     "https://expresso.pt/empresas-negocios/2026-09-30-lince-capital-investe-em-negocio-de-saude-que-tem-cristiano-ronaldo-como-acionista-643da78c": {
         "category": null,
-        "timestamp": "2026-09-30T10:45:54.126288+00:00",
+        "timestamp": "2026-09-30T11:01:23.811069+00:00",
         "title": "Lince Capital investe em negócio de saúde que tem Cristiano Ronaldo como acionista",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/marrocos/2026-09-30-marrocos-vai-ter-uma-primeira-ministra-pela-primeira-vez-na-historia-do-pais-22cf169c": {
         "category": null,
-        "timestamp": "2026-09-30T10:45:52.843285+00:00",
+        "timestamp": "2026-09-30T11:01:22.333999+00:00",
         "title": "Marrocos vai ter uma primeira-ministra pela primeira vez na história do país",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -694,15 +694,22 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-09-30-ataques-aereos-russos-causam-pelo-menos-dois-mortos-e-quatro-feridos-em-kiev-ad69c490": {
         "category": null,
-        "timestamp": "2026-09-30T10:45:52.751315+00:00",
+        "timestamp": "2026-09-30T11:01:22.274683+00:00",
         "title": "Ataques aéreos russos causam pelo menos dois mortos e quatro feridos em Kiev",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-09-30-maioria-das-herancas-de-certificados-de-aforro-que-estao-pendentes-permanecem-a-espera-das-proprias-familias-d44cf331": {
         "category": null,
-        "timestamp": "2026-09-30T10:45:54.059155+00:00",
+        "timestamp": "2026-09-30T11:01:24.255637+00:00",
         "title": "Maioria das heranças de Certificados de Aforro que estão pendentes permanecem à espera das próprias ...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/restaurantes/2026-09-30-restaurantes-casar-mesa-e-familia-numa-nova-velha-tasca-em-alcantara-33201db6": {
+        "category": null,
+        "timestamp": "2026-09-30T11:01:24.190397+00:00",
+        "title": "Restaurantes: Casar mesa e família numa nova velha 'tasca' em Alcântara",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
