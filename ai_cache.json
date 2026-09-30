@@ -55,20 +55,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2026-09-24-a-gronelandia-e-nossa-mas-e-deles.-xi-em-viagem-8d276d5d": {
-        "category": null,
-        "timestamp": "2026-09-25T09:46:05.982490+00:00",
-        "title": "A Gronelândia é nossa, mas é deles. Xi em viagem",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/partidos-politicos/2026-09-24-ha-um-processo-de-reorganizacao-a-esquerda-ha-dois-novos-partidos-na-politica-portuguesa-c830ca76": {
-        "category": null,
-        "timestamp": "2026-09-25T09:46:06.020642+00:00",
-        "title": "“Há um processo de reorganização à esquerda”: há dois novos partidos na política portuguesa",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/semanario/subida-dos-juros/2026-09-24-habitacao-com-as-taxas-de-juro-a-subir-saiba-como-contratar-e-renegociar-o-credito-87bdeebc": {
         "category": null,
         "timestamp": "2026-09-25T11:16:02.986011+00:00",
@@ -659,21 +645,21 @@
     },
     "https://expresso.pt/partidos-politicos/2026-09-29-chega-e-ps-atacam-novo-regime-de-arrendamento-e-empurram-governo-para-a-especialidade-d7cfcd3d": {
         "category": null,
-        "timestamp": "2026-09-30T09:45:53.533472+00:00",
+        "timestamp": "2026-09-30T10:01:25.486006+00:00",
         "title": "Chega e PS atacam novo regime de arrendamento e empurram Governo para a especialidade",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-29-pacto-para-a-saude-adalberto-apela-a-conversa-serena-e-entendimento-com-partidos-despidos-de-casaco-partidario-1d178919": {
         "category": null,
-        "timestamp": "2026-09-30T09:45:53.592381+00:00",
+        "timestamp": "2026-09-30T10:01:25.528071+00:00",
         "title": "Pacto para a Saúde: Adalberto apela a \"conversa serena\" e \"entendimento\" com partidos despidos de \"c...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-09-29-montenegro-da-o-sinal-que-carneiro-pediu-contamos-com-o-ps-para-acertar-connosco-evolucoes-importantes-do-texto-constitucional-55688255": {
         "category": null,
-        "timestamp": "2026-09-30T09:45:53.460145+00:00",
+        "timestamp": "2026-09-30T10:01:25.433077+00:00",
         "title": "Montenegro dá o sinal que Carneiro pediu: \"Contamos com o PS para acertar connosco evoluções importa...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -687,29 +673,36 @@
     },
     "https://expresso.pt/empresas-negocios/2026-09-30-lince-capital-investe-em-negocio-de-saude-que-tem-cristiano-ronaldo-como-acionista-643da78c": {
         "category": null,
-        "timestamp": "2026-09-30T09:45:53.133493+00:00",
+        "timestamp": "2026-09-30T10:01:25.152493+00:00",
         "title": "Lince Capital investe em negócio de saúde que tem Cristiano Ronaldo como acionista",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/marrocos/2026-09-30-marrocos-vai-ter-uma-primeira-ministra-pela-primeira-vez-na-historia-do-pais-22cf169c": {
         "category": null,
-        "timestamp": "2026-09-30T09:45:53.067798+00:00",
+        "timestamp": "2026-09-30T10:01:23.288458+00:00",
         "title": "Marrocos vai ter uma primeira-ministra pela primeira vez na história do país",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/teerao-recebe-resposta-oficial-de-washington-a-ultima-proposta-de-paz": {
         "category": null,
-        "timestamp": "2026-09-30T09:45:52.848931+00:00",
+        "timestamp": "2026-09-30T10:01:23.863899+00:00",
         "title": "Teerão recebe resposta oficial de Washington à última proposta de paz",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-09-30-ataques-aereos-russos-causam-pelo-menos-dois-mortos-e-quatro-feridos-em-kiev-ad69c490": {
         "category": null,
-        "timestamp": "2026-09-30T09:45:53.011935+00:00",
+        "timestamp": "2026-09-30T10:01:23.226177+00:00",
         "title": "Ataques aéreos russos causam pelo menos dois mortos e quatro feridos em Kiev",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/financas-pessoais-poupanca/2026-09-30-maioria-das-herancas-de-certificados-de-aforro-que-estao-pendentes-permanecem-a-espera-das-proprias-familias-d44cf331": {
+        "category": null,
+        "timestamp": "2026-09-30T10:01:24.937278+00:00",
+        "title": "Maioria das heranças de Certificados de Aforro que estão pendentes permanecem à espera das próprias ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
