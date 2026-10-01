@@ -41,13 +41,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/cmr/podcasts/crime-e-castigo/detalhe/pai-perdoa-mulher-que-matou-os-tres-filhos-e-ja-vive-novo-amor": {
-        "category": null,
-        "timestamp": "2026-09-26T10:45:57.811522+00:00",
-        "title": "Pai perdoa mulher que matou os três filhos e já vive novo amor",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/cascais-investe-1-8-milhoes-de-euros-em-bolsas-de-estudo-e-apoia-1-200-alunos": {
         "category": null,
         "timestamp": "2026-09-26T11:45:58.073149+00:00",
@@ -631,14 +624,14 @@
     },
     "https://expresso.pt/teatro-danca/2026-09-30-teatro--danca-bater-palmas-e-dar-estaladas-e-a-proposta-politica-de-clap--slap-dbd30cd4": {
         "category": null,
-        "timestamp": "2026-10-01T10:45:54.130718+00:00",
+        "timestamp": "2026-10-01T11:01:22.581742+00:00",
         "title": "Teatro & Dança: Bater palmas e dar estaladas é a proposta política de \"Clap & Slap\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-09-30-eleicoes-presidenciais-no-brasil-lula-da-silva-ou-flavio-bolsonaro-o-duelo-que-divide-um-pais-80d3eed9": {
         "category": null,
-        "timestamp": "2026-10-01T10:45:54.189797+00:00",
+        "timestamp": "2026-10-01T11:01:22.624404+00:00",
         "title": "Lula Velho, Bolsonaro Novo: o Brasil volta ao duelo que o divide",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -673,7 +666,7 @@
     },
     "https://expresso.pt/defesa-nacional/2026-10-01-chefe-da-armada-alerta-para-atraso-da-nato-e-riscos-militares-da-ia-a-etica-esta-na-primeira-lista-das-baixas-num-conflito-33d5d9e0": {
         "category": null,
-        "timestamp": "2026-10-01T10:45:53.424679+00:00",
+        "timestamp": "2026-10-01T11:01:19.701264+00:00",
         "title": "Chefe da Armada alerta para atraso da NATO e riscos militares da IA: \"A ética está na primeira lista...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -687,15 +680,22 @@
     },
     "https://expresso.pt/saude-publica/2026-10-01-igas-abre-inquerito-a-surto-de-gripe-a-em-lar-de-estremoz-que-provocou-seis-mortos-4f34a51a": {
         "category": null,
-        "timestamp": "2026-10-01T10:45:53.344367+00:00",
+        "timestamp": "2026-10-01T11:01:19.646457+00:00",
         "title": "IGAS abre inquérito a surto de gripe A em lar de Estremoz que provocou seis mortos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-01-paulo-raimundo-acusa-ps-de-dar-gas-as-politicas-do-governo-com-abstencao-no-orcamento-do-estado-e65c0a4c": {
         "category": null,
-        "timestamp": "2026-10-01T10:45:56.717358+00:00",
+        "timestamp": "2026-10-01T11:01:19.601701+00:00",
         "title": "Paulo Raimundo acusa PS de ”dar gás” às políticas do Governo com abstenção no Orçamento do Estado",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/cmr/podcasts/crime-e-castigo/detalhe/quem-matou-os-tres-filhos-de-lindsay-a-america-e-o-mundo-estao-em-suspenso": {
+        "category": null,
+        "timestamp": "2026-10-01T11:01:20.523200+00:00",
+        "title": "Quem matou os três filhos de Lindsay? A América e o mundo estão em suspenso",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
