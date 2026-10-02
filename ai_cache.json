@@ -27,13 +27,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.publico.pt/2026/09/26/terroir/noticia/apoio-extraordinario-douro-nao-chegara-anunciados-50-centimos-quilo-uva-2189339": {
-        "category": null,
-        "timestamp": "2026-09-27T01:15:59.002104+00:00",
-        "title": "Apoio extraordinário para o Douro não chegará aos anunciados 50 cêntimos por quilo de uva",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/partidos-politicos/2026-09-26-ventura-critica-trump-na-guerra-contra-o-irao-nao-e-muito-justo-que-um-pais-inicie-uma-guerra-e-os-outros-tenham-de-arcar-com-os-custos-4c0632a1": {
         "category": null,
         "timestamp": "2026-09-28T08:01:18.472006+00:00",
@@ -722,49 +715,49 @@
     },
     "https://expresso.pt/semanario/primeiro": {
         "category": null,
-        "timestamp": "2026-10-02T01:15:50.104885+00:00",
+        "timestamp": "2026-10-02T01:31:11.932149+00:00",
         "title": "A primeira página do Expresso",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-10-02T01:15:50.156096+00:00",
+        "timestamp": "2026-10-02T01:31:11.986167+00:00",
         "title": "Lula Velho, Bolsonaro Novo: o Brasil volta ao duelo que o divide, na Revista E",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/economia": {
         "category": null,
-        "timestamp": "2026-10-02T01:15:50.203123+00:00",
+        "timestamp": "2026-10-02T01:31:12.062584+00:00",
         "title": "A 1ª página do Expresso Economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/ideias": {
         "category": null,
-        "timestamp": "2026-10-02T01:15:50.263030+00:00",
+        "timestamp": "2026-10-02T01:31:12.126948+00:00",
         "title": "IDEIAS: A IA vai destruir a Humanidade (ou nada é o que parece?)",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-01-flydubai.-incidente-em-voo-sob-investigacao-c4f25b88": {
         "category": null,
-        "timestamp": "2026-10-02T01:15:50.334383+00:00",
+        "timestamp": "2026-10-02T01:31:12.281822+00:00",
         "title": "FlyDubai. Incidente em voo sob investigação",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-01-pedro-nuno-santos-e-mario-centeno-fantasmas-da-lideranca-de-carneiro-que-se-anulam-mutuamente-67f46db0": {
         "category": null,
-        "timestamp": "2026-10-02T01:15:51.408336+00:00",
+        "timestamp": "2026-10-02T01:31:12.800672+00:00",
         "title": "Pedro Nuno Santos e Mário Centeno, ‘fantasmas’ da liderança de Carneiro que se anulam mutuamente",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-01-temperatura.-terceiro-verao-mais-quente-desde-1931-a40218d8": {
         "category": null,
-        "timestamp": "2026-10-02T01:15:51.490027+00:00",
+        "timestamp": "2026-10-02T01:31:13.660103+00:00",
         "title": "Temperatura. Terceiro verão mais quente desde 1931",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -785,28 +778,28 @@
     },
     "https://expresso.pt/exposicoes/2026-10-01-exposicoes-para-onde-os-sonambulos-vao--pergunta-a-brasileira-yuli-yamagata-65909685": {
         "category": null,
-        "timestamp": "2026-10-02T01:15:52.296051+00:00",
+        "timestamp": "2026-10-02T01:31:14.358869+00:00",
         "title": "Exposições: Para Onde os Sonâmbulos Vão?, pergunta a brasileira Yuli Yamagata",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-01-psd-numa-encruzilhada-terceiro-lugar-pode-mudar-o-jogo-260efc01": {
         "category": null,
-        "timestamp": "2026-10-02T01:15:52.359412+00:00",
+        "timestamp": "2026-10-02T01:31:14.427708+00:00",
         "title": "PSD numa encruzilhada: terceiro lugar pode mudar o jogo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-01-sete-rios-o-verde-da-flixbus-juntou-se-ao-azul-da-rede-expressos-mas-a-disputa-pelo-terminal-continua-4abdd644": {
         "category": null,
-        "timestamp": "2026-10-02T01:15:52.523954+00:00",
+        "timestamp": "2026-10-02T01:31:14.691234+00:00",
         "title": "Sete Rios: o verde da FlixBus juntou-se ao azul da Rede Expressos mas a disputa pelo terminal contin...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-01-setubal.-peninsula-no-limite-da-agua-disponivel-b7cadc44": {
         "category": null,
-        "timestamp": "2026-10-02T01:15:52.928421+00:00",
+        "timestamp": "2026-10-02T01:31:15.336552+00:00",
         "title": "Setúbal. Península no limite da água disponível",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -834,7 +827,7 @@
     },
     "https://expresso.pt/expressinho/2026-10-02-andorinha-locomotiva-de-estudantes-portugueses-impressionou-no-reino-unido-22447558": {
         "category": null,
-        "timestamp": "2026-10-02T01:15:50.038165+00:00",
+        "timestamp": "2026-10-02T01:31:11.854050+00:00",
         "title": "Andorinha: locomotiva de estudantes portugueses impressionou no Reino Unido",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
