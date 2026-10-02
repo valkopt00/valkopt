@@ -659,35 +659,35 @@
     },
     "https://expresso.pt/semanario/primeiro": {
         "category": null,
-        "timestamp": "2026-10-02T13:31:13.846670+00:00",
+        "timestamp": "2026-10-02T13:45:53.553827+00:00",
         "title": "A primeira página do Expresso",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-10-02T13:31:13.893616+00:00",
+        "timestamp": "2026-10-02T13:45:53.701713+00:00",
         "title": "Lula Velho, Bolsonaro Novo: o Brasil volta ao duelo que o divide, na Revista E",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/economia": {
         "category": null,
-        "timestamp": "2026-10-02T13:31:13.934045+00:00",
+        "timestamp": "2026-10-02T13:45:53.843534+00:00",
         "title": "A 1ª página do Expresso Economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/ideias": {
         "category": null,
-        "timestamp": "2026-10-02T13:31:13.981952+00:00",
+        "timestamp": "2026-10-02T13:45:53.883202+00:00",
         "title": "IDEIAS: A IA vai destruir a Humanidade (ou nada é o que parece?)",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-01-flydubai.-incidente-em-voo-sob-investigacao-c4f25b88": {
         "category": null,
-        "timestamp": "2026-10-02T13:31:14.022171+00:00",
+        "timestamp": "2026-10-02T13:45:53.940186+00:00",
         "title": "FlyDubai. Incidente em voo sob investigação",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -771,7 +771,7 @@
     },
     "https://expresso.pt/expressinho/2026-10-02-andorinha-locomotiva-de-estudantes-portugueses-impressionou-no-reino-unido-22447558": {
         "category": null,
-        "timestamp": "2026-10-02T13:31:13.806785+00:00",
+        "timestamp": "2026-10-02T13:45:53.492391+00:00",
         "title": "Andorinha: locomotiva de estudantes portugueses impressionou no Reino Unido",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -785,14 +785,14 @@
     },
     "https://expresso.pt/administracao-publica/2026-10-02-greve-fecha-escolas-e-paralisa-servicos-em-varios-pontos-do-pais-0dbb94aa": {
         "category": null,
-        "timestamp": "2026-10-02T13:31:13.759957+00:00",
+        "timestamp": "2026-10-02T13:45:53.427975+00:00",
         "title": "Greve fecha escolas e paralisa serviços em vários pontos do país",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-10-02-bombardeamentos-russos-em-kiev-provocam-pelo-menos-um-morto-e-encerram-ponte-8e9fa000": {
         "category": null,
-        "timestamp": "2026-10-02T13:31:13.712703+00:00",
+        "timestamp": "2026-10-02T13:45:53.367586+00:00",
         "title": "Bombardeamentos russos em Kiev provocam pelo menos um morto e encerram ponte",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -813,7 +813,7 @@
     },
     "https://www.rtp.pt/noticias/rtpeuropa-portugal/centro-de-apoio-de-migrantes-funciona-ha-mais-de-tres-decadas-no-centro-de-lisboa_v1765495": {
         "category": null,
-        "timestamp": "2026-10-02T11:31:10.541063+00:00",
+        "timestamp": "2026-10-02T13:45:54.217302+00:00",
         "title": "Centro de apoio de migrantes funciona há mais de três décadas no centro de Lisboa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -834,7 +834,7 @@
     },
     "https://www.rtp.pt/noticias/rtpeuropa/em-melgaco-os-fundos-europeus-chegam-em-forma-de-aulas-de-costura_v1769113": {
         "category": null,
-        "timestamp": "2026-10-02T13:31:14.623113+00:00",
+        "timestamp": "2026-10-02T13:45:54.172442+00:00",
         "title": "Em Melgaço, os fundos europeus chegam em forma de aulas de costura",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -848,14 +848,14 @@
     },
     "https://www.rtp.pt/noticias/rtpeuropa-portugal/eurodeputados-apelam-a-adaptacao-das-politicas-de-coesao-nas-regioes-ultraperifericas_v1769112": {
         "category": null,
-        "timestamp": "2026-10-02T11:45:59.280768+00:00",
+        "timestamp": "2026-10-02T13:45:54.073626+00:00",
         "title": "Eurodeputados apelam à adaptação das políticas de coesão nas regiões ultraperiféricas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/rtpeuropa-entrevistas/sanna-marin-antiga-primeira-ministra-da-finlandia-acredito-vivamente-que-putin-esta-a-planear-uma-guerra-muito-maior-contra-a-europa_v1769114": {
         "category": null,
-        "timestamp": "2026-10-02T13:16:02.689067+00:00",
+        "timestamp": "2026-10-02T13:45:54.115258+00:00",
         "title": "Sanna Marin, antiga primeira-ministra da Finlândia: \"Acredito vivamente que Putin está a planear uma...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
