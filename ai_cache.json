@@ -778,14 +778,14 @@
     },
     "https://expresso.pt/administracao-publica/2026-10-02-greve-fecha-escolas-e-paralisa-servicos-em-varios-pontos-do-pais-0dbb94aa": {
         "category": null,
-        "timestamp": "2026-10-02T21:01:25.369535+00:00",
+        "timestamp": "2026-10-02T21:16:00.351609+00:00",
         "title": "Greve fecha escolas e paralisa serviços em vários pontos do país",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-10-02-bombardeamentos-russos-em-kiev-provocam-pelo-menos-um-morto-e-encerram-ponte-8e9fa000": {
         "category": null,
-        "timestamp": "2026-10-02T21:01:25.277556+00:00",
+        "timestamp": "2026-10-02T21:16:00.308104+00:00",
         "title": "Bombardeamentos russos em Kiev provocam pelo menos um morto e encerram ponte",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -883,29 +883,36 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-02-pcp-nao-precisa-de-ver-o-orcamento-para-dizer-que-vota-contra-e-marca-debate-sobre-custo-de-vida-fc8af37a": {
         "category": null,
-        "timestamp": "2026-10-02T21:01:25.179171+00:00",
+        "timestamp": "2026-10-02T21:16:00.260462+00:00",
         "title": "PCP não precisa de ver o Orçamento para dizer que vota contra e marca debate sobre custo de vida",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/ligadasnacoes/noruega-nao-joga-com-o-habitual-guarda-redes-titular-frente-a-portugal_d1769243": {
         "category": null,
-        "timestamp": "2026-10-02T21:01:25.871336+00:00",
+        "timestamp": "2026-10-02T21:16:00.436564+00:00",
         "title": "Noruega não joga com o habitual guarda-redes titular frente a Portugal",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/marrocos/2026-10-02-primeira-mulher-a-frente-do-governo-de-marrocos-renova-a-fachada-de-modernidade-sem-custos-para-a-verdadeira-estrutura-do-poder-568a7209": {
         "category": null,
-        "timestamp": "2026-10-02T21:01:24.986953+00:00",
+        "timestamp": "2026-10-02T21:16:00.170404+00:00",
         "title": "Primeira mulher à frente do Governo de Marrocos: “Renova a fachada de modernidade sem custos para a ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/defesa-nacional/2026-10-02-ministerio-publico-abre-inquerito-sobre-utilizacao-da-base-das-lajes-pelos-eua-eb6eeb44": {
         "category": null,
-        "timestamp": "2026-10-02T21:01:25.079271+00:00",
+        "timestamp": "2026-10-02T21:16:00.214185+00:00",
         "title": "Ministério Público abre inquérito sobre utilização da Base das Lajes pelos EUA",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://visao.pt/simbalinos-a-sexta/2026-10-02-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-26/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-26": {
+        "category": null,
+        "timestamp": "2026-10-02T21:16:00.965363+00:00",
+        "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
