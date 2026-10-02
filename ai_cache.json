@@ -41,13 +41,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/ligadasnacoes/liga-das-nacoes-noruega-portugal-19h45_d1768057": {
-        "category": null,
-        "timestamp": "2026-09-27T18:31:10.896619+00:00",
-        "title": "Liga das Nações. Noruega - Portugal (19h45)",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://visao.pt/entrevista-sem-agenda/2026-09-27-os-livros-oferecem-uma-experiencia-profunda-e-transformadora-que-deixa-as-pessoas-mais-felizes-do-que-simplesmente-ao-continuarem-a-fazer-scroll-num-ecra/?utm_source=rss&utm_medium=rss&utm_campaign=os-livros-oferecem-uma-experiencia-profunda-e-transformadora-que-deixa-as-pessoas-mais-felizes-do-que-simplesmente-ao-continuarem-a-fazer-scroll-num-ecra": {
         "category": null,
         "timestamp": "2026-09-29T10:15:55.351087+00:00",
@@ -659,14 +652,14 @@
     },
     "https://expresso.pt/semanario/primeiro": {
         "category": null,
-        "timestamp": "2026-10-02T18:15:56.747241+00:00",
+        "timestamp": "2026-10-02T18:31:14.197020+00:00",
         "title": "A primeira página do Expresso",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-10-02T18:15:56.806653+00:00",
+        "timestamp": "2026-10-02T18:31:14.238073+00:00",
         "title": "Lula Velho, Bolsonaro Novo: o Brasil volta ao duelo que o divide, na Revista E",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -771,7 +764,7 @@
     },
     "https://expresso.pt/expressinho/2026-10-02-andorinha-locomotiva-de-estudantes-portugueses-impressionou-no-reino-unido-22447558": {
         "category": null,
-        "timestamp": "2026-10-02T18:15:56.683452+00:00",
+        "timestamp": "2026-10-02T18:31:14.153428+00:00",
         "title": "Andorinha: locomotiva de estudantes portugueses impressionou no Reino Unido",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -785,14 +778,14 @@
     },
     "https://expresso.pt/administracao-publica/2026-10-02-greve-fecha-escolas-e-paralisa-servicos-em-varios-pontos-do-pais-0dbb94aa": {
         "category": null,
-        "timestamp": "2026-10-02T18:15:56.627555+00:00",
+        "timestamp": "2026-10-02T18:31:14.110656+00:00",
         "title": "Greve fecha escolas e paralisa serviços em vários pontos do país",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-10-02-bombardeamentos-russos-em-kiev-provocam-pelo-menos-um-morto-e-encerram-ponte-8e9fa000": {
         "category": null,
-        "timestamp": "2026-10-02T18:15:56.564385+00:00",
+        "timestamp": "2026-10-02T18:31:14.069043+00:00",
         "title": "Bombardeamentos russos em Kiev provocam pelo menos um morto e encerram ponte",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -890,7 +883,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-02-pcp-nao-precisa-de-ver-o-orcamento-para-dizer-que-vota-contra-e-marca-debate-sobre-custo-de-vida-fc8af37a": {
         "category": null,
-        "timestamp": "2026-10-02T18:15:56.495962+00:00",
+        "timestamp": "2026-10-02T18:31:14.021748+00:00",
         "title": "PCP não precisa de ver o Orçamento para dizer que vota contra e marca debate sobre custo de vida",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
