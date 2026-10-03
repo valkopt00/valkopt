@@ -20,24 +20,10 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.publico.pt/2026/09/28/edicoes-publico/noticia/homem-matou-duas-vezes-oica-episodio-connosco-porto-2189569": {
-        "category": null,
-        "timestamp": "2026-09-28T17:15:57.406588+00:00",
-        "title": "O Homem Que Matou Duas Vezes: oiça o primeiro episódio connosco, no Porto",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.rtp.pt/noticias/ligadasnacoes/jurgen-klopp-lidera-recorde-negativo-no-comando-da-selecao-da-alemanha_d1768251": {
         "category": null,
         "timestamp": "2026-09-28T23:01:15.678004+00:00",
         "title": "Jurgen Klopp lidera recorde negativo no comando da seleção da Alemanha",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/aeroporto-iraquiano-de-najaf-retoma-voos-para-territorio-iraniano": {
-        "category": null,
-        "timestamp": "2026-09-28T17:15:58.196760+00:00",
-        "title": "Aeroporto iraquiano de Najaf retoma voos para território iraniano",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -827,14 +813,14 @@
     },
     "https://expresso.pt/marrocos/2026-10-02-primeira-mulher-a-frente-do-governo-de-marrocos-renova-a-fachada-de-modernidade-sem-custos-para-a-verdadeira-estrutura-do-poder-568a7209": {
         "category": null,
-        "timestamp": "2026-10-03T17:15:57.772877+00:00",
+        "timestamp": "2026-10-03T17:31:07.964241+00:00",
         "title": "Primeira mulher à frente do Governo de Marrocos: “Renova a fachada de modernidade sem custos para a ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/defesa-nacional/2026-10-02-ministerio-publico-abre-inquerito-sobre-utilizacao-da-base-das-lajes-pelos-eua-eb6eeb44": {
         "category": null,
-        "timestamp": "2026-10-03T17:15:57.811272+00:00",
+        "timestamp": "2026-10-03T17:31:08.010491+00:00",
         "title": "Ministério Público abre inquérito sobre utilização da Base das Lajes pelos EUA",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -862,7 +848,7 @@
     },
     "https://expresso.pt/abusos/2026-10-03-cornell-7-um-caso-de-violacao-que-reflete-lacunas-na-lei-de-nova-iorque-0bd6a2ba": {
         "category": null,
-        "timestamp": "2026-10-03T17:15:57.730507+00:00",
+        "timestamp": "2026-10-03T17:31:07.907668+00:00",
         "title": "Cornell 7: um caso de violação que reflete lacunas na lei de Nova Iorque",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -876,15 +862,22 @@
     },
     "https://www.cmjornal.pt/mais-cm/especiais/europa-viva/detalhe/presidente-da-republica-deixa-mensagem-no-conselho-da-europa-e-alerta-para-necessidade-de-reforco-das-democracias": {
         "category": null,
-        "timestamp": "2026-10-03T17:15:58.592155+00:00",
+        "timestamp": "2026-10-03T17:31:08.779282+00:00",
         "title": "Presidente da República deixa mensagem no Conselho da Europa e alerta para necessidade de reforço da...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/discussao-acaba-com-tiros-contra-carro-em-movimento-em-odivelas": {
         "category": null,
-        "timestamp": "2026-10-03T17:15:58.548464+00:00",
+        "timestamp": "2026-10-03T17:31:08.698962+00:00",
         "title": "Discussão acaba com tiros contra carro em movimento em Odivelas",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/empresas-negocios/2026-10-03-tiffany-abre-loja-na-capital-portuguesa-no-proximo-ano-d02c2824": {
+        "category": null,
+        "timestamp": "2026-10-03T17:31:07.846493+00:00",
+        "title": "Tiffany abre loja na capital portuguesa no próximo ano",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
