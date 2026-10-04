@@ -715,7 +715,7 @@
     },
     "https://expresso.pt/abusos/2026-10-03-cornell-7-um-caso-de-violacao-que-reflete-lacunas-na-lei-de-nova-iorque-0bd6a2ba": {
         "category": null,
-        "timestamp": "2026-10-04T11:31:12.611858+00:00",
+        "timestamp": "2026-10-04T11:45:51.361637+00:00",
         "title": "Cornell 7: um caso de violação que reflete lacunas na lei de Nova Iorque",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -743,7 +743,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-10-03-tiffany-abre-loja-na-capital-portuguesa-no-proximo-ano-d02c2824": {
         "category": null,
-        "timestamp": "2026-10-04T11:31:12.573852+00:00",
+        "timestamp": "2026-10-04T11:45:51.313851+00:00",
         "title": "Tiffany abre loja na capital portuguesa no próximo ano",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -778,7 +778,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-10-04-se-a-russia-nao-for-travada-a-maquina-de-guerra-vira-se-contra-nos-diz-o-chanceler-alemao-que-faz-visita-surpresa-a-kiev-a5fd951c": {
         "category": null,
-        "timestamp": "2026-10-04T11:31:12.536331+00:00",
+        "timestamp": "2026-10-04T11:45:51.257575+00:00",
         "title": "\"Se a Rússia não for travada, a máquina de guerra vira-se contra nós\", diz o chanceler alemão que fa...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -792,8 +792,15 @@
     },
     "https://expresso.pt/tempestades/2026-10-04-mau-tempo-na-catalunha-faz-duas-mortes-e-corta-a-energia-a-milhares-de-pessoas-ce6abf4f": {
         "category": null,
-        "timestamp": "2026-10-04T11:31:12.494420+00:00",
+        "timestamp": "2026-10-04T11:45:51.209980+00:00",
         "title": "Mau tempo na Catalunha faz duas mortes e corta a energia a milhares de pessoas",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/lusa/2026-10-04-despiste-de-carro-causa-danos-na-escadaria-do-bom-jesus-de-braga-4431b5e8": {
+        "category": null,
+        "timestamp": "2026-10-04T11:45:51.899528+00:00",
+        "title": "Despiste de carro causa danos na escadaria do Bom Jesus de Braga",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
