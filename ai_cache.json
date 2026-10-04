@@ -69,13 +69,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/futebol-internacional/liga-nacoes-franca-vence-belgica-perto-do-fim-italia-reergue-se-na-turquia_d1768317": {
-        "category": null,
-        "timestamp": "2026-09-29T07:45:54.265901+00:00",
-        "title": "Liga Nações. França vence Bélgica perto do fim, Itália reergue-se na Turquia",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/guerra-ucrania/2026-09-29-nato-pede-reforco-do-apoio-a-ucrania-perante-alegados-atos-de-sabotagem-russos-5c3a12ae": {
         "category": null,
         "timestamp": "2026-09-29T19:45:56.063072+00:00",
@@ -778,7 +771,7 @@
     },
     "https://expresso.pt/abusos/2026-10-03-cornell-7-um-caso-de-violacao-que-reflete-lacunas-na-lei-de-nova-iorque-0bd6a2ba": {
         "category": null,
-        "timestamp": "2026-10-04T07:45:51.838341+00:00",
+        "timestamp": "2026-10-04T08:01:17.646266+00:00",
         "title": "Cornell 7: um caso de violação que reflete lacunas na lei de Nova Iorque",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -806,7 +799,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-10-03-tiffany-abre-loja-na-capital-portuguesa-no-proximo-ano-d02c2824": {
         "category": null,
-        "timestamp": "2026-10-04T07:45:51.780336+00:00",
+        "timestamp": "2026-10-04T08:01:17.555697+00:00",
         "title": "Tiffany abre loja na capital portuguesa no próximo ano",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -827,7 +820,7 @@
     },
     "https://www.cmjornal.pt/domingo/detalhe/a-rota-negra-do-consumo-de-droga-em-portugal": {
         "category": null,
-        "timestamp": "2026-10-04T07:45:52.477515+00:00",
+        "timestamp": "2026-10-04T08:01:18.338248+00:00",
         "title": "A rota negra do consumo de droga em Portugal",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
