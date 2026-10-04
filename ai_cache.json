@@ -55,13 +55,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/partidos-politicos/2026-09-28-o-que-se-sabe-do-orcamento--chega-salienta-falta-de-medidas-ps-valoriza-verbas-para-cobrir-fim-do-prr-cbc12fe2": {
-        "category": null,
-        "timestamp": "2026-09-29T00:15:55.309800+00:00",
-        "title": "O que se sabe do Orçamento? Chega salienta \"falta de medidas\", PS valoriza verbas para cobrir fim do...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/palop/mocambique/2026-09-28-a-totalenergies-diz-em-publico-que-salvou-2500-pessoas-mas-nos-documentos-admite-que-25-mil-ficaram-a-porta-alex-perry-em-entrevista-ea835b08": {
         "category": null,
         "timestamp": "2026-09-29T12:16:03.291553+00:00",
@@ -76,24 +69,10 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/lider-supremo-iraniano-antecipa-saida-dos-eua-do-medio-oriente": {
-        "category": null,
-        "timestamp": "2026-09-29T00:16:03.365794+00:00",
-        "title": "Líder supremo iraniano antecipa saída dos EUA do Médio Oriente",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/partidos-politicos/2026-09-28-o-que-se-sabe-do-orcamento--excedente-entre-01-e-02-crescimento-de-2-e-inflacao-subavaliada-cbc12fe2": {
         "category": null,
         "timestamp": "2026-09-29T11:01:23.768979+00:00",
         "title": "O que se sabe do Orçamento? Excedente entre 0,1 e 0,2%, crescimento de 2% e inflação \"subavaliada\"",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/emirados-arabes-unidos-confirmam-visita-de-netanyahu-a-bin-zayed-no-domingo": {
-        "category": null,
-        "timestamp": "2026-09-29T00:15:56.198235+00:00",
-        "title": "Emirados Árabes Unidos confirmam visita de Netanyahu a Bin Zayed no domingo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -785,7 +764,7 @@
     },
     "https://expresso.pt/marrocos/2026-10-02-primeira-mulher-a-frente-do-governo-de-marrocos-renova-a-fachada-de-modernidade-sem-custos-para-a-verdadeira-estrutura-do-poder-568a7209": {
         "category": null,
-        "timestamp": "2026-10-04T00:15:53.353414+00:00",
+        "timestamp": "2026-10-04T00:31:05.976319+00:00",
         "title": "Primeira mulher à frente do Governo de Marrocos: “Renova a fachada de modernidade sem custos para a ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -820,7 +799,7 @@
     },
     "https://expresso.pt/abusos/2026-10-03-cornell-7-um-caso-de-violacao-que-reflete-lacunas-na-lei-de-nova-iorque-0bd6a2ba": {
         "category": null,
-        "timestamp": "2026-10-04T00:15:53.294276+00:00",
+        "timestamp": "2026-10-04T00:31:05.664420+00:00",
         "title": "Cornell 7: um caso de violação que reflete lacunas na lei de Nova Iorque",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -848,7 +827,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-10-03-tiffany-abre-loja-na-capital-portuguesa-no-proximo-ano-d02c2824": {
         "category": null,
-        "timestamp": "2026-10-04T00:15:53.221078+00:00",
+        "timestamp": "2026-10-04T00:31:05.616296+00:00",
         "title": "Tiffany abre loja na capital portuguesa no próximo ano",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -862,7 +841,7 @@
     },
     "https://www.cmjornal.pt/domingo/detalhe/um-livro-dentro-de-outro-livro": {
         "category": null,
-        "timestamp": "2026-10-04T00:15:57.584895+00:00",
+        "timestamp": "2026-10-04T00:31:11.352459+00:00",
         "title": "Um livro dentro de outro livro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
