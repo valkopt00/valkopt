@@ -34,13 +34,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/teerao-recebe-resposta-oficial-de-washington-a-ultima-proposta-de-paz": {
-        "category": null,
-        "timestamp": "2026-09-30T10:31:06.173064+00:00",
-        "title": "Teerão recebe resposta oficial de Washington à última proposta de paz",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/guerra-ucrania/2026-09-30-ataques-aereos-russos-causam-pelo-menos-dois-mortos-e-quatro-feridos-em-kiev-ad69c490": {
         "category": null,
         "timestamp": "2026-09-30T19:31:10.774402+00:00",
@@ -687,14 +680,14 @@
     },
     "https://expresso.pt/lusa/2026-10-04-despiste-de-carro-causa-danos-na-escadaria-do-bom-jesus-de-braga-4431b5e8": {
         "category": null,
-        "timestamp": "2026-10-05T10:15:59.761076+00:00",
+        "timestamp": "2026-10-05T10:31:13.289981+00:00",
         "title": "Despiste de carro causa danos na escadaria do Bom Jesus de Braga",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-10-04-ucrania-zelensky-manifesta-abertura-para-reuniao-tecnica-com-eua-e-russia-74ec1653": {
         "category": null,
-        "timestamp": "2026-10-05T10:15:59.708835+00:00",
+        "timestamp": "2026-10-05T10:31:13.206026+00:00",
         "title": "EUA propuseram reunião técnica com Rússia e Ucrânia no final do mês. \"Estamos abertos”, confirma Zel...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -715,29 +708,36 @@
     },
     "https://expresso.pt/presidencia-republica/2026-10-04-116.-aniversario-da-republica-palacio-de-belem-e-museu-da-presidencia-de-portas-abertas-a62e686b": {
         "category": null,
-        "timestamp": "2026-10-05T10:15:59.649960+00:00",
+        "timestamp": "2026-10-05T10:31:13.123719+00:00",
         "title": "116.º aniversário da República: Palácio de Belém e Museu da Presidência de portas abertas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://visao.pt/entrevista-sem-agenda/2026-10-04-comecamos-a-ter-um-problema-de-saude-publica-quando-detetamos-apostadores-em-idades-em-que-nao-deveriam-jogar-a-dinheiro-os-numeros-mostram-nos-valores-assustadores/?utm_source=rss&utm_medium=rss&utm_campaign=comecamos-a-ter-um-problema-de-saude-publica-quando-detetamos-apostadores-em-idades-em-que-nao-deveriam-jogar-a-dinheiro-os-numeros-mostram-nos-valores-assustadores": {
         "category": null,
-        "timestamp": "2026-10-05T10:15:59.578452+00:00",
+        "timestamp": "2026-10-05T10:31:14.156903+00:00",
         "title": "“Começamos a ter um problema de saúde pública quando detetamos apostadores em idades em que não deve...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://observador.pt/programas/a-hist-ria-do-dia/o-que-ja-garantiu-bolsonaro-com-a-vitoria-na-1a-volta/": {
         "category": null,
-        "timestamp": "2026-10-05T10:16:01.863019+00:00",
+        "timestamp": "2026-10-05T10:31:14.308441+00:00",
         "title": "O que já garantiu Bolsonaro com a vitória na 1ª volta?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/a-europa-numa-guerra-invisivel_1769655": {
         "category": null,
-        "timestamp": "2026-10-05T10:15:59.077641+00:00",
+        "timestamp": "2026-10-05T10:31:15.426945+00:00",
         "title": "A Europa numa guerra invisível",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/presidencia-republica/2026-10-05-seguro-da-luz-verde-a-apoios-extraordinarios-para-transportes-taxis-e-bombeiros-2075dfc6": {
+        "category": null,
+        "timestamp": "2026-10-05T10:31:12.565199+00:00",
+        "title": "Seguro dá luz verde a apoios extraordinários para transportes, táxis e bombeiros",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
