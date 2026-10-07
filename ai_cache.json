@@ -463,8 +463,15 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-07-processo-eleitoral-abre-guerra-na-il-do-porto-entre-vereador-e-deputada-municipal-c3cf480b": {
         "category": null,
-        "timestamp": "2026-10-07T14:46:05.395627+00:00",
+        "timestamp": "2026-10-07T15:01:29.833662+00:00",
         "title": "Processo eleitoral abre guerra na IL do Porto entre vereador e deputada municipal",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/premios-do-imobiliario/2026-10-07-queremos-participar-no-reconhecimento-do-que-se-faz-neste-mercado-1d698301": {
+        "category": null,
+        "timestamp": "2026-10-07T15:01:29.767540+00:00",
+        "title": "“Queremos participar no reconhecimento do que se faz neste mercado”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
