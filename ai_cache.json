@@ -90,13 +90,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-01-banca.-sindicatos-juntos-por-mais-salario-cbb41c38": {
-        "category": null,
-        "timestamp": "2026-10-01T23:46:00.996315+00:00",
-        "title": "Banca. Sindicatos juntos por mais salário",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/expressinho/2026-10-02-andorinha-locomotiva-eletrica-de-estudantes-portugueses-impressionou-no-reino-unido-22447558": {
         "category": null,
         "timestamp": "2026-10-02T00:15:55.629804+00:00",
@@ -470,21 +463,21 @@
     },
     "https://expresso.pt/administracao-publica/2026-10-06-tecnicos-dos-servicos-prisionais-fazem-greve-e-reivindicam-melhores-condicoes-9a16372a": {
         "category": null,
-        "timestamp": "2026-10-06T23:45:53.051791+00:00",
+        "timestamp": "2026-10-07T00:01:28.307560+00:00",
         "title": "Técnicos dos serviços prisionais fazem greve e reivindicam melhores condições",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-10-06-coreia-do-sul-esta-a-fornecer-combustivel-a-russia-atraves-de-navios-sancionados-pela-ue-934786fd": {
         "category": null,
-        "timestamp": "2026-10-06T23:45:53.009897+00:00",
+        "timestamp": "2026-10-07T00:01:28.246827+00:00",
         "title": "Coreia do Sul está a fornecer combustível à Rússia através de navios sancionados pela UE",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-10-06-marcas-dos-estados-unidos-e-da-china-ja-tem-36-das-vendas-de-carros-eletricos-em-portugal-590fe196": {
         "category": null,
-        "timestamp": "2026-10-06T23:45:52.956395+00:00",
+        "timestamp": "2026-10-07T00:01:28.167055+00:00",
         "title": "Marcas dos Estados Unidos e da China já têm 36% das vendas de carros elétricos em Portugal",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -498,14 +491,14 @@
     },
     "https://expresso.pt/presidencia-republica/2026-10-06-com-ou-sem-operacao-influencer-no-discurso-seguro-critica-eternizacao-dos-processos-na-justica-d29c35d1": {
         "category": null,
-        "timestamp": "2026-10-06T23:45:52.871256+00:00",
+        "timestamp": "2026-10-07T00:01:28.052202+00:00",
         "title": "Com ou sem Operação Influencer no discurso, Seguro critica \"eternização\" dos processos na Justiça",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-06-carneiro-arranca-novos-estados-gerais-do-ps-em-meados-de-novembro-5d9de906": {
         "category": null,
-        "timestamp": "2026-10-06T23:45:52.914248+00:00",
+        "timestamp": "2026-10-07T00:01:28.103584+00:00",
         "title": "Carneiro arranca novos Estados Gerais do PS em meados de novembro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -526,50 +519,57 @@
     },
     "https://expresso.pt/defesa-nacional/2026-10-06-ps-questiona-governo-sobre-tabelas-de-aptidao-para-militares-que-estao-em-suspenso-ha-tres-anos-49f82778": {
         "category": null,
-        "timestamp": "2026-10-06T23:45:52.826616+00:00",
+        "timestamp": "2026-10-07T00:01:27.992483+00:00",
         "title": "PS questiona Governo sobre tabelas de aptidão para militares que estão em suspenso há três anos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-06-ventura-acusa-aguiar-branco-de-tentar-bloquear-comissao-de-inquerito-a-luis-neves-81754de9": {
         "category": null,
-        "timestamp": "2026-10-06T23:45:52.754131+00:00",
+        "timestamp": "2026-10-07T00:01:27.927066+00:00",
         "title": "Ventura acusa Aguiar-Branco de tentar bloquear comissão de inquérito a Luís Neves",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/automoveis/2026-10-06-o-diesel-entra-no-deposito-de-um-carro-encontra-se-com-a-eletricidade-e-pergunta-lhe-vamos-dar-uma-volta-de-mercedes--3b49c6df": {
         "category": null,
-        "timestamp": "2026-10-06T23:45:52.668019+00:00",
+        "timestamp": "2026-10-07T00:01:27.814641+00:00",
         "title": "O diesel entra no depósito de um carro, encontra-se com a eletricidade e pergunta-lhe: vamos dar uma...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-06-e-mais-facil-falar-do-que-fazer-moedas-critica-passos-e-preve-montenegro-para-la-de-2029-6f958086": {
         "category": null,
-        "timestamp": "2026-10-06T23:45:52.708118+00:00",
+        "timestamp": "2026-10-07T00:01:27.869814+00:00",
         "title": "\"É mais fácil falar do que fazer\": Moedas critica Passos e prevê Montenegro para lá de 2029",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/polonia/2026-10-06-historiador-do-museu-de-auschwitz-recusa-o-holocausto-esquecido-dos-polacos-b1553491": {
         "category": null,
-        "timestamp": "2026-10-06T23:45:52.605955+00:00",
+        "timestamp": "2026-10-07T00:01:27.755039+00:00",
         "title": "Historiador do Museu de Auschwitz recusa o “Holocausto esquecido” dos polacos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guine-bissau/2026-10-06-presidente-da-assembleia-nacional-popular-da-guine-bissau-considera-que-nao-ha-condicoes-para-eleicoes-em-dezembro-8d10312c": {
         "category": null,
-        "timestamp": "2026-10-06T23:45:52.544818+00:00",
+        "timestamp": "2026-10-07T00:01:27.677471+00:00",
         "title": "Presidente da Assembleia Nacional Popular da Guiné-Bissau considera que \"não há condições\" para elei...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-06-ps-quer-saber-se-ha-mais-acordos-do-governo-com-o-chega-alem-da-lei-das-rendas-69cf0b1a": {
         "category": null,
-        "timestamp": "2026-10-06T23:45:52.501406+00:00",
+        "timestamp": "2026-10-07T00:01:27.580608+00:00",
         "title": "PS quer saber se há mais acordos do Governo com o Chega além da lei das rendas",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://observador.pt/programas/a-hist-ria-do-dia/cristiano-ronaldo-quebrou-o-silencio-e-agora-extra/": {
+        "category": null,
+        "timestamp": "2026-10-07T00:01:29.048096+00:00",
+        "title": "Cristiano Ronaldo quebrou o silêncio. E agora? - EXTRA",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
