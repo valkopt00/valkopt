@@ -34,13 +34,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/exposicoes/2026-10-01-exposicoes-para-onde-os-sonambulos-vao--pergunta-a-brasileira-yuli-yamagata-65909685": {
-        "category": null,
-        "timestamp": "2026-10-02T15:46:03.827562+00:00",
-        "title": "Exposições: Para Onde os Sonâmbulos Vão?, pergunta a brasileira Yuli Yamagata",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/expressinho/2026-10-02-andorinha-locomotiva-de-estudantes-portugueses-impressionou-no-reino-unido-22447558": {
         "category": null,
         "timestamp": "2026-10-02T18:45:52.508757+00:00",
@@ -59,20 +52,6 @@
         "category": null,
         "timestamp": "2026-10-03T00:01:25.284022+00:00",
         "title": "Bombardeamentos russos em Kiev provocam pelo menos um morto e encerram ponte",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.rtp.pt/noticias/rtpeuropa-entrevistas/sanna-marin-antiga-primeira-ministra-da-finlandia-acredito-vivamente-que-putin-esta-a-planear-uma-guerra-muito-maior-contra-a-europa_v1769114": {
-        "category": null,
-        "timestamp": "2026-10-02T16:01:23.203577+00:00",
-        "title": "Sanna Marin, antiga primeira-ministra da Finlândia: \"Acredito vivamente que Putin está a planear uma...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.rtp.pt/noticias/rtpeuropa-parlamento-europeu/eurodeputados-apelam-a-adaptacao-das-politicas-de-coesao-nas-regioes-ultraperifericas_v1769112": {
-        "category": null,
-        "timestamp": "2026-10-02T16:01:23.145249+00:00",
-        "title": "Eurodeputados apelam à adaptação das políticas de coesão nas regiões ultraperiféricas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -463,29 +442,43 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-07-processo-eleitoral-abre-guerra-na-il-do-porto-entre-vereador-e-deputada-municipal-c3cf480b": {
         "category": null,
-        "timestamp": "2026-10-07T15:45:55.575779+00:00",
+        "timestamp": "2026-10-07T16:01:26.749613+00:00",
         "title": "Processo eleitoral abre guerra na IL do Porto entre vereador e deputada municipal",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/premios-do-imobiliario/2026-10-07-queremos-participar-no-reconhecimento-do-que-se-faz-neste-mercado-1d698301": {
         "category": null,
-        "timestamp": "2026-10-07T15:45:55.524895+00:00",
+        "timestamp": "2026-10-07T16:01:26.675674+00:00",
         "title": "“Queremos participar no reconhecimento do que se faz neste mercado”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/trabalho-digital-automacao/2026-10-07-empresa-de-famalicao-preve-que-haja-60-a-100-robos-humanoides-a-trabalhar-em-portugal-num-ano-78e807f7": {
         "category": null,
-        "timestamp": "2026-10-07T15:45:56.639706+00:00",
-        "title": "Empresa de Famalicão prevê que haja 60 a 100 robôs humanoides a trabalhar em Portugal num ano",
+        "timestamp": "2026-10-07T16:01:28.452114+00:00",
+        "title": "Portugal deverá ter até 100 robôs humanoides a trabalhar dentro de um ano",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/fundos-europeus/2026-10-07-bruxelas-diz-que-prr-melhorou-condicoes-de-trabalho-e-servicos-publicos-em-portugal-1af509ae": {
         "category": null,
-        "timestamp": "2026-10-07T15:45:56.691307+00:00",
+        "timestamp": "2026-10-07T16:01:28.582354+00:00",
         "title": "Bruxelas diz que PRR melhorou condições de trabalho e serviços públicos em Portugal",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://visao.pt/edicao-impressa/2026-10-07-edicao-1753/?utm_source=rss&utm_medium=rss&utm_campaign=edicao-1753": {
+        "category": null,
+        "timestamp": "2026-10-07T16:01:28.039750+00:00",
+        "title": "Edição 1753",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/empresas-negocios/2026-10-07-regulador-reconhece-desfasamento-entre-expectativa-e-realidade-dos-seguros-contratados-8dee31b6": {
+        "category": null,
+        "timestamp": "2026-10-07T16:01:28.513624+00:00",
+        "title": "Regulador reconhece \"desfasamento\" entre expectativa e realidade dos seguros contratados",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
