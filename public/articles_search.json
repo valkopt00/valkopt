@@ -1,6 +1,16 @@
 {
     "Últimas": [
         {
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/2h-ataque-aeroporto-riade-e-inaceitavel-e-terrivel-diz-trump_a1_1770961",
+            "normalized_title": "2h ataque aeroporto riade e inaceitavel e terrivel diz trump",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/echverri-entra-na-luta-por-um-lugar-no-onze",
+            "normalized_title": "echeverri entra na luta por um lugar no onze do benfica",
+            "normalized_description": "argentino pode fazer a estreia a titular diante do v guimaraes"
+        },
+        {
             "link": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/vasco-vaz-parabens-a-espanha-foi-mais-consistente-do-que-nos",
             "normalized_title": "vasco vaz parabens a espanha foi mais consistente do que nos",
             "normalized_description": "selecionador reconheceu justica no triunfo do rival iberico na final do mundial sub 19 contra portugal"
@@ -144,6 +154,11 @@
             "link": "https://www.cmjornal.pt/cultura/detalhe/festival-super-bock-em-stock-volta-a-lisboa-no-mes-de-novembro",
             "normalized_title": "festival super bock em stock volta a lisboa no mes de novembro",
             "normalized_description": "edicao vai ser organizada por uma nova promotora"
+        },
+        {
+            "link": "https://www.cmjornal.pt/domingo/detalhe/cabo-costa-o-serial-killer-reformado-da-gnr",
+            "normalized_title": "cabo costa o serial killer reformado da gnr",
+            "normalized_description": "antonio luis costa cabo da gnr na reserva com fortes ligacoes a igreja e com prestigio na pequena localidade onde habitava perto de santa comba"
         },
         {
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/01h-doze-pessoas-morreram-num-ataque-ao-aeroporto-de-riade_a1_1770957",
@@ -3249,56 +3264,6 @@
             "link": "https://expresso.pt/lusa/2026-10-10-ugt-mario-mourao-pede-a-montenegro-salario-minimo-de-1000-euros-reforco-da-contratacao-coletiva-e-dos-sindicatos-a3a37c0c",
             "normalized_title": "ugt mario mourao pede a montenegro salario minimo de 1000 euros reforco da contratacao coletiva e dos sindicatos",
             "normalized_description": "o secretario geral da ugt desafiou este sabado o primeiro ministro a negociar o acordo de valorizacao salarial em concertacao social e alertou que"
-        },
-        {
-            "link": "https://pplware.sapo.pt/gadgets/novo-fitbit-edge-da-google-pode-chegar-com-sete-dias-de-autonomia-e-preco-de-179-euros/",
-            "normalized_title": "novo fitbit edge da google pode chegar com sete dias de autonomia e preco de 179 euros",
-            "normalized_description": "a google esta a preparar a apresentacao do fitbit edge um novo dispositivo de monitorizacao da atividade fisica que devera ser revelado a 12 de"
-        },
-        {
-            "link": "https://www.cmjornal.pt/portugal/detalhe/homem-procurado-na-alemanha-por-trafico-de-droga-detido-no-algarve",
-            "normalized_title": "homem procurado na alemanha por trafico de droga detido no algarve",
-            "normalized_description": "suspeito dedicava se ao trafico de haxixe no municipio de bitz"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/opiniao/detalhe/a-ia-esta-a-transformar-a-sua-empresa-serao-os-seus-trabalhadores-a-pagar-o-preco",
-            "normalized_title": "a ia esta a transformar a sua empresa serao os seus trabalhadores a pagar o preco",
-            "normalized_description": "a retorica torna se mais favoravel aos trabalhadores precisamente quando os resultados o deixam de ser"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/zelensky-critica-acordo-entre-trump-e-putin-para-comercializar-petroleo-russo_v1770880",
-            "normalized_title": "zelensky critica acordo entre trump e putin para comercializar petroleo russo",
-            "normalized_description": "o presidente da ucrania acusa donald trump de gesto de fraqueza em causa o acordo entre os estados unidos e a russia para a comercializacao de"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3064746/carneiro-alerta-ps-para-momentos-dificeis-e-pede-carater-temperado#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "carneiro alerta ps para momentos dificeis e pede carater temperado",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/politica/detalhe/ministra-assegura-que-ha-fundamentacao-legal-para-cga-pedir-devolucao-de-valores",
-            "normalized_title": "ministra assegura que ha fundamentacao legal para cga pedir devolucao de valores",
-            "normalized_description": "em media os pensionistas vao receber menos 93 31 euros brutos por mes"
-        },
-        {
-            "link": "https://www.cmjornal.pt/politica/detalhe/carneiro-avisa-ps-para-momentos-dificeis-e-pede-carater-temperado-perante-obstaculos",
-            "normalized_title": "carneiro avisa ps para momentos dificeis e pede carater temperado perante obstaculos",
-            "normalized_description": "jose luis carneiro deixou avisos ao partido sobre os proximos tempos"
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/marco-silva-neste-momento-so-ha-uma-solucao-ganhar-jogos/1222024",
-            "normalized_title": "marco silva neste momento so ha uma solucao ganhar jogos",
-            "normalized_description": "marco silva treinador do benfica anteviu este sabado em conferencia de imprensa o proximo duelo do conjunto encarnado a rececao ao vitoria sc"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/ministra-do-trabalho-assegura-que-cga-pode-pedir-devolucao-de-valores/",
-            "normalized_title": "ministra do trabalho assegura que cga pode pedir devolucao de valores",
-            "normalized_description": "a ministra do trabalho assegurou que ha fundamentacao legal para a cga pedir a devolucao dos montantes pagos a mais e insiste que subida do salario"
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/i-caso-ronaldo-i-ausencias-e-bah-o-que-disse-marco-silva-na-antevisao-ao-vitoria-sc/1222024",
-            "normalized_title": "caso ronaldo ausencias e bah o que disse marco silva na antevisao ao vitoria sc",
-            "normalized_description": "marco silva treinador do benfica anteviu este sabado em conferencia de imprensa o proximo duelo do conjunto encarnado a rececao ao vitoria sc"
         }
     ],
     "Nacional": [
@@ -11836,6 +11801,11 @@
         }
     ],
     "Desporto": [
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/echverri-entra-na-luta-por-um-lugar-no-onze",
+            "normalized_title": "echeverri entra na luta por um lugar no onze do benfica",
+            "normalized_description": "argentino pode fazer a estreia a titular diante do v guimaraes"
+        },
         {
             "link": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/vasco-vaz-parabens-a-espanha-foi-mais-consistente-do-que-nos",
             "normalized_title": "vasco vaz parabens a espanha foi mais consistente do que nos",
@@ -21240,11 +21210,6 @@
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/famalicao/detalhe/marcos-pena-apontado-a-altos-voos-pode-chegar-a-um-grande-ou-ir-para-outra-liga-fora",
             "normalized_title": "marcos pena apontado a altos voos pode chegar a um grande ou ir para outra liga fora",
             "normalized_description": "joao goncalves diretor desportivo do almeria privou com o jogador em espanha"
-        },
-        {
-            "link": "https://www.record.pt/futebol/selecoes/detalhe/impacto-nas-redes-sociais-ronaldo-levou-milhoes-com-ele",
-            "normalized_title": "impacto nas redes sociais ronaldo levou milhoes com ele",
-            "normalized_description": "menos 2 3 milhoes de seguidores no instagram da selecao"
         }
     ],
     "Economia": [
@@ -35386,6 +35351,11 @@
     ],
     "Multimédia": [
         {
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/2h-ataque-aeroporto-riade-e-inaceitavel-e-terrivel-diz-trump_a1_1770961",
+            "normalized_title": "2h ataque aeroporto riade e inaceitavel e terrivel diz trump",
+            "normalized_description": ""
+        },
+        {
             "link": "https://www.cmjornal.pt/tv-media/detalhe/resposta-final-nao-pode-ser-da-inteligencia-artificial-obama-participa-em-evento-de-lideranca-e-negocios-em-lisboa",
             "normalized_title": "resposta final na o pode ser da inteligaªncia artificial obama participa em evento de liderana a e nega³cios em lisboa",
             "normalized_description": "game changers forum aconteceu na meo arena em lisboa e teve como convidado principal o antigo presidente dos estados unidos da america"
@@ -39520,6 +39490,11 @@
             "link": "https://www.cmjornal.pt/domingo/detalhe/so-uma-renda-alta-paga-o-risco-do-arrendamento-defende-o-economista-ricardo-guimaraes",
             "normalized_title": "sa³ uma renda alta paga o risco do arrendamento defende o economista ricardo guimara es",
             "normalized_description": "economista falou com a domingo sobre o caso maricarmen a idosa que foi um simbolo na crise da habitacao em espanha"
+        },
+        {
+            "link": "https://www.cmjornal.pt/domingo/detalhe/cabo-costa-o-serial-killer-reformado-da-gnr",
+            "normalized_title": "cabo costa o serial killer reformado da gnr",
+            "normalized_description": "antonio luis costa cabo da gnr na reserva com fortes ligacoes a igreja e com prestigio na pequena localidade onde habitava perto de santa comba"
         },
         {
             "link": "https://expresso.pt/semanario/revista-e/-e/2026-10-10-felipe-gonzalez-em-entrevista-ao-expresso-no-dia-seguinte-a-invasao-de-ceuta-os-sanchez-foram-de-ferias.-eu-nao-teria-sido-capaz-49822d0d",
