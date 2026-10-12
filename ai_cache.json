@@ -41,13 +41,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/partidos-politicos/2026-10-06-ps-quer-saber-se-ha-mais-acordos-do-governo-com-o-chega-alem-da-lei-das-rendas-69cf0b1a": {
-        "category": null,
-        "timestamp": "2026-10-07T08:31:10.132897+00:00",
-        "title": "PS quer saber se há mais acordos do Governo com o Chega além da lei das rendas",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://observador.pt/especiais/7-de-outubro-tres-opinioes/": {
         "category": null,
         "timestamp": "2026-10-07T10:45:55.466375+00:00",
@@ -652,7 +645,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-10-11-zelensky-admite-eleicoes-e-parar-ataques-a-refinarias-com-uma-condicao-de-nos-60-dias-de-cessar-fogo-total-5aeccece": {
         "category": null,
-        "timestamp": "2026-10-12T08:31:00.440935+00:00",
+        "timestamp": "2026-10-12T08:45:47.253141+00:00",
         "title": "Zelensky admite eleições e parar ataques a refinarias com uma condição: \"Dê-nos 60 dias de cessar-fo...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -666,7 +659,7 @@
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-10-11-este-menino-e-um-monstro-e-mexe-com-o-tempo-em-todo-o-planeta-b35dc607": {
         "category": null,
-        "timestamp": "2026-10-12T08:31:00.277352+00:00",
+        "timestamp": "2026-10-12T08:45:47.199120+00:00",
         "title": "Este ‘menino’ é um monstro e mexe com o tempo em todo o planeta",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -680,21 +673,21 @@
     },
     "https://visao.pt/entrevista-sem-agenda/2026-10-11-o-que-leva-alguem-a-optar-por-preservar-alimento-para-um-futuro-incerto-em-vez-de-o-comer-para-sobreviver-no-presente/?utm_source=rss&utm_medium=rss&utm_campaign=o-que-leva-alguem-a-optar-por-preservar-alimento-para-um-futuro-incerto-em-vez-de-o-comer-para-sobreviver-no-presente": {
         "category": null,
-        "timestamp": "2026-10-12T08:31:00.512584+00:00",
+        "timestamp": "2026-10-12T08:45:45.815227+00:00",
         "title": "“O que leva alguém a optar por preservar alimento para um futuro incerto em vez de o comer para sobr...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-11-video-e-uma-das-ruas-mais-ingremes-de-lisboa-bairro-repoe-tradicao-de-a-subir-de-bicicleta-para-resistir-a-gentrificacao-6bb054d1": {
         "category": null,
-        "timestamp": "2026-10-12T08:31:00.223692+00:00",
+        "timestamp": "2026-10-12T08:45:47.142800+00:00",
         "title": "É uma das ruas mais íngremes de Lisboa: bairro repõe tradição de a subir de bicicleta para \"resistir...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/premios-do-imobiliario/2026-10-11-estao-selecionados-os-finalistas-da-8-edicao-dos-premios-do-imobiliario-expresso-sic-noticias-35c22844": {
         "category": null,
-        "timestamp": "2026-10-12T08:31:00.167166+00:00",
+        "timestamp": "2026-10-12T08:45:47.085294+00:00",
         "title": "Estão selecionados os finalistas da 8ª Edição dos Prémios do Imobiliário Expresso/SIC Notícias",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -715,14 +708,14 @@
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/irao-oferece-se-para-facilitar-dialogo-entre-arabia-saudita-e-houthis-do-iemen": {
         "category": null,
-        "timestamp": "2026-10-12T06:45:50.355614+00:00",
+        "timestamp": "2026-10-12T08:45:45.621358+00:00",
         "title": "Irão oferece-se para \"facilitar diálogo\" entre Arábia Saudita e Houthis do Iémen",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/oe-os-bastidores-tambem-contam_1771127": {
         "category": null,
-        "timestamp": "2026-10-12T08:30:59.788406+00:00",
+        "timestamp": "2026-10-12T08:45:45.729158+00:00",
         "title": "OE: os bastidores também contam",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
