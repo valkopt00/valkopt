@@ -582,7 +582,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-10-11-zelensky-admite-eleicoes-e-parar-ataques-a-refinarias-com-uma-condicao-de-nos-60-dias-de-cessar-fogo-total-5aeccece": {
         "category": null,
-        "timestamp": "2026-10-12T12:31:07.316798+00:00",
+        "timestamp": "2026-10-12T12:45:56.814435+00:00",
         "title": "Zelensky admite eleições e parar ataques a refinarias com uma condição: \"Dê-nos 60 dias de cessar-fo...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -596,7 +596,7 @@
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-10-11-este-menino-e-um-monstro-e-mexe-com-o-tempo-em-todo-o-planeta-b35dc607": {
         "category": null,
-        "timestamp": "2026-10-12T12:31:07.228643+00:00",
+        "timestamp": "2026-10-12T12:45:56.722536+00:00",
         "title": "“El Niño”: este ‘menino’ é um monstro e mexe com o tempo em todo o planeta",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -610,21 +610,21 @@
     },
     "https://visao.pt/entrevista-sem-agenda/2026-10-11-o-que-leva-alguem-a-optar-por-preservar-alimento-para-um-futuro-incerto-em-vez-de-o-comer-para-sobreviver-no-presente/?utm_source=rss&utm_medium=rss&utm_campaign=o-que-leva-alguem-a-optar-por-preservar-alimento-para-um-futuro-incerto-em-vez-de-o-comer-para-sobreviver-no-presente": {
         "category": null,
-        "timestamp": "2026-10-12T12:31:06.315164+00:00",
+        "timestamp": "2026-10-12T12:45:55.558166+00:00",
         "title": "“O que leva alguém a optar por preservar alimento para um futuro incerto em vez de o comer para sobr...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-11-video-e-uma-das-ruas-mais-ingremes-de-lisboa-bairro-repoe-tradicao-de-a-subir-de-bicicleta-para-resistir-a-gentrificacao-6bb054d1": {
         "category": null,
-        "timestamp": "2026-10-12T12:31:07.138930+00:00",
+        "timestamp": "2026-10-12T12:45:56.629502+00:00",
         "title": "É uma das ruas mais íngremes de Lisboa: bairro repõe tradição de a subir de bicicleta para \"resistir...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/premios-do-imobiliario/2026-10-11-estao-selecionados-os-finalistas-da-8-edicao-dos-premios-do-imobiliario-expresso-sic-noticias-35c22844": {
         "category": null,
-        "timestamp": "2026-10-12T12:31:07.061734+00:00",
+        "timestamp": "2026-10-12T12:45:56.531656+00:00",
         "title": "Estão selecionados os finalistas da 8ª Edição dos Prémios do Imobiliário Expresso/SIC Notícias",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -652,14 +652,14 @@
     },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/oe-os-bastidores-tambem-contam_1771127": {
         "category": null,
-        "timestamp": "2026-10-12T12:31:06.124420+00:00",
+        "timestamp": "2026-10-12T12:45:56.440725+00:00",
         "title": "OE: os bastidores também contam",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-10-12-trump-ameaca-cortar-armas-e-servicos-de-informacoes-a-ucrania-para-travar-ataques-a-refinarias-russas-fe5ccebb": {
         "category": null,
-        "timestamp": "2026-10-12T12:31:05.692207+00:00",
+        "timestamp": "2026-10-12T12:45:54.921700+00:00",
         "title": "Trump ameaça cortar armas e serviços de informações à Ucrânia para travar ataques a refinarias russa...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -673,15 +673,29 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-12-principios-do-psd-nao-sao-compativeis-com-os-do-chega-matos-correia-vice-de-passos-diverge-e-discorda-de-alianca-a-direita-526abba4": {
         "category": null,
-        "timestamp": "2026-10-12T12:31:05.578667+00:00",
+        "timestamp": "2026-10-12T12:45:54.810092+00:00",
         "title": "“Princípios do PSD não são compatíveis com os do Chega”: Matos Correia, vice de Passos, diverge e di...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cmr/podcasts/doa-a-quem-doer/detalhe/nao-vao-nada-embora-nem-que-vos-tenha-de-matar-jovem-que-matou-a-mae-em-alges-revela-palavras-de-progenitora": {
         "category": null,
-        "timestamp": "2026-10-12T12:31:06.620633+00:00",
+        "timestamp": "2026-10-12T12:45:56.168651+00:00",
         "title": "\"Não vão nada embora, nem que vos tenha de matar\": jovem que matou a mãe em Algés revela palavras de...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/teerao-admite-escassez-de-medicamentos-psiquiatricos-devido-a-guerra": {
+        "category": null,
+        "timestamp": "2026-10-12T12:45:55.998941+00:00",
+        "title": "Teerão admite escassez de medicamentos psiquiátricos devido à guerra",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/teerao-ameaca-destruir-centros-de-dados-de-ia-no-golfo-persico": {
+        "category": null,
+        "timestamp": "2026-10-12T12:45:56.092139+00:00",
+        "title": "Teerão ameaça destruir centros de dados de IA no golfo Pérsico",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
