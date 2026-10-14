@@ -610,7 +610,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-10-13-apple-homeview-home-collection-apple-tv-e-homepod-mini-2-a-nova-siri-entra-em-casa-mas-fica-fora-da-ue-ed2bf256": {
         "category": null,
-        "timestamp": "2026-10-14T08:15:57.595990+00:00",
+        "timestamp": "2026-10-14T08:31:11.797785+00:00",
         "title": "Apple HomeView, Home Collection, Apple TV e HomePod mini 2: a nova Siri entra em casa, mas fica fora...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -624,14 +624,14 @@
     },
     "https://expresso.pt/curtas/2026-10-13-video-ja-provamos-que-nao-somos-uma-geracao-com-quem-se-deva-brincar-greta-thunberg-junta-se-aos-protestos-estudantis-em-paris-e99feb8b": {
         "category": null,
-        "timestamp": "2026-10-14T08:15:57.543102+00:00",
+        "timestamp": "2026-10-14T08:31:11.735533+00:00",
         "title": "\"Já provámos que não somos uma geração com quem se deva brincar\": Greta Thunberg junta-se aos protes...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-10-13-escalada-ao-largo-da-bulgaria-mares-baltico-e-negro-sao-flancos-vulneraveis-e-campos-de-ensaio-de-moscovo-88dfc1e5": {
         "category": null,
-        "timestamp": "2026-10-14T08:15:57.491508+00:00",
+        "timestamp": "2026-10-14T08:31:11.659407+00:00",
         "title": "“Escalada” ao largo da Bulgária: mares Báltico e Negro são “flancos vulneráveis” e “campos de ensaio...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -645,7 +645,7 @@
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-10-13-henrique-veiga-fernandes-investigador-da-fundacao-champalimaud-ha-casos-de-cancro-em-que-a-vacinacao-ja-e-extraordinariamente-eficaz-d6eda768": {
         "category": null,
-        "timestamp": "2026-10-14T08:15:57.423769+00:00",
+        "timestamp": "2026-10-14T08:31:11.576516+00:00",
         "title": "“Há casos de cancro em que a vacinação já é extraordinariamente eficaz\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -673,15 +673,22 @@
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-10-14-preco-dos-bens-essenciais-subiu-mais-do-que-os-salarios-em-cinco-anos-bacalhau-ervilhas-e-ovos-lideram-subidas-13f55937": {
         "category": null,
-        "timestamp": "2026-10-14T08:15:54.401695+00:00",
+        "timestamp": "2026-10-14T08:31:10.282224+00:00",
         "title": "Preço dos bens essenciais subiu mais do que os salários em cinco anos: bacalhau, ervilhas e ovos lid...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/defesa-nacional/2026-10-14-entrevista-ao-chefe-de-estado-maior-o-que-diferencia-um-exercito-de-um-bando-armado-e-que-nos-agimos-com-regras-e-com-etica-dd80ce05": {
         "category": null,
-        "timestamp": "2026-10-14T08:15:57.331729+00:00",
+        "timestamp": "2026-10-14T08:31:11.961147+00:00",
         "title": "Chefe de Estado Maior quer que “todas as unidades do Exército tenham drones”",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/guerra-ucrania/2026-10-14-ataques-russos-a-infraestruturas-energeticas-e-edificios-residenciais-provocam-tres-mortos-em-kiev-27e3d4f3": {
+        "category": null,
+        "timestamp": "2026-10-14T08:31:11.896626+00:00",
+        "title": "Ataques russos a infraestruturas energéticas e edifícios residenciais provocam três mortos em Kiev",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
