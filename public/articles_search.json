@@ -1,6 +1,11 @@
 {
     "Últimas": [
         {
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/4h-salarios-e-pensoes-de-novembro-vao-ter-menos-descontos-para-o-irs_a1_1771527",
+            "normalized_title": "4h salarios e pensoes de novembro vao ter menos descontos para o irs",
+            "normalized_description": ""
+        },
+        {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/mexidas-sem-revolucao-o-plano-de-marco-silva-para-a-rececao-ao-celtic",
             "normalized_title": "mexidas sem revolucao o plano de marco silva para a rececao ao celtic",
             "normalized_description": "varios jogadores espreitam nova oportunidade no onze"
@@ -34,6 +39,11 @@
             "link": "https://www.record.pt/futebol/futebol-nacional/2--liga/portimonense/detalhe/zinho-renasce-apos-calvario-os-medicos-chegaram-me-a-dizer-que-nao-voltaria-a-correr",
             "normalized_title": "zinho renasce apos calvario os medicos chegaram me a dizer que nao voltaria a correr",
             "normalized_description": "avancado esteve afastado por lesao mais de dois anos e meio e quer ajudar a eliminar o florgrade"
+        },
+        {
+            "link": "https://www.publico.pt/2026/10/14/economia/noticia/fmi-avisa-paises-subida-juros-torna-ajustamento-orcamental-urgente-2191291",
+            "normalized_title": "fmi avisa paises que subida dos juros torna ajustamento orcamental urgente",
+            "normalized_description": "responsaveis do fundo visam especialmente economias avancadas com niveis de divida elevados quanto mais os paises esperarem mais doloroso o"
         },
         {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/moreirense/detalhe/gilberto-batista-mantem-confianca-de-vasco-botelho-da-costa",
@@ -3513,86 +3523,6 @@
         {
             "link": "https://www.noticiasaominuto.com/pais/3066176/cadaver-de-baleia-de-20-metros-volta-a-ser-enterrado-em-ovar-apos-exposicao-pelas-mares#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "mares expoem cadaver de baleia gigante e obrigam a novo enterro",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.record.pt/internacional/paises/arabia-saudita/detalhe/fabiano-flora-e-o-conflito-no-medio-oriente-nao-voltaremos-a-jogar-em-nossa-casa-ate-final-da-epoca",
-            "normalized_title": "fabiano flora e o conflito no medio oriente nao voltaremos a jogar em nossa casa ate final da epoca",
-            "normalized_description": "treinador portugues esta ao comando do al akhdoud o seu sexto clube na arabia saudita"
-        },
-        {
-            "link": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/20261013-143853-lens-sporting-em-direto",
-            "normalized_title": "lens sporting em direto",
-            "normalized_description": "acompanhe todas as incidencias da 2 ª jornada dos leoes na liga dos campeoes"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/fmi-ainda-ve-contas-equilibradas-em-2027-mas-quer-medidas-que-compensem-corte-de-impostos",
-            "normalized_title": "fmi ainda ve contas equilibradas em 2027 mas quer medidas que compensem corte de impostos",
-            "normalized_description": "apesar de ver as contas publicas portuguesas entre as poucas com saldo equilibrado no proximo ano o fmi alerta para a reducao da margem orcamental"
-        },
-        {
-            "link": "https://www.cmjornal.pt/politica/detalhe/portugal-entrega-proposta-do-oe2027-a-bruxelas-e-promete-cumprir-tetos-de-despesa",
-            "normalized_title": "portugal entrega proposta do oe2027 a bruxelas e promete cumprir tetos de despesa",
-            "normalized_description": "conselho da ue recomendou em julho ao pais que respeite os limites maximos de crescimento da despesa liquida"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3066163/marinha-coordena-resgate-de-senegales-a-sul-do-pico-sintomas-de-avc#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "marinha coordena resgate de senegales a sul do pico sintomas de avc",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://expresso.pt/iniciativaseprodutos/2026-10-13-expresso-publica-suplemento-especial-sobre-o-orcamento-do-estado-para-2027-b1d7b56c",
-            "normalized_title": "expresso publica suplemento especial sobre o orcamento do estado para 2027",
-            "normalized_description": "disponivel a 16 de outubro o especial reune as principais medidas do oe2027 e explica o seu impacto no bolso dos portugueses nas familias nas"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/tech/3066180/confiantes-que-cancro-sera-curado-investigadores-de-ia-comecaram-a-fumar#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "confiantes que cancro sera curado investigadores de ia comecaram a fumar",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.publico.pt/2026/10/13/culturaipsilon/noticia/thelyson-orelien-reafirma-nao-usou-ia-romance-admite-plagios-2191262",
-            "normalized_title": "thelyson orelien reafirma que nao usou ia no seu romance mas admite plagios",
-            "normalized_description": "num texto enviado a agencia france presse o autor de c etait ca ou mourir reconhece ter cometido erros inaceitaveis ao plagiar textos de outros"
-        },
-        {
-            "link": "https://www.publico.pt/2026/10/13/mundo/noticia/trump-afasta-kimberly-guilfoyle-embaixadora-atenas-envolta-escandalo-2191257",
-            "normalized_title": "trump afasta kimberly guilfoyle embaixadora em atenas envolta em escandalo",
-            "normalized_description": "antiga noiva de donald trump jr e suspeita de trafico de influencia antes e apos a nomeacao para a grecia cai sem ter chegado a um ano no cargo"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/3066174/ministro-anuncia-apoio-a-5897-agricultores-apos-estragos-do-mau-tempo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "ministro anuncia apoio a 5 897 agricultores apos estragos do mau tempo",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.record.pt/modalidades/tenis/detalhe/mais-novos-receberam-dicas-das-estrelas-num-dia-muito-especial-no-maia-open",
-            "normalized_title": "mais novos receberam dicas das estrelas num dia muito especial no maia open",
-            "normalized_description": "tiago torres tiago pereira vasco leote prata guilherme valdoleiros e diogo marques participaram em clinica de tenis"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/aveleda-desenvolve-sistema-pioneiro-em-portugal-para-identificar-castas-atraves-de-inteligencia-artificial/",
-            "normalized_title": "aveleda desenvolve sistema pioneiro em portugal para identificar castas atraves de inteligencia artificial",
-            "normalized_description": "produtora de vinhos esta a desenvolver um sistema que reconhece variedades de uva atraves de imagens dos bagos e dos cachos a tecnologia esta a ser"
-        },
-        {
-            "link": "https://www.publico.pt/2026/10/13/mundo/noticia/flavio-bolsonaro-visitou-pai-primeira-desde-primeira-volta-eleicoes-2191259",
-            "normalized_title": "flavio bolsonaro visitou o pai pela primeira vez desde a primeira volta das eleicoes",
-            "normalized_description": "o candidato ficou impedido de visitar jair bolsonaro em prisao domiciliaria durante tres meses por ordem de alexandre de moraes flavio continua"
-        },
-        {
-            "link": "https://expresso.pt/parlamento/2026-10-13-presidente-da-siresp-queixa-se-de-cenario-de-permanente-desinformacao-e-assegura-que-escrutinio-da-rede-funciona-bc79105e",
-            "normalized_title": "presidente da siresp queixa se de cenario de permanente desinformacao e assegura que escrutinio da rede funciona",
-            "normalized_description": "viegas nunes deixou claro que a empresa que gere a rede faz relatorios mensais e lamentou telenovela sobre os aparentes problemas que marcam a"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/wall-street-inicia-sessao-dividido-no-primeiro-dia-da-earnings-season/",
-            "normalized_title": "wall street inicia sessao dividido no primeiro dia da earnings season",
-            "normalized_description": "o s p 500 por outro lado esta em queda e o nasdaq regista ganhos ligeiros de 0 02"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/3066172/oe2027-portugal-entrega-proposta-a-bruxelas-e-promete-cumprir-tetos-de-despesa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "portugal ja entregou proposta do oe2027 a bruxelas e fez promessa",
             "normalized_description": ""
         }
     ],
@@ -11462,11 +11392,6 @@
         {
             "link": "https://www.noticiasaominuto.com/null/3063923/comissario-europeu-exige-resultados-concretos-nas-negociacoes-com-a-china#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "comissario europeu exige resultados concretos nas negociacoes com a china",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3063909/quase-15-mil-pessoas-detidas-pelo-ice-no-sul-da-california-foram-deportadas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "quase 15 mil detidos pelo ice no sul da california foram deportados",
             "normalized_description": ""
         }
     ],
@@ -21202,6 +21127,11 @@
             "link": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/fmi-ve-fatura-com-juros-a-subir-para-10-da-receita-publica",
             "normalized_title": "fmi ve fatura com juros a subir para 10 da receita publica",
             "normalized_description": "com os juros em maximos de quase duas decadas o fmi estima que a fatura com a divida absorva perto de 10 da receita das economias avancadas e avisa"
+        },
+        {
+            "link": "https://www.publico.pt/2026/10/14/economia/noticia/fmi-avisa-paises-subida-juros-torna-ajustamento-orcamental-urgente-2191291",
+            "normalized_title": "fmi avisa paises que subida dos juros torna ajustamento orcamental urgente",
+            "normalized_description": "responsaveis do fundo visam especialmente economias avancadas com niveis de divida elevados quanto mais os paises esperarem mais doloroso o"
         },
         {
             "link": "https://www.cmjornal.pt/economia/detalhe/retencoes-no-irs-com-corte-de-50-em-novembro",
@@ -33015,6 +32945,11 @@
         }
     ],
     "Multimédia": [
+        {
+            "link": "https://www.rtp.pt/noticias/noticiario-antena1/4h-salarios-e-pensoes-de-novembro-vao-ter-menos-descontos-para-o-irs_a1_1771527",
+            "normalized_title": "4h salarios e pensoes de novembro vao ter menos descontos para o irs",
+            "normalized_description": ""
+        },
         {
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/3h-papa-leao-xiv-diagnosticado-com-cancro-do-pulmao_a1_1771522",
             "normalized_title": "3h papa leao xiv diagnosticado com cancro do pulmao",
