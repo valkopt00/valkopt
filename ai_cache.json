@@ -785,63 +785,63 @@
     },
     "https://expresso.pt/semanario/economia": {
         "category": null,
-        "timestamp": "2026-10-16T07:45:50.111538+00:00",
+        "timestamp": "2026-10-16T08:01:11.693183+00:00",
         "title": "A 1ª página do Expresso Economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro": {
         "category": null,
-        "timestamp": "2026-10-16T07:45:50.157450+00:00",
+        "timestamp": "2026-10-16T08:01:11.754384+00:00",
         "title": "A primeira página do Expresso",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/ideias": {
         "category": null,
-        "timestamp": "2026-10-16T07:45:50.202179+00:00",
+        "timestamp": "2026-10-16T08:01:11.817587+00:00",
         "title": "IDEIAS. Prudência e estratégia: Porque deve Portugal proteger a Base das Lages",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-10-16T07:45:50.252439+00:00",
+        "timestamp": "2026-10-16T08:01:11.875034+00:00",
         "title": "ALTA PRESSÃO, na revista E",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-15-o-mitico-citroen-2-cv-agora-esta-eletrico-foi-revelado-ao-mundo-em-paris-e-vai-chegar-ao-mercado-por-15-mil-ac6f8269": {
         "category": null,
-        "timestamp": "2026-10-16T07:45:50.302929+00:00",
+        "timestamp": "2026-10-16T08:01:11.932578+00:00",
         "title": "O mítico Citroën 2 CV agora está elétrico, foi revelado ao mundo em Paris, e vai chegar ao mercado p...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/exposicoes/2026-10-15-teatralidade-fluidez-e-ambiguidade-em-ines-zenha-ha-lodo-no-centro-de-arte-moderna-da-gulbenkian-3896e7da": {
         "category": null,
-        "timestamp": "2026-10-16T07:45:53.365087+00:00",
+        "timestamp": "2026-10-16T08:01:14.501919+00:00",
         "title": "Teatralidade, fluidez e ambiguidade em Inês Zenha: há lodo no Centro de Arte Moderna da Gulbenkian",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/orcamento-do-estado-2027/2026-10-15-governo-reserva-2-mil-milhoes-para-a-habitacao-cb982697": {
         "category": null,
-        "timestamp": "2026-10-16T07:45:53.734031+00:00",
+        "timestamp": "2026-10-16T08:01:14.867373+00:00",
         "title": "Governo reserva €2 mil milhões para a habitação",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/orcamento-do-estado-2027/2026-10-15-como-garantir-contas-certas-num-mundo-em-guerra--a64691e4": {
         "category": null,
-        "timestamp": "2026-10-16T07:45:53.785047+00:00",
+        "timestamp": "2026-10-16T08:01:14.926499+00:00",
         "title": "Como garantir contas certas num mundo em guerra?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/altos--baixos/2026-10-15-da-lufthansa-a-altice-quem-protagonizou-a-semana--29aa5f74": {
         "category": null,
-        "timestamp": "2026-10-16T07:45:53.679876+00:00",
+        "timestamp": "2026-10-16T08:01:14.809067+00:00",
         "title": "Da Lufthansa à Altice, quem protagonizou a semana?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -878,6 +878,13 @@
         "category": null,
         "timestamp": "2026-10-16T05:31:06.463065+00:00",
         "title": "Conforto em forma doce: receita de semifrio de natas com azeite e flor de sal",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/a-batalha-pelos-livros_1772037": {
+        "category": null,
+        "timestamp": "2026-10-16T08:01:13.083152+00:00",
+        "title": "A batalha pelos livros",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
