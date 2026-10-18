@@ -6,13 +6,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/poder-local/2026-10-12-freguesias-ameacam-fechar-portas-a-4-de-novembro-se-reivindicacoes-orcamentais-nao-forem-aceites-c12c4347": {
-        "category": null,
-        "timestamp": "2026-10-13T08:45:53.756687+00:00",
-        "title": "Freguesias ameaçam fechar portas a 4 de novembro se reivindicações orçamentais não forem aceites",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/guerra-ucrania/2026-10-12-da-rede-eletrica-ucraniana-aos-estados-balticos-como-a-russia-pode-transformar-este-inverno-num-teste-a-nato-c930867a": {
         "category": null,
         "timestamp": "2026-10-13T10:15:48.263489+00:00",
@@ -757,7 +750,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-10-16-revista-time-elege-bateria-da-portuguesa-pollen-como-uma-das-melhores-invencoes-de-2026-e9b73878": {
         "category": null,
-        "timestamp": "2026-10-18T08:45:44.137478+00:00",
+        "timestamp": "2026-10-18T09:01:16.812870+00:00",
         "title": "Revista “TIME” elege bateria da portuguesa Pollen como uma das melhores invenções de 2026",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -799,7 +792,7 @@
     },
     "https://visao.pt/conteudopatrocinado/2026-10-17-solartecnica-distinguida-nos-portuguese-business-awards-2026/?utm_source=rss&utm_medium=rss&utm_campaign=solartecnica-distinguida-nos-portuguese-business-awards-2026": {
         "category": null,
-        "timestamp": "2026-10-18T08:15:47.078075+00:00",
+        "timestamp": "2026-10-18T09:01:17.549732+00:00",
         "title": "SolarTécnica distinguida nos Portuguese Business Awards 2026",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -813,7 +806,7 @@
     },
     "https://expresso.pt/curtas/2026-10-17-video-confrontos-sem-fim-a-vista-mais-de-270-pessoas-ja-foram-detidas-em-paris-durante-manifestacao-6e9a6626": {
         "category": null,
-        "timestamp": "2026-10-18T08:45:43.542752+00:00",
+        "timestamp": "2026-10-18T09:01:16.247838+00:00",
         "title": "Confrontos sem fim à vista: mais de 270 pessoas já foram detidas em Paris durante manifestação",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -848,21 +841,21 @@
     },
     "https://expresso.pt/curtas/2026-10-17-video-o-povo-e-quem-mais-ordena-multidao-canta-grandola-vila-morena-durante-protesto-pela-habitacao-em-lisboa-c8183eeb": {
         "category": null,
-        "timestamp": "2026-10-18T08:45:43.485723+00:00",
+        "timestamp": "2026-10-18T09:01:16.201572+00:00",
         "title": "\"O povo é quem mais ordena\": multidão canta \"Grândola, Vila Morena\" durante protesto pela habitação ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/europa-viva/detalhe/apoio-da-uniao-a-ucrania-esta-forte-como-sempre-garante-antonio-costa-em-conselho-europeu": {
         "category": null,
-        "timestamp": "2026-10-18T08:45:46.029806+00:00",
+        "timestamp": "2026-10-18T09:01:18.526303+00:00",
         "title": "“Apoio da UniÃ£o Ã  UcrÃ¢nia estÃ¡ forte como sempre”, garante AntÃ³nio Costa em Conselho Europeu",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/domingo/detalhe/o-sino-da-islandia-um-romance-entre-os-grandes-mitos": {
         "category": null,
-        "timestamp": "2026-10-18T08:45:45.701340+00:00",
+        "timestamp": "2026-10-18T09:01:18.487041+00:00",
         "title": "‘O Sino da IslÃ¢ndia’: Um romance entre os grandes mitos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -883,8 +876,15 @@
     },
     "https://www.rtp.pt/noticias/lusa/miniassembleias-da-saude-nas-escolas-para-descomplicar-doencas-sexualmente-transmissiveis_n1772447": {
         "category": null,
-        "timestamp": "2026-10-18T08:45:43.820227+00:00",
+        "timestamp": "2026-10-18T09:01:16.883655+00:00",
         "title": "Miniassembleias da saúde nas escolas para descomplicar doenças sexualmente transmissíveis",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/curtas/2026-10-18-video-nao-arredaram-pe-manifestantes-pela-habitacao-passam-a-noite-acampados-em-lisboa-e-no-porto-2b60075d": {
+        "category": null,
+        "timestamp": "2026-10-18T09:01:17.469500+00:00",
+        "title": "Não arredaram pé: manifestantes pela habitação passam a noite acampados em Lisboa e no Porto",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
