@@ -48,20 +48,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/eleicoes-em-israel-tribunal-anula-interdicao-de-duas-listas-de-maioria-arabe": {
-        "category": null,
-        "timestamp": "2026-10-14T17:15:48.722674+00:00",
-        "title": "Eleições em Israel: Tribunal anula interdição de duas listas de maioria árabe",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/lider-de-partido-arabe-retira-candidatura-apos-recomendacao-do-supremo": {
-        "category": null,
-        "timestamp": "2026-10-14T17:15:48.787259+00:00",
-        "title": "Líder de partido árabe retira candidatura às próximas eleições gerais de 27 de outubro após recomend...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/partidos-politicos/2026-10-14-erc-abre-procedimento-sobre-invasao-da-radio-universidade-de-coimbra-por-deputadas-do-chega-eb10e71a": {
         "category": null,
         "timestamp": "2026-10-15T09:01:19.909913+00:00",
@@ -743,7 +729,7 @@
     },
     "https://visao.pt/entrevista-sem-agenda/2026-10-18-mesmo-que-eu-nao-existisse-devido-a-escolha-de-abortar-afirmo-que-e-necessario-que-essa-escolha-esteja-do-lado-da-mulher/?utm_source=rss&utm_medium=rss&utm_campaign=mesmo-que-eu-nao-existisse-devido-a-escolha-de-abortar-afirmo-que-e-necessario-que-essa-escolha-esteja-do-lado-da-mulher": {
         "category": null,
-        "timestamp": "2026-10-19T17:01:15.216467+00:00",
+        "timestamp": "2026-10-19T17:15:51.740703+00:00",
         "title": "“Mesmo que eu não existisse devido à escolha de abortar, afirmo que é necessário que essa escolha es...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -785,7 +771,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-19-ps-propoe-novas-medidas-para-a-habitacao-isencao-de-mais-valias-e-contratos-de-arrendamento-de-cinco-anos-6fd87a45": {
         "category": null,
-        "timestamp": "2026-10-19T17:01:14.150233+00:00",
+        "timestamp": "2026-10-19T17:15:52.726808+00:00",
         "title": "PS propõe novas medidas para a habitação: isenção de mais-valias e contratos de arrendamento de cinc...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -820,14 +806,14 @@
     },
     "https://www.rtp.pt/noticias/lusa/detidos-funcionarios-de-museu-em-lisboa-suspeitos-de-ficarem-com-dinheiro-de-bilhetes_n1772657": {
         "category": null,
-        "timestamp": "2026-10-19T17:01:13.669166+00:00",
+        "timestamp": "2026-10-19T17:15:52.310453+00:00",
         "title": "Detidos funcionários de museu em Lisboa suspeitos de ficarem com dinheiro de bilhetes",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-10-19-bugatti-fora-da-corrida-aos-100-eletricos-mataria-a-empresa-afirma-ceo-cab2efdf": {
         "category": null,
-        "timestamp": "2026-10-19T17:01:13.954827+00:00",
+        "timestamp": "2026-10-19T17:15:52.211280+00:00",
         "title": "Bugatti fora da corrida aos 100% elétricos: “mataria a empresa”, afirma CEO",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -841,7 +827,7 @@
     },
     "https://expresso.pt/poder-local/2026-10-19-luis-newton-e-vasco-morgado-vao-a-julgamento-no-caso-tutti-frutti-8932391e": {
         "category": null,
-        "timestamp": "2026-10-19T17:01:13.898682+00:00",
+        "timestamp": "2026-10-19T17:15:52.170736+00:00",
         "title": "Luís Newton e Vasco Morgado vão a julgamento no caso Tutti Frutti",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -855,15 +841,29 @@
     },
     "https://expresso.pt/empresas-negocios/2026-10-19-vem-ai-os-carros-do-povo-chegarao-a-tempo-de-salvar-a-industria-europeia--a563d162": {
         "category": null,
-        "timestamp": "2026-10-19T17:01:13.560231+00:00",
+        "timestamp": "2026-10-19T17:15:51.055489+00:00",
         "title": "Vêm aí os carros do povo: chegarão a tempo de salvar a indústria europeia?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/mulher-acusa-taxa-de-alcool-quatro-vezes-acima-do-limite-legal-em-cascais": {
         "category": null,
-        "timestamp": "2026-10-19T17:01:15.348167+00:00",
+        "timestamp": "2026-10-19T17:15:51.573367+00:00",
         "title": "Mulher acusa taxa de álcool quatro vezes acima do limite legal em Cascais",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/teerao-responsabilizam-estados-unidos-pela-inseguranca-no-estreito-de-ormuz": {
+        "category": null,
+        "timestamp": "2026-10-19T17:15:51.531143+00:00",
+        "title": "Teerão responsabilizam Estados Unidos pela \"insegurança\" no estreito de Ormuz",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/lusa/2026-10-19-aguiar-branco-recusa-pedido-de-debate-de-urgencia-do-livre-sobre-habitacao-2ea1451a": {
+        "category": null,
+        "timestamp": "2026-10-19T17:15:52.129635+00:00",
+        "title": "Aguiar-Branco recusa pedido de debate de urgência do Livre sobre habitação",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
