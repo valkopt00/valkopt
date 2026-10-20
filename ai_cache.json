@@ -1,11 +1,4 @@
 {
-    "https://expresso.pt/semanario/orcamento-do-estado-2027/2026-10-15-fmi-nao-acredita-em-mais-excedentes-em-portugal-9b57ba55": {
-        "category": null,
-        "timestamp": "2026-10-15T15:15:58.139061+00:00",
-        "title": "FMI não acredita em novos excedentes orçamentais em Portugal",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/poder-local/2026-10-15-esquerda-pede-fim-da-prospecao-de-litio-no-barroso-depois-de-populacao-bloquear-trabalhos-perdemos-toda-a-nossa-liberdade-bfcacdb3": {
         "category": null,
         "timestamp": "2026-10-15T16:15:45.514341+00:00",
@@ -17,13 +10,6 @@
         "category": null,
         "timestamp": "2026-10-15T17:31:08.412008+00:00",
         "title": "Aumento dos custos do Estado com juros no próximo ano será o maior desde a troika",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.rtp.pt/noticias/liga-europa-conferencia/sporting-de-braga-visita-copenhaga-para-a-liga-conferencia_d1771811": {
-        "category": null,
-        "timestamp": "2026-10-15T15:31:04.618939+00:00",
-        "title": "Sporting de Braga visita Copenhaga para a Liga Conferência",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -771,14 +757,14 @@
     },
     "https://expresso.pt/empresas-negocios/2026-10-19-trabalhadores-da-volkswagen-autoeuropa-rejeitam-congelamento-de-salarios-0d1f95d7": {
         "category": null,
-        "timestamp": "2026-10-20T15:15:59.199591+00:00",
+        "timestamp": "2026-10-20T15:31:18.398812+00:00",
         "title": "Trabalhadores da Volkswagen Autoeuropa rejeitam congelamento de salários",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/parlamento-europeu/2026-10-19-tribunal-penal-internacional-entre-os-3-finalistas-ao-premio-sakharov-2026-babd810e": {
         "category": null,
-        "timestamp": "2026-10-20T15:15:59.127998+00:00",
+        "timestamp": "2026-10-20T15:31:18.355588+00:00",
         "title": "Tribunal Penal Internacional entre os 3 finalistas ao Prémio Sakharov 2026",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -799,14 +785,14 @@
     },
     "https://expresso.pt/curtas/2026-10-20-video-psp-avanca-sobre-manifestantes-pela-habitacao-em-lisboa-e-desmantela-acampada-as-imagens-da-madrugada-bc08f1ce": {
         "category": null,
-        "timestamp": "2026-10-20T15:15:56.396957+00:00",
+        "timestamp": "2026-10-20T15:31:14.675615+00:00",
         "title": "PSP avança sobre manifestantes pela habitação em Lisboa e desmantela acampada: as imagens da madruga...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-10-20-nos-e-telefonica-aliam-se-para-desenvolver-solucoes-de-defesa-e-seguranca-na-europa-07717c4a": {
         "category": null,
-        "timestamp": "2026-10-20T15:15:56.329388+00:00",
+        "timestamp": "2026-10-20T15:31:14.634652+00:00",
         "title": "NOS e Telefónica aliam-se para desenvolver soluções de defesa e segurança na Europa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -820,7 +806,7 @@
     },
     "https://www.rtp.pt/noticias/surf/teresa-bonvalot-quinta-em-supertubos_d1772932": {
         "category": null,
-        "timestamp": "2026-10-20T15:15:55.800210+00:00",
+        "timestamp": "2026-10-20T15:31:15.402385+00:00",
         "title": "Teresa Bonvalot quinta em Supertubos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -834,36 +820,50 @@
     },
     "https://expresso.pt/presidencia-republica/2026-10-20-com-neves-em-investigacao-seguro-alerta-para-cumprimento-das-regras-processuais-na-pj-e-a-primeira-condicao-da-legitimidade-813d863f": {
         "category": null,
-        "timestamp": "2026-10-20T15:15:55.493569+00:00",
+        "timestamp": "2026-10-20T15:31:14.582405+00:00",
         "title": "Com Neves em investigação, Seguro alerta para cumprimento das \"regras processuais\" na PJ: \"É a prime...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/media-comunicacao/2026-10-19-christiane-amanpour-deixa-a-cnn-parceira-de-43-anos-fantasticos-3307eccc": {
         "category": null,
-        "timestamp": "2026-10-20T15:15:59.291851+00:00",
+        "timestamp": "2026-10-20T15:31:18.448694+00:00",
         "title": "Christiane Amanpour deixa a CNN, \"parceira de 43 anos fantásticos\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-20-psd-admite-propostas-complementares-na-lei-do-arrendamento-mas-acusa-ps-de-falta-de-decoro-b966ffd8": {
         "category": null,
-        "timestamp": "2026-10-20T15:15:55.231170+00:00",
+        "timestamp": "2026-10-20T15:31:14.126540+00:00",
         "title": "PSD admite \"propostas complementares\" na lei do arrendamento, mas acusa PS de \"falta de decoro\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/fundos-europeus/2026-10-20-quase-50-mil-milhoes-do-prr-pouco-fizeram-para-resolver-problemas-da-administracao-publica-na-europa-diz-o-tribunal-de-contas-europeu-f1d92e5a": {
         "category": null,
-        "timestamp": "2026-10-20T15:15:55.397245+00:00",
+        "timestamp": "2026-10-20T15:31:15.115192+00:00",
         "title": "Quase €50 mil milhões do PRR pouco fizeram para resolver problemas da Administração Pública na Europ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://observador.pt/programas/emissao-especial/acampada-o-relato-da-retirada-das-tendas-em-lisboa/": {
         "category": null,
-        "timestamp": "2026-10-20T15:15:56.694508+00:00",
+        "timestamp": "2026-10-20T15:31:15.447358+00:00",
         "title": "O relato da retirada das tendas em Lisboa e no Porto",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/poder-local/2026-10-20-moedas-diz-que-direito-a-habitacao-e-sagrado-mas-atira-a-manifestantes-por-vandalizarem-estatua-no-rossio-9860aba8": {
+        "category": null,
+        "timestamp": "2026-10-20T15:31:15.021824+00:00",
+        "title": "Moedas diz que direito à habitação é \"sagrado\", mas atira a manifestantes por \"vandalizarem\" estátua...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/guine-bissau/2026-10-20-governo-interino-da-guine-bissau-adia-eleicoes-e-limita-direitos-fim-das-guerrinhas-ou-jogada-intencional-contra-a-democracia--513a1c63": {
+        "category": null,
+        "timestamp": "2026-10-20T15:31:15.073795+00:00",
+        "title": "Governo interino da Guiné-Bissau adia eleições e limita direitos: “fim das guerrinhas” ou “jogada in...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
