@@ -48,13 +48,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/hoquei/portugal-angola_d1771937": {
-        "category": null,
-        "timestamp": "2026-10-15T19:30:59.902643+00:00",
-        "title": "Portugal - Angola",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/semanario/orcamento-do-estado-2027/2026-10-15-fundo-soberano-e-windfall-tax-ausentes-do-orcamento-47b68720": {
         "category": null,
         "timestamp": "2026-10-15T22:45:48.909207+00:00",
@@ -715,14 +708,14 @@
     },
     "https://expresso.pt/curtas/2026-10-20-video-psp-avanca-sobre-manifestantes-pela-habitacao-em-lisboa-e-desmantela-acampada-as-imagens-da-madrugada-bc08f1ce": {
         "category": null,
-        "timestamp": "2026-10-20T19:15:56.084868+00:00",
+        "timestamp": "2026-10-20T19:31:09.890337+00:00",
         "title": "PSP avança sobre manifestantes pela habitação em Lisboa e desmantela acampada: as imagens da madruga...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-10-20-nos-e-telefonica-aliam-se-para-desenvolver-solucoes-de-defesa-e-seguranca-na-europa-07717c4a": {
         "category": null,
-        "timestamp": "2026-10-20T19:15:56.022089+00:00",
+        "timestamp": "2026-10-20T19:31:09.817255+00:00",
         "title": "NOS e Telefónica aliam-se para desenvolver soluções de defesa e segurança na Europa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -750,7 +743,7 @@
     },
     "https://expresso.pt/presidencia-republica/2026-10-20-com-neves-em-investigacao-seguro-alerta-para-cumprimento-das-regras-processuais-na-pj-e-a-primeira-condicao-da-legitimidade-813d863f": {
         "category": null,
-        "timestamp": "2026-10-20T19:15:55.945242+00:00",
+        "timestamp": "2026-10-20T19:31:09.722503+00:00",
         "title": "Com Neves em investigação, Seguro alerta para cumprimento das \"regras processuais\" na PJ: \"É a prime...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -764,21 +757,21 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-20-psd-admite-propostas-complementares-na-lei-do-arrendamento-mas-acusa-ps-de-falta-de-decoro-b966ffd8": {
         "category": null,
-        "timestamp": "2026-10-20T19:15:55.334585+00:00",
+        "timestamp": "2026-10-20T19:31:09.012381+00:00",
         "title": "PSD admite \"propostas complementares\" na lei do arrendamento, mas acusa PS de \"falta de decoro\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/fundos-europeus/2026-10-20-quase-50-mil-milhoes-do-prr-pouco-fizeram-para-resolver-problemas-da-administracao-publica-na-europa-diz-o-tribunal-de-contas-europeu-f1d92e5a": {
         "category": null,
-        "timestamp": "2026-10-20T19:15:55.252141+00:00",
+        "timestamp": "2026-10-20T19:31:08.965053+00:00",
         "title": "Quase €50 mil milhões do PRR pouco fizeram para resolver problemas da Administração Pública na Europ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://observador.pt/programas/emissao-especial/acampada-o-relato-da-retirada-das-tendas-em-lisboa/": {
         "category": null,
-        "timestamp": "2026-10-20T19:15:56.247399+00:00",
+        "timestamp": "2026-10-20T19:31:10.038299+00:00",
         "title": "O relato da retirada das tendas em Lisboa e no Porto",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -792,7 +785,7 @@
     },
     "https://expresso.pt/guine-bissau/2026-10-20-governo-interino-da-guine-bissau-adia-eleicoes-e-limita-direitos-fim-das-guerrinhas-ou-jogada-intencional-contra-a-democracia--513a1c63": {
         "category": null,
-        "timestamp": "2026-10-20T19:15:55.193440+00:00",
+        "timestamp": "2026-10-20T19:31:08.916802+00:00",
         "title": "Governo interino da Guiné-Bissau adia eleições e limita direitos: “fim das guerrinhas” ou “jogada in...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -806,14 +799,14 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-10-20-continua-a-troca-de-acusacoes-entre-zelensky-e-trump-e-o-presidente-ucraniano-voltou-a-atacar-refinarias-na-russia-coragem-ou-tolice--a828941f": {
         "category": null,
-        "timestamp": "2026-10-20T19:15:55.020382+00:00",
+        "timestamp": "2026-10-20T19:31:08.670649+00:00",
         "title": "Continua a troca de acusações entre Zelensky e Trump, e o Presidente ucraniano voltou a atacar refin...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-10-20-moedas-garante-que-direito-a-manifestacao-e-sagrado-mas-atira-a-quem-vandalizou-estatua-no-rossio-9860aba8": {
         "category": null,
-        "timestamp": "2026-10-20T19:15:55.081600+00:00",
+        "timestamp": "2026-10-20T19:31:08.716819+00:00",
         "title": "Moedas garante que direito à manifestação é \"sagrado\", mas atira a quem \"vandalizou\" estátua no Ross...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -834,8 +827,15 @@
     },
     "https://expresso.pt/premios-do-imobiliario/2026-10-20-conferencia-habitacao-publica-acessivel-cd7026b0": {
         "category": null,
-        "timestamp": "2026-10-20T19:15:54.947287+00:00",
+        "timestamp": "2026-10-20T19:31:08.288196+00:00",
         "title": "Conferência Habitação Pública Acessível",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/mais-de-mil-manifestantes-levam-protesto-a-camara-do-porto": {
+        "category": null,
+        "timestamp": "2026-10-20T19:31:10.102138+00:00",
+        "title": "Mais de mil manifestantes levam protesto à Câmara do Porto",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
