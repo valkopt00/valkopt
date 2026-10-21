@@ -27,20 +27,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/semanario/revista-e": {
-        "category": null,
-        "timestamp": "2026-10-16T13:45:48.065550+00:00",
-        "title": "ALTA PRESSÃO, na revista E",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-15-o-mitico-citroen-2-cv-agora-esta-eletrico-foi-revelado-ao-mundo-em-paris-e-vai-chegar-ao-mercado-por-15-mil-ac6f8269": {
-        "category": null,
-        "timestamp": "2026-10-16T13:45:48.112222+00:00",
-        "title": "O mítico Citroën 2 CV agora está elétrico, foi revelado ao mundo em Paris, e vai chegar ao mercado p...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/guerra-ucrania/2026-10-16-ucrania-esgota-reservas-de-intercetores-patriot-e-fica-vulneravel-aos-sucessivos-ataques-russos-fce567ee": {
         "category": null,
         "timestamp": "2026-10-16T23:15:46.213515+00:00",
@@ -701,28 +687,28 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-21-video-andre-ventura-so-havera-lei-do-arrendamento-se-nao-tivermos-caucoes-ilimitadas-fa3fb010": {
         "category": null,
-        "timestamp": "2026-10-21T13:31:06.316869+00:00",
+        "timestamp": "2026-10-21T13:45:59.368654+00:00",
         "title": "André Ventura: “Só haverá lei do arrendamento se não tivermos cauções ilimitadas”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-10-21-foi-elon-musk-quem-decidiu-limitar-a-rede-de-satelites-starshield-na-ucrania-diz-o-wall-street-journal-99a05edc": {
         "category": null,
-        "timestamp": "2026-10-21T13:31:06.254284+00:00",
+        "timestamp": "2026-10-21T13:45:59.308037+00:00",
         "title": "Foi Elon Musk quem decidiu limitar a rede de satélites Starshield na Ucrânia, diz o “Wall Street Jou...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-21-video-o-povo-e-quem-mais-ordena-artistas-e-manifestantes-pela-habitacao-juntam-se-para-cantar-grandola-vila-morena-2eba094e": {
         "category": null,
-        "timestamp": "2026-10-21T13:31:06.195445+00:00",
+        "timestamp": "2026-10-21T13:45:59.242329+00:00",
         "title": "\"O povo é quem mais ordena\": artistas e manifestantes pela habitação juntam-se para cantar \"Grândola...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-10-21-donald-trump-pressiona-zelensky-para-assinar-acordo-entre-ucrania-e-russia-que-ponha-fim-ao-conflito-75e52451": {
         "category": null,
-        "timestamp": "2026-10-21T13:31:06.135000+00:00",
+        "timestamp": "2026-10-21T13:45:59.186858+00:00",
         "title": "Donald Trump pressiona Zelensky para assinar acordo entre Ucrânia e Rússia que ponha fim ao conflito",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -743,49 +729,49 @@
     },
     "https://expresso.pt/presidencia-republica/2026-10-21-seguro-chama-partidos-para-falar-de-coesao-social-c47a8d16": {
         "category": null,
-        "timestamp": "2026-10-21T13:31:06.076629+00:00",
+        "timestamp": "2026-10-21T13:45:59.128591+00:00",
         "title": "Seguro chama partidos para falar de coesão social",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-10-21-russia-liberta-professor-americano-stephen-hubbard-acusado-de-combater-pela-ucrania-a5910255": {
         "category": null,
-        "timestamp": "2026-10-21T13:31:05.955499+00:00",
+        "timestamp": "2026-10-21T13:45:59.025663+00:00",
         "title": "Rússia liberta professor americano Stephen Hubbard, acusado de combater pela Ucrânia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-10-21-estranha-forma-de-politica-a-servia-vai-a-votos-e-de-uma-tragedia-os-estudantes-fizeram-um-movimento-f664b658": {
         "category": null,
-        "timestamp": "2026-10-21T13:31:06.017600+00:00",
+        "timestamp": "2026-10-21T13:45:59.075183+00:00",
         "title": "Estudantes desafiam poder político na Sérvia: sondagens apontam para empate entre o regime e o movim...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/premios-do-imobiliario/2026-10-20-crise-habitacional-habitacao-publica-e-solucao-mas-faltam-terrenos-para-construcao-6f4f7f3c": {
         "category": null,
-        "timestamp": "2026-10-21T13:31:09.166003+00:00",
+        "timestamp": "2026-10-21T13:46:03.210412+00:00",
         "title": "Crise habitacional: habitação pública é solução, mas faltam terrenos para construção",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/administracao-publica/2026-10-21-ha-20-anos-que-o-racio-da-divida-portuguesa-nao-estava-tao-proximo-da-media-da-zona-euro-c50e9b9a": {
         "category": null,
-        "timestamp": "2026-10-21T13:31:07.225713+00:00",
+        "timestamp": "2026-10-21T13:46:01.013567+00:00",
         "title": "Há 20 anos que o rácio da dívida portuguesa não estava tão próximo da média da zona euro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/surf/ganhar-em-portugal-o-objetivo-de-molly-picklum_d1773253": {
         "category": null,
-        "timestamp": "2026-10-21T13:31:06.994557+00:00",
+        "timestamp": "2026-10-21T13:45:59.453473+00:00",
         "title": "\"Ganhar em Portugal\", o objetivo de Molly Picklum",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/surf/italo-ferreira-preconiza-duelo-apimentado-com-gabriel-medina-em-peniche_d1773250": {
         "category": null,
-        "timestamp": "2026-10-21T13:31:07.056294+00:00",
+        "timestamp": "2026-10-21T13:45:59.506552+00:00",
         "title": "Ítalo Ferreira preconiza duelo \"apimentado\" com Gabriel Medina em Peniche",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
