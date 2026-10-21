@@ -97,13 +97,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/receitas/2026-10-15-conforto-em-forma-doce-receita-de-semifrio-de-natas-com-azeite-e-flor-de-sal-c5e55a4e": {
-        "category": null,
-        "timestamp": "2026-10-16T05:31:06.463065+00:00",
-        "title": "Conforto em forma doce: receita de semifrio de natas com azeite e flor de sal",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/a-batalha-pelos-livros_1772037": {
         "category": null,
         "timestamp": "2026-10-16T12:31:12.091087+00:00",
@@ -666,7 +659,7 @@
     },
     "https://expresso.pt/presidencia-republica/2026-10-20-com-neves-em-investigacao-seguro-alerta-para-cumprimento-das-regras-processuais-na-pj-e-a-primeira-condicao-da-legitimidade-813d863f": {
         "category": null,
-        "timestamp": "2026-10-21T05:15:55.421730+00:00",
+        "timestamp": "2026-10-21T05:31:11.402109+00:00",
         "title": "Com Neves em investigação, Seguro alerta para cumprimento das \"regras processuais\" na PJ: \"É a prime...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -680,14 +673,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-20-psd-admite-propostas-complementares-na-lei-do-arrendamento-mas-acusa-ps-de-falta-de-decoro-b966ffd8": {
         "category": null,
-        "timestamp": "2026-10-21T05:15:54.844322+00:00",
+        "timestamp": "2026-10-21T05:31:10.686445+00:00",
         "title": "PSD admite \"propostas complementares\" na lei do arrendamento, mas acusa PS de \"falta de decoro\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/fundos-europeus/2026-10-20-quase-50-mil-milhoes-do-prr-pouco-fizeram-para-resolver-problemas-da-administracao-publica-na-europa-diz-o-tribunal-de-contas-europeu-f1d92e5a": {
         "category": null,
-        "timestamp": "2026-10-21T05:15:54.783788+00:00",
+        "timestamp": "2026-10-21T05:31:10.623078+00:00",
         "title": "Quase €50 mil milhões do PRR pouco fizeram para resolver problemas da Administração Pública na Europ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -708,7 +701,7 @@
     },
     "https://expresso.pt/guine-bissau/2026-10-20-governo-interino-da-guine-bissau-adia-eleicoes-e-limita-direitos-fim-das-guerrinhas-ou-jogada-intencional-contra-a-democracia--513a1c63": {
         "category": null,
-        "timestamp": "2026-10-21T05:15:54.724108+00:00",
+        "timestamp": "2026-10-21T05:31:10.561313+00:00",
         "title": "Governo interino da Guiné-Bissau adia eleições e limita direitos: “fim das guerrinhas” ou “jogada in...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -722,7 +715,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-10-20-continua-a-troca-de-acusacoes-entre-zelensky-e-trump-e-o-presidente-ucraniano-voltou-a-atacar-refinarias-na-russia-coragem-ou-tolice--a828941f": {
         "category": null,
-        "timestamp": "2026-10-21T05:15:54.597142+00:00",
+        "timestamp": "2026-10-21T05:31:10.436439+00:00",
         "title": "Continua a troca de acusações entre Zelensky e Trump, e o Presidente ucraniano voltou a atacar refin...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -750,7 +743,7 @@
     },
     "https://expresso.pt/premios-do-imobiliario/2026-10-20-conferencia-habitacao-publica-acessivel-cd7026b0": {
         "category": null,
-        "timestamp": "2026-10-21T05:15:54.536499+00:00",
+        "timestamp": "2026-10-21T05:31:10.372137+00:00",
         "title": "Conferência Habitação Pública Acessível",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -771,7 +764,7 @@
     },
     "https://expresso.pt/poder-local/2026-10-20-fez-o-que-tinha-a-fazer-moedas-defende-acao-policial-em-protesto-pela-habitacao-esquerda-pede-menos-bastonadas-e-mais-solucoes-9860aba8": {
         "category": null,
-        "timestamp": "2026-10-21T05:15:54.665597+00:00",
+        "timestamp": "2026-10-21T05:31:10.499741+00:00",
         "title": "\"Fez o que tinha a fazer\": Moedas defende ação policial em protesto pela habitação, esquerda pede \"m...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
