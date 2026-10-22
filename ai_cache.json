@@ -701,14 +701,14 @@
     },
     "https://visao.pt/edicao-impressa/2026-10-21-edicao-1755/?utm_source=rss&utm_medium=rss&utm_campaign=edicao-1755": {
         "category": null,
-        "timestamp": "2026-10-22T09:31:02.740965+00:00",
+        "timestamp": "2026-10-22T09:45:52.979184+00:00",
         "title": "Edição 1755",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-10-21-tesla-e-spacex-juntas--musk-admite-fusao-que-juntaria-negocios-avaliados-em-3-bilioes-44cbdc9e": {
         "category": null,
-        "timestamp": "2026-10-22T09:31:03.648450+00:00",
+        "timestamp": "2026-10-22T09:45:53.833123+00:00",
         "title": "Tesla e SpaceX juntas? Musk admite fusão que juntaria negócios avaliados em €3 biliões",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -729,7 +729,7 @@
     },
     "https://expresso.pt/italia/2026-10-21-tambem-ha-protestos-em-milao-e-giorgia-meloni-ja-mexe-no-codigo-penal-f8f453da": {
         "category": null,
-        "timestamp": "2026-10-22T09:31:03.595571+00:00",
+        "timestamp": "2026-10-22T09:45:53.753745+00:00",
         "title": "Também há protestos em Milão e Giorgia Meloni já mexe no Código Penal",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -750,21 +750,21 @@
     },
     "https://expresso.pt/exposicoes/2026-10-21-onde-morreu-d.carlota-joaquina--a-resposta-esta-numa-exposicao-no-palacio-nacional-de-queluz-77889a4f": {
         "category": null,
-        "timestamp": "2026-10-22T09:31:03.539641+00:00",
+        "timestamp": "2026-10-22T09:45:53.670738+00:00",
         "title": "Onde morreu D.Carlota Joaquina? A resposta está numa exposição no Palácio Nacional de Queluz",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/exposicoes/2026-10-21-d.-carlota-joaquina-779c355b": {
         "category": null,
-        "timestamp": "2026-10-22T09:31:03.485540+00:00",
+        "timestamp": "2026-10-22T09:45:53.574398+00:00",
         "title": "D. Carlota Joaquina",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/nato/2026-10-21-uma-refinaria-e-um-alvo-legitimo.-eu-atacava-a-entrevista-ao-presidente-do-comite-militar-da-nato-991de61d": {
         "category": null,
-        "timestamp": "2026-10-22T09:31:03.430739+00:00",
+        "timestamp": "2026-10-22T09:45:53.495593+00:00",
         "title": "“Uma refinaria é um alvo legítimo. Eu atacava-a”: entrevista ao presidente do Comité Militar da NATO",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -778,14 +778,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-21-carneiro-pede-a-montenegro-que-deixe-cair-lei-das-rendas-e-o-pais-que-exige-nao-e-o-ps-d9b29e22": {
         "category": null,
-        "timestamp": "2026-10-22T09:31:03.373797+00:00",
+        "timestamp": "2026-10-22T09:45:53.400717+00:00",
         "title": "Carneiro pede a Montenegro que deixe cair lei das rendas: “É o país que exige, não é o PS”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-21-video-tendas-voltam-a-ser-montadas-no-rossio-esta-quarta-feira--veja-as-imagens--0066339c": {
         "category": null,
-        "timestamp": "2026-10-22T09:31:03.318762+00:00",
+        "timestamp": "2026-10-22T09:45:53.306564+00:00",
         "title": "Tendas voltam a ser montadas no Rossio esta quarta-feira (veja as imagens)",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -813,22 +813,36 @@
     },
     "https://expresso.pt/fundos-europeus/2026-10-22-antonio-costa-prepara-nova-proposta-de-orcamento-europeu-00294242": {
         "category": null,
-        "timestamp": "2026-10-22T09:31:02.909276+00:00",
+        "timestamp": "2026-10-22T09:45:52.503863+00:00",
         "title": "António Costa prepara nova proposta de orçamento europeu",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/defesa-nacional/2026-10-22-lockheed-identificou-quatro-empresas-portuguesas-para-concorrerem-ao-fabrico-de-pecas-do-caca-f-35-0598941f": {
         "category": null,
-        "timestamp": "2026-10-22T09:31:02.801031+00:00",
+        "timestamp": "2026-10-22T09:45:52.350990+00:00",
         "title": "Lockheed identificou quatro empresas portuguesas para concorrerem ao fabrico de peças do caça F-35",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-22-rita-matias-propoe-criacao-de-sala-de-amamentacao-no-parlamento-80c5e56e": {
         "category": null,
-        "timestamp": "2026-10-22T09:31:02.854744+00:00",
+        "timestamp": "2026-10-22T09:45:52.426442+00:00",
         "title": "Rita Matias propõe criação de sala de amamentação no parlamento",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.rtp.pt/noticias/lusa/variante-de-proteina-que-pode-ajudar-a-controlar-o-cancro-descoberta-pela-universidade-de-coimbra_n1773461": {
+        "category": null,
+        "timestamp": "2026-10-22T09:45:53.160038+00:00",
+        "title": "Variante de proteína que pode ajudar a controlar o cancro descoberta pela Universidade de Coimbra",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/onu-alerta-para-aumento-dos-ataques-de-colonos-israelitas-na-cisjordania": {
+        "category": null,
+        "timestamp": "2026-10-22T09:45:54.178023+00:00",
+        "title": "ONU alerta para aumento dos ataques de colonos israelitas na Cisjordânia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
