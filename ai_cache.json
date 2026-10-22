@@ -48,13 +48,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/europa-viva/detalhe/uniao-europeia-continua-sem-medidas-concretas-para-a-carteira-dos-europeus": {
-        "category": null,
-        "timestamp": "2026-10-17T18:01:14.232974+00:00",
-        "title": "União Europeia continua sem medidas concretas para a carteira dos europeus",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/curtas/2026-10-17-video-confrontos-sem-fim-a-vista-mais-de-270-pessoas-ja-foram-detidas-em-paris-durante-manifestacao-6e9a6626": {
         "category": null,
         "timestamp": "2026-10-19T06:45:49.737865+00:00",
@@ -834,7 +827,7 @@
     },
     "https://expresso.pt/premio-pessoa/2026-10-22-abertas-as-candidaturas-ao-premio-pessoa-2026-68357b95": {
         "category": null,
-        "timestamp": "2026-10-22T17:45:47.566648+00:00",
+        "timestamp": "2026-10-22T18:01:17.408219+00:00",
         "title": "Abertas as candidaturas ao Prémio Pessoa 2026",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -848,7 +841,7 @@
     },
     "https://expresso.pt/expressinho/2026-10-22-marrocos-vai-ter-uma-primeira-ministra-a2d66e31": {
         "category": null,
-        "timestamp": "2026-10-22T17:45:47.505751+00:00",
+        "timestamp": "2026-10-22T18:01:17.351069+00:00",
         "title": "Marrocos vai ter uma primeira-ministra",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -869,49 +862,49 @@
     },
     "https://expresso.pt/custo-vida/2026-10-22-trocar-lisboa-ou-o-porto-pelos-arredores-pode-gerar-poupanca-de-900-por-mes-nas-despesas-com-a-habitacao-07a6de07": {
         "category": null,
-        "timestamp": "2026-10-22T17:45:47.445231+00:00",
+        "timestamp": "2026-10-22T18:01:17.260554+00:00",
         "title": "Trocar Lisboa ou o Porto pelos arredores pode gerar 'poupança' de €900 por mês nas despesas com a ha...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/health-parliament-portugal/2026-10-22-health-parliament-portugal-a-saude-que-queremos-amanha-comeca-hoje-65fbfb85": {
         "category": null,
-        "timestamp": "2026-10-22T17:45:47.086193+00:00",
+        "timestamp": "2026-10-22T18:01:16.846868+00:00",
         "title": "Health Parliament Portugal: “A saúde que queremos amanhã começa hoje”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/construcao/2026-10-22-nova-torre-do-aeroporto-de-lisboa-custa-35-milhoes-e-arranca-no-primeiro-semestre-de-2027-da7e5a13": {
         "category": null,
-        "timestamp": "2026-10-22T17:45:47.024349+00:00",
+        "timestamp": "2026-10-22T18:01:16.788430+00:00",
         "title": "Nova torre do aeroporto de Lisboa custa €35 milhões e arranca no primeiro semestre de 2027",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/expressinho/2026-10-22-festas-de-todo-o-ano-d9c496c8": {
         "category": null,
-        "timestamp": "2026-10-22T17:45:46.963231+00:00",
+        "timestamp": "2026-10-22T18:01:16.720680+00:00",
         "title": "Festas de todo o ano",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-10-22-atual-e-ex-presidente-da-camara-de-valongo-condenados-a-perda-de-mandato-por-abuso-de-poder-6bb96548": {
         "category": null,
-        "timestamp": "2026-10-22T17:45:48.536077+00:00",
+        "timestamp": "2026-10-22T18:01:15.468186+00:00",
         "title": "Atual e ex-presidente da câmara de Valongo condenados a perda de mandato por abuso de poder",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/liga-europa-conferencia/sporting-de-braga-gent_d1773575": {
         "category": null,
-        "timestamp": "2026-10-22T17:31:08.477129+00:00",
+        "timestamp": "2026-10-22T18:01:15.709797+00:00",
         "title": "Sporting de Braga - Gent",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/expressinho/2026-10-22-toca-a-atrasar-os-relogios-sabes-tudo-sobre-a-mudanca-da-hora--d00bd5e5": {
         "category": null,
-        "timestamp": "2026-10-22T17:45:48.821609+00:00",
+        "timestamp": "2026-10-22T18:01:16.661451+00:00",
         "title": "Toca a atrasar os relógios! Sabes tudo sobre a mudança da hora?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
