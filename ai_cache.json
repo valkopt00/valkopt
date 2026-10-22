@@ -69,13 +69,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/futebol-nacional/sanjoanense-faz-tombar-nacional-na-terceira-eliminatoria_d1772363": {
-        "category": null,
-        "timestamp": "2026-10-17T19:45:47.539595+00:00",
-        "title": "Sanjoanense faz tombar Nacional na terceira eliminatória",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.rtp.pt/noticias/taca-de-portugal/estrela-da-amadora-supera-fazendense-com-bis-de-tom-moustier_d1772373": {
         "category": null,
         "timestamp": "2026-10-18T07:45:47.995617+00:00",
@@ -841,7 +834,7 @@
     },
     "https://expresso.pt/expressinho/2026-10-22-marrocos-vai-ter-uma-primeira-ministra-a2d66e31": {
         "category": null,
-        "timestamp": "2026-10-22T19:31:08.295111+00:00",
+        "timestamp": "2026-10-22T19:45:50.883050+00:00",
         "title": "Marrocos vai ter uma primeira-ministra",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -862,35 +855,35 @@
     },
     "https://expresso.pt/custo-vida/2026-10-22-trocar-lisboa-ou-o-porto-pelos-arredores-pode-gerar-poupanca-de-900-por-mes-nas-despesas-com-a-habitacao-07a6de07": {
         "category": null,
-        "timestamp": "2026-10-22T19:31:08.246470+00:00",
+        "timestamp": "2026-10-22T19:45:50.808847+00:00",
         "title": "Trocar Lisboa ou o Porto pelos arredores pode gerar 'poupança' de €900 por mês nas despesas com a ha...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/health-parliament-portugal/2026-10-22-health-parliament-portugal-a-saude-que-queremos-amanha-comeca-hoje-65fbfb85": {
         "category": null,
-        "timestamp": "2026-10-22T19:31:07.091017+00:00",
+        "timestamp": "2026-10-22T19:45:50.318295+00:00",
         "title": "Health Parliament Portugal: “A saúde que queremos amanhã começa hoje”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/construcao/2026-10-22-nova-torre-do-aeroporto-de-lisboa-custa-35-milhoes-e-arranca-no-primeiro-semestre-de-2027-da7e5a13": {
         "category": null,
-        "timestamp": "2026-10-22T19:31:07.022372+00:00",
+        "timestamp": "2026-10-22T19:45:50.240616+00:00",
         "title": "Nova torre do aeroporto de Lisboa custa €35 milhões e arranca no primeiro semestre de 2027",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/expressinho/2026-10-22-festas-de-todo-o-ano-d9c496c8": {
         "category": null,
-        "timestamp": "2026-10-22T19:31:06.974973+00:00",
+        "timestamp": "2026-10-22T19:45:50.210688+00:00",
         "title": "Festas de todo o ano",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-10-22-atual-e-ex-presidente-da-camara-de-valongo-condenados-a-perda-de-mandato-por-abuso-de-poder-6bb96548": {
         "category": null,
-        "timestamp": "2026-10-22T19:31:06.859492+00:00",
+        "timestamp": "2026-10-22T19:45:50.105339+00:00",
         "title": "Atual e ex-presidente da câmara de Valongo condenados a perda de mandato por abuso de poder",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -904,7 +897,7 @@
     },
     "https://expresso.pt/expressinho/2026-10-22-toca-a-atrasar-os-relogios-sabes-tudo-sobre-a-mudanca-da-hora--d00bd5e5": {
         "category": null,
-        "timestamp": "2026-10-22T19:31:06.907545+00:00",
+        "timestamp": "2026-10-22T19:45:50.180163+00:00",
         "title": "Toca a atrasar os relógios! Sabes tudo sobre a mudança da hora?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -918,14 +911,14 @@
     },
     "https://expresso.pt/expressinho/2026-10-22-missao-da-semana-aprender-com-a-mao-na-massa-7ff4d654": {
         "category": null,
-        "timestamp": "2026-10-22T19:31:06.814225+00:00",
+        "timestamp": "2026-10-22T19:45:50.065541+00:00",
         "title": "Missão da semana: aprender com a mão na massa!",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-22-ventura-considera-extemporaneo-debate-sobre-aborto-e-critica-passos-coelho-34f3c0fa": {
         "category": null,
-        "timestamp": "2026-10-22T19:31:06.652720+00:00",
+        "timestamp": "2026-10-22T19:45:50.001884+00:00",
         "title": "Ventura considera extemporâneo debate sobre aborto e critica Passos Coelho",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
