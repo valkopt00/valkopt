@@ -34,13 +34,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/taca-de-portugal/estrela-da-amadora-supera-fazendense-com-bis-de-tom-moustier_d1772373": {
-        "category": null,
-        "timestamp": "2026-10-18T07:45:47.995617+00:00",
-        "title": "Estrela da Amadora supera Fazendense com `bis` de Tom Moustier",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/curtas/2026-10-17-video-o-povo-e-quem-mais-ordena-multidao-canta-grandola-vila-morena-durante-protesto-pela-habitacao-em-lisboa-c8183eeb": {
         "category": null,
         "timestamp": "2026-10-19T08:01:14.427047+00:00",
@@ -904,63 +897,63 @@
     },
     "https://expresso.pt/semanario/primeiro": {
         "category": null,
-        "timestamp": "2026-10-23T07:31:03.479365+00:00",
+        "timestamp": "2026-10-23T07:45:49.436082+00:00",
         "title": "A primeira página do Expresso",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-22-ucrania.-negociacao-possivel-em-novembro-afe2aba4": {
         "category": null,
-        "timestamp": "2026-10-23T07:31:04.914987+00:00",
+        "timestamp": "2026-10-23T07:45:51.196371+00:00",
         "title": "Ucrânia. Negociação possível em novembro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-22-ataque.-falha-de-seguranca-para-sites-em-todo-o-mundo-fda5badf": {
         "category": null,
-        "timestamp": "2026-10-23T07:31:04.974282+00:00",
+        "timestamp": "2026-10-23T07:45:51.285680+00:00",
         "title": "Ataque. Falha de segurança para sites em todo o mundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-22-il-acelera-calendario-interno-de-olho-em-eleicoes--e-nao-so--270b9895": {
         "category": null,
-        "timestamp": "2026-10-23T07:31:05.603072+00:00",
+        "timestamp": "2026-10-23T07:45:51.935794+00:00",
         "title": "IL acelera calendário interno de olho em eleições (e não só)",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-22-ouro.-receitas-do-estado-disparam-14250390": {
         "category": null,
-        "timestamp": "2026-10-23T07:31:05.836874+00:00",
+        "timestamp": "2026-10-23T07:45:52.456302+00:00",
         "title": "Ouro. Receitas do Estado disparam",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-10-22-o-meu-camilo-que-e-nosso-o-regresso-as-escolas-e-carcere-no-cinema-3bfa615b": {
         "category": null,
-        "timestamp": "2026-10-23T07:31:06.022904+00:00",
+        "timestamp": "2026-10-23T07:45:52.930039+00:00",
         "title": "O meu Camilo que é nosso: o regresso às escolas e cárcere no cinema",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/teatro-danca/2026-10-22-a-companhia-nacional-de-bailado-bate-a-porta-de-fernando-pessoa-ha-dancas-do-desassossego-no-teatro-camoes-83d57371": {
         "category": null,
-        "timestamp": "2026-10-23T07:31:06.069098+00:00",
+        "timestamp": "2026-10-23T07:45:52.990271+00:00",
         "title": "A Companhia Nacional de Bailado bate à porta de Fernando Pessoa: há danças do desassossego no Teatro...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/restaurantes/2026-10-22-filetes-bacalhau-e-carne-de-porco-para-descobrir-numa-mesa-surpreendente-em-monte-abraao-35e93e65": {
         "category": null,
-        "timestamp": "2026-10-23T07:31:06.124088+00:00",
+        "timestamp": "2026-10-23T07:45:53.045014+00:00",
         "title": "Filetes, bacalhau e carne de porco para descobrir numa mesa surpreendente em Monte Abraão",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/altos--baixos/2026-10-22-a-chave-da-casa-e-questao-deveras-complexa-08248627": {
         "category": null,
-        "timestamp": "2026-10-23T07:31:06.831608+00:00",
+        "timestamp": "2026-10-23T07:45:54.312231+00:00",
         "title": "A chave da casa é questão deveras complexa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -995,21 +988,21 @@
     },
     "https://expresso.pt/semanario/economia": {
         "category": null,
-        "timestamp": "2026-10-23T07:31:03.285283+00:00",
+        "timestamp": "2026-10-23T07:45:49.254904+00:00",
         "title": "A 1ª página do Expresso Economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/ideias": {
         "category": null,
-        "timestamp": "2026-10-23T07:31:03.377906+00:00",
+        "timestamp": "2026-10-23T07:45:49.307280+00:00",
         "title": "IDEIAS: Dois cantos da Europa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-10-23T07:31:03.435168+00:00",
+        "timestamp": "2026-10-23T07:45:49.364482+00:00",
         "title": "A fabulosa história da baixela da Coroa, na revista E",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
