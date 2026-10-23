@@ -855,7 +855,7 @@
     },
     "https://expresso.pt/semanario/primeiro": {
         "category": null,
-        "timestamp": "2026-10-23T09:45:46.615015+00:00",
+        "timestamp": "2026-10-23T10:01:12.616417+00:00",
         "title": "A primeira página do Expresso",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -869,28 +869,28 @@
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-22-ataque.-falha-de-seguranca-para-sites-em-todo-o-mundo-fda5badf": {
         "category": null,
-        "timestamp": "2026-10-23T09:45:47.141805+00:00",
+        "timestamp": "2026-10-23T10:01:13.954300+00:00",
         "title": "Ataque. Falha de segurança para sites em todo o mundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-22-il-acelera-calendario-interno-de-olho-em-eleicoes--e-nao-so--270b9895": {
         "category": null,
-        "timestamp": "2026-10-23T09:45:48.197233+00:00",
+        "timestamp": "2026-10-23T10:01:14.827368+00:00",
         "title": "IL acelera calendário interno de olho em eleições (e não só)",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-22-ouro.-receitas-do-estado-disparam-14250390": {
         "category": null,
-        "timestamp": "2026-10-23T09:45:48.448502+00:00",
+        "timestamp": "2026-10-23T10:01:15.088356+00:00",
         "title": "Ouro. Receitas do Estado disparam",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-10-22-o-meu-camilo-que-e-nosso-o-regresso-as-escolas-e-carcere-no-cinema-3bfa615b": {
         "category": null,
-        "timestamp": "2026-10-23T09:45:48.808121+00:00",
+        "timestamp": "2026-10-23T10:01:15.578427+00:00",
         "title": "O meu Camilo que é nosso: o regresso às escolas e cárcere no cinema",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -946,21 +946,21 @@
     },
     "https://expresso.pt/semanario/economia": {
         "category": null,
-        "timestamp": "2026-10-23T09:45:46.439756+00:00",
+        "timestamp": "2026-10-23T10:01:12.381800+00:00",
         "title": "A 1ª página do Expresso Economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/ideias": {
         "category": null,
-        "timestamp": "2026-10-23T09:45:46.495820+00:00",
+        "timestamp": "2026-10-23T10:01:12.447383+00:00",
         "title": "IDEIAS: Dois cantos da Europa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-10-23T09:45:46.554972+00:00",
+        "timestamp": "2026-10-23T10:01:12.554722+00:00",
         "title": "A fabulosa história da baixela da Coroa, na revista E",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -981,22 +981,29 @@
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-22-ucrania-negociacao-possivel-em-novembro-afe2aba4": {
         "category": null,
-        "timestamp": "2026-10-23T09:45:47.080884+00:00",
+        "timestamp": "2026-10-23T10:01:13.893012+00:00",
         "title": "Ucrânia: negociação possível em novembro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-10-23-nao-e-deles-historicamente-e-territorio-russo-putin-pronto-a-negociar-acordo-final-mas-rejeita-congelar-linha-da-frente-no-donbass-e51e73b0-1": {
         "category": null,
-        "timestamp": "2026-10-23T09:45:46.379772+00:00",
+        "timestamp": "2026-10-23T10:01:12.314796+00:00",
         "title": "“Não é deles; historicamente, é território russo”: Putin pronto a negociar acordo final, mas rejeita...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/a-violencia-nao-mostra-toda-a-revolta_1773689": {
         "category": null,
-        "timestamp": "2026-10-23T09:45:47.012811+00:00",
+        "timestamp": "2026-10-23T10:01:13.232079+00:00",
         "title": "A violência não mostra (toda) a revolta",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/financas-pessoais-poupanca/2026-10-23-procura-por-certificados-de-aforro-leva-governo-a-aumentar-em-60-limite-de-emissao-300fe929": {
+        "category": null,
+        "timestamp": "2026-10-23T10:01:14.264056+00:00",
+        "title": "Procura por Certificados de Aforro leva Governo a aumentar em 60% limite de emissão",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
