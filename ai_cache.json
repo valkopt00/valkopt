@@ -69,13 +69,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/ministro-da-habitacao-admite-abertura-para-rever-lei-das-rendas-com-o-ps": {
-        "category": null,
-        "timestamp": "2026-10-20T17:01:20.574714+00:00",
-        "title": "Ministro da Habitação admite abertura para rever lei das rendas com o PS",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/telavive-reforca-seguranca-antes-das-eleicoes-para-evitar-ingerencias-externas": {
         "category": null,
         "timestamp": "2026-10-20T18:01:17.738779+00:00",
@@ -848,7 +841,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-24-habitacao-il-mais-preocupada-com-inacao-do-governo-do-que-com-silencio-de-montenegro-899179a1": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:19.497163+00:00",
+        "timestamp": "2026-10-25T17:15:51.583043+00:00",
         "title": "Habitação: IL mais preocupada com inação do Governo do que com silêncio de Montenegro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -869,7 +862,7 @@
     },
     "https://expresso.pt/curtas/2026-10-24-milhares-tomam-as-ruas-por-todo-o-pais-em-protesto-pelo-direito-a-habitacao--video--d4eebe81": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:19.434697+00:00",
+        "timestamp": "2026-10-25T17:15:51.521451+00:00",
         "title": "Milhares tomam as ruas por todo o país em protesto pelo direito à habitação (vídeo)",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -897,7 +890,7 @@
     },
     "https://expresso.pt/curtas/2026-10-24-video-dia-de-protestos-massivos-em-franca-centenas-de-milhares-nas-ruas-a-pedir-para-viver-nao-sobreviver-eb4ca485": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:19.376036+00:00",
+        "timestamp": "2026-10-25T17:15:51.463543+00:00",
         "title": "Dia de protestos massivos em França: centenas de milhares nas ruas a pedir para “viver, não sobreviv...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -939,14 +932,14 @@
     },
     "https://expresso.pt/curtas/2026-10-25-video-policia-avanca-a-bastonada-sobre-manifestantes-no-porto-veja-as-imagens-0e44c249": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:19.259464+00:00",
+        "timestamp": "2026-10-25T17:15:51.345910+00:00",
         "title": "Polícia avança à bastonada sobre manifestantes no Porto: veja as imagens",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-25-video-psp-avancou-sobre-manifestantes-no-rossio-veja-as-imagens-64d3918b": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:19.317335+00:00",
+        "timestamp": "2026-10-25T17:15:51.407314+00:00",
         "title": "PSP avançou sobre manifestantes no Rossio: veja as imagens",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -988,7 +981,7 @@
     },
     "https://expresso.pt/curtas/2026-10-25-video-momentos-de-violencia-apos-avanco-da-psp-sobre-manifestantes-veja-as-imagens-e51ef5a5-1": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:19.202018+00:00",
+        "timestamp": "2026-10-25T17:15:51.285584+00:00",
         "title": "Momentos de violência após avanço da PSP sobre manifestantes: veja as imagens",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1009,21 +1002,21 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-25-habitacao-livre-espera-posicao-firme-de-seguro-e-vai-pedir-explicacoes-ao-governo-506c60c9": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:19.141632+00:00",
+        "timestamp": "2026-10-25T17:15:51.229629+00:00",
         "title": "Habitação: Livre espera “posição firme” de Seguro e vai pedir explicações ao Governo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-25-carga-policial-jorge-moreira-da-silva-critica-decisores-alexandra-leitao-pressiona-seguro-a-falar-84d46d8c": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:19.084413+00:00",
+        "timestamp": "2026-10-25T17:15:51.173620+00:00",
         "title": "Carga policial: Jorge Moreira da Silva critica \"decisores\", Alexandra Leitão pressiona Seguro a fala...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-25-carneiro-diz-que-resposta-a-crise-nao-e-policial-e-politica-e-exige-a-montenegro-que-quebre-o-silencio-c98b76a2": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:19.026193+00:00",
+        "timestamp": "2026-10-25T17:15:51.107363+00:00",
         "title": "Carneiro diz que resposta à crise \"não é policial, é política\" e exige a Montenegro que \"quebre o si...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1037,7 +1030,7 @@
     },
     "https://expresso.pt/premios-do-imobiliario/2026-10-25-estes-premios-do-imobiliario-estao-alinhados-com-os-nossos-valores-cd372907": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:18.957349+00:00",
+        "timestamp": "2026-10-25T17:15:51.040526+00:00",
         "title": "“Estes prémios do imobiliário estão alinhados com os nossos valores”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1051,42 +1044,42 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-25-habitacao-ventura-acusa-montenegro-de-andar-escondido-mas-defende-atuacao-policial-6014dc85": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:18.900625+00:00",
+        "timestamp": "2026-10-25T17:15:50.984369+00:00",
         "title": "Habitação: Ventura acusa Montenegro de andar \"escondido\", mas defende atuação policial",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/taca-da-liga/taca-da-liga-20a-edicao-arranca-pela-primeira-vez-sem-o-campeao-em-titulo_d1774196": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:20.774834+00:00",
+        "timestamp": "2026-10-25T17:15:53.696695+00:00",
         "title": "Taça da Liga: 20.ª edição arranca pela primeira vez sem o campeão em título",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/lusa/2026-10-25-habitacao-psd-defende-atuacao-da-policia-e-acusa-ps-de-irresponsabilidade-e-hipocrisia-eb38433d": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:18.835718+00:00",
+        "timestamp": "2026-10-25T17:15:50.924333+00:00",
         "title": "Habitação: PSD defende atuação da polícia e acusa PS de irresponsabilidade e hipocrisia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/palop/mocambique/2026-10-25-presidente-de-mocambique-visita-russia-com-encontro-com-putin-na-agenda-f768409b": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:18.673038+00:00",
+        "timestamp": "2026-10-25T17:15:50.774218+00:00",
         "title": "Presidente de Moçambique visita Rússia com encontro com Putin na agenda",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-10-25-russia-propoe-retomar-negociacoes-apos-4-de-novembro-em-abu-dhabi-0954924f": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:18.775931+00:00",
+        "timestamp": "2026-10-25T17:15:50.860237+00:00",
         "title": "Rússia propõe retomar negociações após 4 de novembro em Abu Dhabi",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-25-video-lojas-partidas-e-confrontos-com-a-policia-em-protestos-em-barcelona-veja-as-imagens-cbf37c77": {
         "category": null,
-        "timestamp": "2026-10-25T17:01:21.369054+00:00",
+        "timestamp": "2026-10-25T17:15:53.945538+00:00",
         "title": "Lojas partidas e confrontos com a polícia em protestos em Barcelona: veja as imagens",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
