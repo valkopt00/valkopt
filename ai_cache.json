@@ -34,13 +34,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/surf/italo-ferreira-preconiza-duelo-apimentado-com-gabriel-medina-em-peniche_d1773250": {
-        "category": null,
-        "timestamp": "2026-10-21T19:31:05.794525+00:00",
-        "title": "Ítalo Ferreira preconiza duelo \"apimentado\" com Gabriel Medina em Peniche",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/fundos-europeus/2026-10-21-ha-casas-creches-e-lares-do-prr-concluidos-mas-ainda-sem-utilizacao-5be3c92a": {
         "category": null,
         "timestamp": "2026-10-22T06:45:46.969103+00:00",
@@ -946,7 +939,7 @@
     },
     "https://expresso.pt/palop/mocambique/2026-10-26-mocambique-quase-6000-pessoas-fugiram-de-ataques-em-cabo-delgado-em-tres-semanas-af82d28a": {
         "category": null,
-        "timestamp": "2026-10-26T19:15:52.192139+00:00",
+        "timestamp": "2026-10-26T19:31:10.393993+00:00",
         "title": "Moçambique: quase 6000 pessoas fugiram de ataques em Cabo Delgado em três semanas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -974,7 +967,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-10-26-ataques-ucranianos-com-drones-fazem-pelo-menos-quatro-mortos-no-sul-da-russia-5cc8e017": {
         "category": null,
-        "timestamp": "2026-10-26T19:15:52.132654+00:00",
+        "timestamp": "2026-10-26T19:31:10.337406+00:00",
         "title": "Ataques ucranianos com drones fazem pelo menos quatro mortos no sul da Rússia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1016,7 +1009,7 @@
     },
     "https://expresso.pt/emprego/2026-10-26-quem-ganha-mais-um-programador-ou-um-mecanico--familia-azevedo-entra-em-plataforma-que-permite-comparar-salarios-e-carreiras-d0c59452": {
         "category": null,
-        "timestamp": "2026-10-26T19:15:52.057159+00:00",
+        "timestamp": "2026-10-26T19:31:10.275420+00:00",
         "title": "Quem ganha mais, um programador ou um mecânico? Família Azevedo entra em plataforma que permite comp...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1030,14 +1023,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-26-ventura-desafia-esquerda-a-rever-lei-de-1974-sobre-manifestacoes-e-questiona-vitoria-de-lula-no-brasil-0845dfac": {
         "category": null,
-        "timestamp": "2026-10-26T19:15:51.995785+00:00",
+        "timestamp": "2026-10-26T19:31:10.222560+00:00",
         "title": "Ventura desafia esquerda a rever lei de 1974 sobre manifestações e questiona vitória de Lula no Bras...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/institucional/2026-10-26-condicoes-da-campanha-exclusiva-eb6dbd87": {
         "category": null,
-        "timestamp": "2026-10-26T19:15:52.255392+00:00",
+        "timestamp": "2026-10-26T19:31:10.565029+00:00",
         "title": "Condições da Campanha Exclusiva",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1065,14 +1058,14 @@
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/ben-gvir-visita-esplanada-das-mesquitas-na-vespera-das-legislativas-em-israel": {
         "category": null,
-        "timestamp": "2026-10-26T19:15:52.865564+00:00",
+        "timestamp": "2026-10-26T19:31:09.466767+00:00",
         "title": "Ben Gvir visita Esplanada das Mesquitas na véspera das legislativas em Israel",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/netanyahu-suspende-reuniao-do-likud-por-motivos-de-seguranca-na-vespera-das-eleicoes-em-israel": {
         "category": null,
-        "timestamp": "2026-10-26T19:15:52.916675+00:00",
+        "timestamp": "2026-10-26T19:31:09.516935+00:00",
         "title": "Netanyahu suspende reuniÃ£o do Likud por “motivos de seguranÃ§a” na vÃ©spera das eleiÃ§Ãµes em Israe...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
