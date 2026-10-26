@@ -1,6 +1,16 @@
 {
     "Últimas": [
         {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/flavio-bolsonaro-diz-que-vai-pedir-anulacao-das-eleicoes",
+            "normalized_title": "flavio bolsonaro diz que vai pedir anulacao das eleicoes",
+            "normalized_description": "e inexplicavel o que aconteceu e impossivel reconhecer estas eleicoes disse"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/lula-agradece-ao-povo-e-aos-jovens-que-foram-para-a-rua-defender-a-democracia",
+            "normalized_title": "lula agradece ao povo e aos jovens que foram para a rua defender a democracia",
+            "normalized_description": "luiz inacio lula da silva foi reeleito no domingo na segunda volta das eleicoes presidenciais do brasil com 51 75 dos votos"
+        },
+        {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/v--guimaraes/detalhe/criativos-do-v-guimaraes-criam-boa-dor-de-cabeca-a-tiago-margarido",
             "normalized_title": "criativos do v guimaraes criam boa dor de cabeca a tiago margarido",
             "normalized_description": "samu e alanzinho mostraram servico na goleada ao maritimo"
@@ -99,6 +109,11 @@
             "link": "https://www.cmjornal.pt/sociedade/detalhe/santuario-de-elefantes-tera-mais-um-habitante-ate-final-do-ano",
             "normalized_title": "santuario de elefantes tera mais um habitante ate final do ano",
             "normalized_description": "kariba deve juntar se a julie em breve viagem ja esteve planeada mas teve de ser adiada devido a problema numa pata"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/lula-reeleito-presidente-louva-derrota-do-negacionismo-bolsonaro-quer-anulacao-das-eleicoes_e1774136",
+            "normalized_title": "lula reeleito presidente louva derrota do negacionismo bolsonaro quer anulacao das eleicoes",
+            "normalized_description": "lula da silva foi reeleito pelos brasileiros para um quarto mandato enquanto presidente ultrapassando flavio bolsonaro por uma margem estreita nesta"
         },
         {
             "link": "https://www.noticiasaominuto.com/pais/3072818/habitacao-festejos-e-buzinas-por-lula-fecham-dia-de-manifestacao-no-porto#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
@@ -226,9 +241,24 @@
             "normalized_description": ""
         },
         {
+            "link": "https://www.publico.pt/2026/10/26/opiniao/opiniao/eua-trump-mundo-2191984",
+            "normalized_title": "eua trump e o mundo",
+            "normalized_description": "o que trump quer e uma nova ordem mundial em que ele seja o unico e verdadeiro dono o que nao ira conseguir ate porque a china esta a crescer e a"
+        },
+        {
             "link": "https://www.rtp.pt/noticias/pais/acampada-de-lisboa-decidiu-desmobilizar-do-rossio_n1774311",
             "normalized_title": "acampada de lisboa decidiu desmobilizar do rossio",
             "normalized_description": "a assembleia popular da acampada de lisboa aprovou hoje a desmobilizacao da praca do rossio e a realizacao de vigilias a partir de segunda feira"
+        },
+        {
+            "link": "https://www.publico.pt/2026/10/26/opiniao/opiniao/inversao-meios-fins-2191972",
+            "normalized_title": "inversao de meios e fins",
+            "normalized_description": "nisto as casas nao diferem das obras de arte depositadas em cofres bancarios tambem nao precisam de ser expostas para continuarem a encarecer"
+        },
+        {
+            "link": "https://www.publico.pt/2026/10/26/opiniao/opiniao/diagnostico-desconhecido-risco-errar-receita-2192304",
+            "normalized_title": "quando o diagnostico e desconhecido o risco e errar na receita",
+            "normalized_description": "o projeto do psd e do cds que limita o acesso de estrangeiros nao residentes ao sns deve ser avaliado nao apenas pelas intencoes que proclama mas"
         },
         {
             "link": "https://www.record.pt/internacional/paises/italia/ac-milan/detalhe/ruben-amorim-conta-pecas-para-continuar-ao-ataque-so-me-preocupo-com-quem-sobrevive-para-jogar-daqui-a-dois-dias",
@@ -274,6 +304,21 @@
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/maritimo/detalhe/apoio-em-alvalade",
             "normalized_title": "apoio em alvalade",
             "normalized_description": "habitual romaria tambem na terca feira na allianz cup"
+        },
+        {
+            "link": "https://www.publico.pt/2026/10/26/opiniao/opiniao/netanyahu-sai-2192438",
+            "normalized_title": "quem disse que netanyahu sai",
+            "normalized_description": "israel prepara se para julgar netanyahu nas urnas tres anos depois do 7 de outubro a oposicao pode conseguir os votos para o derrotar e continuar"
+        },
+        {
+            "link": "https://www.publico.pt/2026/10/26/opiniao/opiniao/discriminacao-criancas-continuamos-nao-reconhecer-2192250",
+            "normalized_title": "a discriminacao das criancas que continuamos a nao reconhecer",
+            "normalized_description": "o reconhecimento das criancas como sujeitos de direitos exige mais do que protege las exige reconhecer que a infancia nao pode constituir por si"
+        },
+        {
+            "link": "https://www.publico.pt/2026/10/26/opiniao/opiniao/anthropic-doar-capital-nao-partilhar-2192293",
+            "normalized_title": "anthropic doar capital nao e partilhar poder",
+            "normalized_description": "e claro que existe merito em reservar capital para fins sociais mas o teste sera a disponibilidade para partilhar o poder de decidir como esse"
         },
         {
             "link": "https://jornaleconomico.sapo.pt/noticias/em-foco-lula-da-silva-reeleito-presidente-do-brasil/",
@@ -3569,131 +3614,6 @@
             "link": "https://www.publico.pt/2026/10/25/sociedade/noticia/cargas-policiais-manifestantes-sos-racismo-pede-demissao-mai-inquerito-igai-actuacao-psp-2192570",
             "normalized_title": "cargas policiais sos racismo pede demissao do mai inquerito a igai e pede a seguro que se pronuncie",
             "normalized_description": "movimento insta o presidente da republica a condenar as intervencoes policiais pede que o governo cesse este tipo de repressao e acusa a psp de uma"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/14h-advogados-a-porta-da-esquadra-bastonario-critica_a1_1774206",
-            "normalized_title": "14h advogados a porta da esquadra bastonario critica",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.autosport.pt/ralis/rali-6-cidades-pec16-sesks-mais-proximo-do-triunfo-tal-como-armindo-araujo-no-cpr/",
-            "normalized_title": "rali 6 cidades pec16 sesks mais proximo do triunfo tal como armindo araujo no cpr",
-            "normalized_description": "os problemas de roope korhonen voltaram a fazer se sentir na pec16 segunda passagem por santa quiteria com martins sesks a lucrar o letao venceu o"
-        },
-        {
-            "link": "https://www.publico.pt/2026/10/25/publico-brasil/noticia/longe-brasil-presentes-urna-distancia-nao-diminui-voz-2192549",
-            "normalized_title": "longe do brasil mas presentes na urna a distancia nao diminui a nossa voz",
-            "normalized_description": "no segundo turno das eleicoes 134 797 brasileiros estao aptos a votar em portugal seis eleitores contam por que nao abrem mao do voto mesmo longe"
-        },
-        {
-            "link": "https://www.cmjornal.pt/sociedade/detalhe/os-verdes-criticam-silencio-ensurdecedor-do-presidente-da-republica-sobre-carga-policial-em-lisboa-e-no-porto",
-            "normalized_title": "os verdes criticam silencio ensurdecedor do presidente da republica sobre carga policial em lisboa e no porto",
-            "normalized_description": "partido ecologista lembra que se assistia quer em lisboa quer no porto a manifestacoes pacificas em defesa do direito a habitacao tambem ele"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3072631/habitacao-livre-propoe-audicao-urgente-de-luis-neves-e-do-diretor-da-psp#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "livre propoe audicao urgente de luis neves e do diretor da psp",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/tenis/daniil-medvedev-conquista-25o-titulo-da-carreira_d1774205",
-            "normalized_title": "daniil medvedev conquista 25 º titulo da carreira",
-            "normalized_description": "o russo daniil medvedev conquistou o 25 º titulo da sua carreira ao vencer o georgiano nikoloz basilashvili na final do torneio de almaty no"
-        },
-        {
-            "link": "https://expresso.pt/premios-do-imobiliario/2026-10-25-video-07---carla-santos.mp4-1f8b76bc",
-            "normalized_title": "07 carla santos mp4",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3072624/brasileleicoes-lula-convencido-de-que-o-povo-vai-impedir-um-miliciano-na-presidencia#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "lula convencido de que o povo vai impedir um miliciano na presidencia",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/mundo/detalhe/lula-convencido-de-que-o-povo-vai-impedir-um-miliciano-na-presidencia-do-brasil",
-            "normalized_title": "lula convencido de que o povo vai impedir um miliciano na presidencia do brasil",
-            "normalized_description": "presidente brasileiro votou este domingo por volta 10h00 hora de brasilia em sao bernardo do campo o seu berco politico na regiao metropolitana"
-        },
-        {
-            "link": "https://expresso.pt/premios-do-imobiliario/2026-10-25-estes-premios-do-imobiliario-estao-alinhados-com-os-nossos-valores-cd372907",
-            "normalized_title": "estes premios do imobiliario estao alinhados com os nossos valores",
-            "normalized_description": "carla santos diretora geral da mapei portugal salienta a inovacao e a vontade de fazer melhor como aspetos que a mapei partilha com estes premios"
-        },
-        {
-            "link": "https://www.record.pt/modalidades/tenis/detalhe/daniil-medvedev-conquista-25-titulo-da-carreira-em-almaty",
-            "normalized_title": "daniil medvedev conquista 25 º titulo da carreira em almaty",
-            "normalized_description": "tenista russo bate georgiano nikoloz basilashvili"
-        },
-        {
-            "link": "https://www.cmjornal.pt/politica/detalhe/jpp-critica-falta-de-resposta-do-presidente-da-republica-a-pedido-de-audiencia-feito-ha-sete-meses",
-            "normalized_title": "jpp critica falta de resposta do presidente da republica a pedido de audiencia feito ha sete meses",
-            "normalized_description": "elvio sousa considera que a demora na resposta ao pedido de audiencia e reveladora da forma como os problemas das regioes autonomas sao tratados"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/3072628/dois-golos-nos-descontos-mantem-percurso-invicto-do-inter-milao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "joao mario e companhia nao evitam descalabro contra o inter",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/futebol-internacional/palmeiras-lidera-campeonato-brasileiro_d1774203",
-            "normalized_title": "palmeiras lidera campeonato brasileiro",
-            "normalized_description": "o palmeiras treinado pelo portugues abel ferreira venceu na rececao ao bragantino por 2 0 na 32 ª jornada do campeonato brasileiro e assumiu a"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/ex-ministro-da-economia-do-brasil-confiante-com-afluencia-as-urnas_v1774202",
-            "normalized_title": "ex ministro da economia do brasil confiante com afluencia as urnas",
-            "normalized_description": "o antigo ministro da economia do brasil tambem afirmou aos jornalistas que nestas eleicoes vai ganhar a democracia e que os brasileiros vao as urnas"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/futebol-internacional/palmeiras-na-frente-do-campeonato-brasileiro_d1774203",
-            "normalized_title": "palmeiras na frente do campeonato brasileiro",
-            "normalized_description": "o palmeiras treinado pelo portugues abel ferreira venceu na rececao ao bragantino por 2 0 na 32 ª jornada do campeonato brasileiro e assumiu a"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3072623/psd-acusa-ps-de-hipocrisia-e-defende-atuacao-da-policia-nas-manifestacoes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "primeiro ministro nao ficou cego nem mudo mas nao entra em torneios",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.autosport.pt/ralis/rui-pinto-vence-o-rally-madeira-legend/",
-            "normalized_title": "rui pinto vence o rally madeira legend",
-            "normalized_description": "rui pinto e rubina goncalves a bordo de um ford focus wrc sagraram se vencedores do rally madeira legend evento organizado pelo club sports da"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/mundo/vice-presidente-brasileiro-diz-que-vencera-democracia_v1774201",
-            "normalized_title": "vice presidente brasileiro diz que vencera democracia",
-            "normalized_description": "o vice presidente do brasil acredita que esta noite vai vencer a democracia"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/pais/eleitores-brasileiros-em-portugal-forte-afluencia-as-urnas-durante-a-manha_v1774200",
-            "normalized_title": "eleitores brasileiros em portugal forte afluencia as urnas durante a manha",
-            "normalized_description": "os brasileiros residentes em portugal votam no porto lisboa e faro e parece haver menos abstencao"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/futebol-internacional/courtois-falha-embate-com-o-barcelona_d1774199",
-            "normalized_title": "courtois falha embate com o barcelona",
-            "normalized_description": "o guarda redes belga thibaut courtois e baixa de ultima hora na equipa do real madrid treinado pelo portugues jose mourinho para o classico com o"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/brasil-eleicoes-lula-convencido-de-que-o-povo-vai-impedir-um-miliciano-na-presidencia/",
-            "normalized_title": "brasil eleicoes lula convencido de que o povo vai impedir um miliciano na presidencia",
-            "normalized_description": "o presidente brasileiro e candidato a reeleicao lula da silva afirmou hoje apos votar estar convencido de que os brasileiros impedirao um"
-        },
-        {
-            "link": "https://www.publico.pt/2026/10/25/azul/opiniao/receber-transmitir-paisagem-patrimonio-responsabilidade-transformar-2192037",
-            "normalized_title": "entre receber e transmitir paisagem patrimonio e a responsabilidade de transformar",
-            "normalized_description": "a legislacao portuguesa do patrimonio cultural nao reconhece plenamente a paisagem enquanto realidade integrada reconhecer a paisagem como bem comum"
-        },
-        {
-            "link": "https://www.cmjornal.pt/politica/detalhe/psd-defende-atuacao-da-policia-durante-manifestacoes-e-acusa-ps-de-irresponsabilidade-e-hipocrisia",
-            "normalized_title": "psd defende atuacao da policia durante manifestacoes e acusa ps de irresponsabilidade e hipocrisia",
-            "normalized_description": "sebastiao bugalho afirmou que o psd recusa uma falsa clivagem entre a autoridade dos policias e a liberdade de expressao dos manifestantes"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/taca-da-liga/taca-da-liga-20a-edicao-arranca-pela-primeira-vez-sem-o-campeao-em-titulo_d1774196",
-            "normalized_title": "taca da liga 20 ª edicao arranca pela primeira vez sem o campeao em titulo",
-            "normalized_description": "a inedita ausencia do campeao em titulo marca o arranque da 20 ª edicao da taca da liga com o vitoria de guimaraes de fora depois de ter falhado o"
         }
     ],
     "Nacional": [
@@ -7405,9 +7325,24 @@
     ],
     "Mundo": [
         {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/flavio-bolsonaro-diz-que-vai-pedir-anulacao-das-eleicoes",
+            "normalized_title": "flavio bolsonaro diz que vai pedir anulacao das eleicoes",
+            "normalized_description": "e inexplicavel o que aconteceu e impossivel reconhecer estas eleicoes disse"
+        },
+        {
+            "link": "https://www.cmjornal.pt/mundo/detalhe/lula-agradece-ao-povo-e-aos-jovens-que-foram-para-a-rua-defender-a-democracia",
+            "normalized_title": "lula agradece ao povo e aos jovens que foram para a rua defender a democracia",
+            "normalized_description": "luiz inacio lula da silva foi reeleito no domingo na segunda volta das eleicoes presidenciais do brasil com 51 75 dos votos"
+        },
+        {
             "link": "https://www.cmjornal.pt/mais-cm/especiais/guerra-na-ucrania/detalhe/elon-musk-admite-ter-limitado-starlink-na-ucrania",
             "normalized_title": "elon musk admite ter limitado starlink na ucrania",
             "normalized_description": "bilionario acusou kiev de violar os termos de servico ao usar o sistema para matar pessoas"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/lula-reeleito-presidente-louva-derrota-do-negacionismo-bolsonaro-quer-anulacao-das-eleicoes_e1774136",
+            "normalized_title": "lula reeleito presidente louva derrota do negacionismo bolsonaro quer anulacao das eleicoes",
+            "normalized_description": "lula da silva foi reeleito pelos brasileiros para um quarto mandato enquanto presidente ultrapassando flavio bolsonaro por uma margem estreita nesta"
         },
         {
             "link": "https://www.rtp.pt/noticias/mundo/lula-reeleito-presidente-fala-em-derrota-do-negacionismo-bolsonaro-vai-pedir-anulacao-das-eleicoes_e1774136",
@@ -22830,11 +22765,6 @@
             "link": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/bayern-munique-fica-sem-kompany-para-o-duelo-com-o-arsenal",
             "normalized_title": "bayern munique fica sem kompany para o duelo com o arsenal",
             "normalized_description": "reves inesperado para os bavaros"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/rio-ave/detalhe/luta-pela-baliza-do-rio-ave-segue-animada",
-            "normalized_title": "luta pela baliza do rio ave segue animada",
-            "normalized_description": "vitor hugo deve voltar ao poste na liga"
         }
     ],
     "Economia": [
@@ -37966,6 +37896,36 @@
             "link": "https://www.cmjornal.pt/opiniao/colunistas/justica-com-direitos/detalhe/a-pechincha-tem-dono",
             "normalized_title": "a pechincha tem dono",
             "normalized_description": "quem compra sabendo que e roubado arrisca ate cinco anos de prisao ou multa"
+        },
+        {
+            "link": "https://www.publico.pt/2026/10/26/opiniao/opiniao/eua-trump-mundo-2191984",
+            "normalized_title": "eua trump e o mundo",
+            "normalized_description": "o que trump quer e uma nova ordem mundial em que ele seja o unico e verdadeiro dono o que nao ira conseguir ate porque a china esta a crescer e a"
+        },
+        {
+            "link": "https://www.publico.pt/2026/10/26/opiniao/opiniao/inversao-meios-fins-2191972",
+            "normalized_title": "inversao de meios e fins",
+            "normalized_description": "nisto as casas nao diferem das obras de arte depositadas em cofres bancarios tambem nao precisam de ser expostas para continuarem a encarecer"
+        },
+        {
+            "link": "https://www.publico.pt/2026/10/26/opiniao/opiniao/diagnostico-desconhecido-risco-errar-receita-2192304",
+            "normalized_title": "quando o diagnostico e desconhecido o risco e errar na receita",
+            "normalized_description": "o projeto do psd e do cds que limita o acesso de estrangeiros nao residentes ao sns deve ser avaliado nao apenas pelas intencoes que proclama mas"
+        },
+        {
+            "link": "https://www.publico.pt/2026/10/26/opiniao/opiniao/netanyahu-sai-2192438",
+            "normalized_title": "quem disse que netanyahu sai",
+            "normalized_description": "israel prepara se para julgar netanyahu nas urnas tres anos depois do 7 de outubro a oposicao pode conseguir os votos para o derrotar e continuar"
+        },
+        {
+            "link": "https://www.publico.pt/2026/10/26/opiniao/opiniao/discriminacao-criancas-continuamos-nao-reconhecer-2192250",
+            "normalized_title": "a discriminacao das criancas que continuamos a nao reconhecer",
+            "normalized_description": "o reconhecimento das criancas como sujeitos de direitos exige mais do que protege las exige reconhecer que a infancia nao pode constituir por si"
+        },
+        {
+            "link": "https://www.publico.pt/2026/10/26/opiniao/opiniao/anthropic-doar-capital-nao-partilhar-2192293",
+            "normalized_title": "anthropic doar capital nao e partilhar poder",
+            "normalized_description": "e claro que existe merito em reservar capital para fins sociais mas o teste sera a disponibilidade para partilhar o poder de decidir como esse"
         },
         {
             "link": "https://www.publico.pt/2026/10/26/opiniao/opiniao/botao-falta-sns-2192236",
