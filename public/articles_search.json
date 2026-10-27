@@ -1,6 +1,51 @@
 {
     "Últimas": [
         {
+            "link": "https://expresso.pt/podcasts/expresso-da-manha/2026-10-27-vai-uma-aposta--na-proxima-semana-trump-sofre-uma-pesada-derrota-ou-ganha-e-tem-de-pagar-5000-dolares-a-cada-eleitor--37834dfd",
+            "normalized_title": "vai uma aposta na proxima semana trump sofre uma pesada derrota ou ganha e tem de pagar 5000 dolares a cada eleitor",
+            "normalized_description": "no expresso da manha paulo baldaia conversa com o comentador sic joao maria jonet sobre as eleicoes intercalares americanas"
+        },
+        {
+            "link": "https://pt.euronews.com/2026/10/27/cessar-fogo-mediado-pelos-eua-comeca-em-oleshky-ocupada-pela-russia-enquanto-ataques-ating",
+            "normalized_title": "cessar fogo mediado pelos eua comeca em oleshky ocupada pela russia enquanto ataques atingem kiev",
+            "normalized_description": "ao anunciar na sexta feira que tinha mediado o cessar fogo melania trump afirmou que responsaveis civis da russia e da ucrania vao visitar os"
+        },
+        {
+            "link": "https://expresso.pt/opiniao/2026-10-27-questoes-operacionais-49512f8e",
+            "normalized_title": "questoes operacionais",
+            "normalized_description": "o estado portugues sabe perfeitamente lavrar um auto com petardos a rebentar a volta e parece ter uma certa preferencia por o fazer quando quem"
+        },
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sp--braga/detalhe/ciclo-negativo-do-sp-braga-na-liga-frustracao-total-espera-por-um-clique",
+            "normalized_title": "ciclo negativo do sp braga na liga frustracao total espera por um clique",
+            "normalized_description": "ambiente pesado apos derrota na choupana quando foram igualados os piores registos a 9 ª jornada no sec xxi"
+        },
+        {
+            "link": "https://pt.euronews.com/2026/10/27/trump-diz-que-eleicao-no-brasil-parece-fraudulenta-sem-apresentar-provas",
+            "normalized_title": "trump diz que eleicao no brasil parece fraudulenta sem apresentar provas",
+            "normalized_description": "a administracao trump saudou uma recente vaga de vitorias eleitorais da direita por toda a america do sul"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/3073468/dongpeng-rompe-contrato-com-mbappe-apos-comentarios-sobre-meme-de-mao-zedong#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "dongpeng rompe contrato com mbappe apos comentarios sobre meme de zedong",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/3073453/o-coracao-batia-e-eu-so-esperava-que-ronaldo-dissesse-o-meu-nome#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "o coracao batia e eu so esperava que ronaldo dissesse o meu nome",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/3073455/bola-de-ouro-terceiro-trofeu-de-alexia-putellas-e-um-culminar-de-historia-perfeita#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "alexia putellas conquista terceira bola de ouro historia perfeita",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/politica/3073480/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habitacao-em-fundo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "parlamento inicia debate da proposta do oe2027 com protestos em fundo",
+            "normalized_description": ""
+        },
+        {
             "link": "https://expresso.pt/opiniao/servicos-minimos/2026-10-27-brasil-pais-do-futuro-be6473e5",
             "normalized_title": "brasil pais do futuro",
             "normalized_description": "o titulo e o de um livro de stefan zweig genial escritor austriaco que viveu em petropolis na fuga ao nazismo na europa suicidou se desiludido"
@@ -39,6 +84,16 @@
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/rui-borges-revoluciona-onze-contra-o-maritimo-sporting-cheio-de-caras-novas-quer-evitar-caos-total",
             "normalized_title": "rui borges revoluciona onze contra o maritimo sporting cheio de caras novas quer evitar caos total",
             "normalized_description": "leao apresentara um onze totalmente remodelado ja era essa a indicacao face a proximidade entre jogos"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/donald-trump-promete-que-nao-ira-rebatizar-o-rio-mississippi_n1774589",
+            "normalized_title": "donald trump promete que nao ira rebatizar o rio mississippi",
+            "normalized_description": "o presidente dos estados unidos donald trump prometeu esta segunda feira que nao iria renomear o rio mississippi ao contrario do que fez com o"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/economia/eurodeputados-em-visita-oficial-a-china-para-abordar-tensoes-comerciais-com-a-ue_n1774586",
+            "normalized_title": "eurodeputados em visita oficial a china para abordar tensoes comerciais com a ue",
+            "normalized_description": "uma delegacao de eurodeputados inicia hoje uma visita de tres dias a china para abordar tensoes comerciais com pequim apos o acordo sobre veiculos"
         },
         {
             "link": "https://www.rtp.pt/noticias/mundo/ia-sugere-musica-para-raparigas-e-desporto-para-rapazes-perante-mesma-questao_n1774583",
@@ -2344,106 +2399,6 @@
             "link": "https://jornaleconomico.sapo.pt/noticias/stef-regista-volume-de-negocios-de-145-mil-milhoes-no-terceiro-trimestre-impulsionado-por-internacional/",
             "normalized_title": "stef regista volume de negocios de 1 45 mil milhoes no terceiro trimestre impulsionado por internacional",
             "normalized_description": "o crescimento foi suportado sobretudo pelas operacoes internacionais de acordo com a empresa francesa"
-        },
-        {
-            "link": "https://www.record.pt/futebol/selecoes/detalhe/cristiano-ronaldo-pre-convocado-para-a-selecao-nacional",
-            "normalized_title": "cristiano ronaldo pre convocado para a selecao nacional",
-            "normalized_description": "para os jogos com dinamarca e pais de gales na liga das nacoes"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/3073308/jannik-sinner-ainda-regressa-em-2026-para-jogar-torneio-de-exibicao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "jannik sinner ainda regressa em 2026 para jogar torneio de exibicao",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/portugal/detalhe/detido-a-conduzir-alcoolizado-duas-vezes-na-mesma-madrugada-em-coimbra",
-            "normalized_title": "detido a conduzir alcoolizado duas vezes na mesma madrugada em coimbra",
-            "normalized_description": "foi na sequencia de um acidente de viacao do qual resultaram apenas danos materiais que o homem foi detido pela primeira vez na madrugada desta"
-        },
-        {
-            "link": "https://www.record.pt/modalidades/tenis/detalhe/tenista-jannik-sinner-ainda-regressa-em-2026-para-jogar-torneio-milionario",
-            "normalized_title": "tenista jannik sinner ainda regressa em 2026 para jogar torneio milionario",
-            "normalized_description": "six kings slam disputa se no final de dezembro na arabia saudita"
-        },
-        {
-            "link": "https://www.record.pt/internacional/paises/franca/detalhe/20261026-171142-paris-sg-lyon-em-direto",
-            "normalized_title": "paris sg lyon em direto",
-            "normalized_description": "acompanhe todas as incidencias do encontro"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3073303/manifestantes-detidos-ja-foram-ouvidos-em-tribunal-tudo-o-que-se-sabe#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "manifestacoes 33 detidos dois desfechos o que aconteceu nos tribunais",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.publico.pt/2026/10/26/local/noticia/camara-porto-admite-revogar-decisao-trocou-casas-dinheiro-2192713",
-            "normalized_title": "camara do porto admite revogar decisao que trocou casas por dinheiro",
-            "normalized_description": "apos criticas do ps executivo de pedro duarte admite voltar atras regras do zonamento inclusivo vao ser revistas hoteis e al vao ser obrigados a"
-        },
-        {
-            "link": "https://www.cmjornal.pt/portugal/detalhe/exercito-recebe-o-primeiro-de-quatro-helicopteros",
-            "normalized_title": "exercito recebe o primeiro de quatro helicopteros",
-            "normalized_description": "este primeiro helicoptero foi transportado desde a florida estados unidos num aviao kc 390 da forca aerea que aterrou no aerodromo militar de"
-        },
-        {
-            "link": "https://www.record.pt/internacional/paises/turquia/detalhe/franculino-dju-bisa-e-da-a-vitoria-ao-trabzonspor-frente-ao-rizespor-em-jogo-com-7-golos",
-            "normalized_title": "franculino dju bisa e da a vitoria ao trabzonspor frente ao rizespor em jogo com 7 golos",
-            "normalized_description": "avancado guineense continua em grande forma na turquia"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/portugal-digital-summit-reuniu-mais-de-tres-mil-participantes-para-debater-impacto-da-ia-na-economia/",
-            "normalized_title": "portugal digital summit reuniu mais de tres mil participantes para debater impacto da ia na economia",
-            "normalized_description": "ao longo dos dois dias os participantes sublinharam a necessidade de ir alem da automatizacao de processos existentes repensando modelos de negocio"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/desporto/3073271/oficial-ronald-molina-deixa-vizela-por-motivos-pessoais#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "oficial ronald molina deixa vizela por motivos pessoais",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.publico.pt/2026/10/26/economia/noticia/microsoft-lanca-programa-rescisoes-voluntarias-cortar-60-mil-trabalhadores-2192712",
-            "normalized_title": "microsoft lanca programa de rescisoes voluntarias para cortar 60 mil trabalhadores",
-            "normalized_description": "num esforco de contencao de custos e adaptacao a era da ia a empresa tecnologica promove um programa de rescisoes voluntarias dirigido a mais de 25"
-        },
-        {
-            "link": "https://www.publico.pt/2026/10/26/mundo/noticia/eleicoes-espanha-pp-vox-anunciam-pacto-alcancar-maioria-direita-senado-2192692",
-            "normalized_title": "eleicoes em espanha pp e vox anunciam pacto para alcancar maioria de direita no senado",
-            "normalized_description": "o vox abstem se de apresentar candidatos em seis circulos eleitorais e o pp em tres em 14 circulos o partido de abascal ira apresentar apenas um"
-        },
-        {
-            "link": "https://jornaleconomico.sapo.pt/noticias/tribunal-de-contas-europeu-diz-que-ue-deve-falhar-metas-para-2030-de-protecao-dos-mares/",
-            "normalized_title": "tribunal de contas europeu diz que ue deve falhar metas para 2030 de protecao dos mares",
-            "normalized_description": "a proposito de um relatorio do tce hoje divulgado o organismo europeu alertou em comunicado que as areas marinhas protegidas da uniao europeia ue"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/politica/3073302/greves-parciais-no-metropolitano-tribunal-arbitral-define-servicos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "greves parciais no metropolitano tribunal define servicos minimos",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://pt.euronews.com/2026/10/26/ucrania-zelenskyy-denuncia-mes-de-espera-por-aprovacao-de-misseis-patriot",
-            "normalized_title": "ucrania zelenskyy denuncia mes de espera por aprovacao de misseis patriot",
-            "normalized_description": "kiev tem insistido na necessidade de fornecer mais intercetores as suas forcas numa altura em que a ucrania continua a defender se de ataques"
-        },
-        {
-            "link": "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-26-o-petroleo-esta-mais-caro-quanto-ganha-a-galp-com-isso--fe83c041",
-            "normalized_title": "o petroleo esta mais caro quanto ganha a galp com isso",
-            "normalized_description": "a subida do preco do petroleo esta a pesar na carteira dos consumidores mas tambem esta a beneficiar as petroliferas e o caso da galp que esta a"
-        },
-        {
-            "link": "https://tek.sapo.pt/noticias/negocios/artigos/anthropic-cada-vez-mais-proxima-da-estreia-em-bolsa-empresa-revela-contas-e-alerta-para-os-riscos-da-ia/",
-            "normalized_title": "anthropic cada vez mais proxima da estreia em bolsa empresa revela contas e alerta para os riscos da ia",
-            "normalized_description": "a anthropic esta a preparar se para entrar em bolsa num momento de forte crescimento mas tambem de maior cautela por parte dos investidores em torno"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/casa-pia/detalhe/david-sousa-redimiu-se-no-regresso-a-titularidade-apos-a-expulsao-com-o-santa-clara",
-            "normalized_title": "david sousa redimiu se no regresso a titularidade apos a expulsao com o santa clara",
-            "normalized_description": "central brasileiro ganhou todos os seis duelos aereos que disputou"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3073285/associacao-defende-que-jovens-precisam-de-espaco-nos-lugares-de-decisao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "associacao defende que jovens precisam de espaco nos lugares de decisao",
-            "normalized_description": ""
         }
     ],
     "Nacional": [
@@ -6068,6 +6023,11 @@
             "link": "https://www.publico.pt/2026/10/27/mundo/noticia/jogo-eleicoes-israel-2192730",
             "normalized_title": "o que esta em jogo nas eleicoes de israel",
             "normalized_description": "o futuro de netanyahu as alternativas politicas e o impacto das eleicoes na vida de israelitas e palestinianos neste episodio analisamos o que pode"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/mundo/donald-trump-promete-que-nao-ira-rebatizar-o-rio-mississippi_n1774589",
+            "normalized_title": "donald trump promete que nao ira rebatizar o rio mississippi",
+            "normalized_description": "o presidente dos estados unidos donald trump prometeu esta segunda feira que nao iria renomear o rio mississippi ao contrario do que fez com o"
         },
         {
             "link": "https://www.rtp.pt/noticias/mundo/ia-sugere-musica-para-raparigas-e-desporto-para-rapazes-perante-mesma-questao_n1774583",
@@ -11388,34 +11348,29 @@
             "link": "https://www.cmjornal.pt/mundo/detalhe/taiwan-acusa-cinco-pessoas-de-tentar-agredir-humorista-critico-de-xi-jinping",
             "normalized_title": "taiwan acusa cinco pessoas de tentar agredir humorista critico de xi jinping",
             "normalized_description": "estacionou numa viela quando um automovel se desviou subitamente na sua direcao atingindo o a ele e ao veiculo"
-        },
-        {
-            "link": "https://www.publico.pt/2026/10/22/publico-brasil/noticia/lula-flavio-bolsonaro-travam-batalha-final-redes-sociais-comando-brasil-2192193",
-            "normalized_title": "lula e flavio bolsonaro travam batalha final nas redes sociais pelo comando do brasil",
-            "normalized_description": "a tres dias de os eleitores irem as urnas candidatos a presidencia da republica apostam todas as fichas no mundo virtual para conquistar votos dos"
-        },
-        {
-            "link": "https://www.cmjornal.pt/mundo/detalhe/lula-pede-desqualificacao-de-flavio-bolsonaro-das-presidenciais-do-brasil",
-            "normalized_title": "lula pede desqualificacao de flavio bolsonaro das presidenciais do brasil",
-            "normalized_description": "flavio bolsonaro e acusado de beneficiar de uma manipulacao algoritmica por parte da gigante tecnologica norte americana meta"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3070899/filme-memorias-do-carcere-de-sergio-graciano-estreia-se-nos-cinemas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "filme memorias do carcere de sergio graciano estreia se nos cinemas",
-            "normalized_description": ""
-        },
-        {
-            "link": "https://www.cmjornal.pt/mundo/detalhe/hong-kong-investiga-tratamento-estetico-ilegal-com-pele-de-cadaveres-humanos",
-            "normalized_title": "hong kong investiga tratamento estetico ilegal com pele de cadaveres humanos",
-            "normalized_description": "clinicas e saloes de beleza disponibilizavam o tratamento sem supervisao medica e ocultando a sua origem humana"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3070902/parlamento-europeu-anuncia-hoje-vencedor-do-premio-sakharov#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "parlamento europeu anuncia hoje vencedor do premio sakharov",
-            "normalized_description": ""
         }
     ],
     "Desporto": [
+        {
+            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sp--braga/detalhe/ciclo-negativo-do-sp-braga-na-liga-frustracao-total-espera-por-um-clique",
+            "normalized_title": "ciclo negativo do sp braga na liga frustracao total espera por um clique",
+            "normalized_description": "ambiente pesado apos derrota na choupana quando foram igualados os piores registos a 9 ª jornada no sec xxi"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/3073468/dongpeng-rompe-contrato-com-mbappe-apos-comentarios-sobre-meme-de-mao-zedong#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "dongpeng rompe contrato com mbappe apos comentarios sobre meme de zedong",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/3073453/o-coracao-batia-e-eu-so-esperava-que-ronaldo-dissesse-o-meu-nome#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "o coracao batia e eu so esperava que ronaldo dissesse o meu nome",
+            "normalized_description": ""
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/desporto/3073455/bola-de-ouro-terceiro-trofeu-de-alexia-putellas-e-um-culminar-de-historia-perfeita#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "alexia putellas conquista terceira bola de ouro historia perfeita",
+            "normalized_description": ""
+        },
         {
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/gil-vicente/detalhe/ze-carlos-avanca-frente-ao-benfica",
             "normalized_title": "ze carlos avanca frente ao benfica",
@@ -21305,14 +21260,14 @@
             "link": "https://www.noticiasaominuto.com/desporto/3070909/fc-porto-fora-da-champions-sporting-nao-as-previsoes-do-supercomputador#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "fc porto fora da champions sporting nao as previsoes do supercomputador",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/rio-ave/detalhe/oportunidade-para-ze-carlos-na-defesa-do-rio-ave",
-            "normalized_title": "oportunidade para ze carlos na defesa do rio ave",
-            "normalized_description": "lateral chegou a vila do conde ha mais de um mes e ainda nao jogou"
         }
     ],
     "Economia": [
+        {
+            "link": "https://www.rtp.pt/noticias/economia/eurodeputados-em-visita-oficial-a-china-para-abordar-tensoes-comerciais-com-a-ue_n1774586",
+            "normalized_title": "eurodeputados em visita oficial a china para abordar tensoes comerciais com a ue",
+            "normalized_description": "uma delegacao de eurodeputados inicia hoje uma visita de tres dias a china para abordar tensoes comerciais com pequim apos o acordo sobre veiculos"
+        },
         {
             "link": "https://www.cmjornal.pt/economia/detalhe/galp-ganha-5-4-milhoes-de-euros-por-dia",
             "normalized_title": "galp ganha 5 4 milhoes de euros por dia",
@@ -32549,6 +32504,11 @@
     ],
     "Política": [
         {
+            "link": "https://www.noticiasaominuto.com/politica/3073480/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habitacao-em-fundo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "parlamento inicia debate da proposta do oe2027 com protestos em fundo",
+            "normalized_description": ""
+        },
+        {
             "link": "https://www.cmjornal.pt/politica/detalhe/governo-abre-leiloes-de-baterias",
             "normalized_title": "governo abre leiloes de baterias",
             "normalized_description": "titulos sao destinados a exploracao de centros de energia renovavel e de armazenamento autonomo de eletricidade"
@@ -34077,14 +34037,14 @@
             "link": "https://www.noticiasaominuto.com/politica/3070919/estados-gerais-do-ps-arrancam-em-novembro-para-preparar-alternativa#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "estados gerais do ps arrancam em novembro para preparar alternativa",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/pais/3070862/oe2027-comissao-politica-do-ps-manifestou-consenso-total-sobre-abstencao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "comissao politica do ps manifestou consenso total sobre abstencao no oe",
-            "normalized_description": ""
         }
     ],
     "Multimédia": [
+        {
+            "link": "https://expresso.pt/podcasts/expresso-da-manha/2026-10-27-vai-uma-aposta--na-proxima-semana-trump-sofre-uma-pesada-derrota-ou-ganha-e-tem-de-pagar-5000-dolares-a-cada-eleitor--37834dfd",
+            "normalized_title": "vai uma aposta na proxima semana trump sofre uma pesada derrota ou ganha e tem de pagar 5000 dolares a cada eleitor",
+            "normalized_description": "no expresso da manha paulo baldaia conversa com o comentador sic joao maria jonet sobre as eleicoes intercalares americanas"
+        },
         {
             "link": "https://www.rtp.pt/noticias/noticiario-antena1/5h-parlamento-comeca-discussao-do-orcamento-do-estado-para-2027_a1_1774603",
             "normalized_title": "5h parlamento comeca discussao do orcamento do estado para 2027",
@@ -36124,19 +36084,14 @@
             "link": "https://expresso.pt/podcasts/geracao-40/2026-10-22-eu-era-um-pendura-do-eletrico-para-nao-pagar-cinco-tostoes.-da-escola-d.-joao-de-castro-ate-a-ajuda-nos-poupavamos-indo-a-pendura-ou-a-pe-d0342d95",
             "normalized_title": "angelo correia eu era um pendura do eletrico para nao pagar cinco tostoes da escola d joao de castro ate a ajuda nos poupavamos indo a pendura ou a pe",
             "normalized_description": "fundador do psd antigo ministro da administracao interna e protagonista de varios momentos da historia politica portuguesa angelo correia e o"
-        },
-        {
-            "link": "https://expresso.pt/podcasts/expresso-da-manha/2026-10-22-riccardo-marchi-nos-paises-em-que-vai-haver-eleicoes-a-extrema-esquerda-e-a-extrema-direita-poderao-acabar-por-se-encontrar-na-rua-a66e9b0a",
-            "normalized_title": "riccardo marchi nos paises em que vai haver eleicoes a extrema esquerda e a extrema direita poderao acabar por se encontrar na rua",
-            "normalized_description": "os extremos acabarao por se encontrar na rua no expresso da manha paulo baldaia conversa com o investigador do iscte riccardo marchi sobre as"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/6h-benfica-torreense-e-sc-braga-jogam-para-as-ligas-europa-e-conferencia_a1_1773411",
-            "normalized_title": "6h benfica torreense e sc braga jogam para as ligas europa e conferencia",
-            "normalized_description": ""
         }
     ],
     "Opinião": [
+        {
+            "link": "https://expresso.pt/opiniao/2026-10-27-questoes-operacionais-49512f8e",
+            "normalized_title": "questoes operacionais",
+            "normalized_description": "o estado portugues sabe perfeitamente lavrar um auto com petardos a rebentar a volta e parece ter uma certa preferencia por o fazer quando quem"
+        },
         {
             "link": "https://expresso.pt/opiniao/servicos-minimos/2026-10-27-brasil-pais-do-futuro-be6473e5",
             "normalized_title": "brasil pais do futuro",
