@@ -104,13 +104,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/autoridades-sauditas-dizem-que-destrocos-de-drone-mataram-duas-pessoas-num-campo-petrolifero-apos-um-ataque-no-reino": {
-        "category": null,
-        "timestamp": "2026-10-22T00:15:57.913401+00:00",
-        "title": "Autoridades sauditas dizem que destroços de drone mataram duas pessoas num campo petrolífero após um...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/fundos-europeus/2026-10-22-antonio-costa-prepara-nova-proposta-de-orcamento-europeu-00294242": {
         "category": null,
         "timestamp": "2026-10-22T16:15:57.611138+00:00",
@@ -960,7 +953,7 @@
     },
     "https://expresso.pt/emprego/2026-10-26-quem-ganha-mais-um-programador-ou-um-mecanico--familia-azevedo-entra-em-plataforma-que-permite-comparar-salarios-e-carreiras-d0c59452": {
         "category": null,
-        "timestamp": "2026-10-27T00:15:51.177507+00:00",
+        "timestamp": "2026-10-27T00:31:03.875388+00:00",
         "title": "Quem ganha mais, um programador ou um mecânico? Família Azevedo entra em plataforma que permite comp...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -974,14 +967,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-26-ventura-desafia-esquerda-a-rever-lei-de-1974-sobre-manifestacoes-e-questiona-vitoria-de-lula-no-brasil-0845dfac": {
         "category": null,
-        "timestamp": "2026-10-27T00:15:51.127833+00:00",
+        "timestamp": "2026-10-27T00:31:03.814819+00:00",
         "title": "Ventura desafia esquerda a rever lei de 1974 sobre manifestações e questiona vitória de Lula no Bras...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/institucional/2026-10-26-condicoes-da-campanha-exclusiva-eb6dbd87": {
         "category": null,
-        "timestamp": "2026-10-27T00:15:51.065968+00:00",
+        "timestamp": "2026-10-27T00:31:03.747211+00:00",
         "title": "Condições da Campanha Exclusiva",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1023,15 +1016,22 @@
     },
     "https://expresso.pt/poder-local/2026-10-26-moedas-afasta-responsabilidades-por-carga-policial-no-rossio-mas-lembra-que-nao-pode-haver-ocupacao-de-espaco-publico-todos-os-dias-915994d7": {
         "category": null,
-        "timestamp": "2026-10-27T00:15:49.854193+00:00",
+        "timestamp": "2026-10-27T00:31:02.568177+00:00",
         "title": "Moedas afasta responsabilidades por carga policial no Rossio, mas lembra que não pode haver \"ocupaçã...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-10-26-kremlin-recusa-que-onu-se-sente-a-mesa-das-negociacoes-de-paz-com-a-ucrania-2b068404": {
         "category": null,
-        "timestamp": "2026-10-27T00:15:50.760824+00:00",
+        "timestamp": "2026-10-27T00:31:02.496607+00:00",
         "title": "Kremlin recusa que ONU se sente à mesa das negociações de paz com a Ucrânia",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/automoveis/2026-10-27-quando-a-aerodinamica-aterra-num-suv-e-a-inspiracao-vem-do-atelier-alpine-nasce-o-renault-rafale-um-carro-com-nome-de-aviao-9b03fefa": {
+        "category": null,
+        "timestamp": "2026-10-27T00:31:04.098685+00:00",
+        "title": "Quando a aerodinâmica aterra num SUV e a inspiração vem do Atelier Alpine, nasce o Renault Rafale, u...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
