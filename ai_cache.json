@@ -34,13 +34,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/a-violencia-nao-mostra-toda-a-revolta_1773689": {
-        "category": null,
-        "timestamp": "2026-10-23T14:45:51.523650+00:00",
-        "title": "A violência não mostra (toda) a revolta",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/financas-pessoais-poupanca/2026-10-23-procura-por-certificados-de-aforro-leva-governo-a-aumentar-em-60-limite-de-emissao-300fe929": {
         "category": null,
         "timestamp": "2026-10-24T07:31:07.331167+00:00",
@@ -80,41 +73,6 @@
         "category": null,
         "timestamp": "2026-10-24T13:01:19.217860+00:00",
         "title": "Presidente convoca Conselho de Estado para falar de coesão social",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/netanyahu-o-rei-bibi-joga-futuro-politico-em-27-de-outubro": {
-        "category": null,
-        "timestamp": "2026-10-23T14:45:52.381823+00:00",
-        "title": "Netanyahu, o \"rei Bibi\" joga futuro político em 27 de outubro",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/do-07-de-outubro-a-guerra-no-irao-a-cronologia-de-alguns-dos-principais-conflitos-no-medio-oriente": {
-        "category": null,
-        "timestamp": "2026-10-23T14:45:52.439958+00:00",
-        "title": "Do 7 de outubro à guerra no Irão: a cronologia de alguns dos principais conflitos no Médio Oriente",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/gadi-eisenkot-o-general-que-se-fez-politico-para-destronar-netanyahu": {
-        "category": null,
-        "timestamp": "2026-10-23T14:45:52.506105+00:00",
-        "title": "Gadi Eisenkot, o general que se fez político para destronar Netanyahu",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/eleicoes-em-israel-nazare-guarda-milhares-de-votos-que-ninguem-parece-querer": {
-        "category": null,
-        "timestamp": "2026-10-23T15:01:20.375212+00:00",
-        "title": "Eleições em Israel: Nazaré guarda milhares de votos que ninguém parece querer",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/perguntas-e-respostas-como-funciona-a-votacao-das-eleicoes-legislativas-em-israel": {
-        "category": null,
-        "timestamp": "2026-10-23T15:01:20.451046+00:00",
-        "title": "Perguntas e respostas: Como funciona a votação das eleições legislativas em Israel",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -953,7 +911,7 @@
     },
     "https://www.rtp.pt/noticias/taca-da-liga/fc-porto-e-ac-viseu-procuram-presenca-na-final-four-da-taca-da-liga_d1774939": {
         "category": null,
-        "timestamp": "2026-10-28T14:45:50.135023+00:00",
+        "timestamp": "2026-10-28T15:01:28.736834+00:00",
         "title": "FC Porto e Ac. Viseu procuram presença na `final four` da Taça da Liga",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -967,21 +925,21 @@
     },
     "https://expresso.pt/russia/2026-10-28-submarino-nuclear-russo-lanca-missil-balistico-intercontinental-que-atinge-alvo-no-artico-d583b1a3": {
         "category": null,
-        "timestamp": "2026-10-28T14:45:49.801302+00:00",
+        "timestamp": "2026-10-28T15:01:28.142296+00:00",
         "title": "Submarino nuclear russo lança míssil balístico intercontinental que atinge alvo no Ártico",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/restaurantes/2026-10-28-restaurantes-contra-o-desperdicio-e-com-verve-asiatica-o-ciclo-destaca-se-na-graca-ae5e9039": {
         "category": null,
-        "timestamp": "2026-10-28T14:45:49.744396+00:00",
+        "timestamp": "2026-10-28T15:01:28.044455+00:00",
         "title": "Restaurantes: Contra o desperdício e com verve asiática, o Ciclo destaca-se na Graça",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-28-video-as-imagens-da-tragedia-em-espanha-apos-choque-entre-dois-comboios-de-alta-velocidade-que-fez-dezenas-de-mortos-7c6ad5ea": {
         "category": null,
-        "timestamp": "2026-10-28T14:45:49.693602+00:00",
+        "timestamp": "2026-10-28T15:01:27.948960+00:00",
         "title": "As imagens da tragédia em Espanha após choque entre dois comboios de alta velocidade que fez dezenas...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1002,21 +960,21 @@
     },
     "https://expresso.pt/emprego/2026-10-28-ex-ministra-ana-mendes-godinho-nomeada-para-cargo-dirigente-na-ocde-fd1acc03": {
         "category": null,
-        "timestamp": "2026-10-28T14:45:49.643015+00:00",
+        "timestamp": "2026-10-28T15:01:27.844860+00:00",
         "title": "Ex-ministra Ana Mendes Godinho nomeada para cargo dirigente na OCDE",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-10-28-brasileira-vertical-connect-instala-fabrica-de-drones-em-celorico-da-beira-28d98920": {
         "category": null,
-        "timestamp": "2026-10-28T14:45:49.584101+00:00",
+        "timestamp": "2026-10-28T15:01:27.739583+00:00",
         "title": "Brasileira Vertical Connect instala fábrica de drones em Celorico da Beira",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-10-28-tiktoklandia.-dez-horas-por-dia-no-tiktok-um-busto-de-salazar-na-cave-e-uma-regra-em-casa---nao-se-fala-de-ventura-acd9a89e": {
         "category": null,
-        "timestamp": "2026-10-28T14:45:50.204644+00:00",
+        "timestamp": "2026-10-28T15:01:28.843880+00:00",
         "title": "TikToklândia. Dez horas por dia no TikTok, um busto de Salazar na cave e uma regra em casa: não se f...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
