@@ -34,20 +34,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/teatro-danca/2026-10-22-a-companhia-nacional-de-bailado-bate-a-porta-de-fernando-pessoa-ha-dancas-do-desassossego-no-teatro-camoes-83d57371": {
-        "category": null,
-        "timestamp": "2026-10-23T09:01:17.912914+00:00",
-        "title": "A Companhia Nacional de Bailado bate à porta de Fernando Pessoa: há danças do desassossego no Teatro...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/restaurantes/2026-10-22-filetes-bacalhau-e-carne-de-porco-para-descobrir-numa-mesa-surpreendente-em-monte-abraao-35e93e65": {
-        "category": null,
-        "timestamp": "2026-10-23T09:01:17.960885+00:00",
-        "title": "Filetes, bacalhau e carne de porco para descobrir numa mesa surpreendente em Monte Abraão",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/semanario/economia": {
         "category": null,
         "timestamp": "2026-10-23T15:31:03.246380+00:00",
@@ -66,13 +52,6 @@
         "category": null,
         "timestamp": "2026-10-23T15:31:03.379604+00:00",
         "title": "A fabulosa história da baixela da Coroa, na revista E",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/guerra-ucrania/2026-10-23-nao-e-deles-historicamente-e-territorio-russo-putin-pronto-a-negociar-acordo-final-mas-rejeita-congelar-linha-da-frente-no-donbass-e51e73b0": {
-        "category": null,
-        "timestamp": "2026-10-23T09:01:15.501628+00:00",
-        "title": "\"Não é deles; historicamente, é território russo\": Putin pronto a negociar acordo final, mas rejeita...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -932,21 +911,21 @@
     },
     "https://expresso.pt/poder-local/2026-10-27-ps-quer-contrato-da-limpeza-da-estatua-do-rossio-apos-moedas-falar-em-custo-de-100-mil-euros-84712529": {
         "category": null,
-        "timestamp": "2026-10-28T09:01:15.796407+00:00",
+        "timestamp": "2026-10-28T09:15:57.412186+00:00",
         "title": "PS quer contrato da limpeza da estátua do Rossio após Moedas falar em custo de 100 mil euros",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/palop/mocambique/2026-10-27-investigacao-forbidden-stories.-em-mocambique-uma-morte-transmitida-em-direto-e-o-tabu-da-poluicao-fb4db3ff": {
         "category": null,
-        "timestamp": "2026-10-28T09:01:15.645094+00:00",
+        "timestamp": "2026-10-28T09:15:57.272898+00:00",
         "title": "Investigação Forbidden Stories. Em Moçambique, uma morte transmitida em direto e o tabu da poluição",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/health-parliament-portugal/2026-10-27-deputados-tracam-esboco-para-mudar-o-futuro-da-saude-em-portugal-29abb899": {
         "category": null,
-        "timestamp": "2026-10-28T09:01:15.718446+00:00",
+        "timestamp": "2026-10-28T09:15:57.352295+00:00",
         "title": "Deputados traçam esboço para mudar o futuro da saúde em Portugal",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -960,7 +939,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-10-27-finlandia-e-noruega-levam-mensagem-de-zelensky-a-putin-que-recusa-reuniao-imediata-com-lider-ucraniano-e045fc8a": {
         "category": null,
-        "timestamp": "2026-10-28T09:01:15.573391+00:00",
+        "timestamp": "2026-10-28T09:15:57.209243+00:00",
         "title": "Finlândia e Noruega levam mensagem de Zelensky a Putin, que recusa reunião imediata com líder ucrani...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -974,14 +953,14 @@
     },
     "https://expresso.pt/curtas/2026-10-27-video-milhares-protestam-em-lisboa-pela-habitacao-em-frente-ao-parlamento-veja-as-imagens-12c3b76f": {
         "category": null,
-        "timestamp": "2026-10-28T09:01:15.499785+00:00",
+        "timestamp": "2026-10-28T09:15:57.150718+00:00",
         "title": "Milhares protestam em Lisboa pela habitação em frente ao Parlamento: veja as imagens",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-27-video-manifestantes-pela-habitacao-levam-tendas-para-protesto-em-frente-ao-parlamento-veja-as-imagens-83fd47b4": {
         "category": null,
-        "timestamp": "2026-10-28T09:01:15.426497+00:00",
+        "timestamp": "2026-10-28T09:15:57.080908+00:00",
         "title": "Manifestantes pela habitação levam tendas para protesto em frente ao Parlamento: veja as imagens",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -995,28 +974,28 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-27-nao-faremos-esse-favor-ao-governo-carneiro-rejeita-crise-politica-mas-insiste-em-mudancas-na-habitacao-a5bc76d1": {
         "category": null,
-        "timestamp": "2026-10-28T09:01:15.352577+00:00",
+        "timestamp": "2026-10-28T09:15:57.040956+00:00",
         "title": "\"Não faremos esse favor ao Governo\": Carneiro rejeita crise política, mas insiste em mudanças na hab...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-28-video-israel-partido-de-netanyahu-e-o-mais-votado-mas-nao-deve-ser-chamado-a-formar-governo--eis-os-cenarios-de-coligacao-possiveis-116f638f": {
         "category": null,
-        "timestamp": "2026-10-28T09:01:15.276403+00:00",
+        "timestamp": "2026-10-28T09:15:57.001909+00:00",
         "title": "Israel: partido de Netanyahu é o mais votado, mas não deve ser chamado a formar governo — eis os cen...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/temos-de-formar-um-governo-de-direita-forte-netanyahu-arranca-aplausos-mas-aguarda-pelos-resultados-finais": {
         "category": null,
-        "timestamp": "2026-10-28T09:01:15.046608+00:00",
+        "timestamp": "2026-10-28T09:15:54.717748+00:00",
         "title": "\"Temos de formar um governo de direita forte\": Netanyahu arranca aplausos, mas aguarda pelos resulta...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/sondagens-apontam-que-nao-ha-vencedor-claro-e-adensam-impasse-politico": {
         "category": null,
-        "timestamp": "2026-10-28T09:01:14.971756+00:00",
+        "timestamp": "2026-10-28T09:15:54.677831+00:00",
         "title": "Sondagens apontam que não há vencedor claro e adensam impasse político",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
