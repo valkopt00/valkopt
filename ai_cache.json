@@ -104,13 +104,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/os-principais-temas-de-uma-votacao-imprevisivel-em-israel": {
-        "category": null,
-        "timestamp": "2026-10-23T14:31:07.682084+00:00",
-        "title": "Os principais temas de uma votação imprevisível em Israel",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/eleicoes-em-israel-nazare-guarda-milhares-de-votos-que-ninguem-parece-querer": {
         "category": null,
         "timestamp": "2026-10-23T15:01:20.375212+00:00",
@@ -862,21 +855,21 @@
     },
     "https://expresso.pt/poder-local/2026-10-27-ps-quer-contrato-da-limpeza-da-estatua-do-rossio-apos-moedas-falar-em-custo-de-100-mil-euros-84712529": {
         "category": null,
-        "timestamp": "2026-10-28T14:15:58.510613+00:00",
+        "timestamp": "2026-10-28T14:31:11.299353+00:00",
         "title": "PS quer contrato da limpeza da estátua do Rossio após Moedas falar em custo de 100 mil euros",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/palop/mocambique/2026-10-27-investigacao-forbidden-stories.-em-mocambique-uma-morte-transmitida-em-direto-e-o-tabu-da-poluicao-fb4db3ff": {
         "category": null,
-        "timestamp": "2026-10-28T14:15:58.425339+00:00",
+        "timestamp": "2026-10-28T14:31:11.156956+00:00",
         "title": "Investigação Forbidden Stories. Em Moçambique, uma morte transmitida em direto e o tabu da poluição",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/health-parliament-portugal/2026-10-27-deputados-tracam-esboco-para-mudar-o-futuro-da-saude-em-portugal-29abb899": {
         "category": null,
-        "timestamp": "2026-10-28T14:15:58.467990+00:00",
+        "timestamp": "2026-10-28T14:31:11.225923+00:00",
         "title": "Deputados traçam esboço para mudar o futuro da saúde em Portugal",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -890,7 +883,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-10-27-finlandia-e-noruega-levam-mensagem-de-zelensky-a-putin-que-recusa-reuniao-imediata-com-lider-ucraniano-e045fc8a": {
         "category": null,
-        "timestamp": "2026-10-28T14:15:58.380389+00:00",
+        "timestamp": "2026-10-28T14:31:11.113686+00:00",
         "title": "Finlândia e Noruega levam mensagem de Zelensky a Putin, que recusa reunião imediata com líder ucrani...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -904,14 +897,14 @@
     },
     "https://expresso.pt/curtas/2026-10-27-video-milhares-protestam-em-lisboa-pela-habitacao-em-frente-ao-parlamento-veja-as-imagens-12c3b76f": {
         "category": null,
-        "timestamp": "2026-10-28T14:15:58.332818+00:00",
+        "timestamp": "2026-10-28T14:31:11.071637+00:00",
         "title": "Milhares protestam em Lisboa pela habitação em frente ao Parlamento: veja as imagens",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-27-video-manifestantes-pela-habitacao-levam-tendas-para-protesto-em-frente-ao-parlamento-veja-as-imagens-83fd47b4": {
         "category": null,
-        "timestamp": "2026-10-28T14:15:58.281820+00:00",
+        "timestamp": "2026-10-28T14:31:11.028294+00:00",
         "title": "Manifestantes pela habitação levam tendas para protesto em frente ao Parlamento: veja as imagens",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -925,14 +918,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-27-nao-faremos-esse-favor-ao-governo-carneiro-rejeita-crise-politica-mas-insiste-em-mudancas-na-habitacao-a5bc76d1": {
         "category": null,
-        "timestamp": "2026-10-28T14:15:58.237619+00:00",
+        "timestamp": "2026-10-28T14:31:10.987072+00:00",
         "title": "\"Não faremos esse favor ao Governo\": Carneiro rejeita crise política, mas insiste em mudanças na hab...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-28-video-israel-partido-de-netanyahu-e-o-mais-votado-mas-nao-deve-ser-chamado-a-formar-governo--eis-os-cenarios-de-coligacao-possiveis-116f638f": {
         "category": null,
-        "timestamp": "2026-10-28T14:15:58.190057+00:00",
+        "timestamp": "2026-10-28T14:31:10.942358+00:00",
         "title": "Israel: partido de Netanyahu é o mais votado, mas não deve ser chamado a formar governo — eis os cen...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -960,7 +953,7 @@
     },
     "https://www.rtp.pt/noticias/taca-da-liga/fc-porto-e-ac-viseu-procuram-presenca-na-final-four-da-taca-da-liga_d1774939": {
         "category": null,
-        "timestamp": "2026-10-28T14:15:56.379200+00:00",
+        "timestamp": "2026-10-28T14:31:09.484361+00:00",
         "title": "FC Porto e Ac. Viseu procuram presença na `final four` da Taça da Liga",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -981,14 +974,14 @@
     },
     "https://expresso.pt/restaurantes/2026-10-28-restaurantes-contra-o-desperdicio-e-com-verve-asiatica-o-ciclo-destaca-se-na-graca-ae5e9039": {
         "category": null,
-        "timestamp": "2026-10-28T14:15:56.229959+00:00",
+        "timestamp": "2026-10-28T14:31:09.737699+00:00",
         "title": "Restaurantes: Contra o desperdício e com verve asiática, o Ciclo destaca-se na Graça",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-28-video-as-imagens-da-tragedia-em-espanha-apos-choque-entre-dois-comboios-de-alta-velocidade-que-fez-dezenas-de-mortos-7c6ad5ea": {
         "category": null,
-        "timestamp": "2026-10-28T14:15:56.187682+00:00",
+        "timestamp": "2026-10-28T14:31:09.696122+00:00",
         "title": "As imagens da tragédia em Espanha após choque entre dois comboios de alta velocidade que fez dezenas...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1009,8 +1002,15 @@
     },
     "https://expresso.pt/emprego/2026-10-28-ex-ministra-ana-mendes-godinho-nomeada-para-cargo-dirigente-na-ocde-fd1acc03": {
         "category": null,
-        "timestamp": "2026-10-28T14:15:56.144750+00:00",
+        "timestamp": "2026-10-28T14:31:09.648168+00:00",
         "title": "Ex-ministra Ana Mendes Godinho nomeada para cargo dirigente na OCDE",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/empresas-negocios/2026-10-28-brasileira-vertical-connect-instala-fabrica-de-drones-em-celorico-da-beira-28d98920": {
+        "category": null,
+        "timestamp": "2026-10-28T14:31:09.606006+00:00",
+        "title": "Brasileira Vertical Connect instala fábrica de drones em Celorico da Beira",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
