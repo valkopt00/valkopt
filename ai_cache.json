@@ -48,13 +48,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/benjamin-netanyahu-diz-que-israel-deve-preparar-se-para-contornar-sancoes-internacionais": {
-        "category": null,
-        "timestamp": "2026-10-23T23:31:06.974021+00:00",
-        "title": "Benjamin Netanyahu diz que Israel deve preparar-se para contornar sanções internacionais",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/guerra-ucrania/2026-10-23-padre-catolico-mobilizado-para-a-guerra-na-ucrania-nao-seguiu-orientacoes-da-diocese-f350718b": {
         "category": null,
         "timestamp": "2026-10-25T08:31:00.309001+00:00",
@@ -855,14 +848,14 @@
     },
     "https://expresso.pt/restaurantes/2026-10-28-restaurantes-contra-o-desperdicio-e-com-verve-asiatica-o-ciclo-destaca-se-na-graca-ae5e9039": {
         "category": null,
-        "timestamp": "2026-10-28T23:15:58.471241+00:00",
+        "timestamp": "2026-10-28T23:31:09.459495+00:00",
         "title": "Restaurantes: Contra o desperdício e com verve asiática, o Ciclo destaca-se na Graça",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-28-video-as-imagens-da-tragedia-em-espanha-apos-choque-entre-dois-comboios-de-alta-velocidade-que-fez-dezenas-de-mortos-7c6ad5ea": {
         "category": null,
-        "timestamp": "2026-10-28T23:15:58.439708+00:00",
+        "timestamp": "2026-10-28T23:31:09.422707+00:00",
         "title": "As imagens da tragédia em Espanha após choque entre dois comboios de alta velocidade que fez dezenas...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -890,7 +883,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-10-28-brasileira-vertical-connect-instala-fabrica-de-drones-em-celorico-da-beira-28d98920": {
         "category": null,
-        "timestamp": "2026-10-28T23:15:58.400924+00:00",
+        "timestamp": "2026-10-28T23:31:09.381628+00:00",
         "title": "Brasileira Vertical Connect instala fábrica de drones em Celorico da Beira",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -911,14 +904,14 @@
     },
     "https://visao.pt/edicao-impressa/2026-10-28-edicao-1756/?utm_source=rss&utm_medium=rss&utm_campaign=edicao-1756": {
         "category": null,
-        "timestamp": "2026-10-28T23:15:57.605563+00:00",
+        "timestamp": "2026-10-28T23:31:09.577687+00:00",
         "title": "Edição 1756",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/exposicoes/2026-10-28-exposicoes-as-cidades-invisiveis-na-fotografia-de-edson-chagas-e4777409": {
         "category": null,
-        "timestamp": "2026-10-28T23:15:56.888434+00:00",
+        "timestamp": "2026-10-28T23:31:07.766648+00:00",
         "title": "Exposições: As cidades invisíveis na fotografia de Edson Chagas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -932,36 +925,43 @@
     },
     "https://expresso.pt/cheias-inundacoes/2026-10-28-odivelas-testa-projeto-piloto-floodgate-satelites-podem-ajudar-no-combate-as-cheias-684474f5": {
         "category": null,
-        "timestamp": "2026-10-28T23:15:56.828537+00:00",
+        "timestamp": "2026-10-28T23:31:07.697722+00:00",
         "title": "Odivelas testa projeto-piloto Floodgate: satélites podem ajudar no combate às cheias",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-10-28-putin-elogia-musk-como-um-verdadeiro-genio-e-defende-cooperacao-espacial-com-os-eua-74a03b47": {
         "category": null,
-        "timestamp": "2026-10-28T23:15:56.859567+00:00",
+        "timestamp": "2026-10-28T23:31:07.731223+00:00",
         "title": "Putin elogia Musk como \"um verdadeiro génio\" e defende cooperação espacial com os EUA",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-10-28-lucros-da-jeronimo-martins-recuam-para-414-milhoes-num-contexto-mais-desafiante-do-que-o-previsto-c9bc0a70": {
         "category": null,
-        "timestamp": "2026-10-28T23:15:56.797759+00:00",
+        "timestamp": "2026-10-28T23:31:07.665991+00:00",
         "title": "Lucros da Jerónimo Martins recuam para €414 milhões, num “contexto mais desafiante do que o previsto...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/presidencia-republica/2026-10-28-habitacao-presidente-da-republica-recebeu-especialistas-e-entidades-em-belem-e4cfed2a": {
         "category": null,
-        "timestamp": "2026-10-28T23:15:56.762420+00:00",
+        "timestamp": "2026-10-28T23:31:07.593775+00:00",
         "title": "Habitação: Presidente da República recebeu especialistas e entidades em Belém",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/orcamento-do-estado-2027/2026-10-28-num-oe-com-desfecho-antecipado-psd-agradece-ao-ps-com-ataques-a-falinha-mansa-e-hipocrisia-de-carneiro-7583cabe": {
         "category": null,
-        "timestamp": "2026-10-28T23:15:56.735842+00:00",
+        "timestamp": "2026-10-28T23:31:07.556919+00:00",
         "title": "Num OE com desfecho antecipado, PSD 'agradece' ao PS com ataques à \"falinha mansa\" e \"hipocrisia\" de...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/curtas/2026-10-28-video-carolina-deslandes-canta-a-gente-vai-continuar-com-coro-da-multidao-na-acampada-do-rossio-3add9a0c": {
+        "category": null,
+        "timestamp": "2026-10-28T23:31:08.359462+00:00",
+        "title": "Carolina Deslandes canta ‘A Gente Vai Continuar’ com coro da multidão na ‘acampada’ do Rossio",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
