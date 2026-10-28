@@ -1,32 +1,4 @@
 {
-    "https://expresso.pt/semanario/primeiro": {
-        "category": null,
-        "timestamp": "2026-10-23T15:31:03.459473+00:00",
-        "title": "A primeira página do Expresso",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/economia": {
-        "category": null,
-        "timestamp": "2026-10-23T15:31:03.246380+00:00",
-        "title": "A 1ª página do Expresso Economia",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/ideias": {
-        "category": null,
-        "timestamp": "2026-10-23T15:31:03.319432+00:00",
-        "title": "IDEIAS: Dois cantos da Europa",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/revista-e": {
-        "category": null,
-        "timestamp": "2026-10-23T15:31:03.379604+00:00",
-        "title": "A fabulosa história da baixela da Coroa, na revista E",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/guerra-ucrania/2026-10-23-nao-e-deles-historicamente-e-territorio-russo-putin-pronto-a-negociar-acordo-final-mas-rejeita-congelar-linha-da-frente-no-donbass-e51e73b0-1": {
         "category": null,
         "timestamp": "2026-10-23T22:01:16.236731+00:00",
@@ -73,13 +45,6 @@
         "category": null,
         "timestamp": "2026-10-24T13:01:19.217860+00:00",
         "title": "Presidente convoca Conselho de Estado para falar de coesão social",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/cmr/podcasts/crime-e-castigo/detalhe/todos-tem-direito-a-habitacao-mas-onde-e-que-estao-as-casas": {
-        "category": null,
-        "timestamp": "2026-10-23T15:45:53.107420+00:00",
-        "title": "Todos têm direito à habitação, mas onde é que estão as casas?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -911,7 +876,7 @@
     },
     "https://www.rtp.pt/noticias/taca-da-liga/fc-porto-e-ac-viseu-procuram-presenca-na-final-four-da-taca-da-liga_d1774939": {
         "category": null,
-        "timestamp": "2026-10-28T15:31:03.414352+00:00",
+        "timestamp": "2026-10-28T15:45:59.287480+00:00",
         "title": "FC Porto e Ac. Viseu procuram presença na `final four` da Taça da Liga",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -925,21 +890,21 @@
     },
     "https://expresso.pt/russia/2026-10-28-submarino-nuclear-russo-lanca-missil-balistico-intercontinental-que-atinge-alvo-no-artico-d583b1a3": {
         "category": null,
-        "timestamp": "2026-10-28T15:31:02.955545+00:00",
+        "timestamp": "2026-10-28T15:45:57.517783+00:00",
         "title": "Submarino nuclear russo lança míssil balístico intercontinental que atinge alvo no Ártico",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/restaurantes/2026-10-28-restaurantes-contra-o-desperdicio-e-com-verve-asiatica-o-ciclo-destaca-se-na-graca-ae5e9039": {
         "category": null,
-        "timestamp": "2026-10-28T15:31:02.867690+00:00",
+        "timestamp": "2026-10-28T15:45:57.414473+00:00",
         "title": "Restaurantes: Contra o desperdício e com verve asiática, o Ciclo destaca-se na Graça",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-28-video-as-imagens-da-tragedia-em-espanha-apos-choque-entre-dois-comboios-de-alta-velocidade-que-fez-dezenas-de-mortos-7c6ad5ea": {
         "category": null,
-        "timestamp": "2026-10-28T15:31:02.816279+00:00",
+        "timestamp": "2026-10-28T15:45:57.296915+00:00",
         "title": "As imagens da tragédia em Espanha após choque entre dois comboios de alta velocidade que fez dezenas...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -960,21 +925,21 @@
     },
     "https://expresso.pt/emprego/2026-10-28-ex-ministra-ana-mendes-godinho-nomeada-para-cargo-dirigente-na-ocde-fd1acc03": {
         "category": null,
-        "timestamp": "2026-10-28T15:31:02.759560+00:00",
+        "timestamp": "2026-10-28T15:45:57.179540+00:00",
         "title": "Ex-ministra Ana Mendes Godinho nomeada para cargo dirigente na OCDE",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-10-28-brasileira-vertical-connect-instala-fabrica-de-drones-em-celorico-da-beira-28d98920": {
         "category": null,
-        "timestamp": "2026-10-28T15:31:02.697073+00:00",
+        "timestamp": "2026-10-28T15:45:57.080361+00:00",
         "title": "Brasileira Vertical Connect instala fábrica de drones em Celorico da Beira",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-10-28-tiktoklandia.-dez-horas-por-dia-no-tiktok-um-busto-de-salazar-na-cave-e-uma-regra-em-casa---nao-se-fala-de-ventura-acd9a89e": {
         "category": null,
-        "timestamp": "2026-10-28T15:31:03.878307+00:00",
+        "timestamp": "2026-10-28T15:45:59.963289+00:00",
         "title": "TikToklândia. Dez horas por dia no TikTok, um busto de Salazar na cave e uma regra em casa: não se f...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
