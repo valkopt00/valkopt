@@ -953,7 +953,7 @@
     },
     "https://www.rtp.pt/noticias/taca-da-liga/fc-porto-e-ac-viseu-procuram-presenca-na-final-four-da-taca-da-liga_d1774939": {
         "category": null,
-        "timestamp": "2026-10-28T14:31:09.484361+00:00",
+        "timestamp": "2026-10-28T14:45:50.135023+00:00",
         "title": "FC Porto e Ac. Viseu procuram presença na `final four` da Taça da Liga",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -967,21 +967,21 @@
     },
     "https://expresso.pt/russia/2026-10-28-submarino-nuclear-russo-lanca-missil-balistico-intercontinental-que-atinge-alvo-no-artico-d583b1a3": {
         "category": null,
-        "timestamp": "2026-10-28T14:01:23.365431+00:00",
+        "timestamp": "2026-10-28T14:45:49.801302+00:00",
         "title": "Submarino nuclear russo lança míssil balístico intercontinental que atinge alvo no Ártico",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/restaurantes/2026-10-28-restaurantes-contra-o-desperdicio-e-com-verve-asiatica-o-ciclo-destaca-se-na-graca-ae5e9039": {
         "category": null,
-        "timestamp": "2026-10-28T14:31:09.737699+00:00",
+        "timestamp": "2026-10-28T14:45:49.744396+00:00",
         "title": "Restaurantes: Contra o desperdício e com verve asiática, o Ciclo destaca-se na Graça",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-28-video-as-imagens-da-tragedia-em-espanha-apos-choque-entre-dois-comboios-de-alta-velocidade-que-fez-dezenas-de-mortos-7c6ad5ea": {
         "category": null,
-        "timestamp": "2026-10-28T14:31:09.696122+00:00",
+        "timestamp": "2026-10-28T14:45:49.693602+00:00",
         "title": "As imagens da tragédia em Espanha após choque entre dois comboios de alta velocidade que fez dezenas...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1002,15 +1002,22 @@
     },
     "https://expresso.pt/emprego/2026-10-28-ex-ministra-ana-mendes-godinho-nomeada-para-cargo-dirigente-na-ocde-fd1acc03": {
         "category": null,
-        "timestamp": "2026-10-28T14:31:09.648168+00:00",
+        "timestamp": "2026-10-28T14:45:49.643015+00:00",
         "title": "Ex-ministra Ana Mendes Godinho nomeada para cargo dirigente na OCDE",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-10-28-brasileira-vertical-connect-instala-fabrica-de-drones-em-celorico-da-beira-28d98920": {
         "category": null,
-        "timestamp": "2026-10-28T14:31:09.606006+00:00",
+        "timestamp": "2026-10-28T14:45:49.584101+00:00",
         "title": "Brasileira Vertical Connect instala fábrica de drones em Celorico da Beira",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/semanario/revista-e/-e/2026-10-28-tiktoklandia.-dez-horas-por-dia-no-tiktok-um-busto-de-salazar-na-cave-e-uma-regra-em-casa---nao-se-fala-de-ventura-acd9a89e": {
+        "category": null,
+        "timestamp": "2026-10-28T14:45:50.204644+00:00",
+        "title": "TikToklândia. Dez horas por dia no TikTok, um busto de Salazar na cave e uma regra em casa: não se f...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
