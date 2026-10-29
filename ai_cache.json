@@ -848,7 +848,7 @@
     },
     "https://visao.pt/edicao-impressa/2026-10-28-edicao-1756/?utm_source=rss&utm_medium=rss&utm_campaign=edicao-1756": {
         "category": null,
-        "timestamp": "2026-10-29T16:46:01.918879+00:00",
+        "timestamp": "2026-10-29T17:01:27.413973+00:00",
         "title": "Edição 1756",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -932,7 +932,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-10-29-volkswagen-ve-prejuizo-trimestral-subir-para-58-mil-milhoes-face-a-concorrencia-chinesa-80c05d5b": {
         "category": null,
-        "timestamp": "2026-10-29T16:46:00.395001+00:00",
+        "timestamp": "2026-10-29T17:01:25.674604+00:00",
         "title": "Volkswagen vê prejuízo trimestral subir para €5,8 mil milhões face à concorrência chinesa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -946,21 +946,21 @@
     },
     "https://expresso.pt/expressinho/2026-10-29-o-outono-0d0f7071": {
         "category": null,
-        "timestamp": "2026-10-29T16:46:00.139867+00:00",
+        "timestamp": "2026-10-29T17:01:25.430305+00:00",
         "title": "O outono",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/expressinho/2026-10-29-missao-da-semana-sou-um-cientista-da-nutricao-3578f567": {
         "category": null,
-        "timestamp": "2026-10-29T16:46:00.213921+00:00",
+        "timestamp": "2026-10-29T17:01:25.499236+00:00",
         "title": "Missão da semana: sou um cientista da nutrição!",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-29-carlos-cesar-admite-um-bloco-central-mas-so-numa-condicao-se-o-chega-vencer-as-proximas-eleicoes-d131f910": {
         "category": null,
-        "timestamp": "2026-10-29T16:46:00.077920+00:00",
+        "timestamp": "2026-10-29T17:01:25.335306+00:00",
         "title": "Carlos César admite um \"bloco central\" mas só numa condição: se o Chega vencer as próximas eleições",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -981,7 +981,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-10-29-13-mortos-em-ataque-russo-a-estacao-de-comboios-em-dnipro-11279358": {
         "category": null,
-        "timestamp": "2026-10-29T16:46:00.891980+00:00",
+        "timestamp": "2026-10-29T17:01:25.251785+00:00",
         "title": "13 mortos em ataque russo a estação de comboios em Dnipro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -990,6 +990,27 @@
         "category": null,
         "timestamp": "2026-10-29T16:46:01.643858+00:00",
         "title": "Jhon Durán tem processo disciplinar e pode defrontar o Gil Vicente",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/presidencia-republica/2026-10-29-reunioes-em-belem-todos-prometem-dialogo-so-pcp-avisa-que-consenso-nunca-vai-haver-8828c036": {
+        "category": null,
+        "timestamp": "2026-10-29T17:01:25.581774+00:00",
+        "title": "Reuniões em Belém: todos prometem diálogo, só PCP avisa que \"consenso nunca vai haver\"",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.rtp.pt/noticias/taca-da-liga/taca-da-liga-sporting-de-braga-famalicao_d1775386": {
+        "category": null,
+        "timestamp": "2026-10-29T17:01:26.150590+00:00",
+        "title": "Taça da Liga. Sporting de Braga - Famalicão",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/partidos-politicos/2026-10-29-ventura-tenta-esticar-se-pelos-dois-lados-da-crise-sem-rasgar-acordo-para-o-arrendamento-cadca08c": {
+        "category": null,
+        "timestamp": "2026-10-29T17:01:26.377887+00:00",
+        "title": "Ventura tenta esticar-se pelos dois lados da crise, sem rasgar acordo para o arrendamento",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
