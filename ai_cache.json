@@ -6,13 +6,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://visao.pt/simbalinos-a-sexta/2026-10-23-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-29/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-29": {
-        "category": null,
-        "timestamp": "2026-10-24T12:15:52.199979+00:00",
-        "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/50-anos-25-de-abril/2026-10-23-estudar-a-ditadura-e-uma-responsabilidade-da-democracia--defende-secretario-de-estado-f4ee81e9": {
         "category": null,
         "timestamp": "2026-10-25T05:01:11.521911+00:00",
@@ -876,7 +869,7 @@
     },
     "https://visao.pt/edicao-impressa/2026-10-28-edicao-1756/?utm_source=rss&utm_medium=rss&utm_campaign=edicao-1756": {
         "category": null,
-        "timestamp": "2026-10-29T12:01:22.069178+00:00",
+        "timestamp": "2026-10-29T12:15:55.609997+00:00",
         "title": "Edição 1756",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -918,21 +911,21 @@
     },
     "https://expresso.pt/presidencia-republica/2026-10-28-habitacao-presidente-da-republica-recebeu-especialistas-e-entidades-em-belem-e4cfed2a": {
         "category": null,
-        "timestamp": "2026-10-29T12:01:23.708066+00:00",
+        "timestamp": "2026-10-29T12:15:57.108942+00:00",
         "title": "Habitação: Presidente da República recebeu especialistas e entidades em Belém",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/orcamento-do-estado-2027/2026-10-28-num-oe-com-desfecho-antecipado-psd-agradece-ao-ps-com-ataques-a-falinha-mansa-e-hipocrisia-de-carneiro-7583cabe": {
         "category": null,
-        "timestamp": "2026-10-29T12:01:23.615266+00:00",
+        "timestamp": "2026-10-29T12:15:57.042051+00:00",
         "title": "Num OE com desfecho antecipado, PSD 'agradece' ao PS com ataques à \"falinha mansa\" e \"hipocrisia\" de...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-10-28-video-carolina-deslandes-canta-a-gente-vai-continuar-com-coro-da-multidao-na-acampada-do-rossio-3add9a0c": {
         "category": null,
-        "timestamp": "2026-10-29T12:01:23.526744+00:00",
+        "timestamp": "2026-10-29T12:15:56.970528+00:00",
         "title": "Carolina Deslandes canta ‘A Gente Vai Continuar’ com coro da multidão na ‘acampada’ do Rossio",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -946,22 +939,29 @@
     },
     "https://expresso.pt/expressinho/2026-10-29-que-sementes-portuguesas-viajaram-ate-ao-artico--10978c98": {
         "category": null,
-        "timestamp": "2026-10-29T12:01:23.348997+00:00",
+        "timestamp": "2026-10-29T12:15:56.838308+00:00",
         "title": "Que sementes portuguesas viajaram até ao Ártico?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-28-carneiro-acusa-ad-de-desconsiderar-o-ps-apos-viabilizacao-do-orcamento-c62dda3e": {
         "category": null,
-        "timestamp": "2026-10-29T12:01:23.430950+00:00",
+        "timestamp": "2026-10-29T12:15:56.905761+00:00",
         "title": "Carneiro acusa AD de \"desconsiderar\" o PS após viabilização do Orçamento",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-10-29-volkswagen-ve-prejuizo-trimestral-subir-para-58-mil-milhoes-face-a-concorrencia-chinesa-80c05d5b": {
         "category": null,
-        "timestamp": "2026-10-29T12:01:21.356429+00:00",
+        "timestamp": "2026-10-29T12:15:55.918793+00:00",
         "title": "Volkswagen vê prejuízo trimestral subir para €5,8 mil milhões face à concorrência chinesa",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/presidencia-republica/2026-10-29-be-critica-seguro-em-cima-do-muro-cds-desafia-oposicao-a-aprovar-lei-das-rendas-8828c036": {
+        "category": null,
+        "timestamp": "2026-10-29T12:15:55.846449+00:00",
+        "title": "BE critica Seguro \"em cima do muro\", CDS desafia oposição a aprovar lei das rendas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
