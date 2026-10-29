@@ -862,7 +862,7 @@
     },
     "https://visao.pt/edicao-impressa/2026-10-28-edicao-1756/?utm_source=rss&utm_medium=rss&utm_campaign=edicao-1756": {
         "category": null,
-        "timestamp": "2026-10-29T14:01:30.928128+00:00",
+        "timestamp": "2026-10-29T14:15:58.242144+00:00",
         "title": "Edição 1756",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -946,36 +946,43 @@
     },
     "https://expresso.pt/empresas-negocios/2026-10-29-volkswagen-ve-prejuizo-trimestral-subir-para-58-mil-milhoes-face-a-concorrencia-chinesa-80c05d5b": {
         "category": null,
-        "timestamp": "2026-10-29T14:01:29.459138+00:00",
+        "timestamp": "2026-10-29T14:15:57.083091+00:00",
         "title": "Volkswagen vê prejuízo trimestral subir para €5,8 mil milhões face à concorrência chinesa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/presidencia-republica/2026-10-29-be-critica-seguro-em-cima-do-muro-cds-desafia-oposicao-a-aprovar-lei-das-rendas-8828c036": {
         "category": null,
-        "timestamp": "2026-10-29T14:01:29.427098+00:00",
+        "timestamp": "2026-10-29T14:15:57.032260+00:00",
         "title": "BE critica Seguro \"em cima do muro\", CDS desafia oposição a aprovar lei das rendas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/expressinho/2026-10-29-o-outono-0d0f7071": {
         "category": null,
-        "timestamp": "2026-10-29T14:01:29.368013+00:00",
+        "timestamp": "2026-10-29T14:15:56.929279+00:00",
         "title": "O outono",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/expressinho/2026-10-29-missao-da-semana-sou-um-cientista-da-nutricao-3578f567": {
         "category": null,
-        "timestamp": "2026-10-29T14:01:29.398710+00:00",
+        "timestamp": "2026-10-29T14:15:56.975105+00:00",
         "title": "Missão da semana: sou um cientista da nutrição!",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-29-carlos-cesar-admite-um-bloco-central-mas-so-numa-condicao-se-o-chega-vencer-as-proximas-eleicoes-d131f910": {
         "category": null,
-        "timestamp": "2026-10-29T14:01:29.342770+00:00",
+        "timestamp": "2026-10-29T14:15:56.853647+00:00",
         "title": "Carlos César admite um \"bloco central\" mas só numa condição: se o Chega vencer as próximas eleições",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/presidencia-republica/2026-10-29-reunioes-em-belem-carneiro-disponivel-para-solucao-estavel-na-habitacao-be-critica-seguro-em-cima-do-muro-8828c036": {
+        "category": null,
+        "timestamp": "2026-10-29T14:15:58.444705+00:00",
+        "title": "Reuniões em Belém: Carneiro disponível para \"solução estável\" na habitação, BE critica Seguro \"em ci...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
