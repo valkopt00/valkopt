@@ -1107,7 +1107,7 @@
     },
     "https://expresso.pt/expressinho/2026-10-30-da-banda-desenhada-ao-cinema-ja-ouviste-falar-em-stop-motion--d1272e53": {
         "category": null,
-        "timestamp": "2026-10-30T17:01:22.178573+00:00",
+        "timestamp": "2026-10-30T17:16:04.071272+00:00",
         "title": "Da banda desenhada ao cinema: já ouviste falar em stop motion?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1121,7 +1121,7 @@
     },
     "https://expresso.pt/automoveis/2026-10-30-carros-eletricos-bmw-ultrapassa-a-barreira-dos-900-quilometros-de-autonomia-com-o-novo-i3-e05e0873": {
         "category": null,
-        "timestamp": "2026-10-30T17:01:22.242736+00:00",
+        "timestamp": "2026-10-30T17:16:04.134300+00:00",
         "title": "Carros elétricos: BMW ultrapassa a barreira dos 900 quilómetros de autonomia com o novo i3",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1135,14 +1135,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-30-bloco-central-divide-ps-pedro-nuno-santos-e-capoulas-santos-dizem-que-nem-pensar-1114ae31": {
         "category": null,
-        "timestamp": "2026-10-30T17:01:21.804575+00:00",
+        "timestamp": "2026-10-30T17:16:00.461983+00:00",
         "title": "\"Bloco central\" divide PS: Pedro Nuno Santos e Capoulas Santos dizem que nem pensar",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-30-ventura-recandidata-se-a-presidente-do-chega-com-foco-na-grande-batalha-da-cpi-a-neves-0601902c": {
         "category": null,
-        "timestamp": "2026-10-30T17:01:23.764783+00:00",
+        "timestamp": "2026-10-30T17:16:00.404559+00:00",
         "title": "Ventura recandidata-se a presidente do Chega com foco na “grande batalha” da CPI a Neves",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1156,15 +1156,22 @@
     },
     "https://expresso.pt/presidencia-republica/2026-10-30-seguro-alerta-para-perigo-de-sociedade-de-uns-contra-os-outros-e-pressiona-governo-sobre-tempestades-4eb282d4": {
         "category": null,
-        "timestamp": "2026-10-30T17:01:23.696756+00:00",
+        "timestamp": "2026-10-30T17:16:00.346375+00:00",
         "title": "Seguro alerta para perigo de sociedade de \"uns contra os outros\" e pressiona Governo sobre tempestad...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/judo/judoca-tais-pina-conquista-o-ouro-no-grand-slam-abu-dhabi_d1775686": {
         "category": null,
-        "timestamp": "2026-10-30T17:01:27.335938+00:00",
+        "timestamp": "2026-10-30T17:16:01.017281+00:00",
         "title": "Judoca Taís Pina conquista o ouro no Grand Slam Abu Dhabi",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/jose-luis-carneiro-afasta-bloco-central-e-defende-alternativa-clara-entre-ps-e-psd": {
+        "category": null,
+        "timestamp": "2026-10-30T17:16:01.488289+00:00",
+        "title": "José Luís Carneiro afasta bloco central e defende \"alternativa clara\" entre PS e PSD",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
