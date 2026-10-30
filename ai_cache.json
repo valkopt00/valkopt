@@ -41,13 +41,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/realizador-palestiniano-considera-que-situacao-na-cisjordania-nao-mudara-porque-a-sociedade-israelita-e-racista": {
-        "category": null,
-        "timestamp": "2026-10-25T12:31:05.379392+00:00",
-        "title": "Realizador palestiniano considera que situação na Cisjordânia não mudará porque a sociedade israelit...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/partidos-politicos/2026-10-25-habitacao-livre-espera-posicao-firme-de-seguro-e-vai-pedir-explicacoes-ao-governo-506c60c9": {
         "category": null,
         "timestamp": "2026-10-26T07:31:00.978171+00:00",
@@ -939,35 +932,35 @@
     },
     "https://expresso.pt/semanario/economia": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:55.435620+00:00",
+        "timestamp": "2026-10-30T12:31:09.480172+00:00",
         "title": "A 1ª página do Expresso Economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:55.506807+00:00",
+        "timestamp": "2026-10-30T12:31:09.547828+00:00",
         "title": "\"Nunca sonhei ser ministro das Finanças\": Joaquim Miranda Sarmento, na revista E, na revista E",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/ideias": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:55.592491+00:00",
+        "timestamp": "2026-10-30T12:31:09.660684+00:00",
         "title": "IDEIAS: Como André Janonoes criou um \"Exército\" que levou Lula à vitória",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:55.664394+00:00",
+        "timestamp": "2026-10-30T12:31:09.722349+00:00",
         "title": "A primeira página do Expresso",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-29-candidaturas.-premio-pessoa-aberto-ate-19-de-novembro-91ead9fa": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:55.751248+00:00",
+        "timestamp": "2026-10-30T12:31:09.775282+00:00",
         "title": "Candidaturas. Prémio Pessoa aberto até 19 de novembro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1037,42 +1030,42 @@
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-10-29-neonazis-reunem-se-no-norte-do-pais-ecee12fb": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:56.060658+00:00",
+        "timestamp": "2026-10-30T12:31:10.082497+00:00",
         "title": "Neonazis reúnem-se no norte do país",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/ranking-das-escolas/2025/2026-10-30-mapa-das-medias-nos-exames-em-que-concelhos-estao-os-melhores-e-os-piores-resultados--6bc6cfc1": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:54.959344+00:00",
+        "timestamp": "2026-10-30T12:31:09.032123+00:00",
         "title": "Mapa das médias nos exames: em que concelhos estão os melhores e os piores resultados?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://multimedia.expresso.pt/rankingescolas2025/": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:55.046770+00:00",
+        "timestamp": "2026-10-30T12:31:09.107123+00:00",
         "title": "Quer saber como é que a sua escola se saiu nos exames? Descubra aqui em quatro cliques",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/ranking-das-escolas/2025/2026-10-30-o-ranking-feito-pelas-escolas-que-abrem-portas-as-que-competem-no-campeonato-das-notas-af0dc1f1": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:55.120717+00:00",
+        "timestamp": "2026-10-30T12:31:09.170226+00:00",
         "title": "O ranking feito pelas escolas que “abrem portas” às que competem no campeonato das notas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/ranking-das-escolas/2025/2026-10-30-quando-a-escola-faz-a-diferenca-aqui-ninguem-deixa-os-alunos-afogarem-se-36244239": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:55.206459+00:00",
+        "timestamp": "2026-10-30T12:31:09.239570+00:00",
         "title": "Quando a escola faz a diferença: “Aqui ninguém deixa os alunos afogarem-se\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/ranking-das-escolas/2025/2026-10-30-na-escola-basica-e-secundaria-de-anadia-o-esforco-coletivo-da-lugar-a-bons-resultados-cfb3131a": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:55.276950+00:00",
+        "timestamp": "2026-10-30T12:31:09.309778+00:00",
         "title": "Na Escola Básica e Secundária de Anadia, o esforço coletivo dá lugar a “bons resultados”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1100,7 +1093,7 @@
     },
     "https://expresso.pt/ranking-das-escolas/2025/2026-10-30-a-importancia-dos-professores-nos-quadros-e-dos-estudos-dos-pais-nas-notas-dos-alunos-732d80a7": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:55.348380+00:00",
+        "timestamp": "2026-10-30T12:31:09.379606+00:00",
         "title": "A importância dos professores nos quadros e dos estudos dos pais nas notas dos alunos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1128,28 +1121,28 @@
     },
     "https://expresso.pt/expressinho/2026-10-30-da-banda-desenhada-ao-cinema-ja-ouviste-falar-em-stop-motion--d1272e53": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:54.712488+00:00",
+        "timestamp": "2026-10-30T12:31:08.605314+00:00",
         "title": "Da banda desenhada ao cinema: já ouviste falar em stop motion?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/lusa/2026-10-30-luis-neves-assume-responsabilidade-politica-nas-intervencoes-policiais-001fc90e": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:54.638282+00:00",
+        "timestamp": "2026-10-30T12:31:08.535844+00:00",
         "title": "Luís Neves assume responsabilidade política nas intervenções policiais",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/automoveis/2026-10-30-carros-eletricos-bmw-ultrapassa-a-barreira-dos-900-quilometros-de-autonomia-com-o-novo-i3-e05e0873": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:54.789170+00:00",
+        "timestamp": "2026-10-30T12:31:08.965581+00:00",
         "title": "Carros elétricos: BMW ultrapassa a barreira dos 900 quilómetros de autonomia com o novo i3",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/trump-nao-esta-sozinho-no-boletim-de-voto_1775599": {
         "category": null,
-        "timestamp": "2026-10-30T12:15:54.061088+00:00",
+        "timestamp": "2026-10-30T12:31:08.096077+00:00",
         "title": "Trump não está sozinho no boletim de voto",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
