@@ -69,13 +69,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/taca-da-liga/taca-da-liga-20a-edicao-arranca-pela-primeira-vez-sem-o-campeao-em-titulo_d1774196": {
-        "category": null,
-        "timestamp": "2026-10-25T19:01:17.258259+00:00",
-        "title": "Taça da Liga: 20.ª edição arranca pela primeira vez sem o campeão em título",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/lusa/2026-10-25-habitacao-psd-defende-atuacao-da-policia-e-acusa-ps-de-irresponsabilidade-e-hipocrisia-eb38433d": {
         "category": null,
         "timestamp": "2026-10-26T09:15:53.837458+00:00",
@@ -1100,7 +1093,7 @@
     },
     "https://expresso.pt/expressinho/2026-10-30-da-banda-desenhada-ao-cinema-ja-ouviste-falar-em-stop-motion--d1272e53": {
         "category": null,
-        "timestamp": "2026-10-30T19:01:17.716944+00:00",
+        "timestamp": "2026-10-30T19:16:04.203078+00:00",
         "title": "Da banda desenhada ao cinema: já ouviste falar em stop motion?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1114,7 +1107,7 @@
     },
     "https://expresso.pt/automoveis/2026-10-30-carros-eletricos-bmw-ultrapassa-a-barreira-dos-900-quilometros-de-autonomia-com-o-novo-i3-e05e0873": {
         "category": null,
-        "timestamp": "2026-10-30T19:01:17.875605+00:00",
+        "timestamp": "2026-10-30T19:16:04.231534+00:00",
         "title": "Carros elétricos: BMW ultrapassa a barreira dos 900 quilómetros de autonomia com o novo i3",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1128,14 +1121,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-30-bloco-central-divide-ps-pedro-nuno-santos-e-capoulas-santos-dizem-que-nem-pensar-1114ae31": {
         "category": null,
-        "timestamp": "2026-10-30T19:01:16.454452+00:00",
+        "timestamp": "2026-10-30T19:16:03.810294+00:00",
         "title": "\"Bloco central\" divide PS: Pedro Nuno Santos e Capoulas Santos dizem que nem pensar",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-30-ventura-recandidata-se-a-presidente-do-chega-com-foco-na-grande-batalha-da-cpi-a-neves-0601902c": {
         "category": null,
-        "timestamp": "2026-10-30T19:01:16.145563+00:00",
+        "timestamp": "2026-10-30T19:16:03.783127+00:00",
         "title": "Ventura recandidata-se a presidente do Chega com foco na “grande batalha” da CPI a Neves",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1149,14 +1142,14 @@
     },
     "https://expresso.pt/presidencia-republica/2026-10-30-seguro-alerta-para-perigo-de-sociedade-de-uns-contra-os-outros-e-pressiona-governo-sobre-tempestades-4eb282d4": {
         "category": null,
-        "timestamp": "2026-10-30T19:01:16.092247+00:00",
+        "timestamp": "2026-10-30T19:16:03.750041+00:00",
         "title": "Seguro alerta para perigo de sociedade de \"uns contra os outros\" e pressiona Governo sobre tempestad...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/judo/judoca-tais-pina-conquista-o-ouro-no-grand-slam-abu-dhabi_d1775686": {
         "category": null,
-        "timestamp": "2026-10-30T18:31:14.942203+00:00",
+        "timestamp": "2026-10-30T19:16:04.079176+00:00",
         "title": "Judoca Taís Pina conquista o ouro no Grand Slam Abu Dhabi",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1170,7 +1163,7 @@
     },
     "https://expresso.pt/media-comunicacao/2026-10-30-diana-ramos-assume-direcao-de-informacao-da-lusa-apos-saida-de-luisa-meireles-6661a8bd": {
         "category": null,
-        "timestamp": "2026-10-30T19:01:17.625279+00:00",
+        "timestamp": "2026-10-30T19:16:04.766670+00:00",
         "title": "Diana Ramos assume direção de Informação da Lusa após saída de Luísa Meireles",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
