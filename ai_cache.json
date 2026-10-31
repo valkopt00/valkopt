@@ -27,20 +27,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/ben-gvir-visita-esplanada-das-mesquitas-na-vespera-das-legislativas-em-israel": {
-        "category": null,
-        "timestamp": "2026-10-26T21:15:48.545613+00:00",
-        "title": "Ben Gvir visita Esplanada das Mesquitas na véspera das legislativas em Israel",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/netanyahu-suspende-reuniao-do-likud-por-motivos-de-seguranca-na-vespera-das-eleicoes-em-israel": {
-        "category": null,
-        "timestamp": "2026-10-26T21:15:48.607719+00:00",
-        "title": "Netanyahu suspende reuniÃ£o do Likud por “motivos de seguranÃ§a” na vÃ©spera das eleiÃ§Ãµes em Israe...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/poder-local/2026-10-26-moedas-afasta-responsabilidades-por-carga-policial-no-rossio-mas-lembra-que-nao-pode-haver-ocupacao-de-espaco-publico-todos-os-dias-915994d7": {
         "category": null,
         "timestamp": "2026-10-27T15:15:57.007216+00:00",
@@ -939,14 +925,14 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-10-30-ucrania-pede-reuniao-de-emergencia-com-o-conselho-de-seguranca-da-onu-apos-novos-ataques-russos-104a6a51": {
         "category": null,
-        "timestamp": "2026-10-31T21:01:19.170556+00:00",
+        "timestamp": "2026-10-31T21:15:56.518865+00:00",
         "title": "Ucrânia pede reunião de emergência com o Conselho de Segurança da ONU após novos ataques russos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/presidencia-republica/2026-10-30-presidente-promulga-alteracoes-ao-iva--mas-lembra-exigencia-europeia-que-governo-se-comprometeu-a-cumprir-c497b381": {
         "category": null,
-        "timestamp": "2026-10-31T21:01:19.102003+00:00",
+        "timestamp": "2026-10-31T21:15:56.491989+00:00",
         "title": "Presidente promulga alterações ao IVA , mas lembra exigência europeia que governo se comprometeu a c...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -967,7 +953,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-31-ventura-vai-este-sabado-a-votos-como-candidato-unico-a-presidencia-do-chega-8c87192c": {
         "category": null,
-        "timestamp": "2026-10-31T21:01:18.498434+00:00",
+        "timestamp": "2026-10-31T21:15:55.618236+00:00",
         "title": "Ventura vai este sábado a votos como candidato único à presidência do Chega",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -995,7 +981,7 @@
     },
     "https://visao.pt/pensamento-palavra-acao/2026-10-31-opiniao-os-livros-a-ia-as-manifestacoes-e-o-mal/?utm_source=rss&utm_medium=rss&utm_campaign=opiniao-os-livros-a-ia-as-manifestacoes-e-o-mal": {
         "category": null,
-        "timestamp": "2026-10-31T21:01:19.861094+00:00",
+        "timestamp": "2026-10-31T21:15:56.714494+00:00",
         "title": "Opinião | Os livros, a IA, as manifestações e o Mal",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1023,21 +1009,21 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-10-31-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-30/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-30": {
         "category": null,
-        "timestamp": "2026-10-31T21:01:19.802281+00:00",
+        "timestamp": "2026-10-31T21:15:56.683658+00:00",
         "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-31-ventura-pede-ao-chega-que-mostre-maturidade-perante-ameacas-de-bloco-central-22224efa": {
         "category": null,
-        "timestamp": "2026-10-31T21:01:18.374704+00:00",
+        "timestamp": "2026-10-31T21:15:55.553071+00:00",
         "title": "Ventura pede ao Chega que mostre maturidade perante \"ameaças de bloco central\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/italia/2026-10-31-tendas-continuam-em-frente-ao-coliseu-de-roma-e-protestos-continuam-f004a780": {
         "category": null,
-        "timestamp": "2026-10-31T21:01:18.434605+00:00",
+        "timestamp": "2026-10-31T21:15:55.583627+00:00",
         "title": "Tendas continuam em frente ao Coliseu de Roma e protestos continuam",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
