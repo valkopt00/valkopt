@@ -1,18 +1,4 @@
 {
-    "https://expresso.pt/poder-local/2026-10-26-moedas-afasta-responsabilidades-por-carga-policial-no-rossio-mas-lembra-que-nao-pode-haver-ocupacao-de-espaco-publico-todos-os-dias-915994d7": {
-        "category": null,
-        "timestamp": "2026-10-27T15:15:57.007216+00:00",
-        "title": "Moedas afasta responsabilidades por carga policial no Rossio, mas lembra que não pode haver \"ocupaçã...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/guerra-ucrania/2026-10-26-kremlin-recusa-que-onu-se-sente-a-mesa-das-negociacoes-de-paz-com-a-ucrania-2b068404": {
-        "category": null,
-        "timestamp": "2026-10-27T15:15:56.944439+00:00",
-        "title": "Kremlin recusa que ONU se sente à mesa das negociações de paz com a Ucrânia",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/financas-pessoais-poupanca/2026-10-27-certificados-de-aforro-terao-em-novembro-o-retorno-maximo-pelo-terceiro-mes-seguido-e-assim-deverao-continuar-em-2027-4dee93a0": {
         "category": null,
         "timestamp": "2026-10-27T18:01:22.742659+00:00",
@@ -45,13 +31,6 @@
         "category": null,
         "timestamp": "2026-10-27T22:01:21.971768+00:00",
         "title": "“Mostra a cara”: coro canta junto à casa de Seguro nas Caldas da Rainha em protesto pela habitação",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/presidencia-republica/2026-10-27-nao-fiquei-quieto-e-nao-gostei-do-que-vi-seguro-pede-ao-governo-dialogo-em-vez-de-violencia-ce6cb93d": {
-        "category": null,
-        "timestamp": "2026-10-27T15:15:55.088210+00:00",
-        "title": "\"Não fiquei quieto\" e \"não gostei do que vi\": Seguro pede ao Governo diálogo em vez de violência",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -890,7 +869,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-31-ventura-pede-ao-chega-que-mostre-maturidade-perante-ameacas-de-bloco-central-22224efa": {
         "category": null,
-        "timestamp": "2026-11-01T15:15:53.899038+00:00",
+        "timestamp": "2026-11-01T15:31:04.942574+00:00",
         "title": "Ventura pede ao Chega que mostre maturidade perante \"ameaças de bloco central\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -946,7 +925,7 @@
     },
     "https://expresso.pt/curtas/2026-11-01-video-policia-avancou-contra-manifestantes-em-operacao-simultanea-em-porto-e-lisboa-veja-as-imagens-2a35cf7a": {
         "category": null,
-        "timestamp": "2026-11-01T15:15:53.840868+00:00",
+        "timestamp": "2026-11-01T15:31:04.876025+00:00",
         "title": "Polícia avançou contra manifestantes em operação simultânea em Porto e Lisboa: veja as imagens",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -967,15 +946,22 @@
     },
     "https://expresso.pt/curtas/2026-11-01-video-psp-confirma-agente-com-arma-a-paisana-diz-que-era-um-meio-de-dissuasao-0619318d": {
         "category": null,
-        "timestamp": "2026-11-01T15:15:53.784202+00:00",
+        "timestamp": "2026-11-01T15:31:04.817301+00:00",
         "title": "PSP confirma agente com arma à paisana: diz que era um “meio de dissuasão”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/ranking-das-escolas/2025/2026-11-01-das-publicas-as-privadas-veja-o-mapa-interativo-de-todas-as-escolas-secundarias-em-lisboa-e-no-porto-9e9c90d4": {
         "category": null,
-        "timestamp": "2026-11-01T15:15:52.562866+00:00",
+        "timestamp": "2026-11-01T15:31:04.400953+00:00",
         "title": "Das públicas às privadas, veja o mapa interativo de todas as escolas secundárias em Lisboa e no Port...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/prosseguem-negociacoes-sobre-plano-de-dois-dias-para-reabrir-o-estreito-de-ormuz": {
+        "category": null,
+        "timestamp": "2026-11-01T15:31:04.318145+00:00",
+        "title": "Prosseguem negociações sobre plano de dois dias para reabrir o estreito de Ormuz",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
