@@ -946,7 +946,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-31-ventura-vai-este-sabado-a-votos-como-candidato-unico-a-presidencia-do-chega-8c87192c": {
         "category": null,
-        "timestamp": "2026-11-01T01:15:55.699114+00:00",
+        "timestamp": "2026-11-01T01:31:07.300913+00:00",
         "title": "Ventura vai este sábado a votos como candidato único à presidência do Chega",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -974,7 +974,7 @@
     },
     "https://visao.pt/pensamento-palavra-acao/2026-10-31-opiniao-os-livros-a-ia-as-manifestacoes-e-o-mal/?utm_source=rss&utm_medium=rss&utm_campaign=opiniao-os-livros-a-ia-as-manifestacoes-e-o-mal": {
         "category": null,
-        "timestamp": "2026-11-01T01:15:56.263530+00:00",
+        "timestamp": "2026-11-01T01:31:07.877825+00:00",
         "title": "Opinião | Os livros, a IA, as manifestações e o Mal",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1002,7 +1002,7 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-10-31-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-30/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-30": {
         "category": null,
-        "timestamp": "2026-11-01T01:15:56.222286+00:00",
+        "timestamp": "2026-11-01T01:31:07.838588+00:00",
         "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1024,6 +1024,13 @@
     "https://www.rtp.pt/noticias/lusa/socios-do-benfica-aprovam-contas-de-202526-com-7368-dos-votos_d1775923": {
         "category": null,
         "timestamp": "2026-11-01T01:15:56.094468+00:00",
+        "title": "Sócios do Benfica aprovam contas de 2025/26 com 73,68% dos votos",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.rtp.pt/noticias/benfica/socios-do-benfica-aprovam-contas-de-202526-com-7368-dos-votos_d1775923": {
+        "category": null,
+        "timestamp": "2026-11-01T01:31:07.212142+00:00",
         "title": "Sócios do Benfica aprovam contas de 2025/26 com 73,68% dos votos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
