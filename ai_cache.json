@@ -48,13 +48,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/netanyahu-apela-ao-voto-e-denuncia-tentativas-de-irregularidades": {
-        "category": null,
-        "timestamp": "2026-10-27T13:01:13.708871+00:00",
-        "title": "Netanyahu apela ao voto e denuncia tentativas de irregularidades",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/presidencia-republica/2026-10-27-nao-fiquei-quieto-e-nao-gostei-do-que-vi-seguro-pede-ao-governo-dialogo-em-vez-de-violencia-ce6cb93d": {
         "category": null,
         "timestamp": "2026-10-27T15:15:55.088210+00:00",
@@ -855,7 +848,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-31-ventura-vai-este-sabado-a-votos-como-candidato-unico-a-presidencia-do-chega-8c87192c": {
         "category": null,
-        "timestamp": "2026-11-01T12:45:56.166618+00:00",
+        "timestamp": "2026-11-01T13:01:18.314859+00:00",
         "title": "Ventura vai este sábado a votos como candidato único à presidência do Chega",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -911,21 +904,21 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-10-31-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-30/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-30": {
         "category": null,
-        "timestamp": "2026-11-01T12:45:57.168820+00:00",
+        "timestamp": "2026-11-01T13:01:19.180216+00:00",
         "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-31-ventura-pede-ao-chega-que-mostre-maturidade-perante-ameacas-de-bloco-central-22224efa": {
         "category": null,
-        "timestamp": "2026-11-01T12:45:56.078804+00:00",
+        "timestamp": "2026-11-01T13:01:18.224683+00:00",
         "title": "Ventura pede ao Chega que mostre maturidade perante \"ameaças de bloco central\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/italia/2026-10-31-tendas-continuam-em-frente-ao-coliseu-de-roma-e-protestos-continuam-f004a780": {
         "category": null,
-        "timestamp": "2026-11-01T12:45:56.121888+00:00",
+        "timestamp": "2026-11-01T13:01:18.262817+00:00",
         "title": "Tendas continuam em frente ao Coliseu de Roma e protestos continuam",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -974,29 +967,36 @@
     },
     "https://expresso.pt/curtas/2026-11-01-video-policia-avancou-contra-manifestantes-em-operacao-simultanea-em-porto-e-lisboa-veja-as-imagens-2a35cf7a": {
         "category": null,
-        "timestamp": "2026-11-01T12:45:56.033653+00:00",
+        "timestamp": "2026-11-01T13:01:18.182943+00:00",
         "title": "Polícia avançou contra manifestantes em operação simultânea em Porto e Lisboa: veja as imagens",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/teerao-diz-que-nova-guerra-com-os-eua-pode-ser-mais-longa-do-que-a-anterior": {
         "category": null,
-        "timestamp": "2026-11-01T12:45:57.055154+00:00",
+        "timestamp": "2026-11-01T13:01:19.009898+00:00",
         "title": "Teerão diz que nova guerra com os EUA pode ser \"mais longa do que a anterior\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/emirados-esperam-um-avanco-diplomatico-mas-preparam-se-para-o-pior": {
         "category": null,
-        "timestamp": "2026-11-01T12:45:57.095775+00:00",
+        "timestamp": "2026-11-01T13:01:19.052412+00:00",
         "title": "Emirados esperam um avanço diplomático mas preparam-se para \"o pior\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-11-01-video-psp-confirma-agente-com-arma-a-paisana-diz-que-era-um-meio-de-dissuasao-0619318d": {
         "category": null,
-        "timestamp": "2026-11-01T12:45:59.561594+00:00",
+        "timestamp": "2026-11-01T13:01:22.027051+00:00",
         "title": "PSP confirma agente com arma à paisana: diz que era um “meio de dissuasão”",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/ranking-das-escolas/2025/2026-11-01-das-publicas-as-privadas-veja-o-mapa-interativo-de-todas-as-escolas-secundarias-em-lisboa-e-no-porto-9e9c90d4": {
+        "category": null,
+        "timestamp": "2026-11-01T13:01:19.392748+00:00",
+        "title": "Das públicas às privadas, veja o mapa interativo de todas as escolas secundárias em Lisboa e no Port...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
