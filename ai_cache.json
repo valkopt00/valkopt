@@ -1,18 +1,4 @@
 {
-    "https://expresso.pt/curtas/2026-10-27-video-mostra-a-cara-coro-canta-junto-a-casa-de-seguro-nas-caldas-da-rainha-em-protesto-pela-habitacao-f245a50a": {
-        "category": null,
-        "timestamp": "2026-10-27T22:01:21.971768+00:00",
-        "title": "“Mostra a cara”: coro canta junto à casa de Seguro nas Caldas da Rainha em protesto pela habitação",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/presidencia-republica/2026-10-27-nao-gostei-do-que-vi-e-nao-fiquei-quieto-seguro-pede-ao-governo-dialogo-em-vez-de-violencia-ce6cb93d": {
-        "category": null,
-        "timestamp": "2026-10-27T22:01:21.909328+00:00",
-        "title": "\"Não gostei do que vi\" e \"não fiquei quieto\": Seguro pede ao Governo diálogo em vez de violência",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/financas-pessoais-poupanca/2026-10-27-apenas-28-dos-portugueses-tem-produtos-de-poupanca-para-a-reforma-e-maioria-diz-nao-ter-forma-de-poupar-787cf84f": {
         "category": null,
         "timestamp": "2026-10-28T07:45:56.316368+00:00",
@@ -778,7 +764,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-31-ventura-pede-ao-chega-que-mostre-maturidade-perante-ameacas-de-bloco-central-22224efa": {
         "category": null,
-        "timestamp": "2026-11-01T22:01:18.888719+00:00",
+        "timestamp": "2026-11-01T22:15:54.167618+00:00",
         "title": "Ventura pede ao Chega que mostre maturidade perante \"ameaças de bloco central\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -834,7 +820,7 @@
     },
     "https://expresso.pt/curtas/2026-11-01-video-policia-avancou-contra-manifestantes-em-operacao-simultanea-em-porto-e-lisboa-veja-as-imagens-2a35cf7a": {
         "category": null,
-        "timestamp": "2026-11-01T22:01:18.849450+00:00",
+        "timestamp": "2026-11-01T22:15:54.098247+00:00",
         "title": "Polícia avançou contra manifestantes em operação simultânea em Porto e Lisboa: veja as imagens",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -855,14 +841,14 @@
     },
     "https://expresso.pt/curtas/2026-11-01-video-psp-confirma-agente-com-arma-a-paisana-diz-que-era-um-meio-de-dissuasao-0619318d": {
         "category": null,
-        "timestamp": "2026-11-01T22:01:18.823818+00:00",
+        "timestamp": "2026-11-01T22:15:54.042551+00:00",
         "title": "PSP confirma agente com arma à paisana: diz que era um “meio de dissuasão”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/ranking-das-escolas/2025/2026-11-01-das-publicas-as-privadas-veja-o-mapa-interativo-de-todas-as-escolas-secundarias-em-lisboa-e-no-porto-9e9c90d4": {
         "category": null,
-        "timestamp": "2026-11-01T22:01:17.879020+00:00",
+        "timestamp": "2026-11-01T22:15:53.638525+00:00",
         "title": "Das públicas às privadas, veja o mapa interativo de todas as escolas secundárias em Lisboa e no Port...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -918,36 +904,43 @@
     },
     "https://expresso.pt/poder-local/2026-11-01-vereador-de-cultura-do-porto-descreve-uma-madrugada-desproporcionada-e-injusta-4f2465eb": {
         "category": null,
-        "timestamp": "2026-11-01T22:01:17.322926+00:00",
+        "timestamp": "2026-11-01T22:15:52.764637+00:00",
         "title": "Vereador de Cultura do Porto descreve uma madrugada \"desproporcionada e injusta\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://visao.pt/entrevista-sem-agenda/2026-11-01-se-perguntarmos-a-estes-politicos-extremistas-se-acreditam-na-sua-morte-eles-vao-dizer-que-nao-que-se-consideram-imortais/?utm_source=rss&utm_medium=rss&utm_campaign=se-perguntarmos-a-estes-politicos-extremistas-se-acreditam-na-sua-morte-eles-vao-dizer-que-nao-que-se-consideram-imortais": {
         "category": null,
-        "timestamp": "2026-11-01T22:01:18.657176+00:00",
+        "timestamp": "2026-11-01T22:15:53.756488+00:00",
         "title": "“Se perguntarmos a estes políticos extremistas se acreditam na sua morte, eles vão dizer que não, qu...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-11-01-pedro-duarte-convida-manifestantes-para-se-reunirem-e-debaterem-a-possibilidade-de-acampamentos-ocasionais-d3394854": {
         "category": null,
-        "timestamp": "2026-11-01T22:01:17.294939+00:00",
+        "timestamp": "2026-11-01T22:15:52.674754+00:00",
         "title": "Pedro Duarte convida manifestantes para se reunirem e debaterem a \"possibilidade de acampamentos oca...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-11-01-video-venham-mais-cinco-orquestra-da-acampada-interpreta-zeca-afonso-em-mais-uma-noite-com-o-rossio-repleto-eb63bab0": {
         "category": null,
-        "timestamp": "2026-11-01T22:01:17.260220+00:00",
+        "timestamp": "2026-11-01T22:15:52.620502+00:00",
         "title": "“Venham Mais Cinco”: Orquestra da Acampada interpreta Zeca Afonso em mais uma noite com o Rossio rep...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-01-ucrania-russia-recusa-prolongar-cessar-fogo-que-termina-esta-noite-33366009": {
         "category": null,
-        "timestamp": "2026-11-01T22:01:17.533519+00:00",
+        "timestamp": "2026-11-01T22:15:53.885303+00:00",
         "title": "Ucrânia: Rússia recusa prolongar cessar-fogo que termina esta noite",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/curtas/2026-11-01-video-porto-avenida-dos-aliados-canta-grandola-em-unissono.-protesto-mudou-se-para-a-frente-da-camara-municipal-2468e7e9": {
+        "category": null,
+        "timestamp": "2026-11-01T22:15:53.822601+00:00",
+        "title": "Porto: Avenida dos Aliados canta \"Grândola\" em uníssono. Protesto mudou-se para a frente da Câmara M...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
