@@ -41,20 +41,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/ministro-da-seguranca-nacional-de-israel-apela-ao-voto-no-atual-governo": {
-        "category": null,
-        "timestamp": "2026-10-27T10:45:52.028183+00:00",
-        "title": "Ministro da Segurança Nacional de Israel apela ao voto no atual governo",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/presidente-israelita-isaac-herzog-votou-em-jerusalem": {
-        "category": null,
-        "timestamp": "2026-10-27T10:45:52.088851+00:00",
-        "title": "Presidente israelita Isaac Herzog votou em Jerusalém",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/empresas-negocios/2026-10-27-lucro-da-porsche-dispara-para-1.815-milhoes-de-euros-nos-primeiros-nove-meses-do-ano-6e9aefd6": {
         "category": null,
         "timestamp": "2026-10-27T19:31:02.975604+00:00",
@@ -897,7 +883,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-10-31-ventura-vai-este-sabado-a-votos-como-candidato-unico-a-presidencia-do-chega-8c87192c": {
         "category": null,
-        "timestamp": "2026-11-01T10:31:09.105833+00:00",
+        "timestamp": "2026-11-01T10:45:55.772281+00:00",
         "title": "Ventura vai este sábado a votos como candidato único à presidência do Chega",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -925,7 +911,7 @@
     },
     "https://visao.pt/pensamento-palavra-acao/2026-10-31-opiniao-os-livros-a-ia-as-manifestacoes-e-o-mal/?utm_source=rss&utm_medium=rss&utm_campaign=opiniao-os-livros-a-ia-as-manifestacoes-e-o-mal": {
         "category": null,
-        "timestamp": "2026-11-01T10:31:10.014306+00:00",
+        "timestamp": "2026-11-01T10:45:56.560409+00:00",
         "title": "Opinião | Os livros, a IA, as manifestações e o Mal",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -953,21 +939,21 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-10-31-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-30/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-30": {
         "category": null,
-        "timestamp": "2026-11-01T10:31:09.930366+00:00",
+        "timestamp": "2026-11-01T10:45:56.500155+00:00",
         "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-10-31-ventura-pede-ao-chega-que-mostre-maturidade-perante-ameacas-de-bloco-central-22224efa": {
         "category": null,
-        "timestamp": "2026-11-01T10:31:08.935049+00:00",
+        "timestamp": "2026-11-01T10:45:55.657195+00:00",
         "title": "Ventura pede ao Chega que mostre maturidade perante \"ameaças de bloco central\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/italia/2026-10-31-tendas-continuam-em-frente-ao-coliseu-de-roma-e-protestos-continuam-f004a780": {
         "category": null,
-        "timestamp": "2026-11-01T10:31:09.020276+00:00",
+        "timestamp": "2026-11-01T10:45:55.716680+00:00",
         "title": "Tendas continuam em frente ao Coliseu de Roma e protestos continuam",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1016,7 +1002,7 @@
     },
     "https://expresso.pt/curtas/2026-11-01-video-policia-avancou-contra-manifestantes-em-operacao-simultanea-em-porto-e-lisboa-veja-as-imagens-2a35cf7a": {
         "category": null,
-        "timestamp": "2026-11-01T10:31:09.468712+00:00",
+        "timestamp": "2026-11-01T10:45:56.675902+00:00",
         "title": "Polícia avançou contra manifestantes em operação simultânea em Porto e Lisboa: veja as imagens",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
