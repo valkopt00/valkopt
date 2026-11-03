@@ -6,27 +6,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/curtas/2026-10-28-video-carolina-deslandes-canta-a-gente-vai-continuar-com-coro-da-multidao-na-acampada-do-rossio-3add9a0c": {
-        "category": null,
-        "timestamp": "2026-10-29T13:16:01.449865+00:00",
-        "title": "Carolina Deslandes canta ‘A Gente Vai Continuar’ com coro da multidão na ‘acampada’ do Rossio",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/expressinho/2026-10-29-que-sementes-portuguesas-viajaram-ate-ao-artico--10978c98": {
-        "category": null,
-        "timestamp": "2026-10-29T13:16:01.316508+00:00",
-        "title": "Que sementes portuguesas viajaram até ao Ártico?",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/partidos-politicos/2026-10-28-carneiro-acusa-ad-de-desconsiderar-o-ps-apos-viabilizacao-do-orcamento-c62dda3e": {
-        "category": null,
-        "timestamp": "2026-10-29T13:16:01.384737+00:00",
-        "title": "Carneiro acusa AD de \"desconsiderar\" o PS após viabilização do Orçamento",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/empresas-negocios/2026-10-29-volkswagen-ve-prejuizo-trimestral-subir-para-58-mil-milhoes-face-a-concorrencia-chinesa-80c05d5b": {
         "category": null,
         "timestamp": "2026-10-29T20:45:54.246870+00:00",
@@ -841,7 +820,7 @@
     },
     "https://expresso.pt/presidencia-republica/2026-11-02-conselho-de-estado-termina-sem-referencia-aos-protestos-e-cargas-policiais-e01455aa": {
         "category": null,
-        "timestamp": "2026-11-03T13:15:57.080701+00:00",
+        "timestamp": "2026-11-03T13:31:15.970892+00:00",
         "title": "Conselho de Estado termina sem referência aos protestos e cargas policiais",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -904,7 +883,7 @@
     },
     "https://expresso.pt/poder-local/2026-11-02-tribunal-nao-da-como-provada-despesa-de-100-mil-euros-referido-por-carlos-moedas-na-limpeza-do-rossio-cb30943d": {
         "category": null,
-        "timestamp": "2026-11-03T13:15:57.021989+00:00",
+        "timestamp": "2026-11-03T13:31:15.915865+00:00",
         "title": "Tribunal não dá como provada despesa de 100 mil euros referido por Carlos Moedas na limpeza do Rossi...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -918,7 +897,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-02-decisoes-judiciais-nao-sao-para-o-coletivo-hugo-soares-partilha-da-interpretacao-do-mai-que-considera-ser-um-ministro-muito-competente-d8da36b4": {
         "category": null,
-        "timestamp": "2026-11-03T13:15:56.963272+00:00",
+        "timestamp": "2026-11-03T13:31:15.848473+00:00",
         "title": "\"Decisões judiciais não são para o coletivo\": Hugo Soares partilha da interpretação do MAI, que cons...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -932,7 +911,7 @@
     },
     "https://expresso.pt/russia/2026-11-03-entre-a-ameaca-totalitaria-e-a-utopia-digital-assim-e-a-ia-soberana-de-putin-d4ef5df3": {
         "category": null,
-        "timestamp": "2026-11-03T13:15:56.682387+00:00",
+        "timestamp": "2026-11-03T13:31:15.780047+00:00",
         "title": "Entre a ameaça totalitária e a utopia digital: assim é a IA soberana de Putin",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -946,21 +925,21 @@
     },
     "https://expresso.pt/italia/2026-11-03-meloni-quer-aplicar-imposto-de-saida-a-estrangeiros-ricos-que-abandonem-italia-f90fdd63": {
         "category": null,
-        "timestamp": "2026-11-03T13:15:56.027381+00:00",
+        "timestamp": "2026-11-03T13:31:12.821276+00:00",
         "title": "Meloni quer aplicar \"imposto de saída\" a estrangeiros ricos que abandonem Itália",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/emprego/2026-11-03-fabricante-de-componentes-automovel-schaffler-corta-3.460-postos-de-trabalho-na-europa-3d15bf5f": {
         "category": null,
-        "timestamp": "2026-11-03T13:15:55.972181+00:00",
+        "timestamp": "2026-11-03T13:31:12.767913+00:00",
         "title": "Fabricante de componentes automóvel Schaffler corta 3.460 postos de trabalho na Europa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-11-03-lucro-da-lufthansa-cai-35-para-715-milhoes-entre-janeiro-e-setembro-5c20e970": {
         "category": null,
-        "timestamp": "2026-11-03T13:15:55.915016+00:00",
+        "timestamp": "2026-11-03T13:31:12.691959+00:00",
         "title": "Lucro da Lufthansa cai 35% para €715 milhões entre janeiro e setembro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -974,22 +953,29 @@
     },
     "https://www.rtp.pt/noticias/hoquei/franca-organiza-57o-europeu-de-hoquei-em-patins_d1776539": {
         "category": null,
-        "timestamp": "2026-11-03T13:15:56.407326+00:00",
+        "timestamp": "2026-11-03T13:31:12.994513+00:00",
         "title": "França organiza 57.º Europeu de hóquei em patins",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-11-03-camara-do-porto-chumba-voto-que-apelava-ao-governo-e-policias-que-se-abstenham-de-intervencoes-violentas-nas-manifestacoes-pela-habitacao-59dc413f": {
         "category": null,
-        "timestamp": "2026-11-03T13:15:57.296063+00:00",
+        "timestamp": "2026-11-03T13:31:13.181700+00:00",
         "title": "Câmara do Porto chumba voto que apelava ao Governo e polícias que se \"abstenham de intervenções viol...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/gangue-armado-assalta-carrinha-de-valores-na-povoa-de-santa-iria": {
         "category": null,
-        "timestamp": "2026-11-03T13:15:57.190478+00:00",
+        "timestamp": "2026-11-03T13:31:15.402314+00:00",
         "title": "Gangue armado assalta carrinha de valores na Póvoa de Santa Iria",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/recurso-do-mp-nao-suspende-automaticamente-decisao-do-tribunal-sobre-tendas-nos-protestos": {
+        "category": null,
+        "timestamp": "2026-11-03T13:31:15.472328+00:00",
+        "title": "Recurso do MP não suspende automaticamente decisão do tribunal sobre tendas nos protestos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
