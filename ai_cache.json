@@ -97,13 +97,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/governo-mobiliza-mais-10-milhoes-de-euros-para-apoiar-agricultores-afetados-pelos-incendios-deste-ano": {
-        "category": null,
-        "timestamp": "2026-10-30T15:16:02.225756+00:00",
-        "title": "Governo mobiliza mais 10 milhões de euros para apoiar agricultores afetados pelos incêndios deste an...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/presidencia-republica/2026-10-30-seguro-alerta-para-perigo-de-sociedade-de-uns-contra-os-outros-e-pressiona-governo-sobre-tempestades-4eb282d4": {
         "category": null,
         "timestamp": "2026-10-31T16:15:59.059993+00:00",
@@ -939,7 +932,7 @@
     },
     "https://expresso.pt/design/2026-11-04-e-se-o-design-fosse-tratado-como-uma-competencia-permanente-da-governacao--bcfd9b08": {
         "category": null,
-        "timestamp": "2026-11-04T15:01:21.308274+00:00",
+        "timestamp": "2026-11-04T15:31:11.216321+00:00",
         "title": "E se o design fosse tratado como uma competência permanente da governação?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -974,14 +967,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-04-ex-lider-francisco-rodrigues-dos-santos-deixa-cds-defendo-um-centro-reformista-socialmente-responsavel-e-avesso-a-radicalizacao-b56e8191-1": {
         "category": null,
-        "timestamp": "2026-11-04T15:01:20.974833+00:00",
+        "timestamp": "2026-11-04T15:31:11.133661+00:00",
         "title": "Ex-líder Francisco Rodrigues dos Santos deixa CDS: “Defendo um centro reformista, socialmente respon...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/restaurantes/2026-11-04-restaurantes-seis-mesas-e-um-chefe-improvavel-em-rio-de-mouro-66b48f84": {
         "category": null,
-        "timestamp": "2026-11-04T15:01:20.903366+00:00",
+        "timestamp": "2026-11-04T15:31:11.065086+00:00",
         "title": "Restaurantes: Seis mesas e um chefe improvável em Rio de Mouro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1009,21 +1002,21 @@
     },
     "https://expresso.pt/health-parliament-portugal/2026-11-04-quem-sao-os-mentores-que-vao-acompanhar-os-deputados-da-saude--5a76603a": {
         "category": null,
-        "timestamp": "2026-11-04T15:01:20.450287+00:00",
+        "timestamp": "2026-11-04T15:31:10.993271+00:00",
         "title": "Quem são os mentores que vão acompanhar os deputados da saúde?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/presidencia-republica/2026-11-04-seguro-sauda-disponibilidade-do-governo-ps-e-chega-para-dialogar-e-pede-bom-senso-nas-negociacoes-178894ae": {
         "category": null,
-        "timestamp": "2026-11-04T15:01:20.388075+00:00",
+        "timestamp": "2026-11-04T15:31:10.922590+00:00",
         "title": "Seguro saúda disponibilidade do Governo, PS e Chega para dialogar e pede \"bom senso\" nas negociações",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-11-04-planos-de-pensoes-privados-em-portugal-rendem-menos-do-que-a-maioria-da-ocde-1f9131a1": {
         "category": null,
-        "timestamp": "2026-11-04T15:01:20.317834+00:00",
+        "timestamp": "2026-11-04T15:31:10.854176+00:00",
         "title": "Planos de pensões privados em Portugal rendem menos do que a maioria da OCDE",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1037,14 +1030,14 @@
     },
     "https://expresso.pt/poder-local/2026-11-04-moedas-suspende-reuniao-de-camara-apos-discussao-sobre-limpeza-do-rossio-oposicao-acusa-o-de-violacao-do-regimento-d4f94151": {
         "category": null,
-        "timestamp": "2026-11-04T15:01:20.229844+00:00",
+        "timestamp": "2026-11-04T15:31:10.787612+00:00",
         "title": "Moedas suspende reunião de Câmara após discussão sobre limpeza do Rossio, oposição acusa-o de \"viola...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-11-04-uma-discussao-nao-pode-ser-desligada-da-outra-ventura-aberto-ao-dialogo-quer-medidas-para-a-habitacao-ja-no-oe-b7c7c073": {
         "category": null,
-        "timestamp": "2026-11-04T15:01:20.133225+00:00",
+        "timestamp": "2026-11-04T15:31:09.705387+00:00",
         "title": "“Uma discussão não pode ser desligada da outra”: Ventura, aberto ao diálogo, quer medidas para a hab...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1072,15 +1065,22 @@
     },
     "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/ps-de-espirito-aberto-para-reuniao-com-primeiro-ministro-e-quer-fim-de-rendas-moderadas-de-2-300-euros": {
         "category": null,
-        "timestamp": "2026-11-04T15:01:22.426479+00:00",
+        "timestamp": "2026-11-04T15:31:09.858955+00:00",
         "title": "PS de \"espírito aberto\" para reunião com primeiro-ministro e quer fim de rendas moderadas de 2.300 e...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/presidente-de-israel-vai-iniciar-consultas-para-novo-governo": {
         "category": null,
-        "timestamp": "2026-11-04T15:01:22.494067+00:00",
+        "timestamp": "2026-11-04T15:31:09.921254+00:00",
         "title": "Presidente de Israel vai iniciar consultas para novo governo",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/maior-sindicato-da-psp-critica-governo-por-instrumentalizar-acao-policial-nos-protestos-pela-habitacao": {
+        "category": null,
+        "timestamp": "2026-11-04T15:31:09.792467+00:00",
+        "title": "Maior sindicato da PSP critica Governo por \"instrumentalizar ação policial\" nos protestos pela habit...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
