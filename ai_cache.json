@@ -939,7 +939,7 @@
     },
     "https://expresso.pt/design/2026-11-04-e-se-o-design-fosse-tratado-como-uma-competencia-permanente-da-governacao--bcfd9b08": {
         "category": null,
-        "timestamp": "2026-11-04T14:01:28.160306+00:00",
+        "timestamp": "2026-11-04T14:15:56.869090+00:00",
         "title": "E se o design fosse tratado como uma competência permanente da governação?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -974,14 +974,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-04-ex-lider-francisco-rodrigues-dos-santos-deixa-cds-defendo-um-centro-reformista-socialmente-responsavel-e-avesso-a-radicalizacao-b56e8191-1": {
         "category": null,
-        "timestamp": "2026-11-04T14:01:28.132416+00:00",
+        "timestamp": "2026-11-04T14:15:56.791156+00:00",
         "title": "Ex-líder Francisco Rodrigues dos Santos deixa CDS: “Defendo um centro reformista, socialmente respon...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/restaurantes/2026-11-04-restaurantes-seis-mesas-e-um-chefe-improvavel-em-rio-de-mouro-66b48f84": {
         "category": null,
-        "timestamp": "2026-11-04T14:01:28.105092+00:00",
+        "timestamp": "2026-11-04T14:15:56.715995+00:00",
         "title": "Restaurantes: Seis mesas e um chefe improvável em Rio de Mouro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1009,21 +1009,21 @@
     },
     "https://expresso.pt/health-parliament-portugal/2026-11-04-quem-sao-os-mentores-que-vao-acompanhar-os-deputados-da-saude--5a76603a": {
         "category": null,
-        "timestamp": "2026-11-04T14:01:28.076326+00:00",
+        "timestamp": "2026-11-04T14:15:56.637311+00:00",
         "title": "Quem são os mentores que vão acompanhar os deputados da saúde?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/presidencia-republica/2026-11-04-seguro-sauda-disponibilidade-do-governo-ps-e-chega-para-dialogar-e-pede-bom-senso-nas-negociacoes-178894ae": {
         "category": null,
-        "timestamp": "2026-11-04T14:01:28.030133+00:00",
+        "timestamp": "2026-11-04T14:15:56.551704+00:00",
         "title": "Seguro saúda disponibilidade do Governo, PS e Chega para dialogar e pede \"bom senso\" nas negociações",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-11-04-planos-de-pensoes-privados-em-portugal-rendem-menos-do-que-a-maioria-da-ocde-1f9131a1": {
         "category": null,
-        "timestamp": "2026-11-04T14:01:28.002842+00:00",
+        "timestamp": "2026-11-04T14:15:56.483691+00:00",
         "title": "Planos de pensões privados em Portugal rendem menos do que a maioria da OCDE",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1037,36 +1037,50 @@
     },
     "https://expresso.pt/poder-local/2026-11-04-moedas-suspende-reuniao-de-camara-apos-discussao-sobre-limpeza-do-rossio-oposicao-acusa-o-de-violacao-do-regimento-d4f94151": {
         "category": null,
-        "timestamp": "2026-11-04T14:01:27.966258+00:00",
+        "timestamp": "2026-11-04T14:15:56.428203+00:00",
         "title": "Moedas suspende reunião de Câmara após discussão sobre limpeza do Rossio, oposição acusa-o de \"viola...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-11-04-uma-discussao-nao-pode-ser-desligada-da-outra-ventura-aberto-ao-dialogo-quer-medidas-para-a-habitacao-ja-no-oe-b7c7c073": {
         "category": null,
-        "timestamp": "2026-11-04T14:01:29.358652+00:00",
+        "timestamp": "2026-11-04T14:15:58.564715+00:00",
         "title": "“Uma discussão não pode ser desligada da outra”: Ventura, aberto ao diálogo, quer medidas para a hab...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/procurador-do-ministerio-publico-critica-psp-pela-acao-no-rossio": {
         "category": null,
-        "timestamp": "2026-11-04T14:01:29.246536+00:00",
+        "timestamp": "2026-11-04T14:15:58.824360+00:00",
         "title": "Procurador do Ministério Público critica PSP pela ação no Rossio",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/manifestantes-criticaram-pinto-luz-por-nao-lhes-dirigir-a-palavra-a-chegada-ao-porto": {
         "category": null,
-        "timestamp": "2026-11-04T14:01:29.274861+00:00",
+        "timestamp": "2026-11-04T14:15:58.878224+00:00",
         "title": "Manifestantes criticaram Pinto Luz por não lhes dirigir a palavra à chegada ao Porto",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/ministro-pinto-luz-recebe-carta-de-manifestantes-no-porto-e-garante-que-dara-resposta": {
         "category": null,
-        "timestamp": "2026-11-04T14:01:29.219811+00:00",
+        "timestamp": "2026-11-04T14:15:58.769027+00:00",
         "title": "Ministro Pinto Luz recebe carta de manifestantes no Porto e garante que dará resposta",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/ps-de-espirito-aberto-para-reuniao-com-primeiro-ministro-e-quer-fim-de-rendas-moderadas-de-2-300-euros": {
+        "category": null,
+        "timestamp": "2026-11-04T14:15:58.634909+00:00",
+        "title": "PS de \"espírito aberto\" para reunião com primeiro-ministro e quer fim de rendas moderadas de 2.300 e...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/presidente-de-israel-vai-iniciar-consultas-para-novo-governo": {
+        "category": null,
+        "timestamp": "2026-11-04T14:15:58.689991+00:00",
+        "title": "Presidente de Israel vai iniciar consultas para novo governo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
