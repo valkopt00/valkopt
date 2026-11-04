@@ -125,13 +125,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/bloco-de-netanyahu-fica-a-oito-lugares-da-maioria-absoluta-conheca-os-resultados-finais-das-eleicoes-em-israel": {
-        "category": null,
-        "timestamp": "2026-10-30T09:46:00.768207+00:00",
-        "title": "Bloco de Netanyahu fica a oito lugares da maioria absoluta. Conheça os resultados finais das eleiçõe...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/automoveis/2026-10-30-bmw-ultrapassa-a-barreira-dos-900-quilometros-de-autonomia-com-o-novo-i3-e05e0873": {
         "category": null,
         "timestamp": "2026-10-30T11:45:59.323072+00:00",
@@ -904,14 +897,14 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-03-ex-porta-voz-de-zelensky-acusada-de-alta-traicao-na-ucrania-a9d91438": {
         "category": null,
-        "timestamp": "2026-11-04T09:31:17.089343+00:00",
+        "timestamp": "2026-11-04T10:01:23.143236+00:00",
         "title": "Ex-porta-voz de Zelensky acusada de alta traição na Ucrânia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/monarquia-britanica/2026-11-03-rei-carlos-iii-aponta-a-escravatura-como-capitulo-historico-vergonhoso-para-os-britanicos-455e33e6": {
         "category": null,
-        "timestamp": "2026-11-04T09:31:17.047699+00:00",
+        "timestamp": "2026-11-04T10:01:23.061694+00:00",
         "title": "Rei Carlos III aponta a escravatura como capítulo histórico “vergonhoso” para os britânicos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -932,7 +925,7 @@
     },
     "https://expresso.pt/poder-local/2026-11-03-assembleia-municipal-rejeita-proposta-do-ps-para-que-moedas-comprove-impacto-do-volta-97d0ed63": {
         "category": null,
-        "timestamp": "2026-11-04T09:31:17.002482+00:00",
+        "timestamp": "2026-11-04T10:01:22.969959+00:00",
         "title": "Assembleia Municipal rejeita proposta do PS para que Moedas comprove impacto do Volta",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -960,7 +953,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-11-03-ctt-vao-vender-maioria-do-capital-do-banco-769cb445": {
         "category": null,
-        "timestamp": "2026-11-04T09:31:16.910354+00:00",
+        "timestamp": "2026-11-04T10:01:22.827204+00:00",
         "title": "CTT vão vender maioria do capital do Banco",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1023,14 +1016,14 @@
     },
     "https://expresso.pt/design/2026-11-04-e-se-o-design-fosse-tratado-como-uma-competencia-permanente-da-governacao--bcfd9b08": {
         "category": null,
-        "timestamp": "2026-11-04T09:31:16.280895+00:00",
+        "timestamp": "2026-11-04T10:01:21.504735+00:00",
         "title": "E se o design fosse tratado como uma competência permanente da governação?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/nao-ha-provas-de-violacao-da-integridade-eleitoral-nas-legislativas-de-israel": {
         "category": null,
-        "timestamp": "2026-11-04T09:31:17.539139+00:00",
+        "timestamp": "2026-11-04T10:01:22.690146+00:00",
         "title": "Não há provas de violação da integridade eleitoral nas legislativas de Israel",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1044,8 +1037,15 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-03-zelensky-e-ue-a-espera-das-intercalares-preparam-conversacoes-de-paz-em-abu-dhabi-d623f2c3-1": {
         "category": null,
-        "timestamp": "2026-11-04T09:31:16.955030+00:00",
+        "timestamp": "2026-11-04T10:01:22.892374+00:00",
         "title": "Zelensky e UE, à espera das intercalares, preparam conversações de paz em Abu Dhabi",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/acampada-no-porto-tem-espaco-para-criancas-jornal-site-posto-medico-e-cantina": {
+        "category": null,
+        "timestamp": "2026-11-04T10:01:22.603038+00:00",
+        "title": "Acampada no Porto tem espaço para crianças, jornal, 'site', posto médico e cantina",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
