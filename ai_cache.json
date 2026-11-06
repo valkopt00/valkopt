@@ -34,20 +34,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/israelitas-pedem-na-rua-entendimento-com-arabes": {
-        "category": null,
-        "timestamp": "2026-11-01T09:15:54.957435+00:00",
-        "title": "Israelitas pedem na rua entendimento com árabes",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/europa-viva/detalhe/europa-defende-direito-internacional-e-justica": {
-        "category": null,
-        "timestamp": "2026-11-01T09:15:55.004576+00:00",
-        "title": "Europa defende direito internacional e justiça",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/curtas/2026-11-01-video-policia-avancou-contra-manifestantes-em-operacao-simultanea-em-porto-e-lisboa-veja-as-imagens-2a35cf7a": {
         "category": null,
         "timestamp": "2026-11-02T09:16:15.580589+00:00",
@@ -1107,49 +1093,49 @@
     },
     "https://expresso.pt/semanario/ideias": {
         "category": null,
-        "timestamp": "2026-11-06T09:15:52.175048+00:00",
+        "timestamp": "2026-11-06T09:31:00.823900+00:00",
         "title": "IDEIAS: O balanço do desenvolvimento sustentável nos municípios",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-11-06T09:15:52.208666+00:00",
+        "timestamp": "2026-11-06T09:31:00.933619+00:00",
         "title": "Narcos em Portugal, na revista E",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/economia": {
         "category": null,
-        "timestamp": "2026-11-06T09:15:52.237335+00:00",
+        "timestamp": "2026-11-06T09:31:01.038054+00:00",
         "title": "A 1ª página do Expresso Economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro": {
         "category": null,
-        "timestamp": "2026-11-06T09:15:52.266582+00:00",
+        "timestamp": "2026-11-06T09:31:01.146751+00:00",
         "title": "A primeira página do Expresso",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-11-05-a-aldeia-da-galiza-onde-a-morte-e-uma-forma-de-vida-d99391e7": {
         "category": null,
-        "timestamp": "2026-11-06T09:15:54.437113+00:00",
+        "timestamp": "2026-11-06T09:31:03.944880+00:00",
         "title": "A aldeia da Galiza onde a morte é uma forma de vida",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-11-05-o-cerco-da-cocaina-a-portugal-retrato-do-novo-trafico-que-invadiu-a-costa-portuguesa-73f1d65f": {
         "category": null,
-        "timestamp": "2026-11-06T09:15:54.467030+00:00",
+        "timestamp": "2026-11-06T09:31:04.056470+00:00",
         "title": "O cerco da cocaína a Portugal: retrato do novo tráfico que invadiu a costa portuguesa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-11-05-a-guerra-pelo-iemen-que-acossa-a-arabia-saudita-759d2474": {
         "category": null,
-        "timestamp": "2026-11-06T09:15:54.979984+00:00",
+        "timestamp": "2026-11-06T09:31:04.476771+00:00",
         "title": "A guerra pelo Iémen que acossa a Arábia Saudita",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1163,28 +1149,28 @@
     },
     "https://expresso.pt/curtas/2026-11-06-video-policia-avanca-sobre-manifestantes-em-franca-confrontos-causam-varios-feridos-d6cf745c": {
         "category": null,
-        "timestamp": "2026-11-06T09:15:52.145641+00:00",
+        "timestamp": "2026-11-06T09:31:00.627017+00:00",
         "title": "Polícia avança sobre manifestantes em França: confrontos causam vários feridos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/altos--baixos/2026-11-05-tecnologia-bebidas-cortica-e-correios-nos-altos-e-baixos-da-economia-6d58cda9": {
         "category": null,
-        "timestamp": "2026-11-06T09:15:55.629848+00:00",
+        "timestamp": "2026-11-06T09:31:05.110137+00:00",
         "title": "Tecnologia, bebidas, cortiça e correios nos Altos e Baixos da Economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-11-05-israel.-partidos-recomendam-eisenkot-da51720f": {
         "category": null,
-        "timestamp": "2026-11-06T09:15:56.058304+00:00",
+        "timestamp": "2026-11-06T09:31:05.711368+00:00",
         "title": "Israel. Partidos recomendam Eisenkot",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/altos--baixos/2026-11-05-do-presidente-seguro-aos-frangos-turbo-bc631c2a": {
         "category": null,
-        "timestamp": "2026-11-06T09:15:56.366400+00:00",
+        "timestamp": "2026-11-06T09:31:06.070729+00:00",
         "title": "Do Presidente Seguro aos “frangos turbo”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1198,8 +1184,15 @@
     },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/quando-as-democracias-se-preparam-para-o-pior_1777304": {
         "category": null,
-        "timestamp": "2026-11-06T09:15:53.494382+00:00",
+        "timestamp": "2026-11-06T09:31:01.855132+00:00",
         "title": "Quando as democracias se preparam para o pior",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.rtp.pt/noticias/selecao-nacional/jesus-anuncia-convocados-para-a-liga-das-nacoes_d1777321": {
+        "category": null,
+        "timestamp": "2026-11-06T09:31:01.718876+00:00",
+        "title": "Jesus anuncia convocados para a Liga das Nações",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
