@@ -34,13 +34,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/ligadasnacoes/regresso-ou-nao-de-ronaldo-a-selecao-conhecido-na-sexta-feira_d1776385": {
-        "category": null,
-        "timestamp": "2026-11-02T23:31:13.435595+00:00",
-        "title": "Regresso ou não de Ronaldo à seleção conhecido na sexta-feira",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/polonia/2026-11-02-preferem-um-tribunal-paralisado-a-um-que-nao-controlam-a-guerra-pela-justica-que-esta-a-dividir-a-polonia-4d1fc29f": {
         "category": null,
         "timestamp": "2026-11-03T10:45:55.973337+00:00",
@@ -66,13 +59,6 @@
         "category": null,
         "timestamp": "2026-11-02T23:45:55.125734+00:00",
         "title": "Manifestantes pela habitação decidem voltar a \"armar as tendas\" no Porto esta noite",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/netanyahu-pede-governo-alargado-e-chefiado-por-ele-proprio": {
-        "category": null,
-        "timestamp": "2026-11-02T23:31:11.147806+00:00",
-        "title": "Netanyahu pede governo alargado e chefiado por ele próprio",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -1023,7 +1009,7 @@
     },
     "https://expresso.pt/premio-nacional-turismo/2026-11-06-premio-nacional-de-turismo-2026-conheca-os-finalistas-na-categoria-turismo-autentico-f124491d": {
         "category": null,
-        "timestamp": "2026-11-07T23:31:00.014632+00:00",
+        "timestamp": "2026-11-07T23:45:46.880468+00:00",
         "title": "Prémio Nacional de Turismo 2026: conheça os finalistas na categoria Turismo Autêntico",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1037,14 +1023,14 @@
     },
     "https://expresso.pt/media-comunicacao/2026-11-06-nicolau-santos-reconduzido-na-lideranca-da-rtp-e8d66d98": {
         "category": null,
-        "timestamp": "2026-11-07T23:30:59.980684+00:00",
+        "timestamp": "2026-11-07T23:45:46.826845+00:00",
         "title": "Nicolau Santos reconduzido na liderança da RTP",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-11-06-nao-vale-de-nada-mudar-lei-das-rendas-sem-aliviar-custos-da-habitacao-diz-ventura-57d703ca": {
         "category": null,
-        "timestamp": "2026-11-07T23:30:59.949359+00:00",
+        "timestamp": "2026-11-07T23:45:46.771066+00:00",
         "title": "\"Não vale de nada\" mudar lei das rendas sem aliviar custos da habitação, diz Ventura",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1065,7 +1051,7 @@
     },
     "https://expresso.pt/expressinho/2026-11-06-a-crise-da-habitacao-um-puzzle-com-muitas-pecas-f56af83b": {
         "category": null,
-        "timestamp": "2026-11-07T23:30:59.914204+00:00",
+        "timestamp": "2026-11-07T23:45:46.711323+00:00",
         "title": "A crise da habitação: um puzzle com muitas peças",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1079,7 +1065,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-07-ucrania-cinco-feridos-em-kiev-devido-a-explosoes-de-misseis-russos-37831b22": {
         "category": null,
-        "timestamp": "2026-11-07T23:30:59.880361+00:00",
+        "timestamp": "2026-11-07T23:45:46.652182+00:00",
         "title": "Ucrânia: Cinco feridos em Kiev devido a explosões de mísseis russos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1093,28 +1079,28 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-11-07-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-31/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-31": {
         "category": null,
-        "timestamp": "2026-11-07T23:31:00.997600+00:00",
+        "timestamp": "2026-11-07T23:45:47.872604+00:00",
         "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://visao.pt/sei-la-entende/2026-11-07-o-vasco-da-gama-quer-me-matar-cronica-de-fabio-porchat/?utm_source=rss&utm_medium=rss&utm_campaign=o-vasco-da-gama-quer-me-matar-cronica-de-fabio-porchat": {
         "category": null,
-        "timestamp": "2026-11-07T23:31:00.963245+00:00",
+        "timestamp": "2026-11-07T23:45:47.818297+00:00",
         "title": "O Vasco da Gama quer me matar. Crónica de Fábio Porchat",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-07-zelensky-avisa-que-plano-de-seguranca-de-trump-para-a-europa-pode-ser-perigoso-nao-queremos-uma-segunda-ialta-a16ddc2b": {
         "category": null,
-        "timestamp": "2026-11-07T23:30:59.848015+00:00",
+        "timestamp": "2026-11-07T23:45:46.595514+00:00",
         "title": "Zelensky avisa que plano de segurança de Trump para a Europa pode ser \"perigoso\": \"Não queremos uma ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://observador.pt/especiais/francis-fukuyama-e-a-ascensao-do-populismo-se-a-questao-fosse-apenas-economica-os-eleitores-votariam-em-massa-na-social-democracia/": {
         "category": null,
-        "timestamp": "2026-11-07T23:31:00.720046+00:00",
+        "timestamp": "2026-11-07T23:45:47.559947+00:00",
         "title": "Fukuyama e a ascensão do populismo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1128,7 +1114,7 @@
     },
     "https://www.rtp.pt/noticias/hoquei/benfica-vence-sporting-e-conquista-supertaca-de-hoquei-em-patins_d1777591": {
         "category": null,
-        "timestamp": "2026-11-07T23:31:00.585217+00:00",
+        "timestamp": "2026-11-07T23:45:47.481477+00:00",
         "title": "Benfica vence Sporting e conquista Supertaça de hóquei em patins",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1163,28 +1149,28 @@
     },
     "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/uma-hora-de-silencio-nos-restauradores-em-lisboa-contra-a-violencia-policial": {
         "category": null,
-        "timestamp": "2026-11-07T23:31:03.572183+00:00",
+        "timestamp": "2026-11-07T23:45:47.732197+00:00",
         "title": "Uma hora de silêncio nos Restauradores em Lisboa contra a violência policial",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/polonia/2026-11-07-portuguesa-ferida-em-tiroteio-que-fez-seis-mortos-em-cracovia.-atacante-era-fascinado-pela-extrema-direita-77c39db4": {
         "category": null,
-        "timestamp": "2026-11-07T23:30:59.813550+00:00",
+        "timestamp": "2026-11-07T23:45:46.534177+00:00",
         "title": "Portuguesa ferida em tiroteio que fez seis mortos em Cracóvia. Atacante era “fascinado” pela extrema...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/lider-da-oposicao-incumbido-de-formar-novo-governo-de-israel-promete-fazer-tudo-para-cumprir-tarefa": {
         "category": null,
-        "timestamp": "2026-11-07T23:31:03.520985+00:00",
+        "timestamp": "2026-11-07T23:45:47.674475+00:00",
         "title": "Gadi Eisenkot incumbido de formar novo governo de Israel promete \"fazer tudo\" para cumprir tarefa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/pista-de-gelo-na-praca-d-joao-i-no-porto-foi-decidida-antes-da-acampada-revela-autarquia": {
         "category": null,
-        "timestamp": "2026-11-07T23:31:03.486230+00:00",
+        "timestamp": "2026-11-07T23:45:47.621477+00:00",
         "title": "Pista de gelo na Praça D. João I no Porto foi decidida antes da Acampada, revela autarquia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
