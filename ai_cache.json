@@ -41,45 +41,10 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/am-lisboa-sauda-atuacao-da-policia-e-rejeita-repudiar-intervencao-desproporcionada": {
-        "category": null,
-        "timestamp": "2026-11-04T00:31:09.300257+00:00",
-        "title": "AM Lisboa saúda atuação da polícia e rejeita repudiar intervenção desproporcionada",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/livre-be-e-pan-lamentam-falta-de-autocritica-de-montenegro-pcp-alerta-para-dialogo-vazio": {
-        "category": null,
-        "timestamp": "2026-11-04T00:31:09.188902+00:00",
-        "title": "Livre, BE e PAN lamentam falta de autocrítica de Montenegro, PCP alerta para \"diálogo vazio\"",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/carneiro-diz-que-pm-finalmente-reconheceu-que-solucao-e-politica-e-nao-policial": {
-        "category": null,
-        "timestamp": "2026-11-04T00:31:09.240986+00:00",
-        "title": "Carneiro diz que PM \"finalmente reconheceu\" que solução é política e não policial",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/empresas-negocios/2026-11-03-ctt-vao-vender-maioria-do-capital-do-banco-769cb445": {
         "category": null,
         "timestamp": "2026-11-04T13:15:55.940599+00:00",
         "title": "CTT vão vender maioria do capital do Banco",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/dialogo-de-montenegro-com-oposicao-e-vitoria-parcial-diz-acampada-porto": {
-        "category": null,
-        "timestamp": "2026-11-04T00:31:09.135624+00:00",
-        "title": "Diálogo de Montenegro com oposição é \"vitória parcial\", diz Acampada Porto",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/petroleiro-atingido-por-dois-projeteis-desconhecidos-na-costa-do-oma": {
-        "category": null,
-        "timestamp": "2026-11-04T00:31:09.076039+00:00",
-        "title": "Petroleiro atingido por dois projéteis desconhecidos na costa do Omã",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -897,14 +862,14 @@
     },
     "https://expresso.pt/curtas/2026-11-07-video-multidao-forma-cordao-humano-a-volta-da-praca-do-rossio-apos-vigilia-do-movimento-maes-pela-acampada-34ac371a": {
         "category": null,
-        "timestamp": "2026-11-09T00:31:03.331095+00:00",
+        "timestamp": "2026-11-09T00:45:52.162388+00:00",
         "title": "Multidão forma cordão humano à volta da Praça do Rossio após vigília do movimento \"Mães pela Acampad...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/presidencia-republica/2026-11-07-falamos-de-tudo-o-que-se-passa-no-mundo-guterres-recebido-por-seguro-em-belem-c32f1b3e": {
         "category": null,
-        "timestamp": "2026-11-09T00:31:03.394076+00:00",
+        "timestamp": "2026-11-09T00:45:52.191762+00:00",
         "title": "“Falámos de tudo o que se passa no mundo”: Guterres recebido por Seguro em Belém",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -953,7 +918,7 @@
     },
     "https://expresso.pt/cheias-inundacoes/2026-11-08-depressao-bruna-na-madeira-familia-de-cinco-pessoas-desalojada-na-sequencia-de-inundacao-d9e4ef18": {
         "category": null,
-        "timestamp": "2026-11-09T00:31:03.269218+00:00",
+        "timestamp": "2026-11-09T00:45:52.129418+00:00",
         "title": "Depressão Bruna na Madeira: família de cinco pessoas desalojada na sequência de inundação",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -967,21 +932,21 @@
     },
     "https://expresso.pt/curtas/2026-11-08-video-depressao-bruna-provoca-inundacoes-e-quedas-de-arvores-na-madeira-veja-as-imagens-977c3b86": {
         "category": null,
-        "timestamp": "2026-11-09T00:31:03.222442+00:00",
+        "timestamp": "2026-11-09T00:45:52.099884+00:00",
         "title": "Depressão Bruna provoca inundações e quedas de árvores na Madeira: veja as imagens",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/polonia/2026-11-07-portuguesa-ferida-em-tiroteio-que-fez-seis-mortos-em-cracovia.-tres-outras-pessoas-encontradas-mortas-na-casa-do-atirador-77c39db4": {
         "category": null,
-        "timestamp": "2026-11-09T00:31:03.444335+00:00",
+        "timestamp": "2026-11-09T00:45:52.221640+00:00",
         "title": "Portuguesa ferida em tiroteio que fez seis mortos em Cracóvia. Três outras pessoas encontradas morta...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/russia/2026-11-08-policia-russa-entrega-intimacoes-para-alistamento-a-jovens-detidos-este-sabado-em-moscovo-a0cf94aa": {
         "category": null,
-        "timestamp": "2026-11-09T00:31:03.160774+00:00",
+        "timestamp": "2026-11-09T00:45:52.067387+00:00",
         "title": "Polícia russa entrega intimações para alistamento a jovens detidos este sábado em Moscovo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1002,7 +967,7 @@
     },
     "https://visao.pt/entrevista-sem-agenda/2026-11-08-nao-devemos-sonhar-com-uma-revolucao-que-nao-existe-porque-nunca-poderemos-faze-la/?utm_source=rss&utm_medium=rss&utm_campaign=nao-devemos-sonhar-com-uma-revolucao-que-nao-existe-porque-nunca-poderemos-faze-la": {
         "category": null,
-        "timestamp": "2026-11-09T00:31:04.733344+00:00",
+        "timestamp": "2026-11-09T00:45:53.197408+00:00",
         "title": "“Não devemos sonhar com uma revolução que não existe, porque nunca poderemos fazê-la”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1030,8 +995,15 @@
     },
     "https://observador.pt/especiais/como-funciona-o-jogo-do-observador-o-meu-orcamento-do-estado-2027/": {
         "category": null,
-        "timestamp": "2026-11-09T00:31:04.198587+00:00",
+        "timestamp": "2026-11-09T00:45:52.961654+00:00",
         "title": "Jogo. Como funciona \"O Meu Orçamento 2027\"",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/base-da-acampada-de-lisboa-mantem-se-no-rossio": {
+        "category": null,
+        "timestamp": "2026-11-09T00:46:07.404557+00:00",
+        "title": "Base da Acampada de Lisboa mantém-se no Rossio",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
