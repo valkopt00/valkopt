@@ -834,7 +834,7 @@
     },
     "https://visao.pt/entrevista-sem-agenda/2026-11-08-nao-devemos-sonhar-com-uma-revolucao-que-nao-existe-porque-nunca-poderemos-faze-la/?utm_source=rss&utm_medium=rss&utm_campaign=nao-devemos-sonhar-com-uma-revolucao-que-nao-existe-porque-nunca-poderemos-faze-la": {
         "category": null,
-        "timestamp": "2026-11-09T14:15:50.475068+00:00",
+        "timestamp": "2026-11-09T14:31:03.681618+00:00",
         "title": "“Não devemos sonhar com uma revolução que não existe, porque nunca poderemos fazê-la”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -862,7 +862,7 @@
     },
     "https://observador.pt/especiais/como-funciona-o-jogo-do-observador-o-meu-orcamento-do-estado-2027/": {
         "category": null,
-        "timestamp": "2026-11-09T14:15:50.942482+00:00",
+        "timestamp": "2026-11-09T14:31:03.623841+00:00",
         "title": "Jogo. Como funciona \"O Meu Orçamento 2027\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -876,7 +876,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-09-pedro-nuno-afasta-regresso-a-lideranca-do-ps-e-defende-jovens-em-protesto-a-caricatura-que-se-faz-e-uma-ofensa-9f53a0ab": {
         "category": null,
-        "timestamp": "2026-11-09T14:15:50.120890+00:00",
+        "timestamp": "2026-11-09T14:31:04.231465+00:00",
         "title": "Pedro Nuno afasta regresso à liderança do PS e defende jovens em protesto: “A caricatura que se faz ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -897,50 +897,57 @@
     },
     "https://expresso.pt/polonia/2026-11-09-alegado-autor-de-ataque-em-cracovia-morreu-no-hospital-4538b8fb": {
         "category": null,
-        "timestamp": "2026-11-09T14:15:49.509566+00:00",
+        "timestamp": "2026-11-09T14:31:02.914047+00:00",
         "title": "Alegado autor de ataque em Cracóvia morreu no hospital",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/as-acampadas-e-o-desvio-do-olhar-publico_1777834": {
         "category": null,
-        "timestamp": "2026-11-09T14:15:50.005235+00:00",
+        "timestamp": "2026-11-09T14:31:02.965762+00:00",
         "title": "As acampadas e o desvio do olhar público",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-09-ucrania-anuncia-quase-3000-baixas-russas-num-so-dia-um-maximo-desde-o-inicio-da-guerra-ce23275e": {
         "category": null,
-        "timestamp": "2026-11-09T14:15:49.453344+00:00",
+        "timestamp": "2026-11-09T14:31:02.888446+00:00",
         "title": "Ucrânia anuncia quase 3000 baixas russas num só dia, um máximo desde o início da guerra",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/revista-de-imprensa/2026-11-09-numero-de-partos-realizados-fora-dos-hospitais-esta-perto-de-igualar-pico-de-2025-6ce15a1e": {
         "category": null,
-        "timestamp": "2026-11-09T14:15:49.397411+00:00",
+        "timestamp": "2026-11-09T14:31:02.857031+00:00",
         "title": "Número de partos realizados fora dos hospitais está perto de igualar pico de 2025",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/ha-manifestantes-pela-habitacao-que-defendem-manter-acampada-no-rossio-e-ha-outros-que-propoem-a-desmobilizacao-das-tendas": {
         "category": null,
-        "timestamp": "2026-11-09T14:15:51.140951+00:00",
+        "timestamp": "2026-11-09T14:31:05.196688+00:00",
         "title": "Há manifestantes pela habitação que defendem manter acampada no Rossio e há outros que propõem a des...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/russia/2026-11-09-o-ultimo-dia-da-novaya-gazeta-o-kremlin-foi-estrangulando-o-jornal-aos-poucos-a633b7ef": {
         "category": null,
-        "timestamp": "2026-11-09T14:15:50.383523+00:00",
+        "timestamp": "2026-11-09T14:31:03.030516+00:00",
         "title": "O último dia da “Novaya Gazeta”: “O Kremlin foi estrangulando o jornal aos poucos”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-11-09-defice-comercial-agrava-se-ate-setembro-265cdc60": {
         "category": null,
-        "timestamp": "2026-11-09T14:15:50.310960+00:00",
+        "timestamp": "2026-11-09T14:31:03.004232+00:00",
         "title": "Défice comercial agrava-se até setembro",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/manifestantes-pela-habitacao-resistem-ao-mau-tempo-no-porto": {
+        "category": null,
+        "timestamp": "2026-11-09T14:31:05.161428+00:00",
+        "title": "Manifestantes pela habitação resistem ao mau tempo no Porto",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
