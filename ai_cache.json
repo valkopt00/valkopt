@@ -69,13 +69,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/donald-trump-analisou-com-o-emir-do-catar-o-conflito-com-o-irao": {
-        "category": null,
-        "timestamp": "2026-11-06T12:01:13.843605+00:00",
-        "title": "Donald Trump analisou com o emir do Catar o conflito com o Irão",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/media-comunicacao/2026-11-06-rtp-pagou-1225-milhoes-de-euros-em-subsidios-sem-suporte-legal-conclui-auditoria-das-financas-e181b6a0": {
         "category": null,
         "timestamp": "2026-11-07T09:01:14.445144+00:00",
@@ -967,7 +960,7 @@
     },
     "https://expresso.pt/tempestades/2026-11-10-depressao-charles-web-summit-fecha-as-portas-esta-quarta-feira-e-reabre-na-quinta-4c372428": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:17.103943+00:00",
+        "timestamp": "2026-11-11T12:15:53.797542+00:00",
         "title": "Depressão “Charles”: Web Summit fecha as portas esta quarta-feira e reabre na quinta",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -988,7 +981,7 @@
     },
     "https://expresso.pt/tempestades/2026-11-10-video-o-pico-da-tempestade-charles-chega-ao-final-da-tarde-especialista-alerta-para-horas-criticas-em-portugal-a98fdc36": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:17.023924+00:00",
+        "timestamp": "2026-11-11T12:15:53.698027+00:00",
         "title": "Especialista aponta as horas mais críticas da passagem da tempestade Charles por Portugal",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1016,28 +1009,28 @@
     },
     "https://expresso.pt/tempestades/2026-11-10-depressao-charles-muda-trajetoria-para-sul-com-menos-vento-em-lisboa-e-norte-mais-resguardado-c85a274b": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:16.862600+00:00",
+        "timestamp": "2026-11-11T12:15:53.601500+00:00",
         "title": "Depressão Charles muda trajetória para sul, com menos vento em Lisboa e Norte mais resguardado",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-11-10-video-depressao-charles-chega-a-madeira-com-chuva-e-vento-fortes--veja-as-imagens--85beb1ff": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:16.942675+00:00",
+        "timestamp": "2026-11-11T12:15:53.648852+00:00",
         "title": "Depressão Charles chega à Madeira com chuva e vento fortes (veja as imagens)",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-11-11-video-trabalhadores-da-camara-de-lisboa-limpam-estatua-do-rossio-a-meia-noite-apesar-de-situacao-de-alerta-cb3becfd": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:16.784499+00:00",
+        "timestamp": "2026-11-11T12:15:53.549812+00:00",
         "title": "Trabalhadores da Câmara de Lisboa limpam estátua do Rossio à meia-noite, apesar de situação de alert...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://multimedia.expresso.pt/tempestadecharles": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:16.127447+00:00",
+        "timestamp": "2026-11-11T12:15:52.769167+00:00",
         "title": "Tempestade Charles: o mapa para ver a localização das ocorrências em tempo real",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1051,7 +1044,7 @@
     },
     "https://expresso.pt/tempestades/2026-11-11-madeira-passou-pelo-charles-sem-problemas-de-maior--mas-as-rajadas-chegaram-aos-130-kms-h--98a408d0": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:14.560253+00:00",
+        "timestamp": "2026-11-11T12:15:50.001494+00:00",
         "title": "Madeira passou pelo Charles sem problemas de maior (mas as rajadas chegaram aos 130 km/h)",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1065,57 +1058,71 @@
     },
     "https://expresso.pt/tempestades/2026-11-11-video-ha-muita-agua-nas-estradas-da-regiao-de-lisboa-3703ff58": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:14.471071+00:00",
+        "timestamp": "2026-11-11T12:15:49.953573+00:00",
         "title": "Há muita água nas estradas da região de Lisboa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/expresso/encontros-de-cascais/2026-11-11-o-preco-da-inacao-a-falta-de-prevencao-na-saude-e-os-cargos-que-devem-sobreviver-ao-ciclo-politico-e23eb287": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:14.242993+00:00",
+        "timestamp": "2026-11-11T12:15:49.901989+00:00",
         "title": "O preço da inação, a falta de prevenção na Saúde e os cargos que devem sobreviver ao ciclo político",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/tempestades/2026-11-11-mau-tempo-depressao-charles-desviou-trajetoria-na-madeira-o-pior-ja-passou--mas-vento-chegou-aos-130-kms-h--27a81536": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:16.208902+00:00",
+        "timestamp": "2026-11-11T12:15:52.818960+00:00",
         "title": "Depressão Charles dividiu-se em dois núcleos menos intensos do que o previsto. Aviso de vento para L...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/tempestades/2026-11-11-depressao-charles-regulador-dos-seguros-recomenda-verificar-cobertura-e-conservar-provas-em-caso-de-danos-f54a7abb": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:14.163865+00:00",
+        "timestamp": "2026-11-11T12:15:49.857228+00:00",
         "title": "Depressão Charles: regulador dos seguros recomenda verificar cobertura e conservar provas em caso de...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/tempestades/2026-11-11-madeira-escapou-a-tragedia-tempestade-charles-trouxe-mais-chuva-do-que-em-2010-mas-sem-ocorrencias-graves-5eda2a45": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:13.574849+00:00",
+        "timestamp": "2026-11-11T12:15:49.811498+00:00",
         "title": "Madeira escapou à tragédia: tempestade Charles trouxe mais chuva do que em 2010, mas sem ocorrências...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-11-11-admiravel-arte-nova-fee9988a": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:13.453990+00:00",
+        "timestamp": "2026-11-11T12:15:49.764744+00:00",
         "title": "As obras de IA que abalam o mundo da Arte",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-11-11-vangest-vai-fabricar-componentes-para-cacas-da-saab-na-marinha-grande-d23bdcc4": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:14.811050+00:00",
+        "timestamp": "2026-11-11T12:15:50.182447+00:00",
         "title": "Fábrica na Marinha Grande vai produzir componentes para caças Gripen da Saab",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-11-11-video-madeira-teve-chuva-forte-e-ventos-de-130-km-h-pico-da-tempestade-ja-passou-e-alerta-baixou--veja-as-imagens--5260821f": {
         "category": null,
-        "timestamp": "2026-11-11T12:01:13.371618+00:00",
+        "timestamp": "2026-11-11T12:15:49.718771+00:00",
         "title": "Madeira teve chuva forte e ventos de 130 km/h: pico da tempestade já passou e alerta baixou (veja as...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/tempestades/2026-11-11-depressao-charles-perde-intensidade-mas-prevencao-tem-de-manter-se.-algarve-deve-ser-a-zona-mais-afetada-fadb3d6f": {
+        "category": null,
+        "timestamp": "2026-11-11T12:15:50.090124+00:00",
+        "title": "Depressão “Charles” perde intensidade, mas prevenção tem de manter-se. Algarve deve ser a zona mais ...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/tempestades/2026-11-11-siresp-processou-perto-de-5-milhoes-de-chamadas-e-sem-registo-de-constrangimentos-c217c70f": {
+        "category": null,
+        "timestamp": "2026-11-11T12:15:50.134635+00:00",
+        "title": "SIRESP processou perto de 5 milhões de chamadas e sem registo de \"constrangimentos\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
