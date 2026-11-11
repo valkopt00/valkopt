@@ -48,13 +48,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/acampada-do-porto-monta-lona-e-quatro-grandes-tendas-para-se-proteger-da-chuva": {
-        "category": null,
-        "timestamp": "2026-11-06T19:31:08.255584+00:00",
-        "title": "Acampada do Porto monta lona e quatro grandes tendas para se proteger da chuva",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/media-comunicacao/2026-11-06-nicolau-santos-reconduzido-na-lideranca-da-rtp-e8d66d98": {
         "category": null,
         "timestamp": "2026-11-08T12:15:48.111641+00:00",
@@ -960,7 +953,7 @@
     },
     "https://expresso.pt/tempestades/2026-11-11-depressao-charles-regulador-dos-seguros-recomenda-verificar-cobertura-e-conservar-provas-em-caso-de-danos-f54a7abb": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:05.393225+00:00",
+        "timestamp": "2026-11-11T19:45:53.766877+00:00",
         "title": "Depressão Charles: regulador dos seguros recomenda verificar cobertura e conservar provas em caso de...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -974,35 +967,35 @@
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-11-11-admiravel-arte-nova-fee9988a": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:05.299175+00:00",
+        "timestamp": "2026-11-11T19:45:53.624835+00:00",
         "title": "As obras de IA que abalam o mundo da Arte",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-11-11-vangest-vai-fabricar-componentes-para-cacas-da-saab-na-marinha-grande-d23bdcc4": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:05.207265+00:00",
+        "timestamp": "2026-11-11T19:45:53.478713+00:00",
         "title": "Fábrica na Marinha Grande vai produzir componentes para caças Gripen da Saab",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-11-11-video-madeira-teve-chuva-forte-e-ventos-de-130-km-h-pico-da-tempestade-ja-passou-e-alerta-baixou--veja-as-imagens--5260821f": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:05.251082+00:00",
+        "timestamp": "2026-11-11T19:45:53.529205+00:00",
         "title": "Madeira teve chuva forte e ventos de 130 km/h: pico da tempestade já passou e alerta baixou (veja as...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/tempestades/2026-11-11-depressao-charles-perde-intensidade-mas-prevencao-tem-de-manter-se.-algarve-deve-ser-a-zona-mais-afetada-fadb3d6f": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:05.112942+00:00",
+        "timestamp": "2026-11-11T19:45:53.374062+00:00",
         "title": "Depressão “Charles” perde intensidade, mas prevenção tem de manter-se. Algarve deve ser a zona mais ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/tempestades/2026-11-11-siresp-processou-perto-de-5-milhoes-de-chamadas-e-sem-registo-de-constrangimentos-c217c70f": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:05.159205+00:00",
+        "timestamp": "2026-11-11T19:45:53.426006+00:00",
         "title": "SIRESP processou perto de 5 milhões de chamadas e sem registo de \"constrangimentos\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1016,7 +1009,7 @@
     },
     "https://expresso.pt/tempestades/2026-11-11-tempestade-charles-trouxe-mais-chuva-a-madeira-do-que-em-2010-mas-sem-ocorrencias-graves-5eda2a45": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:05.343311+00:00",
+        "timestamp": "2026-11-11T19:45:53.681086+00:00",
         "title": "Tempestade Charles trouxe mais chuva à Madeira do que em 2010, mas sem ocorrências graves",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1044,7 +1037,7 @@
     },
     "https://expresso.pt/poder-local/2026-11-11-nao-ha-respeito-pela-seguranca-destas-pessoas-sindicato-critica-moedas-por-colocar-trabalhadores-a-limpar-estatua-durante-tempestade-ca697f63-1": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:04.974219+00:00",
+        "timestamp": "2026-11-11T19:45:53.152854+00:00",
         "title": "\"Não há respeito pela segurança destas pessoas\": sindicato critica Moedas por colocar trabalhadores ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1058,21 +1051,21 @@
     },
     "https://expresso.pt/tempestades/2026-11-11-tempestade-charles-congestionamento-de-transito-em-lisboa-nao-passou-dos-6-esta-manha-fb0acead": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:04.927237+00:00",
+        "timestamp": "2026-11-11T19:45:52.982264+00:00",
         "title": "Tempestade \"Charles\": congestionamento de trânsito em Lisboa não passou dos 6% esta manhã",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/custo-vida/2026-11-11-preco-do-alojamento-para-estudantes-subiu-288-saiba-o-que-ficou-mais-caro--e-barato--em-outubro-febbe3cb": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:04.833511+00:00",
+        "timestamp": "2026-11-11T19:45:52.859383+00:00",
         "title": "Preço do alojamento para estudantes subiu 28,8%: saiba o que ficou mais caro (e barato) em outubro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-11-11-easyjet-passa-para-as-maos-do-fundo-apollo-e-sai-da-bolsa-de-londres-910e2d2f": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:04.787341+00:00",
+        "timestamp": "2026-11-11T19:45:52.804868+00:00",
         "title": "EasyJet passa para as mãos do fundo Apollo e sai da Bolsa de Londres",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1093,7 +1086,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-11-11-cerealis-dona-das-marcas-nacional-e-milaneza-compra-francesa-panzani-0abce9ba": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:04.743604+00:00",
+        "timestamp": "2026-11-11T19:45:52.716349+00:00",
         "title": "Cerealis, dona das marcas Nacional e Milaneza, compra francesa Panzani",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1121,77 +1114,77 @@
     },
     "https://expresso.pt/premio-nacional-turismo/2026-11-11-premio-nacional-de-turismo-2026-conheca-os-finalistas-na-categoria-turismo-azul-537d2df4": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:04.654727+00:00",
+        "timestamp": "2026-11-11T19:45:52.589941+00:00",
         "title": "Prémio Nacional de Turismo 2026: conheça os finalistas na categoria Turismo Azul",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/italia/2026-11-11-centenas-escolas-em-italia-foram-evacuadas-devido-a-ameacas-de-bomba-49258d3b": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:05.066925+00:00",
+        "timestamp": "2026-11-11T19:45:53.318165+00:00",
         "title": "Centenas escolas em Itália foram evacuadas devido a ameaças de bomba",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/tempestades/2026-11-11-risco-de-inundacoes-urbanas-desce-mas-mantem-se-em-54-municipios-c816c391": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:04.604493+00:00",
+        "timestamp": "2026-11-11T19:45:52.533542+00:00",
         "title": "Risco de inundações urbanas desce, mas mantém-se em 54 municípios",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://visao.pt/edicao-impressa/2026-11-11-edicao-1758/?utm_source=rss&utm_medium=rss&utm_campaign=edicao-1758": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:07.148745+00:00",
+        "timestamp": "2026-11-11T19:45:54.674120+00:00",
         "title": "Edição 1758",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/tempestades/2026-11-11-servico-de-entregas-da-uber-eats-ja-esta-a-funcionar-em-todo-o-pais-11d1b407": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:04.881317+00:00",
+        "timestamp": "2026-11-11T19:45:52.910137+00:00",
         "title": "Serviço de entregas da Uber Eats já está a funcionar em todo o país",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/russia/2026-11-11-embaixador-da-russia-nos-estados-unidos-morre-subitamente-2982f33c": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:04.507648+00:00",
+        "timestamp": "2026-11-11T19:45:52.364648+00:00",
         "title": "Embaixador da Rússia nos Estados Unidos morre subitamente",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/belgica/2026-11-11-belgica-aprova-lei-do-medo-permitidas-buscas-em-casa-de-migrantes-sem-consentimento-71b98158": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:04.557190+00:00",
+        "timestamp": "2026-11-11T19:45:52.457112+00:00",
         "title": "Bélgica aprova \"lei do medo\": permitidas buscas em casa de migrantes sem consentimento",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/detido-pela-psp-com-droga-em-arrecadacao": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:06.977461+00:00",
+        "timestamp": "2026-11-11T19:45:54.989187+00:00",
         "title": "Detido pela PSP com droga em arrecadação",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/tempestades/2026-11-11-situacao-de-alerta-nao-sera-prolongada-mai-recusa-excesso-de-zelo-1d821b8b": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:04.699760+00:00",
+        "timestamp": "2026-11-11T19:45:52.642624+00:00",
         "title": "Situação de alerta não será prolongada: MAI recusa excesso de zelo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/tempestades/2026-11-11-uma-quarta-feira-como-um-domingo-de-inverno-antigamente-tambem-chovia-e-trabalhava-se-agora-ficam-em-casa-40e23b48": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:05.017339+00:00",
+        "timestamp": "2026-11-11T19:45:53.229210+00:00",
         "title": "Uma quarta feira como um domingo de inverno: “Antigamente também chovia e trabalhava-se, agora ficam...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.publico.pt/2026/11/11/edicoes-publico/noticia/garrafeira-familia-campo-ourique-2194609": {
         "category": null,
-        "timestamp": "2026-11-11T19:31:10.911671+00:00",
+        "timestamp": "2026-11-11T19:45:56.508289+00:00",
         "title": "Uma garrafeira de família, em Campo de Ourique",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
