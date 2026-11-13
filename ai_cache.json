@@ -1198,49 +1198,49 @@
     },
     "https://expresso.pt/semanario/primeiro": {
         "category": null,
-        "timestamp": "2026-11-13T17:15:49.968499+00:00",
+        "timestamp": "2026-11-13T17:31:08.303176+00:00",
         "title": "A primeira página do Expresso",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/ideias": {
         "category": null,
-        "timestamp": "2026-11-13T17:15:50.015663+00:00",
+        "timestamp": "2026-11-13T17:31:08.328589+00:00",
         "title": "IDEIAS: Por uma nova política de habitação",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-11-13T17:15:50.060713+00:00",
+        "timestamp": "2026-11-13T17:31:08.353364+00:00",
         "title": "Virgílio Bento, na revista E: Ele teve uma ideia que já vale 4 mil milhões de euros",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/inovacao-e-produtividade/2026-11-12-botijas-esquentadores-satelites-e-submarinos-as-inovacoes-do-inegi-ef21f276": {
         "category": null,
-        "timestamp": "2026-11-13T17:15:50.439739+00:00",
+        "timestamp": "2026-11-13T17:31:11.300835+00:00",
         "title": "Botijas, esquentadores, satélites e submarinos: as inovações do INEGI",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/gente/2026-11-12-politica-a-mesa-6812c755": {
         "category": null,
-        "timestamp": "2026-11-13T17:15:52.713735+00:00",
+        "timestamp": "2026-11-13T17:31:12.297559+00:00",
         "title": "Política à mesa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/a-abrir/a-semana/2026-11-12-destituam-hegseth-pede-manifestante-em-frente-ao-capitolio-dos-estados-unidos-049fe90e": {
         "category": null,
-        "timestamp": "2026-11-13T17:15:52.814835+00:00",
+        "timestamp": "2026-11-13T17:31:12.336079+00:00",
         "title": "“Destituam Hegseth”, pede manifestante em frente ao Capitólio dos Estados Unidos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-11-12-estado.-governo-fecha-porta-a-maiores-aumentos-8e85502c": {
         "category": null,
-        "timestamp": "2026-11-13T17:15:52.762429+00:00",
+        "timestamp": "2026-11-13T17:31:12.370397+00:00",
         "title": "Estado. Governo fecha porta a maiores aumentos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1303,7 +1303,7 @@
     },
     "https://expresso.pt/saude-mental/2026-11-13-ordem-dos-psicologos-defende-habitacao-publica-esta-crise-e-tambem-uma-crise-de-oportunidades-de-vida-0e2c036e": {
         "category": null,
-        "timestamp": "2026-11-13T17:15:49.885426+00:00",
+        "timestamp": "2026-11-13T17:31:08.269904+00:00",
         "title": "Ordem dos Psicólogos defende habitação pública: “Esta crise é também uma crise de oportunidades de v...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1317,7 +1317,7 @@
     },
     "https://expresso.pt/poder-local/2026-11-13-camara-de-lisboa-promete-ceder-terrenos-a-privados-e-cooperativas-para-habitacao-e-vai-fazer-emprestimo-de-290-milhoes-7252bfe4": {
         "category": null,
-        "timestamp": "2026-11-13T17:15:49.815949+00:00",
+        "timestamp": "2026-11-13T17:31:08.240722+00:00",
         "title": "Câmara de Lisboa promete ceder terrenos a privados e cooperativas para habitação e vai fazer emprést...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1331,22 +1331,29 @@
     },
     "https://expresso.pt/poder-local/2026-11-13-video-imt-alimenta-recorde-de-receita-das-autarquias-858-mil-euros-por-dia-em-lisboa-320-no-porto-b4718a0e": {
         "category": null,
-        "timestamp": "2026-11-13T17:15:49.759688+00:00",
+        "timestamp": "2026-11-13T17:31:08.215303+00:00",
         "title": "IMT alimenta recorde de receita das autarquias: 858 mil euros por dia em Lisboa, 320 no Porto",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/presidencia-republica/2026-11-13-seguro-abriu-porta-aos-manifestantes-como-sinal-para-que-o-governo-se-foque-no-problema-da-habitacao-e0cd6484": {
         "category": null,
-        "timestamp": "2026-11-13T17:15:49.694558+00:00",
+        "timestamp": "2026-11-13T17:31:08.187159+00:00",
         "title": "Seguro abriu porta aos manifestantes como sinal para que o Governo se foque no problema da habitação",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-13-russia-atinge-hospital-em-kiev-zelenksy-aponta-para-falhas-no-sistema-starshield-947bb8e4": {
         "category": null,
-        "timestamp": "2026-11-13T17:15:51.114301+00:00",
+        "timestamp": "2026-11-13T17:31:08.155378+00:00",
         "title": "Rússia atinge hospital em Kiev, Zelenksy aponta para falhas no sistema 'Starshield'",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/igai-realiza-diligencias-para-recolher-elementos-necessarios-as-intervencoes-policiais-nas-manifestacoes-pela-habitacao": {
+        "category": null,
+        "timestamp": "2026-11-13T17:31:08.878566+00:00",
+        "title": "IGAI realiza diligências para recolher elementos necessários às intervenções policiais nas manifesta...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
