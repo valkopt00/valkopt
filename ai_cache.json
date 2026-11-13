@@ -55,13 +55,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/presidente-israelita-indigita-oficialmente-gadi-eisenkot-como-primeiro-ministro": {
-        "category": null,
-        "timestamp": "2026-11-08T21:15:46.573244+00:00",
-        "title": "Presidente israelita indigita oficialmente Gadi Eisenkot como primeiro-ministro",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://visao.pt/entrevista-sem-agenda/2026-11-08-nao-devemos-sonhar-com-uma-revolucao-que-nao-existe-porque-nunca-poderemos-faze-la/?utm_source=rss&utm_medium=rss&utm_campaign=nao-devemos-sonhar-com-uma-revolucao-que-nao-existe-porque-nunca-poderemos-faze-la": {
         "category": null,
         "timestamp": "2026-11-09T21:31:05.799601+00:00",
@@ -1191,28 +1184,28 @@
     },
     "https://expresso.pt/semanario/primeiro": {
         "category": null,
-        "timestamp": "2026-11-13T21:01:18.437511+00:00",
+        "timestamp": "2026-11-13T21:15:57.940245+00:00",
         "title": "A primeira página do Expresso",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/ideias": {
         "category": null,
-        "timestamp": "2026-11-13T21:01:18.533520+00:00",
+        "timestamp": "2026-11-13T21:15:58.033028+00:00",
         "title": "IDEIAS: Por uma nova política de habitação",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-11-13T21:01:18.577704+00:00",
+        "timestamp": "2026-11-13T21:15:58.127106+00:00",
         "title": "Virgílio Bento, na revista E: Ele teve uma ideia que já vale 4 mil milhões de euros",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/inovacao-e-produtividade/2026-11-12-botijas-esquentadores-satelites-e-submarinos-as-inovacoes-do-inegi-ef21f276": {
         "category": null,
-        "timestamp": "2026-11-13T21:01:19.296143+00:00",
+        "timestamp": "2026-11-13T21:15:59.877520+00:00",
         "title": "Botijas, esquentadores, satélites e submarinos: as inovações do INEGI",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1296,7 +1289,7 @@
     },
     "https://expresso.pt/saude-mental/2026-11-13-ordem-dos-psicologos-defende-habitacao-publica-esta-crise-e-tambem-uma-crise-de-oportunidades-de-vida-0e2c036e": {
         "category": null,
-        "timestamp": "2026-11-13T21:01:18.135545+00:00",
+        "timestamp": "2026-11-13T21:15:57.858977+00:00",
         "title": "Ordem dos Psicólogos defende habitação pública: “Esta crise é também uma crise de oportunidades de v...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1310,7 +1303,7 @@
     },
     "https://expresso.pt/poder-local/2026-11-13-camara-de-lisboa-promete-ceder-terrenos-a-privados-e-cooperativas-para-habitacao-e-vai-fazer-emprestimo-de-290-milhoes-7252bfe4": {
         "category": null,
-        "timestamp": "2026-11-13T21:01:18.089468+00:00",
+        "timestamp": "2026-11-13T21:15:57.763085+00:00",
         "title": "Câmara de Lisboa promete ceder terrenos a privados e cooperativas para habitação e vai fazer emprést...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1324,7 +1317,7 @@
     },
     "https://expresso.pt/poder-local/2026-11-13-video-imt-alimenta-recorde-de-receita-das-autarquias-858-mil-euros-por-dia-em-lisboa-320-no-porto-b4718a0e": {
         "category": null,
-        "timestamp": "2026-11-13T21:01:18.044439+00:00",
+        "timestamp": "2026-11-13T21:15:57.670051+00:00",
         "title": "IMT alimenta recorde de receita das autarquias: 858 mil euros por dia em Lisboa, 320 no Porto",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1338,7 +1331,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-13-russia-atinge-hospital-em-kiev-zelenksy-aponta-para-falhas-no-sistema-starshield-947bb8e4": {
         "category": null,
-        "timestamp": "2026-11-13T21:01:17.952634+00:00",
+        "timestamp": "2026-11-13T21:15:57.476457+00:00",
         "title": "Rússia atinge hospital em Kiev, Zelenksy aponta para falhas no sistema 'Starshield'",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1373,7 +1366,7 @@
     },
     "https://expresso.pt/tempestades/2026-11-13-depois-de-charles-a-prevencao-continua-a-ser-preferivel-ao-arrependimento-5b397724": {
         "category": null,
-        "timestamp": "2026-11-13T21:01:17.906140+00:00",
+        "timestamp": "2026-11-13T21:15:57.374396+00:00",
         "title": "Depois de Charles, a prevenção \"continua a ser preferível ao arrependimento\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1387,7 +1380,7 @@
     },
     "https://expresso.pt/presidencia-republica/2026-11-13-habitacao-seguro-quer-mobilizar-todos-os-atores-e-abriu-porta-aos-manifestantes-para-dar-sinal-ao-governo-e0cd6484": {
         "category": null,
-        "timestamp": "2026-11-13T21:01:17.998501+00:00",
+        "timestamp": "2026-11-13T21:15:57.576556+00:00",
         "title": "Habitação: Seguro quer \"mobilizar todos os atores\" e abriu porta aos manifestantes para dar \"sinal\" ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1415,21 +1408,21 @@
     },
     "https://expresso.pt/big-tech/2026-11-13-falha-da-microsoft-empresas-podem-ser-compensadas-pelos-prejuizos--10-perguntas-e-respostas-806dd29a": {
         "category": null,
-        "timestamp": "2026-11-13T21:01:17.853479+00:00",
+        "timestamp": "2026-11-13T21:15:57.280838+00:00",
         "title": "Falha da Microsoft: empresas podem ser compensadas pelos prejuízos? 10 perguntas e respostas",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/autoridades-suspendem-buscas-sem-encontrar-homem-desaparecido-em-tavira": {
         "category": null,
-        "timestamp": "2026-11-13T21:01:18.712176+00:00",
+        "timestamp": "2026-11-13T21:15:59.644263+00:00",
         "title": "Autoridades suspendem buscas sem encontrar homem desaparecido em Tavira",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-11-13-be-pcp-e-livre-atacam-orcamento-de-moedas-nao-e-o-orcamento-municipal-que-lisboa-precisa-c6d06a5b": {
         "category": null,
-        "timestamp": "2026-11-13T21:01:17.777392+00:00",
+        "timestamp": "2026-11-13T21:15:57.186644+00:00",
         "title": "BE, PCP e Livre atacam Orçamento de Moedas: “Não é o orçamento municipal que Lisboa precisa”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
