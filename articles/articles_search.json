@@ -1,6 +1,21 @@
 {
     "Últimas": [
         {
+            "link": "https://www.record.pt/internacional/competicoes-de-selecoes/liga-das-nacoes/detalhe/selecao-nacional-treinou-em-braga-titulares-frente-a-dinamarca-fizeram-trabalho-de-recuperacao",
+            "normalized_title": "selecao nacional treinou em braga titulares frente a dinamarca fizeram trabalho de recuperacao",
+            "normalized_description": "portugal volta a entrar em campo na terca feira diante do pais de gales"
+        },
+        {
+            "link": "https://www.cmjornal.pt/tecnologia/detalhe/hacked-by-jose-socrates-site-da-asae-alvo-de-ataque-informatico",
+            "normalized_title": "hacked by jose socrates site da asae alvo de ataque informatico",
+            "normalized_description": "demasiadas leis para quem nao tem nada demasiada liberdade para quem rouba milhoes podia ler se na mensagem"
+        },
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/3084448/filipinas-apela-a-cooperacao-energetica-regional-devido-a-crise-no-irao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "filipinas apela a cooperacao energetica regional devido a crise no irao",
+            "normalized_description": ""
+        },
+        {
             "link": "https://www.noticiasaominuto.com/mundo/3084441/irma-do-rei-juan-carlos-internada-em-unidade-de-cuidados-intensivos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "irma do rei juan carlos internada em unidade de cuidados intensivos",
             "normalized_description": ""
@@ -214,6 +229,11 @@
             "link": "https://tek.sapo.pt/noticias/ciencia/artigos/voyager-1-esta-prestes-a-atingir-distancia-nunca-antes-alcancada-por-um-objeto-construido-por-humanos/",
             "normalized_title": "voyager 1 esta prestes a atingir distancia nunca antes alcancada por um objeto construido por humanos",
             "normalized_description": "quase 50 anos depois de ter partido da terra a sonda da nasa vai tornar se o primeiro objeto humano a ficar a um dia luz do nosso planeta para"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/desporto/derrota-historica-sobrepos-se-a-homenagem-a-ronaldo_v1779311",
+            "normalized_title": "derrota historica sobrepos se a homenagem a ronaldo",
+            "normalized_description": "o jogo em braga era para ficar marcado pela homenagem a ronaldo mas a derrota historica sobrepos se a tudo"
         },
         {
             "link": "https://www.autosport.pt/ralis/c-acores-de-ralis-pedro-camara-estreia-se-nas-vitorias-absolutas-em-angra/",
@@ -1734,11 +1754,6 @@
             "link": "https://www.noticiasaominuto.com/desporto/3084343/dias-palhinha-e-bernardo-dispensados-do-estagio-de-portugal#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "dias palhinha e bernardo dispensados do estagio de portugal",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/gil-vicente/detalhe/soyer-soma-nova-internacionalizacao-pelo-peru",
-            "normalized_title": "soyer soma nova internacionalizacao pelo peru",
-            "normalized_description": "avancado em destaque"
         }
     ],
     "Nacional": [
@@ -5981,24 +5996,14 @@
             "link": "https://www.cmjornal.pt/portugal/detalhe/pj-deteve-dois-homens-no-aeroporto-de-lisboa-com-34-quilos-de-folha-de-canabis",
             "normalized_title": "pj deteve dois homens no aeroporto de lisboa com 34 quilos de folha de canabis",
             "normalized_description": "dois detidos acrescentou a pj sao europeus foram presentes a primeiro interrogatorio e acabaram por ficar com a medida de coacao mais gravosa"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/pais/alentejo-pede-mais-servico-publico-de-proximidade_v1778131",
-            "normalized_title": "alentejo pede mais servico publico de proximidade",
-            "normalized_description": "o conselho de opiniao da rtp esta a ouvir representantes de varios setores de atividade nas regioes do pais no alentejo foi reforcada a ideia de"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/pais/erc-defende-um-quadro-legislativo-ajustado-aos-desafios-do-setor_v1778130",
-            "normalized_title": "erc defende um quadro legislativo ajustado aos desafios do setor",
-            "normalized_description": "a presidente da entidade reguladora para a comunicacao social defende um quadro legislativo ajustado aos desafios do setor numa conferencia"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/pais/erc-defende-quadro-legislativo-ajustado-aos-desafios-do-setor_v1778130",
-            "normalized_title": "erc defende quadro legislativo ajustado aos desafios do setor",
-            "normalized_description": "numa conferencia dedicada as novas fronteiras da regulacao em lisboa a presidente da entidade reguladora para a comunicacao social defendeu"
         }
     ],
     "Mundo": [
+        {
+            "link": "https://www.noticiasaominuto.com/mundo/3084448/filipinas-apela-a-cooperacao-energetica-regional-devido-a-crise-no-irao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+            "normalized_title": "filipinas apela a cooperacao energetica regional devido a crise no irao",
+            "normalized_description": ""
+        },
         {
             "link": "https://www.cmjornal.pt/mundo/detalhe/descarrilamento-de-comboio-de-mercadorias-corta-linha-que-liga-madrid-a-avila-em-espanha",
             "normalized_title": "descarrilamento de comboio de mercadorias corta linha que liga madrid a avila em espanha",
@@ -11258,14 +11263,14 @@
             "link": "https://www.rtp.pt/noticias/mundo/mne-lamenta-ligeireza-de-rutte-em-que-acusa-portugal-de-considerar-guerra-algo-distante_n1778132",
             "normalized_title": "mne lamenta ligeireza de rutte em que acusa portugal de considerar guerra algo distante",
             "normalized_description": "o ministerio dos negocios estrangeiros portugues lamentou hoje a ligeireza de comentarios do secretario geral da nato que argumentou que portugal"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/mundo/3081662/ucrania-e-russia-terminam-primeiro-dia-de-negociacoes-nos-emirados#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "ucrania e russia terminam primeiro dia de negociacoes nos emirados",
-            "normalized_description": ""
         }
     ],
     "Desporto": [
+        {
+            "link": "https://www.record.pt/internacional/competicoes-de-selecoes/liga-das-nacoes/detalhe/selecao-nacional-treinou-em-braga-titulares-frente-a-dinamarca-fizeram-trabalho-de-recuperacao",
+            "normalized_title": "selecao nacional treinou em braga titulares frente a dinamarca fizeram trabalho de recuperacao",
+            "normalized_description": "portugal volta a entrar em campo na terca feira diante do pais de gales"
+        },
         {
             "link": "https://www.autosport.pt/ralis/jaspar-vaher-o-proximo-tanak-no-wrc/",
             "normalized_title": "jaspar vaher o proximo tanak no wrc",
@@ -11325,6 +11330,11 @@
             "link": "https://www.zerozero.pt/noticias/cd-tondela-2-0-farense-ao-minuto-golo-espanhol-na-beira-alta/1260887",
             "normalized_title": "cd tondela 2 0 farense ao minuto golo espanhol na beira alta",
             "normalized_description": "golo cd tondela xabi huarte marca acompanhe aqui o cd tondela x farense em direto e ao minuto com todas as estatisticas e as curiosidades mais"
+        },
+        {
+            "link": "https://www.rtp.pt/noticias/desporto/derrota-historica-sobrepos-se-a-homenagem-a-ronaldo_v1779311",
+            "normalized_title": "derrota historica sobrepos se a homenagem a ronaldo",
+            "normalized_description": "o jogo em braga era para ficar marcado pela homenagem a ronaldo mas a derrota historica sobrepos se a tudo"
         },
         {
             "link": "https://www.autosport.pt/ralis/c-acores-de-ralis-pedro-camara-estreia-se-nas-vitorias-absolutas-em-angra/",
@@ -20760,26 +20770,6 @@
             "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/ac--viseu/detalhe/ewerton-bate-diogo-costa-e-e-eleito-guarda-redes-de-setembro-e-outubro-da-liga-betclic",
             "normalized_title": "ewerton bate diogo costa e e eleito guarda redes de setembro e outubro da liga betclic",
             "normalized_description": "guardiao do academico viseu eleito pelos principais treinadores da competicao"
-        },
-        {
-            "link": "https://www.record.pt/fora-de-campo/detalhe/rui-pinto-em-negociacoes-com-o-reino-unido-sobre-colaboracao-na-investigacao-de-crimes-desportivos",
-            "normalized_title": "rui pinto em negociacoes com o reino unido sobre colaboracao na investigacao de crimes desportivos",
-            "normalized_description": "o advogado do hacker confirmou que autoridades britanicas entraram em contacto com o portugues"
-        },
-        {
-            "link": "https://www.zerozero.pt/noticias/sub-21-tiago-parente-chamado-para-colmatar-lesao-de-rodrigo-rego/1258019",
-            "normalized_title": "sub 21 tiago parente chamado para colmatar lesao de rodrigo rego",
-            "normalized_description": "a federacao portuguesa de futebol fpf anunciou esta terca feira mais uma alteracao na convocatoria da selecao nacional de sub 21 tiago parente"
-        },
-        {
-            "link": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/prestianni-torna-se-gigante-espanhois-rendem-se-ao-extremo-do-benfica-e-dao-razao-a-mourinho",
-            "normalized_title": "prestianni torna se gigante espanhois rendem se ao extremo do benfica e dao razao a mourinho",
-            "normalized_description": "exibicoes do internacional argentino nao passam despercebidas la fora"
-        },
-        {
-            "link": "https://www.record.pt/internacional/paises/arabia-saudita/detalhe/fabiano-flora-deixa-comando-tecnico-do-al-okhdood-aquilo-ja-estava-perigoso",
-            "normalized_title": "fabiano flora deixa comando tecnico do al okhdood aquilo ja estava perigoso",
-            "normalized_description": "tecnico portugues acertou rescisao amigavel com o clube da arabia saudita por razoes de seguranca"
         }
     ],
     "Economia": [
@@ -26382,16 +26372,6 @@
             "link": "https://expresso.pt/iniciativaseprodutos/projetos-expresso/2026-11-10-mika-hakkinen-ser-calmo-nao-significa-ser-lento-1b0de1dd",
             "normalized_title": "mika hakkinen ser calmo nao significa ser lento",
             "normalized_description": "em entrevista o ex piloto finlandes de formula 1 fala sobre a importancia da clareza e calma no processo de tomada de decisoes e tambem de"
-        },
-        {
-            "link": "https://www.jornaldenegocios.pt/economia/mundo/americas/detalhe/inflacao-nos-eua-sobe-0-4-em-outubro-acima-do-esperado",
-            "normalized_title": "inflacao nos eua sobe 0 4 em outubro acima do esperado",
-            "normalized_description": "a inflacao na maior economia mundial avancou 0 4 em outubro face ao mes anterior um valor acima dos 0 3 esperados pelos economistas"
-        },
-        {
-            "link": "https://www.noticiasaominuto.com/economia/3081666/ocde-taxa-de-desemprego-mantem-se-em-5-em-setembro#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-            "normalized_title": "ocde taxa de desemprego mantem se em 5 em setembro",
-            "normalized_description": ""
         }
     ],
     "Cultura": [
@@ -27629,19 +27609,14 @@
             "link": "https://www.noticiasaominuto.com/cultura/3081672/luis-trigacheiro-e-ana-bacalhau-atuam-na-feira-do-mel-e-da-castanha#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "luis trigacheiro e ana bacalhau atuam na feira do mel e da castanha",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.publico.pt/2026/11/10/culturaipsilon/noticia/museu-nacional-musica-incorpora-guitarra-phil-mendrix-dedica-mostra-musico-2194425",
-            "normalized_title": "museu nacional de musica incorpora guitarra de phil mendrix e dedica mostra a musico",
-            "normalized_description": "este sabado e inaugurada no museu em mafra uma exposicao fotografica dedicada ao musico a assinalar a ocasiao havera um momento musical"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/cultura/negociacoes-ucrania_v1778127",
-            "normalized_title": "negociacoes ucrania",
-            "normalized_description": ""
         }
     ],
     "Ciência e Tech": [
+        {
+            "link": "https://www.cmjornal.pt/tecnologia/detalhe/hacked-by-jose-socrates-site-da-asae-alvo-de-ataque-informatico",
+            "normalized_title": "hacked by jose socrates site da asae alvo de ataque informatico",
+            "normalized_description": "demasiadas leis para quem nao tem nada demasiada liberdade para quem rouba milhoes podia ler se na mensagem"
+        },
         {
             "link": "https://pplware.sapo.pt/informacao/asae-ataque-informatico-jose-socrates/",
             "normalized_title": "asae alvo de ataque informatico hackers deixam mensagem com nome de jose socrates",
@@ -31328,11 +31303,6 @@
             "link": "https://www.noticiasaominuto.com/fama/3081679/david-walliams-acusado-de-explorar-fama-para-relacoes-sexuais-com-jovens#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "david walliams acusado de explorar fama para relacoes sexuais com jovens",
             "normalized_description": ""
-        },
-        {
-            "link": "https://caras.pt/realeza/2026-11-10-o-casamento-imperial-do-ano-principe-rafael-de-orleans-e-braganca-revela-os-detalhes-da-boda-em-florenca/",
-            "normalized_title": "o casamento imperial do ano principe rafael de orleans e braganca revela os detalhes da boda em florenca",
-            "normalized_description": "a poucas semanas do grande dia na cidade do lys o noivo detalha a cerimonia em familia e o regresso faseado as origens no brasil o post o casamento"
         }
     ],
     "Sociedade": [
@@ -33175,11 +33145,6 @@
             "link": "https://www.publico.pt/2026/11/10/sociedade/noticia/tempestade-charles-encerra-tuneis-lisboa-coloca-web-summit-duvida-2194442",
             "normalized_title": "tempestade charles encerra tuneis em lisboa e coloca web summit em duvida",
             "normalized_description": "autarca lisboeta anunciou medidas para mitigar os efeitos do mau tempo carlos moedas recomendou se evitem deslocacoes e se de preferencia ao"
-        },
-        {
-            "link": "https://www.publico.pt/2026/11/10/sociedade/noticia/ministerio-publico-decreta-segredo-justica-processo-acampados-porto-2194437",
-            "normalized_title": "ministerio publico decreta segredo de justica no processo dos acampados do porto",
-            "normalized_description": "advogados estranham medida num caso de mera desobediencia mecanismo costuma ser usado em investigacoes que exigem secretismo ou que visam figuras"
         }
     ],
     "Política": [
@@ -34407,11 +34372,6 @@
             "link": "https://www.noticiasaominuto.com/politica/3081655/pcp-elogia-prevencao-mas-alerta-que-trabalhadores-podem-perder-rendimento#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
             "normalized_title": "pcp elogia prevencao mas alerta que trabalhadores podem perder rendimento",
             "normalized_description": ""
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/politica/lider-do-ps-fala-em-quarta-morte-em-portimao-e-responsabiliza-montenegro-por-escolha-de-decisores_n1778123",
-            "normalized_title": "lider do ps fala em quarta morte em portimao e responsabiliza montenegro por escolha de decisores",
-            "normalized_description": "o secretario geral do ps afirmou esta terca feira ter noticia de que existiu uma quarta morte no hospital de portimao e responsabilizou diretamente o"
         }
     ],
     "Multimédia": [
@@ -36609,11 +36569,6 @@
             "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/veja-o-percurso-da-tempestade-charles-e-por-onde-deve-entrar-em-portugal",
             "normalized_title": "veja o percurso da tempestade charles e por onde deve entrar em portugal",
             "normalized_description": "a tempestade charles chega a portugal continental esta quarta feira e esta previsto que a entrada no pais aconteca na area entre setubal e a figueira"
-        },
-        {
-            "link": "https://www.rtp.pt/noticias/noticiario-antena1/14h-lisboa-encerra-espacos-publicos-a-meia-noite-devido-ao-mau-tempo_a1_1778128",
-            "normalized_title": "14h lisboa encerra espacos publicos a meia noite devido ao mau tempo",
-            "normalized_description": ""
         }
     ],
     "Opinião": [
@@ -38518,16 +38473,6 @@
             "link": "https://pt.ign.com/grand-theft-auto-vi/164287/gta-6-grand-theft-auto-6-official-pre-load-now-trailer",
             "normalized_title": "gta 6 grand theft auto 6 official pre load now trailer",
             "normalized_description": "don t miss the pre load now trailer for gta 6 grand theft auto 6 the next installment in the legendary open world action adventure game developed"
-        },
-        {
-            "link": "https://pt.ign.com/the-legend-of-zelda-ocarina-of-time-2026/164283/the-legend-of-zelda-ocarina-of-time-o-novo-botao-de-salto-esta-a-confundir-jogadores",
-            "normalized_title": "the legend of zelda ocarina of time o novo botao de salto esta a confundir jogadores",
-            "normalized_description": "lembrem se e possivel saltar o novo botao de salto do remake de ocarina of time esta a fazer jogadores esquecerem se de saltar"
-        },
-        {
-            "link": "https://pt.ign.com/man-of-tomorrow/164281/james-gunn-teria-planeado-franquia-justice-league-a-partir-de-superman",
-            "normalized_title": "james gunn teria planeado franquia justice league a partir de superman",
-            "normalized_description": "um novo superman a cada dois anos gunn planeava um novo filme do superman de dois em dois anos culminando com a juncao da liga da justica"
         }
     ],
     "Outras Notícias": [
