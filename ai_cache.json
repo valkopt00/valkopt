@@ -1,11 +1,4 @@
 {
-    "https://multimedia.expresso.pt/tempestadecharles": {
-        "category": null,
-        "timestamp": "2026-11-11T15:31:09.781313+00:00",
-        "title": "Tempestade Charles: o mapa para ver a localização das ocorrências em tempo real",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/tempestades/2026-11-11-madeira-passou-pelo-charles-sem-problemas-de-maior--mas-as-rajadas-chegaram-aos-130-kms-h--98a408d0": {
         "category": null,
         "timestamp": "2026-11-11T16:31:07.748849+00:00",
@@ -24,13 +17,6 @@
         "category": null,
         "timestamp": "2026-11-11T18:15:53.100203+00:00",
         "title": "O preço da inação, a falta de prevenção na Saúde e os cargos que devem sobreviver ao ciclo político",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/tempestades/2026-11-11-mau-tempo-depressao-charles-desviou-trajetoria-na-madeira-o-pior-ja-passou--mas-vento-chegou-aos-130-kms-h--27a81536": {
-        "category": null,
-        "timestamp": "2026-11-11T15:31:09.841999+00:00",
-        "title": "Depressão Charles: Proteção Civil alerta que pico do vento e chuva será entre as 15h e as 18h",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -76,13 +62,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/italia/2026-11-11-mais-de-300-escolas-em-italia-foram-evacuadas-devido-a-ameacas-de-bomba-49258d3b": {
-        "category": null,
-        "timestamp": "2026-11-11T15:31:07.914356+00:00",
-        "title": "Mais de 300 escolas em Itália foram evacuadas devido a ameaças de bomba",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/tempestades/2026-11-11-tempestade-charles-trouxe-mais-chuva-a-madeira-do-que-em-2010-mas-sem-ocorrencias-graves-5eda2a45": {
         "category": null,
         "timestamp": "2026-11-11T19:45:53.681086+00:00",
@@ -94,13 +73,6 @@
         "category": null,
         "timestamp": "2026-11-11T18:15:52.189275+00:00",
         "title": "Uma quarta feira de manhã como um domingo de inverno: “Antigamente também chovia e trabalhava-se, ag...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.publico.pt/2026/11/11/edicoes-publico/noticia/espumantes-vinhos-gastronomicos-desconstrucao-ideia-2194575": {
-        "category": null,
-        "timestamp": "2026-11-11T15:31:13.973100+00:00",
-        "title": "Espumantes, vinhos gastronómicos e a desconstrução de uma ideia de",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -1044,7 +1016,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-15-zelensky-pede-levantamento-de-restricoes-ao-starshield-para-proteger-rede-eletrica-ucraniana-dos-ataques-russos-a8c42989": {
         "category": null,
-        "timestamp": "2026-11-16T15:31:00.391933+00:00",
+        "timestamp": "2026-11-16T15:45:51.966429+00:00",
         "title": "Zelensky pede levantamento de restrições ao Starshield para proteger rede elétrica ucraniana dos ata...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1079,7 +1051,7 @@
     },
     "https://expresso.pt/poder-local/2026-11-15-mercado-de-natal-do-rossio-proibe-ajuntamentos-e-que-visitantes-se-deitem-no-chao-junta-de-freguesia-mandou-retirar-normas-44606e83": {
         "category": null,
-        "timestamp": "2026-11-16T15:31:00.309552+00:00",
+        "timestamp": "2026-11-16T15:45:51.917127+00:00",
         "title": "Mercado de Natal do Rossio proíbe ajuntamentos e que visitantes se deitem no chão, Junta de Freguesi...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1093,7 +1065,7 @@
     },
     "https://visao.pt/entrevista-sem-agenda/2026-11-15-a-negacao-sobre-gaza-a-negacao-do-aquecimento-global-seria-interessante-perceber-por-que-razao-o-ser-humano-recorre-frequentemente-a-negacao-tenta-proteger-se-de-que/?utm_source=rss&utm_medium=rss&utm_campaign=a-negacao-sobre-gaza-a-negacao-do-aquecimento-global-seria-interessante-perceber-por-que-razao-o-ser-humano-recorre-frequentemente-a-negacao-tenta-proteger-se-de-que": {
         "category": null,
-        "timestamp": "2026-11-16T15:31:01.510751+00:00",
+        "timestamp": "2026-11-16T15:45:52.690366+00:00",
         "title": "“A negação sobre Gaza, a negação do aquecimento global… Seria interessante perceber por que razão o ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1114,21 +1086,21 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-15-o-ps-nao-e-a-casa-de-democratas-cristaos-melo-ataca-ex-dirigentes-do-cds-presentes-nos-estados-gerais-e-repudia-turba-das-acampadas-5ae8e955": {
         "category": null,
-        "timestamp": "2026-11-16T15:31:00.248631+00:00",
+        "timestamp": "2026-11-16T15:45:51.868443+00:00",
         "title": "Nuno Melo ataca ex-dirigentes do CDS que se aproximaram do PS e repudia “turba” das acampadas que qu...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-11-15-orcamento-do-estado-ventura-admite-aprovar-propostas-do-ps-relacionadas-com-a-descida-de-impostos-nos-combustiveis-b93c33b2": {
         "category": null,
-        "timestamp": "2026-11-16T15:31:00.171566+00:00",
+        "timestamp": "2026-11-16T15:45:51.818101+00:00",
         "title": "Orçamento do Estado: Ventura admite aprovar propostas do PS relacionadas com a descida de impostos n...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-15-russia-alerta-para-possivel-regresso-dos-ensaios-nucleares-e-ameaca-responder-ede637b2": {
         "category": null,
-        "timestamp": "2026-11-16T15:31:00.099481+00:00",
+        "timestamp": "2026-11-16T15:45:51.769533+00:00",
         "title": "Rússia alerta para possível regresso dos ensaios nucleares e ameaça responder",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1149,7 +1121,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-15-video-pensoes-pedro-passos-coelho-diz-que-se-perderam-10-anos-ventura-insiste-na-descida-da-idade-da-reforma-04baf808": {
         "category": null,
-        "timestamp": "2026-11-16T15:31:00.026856+00:00",
+        "timestamp": "2026-11-16T15:45:51.714806+00:00",
         "title": "Pensões: Pedro Passos Coelho diz que se perderam 10 anos, Ventura insiste na descida da idade da ref...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1163,14 +1135,14 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-16-russia-diz-ter-abatido-1.336-drones-ucranianos-num-dos-maiores-ataques-da-guerra-3e3b66ee": {
         "category": null,
-        "timestamp": "2026-11-16T15:30:59.960646+00:00",
+        "timestamp": "2026-11-16T15:45:51.664392+00:00",
         "title": "Rússia diz ter abatido 1.336 drones ucranianos num dos maiores ataques da guerra",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-16-kaja-kallas-pede-a-ue-que-nao-ceda-enquanto-russia-mantiver-exigencias-absurdas-fdee5e6b": {
         "category": null,
-        "timestamp": "2026-11-16T15:30:59.906596+00:00",
+        "timestamp": "2026-11-16T15:45:51.612151+00:00",
         "title": "Kaja Kallas pede à UE que não ceda enquanto Rússia mantiver “exigências absurdas”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1191,7 +1163,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-16-rangel-diz-haver-consenso-na-ue-para-novo-emprestimo-de-45-mil-milhoes-a-ucrania-7d6ee37c": {
         "category": null,
-        "timestamp": "2026-11-16T15:31:02.561905+00:00",
+        "timestamp": "2026-11-16T15:45:52.867362+00:00",
         "title": "Rangel diz haver consenso na UE para novo empréstimo de €45 mil milhões à Ucrânia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1205,14 +1177,14 @@
     },
     "https://expresso.pt/nato/2026-11-16-paulo-rangel-da-o-episodio-com-rutte-por-completamente-ultrapassado-e-garante-que-nao-ha-qualquer-contencioso-com-a-nato-d8e5b65f": {
         "category": null,
-        "timestamp": "2026-11-16T15:31:02.482656+00:00",
+        "timestamp": "2026-11-16T15:45:52.812628+00:00",
         "title": "Paulo Rangel dá o episódio com Rutte por \"completamente ultrapassado\" e garante que não há “qualquer...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/minuta-de-texto-final-da-cop31-propoe-acelerar-eliminacao-dos-combustiveis-fosseis": {
         "category": null,
-        "timestamp": "2026-11-16T15:31:00.948354+00:00",
+        "timestamp": "2026-11-16T15:45:52.516382+00:00",
         "title": "Minuta de texto final da COP31 propõe acelerar eliminação dos combustíveis fósseis",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
