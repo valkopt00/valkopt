@@ -988,7 +988,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-11-16-start-up-portuguesa-quer-tornar-drones-quase-invisiveis-9a870f4f": {
         "category": null,
-        "timestamp": "2026-11-17T12:15:51.388235+00:00",
+        "timestamp": "2026-11-17T12:31:09.823404+00:00",
         "title": "Start-up portuguesa quer tornar drones quase invisíveis",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1002,21 +1002,21 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-16-um-f-e-um-ramo-de-oliveira-o-novo-partido-de-isaltino-morais-ja-tem-simbolo-470f4ee4": {
         "category": null,
-        "timestamp": "2026-11-17T12:15:51.345096+00:00",
+        "timestamp": "2026-11-17T12:31:09.779837+00:00",
         "title": "Um \"F\" e um ramo de oliveira: o novo partido de Isaltino Morais já tem símbolo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-11-16-mota-engil-assina-no-mexico-contrato-de-11-mil-milhoes-um-dos-seus-maiores-negocios-de-sempre-8f6623be": {
         "category": null,
-        "timestamp": "2026-11-17T12:15:51.304318+00:00",
+        "timestamp": "2026-11-17T12:31:09.737019+00:00",
         "title": "Mota-Engil assina no México contrato de €1,1 mil milhões, um dos seus maiores negócios de sempre",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/presidencia-republica/2026-11-16-antonio-jose-seguro-defende-debate-sobre-a-interferencia-economica-no-jornalismo-b5e33f02": {
         "category": null,
-        "timestamp": "2026-11-17T12:15:51.261441+00:00",
+        "timestamp": "2026-11-17T12:31:09.694811+00:00",
         "title": "António José Seguro defende debate sobre a interferência económica no jornalismo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1037,7 +1037,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-17-novos-ataques-russos-obrigam-ao-encerramento-de-pontes-estrategicas-em-kiev-41de1710": {
         "category": null,
-        "timestamp": "2026-11-17T12:15:49.950853+00:00",
+        "timestamp": "2026-11-17T12:31:07.977456+00:00",
         "title": "Novos ataques russos obrigam ao encerramento de pontes estratégicas em Kiev",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1058,8 +1058,22 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-17-zelensky-celebra-operacao-sem-precedentes-contra-ponte-que-liga-crimeia-a-russia-7fa0943b": {
         "category": null,
-        "timestamp": "2026-11-17T12:15:49.896623+00:00",
+        "timestamp": "2026-11-17T12:31:07.851269+00:00",
         "title": "Zelensky celebra “operação sem precedentes” contra ponte que liga Crimeia à Rússia",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/hospedes-em-alojamento-turistico-sobem-2-para-25-8-milhoes-ate-setembro": {
+        "category": null,
+        "timestamp": "2026-11-17T12:31:09.287271+00:00",
+        "title": "Hóspedes em alojamento turístico sobem 2% para 25,8 milhões até setembro",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/cm-ao-minuto/detalhe/queda-de-baileu-em-setubal-fere-dois-trabalhadores": {
+        "category": null,
+        "timestamp": "2026-11-17T12:31:09.328906+00:00",
+        "title": "Queda de bailéu em Setúbal fere dois trabalhadores",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
