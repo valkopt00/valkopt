@@ -55,13 +55,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/rtpeuropa/comite-das-regioes-europeu-discute-o-futuro-dos-ucranianos-deslocados-na-ue_v1778646": {
-        "category": null,
-        "timestamp": "2026-11-12T13:15:50.680272+00:00",
-        "title": "Comité das Regiões Europeu discute o futuro dos ucranianos deslocados na UE",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.publico.pt/2026/11/12/edicoes-publico/noticia/vinha-a4uatro-vinho-risco-arquitecto-2194687": {
         "category": null,
         "timestamp": "2026-11-12T16:01:19.028576+00:00",
@@ -967,7 +960,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-11-16-start-up-portuguesa-quer-tornar-drones-quase-invisiveis-9a870f4f": {
         "category": null,
-        "timestamp": "2026-11-17T13:15:51.404213+00:00",
+        "timestamp": "2026-11-17T13:31:07.237985+00:00",
         "title": "Start-up portuguesa quer tornar drones quase invisíveis",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -981,21 +974,21 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-16-um-f-e-um-ramo-de-oliveira-o-novo-partido-de-isaltino-morais-ja-tem-simbolo-470f4ee4": {
         "category": null,
-        "timestamp": "2026-11-17T13:15:51.353326+00:00",
+        "timestamp": "2026-11-17T13:31:07.186781+00:00",
         "title": "Um \"F\" e um ramo de oliveira: o novo partido de Isaltino Morais já tem símbolo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-11-16-mota-engil-assina-no-mexico-contrato-de-11-mil-milhoes-um-dos-seus-maiores-negocios-de-sempre-8f6623be": {
         "category": null,
-        "timestamp": "2026-11-17T13:15:51.298792+00:00",
+        "timestamp": "2026-11-17T13:31:07.133964+00:00",
         "title": "Mota-Engil assina no México contrato de €1,1 mil milhões, um dos seus maiores negócios de sempre",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/presidencia-republica/2026-11-16-antonio-jose-seguro-defende-debate-sobre-a-interferencia-economica-no-jornalismo-b5e33f02": {
         "category": null,
-        "timestamp": "2026-11-17T13:15:51.252682+00:00",
+        "timestamp": "2026-11-17T13:31:07.082631+00:00",
         "title": "António José Seguro defende debate sobre a interferência económica no jornalismo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1016,7 +1009,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-17-novos-ataques-russos-obrigam-ao-encerramento-de-pontes-estrategicas-em-kiev-41de1710": {
         "category": null,
-        "timestamp": "2026-11-17T13:15:49.477305+00:00",
+        "timestamp": "2026-11-17T13:31:03.948658+00:00",
         "title": "Novos ataques russos obrigam ao encerramento de pontes estratégicas em Kiev",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1037,7 +1030,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-17-zelensky-celebra-operacao-sem-precedentes-contra-ponte-que-liga-crimeia-a-russia-7fa0943b": {
         "category": null,
-        "timestamp": "2026-11-17T13:15:49.432953+00:00",
+        "timestamp": "2026-11-17T13:31:03.893195+00:00",
         "title": "Zelensky celebra “operação sem precedentes” contra ponte que liga Crimeia à Rússia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1058,8 +1051,15 @@
     },
     "https://expresso.pt/empresas-negocios/2026-11-17-sonae-sierra-investe-35-milhoes-na-renovacao-do-gaiashopping-f8336fe7": {
         "category": null,
-        "timestamp": "2026-11-17T13:15:49.722809+00:00",
+        "timestamp": "2026-11-17T13:31:04.120426+00:00",
         "title": "Sonae Sierra investe €35 milhões na renovação do GaiaShopping",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/empresas-negocios/2026-11-17-fuga-de-15-milhoes-de-documentos-expoe-falhas-sistemicas-no-deutsche-bank-e-coloca-lideranca-sob-pressao-ac3f4d58": {
+        "category": null,
+        "timestamp": "2026-11-17T13:31:04.074934+00:00",
+        "title": "Fuga de 15 milhões de documentos expõe falhas sistémicas no Deutsche Bank e coloca liderança sob pre...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
