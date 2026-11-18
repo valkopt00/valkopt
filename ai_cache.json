@@ -76,13 +76,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/semanario/economia": {
-        "category": null,
-        "timestamp": "2026-11-13T08:15:58.187652+00:00",
-        "title": "A 1ª página do Expresso Economia",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.rtp.pt/noticias/ligadasnacoes/inglaterra-nos-quartos-da-liga-das-nacoes_d1778882": {
         "category": null,
         "timestamp": "2026-11-13T13:45:52.849202+00:00",
@@ -897,35 +890,35 @@
     },
     "https://expresso.pt/empresas-negocios/2026-11-17-crise-esta-a-mudar-o-luxo-gucci-baixa-precos-para-reconquistar-clientes-louis-vuitton-resiste-e-aposta-na-exclusividade-20794ddb": {
         "category": null,
-        "timestamp": "2026-11-18T08:15:57.515960+00:00",
+        "timestamp": "2026-11-18T08:31:07.136512+00:00",
         "title": "Crise está a mudar o luxo: Gucci baixa preços para reconquistar clientes, Louis Vuitton resiste e ap...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-11-17-nao-estamos-disponiveis-para-medidas-de-fantochada-ventura-exige-que-ps-repense-propostas-sobre-combustiveis-e-iva-zero-2e840027-1": {
         "category": null,
-        "timestamp": "2026-11-18T08:15:57.563552+00:00",
+        "timestamp": "2026-11-18T08:31:07.166888+00:00",
         "title": "\"Não estamos disponíveis para medidas de fantochada”: Ventura exige que PS “repense” propostas sobre...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/media-comunicacao/2026-11-17-turquia-assume-controlo-de-televisao-proxima-da-oposicao-e-detem-quatro-dirigentes-a7639cbe": {
         "category": null,
-        "timestamp": "2026-11-18T08:15:57.616636+00:00",
+        "timestamp": "2026-11-18T08:31:07.201489+00:00",
         "title": "Turquia assume controlo de televisão próxima da oposição e detém quatro dirigentes",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/presidencia-republica/2026-11-17-a-saude-e-um-investimento-nao-uma-despesa-seguro-insiste-em-pacto-estrategico-para-garantir-acesso-atempado-a-cuidados-b3344129": {
         "category": null,
-        "timestamp": "2026-11-18T08:15:57.469334+00:00",
+        "timestamp": "2026-11-18T08:31:07.109905+00:00",
         "title": "\"A saúde é um investimento, não uma despesa\": Seguro insiste em \"pacto estratégico\" para garantir ac...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/premios-do-imobiliario/2026-11-17-video-premios-do-imobiliario-2026-em-direto-acompanhe-a-gala-e-conheca-os-vencedores-c2645034": {
         "category": null,
-        "timestamp": "2026-11-18T08:15:57.426771+00:00",
+        "timestamp": "2026-11-18T08:31:07.080579+00:00",
         "title": "Como se constrói mais habitação? Siga em direto o debate e a gala dos Prémios do Imobiliário",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -939,14 +932,14 @@
     },
     "https://expresso.pt/poder-local/2026-11-17-moedas-defende-venda-de-terrenos-so-podemos-fazer-mais-habitacao-se-fizermos-esta-hasta-publica-0d62bcb3": {
         "category": null,
-        "timestamp": "2026-11-18T08:15:57.377494+00:00",
+        "timestamp": "2026-11-18T08:31:07.047673+00:00",
         "title": "Moedas defende venda de terrenos: \"Só podemos fazer mais habitação se fizermos esta hasta pública\"",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/defesa-nacional/2026-11-17-gouveia-e-melo-contesta-pericia-ao-nrp-mondego-pedida-por-tribunal-de-instrucao-ed9e7d48": {
         "category": null,
-        "timestamp": "2026-11-18T08:15:57.327491+00:00",
+        "timestamp": "2026-11-18T08:31:06.921197+00:00",
         "title": "Gouveia e Melo contesta perícia ao \"NRP Mondego\" pedida por Tribunal de Instrução",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -960,14 +953,14 @@
     },
     "https://expresso.pt/semanario/revista-e/-e/2026-11-17-falamos-com-neil-degrasse-tyson-o-astrofisico-estrela-seria-imperdoavelmente-egocentrico-sugerir-que-estamos-sos-no-universo-fef9bcba": {
         "category": null,
-        "timestamp": "2026-11-18T08:15:57.273704+00:00",
+        "timestamp": "2026-11-18T08:31:06.893019+00:00",
         "title": "Falámos com Neil deGrasse Tyson, o astrofísico-estrela: “Seria imperdoavelmente egocêntrico sugerir ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-11-18-lucro-da-mota-engil-ate-setembro-cresce-25-e-carteira-de-encomendas-alcanca-novo-recorde-cdaa7ad2": {
         "category": null,
-        "timestamp": "2026-11-18T08:15:57.230940+00:00",
+        "timestamp": "2026-11-18T08:31:06.862383+00:00",
         "title": "Lucro da Mota-Engil até setembro cresce 25% e carteira de encomendas alcança novo recorde",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -981,28 +974,28 @@
     },
     "https://expresso.pt/premios-do-imobiliario/2026-11-18-como-se-constroi-mais-casas--especialistas-alertam-que-nao-ha-uma-solucao-rapida-f9769f11": {
         "category": null,
-        "timestamp": "2026-11-18T08:15:57.179901+00:00",
+        "timestamp": "2026-11-18T08:31:06.836923+00:00",
         "title": "Como se constrói mais casas? Especialistas alertam que não há uma solução rápida",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/premios-do-imobiliario/2026-11-18-viii-premios-do-imobiliario-exeo-office-campus-venceu-premio-prestigio-e-armando-martins-foi-a-personalidade-do-ano-7ec7e69f": {
         "category": null,
-        "timestamp": "2026-11-18T08:15:57.120241+00:00",
+        "timestamp": "2026-11-18T08:31:06.811051+00:00",
         "title": "VIII Prémios do imobiliário: Exeo Office Campus venceu prémio prestígio e Armando Martins foi a pers...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-11-18-maiores-exportadores-portugueses-comparam-bem-com-a-concorrencia-internacional-o-que-e-preciso-para-haver-mais-empresas-grandes--afdcf1c8": {
         "category": null,
-        "timestamp": "2026-11-18T08:15:55.884755+00:00",
+        "timestamp": "2026-11-18T08:31:05.325338+00:00",
         "title": "Maiores exportadores portugueses comparam bem com a concorrência internacional: o que é preciso para...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/bahrein-acusa-teerao-de-continuar-a-lancar-ataques-contra-o-seu-territorio": {
         "category": null,
-        "timestamp": "2026-11-18T08:15:56.265627+00:00",
+        "timestamp": "2026-11-18T08:31:05.244830+00:00",
         "title": "Bahrein acusa Teerão de continuar a lançar ataques contra o seu território",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
