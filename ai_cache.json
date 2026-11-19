@@ -34,20 +34,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/ponta-delgada-com-moldura-humana-de-manifestantes-apesar-da-chuva": {
-        "category": null,
-        "timestamp": "2026-11-14T21:15:56.947094+00:00",
-        "title": "Ponta Delgada com \"moldura humana\" de manifestantes, apesar da chuva",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/meia-centena-manifestou-se-contra-a-especulacao-em-braganca": {
-        "category": null,
-        "timestamp": "2026-11-14T21:15:57.129604+00:00",
-        "title": "Meia centena manifestou-se contra a especulação em Bragança",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/habitacao-rui-moreira-compreende-que-aos-poucos-as-pessoas-comecem-a-perder-a-paciencia": {
         "category": null,
         "timestamp": "2026-11-14T21:45:56.679393+00:00",
@@ -995,7 +981,7 @@
     },
     "https://expresso.pt/expressinho/2026-11-19-ha-40-anos-na-europa-o-que-mudou-na-vida-dos-portugueses--a41c0530-1": {
         "category": null,
-        "timestamp": "2026-11-19T21:15:50.337526+00:00",
+        "timestamp": "2026-11-19T21:31:05.314309+00:00",
         "title": "Há 40 anos na Europa: o que mudou na vida dos portugueses?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1023,21 +1009,21 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-19-ucrania-voltou-a-atingir-ponte-da-crimeia-e-um-golpe-no-prestigio-de-putin-alem-de-representar-um-grave-problema-militar-a8d5f1dc": {
         "category": null,
-        "timestamp": "2026-11-19T21:15:50.202885+00:00",
+        "timestamp": "2026-11-19T21:31:05.254697+00:00",
         "title": "Ucrânia voltou a atingir ponte da Crimeia: “É um golpe no prestígio de Putin, além de representar um...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/exposicoes/2026-11-19-quando-o-som-encontra-o-corpo-uma-exposicao-so-para-ouvir-no-centro-de-arte-moderna-da-gulbenkian-5daba19a": {
         "category": null,
-        "timestamp": "2026-11-19T21:15:50.019273+00:00",
+        "timestamp": "2026-11-19T21:31:05.202301+00:00",
         "title": "Quando o som encontra o corpo: uma exposição só para ouvir no Centro de Arte Moderna da Gulbenkian",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/media-comunicacao/2026-11-19-governo-atribui-15-milhoes-de-euros-para-digitalizar-e-poder-usar-os-arquivos-dos-media-3973f43d": {
         "category": null,
-        "timestamp": "2026-11-19T21:15:50.124312+00:00",
+        "timestamp": "2026-11-19T21:31:05.228412+00:00",
         "title": "Governo atribui 15 milhões de euros para digitalizar e poder usar os arquivos dos media",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1051,28 +1037,28 @@
     },
     "https://expresso.pt/empresas-negocios/2026-11-19-lactogal-prepara-mais-um-salto-iberico-com-a-integracao-do-negocio-de-lacticinios-da-espanhola-pascual-8bc6c8b0": {
         "category": null,
-        "timestamp": "2026-11-19T21:15:49.926110+00:00",
+        "timestamp": "2026-11-19T21:31:05.174361+00:00",
         "title": "Lactogal prepara mais um salto ibérico com a integração do negócio de lacticínios da espanhola Pascu...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/defesa-nacional/2026-11-19-esta-em-curso-uma-revolucao-espacial-em-portugal-para-a-europa-nao-depender-de-elon-musk-4e735abf": {
         "category": null,
-        "timestamp": "2026-11-19T21:15:49.736289+00:00",
+        "timestamp": "2026-11-19T21:31:05.121236+00:00",
         "title": "Está em curso uma “revolução espacial” em Portugal para a Europa não depender de Elon Musk",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/teatro-danca/2026-11-19-teatro-sob-pressao-uma-historia-de-memoria-vida-e-morte-de-arthur-miller-4e47969e": {
         "category": null,
-        "timestamp": "2026-11-19T21:15:49.812533+00:00",
+        "timestamp": "2026-11-19T21:31:05.148163+00:00",
         "title": "Teatro: “Sob Pressão”, uma história de memória, vida e morte de Arthur Miller",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/receitas/2026-11-19-receitas-o-segredo-do-polvo-a-galega-14012a63": {
         "category": null,
-        "timestamp": "2026-11-19T21:15:49.653422+00:00",
+        "timestamp": "2026-11-19T21:31:05.092793+00:00",
         "title": "Receitas: O segredo do Polvo à Galega",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1093,21 +1079,21 @@
     },
     "https://expresso.pt/automoveis/2026-11-19-bmw-i3-o-recordista-eletrico-europeu-da-autonomia-que-conta-com-um-importante-contributo-nacional-359ef876": {
         "category": null,
-        "timestamp": "2026-11-19T21:15:49.566816+00:00",
+        "timestamp": "2026-11-19T21:31:05.065233+00:00",
         "title": "BMW i3: o recordista elétrico europeu da autonomia, que conta com um importante contributo nacional",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-11-19-elevador-da-gloria-camara-foi-informada-em-setembro-outubro.-ps-diz-que-moedas-tem-de-assumir-responsabilidades-a5fa3395-1": {
         "category": null,
-        "timestamp": "2026-11-19T21:15:50.267516+00:00",
+        "timestamp": "2026-11-19T21:31:05.287436+00:00",
         "title": "Elevador da Glória: Câmara foi informada \"em setembro, outubro\". PS diz que Moedas tem de assumir re...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-11-19-chega-acusa-provedoria-de-estar-sequestrada-be-insiste-em-demissao-de-luis-neves-ddced9de": {
         "category": null,
-        "timestamp": "2026-11-19T21:15:49.502707+00:00",
+        "timestamp": "2026-11-19T21:31:05.035526+00:00",
         "title": "Chega acusa Provedoria de estar \"sequestrada\", BE insiste em demissão de Luís Neves",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
