@@ -988,15 +988,22 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-19-liberais-com-recorde-de-listas-ao-conselho-nacional-e-podem-ter-corrida-tripla-a-lideranca-27cfb632": {
         "category": null,
-        "timestamp": "2026-11-19T11:01:13.727133+00:00",
+        "timestamp": "2026-11-19T11:15:49.480111+00:00",
         "title": "Liberais com recorde de listas ao Conselho Nacional e podem ter corrida tripla à liderança",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/expressinho/2026-11-19-era-uma-vez.-a-promessa-d1c15ffe": {
         "category": null,
-        "timestamp": "2026-11-19T11:01:14.507351+00:00",
+        "timestamp": "2026-11-19T11:15:49.364810+00:00",
         "title": "Era uma vez... A promessa",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/poder-local/2026-11-19-carlos-moedas-diz-que-desconhecia-relatorio-e-que-tomou-a-decisao-certa-ao-encerrar-todos-os-elevadores-de-lisboa-f1e375f0": {
+        "category": null,
+        "timestamp": "2026-11-19T11:15:49.431358+00:00",
+        "title": "Carlos Moedas diz que desconhecia relatório e que tomou a ”decisão certa” ao encerrar todos os eleva...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
