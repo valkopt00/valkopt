@@ -1002,7 +1002,7 @@
     },
     "https://expresso.pt/expressinho/2026-11-19-ha-40-anos-na-europa-o-que-mudou-na-vida-dos-portugueses--a41c0530-1": {
         "category": null,
-        "timestamp": "2026-11-19T19:31:04.156346+00:00",
+        "timestamp": "2026-11-19T19:45:54.349670+00:00",
         "title": "Há 40 anos na Europa: o que mudou na vida dos portugueses?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1030,21 +1030,21 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-19-ucrania-voltou-a-atingir-ponte-da-crimeia-e-um-golpe-no-prestigio-de-putin-alem-de-representar-um-grave-problema-militar-a8d5f1dc": {
         "category": null,
-        "timestamp": "2026-11-19T18:45:53.141997+00:00",
+        "timestamp": "2026-11-19T19:45:54.292608+00:00",
         "title": "Ucrânia voltou a atingir ponte da Crimeia: “É um golpe no prestígio de Putin, além de representar um...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/exposicoes/2026-11-19-quando-o-som-encontra-o-corpo-uma-exposicao-so-para-ouvir-no-centro-de-arte-moderna-da-gulbenkian-5daba19a": {
         "category": null,
-        "timestamp": "2026-11-19T19:31:05.523724+00:00",
+        "timestamp": "2026-11-19T19:45:54.234278+00:00",
         "title": "Quando o som encontra o corpo: uma exposição só para ouvir no Centro de Arte Moderna da Gulbenkian",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/media-comunicacao/2026-11-19-governo-atribui-15-milhoes-de-euros-para-digitalizar-e-poder-usar-os-arquivos-dos-media-3973f43d": {
         "category": null,
-        "timestamp": "2026-11-19T19:31:05.552683+00:00",
+        "timestamp": "2026-11-19T19:45:54.259120+00:00",
         "title": "Governo atribui 15 milhões de euros para digitalizar e poder usar os arquivos dos media",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1058,43 +1058,57 @@
     },
     "https://expresso.pt/empresas-negocios/2026-11-19-lactogal-prepara-mais-um-salto-iberico-com-a-integracao-do-negocio-de-lacticinios-da-espanhola-pascual-8bc6c8b0": {
         "category": null,
-        "timestamp": "2026-11-19T19:31:05.495872+00:00",
+        "timestamp": "2026-11-19T19:45:54.200309+00:00",
         "title": "Lactogal prepara mais um salto ibérico com a integração do negócio de lacticínios da espanhola Pascu...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/defesa-nacional/2026-11-19-esta-em-curso-uma-revolucao-espacial-em-portugal-para-a-europa-nao-depender-de-elon-musk-4e735abf": {
         "category": null,
-        "timestamp": "2026-11-19T19:31:05.436663+00:00",
+        "timestamp": "2026-11-19T19:45:54.142942+00:00",
         "title": "Está em curso uma “revolução espacial” em Portugal para a Europa não depender de Elon Musk",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/teatro-danca/2026-11-19-teatro-sob-pressao-uma-historia-de-memoria-vida-e-morte-de-arthur-miller-4e47969e": {
         "category": null,
-        "timestamp": "2026-11-19T19:31:05.465506+00:00",
+        "timestamp": "2026-11-19T19:45:54.170556+00:00",
         "title": "Teatro: “Sob Pressão”, uma história de memória, vida e morte de Arthur Miller",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/receitas/2026-11-19-receitas-o-segredo-do-polvo-a-galega-14012a63": {
         "category": null,
-        "timestamp": "2026-11-19T19:31:05.410875+00:00",
+        "timestamp": "2026-11-19T19:45:54.108108+00:00",
         "title": "Receitas: O segredo do Polvo à Galega",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/ataque-dos-houthis-atinge-maior-arranha-ceus-da-capital-saudita": {
         "category": null,
-        "timestamp": "2026-11-19T19:31:05.640947+00:00",
+        "timestamp": "2026-11-19T19:45:54.870424+00:00",
         "title": "Ataque dos Houthis atinge maior arranha-céus da capital saudita",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/guerra-ja-custou-aos-eua-mais-de-43-mil-milhoes-de-euros": {
         "category": null,
-        "timestamp": "2026-11-19T19:31:05.610534+00:00",
+        "timestamp": "2026-11-19T19:45:54.843342+00:00",
         "title": "Guerra já custou aos EUA mais de 43 mil milhões de euros",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/automoveis/2026-11-19-bmw-i3-o-recordista-eletrico-europeu-da-autonomia-que-conta-com-um-importante-contributo-nacional-359ef876": {
+        "category": null,
+        "timestamp": "2026-11-19T19:45:54.070890+00:00",
+        "title": "BMW i3: o recordista elétrico europeu da autonomia, que conta com um importante contributo nacional",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/poder-local/2026-11-19-elevador-da-gloria-camara-foi-informada-em-setembro-outubro.-ps-diz-que-moedas-tem-de-assumir-responsabilidades-a5fa3395-1": {
+        "category": null,
+        "timestamp": "2026-11-19T19:45:54.320837+00:00",
+        "title": "Elevador da Glória: Câmara foi informada \"em setembro, outubro\". PS diz que Moedas tem de assumir re...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
