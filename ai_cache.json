@@ -960,7 +960,7 @@
     },
     "https://expresso.pt/teatro-danca/2026-11-18-auto-da-barca-do-inferno-versao-festa-pop-um-magnifico-delirio-no-teatro-nacional-sao-joao-f107a6a7": {
         "category": null,
-        "timestamp": "2026-11-19T10:45:55.360863+00:00",
+        "timestamp": "2026-11-19T11:01:16.846242+00:00",
         "title": "“Auto da Barca do Inferno”, versão festa pop: um magnífico delírio no Teatro Nacional São João",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -988,8 +988,15 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-19-liberais-com-recorde-de-listas-ao-conselho-nacional-e-podem-ter-corrida-tripla-a-lideranca-27cfb632": {
         "category": null,
-        "timestamp": "2026-11-19T10:45:54.500297+00:00",
+        "timestamp": "2026-11-19T11:01:13.727133+00:00",
         "title": "Liberais com recorde de listas ao Conselho Nacional e podem ter corrida tripla à liderança",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/expressinho/2026-11-19-era-uma-vez.-a-promessa-d1c15ffe": {
+        "category": null,
+        "timestamp": "2026-11-19T11:01:14.507351+00:00",
+        "title": "Era uma vez... A promessa",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
