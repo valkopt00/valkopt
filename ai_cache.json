@@ -69,13 +69,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/cmr/podcasts/doa-a-quem-doer/detalhe/as-ultimas-palavras-dele-pareciam-uma-despedida-o-relato-do-pai-de-julian-amaral-o-jovem-encontrado-morto-no-tejo": {
-        "category": null,
-        "timestamp": "2026-11-16T13:15:52.248260+00:00",
-        "title": "\"As últimas palavras dele pareciam uma despedida\": o relato do pai de Julian Amaral, o jovem encontr...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/guerra-ucrania/2026-11-16-rangel-diz-haver-consenso-na-ue-para-novo-emprestimo-de-45-mil-milhoes-a-ucrania-7d6ee37c": {
         "category": null,
         "timestamp": "2026-11-17T08:31:07.894070+00:00",
@@ -932,7 +925,7 @@
     },
     "https://expresso.pt/fundos-europeus/2026-11-20-prr-bruxelas-aprova-ultimo-pagamento-de-47-mil-milhoes-para-portugal-88f8e7ee": {
         "category": null,
-        "timestamp": "2026-11-21T13:01:12.372010+00:00",
+        "timestamp": "2026-11-21T13:15:55.235103+00:00",
         "title": "PRR: Bruxelas aprova último pagamento de €4,7 mil milhões para Portugal",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -967,7 +960,7 @@
     },
     "https://expresso.pt/curtas/2026-11-20-video-silencio-nao-e-opcao-mulher-violada-pelo-ex-marido-e-outros-homens-apos-ser-drogada-deixou-anonimato-para-dar-forca-a-vitimas-0e7b7258": {
         "category": null,
-        "timestamp": "2026-11-21T13:01:11.872422+00:00",
+        "timestamp": "2026-11-21T13:15:54.815394+00:00",
         "title": "“Silêncio não é opção”: Mulher violada pelo ex-marido e outros homens após ser drogada deixou anonim...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -981,21 +974,21 @@
     },
     "https://expresso.pt/curtas/2026-11-20-video-centenas-de-milhares-em-protesto-pela-liberdade-de-imprensa-o-que-se-esta-a-passar-na-chequia--ee017d3b": {
         "category": null,
-        "timestamp": "2026-11-21T13:01:11.730878+00:00",
+        "timestamp": "2026-11-21T13:15:54.765191+00:00",
         "title": "Centenas de milhares em protesto pela liberdade de imprensa: o que se está a passar na Chéquia?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-11-20-suspensa-venda-de-oito-terrenos-municipais-em-lisboa-apos-providencia-cautelar-0812d629": {
         "category": null,
-        "timestamp": "2026-11-21T13:01:11.822927+00:00",
+        "timestamp": "2026-11-21T13:15:54.789720+00:00",
         "title": "Suspensa venda de oito terrenos municipais em Lisboa após providência cautelar",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://visao.pt/simbalinos-a-sexta/2026-11-20-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-32/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-32": {
         "category": null,
-        "timestamp": "2026-11-21T13:01:12.114237+00:00",
+        "timestamp": "2026-11-21T13:15:54.963168+00:00",
         "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1051,7 +1044,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-21-ameaca-de-bomba-ou-brincadeira-de-mau-gosto-cancela-primeiro-dia-da-convencao-do-chega-a418f639": {
         "category": null,
-        "timestamp": "2026-11-21T13:01:11.069468+00:00",
+        "timestamp": "2026-11-21T13:15:53.506614+00:00",
         "title": "Ameaça de bomba ou \"brincadeira de mau gosto\" cancela primeiro dia da Convenção do Chega",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1065,7 +1058,7 @@
     },
     "https://visao.pt/sei-la-entende/2026-11-21-somos-todos-sisifo-cronica-de-fabio-porchat/?utm_source=rss&utm_medium=rss&utm_campaign=somos-todos-sisifo-cronica-de-fabio-porchat": {
         "category": null,
-        "timestamp": "2026-11-21T13:01:12.051493+00:00",
+        "timestamp": "2026-11-21T13:15:54.930096+00:00",
         "title": "Somos todos Sísifo. Crónica de Fábio Porchat",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1100,8 +1093,15 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-20-chega-ventura-controla-convencao-para-nao-haver-criticos-e-justifica-estamos-na-curva-da-historia-08a12a3c": {
         "category": null,
-        "timestamp": "2026-11-21T13:01:11.157486+00:00",
+        "timestamp": "2026-11-21T13:15:53.535789+00:00",
         "title": "Chega: Ventura controla convenção para não haver críticos e justifica: \"Estamos na curva da história...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/empresas-negocios/2026-11-21-gta-6-bate-recorde-com-345-mil-milhoes-em-vendas-no-primeiro-dia-d6ed6497": {
+        "category": null,
+        "timestamp": "2026-11-21T13:15:53.468316+00:00",
+        "title": "GTA 6 bate recorde com €3,45 mil milhões em vendas no primeiro dia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
