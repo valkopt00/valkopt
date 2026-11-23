@@ -62,13 +62,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/presidencia-republica/2026-11-18-seguro-faz-nova-presidencia-aberta-depois-do-orcamento-do-estado-25351172": {
-        "category": null,
-        "timestamp": "2026-11-18T10:31:04.695354+00:00",
-        "title": "Seguro faz nova Presidência Aberta depois do Orçamento do Estado",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/presidencia-republica/2026-11-18-seguro-faz-nova-presidencia-aberta-depois-do-orcamento-do-estado-na-area-metropolitana-de-lisboa-e-no-alentejo-25351172": {
         "category": null,
         "timestamp": "2026-11-18T10:45:54.242541+00:00",
@@ -946,7 +939,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-22-remigracao-as-centenas-de-milhares-chega-aprova-remigracao-como-principio-politico-estruturante-328ad273": {
         "category": null,
-        "timestamp": "2026-11-23T10:31:06.412067+00:00",
+        "timestamp": "2026-11-23T10:45:54.470677+00:00",
         "title": "“Remigração às centenas de milhares”: Chega aprova remigração como “princípio político estruturante”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1030,21 +1023,21 @@
     },
     "https://visao.pt/entrevista-sem-agenda/2026-11-22-a-agenda-da-extrema-direita-nao-e-a-de-acabar-com-a-imigracao-e-a-de-criar-medo-e-assim-tornar-os-imigrantes-mais-vulneraveis-aos-abusos/?utm_source=rss&utm_medium=rss&utm_campaign=a-agenda-da-extrema-direita-nao-e-a-de-acabar-com-a-imigracao-e-a-de-criar-medo-e-assim-tornar-os-imigrantes-mais-vulneraveis-aos-abusos": {
         "category": null,
-        "timestamp": "2026-11-23T10:01:30.442406+00:00",
+        "timestamp": "2026-11-23T10:45:53.814193+00:00",
         "title": "“A agenda da extrema-direita não é a de acabar com a imigração: é a de criar medo e, assim, tornar o...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-22-objetos-voadores-que-cairam-na-polonia-eram-misseis-de-cruzeiro-de-fabrico-russo-86c275fb": {
         "category": null,
-        "timestamp": "2026-11-23T10:31:06.339357+00:00",
+        "timestamp": "2026-11-23T10:45:54.380360+00:00",
         "title": "Objetos voadores que caíram na Polónia eram mísseis de cruzeiro de fabrico russo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-11-22-ventura-sem-desculpas-para-nao-ganhar-eleicoes-faz-promessa-a-reformados-e-defende-remigracao-cb2c35bf": {
         "category": null,
-        "timestamp": "2026-11-23T10:31:06.259601+00:00",
+        "timestamp": "2026-11-23T10:45:54.334366+00:00",
         "title": "Ventura, “sem desculpas” para não ganhar eleições, faz promessa a reformados e defende remigração",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1065,7 +1058,7 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-22-ventura-em-processo-de-melonizacao-analise-ao-congresso-do-chega-4e5924f2": {
         "category": null,
-        "timestamp": "2026-11-23T10:31:06.200185+00:00",
+        "timestamp": "2026-11-23T10:45:54.273948+00:00",
         "title": "Ventura em processo de 'melonização': análise ao congresso do Chega",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1100,28 +1093,28 @@
     },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/reino-unido-de-regresso-a-ue_1781034": {
         "category": null,
-        "timestamp": "2026-11-23T10:31:03.333144+00:00",
+        "timestamp": "2026-11-23T10:45:51.394665+00:00",
         "title": "Reino Unido de regresso à UE?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-23-ucrania-ataca-com-drones-depositos-de-petroleo-e-uma-das-maiores-refinarias-do-sul-da-russia-d8d319f6": {
         "category": null,
-        "timestamp": "2026-11-23T10:31:03.150558+00:00",
+        "timestamp": "2026-11-23T10:45:50.892480+00:00",
         "title": "Ucrânia ataca com drones depósitos de petróleo e uma das maiores refinarias do sul da Rússia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-23-zelensky-reclama-autoria-de-ataques-com-drones-a-dois-navios-russos-ao-largo-da-libia-e49b8a9d": {
         "category": null,
-        "timestamp": "2026-11-23T10:31:03.107279+00:00",
+        "timestamp": "2026-11-23T10:45:50.843454+00:00",
         "title": "Zelensky reclama autoria de ataques com drones a dois navios russos ao largo da Líbia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/surf/maria-salgado-sagra-se-campea-europeia_d1781049": {
         "category": null,
-        "timestamp": "2026-11-23T10:31:03.280970+00:00",
+        "timestamp": "2026-11-23T10:45:51.307914+00:00",
         "title": "Maria Salgado sagra-se campeã europeia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
