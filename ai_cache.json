@@ -97,13 +97,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/veio-confirmar-o-que-ja-se-sabia-porta-voz-da-acampada-de-lisboa-reage-ao-relatorio-da-provedoria-da-justica": {
-        "category": null,
-        "timestamp": "2026-11-19T18:45:56.033158+00:00",
-        "title": "\"Veio confirmar o que já se sabia\": Porta-voz da Acampada de Lisboa reage ao relatório da Provedoria...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/empresas-negocios/2026-11-19-lactogal-prepara-mais-um-salto-iberico-com-a-integracao-do-negocio-de-lacticinios-da-espanhola-pascual-8bc6c8b0": {
         "category": null,
         "timestamp": "2026-11-19T23:15:57.300476+00:00",
@@ -1002,7 +995,7 @@
     },
     "https://expresso.pt/venezuela/2026-11-24-nicolas-maduro-agradece-apoio-recebido-em-dia-de-aniversario-a-partir-da-prisao-em-nova-iorque-22f596ab": {
         "category": null,
-        "timestamp": "2026-11-24T18:45:55.618454+00:00",
+        "timestamp": "2026-11-24T19:01:15.345589+00:00",
         "title": "Nicolás Maduro agradece apoio recebido em dia de aniversário a partir da prisão em Nova Iorque",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1030,7 +1023,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-11-24-a-lego-vai-montar-a-maior-fabrica-de-estarreja-um-bloco-de-cada-vez-eis-como-comecou-a-ser-construida-a-ideia-b054cbac": {
         "category": null,
-        "timestamp": "2026-11-24T18:45:55.492533+00:00",
+        "timestamp": "2026-11-24T19:01:15.242246+00:00",
         "title": "A Lego vai montar a maior fábrica de Estarreja: um bloco de cada vez, eis como começou a ser constru...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1044,7 +1037,7 @@
     },
     "https://expresso.pt/arquivo/economia/worldgmc/2026-11-24-classificacao-da-3.-decisao---2.-fase-da-1.-volta-do-global-management-challenge-2026-13e1390e": {
         "category": null,
-        "timestamp": "2026-11-24T18:45:55.187830+00:00",
+        "timestamp": "2026-11-24T19:01:14.234132+00:00",
         "title": "Classificação da 3.ª Decisão - 2.ª Fase da 1.ª Volta do Global Management Challenge 2026",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1065,8 +1058,15 @@
     },
     "https://expresso.pt/direitos-igualdade/2026-11-24-taliba-apagam-nomes-das-mulheres-dos-registos-oficiais-na-provincia-de-balkh-todas-passam-a-chamar-se-bibi-dc9825da": {
         "category": null,
-        "timestamp": "2026-11-24T18:45:53.627188+00:00",
+        "timestamp": "2026-11-24T19:01:12.733348+00:00",
         "title": "Talibã apagam nomes das mulheres dos registos oficiais: na província de Balkh, todas passam a chamar...",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/health-parliament-portugal/2026-11-24-futuro-da-saude-comissoes-apresentaram-propostas-e-levaram-nas-a-votos-d16c1443": {
+        "category": null,
+        "timestamp": "2026-11-24T19:01:13.690611+00:00",
+        "title": "Futuro da saúde. Comissões apresentaram propostas e levaram-nas a votos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
