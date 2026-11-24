@@ -27,13 +27,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/cmr/podcasts/crime-e-castigo/detalhe/a-tempestade-que-enganou-o-pais": {
-        "category": null,
-        "timestamp": "2026-11-19T13:01:12.186822+00:00",
-        "title": "A tempestade que enganou o País",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/expressinho/2026-11-19-sera-que-estas-girafas-te-ajudam-a-fazer-o-tpc--42b72960": {
         "category": null,
         "timestamp": "2026-11-19T19:31:04.698548+00:00",
@@ -1009,7 +1002,7 @@
     },
     "https://expresso.pt/poder-local/2026-11-23-camara-de-lisboa-quer-mais-videovigilancia-sobretudo-no-martim-moniz-e-na-mouraria-8b831184": {
         "category": null,
-        "timestamp": "2026-11-24T12:45:54.334568+00:00",
+        "timestamp": "2026-11-24T13:01:28.598285+00:00",
         "title": "Câmara de Lisboa quer mais videovigilância sobretudo no Martim Moniz e na Mouraria",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1030,21 +1023,21 @@
     },
     "https://expresso.pt/russia/2026-11-24-estonia-responde-a-ameaca-de-guerra-aberta-fechar-fronteira-pressiona-russia-a-parar-a-agressao-a-ucrania-af12052f": {
         "category": null,
-        "timestamp": "2026-11-24T12:45:51.255276+00:00",
+        "timestamp": "2026-11-24T13:01:26.497740+00:00",
         "title": "Estónia responde a ameaça de “guerra aberta”: fechar fronteira pressiona Rússia a \"parar a agressão ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/venezuela/2026-11-24-nicolas-maduro-agradece-apoio-recebido-em-dia-de-aniversario-a-partir-da-prisao-em-nova-iorque-22f596ab": {
         "category": null,
-        "timestamp": "2026-11-24T12:45:50.973028+00:00",
+        "timestamp": "2026-11-24T13:01:26.423419+00:00",
         "title": "Nicolás Maduro agradece apoio recebido em dia de aniversário a partir da prisão em Nova Iorque",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-24-ataque-russo-fez-pelo-menos-dois-mortos-e-30-feridos-em-zaporijia.-moscovo-anuncia-abate-de-700-drones-ucranianos-b6163e81": {
         "category": null,
-        "timestamp": "2026-11-24T12:45:50.925470+00:00",
+        "timestamp": "2026-11-24T13:01:26.369876+00:00",
         "title": "Ataque russo fez pelo menos dois mortos e 30 feridos em Zaporijia. Moscovo anuncia abate de 700 dron...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -1053,6 +1046,20 @@
         "category": null,
         "timestamp": "2026-11-24T12:31:07.714778+00:00",
         "title": "Os dois amores de alvarinho: à mesa com a enóloga Gabriela Albuquerque",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.rtp.pt/noticias/lusa/comissao-anti-fraude-no-sns-sem-acesso-a-dados-ou-a-plataforma-de-denuncia_n1781276": {
+        "category": null,
+        "timestamp": "2026-11-24T13:01:26.213654+00:00",
+        "title": "Comissão anti-fraude no SNS sem acesso a dados ou a plataforma de denúncia",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/empresas-negocios/2026-11-24-a-lego-vai-montar-a-maior-fabrica-de-estarreja-um-bloco-de-cada-vez-eis-como-comecou-a-ser-construida-a-ideia-b054cbac": {
+        "category": null,
+        "timestamp": "2026-11-24T13:01:26.827970+00:00",
+        "title": "A Lego vai montar a maior fábrica de Estarreja: um bloco de cada vez, eis como começou a ser constru...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
