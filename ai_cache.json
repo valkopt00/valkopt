@@ -13,13 +13,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/russia/2026-11-19-aleksander-litvinenko-foi-envenenado-ha-20-anos-o-agente-do-kgb-que-alertou-o-mundo-para-a-deriva-autoritaria-de-putin-b771de20": {
-        "category": null,
-        "timestamp": "2026-11-20T15:01:35.330909+00:00",
-        "title": "Aleksander Litvinenko: foi envenenado há 20 anos o agente do KGB que alertou o mundo para a deriva a...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/guerra-ucrania/2026-11-20-polonia-pais-da-nato-acusa-a-russia-de-tres-incursoes-no-seu-espaco-aereo-e-de-provocacao-c1d9808a": {
         "category": null,
         "timestamp": "2026-11-21T10:31:07.539460+00:00",
@@ -834,14 +827,14 @@
     },
     "https://expresso.pt/empresas-negocios/2026-11-25-savannah-espera-consulta-publica-participada-para-o-litio-de-boticas-mas-mantem-previsao-de-iniciar-producao-em-2028-6a75b132": {
         "category": null,
-        "timestamp": "2026-11-25T15:01:21.287861+00:00",
+        "timestamp": "2026-11-25T15:15:55.769187+00:00",
         "title": "Savannah espera consulta pública participada para o lítio de Boticas, mas mantém previsão de iniciar...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-11-25-oposicao-aumenta-pressao-sobre-moedas-chega-ameaca-chumbo-do-orcamento-esquerda-pondera-mocao-de-censura-f5f528e6": {
         "category": null,
-        "timestamp": "2026-11-25T15:01:20.469431+00:00",
+        "timestamp": "2026-11-25T15:15:54.789591+00:00",
         "title": "Oposição aumenta pressão sobre Moedas: Chega ameaça chumbo do orçamento, esquerda pondera moção de c...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -855,28 +848,28 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-25-uma-especie-de-guerra-de-guerrilha-irrestrita-no-mar-ucrania-atinge-a-russia-cada-vez-mais-longe-da-linha-da-frente-d19d2e5e": {
         "category": null,
-        "timestamp": "2026-11-25T15:01:20.434510+00:00",
+        "timestamp": "2026-11-25T15:15:54.737598+00:00",
         "title": "“Uma espécie de guerra de guerrilha irrestrita no mar”: Ucrânia atinge a Rússia cada vez mais longe ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/emprego/2026-11-25-portugal-e-o-pais-com-menor-empatia-nas-liderancas-em-tempos-de-mudanca-indica-estudo-da-adecco-5426d88e": {
         "category": null,
-        "timestamp": "2026-11-25T15:01:20.402994+00:00",
+        "timestamp": "2026-11-25T15:15:54.689049+00:00",
         "title": "Portugal é o país com menor empatia nas lideranças em tempos de mudança, indica estudo da Adecco",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/restaurantes/2026-11-25-restaurantes-fantasia-e-realismo-convivem-bem-no-sitio-do-emilia-em-vila-nova-da-rainha-06af966e": {
         "category": null,
-        "timestamp": "2026-11-25T15:01:20.337067+00:00",
+        "timestamp": "2026-11-25T15:15:54.586216+00:00",
         "title": "Restaurantes: Fantasia e realismo convivem bem no sítio do Emília, em Vila Nova da Rainha",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-11-25-doutor-financas-sai-de-espanha-e-italia-apos-investir-dois-milhoes-de-euros-2dbd868f": {
         "category": null,
-        "timestamp": "2026-11-25T15:01:20.372292+00:00",
+        "timestamp": "2026-11-25T15:15:54.636277+00:00",
         "title": "Doutor Finanças sai de Espanha e Itália após investir dois milhões de euros",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -890,8 +883,15 @@
     },
     "https://www.rtp.pt/noticias/liga-europa-conferencia/franclim-carvalho-pede-um-sp-braga-com-jogo-vertical-e-intenso_d1781586": {
         "category": null,
-        "timestamp": "2026-11-25T15:01:20.012637+00:00",
+        "timestamp": "2026-11-25T15:15:54.439670+00:00",
         "title": "Franclim Carvalho pede um Sp. Braga com jogo vertical e intenso",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.rtp.pt/noticias/liga-europa-conferencia/treinador-do-kups-atribui-favoritismo-ao-sporting-de-braga_d1781589": {
+        "category": null,
+        "timestamp": "2026-11-25T15:15:54.388662+00:00",
+        "title": "Treinador do Kups atribui favoritismo ao Sporting de Braga",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
