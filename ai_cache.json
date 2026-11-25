@@ -34,38 +34,10 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://expresso.pt/semanario/primeiro/em-destaque/altos--baixos/2026-11-19-um-grammy-a-ultima-aula-de-louca-a-vitoria-de-miranda-do-corvo-e-a-ceramica-a-prova-de-bala-a9eb5eb0": {
-        "category": null,
-        "timestamp": "2026-11-20T09:45:55.120973+00:00",
-        "title": "Um Grammy, a última aula de Louçã, a vitória de Miranda do Corvo e a cerâmica à prova de bala",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/primeiro/gente/2026-11-19-vacas-que-voam-e-pedras-que-rolam-e030896a": {
-        "category": null,
-        "timestamp": "2026-11-20T09:45:55.195549+00:00",
-        "title": "Vacas que voam e pedras que rolam",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/partidos-politicos/2026-11-19-isaltino-morais-procura-apoio-de-outros-autarcas-independentes-1d189c21": {
-        "category": null,
-        "timestamp": "2026-11-20T09:45:55.283534+00:00",
-        "title": "Isaltino Morais procura apoio de outros autarcas independentes",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/semanario/primeiro/em-destaque/2026-11-19-camara-sabia-ha-dois-meses.-oposicao-pressiona-moedas-673503d8": {
         "category": null,
         "timestamp": "2026-11-20T10:15:50.098604+00:00",
         "title": "Câmara sabia há dois meses. Oposição pressiona Moedas",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/semanario/primeiro/em-destaque/2026-11-19-a-caminho-da-ponte-de-putin-8be3a14a": {
-        "category": null,
-        "timestamp": "2026-11-20T09:45:55.605572+00:00",
-        "title": "A caminho da ponte de Putin",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -883,7 +855,7 @@
     },
     "https://expresso.pt/health-parliament-portugal/2026-11-24-futuro-da-saude-comissoes-apresentaram-propostas-e-levaram-nas-a-votos-d16c1443": {
         "category": null,
-        "timestamp": "2026-11-25T09:45:54.475955+00:00",
+        "timestamp": "2026-11-25T10:01:12.411587+00:00",
         "title": "Futuro da saúde. Comissões apresentaram propostas e levaram-nas a votos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -897,7 +869,7 @@
     },
     "https://expresso.pt/saude-publica/2026-11-24-detetada-em-portugal-nova-variante-da-covid-19-sem-maior-gravidade-7b84f7cc": {
         "category": null,
-        "timestamp": "2026-11-25T09:45:54.444619+00:00",
+        "timestamp": "2026-11-25T10:01:12.371401+00:00",
         "title": "Detetada em Portugal nova variante da covid-19, sem maior gravidade",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -911,14 +883,14 @@
     },
     "https://expresso.pt/empresas-negocios/2026-11-25-savannah-espera-consulta-publica-participada-para-o-litio-de-boticas-mas-mantem-previsao-de-iniciar-producao-em-2028-6a75b132": {
         "category": null,
-        "timestamp": "2026-11-25T09:45:54.109974+00:00",
+        "timestamp": "2026-11-25T10:01:11.672915+00:00",
         "title": "Savannah espera consulta pública participada para o lítio de Boticas, mas mantém previsão de iniciar...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-11-25-oposicao-aumenta-pressao-sobre-moedas-chega-ameaca-chumbo-do-orcamento-esquerda-pondera-mocao-de-censura-f5f528e6": {
         "category": null,
-        "timestamp": "2026-11-25T09:45:53.841548+00:00",
+        "timestamp": "2026-11-25T10:01:11.506024+00:00",
         "title": "Oposição aumenta pressão sobre Moedas: Chega ameaça chumbo do orçamento, esquerda pondera moção de c...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -932,7 +904,7 @@
     },
     "https://expresso.pt/guerra-ucrania/2026-11-25-uma-especie-de-guerra-de-guerrilha-irrestrita-no-mar-ucrania-atinge-a-russia-cada-vez-mais-longe-da-linha-da-frente-d19d2e5e": {
         "category": null,
-        "timestamp": "2026-11-25T09:45:53.804837+00:00",
+        "timestamp": "2026-11-25T10:01:11.453707+00:00",
         "title": "“Uma espécie de guerra de guerrilha irrestrita no mar”: Ucrânia atinge a Rússia cada vez mais longe ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
