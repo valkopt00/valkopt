@@ -111,13 +111,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/mundo/tondela-goleia-afs-na-quarta-eliminatoria-da-taca-de-portugal_d1780814": {
-        "category": null,
-        "timestamp": "2026-11-21T19:15:50.540799+00:00",
-        "title": "Tondela goleia AFS na quarta eliminatória da Taça de Portugal",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.rtp.pt/noticias/taca-de-portugal/tondela-goleia-afs-na-quarta-eliminatoria-da-taca-de-portugal_d1780814": {
         "category": null,
         "timestamp": "2026-11-22T07:15:45.877772+00:00",
@@ -813,42 +806,42 @@
     },
     "https://expresso.pt/empresas-negocios/2026-11-26-edp-vai-vender-energia-a-empresas-de-mineracao-de-criptomoedas-no-brasil-5b8ed542": {
         "category": null,
-        "timestamp": "2026-11-26T19:01:16.834552+00:00",
+        "timestamp": "2026-11-26T19:15:54.494057+00:00",
         "title": "EDP vai vender energia a empresas de mineração de criptomoedas no Brasil",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guine-bissau/2026-11-26-um-ano-apos-o-golpe-na-guine-bissau-nem-resultados-nem-eleicoes.-vigario-balanta-que-exigia-respeito-pelo-voto-foi-morto-2b01af05": {
         "category": null,
-        "timestamp": "2026-11-26T19:01:16.811967+00:00",
+        "timestamp": "2026-11-26T19:15:54.454863+00:00",
         "title": "Um ano após o golpe na Guiné-Bissau, nem resultados nem eleições. Vigário Balanta, que exigia respei...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-11-26-economista-ricardo-arroja-avanca-com-candidatura-a-lideranca-da-il-e49f49b9": {
         "category": null,
-        "timestamp": "2026-11-26T19:01:16.788775+00:00",
+        "timestamp": "2026-11-26T19:15:54.395199+00:00",
         "title": "Economista Ricardo Arroja avança com candidatura à liderança da IL",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/media-comunicacao/2026-11-26-publico-tem-novo-diretor-pedro-candeias-sucede-a-david-pontes-e97a1bcd": {
         "category": null,
-        "timestamp": "2026-11-26T19:01:16.764366+00:00",
+        "timestamp": "2026-11-26T19:15:54.332866+00:00",
         "title": "“Público\" tem novo diretor: Pedro Candeias sucede a David Pontes",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-11-26-credito-as-familias-cresce-mais-do-triplo-do-ritmo-dos-depositos-181d05d7": {
         "category": null,
-        "timestamp": "2026-11-26T19:01:16.743128+00:00",
+        "timestamp": "2026-11-26T19:15:54.287302+00:00",
         "title": "Crédito às famílias cresce mais do triplo do ritmo dos depósitos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-26-kushner-sobre-a-ucrania-nao-se-trata-de-justica-nem-de-quem-tem-razao-ou-nao-putin-e-um-grande-mestre-da-politica-e88365cc": {
         "category": null,
-        "timestamp": "2026-11-26T19:01:16.719691+00:00",
+        "timestamp": "2026-11-26T19:15:54.247026+00:00",
         "title": "Kushner sobre a Ucrânia: “Não se trata de justiça nem de quem tem razão ou não”, Putin é um “grande ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -862,7 +855,7 @@
     },
     "https://www.rtp.pt/noticias/rtpeuropa-asilo-migracao-e-integracao/associacao-renovar-a-mouraria-promove-aulas-de-portugues-exclusivas-para-mulheres-migrantes_v1780588": {
         "category": null,
-        "timestamp": "2026-11-26T19:01:16.889891+00:00",
+        "timestamp": "2026-11-26T19:15:55.181338+00:00",
         "title": "Associação Renovar a Mouraria promove aulas de português exclusivas para mulheres migrantes",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -876,7 +869,7 @@
     },
     "https://expresso.pt/expressinho/2026-11-26-vota-na-palavra-do-ano-ate-30-de-novembro-a38c925e": {
         "category": null,
-        "timestamp": "2026-11-26T19:01:16.693994+00:00",
+        "timestamp": "2026-11-26T19:15:54.201881+00:00",
         "title": "Vota na Palavra do Ano até 30 de novembro!",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -890,7 +883,7 @@
     },
     "https://expresso.pt/media-comunicacao/2026-11-26-transmissao-de-touradas-esta-a-ser-atingida-a-autonomia-e-a-independencia-editorial-da-rtp-afirma-presidente-da-estacao-publica-0428134c": {
         "category": null,
-        "timestamp": "2026-11-26T19:01:16.671488+00:00",
+        "timestamp": "2026-11-26T19:15:54.160160+00:00",
         "title": "Transmissão de touradas: \"Está a ser atingida a autonomia e a independência editorial da RTP\", afirm...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -904,29 +897,36 @@
     },
     "https://expresso.pt/expressinho/2026-11-26-o-que-eu-ando-a-criar.-o-meu-podcast-c974d3f3": {
         "category": null,
-        "timestamp": "2026-11-26T19:01:16.643933+00:00",
+        "timestamp": "2026-11-26T19:15:54.115222+00:00",
         "title": "O que eu ando a criar... O meu podcast",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/cinco-detidos-e-mais-de-1-700-doses-de-droga-apreendidas-pela-psp-da-figueira-da-foz": {
         "category": null,
-        "timestamp": "2026-11-26T19:01:17.572868+00:00",
+        "timestamp": "2026-11-26T19:15:55.515227+00:00",
         "title": "Cinco detidos e mais de 1.700 doses de droga apreendidas pela PSP da Figueira da Foz",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/teatro-danca/2026-11-26-esta-noite-grita-se-dez-anos-de-um-festim-de-leituras-de-teatro-9f39cf80": {
         "category": null,
-        "timestamp": "2026-11-26T19:01:18.103183+00:00",
+        "timestamp": "2026-11-26T19:15:54.713618+00:00",
         "title": "Esta Noite Grita-se: dez anos de um festim de leituras de teatro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/receitas/2026-11-26-receitas-a-sofisticacao-do-salmao-selvagem-com-mel-e-mostarda-e45c5738": {
         "category": null,
-        "timestamp": "2026-11-26T19:01:18.137620+00:00",
+        "timestamp": "2026-11-26T19:15:54.760021+00:00",
         "title": "Receitas: A sofisticação do salmão selvagem com mel e mostarda",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.rtp.pt/noticias/mundo/liga-conferencia-europa-sporting-de-braga-recebe-kups-e-tenta-aproximar-se-dos-oitavos_d1781889": {
+        "category": null,
+        "timestamp": "2026-11-26T19:15:55.122105+00:00",
+        "title": "Liga Conferência Europa. Sporting de Braga recebe KuPS e tenta aproximar-se dos ‘oitavos’",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
