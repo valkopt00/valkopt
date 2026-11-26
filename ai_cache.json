@@ -27,20 +27,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/taca-de-portugal/taca-de-portugal-sporting-uniao-da-serra_d1780786": {
-        "category": null,
-        "timestamp": "2026-11-21T22:31:05.150086+00:00",
-        "title": "Taça de Portugal. Sporting - União da Serra",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.rtp.pt/noticias/taca-de-portugal/atletico-impoe-se-no-derbi-lisboeta-e-elimina-casa-pia-da-taca-de-portugal_d1780794": {
-        "category": null,
-        "timestamp": "2026-11-21T22:31:05.121508+00:00",
-        "title": "Atlético impõe-se no dérbi lisboeta e elimina Casa Pia da Taça de Portugal",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.rtp.pt/noticias/taca-de-portugal/mafra-nos-oitavos-da-taca-de-portugal-ao-vencer-primodivisionario-arouca_d1780801": {
         "category": null,
         "timestamp": "2026-11-22T01:15:46.117531+00:00",
@@ -80,13 +66,6 @@
         "category": null,
         "timestamp": "2026-11-23T07:45:52.786174+00:00",
         "title": "Navio russo atacado por drones no Golfo da Finlândia. “A guerra está a chegar às nossas imediações”",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/acampada-de-lisboa-chega-ao-parlamento-com-objetivo-de-montar-mega-acampada": {
-        "category": null,
-        "timestamp": "2026-11-21T22:31:07.920654+00:00",
-        "title": "Acampada de Lisboa chega ao parlamento com objetivo de montar mega acampada",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -771,21 +750,21 @@
     },
     "https://expresso.pt/media-comunicacao/2026-11-26-publico-tem-novo-diretor-pedro-candeias-sucede-a-david-pontes-e97a1bcd": {
         "category": null,
-        "timestamp": "2026-11-26T22:31:05.677270+00:00",
+        "timestamp": "2026-11-26T22:45:56.696845+00:00",
         "title": "“Público\" tem novo diretor: Pedro Candeias sucede a David Pontes",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/financas-pessoais-poupanca/2026-11-26-credito-as-familias-cresce-mais-do-triplo-do-ritmo-dos-depositos-181d05d7": {
         "category": null,
-        "timestamp": "2026-11-26T22:31:05.592380+00:00",
+        "timestamp": "2026-11-26T22:45:56.666534+00:00",
         "title": "Crédito às famílias cresce mais do triplo do ritmo dos depósitos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-26-kushner-sobre-a-ucrania-nao-se-trata-de-justica-nem-de-quem-tem-razao-ou-nao-putin-e-um-grande-mestre-da-politica-e88365cc": {
         "category": null,
-        "timestamp": "2026-11-26T22:31:05.536852+00:00",
+        "timestamp": "2026-11-26T22:45:56.632004+00:00",
         "title": "Kushner sobre a Ucrânia: “Não se trata de justiça nem de quem tem razão ou não”, Putin é um “grande ...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -813,7 +792,7 @@
     },
     "https://expresso.pt/expressinho/2026-11-26-vota-na-palavra-do-ano-ate-30-de-novembro-a38c925e": {
         "category": null,
-        "timestamp": "2026-11-26T22:31:05.406716+00:00",
+        "timestamp": "2026-11-26T22:45:56.598818+00:00",
         "title": "Vota na Palavra do Ano até 30 de novembro!",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -827,7 +806,7 @@
     },
     "https://expresso.pt/media-comunicacao/2026-11-26-transmissao-de-touradas-esta-a-ser-atingida-a-autonomia-e-a-independencia-editorial-da-rtp-afirma-presidente-da-estacao-publica-0428134c": {
         "category": null,
-        "timestamp": "2026-11-26T22:31:05.054155+00:00",
+        "timestamp": "2026-11-26T22:45:56.567879+00:00",
         "title": "Transmissão de touradas: \"Está a ser atingida a autonomia e a independência editorial da RTP\", afirm...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -841,7 +820,7 @@
     },
     "https://expresso.pt/expressinho/2026-11-26-o-que-eu-ando-a-criar.-o-meu-podcast-c974d3f3": {
         "category": null,
-        "timestamp": "2026-11-26T22:31:04.994270+00:00",
+        "timestamp": "2026-11-26T22:45:56.539498+00:00",
         "title": "O que eu ando a criar... O meu podcast",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -855,14 +834,14 @@
     },
     "https://expresso.pt/teatro-danca/2026-11-26-esta-noite-grita-se-dez-anos-de-um-festim-de-leituras-de-teatro-9f39cf80": {
         "category": null,
-        "timestamp": "2026-11-26T22:31:04.817181+00:00",
+        "timestamp": "2026-11-26T22:45:56.476962+00:00",
         "title": "Esta Noite Grita-se: dez anos de um festim de leituras de teatro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/receitas/2026-11-26-receitas-a-sofisticacao-do-salmao-selvagem-com-mel-e-mostarda-e45c5738": {
         "category": null,
-        "timestamp": "2026-11-26T22:31:04.895473+00:00",
+        "timestamp": "2026-11-26T22:45:56.506643+00:00",
         "title": "Receitas: A sofisticação do salmão selvagem com mel e mostarda",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -883,7 +862,7 @@
     },
     "https://expresso.pt/empresas-negocios/2026-11-26-deloitte-expande-se-no-porto-e-em-lisboa-e-aposta-na-ciberseguranca-3bf9e486": {
         "category": null,
-        "timestamp": "2026-11-26T22:31:04.701523+00:00",
+        "timestamp": "2026-11-26T22:45:56.445035+00:00",
         "title": "Deloitte expande-se no Porto e em Lisboa e aposta na cibersegurança",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
