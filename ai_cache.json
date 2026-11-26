@@ -69,13 +69,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/teerao-procura-acordo-e-admite-acelerar-reabertura-de-ormuz": {
-        "category": null,
-        "timestamp": "2026-11-21T10:01:16.607707+00:00",
-        "title": "Teerão procura acordo e admite acelerar reabertura de Ormuz",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://visao.pt/sei-la-entende/2026-11-21-somos-todos-sisifo-cronica-de-fabio-porchat/?utm_source=rss&utm_medium=rss&utm_campaign=somos-todos-sisifo-cronica-de-fabio-porchat": {
         "category": null,
         "timestamp": "2026-11-22T07:45:52.509911+00:00",
@@ -848,7 +841,7 @@
     },
     "https://visao.pt/edicao-impressa/2026-11-25-edicao-1760/?utm_source=rss&utm_medium=rss&utm_campaign=edicao-1760": {
         "category": null,
-        "timestamp": "2026-11-26T09:45:55.196761+00:00",
+        "timestamp": "2026-11-26T10:01:25.444906+00:00",
         "title": "Edição 1760",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -862,57 +855,64 @@
     },
     "https://expresso.pt/teatro-danca/2026-11-25-teatro-please-love-me-um-gesto-de-afirmacao-individual-de-cleo-diara-no-alkantara-festival-0685a68d": {
         "category": null,
-        "timestamp": "2026-11-26T09:45:58.231103+00:00",
+        "timestamp": "2026-11-26T10:01:22.040235+00:00",
         "title": "Teatro: “Please, Love Me!”, um gesto de afirmação individual de Cleo Diára no Alkantara Festival",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/conselho-europeu/2026-11-25-costa-quer-taxar-big-tech-apos-derrota-dos-republicanos.-a-pergunta-e-se-5-mil-milhoes-por-ano-valem-confronto-com-trump-d02a558a": {
         "category": null,
-        "timestamp": "2026-11-26T09:45:58.158827+00:00",
+        "timestamp": "2026-11-26T10:01:22.010680+00:00",
         "title": "Costa quer taxar ‘big tech’ após derrota dos republicanos. A pergunta é se 5 mil milhões por ano val...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/media-comunicacao/2026-11-25-meta-termina-teste-que-bloqueou-noticias-no-instagram-e-facebook.-a-altura-que-calhou-foi-muito-estranha-dizem-utilizadores-2269e593": {
         "category": null,
-        "timestamp": "2026-11-26T09:45:58.016886+00:00",
+        "timestamp": "2026-11-26T10:01:21.953561+00:00",
         "title": "Meta termina teste que bloqueou notícias no Instagram e Facebook. “A altura que calhou foi muito est...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/curtas/2026-11-25-video-finalmente-aconteceu-julie-e-kariba-as-duas-primeiras-elefantas-acolhidas-em-santuario-do-alentejo-ja-vivem-lado-a-lado-4db2c206": {
         "category": null,
-        "timestamp": "2026-11-26T09:45:58.083924+00:00",
+        "timestamp": "2026-11-26T10:01:21.978062+00:00",
         "title": "“Finalmente aconteceu”: Julie e Kariba, as duas primeiras elefantas acolhidas em santuário do Alente...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-11-25-il-acusa-montenegro-de-criar-imbroglio-juridico-agora-tem-de-arcar-com-as-consequencias-0c8c1d00": {
         "category": null,
-        "timestamp": "2026-11-26T09:45:57.946078+00:00",
+        "timestamp": "2026-11-26T10:01:21.927699+00:00",
         "title": "IL acusa Montenegro de criar “imbróglio jurídico”: “Agora tem de arcar com as consequências”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/semanario/orcamento-do-estado-2027/2026-11-26-aliancas-de-ocasiao-cambalhotas-e-vas-promessas-que-novidades-nos-trouxe-o-orcamento-do-estado--ac243065": {
         "category": null,
-        "timestamp": "2026-11-26T09:45:55.464449+00:00",
+        "timestamp": "2026-11-26T10:01:19.627184+00:00",
         "title": "Alianças de ocasião, cambalhotas e vãs promessas: que novidades nos trouxe o Orçamento do Estado?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-26-donald-trump-e-secretario-geral-da-nato-pedem-a-russia-que-nao-expanda-a-guerra-89cab81e": {
         "category": null,
-        "timestamp": "2026-11-26T09:45:54.361314+00:00",
+        "timestamp": "2026-11-26T10:01:18.829181+00:00",
         "title": "Donald Trump e secretário-geral da NATO pedem à Rússia que não “expanda a guerra”",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/empresas-negocios/2026-11-26-edp-vai-vender-energia-a-empresas-de-mineracao-de-criptomoedas-no-brasil-5b8ed542": {
         "category": null,
-        "timestamp": "2026-11-26T09:45:54.256691+00:00",
+        "timestamp": "2026-11-26T10:01:18.793232+00:00",
         "title": "EDP vai vender energia a empresas de mineração de criptomoedas no Brasil",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/guine-bissau/2026-11-26-um-ano-apos-o-golpe-na-guine-bissau-nem-resultados-nem-eleicoes.-vigario-balanta-que-exigia-respeito-pelo-voto-foi-morto-2b01af05": {
+        "category": null,
+        "timestamp": "2026-11-26T10:01:19.733259+00:00",
+        "title": "Um ano após o golpe na Guiné-Bissau, nem resultados nem eleições. Vigário Balanta, que exigia respei...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
