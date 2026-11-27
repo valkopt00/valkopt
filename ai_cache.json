@@ -771,21 +771,21 @@
     },
     "https://expresso.pt/semanario/economia": {
         "category": null,
-        "timestamp": "2026-11-27T15:46:00.210326+00:00",
+        "timestamp": "2026-11-27T16:01:14.960856+00:00",
         "title": "A 1ª página do Expresso Economia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/Capas/2026-11-26-ideias-independentes-mas-nao-tanto.-o-tecnocratismo-endogeno-dos-governos-portugueses-af12ab50": {
         "category": null,
-        "timestamp": "2026-11-27T15:46:00.309512+00:00",
+        "timestamp": "2026-11-27T16:01:15.060943+00:00",
         "title": "IDEIAS: Independentes, mas não tanto. O tecnocratismo endógeno dos Governos portugueses",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/media-comunicacao/2026-11-26-subsidios-pagos-na-rtp-surpreendeu-me-que-o-relatorio-final-da-igf-tenha-sido-aprovado-e-homologado-tao-rapidamente-1d6b9ec7": {
         "category": null,
-        "timestamp": "2026-11-27T15:46:00.752861+00:00",
+        "timestamp": "2026-11-27T16:01:16.624935+00:00",
         "title": "Subsídios pagos na RTP: \"Surpreendeu-me que o relatório final da IGF tenha sido aprovado e homologad...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -834,7 +834,7 @@
     },
     "https://expresso.pt/semanario/revista-e": {
         "category": null,
-        "timestamp": "2026-11-27T15:46:00.260193+00:00",
+        "timestamp": "2026-11-27T16:01:15.022101+00:00",
         "title": "Pedro Mexia entrevista David Cronenberg, na revista E",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -862,28 +862,28 @@
     },
     "https://www.rtp.pt/noticias/opiniao/felisbela-lopes/os-olhares-dos-media-internacionais-sobre-espanha_1782010": {
         "category": null,
-        "timestamp": "2026-11-27T15:45:59.680339+00:00",
+        "timestamp": "2026-11-27T16:01:14.062000+00:00",
         "title": "Os olhares dos média internacionais sobre Espanha",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/nato/2026-11-27-drone-nao-identificado-entra-no-espaco-aereo-da-letonia-e-obriga-nato-a-intervir-220fa5ba": {
         "category": null,
-        "timestamp": "2026-11-27T15:45:58.603752+00:00",
+        "timestamp": "2026-11-27T16:01:13.800742+00:00",
         "title": "Drone não identificado entra no espaço aéreo da Letónia e obriga NATO a intervir",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/custo-vida/2026-11-27-preco-dos-combustiveis-volta-a-cair-na-proxima-semana-5e48afe5": {
         "category": null,
-        "timestamp": "2026-11-27T15:45:58.556282+00:00",
+        "timestamp": "2026-11-27T16:01:13.757216+00:00",
         "title": "Preço dos combustíveis volta a cair na próxima semana",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/expressinho/2026-11-27-brincadeira-ou-bullying--61c4fe63": {
         "category": null,
-        "timestamp": "2026-11-27T15:45:58.506675+00:00",
+        "timestamp": "2026-11-27T16:01:13.718847+00:00",
         "title": "Brincadeira ou bullying?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -925,22 +925,29 @@
     },
     "https://www.cmjornal.pt/cm-ao-minuto/detalhe/ministro-promete-apresentar-em-breve-revisao-do-regime-de-autonomia-e-gestao-escolar": {
         "category": null,
-        "timestamp": "2026-11-27T15:46:00.001518+00:00",
+        "timestamp": "2026-11-27T16:01:14.184660+00:00",
         "title": "Ministro da Educação promete apresentar em breve revisão do regime de autonomia e gestão escolar",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/fundos-europeus/2026-11-27-comissao-nacional-de-acompanhamento-do-prr-extingue-se-ate-28-de-dezembro-d2f6ff8d": {
         "category": null,
-        "timestamp": "2026-11-27T15:45:58.699132+00:00",
+        "timestamp": "2026-11-27T16:01:14.669638+00:00",
         "title": "Comissão nacional de acompanhamento do PRR extingue-se até 28 de dezembro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/expressinho/2026-11-27-video-diana-nas-aulas-de-canto-d65b2e52": {
         "category": null,
-        "timestamp": "2026-11-27T15:45:58.747552+00:00",
+        "timestamp": "2026-11-27T16:01:14.711563+00:00",
         "title": "Diana nas aulas de canto",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://expresso.pt/partidos-politicos/2026-11-27-carneiro-diz-que-pais-nao-esta-mergulhado-no-caos-e-recusa-viabilizar-propostas-que-criem-crise-politica-a4e1d61b": {
+        "category": null,
+        "timestamp": "2026-11-27T16:01:14.631273+00:00",
+        "title": "Carneiro diz que país \"não está mergulhado no caos\" e recusa viabilizar propostas que criem crise po...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
