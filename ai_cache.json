@@ -62,13 +62,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.cmjornal.pt/cmr/podcasts/doa-a-quem-doer/detalhe/remedios-teve-seis-filhos-e-vendeu-os-para-consumir-droga-duas-das-criancas-foram-compradas-em-portugal": {
-        "category": null,
-        "timestamp": "2026-11-23T13:31:11.708893+00:00",
-        "title": "Remedios teve seis filhos e vendeu-os para consumir droga. Duas das crianças foram compradas em Port...",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/media-comunicacao/2026-11-23-entidade-reguladora-da-comunicacao-defende-que-rtp-tem-liberdade-para-decidir-se-transmite-touradas-83e7ad16": {
         "category": null,
         "timestamp": "2026-11-24T06:01:09.261724+00:00",
@@ -799,7 +792,7 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-11-27-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-33/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-33": {
         "category": null,
-        "timestamp": "2026-11-28T13:31:08.152547+00:00",
+        "timestamp": "2026-11-28T13:45:52.208764+00:00",
         "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -813,14 +806,14 @@
     },
     "https://expresso.pt/curtas/2026-11-27-video-a-novela-jensen-huang-depois-de-traicoes-e-alegada-espionagem-o-porque-do-regresso-a-nvidia-0464f5b3": {
         "category": null,
-        "timestamp": "2026-11-28T13:31:07.198832+00:00",
+        "timestamp": "2026-11-28T13:45:51.360035+00:00",
         "title": "A novela Jensen Huang: depois de traições e alegada espionagem, o porquê do regresso à Nvidia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-27-uma-bomba-nuclear-no-espaco-poderia-destruir-milhares-de-satelites.-mas-ha-serias-duvidas-de-que-a-russia-esteja-prestes-a-lanca-la-b1adf2fb": {
         "category": null,
-        "timestamp": "2026-11-28T13:31:07.156917+00:00",
+        "timestamp": "2026-11-28T13:45:51.320616+00:00",
         "title": "Uma bomba nuclear no espaço poderia destruir milhares de satélites. Mas há sérias dúvidas de que a R...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -834,14 +827,14 @@
     },
     "https://expresso.pt/media-comunicacao/2026-11-27-mais-um-rombo-no-jornalismo-de-proximidade-porto-canal-suspende-conteudos-informativos-e-despede-15-trabalhadores-bf0f496c": {
         "category": null,
-        "timestamp": "2026-11-28T13:31:07.237996+00:00",
+        "timestamp": "2026-11-28T13:45:51.427023+00:00",
         "title": "Porto Canal anuncia despedimento coletivo de 15 trabalhadores",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-11-27-guerra-interna-no-chega-pode-salvar-orcamento-de-moedas-deputados-acusam-vereador-de-vinganca-pessoal-e-nao-garantem-chumbo-6bc3bf33": {
         "category": null,
-        "timestamp": "2026-11-28T13:31:07.054794+00:00",
+        "timestamp": "2026-11-28T13:45:51.246727+00:00",
         "title": "Guerra interna no Chega pode salvar orçamento de Moedas: deputados acusam vereador de “vingança pess...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -862,7 +855,7 @@
     },
     "https://expresso.pt/poder-local/2026-11-27-ataque-a-plataforma-o-meu-bairro-da-camara-de-oeiras-expoe-dados-de-utilizadores-ff0a095f": {
         "category": null,
-        "timestamp": "2026-11-28T13:31:07.018763+00:00",
+        "timestamp": "2026-11-28T13:45:51.139291+00:00",
         "title": "Ataque à plataforma \"O Meu Bairro\" da Câmara de Oeiras expõe dados de utilizadores",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -890,7 +883,7 @@
     },
     "https://visao.pt/sei-la-entende/2026-11-28-minha-planta-nao-gosta-de-mim-cronica-de-fabio-porchat/?utm_source=rss&utm_medium=rss&utm_campaign=minha-planta-nao-gosta-de-mim-cronica-de-fabio-porchat": {
         "category": null,
-        "timestamp": "2026-11-28T13:31:08.083553+00:00",
+        "timestamp": "2026-11-28T13:45:52.172713+00:00",
         "title": "Minha planta não gosta de mim. Crónica de Fábio Porchat",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
