@@ -41,13 +41,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/taca-de-portugal/vianense-avanca-na-taca-de-portugal-ao-vencer-rio-ave_d1780937": {
-        "category": null,
-        "timestamp": "2026-11-23T06:01:12.061308+00:00",
-        "title": "Vianense avança na Taça de Portugal ao vencer Rio Ave",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.rtp.pt/noticias/surf/marta-paco-e-camilo-abdula-apurados-para-as-finais-no-mundial-de-surf-adaptado_d1780946": {
         "category": null,
         "timestamp": "2026-11-23T06:31:06.995656+00:00",
@@ -827,7 +820,7 @@
     },
     "https://expresso.pt/expressinho/2026-11-27-brincadeira-ou-bullying--61c4fe63": {
         "category": null,
-        "timestamp": "2026-11-28T05:45:56.889276+00:00",
+        "timestamp": "2026-11-28T06:01:22.165896+00:00",
         "title": "Brincadeira ou bullying?",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -876,7 +869,7 @@
     },
     "https://expresso.pt/fundos-europeus/2026-11-27-comissao-nacional-de-acompanhamento-do-prr-extingue-se-ate-28-de-dezembro-d2f6ff8d": {
         "category": null,
-        "timestamp": "2026-11-28T05:45:56.859326+00:00",
+        "timestamp": "2026-11-28T06:01:22.133113+00:00",
         "title": "Comissão nacional de acompanhamento do PRR extingue-se até 28 de dezembro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -890,14 +883,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-27-carneiro-diz-que-pais-nao-esta-mergulhado-no-caos-e-recusa-viabilizar-propostas-que-criem-crise-politica-a4e1d61b": {
         "category": null,
-        "timestamp": "2026-11-28T05:45:56.831885+00:00",
+        "timestamp": "2026-11-28T06:01:22.101122+00:00",
         "title": "Carneiro diz que país \"não está mergulhado no caos\" e recusa viabilizar propostas que criem crise po...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-11-27-chega-apresenta-projeto-de-lei-para-aplicar-iva-zero-ao-mesmo-cabaz-alimentar-de-2023-90bd9520": {
         "category": null,
-        "timestamp": "2026-11-28T05:45:56.804329+00:00",
+        "timestamp": "2026-11-28T06:01:22.071585+00:00",
         "title": "Chega apresenta projeto de lei para aplicar IVA zero ao mesmo cabaz alimentar de 2023",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -918,7 +911,7 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-11-27-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-33/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-33": {
         "category": null,
-        "timestamp": "2026-11-28T05:45:57.080599+00:00",
+        "timestamp": "2026-11-28T06:01:22.778526+00:00",
         "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -932,35 +925,35 @@
     },
     "https://expresso.pt/curtas/2026-11-27-video-a-novela-jensen-huang-depois-de-traicoes-e-alegada-espionagem-o-porque-do-regresso-a-nvidia-0464f5b3": {
         "category": null,
-        "timestamp": "2026-11-28T05:45:56.238769+00:00",
+        "timestamp": "2026-11-28T06:01:21.641193+00:00",
         "title": "A novela Jensen Huang: depois de traições e alegada espionagem, o porquê do regresso à Nvidia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-27-uma-bomba-nuclear-no-espaco-poderia-destruir-milhares-de-satelites.-mas-ha-serias-duvidas-de-que-a-russia-esteja-prestes-a-lanca-la-b1adf2fb": {
         "category": null,
-        "timestamp": "2026-11-28T05:45:56.210270+00:00",
+        "timestamp": "2026-11-28T06:01:21.612114+00:00",
         "title": "Uma bomba nuclear no espaço poderia destruir milhares de satélites. Mas há sérias dúvidas de que a R...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/hoquei/treinador-de-hoquei-em-patins-do-sporting-suspenso-por-tres-meses_d1782145": {
         "category": null,
-        "timestamp": "2026-11-28T05:45:56.536951+00:00",
+        "timestamp": "2026-11-28T06:01:21.972198+00:00",
         "title": "Treinador de hóquei em patins do Sporting suspenso por três meses",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/media-comunicacao/2026-11-27-mais-um-rombo-no-jornalismo-de-proximidade-porto-canal-suspende-conteudos-informativos-e-despede-15-trabalhadores-bf0f496c": {
         "category": null,
-        "timestamp": "2026-11-28T05:45:56.265617+00:00",
+        "timestamp": "2026-11-28T06:01:21.671335+00:00",
         "title": "Porto Canal anuncia despedimento coletivo de 15 trabalhadores",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-11-27-guerra-interna-no-chega-pode-salvar-orcamento-de-moedas-deputados-acusam-vereador-de-vinganca-pessoal-e-nao-garantem-chumbo-6bc3bf33": {
         "category": null,
-        "timestamp": "2026-11-28T05:45:56.154670+00:00",
+        "timestamp": "2026-11-28T06:01:21.548307+00:00",
         "title": "Guerra interna no Chega pode salvar orçamento de Moedas: deputados acusam vereador de “vingança pess...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -981,7 +974,7 @@
     },
     "https://expresso.pt/poder-local/2026-11-27-ataque-a-plataforma-o-meu-bairro-da-camara-de-oeiras-expoe-dados-de-utilizadores-ff0a095f": {
         "category": null,
-        "timestamp": "2026-11-28T05:45:56.124924+00:00",
+        "timestamp": "2026-11-28T06:01:21.519785+00:00",
         "title": "Ataque à plataforma \"O Meu Bairro\" da Câmara de Oeiras expõe dados de utilizadores",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
