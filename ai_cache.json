@@ -1,32 +1,4 @@
 {
-    "https://expresso.pt/mexico/2026-11-21-barao-da-droga-chapo-isidro-detido-no-mexico-c44d3ebe": {
-        "category": null,
-        "timestamp": "2026-11-23T07:45:52.836239+00:00",
-        "title": "Barão da droga Chapo Isidro detido no México",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/guerra-ucrania/2026-11-21-navio-russo-atacado-por-drones-no-golfo-da-finlandia.-a-guerra-esta-a-chegar-as-nossas-imediacoes-f892908f": {
-        "category": null,
-        "timestamp": "2026-11-23T07:45:52.786174+00:00",
-        "title": "Navio russo atacado por drones no Golfo da Finlândia. “A guerra está a chegar às nossas imediações”",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/partidos-politicos/2026-11-21-governo-sombra-do-chega-tenta-aparecer-mais-para-mostrar-que-esta-pronto-58b66117": {
-        "category": null,
-        "timestamp": "2026-11-23T07:45:52.723771+00:00",
-        "title": "Governo-sombra do Chega tenta “aparecer mais” para mostrar que está pronto",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://expresso.pt/tempestades/2026-11-21-governo-preocupado-com-estabilidade-da-encosta-da-carvalheira-em-manteigas-686e985a": {
-        "category": null,
-        "timestamp": "2026-11-23T07:45:52.662238+00:00",
-        "title": "Governo preocupado com estabilidade da encosta da Carvalheira em Manteigas",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://expresso.pt/partidos-politicos/2026-11-22-chega-cheira-o-poder-mas-ainda-nao-sabe-como-governar-ventura-polariza-com-ps-e-espera-nao-ter-batido-no-tecto-1585c8d0": {
         "category": null,
         "timestamp": "2026-11-23T08:45:49.425782+00:00",
@@ -62,13 +34,6 @@
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
-    "https://www.rtp.pt/noticias/taca-de-portugal/taca-de-portugal-torreense-sl-benfica_d1780940": {
-        "category": null,
-        "timestamp": "2026-11-23T07:31:12.497817+00:00",
-        "title": "Taça de Portugal. Torreense -SL Benfica",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
     "https://www.rtp.pt/noticias/taca-de-portugal/golaco-de-stoica-garantiu-apuramento-suado-ao-estrela-da-amadora_d1780984": {
         "category": null,
         "timestamp": "2026-11-23T08:45:51.775260+00:00",
@@ -101,13 +66,6 @@
         "category": null,
         "timestamp": "2026-11-23T09:31:08.024697+00:00",
         "title": "Irão ataca bases dos EUA no Bahrein",
-        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
-        "confidence": "error"
-    },
-    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/houthis-acusam-arabia-saudita-de-ataque-que-matou-quatro-pessoas-em-hodeida": {
-        "category": null,
-        "timestamp": "2026-11-23T07:31:12.036353+00:00",
-        "title": "Houthis acusam Arábia Saudita de ataque que matou quatro pessoas em Hodeida",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
@@ -841,7 +799,7 @@
     },
     "https://expresso.pt/fundos-europeus/2026-11-27-comissao-nacional-de-acompanhamento-do-prr-extingue-se-ate-28-de-dezembro-d2f6ff8d": {
         "category": null,
-        "timestamp": "2026-11-28T07:31:10.709218+00:00",
+        "timestamp": "2026-11-28T07:46:01.147713+00:00",
         "title": "Comissão nacional de acompanhamento do PRR extingue-se até 28 de dezembro",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -855,14 +813,14 @@
     },
     "https://expresso.pt/partidos-politicos/2026-11-27-carneiro-diz-que-pais-nao-esta-mergulhado-no-caos-e-recusa-viabilizar-propostas-que-criem-crise-politica-a4e1d61b": {
         "category": null,
-        "timestamp": "2026-11-28T07:31:10.679962+00:00",
+        "timestamp": "2026-11-28T07:46:01.120329+00:00",
         "title": "Carneiro diz que país \"não está mergulhado no caos\" e recusa viabilizar propostas que criem crise po...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/partidos-politicos/2026-11-27-chega-apresenta-projeto-de-lei-para-aplicar-iva-zero-ao-mesmo-cabaz-alimentar-de-2023-90bd9520": {
         "category": null,
-        "timestamp": "2026-11-28T07:31:10.654969+00:00",
+        "timestamp": "2026-11-28T07:46:01.092166+00:00",
         "title": "Chega apresenta projeto de lei para aplicar IVA zero ao mesmo cabaz alimentar de 2023",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -883,7 +841,7 @@
     },
     "https://visao.pt/simbalinos-a-sexta/2026-11-27-cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-33/?utm_source=rss&utm_medium=rss&utm_campaign=cartoon-um-simbalino-a-sexta-por-jose-antonio-fundo-33": {
         "category": null,
-        "timestamp": "2026-11-28T07:31:11.223043+00:00",
+        "timestamp": "2026-11-28T07:46:01.862508+00:00",
         "title": "Cartoon: Um Simbalino à Sexta, por José António Fundo",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -897,35 +855,35 @@
     },
     "https://expresso.pt/curtas/2026-11-27-video-a-novela-jensen-huang-depois-de-traicoes-e-alegada-espionagem-o-porque-do-regresso-a-nvidia-0464f5b3": {
         "category": null,
-        "timestamp": "2026-11-28T07:31:10.190082+00:00",
+        "timestamp": "2026-11-28T07:46:00.808810+00:00",
         "title": "A novela Jensen Huang: depois de traições e alegada espionagem, o porquê do regresso à Nvidia",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/guerra-ucrania/2026-11-27-uma-bomba-nuclear-no-espaco-poderia-destruir-milhares-de-satelites.-mas-ha-serias-duvidas-de-que-a-russia-esteja-prestes-a-lanca-la-b1adf2fb": {
         "category": null,
-        "timestamp": "2026-11-28T07:31:10.163934+00:00",
+        "timestamp": "2026-11-28T07:46:00.779216+00:00",
         "title": "Uma bomba nuclear no espaço poderia destruir milhares de satélites. Mas há sérias dúvidas de que a R...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.rtp.pt/noticias/hoquei/treinador-de-hoquei-em-patins-do-sporting-suspenso-por-tres-meses_d1782145": {
         "category": null,
-        "timestamp": "2026-11-28T07:31:10.824478+00:00",
+        "timestamp": "2026-11-28T07:46:01.199743+00:00",
         "title": "Treinador de hóquei em patins do Sporting suspenso por três meses",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/media-comunicacao/2026-11-27-mais-um-rombo-no-jornalismo-de-proximidade-porto-canal-suspende-conteudos-informativos-e-despede-15-trabalhadores-bf0f496c": {
         "category": null,
-        "timestamp": "2026-11-28T07:31:10.219019+00:00",
+        "timestamp": "2026-11-28T07:46:00.837072+00:00",
         "title": "Porto Canal anuncia despedimento coletivo de 15 trabalhadores",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://expresso.pt/poder-local/2026-11-27-guerra-interna-no-chega-pode-salvar-orcamento-de-moedas-deputados-acusam-vereador-de-vinganca-pessoal-e-nao-garantem-chumbo-6bc3bf33": {
         "category": null,
-        "timestamp": "2026-11-28T07:31:10.108551+00:00",
+        "timestamp": "2026-11-28T07:46:00.719930+00:00",
         "title": "Guerra interna no Chega pode salvar orçamento de Moedas: deputados acusam vereador de “vingança pess...",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
@@ -946,22 +904,29 @@
     },
     "https://expresso.pt/poder-local/2026-11-27-ataque-a-plataforma-o-meu-bairro-da-camara-de-oeiras-expoe-dados-de-utilizadores-ff0a095f": {
         "category": null,
-        "timestamp": "2026-11-28T07:31:10.082535+00:00",
+        "timestamp": "2026-11-28T07:46:00.690595+00:00",
         "title": "Ataque à plataforma \"O Meu Bairro\" da Câmara de Oeiras expõe dados de utilizadores",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.publico.pt/2026/11/28/infografia/trafico-droga-lanchas-rapidas-costa-portuguesa-nao-dao-sinais-abrandar-923": {
         "category": null,
-        "timestamp": "2026-11-28T07:31:13.148440+00:00",
+        "timestamp": "2026-11-28T07:46:03.017674+00:00",
         "title": "Mais de 40 narcolanchas apreendidas em 2026, o valor mais elevado dos últimos anos",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     },
     "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/exercito-dos-eua-rejeita-acusacoes-iranianas-sobre-taxas-a-navios-no-estreito-de-ormuz": {
         "category": null,
-        "timestamp": "2026-11-28T07:31:11.128114+00:00",
+        "timestamp": "2026-11-28T07:46:01.676377+00:00",
         "title": "Exército dos EUA rejeita acusações iranianas sobre taxas a navios no estreito de Ormuz",
+        "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "confidence": "error"
+    },
+    "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/netanyahu-podera-oferecer-rotacao-no-cargo-de-primeiro-ministro-a-eisenkot": {
+        "category": null,
+        "timestamp": "2026-11-28T07:46:01.645686+00:00",
+        "title": "Netanyahu poderá oferecer rotação no cargo de primeiro-ministro a Eisenkot",
         "error": "Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
         "confidence": "error"
     }
